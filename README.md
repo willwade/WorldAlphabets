@@ -189,7 +189,7 @@ uv pip install -e '.[dev]'
 **Extract alphabets**
 
 ```bash
-python scripts/extract_alphabets.py
+uv run scripts/extract_alphabets.py
 ```
 
 The script clones the Java project and stores JSON files for every available
@@ -200,7 +200,7 @@ is available, frequency values default to zero and the language is recorded in
 **Update letter frequencies**
 
 ```bash
-python scripts/update_frequencies.py
+uv run scripts/update_frequencies.py
 ```
 
 This script downloads the `unigrams.zip` archive and rewrites each alphabet's
@@ -211,27 +211,27 @@ frequency mapping using the published counts.
 Derive an alphabet from an ICU locale's exemplar character set:
 
 ```bash
-python scripts/generate_alphabet_from_locale.py <code> --locale <locale> \
-  --set-type index
+uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
 ```
 
-The script writes `data/alphabets/<code>.json`, using the locale's index
+The script writes `data/alphabets/<code>.json`, using the locale's standard
 exemplar set for the base letters and populating frequency values from the
-Simia unigrams dataset when available.
+Simia unigrams dataset when available. Locales without exemplar data are
+skipped.
 
 **Generate alphabets from unigrams**
 
 For languages present in the Simia dataset but missing here:
 
 ```bash
-python scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
+uv run scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
   --block <Unicode block>
 ```
 
 The script writes `data/alphabets/<code>.json`. To list missing codes:
 
 ```bash
-python scripts/missing_unigram_languages.py
+uv run scripts/missing_unigram_languages.py
 ```
 
 **Generate missing alphabets**
@@ -240,7 +240,7 @@ Create alphabet files for every language in the Simia unigrams dataset that
 does not yet have one:
 
 ```bash
-python scripts/generate_missing_alphabets.py --limit 10
+uv run scripts/generate_missing_alphabets.py --limit 10
 ```
 
 Omit `--limit` to process all missing languages. Each file is written under

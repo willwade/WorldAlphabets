@@ -73,7 +73,12 @@ def _sort_letters(letters: Iterable[str], locale: str | None) -> list[str]:
     return sorted(letters)
 
 
-def generate_alphabet(code: str, locale: str | None = None, set_type: str = "index") -> None:
+LATIN_LOWER = set("abcdefghijklmnopqrstuvwxyz")
+
+
+def generate_alphabet(
+    code: str, locale: str | None = None, set_type: str = "standard"
+) -> None:
     """Create alphabet JSON for ``code`` using ICU exemplar characters."""
     if LocaleData is None or ULocaleDataExemplarSetType is None:
         raise ImportError("PyICU is required for this script")
@@ -81,15 +86,17 @@ def generate_alphabet(code: str, locale: str | None = None, set_type: str = "ind
     locale = locale or code
     ld = LocaleData(locale)
     exemplar_type = {
-        "standard": 0,
+        "standard": ULocaleDataExemplarSetType.ES_STANDARD,
         "index": ULocaleDataExemplarSetType.ES_INDEX,
         "auxiliary": ULocaleDataExemplarSetType.ES_AUXILIARY,
-    }.get(set_type, ULocaleDataExemplarSetType.ES_INDEX)
+    }.get(set_type, ULocaleDataExemplarSetType.ES_STANDARD)
     letters = {
         ch
         for ch in ld.getExemplarSet(exemplar_type)
         if unicodedata.category(ch).startswith("L")
     }
+    if locale != "en" and letters == LATIN_LOWER:
+        raise ValueError(f"No exemplar data for locale '{locale}'")
 
     has_case = any(ch.upper() != ch.lower() for ch in letters)
     if has_case:
@@ -127,7 +134,7 @@ def main() -> None:
     parser.add_argument(
         "--set-type",
         choices=["standard", "index", "auxiliary"],
-        default="index",
+        default="standard",
         help="exemplar character set to use",
     )
     args = parser.parse_args()
