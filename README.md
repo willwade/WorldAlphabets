@@ -1,5 +1,33 @@
 # WorldAlphabets
+
 A tool to access alphabets of the world with Python and Node interfaces.
+
+## Usage
+
+### Python
+
+To load the data in Python:
+
+```python
+from worldalphabets import load_alphabet
+
+alphabet = load_alphabet("en")
+print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
+print(alphabet.frequency['e'])
+```
+
+### Node.js
+
+To load the data in Node.js:
+
+```javascript
+const { loadAlphabet } = require('./index');
+
+loadAlphabet('en').then((alphabet) => {
+  console.log(alphabet.uppercase.slice(0, 5)); // ['A', 'B', 'C', 'D', 'E']
+  console.log(alphabet.frequency['e']);
+});
+```
 
 ## Supported Languages
 
@@ -75,7 +103,7 @@ Alphabet JSON files are available for these ISO language codes
 
 *Alphabets derived from ICU exemplar sets; frequencies from Simia unigrams.*
 
-## Getting Started
+## Developer Guide
 
 This project uses the
 [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) Java repository as
@@ -85,33 +113,7 @@ languages, and writes JSON files containing the alphabet and estimated letter
 frequencies. A second utility can replace those estimates with corpus
 frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
 
-### Setup
-
-This project uses `uv` for dependency management. To set up the development
-environment:
-
-```bash
-# Install uv
-pipx install uv
-
-# Create and activate a virtual environment
-uv venv
-source .venv/bin/activate
-
-# Install dependencies
-uv pip install -e '.[dev]'
-```
-
-### Extract alphabets
-
-```bash
-python scripts/extract_alphabets.py
-```
-
-The script clones the Java project and stores JSON files for every available
-alphabet under `data/alphabets/`, named by ISO language code. If no sample text
-is available, frequency values default to zero and the language is recorded in
-`data/todo_languages.csv` for follow-up. Each file includes:
+Each JSON file includes:
 
 - `alphabetical` – letters of the alphabet (uppercase when the script has
   case)
@@ -131,28 +133,37 @@ Example JSON snippet:
 }
 ```
 
-To load the data in Python:
+### Setup
 
-```python
-from worldalphabets import load_alphabet
+This project uses `uv` for dependency management. To set up the development
+environment:
 
-alphabet = load_alphabet("en")
-print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
-print(alphabet.frequency['e'])
+```bash
+# Install uv
+pipx install uv
+
+# Create and activate a virtual environment
+uv venv
+source .venv/bin/activate
+
+# Install dependencies
+uv pip install -e '.[dev]'
 ```
 
-To load the data in Node.js:
+### Data Generation
 
-```javascript
-const { loadAlphabet } = require('./index');
+**Extract alphabets**
 
-loadAlphabet('en').then((alphabet) => {
-  console.log(alphabet.uppercase.slice(0, 5)); // ['A', 'B', 'C', 'D', 'E']
-  console.log(alphabet.frequency['e']);
-});
+```bash
+python scripts/extract_alphabets.py
 ```
 
-### Update letter frequencies
+The script clones the Java project and stores JSON files for every available
+alphabet under `data/alphabets/`, named by ISO language code. If no sample text
+is available, frequency values default to zero and the language is recorded in
+`data/todo_languages.csv` for follow-up.
+
+**Update letter frequencies**
 
 ```bash
 python scripts/update_frequencies.py
@@ -161,7 +172,7 @@ python scripts/update_frequencies.py
 This script downloads the `unigrams.zip` archive and rewrites each alphabet's
 frequency mapping using the published counts.
 
-### Generate alphabets from locale data
+**Generate alphabets from locale data**
 
 Derive an alphabet from an ICU locale's exemplar character set:
 
@@ -174,7 +185,7 @@ The script writes `data/alphabets/<code>.json`, using the locale's index
 exemplar set for the base letters and populating frequency values from the
 Simia unigrams dataset when available.
 
-### Generate alphabets from unigrams
+**Generate alphabets from unigrams**
 
 For languages present in the Simia dataset but missing here:
 
@@ -189,7 +200,7 @@ The script writes `data/alphabets/<code>.json`. To list missing codes:
 python scripts/missing_unigram_languages.py
 ```
 
-### Generate missing alphabets
+**Generate missing alphabets**
 
 Create alphabet files for every language in the Simia unigrams dataset that
 does not yet have one:
