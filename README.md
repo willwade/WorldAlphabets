@@ -18,15 +18,49 @@ print(alphabet.frequency['e'])
 
 ### Node.js
 
-To load the data in Node.js:
+#### From npm
+
+Install the package from npm:
+
+```bash
+npm install worldalphabets
+```
+
+Then, you can use the functions in your project:
 
 ```javascript
-const { loadAlphabet } = require('./index');
+const { getUppercase, getLowercase, getFrequency, getAvailableCodes } = require('worldalphabets');
 
-loadAlphabet('en').then((alphabet) => {
-  console.log(alphabet.uppercase.slice(0, 5)); // ['A', 'B', 'C', 'D', 'E']
-  console.log(alphabet.frequency['e']);
-});
+async function main() {
+  const codes = await getAvailableCodes();
+  console.log('Available codes (first 5):', codes.slice(0, 5));
+
+  const uppercaseEn = await getUppercase('en');
+  console.log('English uppercase:', uppercaseEn);
+
+  const lowercaseFr = await getLowercase('fr');
+  console.log('French lowercase:', lowercaseFr);
+
+  const frequencyDe = await getFrequency('de');
+  console.log('German frequency for "a":', frequencyDe['a']);
+}
+
+main();
+```
+
+#### Local Usage
+
+If you have cloned the repository, you can use the module directly:
+
+```javascript
+const { getUppercase } = require('./index');
+
+async function main() {
+    const uppercaseEn = await getUppercase('en');
+    console.log('English uppercase:', uppercaseEn);
+}
+
+main();
 ```
 
 ## Supported Languages
