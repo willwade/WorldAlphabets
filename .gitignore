@@ -5,6 +5,7 @@ __pycache__/
 # Virtual environments
 .venv/
 .env
+uv.lock
 
 # Tool caches
 .mypy_cache/
@@ -15,6 +16,7 @@ external/
 
 # Build artifacts
 src/worldalphabets.egg-info/
+/build/
 
 # Node
 node_modules/
