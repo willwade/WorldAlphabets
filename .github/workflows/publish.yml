@@ -16,25 +16,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python and uv
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "uv"
 
-      - name: Install uv
-        run: pipx install uv
+      - name: Create virtual environment
+        run: uv venv
 
       - name: Install dependencies
         run: uv pip install '.[dev]'
 
       - name: Run ruff
-        run: ruff check .
+        run: uv run ruff check .
 
       - name: Run mypy
-        run: mypy .
+        run: uv run mypy .
 
       - name: Build package
-        run: python -m build
+        run: uv run python -m build
 
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@release/v1
