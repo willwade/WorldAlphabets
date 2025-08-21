@@ -16,6 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Update version in pyproject.toml
+        run: |
+          VERSION=$(echo "${{ github.ref_name }}" | sed 's/^v//')
+          sed -i "s/version = \"{{version}}\"/version = \"$VERSION\"/g" pyproject.toml
+
       - name: Set up Python and uv
         uses: actions/setup-python@v5
         with:
