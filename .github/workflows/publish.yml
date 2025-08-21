@@ -38,7 +38,7 @@ jobs:
         run: uv run ruff check .
 
       - name: Run mypy
-        run: uv run mypy .
+        run: uv run mypy . --exclude build
 
       - name: Build package
         run: uv run python -m build
