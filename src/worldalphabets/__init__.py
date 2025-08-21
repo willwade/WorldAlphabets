@@ -2,11 +2,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from importlib.resources import files
 from pathlib import Path
 import json
 from typing import Dict, List
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "alphabets"
+DATA_DIR = files("worldalphabets") / "data" / "alphabets"
 
 
 @dataclass
@@ -27,4 +28,12 @@ def load_alphabet(code: str) -> Alphabet:
     return Alphabet(**data)
 
 
-__all__ = ["load_alphabet", "Alphabet"]
+def get_available_codes() -> List[str]:
+    """Return sorted language codes with available alphabets."""
+
+    return sorted(
+        Path(p.name).stem for p in DATA_DIR.iterdir() if p.name.endswith(".json")
+    )
+
+
+__all__ = ["load_alphabet", "Alphabet", "get_available_codes"]
