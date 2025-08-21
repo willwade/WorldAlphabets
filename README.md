@@ -1,5 +1,75 @@
 # WorldAlphabets
-A Python tool to get languages of the world.
+A tool to access alphabets of the world with Python and Node interfaces.
+
+## Supported Languages
+
+Alphabet JSON files are available for these ISO language codes
+(language names from [langcodes](https://pypi.org/project/langcodes/)):
+
+| Code | Language |
+|------|----------|
+| ar | Arabic |
+| ba | Bashkir |
+| ban | Balinese |
+| bax | Bamun |
+| be | Belarusian |
+| bg | Bulgarian |
+| bku | Buhid |
+| bn | Bangla |
+| bo | Tibetan |
+| bug | Buginese |
+| bya | Batak |
+| chr | Cherokee |
+| cop | Coptic |
+| cs | Czech |
+| de | German |
+| el | Greek |
+| en | English |
+| eo | Esperanto |
+| es | Spanish |
+| fr | French |
+| gez | Geez |
+| gu | Gujarati |
+| he | Hebrew |
+| hnn | Hanunoo |
+| hu | Hungarian |
+| hy | Armenian |
+| it | Italian |
+| jv | Javanese |
+| ka | Georgian |
+| kk | Kazakh |
+| km | Khmer |
+| kn | Kannada |
+| la | Latin |
+| lep | Lepcha |
+| lif | Limbu |
+| lis | Lisu |
+| lo | Lao |
+| mid | Mandaic |
+| ml | Malayalam |
+| mn | Mongolian |
+| my | Burmese |
+| nqo | N’Ko |
+| or | Odia |
+| pl | Polish |
+| rej | Rejang |
+| ru | Russian |
+| sam | Samaritan Aramaic |
+| saz | Saurashtra |
+| si | Sinhala |
+| su | Sundanese |
+| syr | Syriac |
+| ta | Tamil |
+| tbw | Tagbanwa |
+| te | Telugu |
+| th | Thai |
+| tl | Filipino |
+| tr | Turkish |
+| tt | Tatar |
+| uk | Ukrainian |
+| vai | Vai |
+| zh | Chinese |
+| zra | Kara (Korea) |
 
 ## Getting Started
 
@@ -53,6 +123,17 @@ from worldalphabets import load_alphabet
 alphabet = load_alphabet("en")
 print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
 print(alphabet.frequency['e'])
+```
+
+To load the data in Node.js:
+
+```javascript
+const { loadAlphabet } = require('./index');
+
+loadAlphabet('en').then((alphabet) => {
+  console.log(alphabet.uppercase.slice(0, 5)); // ['A', 'B', 'C', 'D', 'E']
+  console.log(alphabet.frequency['e']);
+});
 ```
 
 ### Update letter frequencies
