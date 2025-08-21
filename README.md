@@ -1,70 +1,76 @@
 # WorldAlphabets
-A python tool to get languages of the world. 
+A Python tool to get languages of the world.
 
-engAlpha = worldAlpha("eng")
-engAlpha.UpperCase() ==> A, B C
-engAlpha.LowerCase() ==> a, b , c
+## Getting Started
 
+This project uses the
+[kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) Java repository as
+the source for alphabet data. A helper script clones the repository, scans all
+`*Alphabet.java` files, downloads a sample Wikipedia article for supported
+languages, and writes JSON files containing the alphabet and estimated letter
+frequencies. A second utility can replace those estimates with corpus
+frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
 
-engAlpha.WordFreq ==> A,10, B,4 etc..
+### Setup
 
-## How we are gong to do this
-
-- We can use python libraries like langcode, unicode etc
-- Use this JAVA repo as a source to generate our base lists in different languages
-- Store data in JSON - in files per langcode
-
-To get frequency use something like
-
-```python
-from collections import Counter
-
-def analyze_text_frequency(file_path):
-    """
-    Reads a text file and returns a dictionary of character frequencies.
-    """
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            text = f.read().lower()  # Read text and convert to lowercase
-            # Filter out non-alphabetic characters if needed, e.g., using regex
-            # import re
-            # text = re.sub(r'[^a-z\u00C0-\u1FFF]+', '', text) 
-            
-            # Use Counter to get the frequency of each character
-            char_counts = Counter(text)
-            
-            # Calculate total alphabetic characters for frequency percentage
-            total_chars = sum(char_counts.values())
-            
-            frequencies = {char: count / total_chars * 100 for char, count in char_counts.items()}
-            
-            # Sort the dictionary by frequency in descending order
-            sorted_frequencies = dict(sorted(frequencies.items(), key=lambda item: item[1], reverse=True))
-
-            return sorted_frequencies
-
-    except FileNotFoundError:
-        return "Error: File not found."
-
-# Example usage: Assuming you have a file named 'english_corpus.txt'
-# from an online source or a text you've collected.
-# english_freq = analyze_text_frequency('english_corpus.txt')
-# print(english_freq)
-
+```bash
+pip install -r requirements-dev.txt
 ```
 
-for texts found online froma  source to calculate frequencies. 
+### Extract alphabets
 
-Identify missing languges and create a TO-D0 csv
+```bash
+python scripts/extract_alphabets.py
+```
 
+The script clones the Java project and stores JSON files for every available
+alphabet under `data/alphabets/`, named by ISO language code. If no sample text
+is available, frequency values default to zero and the language is recorded in
+`data/todo_languages.csv` for follow-up. Each file includes:
 
+- `alphabetical` – letters from the Java `AlphabeticalCase` list
+- `uppercase` – uppercase letters
+- `lowercase` – lowercase letters
+- `frequency` – relative frequency of each lowercase letter (zero when no sample
+  text is available)
 
+Example JSON snippet:
 
+```json
+{
+  "alphabetical": ["A", "a", ...],
+  "uppercase": ["A", "B", ...],
+  "lowercase": ["a", "b", ...],
+  "frequency": {"a": 0.084, "b": 0.0208, ...}
+}
+```
 
+To load the data in Python:
 
+```python
+from worldalphabets import load_alphabet
 
+alphabet = load_alphabet("en")
+print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
+print(alphabet.frequency['e'])
+```
 
+### Update letter frequencies
 
+```bash
+python scripts/update_frequencies.py
+```
 
+This script downloads the `unigrams.zip` archive and rewrites each alphabet's
+frequency mapping using the published counts.
 
+### Linting and type checking
 
+```bash
+ruff check .
+mypy .
+```
+
+## Future work
+
+- Add sample text or unigram support for more languages.
