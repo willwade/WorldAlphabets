@@ -16,7 +16,7 @@ import urllib.request
 import zipfile
 
 try:  # optional dependency
-    from icu import (  # type: ignore[import-untyped]
+    from icu import (  # type: ignore[import-not-found]
         Collator,
         Locale,
         LocaleData,

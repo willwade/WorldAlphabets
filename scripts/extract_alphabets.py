@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 from typing import Dict, List
 
-import langcodes
+import langcodes  # type: ignore[import-not-found]
 
 REPO_URL = "https://github.com/kalenchukov/Alphabet.git"
 REPO_PATH = Path("external/Alphabet")

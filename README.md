@@ -87,8 +87,19 @@ frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
 
 ### Setup
 
+This project uses `uv` for dependency management. To set up the development
+environment:
+
 ```bash
-pip install -r requirements-dev.txt
+# Install uv
+pipx install uv
+
+# Create and activate a virtual environment
+uv venv
+source .venv/bin/activate
+
+# Install dependencies
+uv pip install -e '.[dev]'
 ```
 
 ### Extract alphabets
