@@ -70,72 +70,141 @@ Alphabet JSON files are available for these ISO language codes
 
 | Code | Language |
 |------|----------|
-| af | Afrikaans* |
-| am | Amharic* |
+| af | Afrikaans |
+| ak | Akan |
+| am | Amharic |
 | ar | Arabic |
+| ast | Asturian |
+| az | Azerbaijani |
 | ba | Bashkir |
 | ban | Balinese |
 | bax | Bamun |
 | be | Belarusian |
 | bg | Bulgarian |
 | bku | Buhid |
+| bm | Bambara |
 | bn | Bangla |
 | bo | Tibetan |
 | bug | Buginese |
 | bya | Batak |
+| ca | Catalan |
+| ceb | Cebuano |
 | chr | Cherokee |
+| ckb | Central Kurdish |
 | cop | Coptic |
 | cs | Czech |
+| cv | Chuvash |
+| da | Danish |
 | de | German |
+| dz | Dzongkha |
 | el | Greek |
 | en | English |
 | eo | Esperanto |
 | es | Spanish |
+| et | Estonian |
+| eu | Basque |
+| fa | Persian |
+| fi | Finnish |
+| fo | Faroese |
 | fr | French |
+| fur | Friulian |
+| ga | Irish |
+| gd | Scottish Gaelic |
 | gez | Geez |
+| gl | Galician |
 | gu | Gujarati |
+| gv | Manx |
+| haw | Hawaiian |
 | he | Hebrew |
+| hi | Hindi |
 | hnn | Hanunoo |
+| ht | Haitian Creole |
 | hu | Hungarian |
 | hy | Armenian |
+| ie | Interlingue |
+| is | Icelandic |
 | it | Italian |
+| ja | Japanese |
 | jv | Javanese |
 | ka | Georgian |
+| kab | Kabyle |
 | kk | Kazakh |
+| kl | Kalaallisut |
 | km | Khmer |
 | kn | Kannada |
+| ko | Korean |
+| ks | Kashmiri |
+| ksh | Colognian |
+| ku | Kurdish |
+| ky | Kyrgyz |
 | la | Latin |
+| lb | Luxembourgish |
 | lep | Lepcha |
 | lif | Limbu |
+| lij | Ligurian |
 | lis | Lisu |
 | lo | Lao |
+| lt | Lithuanian |
+| lv | Latvian |
+| mg | Malagasy |
 | mid | Mandaic |
+| mk | Macedonian |
 | ml | Malayalam |
 | mn | Mongolian |
+| mo | Romanian |
 | my | Burmese |
+| mzn | Mazanderani |
+| nds | Low German |
+| ne | Nepali |
+| nn | Norwegian Nynorsk |
+| no | Norwegian |
 | nqo | N’Ko |
+| nso | Northern Sotho |
+| oc | Occitan |
 | or | Odia |
 | pl | Polish |
+| ps | Pashto |
+| pt | Portuguese |
 | rej | Rejang |
+| rm | Romansh |
+| ro | Romanian |
 | ru | Russian |
+| sa | Sanskrit |
 | sam | Samaritan Aramaic |
 | saz | Saurashtra |
+| sc | Sardinian |
+| se | Northern Sami |
+| sg | Sango |
 | si | Sinhala |
+| sl | Slovenian |
+| sn | Shona |
+| so | Somali |
+| sr | Serbian |
 | su | Sundanese |
+| sv | Swedish |
 | syr | Syriac |
+| szl | Silesian |
 | ta | Tamil |
 | tbw | Tagbanwa |
 | te | Telugu |
+| tg | Tajik |
 | th | Thai |
+| ti | Tigrinya |
+| tk | Turkmen |
 | tl | Filipino |
+| tn | Tswana |
 | tr | Turkish |
 | tt | Tatar |
 | uk | Ukrainian |
+| ur | Urdu |
 | vai | Vai |
+| vec | Venetian |
+| wo | Wolof |
 | zh | Chinese |
+| zh-classical | Classical Chinese |
+| zh-min-nan | Min Nan Chinese |
+| zh-yue | Cantonese |
 | zra | Kara (Korea) |
-
-*Alphabets derived from ICU exemplar sets; frequencies from Simia unigrams.*
 
 ## Developer Guide
 
