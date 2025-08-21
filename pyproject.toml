@@ -16,6 +16,16 @@ dev = [
     "build>=0.10.0",
 ]
 
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"worldalphabets" = ["data/alphabets/*.json"]
+
 [tool.ruff]
 line-length = 88
 target-version = "py311"

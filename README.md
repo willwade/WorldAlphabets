@@ -9,7 +9,10 @@ A tool to access alphabets of the world with Python and Node interfaces.
 To load the data in Python:
 
 ```python
-from worldalphabets import load_alphabet
+from worldalphabets import get_available_codes, load_alphabet
+
+codes = get_available_codes()
+print("Loaded", len(codes), "alphabets")
 
 alphabet = load_alphabet("en")
 print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
@@ -29,7 +32,12 @@ npm install worldalphabets
 Then, you can use the functions in your project:
 
 ```javascript
-const { getUppercase, getLowercase, getFrequency, getAvailableCodes } = require('worldalphabets');
+const {
+  getUppercase,
+  getLowercase,
+  getFrequency,
+  getAvailableCodes,
+} = require('worldalphabets');
 
 async function main() {
   const codes = await getAvailableCodes();
@@ -47,6 +55,8 @@ async function main() {
 
 main();
 ```
+
+TypeScript projects receive typings automatically via `index.d.ts`.
 
 #### Local Usage
 

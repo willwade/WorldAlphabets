@@ -3,6 +3,7 @@
   "version": "{{version}}",
   "description": "Simple Node interface to WorldAlphabets data",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "commonjs",
   "scripts": {
     "test": "jest"
@@ -26,6 +27,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "index.d.ts",
     "data/"
   ],
   "devDependencies": {

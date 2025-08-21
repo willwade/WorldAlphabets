@@ -56,8 +56,11 @@ async function getFrequency(code) {
  * @returns {Promise<string[]>} A promise that resolves to an array of alphabet codes.
  */
 async function getAvailableCodes() {
-    const files = await fs.readdir(DATA_DIR);
-    return files.map(file => file.replace('.json', ''));
+  const files = await fs.readdir(DATA_DIR);
+  return files
+    .filter((file) => file.endsWith('.json'))
+    .map((file) => file.replace('.json', ''))
+    .sort();
 }
 
 module.exports = {
