@@ -98,17 +98,18 @@ alphabet under `data/alphabets/`, named by ISO language code. If no sample text
 is available, frequency values default to zero and the language is recorded in
 `data/todo_languages.csv` for follow-up. Each file includes:
 
-- `alphabetical` – letters from the Java `AlphabeticalCase` list
+- `alphabetical` – letters of the alphabet (uppercase when the script has
+  case)
 - `uppercase` – uppercase letters
 - `lowercase` – lowercase letters
-- `frequency` – relative frequency of each lowercase letter (zero when no sample
-  text is available)
+- `frequency` – relative frequency of each lowercase letter (zero when no
+  sample text is available)
 
 Example JSON snippet:
 
 ```json
 {
-  "alphabetical": ["A", "a", ...],
+  "alphabetical": ["A", "B", ...],
   "uppercase": ["A", "B", ...],
   "lowercase": ["a", "b", ...],
   "frequency": {"a": 0.084, "b": 0.0208, ...}

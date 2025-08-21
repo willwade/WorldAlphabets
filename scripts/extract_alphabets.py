@@ -102,7 +102,13 @@ def parse_letter_groups(java_file: Path) -> Dict[str, List[str]]:
     lowercase = extract(r"LowerCase.*?LETTERS\s*=\s*List\.of\((.*?)\);")
     if uppercase is None or lowercase is None:
         uppercase = lowercase = alphabetical
-    return {"alphabetical": alphabetical, "uppercase": uppercase, "lowercase": lowercase}
+    else:
+        alphabetical = uppercase
+    return {
+        "alphabetical": alphabetical,
+        "uppercase": uppercase,
+        "lowercase": lowercase,
+    }
 
 
 def main() -> None:
