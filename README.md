@@ -8,6 +8,8 @@ Alphabet JSON files are available for these ISO language codes
 
 | Code | Language |
 |------|----------|
+| af | Afrikaans* |
+| am | Amharic* |
 | ar | Arabic |
 | ba | Bashkir |
 | ban | Balinese |
@@ -70,6 +72,8 @@ Alphabet JSON files are available for these ISO language codes
 | vai | Vai |
 | zh | Chinese |
 | zra | Kara (Korea) |
+
+*Alphabets derived from ICU exemplar sets; frequencies from Simia unigrams.*
 
 ## Getting Started
 
@@ -145,6 +149,46 @@ python scripts/update_frequencies.py
 
 This script downloads the `unigrams.zip` archive and rewrites each alphabet's
 frequency mapping using the published counts.
+
+### Generate alphabets from locale data
+
+Derive an alphabet from an ICU locale's exemplar character set:
+
+```bash
+python scripts/generate_alphabet_from_locale.py <code> --locale <locale> \
+  --set-type index
+```
+
+The script writes `data/alphabets/<code>.json`, using the locale's index
+exemplar set for the base letters and populating frequency values from the
+Simia unigrams dataset when available.
+
+### Generate alphabets from unigrams
+
+For languages present in the Simia dataset but missing here:
+
+```bash
+python scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
+  --block <Unicode block>
+```
+
+The script writes `data/alphabets/<code>.json`. To list missing codes:
+
+```bash
+python scripts/missing_unigram_languages.py
+```
+
+### Generate missing alphabets
+
+Create alphabet files for every language in the Simia unigrams dataset that
+does not yet have one:
+
+```bash
+python scripts/generate_missing_alphabets.py --limit 10
+```
+
+Omit `--limit` to process all missing languages. Each file is written under
+`data/alphabets/` and combines ICU exemplar characters with Simia frequencies.
 
 ### Linting and type checking
 
