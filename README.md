@@ -138,13 +138,6 @@ print(layout_to_markdown("en-united-kingdom"))
 
 Output:
 
-```markdown
-| ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| q | w | e | r | t | y | u | i | o | p | [ | ] |
-| a | s | d | f | g | h | j | k | l | ; | ' | # |
-| z | x | c | v | b | n | m | , | . | / |
-```
 
 | ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -172,6 +165,14 @@ async function main() {
 
 main();
 ```
+
+## Exanmple Usages
+
+- [examples/python](examples/python) – Python scripts demonstrating usage
+- [examples/node](examples/node) – Node.js scripts demonstrating usage
+
+Examples include printing alphabets, collecting stats, and more.
+
 
 ## Supported Languages
 
