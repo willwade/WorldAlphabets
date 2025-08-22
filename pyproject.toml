@@ -25,6 +25,7 @@ dev = [
 ]
 
 [project.scripts]
+wa-populate-layouts = "scripts.populate_layouts:main"
 wa-build-layouts = "tools.build_layouts:main"
 wa-validate-layouts = "tools.validate_layouts:main"
 wa-scrape-layouts = "tools.scrape_kbdlayout_info:main"

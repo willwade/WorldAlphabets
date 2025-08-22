@@ -39,20 +39,19 @@ def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) 
         print(f"  -> Error downloading sources for {layout_id}: {e}")
         return False
 
-def build_layout(layout_id: str, source_dir: Path, output_dir: Path) -> None:
+def build_layout(
+    layout_id: str,
+    driver_mapping: dict[str, str],
+    source_dir: Path,
+    output_dir: Path,
+) -> None:
     """
     Builds a single keyboard layout from source files.
     """
     print(f"Building layout: {layout_id}")
 
     # Determine file paths
-    # This is a temporary mapping until the scraping logic is in place.
-    layout_to_driver = {
-        "de-DE-qwertz": "KBDGR",
-        "en-GB-qwerty": "KBDUK",
-        "en-US-qwerty": "KBDUS",
-    }
-    driver_name = layout_to_driver.get(layout_id)
+    driver_name = driver_mapping.get(layout_id)
     if not driver_name:
         print(f"  -> Skipping, no driver mapping found for {layout_id}.")
         return
@@ -108,6 +107,14 @@ def main() -> None:
     output_root = Path("data/layouts")
     output_root.mkdir(parents=True, exist_ok=True)
 
+    # Load the driver mapping
+    driver_mapping_path = Path("data/mappings/layout_to_driver.json")
+    if not driver_mapping_path.exists():
+        print(f"Error: Driver mapping file not found at {driver_mapping_path}")
+        print("Please run `wa-populate-layouts` first.")
+        return
+    driver_mapping = json.loads(driver_mapping_path.read_text(encoding="utf-8"))
+
     if args.only:
         layouts_to_build = args.only
     else:
@@ -120,7 +127,7 @@ def main() -> None:
                 layouts_to_build.extend(lang["keyboards"])
 
     for layout_id in layouts_to_build:
-        build_layout(layout_id, source_root, output_root)
+        build_layout(layout_id, driver_mapping, source_root, output_root)
 
     print("Keyboard layout build process finished.")
 
