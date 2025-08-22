@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update version in pyproject.toml
+      - name: Set version from release tag
         run: |
           VERSION=$(echo "${{ github.event.release.tag_name }}" | sed 's/^v//')
-          sed -i "s/version = \"{{version}}\"/version = \"$VERSION\"/g" pyproject.toml
+          sed -i "s/^version = \".*\"/version = \"$VERSION\"/" pyproject.toml
 
       - name: Set up Python
         uses: actions/setup-python@v5
