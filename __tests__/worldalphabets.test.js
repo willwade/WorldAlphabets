@@ -4,6 +4,8 @@ const {
   getFrequency,
   getAvailableCodes,
   loadAlphabet,
+  getIndexData,
+  getLanguage,
 } = require('../index');
 
 describe('worldalphabets', () => {
@@ -41,5 +43,23 @@ describe('worldalphabets', () => {
 
   it('should throw an error for an invalid code', async () => {
     await expect(loadAlphabet('invalid-code')).rejects.toThrow('Alphabet data for code "invalid-code" not found.');
+  });
+
+  it('should get the index data', async () => {
+    const indexData = await getIndexData();
+    expect(Array.isArray(indexData)).toBe(true);
+    expect(indexData.length).toBeGreaterThan(0);
+  });
+
+  it('should get language info for "en"', async () => {
+    const langInfo = await getLanguage('en');
+    expect(langInfo).not.toBeNull();
+    expect(langInfo.language).toBe('en');
+    expect(langInfo['language-name']).toBe('English');
+  });
+
+  it('should return null for an invalid language code', async () => {
+    const langInfo = await getLanguage('invalid-code');
+    expect(langInfo).toBeNull();
   });
 });
