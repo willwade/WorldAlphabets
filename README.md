@@ -119,15 +119,23 @@ Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org
 
 #### Python
 
+A helper in `examples/keyboard_md_table.py` renders a layout as a Markdown
+table:
+
 ```python
-from worldalphabets.keyboards import get_available_layouts, load_keyboard
+from examples.keyboard_md_table import layout_to_markdown
 
-layouts = get_available_layouts()
-print("Available layouts (first 5):", layouts[:5])
+print(layout_to_markdown("en-united-kingdom"))
+```
 
-kb = load_keyboard("en-us")
-print("First key Unicode:", kb.keys[1].get_unicode("base"))
-print("First key position:", kb.keys[1].pos, kb.keys[1].row, kb.keys[1].col)
+Output:
+
+```
+| ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| q | w | e | r | t | y | u | i | o | p | [ | ] |
+| a | s | d | f | g | h | j | k | l | ; | ' | # |
+| z | x | c | v | b | n | m | , | . | / |
 ```
 
 #### Node.js
