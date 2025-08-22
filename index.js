@@ -90,7 +90,10 @@ async function getLanguage(langCode) {
   return data.find((item) => item.language === langCode) || null;
 }
 
+const keyboards = require('./keyboards');
+
 module.exports = {
+  // Alphabets
   loadAlphabet,
   getUppercase,
   getLowercase,
@@ -98,4 +101,6 @@ module.exports = {
   getAvailableCodes,
   getIndexData,
   getLanguage,
+  // Keyboards
+  ...keyboards,
 };

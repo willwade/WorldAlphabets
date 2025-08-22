@@ -21,13 +21,17 @@
     "language",
     "world",
     "frequency",
-    "letters"
+    "letters",
+    "keyboards",
+    "layouts"
   ],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
   "files": [
     "index.js",
     "index.d.ts",
+    "keyboards.js",
+    "keyboards.d.ts",
     "data/"
   ],
   "devDependencies": {

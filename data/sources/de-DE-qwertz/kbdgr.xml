@@ -1,0 +1,171 @@
+<KeyboardLayout RightAltIsAltGr="true" ShiftCancelsCapsLock="false" ChangesDirectionality="false">
+<PhysicalKeys>
+<PK VK="VK_ESCAPE" SC="01" Name="ESC">
+<Result TextCodepoints="001B"/>
+<Result TextCodepoints="001B" With="VK_SHIFT"/>
+<Result TextCodepoints="001B" With="VK_CONTROL"/>
+</PK>
+<PK VK="VK_1" SC="02">
+<Result Text="1"/>
+<Result Text="!" With="VK_SHIFT"/>
+<Result Text="!" With="VK_CAPITAL"/>
+<Result Text="1" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_2" SC="03">
+<Result Text="2"/>
+<Result Text="\"" With="VK_SHIFT"/>
+<Result Text="\"" With="VK_CAPITAL"/>
+<Result TextCodepoints="0000" With="VK_SHIFT VK_CONTROL"/>
+<Result Text="2" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="²" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_3" SC="04">
+<Result Text="3"/>
+<Result Text="§" With="VK_SHIFT"/>
+<Result Text="§" With="VK_CAPITAL"/>
+<Result Text="3" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="³" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_4" SC="05">
+<Result Text="4"/>
+<Result Text="$" With="VK_SHIFT"/>
+<Result Text="$" With="VK_CAPITAL"/>
+<Result Text="4" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_5" SC="06">
+<Result Text="5"/>
+<Result Text="%" With="VK_SHIFT"/>
+<Result Text="%" With="VK_CAPITAL"/>
+<Result Text="5" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_6" SC="07">
+<Result Text="6"/>
+<Result Text="&" With="VK_SHIFT"/>
+<Result Text="&" With="VK_CAPITAL"/>
+<Result TextCodepoints="001E" With="VK_SHIFT VK_CONTROL"/>
+<Result Text="6" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_7" SC="08">
+<Result Text="7"/>
+<Result Text="/" With="VK_SHIFT"/>
+<Result Text="/" With="VK_CAPITAL"/>
+<Result Text="7" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="{" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_8" SC="09">
+<Result Text="8"/>
+<Result Text="(" With="VK_SHIFT"/>
+<Result Text="(" With="VK_CAPITAL"/>
+<Result Text="8" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="[" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_9" SC="0A">
+<Result Text="9"/>
+<Result Text=")" With="VK_SHIFT"/>
+<Result Text=")" With="VK_CAPITAL"/>
+<Result Text="9" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="]" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_0" SC="0B">
+<Result Text="0"/>
+<Result Text="=" With="VK_SHIFT"/>
+<Result Text="=" With="VK_CAPITAL"/>
+<Result Text="0" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="}" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_OEM_4" SC="0C">
+<Result Text="ß"/>
+<Result Text="?" With="VK_SHIFT"/>
+<Result Text="?" With="VK_CAPITAL"/>
+<Result Text="ß" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="\\" With="VK_CONTROL VK_MENU"/>
+<Result Text="ẞ" With="VK_SHIFT VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_OEM_6" SC="0D">
+<Result>
+<DeadKeyTable Accent="´" Name="AKUT">
+<Result Text="á" With="a"/>
+<Result Text="é" With="e"/>
+<Result Text="í" With="i"/>
+<Result Text="ó" With="o"/>
+<Result Text="ú" With="u"/>
+<Result Text="ý" With="y"/>
+<Result Text="Á" With="A"/>
+<Result Text="É" With="E"/>
+<Result Text="Í" With="I"/>
+<Result Text="Ó" With="O"/>
+<Result Text="Ú" With="U"/>
+<Result Text="Ý" With="Y"/>
+<Result Text="´" With=" "/>
+</DeadKeyTable>
+</Result>
+<Result With="VK_SHIFT">
+<DeadKeyTable Accent="`" Name="GRAVIS">
+<Result Text="à" With="a"/>
+<Result Text="è" With="e"/>
+<Result Text="ì" With="i"/>
+<Result Text="ò" With="o"/>
+<Result Text="ù" With="u"/>
+<Result Text="À" With="A"/>
+<Result Text="È" With="E"/>
+<Result Text="Ì" With="I"/>
+<Result Text="Ò" With="O"/>
+<Result Text="Ù" With="U"/>
+<Result Text="`" With=" "/>
+</DeadKeyTable>
+</Result>
+</PK>
+<PK VK="VK_BACK" SC="0E" Name="RÜCK">
+<Result TextCodepoints="0008"/>
+<Result TextCodepoints="0008" With="VK_SHIFT"/>
+<Result Text="" With="VK_CONTROL"/>
+</PK>
+<PK VK="VK_TAB" SC="0F" Name="TABULATOR">
+<Result TextCodepoints="0009"/>
+<Result TextCodepoints="0009" With="VK_SHIFT"/>
+</PK>
+<PK VK="VK_Q" SC="10">
+<Result Text="q"/>
+<Result Text="Q" With="VK_SHIFT"/>
+<Result Text="Q" With="VK_CAPITAL"/>
+<Result Text="q" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="@" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_W" SC="11">
+<Result Text="w"/>
+<Result Text="W" With="VK_SHIFT"/>
+<Result Text="W" With="VK_CAPITAL"/>
+<Result Text="w" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_E" SC="12">
+<Result Text="e"/>
+<Result Text="E" With="VK_SHIFT"/>
+<Result Text="E" With="VK_CAPITAL"/>
+<Result Text="e" With="VK_SHIFT VK_CAPITAL"/>
+<Result Text="€" With="VK_CONTROL VK_MENU"/>
+</PK>
+<PK VK="VK_R" SC="13">
+<Result Text="r"/>
+<Result Text="R" With="VK_SHIFT"/>
+<Result Text="R" With="VK_CAPITAL"/>
+<Result Text="r" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_T" SC="14">
+<Result Text="t"/>
+<Result Text="T" With="VK_SHIFT"/>
+<Result Text="T" With="VK_CAPITAL"/>
+<Result Text="t" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_Z" SC="15">
+<Result Text="z"/>
+<Result Text="Z" With="VK_SHIFT"/>
+<Result Text="Z" With="VK_CAPITAL"/>
+<Result Text="z" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+<PK VK="VK_U" SC="16">
+<Result Text="u"/>
+<Result Text="U" With="VK_SHIFT"/>
+<Result Text="U" With="VK_CAPITAL"/>
+<Result Text="u" With="VK_SHIFT VK_CAPITAL"/>
+</PK>
+</KeyboardLayout>

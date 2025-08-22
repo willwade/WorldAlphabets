@@ -179,7 +179,10 @@
     "language-name": "German",
     "frequency-avail": true,
     "script-type": "Latin",
-    "direction": "ltr"
+    "direction": "ltr",
+    "keyboards": [
+      "de-DE-qwertz"
+    ]
   },
   {
     "language": "dz",
@@ -200,7 +203,10 @@
     "language-name": "English",
     "frequency-avail": true,
     "script-type": "Latin",
-    "direction": "ltr"
+    "direction": "ltr",
+    "keyboards": [
+      "en-US-qwerty"
+    ]
   },
   {
     "language": "eo",
@@ -256,7 +262,10 @@
     "language-name": "French",
     "frequency-avail": true,
     "script-type": "Latin",
-    "direction": "ltr"
+    "direction": "ltr",
+    "keyboards": [
+      "fr-FR-azerty"
+    ]
   },
   {
     "language": "fur",

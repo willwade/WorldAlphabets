@@ -1,4 +1,4 @@
-"""Utilities for loading world alphabets."""
+"""Utilities for loading world alphabets and keyboard layouts."""
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -8,6 +8,8 @@ import json
 from typing import Dict, List
 
 from .helpers import get_index_data, get_language
+from .keyboards import get_available_layouts, load_keyboard
+from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
 
 DATA_DIR = files("worldalphabets") / "data" / "alphabets"
 
@@ -38,4 +40,19 @@ def get_available_codes() -> List[str]:
     )
 
 
-__all__ = ["load_alphabet", "Alphabet", "get_available_codes", "get_index_data", "get_language"]
+__all__ = [
+    # Alphabets
+    "load_alphabet",
+    "Alphabet",
+    "get_available_codes",
+    "get_index_data",
+    "get_language",
+    # Keyboards
+    "load_keyboard",
+    "get_available_layouts",
+    "KeyboardLayout",
+    "KeyEntry",
+    "LayerLegends",
+    "DeadKey",
+    "Ligature",
+]

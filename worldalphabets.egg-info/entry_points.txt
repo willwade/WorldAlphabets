@@ -1,0 +1,3 @@
+[console_scripts]
+wa-build-layouts = tools.build_layouts:main
+wa-validate-layouts = tools.validate_layouts:main
