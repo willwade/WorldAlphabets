@@ -7,6 +7,8 @@ from pathlib import Path
 import json
 from typing import Dict, List
 
+from .helpers import get_index_data, get_language
+
 DATA_DIR = files("worldalphabets") / "data" / "alphabets"
 
 
@@ -35,7 +37,5 @@ def get_available_codes() -> List[str]:
         Path(p.name).stem for p in DATA_DIR.iterdir() if p.name.endswith(".json")
     )
 
-
-from .helpers import get_index_data, get_language
 
 __all__ = ["load_alphabet", "Alphabet", "get_available_codes", "get_index_data", "get_language"]

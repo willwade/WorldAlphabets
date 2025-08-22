@@ -1,0 +1,40 @@
+name: Lint and Test
+
+on: [push]
+
+jobs:
+  test_node:
+    name: Test Node.js
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+
+  test_python:
+    name: Test Python
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v1
+      - name: Create virtual environment
+        run: uv venv
+      - name: Install dependencies
+        run: uv pip install '.[dev]'
+      - name: Run ruff
+        run: uv run ruff check .
+      - name: Run mypy
+        run: uv run mypy . --exclude build
+      - name: Run pytest
+        run: uv run pytest
