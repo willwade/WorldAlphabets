@@ -32,9 +32,6 @@ def main() -> None:
         driver_name_match = re.match(r"\/([A-Z0-9]+)\/", href)
         if driver_name_match:
             driver_name = driver_name_match.group(1)
-            # The description is the text of the link
-            description = link.get_text(strip=True)
-
             # The KLID and layout name are in the previous `td`
             prev_td = link.parent.find_previous_sibling("td")
             if prev_td:

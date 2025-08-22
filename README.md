@@ -113,9 +113,48 @@ async function main() {
 main();
 ```
 
+### Keyboard Layouts
+
+Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code) when available) along with `row`, `col`, and size information.
+
+#### Python
+
+```python
+from worldalphabets.keyboards import get_available_layouts, load_keyboard
+
+layouts = get_available_layouts()
+print("Available layouts (first 5):", layouts[:5])
+
+kb = load_keyboard("en-us")
+print("First key Unicode:", kb.keys[1].get_unicode("base"))
+print("First key position:", kb.keys[1].pos, kb.keys[1].row, kb.keys[1].col)
+```
+
+#### Node.js
+
+```javascript
+const {
+  getAvailableLayouts,
+  loadKeyboard,
+  getUnicode,
+} = require('worldalphabets');
+
+async function main() {
+  const layouts = await getAvailableLayouts();
+  console.log('Available layouts (first 5):', layouts.slice(0, 5));
+
+  const kb = await loadKeyboard('en-us');
+  console.log('First key Unicode:', getUnicode(kb.keys[1], 'base'));
+  console.log('First key position:', kb.keys[1].pos, kb.keys[1].row, kb.keys[1].col);
+}
+
+main();
+```
+
 ## Supported Languages
 
-For a detailed list of supported languages and their metadata, see the [Alphabet Table](table.md).
+For a detailed list of supported languages and their metadata, including available
+keyboard layouts, see the [Alphabet Table](table.md).
 
 ## Developer Guide
 

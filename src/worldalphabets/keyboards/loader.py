@@ -1,5 +1,4 @@
 import json
-import os
 from importlib.resources import files, as_file
 from typing import List
 from pathlib import Path

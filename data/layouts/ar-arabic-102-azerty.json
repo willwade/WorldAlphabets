@@ -1,0 +1,3448 @@
+{
+  "id": "ar-arabic-102-azerty",
+  "name": "Arabic (102) AZERTY",
+  "source": "kbdlayout.info",
+  "iso_variant": null,
+  "flags": {
+    "rightAltIsAltGr": true,
+    "shiftCancelsCapsLock": false,
+    "changesDirectionality": false
+  },
+  "keys": [
+    {
+      "pos": "Escape",
+      "row": 0,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_ESCAPE",
+      "sc": "01",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit1",
+      "row": 0,
+      "col": 2,
+      "shape": {
+        "x": 2.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_1",
+      "sc": "02",
+      "legends": {
+        "base": "&",
+        "shift": "1",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit2",
+      "row": 0,
+      "col": 3,
+      "shape": {
+        "x": 3.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_2",
+      "sc": "03",
+      "legends": {
+        "base": "é",
+        "shift": "2",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit3",
+      "row": 0,
+      "col": 4,
+      "shape": {
+        "x": 4.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_3",
+      "sc": "04",
+      "legends": {
+        "base": "\"",
+        "shift": "3",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit4",
+      "row": 0,
+      "col": 5,
+      "shape": {
+        "x": 5.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_4",
+      "sc": "05",
+      "legends": {
+        "base": "'",
+        "shift": "4",
+        "caps": null,
+        "altgr": "¤",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit5",
+      "row": 0,
+      "col": 6,
+      "shape": {
+        "x": 6.5,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_5",
+      "sc": "06",
+      "legends": {
+        "base": "(",
+        "shift": "5",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit6",
+      "row": 0,
+      "col": 7,
+      "shape": {
+        "x": 7.5,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_6",
+      "sc": "07",
+      "legends": {
+        "base": "-",
+        "shift": "6",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit7",
+      "row": 0,
+      "col": 8,
+      "shape": {
+        "x": 8.5,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_7",
+      "sc": "08",
+      "legends": {
+        "base": "è",
+        "shift": "7",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit8",
+      "row": 0,
+      "col": 9,
+      "shape": {
+        "x": 9.5,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_8",
+      "sc": "09",
+      "legends": {
+        "base": "_",
+        "shift": "8",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit9",
+      "row": 0,
+      "col": 11,
+      "shape": {
+        "x": 11.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_9",
+      "sc": "0A",
+      "legends": {
+        "base": "ç",
+        "shift": "9",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Digit0",
+      "row": 0,
+      "col": 12,
+      "shape": {
+        "x": 12.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_0",
+      "sc": "0B",
+      "legends": {
+        "base": "à",
+        "shift": "0",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Minus",
+      "row": 0,
+      "col": 13,
+      "shape": {
+        "x": 13.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_MINUS",
+      "sc": "0C",
+      "legends": {
+        "base": ")",
+        "shift": "°",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Equal",
+      "row": 0,
+      "col": 14,
+      "shape": {
+        "x": 14.0,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_PLUS",
+      "sc": "0D",
+      "legends": {
+        "base": "=",
+        "shift": "+",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Backspace",
+      "row": 0,
+      "col": 15,
+      "shape": {
+        "x": 15.25,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_BACK",
+      "sc": "0E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Tab",
+      "row": 0,
+      "col": 16,
+      "shape": {
+        "x": 16.25,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_TAB",
+      "sc": "0F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyQ",
+      "row": 0,
+      "col": 17,
+      "shape": {
+        "x": 17.25,
+        "y": 0.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_Q",
+      "sc": "10",
+      "legends": {
+        "base": "ض",
+        "shift": "َ",
+        "caps": null,
+        "altgr": "َّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyW",
+      "row": 1,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 1.5,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_W",
+      "sc": "11",
+      "legends": {
+        "base": "ص",
+        "shift": "ً",
+        "caps": null,
+        "altgr": "ًّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyE",
+      "row": 1,
+      "col": 1,
+      "shape": {
+        "x": 1.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_E",
+      "sc": "12",
+      "legends": {
+        "base": "ث",
+        "shift": "ُ",
+        "caps": null,
+        "altgr": "ُّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyR",
+      "row": 1,
+      "col": 2,
+      "shape": {
+        "x": 2.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_R",
+      "sc": "13",
+      "legends": {
+        "base": "ق",
+        "shift": "ٌ",
+        "caps": null,
+        "altgr": "ٌّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyT",
+      "row": 1,
+      "col": 3,
+      "shape": {
+        "x": 3.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_T",
+      "sc": "14",
+      "legends": {
+        "base": "ف",
+        "shift": "لإ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyY",
+      "row": 1,
+      "col": 4,
+      "shape": {
+        "x": 4.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_Y",
+      "sc": "15",
+      "legends": {
+        "base": "غ",
+        "shift": "إ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyU",
+      "row": 1,
+      "col": 5,
+      "shape": {
+        "x": 5.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_U",
+      "sc": "16",
+      "legends": {
+        "base": "ع",
+        "shift": "‘",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyI",
+      "row": 1,
+      "col": 6,
+      "shape": {
+        "x": 6.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_I",
+      "sc": "17",
+      "legends": {
+        "base": "ه",
+        "shift": "÷",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyO",
+      "row": 1,
+      "col": 7,
+      "shape": {
+        "x": 7.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_O",
+      "sc": "18",
+      "legends": {
+        "base": "خ",
+        "shift": "×",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyP",
+      "row": 1,
+      "col": 8,
+      "shape": {
+        "x": 8.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_P",
+      "sc": "19",
+      "legends": {
+        "base": "ح",
+        "shift": "؛",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "BracketLeft",
+      "row": 1,
+      "col": 9,
+      "shape": {
+        "x": 9.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_4",
+      "sc": "1A",
+      "legends": {
+        "base": "ج",
+        "shift": "}",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "BracketRight",
+      "row": 1,
+      "col": 10,
+      "shape": {
+        "x": 10.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_6",
+      "sc": "1B",
+      "legends": {
+        "base": "د",
+        "shift": "{",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Enter",
+      "row": 1,
+      "col": 11,
+      "shape": {
+        "x": 11.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_RETURN",
+      "sc": "1C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "ControlLeft",
+      "row": 1,
+      "col": 12,
+      "shape": {
+        "x": 12.0,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_LCONTROL",
+      "sc": "1D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyA",
+      "row": 1,
+      "col": 13,
+      "shape": {
+        "x": 13.0,
+        "y": 1.0,
+        "w": 2.0,
+        "h": 1.0
+      },
+      "vk": "VK_A",
+      "sc": "1E",
+      "legends": {
+        "base": "ش",
+        "shift": "\\",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyS",
+      "row": 1,
+      "col": 15,
+      "shape": {
+        "x": 15.25,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_S",
+      "sc": "1F",
+      "legends": {
+        "base": "س",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyD",
+      "row": 1,
+      "col": 16,
+      "shape": {
+        "x": 16.25,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_D",
+      "sc": "20",
+      "legends": {
+        "base": "ي",
+        "shift": "]",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyF",
+      "row": 1,
+      "col": 17,
+      "shape": {
+        "x": 17.25,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F",
+      "sc": "21",
+      "legends": {
+        "base": "ب",
+        "shift": "[",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyG",
+      "row": 1,
+      "col": 18,
+      "shape": {
+        "x": 18.5,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_G",
+      "sc": "22",
+      "legends": {
+        "base": "ل",
+        "shift": "لأ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyH",
+      "row": 1,
+      "col": 19,
+      "shape": {
+        "x": 19.5,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_H",
+      "sc": "23",
+      "legends": {
+        "base": "ا",
+        "shift": "أ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyJ",
+      "row": 1,
+      "col": 20,
+      "shape": {
+        "x": 20.5,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_J",
+      "sc": "24",
+      "legends": {
+        "base": "ت",
+        "shift": "ـ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyK",
+      "row": 1,
+      "col": 21,
+      "shape": {
+        "x": 21.5,
+        "y": 1.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_K",
+      "sc": "25",
+      "legends": {
+        "base": "ن",
+        "shift": "،",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyL",
+      "row": 2,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 2.0,
+        "w": 1.5,
+        "h": 1.0
+      },
+      "vk": "VK_L",
+      "sc": "26",
+      "legends": {
+        "base": "م",
+        "shift": "/",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Semicolon",
+      "row": 2,
+      "col": 1,
+      "shape": {
+        "x": 1.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_1",
+      "sc": "27",
+      "legends": {
+        "base": "ك",
+        "shift": ":",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Quote",
+      "row": 2,
+      "col": 2,
+      "shape": {
+        "x": 2.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_7",
+      "sc": "28",
+      "legends": {
+        "base": "ط",
+        "shift": "\"",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Backquote",
+      "row": 2,
+      "col": 3,
+      "shape": {
+        "x": 3.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_3",
+      "sc": "29",
+      "legends": {
+        "base": ">",
+        "shift": "<",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "ShiftLeft",
+      "row": 2,
+      "col": 4,
+      "shape": {
+        "x": 4.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_LSHIFT",
+      "sc": "2A",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Backslash",
+      "row": 2,
+      "col": 5,
+      "shape": {
+        "x": 5.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_5",
+      "sc": "2B",
+      "legends": {
+        "base": "ذ",
+        "shift": "ّ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyZ",
+      "row": 2,
+      "col": 6,
+      "shape": {
+        "x": 6.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_Z",
+      "sc": "2C",
+      "legends": {
+        "base": "ئ",
+        "shift": "~",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyX",
+      "row": 2,
+      "col": 7,
+      "shape": {
+        "x": 7.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_X",
+      "sc": "2D",
+      "legends": {
+        "base": "ء",
+        "shift": "ْ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyC",
+      "row": 2,
+      "col": 8,
+      "shape": {
+        "x": 8.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_C",
+      "sc": "2E",
+      "legends": {
+        "base": "ؤ",
+        "shift": "ِ",
+        "caps": null,
+        "altgr": "ِّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyV",
+      "row": 2,
+      "col": 9,
+      "shape": {
+        "x": 9.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_V",
+      "sc": "2F",
+      "legends": {
+        "base": "ر",
+        "shift": "ٍ",
+        "caps": null,
+        "altgr": "ٍّ",
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyB",
+      "row": 2,
+      "col": 10,
+      "shape": {
+        "x": 10.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_B",
+      "sc": "30",
+      "legends": {
+        "base": "لا",
+        "shift": "لآ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyN",
+      "row": 2,
+      "col": 11,
+      "shape": {
+        "x": 11.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_N",
+      "sc": "31",
+      "legends": {
+        "base": "ى",
+        "shift": "آ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "KeyM",
+      "row": 2,
+      "col": 12,
+      "shape": {
+        "x": 12.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_M",
+      "sc": "32",
+      "legends": {
+        "base": "ة",
+        "shift": "’",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Comma",
+      "row": 2,
+      "col": 13,
+      "shape": {
+        "x": 13.75,
+        "y": 2.0,
+        "w": 1.25,
+        "h": 2.0
+      },
+      "vk": "VK_OEM_COMMA",
+      "sc": "33",
+      "legends": {
+        "base": "و",
+        "shift": ",",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Period",
+      "row": 2,
+      "col": 15,
+      "shape": {
+        "x": 15.25,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_PERIOD",
+      "sc": "34",
+      "legends": {
+        "base": "ز",
+        "shift": ".",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Slash",
+      "row": 2,
+      "col": 16,
+      "shape": {
+        "x": 16.25,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_2",
+      "sc": "35",
+      "legends": {
+        "base": "ظ",
+        "shift": "؟",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "ShiftRight",
+      "row": 2,
+      "col": 17,
+      "shape": {
+        "x": 17.25,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_RSHIFT",
+      "sc": "36",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "NumpadMultiply",
+      "row": 2,
+      "col": 18,
+      "shape": {
+        "x": 18.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_MULTIPLY",
+      "sc": "37",
+      "legends": {
+        "base": "*",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "AltLeft",
+      "row": 2,
+      "col": 19,
+      "shape": {
+        "x": 19.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_LMENU",
+      "sc": "38",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Space",
+      "row": 2,
+      "col": 20,
+      "shape": {
+        "x": 20.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_SPACE",
+      "sc": "39",
+      "legends": {
+        "base": " ",
+        "shift": " ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": " ",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "CapsLock",
+      "row": 2,
+      "col": 21,
+      "shape": {
+        "x": 21.5,
+        "y": 2.0,
+        "w": 1.0,
+        "h": 2.0
+      },
+      "vk": "VK_CAPITAL",
+      "sc": "3A",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F1",
+      "row": 3,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 3.0,
+        "w": 1.75,
+        "h": 1.0
+      },
+      "vk": "VK_F1",
+      "sc": "3B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F2",
+      "row": 3,
+      "col": 1,
+      "shape": {
+        "x": 1.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F2",
+      "sc": "3C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F3",
+      "row": 3,
+      "col": 2,
+      "shape": {
+        "x": 2.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F3",
+      "sc": "3D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F4",
+      "row": 3,
+      "col": 3,
+      "shape": {
+        "x": 3.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F4",
+      "sc": "3E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F5",
+      "row": 3,
+      "col": 4,
+      "shape": {
+        "x": 4.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F5",
+      "sc": "3F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F6",
+      "row": 3,
+      "col": 5,
+      "shape": {
+        "x": 5.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F6",
+      "sc": "40",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F7",
+      "row": 3,
+      "col": 6,
+      "shape": {
+        "x": 6.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F7",
+      "sc": "41",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F8",
+      "row": 3,
+      "col": 7,
+      "shape": {
+        "x": 7.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F8",
+      "sc": "42",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F9",
+      "row": 3,
+      "col": 8,
+      "shape": {
+        "x": 8.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F9",
+      "sc": "43",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F10",
+      "row": 3,
+      "col": 9,
+      "shape": {
+        "x": 9.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F10",
+      "sc": "44",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "NumLock",
+      "row": 3,
+      "col": 10,
+      "shape": {
+        "x": 10.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_NUMLOCK",
+      "sc": "45",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "ScrollLock",
+      "row": 3,
+      "col": 11,
+      "shape": {
+        "x": 11.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_SCROLL",
+      "sc": "46",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad7",
+      "row": 3,
+      "col": 12,
+      "shape": {
+        "x": 12.75,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_HOME",
+      "sc": "47",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad8",
+      "row": 3,
+      "col": 18,
+      "shape": {
+        "x": 18.5,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_UP",
+      "sc": "48",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad9",
+      "row": 3,
+      "col": 19,
+      "shape": {
+        "x": 19.5,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_PRIOR",
+      "sc": "49",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "NumpadSubtract",
+      "row": 3,
+      "col": 20,
+      "shape": {
+        "x": 20.5,
+        "y": 3.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_SUBTRACT",
+      "sc": "4A",
+      "legends": {
+        "base": "-",
+        "shift": "-",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad4",
+      "row": 4,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 4.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_LEFT",
+      "sc": "4B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad5",
+      "row": 4,
+      "col": 1,
+      "shape": {
+        "x": 1.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_CLEAR",
+      "sc": "4C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad6",
+      "row": 4,
+      "col": 2,
+      "shape": {
+        "x": 2.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_RIGHT",
+      "sc": "4D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "NumpadAdd",
+      "row": 4,
+      "col": 3,
+      "shape": {
+        "x": 3.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_ADD",
+      "sc": "4E",
+      "legends": {
+        "base": "+",
+        "shift": "+",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad1",
+      "row": 4,
+      "col": 4,
+      "shape": {
+        "x": 4.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_END",
+      "sc": "4F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad2",
+      "row": 4,
+      "col": 5,
+      "shape": {
+        "x": 5.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_DOWN",
+      "sc": "50",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad3",
+      "row": 4,
+      "col": 6,
+      "shape": {
+        "x": 6.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_NEXT",
+      "sc": "51",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "Numpad0",
+      "row": 4,
+      "col": 7,
+      "shape": {
+        "x": 7.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_INSERT",
+      "sc": "52",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "NumpadDecimal",
+      "row": 4,
+      "col": 8,
+      "shape": {
+        "x": 8.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_DELETE",
+      "sc": "53",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c9",
+      "row": 4,
+      "col": 9,
+      "shape": {
+        "x": 9.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_SNAPSHOT",
+      "sc": "54",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "IntlBackslash",
+      "row": 4,
+      "col": 10,
+      "shape": {
+        "x": 10.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_102",
+      "sc": "56",
+      "legends": {
+        "base": "\\",
+        "shift": "|",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F11",
+      "row": 4,
+      "col": 11,
+      "shape": {
+        "x": 11.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F11",
+      "sc": "57",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "F12",
+      "row": 4,
+      "col": 12,
+      "shape": {
+        "x": 12.25,
+        "y": 4.0,
+        "w": 2.75,
+        "h": 1.0
+      },
+      "vk": "VK_F12",
+      "sc": "58",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c16",
+      "row": 4,
+      "col": 16,
+      "shape": {
+        "x": 16.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_CLEAR",
+      "sc": "59",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c18",
+      "row": 4,
+      "col": 18,
+      "shape": {
+        "x": 18.5,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_WSCTRL",
+      "sc": "5A",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c19",
+      "row": 4,
+      "col": 19,
+      "shape": {
+        "x": 19.5,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_DBE_KATAKANA",
+      "sc": "5B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c20",
+      "row": 4,
+      "col": 20,
+      "shape": {
+        "x": 20.5,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_JUMP",
+      "sc": "5C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c21",
+      "row": 4,
+      "col": 21,
+      "shape": {
+        "x": 21.5,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 2.0
+      },
+      "vk": "VK_DBE_FLUSHSTRING",
+      "sc": "5D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c0",
+      "row": 5,
+      "col": 0,
+      "shape": {
+        "x": 0.0,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_BACKTAB",
+      "sc": "5E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c1",
+      "row": 5,
+      "col": 1,
+      "shape": {
+        "x": 1.25,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_AUTO",
+      "sc": "5F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c2",
+      "row": 5,
+      "col": 2,
+      "shape": {
+        "x": 2.5,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_DBE_NOCODEINPUT",
+      "sc": "62",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c3",
+      "row": 5,
+      "col": 3,
+      "shape": {
+        "x": 3.75,
+        "y": 5.0,
+        "w": 6.25,
+        "h": 1.0
+      },
+      "vk": "VK_HELP",
+      "sc": "63",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c10",
+      "row": 5,
+      "col": 10,
+      "shape": {
+        "x": 10.0,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_F13",
+      "sc": "64",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c11",
+      "row": 5,
+      "col": 11,
+      "shape": {
+        "x": 11.25,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_F14",
+      "sc": "65",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c12",
+      "row": 5,
+      "col": 12,
+      "shape": {
+        "x": 12.5,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_F15",
+      "sc": "66",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c13",
+      "row": 5,
+      "col": 13,
+      "shape": {
+        "x": 13.75,
+        "y": 5.0,
+        "w": 1.25,
+        "h": 1.0
+      },
+      "vk": "VK_F16",
+      "sc": "67",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c15",
+      "row": 5,
+      "col": 15,
+      "shape": {
+        "x": 15.25,
+        "y": 5.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F17",
+      "sc": "68",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c16",
+      "row": 5,
+      "col": 16,
+      "shape": {
+        "x": 16.25,
+        "y": 5.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F18",
+      "sc": "69",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c17",
+      "row": 5,
+      "col": 17,
+      "shape": {
+        "x": 17.25,
+        "y": 5.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F19",
+      "sc": "6A",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c18",
+      "row": 5,
+      "col": 18,
+      "shape": {
+        "x": 18.5,
+        "y": 5.0,
+        "w": 2.0,
+        "h": 1.0
+      },
+      "vk": "VK_F20",
+      "sc": "6B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r5c20",
+      "row": 5,
+      "col": 20,
+      "shape": {
+        "x": 20.5,
+        "y": 5.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_F21",
+      "sc": "6C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_F22",
+      "sc": "6D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_F23",
+      "sc": "6E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_PA3",
+      "sc": "6F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_RESET",
+      "sc": "71",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_ABNT_C1",
+      "sc": "73",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_F24",
+      "sc": "76",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_PA1",
+      "sc": "7B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_TAB",
+      "sc": "7C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_ABNT_C2",
+      "sc": "7E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_MEDIA_PREV_TRACK",
+      "sc": "E010",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_MEDIA_NEXT_TRACK",
+      "sc": "E019",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RETURN",
+      "sc": "E01C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RCONTROL",
+      "sc": "E01D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_VOLUME_MUTE",
+      "sc": "E020",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LAUNCH_APP2",
+      "sc": "E021",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_MEDIA_PLAY_PAUSE",
+      "sc": "E022",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_MEDIA_STOP",
+      "sc": "E024",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_VOLUME_DOWN",
+      "sc": "E02E",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_VOLUME_UP",
+      "sc": "E030",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_HOME",
+      "sc": "E032",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_DIVIDE",
+      "sc": "E035",
+      "legends": {
+        "base": "/",
+        "shift": "/",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_SNAPSHOT",
+      "sc": "E037",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RMENU",
+      "sc": "E038",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_CANCEL",
+      "sc": "E046",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_HOME",
+      "sc": "E047",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_UP",
+      "sc": "E048",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_PRIOR",
+      "sc": "E049",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LEFT",
+      "sc": "E04B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RIGHT",
+      "sc": "E04D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_END",
+      "sc": "E04F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_DOWN",
+      "sc": "E050",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NEXT",
+      "sc": "E051",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_INSERT",
+      "sc": "E052",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_DELETE",
+      "sc": "E053",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LWIN",
+      "sc": "E05B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RWIN",
+      "sc": "E05C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_APPS",
+      "sc": "E05D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_SLEEP",
+      "sc": "E05F",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_SEARCH",
+      "sc": "E065",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_FAVORITES",
+      "sc": "E066",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_REFRESH",
+      "sc": "E067",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_STOP",
+      "sc": "E068",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_FORWARD",
+      "sc": "E069",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BROWSER_BACK",
+      "sc": "E06A",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LAUNCH_APP1",
+      "sc": "E06B",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LAUNCH_MAIL",
+      "sc": "E06C",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_LAUNCH_MEDIA_SELECT",
+      "sc": "E06D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_PAUSE",
+      "sc": "E11D",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    }
+  ],
+  "dead_keys": [],
+  "ligatures": null,
+  "meta": {}
+}
