@@ -1,6 +1,6 @@
 {
-  "id": "de-german",
-  "name": "German",
+  "id": "cs-czech",
+  "name": "Czech",
   "source": "kbdlayout.info",
   "iso_variant": null,
   "flags": {
@@ -46,10 +46,10 @@
       "vk": "VK_1",
       "sc": "02",
       "legends": {
-        "base": "1",
-        "shift": "!",
-        "caps": "!",
-        "altgr": null,
+        "base": "+",
+        "shift": "1",
+        "caps": null,
+        "altgr": "~",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -70,15 +70,15 @@
       "vk": "VK_2",
       "sc": "03",
       "legends": {
-        "base": "2",
-        "shift": "\"",
-        "caps": "\"",
-        "altgr": "²",
+        "base": "ě",
+        "shift": "2",
+        "caps": "Ě",
+        "altgr": "ˇ",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -94,15 +94,15 @@
       "vk": "VK_3",
       "sc": "04",
       "legends": {
-        "base": "3",
-        "shift": "§",
-        "caps": "§",
-        "altgr": "³",
+        "base": "š",
+        "shift": "3",
+        "caps": "Š",
+        "altgr": "^",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -118,15 +118,15 @@
       "vk": "VK_4",
       "sc": "05",
       "legends": {
-        "base": "4",
-        "shift": "$",
-        "caps": "$",
-        "altgr": null,
+        "base": "č",
+        "shift": "4",
+        "caps": "Č",
+        "altgr": "˘",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -142,15 +142,15 @@
       "vk": "VK_5",
       "sc": "06",
       "legends": {
-        "base": "5",
-        "shift": "%",
-        "caps": "%",
-        "altgr": null,
+        "base": "ř",
+        "shift": "5",
+        "caps": "Ř",
+        "altgr": "°",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -166,15 +166,15 @@
       "vk": "VK_6",
       "sc": "07",
       "legends": {
-        "base": "6",
-        "shift": "&",
-        "caps": "&",
-        "altgr": null,
+        "base": "ž",
+        "shift": "6",
+        "caps": "Ž",
+        "altgr": "˛",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -190,15 +190,15 @@
       "vk": "VK_7",
       "sc": "08",
       "legends": {
-        "base": "7",
-        "shift": "/",
-        "caps": "/",
-        "altgr": "{",
+        "base": "ý",
+        "shift": "7",
+        "caps": "Ý",
+        "altgr": "`",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -214,15 +214,15 @@
       "vk": "VK_8",
       "sc": "09",
       "legends": {
-        "base": "8",
-        "shift": "(",
-        "caps": "(",
-        "altgr": "[",
+        "base": "á",
+        "shift": "8",
+        "caps": "Á",
+        "altgr": "˙",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -238,15 +238,15 @@
       "vk": "VK_9",
       "sc": "0A",
       "legends": {
-        "base": "9",
-        "shift": ")",
-        "caps": ")",
-        "altgr": "]",
+        "base": "í",
+        "shift": "9",
+        "caps": "Í",
+        "altgr": "´",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -262,15 +262,15 @@
       "vk": "VK_0",
       "sc": "0B",
       "legends": {
-        "base": "0",
-        "shift": "=",
-        "caps": "=",
-        "altgr": "}",
+        "base": "é",
+        "shift": "0",
+        "caps": "É",
+        "altgr": "˝",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -283,18 +283,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_4",
+      "vk": "VK_OEM_PLUS",
       "sc": "0C",
       "legends": {
-        "base": "ß",
-        "shift": "?",
-        "caps": "?",
-        "altgr": "\\",
+        "base": "=",
+        "shift": "%",
+        "caps": null,
+        "altgr": "¨",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -307,13 +307,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_6",
+      "vk": "VK_OEM_2",
       "sc": "0D",
       "legends": {
         "base": "´",
-        "shift": "`",
+        "shift": "ˇ",
         "caps": null,
-        "altgr": null,
+        "altgr": "¸",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -385,7 +385,7 @@
         "base": "q",
         "shift": "Q",
         "caps": "Q",
-        "altgr": "@",
+        "altgr": "\\",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -409,7 +409,7 @@
         "base": "w",
         "shift": "W",
         "caps": "W",
-        "altgr": null,
+        "altgr": "|",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -619,13 +619,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_1",
+      "vk": "VK_OEM_4",
       "sc": "1A",
       "legends": {
-        "base": "ü",
-        "shift": "Ü",
-        "caps": "Ü",
-        "altgr": null,
+        "base": "ú",
+        "shift": "/",
+        "caps": "Ú",
+        "altgr": "÷",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -643,13 +643,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_PLUS",
+      "vk": "VK_OEM_6",
       "sc": "1B",
       "legends": {
-        "base": "+",
-        "shift": "*",
-        "caps": "*",
-        "altgr": "~",
+        "base": ")",
+        "shift": "(",
+        "caps": null,
+        "altgr": "×",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -745,7 +745,7 @@
         "base": "s",
         "shift": "S",
         "caps": "S",
-        "altgr": null,
+        "altgr": "đ",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -769,7 +769,7 @@
         "base": "d",
         "shift": "D",
         "caps": "D",
-        "altgr": null,
+        "altgr": "Đ",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -793,7 +793,7 @@
         "base": "f",
         "shift": "F",
         "caps": "F",
-        "altgr": null,
+        "altgr": "[",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -817,7 +817,7 @@
         "base": "g",
         "shift": "G",
         "caps": "G",
-        "altgr": null,
+        "altgr": "]",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -889,7 +889,7 @@
         "base": "k",
         "shift": "K",
         "caps": "K",
-        "altgr": null,
+        "altgr": "ł",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -913,7 +913,7 @@
         "base": "l",
         "shift": "L",
         "caps": "L",
-        "altgr": null,
+        "altgr": "Ł",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -931,13 +931,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_3",
+      "vk": "VK_OEM_1",
       "sc": "27",
       "legends": {
-        "base": "ö",
-        "shift": "Ö",
-        "caps": "Ö",
-        "altgr": null,
+        "base": "ů",
+        "shift": "\"",
+        "caps": "Ů",
+        "altgr": "$",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -958,10 +958,10 @@
       "vk": "VK_OEM_7",
       "sc": "28",
       "legends": {
-        "base": "ä",
-        "shift": "Ä",
-        "caps": "Ä",
-        "altgr": null,
+        "base": "§",
+        "shift": "!",
+        "caps": null,
+        "altgr": "ß",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -979,10 +979,10 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_5",
+      "vk": "VK_OEM_3",
       "sc": "29",
       "legends": {
-        "base": "^",
+        "base": ";",
         "shift": "°",
         "caps": null,
         "altgr": null,
@@ -1027,18 +1027,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_2",
+      "vk": "VK_OEM_5",
       "sc": "2B",
       "legends": {
-        "base": "#",
+        "base": "¨",
         "shift": "'",
-        "caps": "'",
-        "altgr": null,
+        "caps": null,
+        "altgr": "¤",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -1081,7 +1081,7 @@
         "base": "x",
         "shift": "X",
         "caps": "X",
-        "altgr": null,
+        "altgr": "#",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1105,7 +1105,7 @@
         "base": "c",
         "shift": "C",
         "caps": "C",
-        "altgr": null,
+        "altgr": "&",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1129,7 +1129,7 @@
         "base": "v",
         "shift": "V",
         "caps": "V",
-        "altgr": null,
+        "altgr": "@",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1153,7 +1153,7 @@
         "base": "b",
         "shift": "B",
         "caps": "B",
-        "altgr": null,
+        "altgr": "{",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1177,7 +1177,7 @@
         "base": "n",
         "shift": "N",
         "caps": "N",
-        "altgr": null,
+        "altgr": "}",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1201,7 +1201,7 @@
         "base": "m",
         "shift": "M",
         "caps": "M",
-        "altgr": "µ",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1223,9 +1223,9 @@
       "sc": "33",
       "legends": {
         "base": ",",
-        "shift": ";",
-        "caps": ";",
-        "altgr": null,
+        "shift": "?",
+        "caps": null,
+        "altgr": "<",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1248,8 +1248,8 @@
       "legends": {
         "base": ".",
         "shift": ":",
-        "caps": ":",
-        "altgr": null,
+        "caps": null,
+        "altgr": ">",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1273,7 +1273,7 @@
         "base": "-",
         "shift": "_",
         "caps": null,
-        "altgr": null,
+        "altgr": "*",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -2038,10 +2038,10 @@
       "vk": "VK_OEM_102",
       "sc": "56",
       "legends": {
-        "base": "<",
-        "shift": ">",
+        "base": "\\",
+        "shift": "|",
         "caps": null,
-        "altgr": "|",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -3444,56 +3444,282 @@
   ],
   "dead_keys": [
     {
-      "name": "AKUT",
-      "trigger": "´",
+      "name": "HACEK",
+      "trigger": "ˇ",
       "compose": {
-        "a": "á",
-        "e": "é",
-        "i": "í",
-        "o": "ó",
-        "u": "ú",
-        "y": "ý",
-        "A": "Á",
-        "E": "É",
-        "I": "Í",
-        "O": "Ó",
-        "U": "Ú",
-        "Y": "Ý",
-        " ": "´"
+        "c": "č",
+        "C": "Č",
+        "d": "ď",
+        "D": "Ď",
+        "e": "ě",
+        "E": "Ě",
+        "l": "ľ",
+        "L": "Ľ",
+        "n": "ň",
+        "N": "Ň",
+        "r": "ř",
+        "R": "Ř",
+        "s": "š",
+        "S": "Š",
+        "t": "ť",
+        "T": "Ť",
+        "z": "ž",
+        "Z": "Ž",
+        " ": "ˇ"
       }
     },
     {
-      "name": "GRAVIS",
+      "name": "CIRCUMFLEX",
+      "trigger": "^",
+      "compose": {
+        "a": "â",
+        "A": "Â",
+        "e": "ê",
+        "E": "Ê",
+        "i": "î",
+        "I": "Î",
+        "o": "ô",
+        "O": "Ô",
+        "u": "û",
+        "U": "Û",
+        " ": "^"
+      }
+    },
+    {
+      "name": "BREVE",
+      "trigger": "˘",
+      "compose": {
+        "a": "ă",
+        "A": "Ă",
+        "g": "ğ",
+        "G": "Ğ",
+        " ": "˘"
+      }
+    },
+    {
+      "name": "RING",
+      "trigger": "°",
+      "compose": {
+        "a": "å",
+        "A": "Å",
+        "u": "ů",
+        "U": "Ů",
+        " ": "°"
+      }
+    },
+    {
+      "name": "OGONEK",
+      "trigger": "˛",
+      "compose": {
+        "a": "ą",
+        "A": "Ą",
+        "e": "ę",
+        "E": "Ę",
+        "i": "į",
+        "I": "Į",
+        "u": "ų",
+        "U": "Ų",
+        " ": "˛"
+      }
+    },
+    {
+      "name": null,
       "trigger": "`",
       "compose": {
         "a": "à",
-        "e": "è",
-        "i": "ì",
-        "o": "ò",
-        "u": "ù",
         "A": "À",
+        "e": "è",
         "E": "È",
+        "i": "ì",
         "I": "Ì",
+        "o": "ò",
         "O": "Ò",
+        "u": "ù",
         "U": "Ù",
         " ": "`"
       }
     },
     {
-      "name": "ZIRKUMFLEX",
-      "trigger": "^",
+      "name": null,
+      "trigger": "˙",
       "compose": {
-        "a": "â",
-        "e": "ê",
-        "i": "î",
-        "o": "ô",
-        "u": "û",
-        "A": "Â",
-        "E": "Ê",
-        "I": "Î",
-        "O": "Ô",
-        "U": "Û",
-        " ": "^"
+        "e": "ė",
+        "E": "Ė",
+        "i": "ı",
+        "I": "İ",
+        "z": "ż",
+        "Z": "Ż",
+        " ": "·"
+      }
+    },
+    {
+      "name": "ČáRKA",
+      "trigger": "´",
+      "compose": {
+        "a": "á",
+        "A": "Á",
+        "c": "ć",
+        "C": "Ć",
+        "e": "é",
+        "E": "É",
+        "i": "í",
+        "I": "Í",
+        "l": "ĺ",
+        "L": "Ĺ",
+        "n": "ń",
+        "N": "Ń",
+        "o": "ó",
+        "O": "Ó",
+        "r": "ŕ",
+        "R": "Ŕ",
+        "s": "ś",
+        "S": "Ś",
+        "u": "ú",
+        "U": "Ú",
+        "y": "ý",
+        "Y": "Ý",
+        "z": "ź",
+        "Z": "Ź",
+        " ": "´"
+      }
+    },
+    {
+      "name": "DOUBLE ACUTE",
+      "trigger": "˝",
+      "compose": {
+        "o": "ő",
+        "O": "Ő",
+        "u": "ű",
+        "U": "Ű",
+        " ": "˝"
+      }
+    },
+    {
+      "name": "UMLAUT",
+      "trigger": "¨",
+      "compose": {
+        "a": "ä",
+        "A": "Ä",
+        "e": "ë",
+        "E": "Ë",
+        "i": "ï",
+        "I": "Ï",
+        "o": "ö",
+        "O": "Ö",
+        "u": "ü",
+        "U": "Ü",
+        "y": "ÿ",
+        "Y": "Ÿ",
+        " ": "¨"
+      }
+    },
+    {
+      "name": "ČáRKA",
+      "trigger": "´",
+      "compose": {
+        "a": "á",
+        "A": "Á",
+        "c": "ć",
+        "C": "Ć",
+        "e": "é",
+        "E": "É",
+        "i": "í",
+        "I": "Í",
+        "l": "ĺ",
+        "L": "Ĺ",
+        "n": "ń",
+        "N": "Ń",
+        "o": "ó",
+        "O": "Ó",
+        "r": "ŕ",
+        "R": "Ŕ",
+        "s": "ś",
+        "S": "Ś",
+        "u": "ú",
+        "U": "Ú",
+        "y": "ý",
+        "Y": "Ý",
+        "z": "ź",
+        "Z": "Ź",
+        " ": "´"
+      }
+    },
+    {
+      "name": "HACEK",
+      "trigger": "ˇ",
+      "compose": {
+        "c": "č",
+        "C": "Č",
+        "d": "ď",
+        "D": "Ď",
+        "e": "ě",
+        "E": "Ě",
+        "l": "ľ",
+        "L": "Ľ",
+        "n": "ň",
+        "N": "Ň",
+        "r": "ř",
+        "R": "Ř",
+        "s": "š",
+        "S": "Š",
+        "t": "ť",
+        "T": "Ť",
+        "z": "ž",
+        "Z": "Ž",
+        " ": "ˇ"
+      }
+    },
+    {
+      "name": "CEDILLA",
+      "trigger": "¸",
+      "compose": {
+        "c": "ç",
+        "C": "Ç",
+        "g": "ģ",
+        "G": "Ģ",
+        "k": "ķ",
+        "K": "Ķ",
+        "l": "ļ",
+        "L": "Ļ",
+        "n": "ņ",
+        "N": "Ņ",
+        "r": "ŗ",
+        "R": "Ŗ",
+        "s": "ş",
+        "S": "Ş",
+        "t": "ţ",
+        "T": "Ţ",
+        " ": "¸"
+      }
+    },
+    {
+      "name": "RING",
+      "trigger": "°",
+      "compose": {
+        "a": "å",
+        "A": "Å",
+        "u": "ů",
+        "U": "Ů",
+        " ": "°"
+      }
+    },
+    {
+      "name": "UMLAUT",
+      "trigger": "¨",
+      "compose": {
+        "a": "ä",
+        "A": "Ä",
+        "e": "ë",
+        "E": "Ë",
+        "i": "ï",
+        "I": "Ï",
+        "o": "ö",
+        "O": "Ö",
+        "u": "ü",
+        "U": "Ü",
+        "y": "ÿ",
+        "Y": "Ÿ",
+        " ": "¨"
       }
     }
   ],

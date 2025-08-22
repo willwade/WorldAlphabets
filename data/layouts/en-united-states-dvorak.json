@@ -1,10 +1,10 @@
 {
-  "id": "de-german",
-  "name": "German",
+  "id": "en-united-states-dvorak",
+  "name": "United States-Dvorak",
   "source": "kbdlayout.info",
   "iso_variant": null,
   "flags": {
-    "rightAltIsAltGr": true,
+    "rightAltIsAltGr": false,
     "shiftCancelsCapsLock": false,
     "changesDirectionality": false
   },
@@ -48,7 +48,7 @@
       "legends": {
         "base": "1",
         "shift": "!",
-        "caps": "!",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -71,9 +71,9 @@
       "sc": "03",
       "legends": {
         "base": "2",
-        "shift": "\"",
-        "caps": "\"",
-        "altgr": "²",
+        "shift": "@",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -95,9 +95,9 @@
       "sc": "04",
       "legends": {
         "base": "3",
-        "shift": "§",
-        "caps": "§",
-        "altgr": "³",
+        "shift": "#",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -120,7 +120,7 @@
       "legends": {
         "base": "4",
         "shift": "$",
-        "caps": "$",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -144,7 +144,7 @@
       "legends": {
         "base": "5",
         "shift": "%",
-        "caps": "%",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -167,8 +167,8 @@
       "sc": "07",
       "legends": {
         "base": "6",
-        "shift": "&",
-        "caps": "&",
+        "shift": "^",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -191,9 +191,9 @@
       "sc": "08",
       "legends": {
         "base": "7",
-        "shift": "/",
-        "caps": "/",
-        "altgr": "{",
+        "shift": "&",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -215,9 +215,9 @@
       "sc": "09",
       "legends": {
         "base": "8",
-        "shift": "(",
-        "caps": "(",
-        "altgr": "[",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -239,9 +239,9 @@
       "sc": "0A",
       "legends": {
         "base": "9",
-        "shift": ")",
-        "caps": ")",
-        "altgr": "]",
+        "shift": "(",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -263,9 +263,9 @@
       "sc": "0B",
       "legends": {
         "base": "0",
-        "shift": "=",
-        "caps": "=",
-        "altgr": "}",
+        "shift": ")",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -286,10 +286,10 @@
       "vk": "VK_OEM_4",
       "sc": "0C",
       "legends": {
-        "base": "ß",
-        "shift": "?",
-        "caps": "?",
-        "altgr": "\\",
+        "base": "[",
+        "shift": "{",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -310,15 +310,15 @@
       "vk": "VK_OEM_6",
       "sc": "0D",
       "legends": {
-        "base": "´",
-        "shift": "`",
+        "base": "]",
+        "shift": "}",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": true,
+      "dead": false,
       "notes": []
     },
     {
@@ -379,13 +379,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Q",
+      "vk": "VK_OEM_7",
       "sc": "10",
       "legends": {
-        "base": "q",
-        "shift": "Q",
-        "caps": "Q",
-        "altgr": "@",
+        "base": "'",
+        "shift": "\"",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -403,12 +403,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_W",
+      "vk": "VK_OEM_COMMA",
       "sc": "11",
       "legends": {
-        "base": "w",
-        "shift": "W",
-        "caps": "W",
+        "base": ",",
+        "shift": "<",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -427,13 +427,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_E",
+      "vk": "VK_OEM_PERIOD",
       "sc": "12",
       "legends": {
-        "base": "e",
-        "shift": "E",
-        "caps": "E",
-        "altgr": "€",
+        "base": ".",
+        "shift": ">",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -451,12 +451,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_R",
+      "vk": "VK_P",
       "sc": "13",
       "legends": {
-        "base": "r",
-        "shift": "R",
-        "caps": "R",
+        "base": "p",
+        "shift": "P",
+        "caps": "P",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -475,12 +475,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_T",
+      "vk": "VK_Y",
       "sc": "14",
       "legends": {
-        "base": "t",
-        "shift": "T",
-        "caps": "T",
+        "base": "y",
+        "shift": "Y",
+        "caps": "Y",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -499,12 +499,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Z",
+      "vk": "VK_F",
       "sc": "15",
       "legends": {
-        "base": "z",
-        "shift": "Z",
-        "caps": "Z",
+        "base": "f",
+        "shift": "F",
+        "caps": "F",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -523,12 +523,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_U",
+      "vk": "VK_G",
       "sc": "16",
       "legends": {
-        "base": "u",
-        "shift": "U",
-        "caps": "U",
+        "base": "g",
+        "shift": "G",
+        "caps": "G",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -547,12 +547,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_I",
+      "vk": "VK_C",
       "sc": "17",
       "legends": {
-        "base": "i",
-        "shift": "I",
-        "caps": "I",
+        "base": "c",
+        "shift": "C",
+        "caps": "C",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -571,12 +571,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_O",
+      "vk": "VK_R",
       "sc": "18",
       "legends": {
-        "base": "o",
-        "shift": "O",
-        "caps": "O",
+        "base": "r",
+        "shift": "R",
+        "caps": "R",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -595,12 +595,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_P",
+      "vk": "VK_L",
       "sc": "19",
       "legends": {
-        "base": "p",
-        "shift": "P",
-        "caps": "P",
+        "base": "l",
+        "shift": "L",
+        "caps": "L",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -619,12 +619,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_1",
+      "vk": "VK_OEM_2",
       "sc": "1A",
       "legends": {
-        "base": "ü",
-        "shift": "Ü",
-        "caps": "Ü",
+        "base": "/",
+        "shift": "?",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -646,10 +646,10 @@
       "vk": "VK_OEM_PLUS",
       "sc": "1B",
       "legends": {
-        "base": "+",
-        "shift": "*",
-        "caps": "*",
-        "altgr": "~",
+        "base": "=",
+        "shift": "+",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -739,12 +739,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_S",
+      "vk": "VK_O",
       "sc": "1F",
       "legends": {
-        "base": "s",
-        "shift": "S",
-        "caps": "S",
+        "base": "o",
+        "shift": "O",
+        "caps": "O",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -763,12 +763,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_D",
+      "vk": "VK_E",
       "sc": "20",
       "legends": {
-        "base": "d",
-        "shift": "D",
-        "caps": "D",
+        "base": "e",
+        "shift": "E",
+        "caps": "E",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -787,12 +787,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_F",
+      "vk": "VK_U",
       "sc": "21",
       "legends": {
-        "base": "f",
-        "shift": "F",
-        "caps": "F",
+        "base": "u",
+        "shift": "U",
+        "caps": "U",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -811,12 +811,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_G",
+      "vk": "VK_I",
       "sc": "22",
       "legends": {
-        "base": "g",
-        "shift": "G",
-        "caps": "G",
+        "base": "i",
+        "shift": "I",
+        "caps": "I",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -835,12 +835,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_H",
+      "vk": "VK_D",
       "sc": "23",
       "legends": {
-        "base": "h",
-        "shift": "H",
-        "caps": "H",
+        "base": "d",
+        "shift": "D",
+        "caps": "D",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -859,12 +859,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_J",
+      "vk": "VK_H",
       "sc": "24",
       "legends": {
-        "base": "j",
-        "shift": "J",
-        "caps": "J",
+        "base": "h",
+        "shift": "H",
+        "caps": "H",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -883,12 +883,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_K",
+      "vk": "VK_T",
       "sc": "25",
       "legends": {
-        "base": "k",
-        "shift": "K",
-        "caps": "K",
+        "base": "t",
+        "shift": "T",
+        "caps": "T",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -907,12 +907,12 @@
         "w": 1.5,
         "h": 1.0
       },
-      "vk": "VK_L",
+      "vk": "VK_N",
       "sc": "26",
       "legends": {
-        "base": "l",
-        "shift": "L",
-        "caps": "L",
+        "base": "n",
+        "shift": "N",
+        "caps": "N",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -931,12 +931,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_3",
+      "vk": "VK_S",
       "sc": "27",
       "legends": {
-        "base": "ö",
-        "shift": "Ö",
-        "caps": "Ö",
+        "base": "s",
+        "shift": "S",
+        "caps": "S",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -955,12 +955,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_7",
+      "vk": "VK_OEM_MINUS",
       "sc": "28",
       "legends": {
-        "base": "ä",
-        "shift": "Ä",
-        "caps": "Ä",
+        "base": "-",
+        "shift": "_",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -979,18 +979,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_5",
+      "vk": "VK_OEM_3",
       "sc": "29",
       "legends": {
-        "base": "^",
-        "shift": "°",
+        "base": "`",
+        "shift": "~",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": true,
+      "dead": false,
       "notes": []
     },
     {
@@ -1027,12 +1027,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_2",
+      "vk": "VK_OEM_5",
       "sc": "2B",
       "legends": {
-        "base": "#",
-        "shift": "'",
-        "caps": "'",
+        "base": "\\",
+        "shift": "|",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1051,12 +1051,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Y",
+      "vk": "VK_OEM_1",
       "sc": "2C",
       "legends": {
-        "base": "y",
-        "shift": "Y",
-        "caps": "Y",
+        "base": ";",
+        "shift": ":",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1075,12 +1075,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_X",
+      "vk": "VK_Q",
       "sc": "2D",
       "legends": {
-        "base": "x",
-        "shift": "X",
-        "caps": "X",
+        "base": "q",
+        "shift": "Q",
+        "caps": "Q",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1099,12 +1099,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_C",
+      "vk": "VK_J",
       "sc": "2E",
       "legends": {
-        "base": "c",
-        "shift": "C",
-        "caps": "C",
+        "base": "j",
+        "shift": "J",
+        "caps": "J",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1123,12 +1123,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_V",
+      "vk": "VK_K",
       "sc": "2F",
       "legends": {
-        "base": "v",
-        "shift": "V",
-        "caps": "V",
+        "base": "k",
+        "shift": "K",
+        "caps": "K",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1147,12 +1147,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_B",
+      "vk": "VK_X",
       "sc": "30",
       "legends": {
-        "base": "b",
-        "shift": "B",
-        "caps": "B",
+        "base": "x",
+        "shift": "X",
+        "caps": "X",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1171,12 +1171,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_N",
+      "vk": "VK_B",
       "sc": "31",
       "legends": {
-        "base": "n",
-        "shift": "N",
-        "caps": "N",
+        "base": "b",
+        "shift": "B",
+        "caps": "B",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1201,7 +1201,7 @@
         "base": "m",
         "shift": "M",
         "caps": "M",
-        "altgr": "µ",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1219,12 +1219,12 @@
         "w": 1.25,
         "h": 2.0
       },
-      "vk": "VK_OEM_COMMA",
+      "vk": "VK_W",
       "sc": "33",
       "legends": {
-        "base": ",",
-        "shift": ";",
-        "caps": ";",
+        "base": "w",
+        "shift": "W",
+        "caps": "W",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1243,12 +1243,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_PERIOD",
+      "vk": "VK_V",
       "sc": "34",
       "legends": {
-        "base": ".",
-        "shift": ":",
-        "caps": ":",
+        "base": "v",
+        "shift": "V",
+        "caps": "V",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1267,12 +1267,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_MINUS",
+      "vk": "VK_Z",
       "sc": "35",
       "legends": {
-        "base": "-",
-        "shift": "_",
-        "caps": null,
+        "base": "z",
+        "shift": "Z",
+        "caps": "Z",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -2038,10 +2038,10 @@
       "vk": "VK_OEM_102",
       "sc": "56",
       "legends": {
-        "base": "<",
-        "shift": ">",
+        "base": "\\",
+        "shift": "|",
         "caps": null,
-        "altgr": "|",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -3442,61 +3442,7 @@
       "notes": []
     }
   ],
-  "dead_keys": [
-    {
-      "name": "AKUT",
-      "trigger": "´",
-      "compose": {
-        "a": "á",
-        "e": "é",
-        "i": "í",
-        "o": "ó",
-        "u": "ú",
-        "y": "ý",
-        "A": "Á",
-        "E": "É",
-        "I": "Í",
-        "O": "Ó",
-        "U": "Ú",
-        "Y": "Ý",
-        " ": "´"
-      }
-    },
-    {
-      "name": "GRAVIS",
-      "trigger": "`",
-      "compose": {
-        "a": "à",
-        "e": "è",
-        "i": "ì",
-        "o": "ò",
-        "u": "ù",
-        "A": "À",
-        "E": "È",
-        "I": "Ì",
-        "O": "Ò",
-        "U": "Ù",
-        " ": "`"
-      }
-    },
-    {
-      "name": "ZIRKUMFLEX",
-      "trigger": "^",
-      "compose": {
-        "a": "â",
-        "e": "ê",
-        "i": "î",
-        "o": "ô",
-        "u": "û",
-        "A": "Â",
-        "E": "Ê",
-        "I": "Î",
-        "O": "Ô",
-        "U": "Û",
-        " ": "^"
-      }
-    }
-  ],
+  "dead_keys": [],
   "ligatures": null,
   "meta": {}
 }

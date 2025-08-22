@@ -1,6 +1,6 @@
 {
-  "id": "de-german",
-  "name": "German",
+  "id": "gd-scottish-gaelic",
+  "name": "Scottish Gaelic",
   "source": "kbdlayout.info",
   "iso_variant": null,
   "flags": {
@@ -48,7 +48,7 @@
       "legends": {
         "base": "1",
         "shift": "!",
-        "caps": "!",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -72,8 +72,8 @@
       "legends": {
         "base": "2",
         "shift": "\"",
-        "caps": "\"",
-        "altgr": "²",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -95,9 +95,9 @@
       "sc": "04",
       "legends": {
         "base": "3",
-        "shift": "§",
-        "caps": "§",
-        "altgr": "³",
+        "shift": "£",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -120,8 +120,8 @@
       "legends": {
         "base": "4",
         "shift": "$",
-        "caps": "$",
-        "altgr": null,
+        "caps": null,
+        "altgr": "€",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -144,7 +144,7 @@
       "legends": {
         "base": "5",
         "shift": "%",
-        "caps": "%",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -167,8 +167,8 @@
       "sc": "07",
       "legends": {
         "base": "6",
-        "shift": "&",
-        "caps": "&",
+        "shift": "^",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -191,9 +191,9 @@
       "sc": "08",
       "legends": {
         "base": "7",
-        "shift": "/",
-        "caps": "/",
-        "altgr": "{",
+        "shift": "&",
+        "caps": null,
+        "altgr": "⁊",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -215,9 +215,9 @@
       "sc": "09",
       "legends": {
         "base": "8",
-        "shift": "(",
-        "caps": "(",
-        "altgr": "[",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -239,9 +239,9 @@
       "sc": "0A",
       "legends": {
         "base": "9",
-        "shift": ")",
-        "caps": ")",
-        "altgr": "]",
+        "shift": "(",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -263,9 +263,9 @@
       "sc": "0B",
       "legends": {
         "base": "0",
-        "shift": "=",
-        "caps": "=",
-        "altgr": "}",
+        "shift": ")",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -283,13 +283,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_4",
+      "vk": "VK_OEM_MINUS",
       "sc": "0C",
       "legends": {
-        "base": "ß",
-        "shift": "?",
-        "caps": "?",
-        "altgr": "\\",
+        "base": "-",
+        "shift": "_",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -307,18 +307,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_6",
+      "vk": "VK_OEM_PLUS",
       "sc": "0D",
       "legends": {
-        "base": "´",
-        "shift": "`",
+        "base": "=",
+        "shift": "+",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": true,
+      "dead": false,
       "notes": []
     },
     {
@@ -385,7 +385,7 @@
         "base": "q",
         "shift": "Q",
         "caps": "Q",
-        "altgr": "@",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -433,7 +433,7 @@
         "base": "e",
         "shift": "E",
         "caps": "E",
-        "altgr": "€",
+        "altgr": "é",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -499,13 +499,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Z",
+      "vk": "VK_Y",
       "sc": "15",
       "legends": {
-        "base": "z",
-        "shift": "Z",
-        "caps": "Z",
-        "altgr": null,
+        "base": "y",
+        "shift": "Y",
+        "caps": "Y",
+        "altgr": "ý",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -529,7 +529,7 @@
         "base": "u",
         "shift": "U",
         "caps": "U",
-        "altgr": null,
+        "altgr": "ú",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -553,7 +553,7 @@
         "base": "i",
         "shift": "I",
         "caps": "I",
-        "altgr": null,
+        "altgr": "í",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -577,7 +577,7 @@
         "base": "o",
         "shift": "O",
         "caps": "O",
-        "altgr": null,
+        "altgr": "ó",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -619,12 +619,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_1",
+      "vk": "VK_OEM_4",
       "sc": "1A",
       "legends": {
-        "base": "ü",
-        "shift": "Ü",
-        "caps": "Ü",
+        "base": "[",
+        "shift": "{",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -643,13 +643,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_PLUS",
+      "vk": "VK_OEM_6",
       "sc": "1B",
       "legends": {
-        "base": "+",
-        "shift": "*",
-        "caps": "*",
-        "altgr": "~",
+        "base": "]",
+        "shift": "}",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -721,7 +721,7 @@
         "base": "a",
         "shift": "A",
         "caps": "A",
-        "altgr": null,
+        "altgr": "á",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -931,12 +931,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_3",
+      "vk": "VK_OEM_1",
       "sc": "27",
       "legends": {
-        "base": "ö",
-        "shift": "Ö",
-        "caps": "Ö",
+        "base": ";",
+        "shift": ":",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -955,18 +955,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_7",
+      "vk": "VK_OEM_3",
       "sc": "28",
       "legends": {
-        "base": "ä",
-        "shift": "Ä",
-        "caps": "Ä",
-        "altgr": null,
+        "base": "'",
+        "shift": "@",
+        "caps": null,
+        "altgr": "'",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -979,13 +979,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_5",
+      "vk": "VK_OEM_8",
       "sc": "29",
       "legends": {
-        "base": "^",
-        "shift": "°",
+        "base": "`",
+        "shift": "`",
         "caps": null,
-        "altgr": null,
+        "altgr": "¦",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1027,12 +1027,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_2",
+      "vk": "VK_OEM_7",
       "sc": "2B",
       "legends": {
         "base": "#",
-        "shift": "'",
-        "caps": "'",
+        "shift": "~",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1051,12 +1051,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Y",
+      "vk": "VK_Z",
       "sc": "2C",
       "legends": {
-        "base": "y",
-        "shift": "Y",
-        "caps": "Y",
+        "base": "z",
+        "shift": "Z",
+        "caps": "Z",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1201,7 +1201,7 @@
         "base": "m",
         "shift": "M",
         "caps": "M",
-        "altgr": "µ",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1223,8 +1223,8 @@
       "sc": "33",
       "legends": {
         "base": ",",
-        "shift": ";",
-        "caps": ";",
+        "shift": "<",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1247,8 +1247,8 @@
       "sc": "34",
       "legends": {
         "base": ".",
-        "shift": ":",
-        "caps": ":",
+        "shift": ">",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1267,11 +1267,11 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_MINUS",
+      "vk": "VK_OEM_2",
       "sc": "35",
       "legends": {
-        "base": "-",
-        "shift": "_",
+        "base": "/",
+        "shift": "?",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
@@ -2035,13 +2035,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_102",
+      "vk": "VK_OEM_5",
       "sc": "56",
       "legends": {
-        "base": "<",
-        "shift": ">",
+        "base": "\\",
+        "shift": "|",
         "caps": null,
-        "altgr": "|",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -3444,8 +3444,8 @@
   ],
   "dead_keys": [
     {
-      "name": "AKUT",
-      "trigger": "´",
+      "name": "APOSTROPHE",
+      "trigger": "'",
       "compose": {
         "a": "á",
         "e": "é",
@@ -3459,11 +3459,11 @@
         "O": "Ó",
         "U": "Ú",
         "Y": "Ý",
-        " ": "´"
+        " ": "'"
       }
     },
     {
-      "name": "GRAVIS",
+      "name": "GRAVE",
       "trigger": "`",
       "compose": {
         "a": "à",
@@ -3477,23 +3477,6 @@
         "O": "Ò",
         "U": "Ù",
         " ": "`"
-      }
-    },
-    {
-      "name": "ZIRKUMFLEX",
-      "trigger": "^",
-      "compose": {
-        "a": "â",
-        "e": "ê",
-        "i": "î",
-        "o": "ô",
-        "u": "û",
-        "A": "Â",
-        "E": "Ê",
-        "I": "Î",
-        "O": "Ô",
-        "U": "Û",
-        " ": "^"
       }
     }
   ],

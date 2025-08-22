@@ -1,6 +1,6 @@
 {
-  "id": "de-german",
-  "name": "German",
+  "id": "pt-portuguese-brazil-abnt",
+  "name": "Portuguese (Brazil ABNT)",
   "source": "kbdlayout.info",
   "iso_variant": null,
   "flags": {
@@ -48,8 +48,8 @@
       "legends": {
         "base": "1",
         "shift": "!",
-        "caps": "!",
-        "altgr": null,
+        "caps": null,
+        "altgr": "¹",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -71,8 +71,8 @@
       "sc": "03",
       "legends": {
         "base": "2",
-        "shift": "\"",
-        "caps": "\"",
+        "shift": "@",
+        "caps": null,
         "altgr": "²",
         "shift_altgr": null,
         "ctrl": null,
@@ -95,8 +95,8 @@
       "sc": "04",
       "legends": {
         "base": "3",
-        "shift": "§",
-        "caps": "§",
+        "shift": "#",
+        "caps": null,
         "altgr": "³",
         "shift_altgr": null,
         "ctrl": null,
@@ -120,8 +120,8 @@
       "legends": {
         "base": "4",
         "shift": "$",
-        "caps": "$",
-        "altgr": null,
+        "caps": null,
+        "altgr": "£",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -144,8 +144,8 @@
       "legends": {
         "base": "5",
         "shift": "%",
-        "caps": "%",
-        "altgr": null,
+        "caps": null,
+        "altgr": "¢",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -167,14 +167,14 @@
       "sc": "07",
       "legends": {
         "base": "6",
-        "shift": "&",
-        "caps": "&",
-        "altgr": null,
+        "shift": "¨",
+        "caps": null,
+        "altgr": "¬",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -191,9 +191,9 @@
       "sc": "08",
       "legends": {
         "base": "7",
-        "shift": "/",
-        "caps": "/",
-        "altgr": "{",
+        "shift": "&",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -215,9 +215,9 @@
       "sc": "09",
       "legends": {
         "base": "8",
-        "shift": "(",
-        "caps": "(",
-        "altgr": "[",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -239,9 +239,9 @@
       "sc": "0A",
       "legends": {
         "base": "9",
-        "shift": ")",
-        "caps": ")",
-        "altgr": "]",
+        "shift": "(",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -263,9 +263,9 @@
       "sc": "0B",
       "legends": {
         "base": "0",
-        "shift": "=",
-        "caps": "=",
-        "altgr": "}",
+        "shift": ")",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -283,13 +283,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_4",
+      "vk": "VK_OEM_MINUS",
       "sc": "0C",
       "legends": {
-        "base": "ß",
-        "shift": "?",
-        "caps": "?",
-        "altgr": "\\",
+        "base": "-",
+        "shift": "_",
+        "caps": null,
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -307,18 +307,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_6",
+      "vk": "VK_OEM_PLUS",
       "sc": "0D",
       "legends": {
-        "base": "´",
-        "shift": "`",
+        "base": "=",
+        "shift": "+",
         "caps": null,
-        "altgr": null,
+        "altgr": "§",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": true,
+      "dead": false,
       "notes": []
     },
     {
@@ -385,7 +385,7 @@
         "base": "q",
         "shift": "Q",
         "caps": "Q",
-        "altgr": "@",
+        "altgr": "/",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -409,7 +409,7 @@
         "base": "w",
         "shift": "W",
         "caps": "W",
-        "altgr": null,
+        "altgr": "?",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -433,7 +433,7 @@
         "base": "e",
         "shift": "E",
         "caps": "E",
-        "altgr": "€",
+        "altgr": "°",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -499,12 +499,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Z",
+      "vk": "VK_Y",
       "sc": "15",
       "legends": {
-        "base": "z",
-        "shift": "Z",
-        "caps": "Z",
+        "base": "y",
+        "shift": "Y",
+        "caps": "Y",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -619,18 +619,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_1",
+      "vk": "VK_OEM_4",
       "sc": "1A",
       "legends": {
-        "base": "ü",
-        "shift": "Ü",
-        "caps": "Ü",
+        "base": "´",
+        "shift": "`",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -643,13 +643,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_PLUS",
+      "vk": "VK_OEM_6",
       "sc": "1B",
       "legends": {
-        "base": "+",
-        "shift": "*",
-        "caps": "*",
-        "altgr": "~",
+        "base": "[",
+        "shift": "{",
+        "caps": null,
+        "altgr": "ª",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -931,12 +931,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_3",
+      "vk": "VK_OEM_1",
       "sc": "27",
       "legends": {
-        "base": "ö",
-        "shift": "Ö",
-        "caps": "Ö",
+        "base": "ç",
+        "shift": "Ç",
+        "caps": "Ç",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -958,15 +958,15 @@
       "vk": "VK_OEM_7",
       "sc": "28",
       "legends": {
-        "base": "ä",
-        "shift": "Ä",
-        "caps": "Ä",
+        "base": "~",
+        "shift": "^",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": false,
+      "dead": true,
       "notes": []
     },
     {
@@ -979,18 +979,18 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_5",
+      "vk": "VK_OEM_3",
       "sc": "29",
       "legends": {
-        "base": "^",
-        "shift": "°",
+        "base": "'",
+        "shift": "\"",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
       },
-      "dead": true,
+      "dead": false,
       "notes": []
     },
     {
@@ -1027,13 +1027,13 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_2",
+      "vk": "VK_OEM_5",
       "sc": "2B",
       "legends": {
-        "base": "#",
-        "shift": "'",
-        "caps": "'",
-        "altgr": null,
+        "base": "]",
+        "shift": "}",
+        "caps": null,
+        "altgr": "º",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1051,12 +1051,12 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_Y",
+      "vk": "VK_Z",
       "sc": "2C",
       "legends": {
-        "base": "y",
-        "shift": "Y",
-        "caps": "Y",
+        "base": "z",
+        "shift": "Z",
+        "caps": "Z",
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1105,7 +1105,7 @@
         "base": "c",
         "shift": "C",
         "caps": "C",
-        "altgr": null,
+        "altgr": "₢",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1201,7 +1201,7 @@
         "base": "m",
         "shift": "M",
         "caps": "M",
-        "altgr": "µ",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -1223,8 +1223,8 @@
       "sc": "33",
       "legends": {
         "base": ",",
-        "shift": ";",
-        "caps": ";",
+        "shift": "<",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1247,8 +1247,8 @@
       "sc": "34",
       "legends": {
         "base": ".",
-        "shift": ":",
-        "caps": ":",
+        "shift": ">",
+        "caps": null,
         "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
@@ -1267,11 +1267,11 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_MINUS",
+      "vk": "VK_OEM_2",
       "sc": "35",
       "legends": {
-        "base": "-",
-        "shift": "_",
+        "base": ";",
+        "shift": ":",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
@@ -1385,7 +1385,7 @@
         "x": 21.5,
         "y": 2.0,
         "w": 1.0,
-        "h": 2.0
+        "h": 1.0
       },
       "vk": "VK_CAPITAL",
       "sc": "3A",
@@ -1787,12 +1787,12 @@
     },
     {
       "pos": "Numpad4",
-      "row": 4,
-      "col": 0,
+      "row": 3,
+      "col": 21,
       "shape": {
-        "x": 0.0,
-        "y": 4.0,
-        "w": 1.25,
+        "x": 21.5,
+        "y": 3.0,
+        "w": 1.0,
         "h": 1.0
       },
       "vk": "VK_LEFT",
@@ -1812,11 +1812,11 @@
     {
       "pos": "Numpad5",
       "row": 4,
-      "col": 1,
+      "col": 0,
       "shape": {
-        "x": 1.25,
+        "x": 0.0,
         "y": 4.0,
-        "w": 1.0,
+        "w": 1.25,
         "h": 1.0
       },
       "vk": "VK_CLEAR",
@@ -1836,9 +1836,9 @@
     {
       "pos": "Numpad6",
       "row": 4,
-      "col": 2,
+      "col": 1,
       "shape": {
-        "x": 2.25,
+        "x": 1.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1860,9 +1860,9 @@
     {
       "pos": "NumpadAdd",
       "row": 4,
-      "col": 3,
+      "col": 2,
       "shape": {
-        "x": 3.25,
+        "x": 2.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1884,9 +1884,9 @@
     {
       "pos": "Numpad1",
       "row": 4,
-      "col": 4,
+      "col": 3,
       "shape": {
-        "x": 4.25,
+        "x": 3.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1908,9 +1908,9 @@
     {
       "pos": "Numpad2",
       "row": 4,
-      "col": 5,
+      "col": 4,
       "shape": {
-        "x": 5.25,
+        "x": 4.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1932,9 +1932,9 @@
     {
       "pos": "Numpad3",
       "row": 4,
-      "col": 6,
+      "col": 5,
       "shape": {
-        "x": 6.25,
+        "x": 5.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1956,9 +1956,9 @@
     {
       "pos": "Numpad0",
       "row": 4,
-      "col": 7,
+      "col": 6,
       "shape": {
-        "x": 7.25,
+        "x": 6.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -1980,9 +1980,9 @@
     {
       "pos": "NumpadDecimal",
       "row": 4,
-      "col": 8,
+      "col": 7,
       "shape": {
-        "x": 8.25,
+        "x": 7.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -2002,11 +2002,11 @@
       "notes": []
     },
     {
-      "pos": "r4c9",
+      "pos": "r4c8",
       "row": 4,
-      "col": 9,
+      "col": 8,
       "shape": {
-        "x": 9.25,
+        "x": 8.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -2028,9 +2028,9 @@
     {
       "pos": "IntlBackslash",
       "row": 4,
-      "col": 10,
+      "col": 9,
       "shape": {
-        "x": 10.25,
+        "x": 9.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -2038,10 +2038,10 @@
       "vk": "VK_OEM_102",
       "sc": "56",
       "legends": {
-        "base": "<",
-        "shift": ">",
+        "base": "\\",
+        "shift": "|",
         "caps": null,
-        "altgr": "|",
+        "altgr": null,
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -2052,9 +2052,9 @@
     {
       "pos": "F11",
       "row": 4,
-      "col": 11,
+      "col": 10,
       "shape": {
-        "x": 11.25,
+        "x": 10.25,
         "y": 4.0,
         "w": 1.0,
         "h": 1.0
@@ -2076,15 +2076,63 @@
     {
       "pos": "F12",
       "row": 4,
-      "col": 12,
+      "col": 11,
       "shape": {
-        "x": 12.25,
+        "x": 11.25,
         "y": 4.0,
-        "w": 2.75,
+        "w": 1.0,
         "h": 1.0
       },
       "vk": "VK_F12",
       "sc": "58",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c12",
+      "row": 4,
+      "col": 12,
+      "shape": {
+        "x": 12.25,
+        "y": 4.0,
+        "w": 1.0,
+        "h": 1.0
+      },
+      "vk": "VK_CLEAR",
+      "sc": "59",
+      "legends": {
+        "base": null,
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": "r4c13",
+      "row": 4,
+      "col": 13,
+      "shape": {
+        "x": 13.25,
+        "y": 4.0,
+        "w": 1.75,
+        "h": 1.0
+      },
+      "vk": "VK_OEM_WSCTRL",
+      "sc": "5A",
       "legends": {
         "base": null,
         "shift": null,
@@ -2107,8 +2155,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_CLEAR",
-      "sc": "59",
+      "vk": "VK_DBE_KATAKANA",
+      "sc": "5B",
       "legends": {
         "base": null,
         "shift": null,
@@ -2131,8 +2179,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_WSCTRL",
-      "sc": "5A",
+      "vk": "VK_OEM_JUMP",
+      "sc": "5C",
       "legends": {
         "base": null,
         "shift": null,
@@ -2155,8 +2203,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_DBE_KATAKANA",
-      "sc": "5B",
+      "vk": "VK_DBE_FLUSHSTRING",
+      "sc": "5D",
       "legends": {
         "base": null,
         "shift": null,
@@ -2179,8 +2227,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_OEM_JUMP",
-      "sc": "5C",
+      "vk": "VK_OEM_BACKTAB",
+      "sc": "5E",
       "legends": {
         "base": null,
         "shift": null,
@@ -2203,8 +2251,8 @@
         "w": 1.0,
         "h": 2.0
       },
-      "vk": "VK_DBE_FLUSHSTRING",
-      "sc": "5D",
+      "vk": "VK_OEM_AUTO",
+      "sc": "5F",
       "legends": {
         "base": null,
         "shift": null,
@@ -2227,8 +2275,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_OEM_BACKTAB",
-      "sc": "5E",
+      "vk": "VK_DBE_NOCODEINPUT",
+      "sc": "62",
       "legends": {
         "base": null,
         "shift": null,
@@ -2251,8 +2299,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_OEM_AUTO",
-      "sc": "5F",
+      "vk": "VK_HELP",
+      "sc": "63",
       "legends": {
         "base": null,
         "shift": null,
@@ -2275,8 +2323,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_DBE_NOCODEINPUT",
-      "sc": "62",
+      "vk": "VK_F13",
+      "sc": "64",
       "legends": {
         "base": null,
         "shift": null,
@@ -2299,8 +2347,8 @@
         "w": 6.25,
         "h": 1.0
       },
-      "vk": "VK_HELP",
-      "sc": "63",
+      "vk": "VK_F14",
+      "sc": "65",
       "legends": {
         "base": null,
         "shift": null,
@@ -2323,8 +2371,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_F13",
-      "sc": "64",
+      "vk": "VK_F15",
+      "sc": "66",
       "legends": {
         "base": null,
         "shift": null,
@@ -2347,8 +2395,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_F14",
-      "sc": "65",
+      "vk": "VK_F16",
+      "sc": "67",
       "legends": {
         "base": null,
         "shift": null,
@@ -2371,8 +2419,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_F15",
-      "sc": "66",
+      "vk": "VK_F17",
+      "sc": "68",
       "legends": {
         "base": null,
         "shift": null,
@@ -2395,8 +2443,8 @@
         "w": 1.25,
         "h": 1.0
       },
-      "vk": "VK_F16",
-      "sc": "67",
+      "vk": "VK_F18",
+      "sc": "69",
       "legends": {
         "base": null,
         "shift": null,
@@ -2419,8 +2467,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_F17",
-      "sc": "68",
+      "vk": "VK_F19",
+      "sc": "6A",
       "legends": {
         "base": null,
         "shift": null,
@@ -2443,8 +2491,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_F18",
-      "sc": "69",
+      "vk": "VK_F20",
+      "sc": "6B",
       "legends": {
         "base": null,
         "shift": null,
@@ -2467,8 +2515,8 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_F19",
-      "sc": "6A",
+      "vk": "VK_F21",
+      "sc": "6C",
       "legends": {
         "base": null,
         "shift": null,
@@ -2491,8 +2539,8 @@
         "w": 2.0,
         "h": 1.0
       },
-      "vk": "VK_F20",
-      "sc": "6B",
+      "vk": "VK_F22",
+      "sc": "6D",
       "legends": {
         "base": null,
         "shift": null,
@@ -2515,44 +2563,6 @@
         "w": 1.0,
         "h": 1.0
       },
-      "vk": "VK_F21",
-      "sc": "6C",
-      "legends": {
-        "base": null,
-        "shift": null,
-        "caps": null,
-        "altgr": null,
-        "shift_altgr": null,
-        "ctrl": null,
-        "alt": null
-      },
-      "dead": false,
-      "notes": []
-    },
-    {
-      "pos": null,
-      "row": null,
-      "col": null,
-      "shape": null,
-      "vk": "VK_F22",
-      "sc": "6D",
-      "legends": {
-        "base": null,
-        "shift": null,
-        "caps": null,
-        "altgr": null,
-        "shift_altgr": null,
-        "ctrl": null,
-        "alt": null
-      },
-      "dead": false,
-      "notes": []
-    },
-    {
-      "pos": null,
-      "row": null,
-      "col": null,
-      "shape": null,
       "vk": "VK_F23",
       "sc": "6E",
       "legends": {
@@ -2613,10 +2623,10 @@
       "vk": "VK_ABNT_C1",
       "sc": "73",
       "legends": {
-        "base": null,
-        "shift": null,
+        "base": "/",
+        "shift": "?",
         "caps": null,
-        "altgr": null,
+        "altgr": "°",
         "shift_altgr": null,
         "ctrl": null,
         "alt": null
@@ -2689,8 +2699,8 @@
       "vk": "VK_ABNT_C2",
       "sc": "7E",
       "legends": {
-        "base": null,
-        "shift": null,
+        "base": ".",
+        "shift": ".",
         "caps": null,
         "altgr": null,
         "shift_altgr": null,
@@ -3444,7 +3454,25 @@
   ],
   "dead_keys": [
     {
-      "name": "AKUT",
+      "name": "TREMA",
+      "trigger": "¨",
+      "compose": {
+        "a": "ä",
+        "e": "ë",
+        "i": "ï",
+        "o": "ö",
+        "u": "ü",
+        "y": "ÿ",
+        "A": "Ä",
+        "E": "Ë",
+        "I": "Ï",
+        "O": "Ö",
+        "U": "Ü",
+        " ": "¨"
+      }
+    },
+    {
+      "name": "AGUDO",
       "trigger": "´",
       "compose": {
         "a": "á",
@@ -3463,7 +3491,7 @@
       }
     },
     {
-      "name": "GRAVIS",
+      "name": "GRAVE",
       "trigger": "`",
       "compose": {
         "a": "à",
@@ -3480,7 +3508,20 @@
       }
     },
     {
-      "name": "ZIRKUMFLEX",
+      "name": "TIL",
+      "trigger": "~",
+      "compose": {
+        "a": "ã",
+        "o": "õ",
+        "n": "ñ",
+        "A": "Ã",
+        "O": "Õ",
+        "N": "Ñ",
+        " ": "~"
+      }
+    },
+    {
+      "name": "CIRCUNFLEXO",
       "trigger": "^",
       "compose": {
         "a": "â",
