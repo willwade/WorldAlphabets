@@ -138,13 +138,19 @@ print(layout_to_markdown("en-united-kingdom"))
 
 Output:
 
-```
+```markdown
 | ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | q | w | e | r | t | y | u | i | o | p | [ | ] |
 | a | s | d | f | g | h | j | k | l | ; | ' | # |
 | z | x | c | v | b | n | m | , | . | / |
 ```
+
+| ` | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| q | w | e | r | t | y | u | i | o | p | [ | ] |
+| a | s | d | f | g | h | j | k | l | ; | ' | # |
+| z | x | c | v | b | n | m | , | . | / |
 
 #### Node.js
 
@@ -195,10 +201,10 @@ Example JSON snippet:
 
 ```json
 {
-  "alphabetical": ["A", "B", ...],
-  "uppercase": ["A", "B", ...],
-  "lowercase": ["a", "b", ...],
-  "frequency": {"a": 0.084, "b": 0.0208, ...}
+  "alphabetical": ["A", "B", ],
+  "uppercase": ["A", "B", ],
+  "lowercase": ["a", "b",],
+  "frequency": {"a": 0.084, "b": 0.0208, ]
 }
 ```
 
@@ -287,6 +293,15 @@ Omit `--limit` to process all missing languages. Each file is written under
 ruff check .
 mypy .
 ```
+
+## Sources
+
+- [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
+- [Simia unigrams dataset](http://simia.net/letters/)
+- [Wikipedia](https://wikipedia.org)
+- [ICU locale data](http://site.icu-project.org/)
+- [Unicode](https://unicode.org/)
+- [Kblayout](https://kblayout.info/)
 
 ## Future work
 
