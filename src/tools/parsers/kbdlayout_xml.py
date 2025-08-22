@@ -19,7 +19,7 @@ def get_layer_name(modifiers: Optional[str], right_alt_is_alt_gr: bool) -> Optio
 
 def parse_keyboard_layout_xml(xml_content: str) -> Tuple[Dict[str, Any], List[KeyEntry], List[DeadKey]]:
     parser = ET.XMLParser(recover=True, resolve_entities=False)
-    root = ET.fromstring(xml_content.encode('utf-8'), parser=parser)
+    root = ET.fromstring(xml_content, parser=parser)
     flags = {
         "rightAltIsAltGr": root.attrib.get("RightAltIsAltGr") == "true",
         "shiftCancelsCapsLock": root.attrib.get("ShiftCancelsCapsLock") == "true",
@@ -54,7 +54,7 @@ def parse_keyboard_layout_xml(xml_content: str) -> Tuple[Dict[str, Any], List[Ke
 
 def parse_kbd_dll_xml(xml_content: str) -> Tuple[Dict[str, Any], List[KeyEntry], List[DeadKey]]:
     parser = ET.XMLParser(recover=True, resolve_entities=False)
-    root = ET.fromstring(xml_content.encode('utf-8'), parser=parser)
+    root = ET.fromstring(xml_content, parser=parser)
 
     modifiers_node = root.find(".//MODIFIERS")
     if modifiers_node is None:

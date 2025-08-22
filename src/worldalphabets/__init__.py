@@ -16,7 +16,7 @@ from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Li
 from importlib.resources import as_file
 with as_file(files("worldalphabets")) as p:
     _PACKAGE_PATH = Path(p)
-DATA_DIR = _PACKAGE_PATH.parent / "data" / "alphabets"
+DATA_DIR = _PACKAGE_PATH.parent.parent / "data" / "alphabets"
 
 
 @dataclass

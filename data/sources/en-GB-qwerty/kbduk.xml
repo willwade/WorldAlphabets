@@ -1,225 +1,448 @@
-<KbdDll>
-<KbdLayerDescriptor>
-<KbdLayer MaxVSCtoVK="127" Version="1" LocaleFlags="ALTGR" LgMax="0" LgEntry="0" Type="0" SubType="0">
-<CharModifiers>
-<MODIFIERS MaxModBits="7" ModNumber="0 1 2 3 15 15 4 5">
-<VkToBit>
-<VK_TO_BIT Vk="VK_SHIFT" ModBits="KBDSHIFT"/>
-<VK_TO_BIT Vk="VK_CONTROL" ModBits="KBDCTRL"/>
-<VK_TO_BIT Vk="VK_MENU" ModBits="KBDALT"/>
-</VkToBit>
-</MODIFIERS>
-</CharModifiers>
-<VkToWcharTable>
-<VK_TO_WCHAR_TABLE Modifications="3" Size="8">
-<VkToWchars>
-<VK_TO_WCHARS Wch="005B 007B 001B" VirtualKey="VK_OEM_4"/>
-<VK_TO_WCHARS Wch="005D 007D 001D" VirtualKey="VK_OEM_6"/>
-<VK_TO_WCHARS Wch="005C 007C 001C" VirtualKey="VK_OEM_5"/>
-<VK_TO_WCHARS Wch="0008 0008 007F" VirtualKey="VK_BACK"/>
-<VK_TO_WCHARS Wch="001B 001B 001B" VirtualKey="VK_ESCAPE"/>
-<VK_TO_WCHARS Wch="000D 000D 000A" VirtualKey="VK_RETURN"/>
-<VK_TO_WCHARS Wch="0020 0020 0020" VirtualKey="VK_SPACE"/>
-<VK_TO_WCHARS Wch="0003 0003 0003" VirtualKey="VK_CANCEL"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-<VK_TO_WCHAR_TABLE Modifications="4" Size="10">
-<VkToWchars>
-<VK_TO_WCHARS Wch="0036 005E F000 001E" VirtualKey="VK_6"/>
-<VK_TO_WCHARS Wch="002D 005F F000 001F" VirtualKey="VK_OEM_MINUS"/>
-<VK_TO_WCHARS Wch="0027 0040 F000 0000" VirtualKey="VK_OEM_3"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-<VK_TO_WCHAR_TABLE Modifications="5" Size="12">
-<VkToWchars>
-<VK_TO_WCHARS Wch="0060 00AC F000 F000 00A6" VirtualKey="VK_OEM_8"/>
-<VK_TO_WCHARS Wch="0034 0024 F000 F000 20AC" VirtualKey="VK_4"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-<VK_TO_WCHAR_TABLE Modifications="6" Size="14">
-<VkToWchars>
-<VK_TO_WCHARS Wch="0065 0045 F000 F000 00E9 00C9" VirtualKey="VK_E" Attributes="CAPLOK, CAPLOKALTGR"/>
-<VK_TO_WCHARS Wch="0075 0055 F000 F000 00FA 00DA" VirtualKey="VK_U" Attributes="CAPLOK, CAPLOKALTGR"/>
-<VK_TO_WCHARS Wch="0069 0049 F000 F000 00ED 00CD" VirtualKey="VK_I" Attributes="CAPLOK, CAPLOKALTGR"/>
-<VK_TO_WCHARS Wch="006F 004F F000 F000 00F3 00D3" VirtualKey="VK_O" Attributes="CAPLOK, CAPLOKALTGR"/>
-<VK_TO_WCHARS Wch="0023 007E 001C F000 005C 007C" VirtualKey="VK_OEM_7"/>
-<VK_TO_WCHARS Wch="0061 0041 F000 F000 00E1 00C1" VirtualKey="VK_A" Attributes="CAPLOK, CAPLOKALTGR"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-<VK_TO_WCHAR_TABLE Modifications="2" Size="6">
-<VkToWchars>
-<VK_TO_WCHARS Wch="0031 0021" VirtualKey="VK_1"/>
-<VK_TO_WCHARS Wch="0032 0022" VirtualKey="VK_2"/>
-<VK_TO_WCHARS Wch="0033 00A3" VirtualKey="VK_3"/>
-<VK_TO_WCHARS Wch="0035 0025" VirtualKey="VK_5"/>
-<VK_TO_WCHARS Wch="0037 0026" VirtualKey="VK_7"/>
-<VK_TO_WCHARS Wch="0038 002A" VirtualKey="VK_8"/>
-<VK_TO_WCHARS Wch="0039 0028" VirtualKey="VK_9"/>
-<VK_TO_WCHARS Wch="0030 0029" VirtualKey="VK_0"/>
-<VK_TO_WCHARS Wch="003D 002B" VirtualKey="VK_OEM_PLUS"/>
-<VK_TO_WCHARS Wch="0071 0051" VirtualKey="VK_Q" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0077 0057" VirtualKey="VK_W" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0072 0052" VirtualKey="VK_R" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0074 0054" VirtualKey="VK_T" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0079 0059" VirtualKey="VK_Y" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0070 0050" VirtualKey="VK_P" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0073 0053" VirtualKey="VK_S" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0064 0044" VirtualKey="VK_D" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0066 0046" VirtualKey="VK_F" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0067 0047" VirtualKey="VK_G" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0068 0048" VirtualKey="VK_H" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="006A 004A" VirtualKey="VK_J" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="006B 004B" VirtualKey="VK_K" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="006C 004C" VirtualKey="VK_L" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="003B 003A" VirtualKey="VK_OEM_1"/>
-<VK_TO_WCHARS Wch="007A 005A" VirtualKey="VK_Z" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0078 0058" VirtualKey="VK_X" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0063 0043" VirtualKey="VK_C" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0076 0056" VirtualKey="VK_V" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="0062 0042" VirtualKey="VK_B" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="006E 004E" VirtualKey="VK_N" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="006D 004D" VirtualKey="VK_M" Attributes="CAPLOK"/>
-<VK_TO_WCHARS Wch="002C 003C" VirtualKey="VK_OEM_COMMA"/>
-<VK_TO_WCHARS Wch="002E 003E" VirtualKey="VK_OEM_PERIOD"/>
-<VK_TO_WCHARS Wch="002F 003F" VirtualKey="VK_OEM_2"/>
-<VK_TO_WCHARS Wch="002E 002E" VirtualKey="VK_DECIMAL"/>
-<VK_TO_WCHARS Wch="0009 0009" VirtualKey="VK_TAB"/>
-<VK_TO_WCHARS Wch="002B 002B" VirtualKey="VK_ADD"/>
-<VK_TO_WCHARS Wch="002F 002F" VirtualKey="VK_DIVIDE"/>
-<VK_TO_WCHARS Wch="002A 002A" VirtualKey="VK_MULTIPLY"/>
-<VK_TO_WCHARS Wch="002D 002D" VirtualKey="VK_SUBTRACT"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-<VK_TO_WCHAR_TABLE Modifications="1" Size="4">
-<VkToWchars>
-<VK_TO_WCHARS Wch="0030" VirtualKey="VK_NUMPAD0"/>
-<VK_TO_WCHARS Wch="0031" VirtualKey="VK_NUMPAD1"/>
-<VK_TO_WCHARS Wch="0032" VirtualKey="VK_NUMPAD2"/>
-<VK_TO_WCHARS Wch="0033" VirtualKey="VK_NUMPAD3"/>
-<VK_TO_WCHARS Wch="0034" VirtualKey="VK_NUMPAD4"/>
-<VK_TO_WCHARS Wch="0035" VirtualKey="VK_NUMPAD5"/>
-<VK_TO_WCHARS Wch="0036" VirtualKey="VK_NUMPAD6"/>
-<VK_TO_WCHARS Wch="0037" VirtualKey="VK_NUMPAD7"/>
-<VK_TO_WCHARS Wch="0038" VirtualKey="VK_NUMPAD8"/>
-<VK_TO_WCHARS Wch="0039" VirtualKey="VK_NUMPAD9"/>
-</VkToWchars>
-</VK_TO_WCHAR_TABLE>
-</VkToWcharTable>
-<DeadKeys/>
-<KeyNames>
-<VSC_STRING Vsc="01" Name="ESC"/>
-<VSC_STRING Vsc="0E" Name="BACKSPACE"/>
-<VSC_STRING Vsc="0F" Name="TAB"/>
-<VSC_STRING Vsc="1C" Name="ENTER"/>
-<VSC_STRING Vsc="1D" Name="CTRL"/>
-<VSC_STRING Vsc="2A" Name="SHIFT"/>
-<VSC_STRING Vsc="36" Name="RIGHT SHIFT"/>
-<VSC_STRING Vsc="37" Name="NUMMULT"/>
-<VSC_STRING Vsc="38" Name="ALT"/>
-<VSC_STRING Vsc="39" Name="SPACE"/>
-<VSC_STRING Vsc="3A" Name="CAPSLOCK"/>
-<VSC_STRING Vsc="3B" Name="F1"/>
-<VSC_STRING Vsc="3C" Name="F2"/>
-<VSC_STRING Vsc="3D" Name="F3"/>
-<VSC_STRING Vsc="3E" Name="F4"/>
-<VSC_STRING Vsc="3F" Name="F5"/>
-<VSC_STRING Vsc="40" Name="F6"/>
-<VSC_STRING Vsc="41" Name="F7"/>
-<VSC_STRING Vsc="42" Name="F8"/>
-<VSC_STRING Vsc="43" Name="F9"/>
-<VSC_STRING Vsc="44" Name="F10"/>
-<VSC_STRING Vsc="45" Name="Pause"/>
-<VSC_STRING Vsc="46" Name="SCROLL LOCK"/>
-<VSC_STRING Vsc="47" Name="NUM 7"/>
-<VSC_STRING Vsc="48" Name="NUM 8"/>
-<VSC_STRING Vsc="49" Name="NUM 9"/>
-<VSC_STRING Vsc="4A" Name="NUM SUB"/>
-<VSC_STRING Vsc="4B" Name="NUM 4"/>
-<VSC_STRING Vsc="4C" Name="NUM 5"/>
-<VSC_STRING Vsc="4D" Name="NUM 6"/>
-<VSC_STRING Vsc="4E" Name="NUM PLUS"/>
-<VSC_STRING Vsc="4F" Name="NUM 1"/>
-<VSC_STRING Vsc="50" Name="NUM 2"/>
-<VSC_STRING Vsc="51" Name="NUM 3"/>
-<VSC_STRING Vsc="52" Name="NUM 0"/>
-<VSC_STRING Vsc="53" Name="NUM DECIMAL"/>
-<VSC_STRING Vsc="57" Name="F11"/>
-<VSC_STRING Vsc="58" Name="F12"/>
-</KeyNames>
-<KeyNamesExt>
-<VSC_STRING Vsc="1C" Name="NUM ENTER"/>
-<VSC_STRING Vsc="1D" Name="Right Ctrl"/>
-<VSC_STRING Vsc="35" Name="NUM DIVIDE"/>
-<VSC_STRING Vsc="37" Name="Prnt Scrn"/>
-<VSC_STRING Vsc="38" Name="RIGHT ALT"/>
-<VSC_STRING Vsc="45" Name="Num Lock"/>
-<VSC_STRING Vsc="46" Name="Break"/>
-<VSC_STRING Vsc="47" Name="HOME"/>
-<VSC_STRING Vsc="48" Name="UP"/>
-<VSC_STRING Vsc="49" Name="PGUP"/>
-<VSC_STRING Vsc="4B" Name="LEFT"/>
-<VSC_STRING Vsc="4D" Name="RIGHT"/>
-<VSC_STRING Vsc="4F" Name="END"/>
-<VSC_STRING Vsc="50" Name="DOWN"/>
-<VSC_STRING Vsc="51" Name="PGDOWN"/>
-<VSC_STRING Vsc="52" Name="INSERT"/>
-<VSC_STRING Vsc="53" Name="DELETE"/>
-<VSC_STRING Vsc="54" Name="<00>"/>
-<VSC_STRING Vsc="56" Name="Help"/>
-<VSC_STRING Vsc="5B" Name="Left Windows"/>
-<VSC_STRING Vsc="5C" Name="Right Windows"/>
-<VSC_STRING Vsc="5D" Name="Application"/>
-</KeyNamesExt>
-<KeyNamesDead/>
-<VSCtoVK>
-00FF 001B 0031 0032 0033 0034 0035 0036 0037 0038 0039 0030 00BD 00BB 0008 0009 0051 0057 0045 0052 0054 0059 0055 0049 004F 0050 00DB 00DD 000D 00A2 0041 0053 0044 0046 0047 0048 004A 004B 004C 00BA 00C0 00DF 00A0 00DE 005A 0058 0043 0056 0042 004E 004D 00BC 00BE 00BF 01A1 026A 00A4 0020 0014 0070 0071 0072 0073 0074 0075 0076 0077 0078 0079 0390 0291 0C24 0C26 0C21 006D 0C25 0C0C 0C27 006B 0C23 0C28 0C22 0C2D 0C2E 002C 00FF 00DC 007A 007B 000C 00EE 00F1 00EA 00F9 00F5 00F3 00FF 00FF 00FB 002F 007C 007D 007E 007F 0080 0081 0082 0083 0084 0085 0086 00ED 00FF 00E9 00FF 00C1 00FF 00FF 0087 00FF 00FF 00FF 00FF 00EB 0009 00FF 00C2
-</VSCtoVK>
-<VSCtoVK_E0>
-<VSC_VK Vsc="10" Vk="01B1"/>
-<VSC_VK Vsc="19" Vk="01B0"/>
-<VSC_VK Vsc="1D" Vk="01A3"/>
-<VSC_VK Vsc="20" Vk="01AD"/>
-<VSC_VK Vsc="21" Vk="01B7"/>
-<VSC_VK Vsc="22" Vk="01B3"/>
-<VSC_VK Vsc="24" Vk="01B2"/>
-<VSC_VK Vsc="2E" Vk="01AE"/>
-<VSC_VK Vsc="30" Vk="01AF"/>
-<VSC_VK Vsc="32" Vk="01AC"/>
-<VSC_VK Vsc="35" Vk="016F"/>
-<VSC_VK Vsc="37" Vk="012C"/>
-<VSC_VK Vsc="38" Vk="01A5"/>
-<VSC_VK Vsc="47" Vk="0124"/>
-<VSC_VK Vsc="48" Vk="0126"/>
-<VSC_VK Vsc="49" Vk="0121"/>
-<VSC_VK Vsc="4B" Vk="0125"/>
-<VSC_VK Vsc="4D" Vk="0127"/>
-<VSC_VK Vsc="4F" Vk="0123"/>
-<VSC_VK Vsc="50" Vk="0128"/>
-<VSC_VK Vsc="51" Vk="0122"/>
-<VSC_VK Vsc="52" Vk="012D"/>
-<VSC_VK Vsc="53" Vk="012E"/>
-<VSC_VK Vsc="5B" Vk="015B"/>
-<VSC_VK Vsc="5C" Vk="015C"/>
-<VSC_VK Vsc="5D" Vk="015D"/>
-<VSC_VK Vsc="5F" Vk="015F"/>
-<VSC_VK Vsc="65" Vk="01AA"/>
-<VSC_VK Vsc="66" Vk="01AB"/>
-<VSC_VK Vsc="67" Vk="01A8"/>
-<VSC_VK Vsc="68" Vk="01A9"/>
-<VSC_VK Vsc="69" Vk="01A7"/>
-<VSC_VK Vsc="6A" Vk="01A6"/>
-<VSC_VK Vsc="6B" Vk="01B6"/>
-<VSC_VK Vsc="6C" Vk="01B4"/>
-<VSC_VK Vsc="6D" Vk="01B5"/>
-<VSC_VK Vsc="1C" Vk="010D"/>
-<VSC_VK Vsc="46" Vk="0103"/>
-</VSCtoVK_E0>
-<VSCtoVK_E1>
-<VSC_VK Vsc="1D" Vk="0013"/>
-</VSCtoVK_E1>
-<Ligatures/>
-</KbdLayer>
-</KbdLayerDescriptor>
-<KbdLayerMultiDescriptor/>
-<KbdNlsLayerDescriptor/>
-</KbdDll>
+<KeyboardLayout RightAltIsAltGr="true" ShiftCancelsCapsLock="false" ChangesDirectionality="false">
+  <PhysicalKeys>
+    <PK VK="VK_ESCAPE" SC="01" Name="ESC">
+      <Result TextCodepoints="001B" />
+      <Result TextCodepoints="001B" With="VK_SHIFT" />
+      <Result TextCodepoints="001B" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_1" SC="02">
+      <Result Text="1" />
+      <Result Text="!" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_2" SC="03">
+      <Result Text="2" />
+      <Result Text="&quot;" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_3" SC="04">
+      <Result Text="3" />
+      <Result Text="Â£" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_4" SC="05">
+      <Result Text="4" />
+      <Result Text="$" With="VK_SHIFT" />
+      <Result Text="â¬" With="VK_CONTROL VK_MENU" />
+    </PK>
+    <PK VK="VK_5" SC="06">
+      <Result Text="5" />
+      <Result Text="%" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_6" SC="07">
+      <Result Text="6" />
+      <Result Text="^" With="VK_SHIFT" />
+      <Result TextCodepoints="001E" With="VK_SHIFT VK_CONTROL" />
+    </PK>
+    <PK VK="VK_7" SC="08">
+      <Result Text="7" />
+      <Result Text="&amp;" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_8" SC="09">
+      <Result Text="8" />
+      <Result Text="*" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_9" SC="0A">
+      <Result Text="9" />
+      <Result Text="(" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_0" SC="0B">
+      <Result Text="0" />
+      <Result Text=")" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_OEM_MINUS" SC="0C">
+      <Result Text="-" />
+      <Result Text="_" With="VK_SHIFT" />
+      <Result TextCodepoints="001F" With="VK_SHIFT VK_CONTROL" />
+    </PK>
+    <PK VK="VK_OEM_PLUS" SC="0D">
+      <Result Text="=" />
+      <Result Text="+" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_BACK" SC="0E" Name="BACKSPACE">
+      <Result TextCodepoints="0008" />
+      <Result TextCodepoints="0008" With="VK_SHIFT" />
+      <Result Text="" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_TAB" SC="0F" Name="TAB">
+      <Result TextCodepoints="0009" />
+      <Result TextCodepoints="0009" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_Q" SC="10">
+      <Result Text="q" />
+      <Result Text="Q" With="VK_SHIFT" />
+      <Result Text="Q" With="VK_CAPITAL" />
+      <Result Text="q" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_W" SC="11">
+      <Result Text="w" />
+      <Result Text="W" With="VK_SHIFT" />
+      <Result Text="W" With="VK_CAPITAL" />
+      <Result Text="w" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_E" SC="12">
+      <Result Text="e" />
+      <Result Text="E" With="VK_SHIFT" />
+      <Result Text="E" With="VK_CAPITAL" />
+      <Result Text="e" With="VK_SHIFT VK_CAPITAL" />
+      <Result Text="Ã©" With="VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_SHIFT VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_CONTROL VK_MENU VK_CAPITAL" />
+      <Result Text="Ã©" With="VK_SHIFT VK_CONTROL VK_MENU VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_R" SC="13">
+      <Result Text="r" />
+      <Result Text="R" With="VK_SHIFT" />
+      <Result Text="R" With="VK_CAPITAL" />
+      <Result Text="r" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_T" SC="14">
+      <Result Text="t" />
+      <Result Text="T" With="VK_SHIFT" />
+      <Result Text="T" With="VK_CAPITAL" />
+      <Result Text="t" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_Y" SC="15">
+      <Result Text="y" />
+      <Result Text="Y" With="VK_SHIFT" />
+      <Result Text="Y" With="VK_CAPITAL" />
+      <Result Text="y" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_U" SC="16">
+      <Result Text="u" />
+      <Result Text="U" With="VK_SHIFT" />
+      <Result Text="U" With="VK_CAPITAL" />
+      <Result Text="u" With="VK_SHIFT VK_CAPITAL" />
+      <Result Text="Ãº" With="VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_SHIFT VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_CONTROL VK_MENU VK_CAPITAL" />
+      <Result Text="Ãº" With="VK_SHIFT VK_CONTROL VK_MENU VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_I" SC="17">
+      <Result Text="i" />
+      <Result Text="I" With="VK_SHIFT" />
+      <Result Text="I" With="VK_CAPITAL" />
+      <Result Text="i" With="VK_SHIFT VK_CAPITAL" />
+      <Result Text="Ã­" With="VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_SHIFT VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_CONTROL VK_MENU VK_CAPITAL" />
+      <Result Text="Ã­" With="VK_SHIFT VK_CONTROL VK_MENU VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_O" SC="18">
+      <Result Text="o" />
+      <Result Text="O" With="VK_SHIFT" />
+      <Result Text="O" With="VK_CAPITAL" />
+      <Result Text="o" With="VK_SHIFT VK_CAPITAL" />
+      <Result Text="Ã³" With="VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_SHIFT VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_CONTROL VK_MENU VK_CAPITAL" />
+      <Result Text="Ã³" With="VK_SHIFT VK_CONTROL VK_MENU VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_P" SC="19">
+      <Result Text="p" />
+      <Result Text="P" With="VK_SHIFT" />
+      <Result Text="P" With="VK_CAPITAL" />
+      <Result Text="p" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_OEM_4" SC="1A">
+      <Result Text="[" />
+      <Result Text="{" With="VK_SHIFT" />
+      <Result TextCodepoints="001B" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_OEM_6" SC="1B">
+      <Result Text="]" />
+      <Result Text="}" With="VK_SHIFT" />
+      <Result TextCodepoints="001D" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_RETURN" SC="1C" Name="ENTER">
+      <Result TextCodepoints="000D" />
+      <Result TextCodepoints="000D" With="VK_SHIFT" />
+      <Result TextCodepoints="000A" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_LCONTROL" SC="1D" Name="CTRL" />
+    <PK VK="VK_A" SC="1E">
+      <Result Text="a" />
+      <Result Text="A" With="VK_SHIFT" />
+      <Result Text="A" With="VK_CAPITAL" />
+      <Result Text="a" With="VK_SHIFT VK_CAPITAL" />
+      <Result Text="Ã¡" With="VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_SHIFT VK_CONTROL VK_MENU" />
+      <Result Text="Ã" With="VK_CONTROL VK_MENU VK_CAPITAL" />
+      <Result Text="Ã¡" With="VK_SHIFT VK_CONTROL VK_MENU VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_S" SC="1F">
+      <Result Text="s" />
+      <Result Text="S" With="VK_SHIFT" />
+      <Result Text="S" With="VK_CAPITAL" />
+      <Result Text="s" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_D" SC="20">
+      <Result Text="d" />
+      <Result Text="D" With="VK_SHIFT" />
+      <Result Text="D" With="VK_CAPITAL" />
+      <Result Text="d" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_F" SC="21">
+      <Result Text="f" />
+      <Result Text="F" With="VK_SHIFT" />
+      <Result Text="F" With="VK_CAPITAL" />
+      <Result Text="f" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_G" SC="22">
+      <Result Text="g" />
+      <Result Text="G" With="VK_SHIFT" />
+      <Result Text="G" With="VK_CAPITAL" />
+      <Result Text="g" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_H" SC="23">
+      <Result Text="h" />
+      <Result Text="H" With="VK_SHIFT" />
+      <Result Text="H" With="VK_CAPITAL" />
+      <Result Text="h" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_J" SC="24">
+      <Result Text="j" />
+      <Result Text="J" With="VK_SHIFT" />
+      <Result Text="J" With="VK_CAPITAL" />
+      <Result Text="j" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_K" SC="25">
+      <Result Text="k" />
+      <Result Text="K" With="VK_SHIFT" />
+      <Result Text="K" With="VK_CAPITAL" />
+      <Result Text="k" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_L" SC="26">
+      <Result Text="l" />
+      <Result Text="L" With="VK_SHIFT" />
+      <Result Text="L" With="VK_CAPITAL" />
+      <Result Text="l" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_OEM_1" SC="27">
+      <Result Text=";" />
+      <Result Text=":" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_OEM_3" SC="28">
+      <Result Text="'" />
+      <Result Text="@" With="VK_SHIFT" />
+      <Result TextCodepoints="0000" With="VK_SHIFT VK_CONTROL" />
+    </PK>
+    <PK VK="VK_OEM_8" SC="29">
+      <Result Text="`" />
+      <Result Text="Â¬" With="VK_SHIFT" />
+      <Result Text="Â¦" With="VK_CONTROL VK_MENU" />
+    </PK>
+    <PK VK="VK_LSHIFT" SC="2A" Name="SHIFT" />
+    <PK VK="VK_OEM_7" SC="2B">
+      <Result Text="#" />
+      <Result Text="~" With="VK_SHIFT" />
+      <Result TextCodepoints="001C" With="VK_CONTROL" />
+      <Result Text="\" With="VK_CONTROL VK_MENU" />
+      <Result Text="|" With="VK_SHIFT VK_CONTROL VK_MENU" />
+    </PK>
+    <PK VK="VK_Z" SC="2C">
+      <Result Text="z" />
+      <Result Text="Z" With="VK_SHIFT" />
+      <Result Text="Z" With="VK_CAPITAL" />
+      <Result Text="z" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_X" SC="2D">
+      <Result Text="x" />
+      <Result Text="X" With="VK_SHIFT" />
+      <Result Text="X" With="VK_CAPITAL" />
+      <Result Text="x" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_C" SC="2E">
+      <Result Text="c" />
+      <Result Text="C" With="VK_SHIFT" />
+      <Result Text="C" With="VK_CAPITAL" />
+      <Result Text="c" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_V" SC="2F">
+      <Result Text="v" />
+      <Result Text="V" With="VK_SHIFT" />
+      <Result Text="V" With="VK_CAPITAL" />
+      <Result Text="v" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_B" SC="30">
+      <Result Text="b" />
+      <Result Text="B" With="VK_SHIFT" />
+      <Result Text="B" With="VK_CAPITAL" />
+      <Result Text="b" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_N" SC="31">
+      <Result Text="n" />
+      <Result Text="N" With="VK_SHIFT" />
+      <Result Text="N" With="VK_CAPITAL" />
+      <Result Text="n" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_M" SC="32">
+      <Result Text="m" />
+      <Result Text="M" With="VK_SHIFT" />
+      <Result Text="M" With="VK_CAPITAL" />
+      <Result Text="m" With="VK_SHIFT VK_CAPITAL" />
+    </PK>
+    <PK VK="VK_OEM_COMMA" SC="33">
+      <Result Text="," />
+      <Result Text="&lt;" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_OEM_PERIOD" SC="34">
+      <Result Text="." />
+      <Result Text="&gt;" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_OEM_2" SC="35">
+      <Result Text="/" />
+      <Result Text="?" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_RSHIFT" SC="36" Name="RIGHT SHIFT" />
+    <PK VK="VK_MULTIPLY" SC="37" Name="NUMMULT">
+      <Result Text="*" />
+      <Result Text="*" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_LMENU" SC="38" Name="ALT" />
+    <PK VK="VK_SPACE" SC="39" Name="SPACE">
+      <Result Text=" " />
+      <Result Text=" " With="VK_SHIFT" />
+      <Result Text=" " With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_CAPITAL" SC="3A" Name="CAPSLOCK" />
+    <PK VK="VK_F1" SC="3B" Name="F1" />
+    <PK VK="VK_F2" SC="3C" Name="F2" />
+    <PK VK="VK_F3" SC="3D" Name="F3" />
+    <PK VK="VK_F4" SC="3E" Name="F4" />
+    <PK VK="VK_F5" SC="3F" Name="F5" />
+    <PK VK="VK_F6" SC="40" Name="F6" />
+    <PK VK="VK_F7" SC="41" Name="F7" />
+    <PK VK="VK_F8" SC="42" Name="F8" />
+    <PK VK="VK_F9" SC="43" Name="F9" />
+    <PK VK="VK_F10" SC="44" Name="F10" />
+    <PK VK="VK_NUMLOCK" SC="45" Name="Pause" />
+    <PK VK="VK_SCROLL" SC="46" Name="SCROLL LOCK" />
+    <PK VK="VK_HOME" SC="47" Name="NUM 7">
+      <Result Text="7" VK="VK_NUMPAD7" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_UP" SC="48" Name="NUM 8">
+      <Result Text="8" VK="VK_NUMPAD8" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_PRIOR" SC="49" Name="NUM 9">
+      <Result Text="9" VK="VK_NUMPAD9" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_SUBTRACT" SC="4A" Name="NUM SUB">
+      <Result Text="-" />
+      <Result Text="-" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_LEFT" SC="4B" Name="NUM 4">
+      <Result Text="4" VK="VK_NUMPAD4" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_CLEAR" SC="4C" Name="NUM 5">
+      <Result Text="5" VK="VK_NUMPAD5" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_RIGHT" SC="4D" Name="NUM 6">
+      <Result Text="6" VK="VK_NUMPAD6" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_ADD" SC="4E" Name="NUM PLUS">
+      <Result Text="+" />
+      <Result Text="+" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_END" SC="4F" Name="NUM 1">
+      <Result Text="1" VK="VK_NUMPAD1" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_DOWN" SC="50" Name="NUM 2">
+      <Result Text="2" VK="VK_NUMPAD2" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_NEXT" SC="51" Name="NUM 3">
+      <Result Text="3" VK="VK_NUMPAD3" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_INSERT" SC="52" Name="NUM 0">
+      <Result Text="0" VK="VK_NUMPAD0" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_DELETE" SC="53" Name="NUM DECIMAL">
+      <Result Text="." VK="VK_DECIMAL" With="VK_NUMLOCK" />
+    </PK>
+    <PK VK="VK_SNAPSHOT" SC="54" />
+    <PK VK="VK_OEM_5" SC="56">
+      <Result Text="\" />
+      <Result Text="|" With="VK_SHIFT" />
+      <Result TextCodepoints="001C" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_F11" SC="57" Name="F11" />
+    <PK VK="VK_F12" SC="58" Name="F12" />
+    <PK VK="VK_CLEAR" SC="59" />
+    <PK VK="VK_OEM_WSCTRL" SC="5A" />
+    <PK VK="VK_DBE_KATAKANA" SC="5B" />
+    <PK VK="VK_OEM_JUMP" SC="5C" />
+    <PK VK="VK_DBE_FLUSHSTRING" SC="5D" />
+    <PK VK="VK_OEM_BACKTAB" SC="5E" />
+    <PK VK="VK_OEM_AUTO" SC="5F" />
+    <PK VK="VK_DBE_NOCODEINPUT" SC="62" />
+    <PK VK="VK_HELP" SC="63" />
+    <PK VK="VK_F13" SC="64" />
+    <PK VK="VK_F14" SC="65" />
+    <PK VK="VK_F15" SC="66" />
+    <PK VK="VK_F16" SC="67" />
+    <PK VK="VK_F17" SC="68" />
+    <PK VK="VK_F18" SC="69" />
+    <PK VK="VK_F19" SC="6A" />
+    <PK VK="VK_F20" SC="6B" />
+    <PK VK="VK_F21" SC="6C" />
+    <PK VK="VK_F22" SC="6D" />
+    <PK VK="VK_F23" SC="6E" />
+    <PK VK="VK_OEM_PA3" SC="6F" />
+    <PK VK="VK_OEM_RESET" SC="71" />
+    <PK VK="VK_ABNT_C1" SC="73" />
+    <PK VK="VK_F24" SC="76" />
+    <PK VK="VK_OEM_PA1" SC="7B" />
+    <PK VK="VK_TAB" SC="7C">
+      <Result TextCodepoints="0009" />
+      <Result TextCodepoints="0009" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_ABNT_C2" SC="7E" />
+    <PK VK="VK_MEDIA_PREV_TRACK" SC="E010" />
+    <PK VK="VK_MEDIA_NEXT_TRACK" SC="E019" />
+    <PK VK="VK_RETURN" SC="E01C" Name="NUM ENTER">
+      <Result TextCodepoints="000D" />
+      <Result TextCodepoints="000D" With="VK_SHIFT" />
+      <Result TextCodepoints="000A" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_RCONTROL" SC="E01D" Name="Right Ctrl" />
+    <PK VK="VK_VOLUME_MUTE" SC="E020" />
+    <PK VK="VK_LAUNCH_APP2" SC="E021" />
+    <PK VK="VK_MEDIA_PLAY_PAUSE" SC="E022" />
+    <PK VK="VK_MEDIA_STOP" SC="E024" />
+    <PK VK="VK_VOLUME_DOWN" SC="E02E" />
+    <PK VK="VK_VOLUME_UP" SC="E030" />
+    <PK VK="VK_BROWSER_HOME" SC="E032" />
+    <PK VK="VK_DIVIDE" SC="E035" Name="NUM DIVIDE">
+      <Result Text="/" />
+      <Result Text="/" With="VK_SHIFT" />
+    </PK>
+    <PK VK="VK_SNAPSHOT" SC="E037" Name="Prnt Scrn" />
+    <PK VK="VK_RMENU" SC="E038" Name="RIGHT ALT" />
+    <PK VK="VK_CANCEL" SC="E046" Name="Break">
+      <Result TextCodepoints="0003" />
+      <Result TextCodepoints="0003" With="VK_SHIFT" />
+      <Result TextCodepoints="0003" With="VK_CONTROL" />
+    </PK>
+    <PK VK="VK_HOME" SC="E047" Name="HOME" />
+    <PK VK="VK_UP" SC="E048" Name="UP" />
+    <PK VK="VK_PRIOR" SC="E049" Name="PGUP" />
+    <PK VK="VK_LEFT" SC="E04B" Name="LEFT" />
+    <PK VK="VK_RIGHT" SC="E04D" Name="RIGHT" />
+    <PK VK="VK_END" SC="E04F" Name="END" />
+    <PK VK="VK_DOWN" SC="E050" Name="DOWN" />
+    <PK VK="VK_NEXT" SC="E051" Name="PGDOWN" />
+    <PK VK="VK_INSERT" SC="E052" Name="INSERT" />
+    <PK VK="VK_DELETE" SC="E053" Name="DELETE" />
+    <PK VK="VK_LWIN" SC="E05B" Name="Left Windows" />
+    <PK VK="VK_RWIN" SC="E05C" Name="Right Windows" />
+    <PK VK="VK_APPS" SC="E05D" Name="Application" />
+    <PK VK="VK_SLEEP" SC="E05F" />
+    <PK VK="VK_BROWSER_SEARCH" SC="E065" />
+    <PK VK="VK_BROWSER_FAVORITES" SC="E066" />
+    <PK VK="VK_BROWSER_REFRESH" SC="E067" />
+    <PK VK="VK_BROWSER_STOP" SC="E068" />
+    <PK VK="VK_BROWSER_FORWARD" SC="E069" />
+    <PK VK="VK_BROWSER_BACK" SC="E06A" />
+    <PK VK="VK_LAUNCH_APP1" SC="E06B" />
+    <PK VK="VK_LAUNCH_MAIL" SC="E06C" />
+    <PK VK="VK_LAUNCH_MEDIA_SELECT" SC="E06D" />
+    <PK VK="VK_PAUSE" SC="E11D" />
+  </PhysicalKeys>
+</KeyboardLayout>

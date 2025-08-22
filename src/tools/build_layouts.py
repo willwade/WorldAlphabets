@@ -1,8 +1,43 @@
+import json
 from pathlib import Path
 import argparse
 
 from worldalphabets.models.keyboard import KeyboardLayout
 from .parsers.kbdlayout_xml import parse_xml
+
+import requests
+
+def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) -> bool:
+    """
+    Downloads the source files for a given layout.
+    """
+    print(f"Downloading sources for {layout_id}...")
+    layout_source_dir = source_dir / layout_id
+    layout_source_dir.mkdir(parents=True, exist_ok=True)
+
+    xml_url = f"http://kbdlayout.info/{driver_name.lower()}/download/xml"
+    kle_url = f"http://kbdlayout.info/{driver_name.lower()}/download/json"
+
+    try:
+        # Download XML
+        response = requests.get(xml_url)
+        response.raise_for_status()
+        response.encoding = 'utf-8'
+        with open(layout_source_dir / f"{driver_name.lower()}.xml", "w", encoding="utf-8") as f:
+            f.write(response.text)
+
+        # Download KLE JSON
+        response = requests.get(kle_url)
+        response.raise_for_status()
+        response.encoding = 'utf-8'
+        with open(layout_source_dir / "kle.json", "w", encoding="utf-8") as f:
+            f.write(response.text)
+
+        print(f"  -> Successfully downloaded sources for {layout_id}")
+        return True
+    except requests.exceptions.RequestException as e:
+        print(f"  -> Error downloading sources for {layout_id}: {e}")
+        return False
 
 def build_layout(layout_id: str, source_dir: Path, output_dir: Path) -> None:
     """
@@ -12,17 +47,22 @@ def build_layout(layout_id: str, source_dir: Path, output_dir: Path) -> None:
 
     # Determine file paths
     # This is a temporary mapping until the scraping logic is in place.
-    layout_to_file = {
-        "de-DE-qwertz": "kbdgr.xml",
-        "en-GB-qwerty": "kbduk.xml",
+    layout_to_driver = {
+        "de-DE-qwertz": "KBDGR",
+        "en-GB-qwerty": "KBDUK",
+        "en-US-qwerty": "KBDUS",
     }
-    xml_file_name = layout_to_file.get(layout_id, f"{layout_id}.xml")
+    driver_name = layout_to_driver.get(layout_id)
+    if not driver_name:
+        print(f"  -> Skipping, no driver mapping found for {layout_id}.")
+        return
 
+    xml_file_name = f"{driver_name.lower()}.xml"
     xml_path = source_dir / layout_id / xml_file_name
 
     if not xml_path.exists():
-        print("  -> Skipping, source file not found.")
-        return
+        if not download_layout_sources(layout_id, driver_name, source_dir):
+            return
 
     # Read source files
     xml_content = xml_path.read_text(encoding="utf-8")
@@ -71,8 +111,13 @@ def main() -> None:
     if args.only:
         layouts_to_build = args.only
     else:
-        # Build all layouts found in the source directory
-        layouts_to_build = [d.name for d in source_root.iterdir() if d.is_dir()]
+        # Build all layouts found in the index
+        index_path = Path("data/index.json")
+        index_data = json.loads(index_path.read_text(encoding="utf-8"))
+        layouts_to_build = []
+        for lang in index_data:
+            if "keyboards" in lang:
+                layouts_to_build.extend(lang["keyboards"])
 
     for layout_id in layouts_to_build:
         build_layout(layout_id, source_root, output_root)

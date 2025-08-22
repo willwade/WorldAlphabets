@@ -27,6 +27,7 @@ dev = [
 [project.scripts]
 wa-build-layouts = "tools.build_layouts:main"
 wa-validate-layouts = "tools.validate_layouts:main"
+wa-scrape-layouts = "tools.scrape_kbdlayout_info:main"
 
 [build-system]
 requires = ["setuptools>=61"]

@@ -8,7 +8,7 @@ from ..models.keyboard import KeyboardLayout
 
 with as_file(files("worldalphabets")) as p:
     _PACKAGE_PATH = Path(p)
-DATA_DIR = _PACKAGE_PATH.parent / "data"
+DATA_DIR = _PACKAGE_PATH.parent.parent / "data"
 LAYOUTS_DIR = DATA_DIR / "layouts"
 
 def get_available_layouts() -> List[str]:
