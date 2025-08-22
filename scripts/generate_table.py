@@ -3,7 +3,7 @@ import json
 INDEX_FILE = "data/index.json"
 TABLE_FILE = "table.md"
 
-def generate_table():
+def generate_table() -> None:
     """
     Generates a Markdown table from the index.json file.
     """

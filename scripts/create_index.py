@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 import langcodes
 
 # Define paths
@@ -13,7 +13,7 @@ TABLE_FILE = "table.md"
 WRITING_SYSTEMS_URL = "https://en.wikipedia.org/wiki/List_of_writing_systems"
 ISO_639_1_URL = "https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes"
 
-def get_language_info():
+def get_language_info() -> dict[str, str]:
     """
     Scrapes Wikipedia to get language information.
     Returns a dictionary mapping language codes to their names.
@@ -21,10 +21,13 @@ def get_language_info():
     response = requests.get(ISO_639_1_URL)
     soup = BeautifulSoup(response.content, "html.parser")
 
-    try:
-        table = soup.find("table", {"class": "wikitable"}).find("tbody")
-    except AttributeError:
+    table_tag = soup.find("table", {"class": "wikitable"})
+    if not isinstance(table_tag, Tag):
         raise ValueError("Could not find the language table on the Wikipedia page.")
+
+    table = table_tag.find("tbody")
+    if not isinstance(table, Tag):
+        raise ValueError("Could not find the language table body on the Wikipedia page.")
 
     lang_code_to_name = {}
 
@@ -46,7 +49,7 @@ def get_language_info():
 
     return lang_code_to_name
 
-def get_direction_for_script(script_name):
+def get_direction_for_script(script_name: str) -> str:
     """
     Returns the writing direction for a given script.
     """
@@ -55,7 +58,7 @@ def get_direction_for_script(script_name):
         return "rl"
     return "lr"
 
-def get_script_info():
+def get_script_info() -> dict[str, dict[str, str]]:
     """
     Scrapes Wikipedia to get script information.
     Returns a dictionary mapping language names to their script and direction.
@@ -115,7 +118,7 @@ MANUAL_LANG_MAP = {
     "tl": "Tagalog",
 }
 
-def create_index():
+def create_index() -> None:
     """
     Generates the index.json file.
     """

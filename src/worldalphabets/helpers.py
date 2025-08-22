@@ -5,7 +5,7 @@ INDEX_FILE = files("worldalphabets") / "data" / "index.json"
 
 _index_data = None
 
-def get_index_data():
+def get_index_data() -> list[dict]:
     """
     Loads the index.json data.
     """
@@ -14,7 +14,8 @@ def get_index_data():
         _index_data = json.loads(INDEX_FILE.read_text(encoding="utf-8"))
     return _index_data
 
-def get_language(lang_code):
+
+def get_language(lang_code: str) -> dict | None:
     """
     Returns information for a specific language.
     """

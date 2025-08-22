@@ -17,6 +17,8 @@ dev = [
     "build>=0.10.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12.3",
+    "types-requests",
+    "types-beautifulsoup4",
 ]
 
 [build-system]
@@ -38,3 +40,7 @@ python_version = "3.11"
 warn_unused_configs = true
 disallow_untyped_defs = true
 strict_optional = true
+
+[[tool.mypy.overrides]]
+module = "langcodes"
+ignore_missing_imports = true
