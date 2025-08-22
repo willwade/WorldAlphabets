@@ -1,21 +1,16 @@
-import unittest
 from worldalphabets import get_index_data, get_language
 
-class TestHelpers(unittest.TestCase):
-    def test_get_index_data(self):
-        data = get_index_data()
-        self.assertIsInstance(data, list)
-        self.assertGreater(len(data), 0)
+def test_get_index_data():
+    data = get_index_data()
+    assert isinstance(data, list)
+    assert len(data) > 0
 
-    def test_get_language(self):
-        lang_info = get_language('en')
-        self.assertIsInstance(lang_info, dict)
-        self.assertEqual(lang_info['language'], 'en')
-        self.assertEqual(lang_info['language-name'], 'English')
+def test_get_language():
+    lang_info = get_language('en')
+    assert isinstance(lang_info, dict)
+    assert lang_info['language'] == 'en'
+    assert lang_info['language-name'] == 'English'
 
-    def test_get_language_invalid(self):
-        lang_info = get_language('invalid-code')
-        self.assertIsNone(lang_info)
-
-if __name__ == '__main__':
-    unittest.main()
+def test_get_language_invalid():
+    lang_info = get_language('invalid-code')
+    assert lang_info is None
