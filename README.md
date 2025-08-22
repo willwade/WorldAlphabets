@@ -73,6 +73,14 @@ async function main() {
 main();
 ```
 
+### Examples
+
+The `examples/` directory contains small scripts demonstrating the library:
+
+- `examples/python/` holds Python snippets for printing alphabets, collecting
+  stats, and more.
+- `examples/node/` includes similar examples for Node.js.
+
 ### Alphabet Index
 
 This library also provides an index of all available alphabets with additional metadata.
