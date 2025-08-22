@@ -228,9 +228,15 @@ def build_layout(
                 key.pos = SCANCODE_TO_CODE.get(
                     key.sc or "", f"r{geo['row']}c{geo['col']}"
                 )
-            if len(geometries) != len(xml_keys):
+            geom_len = len(geometries)
+            xml_len = len(xml_keys)
+            if geom_len < xml_len:
                 print(
-                    f"  -> Warning: geometry length mismatch for {layout_id}"
+                    f"  -> Note: geometry covers {geom_len} of {xml_len} keys for {layout_id}"
+                )
+            elif geom_len > xml_len:
+                print(
+                    f"  -> Warning: geometry has extra keys for {layout_id}"
                 )
         except Exception as e:
             print(f"  -> Warning: failed to parse KLE for {layout_id}: {e}")
