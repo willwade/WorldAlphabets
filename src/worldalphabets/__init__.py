@@ -36,4 +36,6 @@ def get_available_codes() -> List[str]:
     )
 
 
-__all__ = ["load_alphabet", "Alphabet", "get_available_codes"]
+from .helpers import get_index_data, get_language
+
+__all__ = ["load_alphabet", "Alphabet", "get_available_codes", "get_index_data", "get_language"]

@@ -63,10 +63,39 @@ async function getAvailableCodes() {
     .sort();
 }
 
+const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
+
+let indexData = null;
+
+/**
+ * Loads the index.json data.
+ * @returns {Promise<object[]>} A promise that resolves to the index data.
+ */
+async function getIndexData() {
+  if (indexData) {
+    return indexData;
+  }
+  const content = await fs.readFile(INDEX_FILE, 'utf8');
+  indexData = JSON.parse(content);
+  return indexData;
+}
+
+/**
+ * Gets information for a specific language.
+ * @param {string} langCode - The ISO 639-1 language code.
+ * @returns {Promise<object|null>} A promise that resolves to the language information or null if not found.
+ */
+async function getLanguage(langCode) {
+  const data = await getIndexData();
+  return data.find((item) => item.language === langCode) || null;
+}
+
 module.exports = {
   loadAlphabet,
   getUppercase,
   getLowercase,
   getFrequency,
   getAvailableCodes,
+  getIndexData,
+  getLanguage,
 };
