@@ -73,148 +73,49 @@ async function main() {
 main();
 ```
 
+### Alphabet Index
+
+This library also provides an index of all available alphabets with additional metadata.
+
+#### Python
+
+```python
+from worldalphabets import get_index_data, get_language
+
+# Get the entire index
+index = get_index_data()
+print(f"Index contains {len(index)} languages.")
+
+# Get information for a specific language
+lang_info = get_language("he")
+print(f"Language: {lang_info['language-name']}")
+print(f"Script Type: {lang_info['script-type']}")
+print(f"Direction: {lang_info['direction']}")
+```
+
+#### Node.js
+
+```javascript
+const { getIndexData, getLanguage } = require('worldalphabets');
+
+async function main() {
+  // Get the entire index
+  const index = await getIndexData();
+  console.log(`Index contains ${index.length} languages.`);
+
+  // Get information for a specific language
+  const langInfo = await getLanguage('he');
+  console.log(`Language: ${langInfo['language-name']}`);
+  console.log(`Script Type: ${langInfo['script-type']}`);
+  console.log(`Direction: ${langInfo['direction']}`);
+}
+
+main();
+```
+
 ## Supported Languages
 
-Alphabet JSON files are available for these ISO language codes
-(language names from [langcodes](https://pypi.org/project/langcodes/)):
-
-| Code | Language |
-|------|----------|
-| af | Afrikaans |
-| ak | Akan |
-| am | Amharic |
-| ar | Arabic |
-| ast | Asturian |
-| az | Azerbaijani |
-| ba | Bashkir |
-| ban | Balinese |
-| bax | Bamun |
-| be | Belarusian |
-| bg | Bulgarian |
-| bku | Buhid |
-| bm | Bambara |
-| bn | Bangla |
-| bo | Tibetan |
-| bug | Buginese |
-| bya | Batak |
-| ca | Catalan |
-| ceb | Cebuano |
-| chr | Cherokee |
-| ckb | Central Kurdish |
-| cop | Coptic |
-| cs | Czech |
-| cv | Chuvash |
-| da | Danish |
-| de | German |
-| dz | Dzongkha |
-| el | Greek |
-| en | English |
-| eo | Esperanto |
-| es | Spanish |
-| et | Estonian |
-| eu | Basque |
-| fa | Persian |
-| fi | Finnish |
-| fo | Faroese |
-| fr | French |
-| fur | Friulian |
-| ga | Irish |
-| gd | Scottish Gaelic |
-| gez | Geez |
-| gl | Galician |
-| gu | Gujarati |
-| gv | Manx |
-| haw | Hawaiian |
-| he | Hebrew |
-| hi | Hindi |
-| hnn | Hanunoo |
-| ht | Haitian Creole |
-| hu | Hungarian |
-| hy | Armenian |
-| ie | Interlingue |
-| is | Icelandic |
-| it | Italian |
-| ja | Japanese |
-| jv | Javanese |
-| ka | Georgian |
-| kab | Kabyle |
-| kk | Kazakh |
-| kl | Kalaallisut |
-| km | Khmer |
-| kn | Kannada |
-| ko | Korean |
-| ks | Kashmiri |
-| ksh | Colognian |
-| ku | Kurdish |
-| ky | Kyrgyz |
-| la | Latin |
-| lb | Luxembourgish |
-| lep | Lepcha |
-| lif | Limbu |
-| lij | Ligurian |
-| lis | Lisu |
-| lo | Lao |
-| lt | Lithuanian |
-| lv | Latvian |
-| mg | Malagasy |
-| mid | Mandaic |
-| mk | Macedonian |
-| ml | Malayalam |
-| mn | Mongolian |
-| mo | Romanian |
-| my | Burmese |
-| mzn | Mazanderani |
-| nds | Low German |
-| ne | Nepali |
-| nn | Norwegian Nynorsk |
-| no | Norwegian |
-| nqo | N’Ko |
-| nso | Northern Sotho |
-| oc | Occitan |
-| or | Odia |
-| pl | Polish |
-| ps | Pashto |
-| pt | Portuguese |
-| rej | Rejang |
-| rm | Romansh |
-| ro | Romanian |
-| ru | Russian |
-| sa | Sanskrit |
-| sam | Samaritan Aramaic |
-| saz | Saurashtra |
-| sc | Sardinian |
-| se | Northern Sami |
-| sg | Sango |
-| si | Sinhala |
-| sl | Slovenian |
-| sn | Shona |
-| so | Somali |
-| sr | Serbian |
-| su | Sundanese |
-| sv | Swedish |
-| syr | Syriac |
-| szl | Silesian |
-| ta | Tamil |
-| tbw | Tagbanwa |
-| te | Telugu |
-| tg | Tajik |
-| th | Thai |
-| ti | Tigrinya |
-| tk | Turkmen |
-| tl | Filipino |
-| tn | Tswana |
-| tr | Turkish |
-| tt | Tatar |
-| uk | Ukrainian |
-| ur | Urdu |
-| vai | Vai |
-| vec | Venetian |
-| wo | Wolof |
-| zh | Chinese |
-| zh-classical | Classical Chinese |
-| zh-min-nan | Min Nan Chinese |
-| zh-yue | Cantonese |
-| zra | Kara (Korea) |
+For a detailed list of supported languages and their metadata, see the [Alphabet Table](table.md).
 
 ## Developer Guide
 
