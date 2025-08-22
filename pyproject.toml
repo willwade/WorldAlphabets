@@ -7,6 +7,8 @@ requires-python = ">=3.11"
 dependencies = [
     "langcodes>=3.3.0",
     "language-data>=1.1.0",
+    "pydantic>=2.0.0",
+    "lxml>=4.9.0",
 ]
 
 [project.optional-dependencies]
@@ -14,6 +16,7 @@ dev = [
     "pytest>=8.0.0",
     "ruff>=0.1.0",
     "mypy>=1.0.0",
+    "lxml-stubs>=0.5.0",
     "build>=0.10.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12.3",
@@ -21,15 +24,21 @@ dev = [
     "types-beautifulsoup4",
 ]
 
+[project.scripts]
+wa-populate-layouts = "scripts.populate_layouts:main"
+wa-build-layouts = "tools.build_layouts:main"
+wa-validate-layouts = "tools.validate_layouts:main"
+wa-scrape-layouts = "tools.scrape_kbdlayout_info:main"
+
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.setuptools.package-data]
-"worldalphabets" = ["data/alphabets/*.json", "data/index.json"]
 
 [tool.ruff]
 line-length = 88
@@ -44,3 +53,11 @@ strict_optional = true
 [[tool.mypy.overrides]]
 module = "langcodes"
 ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "lxml"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

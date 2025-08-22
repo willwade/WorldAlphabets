@@ -8,8 +8,15 @@ import json
 from typing import Dict, List
 
 from .helpers import get_index_data, get_language
+from .keyboards import get_available_layouts, load_keyboard
+from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
 
-DATA_DIR = files("worldalphabets") / "data" / "alphabets"
+# The data files are packaged at the root of the site-packages directory,
+# so we go up one level from the package to find the data directory.
+from importlib.resources import as_file
+with as_file(files("worldalphabets")) as p:
+    _PACKAGE_PATH = Path(p)
+DATA_DIR = _PACKAGE_PATH.parent.parent / "data" / "alphabets"
 
 
 @dataclass
@@ -38,4 +45,19 @@ def get_available_codes() -> List[str]:
     )
 
 
-__all__ = ["load_alphabet", "Alphabet", "get_available_codes", "get_index_data", "get_language"]
+__all__ = [
+    # Alphabets
+    "load_alphabet",
+    "Alphabet",
+    "get_available_codes",
+    "get_index_data",
+    "get_language",
+    # Keyboards
+    "load_keyboard",
+    "get_available_layouts",
+    "KeyboardLayout",
+    "KeyEntry",
+    "LayerLegends",
+    "DeadKey",
+    "Ligature",
+]
