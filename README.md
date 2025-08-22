@@ -166,14 +166,6 @@ async function main() {
 main();
 ```
 
-## Exanmple Usages
-
-- [examples/python](examples/python) – Python scripts demonstrating usage
-- [examples/node](examples/node) – Node.js scripts demonstrating usage
-
-Examples include printing alphabets, collecting stats, and more.
-
-
 ## Supported Languages
 
 For a detailed list of supported languages and their metadata, including available
