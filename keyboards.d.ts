@@ -9,7 +9,7 @@ export type KeyboardLayout = {
     changesDirectionality?: boolean;
   };
   keys: KeyEntry[];
-  deadKeys?: DeadKey[];
+  dead_keys?: DeadKey[];
   ligatures?: Ligature[];
   meta?: Record<string, unknown>;
 };
@@ -49,3 +49,4 @@ export type Ligature = {
 
 export function getAvailableLayouts(): Promise<string[]>;
 export function loadKeyboard(layoutId: string): Promise<KeyboardLayout>;
+export function getUnicode(keyEntry: KeyEntry, layer: keyof LayerLegends): string | null;

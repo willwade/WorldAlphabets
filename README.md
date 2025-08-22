@@ -113,52 +113,6 @@ async function main() {
 main();
 ```
 
-### Keyboard Layouts
-
-In addition to alphabets, this library provides access to a collection of keyboard layouts from around the world.
-
-#### Python
-
-```python
-from worldalphabets import get_available_layouts, load_keyboard
-
-# Get a list of all available layout IDs
-layouts = get_available_layouts()
-print(f"Found {len(layouts)} keyboard layouts.")
-
-# Load a specific layout
-kb = load_keyboard("en-US-qwerty")
-print(f"Loaded layout: {kb.name}")
-
-# Find a specific key
-key_e = next(k for k in kb.keys if k.pos == 'D03')
-print(f"The 'E' key produces: {key_e.legends.base}")
-```
-
-#### Node.js
-
-```javascript
-const { getAvailableLayouts, loadKeyboard } = require('worldalphabets');
-
-async function main() {
-  // Get a list of all available layout IDs
-  const layouts = await getAvailableLayouts();
-  console.log(`Found ${layouts.length} keyboard layouts.`);
-
-  // Load a specific layout
-  const kb = await loadKeyboard('fr-FR-azerty');
-  console.log(`Loaded layout: ${kb.name}`);
-
-  // Find a specific key
-  const key_e = kb.keys.find(k => k.pos == 'D03');
-  console.log(`The 'E' key produces '${key_e.legends.base}' with base layer, and '${key_e.legends.altgr}' with AltGr.`);
-}
-
-main();
-```
-
-For more details on the data model and how to contribute new layouts, see the [Keyboard Layouts documentation](docs/keyboards.md).
-
 ## Supported Languages
 
 For a detailed list of supported languages and their metadata, see the [Alphabet Table](table.md).

@@ -31,7 +31,19 @@ async function loadKeyboard(layoutId) {
     }
 }
 
+function getUnicode(keyEntry, layer) {
+    if (!keyEntry || !keyEntry.legends) {
+        return null;
+    }
+    const char = keyEntry.legends[layer];
+    if (char) {
+        return `U+${char.charCodeAt(0).toString(16).toUpperCase().padStart(4, '0')}`;
+    }
+    return null;
+}
+
 module.exports = {
     getAvailableLayouts,
-    loadKeyboard
+    loadKeyboard,
+    getUnicode,
 };

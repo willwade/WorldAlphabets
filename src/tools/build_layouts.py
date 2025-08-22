@@ -1,9 +1,8 @@
-import json
 from pathlib import Path
 import argparse
 
 from worldalphabets.models.keyboard import KeyboardLayout
-from .parsers.kbdlayout_xml import parse_kbdlayout_xml
+from .parsers.kbdlayout_xml import parse_xml
 
 def build_layout(layout_id: str, source_dir: Path, output_dir: Path) -> None:
     """
@@ -12,29 +11,27 @@ def build_layout(layout_id: str, source_dir: Path, output_dir: Path) -> None:
     print(f"Building layout: {layout_id}")
 
     # Determine file paths
-    # The user provided kbdgr.xml for de-DE-qwertz
-    xml_file_name = "kbdgr.xml" if layout_id == "de-DE-qwertz" else f"{layout_id}.xml"
+    # This is a temporary mapping until the scraping logic is in place.
+    layout_to_file = {
+        "de-DE-qwertz": "kbdgr.xml",
+        "en-GB-qwerty": "kbduk.xml",
+    }
+    xml_file_name = layout_to_file.get(layout_id, f"{layout_id}.xml")
 
     xml_path = source_dir / layout_id / xml_file_name
-    kle_path = source_dir / layout_id / "kle.json"
 
-    if not xml_path.exists() or not kle_path.exists():
-        print("  -> Skipping, source files not found.")
+    if not xml_path.exists():
+        print("  -> Skipping, source file not found.")
         return
 
     # Read source files
     xml_content = xml_path.read_text(encoding="utf-8")
 
     # Parse source files
-    flags, xml_keys, dead_keys = parse_kbdlayout_xml(xml_content)
+    flags, xml_keys, dead_keys = parse_xml(xml_content)
 
-    # Load scancode to ISO position mapping
-    mapping_path = Path("data/mappings/iso105_to_iso9995.json")
-    sc_to_pos = {v["sc"]: k for k, v in json.loads(mapping_path.read_text()).items()}
-
-    # Assign ISO position to keys
-    for key in xml_keys:
-        key.pos = sc_to_pos.get(key.sc)
+    # Scancode and ISO position mapping is not yet implemented for the KbdDll format.
+    # This will be added later.
 
     # Create final layout object
     layout = KeyboardLayout(
@@ -68,7 +65,7 @@ def main() -> None:
     args = parser.parse_args()
 
     source_root = Path("data/sources")
-    output_root = Path("src/worldalphabets/data/layouts")
+    output_root = Path("data/layouts")
     output_root.mkdir(parents=True, exist_ok=True)
 
     if args.only:

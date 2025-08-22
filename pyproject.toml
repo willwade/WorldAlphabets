@@ -32,11 +32,11 @@ wa-validate-layouts = "tools.validate_layouts:main"
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+include-package-data = true
+
 [tool.setuptools.packages.find]
 where = ["src"]
-
-[tool.setuptools.package-data]
-"worldalphabets" = ["data/alphabets/*.json", "data/layouts/*.json", "data/index.json"]
 
 [tool.ruff]
 line-length = 88
@@ -50,6 +50,10 @@ strict_optional = true
 
 [[tool.mypy.overrides]]
 module = "langcodes"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "lxml"
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

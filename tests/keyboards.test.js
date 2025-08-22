@@ -1,11 +1,11 @@
-const { getAvailableLayouts, loadKeyboard } = require('../index');
+const { getAvailableLayouts, loadKeyboard, getUnicode } = require('../index');
 const fs = require('fs');
 const path = require('path');
 
 // Helper function to ensure data is built before running tests
 function ensureDataExists() {
-    const germanLayoutPath = path.join(__dirname, '..', 'src', 'worldalphabets', 'data', 'layouts', 'de-DE-qwertz.json');
-    if (!fs.existsSync(germanLayoutPath)) {
+    const layoutPath = path.join(__dirname, '..', 'data', 'layouts', 'de-DE-qwertz.json');
+    if (!fs.existsSync(layoutPath)) {
         // A bit of a hack, but it makes the JS tests runnable on their own.
         // This assumes that the python environment is set up and the build script is runnable.
         const { spawnSync } = require('child_process');
@@ -15,12 +15,6 @@ function ensureDataExists() {
             throw new Error("Failed to build test data.");
         }
     }
-    // Also need to copy data for the JS loader
-    const dataDir = path.join(__dirname, '..', 'data', 'layouts');
-    if (!fs.existsSync(dataDir)) {
-        fs.mkdirSync(dataDir, { recursive: true });
-    }
-    fs.copyFileSync(germanLayoutPath, path.join(dataDir, 'de-DE-qwertz.json'));
 }
 
 describe('Keyboard Layouts Node API', () => {
@@ -53,6 +47,14 @@ describe('Keyboard Layouts Node API', () => {
         const dead_key = layout.keys.find(k => k.dead);
         expect(dead_key).toBeDefined();
         expect(layout.dead_keys.length).toBeGreaterThan(0);
+    });
+
+    test('getUnicode returns correct code point', async () => {
+        const layout = await loadKeyboard('de-DE-qwertz');
+        const e_key = layout.keys.find(k => k.vk === "VK_E");
+        expect(e_key).toBeDefined();
+        expect(getUnicode(e_key, 'base')).toBe('U+0065');
+        expect(getUnicode(e_key, 'altgr')).toBe('U+20AC');
     });
 
     test('loadKeyboard throws for non-existent layout', async () => {

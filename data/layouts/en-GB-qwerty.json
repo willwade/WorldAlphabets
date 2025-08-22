@@ -1,0 +1,1323 @@
+{
+  "id": "en-GB-qwerty",
+  "name": "en-GB-qwerty",
+  "source": "kbdlayout.info",
+  "iso_variant": null,
+  "flags": {},
+  "keys": [
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_4",
+      "sc": null,
+      "legends": {
+        "base": "[",
+        "shift": "{",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u001b",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_6",
+      "sc": null,
+      "legends": {
+        "base": "]",
+        "shift": "}",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u001d",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_5",
+      "sc": null,
+      "legends": {
+        "base": "\\",
+        "shift": "|",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u001c",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_BACK",
+      "sc": null,
+      "legends": {
+        "base": "\b",
+        "shift": "\b",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_ESCAPE",
+      "sc": null,
+      "legends": {
+        "base": "\u001b",
+        "shift": "\u001b",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u001b",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_RETURN",
+      "sc": null,
+      "legends": {
+        "base": "\r",
+        "shift": "\r",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\n",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_SPACE",
+      "sc": null,
+      "legends": {
+        "base": " ",
+        "shift": " ",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": " ",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_CANCEL",
+      "sc": null,
+      "legends": {
+        "base": "\u0003",
+        "shift": "\u0003",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u0003",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_6",
+      "sc": null,
+      "legends": {
+        "base": "6",
+        "shift": "^",
+        "caps": "\u001e",
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_MINUS",
+      "sc": null,
+      "legends": {
+        "base": "-",
+        "shift": "_",
+        "caps": "\u001f",
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_3",
+      "sc": null,
+      "legends": {
+        "base": "'",
+        "shift": "@",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_8",
+      "sc": null,
+      "legends": {
+        "base": "`",
+        "shift": "¬",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_4",
+      "sc": null,
+      "legends": {
+        "base": "4",
+        "shift": "$",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_E",
+      "sc": null,
+      "legends": {
+        "base": "e",
+        "shift": "E",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_U",
+      "sc": null,
+      "legends": {
+        "base": "u",
+        "shift": "U",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_I",
+      "sc": null,
+      "legends": {
+        "base": "i",
+        "shift": "I",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_O",
+      "sc": null,
+      "legends": {
+        "base": "o",
+        "shift": "O",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_7",
+      "sc": null,
+      "legends": {
+        "base": "#",
+        "shift": "~",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": "\u001c",
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_A",
+      "sc": null,
+      "legends": {
+        "base": "a",
+        "shift": "A",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_1",
+      "sc": null,
+      "legends": {
+        "base": "1",
+        "shift": "!",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_2",
+      "sc": null,
+      "legends": {
+        "base": "2",
+        "shift": "\"",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_3",
+      "sc": null,
+      "legends": {
+        "base": "3",
+        "shift": "£",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_5",
+      "sc": null,
+      "legends": {
+        "base": "5",
+        "shift": "%",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_7",
+      "sc": null,
+      "legends": {
+        "base": "7",
+        "shift": "&",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_8",
+      "sc": null,
+      "legends": {
+        "base": "8",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_9",
+      "sc": null,
+      "legends": {
+        "base": "9",
+        "shift": "(",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_0",
+      "sc": null,
+      "legends": {
+        "base": "0",
+        "shift": ")",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_PLUS",
+      "sc": null,
+      "legends": {
+        "base": "=",
+        "shift": "+",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_Q",
+      "sc": null,
+      "legends": {
+        "base": "q",
+        "shift": "Q",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_W",
+      "sc": null,
+      "legends": {
+        "base": "w",
+        "shift": "W",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_R",
+      "sc": null,
+      "legends": {
+        "base": "r",
+        "shift": "R",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_T",
+      "sc": null,
+      "legends": {
+        "base": "t",
+        "shift": "T",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_Y",
+      "sc": null,
+      "legends": {
+        "base": "y",
+        "shift": "Y",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_P",
+      "sc": null,
+      "legends": {
+        "base": "p",
+        "shift": "P",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_S",
+      "sc": null,
+      "legends": {
+        "base": "s",
+        "shift": "S",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_D",
+      "sc": null,
+      "legends": {
+        "base": "d",
+        "shift": "D",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_F",
+      "sc": null,
+      "legends": {
+        "base": "f",
+        "shift": "F",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_G",
+      "sc": null,
+      "legends": {
+        "base": "g",
+        "shift": "G",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_H",
+      "sc": null,
+      "legends": {
+        "base": "h",
+        "shift": "H",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_J",
+      "sc": null,
+      "legends": {
+        "base": "j",
+        "shift": "J",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_K",
+      "sc": null,
+      "legends": {
+        "base": "k",
+        "shift": "K",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_L",
+      "sc": null,
+      "legends": {
+        "base": "l",
+        "shift": "L",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_1",
+      "sc": null,
+      "legends": {
+        "base": ";",
+        "shift": ":",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_Z",
+      "sc": null,
+      "legends": {
+        "base": "z",
+        "shift": "Z",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_X",
+      "sc": null,
+      "legends": {
+        "base": "x",
+        "shift": "X",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_C",
+      "sc": null,
+      "legends": {
+        "base": "c",
+        "shift": "C",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_V",
+      "sc": null,
+      "legends": {
+        "base": "v",
+        "shift": "V",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_B",
+      "sc": null,
+      "legends": {
+        "base": "b",
+        "shift": "B",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_N",
+      "sc": null,
+      "legends": {
+        "base": "n",
+        "shift": "N",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_M",
+      "sc": null,
+      "legends": {
+        "base": "m",
+        "shift": "M",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_COMMA",
+      "sc": null,
+      "legends": {
+        "base": ",",
+        "shift": "<",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_PERIOD",
+      "sc": null,
+      "legends": {
+        "base": ".",
+        "shift": ">",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_OEM_2",
+      "sc": null,
+      "legends": {
+        "base": "/",
+        "shift": "?",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_DECIMAL",
+      "sc": null,
+      "legends": {
+        "base": ".",
+        "shift": ".",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_TAB",
+      "sc": null,
+      "legends": {
+        "base": "\t",
+        "shift": "\t",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_ADD",
+      "sc": null,
+      "legends": {
+        "base": "+",
+        "shift": "+",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_DIVIDE",
+      "sc": null,
+      "legends": {
+        "base": "/",
+        "shift": "/",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_MULTIPLY",
+      "sc": null,
+      "legends": {
+        "base": "*",
+        "shift": "*",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_SUBTRACT",
+      "sc": null,
+      "legends": {
+        "base": "-",
+        "shift": "-",
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD0",
+      "sc": null,
+      "legends": {
+        "base": "0",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD1",
+      "sc": null,
+      "legends": {
+        "base": "1",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD2",
+      "sc": null,
+      "legends": {
+        "base": "2",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD3",
+      "sc": null,
+      "legends": {
+        "base": "3",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD4",
+      "sc": null,
+      "legends": {
+        "base": "4",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD5",
+      "sc": null,
+      "legends": {
+        "base": "5",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD6",
+      "sc": null,
+      "legends": {
+        "base": "6",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD7",
+      "sc": null,
+      "legends": {
+        "base": "7",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD8",
+      "sc": null,
+      "legends": {
+        "base": "8",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    },
+    {
+      "pos": null,
+      "row": null,
+      "col": null,
+      "shape": null,
+      "vk": "VK_NUMPAD9",
+      "sc": null,
+      "legends": {
+        "base": "9",
+        "shift": null,
+        "caps": null,
+        "altgr": null,
+        "shift_altgr": null,
+        "ctrl": null,
+        "alt": null
+      },
+      "dead": false,
+      "notes": []
+    }
+  ],
+  "dead_keys": [],
+  "ligatures": null,
+  "meta": {}
+}

@@ -21,6 +21,12 @@ class KeyEntry(BaseModel):
     dead: bool = False
     notes: List[str] = []
 
+    def get_unicode(self, layer: str) -> Optional[str]:
+        char = getattr(self.legends, layer, None)
+        if char:
+            return f"U+{ord(char):04X}"
+        return None
+
 class DeadKey(BaseModel):
     name: Optional[str] = None
     trigger: str

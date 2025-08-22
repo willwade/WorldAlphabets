@@ -1,0 +1,225 @@
+<KbdDll>
+<KbdLayerDescriptor>
+<KbdLayer MaxVSCtoVK="127" Version="1" LocaleFlags="ALTGR" LgMax="0" LgEntry="0" Type="0" SubType="0">
+<CharModifiers>
+<MODIFIERS MaxModBits="7" ModNumber="0 1 2 3 15 15 4 5">
+<VkToBit>
+<VK_TO_BIT Vk="VK_SHIFT" ModBits="KBDSHIFT"/>
+<VK_TO_BIT Vk="VK_CONTROL" ModBits="KBDCTRL"/>
+<VK_TO_BIT Vk="VK_MENU" ModBits="KBDALT"/>
+</VkToBit>
+</MODIFIERS>
+</CharModifiers>
+<VkToWcharTable>
+<VK_TO_WCHAR_TABLE Modifications="3" Size="8">
+<VkToWchars>
+<VK_TO_WCHARS Wch="005B 007B 001B" VirtualKey="VK_OEM_4"/>
+<VK_TO_WCHARS Wch="005D 007D 001D" VirtualKey="VK_OEM_6"/>
+<VK_TO_WCHARS Wch="005C 007C 001C" VirtualKey="VK_OEM_5"/>
+<VK_TO_WCHARS Wch="0008 0008 007F" VirtualKey="VK_BACK"/>
+<VK_TO_WCHARS Wch="001B 001B 001B" VirtualKey="VK_ESCAPE"/>
+<VK_TO_WCHARS Wch="000D 000D 000A" VirtualKey="VK_RETURN"/>
+<VK_TO_WCHARS Wch="0020 0020 0020" VirtualKey="VK_SPACE"/>
+<VK_TO_WCHARS Wch="0003 0003 0003" VirtualKey="VK_CANCEL"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+<VK_TO_WCHAR_TABLE Modifications="4" Size="10">
+<VkToWchars>
+<VK_TO_WCHARS Wch="0036 005E F000 001E" VirtualKey="VK_6"/>
+<VK_TO_WCHARS Wch="002D 005F F000 001F" VirtualKey="VK_OEM_MINUS"/>
+<VK_TO_WCHARS Wch="0027 0040 F000 0000" VirtualKey="VK_OEM_3"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+<VK_TO_WCHAR_TABLE Modifications="5" Size="12">
+<VkToWchars>
+<VK_TO_WCHARS Wch="0060 00AC F000 F000 00A6" VirtualKey="VK_OEM_8"/>
+<VK_TO_WCHARS Wch="0034 0024 F000 F000 20AC" VirtualKey="VK_4"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+<VK_TO_WCHAR_TABLE Modifications="6" Size="14">
+<VkToWchars>
+<VK_TO_WCHARS Wch="0065 0045 F000 F000 00E9 00C9" VirtualKey="VK_E" Attributes="CAPLOK, CAPLOKALTGR"/>
+<VK_TO_WCHARS Wch="0075 0055 F000 F000 00FA 00DA" VirtualKey="VK_U" Attributes="CAPLOK, CAPLOKALTGR"/>
+<VK_TO_WCHARS Wch="0069 0049 F000 F000 00ED 00CD" VirtualKey="VK_I" Attributes="CAPLOK, CAPLOKALTGR"/>
+<VK_TO_WCHARS Wch="006F 004F F000 F000 00F3 00D3" VirtualKey="VK_O" Attributes="CAPLOK, CAPLOKALTGR"/>
+<VK_TO_WCHARS Wch="0023 007E 001C F000 005C 007C" VirtualKey="VK_OEM_7"/>
+<VK_TO_WCHARS Wch="0061 0041 F000 F000 00E1 00C1" VirtualKey="VK_A" Attributes="CAPLOK, CAPLOKALTGR"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+<VK_TO_WCHAR_TABLE Modifications="2" Size="6">
+<VkToWchars>
+<VK_TO_WCHARS Wch="0031 0021" VirtualKey="VK_1"/>
+<VK_TO_WCHARS Wch="0032 0022" VirtualKey="VK_2"/>
+<VK_TO_WCHARS Wch="0033 00A3" VirtualKey="VK_3"/>
+<VK_TO_WCHARS Wch="0035 0025" VirtualKey="VK_5"/>
+<VK_TO_WCHARS Wch="0037 0026" VirtualKey="VK_7"/>
+<VK_TO_WCHARS Wch="0038 002A" VirtualKey="VK_8"/>
+<VK_TO_WCHARS Wch="0039 0028" VirtualKey="VK_9"/>
+<VK_TO_WCHARS Wch="0030 0029" VirtualKey="VK_0"/>
+<VK_TO_WCHARS Wch="003D 002B" VirtualKey="VK_OEM_PLUS"/>
+<VK_TO_WCHARS Wch="0071 0051" VirtualKey="VK_Q" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0077 0057" VirtualKey="VK_W" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0072 0052" VirtualKey="VK_R" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0074 0054" VirtualKey="VK_T" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0079 0059" VirtualKey="VK_Y" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0070 0050" VirtualKey="VK_P" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0073 0053" VirtualKey="VK_S" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0064 0044" VirtualKey="VK_D" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0066 0046" VirtualKey="VK_F" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0067 0047" VirtualKey="VK_G" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0068 0048" VirtualKey="VK_H" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="006A 004A" VirtualKey="VK_J" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="006B 004B" VirtualKey="VK_K" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="006C 004C" VirtualKey="VK_L" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="003B 003A" VirtualKey="VK_OEM_1"/>
+<VK_TO_WCHARS Wch="007A 005A" VirtualKey="VK_Z" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0078 0058" VirtualKey="VK_X" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0063 0043" VirtualKey="VK_C" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0076 0056" VirtualKey="VK_V" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="0062 0042" VirtualKey="VK_B" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="006E 004E" VirtualKey="VK_N" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="006D 004D" VirtualKey="VK_M" Attributes="CAPLOK"/>
+<VK_TO_WCHARS Wch="002C 003C" VirtualKey="VK_OEM_COMMA"/>
+<VK_TO_WCHARS Wch="002E 003E" VirtualKey="VK_OEM_PERIOD"/>
+<VK_TO_WCHARS Wch="002F 003F" VirtualKey="VK_OEM_2"/>
+<VK_TO_WCHARS Wch="002E 002E" VirtualKey="VK_DECIMAL"/>
+<VK_TO_WCHARS Wch="0009 0009" VirtualKey="VK_TAB"/>
+<VK_TO_WCHARS Wch="002B 002B" VirtualKey="VK_ADD"/>
+<VK_TO_WCHARS Wch="002F 002F" VirtualKey="VK_DIVIDE"/>
+<VK_TO_WCHARS Wch="002A 002A" VirtualKey="VK_MULTIPLY"/>
+<VK_TO_WCHARS Wch="002D 002D" VirtualKey="VK_SUBTRACT"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+<VK_TO_WCHAR_TABLE Modifications="1" Size="4">
+<VkToWchars>
+<VK_TO_WCHARS Wch="0030" VirtualKey="VK_NUMPAD0"/>
+<VK_TO_WCHARS Wch="0031" VirtualKey="VK_NUMPAD1"/>
+<VK_TO_WCHARS Wch="0032" VirtualKey="VK_NUMPAD2"/>
+<VK_TO_WCHARS Wch="0033" VirtualKey="VK_NUMPAD3"/>
+<VK_TO_WCHARS Wch="0034" VirtualKey="VK_NUMPAD4"/>
+<VK_TO_WCHARS Wch="0035" VirtualKey="VK_NUMPAD5"/>
+<VK_TO_WCHARS Wch="0036" VirtualKey="VK_NUMPAD6"/>
+<VK_TO_WCHARS Wch="0037" VirtualKey="VK_NUMPAD7"/>
+<VK_TO_WCHARS Wch="0038" VirtualKey="VK_NUMPAD8"/>
+<VK_TO_WCHARS Wch="0039" VirtualKey="VK_NUMPAD9"/>
+</VkToWchars>
+</VK_TO_WCHAR_TABLE>
+</VkToWcharTable>
+<DeadKeys/>
+<KeyNames>
+<VSC_STRING Vsc="01" Name="ESC"/>
+<VSC_STRING Vsc="0E" Name="BACKSPACE"/>
+<VSC_STRING Vsc="0F" Name="TAB"/>
+<VSC_STRING Vsc="1C" Name="ENTER"/>
+<VSC_STRING Vsc="1D" Name="CTRL"/>
+<VSC_STRING Vsc="2A" Name="SHIFT"/>
+<VSC_STRING Vsc="36" Name="RIGHT SHIFT"/>
+<VSC_STRING Vsc="37" Name="NUMMULT"/>
+<VSC_STRING Vsc="38" Name="ALT"/>
+<VSC_STRING Vsc="39" Name="SPACE"/>
+<VSC_STRING Vsc="3A" Name="CAPSLOCK"/>
+<VSC_STRING Vsc="3B" Name="F1"/>
+<VSC_STRING Vsc="3C" Name="F2"/>
+<VSC_STRING Vsc="3D" Name="F3"/>
+<VSC_STRING Vsc="3E" Name="F4"/>
+<VSC_STRING Vsc="3F" Name="F5"/>
+<VSC_STRING Vsc="40" Name="F6"/>
+<VSC_STRING Vsc="41" Name="F7"/>
+<VSC_STRING Vsc="42" Name="F8"/>
+<VSC_STRING Vsc="43" Name="F9"/>
+<VSC_STRING Vsc="44" Name="F10"/>
+<VSC_STRING Vsc="45" Name="Pause"/>
+<VSC_STRING Vsc="46" Name="SCROLL LOCK"/>
+<VSC_STRING Vsc="47" Name="NUM 7"/>
+<VSC_STRING Vsc="48" Name="NUM 8"/>
+<VSC_STRING Vsc="49" Name="NUM 9"/>
+<VSC_STRING Vsc="4A" Name="NUM SUB"/>
+<VSC_STRING Vsc="4B" Name="NUM 4"/>
+<VSC_STRING Vsc="4C" Name="NUM 5"/>
+<VSC_STRING Vsc="4D" Name="NUM 6"/>
+<VSC_STRING Vsc="4E" Name="NUM PLUS"/>
+<VSC_STRING Vsc="4F" Name="NUM 1"/>
+<VSC_STRING Vsc="50" Name="NUM 2"/>
+<VSC_STRING Vsc="51" Name="NUM 3"/>
+<VSC_STRING Vsc="52" Name="NUM 0"/>
+<VSC_STRING Vsc="53" Name="NUM DECIMAL"/>
+<VSC_STRING Vsc="57" Name="F11"/>
+<VSC_STRING Vsc="58" Name="F12"/>
+</KeyNames>
+<KeyNamesExt>
+<VSC_STRING Vsc="1C" Name="NUM ENTER"/>
+<VSC_STRING Vsc="1D" Name="Right Ctrl"/>
+<VSC_STRING Vsc="35" Name="NUM DIVIDE"/>
+<VSC_STRING Vsc="37" Name="Prnt Scrn"/>
+<VSC_STRING Vsc="38" Name="RIGHT ALT"/>
+<VSC_STRING Vsc="45" Name="Num Lock"/>
+<VSC_STRING Vsc="46" Name="Break"/>
+<VSC_STRING Vsc="47" Name="HOME"/>
+<VSC_STRING Vsc="48" Name="UP"/>
+<VSC_STRING Vsc="49" Name="PGUP"/>
+<VSC_STRING Vsc="4B" Name="LEFT"/>
+<VSC_STRING Vsc="4D" Name="RIGHT"/>
+<VSC_STRING Vsc="4F" Name="END"/>
+<VSC_STRING Vsc="50" Name="DOWN"/>
+<VSC_STRING Vsc="51" Name="PGDOWN"/>
+<VSC_STRING Vsc="52" Name="INSERT"/>
+<VSC_STRING Vsc="53" Name="DELETE"/>
+<VSC_STRING Vsc="54" Name="<00>"/>
+<VSC_STRING Vsc="56" Name="Help"/>
+<VSC_STRING Vsc="5B" Name="Left Windows"/>
+<VSC_STRING Vsc="5C" Name="Right Windows"/>
+<VSC_STRING Vsc="5D" Name="Application"/>
+</KeyNamesExt>
+<KeyNamesDead/>
+<VSCtoVK>
+00FF 001B 0031 0032 0033 0034 0035 0036 0037 0038 0039 0030 00BD 00BB 0008 0009 0051 0057 0045 0052 0054 0059 0055 0049 004F 0050 00DB 00DD 000D 00A2 0041 0053 0044 0046 0047 0048 004A 004B 004C 00BA 00C0 00DF 00A0 00DE 005A 0058 0043 0056 0042 004E 004D 00BC 00BE 00BF 01A1 026A 00A4 0020 0014 0070 0071 0072 0073 0074 0075 0076 0077 0078 0079 0390 0291 0C24 0C26 0C21 006D 0C25 0C0C 0C27 006B 0C23 0C28 0C22 0C2D 0C2E 002C 00FF 00DC 007A 007B 000C 00EE 00F1 00EA 00F9 00F5 00F3 00FF 00FF 00FB 002F 007C 007D 007E 007F 0080 0081 0082 0083 0084 0085 0086 00ED 00FF 00E9 00FF 00C1 00FF 00FF 0087 00FF 00FF 00FF 00FF 00EB 0009 00FF 00C2
+</VSCtoVK>
+<VSCtoVK_E0>
+<VSC_VK Vsc="10" Vk="01B1"/>
+<VSC_VK Vsc="19" Vk="01B0"/>
+<VSC_VK Vsc="1D" Vk="01A3"/>
+<VSC_VK Vsc="20" Vk="01AD"/>
+<VSC_VK Vsc="21" Vk="01B7"/>
+<VSC_VK Vsc="22" Vk="01B3"/>
+<VSC_VK Vsc="24" Vk="01B2"/>
+<VSC_VK Vsc="2E" Vk="01AE"/>
+<VSC_VK Vsc="30" Vk="01AF"/>
+<VSC_VK Vsc="32" Vk="01AC"/>
+<VSC_VK Vsc="35" Vk="016F"/>
+<VSC_VK Vsc="37" Vk="012C"/>
+<VSC_VK Vsc="38" Vk="01A5"/>
+<VSC_VK Vsc="47" Vk="0124"/>
+<VSC_VK Vsc="48" Vk="0126"/>
+<VSC_VK Vsc="49" Vk="0121"/>
+<VSC_VK Vsc="4B" Vk="0125"/>
+<VSC_VK Vsc="4D" Vk="0127"/>
+<VSC_VK Vsc="4F" Vk="0123"/>
+<VSC_VK Vsc="50" Vk="0128"/>
+<VSC_VK Vsc="51" Vk="0122"/>
+<VSC_VK Vsc="52" Vk="012D"/>
+<VSC_VK Vsc="53" Vk="012E"/>
+<VSC_VK Vsc="5B" Vk="015B"/>
+<VSC_VK Vsc="5C" Vk="015C"/>
+<VSC_VK Vsc="5D" Vk="015D"/>
+<VSC_VK Vsc="5F" Vk="015F"/>
+<VSC_VK Vsc="65" Vk="01AA"/>
+<VSC_VK Vsc="66" Vk="01AB"/>
+<VSC_VK Vsc="67" Vk="01A8"/>
+<VSC_VK Vsc="68" Vk="01A9"/>
+<VSC_VK Vsc="69" Vk="01A7"/>
+<VSC_VK Vsc="6A" Vk="01A6"/>
+<VSC_VK Vsc="6B" Vk="01B6"/>
+<VSC_VK Vsc="6C" Vk="01B4"/>
+<VSC_VK Vsc="6D" Vk="01B5"/>
+<VSC_VK Vsc="1C" Vk="010D"/>
+<VSC_VK Vsc="46" Vk="0103"/>
+</VSCtoVK_E0>
+<VSCtoVK_E1>
+<VSC_VK Vsc="1D" Vk="0013"/>
+</VSCtoVK_E1>
+<Ligatures/>
+</KbdLayer>
+</KbdLayerDescriptor>
+<KbdLayerMultiDescriptor/>
+<KbdNlsLayerDescriptor/>
+</KbdDll>
