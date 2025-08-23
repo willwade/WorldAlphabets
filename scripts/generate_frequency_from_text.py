@@ -11,10 +11,12 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import socket
+import time
 import urllib.request
 from pathlib import Path
 from typing import Dict, List
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 
 import langcodes
 
@@ -48,16 +50,34 @@ def _fetch_text(url: str) -> str:
 
 
 def _sample_text(code: str) -> str | None:
+    delay = 1.0
     for _ in range(MAX_ATTEMPTS):
         url = _random_article_url(code)
         try:
             sample = _fetch_text(url)
+        except HTTPError as exc:  # pragma: no cover - network errors
+            if exc.code == 429:
+                print(
+                    f"Rate limited fetching sample for {code}, sleeping {delay:.1f}s"
+                )
+                time.sleep(delay)
+                delay *= 2
+                continue
+            print(f"Failed to fetch sample for {code}: HTTP {exc.code}")
+            return None
         except URLError as exc:  # pragma: no cover - network errors
+            if isinstance(exc.reason, socket.gaierror):
+                print(f"No Wikipedia for {code}, skipping")
+                return None
             print(f"Failed to fetch sample for {code}: {exc}")
+            time.sleep(delay)
+            delay *= 2
             continue
         if len(sample) >= MIN_SAMPLE_CHARS:
             return sample
         print(f"Sample for {code} too short ({len(sample)} chars), retrying")
+        time.sleep(delay)
+        delay *= 2
     return None
 
 
