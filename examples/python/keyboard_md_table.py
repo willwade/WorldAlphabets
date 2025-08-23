@@ -60,8 +60,16 @@ LAYOUT_ROWS = [
     ["Space"],
 ]
 
-def layout_to_markdown(layout_id: str, layer: str = "base") -> str:
-    """Return the layout's ``layer`` as a Markdown table."""
+ROW_OFFSETS = [0, 1, 1, 2, 5]
+
+
+def layout_to_markdown(
+    layout_id: str, layer: str = "base", *, offset: bool = False
+) -> str:
+    """Return the layout's ``layer`` as a Markdown table.
+
+    If ``offset`` is true, rows are indented to roughly mirror a physical keyboard.
+    """
     layout = load_keyboard(layout_id)
     key_by_pos = {k.pos: k for k in layout.keys}
 
@@ -74,15 +82,31 @@ def layout_to_markdown(layout_id: str, layer: str = "base") -> str:
             return "␠"
         return value or ""
 
-    header = [legend(p) for p in LAYOUT_ROWS[0]]
+    offsets = ROW_OFFSETS if offset else [0] * len(LAYOUT_ROWS)
+    cols = max(len(row) + off for row, off in zip(LAYOUT_ROWS, offsets))
+
+    header = ["" for _ in range(offsets[0])]
+    header += [legend(p) for p in LAYOUT_ROWS[0]]
+    header += ["" for _ in range(cols - len(header))]
     lines = [
         "| " + " | ".join(header) + " |",
-        "|" + " --- |" * len(header),
+        "|" + " --- |" * cols,
     ]
-    for row in LAYOUT_ROWS[1:]:
-        line = [legend(p) for p in row]
+    for row, off in zip(LAYOUT_ROWS[1:], offsets[1:]):
+        line = ["" for _ in range(off)]
+        line += [legend(p) for p in row]
+        line += ["" for _ in range(cols - len(line))]
         lines.append("| " + " | ".join(line) + " |")
     return "\n".join(lines)
 
+
 if __name__ == "__main__":
-    print(layout_to_markdown("en-united-kingdom"))
+    import argparse
+
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("layout_id", nargs="?", default="en-united-kingdom")
+    parser.add_argument(
+        "--offset", action="store_true", help="offset rows to mimic a keyboard"
+    )
+    args = parser.parse_args()
+    print(layout_to_markdown(args.layout_id, offset=args.offset))
