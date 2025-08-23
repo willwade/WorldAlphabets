@@ -197,6 +197,8 @@ the source for alphabet data. A helper script clones the repository, scans all
 languages, and writes JSON files containing the alphabet and estimated letter
 frequencies. A second utility can replace those estimates with corpus
 frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
+Another helper script, `generate_frequency_from_text.py`, downloads sample
+articles and fills in frequency data for languages missing corpus statistics.
 
 Each JSON file includes:
 
