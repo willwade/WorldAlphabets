@@ -203,8 +203,9 @@ approximate frequencies for languages missing corpus statistics. Requests use a
 descriptive User-Agent and language codes are normalized with `langcodes`
 before building the Wikipedia URL. It skips languages without a corresponding
 Wikipedia edition and backs off when rate-limited. The script can also query the
-Google Books Ngram API with `--source gbooks`, attempting any language and
-skipping those without a corpus. Run
+Google Books Ngram API with `--source gbooks`, normalizing letters with
+Unicode NFKC to match corpus representations and skipping languages
+without a corpus. Run
 `uv run scripts/generate_frequency_from_text.py` to update languages
 missing frequency data, pass specific language codes to process only those, or
 add `--all` to recompute every language.

@@ -22,6 +22,7 @@ from typing import Dict, List, Optional
 from urllib.error import HTTPError, URLError
 
 import langcodes
+import unicodedata
 
 MIN_SAMPLE_CHARS = 2000
 MAX_ATTEMPTS = 5
@@ -97,7 +98,12 @@ def _letter_frequency(text: str, letters: List[str]) -> Dict[str, float]:
 
 
 def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float]]:
-    content = ",".join(letters)
+    norm_map = {ch: unicodedata.normalize("NFKC", ch) for ch in letters}
+    unique_letters: List[str] = []
+    for norm in norm_map.values():
+        if norm not in unique_letters:
+            unique_letters.append(norm)
+    content = ",".join(unique_letters)
     params = urllib.parse.urlencode(
         {
             "content": content,
@@ -129,18 +135,21 @@ def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float
         print(f"No frequency data in Google Books response for {code}")
         return None
     data = json.loads(match.group(1))
-    freqs = {}
+    freqs_norm = {}
     for entry in data:
-        if entry.get("type") != "CASE_INSENSITIVE":
+        if entry.get("type") not in {"CASE_INSENSITIVE", "NGRAM"}:
             continue
         letter = entry["ngram"].split(" (All)")[0]
-        if letter in letters:
+        if letter in unique_letters:
             series = entry["timeseries"]
-            freqs[letter] = sum(series) / len(series)
-    if not freqs:
+            freqs_norm[letter] = sum(series) / len(series)
+    if not freqs_norm:
+        print(f"No frequency data from Google Books for {code}")
         return None
-    total = sum(freqs.values())
-    return {ch: round(freqs.get(ch, 0.0) / total, 4) for ch in letters}
+    total = sum(freqs_norm.values())
+    return {
+        ch: round(freqs_norm.get(norm_map[ch], 0.0) / total, 4) for ch in letters
+    }
 
 
 def main() -> None:
