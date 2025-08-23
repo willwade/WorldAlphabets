@@ -28,6 +28,7 @@ import unicodedata
 MIN_SAMPLE_CHARS = 2000
 MAX_ATTEMPTS = 5
 USER_AGENT = "WorldAlphabets frequency bot (https://github.com/nmslib/WorldAlphabets)"
+SOURCE_CHOICES = ("wikipedia", "gbooks", "opensubtitles")
 
 
 def _wiki_subdomain(code: str) -> str:
@@ -215,9 +216,13 @@ def main() -> None:
     )
     parser.add_argument(
         "--source",
-        choices=["wikipedia", "gbooks", "opensubtitles"],
-        default="wikipedia",
-        help="text source for frequency estimation",
+        choices=list(SOURCE_CHOICES),
+        default=SOURCE_CHOICES[0],
+        help=(
+            "text source for frequency estimation ("
+            + ", ".join(SOURCE_CHOICES)
+            + ")"
+        ),
     )
     args = parser.parse_args()
 
