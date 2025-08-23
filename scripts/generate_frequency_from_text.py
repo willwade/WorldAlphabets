@@ -3,10 +3,11 @@
 
 Downloads sample text to approximate letter frequencies for languages missing
 corpus statistics. By default it pulls random Wikipedia articles, but it can
-also query the Google Books Ngram API for supported languages. Articles
-shorter than a minimum length are ignored. Provide language codes on the
-command line to restrict processing; otherwise all languages without frequency
-data are updated.
+also query the Google Books Ngram API for supported languages or consume word
+frequency lists from the OpenSubtitles project. Articles shorter than a
+minimum length are ignored. Provide language codes on the command line to
+restrict processing; otherwise all languages without frequency data are
+updated.
 """
 from __future__ import annotations
 
@@ -152,6 +153,49 @@ def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float
     }
 
 
+def _opensubtitles_frequency(
+    code: str, letters: List[str]
+) -> Optional[Dict[str, float]]:
+    base = _wiki_subdomain(code)
+    url = (
+        "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/"
+        f"content/2018/{base}/{base}_50k.txt"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req) as resp:  # nosec B310
+            text = resp.read().decode("utf-8", errors="ignore")
+    except HTTPError as exc:  # pragma: no cover - network errors
+        if exc.code == 404:
+            print(f"No OpenSubtitles data for {code}, skipping")
+        else:
+            print(
+                f"Failed to fetch OpenSubtitles data for {code}: HTTP {exc.code}"
+            )
+        return None
+    counts = {ch: 0 for ch in letters}
+    for line in text.splitlines():
+        parts = line.strip().split()
+        if len(parts) != 2:
+            continue
+        word, freq_str = parts
+        try:
+            freq = int(freq_str)
+        except ValueError:
+            continue
+        if all(ch.upper() == ch and ch.lower() != ch for ch in letters):
+            word = word.upper()
+        else:
+            word = word.lower()
+        for ch in word:
+            if ch in counts:
+                counts[ch] += freq
+    total = sum(counts.values())
+    if total == 0:
+        return {ch: 0.0 for ch in letters}
+    return {ch: round(counts[ch] / total, 4) for ch in letters}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -166,7 +210,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--source",
-        choices=["wikipedia", "gbooks"],
+        choices=["wikipedia", "gbooks", "opensubtitles"],
         default="wikipedia",
         help="text source for frequency estimation",
     )
@@ -202,12 +246,20 @@ def main() -> None:
             else:
                 sample = sample.lower()
             freq = _letter_frequency(sample, letters)
-        else:
+        elif args.source == "gbooks":
             gfreq = _gbooks_frequency(code, letters)
             if gfreq is None:
                 print(f"Could not fetch Google Books sample for {code}, skipping")
                 continue
             freq = gfreq
+        else:
+            osfreq = _opensubtitles_frequency(code, letters)
+            if osfreq is None:
+                print(
+                    f"Could not fetch OpenSubtitles data for {code}, skipping"
+                )
+                continue
+            freq = osfreq
         data["frequency"] = freq
         json_file.write_text(
             json.dumps(data, ensure_ascii=False, indent=2) + "\n",
