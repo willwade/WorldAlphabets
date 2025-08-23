@@ -88,17 +88,23 @@ def _sample_text(code: str) -> str | None:
 
 
 def _letter_frequency(text: str, letters: List[str]) -> Dict[str, float]:
-    norm_map = {unicodedata.normalize("NFKC", ch): ch for ch in letters}
-    counts = {ch: 0 for ch in letters}
+    norm_map = {ch: unicodedata.normalize("NFKC", ch) for ch in letters}
+    unique_letters: List[str] = []
+    for norm in norm_map.values():
+        if norm not in unique_letters:
+            unique_letters.append(norm)
+    counts = {ch: 0 for ch in unique_letters}
     total = 0
     for ch in unicodedata.normalize("NFKC", text):
-        orig = norm_map.get(ch)
-        if orig is not None:
-            counts[orig] += 1
+        if ch in counts:
+            counts[ch] += 1
             total += 1
     if total == 0:
         return {ch: 0.0 for ch in letters}
-    return {ch: round(counts[ch] / total, 4) for ch in letters}
+    return {
+        ch: round(counts[norm_map[ch]] / total, 4)
+        for ch in letters
+    }
 
 
 def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float]]:
@@ -176,8 +182,8 @@ def _opensubtitles_frequency(
                 f"Failed to fetch OpenSubtitles data for {code}: HTTP {exc.code}"
             )
         return None
-    norm_map = {unicodedata.normalize("NFKC", ch): ch for ch in letters}
-    counts = {ch: 0 for ch in letters}
+    norm_map = {ch: unicodedata.normalize("NFKC", ch) for ch in letters}
+    counts = {norm: 0 for norm in set(norm_map.values())}
     for line in text.splitlines():
         parts = line.strip().split()
         if len(parts) != 2:
@@ -193,13 +199,15 @@ def _opensubtitles_frequency(
             word = word.lower()
         word = unicodedata.normalize("NFKC", word)
         for ch in word:
-            orig = norm_map.get(ch)
-            if orig is not None:
-                counts[orig] += freq
+            if ch in counts:
+                counts[ch] += freq
     total = sum(counts.values())
     if total == 0:
         return {ch: 0.0 for ch in letters}
-    return {ch: round(counts[ch] / total, 4) for ch in letters}
+    return {
+        ch: round(counts[norm_map[ch]] / total, 4)
+        for ch in letters
+    }
 
 
 def main() -> None:
