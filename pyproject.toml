@@ -5,10 +5,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
-    "langcodes>=3.3.0",
-    "language-data>=1.1.0",
     "pydantic>=2.0.0",
-    "lxml>=4.9.0",
 ]
 
 [project.optional-dependencies]
@@ -16,10 +13,12 @@ dev = [
     "pytest>=8.0.0",
     "ruff>=0.1.0",
     "mypy>=1.0.0",
+    "lxml>=4.9.0",
     "lxml-stubs>=0.5.0",
     "build>=0.10.0",
     "requests>=2.31.0",
     "beautifulsoup4>=4.12.3",
+    "langcodes>=3.3.0",
     "types-requests",
     "types-beautifulsoup4",
 ]

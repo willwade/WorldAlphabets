@@ -57,6 +57,7 @@ LAYOUT_ROWS = [
         "Period",
         "Slash",
     ],
+    ["Space"],
 ]
 
 def layout_to_markdown(layout_id: str, layer: str = "base") -> str:
@@ -69,6 +70,8 @@ def layout_to_markdown(layout_id: str, layer: str = "base") -> str:
         if not key:
             return ""
         value = getattr(key.legends, layer)
+        if value == " ":
+            return "␠"
         return value or ""
 
     header = [legend(p) for p in LAYOUT_ROWS[0]]
