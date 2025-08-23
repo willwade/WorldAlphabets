@@ -16,16 +16,33 @@ from pathlib import Path
 from typing import Dict, List
 from urllib.error import URLError
 
+import langcodes
+
 MIN_SAMPLE_CHARS = 2000
 MAX_ATTEMPTS = 5
+USER_AGENT = "WorldAlphabets frequency bot (https://github.com/nmslib/WorldAlphabets)"
+
+
+def _wiki_subdomain(code: str) -> str:
+    """Return the Wikipedia subdomain for a language code."""
+    try:
+        lang = langcodes.Language.get(code)
+    except langcodes.LanguageTagError:
+        return code
+    sub = lang.language or code
+    if len(sub) == 3 and len(code) < 3:
+        sub = code
+    return sub
 
 
 def _random_article_url(code: str) -> str:
-    return f"https://{code}.wikipedia.org/wiki/Special:Random?action=render"
+    sub = _wiki_subdomain(code)
+    return f"https://{sub}.wikipedia.org/wiki/Special:Random?action=render"
 
 
 def _fetch_text(url: str) -> str:
-    with urllib.request.urlopen(url) as resp:  # nosec B310
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req) as resp:  # nosec B310
         html = resp.read().decode("utf-8", errors="ignore")
     return re.sub(r"<[^>]+>", "", html)
 
