@@ -228,13 +228,16 @@ uv pip install -e '.[dev]'
 
 ### Data Generation
 
+I would say this dataset has been made iteratively from multiple sources. Building the whole thing from scratch we wouldn't of done it like this.. 
+
 **Extract alphabets**
 
 ```bash
 uv run scripts/extract_alphabets.py
 ```
 
-The script clones the Java project and stores JSON files for every available
+The script clones the [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
+Java project and stores JSON files for every available
 alphabet under `data/alphabets/`, named by ISO language code. If no sample text
 is available, frequency values default to zero and the language is recorded in
 `data/todo_languages.csv` for follow-up.
@@ -302,8 +305,13 @@ mypy .
 - [Wikipedia](https://wikipedia.org)
 - [ICU locale data](http://site.icu-project.org/)
 - [Unicode](https://unicode.org/)
-- [Kblayout](https://kblayout.info/)
+- [Kbdlayout](https://kbdlayout.info)
 
-## Future work
 
-- Add sample text or unigram support for more languages.
+## Licence Info
+
+- This project is licensed under the MIT License.
+- Data sourced from [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) is licensed under the Apache 2.0 License. 
+- Data sourced from [Simia unigrams dataset](http://simia.net/letters/) (Data from [Wiktionary](https://wiktionary.org)) is licensed under the Creative Commons Attribution-ShareAlike License.
+- Data sourced from [Wikipedia](https://wikipedia.org) is licensed under the Creative Commons Attribution-ShareAlike License. 
+
