@@ -27,19 +27,6 @@ MIN_SAMPLE_CHARS = 2000
 MAX_ATTEMPTS = 5
 USER_AGENT = "WorldAlphabets frequency bot (https://github.com/nmslib/WorldAlphabets)"
 
-GOOGLE_CORPORA = {
-    "en": "en",
-    "en-US": "en-US",
-    "en-GB": "en-GB",
-    "zh": "zh",
-    "fr": "fr",
-    "de": "de",
-    "he": "iw",
-    "it": "it",
-    "ru": "ru",
-    "es": "es",
-}
-
 
 def _wiki_subdomain(code: str) -> str:
     """Return the Wikipedia subdomain for a language code."""
@@ -110,17 +97,13 @@ def _letter_frequency(text: str, letters: List[str]) -> Dict[str, float]:
 
 
 def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float]]:
-    corpus = GOOGLE_CORPORA.get(code)
-    if corpus is None:
-        print(f"No Google Books corpus for {code}, skipping")
-        return None
     content = ",".join(letters)
     params = urllib.parse.urlencode(
         {
             "content": content,
             "year_start": 2000,
             "year_end": 2019,
-            "corpus": corpus,
+            "corpus": code,
             "smoothing": 0,
             "case_insensitive": "true",
         }
@@ -131,7 +114,12 @@ def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float
         with urllib.request.urlopen(req) as resp:  # nosec B310
             html = resp.read().decode("utf-8", errors="ignore")
     except HTTPError as exc:  # pragma: no cover - network errors
-        print(f"Failed to fetch Google Books data for {code}: HTTP {exc.code}")
+        if exc.code == 404:
+            print(f"No Google Books corpus for {code}, skipping")
+        else:
+            print(
+                f"Failed to fetch Google Books data for {code}: HTTP {exc.code}"
+            )
         return None
     match = re.search(
         r'<script id="ngrams-data" type="application/json">([^<]+)</script>',
