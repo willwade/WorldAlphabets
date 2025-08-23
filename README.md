@@ -197,8 +197,20 @@ the source for alphabet data. A helper script clones the repository, scans all
 languages, and writes JSON files containing the alphabet and estimated letter
 frequencies. A second utility can replace those estimates with corpus
 frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
-Another helper script, `generate_frequency_from_text.py`, downloads sample
-articles and fills in frequency data for languages missing corpus statistics.
+Another helper script, `generate_frequency_from_text.py`, fetches random
+Wikipedia articles—retrying until the sample has at least 2,000 characters—to
+approximate frequencies for languages missing corpus statistics. Sample text
+and alphabet letters are normalized with Unicode NFKC, and duplicate letters are
+collapsed so presentation forms share counts with their base characters.
+Requests use a descriptive User-Agent and language codes are normalized with
+`langcodes` before building the Wikipedia URL. It skips languages without a
+corresponding Wikipedia edition and backs off when rate-limited. The script can
+also query the Google Books Ngram API with `--source gbooks`, normalizing
+letters with Unicode NFKC to match corpus representations and skipping
+languages without a corpus, or consume OpenSubtitles word frequency lists with
+`--source opensubtitles`. Run `uv run scripts/generate_frequency_from_text.py`
+to update languages missing frequency data, pass specific language codes to
+process only those, or add `--all` to recompute every language.
 
 Each JSON file includes:
 
