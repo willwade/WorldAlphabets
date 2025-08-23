@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Generate letter frequency data from sample texts.
 
-Downloads random Wikipedia articles to approximate letter frequencies for
-languages missing corpus statistics. Articles shorter than a minimum length
-are ignored. Provide language codes on the command line to restrict
-processing; otherwise all languages without frequency data are updated.
+Downloads sample text to approximate letter frequencies for languages missing
+corpus statistics. By default it pulls random Wikipedia articles, but it can
+also query the Google Books Ngram API for supported languages. Articles
+shorter than a minimum length are ignored. Provide language codes on the
+command line to restrict processing; otherwise all languages without frequency
+data are updated.
 """
 from __future__ import annotations
 
@@ -13,9 +15,10 @@ import json
 import re
 import socket
 import time
+import urllib.parse
 import urllib.request
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 from urllib.error import HTTPError, URLError
 
 import langcodes
@@ -23,6 +26,19 @@ import langcodes
 MIN_SAMPLE_CHARS = 2000
 MAX_ATTEMPTS = 5
 USER_AGENT = "WorldAlphabets frequency bot (https://github.com/nmslib/WorldAlphabets)"
+
+GOOGLE_CORPORA = {
+    "en": "en",
+    "en-US": "en-US",
+    "en-GB": "en-GB",
+    "zh": "zh",
+    "fr": "fr",
+    "de": "de",
+    "he": "iw",
+    "it": "it",
+    "ru": "ru",
+    "es": "es",
+}
 
 
 def _wiki_subdomain(code: str) -> str:
@@ -93,6 +109,52 @@ def _letter_frequency(text: str, letters: List[str]) -> Dict[str, float]:
     return {ch: round(counts[ch] / total, 4) for ch in letters}
 
 
+def _gbooks_frequency(code: str, letters: List[str]) -> Optional[Dict[str, float]]:
+    corpus = GOOGLE_CORPORA.get(code)
+    if corpus is None:
+        print(f"No Google Books corpus for {code}, skipping")
+        return None
+    content = ",".join(letters)
+    params = urllib.parse.urlencode(
+        {
+            "content": content,
+            "year_start": 2000,
+            "year_end": 2019,
+            "corpus": corpus,
+            "smoothing": 0,
+            "case_insensitive": "true",
+        }
+    )
+    url = f"https://books.google.com/ngrams/interactive_chart?{params}"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req) as resp:  # nosec B310
+            html = resp.read().decode("utf-8", errors="ignore")
+    except HTTPError as exc:  # pragma: no cover - network errors
+        print(f"Failed to fetch Google Books data for {code}: HTTP {exc.code}")
+        return None
+    match = re.search(
+        r'<script id="ngrams-data" type="application/json">([^<]+)</script>',
+        html,
+    )
+    if not match:
+        print(f"No frequency data in Google Books response for {code}")
+        return None
+    data = json.loads(match.group(1))
+    freqs = {}
+    for entry in data:
+        if entry.get("type") != "CASE_INSENSITIVE":
+            continue
+        letter = entry["ngram"].split(" (All)")[0]
+        if letter in letters:
+            series = entry["timeseries"]
+            freqs[letter] = sum(series) / len(series)
+    if not freqs:
+        return None
+    total = sum(freqs.values())
+    return {ch: round(freqs.get(ch, 0.0) / total, 4) for ch in letters}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -100,32 +162,55 @@ def main() -> None:
         nargs="*",
         help="language codes to process (default: all missing frequency data)",
     )
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="process all languages regardless of existing data",
+    )
+    parser.add_argument(
+        "--source",
+        choices=["wikipedia", "gbooks"],
+        default="wikipedia",
+        help="text source for frequency estimation",
+    )
     args = parser.parse_args()
 
     alphabets_dir = Path("data/alphabets")
     index_path = Path("data/index.json")
     index = json.loads(index_path.read_text(encoding="utf-8"))
 
-    codes = args.codes or [
-        entry["language"] for entry in index if not entry.get("frequency-avail")
-    ]
+    if args.all:
+        codes = [entry["language"] for entry in index]
+    elif args.codes:
+        codes = args.codes
+    else:
+        codes = [
+            entry["language"] for entry in index if not entry.get("frequency-avail")
+        ]
 
     for code in codes:
         json_file = alphabets_dir / f"{code}.json"
         if not json_file.exists():
             print(f"No alphabet for {code}, skipping")
             continue
-        sample = _sample_text(code)
-        if sample is None:
-            print(f"Could not find suitable sample for {code}, skipping")
-            continue
         data = json.loads(json_file.read_text(encoding="utf-8"))
         letters = data["lowercase"]
-        if all(ch.upper() == ch and ch.lower() != ch for ch in letters):
-            sample = sample.upper()
+        if args.source == "wikipedia":
+            sample = _sample_text(code)
+            if sample is None:
+                print(f"Could not find suitable sample for {code}, skipping")
+                continue
+            if all(ch.upper() == ch and ch.lower() != ch for ch in letters):
+                sample = sample.upper()
+            else:
+                sample = sample.lower()
+            freq = _letter_frequency(sample, letters)
         else:
-            sample = sample.lower()
-        freq = _letter_frequency(sample, letters)
+            gfreq = _gbooks_frequency(code, letters)
+            if gfreq is None:
+                print(f"Could not fetch Google Books sample for {code}, skipping")
+                continue
+            freq = gfreq
         data["frequency"] = freq
         json_file.write_text(
             json.dumps(data, ensure_ascii=False, indent=2) + "\n",
