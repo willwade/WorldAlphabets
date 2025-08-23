@@ -87,11 +87,13 @@ def _sample_text(code: str) -> str | None:
 
 
 def _letter_frequency(text: str, letters: List[str]) -> Dict[str, float]:
+    norm_map = {unicodedata.normalize("NFKC", ch): ch for ch in letters}
     counts = {ch: 0 for ch in letters}
     total = 0
-    for ch in text:
-        if ch in counts:
-            counts[ch] += 1
+    for ch in unicodedata.normalize("NFKC", text):
+        orig = norm_map.get(ch)
+        if orig is not None:
+            counts[orig] += 1
             total += 1
     if total == 0:
         return {ch: 0.0 for ch in letters}
@@ -173,6 +175,7 @@ def _opensubtitles_frequency(
                 f"Failed to fetch OpenSubtitles data for {code}: HTTP {exc.code}"
             )
         return None
+    norm_map = {unicodedata.normalize("NFKC", ch): ch for ch in letters}
     counts = {ch: 0 for ch in letters}
     for line in text.splitlines():
         parts = line.strip().split()
@@ -187,9 +190,11 @@ def _opensubtitles_frequency(
             word = word.upper()
         else:
             word = word.lower()
+        word = unicodedata.normalize("NFKC", word)
         for ch in word:
-            if ch in counts:
-                counts[ch] += freq
+            orig = norm_map.get(ch)
+            if orig is not None:
+                counts[orig] += freq
     total = sum(counts.values())
     if total == 0:
         return {ch: 0.0 for ch in letters}

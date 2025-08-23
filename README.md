@@ -199,17 +199,18 @@ frequencies. A second utility can replace those estimates with corpus
 frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
 Another helper script, `generate_frequency_from_text.py`, fetches random
 Wikipedia articles—retrying until the sample has at least 2,000 characters—to
-approximate frequencies for languages missing corpus statistics. Requests use a
-descriptive User-Agent and language codes are normalized with `langcodes`
-before building the Wikipedia URL. It skips languages without a corresponding
-Wikipedia edition and backs off when rate-limited. The script can also query the
-Google Books Ngram API with `--source gbooks`, normalizing letters with
-Unicode NFKC to match corpus representations and skipping languages
-without a corpus, or consume OpenSubtitles word frequency lists with
-`--source opensubtitles`. Run
-`uv run scripts/generate_frequency_from_text.py` to update languages
-missing frequency data, pass specific language codes to process only those, or
-add `--all` to recompute every language.
+approximate frequencies for languages missing corpus statistics. Sample text
+is normalized with Unicode NFKC before counting so compatibility forms don't
+yield zero counts. Requests use a descriptive User-Agent and language codes are
+normalized with `langcodes` before building the Wikipedia URL. It skips
+languages without a corresponding Wikipedia edition and backs off when
+rate-limited. The script can also query the Google Books Ngram API with
+`--source gbooks`, normalizing letters with Unicode NFKC to match corpus
+representations and skipping languages without a corpus, or consume
+OpenSubtitles word frequency lists with `--source opensubtitles`. Run
+`uv run scripts/generate_frequency_from_text.py` to update languages missing
+frequency data, pass specific language codes to process only those, or add
+`--all` to recompute every language.
 
 Each JSON file includes:
 
