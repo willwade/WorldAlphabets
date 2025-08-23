@@ -6,6 +6,12 @@ A tool to access alphabets of the world with Python and Node interfaces.
 
 ### Python
 
+Install the package:
+
+```bash
+pip install worldalphabets
+```
+
 To load the data in Python:
 
 ```python
@@ -127,11 +133,12 @@ Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org
 
 #### Python
 
-A helper in `examples/keyboard_md_table.py` renders a layout as a Markdown
-table:
+The script `examples/python/keyboard_md_table.py` demonstrates rendering a
+layout as a Markdown table. Copy the `layout_to_markdown` helper into your
+project and use it like this:
 
 ```python
-from examples.keyboard_md_table import layout_to_markdown
+from keyboard_md_table import layout_to_markdown
 
 print(layout_to_markdown("en-united-kingdom"))
 ```
@@ -144,6 +151,7 @@ Output:
 | q | w | e | r | t | y | u | i | o | p | [ | ] |
 | a | s | d | f | g | h | j | k | l | ; | ' | # |
 | z | x | c | v | b | n | m | , | . | / |
+| ␠ |
 
 #### Node.js
 
