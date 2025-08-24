@@ -32,9 +32,9 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   try {
     // Fetch all data in parallel
     const [indexRes, alphabetRes, mappingRes] = await Promise.all([
-      fetch('/data/index.json'),
-      fetch(`/data/alphabets/${newLangCode}.json`),
-      fetch('/data/mappings/language_to_driver.json'),
+      fetch('data/index.json'),
+      fetch(`data/alphabets/${newLangCode}.json`),
+      fetch('data/mappings/language_to_driver.json'),
     ]);
 
     // Process language info
@@ -59,16 +59,16 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
     }
 
     // Check for audio
-    const audioCheck = await fetch(`/audio/${newLangCode}.wav`);
+    const audioCheck = await fetch(`audio/${newLangCode}.wav`);
     if (audioCheck.ok) {
-        audioUrl.value = `/audio/${newLangCode}.wav`;
+        audioUrl.value = `audio/${newLangCode}.wav`;
     }
 
     // Process keyboard layout
     const mappingData = await mappingRes.json();
     const layoutName = mappingData[newLangCode];
     if (layoutName) {
-      const keyboardRes = await fetch(`/data/layouts/${layoutName}.json`);
+      const keyboardRes = await fetch(`data/layouts/${layoutName}.json`);
       if (keyboardRes.ok) {
         keyboardData.value = await keyboardRes.json();
       }

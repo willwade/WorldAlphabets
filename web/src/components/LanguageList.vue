@@ -7,7 +7,7 @@ const emit = defineEmits(['language-selected']);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/data/index.json');
+    const response = await fetch('data/index.json');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
