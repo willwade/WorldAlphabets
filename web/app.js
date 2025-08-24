@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalLetter = document.getElementById('modal-letter');
     const modalCopyBtn = document.getElementById('modal-copy-btn');
     const modalClose = document.getElementById('modal-close');
+    const searchBox = document.getElementById('search-box');
 
     let languagesData = [];
     let translationsData = {};
@@ -36,6 +37,19 @@ document.addEventListener('DOMContentLoaded', () => {
             langDiv.dataset.langCode = language.language;
             langDiv.addEventListener('click', () => showLanguageDetails(language.language));
             languageList.appendChild(langDiv);
+        });
+
+        searchBox.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            const languageItems = document.querySelectorAll('.language-item');
+            languageItems.forEach(item => {
+                const languageName = item.textContent.toLowerCase();
+                if (languageName.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
         });
     });
 
@@ -93,12 +107,34 @@ document.addEventListener('DOMContentLoaded', () => {
             languageDetails.appendChild(nameEl);
 
             const directionEl = document.createElement('p');
-            directionEl.textContent = `Direction: ${language.direction}`;
+            const directionText = language.direction === 'rtl' ? 'Right to Left' : 'Left to Right';
+            directionEl.textContent = `Direction: ${directionText}`;
             languageDetails.appendChild(directionEl);
+
+            // Render alphabet header with copy all button
+            const alphabetHeader = document.createElement('div');
+            alphabetHeader.style.display = 'flex';
+            alphabetHeader.style.alignItems = 'center';
+            alphabetHeader.style.gap = '1em';
 
             const alphabetTitle = document.createElement('h3');
             alphabetTitle.textContent = 'Alphabet';
-            languageDetails.appendChild(alphabetTitle);
+            alphabetTitle.style.margin = '0';
+            alphabetHeader.appendChild(alphabetTitle);
+
+            if (alphabetData.alphabetical && alphabetData.alphabetical.length > 0) {
+                const copyAllBtn = document.createElement('button');
+                copyAllBtn.textContent = 'Copy All';
+                copyAllBtn.onclick = () => {
+                    const alphabetString = alphabetData.alphabetical.join('\\n');
+                    navigator.clipboard.writeText(alphabetString).then(() => {
+                        copyAllBtn.textContent = 'Copied!';
+                        setTimeout(() => copyAllBtn.textContent = 'Copy All', 1500);
+                    });
+                };
+                alphabetHeader.appendChild(copyAllBtn);
+            }
+            languageDetails.appendChild(alphabetHeader);
             const alphabetList = document.createElement('div');
             alphabetList.classList.add('alphabet-list');
             if (alphabetData.alphabetical) {

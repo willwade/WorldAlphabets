@@ -22,6 +22,7 @@ dev = [
     "types-requests",
     "types-beautifulsoup4",
     "py3-tts-wrapper[google,watson,polly,microsoft,elevenlabs,witai,sherpaonnx,openai]",
+    "google-cloud-translate",
 ]
 
 [project.scripts]
