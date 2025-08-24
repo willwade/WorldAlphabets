@@ -17,6 +17,7 @@ const audioUrl = ref(null);
 const activeTab = ref('alphabet');
 const error = ref(null);
 const isLoading = ref(false);
+const baseUrl = import.meta.env.BASE_URL;
 
 watch(() => props.selectedLangCode, async (newLangCode) => {
   if (!newLangCode) {
@@ -38,12 +39,15 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   try {
     // Fetch all data in parallel
     const [indexRes, alphabetRes, audioIndexRes] = await Promise.all([
-      fetch('data/index.json'),
-      fetch(`data/alphabets/${newLangCode}.json`),
-      fetch('data/audio/index.json'),
+      fetch(`${baseUrl}data/index.json`),
+      fetch(`${baseUrl}data/alphabets/${newLangCode}.json`),
+      fetch(`${baseUrl}data/audio/index.json`),
     ]);
 
     // Process language info
+    if (!indexRes.ok) {
+      throw new Error('Failed to load language index');
+    }
     const indexData = await indexRes.json();
     const langInfo = indexData.find(l => l.language === newLangCode);
     if (langInfo) {
@@ -54,7 +58,7 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       if (Array.isArray(langInfo.keyboards) && langInfo.keyboards.length) {
         keyboardCount.value = langInfo.keyboards.length;
         const layoutId = langInfo.keyboards[0];
-        const keyboardRes = await fetch(`data/layouts/${layoutId}.json`);
+        const keyboardRes = await fetch(`${baseUrl}data/layouts/${layoutId}.json`);
         if (keyboardRes.ok) {
           keyboardData.value = await keyboardRes.json();
         }
@@ -77,8 +81,11 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       const audioIndexData = await audioIndexRes.json();
       const options = audioIndexData[newLangCode];
       if (Array.isArray(options) && options.length) {
-        audioOptions.value = options;
-        audioUrl.value = options[0].path;
+        audioOptions.value = options.map(opt => ({
+          ...opt,
+          path: `${baseUrl}${opt.path}`
+        }));
+        audioUrl.value = audioOptions.value[0].path;
       }
     }
 
