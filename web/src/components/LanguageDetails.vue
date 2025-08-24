@@ -38,10 +38,11 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
 
   try {
     // Fetch all data in parallel
-    const [indexRes, alphabetRes, audioIndexRes] = await Promise.all([
+    const [indexRes, alphabetRes, audioIndexRes, layoutIndexRes] = await Promise.all([
       fetch(`${baseUrl}data/index.json`),
       fetch(`${baseUrl}data/alphabets/${newLangCode}.json`),
       fetch(`${baseUrl}data/audio/index.json`),
+      fetch(`${baseUrl}data/layouts/index.json`),
     ]);
 
     // Process language info
@@ -55,17 +56,25 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
         name: langInfo['language-name'],
         direction: langInfo.direction === 'rtl' ? 'Right to Left' : 'Left to Right'
       };
-      if (Array.isArray(langInfo.keyboards) && langInfo.keyboards.length) {
-        keyboardCount.value = langInfo.keyboards.length;
-        const layoutId = langInfo.keyboards[0];
-        try {
-          const keyboardRes = await fetch(
-            `${baseUrl}data/layouts/${layoutId}.json`
-          );
-          keyboardData.value = await keyboardRes.json();
-        } catch {
-          console.warn(`No keyboard layout for ${layoutId}`);
+    }
+
+    // Keyboard layouts
+    if (layoutIndexRes.ok) {
+      try {
+        const layoutIndex = await layoutIndexRes.json();
+        const layouts = layoutIndex[newLangCode];
+        if (Array.isArray(layouts) && layouts.length) {
+          keyboardCount.value = layouts.length;
+          const layoutId = layouts[0];
+          try {
+            const keyboardRes = await fetch(`${baseUrl}data/layouts/${layoutId}.json`);
+            keyboardData.value = await keyboardRes.json();
+          } catch {
+            console.warn(`No keyboard layout for ${layoutId}`);
+          }
         }
+      } catch {
+        console.warn('Invalid layout index');
       }
     }
 
@@ -165,7 +174,6 @@ function playAudio() {
 
       <div v-else-if="activeTab === 'keyboard'" class="tab-content">
         <KeyboardView
-          v-if="keyboardData"
           :layout-data="keyboardData"
           :total="keyboardCount"
         />
@@ -230,5 +238,8 @@ a:hover {
 }
 .audio-player {
   margin-top: 0.5em;
+}
+.tab-content {
+  margin-top: 1em;
 }
 </style>

@@ -131,5 +131,8 @@ function hasRows() {
 .keyboard-count {
   margin-top: 0.5em;
 }
+h3 {
+  margin-bottom: 0.5em;
+}
 </style>
 
