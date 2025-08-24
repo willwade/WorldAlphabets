@@ -27,12 +27,28 @@ TTS_INDEX_PATH = Path("data/tts_index.json")
 TEXT_FIELD = "hello_how_are_you"  # field added by your translate step
 # Base output directory
 OUTPUT_DIR = Path("data/audio")
+AUDIO_INDEX_PATH = Path("data/audio/index.json")
 
 
 def sanitize_voice_id(voice_id: str, max_len: int = 20) -> str:
     # Lowercase, replace non-alphanumeric with underscore, truncate
     safe = re.sub(r"[^a-z0-9]+", "_", voice_id.lower())
     return safe[:max_len].strip("_")
+
+
+def add_index_entry(
+    audio_index: Dict[str, List[Dict[str, str]]],
+    *,
+    lang: str,
+    engine: str,
+    voice_id: str,
+    path: Path,
+) -> None:
+    entry = {"engine": engine, "voice_id": voice_id, "path": str(path)}
+    items = audio_index.setdefault(lang, [])
+    # de-duplicate by exact path
+    if not any(it.get("path") == entry["path"] for it in items):
+        items.append(entry)
 
 
 def get_tts_client(engine_name: str) -> Optional[Any]:
@@ -119,6 +135,17 @@ def generate_audio_files() -> None:
     """
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Load existing audio index if present
+    audio_index: Dict[str, List[Dict[str, str]]] = {}
+    if AUDIO_INDEX_PATH.exists():
+        try:
+            with AUDIO_INDEX_PATH.open("r", encoding="utf-8") as f:
+                audio_index = json.load(f)
+            if not isinstance(audio_index, dict):
+                audio_index = {}
+        except Exception:
+            audio_index = {}
+
     # Load TTS index (maps lang_code -> list[ {engine, voice_id, ...}, ... ])
     try:
         with TTS_INDEX_PATH.open("r", encoding="utf-8") as f:
@@ -162,7 +189,23 @@ def generate_audio_files() -> None:
             safe_voice = sanitize_voice_id(voice_id)
             out_path = OUTPUT_DIR / f"{lang_code}_{engine_slug}_{safe_voice}.wav"
 
+            # If the file already exists, ensure it is indexed (full voice_id retained here)
             if out_path.exists():
+                add_index_entry(
+                    audio_index,
+                    lang=lang_code,
+                    engine=engine,
+                    voice_id=voice_id,
+                    path=out_path,
+                )
+                # Immediately save audio index after adding entry
+                try:
+                    AUDIO_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+                    with AUDIO_INDEX_PATH.open("w", encoding="utf-8") as f:
+                        json.dump(audio_index, f, ensure_ascii=False, indent=2)
+                except Exception as e:
+                    print(f"Warning: failed to write audio index: {e}")
+
                 print(
                     f"Skipping {lang_code} ({engine_slug}, voice {voice_id}): already exists."
                 )
@@ -183,10 +226,27 @@ def generate_audio_files() -> None:
             if ok:
                 print(f"  -> Saved to {out_path}")
                 generated += 1
+                add_index_entry(
+                    audio_index,
+                    lang=lang_code,
+                    engine=engine,
+                    voice_id=voice_id,
+                    path=out_path,
+                )
+                # Immediately save audio index after adding entry
+                try:
+                    AUDIO_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+                    with AUDIO_INDEX_PATH.open("w", encoding="utf-8") as f:
+                        json.dump(audio_index, f, ensure_ascii=False, indent=2)
+                except Exception as e:
+                    print(f"Warning: failed to write audio index: {e}")
+
             else:
                 print(
                     f"  Skipped (invalid/failed synth) for {lang_code} ({engine_slug}, voice {voice_id})."
                 )
+    # Removed final bulk save of audio index since incremental saves are done
+
     print(
         f"\nAudio generation complete. Files created: {generated}. "
         f"Skipped (no phrase): {skipped_no_phrase}. Skipped (no voices): {skipped_no_voices}."
