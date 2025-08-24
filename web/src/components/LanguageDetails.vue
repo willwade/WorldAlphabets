@@ -31,11 +31,10 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
 
   try {
     // Fetch all data in parallel
-    const [indexRes, alphabetRes, mappingRes, transRes] = await Promise.all([
+    const [indexRes, alphabetRes, mappingRes] = await Promise.all([
       fetch('/data/index.json'),
       fetch(`/data/alphabets/${newLangCode}.json`),
       fetch('/data/mappings/language_to_driver.json'),
-      fetch('/data/translations.json').catch(() => null) // Optional
     ]);
 
     // Process language info
@@ -48,17 +47,15 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       };
     }
 
-    // Process alphabet
+    // Process alphabet and translation
     if (alphabetRes.ok) {
-      alphabetData.value = await alphabetRes.json();
+      const fetchedAlphabetData = await alphabetRes.json();
+      alphabetData.value = fetchedAlphabetData;
+      if (fetchedAlphabetData.hello_how_are_you) {
+        translation.value = fetchedAlphabetData.hello_how_are_you;
+      }
     } else {
       console.warn(`No alphabet data for ${newLangCode}`);
-    }
-
-    // Process translation
-    if (transRes && transRes.ok) {
-        const transData = await transRes.json();
-        translation.value = transData[newLangCode];
     }
 
     // Check for audio

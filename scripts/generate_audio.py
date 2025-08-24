@@ -57,25 +57,39 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
 
 def generate_audio_files() -> None:
     """
-    Generates .wav files for each language using the translations and available
-    TTS voices.
+    Generates .wav files for each language using the example phrase in the
+    alphabet file and available TTS voices.
     """
-    if not os.path.exists("web/audio"):
-        os.makedirs("web/audio")
+    if not os.path.exists("web/public/audio"):
+        os.makedirs("web/public/audio")
 
     try:
-        with open("data/translations.json", "r", encoding="utf-8") as f:
-            translations = json.load(f)
         with open("data/tts_index.json", "r", encoding="utf-8") as f:
             tts_index = json.load(f)
-    except FileNotFoundError as e:
-        print(f"Error: {e}. Make sure you have run the translation and TTS indexing scripts first.")
+    except FileNotFoundError:
+        print("Error: data/tts_index.json not found. Make sure you have run the TTS indexing script first.")
         return
 
+    alphabet_dir = "data/alphabets"
     print("Starting audio generation...")
-    for lang_code, text in translations.items():
+
+    for filename in os.listdir(alphabet_dir):
+        if not filename.endswith('.json'):
+            continue
+
+        lang_code = filename.split('.')[0]
+        filepath = os.path.join(alphabet_dir, filename)
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            try:
+                alphabet_data = json.load(f)
+            except json.JSONDecodeError:
+                print(f"Skipping {filename} (invalid JSON).")
+                continue
+
+        text = alphabet_data.get("hello_how_are_you")
         if not text:
-            print(f"Skipping {lang_code} (no translation).")
+            # print(f"Skipping {lang_code} (no example phrase).")
             continue
 
         if lang_code not in tts_index or not tts_index[lang_code]:
@@ -86,7 +100,7 @@ def generate_audio_files() -> None:
         engine = voice_info['engine']
         voice_id = voice_info['voice_id']
 
-        output_path = f"web/audio/{lang_code}.wav"
+        output_path = f"web/public/audio/{lang_code}.wav"
 
         if os.path.exists(output_path):
             print(f"Skipping {lang_code} (audio file already exists).")
