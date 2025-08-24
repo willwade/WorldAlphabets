@@ -21,6 +21,7 @@ dev = [
     "langcodes>=3.3.0",
     "types-requests",
     "types-beautifulsoup4",
+    "py3-tts-wrapper[google,watson,polly,microsoft,elevenlabs,witai,sherpaonnx,openai]",
 ]
 
 [project.scripts]
@@ -55,6 +56,14 @@ ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
 module = "lxml"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tts_wrapper"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "google.cloud.*"
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]
