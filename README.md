@@ -96,6 +96,14 @@ Audio recordings are stored under `data/audio/` and named
 ### Web Interface
 
 The Vue app under `web/` compiles to a static site with `npm run build`.
+To work on the interface locally, install its dependencies and start the
+development server:
+
+```bash
+cd web
+npm install
+npm run dev
+```
 GitHub Pages publishes the contents of `web/dist` through a workflow that
 runs on every push to `main`.
 
