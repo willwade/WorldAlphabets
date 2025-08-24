@@ -3,6 +3,7 @@ import { computed } from 'vue';
 
 const props = defineProps({
   layoutData: Object,
+  total: Number,
 });
 
 const LAYOUT_ROWS = [
@@ -98,6 +99,9 @@ function hasRows() {
 <template>
   <div>
     <h3>Keyboard Layout</h3>
+    <p class="keyboard-count" v-if="typeof total === 'number'">
+      Showing first of {{ total }} keyboard layout{{ total === 1 ? '' : 's' }}
+    </p>
     <table v-if="hasRows()" class="keyboard-table">
       <tbody>
         <tr v-for="(row, rIdx) in rows" :key="rIdx">
@@ -122,6 +126,10 @@ function hasRows() {
   padding: 4px;
   min-width: 20px;
   text-align: center;
+}
+
+.keyboard-count {
+  margin-top: 0.5em;
 }
 </style>
 

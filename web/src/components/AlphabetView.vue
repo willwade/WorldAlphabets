@@ -66,7 +66,7 @@ function handleCopyLetter(letter) {
 <template>
   <div>
     <div class="header-container">
-      <h3>Alphabet</h3>
+      <h3>Letters</h3>
       <button @click="handleCopyAll" v-if="currentAlphabet.length > 0">{{ copyAllText }}</button>
     </div>
 

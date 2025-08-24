@@ -10,6 +10,7 @@ const props = defineProps({
 const languageInfo = ref(null);
 const alphabetData = ref(null);
 const keyboardData = ref(null);
+const keyboardCount = ref(0);
 const translation = ref(null);
 const audioOptions = ref([]);
 const audioUrl = ref(null);
@@ -28,6 +29,7 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   languageInfo.value = null;
   alphabetData.value = null;
   keyboardData.value = null;
+  keyboardCount.value = 0;
   translation.value = null;
   audioOptions.value = [];
   audioUrl.value = null;
@@ -35,10 +37,9 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
 
   try {
     // Fetch all data in parallel
-    const [indexRes, alphabetRes, mappingRes, audioIndexRes] = await Promise.all([
+    const [indexRes, alphabetRes, audioIndexRes] = await Promise.all([
       fetch('data/index.json'),
       fetch(`data/alphabets/${newLangCode}.json`),
-      fetch('data/mappings/language_to_driver.json'),
       fetch('data/audio/index.json'),
     ]);
 
@@ -50,6 +51,14 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
         name: langInfo['language-name'],
         direction: langInfo.direction === 'rtl' ? 'Right to Left' : 'Left to Right'
       };
+      if (Array.isArray(langInfo.keyboards) && langInfo.keyboards.length) {
+        keyboardCount.value = langInfo.keyboards.length;
+        const layoutId = langInfo.keyboards[0];
+        const keyboardRes = await fetch(`data/layouts/${layoutId}.json`);
+        if (keyboardRes.ok) {
+          keyboardData.value = await keyboardRes.json();
+        }
+      }
     }
 
     // Process alphabet and translation
@@ -73,15 +82,6 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       }
     }
 
-    // Process keyboard layout
-    const mappingData = await mappingRes.json();
-    const layoutName = mappingData[newLangCode];
-    if (layoutName) {
-      const keyboardRes = await fetch(`data/layouts/${layoutName}.json`);
-      if (keyboardRes.ok) {
-        keyboardData.value = await keyboardRes.json();
-      }
-    }
   } catch (e) {
     error.value = "Failed to load language data.";
     console.error(e);
@@ -116,10 +116,10 @@ function playAudio() {
           @click="activeTab = 'alphabet'"
         >Alphabet</button>
         <button
-          v-if="keyboardData"
+          v-if="keyboardCount"
           :class="{ active: activeTab === 'keyboard' }"
           @click="activeTab = 'keyboard'"
-        >Keyboard</button>
+        >Keyboard ({{ keyboardCount }})</button>
       </div>
 
       <div v-if="activeTab === 'alphabet'" class="tab-content">
@@ -145,7 +145,11 @@ function playAudio() {
       </div>
 
       <div v-else-if="activeTab === 'keyboard'" class="tab-content">
-        <KeyboardView v-if="keyboardData" :layout-data="keyboardData" />
+        <KeyboardView
+          v-if="keyboardData"
+          :layout-data="keyboardData"
+          :total="keyboardCount"
+        />
       </div>
 
       <div class="feature-section">
