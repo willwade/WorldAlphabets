@@ -3,6 +3,7 @@ import { computed } from 'vue';
 
 const props = defineProps({
   layoutData: Object,
+  layoutName: String,
   total: Number,
 });
 
@@ -100,8 +101,9 @@ function hasRows() {
   <div>
     <h3>Keyboard Layout</h3>
     <p class="keyboard-count" v-if="typeof total === 'number'">
-      Showing first of {{ total }} keyboard layout{{ total === 1 ? '' : 's' }}
+      {{ total }} keyboard layout{{ total === 1 ? '' : 's' }} available
     </p>
+    <p v-if="layoutName" class="keyboard-name">{{ layoutName }}</p>
     <table v-if="hasRows()" class="keyboard-table">
       <tbody>
         <tr v-for="(row, rIdx) in rows" :key="rIdx">
@@ -110,7 +112,7 @@ function hasRows() {
       </tbody>
     </table>
     <div v-else>
-      <p>No keyboard layout available for this language.</p>
+      <p>No preview for this keyboard layout.</p>
     </div>
   </div>
 </template>
@@ -130,6 +132,9 @@ function hasRows() {
 
 .keyboard-count {
   margin-top: 0.5em;
+}
+.keyboard-name {
+  margin-top: 0.25em;
 }
 h3 {
   margin-bottom: 0.5em;

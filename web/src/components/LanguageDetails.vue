@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, computed } from 'vue';
 import AlphabetView from './AlphabetView.vue';
 import KeyboardView from './KeyboardView.vue';
 
@@ -9,6 +9,8 @@ const props = defineProps({
 
 const languageInfo = ref(null);
 const alphabetData = ref(null);
+const keyboardLayouts = ref([]);
+const selectedLayoutId = ref(null);
 const keyboardData = ref(null);
 const keyboardCount = ref(0);
 const translation = ref(null);
@@ -29,6 +31,8 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   error.value = null;
   languageInfo.value = null;
   alphabetData.value = null;
+  keyboardLayouts.value = [];
+  selectedLayoutId.value = null;
   keyboardData.value = null;
   keyboardCount.value = 0;
   translation.value = null;
@@ -65,12 +69,27 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
         const layouts = layoutIndex[newLangCode];
         if (Array.isArray(layouts) && layouts.length) {
           keyboardCount.value = layouts.length;
-          const layoutId = layouts[0];
-          try {
-            const keyboardRes = await fetch(`${baseUrl}data/layouts/${layoutId}.json`);
-            keyboardData.value = await keyboardRes.json();
-          } catch {
-            console.warn(`No keyboard layout for ${layoutId}`);
+          const fetched = await Promise.all(
+            layouts.map(async id => {
+              try {
+                const res = await fetch(`${baseUrl}data/layouts/${id}.json`);
+                if (!res.ok) throw new Error();
+                const data = await res.json();
+                const valid = Array.isArray(data.keys) && data.keys.some(k => k.pos);
+                return { id, name: data.name || id, data: valid ? data : null };
+              } catch {
+                console.warn(`No keyboard layout for ${id}`);
+                return { id, name: id, data: null };
+              }
+            })
+          );
+          keyboardLayouts.value = fetched;
+          const firstValid = keyboardLayouts.value.find(l => l.data);
+          if (firstValid) {
+            selectedLayoutId.value = firstValid.id;
+            keyboardData.value = firstValid.data;
+          } else if (keyboardLayouts.value.length) {
+            selectedLayoutId.value = keyboardLayouts.value[0].id;
           }
         }
       } catch {
@@ -124,6 +143,16 @@ function playAudio() {
     }
 }
 
+watch(selectedLayoutId, id => {
+  const layout = keyboardLayouts.value.find(l => l.id === id);
+  keyboardData.value = layout ? layout.data : null;
+});
+
+const currentLayoutName = computed(() => {
+  const layout = keyboardLayouts.value.find(l => l.id === selectedLayoutId.value);
+  return layout ? layout.name : '';
+});
+
 </script>
 
 <template>
@@ -173,10 +202,26 @@ function playAudio() {
       </div>
 
       <div v-else-if="activeTab === 'keyboard'" class="tab-content">
-        <KeyboardView
-          :layout-data="keyboardData"
-          :total="keyboardCount"
-        />
+        <div v-if="keyboardLayouts.length">
+          <label>
+            Layout:
+            <select v-model="selectedLayoutId">
+              <option
+                v-for="layout in keyboardLayouts"
+                :key="layout.id"
+                :value="layout.id"
+              >{{ layout.name }}</option>
+            </select>
+          </label>
+          <KeyboardView
+            :layout-data="keyboardData"
+            :layout-name="currentLayoutName"
+            :total="keyboardCount"
+          />
+        </div>
+        <div v-else>
+          <p>No keyboard layout available for this language.</p>
+        </div>
       </div>
 
       <div class="feature-section">
