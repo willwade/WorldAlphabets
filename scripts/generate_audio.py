@@ -2,6 +2,7 @@
 import os
 import json
 import platform
+import re
 from pathlib import Path
 from typing import Any, Optional, Dict, List
 
@@ -23,8 +24,15 @@ if platform.system() == "Darwin":  # macOS
 
 ALPHABETS_DIR = Path("data/alphabets")
 TTS_INDEX_PATH = Path("data/tts_index.json")
-OUTPUT_DIR = Path("web/audio")
 TEXT_FIELD = "hello_how_are_you"  # field added by your translate step
+# Base output directory
+OUTPUT_DIR = Path("data/audio")
+
+
+def sanitize_voice_id(voice_id: str, max_len: int = 20) -> str:
+    # Lowercase, replace non-alphanumeric with underscore, truncate
+    safe = re.sub(r"[^a-z0-9]+", "_", voice_id.lower())
+    return safe[:max_len].strip("_")
 
 
 def get_tts_client(engine_name: str) -> Optional[Any]:
@@ -143,8 +151,6 @@ def generate_audio_files() -> None:
             skipped_no_voices += 1
             continue
 
-        engine_counts: Dict[str, int] = {}
-
         for voice_info in voices:
             engine = voice_info.get("engine")
             voice_id = voice_info.get("voice_id")
@@ -153,15 +159,12 @@ def generate_audio_files() -> None:
                 continue
 
             engine_slug = safe_engine_suffix(engine)
-            count = engine_counts.get(engine_slug, 0) + 1
-            engine_counts[engine_slug] = count
-
-            suffix = f"_{engine_slug}" + (f"_{count}" if count > 1 else "")
-            out_path = OUTPUT_DIR / f"{lang_code}{suffix}.wav"
+            safe_voice = sanitize_voice_id(voice_id)
+            out_path = OUTPUT_DIR / f"{lang_code}_{engine_slug}_{safe_voice}.wav"
 
             if out_path.exists():
                 print(
-                    f"Skipping {lang_code} ({engine_slug}{'' if count == 1 else f' #{count}'}): already exists."
+                    f"Skipping {lang_code} ({engine_slug}, voice {voice_id}): already exists."
                 )
                 continue
 
@@ -182,7 +185,7 @@ def generate_audio_files() -> None:
                 generated += 1
             else:
                 print(
-                    f"  Skipped (invalid/failed synth) for {lang_code} ({engine_slug}{'' if count == 1 else f' #{count}'})."
+                    f"  Skipped (invalid/failed synth) for {lang_code} ({engine_slug}, voice {voice_id})."
                 )
     print(
         f"\nAudio generation complete. Files created: {generated}. "
@@ -253,6 +256,7 @@ def synth_save(tts_client: Any, text: str, voice_id: str, out_path: str) -> None
     Call the wrapper with the right signature across engines.
     Prefers synth_to_file(); falls back to synth() with keyword args.
     """
+
     # 1) Preferred: synth_to_file(text, filename, voice_id=...)
     if hasattr(tts_client, "synth_to_file"):
         try:
