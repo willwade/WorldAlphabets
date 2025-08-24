@@ -10,10 +10,14 @@ const props = defineProps({
 const languageInfo = ref(null);
 const alphabetData = ref(null);
 const keyboardData = ref(null);
+const keyboardCount = ref(0);
 const translation = ref(null);
+const audioOptions = ref([]);
 const audioUrl = ref(null);
+const activeTab = ref('alphabet');
 const error = ref(null);
 const isLoading = ref(false);
+const baseUrl = import.meta.env.BASE_URL;
 
 watch(() => props.selectedLangCode, async (newLangCode) => {
   if (!newLangCode) {
@@ -26,18 +30,24 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   languageInfo.value = null;
   alphabetData.value = null;
   keyboardData.value = null;
+  keyboardCount.value = 0;
   translation.value = null;
+  audioOptions.value = [];
   audioUrl.value = null;
+  activeTab.value = 'alphabet';
 
   try {
     // Fetch all data in parallel
-    const [indexRes, alphabetRes, mappingRes] = await Promise.all([
-      fetch('data/index.json'),
-      fetch(`data/alphabets/${newLangCode}.json`),
-      fetch('data/mappings/language_to_driver.json'),
+    const [indexRes, alphabetRes, audioIndexRes] = await Promise.all([
+      fetch(`${baseUrl}data/index.json`),
+      fetch(`${baseUrl}data/alphabets/${newLangCode}.json`),
+      fetch(`${baseUrl}data/audio/index.json`),
     ]);
 
     // Process language info
+    if (!indexRes.ok) {
+      throw new Error('Failed to load language index');
+    }
     const indexData = await indexRes.json();
     const langInfo = indexData.find(l => l.language === newLangCode);
     if (langInfo) {
@@ -45,34 +55,52 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
         name: langInfo['language-name'],
         direction: langInfo.direction === 'rtl' ? 'Right to Left' : 'Left to Right'
       };
+      if (Array.isArray(langInfo.keyboards) && langInfo.keyboards.length) {
+        keyboardCount.value = langInfo.keyboards.length;
+        const layoutId = langInfo.keyboards[0];
+        try {
+          const keyboardRes = await fetch(
+            `${baseUrl}data/layouts/${layoutId}.json`
+          );
+          keyboardData.value = await keyboardRes.json();
+        } catch {
+          console.warn(`No keyboard layout for ${layoutId}`);
+        }
+      }
     }
 
     // Process alphabet and translation
     if (alphabetRes.ok) {
-      const fetchedAlphabetData = await alphabetRes.json();
-      alphabetData.value = fetchedAlphabetData;
-      if (fetchedAlphabetData.hello_how_are_you) {
-        translation.value = fetchedAlphabetData.hello_how_are_you;
+      try {
+        const fetchedAlphabetData = await alphabetRes.json();
+        alphabetData.value = fetchedAlphabetData;
+        if (fetchedAlphabetData.hello_how_are_you) {
+          translation.value = fetchedAlphabetData.hello_how_are_you;
+        }
+      } catch {
+        console.warn(`Invalid alphabet data for ${newLangCode}`);
       }
     } else {
       console.warn(`No alphabet data for ${newLangCode}`);
     }
 
-    // Check for audio
-    const audioCheck = await fetch(`audio/${newLangCode}.wav`);
-    if (audioCheck.ok) {
-        audioUrl.value = `audio/${newLangCode}.wav`;
-    }
-
-    // Process keyboard layout
-    const mappingData = await mappingRes.json();
-    const layoutName = mappingData[newLangCode];
-    if (layoutName) {
-      const keyboardRes = await fetch(`data/layouts/${layoutName}.json`);
-      if (keyboardRes.ok) {
-        keyboardData.value = await keyboardRes.json();
+    // Process available audio options
+    if (audioIndexRes.ok) {
+      try {
+        const audioIndexData = await audioIndexRes.json();
+        const options = audioIndexData[newLangCode];
+        if (Array.isArray(options) && options.length) {
+          audioOptions.value = options.map(opt => ({
+            ...opt,
+            path: `${baseUrl}${opt.path}`
+          }));
+          audioUrl.value = audioOptions.value[0].path;
+        }
+      } catch {
+        console.warn('Invalid audio index data');
       }
     }
+
   } catch (e) {
     error.value = "Failed to load language data.";
     console.error(e);
@@ -101,17 +129,46 @@ function playAudio() {
       <h2>{{ languageInfo.name }}</h2>
       <p><strong>Direction:</strong> {{ languageInfo.direction }}</p>
 
-      <hr>
-      <AlphabetView v-if="alphabetData" :alphabet-data="alphabetData" />
-
-      <div v-if="translation" class="feature-section">
-        <h3>Example Phrase</h3>
-        <p class="example-phrase">"{{ translation }}"</p>
-        <button v-if="audioUrl" @click="playAudio">▶️ Play</button>
+      <div class="tabs">
+        <button
+          :class="{ active: activeTab === 'alphabet' }"
+          @click="activeTab = 'alphabet'"
+        >Alphabet</button>
+        <button
+          v-if="keyboardCount"
+          :class="{ active: activeTab === 'keyboard' }"
+          @click="activeTab = 'keyboard'"
+        >Keyboard ({{ keyboardCount }})</button>
       </div>
 
-      <div class="feature-section">
-        <KeyboardView v-if="keyboardData" :layout-data="keyboardData" />
+      <div v-if="activeTab === 'alphabet'" class="tab-content">
+        <AlphabetView v-if="alphabetData" :alphabet-data="alphabetData" />
+
+        <div v-if="translation" class="feature-section">
+          <h3>Example Phrase</h3>
+          <p class="example-phrase">"{{ translation }}"</p>
+          <div v-if="audioOptions.length" class="audio-player">
+            <label>
+              Voice:
+              <select v-model="audioUrl">
+                <option
+                  v-for="(opt, idx) in audioOptions"
+                  :key="idx"
+                  :value="opt.path"
+                >{{ opt.engine }} - {{ opt.voice_id }}</option>
+              </select>
+            </label>
+            <button @click="playAudio">▶️ Play</button>
+          </div>
+        </div>
+      </div>
+
+      <div v-else-if="activeTab === 'keyboard'" class="tab-content">
+        <KeyboardView
+          v-if="keyboardData"
+          :layout-data="keyboardData"
+          :total="keyboardCount"
+        />
       </div>
 
       <div class="feature-section">
@@ -141,9 +198,6 @@ function playAudio() {
 .error-message {
   color: red;
 }
-hr {
-  margin: 1.5em 0;
-}
 .feature-section {
   margin-top: 2em;
 }
@@ -164,5 +218,17 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.tabs {
+  margin-top: 1.5em;
+}
+.tabs button {
+  margin-right: 0.5em;
+}
+.tabs .active {
+  font-weight: bold;
+}
+.audio-player {
+  margin-top: 0.5em;
 }
 </style>

@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "npm-run-all predev vite-dev",
     "vite-dev": "vite",
-    "predev": "cpr ../data ./public/data -o && ([ -d ../audio ] && cpr ../audio ./public/audio -o || true)",
+    "predev": "cpr ../data ./public/data -o",
     "build": "npm run predev && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "vue": "^3.5.18",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",

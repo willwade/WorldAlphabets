@@ -4,10 +4,11 @@ import { ref, onMounted, computed } from 'vue';
 const languages = ref([]);
 const searchTerm = ref('');
 const emit = defineEmits(['language-selected']);
+const baseUrl = import.meta.env.BASE_URL;
 
 onMounted(async () => {
   try {
-    const response = await fetch('data/index.json');
+    const response = await fetch(`${baseUrl}data/index.json`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
