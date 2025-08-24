@@ -60,8 +60,9 @@ def generate_audio_files() -> None:
     Generates .wav files for each language using the example phrase in the
     alphabet file and available TTS voices.
     """
-    if not os.path.exists("web/public/audio"):
-        os.makedirs("web/public/audio")
+    audio_dir = "audio"
+    if not os.path.exists(audio_dir):
+        os.makedirs(audio_dir)
 
     try:
         with open("data/tts_index.json", "r", encoding="utf-8") as f:
@@ -89,7 +90,6 @@ def generate_audio_files() -> None:
 
         text = alphabet_data.get("hello_how_are_you")
         if not text:
-            # print(f"Skipping {lang_code} (no example phrase).")
             continue
 
         if lang_code not in tts_index or not tts_index[lang_code]:
@@ -100,7 +100,7 @@ def generate_audio_files() -> None:
         engine = voice_info['engine']
         voice_id = voice_info['voice_id']
 
-        output_path = f"web/public/audio/{lang_code}.wav"
+        output_path = f"{audio_dir}/{lang_code}.wav"
 
         if os.path.exists(output_path):
             print(f"Skipping {lang_code} (audio file already exists).")
