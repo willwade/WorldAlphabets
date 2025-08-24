@@ -87,6 +87,18 @@ The `examples/` directory contains small scripts demonstrating the library:
   stats, and more.
 - `examples/node/` includes similar examples for Node.js.
 
+### Audio Samples
+
+Audio recordings are stored under `data/audio/` and named
+`{langcode}_{engine}_{voiceid}.wav`. Available voices are listed in
+`data/audio/index.json`.
+
+### Web Interface
+
+The Vue app under `web/` compiles to a static site with `npm run build`.
+GitHub Pages publishes the contents of `web/dist` through a workflow that
+runs on every push to `main`.
+
 ### Alphabet Index
 
 This library also provides an index of all available alphabets with additional metadata.

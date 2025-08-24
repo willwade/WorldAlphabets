@@ -11,7 +11,9 @@ const languageInfo = ref(null);
 const alphabetData = ref(null);
 const keyboardData = ref(null);
 const translation = ref(null);
+const audioOptions = ref([]);
 const audioUrl = ref(null);
+const activeTab = ref('alphabet');
 const error = ref(null);
 const isLoading = ref(false);
 
@@ -27,14 +29,17 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   alphabetData.value = null;
   keyboardData.value = null;
   translation.value = null;
+  audioOptions.value = [];
   audioUrl.value = null;
+  activeTab.value = 'alphabet';
 
   try {
     // Fetch all data in parallel
-    const [indexRes, alphabetRes, mappingRes] = await Promise.all([
+    const [indexRes, alphabetRes, mappingRes, audioIndexRes] = await Promise.all([
       fetch('data/index.json'),
       fetch(`data/alphabets/${newLangCode}.json`),
       fetch('data/mappings/language_to_driver.json'),
+      fetch('data/audio/index.json'),
     ]);
 
     // Process language info
@@ -58,10 +63,14 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       console.warn(`No alphabet data for ${newLangCode}`);
     }
 
-    // Check for audio
-    const audioCheck = await fetch(`audio/${newLangCode}.wav`);
-    if (audioCheck.ok) {
-        audioUrl.value = `audio/${newLangCode}.wav`;
+    // Process available audio options
+    if (audioIndexRes.ok) {
+      const audioIndexData = await audioIndexRes.json();
+      const options = audioIndexData[newLangCode];
+      if (Array.isArray(options) && options.length) {
+        audioOptions.value = options;
+        audioUrl.value = options[0].path;
+      }
     }
 
     // Process keyboard layout
@@ -101,16 +110,41 @@ function playAudio() {
       <h2>{{ languageInfo.name }}</h2>
       <p><strong>Direction:</strong> {{ languageInfo.direction }}</p>
 
-      <hr>
-      <AlphabetView v-if="alphabetData" :alphabet-data="alphabetData" />
-
-      <div v-if="translation" class="feature-section">
-        <h3>Example Phrase</h3>
-        <p class="example-phrase">"{{ translation }}"</p>
-        <button v-if="audioUrl" @click="playAudio">▶️ Play</button>
+      <div class="tabs">
+        <button
+          :class="{ active: activeTab === 'alphabet' }"
+          @click="activeTab = 'alphabet'"
+        >Alphabet</button>
+        <button
+          v-if="keyboardData"
+          :class="{ active: activeTab === 'keyboard' }"
+          @click="activeTab = 'keyboard'"
+        >Keyboard</button>
       </div>
 
-      <div class="feature-section">
+      <div v-if="activeTab === 'alphabet'" class="tab-content">
+        <AlphabetView v-if="alphabetData" :alphabet-data="alphabetData" />
+
+        <div v-if="translation" class="feature-section">
+          <h3>Example Phrase</h3>
+          <p class="example-phrase">"{{ translation }}"</p>
+          <div v-if="audioOptions.length" class="audio-player">
+            <label>
+              Voice:
+              <select v-model="audioUrl">
+                <option
+                  v-for="(opt, idx) in audioOptions"
+                  :key="idx"
+                  :value="opt.path"
+                >{{ opt.engine }} - {{ opt.voice_id }}</option>
+              </select>
+            </label>
+            <button @click="playAudio">▶️ Play</button>
+          </div>
+        </div>
+      </div>
+
+      <div v-else-if="activeTab === 'keyboard'" class="tab-content">
         <KeyboardView v-if="keyboardData" :layout-data="keyboardData" />
       </div>
 
@@ -141,9 +175,6 @@ function playAudio() {
 .error-message {
   color: red;
 }
-hr {
-  margin: 1.5em 0;
-}
 .feature-section {
   margin-top: 2em;
 }
@@ -164,5 +195,17 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+.tabs {
+  margin-top: 1.5em;
+}
+.tabs button {
+  margin-right: 0.5em;
+}
+.tabs .active {
+  font-weight: bold;
+}
+.audio-player {
+  margin-top: 0.5em;
 }
 </style>

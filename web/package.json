@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm-run-all predev vite-dev",
     "vite-dev": "vite",
-    "predev": "cpr ../data ./public/data -o && ([ -d ../audio ] && cpr ../audio ./public/audio -o || true)",
+    "predev": "cpr ../data ./public/data -o",
     "build": "npm run predev && vite build",
     "preview": "vite preview"
   },
