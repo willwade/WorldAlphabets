@@ -20,6 +20,34 @@ const activeTab = ref('alphabet');
 const error = ref(null);
 const isLoading = ref(false);
 const baseUrl = import.meta.env.BASE_URL;
+const availableScripts = ref([]);
+const selectedScript = ref(null);
+const scriptNames = {
+  Latn: 'Latin',
+  Deva: 'Devanagari'
+};
+
+async function loadAlphabet(langCode, script) {
+  const alphabetPath = script
+    ? `${baseUrl}data/alphabets/${langCode}-${script}.json`
+    : `${baseUrl}data/alphabets/${langCode}.json`;
+  const alphabetRes = await fetch(alphabetPath);
+  alphabetData.value = null;
+  translation.value = null;
+  if (alphabetRes.ok) {
+    try {
+      const fetchedAlphabetData = await alphabetRes.json();
+      alphabetData.value = fetchedAlphabetData;
+      if (fetchedAlphabetData.hello_how_are_you) {
+        translation.value = fetchedAlphabetData.hello_how_are_you;
+      }
+    } catch {
+      console.warn(`Invalid alphabet data for ${langCode}`);
+    }
+  } else {
+    console.warn(`No alphabet data for ${langCode}`);
+  }
+}
 
 watch(() => props.selectedLangCode, async (newLangCode) => {
   if (!newLangCode) {
@@ -39,6 +67,8 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   audioOptions.value = [];
   audioUrl.value = null;
   activeTab.value = 'alphabet';
+  availableScripts.value = [];
+  selectedScript.value = null;
 
   try {
     // Fetch indexes in parallel
@@ -54,22 +84,22 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
     }
     const indexData = await indexRes.json();
     const langInfo = indexData.find(l => l.language === newLangCode);
-    let script = null;
     if (langInfo) {
       languageInfo.value = {
         name: langInfo['language-name'],
-        direction: langInfo.direction === 'rtl' ? 'Right to Left' : 'Left to Right'
+        direction: langInfo.direction === 'rtl'
+          ? 'Right to Left'
+          : 'Left to Right'
       };
       if (Array.isArray(langInfo.scripts) && langInfo.scripts.length) {
-        script = langInfo.scripts[0];
+        availableScripts.value = langInfo.scripts;
+        selectedScript.value = langInfo.scripts[0];
+      } else {
+        await loadAlphabet(newLangCode, null);
       }
+    } else {
+      await loadAlphabet(newLangCode, null);
     }
-
-    // Fetch alphabet after determining script
-    const alphabetPath = script
-      ? `${baseUrl}data/alphabets/${newLangCode}-${script}.json`
-      : `${baseUrl}data/alphabets/${newLangCode}.json`;
-    const alphabetRes = await fetch(alphabetPath);
 
     // Keyboard layouts
     if (layoutIndexRes.ok) {
@@ -106,21 +136,6 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       }
     }
 
-    // Process alphabet and translation
-    if (alphabetRes.ok) {
-      try {
-        const fetchedAlphabetData = await alphabetRes.json();
-        alphabetData.value = fetchedAlphabetData;
-        if (fetchedAlphabetData.hello_how_are_you) {
-          translation.value = fetchedAlphabetData.hello_how_are_you;
-        }
-      } catch {
-        console.warn(`Invalid alphabet data for ${newLangCode}`);
-      }
-    } else {
-      console.warn(`No alphabet data for ${newLangCode}`);
-    }
-
     // Process available audio options
     if (audioIndexRes.ok) {
       try {
@@ -145,6 +160,12 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
     isLoading.value = false;
   }
 }, { immediate: true });
+
+watch(selectedScript, async script => {
+  if (props.selectedLangCode) {
+    await loadAlphabet(props.selectedLangCode, script);
+  }
+});
 
 function playAudio() {
     if (audioUrl.value) {
@@ -175,6 +196,22 @@ const currentLayoutName = computed(() => {
     <div v-else-if="languageInfo" class="language-details-content">
       <h2>{{ languageInfo.name }}</h2>
       <p><strong>Direction:</strong> {{ languageInfo.direction }}</p>
+      <div v-if="availableScripts.length > 1" class="script-selector">
+        <label>
+          Script:
+          <select v-model="selectedScript">
+            <option
+              v-for="script in availableScripts"
+              :key="script"
+              :value="script"
+            >{{ scriptNames[script] || script }}</option>
+          </select>
+        </label>
+      </div>
+      <p v-else-if="selectedScript">
+        <strong>Script:</strong>
+        {{ scriptNames[selectedScript] || selectedScript }}
+      </p>
 
       <div class="tabs">
         <button
@@ -291,6 +328,9 @@ a:hover {
   font-weight: bold;
 }
 .audio-player {
+  margin-top: 0.5em;
+}
+.script-selector {
   margin-top: 0.5em;
 }
 .tab-content {
