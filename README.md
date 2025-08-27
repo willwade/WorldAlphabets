@@ -237,6 +237,9 @@ process only those, or add `--all` to recompute every language.
 
 Each JSON file includes:
 
+- `language` – English language name
+- `iso639_3` – ISO 639-3 code
+- `iso639_1` – ISO 639-1 code when available
 - `alphabetical` – letters of the alphabet (uppercase when the script has
   case)
 - `uppercase` – uppercase letters
@@ -248,10 +251,13 @@ Example JSON snippet:
 
 ```json
 {
-  "alphabetical": ["A", "B", ],
-  "uppercase": ["A", "B", ],
-  "lowercase": ["a", "b",],
-  "frequency": {"a": 0.084, "b": 0.0208, ]
+  "language": "English",
+  "iso639_3": "eng",
+  "iso639_1": "en",
+  "alphabetical": ["A", "B"],
+  "uppercase": ["A", "B"],
+  "lowercase": ["a", "b"],
+  "frequency": {"a": 0.084, "b": 0.0208}
 }
 ```
 
@@ -296,6 +302,14 @@ uv run scripts/update_frequencies.py
 
 This script downloads the `unigrams.zip` archive and rewrites each alphabet's
 frequency mapping using the published counts.
+
+**Add ISO language codes**
+
+```bash
+uv run scripts/add_iso_codes.py
+```
+
+Adds English language names and ISO 639 codes to each alphabet JSON.
 
 **Generate alphabets from locale data**
 
