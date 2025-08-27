@@ -51,11 +51,16 @@ describe('worldalphabets', () => {
     expect(indexData.length).toBeGreaterThan(0);
   });
 
-  it('should get language info for "en"', async () => {
-    const langInfo = await getLanguage('en');
-    expect(langInfo).not.toBeNull();
-    expect(langInfo.language).toBe('en');
-    expect(langInfo['language-name']).toBe('English');
+  it('should load alphabet for default script', async () => {
+    const alphabet = await getLanguage('en');
+    expect(alphabet).not.toBeNull();
+    expect(alphabet.uppercase).toBeDefined();
+  });
+
+  it('should load alphabet for a specified script', async () => {
+    const alphabet = await getLanguage('mr', 'Latn');
+    expect(alphabet).not.toBeNull();
+    expect(alphabet.script).toBe('Latn');
   });
 
   it('should return null for an invalid language code', async () => {

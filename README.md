@@ -123,11 +123,10 @@ from worldalphabets import get_index_data, get_language
 index = get_index_data()
 print(f"Index contains {len(index)} languages.")
 
-# Get information for a specific language
-lang_info = get_language("he")
-print(f"Language: {lang_info['language-name']}")
-print(f"Script Type: {lang_info['script-type']}")
-print(f"Direction: {lang_info['direction']}")
+# Load Marathi in the Latin script
+marathi_latn = get_language("mr", script="Latn")
+print(f"Script: {marathi_latn['script']}")
+print(f"First letters: {marathi_latn['alphabetical'][:5]}")
 ```
 
 #### Node.js
@@ -140,11 +139,10 @@ async function main() {
   const index = await getIndexData();
   console.log(`Index contains ${index.length} languages.`);
 
-  // Get information for a specific language
-  const langInfo = await getLanguage('he');
-  console.log(`Language: ${langInfo['language-name']}`);
-  console.log(`Script Type: ${langInfo['script-type']}`);
-  console.log(`Direction: ${langInfo['direction']}`);
+  // Load Marathi in the Latin script
+  const marathiLatn = await getLanguage('mr', 'Latn');
+  console.log(`Script: ${marathiLatn.script}`);
+  console.log(`First letters: ${marathiLatn.alphabetical.slice(0, 5)}`);
 }
 
 main();

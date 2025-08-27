@@ -4,21 +4,29 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
 
 /**
- * Loads the alphabet data for a given language code.
+ * Loads the alphabet data for a given language code and script.
  * @param {string} code - The ISO 639-1 language code.
+ * @param {string} [script] - Optional ISO-15924 script code.
  * @returns {Promise<object>} A promise that resolves to the alphabet data.
  */
-async function loadAlphabet(code) {
-  const filePath = path.join(DATA_DIR, `${code}.json`);
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(content);
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      throw new Error(`Alphabet data for code "${code}" not found.`);
-    }
-    throw error;
+async function loadAlphabet(code, script) {
+  const candidates = [];
+  if (script) {
+    candidates.push(path.join(DATA_DIR, `${code}-${script}.json`));
   }
+  candidates.push(path.join(DATA_DIR, `${code}.json`));
+
+  for (const filePath of candidates) {
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      return JSON.parse(content);
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        throw error;
+      }
+    }
+  }
+  throw new Error(`Alphabet data for code "${code}" not found.`);
 }
 
 /**
@@ -26,8 +34,8 @@ async function loadAlphabet(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<string[]>} A promise that resolves to an array of uppercase letters.
  */
-async function getUppercase(code) {
-  const data = await loadAlphabet(code);
+async function getUppercase(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.uppercase || [];
 }
 
@@ -36,8 +44,8 @@ async function getUppercase(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<string[]>} A promise that resolves to an array of lowercase letters.
  */
-async function getLowercase(code) {
-  const data = await loadAlphabet(code);
+async function getLowercase(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.lowercase || [];
 }
 
@@ -46,8 +54,8 @@ async function getLowercase(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<object>} A promise that resolves to an object with letter frequencies.
  */
-async function getFrequency(code) {
-  const data = await loadAlphabet(code);
+async function getFrequency(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.frequency || {};
 }
 
@@ -85,9 +93,19 @@ async function getIndexData() {
  * @param {string} langCode - The ISO 639-1 language code.
  * @returns {Promise<object|null>} A promise that resolves to the language information or null if not found.
  */
-async function getLanguage(langCode) {
+async function getLanguage(langCode, script) {
   const data = await getIndexData();
-  return data.find((item) => item.language === langCode) || null;
+  const entry = data.find((item) => item.language === langCode);
+  if (!entry) {
+    return null;
+  }
+  const scripts = entry.scripts || [];
+  const chosen = script || scripts[0];
+  try {
+    return await loadAlphabet(langCode, chosen);
+  } catch (_) {
+    return null;
+  }
 }
 
 const keyboards = require('./keyboards');

@@ -3,20 +3,13 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from importlib.resources import files
-from pathlib import Path
-import json
 from typing import Dict, List
 
 from .helpers import get_index_data, get_language
 from .keyboards import get_available_layouts, load_keyboard
 from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
 
-# The data files are packaged at the root of the site-packages directory,
-# so we go up one level from the package to find the data directory.
-from importlib.resources import as_file
-with as_file(files("worldalphabets")) as p:
-    _PACKAGE_PATH = Path(p)
-DATA_DIR = _PACKAGE_PATH.parent.parent / "data" / "alphabets"
+ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
 
 @dataclass
@@ -29,19 +22,25 @@ class Alphabet:
     frequency: Dict[str, float]
 
 
-def load_alphabet(code: str) -> Alphabet:
-    """Return alphabet information for ISO language ``code``."""
+def load_alphabet(code: str, script: str | None = None) -> Alphabet:
+    """Return alphabet information for ISO language ``code`` and ``script``."""
 
-    path = DATA_DIR / f"{code}.json"
-    data = json.loads(path.read_text(encoding="utf-8"))
-    return Alphabet(**data)
+    data = get_language(code, script=script)
+    if data is None:
+        raise FileNotFoundError(f"Alphabet data for code '{code}' not found")
+    return Alphabet(
+        alphabetical=data.get("alphabetical", []),
+        uppercase=data.get("uppercase", []),
+        lowercase=data.get("lowercase", []),
+        frequency=data.get("frequency", {}),
+    )
 
 
 def get_available_codes() -> List[str]:
     """Return sorted language codes with available alphabets."""
 
     return sorted(
-        Path(p.name).stem for p in DATA_DIR.iterdir() if p.name.endswith(".json")
+        p.name.replace(".json", "") for p in ALPHABET_DIR.iterdir() if p.name.endswith(".json")
     )
 
 
