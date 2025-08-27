@@ -162,7 +162,7 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
 }, { immediate: true });
 
 watch(selectedScript, async script => {
-  if (props.selectedLangCode) {
+  if (props.selectedLangCode && script) {
     await loadAlphabet(props.selectedLangCode, script);
   }
 });
