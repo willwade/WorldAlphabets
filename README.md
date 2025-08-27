@@ -381,6 +381,16 @@ The script updates both the repository `data/` directory and the packaged data
 under `src/worldalphabets/data/`. If all relevant alphabets have already been
 split, it will report `No legacy alphabet files to split.`
 
+**Generate translations**
+
+Populate a sample translation for each alphabet using Google Translate. The
+script iterates over every language and script combination, writing a
+`hello_how_are_you` field to `data/alphabets/<code>-<script>.json`.
+
+```bash
+GOOGLE_TRANS_KEY=<key> uv run scripts/generate_translations.py
+```
+
 To refresh keyboard layout references after restructuring, run:
 
 ```bash
