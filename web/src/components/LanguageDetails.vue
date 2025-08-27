@@ -41,10 +41,9 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   activeTab.value = 'alphabet';
 
   try {
-    // Fetch all data in parallel
-    const [indexRes, alphabetRes, audioIndexRes, layoutIndexRes] = await Promise.all([
+    // Fetch indexes in parallel
+    const [indexRes, audioIndexRes, layoutIndexRes] = await Promise.all([
       fetch(`${baseUrl}data/index.json`),
-      fetch(`${baseUrl}data/alphabets/${newLangCode}.json`),
       fetch(`${baseUrl}data/audio/index.json`),
       fetch(`${baseUrl}data/layouts/index.json`),
     ]);
@@ -55,12 +54,22 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
     }
     const indexData = await indexRes.json();
     const langInfo = indexData.find(l => l.language === newLangCode);
+    let script = null;
     if (langInfo) {
       languageInfo.value = {
         name: langInfo['language-name'],
         direction: langInfo.direction === 'rtl' ? 'Right to Left' : 'Left to Right'
       };
+      if (Array.isArray(langInfo.scripts) && langInfo.scripts.length) {
+        script = langInfo.scripts[0];
+      }
     }
+
+    // Fetch alphabet after determining script
+    const alphabetPath = script
+      ? `${baseUrl}data/alphabets/${newLangCode}-${script}.json`
+      : `${baseUrl}data/alphabets/${newLangCode}.json`;
+    const alphabetRes = await fetch(alphabetPath);
 
     // Keyboard layouts
     if (layoutIndexRes.ok) {

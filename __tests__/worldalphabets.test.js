@@ -63,6 +63,12 @@ describe('worldalphabets', () => {
     expect(alphabet.script).toBe('Latn');
   });
 
+  it('should load alphabet file by script', async () => {
+    const alphabet = await loadAlphabet('mr', 'Latn');
+    expect(alphabet.script).toBe('Latn');
+    expect(alphabet.alphabetical).toContain('A');
+  });
+
   it('should return null for an invalid language code', async () => {
     const langInfo = await getLanguage('invalid-code');
     expect(langInfo).toBeNull();

@@ -288,7 +288,7 @@ uv run scripts/extract_alphabets.py
 
 The script clones the [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
 Java project and stores JSON files for every available
-alphabet under `data/alphabets/`, named by ISO language code. If no sample text
+alphabet under `data/alphabets/`, named by ISO language code and script. If no sample text
 is available, frequency values default to zero and the language is recorded in
 `data/todo_languages.csv` for follow-up.
 
@@ -317,7 +317,7 @@ Derive an alphabet from an ICU locale's exemplar character set:
 uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
 ```
 
-The script writes `data/alphabets/<code>.json`, using the locale's standard
+The script writes `data/alphabets/<code>-<script>.json`, using the locale's standard
 exemplar set for the base letters and populating frequency values from the
 Simia unigrams dataset when available. Locales without exemplar data are
 skipped. Exemplar entries spanning multiple code points are normalized and
@@ -332,7 +332,7 @@ uv run scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
   --block <Unicode block>
 ```
 
-The script writes `data/alphabets/<code>.json`. To list missing codes:
+The script writes `data/alphabets/<code>-<script>.json`. To list missing codes:
 
 ```bash
 uv run scripts/missing_unigram_languages.py
