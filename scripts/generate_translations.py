@@ -150,59 +150,68 @@ def generate_translations() -> None:
         try:
             lang_code = item["language"]
             lang_name = item.get("language-name", lang_code)
+            scripts = item.get("scripts", [])
         except (KeyError, TypeError):
             print(f"Skipping malformed entry: {item!r}")
             continue
 
-        target = find_supported_code(lang_code, supported)
-        file_path = ALPHABETS_DIR / f"{lang_code}.json"
+        for script in scripts:
+            code_with_script = f"{lang_code}-{script}"
+            target = find_supported_code(code_with_script, supported)
+            if not target:
+                target = find_supported_code(lang_code, supported)
 
-        if not target:
-            print(f"- {lang_name} ({lang_code}) -> unsupported by Google; skipping")
-            unsupported.append({"language": lang_code, "name": lang_name})
-            continue
+            file_path = ALPHABETS_DIR / f"{lang_code}-{script}.json"
 
-        print(
-            f"- {lang_name} ({lang_code}) -> using target '{target}' -> {file_path} ... ",
-            end="",
-            flush=True,
-        )
-
-        # Load or create base file
-        if file_path.exists():
-            try:
-                with file_path.open("r", encoding="utf-8") as f:
-                    base_obj = json.load(f)
-                if not isinstance(base_obj, dict):
-                    raise ValueError("Top-level JSON must be an object")
-            except Exception as e:
-                print(f"failed to read: {e}")
+            if not target:
+                print(
+                    f"- {lang_name} ({code_with_script}) -> unsupported by Google; skipping"
+                )
+                unsupported.append(
+                    {"language": lang_code, "script": script, "name": lang_name}
+                )
                 continue
-        else:
-            base_obj = {
-                "alphabetical": [],
-                "uppercase": [],
-                "lowercase": [],
-                "frequency": {},
-            }
 
-        try:
-            translated = translate_once(api_key, SOURCE_TEXT, target)
-            base_obj[FIELD_NAME] = translated
-            with file_path.open("w", encoding="utf-8") as f:
-                json.dump(base_obj, f, ensure_ascii=False, indent=2)
-            print("ok")
-        except requests.HTTPError as e:
-            # Avoid logging full URL (which includes your key)
-            status = e.response.status_code if e.response is not None else "?"
+            print(
+                f"- {lang_name} ({code_with_script}) -> using target '{target}'"
+                f" -> {file_path} ... ",
+                end="",
+                flush=True,
+            )
+
+            if file_path.exists():
+                try:
+                    with file_path.open("r", encoding="utf-8") as f:
+                        base_obj = json.load(f)
+                    if not isinstance(base_obj, dict):
+                        raise ValueError("Top-level JSON must be an object")
+                except Exception as e:
+                    print(f"failed to read: {e}")
+                    continue
+            else:
+                base_obj = {
+                    "alphabetical": [],
+                    "uppercase": [],
+                    "lowercase": [],
+                    "frequency": {},
+                }
+
             try:
-                err_json = e.response.json()
-                msg = err_json.get("error", {}).get("message", "")
-            except Exception:
-                msg = str(e)
-            print(f"failed: HTTP {status} {msg}")
-        except Exception as e:
-            print(f"failed: {e}")
+                translated = translate_once(api_key, SOURCE_TEXT, target)
+                base_obj[FIELD_NAME] = translated
+                with file_path.open("w", encoding="utf-8") as f:
+                    json.dump(base_obj, f, ensure_ascii=False, indent=2)
+                print("ok")
+            except requests.HTTPError as e:
+                status = e.response.status_code if e.response is not None else "?"
+                try:
+                    err_json = e.response.json()
+                    msg = err_json.get("error", {}).get("message", "")
+                except Exception:
+                    msg = str(e)
+                print(f"failed: HTTP {status} {msg}")
+            except Exception as e:
+                print(f"failed: {e}")
 
     # Optional: write a small report of unsupported languages for follow-up
     if unsupported:
