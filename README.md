@@ -350,6 +350,24 @@ uv run scripts/generate_missing_alphabets.py --limit 10
 Omit `--limit` to process all missing languages. Each file is written under
 `data/alphabets/` and combines ICU exemplar characters with Simia frequencies.
 
+**Split alphabets by script**
+
+After adding `scripts` arrays to `data/index.json`, legacy `data/alphabets/<code>.json`
+files can be split into `<code>-<script>.json` pairs:
+
+```bash
+uv run scripts/split_alphabets_by_script.py
+```
+
+The script updates both the repository `data/` directory and the packaged data
+under `src/worldalphabets/data/`.
+
+To refresh keyboard layout references after restructuring, run:
+
+```bash
+uv run src/scripts/populate_layouts.py
+```
+
 ### Linting and type checking
 
 ```bash
