@@ -23,7 +23,8 @@ DATA_DIRS = [
 INDEX_PATH = REPO_ROOT / "data" / "index.json"
 
 
-def _split_for_dir(alpha_dir: Path, index_data: List[Dict[str, Any]]) -> None:
+def _split_for_dir(alpha_dir: Path, index_data: List[Dict[str, Any]]) -> bool:
+    changed = False
     for entry in index_data:
         code = entry.get("language")
         scripts = entry.get("scripts")
@@ -49,17 +50,25 @@ def _split_for_dir(alpha_dir: Path, index_data: List[Dict[str, Any]]) -> None:
                 json.dump(data, out, ensure_ascii=False, indent=2)
                 out.write("\n")
             print(f"Wrote {target.relative_to(REPO_ROOT)}")
+            changed = True
 
         legacy_path.unlink()
         print(f"Removed {legacy_path.relative_to(REPO_ROOT)}")
+        changed = True
+
+    return changed
 
 
 def main() -> None:  # pragma: no cover - script
     with INDEX_PATH.open("r", encoding="utf-8") as f:
         index: List[Dict[str, Any]] = json.load(f)
 
+    any_changed = False
     for alpha_dir in DATA_DIRS:
-        _split_for_dir(alpha_dir, index)
+        any_changed |= _split_for_dir(alpha_dir, index)
+
+    if not any_changed:
+        print("No legacy alphabet files to split.")
 
 
 if __name__ == "__main__":  # pragma: no cover - script

@@ -360,7 +360,8 @@ uv run scripts/split_alphabets_by_script.py
 ```
 
 The script updates both the repository `data/` directory and the packaged data
-under `src/worldalphabets/data/`.
+under `src/worldalphabets/data/`. If all relevant alphabets have already been
+split, it will report `No legacy alphabet files to split.`
 
 To refresh keyboard layout references after restructuring, run:
 
