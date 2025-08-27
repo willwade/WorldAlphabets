@@ -1,947 +1,1688 @@
 [
   {
+    "language": "ab",
+    "language-name": "Abkhazian",
+    "frequency-avail": true,
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "scripts": [
+      "Cyrl"
+    ]
+  },
+  {
     "language": "af",
     "language-name": "Afrikaans",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ak",
     "language-name": "Akan",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "am",
     "language-name": "Amharic",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Ethiopic",
+    "direction": "ltr",
+    "scripts": [
+      "Ethi"
+    ]
   },
   {
     "language": "ar",
     "language-name": "Arabic",
-    "frequency-avail": false,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "frequency-avail": true,
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "keyboards": [
+      "00000401",
+      "00010401",
+      "00020401"
+    ],
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "ast",
     "language-name": "Asturian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "ay",
+    "language-name": "Aymara",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "az",
     "language-name": "Azerbaijani",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000042c",
+      "0001042c"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ba",
     "language-name": "Bashkir",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "0000046d"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "ban",
     "language-name": "Balinese",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "bax",
     "language-name": "Bamun",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Bamum",
+    "direction": "ltr",
+    "scripts": [
+      "Bamu"
+    ]
   },
   {
     "language": "be",
     "language-name": "Belarusian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000423"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "bg",
     "language-name": "Bulgarian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000402",
+      "00010402",
+      "00020402",
+      "00030402",
+      "00040402"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "bku",
     "language-name": "Buhid",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "bm",
     "language-name": "Bambara",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "bn",
     "language-name": "Bengali",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Bangla",
+    "direction": "ltr",
+    "keyboards": [
+      "00000445"
+    ],
+    "scripts": [
+      "Beng"
+    ]
   },
   {
     "language": "bo",
     "language-name": "Tibetan",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Tibetan",
+    "direction": "ltr",
+    "keyboards": [
+      "00000451",
+      "00010451"
+    ],
+    "scripts": [
+      "Tibt"
+    ]
+  },
+  {
+    "language": "bs",
+    "language-name": "Bosnian",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000201a"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "bug",
     "language-name": "Buginese",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "000b0c00"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "bya",
     "language-name": "Batak",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ca",
     "language-name": "Catalan",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ceb",
     "language-name": "Cebuano",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "chr",
     "language-name": "Cherokee",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Cherokee",
+    "direction": "ltr",
+    "scripts": [
+      "Cher"
+    ]
   },
   {
     "language": "ckb",
     "language-name": "Central Kurdish",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "keyboards": [
+      "00000492"
+    ],
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "cop",
     "language-name": "Coptic",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Coptic",
+    "direction": "ltr",
+    "scripts": [
+      "Copt"
+    ]
   },
   {
     "language": "cs",
     "language-name": "Czech",
-    "frequency-avail": false,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000405",
+      "00010405"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "cv",
     "language-name": "Chuvash",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "scripts": [
+      "Cyrl"
+    ]
+  },
+  {
+    "language": "cy",
+    "language-name": "Welsh",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "da",
     "language-name": "Danish",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000406"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "de",
     "language-name": "German",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000407",
+      "00000807",
+      "00010407"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "dz",
     "language-name": "Dzongkha",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Tibetan",
+    "direction": "ltr",
+    "keyboards": [
+      "00000c51"
+    ],
+    "scripts": [
+      "Tibt"
+    ]
   },
   {
     "language": "el",
     "language-name": "Greek",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Greek",
+    "direction": "ltr",
+    "keyboards": [
+      "00000408",
+      "00010408",
+      "00020408",
+      "00030408",
+      "00040408",
+      "00050408"
+    ],
+    "scripts": [
+      "Grek"
+    ]
   },
   {
     "language": "en",
     "language-name": "English",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000409",
+      "00000809",
+      "00004009",
+      "00010409",
+      "00020409"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "eo",
     "language-name": "Esperanto",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "es",
     "language-name": "Spanish",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000040a",
+      "0000080a"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "et",
     "language-name": "Estonian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000425"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "eu",
     "language-name": "Basque",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "fa",
     "language-name": "Persian",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "keyboards": [
+      "00000429",
+      "00050429"
+    ],
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "fi",
     "language-name": "Finnish",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000040b",
+      "0001083b"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "fo",
     "language-name": "Faroese",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000438"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "fr",
     "language-name": "French",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000040c",
+      "0000080c",
+      "00000c0c",
+      "00001009",
+      "0000100c",
+      "0001040c",
+      "0002040c"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "fur",
     "language-name": "Friulian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ga",
     "language-name": "Irish",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00001809"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "gd",
     "language-name": "Scottish Gaelic",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00011809"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "gez",
     "language-name": "Geez",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Ethiopic",
+    "direction": "ltr",
+    "scripts": [
+      "Ethi"
+    ]
   },
   {
     "language": "gl",
     "language-name": "Galician",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "gn",
+    "language-name": "Guarani",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000474"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "gu",
     "language-name": "Gujarati",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Gujarati",
+    "direction": "ltr",
+    "keyboards": [
+      "00000447"
+    ],
+    "scripts": [
+      "Gujr"
+    ]
   },
   {
     "language": "gv",
     "language-name": "Manx",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "haw",
     "language-name": "Hawaiian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000475"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "he",
     "language-name": "Hebrew",
     "frequency-avail": true,
-    "script-type": "Abjad",
-    "direction": "rl"
+    "script-type": "Hebrew",
+    "direction": "rtl",
+    "keyboards": [
+      "0000040d",
+      "0002040d",
+      "0003040d"
+    ],
+    "scripts": [
+      "Hebr"
+    ]
   },
   {
     "language": "hi",
     "language-name": "Hindi",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Devanagari",
+    "direction": "ltr",
+    "scripts": [
+      "Deva"
+    ]
   },
   {
     "language": "hnn",
     "language-name": "Hanunoo",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "hr",
+    "language-name": "Croatian",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ht",
     "language-name": "Haitian Creole",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "hu",
     "language-name": "Hungarian",
-    "frequency-avail": false,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000040e"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "hy",
     "language-name": "Armenian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Armenian",
+    "direction": "ltr",
+    "scripts": [
+      "Armn"
+    ]
   },
   {
     "language": "ie",
     "language-name": "Interlingue",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "is",
     "language-name": "Icelandic",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000040f"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "it",
     "language-name": "Italian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000410",
+      "00010410"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ja",
     "language-name": "Japanese",
     "frequency-avail": true,
-    "script-type": "Logographic",
-    "direction": "lr"
+    "script-type": "Japanese",
+    "direction": "ltr",
+    "keyboards": [
+      "00000411"
+    ],
+    "scripts": [
+      "Jpan"
+    ]
   },
   {
     "language": "jv",
     "language-name": "Javanese",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00110c00"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ka",
     "language-name": "Georgian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Georgian",
+    "direction": "ltr",
+    "keyboards": [
+      "00000437",
+      "00010437",
+      "00020437",
+      "00030437",
+      "00040437"
+    ],
+    "scripts": [
+      "Geor"
+    ]
   },
   {
     "language": "kab",
     "language-name": "Kabyle",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "kk",
     "language-name": "Kazakh",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "0000043f"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "kl",
     "language-name": "Kalaallisut",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "km",
     "language-name": "Khmer",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Khmer",
+    "direction": "ltr",
+    "keyboards": [
+      "00000453",
+      "00010453"
+    ],
+    "scripts": [
+      "Khmr"
+    ]
   },
   {
     "language": "kn",
     "language-name": "Kannada",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Kannada",
+    "direction": "ltr",
+    "keyboards": [
+      "0000044b"
+    ],
+    "scripts": [
+      "Knda"
+    ]
   },
   {
     "language": "ko",
     "language-name": "Korean",
     "frequency-avail": true,
-    "script-type": "Logographic",
-    "direction": "lr"
+    "script-type": "Korean",
+    "direction": "ltr",
+    "keyboards": [
+      "00000412"
+    ],
+    "scripts": [
+      "Kore"
+    ]
   },
   {
     "language": "ks",
     "language-name": "Kashmiri",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "ksh",
     "language-name": "Colognian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ku",
     "language-name": "Kurdish",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ky",
     "language-name": "Kyrgyz",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "la",
     "language-name": "Latin",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "lb",
     "language-name": "Luxembourgish",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000046e"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "lep",
     "language-name": "Lepcha",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Lepcha",
+    "direction": "ltr",
+    "scripts": [
+      "Lepc"
+    ]
   },
   {
     "language": "lif",
     "language-name": "Limbu",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Devanagari",
+    "direction": "ltr",
+    "scripts": [
+      "Deva"
+    ]
   },
   {
     "language": "lij",
     "language-name": "Ligurian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "lis",
     "language-name": "Lisu",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Fraser",
+    "direction": "ltr",
+    "keyboards": [
+      "00070c00",
+      "00080c00"
+    ],
+    "scripts": [
+      "Lisu"
+    ]
   },
   {
     "language": "lo",
     "language-name": "Lao",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Lao",
+    "direction": "ltr",
+    "keyboards": [
+      "00000454"
+    ],
+    "scripts": [
+      "Laoo"
+    ]
   },
   {
     "language": "lt",
     "language-name": "Lithuanian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00010427"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "lv",
     "language-name": "Latvian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000426",
+      "00010426",
+      "00020426"
+    ],
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "lzh",
+    "language-name": "Literary Chinese",
+    "frequency-avail": true,
+    "script-type": "Simplified",
+    "direction": "ltr",
+    "scripts": [
+      "Hans"
+    ]
   },
   {
     "language": "mg",
     "language-name": "Malagasy",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "mid",
     "language-name": "Mandaic",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "mk",
     "language-name": "Macedonian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "0000042f"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "ml",
     "language-name": "Malayalam",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Malayalam",
+    "direction": "ltr",
+    "keyboards": [
+      "0000044c"
+    ],
+    "scripts": [
+      "Mlym"
+    ]
   },
   {
     "language": "mn",
     "language-name": "Mongolian",
     "frequency-avail": false,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000850"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "mo",
     "language-name": "Romanian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "mr",
+    "language-name": "Marathi",
+    "frequency-avail": true,
+    "script-type": "Devanagari",
+    "direction": "ltr",
+    "scripts": [
+      "Deva",
+      "Latn"
+    ]
   },
   {
     "language": "my",
     "language-name": "Burmese",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Myanmar",
+    "direction": "ltr",
+    "scripts": [
+      "Mymr"
+    ]
   },
   {
     "language": "mzn",
     "language-name": "Mazanderani",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "nds",
     "language-name": "Low German",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ne",
     "language-name": "Nepali",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Devanagari",
+    "direction": "ltr",
+    "keyboards": [
+      "00000461"
+    ],
+    "scripts": [
+      "Deva"
+    ]
   },
   {
     "language": "nn",
     "language-name": "Norwegian Nynorsk",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "no",
     "language-name": "Norwegian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000414",
+      "0000043b"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "nqo",
     "language-name": "N’Ko",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "N’Ko",
+    "direction": "rtl",
+    "keyboards": [
+      "00090c00"
+    ],
+    "scripts": [
+      "Nkoo"
+    ]
   },
   {
     "language": "nso",
     "language-name": "Northern Sotho",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "oc",
     "language-name": "Occitan",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "or",
     "language-name": "Odia",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Odia",
+    "direction": "ltr",
+    "keyboards": [
+      "00000448"
+    ],
+    "scripts": [
+      "Orya"
+    ]
   },
   {
     "language": "pl",
     "language-name": "Polish",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000415",
+      "00010415"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ps",
     "language-name": "Pashto",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "keyboards": [
+      "00000463"
+    ],
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "pt",
     "language-name": "Portuguese",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000416",
+      "00000816",
+      "00010416"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "rej",
     "language-name": "Rejang",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "rm",
     "language-name": "Romansh",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ro",
     "language-name": "Romanian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000418",
+      "00010418",
+      "00020418"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ru",
     "language-name": "Russian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000419",
+      "00010419"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "sa",
     "language-name": "Sanskrit",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Devanagari",
+    "direction": "ltr",
+    "scripts": [
+      "Deva"
+    ]
   },
   {
     "language": "sam",
     "language-name": "Samaritan Aramaic",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "saz",
     "language-name": "Saurashtra",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Saurashtra",
+    "direction": "ltr",
+    "scripts": [
+      "Saur"
+    ]
   },
   {
     "language": "sc",
     "language-name": "Sardinian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "se",
     "language-name": "Northern Sami",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "sg",
     "language-name": "Sango",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "si",
     "language-name": "Sinhala",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Sinhala",
+    "direction": "ltr",
+    "keyboards": [
+      "0000045b"
+    ],
+    "scripts": [
+      "Sinh"
+    ]
   },
   {
     "language": "sl",
     "language-name": "Slovenian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000424"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "sn",
     "language-name": "Shona",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "so",
     "language-name": "Somali",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "sr",
     "language-name": "Serbian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "0000081a",
+      "00000c1a"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "su",
     "language-name": "Sundanese",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "sv",
     "language-name": "Swedish",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "0000041d",
+      "0000083b"
+    ],
+    "scripts": [
+      "Latn"
+    ]
+  },
+  {
+    "language": "sw",
+    "language-name": "Swahili",
+    "frequency-avail": true,
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "syr",
     "language-name": "Syriac",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Syriac",
+    "direction": "rtl",
+    "keyboards": [
+      "0000045a"
+    ],
+    "scripts": [
+      "Syrc"
+    ]
   },
   {
     "language": "szl",
     "language-name": "Silesian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "ta",
     "language-name": "Tamil",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Tamil",
+    "direction": "ltr",
+    "keyboards": [
+      "00000449"
+    ],
+    "scripts": [
+      "Taml"
+    ]
   },
   {
     "language": "tbw",
     "language-name": "Tagbanwa",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "te",
     "language-name": "Telugu",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Telugu",
+    "direction": "ltr",
+    "keyboards": [
+      "0000044a"
+    ],
+    "scripts": [
+      "Telu"
+    ]
   },
   {
     "language": "tg",
     "language-name": "Tajik",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000428"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "th",
     "language-name": "Thai",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Thai",
+    "direction": "ltr",
+    "scripts": [
+      "Thai"
+    ]
   },
   {
     "language": "ti",
     "language-name": "Tigrinya",
     "frequency-avail": true,
-    "script-type": "Abugida",
-    "direction": "lr"
+    "script-type": "Ethiopic",
+    "direction": "ltr",
+    "scripts": [
+      "Ethi"
+    ]
   },
   {
     "language": "tk",
     "language-name": "Turkmen",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000442"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "tl",
     "language-name": "Tagalog",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "tn",
     "language-name": "Tswana",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "tr",
     "language-name": "Turkish",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "tt",
     "language-name": "Tatar",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000444",
+      "00010444"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "uk",
     "language-name": "Ukrainian",
     "frequency-avail": true,
-    "script-type": "Alphabet",
-    "direction": "lr"
+    "script-type": "Cyrillic",
+    "direction": "ltr",
+    "keyboards": [
+      "00000422",
+      "00020422"
+    ],
+    "scripts": [
+      "Cyrl"
+    ]
   },
   {
     "language": "ur",
     "language-name": "Urdu",
     "frequency-avail": true,
-    "script-type": "AbjadorAbugida",
-    "direction": "rl"
+    "script-type": "Arabic",
+    "direction": "rtl",
+    "keyboards": [
+      "00000420"
+    ],
+    "scripts": [
+      "Arab"
+    ]
   },
   {
     "language": "vai",
     "language-name": "Vai",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Vai",
+    "direction": "ltr",
+    "scripts": [
+      "Vaii"
+    ]
   },
   {
     "language": "vec",
     "language-name": "Venetian",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "wo",
     "language-name": "Wolof",
     "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
-  },
-  {
-    "language": "zh-classical",
-    "language-name": "zh-classical",
-    "frequency-avail": true,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "keyboards": [
+      "00000488"
+    ],
+    "scripts": [
+      "Latn"
+    ]
   },
   {
     "language": "zh-min-nan",
     "language-name": "Min",
     "frequency-avail": true,
-    "script-type": "Logographic",
-    "direction": "lr"
+    "script-type": "Simplified",
+    "direction": "ltr",
+    "scripts": [
+      "Hans"
+    ]
   },
   {
     "language": "zh-yue",
     "language-name": "Yue",
     "frequency-avail": true,
-    "script-type": "Logographic",
-    "direction": "lr"
+    "script-type": "Traditional",
+    "direction": "ltr",
+    "scripts": [
+      "Hant"
+    ]
   },
   {
     "language": "zh",
     "language-name": "Mandarin",
     "frequency-avail": true,
-    "script-type": "Logographic",
-    "direction": "lr"
+    "script-type": "Simplified",
+    "direction": "ltr",
+    "scripts": [
+      "Hans"
+    ]
   },
   {
     "language": "zra",
     "language-name": "Kara (Korea)",
     "frequency-avail": false,
-    "script-type": "TBD",
-    "direction": "TBD"
+    "script-type": "Latin",
+    "direction": "ltr",
+    "scripts": [
+      "Latn"
+    ]
   }
 ]

@@ -4,21 +4,40 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
 
 /**
- * Loads the alphabet data for a given language code.
+ * Loads the alphabet data for a given language code and script.
  * @param {string} code - The ISO 639-1 language code.
+ * @param {string} [script] - Optional ISO-15924 script code.
  * @returns {Promise<object>} A promise that resolves to the alphabet data.
  */
-async function loadAlphabet(code) {
-  const filePath = path.join(DATA_DIR, `${code}.json`);
-  try {
-    const content = await fs.readFile(filePath, 'utf8');
-    return JSON.parse(content);
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      throw new Error(`Alphabet data for code "${code}" not found.`);
+async function loadAlphabet(code, script) {
+  const candidates = [];
+  if (!script) {
+    try {
+      const data = await getIndexData();
+      const entry = data.find((item) => item.language === code);
+      if (entry && entry.scripts && entry.scripts.length > 0) {
+        script = entry.scripts[0];
+      }
+    } catch (_) {
+      /* ignore */
     }
-    throw error;
   }
+  if (script) {
+    candidates.push(path.join(DATA_DIR, `${code}-${script}.json`));
+  }
+  candidates.push(path.join(DATA_DIR, `${code}.json`));
+
+  for (const filePath of candidates) {
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      return JSON.parse(content);
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        throw error;
+      }
+    }
+  }
+  throw new Error(`Alphabet data for code "${code}" not found.`);
 }
 
 /**
@@ -26,8 +45,8 @@ async function loadAlphabet(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<string[]>} A promise that resolves to an array of uppercase letters.
  */
-async function getUppercase(code) {
-  const data = await loadAlphabet(code);
+async function getUppercase(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.uppercase || [];
 }
 
@@ -36,8 +55,8 @@ async function getUppercase(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<string[]>} A promise that resolves to an array of lowercase letters.
  */
-async function getLowercase(code) {
-  const data = await loadAlphabet(code);
+async function getLowercase(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.lowercase || [];
 }
 
@@ -46,8 +65,8 @@ async function getLowercase(code) {
  * @param {string} code - The ISO 639-1 language code.
  * @returns {Promise<object>} A promise that resolves to an object with letter frequencies.
  */
-async function getFrequency(code) {
-  const data = await loadAlphabet(code);
+async function getFrequency(code, script) {
+  const data = await loadAlphabet(code, script);
   return data.frequency || {};
 }
 
@@ -56,11 +75,8 @@ async function getFrequency(code) {
  * @returns {Promise<string[]>} A promise that resolves to an array of alphabet codes.
  */
 async function getAvailableCodes() {
-  const files = await fs.readdir(DATA_DIR);
-  return files
-    .filter((file) => file.endsWith('.json'))
-    .map((file) => file.replace('.json', ''))
-    .sort();
+  const data = await getIndexData();
+  return data.map((item) => item.language).sort();
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
@@ -85,9 +101,30 @@ async function getIndexData() {
  * @param {string} langCode - The ISO 639-1 language code.
  * @returns {Promise<object|null>} A promise that resolves to the language information or null if not found.
  */
-async function getLanguage(langCode) {
+async function getLanguage(langCode, script) {
   const data = await getIndexData();
-  return data.find((item) => item.language === langCode) || null;
+  const entry = data.find((item) => item.language === langCode);
+  if (!entry) {
+    return null;
+  }
+  const scripts = entry.scripts || [];
+  const chosen = script || scripts[0];
+  try {
+    return await loadAlphabet(langCode, chosen);
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
+ * Lists available scripts for a language.
+ * @param {string} langCode - The ISO 639-1 language code.
+ * @returns {Promise<string[]>} A promise that resolves to an array of script codes.
+ */
+async function getScripts(langCode) {
+  const data = await getIndexData();
+  const entry = data.find((item) => item.language === langCode);
+  return entry && entry.scripts ? entry.scripts : [];
 }
 
 const keyboards = require('./keyboards');
@@ -101,6 +138,7 @@ module.exports = {
   getAvailableCodes,
   getIndexData,
   getLanguage,
+  getScripts,
   // Keyboards
   ...keyboards,
 };

@@ -12,17 +12,23 @@ Install the package:
 pip install worldalphabets
 ```
 
-To load the data in Python:
+To load the data in Python (omitting ``script`` uses the first script listed):
 
 ```python
-from worldalphabets import get_available_codes, load_alphabet
+from worldalphabets import get_available_codes, get_scripts, load_alphabet
 
 codes = get_available_codes()
 print("Loaded", len(codes), "alphabets")
 
-alphabet = load_alphabet("en")
-print(alphabet.uppercase[:5])  # ['A', 'B', 'C', 'D', 'E']
-print(alphabet.frequency['e'])
+alphabet = load_alphabet("en")  # defaults to first script (Latn)
+print("English uppercase:", alphabet.uppercase[:5])
+
+scripts = get_scripts("mr")
+print("Marathi scripts:", scripts)
+
+alphabet_mr = load_alphabet("mr", script=scripts[0])
+print("Marathi uppercase:", alphabet_mr.uppercase[:5])
+print("Marathi frequency for 'a':", alphabet_mr.frequency["a"])
 ```
 
 ### Node.js
@@ -43,14 +49,18 @@ const {
   getLowercase,
   getFrequency,
   getAvailableCodes,
+  getScripts,
 } = require('worldalphabets');
 
 async function main() {
   const codes = await getAvailableCodes();
   console.log('Available codes (first 5):', codes.slice(0, 5));
 
-  const uppercaseEn = await getUppercase('en');
-  console.log('English uppercase:', uppercaseEn);
+  const scriptsSr = await getScripts('sr');
+  console.log('Serbian scripts:', scriptsSr);
+
+  const uppercaseSr = await getUppercase('sr', scriptsSr[0]);
+  console.log('Serbian uppercase:', uppercaseSr);
 
   const lowercaseFr = await getLowercase('fr');
   console.log('French lowercase:', lowercaseFr);
@@ -72,8 +82,8 @@ If you have cloned the repository, you can use the module directly:
 const { getUppercase } = require('./index');
 
 async function main() {
-    const uppercaseEn = await getUppercase('en');
-    console.log('English uppercase:', uppercaseEn);
+    const uppercaseSr = await getUppercase('sr', 'Latn');
+    console.log('Serbian Latin uppercase:', uppercaseSr);
 }
 
 main();
@@ -84,7 +94,7 @@ main();
 The `examples/` directory contains small scripts demonstrating the library:
 
 - `examples/python/` holds Python snippets for printing alphabets, collecting
-  stats, and more.
+  stats, listing scripts, and more.
 - `examples/node/` includes similar examples for Node.js.
 
 ### Audio Samples
@@ -117,34 +127,40 @@ This library also provides an index of all available alphabets with additional m
 #### Python
 
 ```python
-from worldalphabets import get_index_data, get_language
+from worldalphabets import get_index_data, get_language, get_scripts
 
 # Get the entire index
 index = get_index_data()
 print(f"Index contains {len(index)} languages.")
 
-# Get information for a specific language
-lang_info = get_language("he")
-print(f"Language: {lang_info['language-name']}")
-print(f"Script Type: {lang_info['script-type']}")
-print(f"Direction: {lang_info['direction']}")
+# Show available scripts for Serbian
+scripts = get_scripts("sr")
+print(f"Serbian scripts: {scripts}")
+
+# Load Marathi in the Latin script
+marathi_latn = get_language("mr", script="Latn")
+print(f"Script: {marathi_latn['script']}")
+print(f"First letters: {marathi_latn['alphabetical'][:5]}")
 ```
 
 #### Node.js
 
 ```javascript
-const { getIndexData, getLanguage } = require('worldalphabets');
+const { getIndexData, getLanguage, getScripts } = require('worldalphabets');
 
 async function main() {
   // Get the entire index
   const index = await getIndexData();
   console.log(`Index contains ${index.length} languages.`);
 
-  // Get information for a specific language
-  const langInfo = await getLanguage('he');
-  console.log(`Language: ${langInfo['language-name']}`);
-  console.log(`Script Type: ${langInfo['script-type']}`);
-  console.log(`Direction: ${langInfo['direction']}`);
+  // Show available scripts for Serbian
+  const scripts = await getScripts('sr');
+  console.log(`Serbian scripts: ${scripts}`);
+
+  // Load Marathi in the Latin script
+  const marathiLatn = await getLanguage('mr', 'Latn');
+  console.log(`Script: ${marathiLatn.script}`);
+  console.log(`First letters: ${marathiLatn.alphabetical.slice(0, 5)}`);
 }
 
 main();
@@ -290,7 +306,7 @@ uv run scripts/extract_alphabets.py
 
 The script clones the [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
 Java project and stores JSON files for every available
-alphabet under `data/alphabets/`, named by ISO language code. If no sample text
+alphabet under `data/alphabets/`, named by ISO language code and script. If no sample text
 is available, frequency values default to zero and the language is recorded in
 `data/todo_languages.csv` for follow-up.
 
@@ -319,7 +335,7 @@ Derive an alphabet from an ICU locale's exemplar character set:
 uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
 ```
 
-The script writes `data/alphabets/<code>.json`, using the locale's standard
+The script writes `data/alphabets/<code>-<script>.json`, using the locale's standard
 exemplar set for the base letters and populating frequency values from the
 Simia unigrams dataset when available. Locales without exemplar data are
 skipped. Exemplar entries spanning multiple code points are normalized and
@@ -334,7 +350,7 @@ uv run scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
   --block <Unicode block>
 ```
 
-The script writes `data/alphabets/<code>.json`. To list missing codes:
+The script writes `data/alphabets/<code>-<script>.json`. To list missing codes:
 
 ```bash
 uv run scripts/missing_unigram_languages.py
@@ -351,6 +367,25 @@ uv run scripts/generate_missing_alphabets.py --limit 10
 
 Omit `--limit` to process all missing languages. Each file is written under
 `data/alphabets/` and combines ICU exemplar characters with Simia frequencies.
+
+**Split alphabets by script**
+
+After adding `scripts` arrays to `data/index.json`, legacy `data/alphabets/<code>.json`
+files are renamed to `<code>-<script>.json` according to their `scripts` entry:
+
+```bash
+uv run scripts/split_alphabets_by_script.py
+```
+
+The script updates both the repository `data/` directory and the packaged data
+under `src/worldalphabets/data/`. If all relevant alphabets have already been
+split, it will report `No legacy alphabet files to split.`
+
+To refresh keyboard layout references after restructuring, run:
+
+```bash
+uv run src/scripts/populate_layouts.py
+```
 
 ### Linting and type checking
 
