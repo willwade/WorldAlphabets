@@ -12,7 +12,14 @@ onMounted(async () => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
-    languages.value = await response.json();
+    const data = await response.json();
+    languages.value = data.sort((a, b) =>
+      a['language-name'].localeCompare(
+        b['language-name'],
+        undefined,
+        { sensitivity: 'base' },
+      ),
+    );
   } catch (error) {
     console.error('Failed to fetch languages:', error);
   }
