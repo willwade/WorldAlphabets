@@ -322,7 +322,8 @@ uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
 The script writes `data/alphabets/<code>.json`, using the locale's standard
 exemplar set for the base letters and populating frequency values from the
 Simia unigrams dataset when available. Locales without exemplar data are
-skipped.
+skipped. Exemplar entries spanning multiple code points are normalized and
+ignored if they can't be represented as a single character.
 
 **Generate alphabets from unigrams**
 

@@ -91,11 +91,11 @@ def generate_alphabet(
         "index": ULocaleDataExemplarSetType.ES_INDEX,
         "auxiliary": ULocaleDataExemplarSetType.ES_AUXILIARY,
     }.get(set_type, ULocaleDataExemplarSetType.ES_STANDARD)
-    letters = {
-        ch
-        for ch in ld.getExemplarSet(exemplar_type)
-        if unicodedata.category(ch).startswith("L")
-    }
+    letters: set[str] = set()
+    for token in ld.getExemplarSet(exemplar_type):
+        ch = unicodedata.normalize("NFC", token)
+        if len(ch) == 1 and unicodedata.category(ch).startswith("L"):
+            letters.add(ch)
     if locale != "en" and letters == LATIN_LOWER:
         raise ValueError(f"No exemplar data for locale '{locale}'")
 
