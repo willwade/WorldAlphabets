@@ -1,6 +1,6 @@
 import json
 from importlib.resources import files
-from typing import Optional
+from typing import List, Optional
 
 INDEX_FILE = files("worldalphabets") / "data" / "index.json"
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
@@ -51,3 +51,16 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
         return None
 
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def get_scripts(lang_code: str) -> List[str]:
+    """Return available script codes for ``lang_code``."""
+
+    entry = next(
+        (item for item in get_index_data() if item["language"] == lang_code),
+        None,
+    )
+    if entry is None:
+        return []
+    scripts = entry.get("scripts")
+    return scripts if scripts else []

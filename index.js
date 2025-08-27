@@ -116,6 +116,17 @@ async function getLanguage(langCode, script) {
   }
 }
 
+/**
+ * Lists available scripts for a language.
+ * @param {string} langCode - The ISO 639-1 language code.
+ * @returns {Promise<string[]>} A promise that resolves to an array of script codes.
+ */
+async function getScripts(langCode) {
+  const data = await getIndexData();
+  const entry = data.find((item) => item.language === langCode);
+  return entry && entry.scripts ? entry.scripts : [];
+}
+
 const keyboards = require('./keyboards');
 
 module.exports = {
@@ -127,6 +138,7 @@ module.exports = {
   getAvailableCodes,
   getIndexData,
   getLanguage,
+  getScripts,
   // Keyboards
   ...keyboards,
 };

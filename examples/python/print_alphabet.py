@@ -8,9 +8,11 @@ from worldalphabets import load_alphabet
 
 def main() -> None:
     code = sys.argv[1] if len(sys.argv) > 1 else "en"
-    alphabet = load_alphabet(code)
-    print(f"{code} uppercase: {' '.join(alphabet.uppercase)}")
-    print(f"{code} lowercase: {' '.join(alphabet.lowercase)}")
+    script = sys.argv[2] if len(sys.argv) > 2 else None
+    alphabet = load_alphabet(code, script=script)
+    label = f"{code}-{script}" if script else code
+    print(f"{label} uppercase: {' '.join(alphabet.uppercase)}")
+    print(f"{label} lowercase: {' '.join(alphabet.lowercase)}")
 
 
 if __name__ == "__main__":
