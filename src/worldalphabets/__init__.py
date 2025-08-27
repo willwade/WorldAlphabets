@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from importlib.resources import files
 from typing import Dict, List
 
-from .helpers import get_index_data, get_language
+from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import get_available_layouts, load_keyboard
 from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
 
@@ -48,6 +48,7 @@ __all__ = [
     "get_available_codes",
     "get_index_data",
     "get_language",
+    "get_scripts",
     # Keyboards
     "load_keyboard",
     "get_available_layouts",
