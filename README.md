@@ -237,6 +237,9 @@ process only those, or add `--all` to recompute every language.
 
 Each JSON file includes:
 
+- `language` – English language name
+- `iso639_3` – ISO 639-3 code
+- `iso639_1` – ISO 639-1 code when available
 - `alphabetical` – letters of the alphabet (uppercase when the script has
   case)
 - `uppercase` – uppercase letters
@@ -248,10 +251,13 @@ Example JSON snippet:
 
 ```json
 {
-  "alphabetical": ["A", "B", ],
-  "uppercase": ["A", "B", ],
-  "lowercase": ["a", "b",],
-  "frequency": {"a": 0.084, "b": 0.0208, ]
+  "language": "English",
+  "iso639_3": "eng",
+  "iso639_1": "en",
+  "alphabetical": ["A", "B"],
+  "uppercase": ["A", "B"],
+  "lowercase": ["a", "b"],
+  "frequency": {"a": 0.084, "b": 0.0208}
 }
 ```
 
@@ -297,6 +303,14 @@ uv run scripts/update_frequencies.py
 This script downloads the `unigrams.zip` archive and rewrites each alphabet's
 frequency mapping using the published counts.
 
+**Add ISO language codes**
+
+```bash
+uv run scripts/add_iso_codes.py
+```
+
+Adds English language names and ISO 639 codes to each alphabet JSON.
+
 **Generate alphabets from locale data**
 
 Derive an alphabet from an ICU locale's exemplar character set:
@@ -308,7 +322,8 @@ uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
 The script writes `data/alphabets/<code>.json`, using the locale's standard
 exemplar set for the base letters and populating frequency values from the
 Simia unigrams dataset when available. Locales without exemplar data are
-skipped.
+skipped. Exemplar entries spanning multiple code points are normalized and
+ignored if they can't be represented as a single character.
 
 **Generate alphabets from unigrams**
 
