@@ -72,10 +72,18 @@ def generate_alphabet(
     lang = langcodes.get(code)
     letters = {
         ch
-        for ch in counts
-        if unicodedata.category(ch).startswith("L")
+        for ch, cnt in counts.items()
+        if cnt > 0
+        and unicodedata.category(ch).startswith("L")
         and (block is None or block.upper() in unicodedata.name(ch, ""))
     }
+    total = sum(counts[ch] for ch in letters)
+    freq = {
+        ch: round(counts[ch] / total, 4)
+        for ch in letters
+        if round(counts[ch] / total, 4) > 0
+    }
+    letters = set(freq)
     upper = {ch for ch in letters if ch.upper() != ch.lower() and ch == ch.upper()}
     lower = {ch for ch in letters if ch.upper() != ch.lower() and ch == ch.lower()}
     if not upper and not lower:
@@ -87,8 +95,7 @@ def generate_alphabet(
         alphabetical = _sort_letters({ch.upper() for ch in letters}, locale)
         upper = set(alphabetical)
         lower = {ch.lower() for ch in upper}
-    total = sum(counts[ch] for ch in letters)
-    freq = {ch: round(counts.get(ch, 0) / total, 4) for ch in lower}
+    freq = {ch: freq[ch] for ch in lower}
     data = {
         "language": lang.language_name(),
         "iso639_3": lang.to_alpha3(),
