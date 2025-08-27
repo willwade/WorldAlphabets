@@ -38,10 +38,7 @@ def load_alphabet(code: str, script: str | None = None) -> Alphabet:
 
 def get_available_codes() -> List[str]:
     """Return sorted language codes with available alphabets."""
-
-    return sorted(
-        p.name.replace(".json", "") for p in ALPHABET_DIR.iterdir() if p.name.endswith(".json")
-    )
+    return sorted(item["language"] for item in get_index_data())
 
 
 __all__ = [

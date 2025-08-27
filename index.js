@@ -11,6 +11,17 @@ const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
  */
 async function loadAlphabet(code, script) {
   const candidates = [];
+  if (!script) {
+    try {
+      const data = await getIndexData();
+      const entry = data.find((item) => item.language === code);
+      if (entry && entry.scripts && entry.scripts.length > 0) {
+        script = entry.scripts[0];
+      }
+    } catch (_) {
+      /* ignore */
+    }
+  }
   if (script) {
     candidates.push(path.join(DATA_DIR, `${code}-${script}.json`));
   }
@@ -64,11 +75,8 @@ async function getFrequency(code, script) {
  * @returns {Promise<string[]>} A promise that resolves to an array of alphabet codes.
  */
 async function getAvailableCodes() {
-  const files = await fs.readdir(DATA_DIR);
-  return files
-    .filter((file) => file.endsWith('.json'))
-    .map((file) => file.replace('.json', ''))
-    .sort();
+  const data = await getIndexData();
+  return data.map((item) => item.language).sort();
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');

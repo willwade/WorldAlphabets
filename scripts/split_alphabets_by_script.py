@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Split legacy alphabet files into language-script pairs.
 
-This utility reads ``data/index.json`` and, for any language entry with more
-than one script, copies the legacy ``<code>.json`` alphabet into
+This utility reads ``data/index.json`` and, for each language entry with a
+``scripts`` array, renames the legacy ``<code>.json`` alphabet into
 ``<code>-<script>.json`` files.  Each generated file includes a ``script``
 field.  Both the public ``data`` directory and the packaged
 ``src/worldalphabets/data`` directory are updated.
@@ -28,19 +28,18 @@ def _split_for_dir(alpha_dir: Path, index_data: List[Dict[str, Any]]) -> bool:
     for entry in index_data:
         code = entry.get("language")
         scripts = entry.get("scripts")
-        if not code or not scripts or len(scripts) <= 1:
+        if not code or not scripts:
             continue
 
         legacy_path = alpha_dir / f"{code}.json"
-        if not legacy_path.exists():
-            continue
-
-        with legacy_path.open("r", encoding="utf-8") as f:
-            alphabet = json.load(f)
+        alphabet: Dict[str, Any] | None = None
+        if legacy_path.exists():
+            with legacy_path.open("r", encoding="utf-8") as f:
+                alphabet = json.load(f)
 
         for script in scripts:
             target = alpha_dir / f"{code}-{script}.json"
-            if target.exists():
+            if target.exists() or alphabet is None:
                 continue
 
             data = dict(alphabet)
@@ -52,9 +51,10 @@ def _split_for_dir(alpha_dir: Path, index_data: List[Dict[str, Any]]) -> bool:
             print(f"Wrote {target.relative_to(REPO_ROOT)}")
             changed = True
 
-        legacy_path.unlink()
-        print(f"Removed {legacy_path.relative_to(REPO_ROOT)}")
-        changed = True
+        if alphabet is not None:
+            legacy_path.unlink()
+            print(f"Removed {legacy_path.relative_to(REPO_ROOT)}")
+            changed = True
 
     return changed
 

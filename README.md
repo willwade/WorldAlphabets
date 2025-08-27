@@ -353,7 +353,7 @@ Omit `--limit` to process all missing languages. Each file is written under
 **Split alphabets by script**
 
 After adding `scripts` arrays to `data/index.json`, legacy `data/alphabets/<code>.json`
-files can be split into `<code>-<script>.json` pairs:
+files are renamed to `<code>-<script>.json` according to their `scripts` entry:
 
 ```bash
 uv run scripts/split_alphabets_by_script.py
