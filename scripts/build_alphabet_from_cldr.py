@@ -78,8 +78,8 @@ USER_AGENT = (
 
 
 def _fetch_available_locales() -> Set[str]:
-    """Return locales present in the CLDR misc dataset."""
-    url = f"{CLDR_BASE}/cldr-misc-full/availableLocales.json"
+    """Return locales present in the CLDR core dataset."""
+    url = f"{CLDR_BASE}/cldr-core/availableLocales.json"
     resp = requests.get(url, timeout=30)
     resp.raise_for_status()
     data = resp.json()["availableLocales"]["full"]
