@@ -316,7 +316,7 @@ uv run scripts/build_alphabet_from_cldr.py --manifest data/language_scripts.json
 Each file is written to `data/alphabets/<language>-<script>.json` and combines
 CLDR exemplar characters with letter frequencies, preferring the Simia unigrams
 dataset when available and otherwise falling back to OpenSubtitles word
-frequencies.
+frequencies. Locales missing from the CLDR dataset are skipped automatically.
 
 We verified the importer on English, Spanish, Russian, Arabic, Hindi, Kurdish
 (Latin and Arabic scripts), and Greek. The generated alphabets matched or

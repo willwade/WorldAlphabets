@@ -12,7 +12,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional
+from typing import Dict, Iterable, List, Optional, Set
 from urllib.error import HTTPError
 
 import langcodes
@@ -75,6 +75,15 @@ CLDR_BASE = (
 USER_AGENT = (
     "WorldAlphabets frequency bot (https://github.com/nmslib/WorldAlphabets)"
 )
+
+
+def _fetch_available_locales() -> Set[str]:
+    """Return locales present in the CLDR misc dataset."""
+    url = f"{CLDR_BASE}/cldr-misc-full/availableLocales.json"
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+    data = resp.json()["availableLocales"]["full"]
+    return set(data)
 
 
 def _wiki_subdomain(code: str) -> str:
@@ -156,6 +165,8 @@ def build_alphabet(language: str, script: str) -> None:
         locale = language
         url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
         resp = requests.get(url, timeout=30)
+    if resp.status_code == 404:
+        raise ValueError(f"No CLDR data for {language}-{script}")
     resp.raise_for_status()
     data = resp.json()["main"][locale]["characters"]
     exemplar = data["exemplarCharacters"]
@@ -229,8 +240,13 @@ def main() -> None:
     args = parser.parse_args()
     if args.manifest:
         mapping = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
+        available = _fetch_available_locales()
         for lang, scripts in mapping.items():
             for sc in scripts:
+                locale = f"{lang}-{sc}"
+                if locale not in available and lang not in available:
+                    print(f"No CLDR data for {locale}, skipping")
+                    continue
                 try:
                     build_alphabet(lang, sc)
                 except Exception as exc:  # pragma: no cover - diagnostic output
