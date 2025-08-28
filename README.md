@@ -229,27 +229,13 @@ keyboard layouts, see the [Alphabet Table](table.md).
 
 ## Developer Guide
 
-This project uses the
-[kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) Java repository as
-the source for alphabet data. A helper script clones the repository, scans all
-`*Alphabet.java` files, downloads a sample Wikipedia article for supported
-languages, and writes JSON files containing the alphabet and estimated letter
-frequencies. A second utility can replace those estimates with corpus
-frequencies from the [Simia unigrams dataset](http://simia.net/letters/).
-Another helper script, `generate_frequency_from_text.py`, fetches random
-Wikipedia articles—retrying until the sample has at least 2,000 characters—to
-approximate frequencies for languages missing corpus statistics. Sample text
-and alphabet letters are normalized with Unicode NFKC, and duplicate letters are
-collapsed so presentation forms share counts with their base characters.
-Requests use a descriptive User-Agent and language codes are normalized with
-`langcodes` before building the Wikipedia URL. It skips languages without a
-corresponding Wikipedia edition and backs off when rate-limited. The script can
-also query the Google Books Ngram API with `--source gbooks`, normalizing
-letters with Unicode NFKC to match corpus representations and skipping
-languages without a corpus, or consume OpenSubtitles word frequency lists with
-`--source opensubtitles`. Run `uv run scripts/generate_frequency_from_text.py`
-to update languages missing frequency data, pass specific language codes to
-process only those, or add `--all` to recompute every language.
+Older versions of this project relied on a Java repository and assorted helper
+scripts to scrape alphabets and estimate letter frequencies. Those utilities
+have been deprecated in favor of a cleaner pipeline based on Unicode CLDR and
+Wikidata. The remaining scripts focus on fetching language–script mappings and
+building alphabet JSON files directly from CLDR exemplar characters, enriching
+them with frequency counts from the Simia dataset or OpenSubtitles when
+available.
 
 Each JSON file includes:
 
@@ -296,29 +282,6 @@ uv pip install -e '.[dev]'
 
 ### Data Generation
 
-I would say this dataset has been made iteratively from multiple sources. Building the whole thing from scratch we wouldn't of done it like this.. 
-
-**Extract alphabets**
-
-```bash
-uv run scripts/extract_alphabets.py
-```
-
-The script clones the [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
-Java project and stores JSON files for every available
-alphabet under `data/alphabets/`, named by ISO language code and script. If no sample text
-is available, frequency values default to zero and the language is recorded in
-`data/todo_languages.csv` for follow-up.
-
-**Update letter frequencies**
-
-```bash
-uv run scripts/update_frequencies.py
-```
-
-This script downloads the `unigrams.zip` archive and rewrites each alphabet's
-frequency mapping using the published counts.
-
 **Add ISO language codes**
 
 ```bash
@@ -327,59 +290,39 @@ uv run scripts/add_iso_codes.py
 
 Adds English language names and ISO 639 codes to each alphabet JSON.
 
-**Generate alphabets from locale data**
-
-Derive an alphabet from an ICU locale's exemplar character set:
+**Fetch language-script mappings**
 
 ```bash
-uv run scripts/generate_alphabet_from_locale.py <code> --locale <locale>
+uv run scripts/fetch_language_scripts.py
 ```
 
-The script writes `data/alphabets/<code>-<script>.json`, using the locale's standard
-exemplar set for the base letters and populating frequency values from the
-Simia unigrams dataset when available. Locales without exemplar data are
-skipped. Exemplar entries spanning multiple code points are normalized and
-ignored if they can't be represented as a single character.
+Queries Wikidata for the scripts used by each language and writes
+`data/language_scripts.json` mapping ISO codes to ISO 15924 script codes.
 
-**Generate alphabets from unigrams**
+**Build alphabets from CLDR**
 
-For languages present in the Simia dataset but missing here:
+Generate alphabet files from CLDR exemplar character data:
 
 ```bash
-uv run scripts/generate_alphabet_from_unigrams.py <code> --locale <locale> \
-  --block <Unicode block>
+uv run scripts/build_alphabet_from_cldr.py <language> <script>
 ```
 
-The script writes `data/alphabets/<code>-<script>.json`. To list missing codes:
+To build alphabets for every language-script pair in the mapping file:
 
 ```bash
-uv run scripts/missing_unigram_languages.py
+uv run scripts/build_alphabet_from_cldr.py --manifest data/language_scripts.json
 ```
 
-**Generate missing alphabets**
+Each file is written to `data/alphabets/<language>-<script>.json` and combines
+CLDR exemplar characters with letter frequencies, preferring the Simia unigrams
+dataset when available and otherwise falling back to OpenSubtitles word
+frequencies.
 
-Create alphabet files for every language in the Simia unigrams dataset that
-does not yet have one:
-
-```bash
-uv run scripts/generate_missing_alphabets.py --limit 10
-```
-
-Omit `--limit` to process all missing languages. Each file is written under
-`data/alphabets/` and combines ICU exemplar characters with Simia frequencies.
-
-**Split alphabets by script**
-
-After adding `scripts` arrays to `data/index.json`, legacy `data/alphabets/<code>.json`
-files are renamed to `<code>-<script>.json` according to their `scripts` entry:
-
-```bash
-uv run scripts/split_alphabets_by_script.py
-```
-
-The script updates both the repository `data/` directory and the packaged data
-under `src/worldalphabets/data/`. If all relevant alphabets have already been
-split, it will report `No legacy alphabet files to split.`
+We verified the importer on English, Spanish, Russian, Arabic, Hindi, Kurdish
+(Latin and Arabic scripts), and Greek. The generated alphabets matched or
+improved on existing data—Spanish gained accented vowels and Arabic shed
+contextual forms—so this CLDR-based pipeline is now the recommended way to
+refresh alphabet JSON files.
 
 **Generate translations**
 
