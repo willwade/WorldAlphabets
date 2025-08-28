@@ -162,6 +162,9 @@ def build_alphabet(language: str, script: str) -> None:
     url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
     resp = requests.get(url, timeout=30)
     if resp.status_code == 404:
+        default_script = langcodes.get(language).maximize().script
+        if script != default_script:
+            raise ValueError(f"No CLDR data for {language}-{script}")
         locale = language
         url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
         resp = requests.get(url, timeout=30)
@@ -242,11 +245,13 @@ def main() -> None:
         mapping = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
         available = _fetch_available_locales()
         for lang, scripts in mapping.items():
+            default_script = langcodes.get(lang).maximize().script
             for sc in scripts:
                 locale = f"{lang}-{sc}"
-                if locale not in available and lang not in available:
-                    print(f"No CLDR data for {locale}, skipping")
-                    continue
+                if locale not in available:
+                    if lang not in available or sc != default_script:
+                        print(f"No CLDR data for {locale}, skipping")
+                        continue
                 try:
                     build_alphabet(lang, sc)
                 except Exception as exc:  # pragma: no cover - diagnostic output
