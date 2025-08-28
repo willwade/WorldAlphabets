@@ -10,13 +10,17 @@ from typing import Dict, Set
 import requests
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
+# Restrict results to items that are instances of (or subclasses of) `language`
+# to avoid pulling in every entity with a `script used` (P282) property.
 SPARQL_QUERY = """
-SELECT ?iso1 ?iso3 ?scriptCode WHERE {
-  ?lang wdt:P282 ?script .
+SELECT DISTINCT ?iso1 ?iso3 ?scriptCode WHERE {
+  ?lang wdt:P31/wdt:P279* wd:Q34770 ;
+        wdt:P282 ?script .
   OPTIONAL { ?lang wdt:P218 ?iso1. }
   OPTIONAL { ?lang wdt:P220 ?iso3. }
   OPTIONAL { ?script wdt:P506 ?scriptCode. }
 }
+LIMIT 10000
 """
 
 
@@ -29,8 +33,13 @@ def fetch_mappings() -> Dict[str, Set[str]]:
         timeout=30,
     )
     resp.raise_for_status()
+    try:
+        data = resp.json()
+    except json.JSONDecodeError as exc:  # pragma: no cover - network failure
+        msg = "Wikidata returned invalid JSON. Try rerunning the query later."
+        raise RuntimeError(msg) from exc
     mapping: Dict[str, Set[str]] = {}
-    for row in resp.json()["results"]["bindings"]:
+    for row in data["results"]["bindings"]:
         code = row.get("iso1", {}).get("value") or row.get("iso3", {}).get("value")
         script = row.get("scriptCode", {}).get("value")
         if not code or not script:
