@@ -178,24 +178,27 @@ def build_alphabet(language: str, script: str) -> None:
         raise ValueError(f"No exemplar data for {locale}")
     has_case = any(ch.lower() != ch.upper() for ch in letters)
     if has_case:
-        upper = {ch.upper() for ch in letters}
-        lower = {ch.lower() for ch in upper}
+        lower = {unicodedata.normalize("NFC", ch.lower()) for ch in letters}
+        upper_map = {
+            ch: unicodedata.normalize("NFC", ch.upper()) for ch in lower
+        }
     else:
-        upper = lower = letters
+        lower = letters
+        upper_map = {ch: ch for ch in lower}
+
     index = data.get("index")
     if index:
         order = {ch: i for i, ch in enumerate(_parse_exemplars(index))}
 
         def sort_key(ch: str) -> tuple[int, str]:
-            return (order.get(ch, len(order)), ch)
+            return (order.get(ch.upper(), len(order)), ch)
 
-        upper_sorted = sorted(upper, key=sort_key)
         lower_sorted = sorted(lower, key=sort_key)
-        alphabetical = upper_sorted
     else:
-        upper_sorted = _sort_letters(upper, locale)
         lower_sorted = _sort_letters(lower, locale)
-        alphabetical = upper_sorted
+
+    upper_sorted = [upper_map[ch] for ch in lower_sorted]
+    alphabetical = upper_sorted
     _download_unigrams()
     counts = _load_counts(language)
     total = sum(counts.get(ch, 0) for ch in lower_sorted)
