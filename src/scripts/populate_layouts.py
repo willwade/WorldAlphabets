@@ -84,10 +84,14 @@ def main() -> None:
             if "keyboards" not in entry:
                 entry["keyboards"] = []
 
-    # Create a lookup for language name to its entry in index_data
-    lang_name_to_entry: Dict[str, Dict[str, Any]] = {
-        entry["name"]: entry for entry in index_data
-    }
+    # Create a lookup for language name to its entries in index_data
+    # Use a list since multiple entries can have the same name (different scripts)
+    lang_name_to_entries: Dict[str, List[Dict[str, Any]]] = {}
+    for entry in index_data:
+        name = entry["name"]
+        if name not in lang_name_to_entries:
+            lang_name_to_entries[name] = []
+        lang_name_to_entries[name].append(entry)
 
     layout_to_driver: Dict[str, str] = {}
 
@@ -101,18 +105,18 @@ def main() -> None:
         # Handle special cases
         lang_name = LANGUAGE_NAME_MAPPING.get(lang_name, lang_name)
 
-        if lang_name in lang_name_to_entry:
-            # Add layout_id to the keyboards list
-            lang_entry = lang_name_to_entry[lang_name]
-            if "keyboards" not in lang_entry:
-                lang_entry["keyboards"] = []
+        if lang_name in lang_name_to_entries:
+            # Add layout_id to all entries with this language name
+            for lang_entry in lang_name_to_entries[lang_name]:
+                if "keyboards" not in lang_entry:
+                    lang_entry["keyboards"] = []
 
-            # Skip if already has keyboards and skip_existing is True
-            if args.skip_existing and lang_entry["keyboards"]:
-                continue
+                # Skip if already has keyboards and skip_existing is True
+                if args.skip_existing and lang_entry["keyboards"]:
+                    continue
 
-            if layout_id not in lang_entry["keyboards"]:
-                lang_entry["keyboards"].append(layout_id)
+                if layout_id not in lang_entry["keyboards"]:
+                    lang_entry["keyboards"].append(layout_id)
 
             # Get the driver name
             href = layout_info.get("href")
