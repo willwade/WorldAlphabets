@@ -9,7 +9,6 @@ This script runs the complete data collection pipeline:
 5. Run validation tests
 """
 import argparse
-import json
 import subprocess
 import sys
 from pathlib import Path

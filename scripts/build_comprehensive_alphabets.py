@@ -16,7 +16,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional
 from urllib.error import HTTPError
 
 import langcodes

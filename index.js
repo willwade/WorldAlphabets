@@ -14,9 +14,10 @@ async function loadAlphabet(code, script) {
   if (!script) {
     try {
       const data = await getIndexData();
-      const entry = data.find((item) => item.language === code);
-      if (entry && entry.scripts && entry.scripts.length > 0) {
-        script = entry.scripts[0];
+      const entries = data.filter((item) => item.language === code);
+      if (entries.length > 0) {
+        // Use the first available script as default
+        script = entries[0].script;
       }
     } catch (_) {
       /* ignore */
