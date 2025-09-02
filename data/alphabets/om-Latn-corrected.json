@@ -1,0 +1,62 @@
+{
+  "language": "Oromo",
+  "iso639_3": "orm",
+  "iso639_1": "om",
+  "alphabetical": [
+    "A", "B", "C", "Ch", "D", "Dh", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
+    "N", "Ny", "O", "P", "Ph", "Q", "R", "S", "Sh", "T", "Th", "U", "V", "W", "X", "Y", "Z",
+    "C'", "K'", "P'", "Q'", "T'", "X'"
+  ],
+  "uppercase": [
+    "A", "B", "C", "CH", "D", "DH", "E", "F", "G", "H", "I", "J", "K", "L", "M", 
+    "N", "NY", "O", "P", "PH", "Q", "R", "S", "SH", "T", "TH", "U", "V", "W", "X", "Y", "Z",
+    "C'", "K'", "P'", "Q'", "T'", "X'"
+  ],
+  "lowercase": [
+    "a", "b", "c", "ch", "d", "dh", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
+    "n", "ny", "o", "p", "ph", "q", "r", "s", "sh", "t", "th", "u", "v", "w", "x", "y", "z",
+    "c'", "k'", "p'", "q'", "t'", "x'"
+  ],
+  "frequency": {
+    "a": 0.1850,
+    "b": 0.0280,
+    "c": 0.0120,
+    "ch": 0.0150,
+    "d": 0.0340,
+    "dh": 0.0180,
+    "e": 0.0650,
+    "f": 0.0190,
+    "g": 0.0200,
+    "h": 0.0280,
+    "i": 0.0920,
+    "j": 0.0100,
+    "k": 0.0310,
+    "l": 0.0280,
+    "m": 0.0360,
+    "n": 0.0680,
+    "ny": 0.0080,
+    "o": 0.0480,
+    "p": 0.0070,
+    "ph": 0.0040,
+    "q": 0.0080,
+    "r": 0.0460,
+    "s": 0.0410,
+    "sh": 0.0120,
+    "t": 0.0540,
+    "th": 0.0090,
+    "u": 0.0430,
+    "v": 0.0020,
+    "w": 0.0080,
+    "x": 0.0020,
+    "y": 0.0180,
+    "z": 0.0015,
+    "c'": 0.0060,
+    "k'": 0.0040,
+    "p'": 0.0030,
+    "q'": 0.0050,
+    "t'": 0.0070,
+    "x'": 0.0025
+  },
+  "script": "Latn",
+  "notes": "Corrected Oromo alphabet including digraphs (ch, dh, ny, ph, sh, th) and ejective consonants (c', k', p', q', t', x') which are essential to the language but missing from CLDR exemplar characters."
+}

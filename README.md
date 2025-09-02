@@ -22,6 +22,7 @@ print("Loaded", len(codes), "alphabets")
 
 alphabet = load_alphabet("en")  # defaults to first script (Latn)
 print("English uppercase:", alphabet.uppercase[:5])
+print("English digits:", alphabet.digits)
 
 scripts = get_scripts("mr")
 print("Marathi scripts:", scripts)
@@ -29,6 +30,10 @@ print("Marathi scripts:", scripts)
 alphabet_mr = load_alphabet("mr", script=scripts[0])
 print("Marathi uppercase:", alphabet_mr.uppercase[:5])
 print("Marathi frequency for 'a':", alphabet_mr.frequency["a"])
+
+# Example with Arabic digits
+alphabet_ar = load_alphabet("ar", "Arab")
+print("Arabic digits:", alphabet_ar.digits)
 ```
 
 ### Node.js
@@ -48,6 +53,7 @@ const {
   getUppercase,
   getLowercase,
   getFrequency,
+  getDigits,
   getAvailableCodes,
   getScripts,
 } = require('worldalphabets');
@@ -67,6 +73,9 @@ async function main() {
 
   const frequencyDe = await getFrequency('de');
   console.log('German frequency for "a":', frequencyDe['a']);
+
+  const digitsAr = await getDigits('ar', 'Arab');
+  console.log('Arabic digits:', digitsAr);
 }
 
 main();
@@ -334,10 +343,24 @@ script iterates over every language and script combination, writing a
 GOOGLE_TRANS_KEY=<key> uv run scripts/generate_translations.py
 ```
 
+To skip languages that already have translations:
+
+```bash
+GOOGLE_TRANS_KEY=<key> uv run scripts/generate_translations.py --skip-existing
+```
+
+**Populate keyboard layouts**
+
 To refresh keyboard layout references after restructuring, run:
 
 ```bash
 uv run src/scripts/populate_layouts.py
+```
+
+To skip languages that already have keyboard data:
+
+```bash
+uv run src/scripts/populate_layouts.py --skip-existing
 ```
 
 ### Linting and type checking

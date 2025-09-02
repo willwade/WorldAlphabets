@@ -5,6 +5,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 
 dependencies = [
+    "beautifulsoup4>=4.13.5",
     "pydantic>=2.0.0",
 ]
 
@@ -22,9 +23,13 @@ dev = [
     "types-requests",
     "types-beautifulsoup4",
     "py3-tts-wrapper[google,watson,polly,microsoft,elevenlabs,witai,sherpaonnx,openai]",
+    "PyICU>=2.11",
 ]
 
 [project.scripts]
+wa-build-alphabets = "scripts.build_alphabet_from_cldr:main"
+wa-create-index = "scripts.create_index:main"
+wa-generate-audio = "scripts.generate_audio:main"
 wa-populate-layouts = "scripts.populate_layouts:main"
 wa-build-layouts = "tools.build_layouts:main"
 wa-validate-layouts = "tools.validate_layouts:main"

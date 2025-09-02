@@ -51,6 +51,17 @@ def main() -> None:
     """
     Populates index.json with keyboard layouts and generates a driver mapping.
     """
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Populate index.json with keyboard layouts and generate driver mapping"
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip languages that already have keyboard layouts"
+    )
+    args = parser.parse_args()
     data_root = Path("data")
     index_path = data_root / "index.json"
     kbdlayouts_path = data_root / "kbdlayouts.json"
@@ -62,14 +73,20 @@ def main() -> None:
     with open(kbdlayouts_path, "r", encoding="utf-8") as f:
         kbdlayouts_data: Dict[str, Any] = json.load(f)
 
-    # Clear existing keyboard lists
-    for entry in index_data:
-        if "keyboards" in entry:
-            entry["keyboards"] = []
+    # Clear existing keyboard lists (unless skipping existing)
+    if not args.skip_existing:
+        for entry in index_data:
+            if "keyboards" in entry:
+                entry["keyboards"] = []
+    else:
+        # Initialize empty keyboards lists for entries that don't have them
+        for entry in index_data:
+            if "keyboards" not in entry:
+                entry["keyboards"] = []
 
     # Create a lookup for language name to its entry in index_data
     lang_name_to_entry: Dict[str, Dict[str, Any]] = {
-        entry["language-name"]: entry for entry in index_data
+        entry["name"]: entry for entry in index_data
     }
 
     layout_to_driver: Dict[str, str] = {}
@@ -89,6 +106,11 @@ def main() -> None:
             lang_entry = lang_name_to_entry[lang_name]
             if "keyboards" not in lang_entry:
                 lang_entry["keyboards"] = []
+
+            # Skip if already has keyboards and skip_existing is True
+            if args.skip_existing and lang_entry["keyboards"]:
+                continue
+
             if layout_id not in lang_entry["keyboards"]:
                 lang_entry["keyboards"].append(layout_id)
 

@@ -3,6 +3,7 @@ import os
 import json
 import time
 import html
+import argparse
 from typing import Dict, Any, Iterable, List, Optional, Set
 import requests
 from pathlib import Path
@@ -114,7 +115,7 @@ def translate_once(api_key: str, text: str, target: str) -> str:
     return html.unescape(data["data"]["translations"][0]["translatedText"])
 
 
-def generate_translations() -> None:
+def generate_translations(skip_existing: bool = False) -> None:
     api_key = os.environ.get("GOOGLE_TRANS_KEY")
     if not api_key:
         print("Error: GOOGLE_TRANS_KEY environment variable not set.")
@@ -185,6 +186,12 @@ def generate_translations() -> None:
                         base_obj = json.load(f)
                     if not isinstance(base_obj, dict):
                         raise ValueError("Top-level JSON must be an object")
+
+                    # Skip if translation already exists and skip_existing is True
+                    if skip_existing and FIELD_NAME in base_obj:
+                        print("skipped (already has translation)")
+                        continue
+
                 except Exception as e:
                     print(f"failed to read: {e}")
                     continue
@@ -225,4 +232,14 @@ def generate_translations() -> None:
 
 
 if __name__ == "__main__":
-    generate_translations()
+    parser = argparse.ArgumentParser(
+        description="Generate translations for alphabet files using Google Translate API"
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip languages that already have translations"
+    )
+    args = parser.parse_args()
+
+    generate_translations(skip_existing=args.skip_existing)

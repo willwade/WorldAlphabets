@@ -71,6 +71,17 @@ async function getFrequency(code, script) {
 }
 
 /**
+ * Gets the digits for a given language code.
+ * @param {string} code - The ISO 639-1 language code.
+ * @param {string} [script] - Optional ISO-15924 script code.
+ * @returns {Promise<string[]>} A promise that resolves to an array of digit characters.
+ */
+async function getDigits(code, script) {
+  const data = await loadAlphabet(code, script);
+  return data.digits || [];
+}
+
+/**
  * Gets all available alphabet codes.
  * @returns {Promise<string[]>} A promise that resolves to an array of alphabet codes.
  */
@@ -135,6 +146,7 @@ module.exports = {
   getUppercase,
   getLowercase,
   getFrequency,
+  getDigits,
   getAvailableCodes,
   getIndexData,
   getLanguage,

@@ -3,12 +3,14 @@ export interface Alphabet {
   uppercase: string[];
   lowercase: string[];
   frequency: Record<string, number>;
+  digits?: string[];
 }
 
 export function loadAlphabet(code: string, script?: string): Promise<Alphabet>;
 export function getUppercase(code: string, script?: string): Promise<string[]>;
 export function getLowercase(code: string, script?: string): Promise<string[]>;
 export function getFrequency(code: string, script?: string): Promise<Record<string, number>>;
+export function getDigits(code: string, script?: string): Promise<string[]>;
 export function getAvailableCodes(): Promise<string[]>;
 export interface IndexEntry {
   language: string;

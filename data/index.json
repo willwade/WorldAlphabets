@@ -1,1688 +1,3629 @@
 [
   {
+    "language": "aa",
+    "script": "Latn",
+    "name": "Afar",
+    "iso639_1": "aa",
+    "iso639_3": "aar",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "aa-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "ab",
-    "language-name": "Abkhazian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
-    "scripts": [
-      "Cyrl"
-    ]
+    "script": "Cyrl",
+    "name": "Abkhazian",
+    "iso639_1": "ab",
+    "iso639_3": "abk",
+    "letterCount": 40,
+    "hasFrequency": true,
+    "file": "ab-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "af",
-    "language-name": "Afrikaans",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Afrikaans",
+    "iso639_1": "af",
+    "iso639_3": "afr",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "af-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "agq",
+    "script": "Latn",
+    "name": "Aghem",
+    "iso639_3": "agq",
+    "letterCount": 48,
+    "hasFrequency": true,
+    "file": "agq-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ak",
-    "language-name": "Akan",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Akan",
+    "iso639_1": "ak",
+    "iso639_3": "aka",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "ak-Latn.json",
+    "keyboards": []
   },
   {
     "language": "am",
-    "language-name": "Amharic",
-    "frequency-avail": true,
-    "script-type": "Ethiopic",
-    "direction": "ltr",
-    "scripts": [
-      "Ethi"
-    ]
+    "script": "Ethi",
+    "name": "Amharic",
+    "iso639_1": "am",
+    "iso639_3": "amh",
+    "letterCount": 282,
+    "hasFrequency": true,
+    "file": "am-Ethi.json",
+    "keyboards": []
+  },
+  {
+    "language": "an",
+    "script": "Latn",
+    "name": "Aragonese",
+    "iso639_1": "an",
+    "iso639_3": "arg",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "an-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ar",
-    "language-name": "Arabic",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
+    "script": "Arab",
+    "name": "Arabic",
+    "iso639_1": "ar",
+    "iso639_3": "ara",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "ar-Arab.json",
     "keyboards": [
-      "00000401",
-      "00010401",
-      "00020401"
-    ],
-    "scripts": [
-      "Arab"
+      "00000401"
     ]
+  },
+  {
+    "language": "arn",
+    "script": "Latn",
+    "name": "Mapuche",
+    "iso639_3": "arn",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "arn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "as",
+    "script": "Beng",
+    "name": "Assamese",
+    "iso639_1": "as",
+    "iso639_3": "asm",
+    "letterCount": 44,
+    "hasFrequency": true,
+    "file": "as-Beng.json",
+    "keyboards": []
+  },
+  {
+    "language": "asa",
+    "script": "Latn",
+    "name": "Asu",
+    "iso639_3": "asa",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "asa-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ast",
-    "language-name": "Asturian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Asturian",
+    "iso639_3": "ast",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "ast-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ay",
-    "language-name": "Aymara",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Aymara",
+    "iso639_1": "ay",
+    "iso639_3": "aym",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "ay-Latn.json",
+    "keyboards": []
   },
   {
     "language": "az",
-    "language-name": "Azerbaijani",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Azerbaijani",
+    "iso639_1": "az",
+    "iso639_3": "aze",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "az-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "az",
+    "script": "Latn",
+    "name": "Azerbaijani",
+    "iso639_1": "az",
+    "iso639_3": "aze",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "az-Latn.json",
     "keyboards": [
-      "0000042c",
-      "0001042c"
-    ],
-    "scripts": [
-      "Latn"
+      "0000042c"
     ]
   },
   {
     "language": "ba",
-    "language-name": "Bashkir",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Bashkir",
+    "iso639_1": "ba",
+    "iso639_3": "bak",
+    "letterCount": 42,
+    "hasFrequency": true,
+    "file": "ba-Cyrl.json",
     "keyboards": [
       "0000046d"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
   },
   {
     "language": "ban",
-    "language-name": "Balinese",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Balinese",
+    "iso639_3": "ban",
+    "letterCount": 76,
+    "hasFrequency": true,
+    "file": "ban-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "bas",
+    "script": "Latn",
+    "name": "Basaa",
+    "iso639_3": "bas",
+    "letterCount": 55,
+    "hasFrequency": true,
+    "file": "bas-Latn.json",
+    "keyboards": []
   },
   {
     "language": "bax",
-    "language-name": "Bamun",
-    "frequency-avail": false,
-    "script-type": "Bamum",
-    "direction": "ltr",
-    "scripts": [
-      "Bamu"
-    ]
+    "script": "Bamu",
+    "name": "Bamun",
+    "iso639_3": "bax",
+    "letterCount": 80,
+    "hasFrequency": true,
+    "file": "bax-Bamu.json",
+    "keyboards": []
   },
   {
     "language": "be",
-    "language-name": "Belarusian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Belarusian",
+    "iso639_1": "be",
+    "iso639_3": "bel",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "be-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "be",
+    "script": "x-old",
+    "name": "Belarusian",
+    "iso639_1": "be",
+    "iso639_3": "bel",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "be-x-old.json",
     "keyboards": [
       "00000423"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
+  },
+  {
+    "language": "bem",
+    "script": "Latn",
+    "name": "Bemba",
+    "iso639_3": "bem",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "file": "bem-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "bew",
+    "script": "Latn",
+    "name": "Betawi",
+    "iso639_3": "bew",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "bew-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "bez",
+    "script": "Latn",
+    "name": "Bena",
+    "iso639_3": "bez",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "bez-Latn.json",
+    "keyboards": []
   },
   {
     "language": "bg",
-    "language-name": "Bulgarian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Bulgarian",
+    "iso639_1": "bg",
+    "iso639_3": "bul",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "bg-Cyrl.json",
     "keyboards": [
-      "00000402",
-      "00010402",
-      "00020402",
-      "00030402",
-      "00040402"
-    ],
-    "scripts": [
-      "Cyrl"
+      "00000402"
     ]
+  },
+  {
+    "language": "bgc",
+    "script": "Deva",
+    "name": "Haryanvi",
+    "iso639_3": "bgc",
+    "letterCount": 44,
+    "hasFrequency": true,
+    "file": "bgc-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "bho",
+    "script": "Deva",
+    "name": "Bhojpuri",
+    "iso639_3": "bho",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "bho-Deva.json",
+    "keyboards": []
   },
   {
     "language": "bku",
-    "language-name": "Buhid",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Buhid",
+    "iso639_3": "bku",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "file": "bku-Latn.json",
+    "keyboards": []
   },
   {
     "language": "bm",
-    "language-name": "Bambara",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Bambara",
+    "iso639_1": "bm",
+    "iso639_3": "bam",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "bm-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "bm",
+    "script": "Nkoo",
+    "name": "Bambara",
+    "iso639_1": "bm",
+    "iso639_3": "bam",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "bm-Nkoo.json",
+    "keyboards": []
   },
   {
     "language": "bn",
-    "language-name": "Bengali",
-    "frequency-avail": true,
-    "script-type": "Bangla",
-    "direction": "ltr",
-    "keyboards": [
-      "00000445"
-    ],
-    "scripts": [
-      "Beng"
-    ]
+    "script": "Beng",
+    "name": "Bangla",
+    "iso639_1": "bn",
+    "iso639_3": "ben",
+    "letterCount": 51,
+    "hasFrequency": true,
+    "file": "bn-Beng.json",
+    "keyboards": []
   },
   {
     "language": "bo",
-    "language-name": "Tibetan",
-    "frequency-avail": true,
-    "script-type": "Tibetan",
-    "direction": "ltr",
+    "script": "Tibt",
+    "name": "Tibetan",
+    "iso639_1": "bo",
+    "iso639_3": "bod",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "bo-Tibt.json",
     "keyboards": [
-      "00000451",
-      "00010451"
-    ],
-    "scripts": [
-      "Tibt"
+      "00000451"
     ]
+  },
+  {
+    "language": "br",
+    "script": "Latn",
+    "name": "Breton",
+    "iso639_1": "br",
+    "iso639_3": "bre",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "br-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "brx",
+    "script": "Deva",
+    "name": "Bodo",
+    "iso639_3": "brx",
+    "letterCount": 45,
+    "hasFrequency": true,
+    "file": "brx-Deva.json",
+    "keyboards": []
   },
   {
     "language": "bs",
-    "language-name": "Bosnian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Bosnian",
+    "iso639_1": "bs",
+    "iso639_3": "bos",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "bs-Latn.json",
     "keyboards": [
       "0000201a"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
+    "language": "bss",
+    "script": "Latn",
+    "name": "Akoose",
+    "iso639_3": "bss",
+    "letterCount": 48,
+    "hasFrequency": true,
+    "file": "bss-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "bug",
-    "language-name": "Buginese",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Buginese",
+    "iso639_3": "bug",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "bug-Latn.json",
     "keyboards": [
       "000b0c00"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "bya",
-    "language-name": "Batak",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Batak",
+    "iso639_3": "bya",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "file": "bya-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "byn",
+    "script": "Ethi",
+    "name": "Blin",
+    "iso639_3": "byn",
+    "letterCount": 288,
+    "hasFrequency": true,
+    "file": "byn-Ethi.json",
+    "keyboards": []
   },
   {
     "language": "ca",
-    "language-name": "Catalan",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Catalan",
+    "iso639_1": "ca",
+    "iso639_3": "cat",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "ca-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "cad",
+    "script": "Latn",
+    "name": "Caddo",
+    "iso639_3": "cad",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "cad-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ccp",
+    "script": "Cakm",
+    "name": "Chakma",
+    "iso639_3": "ccp",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "ccp-Cakm.json",
+    "keyboards": []
+  },
+  {
+    "language": "ce",
+    "script": "Cyrl",
+    "name": "Chechen",
+    "iso639_1": "ce",
+    "iso639_3": "che",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "ce-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "ceb",
-    "language-name": "Cebuano",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Cebuano",
+    "iso639_3": "ceb",
+    "letterCount": 19,
+    "hasFrequency": true,
+    "file": "ceb-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "cgg",
+    "script": "Latn",
+    "name": "Chiga",
+    "iso639_3": "cgg",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "cgg-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "cho",
+    "script": "Latn",
+    "name": "Choctaw",
+    "iso639_3": "cho",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "file": "cho-Latn.json",
+    "keyboards": []
   },
   {
     "language": "chr",
-    "language-name": "Cherokee",
-    "frequency-avail": true,
-    "script-type": "Cherokee",
-    "direction": "ltr",
-    "scripts": [
-      "Cher"
-    ]
+    "script": "Cher",
+    "name": "Cherokee",
+    "iso639_3": "chr",
+    "letterCount": 85,
+    "hasFrequency": true,
+    "file": "chr-Cher.json",
+    "keyboards": []
+  },
+  {
+    "language": "cic",
+    "script": "Latn",
+    "name": "Chickasaw",
+    "iso639_3": "cic",
+    "letterCount": 18,
+    "hasFrequency": true,
+    "file": "cic-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ckb",
-    "language-name": "Central Kurdish",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
+    "script": "Arab",
+    "name": "Central Kurdish",
+    "iso639_3": "ckb",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "ckb-Arab.json",
     "keyboards": [
       "00000492"
-    ],
-    "scripts": [
-      "Arab"
     ]
+  },
+  {
+    "language": "co",
+    "script": "Latn",
+    "name": "Corsican",
+    "iso639_1": "co",
+    "iso639_3": "cos",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "co-Latn.json",
+    "keyboards": []
   },
   {
     "language": "cop",
-    "language-name": "Coptic",
-    "frequency-avail": false,
-    "script-type": "Coptic",
-    "direction": "ltr",
-    "scripts": [
-      "Copt"
-    ]
+    "script": "Copt",
+    "name": "Coptic",
+    "iso639_3": "cop",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "cop-Copt.json",
+    "keyboards": []
   },
   {
     "language": "cs",
-    "language-name": "Czech",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Czech",
+    "iso639_1": "cs",
+    "iso639_3": "ces",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "file": "cs-Latn.json",
     "keyboards": [
-      "00000405",
-      "00010405"
-    ],
-    "scripts": [
-      "Latn"
+      "00000405"
     ]
+  },
+  {
+    "language": "csw",
+    "script": "Cans",
+    "name": "Swampy Cree",
+    "iso639_3": "csw",
+    "letterCount": 97,
+    "hasFrequency": true,
+    "file": "csw-Cans.json",
+    "keyboards": []
+  },
+  {
+    "language": "cu",
+    "script": "Cyrl",
+    "name": "Church Slavic",
+    "iso639_1": "cu",
+    "iso639_3": "chu",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "file": "cu-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "cv",
-    "language-name": "Chuvash",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
-    "scripts": [
-      "Cyrl"
-    ]
+    "script": "Cyrl",
+    "name": "Chuvash",
+    "iso639_1": "cv",
+    "iso639_3": "chv",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "cv-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "cy",
-    "language-name": "Welsh",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Welsh",
+    "iso639_1": "cy",
+    "iso639_3": "cym",
+    "letterCount": 49,
+    "hasFrequency": true,
+    "file": "cy-Latn.json",
+    "keyboards": []
   },
   {
     "language": "da",
-    "language-name": "Danish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Danish",
+    "iso639_1": "da",
+    "iso639_3": "dan",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "da-Latn.json",
     "keyboards": [
       "00000406"
-    ],
-    "scripts": [
-      "Latn"
     ]
+  },
+  {
+    "language": "dav",
+    "script": "Latn",
+    "name": "Taita",
+    "iso639_3": "dav",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "dav-Latn.json",
+    "keyboards": []
   },
   {
     "language": "de",
-    "language-name": "German",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "German",
+    "iso639_1": "de",
+    "iso639_3": "deu",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "de-Latn.json",
     "keyboards": [
-      "00000407",
-      "00000807",
-      "00010407"
-    ],
-    "scripts": [
-      "Latn"
+      "00000407"
     ]
+  },
+  {
+    "language": "dje",
+    "script": "Latn",
+    "name": "Zarma",
+    "iso639_3": "dje",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "dje-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "dsb",
+    "script": "Latn",
+    "name": "Lower Sorbian",
+    "iso639_3": "dsb",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "dsb-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "dua",
+    "script": "Latn",
+    "name": "Duala",
+    "iso639_3": "dua",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "dua-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "dv",
+    "script": "Thaa",
+    "name": "Divehi",
+    "iso639_1": "dv",
+    "iso639_3": "div",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "dv-Thaa.json",
+    "keyboards": []
+  },
+  {
+    "language": "dyo",
+    "script": "Latn",
+    "name": "Jola-Fonyi",
+    "iso639_3": "dyo",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "dyo-Latn.json",
+    "keyboards": []
   },
   {
     "language": "dz",
-    "language-name": "Dzongkha",
-    "frequency-avail": true,
-    "script-type": "Tibetan",
-    "direction": "ltr",
+    "script": "Tibt",
+    "name": "Dzongkha",
+    "iso639_1": "dz",
+    "iso639_3": "dzo",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "dz-Tibt.json",
     "keyboards": [
       "00000c51"
-    ],
-    "scripts": [
-      "Tibt"
     ]
   },
   {
+    "language": "ebu",
+    "script": "Latn",
+    "name": "Embu",
+    "iso639_3": "ebu",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "ebu-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ee",
+    "script": "Latn",
+    "name": "Ewe",
+    "iso639_1": "ee",
+    "iso639_3": "ewe",
+    "letterCount": 45,
+    "hasFrequency": true,
+    "file": "ee-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "el",
-    "language-name": "Greek",
-    "frequency-avail": true,
-    "script-type": "Greek",
-    "direction": "ltr",
+    "script": "Grek",
+    "name": "Greek",
+    "iso639_1": "el",
+    "iso639_3": "ell",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "el-Grek.json",
     "keyboards": [
-      "00000408",
-      "00010408",
-      "00020408",
-      "00030408",
-      "00040408",
-      "00050408"
-    ],
-    "scripts": [
-      "Grek"
+      "00000408"
     ]
   },
   {
     "language": "en",
-    "language-name": "English",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "English",
+    "iso639_1": "en",
+    "iso639_3": "eng",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "en-Latn.json",
     "keyboards": [
-      "00000409",
-      "00000809",
-      "00004009",
-      "00010409",
-      "00020409"
-    ],
-    "scripts": [
-      "Latn"
+      "00000409"
     ]
   },
   {
     "language": "eo",
-    "language-name": "Esperanto",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Esperanto",
+    "iso639_1": "eo",
+    "iso639_3": "epo",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "eo-Latn.json",
+    "keyboards": []
   },
   {
     "language": "es",
-    "language-name": "Spanish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Spanish",
+    "iso639_1": "es",
+    "iso639_3": "spa",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "es-Latn.json",
     "keyboards": [
-      "0000040a",
-      "0000080a"
-    ],
-    "scripts": [
-      "Latn"
+      "0000040a"
     ]
   },
   {
     "language": "et",
-    "language-name": "Estonian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Estonian",
+    "iso639_1": "et",
+    "iso639_3": "est",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "et-Latn.json",
     "keyboards": [
       "00000425"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "eu",
-    "language-name": "Basque",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Basque",
+    "iso639_1": "eu",
+    "iso639_3": "eus",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "eu-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ewo",
+    "script": "Latn",
+    "name": "Ewondo",
+    "iso639_3": "ewo",
+    "letterCount": 48,
+    "hasFrequency": true,
+    "file": "ewo-Latn.json",
+    "keyboards": []
   },
   {
     "language": "fa",
-    "language-name": "Persian",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
+    "script": "Arab",
+    "name": "Persian",
+    "iso639_1": "fa",
+    "iso639_3": "fas",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "fa-Arab.json",
     "keyboards": [
-      "00000429",
-      "00050429"
-    ],
-    "scripts": [
-      "Arab"
+      "00000429"
     ]
   },
   {
+    "language": "ff",
+    "script": "Adlm",
+    "name": "Fula",
+    "iso639_1": "ff",
+    "iso639_3": "ful",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "ff-Adlm.json",
+    "keyboards": []
+  },
+  {
+    "language": "ff",
+    "script": "Latn",
+    "name": "Fula",
+    "iso639_1": "ff",
+    "iso639_3": "ful",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "ff-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "fi",
-    "language-name": "Finnish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Finnish",
+    "iso639_1": "fi",
+    "iso639_3": "fin",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "fi-Latn.json",
     "keyboards": [
-      "0000040b",
-      "0001083b"
-    ],
-    "scripts": [
-      "Latn"
+      "0000040b"
     ]
   },
   {
     "language": "fo",
-    "language-name": "Faroese",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Faroese",
+    "iso639_1": "fo",
+    "iso639_3": "fao",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "fo-Latn.json",
     "keyboards": [
       "00000438"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "fr",
-    "language-name": "French",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "French",
+    "iso639_1": "fr",
+    "iso639_3": "fra",
+    "letterCount": 42,
+    "hasFrequency": true,
+    "file": "fr-Latn.json",
     "keyboards": [
-      "0000040c",
-      "0000080c",
-      "00000c0c",
-      "00001009",
-      "0000100c",
-      "0001040c",
-      "0002040c"
-    ],
-    "scripts": [
-      "Latn"
+      "0000040c"
     ]
+  },
+  {
+    "language": "frr",
+    "script": "Latn",
+    "name": "Northern Frisian",
+    "iso639_3": "frr",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "frr-Latn.json",
+    "keyboards": []
   },
   {
     "language": "fur",
-    "language-name": "Friulian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Friulian",
+    "iso639_3": "fur",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "fur-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "fy",
+    "script": "Latn",
+    "name": "Western Frisian",
+    "iso639_1": "fy",
+    "iso639_3": "fry",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "file": "fy-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ga",
-    "language-name": "Irish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Irish",
+    "iso639_1": "ga",
+    "iso639_3": "gle",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "ga-Latn.json",
     "keyboards": [
       "00001809"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
+    "language": "gaa",
+    "script": "Latn",
+    "name": "Ga",
+    "iso639_3": "gaa",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "gaa-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "gd",
-    "language-name": "Scottish Gaelic",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Scottish Gaelic",
+    "iso639_1": "gd",
+    "iso639_3": "gla",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "gd-Latn.json",
     "keyboards": [
       "00011809"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "gez",
-    "language-name": "Geez",
-    "frequency-avail": false,
-    "script-type": "Ethiopic",
-    "direction": "ltr",
-    "scripts": [
-      "Ethi"
-    ]
+    "script": "Ethi",
+    "name": "Geez",
+    "iso639_3": "gez",
+    "letterCount": 202,
+    "hasFrequency": true,
+    "file": "gez-Ethi.json",
+    "keyboards": []
   },
   {
     "language": "gl",
-    "language-name": "Galician",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Galician",
+    "iso639_1": "gl",
+    "iso639_3": "glg",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "gl-Latn.json",
+    "keyboards": []
   },
   {
     "language": "gn",
-    "language-name": "Guarani",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Guarani",
+    "iso639_1": "gn",
+    "iso639_3": "grn",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "gn-Latn.json",
     "keyboards": [
       "00000474"
-    ],
-    "scripts": [
-      "Latn"
     ]
+  },
+  {
+    "language": "gsw",
+    "script": "Latn",
+    "name": "Swiss German",
+    "iso639_3": "gsw",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "gsw-Latn.json",
+    "keyboards": []
   },
   {
     "language": "gu",
-    "language-name": "Gujarati",
-    "frequency-avail": true,
-    "script-type": "Gujarati",
-    "direction": "ltr",
+    "script": "Gujr",
+    "name": "Gujarati",
+    "iso639_1": "gu",
+    "iso639_3": "guj",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "gu-Gujr.json",
     "keyboards": [
       "00000447"
-    ],
-    "scripts": [
-      "Gujr"
     ]
   },
   {
+    "language": "guz",
+    "script": "Latn",
+    "name": "Gusii",
+    "iso639_3": "guz",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "guz-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "gv",
-    "language-name": "Manx",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
+    "script": "Latn",
+    "name": "Manx",
+    "iso639_1": "gv",
+    "iso639_3": "glv",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "gv-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ha",
+    "script": "Latn",
+    "name": "Hausa",
+    "iso639_1": "ha",
+    "iso639_3": "hau",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "ha-Latn.json",
+    "keyboards": [
+      "00000468"
     ]
   },
   {
     "language": "haw",
-    "language-name": "Hawaiian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Hawaiian",
+    "iso639_3": "haw",
+    "letterCount": 18,
+    "hasFrequency": true,
+    "file": "haw-Latn.json",
     "keyboards": [
       "00000475"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "he",
-    "language-name": "Hebrew",
-    "frequency-avail": true,
-    "script-type": "Hebrew",
-    "direction": "rtl",
+    "script": "Hebr",
+    "name": "Hebrew",
+    "iso639_1": "he",
+    "iso639_3": "heb",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "he-Hebr.json",
     "keyboards": [
-      "0000040d",
-      "0002040d",
-      "0003040d"
-    ],
-    "scripts": [
-      "Hebr"
+      "0000040d"
     ]
   },
   {
     "language": "hi",
-    "language-name": "Hindi",
-    "frequency-avail": true,
-    "script-type": "Devanagari",
-    "direction": "ltr",
-    "scripts": [
-      "Deva"
-    ]
+    "script": "Deva",
+    "name": "Hindi",
+    "iso639_1": "hi",
+    "iso639_3": "hin",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "hi-Deva.json",
+    "keyboards": []
   },
   {
     "language": "hnn",
-    "language-name": "Hanunoo",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Hanunoo",
+    "iso639_3": "hnn",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "hnn-Latn.json",
+    "keyboards": []
   },
   {
     "language": "hr",
-    "language-name": "Croatian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Croatian",
+    "iso639_1": "hr",
+    "iso639_3": "hrv",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "hr-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "hsb",
+    "script": "Latn",
+    "name": "Upper Sorbian",
+    "iso639_3": "hsb",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "hsb-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ht",
-    "language-name": "Haitian Creole",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Haitian Creole",
+    "iso639_1": "ht",
+    "iso639_3": "hat",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "ht-Latn.json",
+    "keyboards": []
   },
   {
     "language": "hu",
-    "language-name": "Hungarian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Hungarian",
+    "iso639_1": "hu",
+    "iso639_3": "hun",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "hu-Latn.json",
     "keyboards": [
       "0000040e"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "hy",
-    "language-name": "Armenian",
-    "frequency-avail": true,
-    "script-type": "Armenian",
-    "direction": "ltr",
-    "scripts": [
-      "Armn"
-    ]
+    "script": "Armn",
+    "name": "Armenian",
+    "iso639_1": "hy",
+    "iso639_3": "hye",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "hy-Armn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ia",
+    "script": "Latn",
+    "name": "Interlingua",
+    "iso639_1": "ia",
+    "iso639_3": "ina",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "ia-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "id",
+    "script": "Latn",
+    "name": "Indonesian",
+    "iso639_1": "id",
+    "iso639_3": "ind",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "id-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ie",
-    "language-name": "Interlingue",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
+    "script": "Latn",
+    "name": "Interlingue",
+    "iso639_1": "ie",
+    "iso639_3": "ile",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "ie-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ig",
+    "script": "Latn",
+    "name": "Igbo",
+    "iso639_1": "ig",
+    "iso639_3": "ibo",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "ig-Latn.json",
+    "keyboards": [
+      "00000470"
     ]
   },
   {
+    "language": "ii",
+    "script": "Yiii",
+    "name": "Sichuan Yi",
+    "iso639_1": "ii",
+    "iso639_3": "iii",
+    "letterCount": 1165,
+    "hasFrequency": true,
+    "file": "ii-Yiii.json",
+    "keyboards": []
+  },
+  {
+    "language": "io",
+    "script": "Latn",
+    "name": "Ido",
+    "iso639_1": "io",
+    "iso639_3": "ido",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "io-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "is",
-    "language-name": "Icelandic",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Icelandic",
+    "iso639_1": "is",
+    "iso639_3": "isl",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "is-Latn.json",
     "keyboards": [
       "0000040f"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "it",
-    "language-name": "Italian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Italian",
+    "iso639_1": "it",
+    "iso639_3": "ita",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "it-Latn.json",
     "keyboards": [
-      "00000410",
-      "00010410"
-    ],
-    "scripts": [
-      "Latn"
+      "00000410"
     ]
+  },
+  {
+    "language": "iu",
+    "script": "Cans",
+    "name": "Inuktitut",
+    "iso639_1": "iu",
+    "iso639_3": "iku",
+    "letterCount": 109,
+    "hasFrequency": true,
+    "file": "iu-Cans.json",
+    "keyboards": []
+  },
+  {
+    "language": "iu",
+    "script": "Latn",
+    "name": "Inuktitut",
+    "iso639_1": "iu",
+    "iso639_3": "iku",
+    "letterCount": 16,
+    "hasFrequency": true,
+    "file": "iu-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ja",
-    "language-name": "Japanese",
-    "frequency-avail": true,
-    "script-type": "Japanese",
-    "direction": "ltr",
+    "script": "Hira",
+    "name": "Japanese",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "file": "ja-Hira.json",
+    "keyboards": []
+  },
+  {
+    "language": "ja",
+    "script": "Jpan",
+    "name": "Japanese",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 2311,
+    "hasFrequency": true,
+    "file": "ja-Jpan.json",
+    "keyboards": []
+  },
+  {
+    "language": "ja",
+    "script": "Kana",
+    "name": "Japanese",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "file": "ja-Kana.json",
     "keyboards": [
       "00000411"
-    ],
-    "scripts": [
-      "Jpan"
     ]
   },
   {
+    "language": "jbo",
+    "script": "Latn",
+    "name": "Lojban",
+    "iso639_3": "jbo",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "jbo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "jgo",
+    "script": "Latn",
+    "name": "Ngomba",
+    "iso639_3": "jgo",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "jgo-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "jv",
-    "language-name": "Javanese",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Javanese",
+    "iso639_1": "jv",
+    "iso639_3": "jav",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "jv-Latn.json",
     "keyboards": [
       "00110c00"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "ka",
-    "language-name": "Georgian",
-    "frequency-avail": true,
-    "script-type": "Georgian",
-    "direction": "ltr",
+    "script": "Geor",
+    "name": "Georgian",
+    "iso639_1": "ka",
+    "iso639_3": "kat",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "ka-Geor.json",
     "keyboards": [
-      "00000437",
-      "00010437",
-      "00020437",
-      "00030437",
-      "00040437"
-    ],
-    "scripts": [
-      "Geor"
+      "00000437"
     ]
+  },
+  {
+    "language": "kaa",
+    "script": "Cyrl",
+    "name": "Kara-Kalpak",
+    "iso639_3": "kaa",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "file": "kaa-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "kaa",
+    "script": "Latn",
+    "name": "Kara-Kalpak",
+    "iso639_3": "kaa",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "kaa-Latn.json",
+    "keyboards": []
   },
   {
     "language": "kab",
-    "language-name": "Kabyle",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Kabyle",
+    "iso639_3": "kab",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "kab-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kam",
+    "script": "Latn",
+    "name": "Kamba",
+    "iso639_3": "kam",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "kam-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kde",
+    "script": "Latn",
+    "name": "Makonde",
+    "iso639_3": "kde",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "kde-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kea",
+    "script": "Latn",
+    "name": "Kabuverdianu",
+    "iso639_3": "kea",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "kea-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ken",
+    "script": "Latn",
+    "name": "Kenyang",
+    "iso639_3": "ken",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "ken-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kgp",
+    "script": "Latn",
+    "name": "Kaingang",
+    "iso639_3": "kgp",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "kgp-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "khq",
+    "script": "Latn",
+    "name": "Koyra Chiini",
+    "iso639_3": "khq",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "khq-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ki",
+    "script": "Latn",
+    "name": "Kikuyu",
+    "iso639_1": "ki",
+    "iso639_3": "kik",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "file": "ki-Latn.json",
+    "keyboards": []
   },
   {
     "language": "kk",
-    "language-name": "Kazakh",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Kazakh",
+    "iso639_1": "kk",
+    "iso639_3": "kaz",
+    "letterCount": 42,
+    "hasFrequency": true,
+    "file": "kk-Cyrl.json",
     "keyboards": [
       "0000043f"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
+  },
+  {
+    "language": "kkj",
+    "script": "Latn",
+    "name": "Kako",
+    "iso639_3": "kkj",
+    "letterCount": 43,
+    "hasFrequency": true,
+    "file": "kkj-Latn.json",
+    "keyboards": []
   },
   {
     "language": "kl",
-    "language-name": "Kalaallisut",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Kalaallisut",
+    "iso639_1": "kl",
+    "iso639_3": "kal",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "kl-Latn.json",
+    "keyboards": []
   },
   {
     "language": "km",
-    "language-name": "Khmer",
-    "frequency-avail": true,
-    "script-type": "Khmer",
-    "direction": "ltr",
+    "script": "Khmr",
+    "name": "Khmer",
+    "iso639_1": "km",
+    "iso639_3": "khm",
+    "letterCount": 47,
+    "hasFrequency": true,
+    "file": "km-Khmr.json",
     "keyboards": [
-      "00000453",
-      "00010453"
-    ],
-    "scripts": [
-      "Khmr"
+      "00000453"
     ]
   },
   {
     "language": "kn",
-    "language-name": "Kannada",
-    "frequency-avail": true,
-    "script-type": "Kannada",
-    "direction": "ltr",
+    "script": "Knda",
+    "name": "Kannada",
+    "iso639_1": "kn",
+    "iso639_3": "kan",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "file": "kn-Knda.json",
     "keyboards": [
       "0000044b"
-    ],
-    "scripts": [
-      "Knda"
     ]
   },
   {
     "language": "ko",
-    "language-name": "Korean",
-    "frequency-avail": true,
-    "script-type": "Korean",
-    "direction": "ltr",
+    "script": "Hang",
+    "name": "Korean",
+    "iso639_1": "ko",
+    "iso639_3": "kor",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "ko-Hang.json",
+    "keyboards": []
+  },
+  {
+    "language": "ko",
+    "script": "Kore",
+    "name": "Korean",
+    "iso639_1": "ko",
+    "iso639_3": "kor",
+    "letterCount": 11172,
+    "hasFrequency": true,
+    "file": "ko-Kore.json",
     "keyboards": [
       "00000412"
-    ],
-    "scripts": [
-      "Kore"
     ]
+  },
+  {
+    "language": "kok",
+    "script": "Deva",
+    "name": "Konkani",
+    "iso639_3": "kok",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "kok-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "kok",
+    "script": "Latn",
+    "name": "Konkani",
+    "iso639_3": "kok",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "kok-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kpe",
+    "script": "Latn",
+    "name": "Kpelle",
+    "iso639_3": "kpe",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "kpe-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ks",
-    "language-name": "Kashmiri",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
-    "scripts": [
-      "Arab"
-    ]
+    "script": "Arab",
+    "name": "Kashmiri",
+    "iso639_1": "ks",
+    "iso639_3": "kas",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "file": "ks-Arab.json",
+    "keyboards": []
+  },
+  {
+    "language": "ks",
+    "script": "Deva",
+    "name": "Kashmiri",
+    "iso639_1": "ks",
+    "iso639_3": "kas",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "ks-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "ksb",
+    "script": "Latn",
+    "name": "Shambala",
+    "iso639_3": "ksb",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "ksb-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ksf",
+    "script": "Latn",
+    "name": "Bafia",
+    "iso639_3": "ksf",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "ksf-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ksh",
-    "language-name": "Colognian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Colognian",
+    "iso639_3": "ksh",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "ksh-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ku",
-    "language-name": "Kurdish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Kurdish",
+    "iso639_1": "ku",
+    "iso639_3": "kur",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "ku-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kw",
+    "script": "Latn",
+    "name": "Cornish",
+    "iso639_1": "kw",
+    "iso639_3": "cor",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "kw-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "kxv",
+    "script": "Orya",
+    "name": "Kuvi",
+    "iso639_3": "kxv",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "kxv-Orya.json",
+    "keyboards": []
   },
   {
     "language": "ky",
-    "language-name": "Kyrgyz",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
-    "scripts": [
-      "Cyrl"
-    ]
+    "script": "Cyrl",
+    "name": "Kyrgyz",
+    "iso639_1": "ky",
+    "iso639_3": "kir",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "ky-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "la",
-    "language-name": "Latin",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Latin",
+    "iso639_1": "la",
+    "iso639_3": "lat",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "la-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "lag",
+    "script": "Latn",
+    "name": "Langi",
+    "iso639_3": "lag",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "lag-Latn.json",
+    "keyboards": []
   },
   {
     "language": "lb",
-    "language-name": "Luxembourgish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Luxembourgish",
+    "iso639_1": "lb",
+    "iso639_3": "ltz",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "lb-Latn.json",
     "keyboards": [
       "0000046e"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "lep",
-    "language-name": "Lepcha",
-    "frequency-avail": false,
-    "script-type": "Lepcha",
-    "direction": "ltr",
-    "scripts": [
-      "Lepc"
-    ]
+    "script": "Lepc",
+    "name": "Lepcha",
+    "iso639_3": "lep",
+    "letterCount": 59,
+    "hasFrequency": true,
+    "file": "lep-Lepc.json",
+    "keyboards": []
+  },
+  {
+    "language": "lg",
+    "script": "Latn",
+    "name": "Ganda",
+    "iso639_1": "lg",
+    "iso639_3": "lug",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "lg-Latn.json",
+    "keyboards": []
   },
   {
     "language": "lif",
-    "language-name": "Limbu",
-    "frequency-avail": false,
-    "script-type": "Devanagari",
-    "direction": "ltr",
-    "scripts": [
-      "Deva"
-    ]
+    "script": "Deva",
+    "name": "Limbu",
+    "iso639_3": "lif",
+    "letterCount": 56,
+    "hasFrequency": true,
+    "file": "lif-Deva.json",
+    "keyboards": []
   },
   {
     "language": "lij",
-    "language-name": "Ligurian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Ligurian",
+    "iso639_3": "lij",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "file": "lij-Latn.json",
+    "keyboards": []
   },
   {
     "language": "lis",
-    "language-name": "Lisu",
-    "frequency-avail": false,
-    "script-type": "Fraser",
-    "direction": "ltr",
+    "script": "Lisu",
+    "name": "Lisu",
+    "iso639_3": "lis",
+    "letterCount": 40,
+    "hasFrequency": true,
+    "file": "lis-Lisu.json",
     "keyboards": [
-      "00070c00",
-      "00080c00"
-    ],
-    "scripts": [
-      "Lisu"
+      "00070c00"
     ]
+  },
+  {
+    "language": "lkt",
+    "script": "Latn",
+    "name": "Lakota",
+    "iso639_3": "lkt",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "lkt-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "lld",
+    "script": "Latn",
+    "name": "Ladin",
+    "iso639_3": "lld",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "file": "lld-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "lmo",
+    "script": "Latn",
+    "name": "Lombard",
+    "iso639_3": "lmo",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "lmo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ln",
+    "script": "Latn",
+    "name": "Lingala",
+    "iso639_1": "ln",
+    "iso639_3": "lin",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "ln-Latn.json",
+    "keyboards": []
   },
   {
     "language": "lo",
-    "language-name": "Lao",
-    "frequency-avail": true,
-    "script-type": "Lao",
-    "direction": "ltr",
+    "script": "Laoo",
+    "name": "Lao",
+    "iso639_1": "lo",
+    "iso639_3": "lao",
+    "letterCount": 40,
+    "hasFrequency": true,
+    "file": "lo-Laoo.json",
     "keyboards": [
       "00000454"
-    ],
-    "scripts": [
-      "Laoo"
     ]
+  },
+  {
+    "language": "lrc",
+    "script": "Arab",
+    "name": "Northern Luri",
+    "iso639_3": "lrc",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "file": "lrc-Arab.json",
+    "keyboards": []
   },
   {
     "language": "lt",
-    "language-name": "Lithuanian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Lithuanian",
+    "iso639_1": "lt",
+    "iso639_3": "lit",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "lt-Latn.json",
     "keyboards": [
       "00010427"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
+    "language": "ltg",
+    "script": "Latn",
+    "name": "Latgalian",
+    "iso639_3": "ltg",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "ltg-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "lu",
+    "script": "Latn",
+    "name": "Luba-Katanga",
+    "iso639_1": "lu",
+    "iso639_3": "lub",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "lu-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "luo",
+    "script": "Latn",
+    "name": "Luo (Kenya and Tanzania)",
+    "iso639_3": "luo",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "luo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "luy",
+    "script": "Latn",
+    "name": "Luyia",
+    "iso639_3": "luy",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "luy-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "lv",
-    "language-name": "Latvian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Latvian",
+    "iso639_1": "lv",
+    "iso639_3": "lav",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "lv-Latn.json",
     "keyboards": [
-      "00000426",
-      "00010426",
-      "00020426"
-    ],
-    "scripts": [
-      "Latn"
+      "00000426"
     ]
   },
   {
     "language": "lzh",
-    "language-name": "Literary Chinese",
-    "frequency-avail": true,
-    "script-type": "Simplified",
-    "direction": "ltr",
-    "scripts": [
-      "Hans"
-    ]
+    "script": "Hans",
+    "name": "Literary Chinese",
+    "iso639_3": "lzh",
+    "letterCount": 2210,
+    "hasFrequency": true,
+    "file": "lzh-Hans.json",
+    "keyboards": []
+  },
+  {
+    "language": "mai",
+    "script": "Deva",
+    "name": "Maithili",
+    "iso639_3": "mai",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "mai-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "mas",
+    "script": "Latn",
+    "name": "Masai",
+    "iso639_3": "mas",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "file": "mas-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mdf",
+    "script": "Cyrl",
+    "name": "Moksha",
+    "iso639_3": "mdf",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "mdf-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "mer",
+    "script": "Latn",
+    "name": "Meru",
+    "iso639_3": "mer",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "mer-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mfe",
+    "script": "Latn",
+    "name": "Morisyen",
+    "iso639_3": "mfe",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "mfe-Latn.json",
+    "keyboards": []
   },
   {
     "language": "mg",
-    "language-name": "Malagasy",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Malagasy",
+    "iso639_1": "mg",
+    "iso639_3": "mlg",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "mg-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mgh",
+    "script": "Latn",
+    "name": "Makhuwa-Meetto",
+    "iso639_3": "mgh",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "mgh-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mgo",
+    "script": "Latn",
+    "name": "Metaʼ",
+    "iso639_3": "mgo",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "mgo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mhn",
+    "script": "Latn",
+    "name": "Mócheno",
+    "iso639_3": "mhn",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "mhn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mi",
+    "script": "Latn",
+    "name": "Māori",
+    "iso639_1": "mi",
+    "iso639_3": "mri",
+    "letterCount": 18,
+    "hasFrequency": true,
+    "file": "mi-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mic",
+    "script": "Latn",
+    "name": "Mi'kmaw",
+    "iso639_3": "mic",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "mic-Latn.json",
+    "keyboards": []
   },
   {
     "language": "mid",
-    "language-name": "Mandaic",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Mandaic",
+    "iso639_3": "mid",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "mid-Latn.json",
+    "keyboards": []
   },
   {
     "language": "mk",
-    "language-name": "Macedonian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Macedonian",
+    "iso639_1": "mk",
+    "iso639_3": "mkd",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "mk-Cyrl.json",
     "keyboards": [
       "0000042f"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
   },
   {
     "language": "ml",
-    "language-name": "Malayalam",
-    "frequency-avail": true,
-    "script-type": "Malayalam",
-    "direction": "ltr",
+    "script": "Mlym",
+    "name": "Malayalam",
+    "iso639_1": "ml",
+    "iso639_3": "mal",
+    "letterCount": 49,
+    "hasFrequency": true,
+    "file": "ml-Mlym.json",
     "keyboards": [
       "0000044c"
-    ],
-    "scripts": [
-      "Mlym"
     ]
   },
   {
     "language": "mn",
-    "language-name": "Mongolian",
-    "frequency-avail": false,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Mongolian",
+    "iso639_1": "mn",
+    "iso639_3": "mon",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "mn-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "mn",
+    "script": "Mong",
+    "name": "Mongolian",
+    "iso639_1": "mn",
+    "iso639_3": "mon",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "mn-Mong.json",
     "keyboards": [
       "00000850"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
+  },
+  {
+    "language": "mni",
+    "script": "Beng",
+    "name": "Manipuri",
+    "iso639_3": "mni",
+    "letterCount": 44,
+    "hasFrequency": true,
+    "file": "mni-Beng.json",
+    "keyboards": []
+  },
+  {
+    "language": "mni",
+    "script": "Mtei",
+    "name": "Manipuri",
+    "iso639_3": "mni",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "mni-Mtei.json",
+    "keyboards": []
   },
   {
     "language": "mo",
-    "language-name": "Romanian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Romanian",
+    "iso639_1": "ro",
+    "iso639_3": "ron",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "mo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "moh",
+    "script": "Latn",
+    "name": "Mohawk",
+    "iso639_3": "moh",
+    "letterCount": 21,
+    "hasFrequency": true,
+    "file": "moh-Latn.json",
+    "keyboards": []
   },
   {
     "language": "mr",
-    "language-name": "Marathi",
-    "frequency-avail": true,
-    "script-type": "Devanagari",
-    "direction": "ltr",
-    "scripts": [
-      "Deva",
-      "Latn"
+    "script": "Deva",
+    "name": "Marathi",
+    "iso639_1": "mr",
+    "iso639_3": "mar",
+    "letterCount": 49,
+    "hasFrequency": true,
+    "file": "mr-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "mr",
+    "script": "Latn",
+    "name": "Marathi",
+    "iso639_1": "mr",
+    "iso639_3": "mar",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "mr-Latn.json",
+    "keyboards": [
+      "0000044e"
     ]
+  },
+  {
+    "language": "ms",
+    "script": "Latn",
+    "name": "Malay",
+    "iso639_1": "ms",
+    "iso639_3": "msa",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "ms-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mt",
+    "script": "Latn",
+    "name": "Maltese",
+    "iso639_1": "mt",
+    "iso639_3": "mlt",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "mt-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mua",
+    "script": "Latn",
+    "name": "Mundang",
+    "iso639_3": "mua",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "mua-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "mus",
+    "script": "Latn",
+    "name": "Muscogee",
+    "iso639_3": "mus",
+    "letterCount": 21,
+    "hasFrequency": true,
+    "file": "mus-Latn.json",
+    "keyboards": []
   },
   {
     "language": "my",
-    "language-name": "Burmese",
-    "frequency-avail": true,
-    "script-type": "Myanmar",
-    "direction": "ltr",
-    "scripts": [
-      "Mymr"
-    ]
+    "script": "Mymr",
+    "name": "Burmese",
+    "iso639_1": "my",
+    "iso639_3": "mya",
+    "letterCount": 42,
+    "hasFrequency": true,
+    "file": "my-Mymr.json",
+    "keyboards": []
+  },
+  {
+    "language": "myv",
+    "script": "Cyrl",
+    "name": "Erzya",
+    "iso639_3": "myv",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "myv-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "mzn",
-    "language-name": "Mazanderani",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
-    "scripts": [
-      "Arab"
-    ]
+    "script": "Arab",
+    "name": "Mazanderani",
+    "iso639_3": "mzn",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "mzn-Arab.json",
+    "keyboards": []
+  },
+  {
+    "language": "naq",
+    "script": "Latn",
+    "name": "Nama",
+    "iso639_3": "naq",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "naq-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nb",
+    "script": "Latn",
+    "name": "Norwegian Bokmål",
+    "iso639_1": "nb",
+    "iso639_3": "nob",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "nb-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nd",
+    "script": "Latn",
+    "name": "North Ndebele",
+    "iso639_1": "nd",
+    "iso639_3": "nde",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "nd-Latn.json",
+    "keyboards": []
   },
   {
     "language": "nds",
-    "language-name": "Low German",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Low German",
+    "iso639_3": "nds",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "nds-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ne",
-    "language-name": "Nepali",
-    "frequency-avail": true,
-    "script-type": "Devanagari",
-    "direction": "ltr",
+    "script": "Deva",
+    "name": "Nepali",
+    "iso639_1": "ne",
+    "iso639_3": "nep",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "ne-Deva.json",
     "keyboards": [
       "00000461"
-    ],
-    "scripts": [
-      "Deva"
     ]
+  },
+  {
+    "language": "nl",
+    "script": "Latn",
+    "name": "Dutch",
+    "iso639_1": "nl",
+    "iso639_3": "nld",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "nl-Latn.json",
+    "keyboards": [
+      "00000413"
+    ]
+  },
+  {
+    "language": "nmg",
+    "script": "Latn",
+    "name": "Kwasio",
+    "iso639_3": "nmg",
+    "letterCount": 53,
+    "hasFrequency": true,
+    "file": "nmg-Latn.json",
+    "keyboards": []
   },
   {
     "language": "nn",
-    "language-name": "Norwegian Nynorsk",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Norwegian Nynorsk",
+    "iso639_1": "nn",
+    "iso639_3": "nno",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "nn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nnh",
+    "script": "Latn",
+    "name": "Ngiemboon",
+    "iso639_3": "nnh",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "nnh-Latn.json",
+    "keyboards": []
   },
   {
     "language": "no",
-    "language-name": "Norwegian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Norwegian",
+    "iso639_1": "no",
+    "iso639_3": "nor",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "no-Latn.json",
     "keyboards": [
-      "00000414",
-      "0000043b"
-    ],
-    "scripts": [
-      "Latn"
+      "00000414"
     ]
   },
   {
     "language": "nqo",
-    "language-name": "N’Ko",
-    "frequency-avail": false,
-    "script-type": "N’Ko",
-    "direction": "rtl",
+    "script": "Nkoo",
+    "name": "N’Ko",
+    "iso639_3": "nqo",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "nqo-Nkoo.json",
     "keyboards": [
       "00090c00"
-    ],
-    "scripts": [
-      "Nkoo"
     ]
+  },
+  {
+    "language": "nr",
+    "script": "Latn",
+    "name": "South Ndebele",
+    "iso639_1": "nr",
+    "iso639_3": "nbl",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "nr-Latn.json",
+    "keyboards": []
   },
   {
     "language": "nso",
-    "language-name": "Northern Sotho",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Northern Sotho",
+    "iso639_3": "nso",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "nso-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nus",
+    "script": "Latn",
+    "name": "Nuer",
+    "iso639_3": "nus",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "nus-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nv",
+    "script": "Latn",
+    "name": "Navajo",
+    "iso639_1": "nv",
+    "iso639_3": "nav",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "nv-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ny",
+    "script": "Latn",
+    "name": "Nyanja",
+    "iso639_1": "ny",
+    "iso639_3": "nya",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "ny-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "nyn",
+    "script": "Latn",
+    "name": "Nyankole",
+    "iso639_3": "nyn",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "nyn-Latn.json",
+    "keyboards": []
   },
   {
     "language": "oc",
-    "language-name": "Occitan",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Occitan",
+    "iso639_1": "oc",
+    "iso639_3": "oci",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "oc-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "om",
+    "script": "Latn-corrected",
+    "name": "Oromo",
+    "iso639_1": "om",
+    "iso639_3": "orm",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "om-Latn-corrected.json",
+    "keyboards": []
+  },
+  {
+    "language": "om",
+    "script": "Latn",
+    "name": "Oromo",
+    "iso639_1": "om",
+    "iso639_3": "orm",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "om-Latn.json",
+    "keyboards": []
   },
   {
     "language": "or",
-    "language-name": "Odia",
-    "frequency-avail": true,
-    "script-type": "Odia",
-    "direction": "ltr",
+    "script": "Orya",
+    "name": "Odia",
+    "iso639_1": "or",
+    "iso639_3": "ori",
+    "letterCount": 47,
+    "hasFrequency": true,
+    "file": "or-Orya.json",
     "keyboards": [
       "00000448"
-    ],
-    "scripts": [
-      "Orya"
     ]
+  },
+  {
+    "language": "os",
+    "script": "Cyrl",
+    "name": "Ossetic",
+    "iso639_1": "os",
+    "iso639_3": "oss",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "os-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "osa",
+    "script": "Osge",
+    "name": "Osage",
+    "iso639_3": "osa",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "osa-Osge.json",
+    "keyboards": [
+      "00150c00"
+    ]
+  },
+  {
+    "language": "pa",
+    "script": "Guru",
+    "name": "Punjabi",
+    "iso639_1": "pa",
+    "iso639_3": "pan",
+    "letterCount": 45,
+    "hasFrequency": true,
+    "file": "pa-Guru.json",
+    "keyboards": [
+      "00000446"
+    ]
+  },
+  {
+    "language": "pap",
+    "script": "Latn",
+    "name": "Papiamento",
+    "iso639_3": "pap",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "pap-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "pcm",
+    "script": "Latn",
+    "name": "Nigerian Pidgin",
+    "iso639_3": "pcm",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "pcm-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "pis",
+    "script": "Latn",
+    "name": "Pijin",
+    "iso639_3": "pis",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "pis-Latn.json",
+    "keyboards": []
   },
   {
     "language": "pl",
-    "language-name": "Polish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Polish",
+    "iso639_1": "pl",
+    "iso639_3": "pol",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "pl-Latn.json",
     "keyboards": [
-      "00000415",
-      "00010415"
-    ],
-    "scripts": [
-      "Latn"
+      "00000415"
     ]
   },
   {
+    "language": "prg",
+    "script": "Latn",
+    "name": "Prussian",
+    "iso639_3": "prg",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "prg-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "ps",
-    "language-name": "Pashto",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
+    "script": "Arab",
+    "name": "Pashto",
+    "iso639_1": "ps",
+    "iso639_3": "pus",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "ps-Arab.json",
     "keyboards": [
       "00000463"
-    ],
-    "scripts": [
-      "Arab"
     ]
   },
   {
     "language": "pt",
-    "language-name": "Portuguese",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Portuguese",
+    "iso639_1": "pt",
+    "iso639_3": "por",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "pt-Latn.json",
     "keyboards": [
-      "00000416",
-      "00000816",
-      "00010416"
-    ],
-    "scripts": [
-      "Latn"
+      "00000416"
     ]
+  },
+  {
+    "language": "qu",
+    "script": "Latn",
+    "name": "Quechua",
+    "iso639_1": "qu",
+    "iso639_3": "que",
+    "letterCount": 17,
+    "hasFrequency": true,
+    "file": "qu-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "quc",
+    "script": "Latn",
+    "name": "Kʼicheʼ",
+    "iso639_3": "quc",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "quc-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "raj",
+    "script": "Deva",
+    "name": "Rajasthani",
+    "iso639_3": "raj",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "raj-Deva.json",
+    "keyboards": []
   },
   {
     "language": "rej",
-    "language-name": "Rejang",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Rejang",
+    "iso639_3": "rej",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "rej-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "rhg",
+    "script": "Rohg",
+    "name": "Rohingya",
+    "iso639_3": "rhg",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "rhg-Rohg.json",
+    "keyboards": []
   },
   {
     "language": "rm",
-    "language-name": "Romansh",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Romansh",
+    "iso639_1": "rm",
+    "iso639_3": "roh",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "rm-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "rn",
+    "script": "Latn",
+    "name": "Rundi",
+    "iso639_1": "rn",
+    "iso639_3": "run",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "rn-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ro",
-    "language-name": "Romanian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Romanian",
+    "iso639_1": "ro",
+    "iso639_3": "ron",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "ro-Latn.json",
     "keyboards": [
-      "00000418",
-      "00010418",
-      "00020418"
-    ],
-    "scripts": [
-      "Latn"
+      "00000418"
     ]
   },
   {
     "language": "ru",
-    "language-name": "Russian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Russian",
+    "iso639_1": "ru",
+    "iso639_3": "rus",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "ru-Cyrl.json",
     "keyboards": [
-      "00000419",
-      "00010419"
-    ],
-    "scripts": [
-      "Cyrl"
+      "00000419"
     ]
+  },
+  {
+    "language": "rw",
+    "script": "Latn",
+    "name": "Kinyarwanda",
+    "iso639_1": "rw",
+    "iso639_3": "kin",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "rw-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "rwk",
+    "script": "Latn",
+    "name": "Rwa",
+    "iso639_3": "rwk",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "rwk-Latn.json",
+    "keyboards": []
   },
   {
     "language": "sa",
-    "language-name": "Sanskrit",
-    "frequency-avail": true,
-    "script-type": "Devanagari",
-    "direction": "ltr",
-    "scripts": [
-      "Deva"
-    ]
+    "script": "Deva",
+    "name": "Sanskrit",
+    "iso639_1": "sa",
+    "iso639_3": "san",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "sa-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "sah",
+    "script": "Cyrl",
+    "name": "Yakut",
+    "iso639_3": "sah",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "sah-Cyrl.json",
+    "keyboards": []
   },
   {
     "language": "sam",
-    "language-name": "Samaritan Aramaic",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Samaritan Aramaic",
+    "iso639_3": "sam",
+    "letterCount": 61,
+    "hasFrequency": true,
+    "file": "sam-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "saq",
+    "script": "Latn",
+    "name": "Samburu",
+    "iso639_3": "saq",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "saq-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "sat",
+    "script": "Deva",
+    "name": "Santali",
+    "iso639_3": "sat",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "sat-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "sat",
+    "script": "Olck",
+    "name": "Santali",
+    "iso639_3": "sat",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "sat-Olck.json",
+    "keyboards": []
   },
   {
     "language": "saz",
-    "language-name": "Saurashtra",
-    "frequency-avail": false,
-    "script-type": "Saurashtra",
-    "direction": "ltr",
-    "scripts": [
-      "Saur"
-    ]
+    "script": "Saur",
+    "name": "Saurashtra",
+    "iso639_3": "saz",
+    "letterCount": 51,
+    "hasFrequency": true,
+    "file": "saz-Saur.json",
+    "keyboards": []
+  },
+  {
+    "language": "sbp",
+    "script": "Latn",
+    "name": "Sangu",
+    "iso639_3": "sbp",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "sbp-Latn.json",
+    "keyboards": []
   },
   {
     "language": "sc",
-    "language-name": "Sardinian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Sardinian",
+    "iso639_1": "sc",
+    "iso639_3": "srd",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "sc-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "scn",
+    "script": "Latn",
+    "name": "Sicilian",
+    "iso639_3": "scn",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "scn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "sd",
+    "script": "Arab",
+    "name": "Sindhi",
+    "iso639_1": "sd",
+    "iso639_3": "snd",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "file": "sd-Arab.json",
+    "keyboards": []
+  },
+  {
+    "language": "sdh",
+    "script": "Arab",
+    "name": "Southern Kurdish",
+    "iso639_3": "sdh",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "sdh-Arab.json",
+    "keyboards": []
   },
   {
     "language": "se",
-    "language-name": "Northern Sami",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Northern Sami",
+    "iso639_1": "se",
+    "iso639_3": "sme",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "se-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "seh",
+    "script": "Latn",
+    "name": "Sena",
+    "iso639_3": "seh",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "seh-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ses",
+    "script": "Latn",
+    "name": "Koyraboro Senni",
+    "iso639_3": "ses",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "ses-Latn.json",
+    "keyboards": []
   },
   {
     "language": "sg",
-    "language-name": "Sango",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Sango",
+    "iso639_1": "sg",
+    "iso639_3": "sag",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "sg-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "sh",
+    "script": "Latn",
+    "name": "Serbian",
+    "iso639_1": "sr",
+    "iso639_3": "srp",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "sh-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "shi",
+    "script": "Latn",
+    "name": "Tachelhit",
+    "iso639_3": "shi",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "shi-Latn.json",
+    "keyboards": []
   },
   {
     "language": "si",
-    "language-name": "Sinhala",
-    "frequency-avail": true,
-    "script-type": "Sinhala",
-    "direction": "ltr",
+    "script": "Sinh",
+    "name": "Sinhala",
+    "iso639_1": "si",
+    "iso639_3": "sin",
+    "letterCount": 55,
+    "hasFrequency": true,
+    "file": "si-Sinh.json",
     "keyboards": [
       "0000045b"
-    ],
-    "scripts": [
-      "Sinh"
+    ]
+  },
+  {
+    "language": "sk",
+    "script": "Latn",
+    "name": "Slovak",
+    "iso639_1": "sk",
+    "iso639_3": "slk",
+    "letterCount": 43,
+    "hasFrequency": true,
+    "file": "sk-Latn.json",
+    "keyboards": [
+      "0000041b"
     ]
   },
   {
     "language": "sl",
-    "language-name": "Slovenian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Slovenian",
+    "iso639_1": "sl",
+    "iso639_3": "slv",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "file": "sl-Latn.json",
     "keyboards": [
       "00000424"
-    ],
-    "scripts": [
-      "Latn"
     ]
+  },
+  {
+    "language": "sma",
+    "script": "Latn",
+    "name": "Southern Sami",
+    "iso639_3": "sma",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "sma-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "smj",
+    "script": "Latn",
+    "name": "Lule Sami",
+    "iso639_3": "smj",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "smj-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "smn",
+    "script": "Latn",
+    "name": "Inari Sami",
+    "iso639_3": "smn",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "smn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "sms",
+    "script": "Latn",
+    "name": "Skolt Sami",
+    "iso639_3": "sms",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "sms-Latn.json",
+    "keyboards": []
   },
   {
     "language": "sn",
-    "language-name": "Shona",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Shona",
+    "iso639_1": "sn",
+    "iso639_3": "sna",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "sn-Latn.json",
+    "keyboards": []
   },
   {
     "language": "so",
-    "language-name": "Somali",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
+    "script": "Latn",
+    "name": "Somali",
+    "iso639_1": "so",
+    "iso639_3": "som",
+    "letterCount": 18,
+    "hasFrequency": true,
+    "file": "so-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "sq",
+    "script": "Latn",
+    "name": "Albanian",
+    "iso639_1": "sq",
+    "iso639_3": "sqi",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "sq-Latn.json",
+    "keyboards": [
+      "0000041c"
     ]
   },
   {
     "language": "sr",
-    "language-name": "Serbian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Serbian",
+    "iso639_1": "sr",
+    "iso639_3": "srp",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "sr-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "sr",
+    "script": "Latn",
+    "name": "Serbian",
+    "iso639_1": "sr",
+    "iso639_3": "srp",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "sr-Latn.json",
     "keyboards": [
-      "0000081a",
-      "00000c1a"
-    ],
-    "scripts": [
-      "Cyrl"
+      "0000081a"
     ]
+  },
+  {
+    "language": "ss",
+    "script": "Latn",
+    "name": "Swati",
+    "iso639_1": "ss",
+    "iso639_3": "ssw",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "ss-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ssy",
+    "script": "Latn",
+    "name": "Saho",
+    "iso639_3": "ssy",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "ssy-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "st",
+    "script": "Latn",
+    "name": "Southern Sotho",
+    "iso639_1": "st",
+    "iso639_3": "sot",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "st-Latn.json",
+    "keyboards": []
   },
   {
     "language": "su",
-    "language-name": "Sundanese",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Sundanese",
+    "iso639_1": "su",
+    "iso639_3": "sun",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "su-Latn.json",
+    "keyboards": []
   },
   {
     "language": "sv",
-    "language-name": "Swedish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Swedish",
+    "iso639_1": "sv",
+    "iso639_3": "swe",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "sv-Latn.json",
     "keyboards": [
-      "0000041d",
-      "0000083b"
-    ],
-    "scripts": [
-      "Latn"
+      "0000041d"
     ]
   },
   {
     "language": "sw",
-    "language-name": "Swahili",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Swahili",
+    "iso639_1": "sw",
+    "iso639_3": "swa",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "sw-Latn.json",
+    "keyboards": []
   },
   {
     "language": "syr",
-    "language-name": "Syriac",
-    "frequency-avail": false,
-    "script-type": "Syriac",
-    "direction": "rtl",
+    "script": "Syrc",
+    "name": "Syriac",
+    "iso639_3": "syr",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "syr-Syrc.json",
     "keyboards": [
       "0000045a"
-    ],
-    "scripts": [
-      "Syrc"
     ]
   },
   {
     "language": "szl",
-    "language-name": "Silesian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Silesian",
+    "iso639_3": "szl",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "szl-Latn.json",
+    "keyboards": []
   },
   {
     "language": "ta",
-    "language-name": "Tamil",
-    "frequency-avail": true,
-    "script-type": "Tamil",
-    "direction": "ltr",
+    "script": "Taml",
+    "name": "Tamil",
+    "iso639_1": "ta",
+    "iso639_3": "tam",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "ta-Taml.json",
     "keyboards": [
       "00000449"
-    ],
-    "scripts": [
-      "Taml"
     ]
   },
   {
     "language": "tbw",
-    "language-name": "Tagbanwa",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Tagbanwa",
+    "iso639_3": "tbw",
+    "letterCount": 18,
+    "hasFrequency": true,
+    "file": "tbw-Latn.json",
+    "keyboards": []
   },
   {
     "language": "te",
-    "language-name": "Telugu",
-    "frequency-avail": true,
-    "script-type": "Telugu",
-    "direction": "ltr",
+    "script": "Telu",
+    "name": "Telugu",
+    "iso639_1": "te",
+    "iso639_3": "tel",
+    "letterCount": 51,
+    "hasFrequency": true,
+    "file": "te-Telu.json",
     "keyboards": [
       "0000044a"
-    ],
-    "scripts": [
-      "Telu"
     ]
   },
   {
+    "language": "teo",
+    "script": "Latn",
+    "name": "Teso",
+    "iso639_3": "teo",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "teo-Latn.json",
+    "keyboards": []
+  },
+  {
     "language": "tg",
-    "language-name": "Tajik",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Tajik",
+    "iso639_1": "tg",
+    "iso639_3": "tgk",
+    "letterCount": 35,
+    "hasFrequency": true,
+    "file": "tg-Cyrl.json",
     "keyboards": [
       "00000428"
-    ],
-    "scripts": [
-      "Cyrl"
     ]
   },
   {
     "language": "th",
-    "language-name": "Thai",
-    "frequency-avail": true,
-    "script-type": "Thai",
-    "direction": "ltr",
-    "scripts": [
-      "Thai"
-    ]
+    "script": "Thai",
+    "name": "Thai",
+    "iso639_1": "th",
+    "iso639_3": "tha",
+    "letterCount": 57,
+    "hasFrequency": true,
+    "file": "th-Thai.json",
+    "keyboards": []
   },
   {
     "language": "ti",
-    "language-name": "Tigrinya",
-    "frequency-avail": true,
-    "script-type": "Ethiopic",
-    "direction": "ltr",
-    "scripts": [
-      "Ethi"
-    ]
+    "script": "Ethi",
+    "name": "Tigrinya",
+    "iso639_1": "ti",
+    "iso639_3": "tir",
+    "letterCount": 300,
+    "hasFrequency": true,
+    "file": "ti-Ethi.json",
+    "keyboards": []
+  },
+  {
+    "language": "tig",
+    "script": "Ethi",
+    "name": "Tigre",
+    "iso639_3": "tig",
+    "letterCount": 421,
+    "hasFrequency": true,
+    "file": "tig-Ethi.json",
+    "keyboards": []
   },
   {
     "language": "tk",
-    "language-name": "Turkmen",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Turkmen",
+    "iso639_1": "tk",
+    "iso639_3": "tuk",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "tk-Latn.json",
     "keyboards": [
       "00000442"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
     "language": "tl",
-    "language-name": "Tagalog",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Filipino",
+    "iso639_3": "fil",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "file": "tl-Latn.json",
+    "keyboards": []
   },
   {
     "language": "tn",
-    "language-name": "Tswana",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Tswana",
+    "iso639_1": "tn",
+    "iso639_3": "tsn",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "file": "tn-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "to",
+    "script": "Latn",
+    "name": "Tongan",
+    "iso639_1": "to",
+    "iso639_3": "ton",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "to-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "tok",
+    "script": "Latn",
+    "name": "Toki Pona",
+    "iso639_3": "tok",
+    "letterCount": 14,
+    "hasFrequency": true,
+    "file": "tok-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "tpi",
+    "script": "Latn",
+    "name": "Tok Pisin",
+    "iso639_3": "tpi",
+    "letterCount": 21,
+    "hasFrequency": true,
+    "file": "tpi-Latn.json",
+    "keyboards": []
   },
   {
     "language": "tr",
-    "language-name": "Turkish",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Turkish",
+    "iso639_1": "tr",
+    "iso639_3": "tur",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "file": "tr-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "ts",
+    "script": "Latn",
+    "name": "Tsonga",
+    "iso639_1": "ts",
+    "iso639_3": "tso",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "ts-Latn.json",
+    "keyboards": []
   },
   {
     "language": "tt",
-    "language-name": "Tatar",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Tatar",
+    "iso639_1": "tt",
+    "iso639_3": "tat",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "tt-Cyrl.json",
     "keyboards": [
-      "00000444",
-      "00010444"
-    ],
-    "scripts": [
-      "Cyrl"
+      "00000444"
+    ]
+  },
+  {
+    "language": "twq",
+    "script": "Latn",
+    "name": "Tasawaq",
+    "iso639_3": "twq",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "file": "twq-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "tyv",
+    "script": "Cyrl",
+    "name": "Tuvinian",
+    "iso639_3": "tyv",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "file": "tyv-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "tzm",
+    "script": "Latn",
+    "name": "Central Atlas Tamazight",
+    "iso639_3": "tzm",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "file": "tzm-Latn.json",
+    "keyboards": [
+      "0000085f"
+    ]
+  },
+  {
+    "language": "ug",
+    "script": "Arab",
+    "name": "Uyghur",
+    "iso639_1": "ug",
+    "iso639_3": "uig",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "ug-Arab.json",
+    "keyboards": [
+      "00000480"
     ]
   },
   {
     "language": "uk",
-    "language-name": "Ukrainian",
-    "frequency-avail": true,
-    "script-type": "Cyrillic",
-    "direction": "ltr",
+    "script": "Cyrl",
+    "name": "Ukrainian",
+    "iso639_1": "uk",
+    "iso639_3": "ukr",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "file": "uk-Cyrl.json",
     "keyboards": [
-      "00000422",
-      "00020422"
-    ],
-    "scripts": [
-      "Cyrl"
+      "00000422"
     ]
   },
   {
     "language": "ur",
-    "language-name": "Urdu",
-    "frequency-avail": true,
-    "script-type": "Arabic",
-    "direction": "rtl",
+    "script": "Arab",
+    "name": "Urdu",
+    "iso639_1": "ur",
+    "iso639_3": "urd",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "file": "ur-Arab.json",
     "keyboards": [
       "00000420"
-    ],
-    "scripts": [
-      "Arab"
     ]
+  },
+  {
+    "language": "uz",
+    "script": "Cyrl",
+    "name": "Uzbek",
+    "iso639_1": "uz",
+    "iso639_3": "uzb",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "file": "uz-Cyrl.json",
+    "keyboards": []
+  },
+  {
+    "language": "uz",
+    "script": "Latn",
+    "name": "Uzbek",
+    "iso639_1": "uz",
+    "iso639_3": "uzb",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "uz-Latn.json",
+    "keyboards": []
   },
   {
     "language": "vai",
-    "language-name": "Vai",
-    "frequency-avail": false,
-    "script-type": "Vai",
-    "direction": "ltr",
-    "scripts": [
-      "Vaii"
-    ]
+    "script": "Vaii",
+    "name": "Vai",
+    "iso639_3": "vai",
+    "letterCount": 274,
+    "hasFrequency": true,
+    "file": "vai-Vaii.json",
+    "keyboards": []
+  },
+  {
+    "language": "ve",
+    "script": "Latn",
+    "name": "Venda",
+    "iso639_1": "ve",
+    "iso639_3": "ven",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "ve-Latn.json",
+    "keyboards": []
   },
   {
     "language": "vec",
-    "language-name": "Venetian",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
+    "script": "Latn",
+    "name": "Venetian",
+    "iso639_3": "vec",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "vec-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "vi",
+    "script": "Latn",
+    "name": "Vietnamese",
+    "iso639_1": "vi",
+    "iso639_3": "vie",
+    "letterCount": 89,
+    "hasFrequency": true,
+    "file": "vi-Latn.json",
+    "keyboards": [
+      "0000042a"
     ]
+  },
+  {
+    "language": "vmw",
+    "script": "Latn",
+    "name": "Makhuwa",
+    "iso639_3": "vmw",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "file": "vmw-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "vo",
+    "script": "Latn",
+    "name": "Volapük",
+    "iso639_1": "vo",
+    "iso639_3": "vol",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "file": "vo-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "vun",
+    "script": "Latn",
+    "name": "Vunjo",
+    "iso639_3": "vun",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "file": "vun-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "wa",
+    "script": "Latn",
+    "name": "Walloon",
+    "iso639_1": "wa",
+    "iso639_3": "wln",
+    "letterCount": 43,
+    "hasFrequency": true,
+    "file": "wa-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "wae",
+    "script": "Latn",
+    "name": "Walser",
+    "iso639_3": "wae",
+    "letterCount": 39,
+    "hasFrequency": true,
+    "file": "wae-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "wbp",
+    "script": "Latn",
+    "name": "Warlpiri",
+    "iso639_3": "wbp",
+    "letterCount": 15,
+    "hasFrequency": true,
+    "file": "wbp-Latn.json",
+    "keyboards": []
   },
   {
     "language": "wo",
-    "language-name": "Wolof",
-    "frequency-avail": true,
-    "script-type": "Latin",
-    "direction": "ltr",
+    "script": "Latn",
+    "name": "Wolof",
+    "iso639_1": "wo",
+    "iso639_3": "wol",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "file": "wo-Latn.json",
     "keyboards": [
       "00000488"
-    ],
-    "scripts": [
-      "Latn"
     ]
   },
   {
-    "language": "zh-min-nan",
-    "language-name": "Min",
-    "frequency-avail": true,
-    "script-type": "Simplified",
-    "direction": "ltr",
-    "scripts": [
-      "Hans"
+    "language": "xh",
+    "script": "Latn",
+    "name": "Xhosa",
+    "iso639_1": "xh",
+    "iso639_3": "xho",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "xh-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "xnr",
+    "script": "Deva",
+    "name": "Kangri",
+    "iso639_3": "xnr",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "file": "xnr-Deva.json",
+    "keyboards": []
+  },
+  {
+    "language": "xog",
+    "script": "Latn",
+    "name": "Soga",
+    "iso639_3": "xog",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "xog-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "yav",
+    "script": "Latn",
+    "name": "Yangben",
+    "iso639_3": "yav",
+    "letterCount": 45,
+    "hasFrequency": true,
+    "file": "yav-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "yi",
+    "script": "Hebr",
+    "name": "Yiddish",
+    "iso639_1": "yi",
+    "iso639_3": "yid",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "yi-Hebr.json",
+    "keyboards": []
+  },
+  {
+    "language": "yo",
+    "script": "Latn",
+    "name": "Yoruba",
+    "iso639_1": "yo",
+    "iso639_3": "yor",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "yo-Latn.json",
+    "keyboards": [
+      "0000046a"
     ]
   },
   {
-    "language": "zh-yue",
-    "language-name": "Yue",
-    "frequency-avail": true,
-    "script-type": "Traditional",
-    "direction": "ltr",
-    "scripts": [
-      "Hant"
+    "language": "yrl",
+    "script": "Latn",
+    "name": "Nheengatu",
+    "iso639_3": "yrl",
+    "letterCount": 21,
+    "hasFrequency": true,
+    "file": "yrl-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "za",
+    "script": "Latn",
+    "name": "Zhuang",
+    "iso639_1": "za",
+    "iso639_3": "zha",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "za-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "zh",
+    "script": "Hans",
+    "name": "Chinese",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "letterCount": 2210,
+    "hasFrequency": true,
+    "file": "zh-Hans.json",
+    "keyboards": []
+  },
+  {
+    "language": "zh",
+    "script": "Hant",
+    "name": "Chinese",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "letterCount": 2179,
+    "hasFrequency": true,
+    "file": "zh-Hant.json",
+    "keyboards": [
+      "00000404"
     ]
   },
   {
     "language": "zh",
-    "language-name": "Mandarin",
-    "frequency-avail": true,
-    "script-type": "Simplified",
-    "direction": "ltr",
-    "scripts": [
-      "Hans"
-    ]
+    "script": "min-nan-Hans",
+    "name": "Min Nan Chinese",
+    "iso639_3": "nan",
+    "letterCount": 2210,
+    "hasFrequency": true,
+    "file": "zh-min-nan-Hans.json",
+    "keyboards": []
+  },
+  {
+    "language": "zh",
+    "script": "yue-Hant",
+    "name": "Cantonese",
+    "iso639_3": "yue",
+    "letterCount": 2210,
+    "hasFrequency": true,
+    "file": "zh-yue-Hant.json",
+    "keyboards": []
   },
   {
     "language": "zra",
-    "language-name": "Kara (Korea)",
-    "frequency-avail": false,
-    "script-type": "Latin",
-    "direction": "ltr",
-    "scripts": [
-      "Latn"
-    ]
+    "script": "Latn",
+    "name": "Kara (Korea)",
+    "iso639_3": "zra",
+    "letterCount": 48,
+    "hasFrequency": true,
+    "file": "zra-Latn.json",
+    "keyboards": []
+  },
+  {
+    "language": "zu",
+    "script": "Latn",
+    "name": "Zulu",
+    "iso639_1": "zu",
+    "iso639_3": "zul",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "zu-Latn.json",
+    "keyboards": []
   }
 ]
