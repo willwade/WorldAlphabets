@@ -26,7 +26,16 @@
         </p>
       </div>
 
-      <div class="filters-section">
+      <!-- Mobile: Collapsible filters -->
+      <div class="mobile-filter-toggle">
+        <button @click="showMobileFilters = !showMobileFilters" class="mobile-filter-btn">
+          <span>Filters</span>
+          <span class="filter-count" v-if="hasActiveFilters">({{ activeFilterCount }})</span>
+          <span class="toggle-icon">{{ showMobileFilters ? '▲' : '▼' }}</span>
+        </button>
+      </div>
+
+      <div class="filters-section" :class="{ 'mobile-hidden': !showMobileFilters }">
         <div class="filter-group">
           <label class="filter-label">Show only alphabets with:</label>
           <div class="checkbox-group">
@@ -105,8 +114,8 @@
         </span>
       </div>
 
-      <!-- Alphabet Table -->
-      <div v-if="searchResults?.data.length" class="table-container">
+      <!-- Desktop: Alphabet Table -->
+      <div v-if="searchResults?.data.length" class="table-container desktop-only">
         <table class="alphabet-table">
           <thead>
             <tr>
@@ -147,6 +156,42 @@
             </tr>
           </tbody>
         </table>
+      </div>
+
+      <!-- Mobile: Alphabet Cards -->
+      <div v-if="searchResults?.data.length" class="cards-container mobile-only">
+        <div
+          v-for="alphabet in searchResults.data"
+          :key="`${alphabet.language}-${alphabet.script}`"
+          class="alphabet-card"
+          @click="selectAlphabet(alphabet)"
+        >
+          <div class="card-header">
+            <h3 class="card-title">{{ alphabet.name }}</h3>
+            <div class="card-badges">
+              <span v-if="alphabet.hasTTS" class="badge tts-badge" title="Text-to-Speech Available">TTS</span>
+              <span v-if="alphabet.hasFrequency" class="badge freq-badge" title="Frequency Data Available">FREQ</span>
+              <span v-if="alphabet.hasKeyboard" class="badge kbd-badge" title="Keyboard Layout Available">KBD</span>
+            </div>
+          </div>
+          <div class="card-details">
+            <div class="card-row">
+              <span class="card-label">Language:</span>
+              <span class="card-value">
+                {{ alphabet.language }}
+                <span v-if="alphabet.iso639_3" class="iso-code">({{ alphabet.iso639_3 }})</span>
+              </span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Script:</span>
+              <span class="card-value">{{ getScriptTypeName(alphabet.script) }}</span>
+            </div>
+            <div class="card-row">
+              <span class="card-label">Letters:</span>
+              <span class="card-value">{{ alphabet.letterCount }}</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- No results -->
@@ -211,6 +256,13 @@ const statistics = ref(null);
 const availableScripts = ref([]);
 const currentPage = ref(1);
 const pageSize = ref(50);
+const showMobileFilters = ref(false);
+
+// Computed page size based on screen size
+const effectivePageSize = computed(() => {
+  // Use smaller page size on mobile for better performance
+  return window.innerWidth <= 768 ? 20 : pageSize.value;
+});
 
 const filters = reactive({
   hasTTS: false,
@@ -228,6 +280,15 @@ const hasActiveFilters = computed(() => {
          filters.hasFrequency === true ||
          filters.hasKeyboard === true ||
          filters.scriptType !== '';
+});
+
+const activeFilterCount = computed(() => {
+  let count = 0;
+  if (filters.hasTTS) count++;
+  if (filters.hasFrequency) count++;
+  if (filters.hasKeyboard) count++;
+  if (filters.scriptType) count++;
+  return count;
 });
 
 // Debounced search
@@ -257,7 +318,7 @@ const performSearch = async () => {
       sortBy: sortBy.value,
       sortOrder: sortOrder.value,
       page: currentPage.value,
-      pageSize: pageSize.value
+      pageSize: effectivePageSize.value
     };
 
     searchResults.value = await alphabetDataService.searchAlphabets(searchOptions);
@@ -469,6 +530,53 @@ onMounted(async () => {
   background: #c82333;
 }
 
+/* Mobile filter toggle */
+.mobile-filter-toggle {
+  display: none;
+  margin-bottom: 1rem;
+}
+
+.mobile-filter-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.mobile-filter-btn:hover {
+  background: #e9ecef;
+}
+
+.filter-count {
+  background: #007bff;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.toggle-icon {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+/* Desktop/Mobile visibility */
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
 .loading, .error {
   text-align: center;
   padding: 2rem;
@@ -601,6 +709,79 @@ onMounted(async () => {
   font-size: 0.9rem;
 }
 
+/* Mobile Cards Layout */
+.cards-container {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.alphabet-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.alphabet-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
+}
+
+.alphabet-card:active {
+  transform: translateY(0);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #007bff;
+  line-height: 1.3;
+}
+
+.card-badges {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-label {
+  font-weight: 500;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.card-value {
+  color: #495057;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .alphabet-index {
@@ -613,6 +794,16 @@ onMounted(async () => {
 
   .stats {
     gap: 1rem;
+  }
+
+  /* Show mobile filter toggle */
+  .mobile-filter-toggle {
+    display: block;
+  }
+
+  /* Hide filters by default on mobile */
+  .filters-section.mobile-hidden {
+    display: none;
   }
 
   .filters-section {
@@ -629,13 +820,13 @@ onMounted(async () => {
     gap: 0.5rem;
   }
 
-  .alphabet-table {
-    font-size: 0.9rem;
+  /* Hide desktop table, show mobile cards */
+  .desktop-only {
+    display: none;
   }
 
-  .alphabet-table th,
-  .alphabet-table td {
-    padding: 0.5rem;
+  .mobile-only {
+    display: block;
   }
 
   .pagination {
@@ -653,12 +844,41 @@ onMounted(async () => {
     gap: 0.5rem;
   }
 
-  .alphabet-table {
-    font-size: 0.8rem;
+  /* Smaller page size for mobile */
+  .cards-container {
+    gap: 0.75rem;
   }
 
-  .feature-badges {
+  .alphabet-card {
+    padding: 0.75rem;
+  }
+
+  .card-header {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-badges {
+    align-self: flex-end;
+  }
+
+  .pagination {
+    gap: 0.25rem;
+  }
+
+  .page-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .page-info {
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
   }
 }
 </style>
