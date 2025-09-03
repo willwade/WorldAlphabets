@@ -23,7 +23,7 @@ dev = [
     "langcodes>=3.3.0",
     "types-requests",
     "types-beautifulsoup4",
-    "py3-tts-wrapper[google,watson,polly,microsoft,elevenlabs,witai,sherpaonnx,openai]",
+    "py3-tts-wrapper[google,watson,polly,microsoft,elevenlabs,witai,sherpaonnx,openai,upliftai]",
     "PyICU>=2.11",
 ]
 

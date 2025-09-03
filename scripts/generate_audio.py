@@ -14,6 +14,7 @@ from tts_wrapper import (
     OpenAIClient,
     PollyClient,
     SherpaOnnxClient,
+    UpliftAIClient,
     WatsonClient,
     WitAiClient,
     eSpeakClient,
@@ -102,11 +103,7 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
                 client = OpenAIClient(api_key=os.getenv("OPENAI_API_KEY"))
         elif engine_name == "upliftai":
             if os.getenv("UPLIFTAI_KEY"):
-                # UpliftAI uses OpenAI-compatible API
-                client = OpenAIClient(
-                    api_key=os.getenv("UPLIFTAI_KEY"),
-                    base_url="https://api.uplift.ai/v1"  # Adjust if different
-                )
+                client = UpliftAIClient(api_key=os.getenv("UPLIFTAI_KEY"))
         elif engine_name == "sherpaonnx":
             client = SherpaOnnxClient()
         elif engine_name == "espeak":

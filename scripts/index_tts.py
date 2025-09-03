@@ -9,6 +9,7 @@ from tts_wrapper import (
     OpenAIClient,
     PollyClient,
     SherpaOnnxClient,
+    UpliftAIClient,
     WatsonClient,
     WitAiClient,
     eSpeakClient,
@@ -105,6 +106,8 @@ def main() -> None:
         configured_clients.append(("witai", WitAiClient(credentials=(os.getenv("WITAI_TOKEN"),))))
     if os.getenv("OPENAI_API_KEY"):
         configured_clients.append(("openai", OpenAIClient(api_key=os.getenv("OPENAI_API_KEY"))))
+    if os.getenv("UPLIFTAI_KEY"):
+        configured_clients.append(("upliftai", UpliftAIClient(api_key=os.getenv("UPLIFTAI_KEY"))))
 
     try:
         configured_clients.append(("sherpaonnx", SherpaOnnxClient()))
