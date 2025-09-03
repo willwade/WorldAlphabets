@@ -295,47 +295,55 @@ uv pip install -e '.[dev]'
 
 ### Data Generation
 
-**Add ISO language codes**
+#### Consolidated Pipeline (Recommended)
+
+The WorldAlphabets project uses a unified Python-based data collection pipeline:
 
 ```bash
-uv run scripts/add_iso_codes.py
+# Build complete dataset with all stages
+uv run scripts/build_data_pipeline.py
+
+# Build with verbose output
+uv run scripts/build_data_pipeline.py --verbose
+
+# Run specific pipeline stage
+uv run scripts/build_data_pipeline.py --stage build_alphabets
+
+# Build single language
+uv run scripts/build_data_pipeline.py --language mi --script Latn
 ```
 
-Adds English language names and ISO 639 codes to each alphabet JSON.
+**Pipeline Stages:**
+1. **collect_sources** - Download CLDR, ISO 639-3, frequency data
+2. **build_language_registry** - Create comprehensive language database
+3. **build_alphabets** - Generate alphabet files from CLDR + fallbacks
+4. **build_translations** - Add "Hello, how are you?" translations
+5. **build_keyboards** - Generate keyboard layout files
+6. **build_tts_index** - Index available TTS voices
+7. **build_audio** - Generate audio files using TTS
+8. **build_index** - Create searchable indexes and metadata
+9. **validate_data** - Comprehensive data validation
+
+For detailed pipeline documentation, see [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md).
+
+#### Legacy Individual Scripts (Deprecated)
+
+The following individual scripts are deprecated in favor of the consolidated pipeline:
+
+**Add ISO language codes**
+```bash
+uv run scripts/add_iso_codes.py  # Use: --stage build_language_registry
+```
 
 **Fetch language-script mappings**
-
 ```bash
-uv run scripts/fetch_language_scripts.py
+uv run scripts/fetch_language_scripts.py  # Use: --stage collect_sources
 ```
-
-Queries Wikidata for the scripts used by each language and writes
-`data/language_scripts.json` mapping ISO codes to ISO 15924 script codes.
 
 **Build alphabets from CLDR**
-
-Generate alphabet files from CLDR exemplar character data:
-
 ```bash
-uv run scripts/build_alphabet_from_cldr.py <language> <script>
+uv run scripts/build_alphabet_from_cldr.py  # Use: --stage build_alphabets
 ```
-
-To build alphabets for every language-script pair in the mapping file:
-
-```bash
-uv run scripts/build_alphabet_from_cldr.py --manifest data/language_scripts.json
-```
-
-Each file is written to `data/alphabets/<language>-<script>.json` and combines
-CLDR exemplar characters with letter frequencies, preferring the Simia unigrams
-dataset when available and otherwise falling back to OpenSubtitles word
-frequencies. Locales missing from the CLDR dataset are skipped automatically.
-
-We verified the importer on English, Spanish, Russian, Arabic, Hindi, Kurdish
-(Latin and Arabic scripts), and Greek. The generated alphabets matched or
-improved on existing data—Spanish gained accented vowels and Arabic shed
-contextual forms—so this CLDR-based pipeline is now the recommended way to
-refresh alphabet JSON files.
 
 **Generate translations**
 

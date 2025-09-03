@@ -1,0 +1,132 @@
+{
+  "alphabets": {
+    "ja": {
+      "Hira": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
+      "Kana": "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン",
+      "Jpan": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
+    },
+    "ko": {
+      "Hang": "ㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣ"
+    },
+    "zh": {
+      "Hans": "一二三四五六七八九十百千万亿的是在有人这中大为上个国我以要他时来用们生到作地于出就分对成会可主发年动同工也能下过子说产种面而方后多定行学法所民得经十三",
+      "Hant": "一二三四五六七八九十百千萬億的是在有人這中大為上個國我以要他時來用們生到作地於出就分對成會可主發年動同工也能下過子說產種面而方後多定行學法所民得經十三"
+    },
+    "mi": {
+      "Latn": "aehikmnoprtuw"
+    },
+    "chr": {
+      "Cher": "ᎠᎡᎢᎣᎤᎥᎦᎧᎨᎩᎪᎫᎬᎭᎮᎯᎰᎱᎲᎳᎴᎵᎶᎷᎸᎹᎺᎻᎼᎽᎾᎿᏀᏁᏂᏃᏄᏅᏆᏇᏈᏉᏊᏋᏌᏍᏎᏏᏐᏑᏒᏓᏔᏕᏖᏗᏘᏙᏚᏛᏜᏝᏞᏟᏠᏡᏢᏣᏤᏥᏦᏧᏨᏩᏪᏫᏬᏭᏮᏯᏰᏱᏲᏳᏴ"
+    },
+    "om": {
+      "Latn": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "haw": {
+      "Latn": "aehiklmnopuw"
+    },
+    "nv": {
+      "Latn": "aábcdeeéghiíjklmnooóprstuwxyʼ"
+    }
+  },
+  "manual_languages": [
+    {
+      "Id": "mi",
+      "Part1": "mi",
+      "Part2B": "mao",
+      "Part2T": "mri",
+      "Ref_Name": "Māori",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - missing from Wikidata",
+      "scripts": ["Latn"]
+    },
+    {
+      "Id": "chr",
+      "Part1": "",
+      "Part2B": "chr",
+      "Part2T": "chr",
+      "Ref_Name": "Cherokee",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Cherokee syllabary",
+      "scripts": ["Cher"]
+    },
+    {
+      "Id": "haw",
+      "Part1": "",
+      "Part2B": "haw",
+      "Part2T": "haw",
+      "Ref_Name": "Hawaiian",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Hawaiian alphabet",
+      "scripts": ["Latn"]
+    },
+    {
+      "Id": "nv",
+      "Part1": "nv",
+      "Part2B": "nav",
+      "Part2T": "nav",
+      "Ref_Name": "Navajo",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Navajo (Diné bizaad)",
+      "scripts": ["Latn"]
+    }
+  ],
+  "script_directions": {
+    "Arab": "rtl",
+    "Hebr": "rtl",
+    "Thaa": "rtl",
+    "Syrc": "rtl",
+    "Phli": "rtl",
+    "Phnx": "rtl",
+    "Nkoo": "rtl",
+    "Adlm": "rtl",
+    "Latn": "ltr",
+    "Cyrl": "ltr",
+    "Grek": "ltr",
+    "Deva": "ltr",
+    "Beng": "ltr",
+    "Gujr": "ltr",
+    "Guru": "ltr",
+    "Knda": "ltr",
+    "Mlym": "ltr",
+    "Orya": "ltr",
+    "Taml": "ltr",
+    "Telu": "ltr",
+    "Sinh": "ltr",
+    "Thai": "ltr",
+    "Laoo": "ltr",
+    "Tibt": "ltr",
+    "Mymr": "ltr",
+    "Geor": "ltr",
+    "Hang": "ltr",
+    "Hira": "ltr",
+    "Kana": "ltr",
+    "Jpan": "ltr",
+    "Hans": "ltr",
+    "Hant": "ltr",
+    "Kore": "ltr",
+    "Yiii": "ltr",
+    "Cher": "ltr",
+    "Cans": "ltr",
+    "Osge": "ltr",
+    "Vaii": "ltr",
+    "Bamu": "ltr",
+    "Nkoo": "rtl",
+    "Adlm": "rtl",
+    "Tfng": "ltr",
+    "Ethi": "ltr"
+  },
+  "common_digits": {
+    "Latn": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    "Arab": ["٠", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"],
+    "Deva": ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"],
+    "Beng": ["০", "১", "২", "৩", "৪", "৫", "৬", "৭", "৮", "৯"],
+    "Thai": ["๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗", "๘", "๙"],
+    "Mymr": ["၀", "၁", "၂", "၃", "၄", "၅", "၆", "၇", "၈", "၉"],
+    "Khmr": ["០", "១", "២", "៣", "៤", "៥", "៦", "៧", "៨", "៩"],
+    "Tibt": ["༠", "༡", "༢", "༣", "༤", "༥", "༦", "༧", "༨", "༩"]
+  }
+}

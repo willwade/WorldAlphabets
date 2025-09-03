@@ -460,6 +460,126 @@
       "engine": "polly",
       "voice_id": "zayd",
       "path": "data/audio/ar_polly_zayd.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Hala",
+      "path": "data/audio/ar-Arab_polly_hala.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Zayd",
+      "path": "data/audio/ar-Arab_polly_zayd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ar-Arab_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ar-Arab_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ar-Arab_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ar-Arab_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ar-Arab_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ar-Arab_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ar-Arab_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ar-Arab_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ar-Arab_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ar-Arab_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ar-Arab_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ar-Arab_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ar-Arab_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ar-Arab_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ar-Arab_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ar-Arab_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ar-Arab_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ar-Arab_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ar-Arab_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ar-Arab_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ar-Arab_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ar-Arab_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "az": [
@@ -530,6 +650,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_bul",
       "path": "data/audio/bg-Cyrl_sherpaonnx_mms_bul.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/bg-Cyrl_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/bg-Cyrl_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/bg-Cyrl_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/bg-Cyrl_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/bg-Cyrl_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/bg-Cyrl_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/bg-Cyrl_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/bg-Cyrl_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/bg-Cyrl_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/bg-Cyrl_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/bg-Cyrl_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/bg-Cyrl_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/bg-Cyrl_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/bg-Cyrl_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/bg-Cyrl_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/bg-Cyrl_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/bg-Cyrl_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/bg-Cyrl_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/bg-Cyrl_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/bg-Cyrl_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/bg-Cyrl_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/bg-Cyrl_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "bm": [
@@ -658,6 +888,11 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_cat",
       "path": "data/audio/ca-Latn_sherpaonnx_mms_cat.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Arlet",
+      "path": "data/audio/ca-Latn_polly_arlet.wav"
     }
   ],
   "ceb": [
@@ -692,6 +927,121 @@
       "engine": "microsoft",
       "voice_id": "cs_cz_vlastaneural",
       "path": "data/audio/cs-Latn_microsoft_cs_cz_vlastaneural.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Jitka",
+      "path": "data/audio/cs-Latn_polly_jitka.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/cs-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/cs-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/cs-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/cs-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/cs-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/cs-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/cs-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/cs-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/cs-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/cs-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/cs-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/cs-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/cs-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/cs-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/cs-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/cs-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/cs-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/cs-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/cs-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/cs-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/cs-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/cs-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "cv": [
@@ -763,6 +1113,121 @@
       "engine": "microsoft",
       "voice_id": "da_dk_jeppeneural",
       "path": "data/audio/da-Latn_microsoft_da_dk_jeppeneural.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Sofie",
+      "path": "data/audio/da-Latn_polly_sofie.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/da-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/da-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/da-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/da-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/da-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/da-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/da-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/da-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/da-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/da-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/da-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/da-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/da-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/da-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/da-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/da-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/da-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/da-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/da-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/da-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/da-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/da-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "de": [
@@ -900,6 +1365,136 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_deu",
       "path": "data/audio/de-Latn_sherpaonnx_mms_deu.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Sabrina",
+      "path": "data/audio/de-Latn_polly_sabrina.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Vicki",
+      "path": "data/audio/de-Latn_polly_vicki.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Hannah",
+      "path": "data/audio/de-Latn_polly_hannah.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Daniel",
+      "path": "data/audio/de-Latn_polly_daniel.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/de-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/de-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/de-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/de-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/de-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/de-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/de-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/de-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/de-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/de-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/de-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/de-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/de-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/de-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/de-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/de-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/de-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/de-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/de-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/de-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/de-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/de-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "dz": [
@@ -939,6 +1534,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_ell",
       "path": "data/audio/el-Grek_sherpaonnx_mms_ell.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/el-Grek_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/el-Grek_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/el-Grek_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/el-Grek_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/el-Grek_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/el-Grek_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/el-Grek_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/el-Grek_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/el-Grek_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/el-Grek_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/el-Grek_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/el-Grek_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/el-Grek_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/el-Grek_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/el-Grek_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/el-Grek_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/el-Grek_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/el-Grek_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/el-Grek_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/el-Grek_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/el-Grek_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/el-Grek_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "en": [
@@ -2226,6 +2931,381 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_eng",
       "path": "data/audio/en-Latn_sherpaonnx_mms_eng.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Danielle",
+      "path": "data/audio/en-Latn_polly_danielle.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Gregory",
+      "path": "data/audio/en-Latn_polly_gregory.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Joanna",
+      "path": "data/audio/en-Latn_polly_joanna.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Ruth",
+      "path": "data/audio/en-Latn_polly_ruth.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Jasmine",
+      "path": "data/audio/en-Latn_polly_jasmine.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kevin",
+      "path": "data/audio/en-Latn_polly_kevin.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Salli",
+      "path": "data/audio/en-Latn_polly_salli.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Matthew",
+      "path": "data/audio/en-Latn_polly_matthew.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kimberly",
+      "path": "data/audio/en-Latn_polly_kimberly.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kendra",
+      "path": "data/audio/en-Latn_polly_kendra.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Justin",
+      "path": "data/audio/en-Latn_polly_justin.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Joey",
+      "path": "data/audio/en-Latn_polly_joey.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Ivy",
+      "path": "data/audio/en-Latn_polly_ivy.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Aria",
+      "path": "data/audio/en-Latn_polly_aria.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Ayanda",
+      "path": "data/audio/en-Latn_polly_ayanda.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Emma",
+      "path": "data/audio/en-Latn_polly_emma.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Brian",
+      "path": "data/audio/en-Latn_polly_brian.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Amy",
+      "path": "data/audio/en-Latn_polly_amy.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Olivia",
+      "path": "data/audio/en-Latn_polly_olivia.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Stephen",
+      "path": "data/audio/en-Latn_polly_stephen.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kajal",
+      "path": "data/audio/en-Latn_polly_kajal.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Niamh",
+      "path": "data/audio/en-Latn_polly_niamh.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Arthur",
+      "path": "data/audio/en-Latn_polly_arthur.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/en-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/en-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/en-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/en-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/en-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/en-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/en-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/en-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/en-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/en-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/en-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/en-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/en-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/en-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/en-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/en-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/en-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/en-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/en-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/en-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/en-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/en-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Rebecca",
+      "path": "data/audio/en-Latn_witai_wit_rebecca.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Charlie",
+      "path": "data/audio/en-Latn_witai_wit_charlie.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cooper",
+      "path": "data/audio/en-Latn_witai_wit_cooper.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Vampire",
+      "path": "data/audio/en-Latn_witai_wit_vampire.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Prospector",
+      "path": "data/audio/en-Latn_witai_wit_prospector.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cody",
+      "path": "data/audio/en-Latn_witai_wit_cody.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Remi",
+      "path": "data/audio/en-Latn_witai_wit_remi.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cam",
+      "path": "data/audio/en-Latn_witai_wit_cam.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Connor",
+      "path": "data/audio/en-Latn_witai_wit_connor.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Railey",
+      "path": "data/audio/en-Latn_witai_wit_railey.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cael",
+      "path": "data/audio/en-Latn_witai_wit_cael.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Carl",
+      "path": "data/audio/en-Latn_witai_wit_carl.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Rubie",
+      "path": "data/audio/en-Latn_witai_wit_rubie.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Overconfident",
+      "path": "data/audio/en-Latn_witai_wit_overconfident.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Disaffected",
+      "path": "data/audio/en-Latn_witai_wit_disaffected.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Hollywood",
+      "path": "data/audio/en-Latn_witai_wit_hollywood.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Trendy",
+      "path": "data/audio/en-Latn_witai_wit_trendy.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cartoon Baby",
+      "path": "data/audio/en-Latn_witai_wit_cartoon_baby.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Surfer",
+      "path": "data/audio/en-Latn_witai_wit_surfer.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Southern Accent",
+      "path": "data/audio/en-Latn_witai_wit_southern_accent.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Kenyan Accent",
+      "path": "data/audio/en-Latn_witai_wit_kenyan_accent.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cartoon Kid",
+      "path": "data/audio/en-Latn_witai_wit_cartoon_kid.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cartoon Villain",
+      "path": "data/audio/en-Latn_witai_wit_cartoon_villain.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Rosie",
+      "path": "data/audio/en-Latn_witai_wit_rosie.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Colin",
+      "path": "data/audio/en-Latn_witai_wit_colin.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Pirate",
+      "path": "data/audio/en-Latn_witai_wit_pirate.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$British Butler",
+      "path": "data/audio/en-Latn_witai_wit_british_butler.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Whimsical",
+      "path": "data/audio/en-Latn_witai_wit_whimsical.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Wizard",
+      "path": "data/audio/en-Latn_witai_wit_wizard.wav"
+    },
+    {
+      "engine": "witai",
+      "voice_id": "wit$Cockney Accent",
+      "path": "data/audio/en-Latn_witai_wit_cockney_accent.wav"
     }
   ],
   "eo": [
@@ -2725,6 +3805,146 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_spa",
       "path": "data/audio/es-Latn_sherpaonnx_mms_spa.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Lupe",
+      "path": "data/audio/es-Latn_polly_lupe.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Mia",
+      "path": "data/audio/es-Latn_polly_mia.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Lucia",
+      "path": "data/audio/es-Latn_polly_lucia.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Pedro",
+      "path": "data/audio/es-Latn_polly_pedro.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Sergio",
+      "path": "data/audio/es-Latn_polly_sergio.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Andres",
+      "path": "data/audio/es-Latn_polly_andres.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/es-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/es-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/es-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/es-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/es-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/es-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/es-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/es-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/es-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/es-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/es-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/es-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/es-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/es-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/es-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/es-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/es-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/es-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/es-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/es-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/es-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/es-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "et": [
@@ -2848,6 +4068,121 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_fin",
       "path": "data/audio/fi-Latn_sherpaonnx_mms_fin.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Suvi",
+      "path": "data/audio/fi-Latn_polly_suvi.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/fi-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/fi-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/fi-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/fi-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/fi-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/fi-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/fi-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/fi-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/fi-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/fi-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/fi-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/fi-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/fi-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/fi-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/fi-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/fi-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/fi-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/fi-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/fi-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/fi-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/fi-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/fi-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "fr": [
@@ -3055,6 +4390,141 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_fra",
       "path": "data/audio/fr-Latn_sherpaonnx_mms_fra.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Isabelle",
+      "path": "data/audio/fr-Latn_polly_isabelle.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Lea",
+      "path": "data/audio/fr-Latn_polly_lea.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Gabrielle",
+      "path": "data/audio/fr-Latn_polly_gabrielle.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Liam",
+      "path": "data/audio/fr-Latn_polly_liam.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Remi",
+      "path": "data/audio/fr-Latn_polly_remi.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/fr-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/fr-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/fr-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/fr-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/fr-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/fr-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/fr-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/fr-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/fr-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/fr-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/fr-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/fr-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/fr-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/fr-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/fr-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/fr-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/fr-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/fr-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/fr-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/fr-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/fr-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/fr-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ga": [
@@ -3366,6 +4836,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_hin",
       "path": "data/audio/hi-Deva_sherpaonnx_mms_hin.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/hi-Deva_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/hi-Deva_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/hi-Deva_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/hi-Deva_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/hi-Deva_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/hi-Deva_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/hi-Deva_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/hi-Deva_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/hi-Deva_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/hi-Deva_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/hi-Deva_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/hi-Deva_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/hi-Deva_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/hi-Deva_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/hi-Deva_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/hi-Deva_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/hi-Deva_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/hi-Deva_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/hi-Deva_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/hi-Deva_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/hi-Deva_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/hi-Deva_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "hr": [
@@ -3383,6 +4963,116 @@
       "engine": "microsoft",
       "voice_id": "hr_hr_sreckoneural",
       "path": "data/audio/hr-Latn_microsoft_hr_hr_sreckoneural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/hr-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/hr-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/hr-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/hr-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/hr-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/hr-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/hr-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/hr-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/hr-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/hr-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/hr-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/hr-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/hr-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/hr-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/hr-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/hr-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/hr-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/hr-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/hr-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/hr-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/hr-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/hr-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ht": [
@@ -3578,6 +5268,126 @@
       "engine": "microsoft",
       "voice_id": "it_it_rinaldoneural",
       "path": "data/audio/it-Latn_microsoft_it_it_rinaldoneural.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Bianca",
+      "path": "data/audio/it-Latn_polly_bianca.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Adriano",
+      "path": "data/audio/it-Latn_polly_adriano.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/it-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/it-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/it-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/it-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/it-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/it-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/it-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/it-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/it-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/it-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/it-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/it-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/it-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/it-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/it-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/it-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/it-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/it-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/it-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/it-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/it-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/it-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ja": [
@@ -3620,6 +5430,131 @@
       "engine": "microsoft",
       "voice_id": "ja_jp_shiorineural",
       "path": "data/audio/ja-Jpan_microsoft_ja_jp_shiorineural.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kazuha",
+      "path": "data/audio/ja-Jpan_polly_kazuha.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Tomoko",
+      "path": "data/audio/ja-Jpan_polly_tomoko.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Takumi",
+      "path": "data/audio/ja-Jpan_polly_takumi.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ja-Jpan_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ja-Jpan_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ja-Jpan_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ja-Jpan_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ja-Jpan_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ja-Jpan_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ja-Jpan_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ja-Jpan_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ja-Jpan_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ja-Jpan_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ja-Jpan_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ja-Jpan_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ja-Jpan_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ja-Jpan_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ja-Jpan_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ja-Jpan_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ja-Jpan_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ja-Jpan_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ja-Jpan_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ja-Jpan_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ja-Jpan_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ja-Jpan_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "jv": [
@@ -3772,6 +5707,126 @@
       "engine": "microsoft",
       "voice_id": "ko_kr_yujinneural",
       "path": "data/audio/ko-Kore_microsoft_ko_kr_yujinneural.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Jihye",
+      "path": "data/audio/ko-Kore_polly_jihye.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Seoyeon",
+      "path": "data/audio/ko-Kore_polly_seoyeon.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ko-Kore_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ko-Kore_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ko-Kore_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ko-Kore_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ko-Kore_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ko-Kore_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ko-Kore_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ko-Kore_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ko-Kore_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ko-Kore_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ko-Kore_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ko-Kore_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ko-Kore_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ko-Kore_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ko-Kore_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ko-Kore_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ko-Kore_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ko-Kore_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ko-Kore_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ko-Kore_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ko-Kore_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ko-Kore_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ku": [
@@ -4054,6 +6109,121 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_pol",
       "path": "data/audio/pl-Latn_sherpaonnx_mms_pol.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Ola",
+      "path": "data/audio/pl-Latn_polly_ola.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/pl-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/pl-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/pl-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/pl-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/pl-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/pl-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/pl-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/pl-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/pl-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/pl-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/pl-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/pl-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/pl-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/pl-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/pl-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/pl-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/pl-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/pl-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/pl-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/pl-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/pl-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/pl-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ps": [
@@ -4188,6 +6358,136 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_por",
       "path": "data/audio/pt-Latn_sherpaonnx_mms_por.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Ines",
+      "path": "data/audio/pt-Latn_polly_ines.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Vitoria",
+      "path": "data/audio/pt-Latn_polly_vitoria.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Camila",
+      "path": "data/audio/pt-Latn_polly_camila.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Thiago",
+      "path": "data/audio/pt-Latn_polly_thiago.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/pt-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/pt-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/pt-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/pt-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/pt-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/pt-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/pt-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/pt-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/pt-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/pt-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/pt-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/pt-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/pt-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/pt-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/pt-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/pt-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/pt-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/pt-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/pt-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/pt-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/pt-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/pt-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ro": [
@@ -4210,6 +6510,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_ron",
       "path": "data/audio/ro-Latn_sherpaonnx_mms_ron.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ro-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ro-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ro-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ro-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ro-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ro-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ro-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ro-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ro-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ro-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ro-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ro-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ro-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ro-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ro-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ro-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ro-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ro-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ro-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ro-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ro-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ro-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ru": [
@@ -4368,6 +6778,121 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_swe",
       "path": "data/audio/sv-Latn_sherpaonnx_mms_swe.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Elin",
+      "path": "data/audio/sv-Latn_polly_elin.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/sv-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/sv-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/sv-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/sv-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/sv-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/sv-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/sv-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/sv-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/sv-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/sv-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/sv-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/sv-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/sv-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/sv-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/sv-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/sv-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/sv-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/sv-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/sv-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/sv-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/sv-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/sv-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "sw": [
@@ -4447,6 +6972,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_tam",
       "path": "data/audio/ta-Taml_sherpaonnx_mms_tam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ta-Taml_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ta-Taml_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ta-Taml_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ta-Taml_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ta-Taml_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ta-Taml_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ta-Taml_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ta-Taml_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ta-Taml_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ta-Taml_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ta-Taml_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ta-Taml_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ta-Taml_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ta-Taml_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ta-Taml_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ta-Taml_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ta-Taml_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ta-Taml_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ta-Taml_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ta-Taml_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ta-Taml_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ta-Taml_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "te": [
@@ -4546,6 +7181,121 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_tur",
       "path": "data/audio/tr-Latn_sherpaonnx_mms_tur.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Burcu",
+      "path": "data/audio/tr-Latn_polly_burcu.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/tr-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/tr-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/tr-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/tr-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/tr-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/tr-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/tr-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/tr-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/tr-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/tr-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/tr-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/tr-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/tr-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/tr-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/tr-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/tr-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/tr-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/tr-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/tr-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/tr-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/tr-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/tr-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "tt": [
@@ -4580,6 +7330,116 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_ukr",
       "path": "data/audio/uk-Cyrl_sherpaonnx_mms_ukr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/uk-Cyrl_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/uk-Cyrl_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/uk-Cyrl_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/uk-Cyrl_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/uk-Cyrl_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/uk-Cyrl_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/uk-Cyrl_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/uk-Cyrl_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/uk-Cyrl_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/uk-Cyrl_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/uk-Cyrl_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/uk-Cyrl_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/uk-Cyrl_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/uk-Cyrl_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/uk-Cyrl_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/uk-Cyrl_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/uk-Cyrl_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/uk-Cyrl_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/uk-Cyrl_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/uk-Cyrl_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/uk-Cyrl_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/uk-Cyrl_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ],
   "ur": [
@@ -5024,6 +7884,226 @@
       "engine": "microsoft",
       "voice_id": "zh_tw_yunjheneural",
       "path": "data/audio/zh-yue-Hant_microsoft_zh_tw_yunjheneural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/zh-Hans_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/zh-Hans_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/zh-Hans_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/zh-Hans_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/zh-Hans_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/zh-Hans_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/zh-Hans_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/zh-Hans_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/zh-Hans_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/zh-Hans_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/zh-Hans_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/zh-Hans_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/zh-Hans_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/zh-Hans_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/zh-Hans_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/zh-Hans_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/zh-Hans_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/zh-Hans_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/zh-Hans_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/zh-Hans_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/zh-Hans_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/zh-Hans_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/zh-yue-Hant_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
     }
   ]
 }
