@@ -14,6 +14,21 @@
       "engine": "espeak",
       "voice_id": "gmw/af",
       "path": "data/audio/af_espeak_gmw_af.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "gmw/af",
+      "path": "data\\audio\\af-Latn_espeak_gmw_af.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "af-ZA-AdriNeural",
+      "path": "data\\audio\\af-Latn_microsoft_af_za_adrineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "af-ZA-WillemNeural",
+      "path": "data\\audio\\af-Latn_microsoft_af_za_willemneural.wav"
     }
   ],
   "ak": [
@@ -21,6 +36,11 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_aka",
       "path": "data/audio/ak_sherpaonnx_mms_aka.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_aka",
+      "path": "data\\audio\\ak-Latn_sherpaonnx_mms_aka.wav"
     }
   ],
   "am": [
@@ -38,6 +58,21 @@
       "engine": "espeak",
       "voice_id": "sem/am",
       "path": "data/audio/am_espeak_sem_am.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "sem/am",
+      "path": "data\\audio\\am-Ethi_espeak_sem_am.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "am-ET-MekdesNeural",
+      "path": "data\\audio\\am-Ethi_microsoft_am_et_mekdesneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "am-ET-AmehaNeural",
+      "path": "data\\audio\\am-Ethi_microsoft_am_et_amehaneural.wav"
     }
   ],
   "ar": [
@@ -190,16 +225,7 @@
       "engine": "microsoft",
       "voice_id": "ar-SY-LaithNeural",
       "path": "data/audio/ar_microsoft_ar_sy_laithneural.wav"
-    }
-  ],
-  "ak-Latn": [
-    {
-      "engine": "sherpaonnx",
-      "voice_id": "mms_aka",
-      "path": "data\\audio\\ak-Latn_sherpaonnx_mms_aka.wav"
-    }
-  ],
-  "ar-Arab": [
+    },
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ara",
@@ -371,7 +397,7 @@
       "path": "data\\audio\\ar-Arab_microsoft_ar_ye_salehneural.wav"
     }
   ],
-  "ba-Cyrl": [
+  "ba": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_bak",
@@ -383,14 +409,14 @@
       "path": "data\\audio\\ba-Cyrl_espeak_trk_ba.wav"
     }
   ],
-  "ban-Latn": [
+  "ban": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ban",
       "path": "data\\audio\\ban-Latn_sherpaonnx_mms_ban.wav"
     }
   ],
-  "bg-Cyrl": [
+  "bg": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_bul",
@@ -412,14 +438,14 @@
       "path": "data\\audio\\bg-Cyrl_microsoft_bg_bg_borislavneural.wav"
     }
   ],
-  "bm-Latn": [
+  "bm": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_bam",
       "path": "data\\audio\\bm-Latn_sherpaonnx_mms_bam.wav"
     }
   ],
-  "bn-Beng": [
+  "bn": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ben",
@@ -451,7 +477,7 @@
       "path": "data\\audio\\bn-Beng_microsoft_bn_in_bashkarneural.wav"
     }
   ],
-  "ca-Latn": [
+  "ca": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_cat",
@@ -478,14 +504,14 @@
       "path": "data\\audio\\ca-Latn_microsoft_ca_es_albaneural.wav"
     }
   ],
-  "ceb-Latn": [
+  "ceb": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ceb",
       "path": "data\\audio\\ceb-Latn_sherpaonnx_mms_ceb.wav"
     }
   ],
-  "cv-Cyrl": [
+  "cv": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_chv",
@@ -497,7 +523,7 @@
       "path": "data\\audio\\cv-Cyrl_espeak_trk_cv.wav"
     }
   ],
-  "cy-Latn": [
+  "cy": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_cym",
@@ -519,7 +545,7 @@
       "path": "data\\audio\\cy-Latn_microsoft_cy_gb_aledneural.wav"
     }
   ],
-  "de-Latn": [
+  "de": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_deu",
@@ -636,14 +662,14 @@
       "path": "data\\audio\\de-Latn_microsoft_de_de_tanjaneural.wav"
     }
   ],
-  "dz-Tibt": [
+  "dz": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_dzo",
       "path": "data\\audio\\dz-Tibt_sherpaonnx_mms_dzo.wav"
     }
   ],
-  "el-Grek": [
+  "el": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ell",
@@ -665,7 +691,7 @@
       "path": "data\\audio\\el-Grek_microsoft_el_gr_nestorasneural.wav"
     }
   ],
-  "en-Latn": [
+  "en": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_eng",
@@ -1302,7 +1328,7 @@
       "path": "data\\audio\\en-Latn_microsoft_en_za_lukeneural.wav"
     }
   ],
-  "es-Latn": [
+  "es": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_spa",
@@ -1704,7 +1730,7 @@
       "path": "data\\audio\\es-Latn_microsoft_es_ve_sebastianneura.wav"
     }
   ],
-  "eu-Latn": [
+  "eu": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_eus",
@@ -1726,7 +1752,7 @@
       "path": "data\\audio\\eu-Latn_microsoft_eu_es_anderneural.wav"
     }
   ],
-  "fa-Arab": [
+  "fa": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_fas",
@@ -1753,7 +1779,7 @@
       "path": "data\\audio\\fa-Arab_microsoft_fa_ir_faridneural.wav"
     }
   ],
-  "fi-Latn": [
+  "fi": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_fin",
@@ -1780,7 +1806,7 @@
       "path": "data\\audio\\fi-Latn_microsoft_fi_fi_nooraneural.wav"
     }
   ],
-  "fr-Latn": [
+  "fr": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_fra",
@@ -1927,7 +1953,7 @@
       "path": "data\\audio\\fr-Latn_microsoft_fr_fr_yvetteneural.wav"
     }
   ],
-  "gn-Latn": [
+  "gn": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_grn",
@@ -1939,7 +1965,7 @@
       "path": "data\\audio\\gn-Latn_espeak_sai_gn.wav"
     }
   ],
-  "gu-Gujr": [
+  "gu": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_guj",
@@ -1961,7 +1987,7 @@
       "path": "data\\audio\\gu-Gujr_microsoft_gu_in_niranjanneural.wav"
     }
   ],
-  "he-Hebr": [
+  "he": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_heb",
@@ -1983,7 +2009,7 @@
       "path": "data\\audio\\he-Hebr_microsoft_he_il_avrineural.wav"
     }
   ],
-  "hi-Deva": [
+  "hi": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_hin",
@@ -2040,7 +2066,7 @@
       "path": "data\\audio\\hi-Deva_microsoft_hi_in_madhurneural.wav"
     }
   ],
-  "ht-Latn": [
+  "ht": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_hat",
@@ -2052,7 +2078,7 @@
       "path": "data\\audio\\ht-Latn_espeak_roa_ht.wav"
     }
   ],
-  "hu-Latn": [
+  "hu": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_hun",
@@ -2074,7 +2100,7 @@
       "path": "data\\audio\\hu-Latn_microsoft_hu_hu_tamasneural.wav"
     }
   ],
-  "is-Latn": [
+  "is": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_isl",
@@ -2096,7 +2122,7 @@
       "path": "data\\audio\\is-Latn_microsoft_is_is_gunnarneural.wav"
     }
   ],
-  "jv-Latn": [
+  "jv": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_jav",
@@ -2113,7 +2139,7 @@
       "path": "data\\audio\\jv-Latn_microsoft_jv_id_dimasneural.wav"
     }
   ],
-  "kk-Cyrl": [
+  "kk": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_kaz",
@@ -2135,7 +2161,7 @@
       "path": "data\\audio\\kk-Cyrl_microsoft_kk_kz_dauletneural.wav"
     }
   ],
-  "km-Khmr": [
+  "km": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_khm",
@@ -2152,7 +2178,7 @@
       "path": "data\\audio\\km-Khmr_microsoft_km_kh_pisethneural.wav"
     }
   ],
-  "kn-Knda": [
+  "kn": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_kan",
@@ -2174,7 +2200,7 @@
       "path": "data\\audio\\kn-Knda_microsoft_kn_in_gaganneural.wav"
     }
   ],
-  "ky-Cyrl": [
+  "ky": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_kir",
@@ -2186,7 +2212,7 @@
       "path": "data\\audio\\ky-Cyrl_espeak_trk_ky.wav"
     }
   ],
-  "la-Latn": [
+  "la": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_lat",
@@ -2198,14 +2224,14 @@
       "path": "data\\audio\\la-Latn_espeak_itc_la.wav"
     }
   ],
-  "lb-Latn": [
+  "lb": [
     {
       "engine": "espeak",
       "voice_id": "gmw/lb",
       "path": "data\\audio\\lb-Latn_espeak_gmw_lb.wav"
     }
   ],
-  "lo-Laoo": [
+  "lo": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_lao",
@@ -2222,7 +2248,7 @@
       "path": "data\\audio\\lo-Laoo_microsoft_lo_la_chanthavongneu.wav"
     }
   ],
-  "lt-Latn": [
+  "lt": [
     {
       "engine": "espeak",
       "voice_id": "bat/lt",
@@ -2239,7 +2265,7 @@
       "path": "data\\audio\\lt-Latn_microsoft_lt_lt_leonasneural.wav"
     }
   ],
-  "lv-Latn": [
+  "lv": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_lav",
@@ -2261,14 +2287,14 @@
       "path": "data\\audio\\lv-Latn_microsoft_lv_lv_nilsneural.wav"
     }
   ],
-  "mg-Latn": [
+  "mg": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mlg",
       "path": "data\\audio\\mg-Latn_sherpaonnx_mms_mlg.wav"
     }
   ],
-  "mk-Cyrl": [
+  "mk": [
     {
       "engine": "espeak",
       "voice_id": "zls/mk",
@@ -2285,7 +2311,7 @@
       "path": "data\\audio\\mk-Cyrl_microsoft_mk_mk_aleksandarneur.wav"
     }
   ],
-  "ml-Mlym": [
+  "ml": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mal",
@@ -2307,7 +2333,7 @@
       "path": "data\\audio\\ml-Mlym_microsoft_ml_in_midhunneural.wav"
     }
   ],
-  "mn-Cyrl": [
+  "mn": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mon",
@@ -2324,7 +2350,7 @@
       "path": "data\\audio\\mn-Cyrl_microsoft_mn_mn_bataaneural.wav"
     }
   ],
-  "mr-Deva": [
+  "mr": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mar",
@@ -2344,9 +2370,7 @@
       "engine": "microsoft",
       "voice_id": "mr-IN-ManoharNeural",
       "path": "data\\audio\\mr-Deva_microsoft_mr_in_manoharneural.wav"
-    }
-  ],
-  "mr-Latn": [
+    },
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mar",
@@ -2368,7 +2392,7 @@
       "path": "data\\audio\\mr-Latn_microsoft_mr_in_manoharneural.wav"
     }
   ],
-  "my-Mymr": [
+  "my": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_mya",
@@ -2390,7 +2414,7 @@
       "path": "data\\audio\\my-Mymr_microsoft_my_mm_thihaneural.wav"
     }
   ],
-  "ne-Deva": [
+  "ne": [
     {
       "engine": "espeak",
       "voice_id": "inc/ne",
@@ -2407,7 +2431,7 @@
       "path": "data\\audio\\ne-Deva_microsoft_ne_np_sagarneural.wav"
     }
   ],
-  "or-Orya": [
+  "or": [
     {
       "engine": "espeak",
       "voice_id": "inc/or",
@@ -2424,7 +2448,7 @@
       "path": "data\\audio\\or-Orya_microsoft_or_in_sukantneural.wav"
     }
   ],
-  "pl-Latn": [
+  "pl": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_pol",
@@ -2451,7 +2475,7 @@
       "path": "data\\audio\\pl-Latn_microsoft_pl_pl_zofianeural.wav"
     }
   ],
-  "pt-Latn": [
+  "pt": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_por",
@@ -2573,7 +2597,7 @@
       "path": "data\\audio\\pt-Latn_microsoft_pt_pt_fernandaneural.wav"
     }
   ],
-  "ro-Latn": [
+  "ro": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ron",
@@ -2595,7 +2619,7 @@
       "path": "data\\audio\\ro-Latn_microsoft_ro_ro_emilneural.wav"
     }
   ],
-  "ru-Cyrl": [
+  "ru": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_rus",
@@ -2627,14 +2651,14 @@
       "path": "data\\audio\\ru-Cyrl_microsoft_ru_ru_dariyaneural.wav"
     }
   ],
-  "sg-Latn": [
+  "sg": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_sag",
       "path": "data\\audio\\sg-Latn_sherpaonnx_mms_sag.wav"
     }
   ],
-  "si-Sinh": [
+  "si": [
     {
       "engine": "espeak",
       "voice_id": "inc/si",
@@ -2651,7 +2675,7 @@
       "path": "data\\audio\\si-Sinh_microsoft_si_lk_sameeraneural.wav"
     }
   ],
-  "sl-Latn": [
+  "sl": [
     {
       "engine": "espeak",
       "voice_id": "zls/sl",
@@ -2668,14 +2692,14 @@
       "path": "data\\audio\\sl-Latn_microsoft_sl_si_rokneural.wav"
     }
   ],
-  "sn-Latn": [
+  "sn": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_sna",
       "path": "data\\audio\\sn-Latn_sherpaonnx_mms_sna.wav"
     }
   ],
-  "so-Latn": [
+  "so": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_som",
@@ -2692,7 +2716,7 @@
       "path": "data\\audio\\so-Latn_microsoft_so_so_muuseneural.wav"
     }
   ],
-  "sr-Cyrl": [
+  "sr": [
     {
       "engine": "espeak",
       "voice_id": "zls/sr",
@@ -2709,7 +2733,7 @@
       "path": "data\\audio\\sr-Cyrl_microsoft_sr_rs_nicholasneural.wav"
     }
   ],
-  "su-Latn": [
+  "su": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_sun",
@@ -2726,7 +2750,7 @@
       "path": "data\\audio\\su-Latn_microsoft_su_id_jajangneural.wav"
     }
   ],
-  "sv-Latn": [
+  "sv": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_swe",
@@ -2753,7 +2777,7 @@
       "path": "data\\audio\\sv-Latn_microsoft_sv_se_hillevineural.wav"
     }
   ],
-  "sw-Latn": [
+  "sw": [
     {
       "engine": "espeak",
       "voice_id": "bnt/sw",
@@ -2780,7 +2804,7 @@
       "path": "data\\audio\\sw-Latn_microsoft_sw_tz_daudineural.wav"
     }
   ],
-  "ta-Taml": [
+  "ta": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tam",
@@ -2832,7 +2856,7 @@
       "path": "data\\audio\\ta-Taml_microsoft_ta_sg_anbuneural.wav"
     }
   ],
-  "te-Telu": [
+  "te": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tel",
@@ -2854,14 +2878,14 @@
       "path": "data\\audio\\te-Telu_microsoft_te_in_mohanneural.wav"
     }
   ],
-  "tg-Cyrl": [
+  "tg": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tgk",
       "path": "data\\audio\\tg-Cyrl_sherpaonnx_mms_tgk.wav"
     }
   ],
-  "th-Thai": [
+  "th": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tha",
@@ -2888,21 +2912,21 @@
       "path": "data\\audio\\th-Thai_microsoft_th_th_acharaneural.wav"
     }
   ],
-  "tk-Latn": [
+  "tk": [
     {
       "engine": "espeak",
       "voice_id": "trk/tk",
       "path": "data\\audio\\tk-Latn_espeak_trk_tk.wav"
     }
   ],
-  "tn-Latn": [
+  "tn": [
     {
       "engine": "espeak",
       "voice_id": "bnt/tn",
       "path": "data\\audio\\tn-Latn_espeak_bnt_tn.wav"
     }
   ],
-  "tr-Latn": [
+  "tr": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tur",
@@ -2924,7 +2948,7 @@
       "path": "data\\audio\\tr-Latn_microsoft_tr_tr_ahmetneural.wav"
     }
   ],
-  "tt-Cyrl": [
+  "tt": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_tat",
@@ -2936,7 +2960,7 @@
       "path": "data\\audio\\tt-Cyrl_espeak_trk_tt.wav"
     }
   ],
-  "uk-Cyrl": [
+  "uk": [
     {
       "engine": "sherpaonnx",
       "voice_id": "mms_ukr",
@@ -2958,7 +2982,7 @@
       "path": "data\\audio\\uk-Cyrl_microsoft_uk_ua_ostapneural.wav"
     }
   ],
-  "ur-Arab": [
+  "ur": [
     {
       "engine": "espeak",
       "voice_id": "inc/ur",
@@ -2985,41 +3009,7 @@
       "path": "data\\audio\\ur-Arab_microsoft_ur_pk_asadneural.wav"
     }
   ],
-  "af-Latn": [
-    {
-      "engine": "espeak",
-      "voice_id": "gmw/af",
-      "path": "data\\audio\\af-Latn_espeak_gmw_af.wav"
-    },
-    {
-      "engine": "microsoft",
-      "voice_id": "af-ZA-AdriNeural",
-      "path": "data\\audio\\af-Latn_microsoft_af_za_adrineural.wav"
-    },
-    {
-      "engine": "microsoft",
-      "voice_id": "af-ZA-WillemNeural",
-      "path": "data\\audio\\af-Latn_microsoft_af_za_willemneural.wav"
-    }
-  ],
-  "am-Ethi": [
-    {
-      "engine": "espeak",
-      "voice_id": "sem/am",
-      "path": "data\\audio\\am-Ethi_espeak_sem_am.wav"
-    },
-    {
-      "engine": "microsoft",
-      "voice_id": "am-ET-MekdesNeural",
-      "path": "data\\audio\\am-Ethi_microsoft_am_et_mekdesneural.wav"
-    },
-    {
-      "engine": "microsoft",
-      "voice_id": "am-ET-AmehaNeural",
-      "path": "data\\audio\\am-Ethi_microsoft_am_et_amehaneural.wav"
-    }
-  ],
-  "az-Latn": [
+  "az": [
     {
       "engine": "espeak",
       "voice_id": "trk/az",
@@ -3036,14 +3026,14 @@
       "path": "data\\audio\\az-Latn_microsoft_az_az_babekneural.wav"
     }
   ],
-  "be-Cyrl": [
+  "be": [
     {
       "engine": "espeak",
       "voice_id": "zle/be",
       "path": "data\\audio\\be-Cyrl_espeak_zle_be.wav"
     }
   ],
-  "bs-Latn": [
+  "bs": [
     {
       "engine": "espeak",
       "voice_id": "zls/bs",
@@ -3060,7 +3050,7 @@
       "path": "data\\audio\\bs-Latn_microsoft_bs_ba_goranneural.wav"
     }
   ],
-  "cs-Latn": [
+  "cs": [
     {
       "engine": "espeak",
       "voice_id": "zlw/cs",
@@ -3077,7 +3067,7 @@
       "path": "data\\audio\\cs-Latn_microsoft_cs_cz_antoninneural.wav"
     }
   ],
-  "da-Latn": [
+  "da": [
     {
       "engine": "espeak",
       "voice_id": "gmq/da",
@@ -3094,14 +3084,14 @@
       "path": "data\\audio\\da-Latn_microsoft_da_dk_jeppeneural.wav"
     }
   ],
-  "eo-Latn": [
+  "eo": [
     {
       "engine": "espeak",
       "voice_id": "art/eo",
       "path": "data\\audio\\eo-Latn_espeak_art_eo.wav"
     }
   ],
-  "et-Latn": [
+  "et": [
     {
       "engine": "espeak",
       "voice_id": "urj/et",
@@ -3118,7 +3108,7 @@
       "path": "data\\audio\\et-Latn_microsoft_et_ee_kertneural.wav"
     }
   ],
-  "ga-Latn": [
+  "ga": [
     {
       "engine": "espeak",
       "voice_id": "cel/ga",
@@ -3135,21 +3125,21 @@
       "path": "data\\audio\\ga-Latn_microsoft_ga_ie_colmneural.wav"
     }
   ],
-  "gd-Latn": [
+  "gd": [
     {
       "engine": "espeak",
       "voice_id": "cel/gd",
       "path": "data\\audio\\gd-Latn_espeak_cel_gd.wav"
     }
   ],
-  "haw-Latn": [
+  "haw": [
     {
       "engine": "espeak",
       "voice_id": "map/haw",
       "path": "data\\audio\\haw-Latn_espeak_map_haw.wav"
     }
   ],
-  "hr-Latn": [
+  "hr": [
     {
       "engine": "espeak",
       "voice_id": "zls/hr",
@@ -3166,7 +3156,7 @@
       "path": "data\\audio\\hr-Latn_microsoft_hr_hr_sreckoneural.wav"
     }
   ],
-  "hy-Armn": [
+  "hy": [
     {
       "engine": "espeak",
       "voice_id": "ine/hy",
@@ -3183,7 +3173,7 @@
       "path": "data\\audio\\hy-Armn_microsoft_hy_am_haykneural.wav"
     }
   ],
-  "it-Latn": [
+  "it": [
     {
       "engine": "espeak",
       "voice_id": "roa/it",
@@ -3290,7 +3280,7 @@
       "path": "data\\audio\\it-Latn_microsoft_it_it_rinaldoneural.wav"
     }
   ],
-  "ja-Jpan": [
+  "ja": [
     {
       "engine": "espeak",
       "voice_id": "jpx/ja",
@@ -3332,7 +3322,7 @@
       "path": "data\\audio\\ja-Jpan_microsoft_ja_jp_shiorineural.wav"
     }
   ],
-  "ka-Geor": [
+  "ka": [
     {
       "engine": "espeak",
       "voice_id": "ccs/ka",
@@ -3349,7 +3339,7 @@
       "path": "data\\audio\\ka-Geor_microsoft_ka_ge_giorgineural.wav"
     }
   ],
-  "ko-Kore": [
+  "ko": [
     {
       "engine": "espeak",
       "voice_id": "ko",
@@ -3406,14 +3396,14 @@
       "path": "data\\audio\\ko-Kore_microsoft_ko_kr_yujinneural.wav"
     }
   ],
-  "ku-Latn": [
+  "ku": [
     {
       "engine": "espeak",
       "voice_id": "ira/ku",
       "path": "data\\audio\\ku-Latn_espeak_ira_ku.wav"
     }
   ],
-  "gl-Latn": [
+  "gl": [
     {
       "engine": "microsoft",
       "voice_id": "gl-ES-SabelaNeural",
@@ -3425,7 +3415,7 @@
       "path": "data\\audio\\gl-Latn_microsoft_gl_es_roineural.wav"
     }
   ],
-  "ps-Arab": [
+  "ps": [
     {
       "engine": "microsoft",
       "voice_id": "ps-AF-LatifaNeural",
@@ -3437,7 +3427,7 @@
       "path": "data\\audio\\ps-Arab_microsoft_ps_af_gulnawazneural.wav"
     }
   ],
-  "zh-Hans": [
+  "zh": [
     {
       "engine": "microsoft",
       "voice_id": "zh-CN-XiaoxiaoNeural",
@@ -3632,9 +3622,7 @@
       "engine": "microsoft",
       "voice_id": "zh-TW-HsiaoYuNeural",
       "path": "data\\audio\\zh-Hans_microsoft_zh_tw_hsiaoyuneural.wav"
-    }
-  ],
-  "zh-yue-Hant": [
+    },
     {
       "engine": "microsoft",
       "voice_id": "zh-CN-XiaoxiaoNeural",

@@ -209,9 +209,11 @@ def generate_audio_files(skip_existing: bool = True) -> None:
 
             # If the file already exists and skip_existing is True, skip it
             if out_path.exists() and skip_existing:
+                # Use base language code for audio index (e.g., "en-Latn" -> "en")
+                base_lang_for_index = base_lang_code
                 add_index_entry(
                     audio_index,
-                    lang=lang_code,
+                    lang=base_lang_for_index,
                     engine=engine,
                     voice_id=voice_id,
                     path=out_path,
@@ -244,9 +246,11 @@ def generate_audio_files(skip_existing: bool = True) -> None:
             if ok:
                 print(f"  -> Saved to {out_path}")
                 generated += 1
+                # Use base language code for audio index (e.g., "en-Latn" -> "en")
+                base_lang_for_index = base_lang_code
                 add_index_entry(
                     audio_index,
-                    lang=lang_code,
+                    lang=base_lang_for_index,
                     engine=engine,
                     voice_id=voice_id,
                     path=out_path,
