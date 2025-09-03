@@ -156,6 +156,24 @@
     "file": "ba-Cyrl.json"
   },
   {
+    "language": "bal",
+    "script": "Arab",
+    "name": "Baluchi",
+    "iso639_3": "bal",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "file": "bal-Arab.json"
+  },
+  {
+    "language": "bal",
+    "script": "Latn",
+    "name": "Baluchi",
+    "iso639_3": "bal",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "file": "bal-Latn.json"
+  },
+  {
     "language": "ban",
     "script": "Latn",
     "name": "Balinese",
@@ -247,6 +265,15 @@
     "letterCount": 44,
     "hasFrequency": true,
     "file": "bgc-Deva.json"
+  },
+  {
+    "language": "bgn",
+    "script": "Arab",
+    "name": "Western Balochi",
+    "iso639_3": "bgn",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "file": "bgn-Arab.json"
   },
   {
     "language": "bho",

@@ -1190,8 +1190,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Arab"
+      "Arab",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -1232,8 +1232,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -2403,8 +2403,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -3697,8 +3697,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Mtei"
+      "Mtei",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -5273,8 +5273,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Lisu",
-      "Latn"
+      "Latn",
+      "Lisu"
     ],
     "sources": [
       "iso639-3"
@@ -6928,11 +6928,14 @@
     "iso639_3": "bal",
     "name": "Baluchi",
     "type": "L",
-    "scope": "M",
+    "scope": "I",
     "status": "active",
-    "scripts": [],
+    "scripts": [
+      "Arab",
+      "Latn"
+    ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "bam": {
@@ -7451,9 +7454,11 @@
     "type": "L",
     "scope": "I",
     "status": "active",
-    "scripts": [],
+    "scripts": [
+      "Arab"
+    ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "bcd": {
@@ -7638,8 +7643,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -8383,8 +8388,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -8767,8 +8772,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Deva",
-      "Takr"
+      "Takr",
+      "Deva"
     ],
     "sources": [
       "iso639-3"
@@ -8931,9 +8936,12 @@
     "type": "L",
     "scope": "I",
     "status": "active",
-    "scripts": [],
+    "scripts": [
+      "Arab",
+      "Latn"
+    ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "bgo": {
@@ -8957,9 +8965,11 @@
     "type": "L",
     "scope": "I",
     "status": "active",
-    "scripts": [],
+    "scripts": [
+      "Arab"
+    ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "bgq": {
@@ -9066,8 +9076,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -10602,8 +10612,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Laoo",
-      "Tavt"
+      "Tavt",
+      "Laoo"
     ],
     "sources": [
       "iso639-3"
@@ -12853,8 +12863,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Bass"
+      "Bass",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -13282,9 +13292,9 @@
     "scope": "M",
     "status": "active",
     "scripts": [
-      "Cyrl",
       "Latn",
-      "Mong"
+      "Mong",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -14430,9 +14440,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
       "Latn",
-      "Mong"
+      "Mong",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -14748,8 +14758,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -15929,8 +15939,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Cakm"
+      "Cakm",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -16064,8 +16074,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Hani"
+      "Hani",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -16510,8 +16520,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Dupl",
-      "Latn"
+      "Latn",
+      "Dupl"
     ],
     "sources": [
       "iso639-3"
@@ -16570,11 +16580,10 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cher",
-      "Latn"
+      "Cher"
     ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "cht": {
@@ -17523,8 +17532,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Hans",
-      "Hani"
+      "Hani",
+      "Hans"
     ],
     "sources": [
       "iso639-3"
@@ -18261,8 +18270,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Hans",
-      "Hant"
+      "Hant",
+      "Hans"
     ],
     "sources": [
       "iso639-3"
@@ -19829,9 +19838,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Latn",
       "Arab",
-      "Latn"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -23691,8 +23700,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Cprt",
-      "Cpmn"
+      "Cpmn",
+      "Cprt"
     ],
     "sources": [
       "iso639-3"
@@ -23815,10 +23824,10 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Egyp",
-      "Copt",
+      "Egyh",
       "Egyd",
-      "Egyh"
+      "Egyp",
+      "Copt"
     ],
     "sources": [
       "iso639-3"
@@ -24921,8 +24930,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -25177,9 +25186,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
       "Latn",
-      "Mong"
+      "Mong",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -25648,8 +25657,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
       "Latn",
+      "Arab",
       "Copt"
     ],
     "sources": [
@@ -26346,9 +26355,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Adlm",
       "Latn",
-      "Arab"
+      "Arab",
+      "Adlm"
     ],
     "sources": [
       "iso639-3"
@@ -26644,8 +26653,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -28478,8 +28487,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Deva",
-      "Takr"
+      "Takr",
+      "Deva"
     ],
     "sources": [
       "iso639-3"
@@ -30276,8 +30285,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -31386,9 +31395,11 @@
     "type": "L",
     "scope": "I",
     "status": "active",
-    "scripts": [],
+    "scripts": [
+      "Latn"
+    ],
     "sources": [
-      "iso639-3"
+      "manual"
     ]
   },
   "hax": {
@@ -31479,8 +31490,8 @@
     "status": "inactive",
     "scripts": [
       "Phnx",
-      "Samr",
-      "Hebr"
+      "Hebr",
+      "Samr"
     ],
     "sources": [
       "iso639-3"
@@ -32319,9 +32330,9 @@
     "scope": "M",
     "status": "active",
     "scripts": [
+      "Hmnp",
       "Latn",
-      "Hmng",
-      "Hmnp"
+      "Hmng"
     ],
     "sources": [
       "iso639-3"
@@ -32669,12 +32680,12 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Wara",
       "Telu",
+      "Latn",
       "Deva",
       "Orya",
-      "Beng"
+      "Beng",
+      "Wara"
     ],
     "sources": [
       "iso639-3"
@@ -35579,8 +35590,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -35826,8 +35837,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Hani"
+      "Hani",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -36524,8 +36535,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -37870,8 +37881,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -38251,9 +38262,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Latn",
       "Arab",
-      "Latn"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -38432,8 +38443,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -39099,9 +39110,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
       "Latn",
-      "Hebr"
+      "Hebr",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -40192,11 +40203,11 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Laoo",
+      "Tale",
       "Lana",
       "Thai",
-      "Tale",
-      "Talu"
+      "Talu",
+      "Laoo"
     ],
     "sources": [
       "iso639-3"
@@ -40304,8 +40315,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Mong"
+      "Mong",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -40361,8 +40372,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Khar",
-      "Brah"
+      "Brah",
+      "Khar"
     ],
     "sources": [
       "iso639-3"
@@ -40978,8 +40989,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -41059,8 +41070,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Leke",
-      "Thai"
+      "Thai",
+      "Leke"
     ],
     "sources": [
       "iso639-3"
@@ -42112,9 +42123,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Latn",
       "Arab",
-      "Latn"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -42674,10 +42685,10 @@
     "scope": "M",
     "status": "active",
     "scripts": [
-      "Arab",
       "Latn",
-      "Knda",
+      "Arab",
       "Deva",
+      "Knda",
       "Mlym"
     ],
     "sources": [
@@ -43526,8 +43537,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -43581,8 +43592,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -43770,8 +43781,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Deva",
-      "Tols"
+      "Tols",
+      "Deva"
     ],
     "sources": [
       "iso639-3"
@@ -44677,9 +44688,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Latn",
       "Arab",
-      "Latn"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -46106,9 +46117,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Chis",
+      "Deva",
       "Orya",
-      "Deva"
+      "Chis"
     ],
     "sources": [
       "iso639-3"
@@ -47754,8 +47765,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -48623,8 +48634,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -49183,8 +49194,8 @@
     "status": "active",
     "scripts": [
       "Deva",
-      "Knda",
-      "Telu"
+      "Telu",
+      "Knda"
     ],
     "sources": [
       "iso639-3"
@@ -51264,8 +51275,8 @@
     "status": "active",
     "scripts": [
       "Latn",
-      "Maka",
-      "Bugi"
+      "Bugi",
+      "Maka"
     ],
     "sources": [
       "iso639-3"
@@ -52161,8 +52172,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -52769,8 +52780,8 @@
     "status": "active",
     "scripts": [
       "Thai",
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -55535,8 +55546,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Nkoo"
+      "Nkoo",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -55590,8 +55601,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Hani"
+      "Hani",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -59112,8 +59123,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -61109,8 +61120,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Deva",
-      "Ranj"
+      "Ranj",
+      "Deva"
     ],
     "sources": [
       "iso639-3"
@@ -63702,8 +63713,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -65352,10 +65363,10 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Deva",
-      "Brah",
       "Ranj",
-      "Newa"
+      "Deva",
+      "Newa",
+      "Brah"
     ],
     "sources": [
       "iso639-3"
@@ -67945,8 +67956,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
-      "Osge"
+      "Osge",
+      "Latn"
     ],
     "sources": [
       "iso639-3"
@@ -68370,10 +68381,10 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Brah",
+      "Ougr",
       "Orkh",
-      "Tibt",
-      "Ougr"
+      "Brah",
+      "Tibt"
     ],
     "sources": [
       "iso639-3"
@@ -68626,9 +68637,9 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
+      "Mani",
       "Avst",
-      "Phli",
-      "Mani"
+      "Phli"
     ],
     "sources": [
       "iso639-3"
@@ -69708,8 +69719,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Deva",
-      "Takr"
+      "Takr",
+      "Deva"
     ],
     "sources": [
       "iso639-3"
@@ -71302,9 +71313,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Grek",
       "Latn",
-      "Grek"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -73807,10 +73818,10 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
+      "Cirt",
       "Latn",
-      "Sara",
       "Teng",
-      "Cirt"
+      "Sara"
     ],
     "sources": [
       "iso639-3"
@@ -74933,8 +74944,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -75096,8 +75107,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -75337,9 +75348,9 @@
     "scope": "M",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Deva",
       "Latn",
-      "Deva"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -76791,8 +76802,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Taml",
-      "Sinh"
+      "Sinh",
+      "Taml"
     ],
     "sources": [
       "iso639-3"
@@ -77712,8 +77723,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -77994,8 +78005,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -78158,8 +78169,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -78269,8 +78280,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -78668,9 +78679,9 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
+      "Cirt",
       "Latn",
-      "Teng",
-      "Cirt"
+      "Teng"
     ],
     "sources": [
       "iso639-3"
@@ -80083,9 +80094,9 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Syrc",
+      "Mani",
       "Sogd",
-      "Mani"
+      "Syrc"
     ],
     "sources": [
       "iso639-3"
@@ -80799,10 +80810,10 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Latn",
       "Orya",
-      "Sora",
-      "Telu"
+      "Latn",
+      "Telu",
+      "Sora"
     ],
     "sources": [
       "iso639-3"
@@ -81007,8 +81018,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -81430,8 +81441,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Ethi",
-      "Latn"
+      "Latn",
+      "Ethi"
     ],
     "sources": [
       "iso639-3"
@@ -82025,8 +82036,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -82653,8 +82664,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Syrc",
-      "Syre"
+      "Syre",
+      "Syrc"
     ],
     "sources": [
       "iso639-3"
@@ -82697,8 +82708,8 @@
     "scripts": [
       "Deva",
       "Latn",
-      "Sylo",
-      "Beng"
+      "Beng",
+      "Sylo"
     ],
     "sources": [
       "iso639-3"
@@ -83910,9 +83921,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
+      "Tutg",
       "Mlym",
-      "Knda",
-      "Tutg"
+      "Knda"
     ],
     "sources": [
       "iso639-3"
@@ -83940,9 +83951,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
+      "Tfng",
       "Latn",
-      "Tfng"
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -83983,8 +83994,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Lana",
-      "Tale"
+      "Tale",
+      "Lana"
     ],
     "sources": [
       "iso639-3"
@@ -84622,8 +84633,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Arab",
-      "Latn"
+      "Latn",
+      "Arab"
     ],
     "sources": [
       "iso639-3"
@@ -86217,9 +86228,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
+      "Latn",
       "Arab",
-      "Latn"
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -88492,9 +88503,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
       "Latn",
-      "Hebr"
+      "Hebr",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -89705,8 +89716,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Laoo",
-      "Tavt"
+      "Tavt",
+      "Laoo"
     ],
     "sources": [
       "iso639-3"
@@ -89760,8 +89771,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -90034,8 +90045,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -90091,8 +90102,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -91005,10 +91016,10 @@
     "status": "active",
     "scripts": [
       "Latn",
-      "Nagm",
       "Deva",
       "Orya",
-      "Beng"
+      "Beng",
+      "Nagm"
     ],
     "sources": [
       "iso639-3"
@@ -91573,8 +91584,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Grek"
+      "Grek",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -93427,8 +93438,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -96115,8 +96126,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -96304,8 +96315,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Grek",
-      "Mani"
+      "Mani",
+      "Grek"
     ],
     "sources": [
       "iso639-3"
@@ -97176,8 +97187,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Ugar",
       "Xsux",
+      "Ugar",
       "Hluw"
     ],
     "sources": [
@@ -98180,11 +98191,11 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Arab",
-      "Phag",
-      "Mong",
       "Hani",
-      "Armn"
+      "Arab",
+      "Armn",
+      "Phag",
+      "Mong"
     ],
     "sources": [
       "iso639-3"
@@ -98763,8 +98774,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Armi",
-      "Mani"
+      "Mani",
+      "Armi"
     ],
     "sources": [
       "iso639-3"
@@ -99684,8 +99695,8 @@
     "scope": "I",
     "status": "inactive",
     "scripts": [
-      "Ital",
-      "Latn"
+      "Latn",
+      "Ital"
     ],
     "sources": [
       "iso639-3"
@@ -100295,8 +100306,8 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Cyrl",
-      "Latn"
+      "Latn",
+      "Cyrl"
     ],
     "sources": [
       "iso639-3"
@@ -102208,9 +102219,9 @@
     "scope": "I",
     "status": "active",
     "scripts": [
-      "Hira",
       "Hrkt",
-      "Kana"
+      "Kana",
+      "Hira"
     ],
     "sources": [
       "iso639-3"
@@ -105810,6 +105821,21 @@
     "iso639_1": "mi",
     "iso639_3": "mri",
     "name": "Māori",
+    "type": "L",
+    "scope": "I",
+    "status": "active",
+    "scripts": [
+      "Latn"
+    ],
+    "sources": [
+      "manual"
+    ]
+  },
+  "nv": {
+    "code": "nv",
+    "iso639_1": "nv",
+    "iso639_3": "nav",
+    "name": "Navajo",
     "type": "L",
     "scope": "I",
     "status": "active",

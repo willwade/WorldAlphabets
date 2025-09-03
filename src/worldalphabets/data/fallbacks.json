@@ -72,6 +72,50 @@
       "Scope": "I",
       "Comment": "Manual addition - Navajo (Diné bizaad)",
       "scripts": ["Latn"]
+    },
+    {
+      "Id": "bal",
+      "Part1": "",
+      "Part2B": "bal",
+      "Part2T": "bal",
+      "Ref_Name": "Baluchi",
+      "Language_Type": "L",
+      "Scope": "M",
+      "Comment": "Manual addition - Baluchi macrolanguage",
+      "scripts": ["Arab", "Latn"]
+    },
+    {
+      "Id": "bcc",
+      "Part1": "",
+      "Part2B": "",
+      "Part2T": "bcc",
+      "Ref_Name": "Southern Balochi",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Southern Balochi",
+      "scripts": ["Arab"]
+    },
+    {
+      "Id": "bgn",
+      "Part1": "",
+      "Part2B": "",
+      "Part2T": "bgn",
+      "Ref_Name": "Western Balochi",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Western Balochi",
+      "scripts": ["Arab", "Latn"]
+    },
+    {
+      "Id": "bgp",
+      "Part1": "",
+      "Part2B": "",
+      "Part2T": "bgp",
+      "Ref_Name": "Eastern Balochi",
+      "Language_Type": "L",
+      "Scope": "I",
+      "Comment": "Manual addition - Eastern Balochi",
+      "scripts": ["Arab"]
     }
   ],
   "script_directions": {
