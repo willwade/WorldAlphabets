@@ -2,7 +2,10 @@
   <div class="index-view">
     <nav class="navigation">
       <div class="nav-container">
-        <router-link to="/" class="nav-brand">World Alphabets</router-link>
+        <router-link to="/" class="nav-brand">
+          <img src="/logo.png" alt="World Alphabets" class="nav-logo" />
+          <span class="nav-brand-text">World Alphabets</span>
+        </router-link>
         <div class="nav-links">
           <router-link to="/" class="nav-link" :class="{ active: $route.name === 'index' }">
             Browse All
@@ -47,6 +50,9 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
 }
 
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: #007bff;
@@ -55,6 +61,16 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
 
 .nav-brand:hover {
   color: #0056b3;
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-brand-text {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .nav-links {
@@ -91,7 +107,11 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
     height: 50px;
   }
   
-  .nav-brand {
+  .nav-logo {
+    height: 32px;
+  }
+
+  .nav-brand-text {
     font-size: 1.2rem;
   }
   

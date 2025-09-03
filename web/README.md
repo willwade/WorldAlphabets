@@ -1,5 +1,9 @@
 # World Alphabets Web UI
 
+<div align="center">
+  <img src="public/logo.png" alt="World Alphabets Logo" width="200" height="auto">
+</div>
+
 A Vue 3 + Vite web application for exploring world alphabets with advanced search, filtering, and data visualization capabilities.
 
 ## Features

@@ -1,5 +1,9 @@
 # WorldAlphabets
 
+<div align="center">
+  <img src="web/public/logo.png" alt="World Alphabets Logo" width="200" height="auto">
+</div>
+
 A tool to access alphabets of the world with Python and Node interfaces.
 
 ## Usage
