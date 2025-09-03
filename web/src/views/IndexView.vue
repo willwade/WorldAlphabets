@@ -1,30 +1,5 @@
-<script setup>
-import { ref, watch } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
-import LanguageList from '../components/LanguageList.vue';
-import LanguageDetails from '../components/LanguageDetails.vue';
-
-const route = useRoute();
-const router = useRouter();
-const selectedLangCode = ref(route.params.langCode || null);
-
-watch(() => route.params.langCode, (newCode) => {
-  selectedLangCode.value = newCode || null;
-});
-
-function handleLanguageSelected(langCode) {
-  // Use the new explore route structure
-  if (route.name === 'explore' || route.path.startsWith('/explore')) {
-    router.push({ path: `/explore/${langCode}` });
-  } else {
-    // Legacy route for backward compatibility
-    router.push({ path: `/${langCode}` });
-  }
-}
-</script>
-
 <template>
-  <div class="home-view">
+  <div class="index-view">
     <nav class="navigation">
       <div class="nav-container">
         <router-link to="/" class="nav-brand">World Alphabets</router-link>
@@ -32,22 +7,25 @@ function handleLanguageSelected(langCode) {
           <router-link to="/" class="nav-link" :class="{ active: $route.name === 'index' }">
             Browse All
           </router-link>
-          <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' || $route.name === 'language' }">
+          <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' }">
             Language Explorer
           </router-link>
         </div>
       </div>
     </nav>
-
-    <main class="app-container">
-      <LanguageList @language-selected="handleLanguageSelected" />
-      <LanguageDetails :selected-lang-code="selectedLangCode" />
+    
+    <main class="main-content">
+      <AlphabetIndex />
     </main>
   </div>
 </template>
 
+<script setup>
+import AlphabetIndex from '../components/AlphabetIndex.vue';
+</script>
+
 <style scoped>
-.home-view {
+.index-view {
   min-height: 100vh;
   background: #f8f9fa;
 }
@@ -103,10 +81,8 @@ function handleLanguageSelected(langCode) {
   background: #e3f2fd;
 }
 
-.app-container {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  height: calc(100vh - 60px);
+.main-content {
+  padding-top: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -114,30 +90,22 @@ function handleLanguageSelected(langCode) {
     padding: 0 0.5rem;
     height: 50px;
   }
-
+  
   .nav-brand {
     font-size: 1.2rem;
   }
-
+  
   .nav-links {
     gap: 1rem;
   }
-
+  
   .nav-link {
     padding: 0.25rem 0.5rem;
     font-size: 0.9rem;
   }
-
-  .app-container {
-    height: calc(100vh - 50px);
-    grid-template-columns: 250px 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  .app-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+  
+  .main-content {
+    padding-top: 1rem;
   }
 }
 </style>
