@@ -136,8 +136,18 @@ function handleLanguageSelected(langCode) {
 
 @media (max-width: 480px) {
   .app-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+  }
+
+  .app-container > * {
+    flex-shrink: 0;
+  }
+
+  .app-container > *:last-child {
+    flex: 1;
+    overflow-y: auto;
   }
 }
 </style>

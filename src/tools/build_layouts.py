@@ -142,6 +142,7 @@ SCANCODE_TO_CODE: dict[str, str] = {
     "E11D": "Pause",
 }
 
+
 def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) -> bool:
     """
     Downloads the source files for a given layout.
@@ -157,14 +158,16 @@ def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) 
         # Download XML
         response = requests.get(xml_url)
         response.raise_for_status()
-        response.encoding = 'utf-8'
-        with open(layout_source_dir / f"{driver_name.lower()}.xml", "w", encoding="utf-8") as f:
+        response.encoding = "utf-8"
+        with open(
+            layout_source_dir / f"{driver_name.lower()}.xml", "w", encoding="utf-8"
+        ) as f:
             f.write(response.text)
 
         # Download KLE JSON
         response = requests.get(kle_url)
         response.raise_for_status()
-        response.encoding = 'utf-8'
+        response.encoding = "utf-8"
         with open(layout_source_dir / "kle.json", "w", encoding="utf-8") as f:
             f.write(response.text)
 
@@ -173,6 +176,7 @@ def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) 
     except requests.exceptions.RequestException as e:
         print(f"  -> Error downloading sources for {layout_id}: {e}")
         return False
+
 
 def slugify(text: str) -> str:
     """
@@ -183,6 +187,7 @@ def slugify(text: str) -> str:
     text = re.sub(r"[^a-z0-9\-]", "", text)  # Remove all other non-alphanumeric chars
     text = text.strip("-")
     return text
+
 
 def build_layout(
     layout_id: str,
@@ -232,12 +237,11 @@ def build_layout(
             xml_len = len(xml_keys)
             if geom_len < xml_len:
                 print(
-                    f"  -> Note: geometry covers {geom_len} of {xml_len} keys for {layout_id}"
+                    f"  -> Note: geometry covers {geom_len} of {xml_len} keys "
+                    f"for {layout_id}"
                 )
             elif geom_len > xml_len:
-                print(
-                    f"  -> Warning: geometry has extra keys for {layout_id}"
-                )
+                print(f"  -> Warning: geometry has extra keys for {layout_id}")
         except Exception as e:
             print(f"  -> Warning: failed to parse KLE for {layout_id}: {e}")
     else:
@@ -289,10 +293,14 @@ def main() -> None:
 
     # Load mappings
     driver_mapping_path = Path("data/mappings/layout_to_driver.json")
-    kbdlayouts_path = Path("data/kbdlayouts.json")
+    kbdlayouts_path = Path(
+        "data/kbdlayouts.json"
+    )  # Build-time metadata from kbdlayout.info
     index_path = Path("data/index.json")
 
-    if not all([p.exists() for p in [driver_mapping_path, kbdlayouts_path, index_path]]):
+    if not all(
+        [p.exists() for p in [driver_mapping_path, kbdlayouts_path, index_path]]
+    ):
         print("Error: Required data files not found.")
         print("Please run `wa-populate-layouts` first.")
         return
@@ -326,6 +334,7 @@ def main() -> None:
         )
 
     print("Keyboard layout build process finished.")
+
 
 if __name__ == "__main__":
     main()

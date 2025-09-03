@@ -1,7 +1,11 @@
 <script setup>
-import { ref, watch, computed } from 'vue';
+import { ref, watch, computed, nextTick } from 'vue';
 import AlphabetView from './AlphabetView.vue';
 import KeyboardView from './KeyboardView.vue';
+import Prism from 'prismjs';
+import 'prismjs/components/prism-python';
+import 'prismjs/components/prism-javascript';
+import 'prismjs/themes/prism.css';
 
 const props = defineProps({
   selectedLangCode: String
@@ -24,6 +28,10 @@ const availableScripts = ref([]);
 const selectedScript = ref(null);
 const showCodeExamples = ref(false);
 const activeCodeTab = ref('python');
+const copiedStates = ref({
+  python: false,
+  nodejs: false
+});
 const scriptNames = {
   Latn: 'Latin',
   Deva: 'Devanagari'
@@ -185,6 +193,99 @@ const currentLayoutName = computed(() => {
   return layout ? layout.name : '';
 });
 
+// Generate code content for copying
+const pythonCode = computed(() => {
+  return `# Install: pip install worldalphabets
+from worldalphabets import load_alphabet, get_available_layouts, load_keyboard
+
+# Load alphabet data
+alphabet = load_alphabet("${props.selectedLangCode}"${selectedScript.value ? `, "${selectedScript.value}"` : ''})
+print("Alphabetical:", alphabet.alphabetical)
+print("Uppercase:", alphabet.uppercase)
+print("Lowercase:", alphabet.lowercase)
+print("Frequency:", alphabet.frequency)
+${alphabetData.value && alphabetData.value.digits ? 'print("Digits:", alphabet.digits)' : '# No digits available'}
+
+# Load keyboard layouts${keyboardLayouts.value.length ? `
+layouts = get_available_layouts("${props.selectedLangCode}")
+if layouts:
+    keyboard = load_keyboard(layouts[0])
+    print("Keyboard layout:", keyboard.name)` : `
+# No keyboard layouts available for this language`}`;
+});
+
+const nodejsCode = computed(() => {
+  return `// Install: npm install worldalphabets
+const {
+  loadAlphabet,
+  getUppercase,
+  getLowercase,
+  getFrequency,${alphabetData.value && alphabetData.value.digits ? `
+  getDigits,` : ''}
+  getAvailableLayouts,
+  loadKeyboard
+} = require('worldalphabets');
+
+async function example() {
+  // Load alphabet data
+  const alphabet = await loadAlphabet("${props.selectedLangCode}"${selectedScript.value ? `, "${selectedScript.value}"` : ''});
+  console.log("Alphabetical:", alphabet.alphabetical);
+  console.log("Uppercase:", alphabet.uppercase);
+  console.log("Lowercase:", alphabet.lowercase);
+  console.log("Frequency:", alphabet.frequency);${alphabetData.value && alphabetData.value.digits ? `
+  console.log("Digits:", alphabet.digits);` : `
+  // No digits available`}
+
+  // Or load individual components
+  const uppercase = await getUppercase("${props.selectedLangCode}"${selectedScript.value ? `, "${selectedScript.value}"` : ''});
+  const frequency = await getFrequency("${props.selectedLangCode}"${selectedScript.value ? `, "${selectedScript.value}"` : ''});${alphabetData.value && alphabetData.value.digits ? `
+  const digits = await getDigits("${props.selectedLangCode}"${selectedScript.value ? `, "${selectedScript.value}"` : ''});` : ''}
+
+  // Load keyboard layouts${keyboardLayouts.value.length ? `
+  const layouts = await getAvailableLayouts("${props.selectedLangCode}");
+  if (layouts.length > 0) {
+    const keyboard = await loadKeyboard(layouts[0].id);
+    console.log("Keyboard layout:", keyboard.name);
+  }` : `
+  // No keyboard layouts available for this language`}
+}
+
+example();`;
+});
+
+async function copyCode(type) {
+  try {
+    const code = type === 'python' ? pythonCode.value : nodejsCode.value;
+    await navigator.clipboard.writeText(code);
+    copiedStates.value[type] = true;
+    setTimeout(() => {
+      copiedStates.value[type] = false;
+    }, 2000);
+  } catch (err) {
+    console.error('Failed to copy code:', err);
+  }
+}
+
+// Highlight code after DOM updates
+function highlightCode() {
+  nextTick(() => {
+    Prism.highlightAll();
+  });
+}
+
+// Watch for changes that should trigger re-highlighting
+watch([activeCodeTab, showCodeExamples, selectedScript, alphabetData, keyboardLayouts], () => {
+  if (showCodeExamples.value) {
+    highlightCode();
+  }
+});
+
+watch(showCodeExamples, (newValue) => {
+  if (newValue) {
+    highlightCode();
+  }
+});
+
 </script>
 
 <template>
@@ -301,62 +402,25 @@ const currentLayoutName = computed(() => {
           </div>
 
           <div v-show="activeCodeTab === 'python'" class="code-content">
-            <pre><code># Install: pip install worldalphabets
-from worldalphabets import load_alphabet, get_available_layouts, load_keyboard
-
-# Load alphabet data
-alphabet = load_alphabet("{{ selectedLangCode }}"{{ selectedScript ? `, "${selectedScript}"` : '' }})
-print("Alphabetical:", alphabet.alphabetical)
-print("Uppercase:", alphabet.uppercase)
-print("Lowercase:", alphabet.lowercase)
-print("Frequency:", alphabet.frequency)
-{{ alphabetData && alphabetData.digits ? 'print("Digits:", alphabet.digits)' : '# No digits available' }}
-
-# Load keyboard layouts{{ keyboardLayouts.length ? `
-layouts = get_available_layouts("${selectedLangCode}")
-if layouts:
-    keyboard = load_keyboard(layouts[0])
-    print("Keyboard layout:", keyboard.name)` : `
-# No keyboard layouts available for this language` }}</code></pre>
+            <div class="code-header">
+              <span class="code-language">Python</span>
+              <button @click="copyCode('python')" class="copy-btn" title="Copy code">
+                <span v-if="!copiedStates.python">📋</span>
+                <span v-else class="copied">✓</span>
+              </button>
+            </div>
+            <pre><code class="language-python">{{ pythonCode }}</code></pre>
           </div>
 
           <div v-show="activeCodeTab === 'nodejs'" class="code-content">
-            <pre><code>// Install: npm install worldalphabets
-const {
-  loadAlphabet,
-  getUppercase,
-  getLowercase,
-  getFrequency,{{ alphabetData && alphabetData.digits ? `
-  getDigits,` : '' }}
-  getAvailableLayouts,
-  loadKeyboard
-} = require('worldalphabets');
-
-async function example() {
-  // Load alphabet data
-  const alphabet = await loadAlphabet("{{ selectedLangCode }}"{{ selectedScript ? `, "${selectedScript}"` : '' }});
-  console.log("Alphabetical:", alphabet.alphabetical);
-  console.log("Uppercase:", alphabet.uppercase);
-  console.log("Lowercase:", alphabet.lowercase);
-  console.log("Frequency:", alphabet.frequency);{{ alphabetData && alphabetData.digits ? `
-  console.log("Digits:", alphabet.digits);` : `
-  // No digits available` }}
-
-  // Or load individual components
-  const uppercase = await getUppercase("{{ selectedLangCode }}"{{ selectedScript ? `, "${selectedScript}"` : '' }});
-  const frequency = await getFrequency("{{ selectedLangCode }}"{{ selectedScript ? `, "${selectedScript}"` : '' }});{{ alphabetData && alphabetData.digits ? `
-  const digits = await getDigits("${selectedLangCode}"${selectedScript ? `, "${selectedScript}"` : ''});` : '' }}
-
-  // Load keyboard layouts{{ keyboardLayouts.length ? `
-  const layouts = await getAvailableLayouts("${selectedLangCode}");
-  if (layouts.length > 0) {
-    const keyboard = await loadKeyboard(layouts[0].id);
-    console.log("Keyboard layout:", keyboard.name);
-  }` : `
-  // No keyboard layouts available for this language` }}
-}
-
-example();</code></pre>
+            <div class="code-header">
+              <span class="code-language">Node.js</span>
+              <button @click="copyCode('nodejs')" class="copy-btn" title="Copy code">
+                <span v-if="!copiedStates.nodejs">📋</span>
+                <span v-else class="copied">✓</span>
+              </button>
+            </div>
+            <pre><code class="language-javascript">{{ nodejsCode }}</code></pre>
           </div>
         </div>
       </div>
@@ -486,6 +550,48 @@ a:hover {
 
 .code-content {
   background-color: #f8f9fa;
+  position: relative;
+}
+
+.code-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #e9ecef;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.code-language {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #495057;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.copy-btn {
+  background: none;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #6c757d;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.copy-btn:hover {
+  background-color: #f8f9fa;
+  border-color: #adb5bd;
+  color: #495057;
+}
+
+.copy-btn .copied {
+  color: #28a745;
 }
 
 .code-content pre {
@@ -499,7 +605,6 @@ a:hover {
 }
 
 .code-content code {
-  color: #333;
   background: none;
 }
 </style>

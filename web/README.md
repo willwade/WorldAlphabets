@@ -31,7 +31,7 @@ A Vue 3 + Vite web application for exploring world alphabets with advanced searc
 - Combines multiple data sources:
   - `index.json`: Core alphabet metadata
   - `tts_index.json`: Text-to-speech availability
-  - `kbdlayouts.json`: Keyboard layout information
+  - `layouts/index.json`: Keyboard layout availability (runtime)
 - Client-side data enrichment and correlation
 - Efficient caching and performance optimization
 

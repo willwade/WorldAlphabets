@@ -1,8 +1,8 @@
 {
   "ar": [
     "ar-arabic-101",
-    "ar-arabic-102-azerty",
-    "ar-arabic-102"
+    "ar-arabic-102",
+    "ar-arabic-102-azerty"
   ],
   "az": [
     "az-azerbaijani-latin",
@@ -15,18 +15,21 @@
     "be-belarusian"
   ],
   "bg": [
+    "bg-bulgarian",
     "bg-bulgarian-latin",
-    "bg-bulgarian-phonetic-traditional",
     "bg-bulgarian-phonetic",
-    "bg-bulgarian-typewriter",
-    "bg-bulgarian"
+    "bg-bulgarian-phonetic-traditional",
+    "bg-bulgarian-typewriter"
   ],
   "bn": [
     "bn-bangla"
   ],
   "bo": [
-    "bo-tibetan-prc---updated",
-    "bo-tibetan-prc"
+    "bo-tibetan-prc",
+    "bo-tibetan-prc---updated"
+  ],
+  "bs": [
+    "bs-bosnian-cyrillic"
   ],
   "bug": [
     "bug-buginese"
@@ -35,28 +38,28 @@
     "ckb-central-kurdish"
   ],
   "cs": [
-    "cs-czech-qwerty",
-    "cs-czech"
+    "cs-czech",
+    "cs-czech-qwerty"
   ],
   "da": [
     "da-danish"
   ],
   "de": [
     "de-DE-qwertz",
-    "de-german-ibm",
     "de-german",
+    "de-german-ibm",
     "de-swiss-german"
   ],
   "dz": [
     "dz-dzongkha"
   ],
   "el": [
-    "el-greek-220-latin",
+    "el-greek",
     "el-greek-220",
-    "el-greek-319-latin",
+    "el-greek-220-latin",
     "el-greek-319",
-    "el-greek-latin",
-    "el-greek"
+    "el-greek-319-latin",
+    "el-greek-latin"
   ],
   "en": [
     "en-GB-qwerty",
@@ -74,20 +77,20 @@
     "et-estonian"
   ],
   "fa": [
-    "fa-persian-standard",
-    "fa-persian"
+    "fa-persian",
+    "fa-persian-standard"
   ],
   "fi": [
-    "fi-finnish-with-sami",
-    "fi-finnish"
+    "fi-finnish",
+    "fi-finnish-with-sami"
   ],
   "fo": [
     "fo-faeroese"
   ],
   "fr": [
     "fr-belgian-french",
-    "fr-canadian-french-legacy",
     "fr-canadian-french",
+    "fr-canadian-french-legacy",
     "fr-french-legacy-azerty",
     "fr-french-standard-azerty",
     "fr-french-standard-bpo",
@@ -99,26 +102,35 @@
   "gd": [
     "gd-scottish-gaelic"
   ],
+  "gn": [
+    "gn-guarani"
+  ],
   "gu": [
     "gu-gujarati"
+  ],
+  "ha": [
+    "ha-hausa"
   ],
   "haw": [
     "haw-hawaiian"
   ],
   "he": [
-    "he-hebrew-standard-2018",
+    "he-hebrew",
     "he-hebrew-standard",
-    "he-hebrew"
+    "he-hebrew-standard-2018"
   ],
   "hu": [
     "hu-hungarian"
+  ],
+  "ig": [
+    "ig-igbo"
   ],
   "is": [
     "is-icelandic"
   ],
   "it": [
-    "it-italian-142",
-    "it-italian"
+    "it-italian",
+    "it-italian-142"
   ],
   "ja": [
     "ja-japanese"
@@ -137,8 +149,8 @@
     "kk-kazakh"
   ],
   "km": [
-    "km-khmer-nida",
-    "km-khmer"
+    "km-khmer",
+    "km-khmer-nida"
   ],
   "kn": [
     "kn-kannada"
@@ -160,9 +172,9 @@
     "lt-lithuanian"
   ],
   "lv": [
+    "lv-latvian",
     "lv-latvian-qwerty",
-    "lv-latvian-standard",
-    "lv-latvian"
+    "lv-latvian-standard"
   ],
   "mk": [
     "mk-macedonian"
@@ -173,18 +185,35 @@
   "mn": [
     "mn-mongolian-mongolian-script"
   ],
+  "mo": [
+    "mo-romanian-legacy",
+    "mo-romanian-programmers",
+    "mo-romanian-standard"
+  ],
+  "mr": [
+    "mr-marathi"
+  ],
   "ne": [
     "ne-nepali"
   ],
+  "nl": [
+    "nl-dutch"
+  ],
   "no": [
-    "no-norwegian-with-sami",
-    "no-norwegian"
+    "no-norwegian",
+    "no-norwegian-with-sami"
   ],
   "nqo": [
     "nqo-nko"
   ],
   "or": [
     "or-odia"
+  ],
+  "osa": [
+    "osa-osage"
+  ],
+  "pa": [
+    "pa-punjabi"
   ],
   "pl": [
     "pl-polish-214",
@@ -194,9 +223,9 @@
     "ps-pashto-afghanistan"
   ],
   "pt": [
+    "pt-portuguese",
     "pt-portuguese-brazil-abnt",
-    "pt-portuguese-brazil-abnt2",
-    "pt-portuguese"
+    "pt-portuguese-brazil-abnt2"
   ],
   "ro": [
     "ro-romanian-legacy",
@@ -204,22 +233,33 @@
     "ro-romanian-standard"
   ],
   "ru": [
-    "ru-russian-typewriter",
-    "ru-russian"
+    "ru-russian",
+    "ru-russian-typewriter"
+  ],
+  "sh": [
+    "sh-serbian-cyrillic",
+    "sh-serbian-latin"
   ],
   "si": [
     "si-sinhala"
   ],
+  "sk": [
+    "sk-slovak",
+    "sk-slovak-qwerty"
+  ],
   "sl": [
     "sl-slovenian"
+  ],
+  "sq": [
+    "sq-albanian"
   ],
   "sr": [
     "sr-serbian-cyrillic",
     "sr-serbian-latin"
   ],
   "sv": [
-    "sv-swedish-with-sami",
-    "sv-swedish"
+    "sv-swedish",
+    "sv-swedish-with-sami"
   ],
   "syr": [
     "syr-syriac"
@@ -237,17 +277,37 @@
     "tk-turkmen"
   ],
   "tt": [
-    "tt-tatar-legacy",
-    "tt-tatar"
+    "tt-tatar",
+    "tt-tatar-legacy"
+  ],
+  "tzm": [
+    "tzm-central-atlas-tamazight"
+  ],
+  "ug": [
+    "ug-uyghur",
+    "ug-uyghur-legacy"
   ],
   "uk": [
-    "uk-ukrainian-enhanced",
-    "uk-ukrainian"
+    "uk-ukrainian",
+    "uk-ukrainian-enhanced"
   ],
   "ur": [
     "ur-urdu"
   ],
+  "vi": [
+    "vi-vietnamese"
+  ],
   "wo": [
     "wo-wolof"
+  ],
+  "yo": [
+    "yo-yoruba"
+  ],
+  "zh": [
+    "zh-chinese-simplified---us",
+    "zh-chinese-simplified-singapore---us",
+    "zh-chinese-traditional---us",
+    "zh-chinese-traditional-hong-kong-sar---us",
+    "zh-chinese-traditional-macao-sar---us"
   ]
 }

@@ -64,7 +64,7 @@ class AlphabetDataService {
     }
 
     try {
-      const response = await fetch(`${this.baseUrl}data/kbdlayouts.json`);
+      const response = await fetch(`${this.baseUrl}data/layouts/index.json`);
       if (!response.ok) {
         throw new Error('Failed to load keyboard layouts');
       }
@@ -94,15 +94,9 @@ class AlphabetDataService {
       // Create a set of languages that have TTS available
       const ttsLanguages = new Set(Object.keys(ttsIndex));
 
-      // Create a map of keyboard layout codes to language names for easier lookup
-      const keyboardLanguageMap = new Map();
-      Object.entries(keyboardLayouts).forEach(([code, layout]) => {
-        const langName = layout.language.toLowerCase();
-        if (!keyboardLanguageMap.has(langName)) {
-          keyboardLanguageMap.set(langName, []);
-        }
-        keyboardLanguageMap.get(langName).push(code);
-      });
+      // Create a set of language codes that have keyboard layouts available
+      // The layouts/index.json has language codes as keys
+      const keyboardLanguages = new Set(Object.keys(keyboardLayouts));
 
       // Enrich alphabet data
       this.cache.enrichedData = alphabets.map(alphabet => {
@@ -112,42 +106,8 @@ class AlphabetDataService {
         // Check TTS availability
         const hasTTS = ttsLanguages.has(languageCode);
 
-        // Check keyboard availability - try multiple approaches
-        let hasKeyboard = false;
-
-        // Try exact language code match
-        if (keyboardLanguageMap.has(languageCode)) {
-          hasKeyboard = true;
-        }
-        // Try language name match
-        else if (keyboardLanguageMap.has(languageName)) {
-          hasKeyboard = true;
-        }
-        // Try first word of language name
-        else if (keyboardLanguageMap.has(languageName.split(' ')[0])) {
-          hasKeyboard = true;
-        }
-        // Try some common mappings
-        else {
-          const commonMappings = {
-            'english': 'us',
-            'spanish': 'spanish',
-            'french': 'french',
-            'german': 'german',
-            'italian': 'italian',
-            'portuguese': 'portuguese',
-            'russian': 'russian',
-            'chinese': 'chinese',
-            'japanese': 'japanese',
-            'korean': 'korean',
-            'arabic': 'arabic'
-          };
-
-          const mappedName = commonMappings[languageName];
-          if (mappedName && keyboardLanguageMap.has(mappedName)) {
-            hasKeyboard = true;
-          }
-        }
+        // Check keyboard availability using language code
+        const hasKeyboard = keyboardLanguages.has(languageCode);
 
         return {
           ...alphabet,
