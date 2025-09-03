@@ -1,36 +1,47 @@
 {
   "name": "worldalphabets",
-  "version": "{{version}}",
+  "version": "0.1.0",
   "description": "Simple Node interface to WorldAlphabets data",
   "main": "index.js",
   "types": "index.d.ts",
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "node scripts/create_index.js",
+    "dev": "npm run build && npm test",
+    "lint": "eslint .",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/your-repo-name.git"
+    "url": "https://github.com/willwade/WorldAlphabets.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/your-repo-name/issues"
+    "url": "https://github.com/willwade/WorldAlphabets/issues"
   },
-  "homepage": "https://github.com/your-username/your-repo-name#readme",
+  "homepage": "https://github.com/willwade/WorldAlphabets#readme",
   "keywords": [
     "alphabets",
     "language",
     "world",
     "frequency",
-    "letters"
+    "letters",
+    "unicode",
+    "cldr",
+    "i18n",
+    "localization"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Will Wade <willwade@gmail.com>",
   "license": "MIT",
   "files": [
     "index.js",
     "index.d.ts",
+    "keyboards.js",
+    "keyboards.d.ts",
     "data/"
   ],
   "devDependencies": {
-    "jest": "^30.0.5"
+    "jest": "^30.0.5",
+    "eslint": "^8.57.0"
   }
 }

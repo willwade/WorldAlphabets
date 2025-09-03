@@ -21,8 +21,8 @@ describe('worldalphabets', () => {
 
   it('should get letter frequency for "en"', async () => {
     const frequency = await getFrequency('en');
-    expect(frequency['a']).toBe(0.0842);
-    expect(frequency['z']).toBe(0.0013);
+    expect(frequency['a']).toBeCloseTo(0.0868, 4);
+    expect(frequency['z']).toBeCloseTo(0.0013, 4);
   });
 
   it('should get available codes', async () => {

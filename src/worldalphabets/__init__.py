@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from importlib.resources import files
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import get_available_layouts, load_keyboard
@@ -20,6 +20,7 @@ class Alphabet:
     uppercase: List[str]
     lowercase: List[str]
     frequency: Dict[str, float]
+    digits: Optional[List[str]] = None
 
 
 def load_alphabet(code: str, script: str | None = None) -> Alphabet:
@@ -33,6 +34,7 @@ def load_alphabet(code: str, script: str | None = None) -> Alphabet:
         uppercase=data.get("uppercase", []),
         lowercase=data.get("lowercase", []),
         frequency=data.get("frequency", {}),
+        digits=data.get("digits"),
     )
 
 

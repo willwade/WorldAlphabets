@@ -8,18 +8,40 @@ const baseUrl = import.meta.env.BASE_URL;
 
 onMounted(async () => {
   try {
+    console.log('Loading languages from:', `${baseUrl}data/index.json`);
     const response = await fetch(`${baseUrl}data/index.json`);
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
     const data = await response.json();
-    languages.value = data.sort((a, b) =>
-      a['language-name'].localeCompare(
-        b['language-name'],
+    console.log('Loaded languages:', data.length);
+
+    // Group by language code to avoid duplicates
+    const languageMap = new Map();
+    data.forEach(lang => {
+      if (!languageMap.has(lang.language)) {
+        languageMap.set(lang.language, {
+          language: lang.language,
+          name: lang.name,
+          scripts: [lang.script],
+          entries: [lang]
+        });
+      } else {
+        const existing = languageMap.get(lang.language);
+        existing.scripts.push(lang.script);
+        existing.entries.push(lang);
+      }
+    });
+
+    // Convert to array and sort
+    languages.value = Array.from(languageMap.values()).sort((a, b) =>
+      a.name.localeCompare(
+        b.name,
         undefined,
         { sensitivity: 'base' },
       ),
     );
+    console.log('Languages grouped and sorted:', languages.value.length);
   } catch (error) {
     console.error('Failed to fetch languages:', error);
   }
@@ -30,7 +52,7 @@ const filteredLanguages = computed(() => {
     return languages.value;
   }
   return languages.value.filter(lang =>
-    lang['language-name'].toLowerCase().includes(searchTerm.value.toLowerCase())
+    lang.name.toLowerCase().includes(searchTerm.value.toLowerCase())
   );
 });
 
@@ -49,7 +71,10 @@ function selectLanguage(langCode) {
         @click="selectLanguage(lang.language)"
         class="language-item"
       >
-        {{ lang['language-name'] }}
+        {{ lang.name }}
+        <span v-if="lang.scripts.length > 1" class="script-count">
+          ({{ lang.scripts.length }} scripts)
+        </span>
       </li>
     </ul>
   </div>
@@ -84,5 +109,11 @@ function selectLanguage(langCode) {
 
 .language-item:hover {
   background-color: #f0f0f0;
+}
+
+.script-count {
+  font-size: 0.8em;
+  color: #666;
+  font-weight: normal;
 }
 </style>

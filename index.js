@@ -14,9 +14,10 @@ async function loadAlphabet(code, script) {
   if (!script) {
     try {
       const data = await getIndexData();
-      const entry = data.find((item) => item.language === code);
-      if (entry && entry.scripts && entry.scripts.length > 0) {
-        script = entry.scripts[0];
+      const entries = data.filter((item) => item.language === code);
+      if (entries.length > 0) {
+        // Use the first available script as default
+        script = entries[0].script;
       }
     } catch (_) {
       /* ignore */
@@ -68,6 +69,17 @@ async function getLowercase(code, script) {
 async function getFrequency(code, script) {
   const data = await loadAlphabet(code, script);
   return data.frequency || {};
+}
+
+/**
+ * Gets the digits for a given language code.
+ * @param {string} code - The ISO 639-1 language code.
+ * @param {string} [script] - Optional ISO-15924 script code.
+ * @returns {Promise<string[]>} A promise that resolves to an array of digit characters.
+ */
+async function getDigits(code, script) {
+  const data = await loadAlphabet(code, script);
+  return data.digits || [];
 }
 
 /**
@@ -135,6 +147,7 @@ module.exports = {
   getUppercase,
   getLowercase,
   getFrequency,
+  getDigits,
   getAvailableCodes,
   getIndexData,
   getLanguage,

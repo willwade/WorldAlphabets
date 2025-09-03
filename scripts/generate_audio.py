@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import os
 import json
 import platform
@@ -82,8 +83,14 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
                     )
                 )
         elif engine_name == "google":
+            # Google Cloud TTS requires service account credentials (JSON file)
             if os.getenv("GOOGLE_SA_PATH"):
                 client = GoogleClient(credentials=os.getenv("GOOGLE_SA_PATH"))
+            # Alternative: Application Default Credentials (if gcloud is configured)
+            elif os.getenv("GOOGLE_APPLICATION_CREDENTIALS"):
+                client = GoogleClient(credentials=os.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
+            # Note: GOOGLE_TTS_KEY (API key) is not supported by Google Cloud TTS
+            # You need a service account JSON file
         elif engine_name == "elevenlabs":
             if os.getenv("ELEVENLABS_API_KEY"):
                 client = ElevenLabsClient(credentials=os.getenv("ELEVENLABS_API_KEY"))
@@ -93,6 +100,13 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
         elif engine_name == "openai":
             if os.getenv("OPENAI_API_KEY"):
                 client = OpenAIClient(api_key=os.getenv("OPENAI_API_KEY"))
+        elif engine_name == "upliftai":
+            if os.getenv("UPLIFTAI_KEY"):
+                # UpliftAI uses OpenAI-compatible API
+                client = OpenAIClient(
+                    api_key=os.getenv("UPLIFTAI_KEY"),
+                    base_url="https://api.uplift.ai/v1"  # Adjust if different
+                )
         elif engine_name == "sherpaonnx":
             client = SherpaOnnxClient()
         elif engine_name == "espeak":
@@ -128,7 +142,7 @@ def safe_engine_suffix(engine: str) -> str:
     return "".join(ch if ch.isalnum() else "_" for ch in s) or "engine"
 
 
-def generate_audio_files() -> None:
+def generate_audio_files(skip_existing: bool = True) -> None:
     """
     Iterate alphabet files (the source of truth), synth audio for each voice found in
     tts_index.json that matches the alphabet's language code, using the phrase in TEXT_FIELD.
@@ -172,9 +186,13 @@ def generate_audio_files() -> None:
             skipped_no_phrase += 1
             continue
 
-        voices = tts_index.get(lang_code) or []
+        # Extract base language code for TTS lookup (e.g., "en-Latn" -> "en")
+        base_lang_code = lang_code.split('-')[0]
+
+        # Try both full lang_code and base language code
+        voices = tts_index.get(lang_code) or tts_index.get(base_lang_code) or []
         if not voices:
-            print(f"Skipping {lang_code} (no TTS voices listed in tts_index.json).")
+            print(f"Skipping {lang_code} (no TTS voices listed in tts_index.json for '{lang_code}' or '{base_lang_code}').")
             skipped_no_voices += 1
             continue
 
@@ -189,8 +207,8 @@ def generate_audio_files() -> None:
             safe_voice = sanitize_voice_id(voice_id)
             out_path = OUTPUT_DIR / f"{lang_code}_{engine_slug}_{safe_voice}.wav"
 
-            # If the file already exists, ensure it is indexed (full voice_id retained here)
-            if out_path.exists():
+            # If the file already exists and skip_existing is True, skip it
+            if out_path.exists() and skip_existing:
                 add_index_entry(
                     audio_index,
                     lang=lang_code,
@@ -341,4 +359,23 @@ def synth_save(tts_client: Any, text: str, voice_id: str, out_path: str) -> None
 
 
 if __name__ == "__main__":
-    generate_audio_files()
+    parser = argparse.ArgumentParser(
+        description="Generate audio files for alphabet data using TTS engines"
+    )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        default=True,
+        help="Skip generating audio for files that already exist (default: True)"
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force regeneration of all audio files (overrides --skip-existing)"
+    )
+    args = parser.parse_args()
+
+    # If --force is specified, don't skip existing files
+    skip_existing = not args.force if args.force else args.skip_existing
+
+    generate_audio_files(skip_existing=skip_existing)

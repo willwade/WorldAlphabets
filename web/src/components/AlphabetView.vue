@@ -33,6 +33,8 @@ const currentAlphabet = computed(() => {
       return props.alphabetData.uppercase || [];
     case 'lowercase':
       return props.alphabetData.lowercase || [];
+    case 'digits':
+      return props.alphabetData.digits || [];
     case 'frequency':
       return frequencySortedAlphabet.value.map(item => item.letter);
     default:
@@ -74,6 +76,7 @@ function handleCopyLetter(letter) {
       <button @click="activeTab = 'alphabetical'" :class="{ active: activeTab === 'alphabetical' }">Alphabetical</button>
       <button @click="activeTab = 'uppercase'" :class="{ active: activeTab === 'uppercase' }">Uppercase</button>
       <button @click="activeTab = 'lowercase'" :class="{ active: activeTab === 'lowercase' }">Lowercase</button>
+      <button v-if="alphabetData && alphabetData.digits && alphabetData.digits.length > 0" @click="activeTab = 'digits'" :class="{ active: activeTab === 'digits' }">Digits</button>
       <button @click="activeTab = 'frequency'" :class="{ active: activeTab === 'frequency' }">Frequency</button>
     </div>
 
