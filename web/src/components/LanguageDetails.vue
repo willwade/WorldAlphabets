@@ -364,9 +364,9 @@ example();</code></pre>
       <div class="feature-section">
         <h3>External Links</h3>
         <ul>
-          <li><a :href="`https://iso639-3.sil.org/code/${selectedLangCode}`" target="_blank">ISO 639-3</a></li>
-          <li><a :href="`https://www.ethnologue.com/language/${selectedLangCode}`" target="_blank">Ethnologue</a></li>
-          <li><a :href="`http://glottolog.org/glottolog?iso=${selectedLangCode}`" target="_blank">Glottolog</a></li>
+          <li><a :href="`https://iso639-3.sil.org/code/${alphabetData?.iso639_3 || selectedLangCode}`" target="_blank">ISO 639-3</a></li>
+          <li><a :href="`https://www.ethnologue.com/language/${alphabetData?.iso639_3 || selectedLangCode}`" target="_blank">Ethnologue</a></li>
+          <li><a :href="`http://glottolog.org/glottolog?iso=${alphabetData?.iso639_3 || selectedLangCode}`" target="_blank">Glottolog</a></li>
           <li><a :href="`https://en.wikipedia.org/wiki/ISO_639:${selectedLangCode}`" target="_blank">Wikipedia</a></li>
         </ul>
       </div>
