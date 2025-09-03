@@ -5,7 +5,6 @@ This fixes corrupted audio index files.
 """
 
 import json
-import re
 from pathlib import Path
 
 def parse_audio_filename(filename: str) -> dict:

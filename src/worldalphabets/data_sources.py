@@ -10,11 +10,9 @@ import logging
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
-from urllib.error import HTTPError
+from typing import Dict, List, Optional, Set
 
 import requests
-import langcodes
 
 logger = logging.getLogger(__name__)
 
