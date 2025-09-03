@@ -221,40 +221,41 @@ class DataPipeline:
     def build_alphabets(self) -> bool:
         """Stage 3: Generate alphabet files for all language-script pairs."""
         try:
-            # Load language-script mappings
-            scripts_file = self.data_dir / "language_scripts.json"
-            if not scripts_file.exists():
-                logger.error(
-                    "Language scripts file not found. Run build_language_registry first."
-                )
+            logger.info("Running comprehensive alphabet builder...")
+
+            # Run the existing build_comprehensive_alphabets.py script
+            import subprocess
+
+            result = subprocess.run(
+                [
+                    "uv",
+                    "run",
+                    "python",
+                    str(self.root_dir / "scripts" / "build_comprehensive_alphabets.py"),
+                    "--manifest",
+                    str(self.data_dir / "language_scripts.json"),
+                    "--verbose",
+                ],
+                cwd=self.root_dir,
+                capture_output=True,
+                text=True,
+            )
+
+            if result.returncode != 0:
+                logger.error(f"Alphabet building failed: {result.stderr}")
                 return False
 
-            with open(scripts_file, "r", encoding="utf-8") as f:
-                language_scripts = json.load(f)
+            # Count generated files
+            alphabets_dir = self.data_dir / "alphabets"
+            if alphabets_dir.exists():
+                alphabet_files = list(alphabets_dir.glob("*.json"))
+                alphabets_generated = len(alphabet_files)
+                logger.info(f"Generated {alphabets_generated} alphabet files")
+                self.stats["alphabets_generated"] = alphabets_generated
+            else:
+                logger.warning("Alphabets directory not found")
+                self.stats["alphabets_generated"] = 0
 
-            # Get available CLDR locales (for future implementation)
-            # available_locales = self.cldr.get_available_locales()
-
-            # Get fallback alphabets (for future implementation)
-            # fallback_alphabets = self.fallback.get_fallback_alphabets()
-
-            alphabets_generated = 0
-
-            for language, scripts in language_scripts.items():
-                for script in scripts:
-                    try:
-                        # For now, just log that we would build this alphabet
-                        # Full implementation would call existing build_comprehensive_alphabets.py
-                        logger.debug(f"Would build alphabet for {language}-{script}")
-                        # TODO: Implement _build_single_alphabet and _save_alphabet methods
-                        alphabets_generated += 1
-                        logger.debug(f"Generated alphabet for {language}-{script}")
-                    except Exception as e:
-                        logger.warning(f"Failed to build {language}-{script}: {e}")
-                        self.stats["warnings"].append(f"{language}-{script}: {e}")
-
-            logger.info(f"Generated {alphabets_generated} alphabet files")
-            self.stats["alphabets_generated"] = alphabets_generated
             return True
 
         except Exception as e:

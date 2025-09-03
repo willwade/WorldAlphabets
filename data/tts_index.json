@@ -233,20 +233,6 @@
     },
     {
       "engine": "watson",
-      "voice_id": "fr-CA_LouiseV3Voice",
-      "name": "Louise",
-      "gender": "FEMALE",
-      "language_code": "fr-CA"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "fr-FR_ReneeV3Voice",
-      "name": "Renee",
-      "gender": "FEMALE",
-      "language_code": "fr-FR"
-    },
-    {
-      "engine": "watson",
       "voice_id": "fr-FR_NicolasV3Voice",
       "name": "Nicolas",
       "gender": "MALE",
@@ -254,8 +240,22 @@
     },
     {
       "engine": "watson",
+      "voice_id": "fr-CA_LouiseV3Voice",
+      "name": "Louise",
+      "gender": "FEMALE",
+      "language_code": "fr-CA"
+    },
+    {
+      "engine": "watson",
       "voice_id": "fr-FR_ReneeVoice",
       "name": "ReneeVoice",
+      "gender": "FEMALE",
+      "language_code": "fr-FR"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "fr-FR_ReneeV3Voice",
+      "name": "Renee",
       "gender": "FEMALE",
       "language_code": "fr-FR"
     },
@@ -1558,132 +1558,6 @@
     },
     {
       "engine": "watson",
-      "voice_id": "en-US_HenryV3Voice",
-      "name": "Henry",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_MichaelV2Voice",
-      "name": "MichaelV2Voice",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_AllisonExpressive",
-      "name": "AllisonExpressive",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_MichaelV3Voice",
-      "name": "Michael",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_AllisonV2Voice",
-      "name": "AllisonV2Voice",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_AllisonVoice",
-      "name": "AllisonVoice",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_OliviaV3Voice",
-      "name": "Olivia",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_EmmaExpressive",
-      "name": "EmmaExpressive",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-AU_JackExpressive",
-      "name": "JackExpressive",
-      "gender": "MALE",
-      "language_code": "en-AU"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_KevinV3Voice",
-      "name": "Kevin",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_MichaelExpressive",
-      "name": "MichaelExpressive",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_LisaVoice",
-      "name": "LisaVoice",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_LisaV3Voice",
-      "name": "Lisa",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_MichaelVoice",
-      "name": "MichaelVoice",
-      "gender": "MALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_LisaV2Voice",
-      "name": "LisaV2Voice",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-GB_KateVoice",
-      "name": "KateVoice",
-      "gender": "FEMALE",
-      "language_code": "en-GB"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-GB_GeorgeExpressive",
-      "name": "GeorgeExpressive",
-      "gender": "MALE",
-      "language_code": "en-GB"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "en-US_LisaExpressive",
-      "name": "LisaExpressive",
-      "gender": "FEMALE",
-      "language_code": "en-US"
-    },
-    {
-      "engine": "watson",
       "voice_id": "en-GB_CharlotteV3Voice",
       "name": "Charlotte",
       "gender": "FEMALE",
@@ -1698,10 +1572,101 @@
     },
     {
       "engine": "watson",
+      "voice_id": "en-US_MichaelV3Voice",
+      "name": "Michael",
+      "gender": "MALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_OliviaV3Voice",
+      "name": "Olivia",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_LisaV2Voice",
+      "name": "LisaV2Voice",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_AllisonExpressive",
+      "name": "AllisonExpressive",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-GB_GeorgeExpressive",
+      "name": "GeorgeExpressive",
+      "gender": "MALE",
+      "language_code": "en-GB"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-GB_KateVoice",
+      "name": "KateVoice",
+      "gender": "FEMALE",
+      "language_code": "en-GB"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_AllisonVoice",
+      "name": "AllisonVoice",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_LisaExpressive",
+      "name": "LisaExpressive",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_AllisonV2Voice",
+      "name": "AllisonV2Voice",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-AU_JackExpressive",
+      "name": "JackExpressive",
+      "gender": "MALE",
+      "language_code": "en-AU"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_AllisonV3Voice",
+      "name": "Allison",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_MichaelV2Voice",
+      "name": "MichaelV2Voice",
+      "gender": "MALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
       "voice_id": "en-AU_HeidiExpressive",
       "name": "HeidiExpressive",
       "gender": "FEMALE",
       "language_code": "en-AU"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_MichaelExpressive",
+      "name": "MichaelExpressive",
+      "gender": "MALE",
+      "language_code": "en-US"
     },
     {
       "engine": "watson",
@@ -1712,9 +1677,44 @@
     },
     {
       "engine": "watson",
-      "voice_id": "en-US_AllisonV3Voice",
-      "name": "Allison",
+      "voice_id": "en-US_LisaV3Voice",
+      "name": "Lisa",
       "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_EmmaExpressive",
+      "name": "EmmaExpressive",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_KevinV3Voice",
+      "name": "Kevin",
+      "gender": "MALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_LisaVoice",
+      "name": "LisaVoice",
+      "gender": "FEMALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_HenryV3Voice",
+      "name": "Henry",
+      "gender": "MALE",
+      "language_code": "en-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "en-US_MichaelVoice",
+      "name": "MichaelVoice",
+      "gender": "MALE",
       "language_code": "en-US"
     },
     {
@@ -2915,20 +2915,6 @@
     },
     {
       "engine": "watson",
-      "voice_id": "de-DE_BirgitVoice",
-      "name": "BirgitVoice",
-      "gender": "FEMALE",
-      "language_code": "de-DE"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "de-DE_DieterV3Voice",
-      "name": "Dieter",
-      "gender": "MALE",
-      "language_code": "de-DE"
-    },
-    {
-      "engine": "watson",
       "voice_id": "de-DE_ErikaV3Voice",
       "name": "Erika",
       "gender": "FEMALE",
@@ -2936,8 +2922,15 @@
     },
     {
       "engine": "watson",
-      "voice_id": "de-DE_DieterVoice",
-      "name": "DieterVoice",
+      "voice_id": "de-DE_DieterV2Voice",
+      "name": "DieterV2Voice",
+      "gender": "MALE",
+      "language_code": "de-DE"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "de-DE_DieterV3Voice",
+      "name": "Dieter",
       "gender": "MALE",
       "language_code": "de-DE"
     },
@@ -2950,8 +2943,15 @@
     },
     {
       "engine": "watson",
-      "voice_id": "de-DE_DieterV2Voice",
-      "name": "DieterV2Voice",
+      "voice_id": "de-DE_BirgitVoice",
+      "name": "BirgitVoice",
+      "gender": "FEMALE",
+      "language_code": "de-DE"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "de-DE_DieterVoice",
+      "name": "DieterVoice",
       "gender": "MALE",
       "language_code": "de-DE"
     },
@@ -3820,6 +3820,27 @@
     },
     {
       "engine": "watson",
+      "voice_id": "es-US_SofiaV3Voice",
+      "name": "Sofia",
+      "gender": "FEMALE",
+      "language_code": "es-US"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "es-ES_EnriqueV3Voice",
+      "name": "Enrique",
+      "gender": "MALE",
+      "language_code": "es-ES"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "es-LA_SofiaVoice",
+      "name": "SofiaVoice",
+      "gender": "FEMALE",
+      "language_code": "es-LA"
+    },
+    {
+      "engine": "watson",
       "voice_id": "es-ES_LauraVoice",
       "name": "LauraVoice",
       "gender": "FEMALE",
@@ -3834,24 +3855,17 @@
     },
     {
       "engine": "watson",
-      "voice_id": "es-US_SofiaV3Voice",
-      "name": "Sofia",
-      "gender": "FEMALE",
-      "language_code": "es-US"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "es-LA_SofiaVoice",
-      "name": "SofiaVoice",
-      "gender": "FEMALE",
-      "language_code": "es-LA"
-    },
-    {
-      "engine": "watson",
       "voice_id": "es-ES_EnriqueVoice",
       "name": "EnriqueVoice",
       "gender": "MALE",
       "language_code": "es-ES"
+    },
+    {
+      "engine": "watson",
+      "voice_id": "es-US_SofiaVoice",
+      "name": "SofiaVoice",
+      "gender": "FEMALE",
+      "language_code": "es-US"
     },
     {
       "engine": "watson",
@@ -3866,20 +3880,6 @@
       "name": "Sofia",
       "gender": "FEMALE",
       "language_code": "es-LA"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "es-ES_EnriqueV3Voice",
-      "name": "Enrique",
-      "gender": "MALE",
-      "language_code": "es-ES"
-    },
-    {
-      "engine": "watson",
-      "voice_id": "es-US_SofiaVoice",
-      "name": "SofiaVoice",
-      "gender": "FEMALE",
-      "language_code": "es-US"
     },
     {
       "engine": "elevenlabs",
@@ -5314,16 +5314,16 @@
     },
     {
       "engine": "watson",
-      "voice_id": "pt-BR_LucasExpressive",
-      "name": "LucasExpressive",
-      "gender": "MALE",
+      "voice_id": "pt-BR_IsabelaVoice",
+      "name": "IsabelaVoice",
+      "gender": "FEMALE",
       "language_code": "pt-BR"
     },
     {
       "engine": "watson",
-      "voice_id": "pt-BR_IsabelaVoice",
-      "name": "IsabelaVoice",
-      "gender": "FEMALE",
+      "voice_id": "pt-BR_LucasExpressive",
+      "name": "LucasExpressive",
+      "gender": "MALE",
       "language_code": "pt-BR"
     },
     {

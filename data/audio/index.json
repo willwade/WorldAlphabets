@@ -597,6 +597,21 @@
       "engine": "microsoft",
       "voice_id": "az_az_banuneural",
       "path": "data/audio/az-Latn_microsoft_az_az_banuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "az-AZ-BanuNeural",
+      "path": "data/audio/az-Cyrl_microsoft_az_az_banuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "az-AZ-BabekNeural",
+      "path": "data/audio/az-Cyrl_microsoft_az_az_babekneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "trk/az",
+      "path": "data/audio/az-Cyrl_espeak_trk_az.wav"
     }
   ],
   "ba": [
@@ -623,6 +638,11 @@
       "engine": "espeak",
       "voice_id": "zle_be",
       "path": "data/audio/be-Cyrl_espeak_zle_be.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "zle/be",
+      "path": "data/audio/be-x-old_espeak_zle_be.wav"
     }
   ],
   "bg": [
@@ -767,6 +787,11 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_bam",
       "path": "data/audio/bm-Latn_sherpaonnx_mms_bam.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bam",
+      "path": "data/audio/bm-Nkoo_sherpaonnx_mms_bam.wav"
     }
   ],
   "bn": [
@@ -5555,6 +5580,336 @@
       "engine": "elevenlabs",
       "voice_id": "pqHfZKP75CvOlQylNhV4",
       "path": "data/audio/ja-Jpan_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kazuha",
+      "path": "data/audio/ja-Hira_polly_kazuha.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Tomoko",
+      "path": "data/audio/ja-Hira_polly_tomoko.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Takumi",
+      "path": "data/audio/ja-Hira_polly_takumi.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-NanamiNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_nanamineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-KeitaNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_keitaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-AoiNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_aoineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-DaichiNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_daichineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-MayuNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_mayuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-NaokiNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_naokineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-ShioriNeural",
+      "path": "data/audio/ja-Hira_microsoft_ja_jp_shiorineural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ja-Hira_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ja-Hira_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ja-Hira_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ja-Hira_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ja-Hira_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ja-Hira_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ja-Hira_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ja-Hira_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ja-Hira_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ja-Hira_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ja-Hira_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ja-Hira_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ja-Hira_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ja-Hira_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ja-Hira_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ja-Hira_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ja-Hira_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ja-Hira_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ja-Hira_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ja-Hira_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ja-Hira_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ja-Hira_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "jpx/ja",
+      "path": "data/audio/ja-Hira_espeak_jpx_ja.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Kazuha",
+      "path": "data/audio/ja-Kana_polly_kazuha.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Tomoko",
+      "path": "data/audio/ja-Kana_polly_tomoko.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Takumi",
+      "path": "data/audio/ja-Kana_polly_takumi.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-NanamiNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_nanamineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-KeitaNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_keitaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-AoiNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_aoineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-DaichiNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_daichineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-MayuNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_mayuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-NaokiNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_naokineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ja-JP-ShioriNeural",
+      "path": "data/audio/ja-Kana_microsoft_ja_jp_shiorineural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ja-Kana_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ja-Kana_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ja-Kana_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ja-Kana_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ja-Kana_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ja-Kana_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ja-Kana_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/ja-Kana_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/ja-Kana_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/ja-Kana_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/ja-Kana_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/ja-Kana_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/ja-Kana_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/ja-Kana_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/ja-Kana_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/ja-Kana_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/ja-Kana_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/ja-Kana_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/ja-Kana_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/ja-Kana_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/ja-Kana_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/ja-Kana_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "jpx/ja",
+      "path": "data/audio/ja-Kana_espeak_jpx_ja.wav"
     }
   ],
   "jv": [
@@ -5827,6 +6182,106 @@
       "engine": "elevenlabs",
       "voice_id": "pqHfZKP75CvOlQylNhV4",
       "path": "data/audio/ko-Kore_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Jihye",
+      "path": "data/audio/ko-Hang_polly_jihye.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Seoyeon",
+      "path": "data/audio/ko-Hang_polly_seoyeon.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-SunHiNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_sunhineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-InJoonNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_injoonneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-HyunsuMultilingualNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_hyunsumultilin.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-BongJinNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_bongjinneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-GookMinNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_gookminneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-HyunsuNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_hyunsuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-JiMinNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_jiminneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-SeoHyeonNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_seohyeonneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-SoonBokNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_soonbokneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ko-KR-YuJinNeural",
+      "path": "data/audio/ko-Hang_microsoft_ko_kr_yujinneural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/ko-Hang_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/ko-Hang_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/ko-Hang_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/ko-Hang_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/ko-Hang_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/ko-Hang_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/ko-Hang_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "ko",
+      "path": "data/audio/ko-Hang_espeak_ko.wav"
     }
   ],
   "ku": [
@@ -5984,6 +6439,21 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_mon",
       "path": "data/audio/mn-Cyrl_sherpaonnx_mms_mon.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "mn-MN-YesuiNeural",
+      "path": "data/audio/mn-Mong_microsoft_mn_mn_yesuineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "mn-MN-BataaNeural",
+      "path": "data/audio/mn-Mong_microsoft_mn_mn_bataaneural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_mon",
+      "path": "data/audio/mn-Mong_sherpaonnx_mms_mon.wav"
     }
   ],
   "mr": [
@@ -6734,6 +7204,21 @@
       "engine": "microsoft",
       "voice_id": "sr_rs_sophieneural",
       "path": "data/audio/sr-Cyrl_microsoft_sr_rs_sophieneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "sr-RS-SophieNeural",
+      "path": "data/audio/sr-Latn_microsoft_sr_rs_sophieneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "sr-RS-NicholasNeural",
+      "path": "data/audio/sr-Latn_microsoft_sr_rs_nicholasneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "zls/sr",
+      "path": "data/audio/sr-Latn_espeak_zls_sr.wav"
     }
   ],
   "su": [
@@ -8104,6 +8589,765 @@
       "engine": "elevenlabs",
       "voice_id": "pqHfZKP75CvOlQylNhV4",
       "path": "data/audio/zh-yue-Hant_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoxiaoNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoxiaoneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunxiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunxineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunjianNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunjianneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoyiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoyineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunyangNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunyangneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaochenNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaochenneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaochenMultilingualNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaochenmultil.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaohanNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaohanneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaomengNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaomengneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaomoNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaomoneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoqiuNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoqiuneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaorouNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaorouneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoruiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoruineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoshuangNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoshuangneur.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoxiaoDialectsNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoxiaodialec.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoxiaoMultilingualNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoxiaomultil.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoyanNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoyanneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoyouNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoyouneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaoyuMultilingualNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaoyumultilin.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-XiaozhenNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_xiaozhenneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunfengNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunfengneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunhaoNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunhaoneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunjieNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunjieneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunxiaNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunxianeural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunxiaoMultilingualNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunxiaomultili.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunyeNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunyeneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunyiMultilingualNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunyimultiling.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-YunzeNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_yunzeneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-henan-YundengNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_henan_yundengn.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-liaoning-XiaobeiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_liaoning_xiaob.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-shaanxi-XiaoniNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_shaanxi_xiaoni.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-shandong-YunxiangNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_shandong_yunxi.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-CN-sichuan-YunxiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_cn_sichuan_yunxin.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-HK-HiuMaanNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_hk_hiumaanneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-HK-WanLungNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_hk_wanlungneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-HK-HiuGaaiNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_hk_hiugaaineural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-TW-HsiaoChenNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_tw_hsiaochenneura.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-TW-YunJheNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_tw_yunjheneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zh-TW-HsiaoYuNeural",
+      "path": "data/audio/zh-min-nan-Hans_microsoft_zh_tw_hsiaoyuneural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/zh-min-nan-Hans_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/zh-min-nan-Hans_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    }
+  ],
+  "as": [
+    {
+      "engine": "microsoft",
+      "voice_id": "as-IN-YashicaNeural",
+      "path": "data/audio/as-Beng_microsoft_as_in_yashicaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "as-IN-PriyomNeural",
+      "path": "data/audio/as-Beng_microsoft_as_in_priyomneural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_asm",
+      "path": "data/audio/as-Beng_sherpaonnx_mms_asm.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "inc/as",
+      "path": "data/audio/as-Beng_espeak_inc_as.wav"
+    }
+  ],
+  "bem": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bem",
+      "path": "data/audio/bem-Latn_sherpaonnx_mms_bem.wav"
+    }
+  ],
+  "dv": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_div",
+      "path": "data/audio/dv-Thaa_sherpaonnx_mms_div.wav"
+    }
+  ],
+  "ee": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ewe",
+      "path": "data/audio/ee-Latn_sherpaonnx_mms_ewe.wav"
+    }
+  ],
+  "ff": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ful",
+      "path": "data/audio/ff-Adlm_sherpaonnx_mms_ful.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ful",
+      "path": "data/audio/ff-Latn_sherpaonnx_mms_ful.wav"
+    }
+  ],
+  "ha": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_hau",
+      "path": "data/audio/ha-Latn_sherpaonnx_mms_hau.wav"
+    }
+  ],
+  "id": [
+    {
+      "engine": "microsoft",
+      "voice_id": "id-ID-GadisNeural",
+      "path": "data/audio/id-Latn_microsoft_id_id_gadisneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "id-ID-ArdiNeural",
+      "path": "data/audio/id-Latn_microsoft_id_id_ardineural.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "path": "data/audio/id-Latn_elevenlabs_21m00tcm4tlvdq8ikwam.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "2EiwWnXFnvU5JabPnv8n",
+      "path": "data/audio/id-Latn_elevenlabs_2eiwwnxfnvu5jabpnv8n.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+      "path": "data/audio/id-Latn_elevenlabs_cwhrbwxzgahq8tq4fs17.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "EXAVITQu4vr4xnSDxMaL",
+      "path": "data/audio/id-Latn_elevenlabs_exavitqu4vr4xnsdxmal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+      "path": "data/audio/id-Latn_elevenlabs_fgy2whtyppnridtdskh5.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "GBv7mTt0atIp3Br8iCZE",
+      "path": "data/audio/id-Latn_elevenlabs_gbv7mtt0atip3br8icze.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "IKne3meq5aSn9XLyUdCD",
+      "path": "data/audio/id-Latn_elevenlabs_ikne3meq5asn9xlyudcd.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "path": "data/audio/id-Latn_elevenlabs_jbfqncbsd6rmkjvdrzzb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+      "path": "data/audio/id-Latn_elevenlabs_n2lvs1w4etot3dr4eowo.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SAz9YHcvj6GT2YYXdXww",
+      "path": "data/audio/id-Latn_elevenlabs_saz9yhcvj6gt2yyxdxww.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+      "path": "data/audio/id-Latn_elevenlabs_soyhlrjzk2x1ezopc6cr.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+      "path": "data/audio/id-Latn_elevenlabs_tx3lpaxmhkxfdv7voqhj.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+      "path": "data/audio/id-Latn_elevenlabs_xb7hh8msujpsbsdyk0k2.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "XrExE9yKIg1WjnnlVkGX",
+      "path": "data/audio/id-Latn_elevenlabs_xrexe9ykig1wjnnlvkgx.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "bIHbv24MWmeRgasZH58o",
+      "path": "data/audio/id-Latn_elevenlabs_bihbv24mwmergaszh58o.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "path": "data/audio/id-Latn_elevenlabs_cgsgspj2msm6clmckdw9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "cjVigY5qzO86Huf0OWal",
+      "path": "data/audio/id-Latn_elevenlabs_cjvigy5qzo86huf0owal.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "iP95p4xoKVk53GoZ742B",
+      "path": "data/audio/id-Latn_elevenlabs_ip95p4xokvk53goz742b.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "nPczCjzI2devNBz1zQrb",
+      "path": "data/audio/id-Latn_elevenlabs_npczcjzi2devnbz1zqrb.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "path": "data/audio/id-Latn_elevenlabs_onwk4e9zlutakqww03f9.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "path": "data/audio/id-Latn_elevenlabs_pfzp5jqg7iqjiquc4bku.wav"
+    },
+    {
+      "engine": "elevenlabs",
+      "voice_id": "pqHfZKP75CvOlQylNhV4",
+      "path": "data/audio/id-Latn_elevenlabs_pqhfzkp75cvolqylnhv4.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ind",
+      "path": "data/audio/id-Latn_sherpaonnx_mms_ind.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "poz/id",
+      "path": "data/audio/id-Latn_espeak_poz_id.wav"
+    }
+  ],
+  "lg": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_lug",
+      "path": "data/audio/lg-Latn_sherpaonnx_mms_lug.wav"
+    }
+  ],
+  "ltg": [
+    {
+      "engine": "espeak",
+      "voice_id": "bat/ltg",
+      "path": "data/audio/ltg-Latn_espeak_bat_ltg.wav"
+    }
+  ],
+  "mai": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_mai",
+      "path": "data/audio/mai-Deva_sherpaonnx_mms_mai.wav"
+    }
+  ],
+  "mi": [
+    {
+      "engine": "espeak",
+      "voice_id": "poz/mi",
+      "path": "data/audio/mi-Latn_espeak_poz_mi.wav"
+    }
+  ],
+  "ms": [
+    {
+      "engine": "microsoft",
+      "voice_id": "ms-MY-YasminNeural",
+      "path": "data/audio/ms-Latn_microsoft_ms_my_yasminneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "ms-MY-OsmanNeural",
+      "path": "data/audio/ms-Latn_microsoft_ms_my_osmanneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "poz/ms",
+      "path": "data/audio/ms-Latn_espeak_poz_ms.wav"
+    }
+  ],
+  "mt": [
+    {
+      "engine": "microsoft",
+      "voice_id": "mt-MT-GraceNeural",
+      "path": "data/audio/mt-Latn_microsoft_mt_mt_graceneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "mt-MT-JosephNeural",
+      "path": "data/audio/mt-Latn_microsoft_mt_mt_josephneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "sem/mt",
+      "path": "data/audio/mt-Latn_espeak_sem_mt.wav"
+    }
+  ],
+  "nb": [
+    {
+      "engine": "polly",
+      "voice_id": "Ida",
+      "path": "data/audio/nb-Latn_polly_ida.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nb-NO-PernilleNeural",
+      "path": "data/audio/nb-Latn_microsoft_nb_no_pernilleneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nb-NO-FinnNeural",
+      "path": "data/audio/nb-Latn_microsoft_nb_no_finnneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nb-NO-IselinNeural",
+      "path": "data/audio/nb-Latn_microsoft_nb_no_iselinneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "gmq/nb",
+      "path": "data/audio/nb-Latn_espeak_gmq_nb.wav"
+    }
+  ],
+  "nl": [
+    {
+      "engine": "polly",
+      "voice_id": "Lisa",
+      "path": "data/audio/nl-Latn_polly_lisa.wav"
+    },
+    {
+      "engine": "polly",
+      "voice_id": "Laura",
+      "path": "data/audio/nl-Latn_polly_laura.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nl-BE-DenaNeural",
+      "path": "data/audio/nl-Latn_microsoft_nl_be_denaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nl-BE-ArnaudNeural",
+      "path": "data/audio/nl-Latn_microsoft_nl_be_arnaudneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nl-NL-FennaNeural",
+      "path": "data/audio/nl-Latn_microsoft_nl_nl_fennaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nl-NL-MaartenNeural",
+      "path": "data/audio/nl-Latn_microsoft_nl_nl_maartenneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "nl-NL-ColetteNeural",
+      "path": "data/audio/nl-Latn_microsoft_nl_nl_coletteneural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_nld",
+      "path": "data/audio/nl-Latn_sherpaonnx_mms_nld.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "gmw/nl",
+      "path": "data/audio/nl-Latn_espeak_gmw_nl.wav"
+    }
+  ],
+  "nus": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_nus",
+      "path": "data/audio/nus-Latn_sherpaonnx_mms_nus.wav"
+    }
+  ],
+  "ny": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_nya",
+      "path": "data/audio/ny-Latn_sherpaonnx_mms_nya.wav"
+    }
+  ],
+  "om": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_orm",
+      "path": "data/audio/om-Latn_sherpaonnx_mms_orm.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "cus/om",
+      "path": "data/audio/om-Latn_espeak_cus_om.wav"
+    }
+  ],
+  "pa": [
+    {
+      "engine": "microsoft",
+      "voice_id": "pa-IN-OjasNeural",
+      "path": "data/audio/pa-Guru_microsoft_pa_in_ojasneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "pa-IN-VaaniNeural",
+      "path": "data/audio/pa-Guru_microsoft_pa_in_vaanineural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_pan",
+      "path": "data/audio/pa-Guru_sherpaonnx_mms_pan.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "inc/pa",
+      "path": "data/audio/pa-Guru_espeak_inc_pa.wav"
+    }
+  ],
+  "pap": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_pap",
+      "path": "data/audio/pap-Latn_sherpaonnx_mms_pap.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "roa/pap",
+      "path": "data/audio/pap-Latn_espeak_roa_pap.wav"
+    }
+  ],
+  "qu": [
+    {
+      "engine": "espeak",
+      "voice_id": "qu",
+      "path": "data/audio/qu-Latn_espeak_qu.wav"
+    }
+  ],
+  "rn": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_run",
+      "path": "data/audio/rn-Latn_sherpaonnx_mms_run.wav"
+    }
+  ],
+  "rw": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_kin",
+      "path": "data/audio/rw-Latn_sherpaonnx_mms_kin.wav"
+    }
+  ],
+  "sd": [
+    {
+      "engine": "espeak",
+      "voice_id": "inc/sd",
+      "path": "data/audio/sd-Arab_espeak_inc_sd.wav"
+    }
+  ],
+  "sk": [
+    {
+      "engine": "microsoft",
+      "voice_id": "sk-SK-ViktoriaNeural",
+      "path": "data/audio/sk-Latn_microsoft_sk_sk_viktorianeural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "sk-SK-LukasNeural",
+      "path": "data/audio/sk-Latn_microsoft_sk_sk_lukasneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "zlw/sk",
+      "path": "data/audio/sk-Latn_espeak_zlw_sk.wav"
+    }
+  ],
+  "sq": [
+    {
+      "engine": "microsoft",
+      "voice_id": "sq-AL-AnilaNeural",
+      "path": "data/audio/sq-Latn_microsoft_sq_al_anilaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "sq-AL-IlirNeural",
+      "path": "data/audio/sq-Latn_microsoft_sq_al_ilirneural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_sqi",
+      "path": "data/audio/sq-Latn_sherpaonnx_mms_sqi.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "ine/sq",
+      "path": "data/audio/sq-Latn_espeak_ine_sq.wav"
+    }
+  ],
+  "ts": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_tso",
+      "path": "data/audio/ts-Latn_sherpaonnx_mms_tso.wav"
+    }
+  ],
+  "ug": [
+    {
+      "engine": "espeak",
+      "voice_id": "trk/ug",
+      "path": "data/audio/ug-Arab_espeak_trk_ug.wav"
+    }
+  ],
+  "uz": [
+    {
+      "engine": "microsoft",
+      "voice_id": "uz-UZ-MadinaNeural",
+      "path": "data/audio/uz-Cyrl_microsoft_uz_uz_madinaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "uz-UZ-SardorNeural",
+      "path": "data/audio/uz-Cyrl_microsoft_uz_uz_sardorneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "trk/uz",
+      "path": "data/audio/uz-Cyrl_espeak_trk_uz.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "uz-UZ-MadinaNeural",
+      "path": "data/audio/uz-Latn_microsoft_uz_uz_madinaneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "uz-UZ-SardorNeural",
+      "path": "data/audio/uz-Latn_microsoft_uz_uz_sardorneural.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "trk/uz",
+      "path": "data/audio/uz-Latn_espeak_trk_uz.wav"
+    }
+  ],
+  "vi": [
+    {
+      "engine": "microsoft",
+      "voice_id": "vi-VN-HoaiMyNeural",
+      "path": "data/audio/vi-Latn_microsoft_vi_vn_hoaimyneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "vi-VN-NamMinhNeural",
+      "path": "data/audio/vi-Latn_microsoft_vi_vn_namminhneural.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_vie",
+      "path": "data/audio/vi-Latn_sherpaonnx_mms_vie.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "aav/vi",
+      "path": "data/audio/vi-Latn_espeak_aav_vi.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "aav/vi-VN-x-central",
+      "path": "data/audio/vi-Latn_espeak_aav_vi_vn_x_central.wav"
+    },
+    {
+      "engine": "espeak",
+      "voice_id": "aav/vi-VN-x-south",
+      "path": "data/audio/vi-Latn_espeak_aav_vi_vn_x_south.wav"
+    }
+  ],
+  "yo": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_yor",
+      "path": "data/audio/yo-Latn_sherpaonnx_mms_yor.wav"
+    }
+  ],
+  "zu": [
+    {
+      "engine": "microsoft",
+      "voice_id": "zu-ZA-ThandoNeural",
+      "path": "data/audio/zu-Latn_microsoft_zu_za_thandoneural.wav"
+    },
+    {
+      "engine": "microsoft",
+      "voice_id": "zu-ZA-ThembaNeural",
+      "path": "data/audio/zu-Latn_microsoft_zu_za_thembaneural.wav"
     }
   ]
 }

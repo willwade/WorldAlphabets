@@ -1,6 +1,7 @@
 # Project Guidelines
 
-- This repository mixes Python and Node code. Development code to build the data stores are in pytthon, while the published library is in Node and Python. 
+- This repository mixes Python and Node code. Development code to build the data stores are in pytthon, while the published library is in Node and Python.
+- read  docs/DATA_PIPELINE.md for details on the data pipeline. 
 - Use uv from astral.sh for running scripts and checks.
 - Use `uv run` for Python scripts and checks.
 - Run `ruff check` and `mypy` on any Python files you modify. (NB: uv run mypy --install-types for types installation)

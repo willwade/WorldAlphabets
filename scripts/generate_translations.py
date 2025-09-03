@@ -150,17 +150,16 @@ def generate_translations(skip_existing: bool = False) -> None:
     for item in languages:
         try:
             lang_code = item["language"]
-            lang_name = item.get("language-name", lang_code)
-            scripts = item.get("scripts", [])
+            lang_name = item.get("name", lang_code)
+            script = item["script"]
         except (KeyError, TypeError):
             print(f"Skipping malformed entry: {item!r}")
             continue
 
-        for script in scripts:
-            code_with_script = f"{lang_code}-{script}"
-            target = find_supported_code(code_with_script, supported)
-            if not target:
-                target = find_supported_code(lang_code, supported)
+        code_with_script = f"{lang_code}-{script}"
+        target = find_supported_code(code_with_script, supported)
+        if not target:
+            target = find_supported_code(lang_code, supported)
 
             file_path = ALPHABETS_DIR / f"{lang_code}-{script}.json"
 
@@ -238,7 +237,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Skip languages that already have translations"
+        help="Skip languages that already have translations",
     )
     args = parser.parse_args()
 
