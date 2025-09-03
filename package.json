@@ -1,6 +1,6 @@
 {
   "name": "worldalphabets",
-  "version": "0.1.0",
+  "version": "{{version}}",
   "description": "Simple Node interface to WorldAlphabets data",
   "main": "index.js",
   "types": "index.d.ts",
