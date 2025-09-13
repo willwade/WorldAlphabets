@@ -16,7 +16,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 from urllib.error import HTTPError
 
 import langcodes
@@ -27,7 +27,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 try:
-    from icu import Collator, Locale
+    from icu import Collator, Locale  # type: ignore[import-not-found]
 except ImportError:
     logger.warning("PyICU not available, falling back to basic sorting")
     Collator = None
@@ -35,6 +35,16 @@ except ImportError:
 
 CLDR_BASE = "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json"
 USER_AGENT = "WorldAlphabets frequency bot (https://github.com/willwade/WorldAlphabets)"
+
+TONE_MARK_LANGS = {"vi"}
+TONE_MARKS = {"\u0300", "\u0301", "\u0303", "\u0309", "\u0323"}
+
+
+def strip_tone_marks(ch: str) -> str:
+    """Remove Vietnamese tone marks from a character."""
+    nfd = unicodedata.normalize("NFD", ch)
+    filtered = "".join(c for c in nfd if c not in TONE_MARKS)
+    return unicodedata.normalize("NFC", filtered)
 
 # Fallback alphabet data for common languages missing from CLDR
 FALLBACK_ALPHABETS = {
@@ -56,16 +66,16 @@ FALLBACK_ALPHABETS = {
 }
 
 class AlphabetBuilder:
-    def __init__(self):
+    def __init__(self) -> None:
         self.unigrams_dir = Path("external/unigrams")
         self.unigrams_zip = self.unigrams_dir / "unigrams.zip"
-        self.stats = {
+        self.stats: Dict[str, Any] = {
             "total_processed": 0,
             "successful": 0,
             "cldr_missing": 0,
             "frequency_missing": 0,
             "fallback_used": 0,
-            "errors": []
+            "errors": [],
         }
 
     def download_unigrams(self) -> None:
@@ -307,22 +317,51 @@ class AlphabetBuilder:
     def _build_from_letters(self, language: str, script: str, letters: List[str], cldr_data: Optional[Dict] = None, digits: Optional[List[str]] = None) -> Dict:
         """Build alphabet data from a list of letters."""
         locale = f"{language}-{script}"
-        
+
+        if language in TONE_MARK_LANGS:
+            letters = [strip_tone_marks(ch) for ch in letters]
+
         # Handle case
         has_case = any(ch.lower() != ch.upper() for ch in letters)
         if has_case:
             lower = {unicodedata.normalize("NFC", ch.lower()) for ch in letters}
             upper_map = {ch: unicodedata.normalize("NFC", ch.upper()) for ch in lower}
         else:
-            lower = set(letters)
+            lower = {unicodedata.normalize("NFC", ch) for ch in letters}
             upper_map = {ch: ch for ch in lower}
 
-        # Sort letters
-        if cldr_data and cldr_data.get("index"):
-            order = {ch: i for i, ch in enumerate(self.parse_exemplars(cldr_data["index"]))}
-            lower_sorted = sorted(lower, key=lambda ch: (order.get(ch.upper(), len(order)), ch))
+        lower_ordered: List[str] = []
+        if cldr_data and cldr_data.get("exemplarCharacters"):
+            exemplar = self.parse_exemplars(cldr_data["exemplarCharacters"])
+            if language in TONE_MARK_LANGS:
+                exemplar = [strip_tone_marks(ch) for ch in exemplar]
+            seen: set[str] = set()
+            for ch in exemplar:
+                lch = unicodedata.normalize("NFC", ch.lower())
+                if lch in lower and lch not in seen:
+                    lower_ordered.append(lch)
+                    seen.add(lch)
+            remaining = lower - seen
         else:
-            lower_sorted = self.sort_letters(list(lower), locale)
+            remaining = lower
+
+        if cldr_data and cldr_data.get("index"):
+            index_letters = [
+                ch.upper() for ch in self.parse_exemplars(cldr_data["index"])
+            ]
+            order = {ch: i for i, ch in enumerate(index_letters)}
+
+            def sort_key(ch: str) -> tuple[int, int, str]:
+                upper = upper_map[ch]
+                base = unicodedata.normalize("NFD", upper)[0]
+                base_order = order.get(base, len(order))
+                return (base_order, 0 if upper == base else 1, upper)
+
+            remaining_sorted = sorted(remaining, key=sort_key)
+        else:
+            remaining_sorted = self.sort_letters(list(remaining), locale)
+
+        lower_sorted = lower_ordered + [ch for ch in remaining_sorted if ch not in lower_ordered]
 
         upper_sorted = [upper_map[ch] for ch in lower_sorted]
         alphabetical = upper_sorted
@@ -432,7 +471,7 @@ class AlphabetBuilder:
             if len(self.stats['errors']) > 10:
                 print(f"  ... and {len(self.stats['errors']) - 10} more")
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("language", nargs="?", help="ISO 639 code")
     parser.add_argument("script", nargs="?", help="ISO 15924 code")
