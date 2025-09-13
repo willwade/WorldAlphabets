@@ -139,6 +139,83 @@ async function getScripts(langCode) {
   return entry && entry.scripts ? entry.scripts : [];
 }
 
+const SPECIAL_BASE = {
+  Ł: 'L',
+  ł: 'l',
+  Đ: 'D',
+  đ: 'd',
+  Ø: 'O',
+  ø: 'o',
+};
+
+function stripDiacritics(text) {
+  return Array.from(text)
+    .map((ch) => {
+      const base = ch.normalize('NFD').replace(/\p{M}/gu, '');
+      return base === ch ? SPECIAL_BASE[ch] || base : base;
+    })
+    .join('');
+}
+
+function hasDiacritics(char) {
+  return stripDiacritics(char) !== char;
+}
+
+function charactersWithDiacritics(chars) {
+  return chars.filter((ch) => hasDiacritics(ch));
+}
+
+async function getDiacriticVariants(code, script) {
+  const data = await loadAlphabet(code, script);
+
+  const build = (chars = []) => {
+    const groups = {};
+    for (const ch of chars) {
+      const base = stripDiacritics(ch);
+      groups[base] = groups[base] || new Set();
+      groups[base].add(ch);
+    }
+    return Object.fromEntries(
+      Object.entries(groups)
+        .filter(([, set]) => set.size > 1)
+        .map(([b, set]) => [b, Array.from(set).sort()])
+    );
+  };
+
+  return { ...build(data.uppercase), ...build(data.lowercase) };
+}
+
+async function detectLanguages(text) {
+  const letters = new Set(
+    Array.from(text)
+      .filter((ch) => /\p{L}/u.test(ch))
+      .map((ch) => stripDiacritics(ch).toLowerCase())
+  );
+  if (letters.size === 0) return [];
+
+  const data = await getIndexData();
+  const candidates = [];
+  for (const entry of data) {
+    try {
+      const alphabet = await loadAlphabet(entry.language, entry.script);
+      const available = new Set(
+        alphabet.lowercase.map((ch) => stripDiacritics(ch).toLowerCase())
+      );
+      let ok = true;
+      for (const ch of letters) {
+        if (!available.has(ch)) {
+          ok = false;
+          break;
+        }
+      }
+      if (ok) candidates.push(entry.language);
+    } catch (_) {
+      /* ignore */
+    }
+  }
+  return candidates;
+}
+
 const keyboards = require('./keyboards');
 
 module.exports = {
@@ -152,6 +229,13 @@ module.exports = {
   getIndexData,
   getLanguage,
   getScripts,
+  // Diacritics
+  stripDiacritics,
+  hasDiacritics,
+  charactersWithDiacritics,
+  getDiacriticVariants,
+  // Language detection
+  detectLanguages,
   // Keyboards
   ...keyboards,
 };

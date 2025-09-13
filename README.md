@@ -102,6 +102,63 @@ async function main() {
 main();
 ```
 
+### Diacritic Utilities
+
+Both interfaces provide helpers to work with diacritic marks.
+
+#### Python
+
+```python
+from worldalphabets import strip_diacritics, has_diacritics
+
+strip_diacritics("café")  # "cafe"
+has_diacritics("é")       # True
+```
+
+#### Node.js
+
+```javascript
+const { stripDiacritics, hasDiacritics } = require('worldalphabets');
+
+stripDiacritics('café'); // 'cafe'
+hasDiacritics('é');      // true
+```
+
+Use `characters_with_diacritics`/`charactersWithDiacritics` to extract letters
+with diacritic marks from a list.
+
+Use `get_diacritic_variants`/`getDiacriticVariants` to list base letters and
+their diacritic forms for a given language.
+
+```python
+from worldalphabets import get_diacritic_variants
+
+get_diacritic_variants("pl", "Latn")["L"]  # ["L", "Ł"]
+```
+
+```javascript
+const { getDiacriticVariants } = require('worldalphabets');
+
+getDiacriticVariants('pl').then((v) => v.L); // ['L', 'Ł']
+```
+
+### Language Detection
+
+To guess possible languages for a string, use
+`detect_languages`/`detectLanguages`.
+
+```python
+from worldalphabets import detect_languages
+
+detect_languages("Żółć")  # ['pl', ...]
+```
+
+```javascript
+const { detectLanguages } = require('worldalphabets');
+
+detectLanguages('Żółć').then((codes) => console.log(codes));
+```
+
 ### Examples
 
 The `examples/` directory contains small scripts demonstrating the library:
