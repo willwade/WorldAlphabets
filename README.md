@@ -250,6 +250,12 @@ building alphabet JSON files directly from CLDR exemplar characters, enriching
 them with frequency counts from the Simia dataset or OpenSubtitles when
 available.
 
+The alphabet builder preserves the ordering from CLDR exemplar lists and
+places diacritic forms immediately after their base letters when the CLDR
+index omits them. For languages with tonal variants such as Vietnamese,
+common tone marks are stripped before deduplication to avoid generating
+separate entries for every tone combination.
+
 Each JSON file includes:
 
 - `language` – English language name
