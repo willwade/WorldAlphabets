@@ -102,6 +102,31 @@ async function main() {
 main();
 ```
 
+### Diacritic Utilities
+
+Both interfaces provide helpers to work with diacritic marks.
+
+#### Python
+
+```python
+from worldalphabets import strip_diacritics, has_diacritics
+
+strip_diacritics("café")  # "cafe"
+has_diacritics("é")       # True
+```
+
+#### Node.js
+
+```javascript
+const { stripDiacritics, hasDiacritics } = require('worldalphabets');
+
+stripDiacritics('café'); // 'cafe'
+hasDiacritics('é');      // true
+```
+
+Use `characters_with_diacritics`/`charactersWithDiacritics` to extract letters
+with diacritic marks from a list.
+
 ### Examples
 
 The `examples/` directory contains small scripts demonstrating the library:

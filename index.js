@@ -139,6 +139,18 @@ async function getScripts(langCode) {
   return entry && entry.scripts ? entry.scripts : [];
 }
 
+function stripDiacritics(text) {
+  return text.normalize('NFD').replace(/\p{M}/gu, '');
+}
+
+function hasDiacritics(char) {
+  return stripDiacritics(char) !== char;
+}
+
+function charactersWithDiacritics(chars) {
+  return chars.filter((ch) => hasDiacritics(ch));
+}
+
 const keyboards = require('./keyboards');
 
 module.exports = {
@@ -152,6 +164,10 @@ module.exports = {
   getIndexData,
   getLanguage,
   getScripts,
+  // Diacritics
+  stripDiacritics,
+  hasDiacritics,
+  charactersWithDiacritics,
   // Keyboards
   ...keyboards,
 };

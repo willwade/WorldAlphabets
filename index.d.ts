@@ -25,5 +25,9 @@ export function getIndexData(): Promise<IndexEntry[]>;
 export function getLanguage(langCode: string, script?: string): Promise<Alphabet | null>;
 export function getScripts(langCode: string): Promise<string[]>;
 
+export function stripDiacritics(text: string): string;
+export function hasDiacritics(char: string): boolean;
+export function charactersWithDiacritics(chars: string[]): string[];
+
 // Re-export all keyboard types and functions
 export * from './keyboards';

@@ -8,6 +8,11 @@ from typing import Dict, List, Optional
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import get_available_layouts, load_keyboard
 from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
+from .diacritics import (
+    strip_diacritics,
+    has_diacritics,
+    characters_with_diacritics,
+)
 
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
@@ -51,6 +56,10 @@ __all__ = [
     "get_index_data",
     "get_language",
     "get_scripts",
+    # Diacritics
+    "strip_diacritics",
+    "has_diacritics",
+    "characters_with_diacritics",
     # Keyboards
     "load_keyboard",
     "get_available_layouts",
