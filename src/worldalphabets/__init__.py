@@ -69,7 +69,20 @@ def get_diacritic_variants(code: str, script: str | None = None) -> Dict[str, Li
 
 
 def detect_languages(text: str) -> List[str]:
-    """Return language codes whose alphabets cover characters in ``text``."""
+    """Return language codes whose alphabets cover characters in ``text``.
+
+    Args:
+        text: Input text to analyze for language detection
+
+    Returns:
+        List of language codes whose alphabets can represent all letters in the text
+
+    Note:
+        This function strips diacritics before comparison, so "café" would match
+        languages that have 'c', 'a', 'f', 'e' in their alphabets.
+    """
+    if not text:
+        return []
 
     letters = {strip_diacritics(ch).lower() for ch in text if ch.isalpha()}
     if not letters:
@@ -79,15 +92,19 @@ def detect_languages(text: str) -> List[str]:
     for entry in get_index_data():
         lang = entry["language"]
         script = entry.get("script")
-        data = get_language(lang, script=script)
-        if data is None:
+        try:
+            data = get_language(lang, script=script)
+            if data is None:
+                continue
+            alphabet = {
+                strip_diacritics(ch).lower()
+                for ch in data.get("lowercase", [])
+            }
+            if letters <= alphabet:
+                candidates.append(lang)
+        except (FileNotFoundError, KeyError, ValueError):
+            # Skip languages that can't be loaded or have invalid data
             continue
-        alphabet = {
-            strip_diacritics(ch).lower()
-            for ch in data.get("lowercase", [])
-        }
-        if letters <= alphabet:
-            candidates.append(lang)
     return candidates
 
 

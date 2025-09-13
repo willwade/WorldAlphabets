@@ -139,6 +139,8 @@ async function getScripts(langCode) {
   return entry && entry.scripts ? entry.scripts : [];
 }
 
+// Special characters that don't decompose properly with NFD
+// These need explicit mapping to their base forms
 const SPECIAL_BASE = {
   Ł: 'L',
   ł: 'l',
@@ -146,23 +148,51 @@ const SPECIAL_BASE = {
   đ: 'd',
   Ø: 'O',
   ø: 'o',
+  Ð: 'D', // Icelandic eth
+  ð: 'd',
+  Þ: 'T', // Icelandic thorn
+  þ: 't',
+  Ŋ: 'N', // Eng
+  ŋ: 'n',
 };
 
+/**
+ * Remove diacritic marks from text.
+ * @param {string} text - The text to process
+ * @returns {string} Text with diacritic marks removed
+ */
 function stripDiacritics(text) {
+  if (!text) return text;
+
   return Array.from(text)
     .map((ch) => {
-      const base = ch.normalize('NFD').replace(/\p{M}/gu, '');
-      return base === ch ? SPECIAL_BASE[ch] || base : base;
+      // First check if it's a special character that needs explicit mapping
+      if (SPECIAL_BASE[ch]) {
+        return SPECIAL_BASE[ch];
+      }
+      // Use Unicode normalization to decompose and remove combining marks
+      return ch.normalize('NFD').replace(/\p{M}/gu, '');
     })
     .join('');
 }
 
+/**
+ * Check if a character contains diacritic marks.
+ * @param {string} char - The character to check
+ * @returns {boolean} True if the character has diacritics
+ */
 function hasDiacritics(char) {
+  if (!char) return false;
   return stripDiacritics(char) !== char;
 }
 
+/**
+ * Filter characters that contain diacritic marks.
+ * @param {string[]} chars - Array of characters to filter
+ * @returns {string[]} Characters that contain diacritic marks
+ */
 function charactersWithDiacritics(chars) {
-  return chars.filter((ch) => hasDiacritics(ch));
+  return chars.filter((ch) => ch && hasDiacritics(ch));
 }
 
 async function getDiacriticVariants(code, script) {
@@ -185,7 +215,14 @@ async function getDiacriticVariants(code, script) {
   return { ...build(data.uppercase), ...build(data.lowercase) };
 }
 
+/**
+ * Detect possible languages for a given text based on alphabet coverage.
+ * @param {string} text - The text to analyze
+ * @returns {Promise<string[]>} Array of language codes that could represent the text
+ */
 async function detectLanguages(text) {
+  if (!text) return [];
+
   const letters = new Set(
     Array.from(text)
       .filter((ch) => /\p{L}/u.test(ch))
@@ -198,6 +235,9 @@ async function detectLanguages(text) {
   for (const entry of data) {
     try {
       const alphabet = await loadAlphabet(entry.language, entry.script);
+      if (!alphabet || !alphabet.lowercase) {
+        continue;
+      }
       const available = new Set(
         alphabet.lowercase.map((ch) => stripDiacritics(ch).toLowerCase())
       );
@@ -209,8 +249,9 @@ async function detectLanguages(text) {
         }
       }
       if (ok) candidates.push(entry.language);
-    } catch (_) {
-      /* ignore */
+    } catch (error) {
+      // Skip languages that can't be loaded or have invalid data
+      continue;
     }
   }
   return candidates;
