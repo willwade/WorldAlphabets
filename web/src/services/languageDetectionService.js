@@ -5,7 +5,7 @@
 
 const PRIOR_WEIGHT = 0.65;
 const FREQ_WEIGHT = 0.35;
-const DETECTION_THRESHOLD = 0.05;
+const DETECTION_THRESHOLD = 0.01; // Lowered for testing
 
 class LanguageDetectionService {
   constructor() {
@@ -19,10 +19,17 @@ class LanguageDetectionService {
    */
   async initialize() {
     try {
+      console.log('Starting language detection service initialization...');
+
       // Load language registry for language names
-      const response = await fetch('/data/language_scripts.json');
+      console.log('Loading language registry...');
+      const response = await fetch('./data/language_scripts.json');
+      if (!response.ok) {
+        throw new Error(`Failed to load language registry: ${response.status}`);
+      }
       const languageData = await response.json();
-      
+      console.log('Language registry loaded:', Object.keys(languageData).length, 'languages');
+
       // Build language name mapping
       for (const [code, data] of Object.entries(languageData)) {
         this.languageNames.set(code, data.name || code);
@@ -40,8 +47,14 @@ class LanguageDetectionService {
         'su', 'sv', 'szl', 'ta', 'te', 'th', 'ti', 'tl', 'tn', 'tr', 'uk', 'ur',
         'vec', 'zh'
       ];
-      
+
       console.log(`Language detection initialized with ${this.availableLanguages.length} languages`);
+
+      // Test loading a sample frequency file to verify data access
+      console.log('Testing frequency data access...');
+      const testResult = await this.loadFrequencyData('de');
+      console.log('Test frequency data loaded:', testResult.mode, 'mode,', testResult.ranks.size, 'tokens');
+
     } catch (error) {
       console.error('Failed to initialize language detection service:', error);
       throw error;
@@ -79,7 +92,7 @@ class LanguageDetectionService {
     }
 
     try {
-      const response = await fetch(`/data/freq/top200/${languageCode}.txt`);
+      const response = await fetch(`./data/freq/top200/${languageCode}.txt`);
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
@@ -143,35 +156,44 @@ class LanguageDetectionService {
       topK = 5
     } = options;
 
+    console.log('Starting detection for text:', text);
+    console.log('Candidate languages:', candidateLanguages.length);
+
     if (!text || text.trim().length === 0) {
+      console.log('Empty text, returning no results');
       return [];
     }
 
     const wordTokens = this.tokenizeWords(text);
     const bigramTokens = this.tokenizeBigrams(text);
-    
+
+    console.log('Word tokens:', Array.from(wordTokens));
+    console.log('Bigram tokens:', Array.from(bigramTokens));
+
     const results = [];
-    
+
     // Process languages in batches to avoid blocking the UI
     const batchSize = 10;
     for (let i = 0; i < candidateLanguages.length; i += batchSize) {
       const batch = candidateLanguages.slice(i, i + batchSize);
-      
+      console.log(`Processing batch ${Math.floor(i/batchSize) + 1}:`, batch);
+
       for (const languageCode of batch) {
         try {
           const frequencyData = await this.loadFrequencyData(languageCode);
           const tokens = frequencyData.mode === 'bigram' ? bigramTokens : wordTokens;
-          
+
           let overlap = 0;
           if (frequencyData.ranks.size > 0 && tokens.size > 0) {
             overlap = this.calculateOverlap(tokens, frequencyData.ranks);
             overlap /= Math.sqrt(tokens.size + 3);
           }
-          
+
           const prior = priors[languageCode] || 0;
           const finalScore = PRIOR_WEIGHT * prior + FREQ_WEIGHT * overlap;
-          
+
           if (finalScore > DETECTION_THRESHOLD) {
+            console.log(`${languageCode}: score=${finalScore.toFixed(3)}, overlap=${overlap.toFixed(3)}, freq_size=${frequencyData.ranks.size}`);
             results.push({
               language: languageCode,
               languageName: this.languageNames.get(languageCode) || languageCode,
@@ -185,13 +207,15 @@ class LanguageDetectionService {
           console.warn(`Error processing language ${languageCode}:`, error);
         }
       }
-      
+
       // Allow UI to update between batches
       if (i + batchSize < candidateLanguages.length) {
         await new Promise(resolve => setTimeout(resolve, 0));
       }
     }
-    
+
+    console.log('Detection complete. Results found:', results.length);
+
     // Sort by confidence and return top results
     results.sort((a, b) => b.confidence - a.confidence);
     return results.slice(0, topK);

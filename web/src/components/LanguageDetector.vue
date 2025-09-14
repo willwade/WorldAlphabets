@@ -184,9 +184,13 @@ const exampleTexts = ref([
 
 // Methods
 const detectLanguage = async () => {
-  if (!inputText.value.trim()) return;
+  if (!inputText.value.trim()) {
+    console.log('No text to detect');
+    return;
+  }
 
   console.log('Starting language detection for:', inputText.value.trim());
+  console.log('Service available languages:', languageDetectionService.getAvailableLanguages().length);
 
   isDetecting.value = true;
   hasDetected.value = false;
@@ -217,9 +221,13 @@ const clearInput = () => {
 };
 
 const useExample = (example) => {
+  console.log('Using example:', example);
   inputText.value = example.text;
   // Auto-detect after setting example
-  setTimeout(() => detectLanguage(), 100);
+  setTimeout(() => {
+    console.log('Auto-detecting after example selection...');
+    detectLanguage();
+  }, 100);
 };
 
 const onTextChange = () => {
