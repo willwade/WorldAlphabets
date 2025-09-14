@@ -382,10 +382,11 @@ uv run scripts/build_data_pipeline.py --language mi --script Latn
 3. **build_alphabets** - Generate alphabet files from CLDR + fallbacks
 4. **build_translations** - Add "Hello, how are you?" translations
 5. **build_keyboards** - Generate keyboard layout files
-6. **build_tts_index** - Index available TTS voices
-7. **build_audio** - Generate audio files using TTS
-8. **build_index** - Create searchable indexes and metadata
-9. **validate_data** - Comprehensive data validation
+6. **build_top200** - Generate Top-200 token lists for detection
+7. **build_tts_index** - Index available TTS voices
+8. **build_audio** - Generate audio files using TTS
+9. **build_index** - Create searchable indexes and metadata
+10. **validate_data** - Comprehensive data validation
 
 For detailed pipeline documentation, see [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md).
 
@@ -444,6 +445,20 @@ uv run src/scripts/populate_layouts.py --skip-existing
 ruff check .
 mypy .
 ```
+
+### Top-200 token lists
+
+The language detection helpers rely on compact frequency lists for each
+language. These lists can be regenerated using:
+
+```bash
+uv run python -m scripts.build_top200 --langs en,ja
+```
+
+The script downloads and merges open datasets, writing the results to
+``data/freq/top200`` along with provenance information in ``SOURCES.md`` and a
+``BUILD_REPORT.json`` summary. This step also runs within the consolidated
+pipeline as the ``build_top200`` stage.
 
 ## Sources
 

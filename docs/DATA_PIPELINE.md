@@ -108,13 +108,20 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 - `data/layouts/{lang}-{layout}.json` - Keyboard layout files
 - `data/layouts/index.json` - Keyboard layout index
 
-### Stage 6: TTS Voice Indexing
+### Stage 6: Top-200 Token Lists
+**Function**: `build_top200()`
+**Purpose**: Generate compact token frequency lists for detection
+**Outputs**:
+- `data/freq/top200/<lang>.txt` - Top-200 tokens per language
+- `data/freq/top200/BUILD_REPORT.json` - Build summary
+
+### Stage 7: TTS Voice Indexing
 **Function**: `build_tts_index()`
 **Purpose**: Index available TTS voices from all providers
 **Inputs**: TTS provider APIs
 **Outputs**: `data/tts_index.json` - Available voices by language
 
-### Stage 7: Audio Generation
+### Stage 8: Audio Generation
 **Function**: `build_audio()`
 **Purpose**: Generate audio files using TTS engines
 **Inputs**: TTS index, alphabet files
@@ -122,7 +129,7 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 - `data/audio/*.wav` - Audio files
 - `data/audio/index.json` - Audio file index
 
-### Stage 8: Index Generation
+### Stage 9: Index Generation
 **Function**: `build_index()`
 **Purpose**: Create searchable indexes and metadata
 **Script**: `scripts/create_index.js` (Node.js)
@@ -132,7 +139,7 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 - `data/scripts.json` - Script groupings
 - `data/stats.json` - Coverage statistics
 
-### Stage 9: Data Validation
+### Stage 10: Data Validation
 **Function**: `validate_data()`
 **Purpose**: Comprehensive data validation
 **Outputs**: Validation reports and error logs

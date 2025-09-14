@@ -215,46 +215,77 @@ async function getDiacriticVariants(code, script) {
   return { ...build(data.uppercase), ...build(data.lowercase) };
 }
 
-/**
- * Detect possible languages for a given text based on alphabet coverage.
- * @param {string} text - The text to analyze
- * @returns {Promise<string[]>} Array of language codes that could represent the text
- */
-async function detectLanguages(text) {
-  if (!text) return [];
+const PRIOR_WEIGHT = Number(process.env.WA_FREQ_PRIOR_WEIGHT ?? 0.65);
+const FREQ_WEIGHT = Number(process.env.WA_FREQ_OVERLAP_WEIGHT ?? 0.35);
+const DEFAULT_FREQ_DIR =
+  process.env.WORLDALPHABETS_FREQ_DIR ??
+  require('path').resolve(__dirname, 'data', 'freq', 'top200');
 
-  const letters = new Set(
-    Array.from(text)
-      .filter((ch) => /\p{L}/u.test(ch))
-      .map((ch) => stripDiacritics(ch).toLowerCase())
+function tokenizeWords(text) {
+  return new Set(text.normalize('NFKC').toLowerCase().match(/\p{L}+/gu) || []);
+}
+
+function tokenizeBigrams(text) {
+  const letters = Array.from(text.normalize('NFKC').toLowerCase()).filter((ch) =>
+    /\p{L}/u.test(ch)
   );
-  if (letters.size === 0) return [];
-
-  const data = await getIndexData();
-  const candidates = [];
-  for (const entry of data) {
-    try {
-      const alphabet = await loadAlphabet(entry.language, entry.script);
-      if (!alphabet || !alphabet.lowercase) {
-        continue;
-      }
-      const available = new Set(
-        alphabet.lowercase.map((ch) => stripDiacritics(ch).toLowerCase())
-      );
-      let ok = true;
-      for (const ch of letters) {
-        if (!available.has(ch)) {
-          ok = false;
-          break;
-        }
-      }
-      if (ok) candidates.push(entry.language);
-    } catch (error) {
-      // Skip languages that can't be loaded or have invalid data
-      continue;
-    }
+  const bigrams = new Set();
+  for (let i = 0; i < letters.length - 1; i++) {
+    bigrams.add(letters[i] + letters[i + 1]);
   }
-  return candidates;
+  return bigrams;
+}
+
+function loadRankData(lang, dir) {
+  const fs = require('fs');
+  const path = require('path');
+  try {
+    const lines = fs
+      .readFileSync(path.join(dir, `${lang}.txt`), 'utf8')
+      .split(/\r?\n/)
+      .filter(Boolean);
+    let mode = 'word';
+    if (lines[0] && lines[0].startsWith('#')) {
+      const header = lines.shift();
+      if (header.includes('bigram')) mode = 'bigram';
+    }
+    const ranks = new Map();
+    lines.forEach((tok, i) => {
+      if (!ranks.has(tok)) ranks.set(tok, i + 1);
+    });
+    return { mode, ranks };
+  } catch {
+    return { mode: 'word', ranks: new Map() };
+  }
+}
+
+function overlap(tokens, ranks) {
+  let score = 0;
+  for (const t of tokens) {
+    const r = ranks.get(t);
+    if (r) score += 1 / Math.log2(r + 1.5);
+  }
+  return score;
+}
+
+function detectLanguages(text, candidateLangs, priors = {}, topk = 3) {
+  const dir = process.env.WORLDALPHABETS_FREQ_DIR ?? DEFAULT_FREQ_DIR;
+  const wordTokens = tokenizeWords(text);
+  const bigramTokens = tokenizeBigrams(text);
+  const results = [];
+  for (const lang of candidateLangs) {
+    const data = loadRankData(lang, dir);
+    const tokens = data.mode === 'bigram' ? bigramTokens : wordTokens;
+    let ov = 0;
+    if (data.ranks.size > 0 && tokens.size > 0) {
+      ov = overlap(tokens, data.ranks);
+      ov /= Math.sqrt(tokens.size + 3);
+    }
+    const score = PRIOR_WEIGHT * (priors[lang] || 0) + FREQ_WEIGHT * ov;
+    if (score > 0.05) results.push([lang, score]);
+  }
+  results.sort((a, b) => b[1] - a[1]);
+  return results.slice(0, topk);
 }
 
 const keyboards = require('./keyboards');
