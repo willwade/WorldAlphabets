@@ -1,5 +1,5 @@
 <template>
-  <div class="index-view">
+  <div class="detect-language-view">
     <nav class="navigation">
       <div class="nav-container">
         <router-link to="/" class="nav-brand">
@@ -10,7 +10,7 @@
           <router-link to="/" class="nav-link" :class="{ active: $route.name === 'index' }">
             Browse All
           </router-link>
-          <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' }">
+          <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' || $route.name === 'language' }">
             Language Explorer
           </router-link>
           <router-link to="/detect-language" class="nav-link" :class="{ active: $route.name === 'detect-language' }">
@@ -21,17 +21,19 @@
     </nav>
     
     <main class="main-content">
-      <AlphabetIndex />
+      <div class="detection-container">
+        <LanguageDetector />
+      </div>
     </main>
   </div>
 </template>
 
 <script setup>
-import AlphabetIndex from '../components/AlphabetIndex.vue';
+import LanguageDetector from '../components/LanguageDetector.vue';
 </script>
 
 <style scoped>
-.index-view {
+.detect-language-view {
   min-height: 100vh;
   background: #f8f9fa;
 }
@@ -104,6 +106,12 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
   padding-top: 2rem;
 }
 
+.detection-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 0 0.5rem;
@@ -129,6 +137,27 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
   
   .main-content {
     padding-top: 1rem;
+  }
+
+  .detection-container {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+    padding: 0.5rem;
+  }
+  
+  .nav-brand {
+    margin-bottom: 0.5rem;
   }
 }
 </style>

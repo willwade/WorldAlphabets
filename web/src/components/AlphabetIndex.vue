@@ -9,6 +9,17 @@
         <span class="stat">{{ statistics.withFrequency }} with frequency data</span>
         <span class="stat">{{ statistics.withKeyboard }} with keyboards</span>
       </div>
+
+      <!-- Language Detection Promo -->
+      <div class="feature-promo">
+        <div class="promo-content">
+          <h2>🔍 Try Our Language Detection</h2>
+          <p>Test our frequency-based language detection system that can identify 86+ languages from text samples.</p>
+          <router-link to="/detect-language" class="promo-button">
+            Detect Languages →
+          </router-link>
+        </div>
+      </div>
     </div>
 
     <!-- Search and Filters -->
@@ -425,6 +436,47 @@ onMounted(async () => {
   color: #666;
 }
 
+.feature-promo {
+  margin-top: 2rem;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.promo-content h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.promo-content p {
+  margin: 0 0 1.5rem 0;
+  font-size: 1rem;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.promo-button {
+  display: inline-block;
+  background: white;
+  color: #007bff;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.promo-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #0056b3;
+}
+
 .search-filters {
   background: white;
   border: 1px solid #ddd;
@@ -796,6 +848,19 @@ onMounted(async () => {
     gap: 1rem;
   }
 
+  .feature-promo {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .promo-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .promo-content p {
+    font-size: 0.9rem;
+  }
+
   /* Show mobile filter toggle */
   .mobile-filter-toggle {
     display: block;
@@ -842,6 +907,20 @@ onMounted(async () => {
   .stats {
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .feature-promo {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .promo-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .promo-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   /* Smaller page size for mobile */

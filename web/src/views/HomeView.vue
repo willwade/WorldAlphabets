@@ -38,6 +38,9 @@ function handleLanguageSelected(langCode) {
           <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' || $route.name === 'language' }">
             Language Explorer
           </router-link>
+          <router-link to="/detect-language" class="nav-link" :class="{ active: $route.name === 'detect-language' }">
+            Language Detection
+          </router-link>
         </div>
       </div>
     </nav>
