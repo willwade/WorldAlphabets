@@ -1,3 +1,32 @@
+Metadata-Version: 2.4
+Name: worldalphabets
+Version: 0.1.0
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.13.5
+Requires-Dist: lxml>=6.0.1
+Requires-Dist: py3-tts-wrapper[elevenlabs,google,microsoft,openai,polly,sherpaonnx,watson,witai]>=0.10.22
+Requires-Dist: pydantic>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
+Requires-Dist: lxml>=4.9.0; extra == "dev"
+Requires-Dist: lxml-stubs>=0.5.0; extra == "dev"
+Requires-Dist: build>=0.10.0; extra == "dev"
+Requires-Dist: requests>=2.31.0; extra == "dev"
+Requires-Dist: beautifulsoup4>=4.12.3; extra == "dev"
+Requires-Dist: langcodes>=3.3.0; extra == "dev"
+Requires-Dist: types-requests; extra == "dev"
+Requires-Dist: types-beautifulsoup4; extra == "dev"
+Requires-Dist: pyyaml>=6.0; extra == "dev"
+Requires-Dist: types-pyyaml; extra == "dev"
+Requires-Dist: regex>=2024.0; extra == "dev"
+Requires-Dist: py3-tts-wrapper[elevenlabs,google,microsoft,openai,polly,sherpaonnx,upliftai,watson,witai]; extra == "dev"
+Requires-Dist: PyICU>=2.11; extra == "dev"
+Dynamic: license-file
+
 # WorldAlphabets
 
 <div align="center">

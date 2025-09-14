@@ -1,0 +1,8 @@
+[console_scripts]
+wa-build-alphabets = scripts.build_alphabet_from_cldr:main
+wa-build-layouts = tools.build_layouts:main
+wa-create-index = scripts.create_index:main
+wa-generate-audio = scripts.generate_audio:main
+wa-populate-layouts = scripts.populate_layouts:main
+wa-scrape-layouts = tools.scrape_kbdlayout_info:main
+wa-validate-layouts = tools.validate_layouts:main

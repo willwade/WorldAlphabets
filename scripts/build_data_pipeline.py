@@ -319,7 +319,7 @@ class DataPipeline:
                     "uv",
                     "run",
                     "python",
-                    str(self.root_dir / "src" / "scripts" / "populate_layouts.py"),
+                    str(self.root_dir / "scripts" / "populate_layouts.py"),
                 ],
                 cwd=self.root_dir,
                 capture_output=True,

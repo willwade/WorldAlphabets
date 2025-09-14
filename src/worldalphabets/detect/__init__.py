@@ -19,7 +19,9 @@ FREQ_WEIGHT = float(os.environ.get("WA_FREQ_OVERLAP_WEIGHT", 0.35))
 def _tokenize_words(text: str) -> set[str]:
     normalized = unicodedata.normalize("NFKC", text).lower()
     return set(
-        __import__("re").findall(r"[^\W\d_]+", normalized, flags=__import__("re").UNICODE)
+        __import__("re").findall(
+            r"[^\W\d_]+", normalized, flags=__import__("re").UNICODE
+        )
     )
 
 
