@@ -59,6 +59,8 @@ def test_env_override(tmp_path: Path) -> None:
     freq_dir = tmp_path / "freq"
     freq_dir.mkdir()
     (freq_dir / "es.txt").write_text("override", encoding="utf-8")
+    # Add English frequency data with "override" at lower rank to prevent fallback
+    (freq_dir / "en.txt").write_text("hello\nworld\ntest\noverride", encoding="utf-8")
     os.environ["WORLDALPHABETS_FREQ_DIR"] = str(freq_dir)
     try:
         res = detect_languages("override", candidate_langs=["es", "en"])
