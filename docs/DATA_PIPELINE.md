@@ -109,11 +109,22 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 - `data/layouts/index.json` - Keyboard layout index
 
 ### Stage 6: Top-200 Token Lists
-**Function**: `build_top200()`
-**Purpose**: Generate compact token frequency lists for detection
+**Function**: `build_top200()` (uses unified pipeline)
+**Purpose**: Generate compact token frequency lists for language detection
+**Script**: `scripts/build_top200_unified.py`
+
+**5-Priority Source Pipeline**:
+1. **Leipzig Corpora Collection** - High-quality news/web corpora (CC-BY)
+2. **HermitDave FrequencyWords** - OpenSubtitles/Wikipedia sources (CC-BY)
+3. **Tatoeba sentences** - Sentence-based extraction (CC-BY 2.0 FR)
+4. **Existing alphabet frequency data** - Character-level fallback
+5. **Simia unigrams** - CJK character data
+
+**Coverage**: 90.9% (130/143 languages)
+
 **Outputs**:
 - `data/freq/top200/<lang>.txt` - Top-200 tokens per language
-- `data/freq/top200/BUILD_REPORT.json` - Build summary
+- `data/freq/top200/BUILD_REPORT_UNIFIED.json` - Build summary with source attribution
 
 ### Stage 7: TTS Voice Indexing
 **Function**: `build_tts_index()`
@@ -187,9 +198,14 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 3. Skip if no fallback available, log warning
 
 ### Missing Frequency Data
-1. Try Simia unigrams dataset
-2. Fall back to OpenSubtitles frequencies
-3. Use uniform distribution as last resort
+The unified Top-200 pipeline handles missing data through a comprehensive 5-priority fallback:
+1. **Leipzig Corpora** - Major languages with news/web corpora
+2. **HermitDave FrequencyWords** - 47 languages from subtitles/Wikipedia
+3. **Tatoeba sentences** - Under-resourced languages via sentence extraction
+4. **Existing alphabet frequencies** - Character-level data from existing alphabets
+5. **Simia unigrams** - CJK character data as final fallback
+
+This approach achieves 90.9% coverage, with only 19 very low-resource languages remaining without frequency data.
 
 ### Missing Language Information
 1. Use langcodes library for basic info

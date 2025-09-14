@@ -353,9 +353,9 @@ class DataPipeline:
             return False
 
     def build_top200(self) -> bool:
-        """Stage 6: Build Top-200 token lists."""
+        """Stage 6: Build Top-200 token lists using unified pipeline."""
         try:
-            logger.info("Building Top-200 token lists...")
+            logger.info("Building Top-200 token lists using unified 5-priority pipeline...")
             import subprocess
 
             result = subprocess.run(
@@ -363,10 +363,8 @@ class DataPipeline:
                     "uv",
                     "run",
                     "python",
-                    "-m",
-                    "scripts.build_top200",
-                    "--langs",
-                    "all",
+                    "scripts/build_top200_unified.py",
+                    "--all",
                 ],
                 cwd=self.root_dir,
                 capture_output=True,
@@ -374,10 +372,10 @@ class DataPipeline:
             )
 
             if result.returncode != 0:
-                logger.error(f"build_top200 failed: {result.stderr}")
+                logger.error(f"build_top200_unified failed: {result.stderr}")
                 return False
 
-            logger.info("Top-200 token lists built successfully")
+            logger.info("Top-200 token lists built successfully with unified pipeline")
             return True
 
         except Exception as e:

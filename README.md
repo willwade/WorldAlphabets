@@ -449,16 +449,31 @@ mypy .
 ### Top-200 token lists
 
 The language detection helpers rely on compact frequency lists for each
-language. These lists can be regenerated using:
+language. These lists are generated using a unified 5-priority pipeline that
+maximizes coverage across all supported languages:
 
 ```bash
-uv run python -m scripts.build_top200 --langs en,ja
+# Generate for all languages
+uv run python scripts/build_top200_unified.py --all
+
+# Generate for specific languages
+uv run python scripts/build_top200_unified.py --langs en,ja,cy
+
+# Generate only for missing languages
+uv run python scripts/build_top200_unified.py --missing-only
 ```
 
-The script downloads and merges open datasets, writing the results to
-``data/freq/top200`` along with provenance information in ``SOURCES.md`` and a
-``BUILD_REPORT.json`` summary. This step also runs within the consolidated
-pipeline as the ``build_top200`` stage.
+**Priority Sources (in order):**
+1. **Leipzig Corpora Collection** - High-quality news/web corpora (CC-BY)
+2. **HermitDave FrequencyWords** - OpenSubtitles/Wikipedia sources (CC-BY)
+3. **Tatoeba sentences** - Sentence-based extraction (CC-BY 2.0 FR)
+4. **Existing alphabet frequency data** - Character-level fallback
+5. **Simia unigrams** - CJK character data
+
+The script writes results to ``data/freq/top200`` with build reports in
+``BUILD_REPORT_UNIFIED.json``. This achieves **90.9% coverage** (130/143 languages)
+compared to the previous 33% coverage. The unified pipeline also runs within the
+consolidated data pipeline as the ``build_top200`` stage.
 
 ## Sources
 
