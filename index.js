@@ -217,6 +217,7 @@ async function getDiacriticVariants(code, script) {
 
 const PRIOR_WEIGHT = Number(process.env.WA_FREQ_PRIOR_WEIGHT ?? 0.65);
 const FREQ_WEIGHT = Number(process.env.WA_FREQ_OVERLAP_WEIGHT ?? 0.35);
+const CHAR_WEIGHT = 0.2; // Weight for character-based detection fallback
 const DEFAULT_FREQ_DIR =
   process.env.WORLDALPHABETS_FREQ_DIR ??
   require('path').resolve(__dirname, 'data', 'freq', 'top200');
@@ -268,23 +269,186 @@ function overlap(tokens, ranks) {
   return score;
 }
 
+function tokenizeCharacters(text) {
+  const normalized = text.normalize('NFKC').toLowerCase();
+  return new Set(Array.from(normalized).filter(ch => /\p{L}/u.test(ch)));
+}
+
+function characterOverlap(textChars, alphabetChars) {
+  if (!textChars || !alphabetChars || textChars.size === 0 || alphabetChars.size === 0) {
+    return 0.0;
+  }
+
+  // Characters that are in the text and in the alphabet
+  const matchingChars = new Set([...textChars].filter(ch => alphabetChars.has(ch)));
+  // Characters that are in the text but NOT in the alphabet
+  const nonMatchingChars = new Set([...textChars].filter(ch => !alphabetChars.has(ch)));
+
+  if (matchingChars.size === 0) {
+    return 0.0;
+  }
+
+  // Base score: how well the alphabet covers the text
+  const coverage = matchingChars.size / textChars.size;
+
+  // Penalty for characters that don't belong to this alphabet
+  const penalty = nonMatchingChars.size / textChars.size;
+
+  // Bonus for using distinctive characters (less common across alphabets)
+  const alphabetCoverage = matchingChars.size / alphabetChars.size;
+
+  // Combine: high coverage, low penalty, bonus for distinctive usage
+  const score = coverage * 0.6 - penalty * 0.2 + alphabetCoverage * 0.2;
+
+  return Math.max(0.0, score); // Ensure non-negative
+}
+
+function frequencyOverlap(textChars, charFrequencies) {
+  if (!textChars || !charFrequencies || textChars.size === 0 || Object.keys(charFrequencies).length === 0) {
+    return 0.0;
+  }
+
+  let score = 0.0;
+  let totalFreq = 0.0;
+
+  for (const char of textChars) {
+    const freq = charFrequencies[char] || 0.0;
+    if (freq > 0) {
+      // Weight by frequency (more common chars get higher scores)
+      score += freq;
+      totalFreq += freq;
+    }
+  }
+
+  // Normalize by the total frequency of matched characters
+  return totalFreq > 0 ? score / Math.max(totalFreq, 0.001) : 0.0;
+}
+
+function loadAlphabetSync(langCode, script) {
+  const fs = require('fs');
+  const path = require('path');
+
+  // Try script-specific file first
+  if (script) {
+    const scriptFile = path.resolve(__dirname, 'data', 'alphabets', `${langCode}-${script}.json`);
+    try {
+      const content = fs.readFileSync(scriptFile, 'utf8');
+      return JSON.parse(content);
+    } catch (error) {
+      // Fall through to legacy file
+    }
+  }
+
+  // Try legacy file
+  const legacyFile = path.resolve(__dirname, 'data', 'alphabets', `${langCode}.json`);
+  try {
+    const content = fs.readFileSync(legacyFile, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    return null;
+  }
+}
+
+function getLanguageSync(langCode, script) {
+  const fs = require('fs');
+  const path = require('path');
+
+  // Load index data synchronously
+  try {
+    const indexPath = path.resolve(__dirname, 'data', 'index.json');
+    const indexContent = fs.readFileSync(indexPath, 'utf8');
+    const data = JSON.parse(indexContent);
+
+    const entry = data.find((item) => item.language === langCode);
+    if (!entry) {
+      return null;
+    }
+
+    // Handle both old format (scripts array) and new format (single script)
+    let chosenScript = script;
+    if (!chosenScript) {
+      if (entry.script) {
+        chosenScript = entry.script;
+      } else if (entry.scripts && entry.scripts.length > 0) {
+        chosenScript = entry.scripts[0];
+      }
+    }
+
+    return loadAlphabetSync(langCode, chosenScript);
+  } catch (error) {
+    return null;
+  }
+}
+
 function detectLanguages(text, candidateLangs, priors = {}, topk = 3) {
   const dir = process.env.WORLDALPHABETS_FREQ_DIR ?? DEFAULT_FREQ_DIR;
   const wordTokens = tokenizeWords(text);
   const bigramTokens = tokenizeBigrams(text);
+  const textChars = tokenizeCharacters(text);
   const results = [];
+  const wordBasedLangs = new Set(); // Track which languages used word-based detection
+
   for (const lang of candidateLangs) {
+    // Try word-based detection first
     const data = loadRankData(lang, dir);
     const tokens = data.mode === 'bigram' ? bigramTokens : wordTokens;
-    let ov = 0;
+    let wordOverlap = 0;
     if (data.ranks.size > 0 && tokens.size > 0) {
-      ov = overlap(tokens, data.ranks);
-      ov /= Math.sqrt(tokens.size + 3);
+      wordOverlap = overlap(tokens, data.ranks);
+      wordOverlap /= Math.sqrt(tokens.size + 3);
     }
-    const score = PRIOR_WEIGHT * (priors[lang] || 0) + FREQ_WEIGHT * ov;
-    if (score > 0.05) results.push([lang, score]);
+
+    // Calculate word-based score
+    const wordScore = PRIOR_WEIGHT * (priors[lang] || 0) + FREQ_WEIGHT * wordOverlap;
+
+    // If word-based detection succeeds, use it and mark as word-based
+    if (wordScore > 0.05) {
+      results.push([lang, wordScore]);
+      wordBasedLangs.add(lang);
+      continue;
+    }
+
+    // Fallback to character-based detection
+    if (textChars.size > 0) {
+      try {
+        // Load alphabet data for this language
+        const alphabetData = getLanguageSync(lang);
+        if (alphabetData) {
+          // Get character sets
+          const lowercaseChars = new Set(alphabetData.lowercase || []);
+          const charFrequencies = alphabetData.frequency || {};
+
+          // Calculate character-based scores
+          const charOverlapScore = characterOverlap(textChars, lowercaseChars);
+          const freqOverlapScore = frequencyOverlap(textChars, charFrequencies);
+
+          // Combine character overlap and frequency overlap
+          const charScore = charOverlapScore * 0.6 + freqOverlapScore * 0.4;
+
+          // Apply character-based weight
+          const finalCharScore = PRIOR_WEIGHT * (priors[lang] || 0) + CHAR_WEIGHT * charScore;
+
+          // Use a lower threshold for character-based detection
+          if (finalCharScore > 0.02) {
+            results.push([lang, finalCharScore]);
+          }
+        }
+      } catch (error) {
+        // If alphabet loading fails, skip this language
+        continue;
+      }
+    }
   }
-  results.sort((a, b) => b[1] - a[1]);
+
+  // Sort results, but prioritize word-based detections over character-based ones
+  results.sort((a, b) => {
+    const [langA, scoreA] = a;
+    const [langB, scoreB] = b;
+    const adjustedScoreA = wordBasedLangs.has(langA) ? scoreA + 0.01 : scoreA;
+    const adjustedScoreB = wordBasedLangs.has(langB) ? scoreB + 0.01 : scoreB;
+    return adjustedScoreB - adjustedScoreA;
+  });
+
   return results.slice(0, topk);
 }
 

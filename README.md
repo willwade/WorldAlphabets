@@ -145,19 +145,36 @@ getDiacriticVariants('pl').then((v) => v.L); // ['L', 'Ł']
 ### Language Detection
 
 To guess possible languages for a string, use
-`detect_languages`/`detectLanguages`.
+`detect_languages`/`detectLanguages`. The detection system uses a hybrid approach:
+
+1. **Word-based detection** (primary): Uses Top-200 frequency lists for languages with available word frequency data
+2. **Character-based fallback**: For languages without frequency data, analyzes character sets and character frequencies from alphabet data
 
 ```python
 from worldalphabets import detect_languages
 
-detect_languages("Żółć")  # ['pl', ...]
+# Word-based detection (languages with frequency data)
+detect_languages("Hello world", candidate_langs=['en', 'de', 'fr'])
+# [('en', 0.158), ('de', 0.142), ('fr', 0.139)]
+
+# Character-based fallback (languages without frequency data)
+detect_languages("Аҧсуа бызшәа", candidate_langs=['ab', 'ru', 'bg'])
+# [('ab', 0.146), ('ru', 0.136), ('bg', 0.125)]  # Abkhazian detected via character analysis
 ```
 
 ```javascript
 const { detectLanguages } = require('worldalphabets');
 
-detectLanguages('Żółć').then((codes) => console.log(codes));
+// Word-based detection
+detectLanguages('Hello world', ['en', 'de', 'fr']).then(console.log);
+// [['en', 0.158], ['de', 0.142], ['fr', 0.139]]
+
+// Character-based fallback
+detectLanguages('ⲧⲙⲛⲧⲣⲙⲛⲕⲏⲙⲉ', ['cop', 'el', 'ar']).then(console.log);
+// [['cop', 0.077], ['el', 0.032], ['ar', 0.021]]  # Coptic detected via character analysis
 ```
+
+The detection system automatically falls back to character-based analysis when word frequency data is unavailable, enabling detection of **331 languages** instead of just the 86 with frequency data.
 
 ### Examples
 

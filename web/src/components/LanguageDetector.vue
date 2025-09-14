@@ -97,18 +97,20 @@
         <summary>How does language detection work?</summary>
         <div class="explanation">
           <p>
-            Our language detection system uses <strong>frequency-based token overlap</strong> 
-            to identify languages:
+            Our language detection system uses a <strong>hybrid approach</strong> combining
+            word-based and character-based analysis:
           </p>
           <ul>
-            <li><strong>Tokenization:</strong> Text is split into words (or character bigrams for CJK languages)</li>
-            <li><strong>Frequency matching:</strong> Tokens are compared against Top-200 frequency lists for each language</li>
-            <li><strong>Scoring:</strong> Languages are scored based on how many common words they share with the input</li>
-            <li><strong>Ranking:</strong> Results are ranked by confidence score</li>
+            <li><strong>Word-based detection (primary):</strong> Uses Top-200 frequency lists for 86 languages with available word data</li>
+            <li><strong>Character-based fallback:</strong> Analyzes character sets and frequencies for languages without word data</li>
+            <li><strong>Tokenization:</strong> Text is split into words, character bigrams, and individual characters</li>
+            <li><strong>Scoring:</strong> Languages are scored based on word overlap or character analysis</li>
+            <li><strong>Ranking:</strong> Results prioritize word-based detections while including character-based fallbacks</li>
           </ul>
           <p>
-            The system currently supports {{ availableLanguages }} languages with frequency data 
-            sourced from Leipzig Corpora, HermitDave FrequencyWords, and Tatoeba sentences.
+            The system supports <strong>{{ availableLanguages }} languages</strong> total: 86 with word frequency data
+            (sourced from Leipzig Corpora, HermitDave FrequencyWords, and Tatoeba sentences) plus 245+ additional
+            languages detected via character analysis using alphabet data.
           </p>
           <p>
             <a href="/docs/detect.md" target="_blank">Learn more about our detection system →</a>

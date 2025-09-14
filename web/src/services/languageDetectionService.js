@@ -5,7 +5,9 @@
 
 const PRIOR_WEIGHT = 0.65;
 const FREQ_WEIGHT = 0.35;
+const CHAR_WEIGHT = 0.2; // Weight for character-based detection fallback
 const DETECTION_THRESHOLD = 0.01; // Lowered for testing
+const CHAR_DETECTION_THRESHOLD = 0.02; // Lower threshold for character-based detection
 
 class LanguageDetectionService {
   constructor() {
@@ -35,18 +37,28 @@ class LanguageDetectionService {
         this.languageNames.set(code, data.name || code);
       }
 
-      // Use a curated list of languages we know have frequency data
-      // This is more reliable than trying to parse build reports
-      this.availableLanguages = [
-        'af', 'am', 'ar', 'ast', 'ay', 'ban', 'bg', 'bn', 'bo', 'ca', 'ceb', 'chr',
-        'ckb', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa',
-        'fi', 'fo', 'fr', 'fur', 'ga', 'gd', 'gl', 'gn', 'gu', 'haw', 'he', 'hr',
-        'hu', 'ie', 'is', 'it', 'ja', 'jv', 'ka', 'kab', 'km', 'kn', 'ko', 'ksh',
-        'la', 'lij', 'lo', 'lt', 'lv', 'lzh', 'mk', 'ml', 'mn', 'my', 'nds', 'nn',
-        'no', 'oc', 'or', 'pl', 'ps', 'pt', 'ro', 'ru', 'si', 'sl', 'so', 'sr',
-        'su', 'sv', 'szl', 'ta', 'te', 'th', 'ti', 'tl', 'tn', 'tr', 'uk', 'ur',
-        'vec', 'zh'
-      ];
+      // Load available languages from index data (includes both frequency and alphabet-only languages)
+      const indexResponse = await fetch('./data/index.json');
+      if (indexResponse.ok) {
+        const indexData = await indexResponse.json();
+        this.availableLanguages = [...new Set(indexData.map(item => item.language))];
+        console.log('Loaded languages from index:', this.availableLanguages.length);
+      } else {
+        // Fallback to curated list if index loading fails
+        this.availableLanguages = [
+          'af', 'am', 'ar', 'ast', 'ay', 'ban', 'bg', 'bn', 'bo', 'ca', 'ceb', 'chr',
+          'ckb', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa',
+          'fi', 'fo', 'fr', 'fur', 'ga', 'gd', 'gl', 'gn', 'gu', 'haw', 'he', 'hr',
+          'hu', 'ie', 'is', 'it', 'ja', 'jv', 'ka', 'kab', 'km', 'kn', 'ko', 'ksh',
+          'la', 'lij', 'lo', 'lt', 'lv', 'lzh', 'mk', 'ml', 'mn', 'my', 'nds', 'nn',
+          'no', 'oc', 'or', 'pl', 'ps', 'pt', 'ro', 'ru', 'si', 'sl', 'so', 'sr',
+          'su', 'sv', 'szl', 'ta', 'te', 'th', 'ti', 'tl', 'tn', 'tr', 'uk', 'ur',
+          'vec', 'zh',
+          // Add some languages without frequency data for character-based detection
+          'ab', 'cop', 'vai', 'gez', 'ba'
+        ];
+        console.log('Using fallback language list');
+      }
 
       console.log(`Language detection initialized with ${this.availableLanguages.length} languages`);
 
@@ -81,6 +93,103 @@ class LanguageDetectionService {
       bigrams.add(letters[i] + letters[i + 1]);
     }
     return bigrams;
+  }
+
+  /**
+   * Tokenize text into characters (for character-based detection)
+   */
+  tokenizeCharacters(text) {
+    const normalized = text.normalize('NFKC').toLowerCase();
+    return new Set(Array.from(normalized).filter(ch => /\p{L}/u.test(ch)));
+  }
+
+  /**
+   * Calculate character overlap score between text characters and alphabet characters
+   */
+  characterOverlap(textChars, alphabetChars) {
+    if (!textChars || !alphabetChars || textChars.size === 0 || alphabetChars.size === 0) {
+      return 0.0;
+    }
+
+    // Characters that are in the text and in the alphabet
+    const matchingChars = new Set([...textChars].filter(ch => alphabetChars.has(ch)));
+    // Characters that are in the text but NOT in the alphabet
+    const nonMatchingChars = new Set([...textChars].filter(ch => !alphabetChars.has(ch)));
+
+    if (matchingChars.size === 0) {
+      return 0.0;
+    }
+
+    // Base score: how well the alphabet covers the text
+    const coverage = matchingChars.size / textChars.size;
+
+    // Penalty for characters that don't belong to this alphabet
+    const penalty = nonMatchingChars.size / textChars.size;
+
+    // Bonus for using distinctive characters (less common across alphabets)
+    const alphabetCoverage = matchingChars.size / alphabetChars.size;
+
+    // Combine: high coverage, low penalty, bonus for distinctive usage
+    const score = coverage * 0.6 - penalty * 0.2 + alphabetCoverage * 0.2;
+
+    return Math.max(0.0, score); // Ensure non-negative
+  }
+
+  /**
+   * Calculate weighted overlap using character frequencies
+   */
+  frequencyOverlap(textChars, charFrequencies) {
+    if (!textChars || !charFrequencies || textChars.size === 0 || Object.keys(charFrequencies).length === 0) {
+      return 0.0;
+    }
+
+    let score = 0.0;
+    let totalFreq = 0.0;
+
+    for (const char of textChars) {
+      const freq = charFrequencies[char] || 0.0;
+      if (freq > 0) {
+        // Weight by frequency (more common chars get higher scores)
+        score += freq;
+        totalFreq += freq;
+      }
+    }
+
+    // Normalize by the total frequency of matched characters
+    return totalFreq > 0 ? score / Math.max(totalFreq, 0.001) : 0.0;
+  }
+
+  /**
+   * Load alphabet data for a specific language
+   */
+  async loadAlphabetData(languageCode) {
+    try {
+      // Try script-specific file first (from index)
+      const indexResponse = await fetch('./data/index.json');
+      if (indexResponse.ok) {
+        const indexData = await indexResponse.json();
+        const entry = indexData.find(item => item.language === languageCode);
+        if (entry && entry.script) {
+          const scriptFile = `./data/alphabets/${languageCode}-${entry.script}.json`;
+          const scriptResponse = await fetch(scriptFile);
+          if (scriptResponse.ok) {
+            return await scriptResponse.json();
+          }
+        }
+      }
+
+      // Fall back to legacy file
+      const legacyFile = `./data/alphabets/${languageCode}.json`;
+      const legacyResponse = await fetch(legacyFile);
+      if (legacyResponse.ok) {
+        return await legacyResponse.json();
+      }
+
+      return null;
+    } catch (error) {
+      console.warn(`Failed to load alphabet data for ${languageCode}:`, error);
+      return null;
+    }
   }
 
   /**
@@ -166,11 +275,14 @@ class LanguageDetectionService {
 
     const wordTokens = this.tokenizeWords(text);
     const bigramTokens = this.tokenizeBigrams(text);
+    const textChars = this.tokenizeCharacters(text);
 
     console.log('Word tokens:', Array.from(wordTokens));
     console.log('Bigram tokens:', Array.from(bigramTokens));
+    console.log('Text characters:', Array.from(textChars));
 
     const results = [];
+    const wordBasedLangs = new Set(); // Track which languages used word-based detection
 
     // Process languages in batches to avoid blocking the UI
     const batchSize = 10;
@@ -180,28 +292,67 @@ class LanguageDetectionService {
 
       for (const languageCode of batch) {
         try {
+          // Try word-based detection first
           const frequencyData = await this.loadFrequencyData(languageCode);
           const tokens = frequencyData.mode === 'bigram' ? bigramTokens : wordTokens;
 
-          let overlap = 0;
+          let wordOverlap = 0;
           if (frequencyData.ranks.size > 0 && tokens.size > 0) {
-            overlap = this.calculateOverlap(tokens, frequencyData.ranks);
-            overlap /= Math.sqrt(tokens.size + 3);
+            wordOverlap = this.calculateOverlap(tokens, frequencyData.ranks);
+            wordOverlap /= Math.sqrt(tokens.size + 3);
           }
 
           const prior = priors[languageCode] || 0;
-          const finalScore = PRIOR_WEIGHT * prior + FREQ_WEIGHT * overlap;
+          const wordScore = PRIOR_WEIGHT * prior + FREQ_WEIGHT * wordOverlap;
 
-          if (finalScore > DETECTION_THRESHOLD) {
-            console.log(`${languageCode}: score=${finalScore.toFixed(3)}, overlap=${overlap.toFixed(3)}, freq_size=${frequencyData.ranks.size}`);
+          // If word-based detection succeeds, use it and mark as word-based
+          if (wordScore > DETECTION_THRESHOLD) {
+            console.log(`${languageCode}: word-based score=${wordScore.toFixed(3)}, overlap=${wordOverlap.toFixed(3)}, freq_size=${frequencyData.ranks.size}`);
             results.push({
               language: languageCode,
               languageName: this.languageNames.get(languageCode) || languageCode,
-              confidence: finalScore,
+              confidence: wordScore,
               mode: frequencyData.mode,
               tokenCount: tokens.size,
-              matchingTokens: this.getMatchingTokens(tokens, frequencyData.ranks)
+              matchingTokens: this.getMatchingTokens(tokens, frequencyData.ranks),
+              detectionType: 'word-based'
             });
+            wordBasedLangs.add(languageCode);
+            continue;
+          }
+
+          // Fallback to character-based detection
+          if (textChars.size > 0) {
+            const alphabetData = await this.loadAlphabetData(languageCode);
+            if (alphabetData) {
+              // Get character sets
+              const lowercaseChars = new Set(alphabetData.lowercase || []);
+              const charFrequencies = alphabetData.frequency || {};
+
+              // Calculate character-based scores
+              const charOverlapScore = this.characterOverlap(textChars, lowercaseChars);
+              const freqOverlapScore = this.frequencyOverlap(textChars, charFrequencies);
+
+              // Combine character overlap and frequency overlap
+              const charScore = charOverlapScore * 0.6 + freqOverlapScore * 0.4;
+
+              // Apply character-based weight
+              const finalCharScore = PRIOR_WEIGHT * prior + CHAR_WEIGHT * charScore;
+
+              // Use a lower threshold for character-based detection
+              if (finalCharScore > CHAR_DETECTION_THRESHOLD) {
+                console.log(`${languageCode}: char-based score=${finalCharScore.toFixed(3)}, char_overlap=${charOverlapScore.toFixed(3)}, freq_overlap=${freqOverlapScore.toFixed(3)}`);
+                results.push({
+                  language: languageCode,
+                  languageName: this.languageNames.get(languageCode) || languageCode,
+                  confidence: finalCharScore,
+                  mode: 'character',
+                  tokenCount: textChars.size,
+                  matchingTokens: [...textChars].filter(ch => lowercaseChars.has(ch)),
+                  detectionType: 'character-based'
+                });
+              }
+            }
           }
         } catch (error) {
           console.warn(`Error processing language ${languageCode}:`, error);
@@ -216,8 +367,13 @@ class LanguageDetectionService {
 
     console.log('Detection complete. Results found:', results.length);
 
-    // Sort by confidence and return top results
-    results.sort((a, b) => b.confidence - a.confidence);
+    // Sort results, but prioritize word-based detections over character-based ones
+    results.sort((a, b) => {
+      const adjustedScoreA = wordBasedLangs.has(a.language) ? a.confidence + 0.01 : a.confidence;
+      const adjustedScoreB = wordBasedLangs.has(b.language) ? b.confidence + 0.01 : b.confidence;
+      return adjustedScoreB - adjustedScoreA;
+    });
+
     return results.slice(0, topK);
   }
 

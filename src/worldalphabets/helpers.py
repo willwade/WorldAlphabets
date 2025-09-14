@@ -20,9 +20,9 @@ def get_index_data() -> list[dict]:
 def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
     """Return alphabet data for ``lang_code`` in ``script``.
 
-    If ``script`` is not provided, the first script listed for the language in
-    ``index.json`` is used.  When a script-specific alphabet file is not found,
-    a legacy ``<lang>.json`` file is attempted as a fallback.
+    If ``script`` is not provided, the script from the index entry is used.
+    When a script-specific alphabet file is not found, a legacy ``<lang>.json``
+    file is attempted as a fallback.
     """
 
     entry = next(
@@ -32,9 +32,14 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
     if entry is None:
         return None
 
-    scripts = entry.get("scripts") or []
-    if script is None and scripts:
-        script = scripts[0]
+    # Handle both old format (scripts array) and new format (single script)
+    if script is None:
+        # Try new format first (single script field)
+        if "script" in entry:
+            script = entry["script"]
+        # Fall back to old format (scripts array)
+        elif "scripts" in entry and entry["scripts"]:
+            script = entry["scripts"][0]
 
     path = None
     if script:
