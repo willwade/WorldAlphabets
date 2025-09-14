@@ -85,7 +85,7 @@ def _frequency_overlap(
 def enhanced_detect_languages(
     text: str,
     candidate_langs: List[str],
-    priors: Dict[str, float] = None,
+    priors: Dict[str, float] | None = None,
     topk: int = 3,
     use_character_fallback: bool = True,
 ) -> List[Tuple[str, float]]:
@@ -155,7 +155,7 @@ def enhanced_detect_languages(
 
     # Sort results, but prioritize word-based detections over character-based ones
     # by giving word-based results a small boost
-    def sort_key(item):
+    def sort_key(item: Tuple[str, float]) -> float:
         lang, score = item
         if lang in word_based_langs:
             return score + 0.01  # Small boost for word-based detection
@@ -165,7 +165,7 @@ def enhanced_detect_languages(
     return results[:topk]
 
 
-def test_enhanced_detection():
+def test_enhanced_detection() -> None:
     """Test the enhanced detection method."""
 
     test_cases = [
