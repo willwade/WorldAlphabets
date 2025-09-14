@@ -28,7 +28,7 @@ import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 from urllib.error import HTTPError
 
 # Import existing modular components where possible
@@ -45,10 +45,10 @@ except ImportError:
         import re
         return re.findall(r'\b\w+\b', text.lower())
     
-    def normalize_token(token: str, lang: str, allowlists: Dict) -> Optional[str]:
+    def normalize_token(token: str, lang: str, allowlists: Dict[str, Set[str]]) -> Optional[str]:
         return token.strip() if token.strip() else None
-    
-    def load_hermitdave(path: Path) -> List[str]:
+
+    def load_hermitdave(path: str | Path) -> List[str]:
         tokens = []
         with open(path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -252,7 +252,7 @@ def fetch_tatoeba_sentences(lang_code: str, limit: int = 200) -> Optional[List[s
 
         # Tokenize all sentences and count word frequencies
         use_bigrams = is_cjk_language(lang_code)
-        word_counts = Counter()
+        word_counts: Counter[str] = Counter()
 
         for sentence in sentences:
             if use_bigrams:
@@ -367,7 +367,7 @@ def build_top200_unified(lang_code: str, output_dir: Path, force: bool = False) 
 
     use_bigrams = is_cjk_language(lang_code)
     tokens = None
-    source_used = None
+    source_used = "Unknown"
 
     # Priority 1: Leipzig Corpora Collection
     tokens = fetch_leipzig_words(lang_code, 200)
@@ -433,7 +433,7 @@ def build_top200_unified(lang_code: str, output_dir: Path, force: bool = False) 
     print(f"  Generated {len(tokens)} tokens for {lang_code} (source: {source_used})")
     return True, source_used
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--langs", help="Comma-separated language codes")
     parser.add_argument("--all", action="store_true", help="Process all supported languages")
