@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import pytest
 
 from scripts.build_top200.__main__ import main
 
