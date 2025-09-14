@@ -18,6 +18,12 @@
     </nav>
     
     <main class="main-content">
+      <!-- Language Detection Feature -->
+      <div class="feature-section">
+        <LanguageDetector />
+      </div>
+
+      <!-- Alphabet Index -->
       <AlphabetIndex />
     </main>
   </div>
@@ -25,6 +31,7 @@
 
 <script setup>
 import AlphabetIndex from '../components/AlphabetIndex.vue';
+import LanguageDetector from '../components/LanguageDetector.vue';
 </script>
 
 <style scoped>
@@ -99,6 +106,12 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
 
 .main-content {
   padding-top: 2rem;
+}
+
+.feature-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 @media (max-width: 768px) {
