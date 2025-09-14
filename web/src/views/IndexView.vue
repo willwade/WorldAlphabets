@@ -13,6 +13,9 @@
           <router-link to="/explore" class="nav-link" :class="{ active: $route.name === 'explore' }">
             Language Explorer
           </router-link>
+          <router-link to="/detect-language" class="nav-link" :class="{ active: $route.name === 'detect-language' }">
+            Language Detection
+          </router-link>
         </div>
       </div>
     </nav>

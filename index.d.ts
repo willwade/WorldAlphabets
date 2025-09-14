@@ -33,7 +33,12 @@ export function getDiacriticVariants(
   script?: string
 ): Promise<Record<string, string[]>>;
 // Language detection
-export function detectLanguages(text: string): Promise<string[]>;
+export function detectLanguages(
+  text: string,
+  candidateLangs: string[],
+  priors?: Record<string, number>,
+  topk?: number
+): Array<[string, number]>;
 
 // Re-export all keyboard types and functions
 export * from './keyboards';

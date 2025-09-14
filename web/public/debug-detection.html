@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Language Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        .test { margin: 1rem 0; padding: 1rem; border: 1px solid #ccc; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+        button { padding: 0.5rem 1rem; margin: 0.5rem; }
+    </style>
+</head>
+<body>
+    <h1>Debug Language Detection</h1>
+    <button onclick="testDataAccess()">Test Data Access</button>
+    <button onclick="testTokenization()">Test Tokenization</button>
+    <button onclick="testDetection()">Test Detection</button>
+    <button onclick="testService()">Test Service</button>
+    <div id="results"></div>
+
+    <script>
+        async function testDataAccess() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="test">Testing data access...</div>';
+            
+            try {
+                // Test frequency data
+                const freqResponse = await fetch('./data/freq/top200/de.txt');
+                const freqText = await freqResponse.text();
+                console.log('German frequency data:', freqText.substring(0, 200));
+                
+                // Test language registry
+                const langResponse = await fetch('./data/language_scripts.json');
+                const langData = await langResponse.json();
+                console.log('Language registry:', Object.keys(langData).length, 'languages');
+                
+                resultsDiv.innerHTML = `
+                    <div class="test success">
+                        ✅ Data Access Test Passed<br>
+                        - German frequency data: ${freqText.split('\n').length} lines<br>
+                        - Language registry: ${Object.keys(langData).length} languages
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Data access test failed:', error);
+                resultsDiv.innerHTML = `<div class="test error">❌ Data Access Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        function testTokenization() {
+            const resultsDiv = document.getElementById('results');
+            
+            const testText = "Die man het die boek gelees en hy is baie gelukkig.";
+            const normalized = testText.normalize('NFKC').toLowerCase();
+            const matches = normalized.match(/\p{L}+/gu) || [];
+            const tokens = new Set(matches);
+            
+            console.log('Test text:', testText);
+            console.log('Normalized:', normalized);
+            console.log('Matches:', matches);
+            console.log('Tokens:', Array.from(tokens));
+            
+            resultsDiv.innerHTML = `
+                <div class="test success">
+                    ✅ Tokenization Test Passed<br>
+                    - Input: "${testText}"<br>
+                    - Tokens: ${Array.from(tokens).join(', ')}<br>
+                    - Count: ${tokens.size}
+                </div>
+            `;
+        }
+
+        async function testDetection() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="test">Testing detection...</div>';
+            
+            try {
+                const testText = "Die man het die boek gelees en hy is baie gelukkig.";
+                const normalized = testText.normalize('NFKC').toLowerCase();
+                const matches = normalized.match(/\p{L}+/gu) || [];
+                const tokens = new Set(matches);
+                
+                console.log('Testing with text:', testText);
+                console.log('Tokens:', Array.from(tokens));
+                
+                // Test with Afrikaans
+                const response = await fetch('./data/freq/top200/af.txt');
+                const text = await response.text();
+                const lines = text.split(/\r?\n/).filter(line => line.trim());
+                
+                const ranks = new Map();
+                for (let i = 0; i < lines.length; i++) {
+                    const token = lines[i].trim();
+                    if (token && !ranks.has(token)) {
+                        ranks.set(token, i + 1);
+                    }
+                }
+                
+                console.log('Afrikaans frequency data loaded:', ranks.size, 'tokens');
+                console.log('Sample tokens:', Array.from(ranks.keys()).slice(0, 10));
+                
+                // Calculate overlap
+                let score = 0;
+                const matchingTokens = [];
+                for (const token of tokens) {
+                    const rank = ranks.get(token);
+                    if (rank) {
+                        score += 1 / Math.log2(rank + 1.5);
+                        matchingTokens.push(token);
+                    }
+                }
+                
+                const normalizedScore = score / Math.sqrt(tokens.size + 3);
+                const finalScore = 0.35 * normalizedScore;
+                
+                console.log('Overlap calculation:');
+                console.log('- Raw score:', score);
+                console.log('- Normalized score:', normalizedScore);
+                console.log('- Final score:', finalScore);
+                console.log('- Matching tokens:', matchingTokens);
+                
+                resultsDiv.innerHTML = `
+                    <div class="test ${finalScore > 0.01 ? 'success' : 'error'}">
+                        ${finalScore > 0.01 ? '✅' : '❌'} Detection Test<br>
+                        - Text: "${testText}"<br>
+                        - Language: Afrikaans (af)<br>
+                        - Tokens: ${Array.from(tokens).join(', ')}<br>
+                        - Matching: ${matchingTokens.join(', ')}<br>
+                        - Score: ${finalScore.toFixed(4)}<br>
+                        - Threshold: 0.01<br>
+                        - Result: ${finalScore > 0.01 ? 'DETECTED' : 'NOT DETECTED'}
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.error('Detection test failed:', error);
+                resultsDiv.innerHTML = `<div class="test error">❌ Detection Test Failed: ${error.message}</div>`;
+            }
+        }
+
+        async function testService() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="test">Testing service import...</div>';
+
+            try {
+                // Import the service module
+                const module = await import('/src/services/languageDetectionService.js');
+                const service = module.default;
+
+                console.log('Service imported:', service);
+
+                // Initialize service
+                await service.initialize();
+                console.log('Service initialized');
+
+                // Test detection
+                const results = await service.detectLanguages('Die man het die boek gelees en hy is baie gelukkig.');
+                console.log('Detection results:', results);
+
+                resultsDiv.innerHTML = `
+                    <div class="test ${results.length > 0 ? 'success' : 'error'}">
+                        ${results.length > 0 ? '✅' : '❌'} Service Test<br>
+                        - Service initialized: ✅<br>
+                        - Available languages: ${service.getAvailableLanguages().length}<br>
+                        - Detection results: ${results.length}<br>
+                        ${results.length > 0 ? `- Top result: ${results[0].languageName} (${(results[0].confidence * 100).toFixed(2)}%)` : ''}
+                    </div>
+                `;
+
+            } catch (error) {
+                console.error('Service test failed:', error);
+                resultsDiv.innerHTML = `<div class="test error">❌ Service Test Failed: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

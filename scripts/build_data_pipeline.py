@@ -56,7 +56,7 @@ class DataPipeline:
         self.stats: Dict[str, Any] = {
             "start_time": time.time(),
             "stages_completed": 0,
-            "total_stages": 9,
+            "total_stages": 10,
             "languages_processed": 0,
             "alphabets_generated": 0,
             "errors": [],
@@ -83,6 +83,7 @@ class DataPipeline:
             ("build_alphabets", "Generating alphabets"),
             ("build_translations", "Generating translations"),
             ("build_keyboards", "Building keyboard layouts"),
+            ("build_top200", "Building Top-200 token lists"),
             ("build_tts_index", "Indexing TTS voices"),
             ("build_audio", "Generating audio files"),
             ("build_index", "Creating indexes"),
@@ -306,7 +307,7 @@ class DataPipeline:
             return False
 
     def build_keyboards(self) -> bool:
-        """Stage 4: Build keyboard layouts."""
+        """Stage 5: Build keyboard layouts."""
         try:
             logger.info("Populating keyboard layout references...")
 
@@ -351,8 +352,39 @@ class DataPipeline:
             self.stats["errors"].append(f"build_keyboards: {e}")
             return False
 
+    def build_top200(self) -> bool:
+        """Stage 6: Build Top-200 token lists using unified pipeline."""
+        try:
+            logger.info("Building Top-200 token lists using unified 5-priority pipeline...")
+            import subprocess
+
+            result = subprocess.run(
+                [
+                    "uv",
+                    "run",
+                    "python",
+                    "scripts/build_top200_unified.py",
+                    "--all",
+                ],
+                cwd=self.root_dir,
+                capture_output=True,
+                text=True,
+            )
+
+            if result.returncode != 0:
+                logger.error(f"build_top200_unified failed: {result.stderr}")
+                return False
+
+            logger.info("Top-200 token lists built successfully with unified pipeline")
+            return True
+
+        except Exception as e:
+            logger.error(f"Top-200 token build failed: {e}")
+            self.stats["errors"].append(f"build_top200: {e}")
+            return False
+
     def build_tts_index(self) -> bool:
-        """Stage 6: Index available TTS voices."""
+        """Stage 7: Index available TTS voices."""
         try:
             logger.info("Indexing available TTS voices...")
 
@@ -386,7 +418,7 @@ class DataPipeline:
             return False
 
     def build_audio(self) -> bool:
-        """Stage 7: Generate audio files using TTS."""
+        """Stage 8: Generate audio files using TTS."""
         try:
             logger.info("Generating audio files using TTS...")
 
@@ -421,7 +453,7 @@ class DataPipeline:
             return False
 
     def build_index(self) -> bool:
-        """Stage 8: Create searchable indexes and metadata."""
+        """Stage 9: Create searchable indexes and metadata."""
         try:
             logger.info("Creating searchable indexes and metadata...")
 
@@ -448,7 +480,7 @@ class DataPipeline:
             return False
 
     def validate_data(self) -> bool:
-        """Stage 6: Comprehensive data validation."""
+        """Stage 10: Comprehensive data validation."""
         logger.info("Validating generated data...")
         # Implementation will be added
         return True
@@ -538,6 +570,7 @@ Examples:
             "build_alphabets",
             "build_translations",
             "build_keyboards",
+            "build_top200",
             "build_tts_index",
             "build_audio",
             "build_index",

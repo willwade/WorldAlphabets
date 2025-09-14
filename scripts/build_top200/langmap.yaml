@@ -1,0 +1,13 @@
+en:
+  name: English
+  type: word
+  sources:
+    leipzig: scripts/build_top200/sample_data/leipzig_en.txt
+    hermitdave: scripts/build_top200/sample_data/hermit_en.txt
+    tatoeba: scripts/build_top200/sample_data/tatoeba_en.txt
+    stopwords: scripts/build_top200/sample_data/stopwords_en.txt
+ja:
+  name: Japanese
+  type: bigram
+  sources:
+    tatoeba: scripts/build_top200/sample_data/tatoeba_ja.txt

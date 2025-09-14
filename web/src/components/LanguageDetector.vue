@@ -1,0 +1,599 @@
+<template>
+  <div class="language-detector">
+    <div class="detector-header">
+      <h2>🔍 Language Detection</h2>
+      <p class="detector-description">
+        Test our frequency-based language detection system. Enter text in any language and see how accurately we can identify it!
+      </p>
+    </div>
+
+    <div class="detector-input">
+      <div class="input-section">
+        <label for="detection-text" class="input-label">Enter text to detect:</label>
+        <textarea
+          id="detection-text"
+          v-model="inputText"
+          placeholder="Type or paste text in any language here..."
+          class="text-input"
+          rows="4"
+          @input="onTextChange"
+        ></textarea>
+        
+        <div class="input-actions">
+          <button 
+            @click="detectLanguage" 
+            :disabled="!inputText.trim() || isDetecting"
+            class="detect-btn"
+          >
+            {{ isDetecting ? 'Detecting...' : 'Detect Language' }}
+          </button>
+          <button @click="clearInput" class="clear-btn">Clear</button>
+        </div>
+      </div>
+
+      <!-- Example texts -->
+      <div class="examples-section">
+        <h3>Try these examples:</h3>
+        <div class="examples-grid">
+          <button
+            v-for="example in exampleTexts"
+            :key="example.code"
+            @click="useExample(example)"
+            class="example-btn"
+            :title="`${example.name} example`"
+          >
+            <span class="example-flag">{{ example.flag }}</span>
+            <span class="example-text">{{ example.text }}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div v-if="detectionResults.length > 0 || hasDetected" class="results-section">
+      <h3>Detection Results</h3>
+      
+      <div v-if="isDetecting" class="loading-state">
+        <div class="loading-spinner"></div>
+        <p>Analyzing text across {{ availableLanguages }} languages...</p>
+      </div>
+      
+      <div v-else-if="detectionResults.length > 0" class="results-list">
+        <div
+          v-for="(result, index) in detectionResults"
+          :key="result.language"
+          class="result-item"
+          :class="{ 'top-result': index === 0 }"
+        >
+          <div class="result-header">
+            <span class="result-rank">#{{ index + 1 }}</span>
+            <span class="result-language">{{ result.languageName }}</span>
+            <span class="result-code">({{ result.language }})</span>
+            <span class="result-confidence">{{ (result.confidence * 100).toFixed(1) }}%</span>
+          </div>
+          
+          <div class="result-details">
+            <span class="result-detail">{{ result.mode }} mode</span>
+            <span class="result-detail">{{ result.tokenCount }} tokens</span>
+            <span v-if="result.matchingTokens.length > 0" class="result-detail">
+              Matches: {{ result.matchingTokens.slice(0, 5).join(', ') }}
+              <span v-if="result.matchingTokens.length > 5">...</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+      <div v-else-if="hasDetected" class="no-results">
+        <p>No languages detected with sufficient confidence.</p>
+        <p class="no-results-help">
+          Try using longer text or text with more common words.
+        </p>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="how-it-works">
+      <details>
+        <summary>How does language detection work?</summary>
+        <div class="explanation">
+          <p>
+            Our language detection system uses <strong>frequency-based token overlap</strong> 
+            to identify languages:
+          </p>
+          <ul>
+            <li><strong>Tokenization:</strong> Text is split into words (or character bigrams for CJK languages)</li>
+            <li><strong>Frequency matching:</strong> Tokens are compared against Top-200 frequency lists for each language</li>
+            <li><strong>Scoring:</strong> Languages are scored based on how many common words they share with the input</li>
+            <li><strong>Ranking:</strong> Results are ranked by confidence score</li>
+          </ul>
+          <p>
+            The system currently supports {{ availableLanguages }} languages with frequency data 
+            sourced from Leipzig Corpora, HermitDave FrequencyWords, and Tatoeba sentences.
+          </p>
+          <p>
+            <a href="/docs/detect.md" target="_blank">Learn more about our detection system →</a>
+          </p>
+        </div>
+      </details>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted, computed } from 'vue';
+import languageDetectionService from '../services/languageDetectionService.js';
+
+// Reactive data
+const inputText = ref('');
+const detectionResults = ref([]);
+const isDetecting = ref(false);
+const hasDetected = ref(false);
+const availableLanguages = ref(0);
+
+// Example texts for testing
+const exampleTexts = ref([
+  {
+    code: 'de',
+    name: 'German',
+    flag: '🇩🇪',
+    text: 'Ich bin sehr glücklich und ich habe viel Geld.'
+  },
+  {
+    code: 'fr',
+    name: 'French', 
+    flag: '🇫🇷',
+    text: 'Je suis très heureux et j\'ai beaucoup d\'argent.'
+  },
+  {
+    code: 'es',
+    name: 'Spanish',
+    flag: '🇪🇸', 
+    text: 'Estoy muy feliz y tengo mucho dinero.'
+  },
+  {
+    code: 'ru',
+    name: 'Russian',
+    flag: '🇷🇺',
+    text: 'Я очень счастлив и у меня много денег.'
+  },
+  {
+    code: 'ar',
+    name: 'Arabic',
+    flag: '🇸🇦',
+    text: 'أنا سعيد جداً ولدي الكثير من المال.'
+  },
+  {
+    code: 'ko',
+    name: 'Korean',
+    flag: '🇰🇷',
+    text: '나는 매우 행복하고 돈이 많이 있습니다.'
+  },
+  {
+    code: 'af',
+    name: 'Afrikaans',
+    flag: '🇿🇦',
+    text: 'Die man het die boek gelees en hy is baie gelukkig.'
+  },
+  {
+    code: 'no',
+    name: 'Norwegian',
+    flag: '🇳🇴',
+    text: 'Jeg er veldig lykkelig og jeg har mye penger.'
+  }
+]);
+
+// Methods
+const detectLanguage = async () => {
+  if (!inputText.value.trim()) {
+    console.log('No text to detect');
+    return;
+  }
+
+  console.log('Starting language detection for:', inputText.value.trim());
+  console.log('Service available languages:', languageDetectionService.getAvailableLanguages().length);
+
+  isDetecting.value = true;
+  hasDetected.value = false;
+  detectionResults.value = [];
+
+  try {
+    const results = await languageDetectionService.detectLanguages(inputText.value.trim(), {
+      topK: 5
+    });
+
+    console.log('Detection results:', results);
+    detectionResults.value = results;
+    hasDetected.value = true;
+  } catch (error) {
+    console.error('Detection failed:', error);
+    // Show error state
+    detectionResults.value = [];
+    hasDetected.value = true;
+  } finally {
+    isDetecting.value = false;
+  }
+};
+
+const clearInput = () => {
+  inputText.value = '';
+  detectionResults.value = [];
+  hasDetected.value = false;
+};
+
+const useExample = (example) => {
+  console.log('Using example:', example);
+  inputText.value = example.text;
+  // Auto-detect after setting example
+  setTimeout(() => {
+    console.log('Auto-detecting after example selection...');
+    detectLanguage();
+  }, 100);
+};
+
+const onTextChange = () => {
+  // Clear previous results when text changes
+  if (hasDetected.value) {
+    detectionResults.value = [];
+    hasDetected.value = false;
+  }
+};
+
+// Initialize service on mount
+onMounted(async () => {
+  try {
+    console.log('Initializing language detection service...');
+    await languageDetectionService.initialize();
+    availableLanguages.value = languageDetectionService.getAvailableLanguages().length;
+    console.log(`Language detection initialized with ${availableLanguages.value} languages`);
+  } catch (error) {
+    console.error('Failed to initialize language detection:', error);
+    // Set a fallback number so the UI still works
+    availableLanguages.value = 86;
+  }
+});
+</script>
+
+<style scoped>
+.language-detector {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.detector-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.detector-header h2 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.detector-description {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.detector-input {
+  margin-bottom: 2rem;
+}
+
+.input-section {
+  margin-bottom: 2rem;
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.text-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+  transition: border-color 0.2s;
+}
+
+.text-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.input-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.detect-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.detect-btn:hover:not(:disabled) {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+.detect-btn:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.clear-btn {
+  background: #f8f9fa;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.clear-btn:hover {
+  background: #e9ecef;
+  color: #495057;
+}
+
+.examples-section h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.examples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.example-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.example-btn:hover {
+  background: #e9ecef;
+  border-color: #007bff;
+  transform: translateY(-1px);
+}
+
+.example-flag {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.example-text {
+  font-size: 0.9rem;
+  color: #495057;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.results-section {
+  border-top: 1px solid #dee2e6;
+  padding-top: 2rem;
+}
+
+.results-section h3 {
+  margin: 0 0 1.5rem 0;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.loading-state {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+}
+
+.loading-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.result-item {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: all 0.2s;
+}
+
+.result-item.top-result {
+  border-color: #28a745;
+  background: #d4edda;
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.result-rank {
+  background: #007bff;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  min-width: 2rem;
+  text-align: center;
+}
+
+.top-result .result-rank {
+  background: #28a745;
+}
+
+.result-language {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.result-code {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.result-confidence {
+  margin-left: auto;
+  background: #007bff;
+  color: white;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.top-result .result-confidence {
+  background: #28a745;
+}
+
+.result-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.result-detail {
+  background: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.no-results {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.no-results-help {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.how-it-works {
+  margin-top: 2rem;
+  border-top: 1px solid #dee2e6;
+  padding-top: 1.5rem;
+}
+
+.how-it-works summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #007bff;
+  padding: 0.5rem 0;
+}
+
+.how-it-works summary:hover {
+  color: #0056b3;
+}
+
+.explanation {
+  padding: 1rem 0;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.explanation ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.explanation li {
+  margin-bottom: 0.5rem;
+}
+
+.explanation a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.explanation a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .language-detector {
+    padding: 1.5rem;
+  }
+  
+  .detector-header h2 {
+    font-size: 1.5rem;
+  }
+  
+  .examples-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .input-actions {
+    flex-direction: column;
+  }
+  
+  .result-header {
+    flex-wrap: wrap;
+  }
+  
+  .result-details {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+</style>

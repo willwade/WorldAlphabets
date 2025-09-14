@@ -382,10 +382,11 @@ uv run scripts/build_data_pipeline.py --language mi --script Latn
 3. **build_alphabets** - Generate alphabet files from CLDR + fallbacks
 4. **build_translations** - Add "Hello, how are you?" translations
 5. **build_keyboards** - Generate keyboard layout files
-6. **build_tts_index** - Index available TTS voices
-7. **build_audio** - Generate audio files using TTS
-8. **build_index** - Create searchable indexes and metadata
-9. **validate_data** - Comprehensive data validation
+6. **build_top200** - Generate Top-200 token lists for detection
+7. **build_tts_index** - Index available TTS voices
+8. **build_audio** - Generate audio files using TTS
+9. **build_index** - Create searchable indexes and metadata
+10. **validate_data** - Comprehensive data validation
 
 For detailed pipeline documentation, see [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md).
 
@@ -444,6 +445,35 @@ uv run src/scripts/populate_layouts.py --skip-existing
 ruff check .
 mypy .
 ```
+
+### Top-200 token lists
+
+The language detection helpers rely on compact frequency lists for each
+language. These lists are generated using a unified 5-priority pipeline that
+maximizes coverage across all supported languages:
+
+```bash
+# Generate for all languages
+uv run python scripts/build_top200_unified.py --all
+
+# Generate for specific languages
+uv run python scripts/build_top200_unified.py --langs en,ja,cy
+
+# Generate only for missing languages
+uv run python scripts/build_top200_unified.py --missing-only
+```
+
+**Priority Sources (in order):**
+1. **Leipzig Corpora Collection** - High-quality news/web corpora (CC-BY)
+2. **HermitDave FrequencyWords** - OpenSubtitles/Wikipedia sources (CC-BY)
+3. **Tatoeba sentences** - Sentence-based extraction (CC-BY 2.0 FR)
+4. **Existing alphabet frequency data** - Character-level fallback
+5. **Simia unigrams** - CJK character data
+
+The script writes results to ``data/freq/top200`` with build reports in
+``BUILD_REPORT_UNIFIED.json``. This achieves **90.9% coverage** (130/143 languages)
+compared to the previous 33% coverage. The unified pipeline also runs within the
+consolidated data pipeline as the ``build_top200`` stage.
 
 ## Sources
 

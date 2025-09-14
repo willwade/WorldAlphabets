@@ -14,6 +14,7 @@ from .diacritics import (
     characters_with_diacritics,
     diacritic_variants,
 )
+from .detect import detect_languages, PRIOR_WEIGHT, FREQ_WEIGHT
 
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
@@ -68,46 +69,6 @@ def get_diacritic_variants(code: str, script: str | None = None) -> Dict[str, Li
     return result
 
 
-def detect_languages(text: str) -> List[str]:
-    """Return language codes whose alphabets cover characters in ``text``.
-
-    Args:
-        text: Input text to analyze for language detection
-
-    Returns:
-        List of language codes whose alphabets can represent all letters in the text
-
-    Note:
-        This function strips diacritics before comparison, so "café" would match
-        languages that have 'c', 'a', 'f', 'e' in their alphabets.
-    """
-    if not text:
-        return []
-
-    letters = {strip_diacritics(ch).lower() for ch in text if ch.isalpha()}
-    if not letters:
-        return []
-
-    candidates: List[str] = []
-    for entry in get_index_data():
-        lang = entry["language"]
-        script = entry.get("script")
-        try:
-            data = get_language(lang, script=script)
-            if data is None:
-                continue
-            alphabet = {
-                strip_diacritics(ch).lower()
-                for ch in data.get("lowercase", [])
-            }
-            if letters <= alphabet:
-                candidates.append(lang)
-        except (FileNotFoundError, KeyError, ValueError):
-            # Skip languages that can't be loaded or have invalid data
-            continue
-    return candidates
-
-
 __all__ = [
     # Alphabets
     "load_alphabet",
@@ -123,6 +84,8 @@ __all__ = [
     "get_diacritic_variants",
     # Language detection
     "detect_languages",
+    "PRIOR_WEIGHT",
+    "FREQ_WEIGHT",
     # Keyboards
     "load_keyboard",
     "get_available_layouts",
