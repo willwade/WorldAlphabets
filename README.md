@@ -467,7 +467,7 @@ mypy .
 
 The language detection helpers rely on compact frequency lists for each
 language. These lists are generated using a unified 5-priority pipeline that
-maximizes coverage across all supported languages:
+maximizes coverage across as many languages as we can:
 
 ```bash
 # Generate for all languages
@@ -488,8 +488,7 @@ uv run python scripts/build_top200_unified.py --missing-only
 5. **Simia unigrams** - CJK character data
 
 The script writes results to ``data/freq/top200`` with build reports in
-``BUILD_REPORT_UNIFIED.json``. This achieves **90.9% coverage** (130/143 languages)
-compared to the previous 33% coverage. The unified pipeline also runs within the
+``BUILD_REPORT_UNIFIED.json``. The unified pipeline also runs within the
 consolidated data pipeline as the ``build_top200`` stage.
 
 ## Sources

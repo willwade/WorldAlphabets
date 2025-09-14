@@ -6,11 +6,9 @@ This script ensures that the Python package includes all the generated data file
 by copying them from data/ to src/worldalphabets/data/.
 """
 
-import json
 import shutil
 import sys
 from pathlib import Path
-from typing import Dict, Any
 
 def sync_alphabets(source_dir: Path, target_dir: Path) -> int:
     """Sync alphabet files from source to target directory."""
@@ -123,7 +121,7 @@ def update_manifest(root_dir: Path) -> None:
     
     if needs_update:
         manifest_file.write_text('\n'.join(lines) + '\n')
-        print(f"Updated MANIFEST.in")
+        print("Updated MANIFEST.in")
     else:
         print("MANIFEST.in is already up to date")
 

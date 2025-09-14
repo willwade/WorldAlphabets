@@ -5,7 +5,6 @@ Enhanced language detection with character-based fallback.
 
 import os
 import sys
-import json
 import math
 import unicodedata
 from pathlib import Path
