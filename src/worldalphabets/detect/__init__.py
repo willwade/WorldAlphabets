@@ -12,7 +12,7 @@ from typing import Dict, Iterable, List, Tuple
 
 __all__ = ["detect_languages", "PRIOR_WEIGHT", "FREQ_WEIGHT"]
 
-DEFAULT_FREQ_DIR = files("worldalphabets") / "data" / "freq" / "top1000"
+DEFAULT_FREQ_DIR = files("worldalphabets") / "data" / "freq" / "top200"
 PRIOR_WEIGHT = float(os.environ.get("WA_FREQ_PRIOR_WEIGHT", 0.65))
 FREQ_WEIGHT = float(os.environ.get("WA_FREQ_OVERLAP_WEIGHT", 0.35))
 CHAR_WEIGHT = 0.2  # Weight for character-based detection fallback

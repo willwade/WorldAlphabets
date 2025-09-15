@@ -2,7 +2,7 @@
 
 /**
  * Generate frequency data index from available frequency files
- * This script scans the public/data/freq/top1000/ directory and creates
+ * This script scans the public/data/freq/top200/ directory and creates
  * a freq_index.json file with the list of available languages.
  */
 
@@ -13,7 +13,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const FREQ_DIR = path.join(__dirname, '..', 'public', 'data', 'freq', 'top1000');
+const FREQ_DIR = path.join(__dirname, '..', 'public', 'data', 'freq', 'top200');
 const OUTPUT_FILE = path.join(__dirname, '..', 'public', 'data', 'freq_index.json');
 
 function generateFrequencyIndex() {
