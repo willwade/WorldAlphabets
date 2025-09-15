@@ -1,4 +1,5 @@
 """Utilities for loading world alphabets."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -14,7 +15,8 @@ from .diacritics import (
     characters_with_diacritics,
     diacritic_variants,
 )
-from .detect import detect_languages, PRIOR_WEIGHT, FREQ_WEIGHT
+from .detect import detect_languages
+from .detect.optimized import optimized_detect_languages, detect_languages_with_progress
 
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
@@ -50,7 +52,9 @@ def get_available_codes() -> List[str]:
     return sorted(item["language"] for item in get_index_data())
 
 
-def get_diacritic_variants(code: str, script: str | None = None) -> Dict[str, List[str]]:
+def get_diacritic_variants(
+    code: str, script: str | None = None
+) -> Dict[str, List[str]]:
     """Return mapping of base letters to diacritic variants for ``code``."""
 
     data = get_language(code, script=script)
@@ -84,6 +88,8 @@ __all__ = [
     "get_diacritic_variants",
     # Language detection
     "detect_languages",
+    "optimized_detect_languages",
+    "detect_languages_with_progress",
     "PRIOR_WEIGHT",
     "FREQ_WEIGHT",
     # Keyboards
