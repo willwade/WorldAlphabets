@@ -162,116 +162,47 @@ def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]
 
 # Priority 2: HermitDave FrequencyWords
 def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
-    """Fetch from HermitDave FrequencyWords repository."""
-    hermitdave_mappings = {
-        "en": "en_50k.txt",
-        "es": "es_50k.txt",
-        "fr": "fr_50k.txt",
-        "de": "de_50k.txt",
-        "it": "it_50k.txt",
-        "pt": "pt_50k.txt",
-        "ru": "ru_50k.txt",
-        "zh": "zh_50k.txt",
-        "ja": "ja_50k.txt",
-        "ko": "ko_50k.txt",
-        "ar": "ar_50k.txt",
-        "hi": "hi_50k.txt",
-        "tr": "tr_50k.txt",
-        "pl": "pl_50k.txt",
-        "nl": "nl_50k.txt",
-        "sv": "sv_50k.txt",
-        "da": "da_50k.txt",
-        "no": "no_50k.txt",
-        "fi": "fi_50k.txt",
-        "hu": "hu_50k.txt",
-        "cs": "cs_50k.txt",
-        "sk": "sk_50k.txt",
-        "bg": "bg_50k.txt",
-        "hr": "hr_50k.txt",
-        "sr": "sr_50k.txt",
-        "sl": "sl_50k.txt",
-        "et": "et_50k.txt",
-        "lv": "lv_50k.txt",
-        "lt": "lt_50k.txt",
-        "ro": "ro_50k.txt",
-        "el": "el_50k.txt",
-        "he": "he_50k.txt",
-        "th": "th_50k.txt",
-        "vi": "vi_50k.txt",
-        "id": "id_50k.txt",
-        "ms": "ms_50k.txt",
-        "tl": "tl_50k.txt",
-        "ca": "ca_50k.txt",
-        "eu": "eu_50k.txt",
-        "gl": "gl_50k.txt",
-        "mt": "mt_50k.txt",
-        "is": "is_50k.txt",
-        "ga": "ga_50k.txt",
-        "cy": "cy_50k.txt",
-        "la": "la_50k.txt",
-        "eo": "eo_50k.txt",
-        "uk": "uk_50k.txt",
-        "be": "be_50k.txt",
-        "mk": "mk_50k.txt",
-        "sq": "sq_50k.txt",
-        "az": "az_50k.txt",
-        "ka": "ka_50k.txt",
-        "hy": "hy_50k.txt",
-        "fa": "fa_50k.txt",
-        "ur": "ur_50k.txt",
-        "bn": "bn_50k.txt",
-        "ta": "ta_50k.txt",
-        "te": "te_50k.txt",
-        "ml": "ml_50k.txt",
-        "kn": "kn_50k.txt",
-        "gu": "gu_50k.txt",
-        "pa": "pa_50k.txt",
-        "or": "or_50k.txt",
-        "as": "as_50k.txt",
-        "ne": "ne_50k.txt",
-        "si": "si_50k.txt",
-        "my": "my_50k.txt",
-        "km": "km_50k.txt",
-        "lo": "lo_50k.txt",
-        "am": "am_50k.txt",
-        "ti": "ti_50k.txt",
-        "om": "om_50k.txt",
-        "so": "so_50k.txt",
-        "sw": "sw_50k.txt",
-        "ha": "ha_50k.txt",
-        "yo": "yo_50k.txt",
-        "ig": "ig_50k.txt",
-        "zu": "zu_50k.txt",
-        "xh": "xh_50k.txt",
-        "af": "af_50k.txt",
-    }
+    """Fetch from HermitDave FrequencyWords repository.
 
-    filename = hermitdave_mappings.get(lang_code)
-    if not filename:
-        return None
+    Tries multiple file patterns in order of preference:
+    1. {lang}_full.txt (complete frequency data)
+    2. {lang}_50k.txt (top 50k words)
+    3. {lang}.txt (basic frequency list)
+    """
 
-    try:
-        url = f"https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/{lang_code}/{filename}"
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    # Try multiple filename patterns in order of preference
+    filename_patterns = [
+        f"{lang_code}_full.txt",  # Most comprehensive
+        f"{lang_code}_50k.txt",  # Standard 50k words
+        f"{lang_code}.txt",  # Basic list
+    ]
 
-        with urllib.request.urlopen(req) as resp:
-            text = resp.read().decode("utf-8", errors="ignore")
+    for filename in filename_patterns:
+        try:
+            url = f"https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/{lang_code}/{filename}"
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
 
-        words = []
-        for line in text.splitlines()[:limit]:
-            parts = line.split()
-            if parts:
-                words.append(parts[0])
+            with urllib.request.urlopen(req) as resp:
+                text = resp.read().decode("utf-8", errors="ignore")
 
-        if words:
-            print(f"  HermitDave: {len(words)} words from {filename}")
-            return words
+            words = []
+            for line in text.splitlines()[:limit]:
+                parts = line.split()
+                if parts:
+                    words.append(parts[0])
 
-    except HTTPError as e:
-        if e.code != 404:
-            print(f"  HermitDave HTTP {e.code} for {filename}")
-    except Exception as e:
-        print(f"  HermitDave error for {filename}: {e}")
+            if words:
+                print(f"  HermitDave: {len(words)} words from {filename}")
+                return words
+
+        except HTTPError as e:
+            if e.code == 404:
+                continue  # Try next filename pattern
+            else:
+                print(f"  HermitDave HTTP {e.code} for {filename}")
+        except Exception as e:
+            print(f"  HermitDave error for {filename}: {e}")
+            continue  # Try next filename pattern
 
     return None
 
