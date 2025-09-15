@@ -105,10 +105,10 @@
                         }
                         
                         const finalScore = 0.35 * overlap; // Only frequency weight, no priors
-                        
+
                         console.log(`${languageCode}: overlap=${overlap.toFixed(3)}, score=${finalScore.toFixed(3)}, freq_size=${frequencyData.ranks.size}`);
-                        
-                        if (finalScore > 0.01) { // Lower threshold for testing
+
+                        if (finalScore > 0.005) { // Even lower threshold for testing
                             results.push({
                                 language: languageCode,
                                 confidence: finalScore,

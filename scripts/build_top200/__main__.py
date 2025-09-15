@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List
 
@@ -24,7 +24,9 @@ def load_yaml(path: Path) -> Dict:
         return yaml.safe_load(fh)
 
 
-def build_language(lang: str, cfg: Dict, settings: Dict, freq_dir: Path, dry_run: bool) -> LangResult:
+def build_language(
+    lang: str, cfg: Dict, settings: Dict, freq_dir: Path, dry_run: bool
+) -> LangResult:
     mode = cfg.get("type", "word")
     allowlists = settings.get("allowlist", {})
     limit = int(settings.get("max_tokens", 200))
@@ -57,7 +59,9 @@ def build_language(lang: str, cfg: Dict, settings: Dict, freq_dir: Path, dry_run
     if not dry_run:
         out_path = freq_dir / f"{lang}.txt"
         write_tokens(out_path, merged, mode)
-    return LangResult(tokens=merged, source_counts=counts, mode=mode, partial=partial, sha256=shas)
+    return LangResult(
+        tokens=merged, source_counts=counts, mode=mode, partial=partial, sha256=shas
+    )
 
 
 def main(argv: List[str] | None = None) -> None:
@@ -96,12 +100,14 @@ def main(argv: List[str] | None = None) -> None:
         }
 
     # Write reports
-    generated_at = datetime.utcnow().isoformat() + "Z"
+    generated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     build_report = {"generated_at": generated_at, "languages": report}
 
     if args.report:
         report_path = Path(args.report)
-        report_path.write_text(json.dumps(build_report, ensure_ascii=False, indent=2), encoding="utf-8")
+        report_path.write_text(
+            json.dumps(build_report, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
     else:
         freq_dir.mkdir(parents=True, exist_ok=True)
         (freq_dir / "BUILD_REPORT.json").write_text(
