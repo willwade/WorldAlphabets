@@ -279,13 +279,14 @@ def optimized_detect_languages(
                     # Combine character overlap and frequency overlap
                     char_score = char_overlap_score * 0.6 + freq_overlap_score * 0.4
 
-                    # Apply character-based weight
+                    # Apply character-based weight (reduced to prevent false positives)
                     final_char_score = (
-                        PRIOR_WEIGHT * priors.get(lang, 0.0) + CHAR_WEIGHT * char_score
+                        PRIOR_WEIGHT * priors.get(lang, 0.0)
+                        + CHAR_WEIGHT * char_score * 0.5
                     )
 
-                    # Use a lower threshold for character-based detection
-                    if final_char_score > 0.02:
+                    # Use a higher threshold for character-based detection to prevent false positives
+                    if final_char_score > 0.04:
                         results.append((lang, final_char_score))
 
         except Exception:
@@ -300,7 +301,7 @@ def optimized_detect_languages(
     def sort_key(item: Tuple[str, float]) -> float:
         lang, score = item
         if lang in word_based_langs:
-            return score + 0.01  # Small boost for word-based detection
+            return score + 0.05  # Larger boost for word-based detection
         return score
 
     results.sort(key=sort_key, reverse=True)
