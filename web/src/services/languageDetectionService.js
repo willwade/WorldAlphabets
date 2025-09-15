@@ -295,7 +295,7 @@ class LanguageDetectionService {
     }
 
     try {
-      const response = await fetch(`./data/freq/top200/${languageCode}.txt`);
+      const response = await fetch(`./data/freq/top1000/${languageCode}.txt`);
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }

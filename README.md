@@ -151,7 +151,7 @@ getDiacriticVariants('pl').then((v) => v.L); // ['L', 'Ł']
 
 The library provides two language detection approaches:
 
-1. **Word-based detection** (primary): Uses Top-200 frequency lists for languages with available word frequency data
+1. **Word-based detection** (primary): Uses Top-1000 frequency lists for languages with available word frequency data
 2. **Character-based fallback**: For languages without frequency data, analyzes character sets and character frequencies from alphabet data
 
 #### Automatic Detection (Recommended)
@@ -429,7 +429,7 @@ uv run scripts/build_data_pipeline.py --language mi --script Latn
 3. **build_alphabets** - Generate alphabet files from CLDR + fallbacks
 4. **build_translations** - Add "Hello, how are you?" translations
 5. **build_keyboards** - Generate keyboard layout files
-6. **build_top200** - Generate Top-200 token lists for detection
+6. **build_top1000** - Generate Top-1000 token lists for detection
 7. **build_tts_index** - Index available TTS voices
 8. **build_audio** - Generate audio files using TTS
 9. **build_index** - Create searchable indexes and metadata
@@ -493,11 +493,12 @@ ruff check .
 mypy .
 ```
 
-### Top-200 token lists
+### Top-1000 token lists
 
-The language detection helpers rely on frequency lists for each language.
-These lists contain the 200 most common words per language, providing reliable
-word-based language detection for 86 languages.
+The language detection helpers rely on comprehensive frequency lists for each language.
+These lists contain the 1000 most common words per language, sourced from real external
+data sources like HermitDave FrequencyWords, Leipzig Corpora, and Tatoeba sentences.
+This provides significantly improved accuracy over the previous top-200 approach.
 
 For major languages (French, English, Spanish), the expanded lists include:
 - Common vocabulary: "heureux" (happy), "argent" (money), "travail" (work)
