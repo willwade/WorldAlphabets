@@ -38,6 +38,11 @@ print("Marathi frequency for 'a':", alphabet_mr.frequency["a"])
 # Example with Arabic digits
 alphabet_ar = load_alphabet("ar", "Arab")
 print("Arabic digits:", alphabet_ar.digits)
+
+# Language detection (see Language Detection section for details)
+from worldalphabets import optimized_detect_languages
+results = optimized_detect_languages("Hello world")  # Automatic detection
+print("Detected languages:", results)
 ```
 
 ### Node.js
@@ -144,37 +149,62 @@ getDiacriticVariants('pl').then((v) => v.L); // ['L', 'Ł']
 
 ### Language Detection
 
-To guess possible languages for a string, use
-`detect_languages`/`detectLanguages`. The detection system uses a hybrid approach:
+The library provides two language detection approaches:
 
 1. **Word-based detection** (primary): Uses Top-200 frequency lists for languages with available word frequency data
 2. **Character-based fallback**: For languages without frequency data, analyzes character sets and character frequencies from alphabet data
 
+#### Automatic Detection (Recommended)
+
+The optimized detection automatically selects candidate languages using character analysis:
+
+```python
+from worldalphabets import optimized_detect_languages
+
+# Automatic detection - analyzes ALL 310+ languages intelligently
+optimized_detect_languages("Hello world")
+# [('en', 0.158), ('de', 0.142), ('fr', 0.139)]
+
+optimized_detect_languages("Аҧсуа бызшәа")  # Abkhazian
+# [('ab', 0.146), ('ru', 0.136), ('bg', 0.125)]
+
+optimized_detect_languages("ⲧⲙⲛⲧⲣⲙⲛⲕⲏⲙⲉ")  # Coptic
+# [('cop', 0.077)]
+
+# Still supports manual candidate specification
+optimized_detect_languages("Hello world", candidate_langs=['en', 'de', 'fr'])
+# [('en', 0.158), ('de', 0.142), ('fr', 0.139)]
+```
+
+#### Manual Candidate Selection
+
+The original detection requires you to specify candidate languages:
+
 ```python
 from worldalphabets import detect_languages
 
-# Word-based detection (languages with frequency data)
+# Must specify candidate languages
 detect_languages("Hello world", candidate_langs=['en', 'de', 'fr'])
 # [('en', 0.158), ('de', 0.142), ('fr', 0.139)]
 
-# Character-based fallback (languages without frequency data)
 detect_languages("Аҧсуа бызшәа", candidate_langs=['ab', 'ru', 'bg'])
-# [('ab', 0.146), ('ru', 0.136), ('bg', 0.125)]  # Abkhazian detected via character analysis
+# [('ab', 0.146), ('ru', 0.136), ('bg', 0.125)]
 ```
+
+#### Node.js (Manual Candidates Required)
 
 ```javascript
 const { detectLanguages } = require('worldalphabets');
 
-// Word-based detection
+// Must specify candidate languages
 detectLanguages('Hello world', ['en', 'de', 'fr']).then(console.log);
 // [['en', 0.158], ['de', 0.142], ['fr', 0.139]]
 
-// Character-based fallback
 detectLanguages('ⲧⲙⲛⲧⲣⲙⲛⲕⲏⲙⲉ', ['cop', 'el', 'ar']).then(console.log);
-// [['cop', 0.077], ['el', 0.032], ['ar', 0.021]]  # Coptic detected via character analysis
+// [['cop', 0.077], ['el', 0.032], ['ar', 0.021]]
 ```
 
-The detection system automatically falls back to character-based analysis when word frequency data is unavailable, enabling detection of **331 languages** instead of just the 86 with frequency data.
+The detection system supports **310+ languages** total: 86 with word frequency data and 224+ with character-based analysis.
 
 ### Examples
 
