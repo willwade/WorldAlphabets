@@ -25,7 +25,7 @@
             :disabled="!inputText.trim() || isDetecting"
             class="detect-btn"
           >
-            {{ isDetecting ? 'Detecting...' : 'Detect Language' }}
+            {{ isDetecting ? '🔍 Analyzing...' : 'Detect Language' }}
           </button>
           <button @click="clearInput" class="clear-btn">Clear</button>
         </div>
@@ -219,14 +219,19 @@ const detectLanguage = async () => {
   processedLanguages.value = 0;
   totalLanguages.value = languageDetectionService.getAvailableLanguages().length;
   detectionStartTime.value = performance.now();
-  detectionStatus.value = 'Initializing detection...';
+  detectionStatus.value = '🚀 Starting language detection...';
 
-  // Start progress timer
+  // Show immediate feedback
+  await new Promise(resolve => setTimeout(resolve, 100));
+  detectionStatus.value = '📚 Loading language data...';
+  detectionProgress.value = 5;
+
+  // Start progress timer with more frequent updates
   const progressTimer = setInterval(() => {
     if (isDetecting.value) {
       detectionTimeElapsed.value = (performance.now() - detectionStartTime.value) / 1000;
     }
-  }, 100);
+  }, 50);
 
   try {
     const results = await languageDetectionService.detectLanguages(inputText.value.trim(), {
@@ -457,37 +462,53 @@ onMounted(async () => {
   padding: 2rem;
   text-align: center;
   color: #666;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border: 2px solid #007bff;
+  border-radius: 12px;
+  margin: 1rem 0;
+  animation: pulse-border 2s ease-in-out infinite;
 }
 
 .loading-spinner {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid #007bff;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #007bff;
+  border-right: 5px solid #0056b3;
   border-radius: 50%;
-  animation: spin 1s linear infinite;
-  margin: 0 auto 1rem;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 1.5rem;
 }
 
 .progress-info {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
+}
+
+.progress-info p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #007bff;
+  margin-bottom: 1rem;
 }
 
 .progress-bar {
   width: 100%;
-  height: 8px;
-  background-color: #f0f0f0;
-  border-radius: 4px;
+  height: 12px;
+  background-color: #e9ecef;
+  border-radius: 6px;
   overflow: hidden;
   margin: 1rem 0;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #007bff, #0056b3);
-  border-radius: 4px;
-  transition: width 0.3s ease;
+  background: linear-gradient(90deg, #007bff, #0056b3, #007bff);
+  background-size: 200% 100%;
+  border-radius: 6px;
+  transition: width 0.2s ease;
+  animation: progress-shimmer 1.5s ease-in-out infinite;
 }
 
 .progress-stats {
@@ -501,6 +522,22 @@ onMounted(async () => {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.4);
+  }
+  50% {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 8px rgba(0, 123, 255, 0.1);
+  }
+}
+
+@keyframes progress-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 .results-list {
