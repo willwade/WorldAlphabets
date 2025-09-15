@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test WebUI Enhanced Language Detection</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        .test-case { margin: 1rem 0; padding: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+        .success { background: #d4edda; border-color: #c3e6cb; }
+        .error { background: #f8d7da; border-color: #f5c6cb; }
+        button { padding: 0.5rem 1rem; margin: 0.5rem; }
+        textarea { width: 100%; height: 60px; margin: 0.5rem 0; }
+        .result { margin: 0.5rem 0; padding: 0.5rem; background: #f8f9fa; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <h1>Enhanced Language Detection Test</h1>
+    <p>Testing both word-based and character-based detection in the WebUI</p>
+    
+    <div class="test-case">
+        <h3>Test 1: Abkhazian (Character-based fallback)</h3>
+        <textarea id="test1">Аҧсуа бызшәа</textarea>
+        <button onclick="testDetection('test1', 'ab', 'Abkhazian')">Test Abkhazian</button>
+        <div id="result1" class="result"></div>
+    </div>
+
+    <div class="test-case">
+        <h3>Test 2: Coptic (Character-based fallback)</h3>
+        <textarea id="test2">ⲧⲙⲛⲧⲣⲙⲛⲕⲏⲙⲉ</textarea>
+        <button onclick="testDetection('test2', 'cop', 'Coptic')">Test Coptic</button>
+        <div id="result2" class="result"></div>
+    </div>
+
+    <div class="test-case">
+        <h3>Test 3: English (Word-based detection)</h3>
+        <textarea id="test3">Hello world this is a test</textarea>
+        <button onclick="testDetection('test3', 'en', 'English')">Test English</button>
+        <div id="result3" class="result"></div>
+    </div>
+
+    <div class="test-case">
+        <h3>Test 4: German (Word-based detection)</h3>
+        <textarea id="test4">Hallo Welt das ist ein Test</textarea>
+        <button onclick="testDetection('test4', 'de', 'German')">Test German</button>
+        <div id="result4" class="result"></div>
+    </div>
+
+    <div class="test-case">
+        <h3>Test 5: Bashkir (Character-based fallback)</h3>
+        <textarea id="test5">Башҡорт теле</textarea>
+        <button onclick="testDetection('test5', 'ba', 'Bashkir')">Test Bashkir</button>
+        <div id="result5" class="result"></div>
+    </div>
+
+    <button onclick="runAllTests()">Run All Tests</button>
+
+    <script type="module">
+        // Import the language detection service
+        import LanguageDetectionService from './web/src/services/languageDetectionService.js';
+
+        let detectionService;
+
+        // Initialize the service
+        async function initService() {
+            try {
+                detectionService = new LanguageDetectionService();
+                await detectionService.initialize();
+                console.log('Detection service initialized');
+                console.log('Available languages:', detectionService.getAvailableLanguages().length);
+            } catch (error) {
+                console.error('Failed to initialize detection service:', error);
+            }
+        }
+
+        // Test detection for a specific case
+        window.testDetection = async function(textareaId, expectedLang, expectedName) {
+            const textarea = document.getElementById(textareaId);
+            const resultDiv = document.getElementById(textareaId.replace('test', 'result'));
+            const text = textarea.value.trim();
+
+            if (!detectionService) {
+                resultDiv.innerHTML = '<span style="color: red;">❌ Service not initialized</span>';
+                return;
+            }
+
+            try {
+                console.log(`Testing ${expectedName} detection with text: "${text}"`);
+                const results = await detectionService.detectLanguages(text, { topK: 5 });
+                
+                console.log('Detection results:', results);
+
+                let html = `<strong>Text:</strong> "${text}"<br>`;
+                html += `<strong>Expected:</strong> ${expectedName} (${expectedLang})<br>`;
+                html += `<strong>Results:</strong><br>`;
+
+                if (results.length > 0) {
+                    const topResult = results[0];
+                    const isCorrect = topResult.language === expectedLang;
+                    
+                    html += `<ol>`;
+                    results.forEach((result, index) => {
+                        const isTarget = result.language === expectedLang;
+                        const style = isTarget ? 'font-weight: bold; color: green;' : '';
+                        html += `<li style="${style}">
+                            ${result.languageName} (${result.language}): 
+                            ${(result.confidence * 100).toFixed(2)}% 
+                            [${result.detectionType || 'unknown'}]
+                        </li>`;
+                    });
+                    html += `</ol>`;
+
+                    if (isCorrect) {
+                        html += `<span style="color: green;">✅ CORRECT - ${expectedName} detected at rank 1</span>`;
+                        resultDiv.className = 'result success';
+                    } else {
+                        const targetRank = results.findIndex(r => r.language === expectedLang) + 1;
+                        if (targetRank > 0) {
+                            html += `<span style="color: orange;">⚠️ PARTIAL - ${expectedName} detected at rank ${targetRank}</span>`;
+                        } else {
+                            html += `<span style="color: red;">❌ FAILED - ${expectedName} not detected</span>`;
+                        }
+                        resultDiv.className = 'result error';
+                    }
+                } else {
+                    html += `<span style="color: red;">❌ No languages detected</span>`;
+                    resultDiv.className = 'result error';
+                }
+
+                resultDiv.innerHTML = html;
+
+            } catch (error) {
+                console.error('Detection failed:', error);
+                resultDiv.innerHTML = `<span style="color: red;">❌ Error: ${error.message}</span>`;
+                resultDiv.className = 'result error';
+            }
+        };
+
+        // Run all tests
+        window.runAllTests = async function() {
+            console.log('Running all tests...');
+            await testDetection('test1', 'ab', 'Abkhazian');
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testDetection('test2', 'cop', 'Coptic');
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testDetection('test3', 'en', 'English');
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testDetection('test4', 'de', 'German');
+            await new Promise(resolve => setTimeout(resolve, 500));
+            await testDetection('test5', 'ba', 'Bashkir');
+            console.log('All tests completed');
+        };
+
+        // Initialize when page loads
+        initService();
+    </script>
+</body>
+</html>

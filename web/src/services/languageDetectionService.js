@@ -14,6 +14,7 @@ class LanguageDetectionService {
     this.frequencyCache = new Map();
     this.languageNames = new Map();
     this.availableLanguages = [];
+    this.frequencyLanguages = new Set(); // Languages that have frequency data
   }
 
   /**
@@ -35,6 +36,28 @@ class LanguageDetectionService {
       // Build language name mapping
       for (const [code, data] of Object.entries(languageData)) {
         this.languageNames.set(code, data.name || code);
+      }
+
+      // Load frequency data availability index
+      console.log('Loading frequency data index...');
+      const freqIndexResponse = await fetch('./data/freq_index.json');
+      if (freqIndexResponse.ok) {
+        const freqLanguages = await freqIndexResponse.json();
+        this.frequencyLanguages = new Set(freqLanguages);
+        console.log('Frequency data available for:', this.frequencyLanguages.size, 'languages');
+      } else {
+        // Fallback to known frequency languages if index loading fails
+        this.frequencyLanguages = new Set([
+          'af', 'am', 'ar', 'ast', 'ay', 'ban', 'bg', 'bn', 'bo', 'ca', 'ceb', 'chr',
+          'ckb', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa',
+          'fi', 'fo', 'fr', 'fur', 'ga', 'gd', 'gl', 'gn', 'gu', 'haw', 'he', 'hr',
+          'hu', 'ie', 'is', 'it', 'ja', 'jv', 'ka', 'kab', 'km', 'kn', 'ko', 'ksh',
+          'la', 'lij', 'lo', 'lt', 'lv', 'lzh', 'mk', 'ml', 'mn', 'my', 'nds', 'nn',
+          'no', 'oc', 'or', 'pl', 'ps', 'pt', 'ro', 'ru', 'si', 'sl', 'so', 'sr',
+          'su', 'sv', 'szl', 'ta', 'te', 'th', 'ti', 'tl', 'tn', 'tr', 'uk', 'ur',
+          'vec', 'zh'
+        ]);
+        console.log('Using fallback frequency language list');
       }
 
       // Load available languages from index data (includes both frequency and alphabet-only languages)
@@ -200,18 +223,26 @@ class LanguageDetectionService {
       return this.frequencyCache.get(languageCode);
     }
 
+    // Check if this language has frequency data available
+    if (!this.frequencyLanguages.has(languageCode)) {
+      // Return empty data immediately for languages without frequency data
+      const emptyData = { mode: 'word', ranks: new Map() };
+      this.frequencyCache.set(languageCode, emptyData);
+      return emptyData;
+    }
+
     try {
       const response = await fetch(`./data/freq/top200/${languageCode}.txt`);
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
-      
+
       const text = await response.text();
       const lines = text.split(/\r?\n/).filter(line => line.trim());
-      
+
       let mode = 'word';
       let startIndex = 0;
-      
+
       // Check for header indicating bigram mode
       if (lines[0] && lines[0].startsWith('#')) {
         const header = lines[0];
@@ -220,7 +251,7 @@ class LanguageDetectionService {
         }
         startIndex = 1;
       }
-      
+
       // Build rank map
       const ranks = new Map();
       for (let i = startIndex; i < lines.length; i++) {
@@ -229,7 +260,7 @@ class LanguageDetectionService {
           ranks.set(token, i - startIndex + 1);
         }
       }
-      
+
       const data = { mode, ranks };
       this.frequencyCache.set(languageCode, data);
       return data;
