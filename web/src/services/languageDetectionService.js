@@ -12,9 +12,14 @@ const CHAR_DETECTION_THRESHOLD = 0.02; // Lower threshold for character-based de
 class LanguageDetectionService {
   constructor() {
     this.frequencyCache = new Map();
+    this.alphabetCache = new Map();
     this.languageNames = new Map();
     this.availableLanguages = [];
     this.frequencyLanguages = new Set(); // Languages that have frequency data
+    this.bulkFrequencyData = null; // Cache for bulk-loaded frequency data
+    this.bulkAlphabetData = null; // Cache for bulk-loaded alphabet data
+    this.charIndex = null; // Character-based index for fast lookups
+    this.scriptIndex = null; // Script-based index for filtering
   }
 
   /**
@@ -81,6 +86,12 @@ class LanguageDetectionService {
       console.log('Testing frequency data access...');
       const testResult = await this.loadFrequencyData('de');
       console.log('Test frequency data loaded:', testResult.mode, 'mode,', testResult.ranks.size, 'tokens');
+
+      // Load character and script indexes for faster detection
+      await this.loadIndexes();
+
+      // Preload common frequency data for better performance
+      await this.preloadCommonFrequencyData();
 
     } catch (error) {
       console.error('Failed to initialize language detection service:', error);
@@ -178,6 +189,10 @@ class LanguageDetectionService {
    * Load alphabet data for a specific language
    */
   async loadAlphabetData(languageCode) {
+    if (this.alphabetCache.has(languageCode)) {
+      return this.alphabetCache.get(languageCode);
+    }
+
     try {
       // Try script-specific file first (from index)
       const indexResponse = await fetch('./data/index.json');
@@ -188,7 +203,9 @@ class LanguageDetectionService {
           const scriptFile = `./data/alphabets/${languageCode}-${entry.script}.json`;
           const scriptResponse = await fetch(scriptFile);
           if (scriptResponse.ok) {
-            return await scriptResponse.json();
+            const data = await scriptResponse.json();
+            this.alphabetCache.set(languageCode, data);
+            return data;
           }
         }
       }
@@ -197,13 +214,67 @@ class LanguageDetectionService {
       const legacyFile = `./data/alphabets/${languageCode}.json`;
       const legacyResponse = await fetch(legacyFile);
       if (legacyResponse.ok) {
-        return await legacyResponse.json();
+        const data = await legacyResponse.json();
+        this.alphabetCache.set(languageCode, data);
+        return data;
       }
 
+      this.alphabetCache.set(languageCode, null);
       return null;
     } catch (error) {
       console.warn(`Failed to load alphabet data for ${languageCode}:`, error);
+      this.alphabetCache.set(languageCode, null);
       return null;
+    }
+  }
+
+  /**
+   * Load character and script indexes for faster detection
+   */
+  async loadIndexes() {
+    try {
+      console.log('Loading character and script indexes...');
+
+      // Load character index
+      const charResponse = await fetch('./data/char_index.json');
+      if (charResponse.ok) {
+        this.charIndex = await charResponse.json();
+        console.log(`Character index loaded: ${this.charIndex.metadata.total_characters} characters, ${this.charIndex.metadata.total_languages} languages`);
+      } else {
+        console.warn('Character index not available, falling back to individual alphabet files');
+      }
+
+      // Load script index
+      const scriptResponse = await fetch('./data/script_index.json');
+      if (scriptResponse.ok) {
+        this.scriptIndex = await scriptResponse.json();
+        console.log(`Script index loaded: ${this.scriptIndex.metadata.total_scripts} scripts`);
+      } else {
+        console.warn('Script index not available');
+      }
+
+    } catch (error) {
+      console.warn('Failed to load indexes:', error);
+    }
+  }
+
+  /**
+   * Preload frequency data for common languages to improve performance
+   */
+  async preloadCommonFrequencyData() {
+    const commonLanguages = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ar'];
+    const preloadPromises = [];
+
+    for (const lang of commonLanguages) {
+      if (this.frequencyLanguages.has(lang) && !this.frequencyCache.has(lang)) {
+        preloadPromises.push(this.loadFrequencyData(lang));
+      }
+    }
+
+    if (preloadPromises.length > 0) {
+      console.log(`Preloading frequency data for ${preloadPromises.length} common languages...`);
+      await Promise.all(preloadPromises);
+      console.log('Common frequency data preloaded');
     }
   }
 
@@ -279,22 +350,69 @@ class LanguageDetectionService {
   }
 
   /**
+   * Get candidate languages based on character analysis
+   */
+  getCandidateLanguagesFromText(text) {
+    if (!this.charIndex) {
+      return this.availableLanguages; // Fallback to all languages
+    }
+
+    const textChars = this.tokenizeCharacters(text);
+    const candidateLanguages = new Set();
+
+    // Find languages that contain the characters in the text
+    for (const char of textChars) {
+      const languages = this.charIndex.char_to_languages[char];
+      if (languages) {
+        for (const lang of languages) {
+          candidateLanguages.add(lang);
+        }
+      }
+    }
+
+    // If no candidates found, fall back to all languages
+    if (candidateLanguages.size === 0) {
+      return this.availableLanguages;
+    }
+
+    // Convert to array and prioritize common languages
+    const commonLanguages = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ar', 'hi', 'ko'];
+    const candidates = Array.from(candidateLanguages);
+
+    return [
+      ...candidates.filter(lang => commonLanguages.includes(lang)),
+      ...candidates.filter(lang => !commonLanguages.includes(lang))
+    ];
+  }
+
+  /**
    * Detect languages in the given text
    */
   async detectLanguages(text, options = {}) {
     const {
-      candidateLanguages = this.availableLanguages,
+      candidateLanguages = null,
       priors = {},
-      topK = 5
+      topK = 5,
+      onProgress = null
     } = options;
 
     console.log('Starting detection for text:', text);
-    console.log('Candidate languages:', candidateLanguages.length);
 
     if (!text || text.trim().length === 0) {
       console.log('Empty text, returning no results');
       return [];
     }
+
+    // Use character-based candidate filtering if no candidates provided
+    const actualCandidates = candidateLanguages || this.getCandidateLanguagesFromText(text);
+    console.log('Candidate languages:', actualCandidates.length);
+
+    // Prioritize common languages for faster detection
+    const commonLanguages = ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ar', 'hi', 'ko'];
+    const prioritizedLanguages = [
+      ...actualCandidates.filter(lang => commonLanguages.includes(lang)),
+      ...actualCandidates.filter(lang => !commonLanguages.includes(lang))
+    ];
 
     const wordTokens = this.tokenizeWords(text);
     const bigramTokens = this.tokenizeBigrams(text);
@@ -307,11 +425,37 @@ class LanguageDetectionService {
     const results = [];
     const wordBasedLangs = new Set(); // Track which languages used word-based detection
 
+    // Report initial progress
+    if (onProgress) {
+      onProgress({
+        status: 'Starting language detection...',
+        percentage: 0,
+        processed: 0,
+        total: prioritizedLanguages.length
+      });
+    }
+
+    // Early termination: if we find a very high confidence match, stop processing
+    const HIGH_CONFIDENCE_THRESHOLD = 0.8;
+    let foundHighConfidenceMatch = false;
+
     // Process languages in batches to avoid blocking the UI
     const batchSize = 10;
-    for (let i = 0; i < candidateLanguages.length; i += batchSize) {
-      const batch = candidateLanguages.slice(i, i + batchSize);
+    let processedCount = 0;
+
+    for (let i = 0; i < prioritizedLanguages.length && !foundHighConfidenceMatch; i += batchSize) {
+      const batch = prioritizedLanguages.slice(i, i + batchSize);
       console.log(`Processing batch ${Math.floor(i/batchSize) + 1}:`, batch);
+
+      // Update progress at start of batch
+      if (onProgress) {
+        onProgress({
+          status: `Processing languages ${i + 1}-${Math.min(i + batchSize, prioritizedLanguages.length)}...`,
+          percentage: (processedCount / prioritizedLanguages.length) * 100,
+          processed: processedCount,
+          total: prioritizedLanguages.length
+        });
+      }
 
       for (const languageCode of batch) {
         try {
@@ -341,6 +485,13 @@ class LanguageDetectionService {
               detectionType: 'word-based'
             });
             wordBasedLangs.add(languageCode);
+
+            // Check for early termination
+            if (wordScore > HIGH_CONFIDENCE_THRESHOLD) {
+              console.log(`High confidence match found for ${languageCode} (${wordScore.toFixed(3)}), terminating early`);
+              foundHighConfidenceMatch = true;
+              break;
+            }
             continue;
           }
 
@@ -380,12 +531,24 @@ class LanguageDetectionService {
         } catch (error) {
           console.warn(`Error processing language ${languageCode}:`, error);
         }
+
+        processedCount++;
       }
 
       // Allow UI to update between batches
-      if (i + batchSize < candidateLanguages.length) {
+      if (i + batchSize < prioritizedLanguages.length && !foundHighConfidenceMatch) {
         await new Promise(resolve => setTimeout(resolve, 0));
       }
+    }
+
+    // Final progress update
+    if (onProgress) {
+      onProgress({
+        status: foundHighConfidenceMatch ? 'High confidence match found!' : 'Finalizing results...',
+        percentage: 100,
+        processed: prioritizedLanguages.length,
+        total: prioritizedLanguages.length
+      });
     }
 
     console.log('Detection complete. Results found:', results.length);

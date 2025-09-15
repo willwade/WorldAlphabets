@@ -55,7 +55,16 @@
       
       <div v-if="isDetecting" class="loading-state">
         <div class="loading-spinner"></div>
-        <p>Analyzing text across {{ availableLanguages }} languages...</p>
+        <div class="progress-info">
+          <p>{{ detectionStatus }}</p>
+          <div class="progress-bar">
+            <div class="progress-fill" :style="{ width: detectionProgress + '%' }"></div>
+          </div>
+          <div class="progress-stats">
+            <span>{{ processedLanguages }}/{{ totalLanguages }} languages</span>
+            <span v-if="detectionTimeElapsed > 0">{{ detectionTimeElapsed.toFixed(1) }}s elapsed</span>
+          </div>
+        </div>
       </div>
       
       <div v-else-if="detectionResults.length > 0" class="results-list">
@@ -132,6 +141,14 @@ const isDetecting = ref(false);
 const hasDetected = ref(false);
 const availableLanguages = ref(0);
 
+// Progress tracking
+const detectionStatus = ref('');
+const detectionProgress = ref(0);
+const processedLanguages = ref(0);
+const totalLanguages = ref(0);
+const detectionTimeElapsed = ref(0);
+const detectionStartTime = ref(0);
+
 // Example texts for testing
 const exampleTexts = ref([
   {
@@ -194,24 +211,45 @@ const detectLanguage = async () => {
   console.log('Starting language detection for:', inputText.value.trim());
   console.log('Service available languages:', languageDetectionService.getAvailableLanguages().length);
 
+  // Initialize progress tracking
   isDetecting.value = true;
   hasDetected.value = false;
   detectionResults.value = [];
+  detectionProgress.value = 0;
+  processedLanguages.value = 0;
+  totalLanguages.value = languageDetectionService.getAvailableLanguages().length;
+  detectionStartTime.value = performance.now();
+  detectionStatus.value = 'Initializing detection...';
+
+  // Start progress timer
+  const progressTimer = setInterval(() => {
+    if (isDetecting.value) {
+      detectionTimeElapsed.value = (performance.now() - detectionStartTime.value) / 1000;
+    }
+  }, 100);
 
   try {
     const results = await languageDetectionService.detectLanguages(inputText.value.trim(), {
-      topK: 5
+      topK: 5,
+      onProgress: (progress) => {
+        detectionStatus.value = progress.status;
+        detectionProgress.value = progress.percentage;
+        processedLanguages.value = progress.processed;
+        totalLanguages.value = progress.total;
+      }
     });
 
     console.log('Detection results:', results);
     detectionResults.value = results;
     hasDetected.value = true;
+    detectionStatus.value = 'Detection complete!';
   } catch (error) {
     console.error('Detection failed:', error);
-    // Show error state
     detectionResults.value = [];
     hasDetected.value = true;
+    detectionStatus.value = 'Detection failed';
   } finally {
+    clearInterval(progressTimer);
     isDetecting.value = false;
   }
 };
@@ -416,21 +454,48 @@ onMounted(async () => {
 }
 
 .loading-state {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   padding: 2rem;
   text-align: center;
   color: #666;
 }
 
 .loading-spinner {
-  width: 24px;
-  height: 24px;
-  border: 3px solid #f3f3f3;
-  border-top: 3px solid #007bff;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007bff;
   border-radius: 50%;
   animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+.progress-info {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 0.5rem;
 }
 
 @keyframes spin {

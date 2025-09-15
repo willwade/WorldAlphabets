@@ -56,5 +56,29 @@ function generateFrequencyIndex() {
   }
 }
 
-// Run the script
+// Copy additional indexes if they exist
+function copyAdditionalIndexes() {
+  const additionalIndexes = ['char_index.json', 'script_index.json'];
+  const sourceDir = path.join(__dirname, '..', '..', 'data');
+  const targetDir = path.join(__dirname, '..', 'public', 'data');
+
+  for (const indexFile of additionalIndexes) {
+    const sourcePath = path.join(sourceDir, indexFile);
+    const targetPath = path.join(targetDir, indexFile);
+
+    if (fs.existsSync(sourcePath)) {
+      try {
+        fs.copyFileSync(sourcePath, targetPath);
+        console.log(`✅ Copied ${indexFile}`);
+      } catch (error) {
+        console.warn(`⚠️  Failed to copy ${indexFile}:`, error.message);
+      }
+    } else {
+      console.log(`ℹ️  ${indexFile} not found, skipping`);
+    }
+  }
+}
+
+// Run the scripts
 generateFrequencyIndex();
+copyAdditionalIndexes();

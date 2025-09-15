@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebUI Language Detection Performance Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .test-case {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        .result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        .progress {
+            width: 100%;
+            height: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            transition: width 0.3s ease;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover { background: #0056b3; }
+        button:disabled { background: #6c757d; cursor: not-allowed; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 WebUI Language Detection Performance Test</h1>
+        <p>This test measures the performance improvements in the language detection system.</p>
+        
+        <div class="controls">
+            <button onclick="runAllTests()" id="runBtn">Run All Tests</button>
+            <button onclick="clearResults()">Clear Results</button>
+        </div>
+
+        <div id="progress-container" style="display: none;">
+            <h3>Overall Progress</h3>
+            <div class="progress">
+                <div class="progress-bar" id="overall-progress"></div>
+            </div>
+            <div id="progress-text">Initializing...</div>
+        </div>
+
+        <div class="stats" id="stats" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-value" id="total-time">-</div>
+                <div class="stat-label">Total Time (ms)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avg-time">-</div>
+                <div class="stat-label">Average Time (ms)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="accuracy">-</div>
+                <div class="stat-label">Accuracy (%)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="early-terminations">-</div>
+                <div class="stat-label">Early Terminations</div>
+            </div>
+        </div>
+
+        <div id="results"></div>
+    </div>
+
+    <script type="module">
+        import languageDetectionService from './src/services/languageDetectionService.js';
+
+        const testCases = [
+            {
+                text: "Hello world, this is a test in English. The quick brown fox jumps over the lazy dog.",
+                expected: "en",
+                name: "English"
+            },
+            {
+                text: "Bonjour le monde, ceci est un test en français. Le renard brun et rapide saute par-dessus le chien paresseux.",
+                expected: "fr", 
+                name: "French"
+            },
+            {
+                text: "Hola mundo, esta es una prueba en español. El zorro marrón rápido salta sobre el perro perezoso.",
+                expected: "es",
+                name: "Spanish"
+            },
+            {
+                text: "Hallo Welt, das ist ein Test auf Deutsch. Der schnelle braune Fuchs springt über den faulen Hund.",
+                expected: "de",
+                name: "German"
+            },
+            {
+                text: "Ciao mondo, questo è un test in italiano. La volpe marrone veloce salta sopra il cane pigro.",
+                expected: "it",
+                name: "Italian"
+            },
+            {
+                text: "Привет мир, это тест на русском языке. Быстрая коричневая лиса прыгает через ленивую собаку.",
+                expected: "ru",
+                name: "Russian"
+            },
+            {
+                text: "你好世界，这是中文测试。快速的棕色狐狸跳过懒惰的狗。",
+                expected: "zh",
+                name: "Chinese"
+            },
+            {
+                text: "こんにちは世界、これは日本語のテストです。素早い茶色のキツネが怠惰な犬を飛び越えます。",
+                expected: "ja",
+                name: "Japanese"
+            }
+        ];
+
+        let isRunning = false;
+        let earlyTerminationCount = 0;
+
+        window.runAllTests = async function() {
+            if (isRunning) return;
+            
+            isRunning = true;
+            earlyTerminationCount = 0;
+            document.getElementById('runBtn').disabled = true;
+            document.getElementById('progress-container').style.display = 'block';
+            document.getElementById('stats').style.display = 'none';
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+
+            try {
+                // Initialize service
+                document.getElementById('progress-text').textContent = 'Initializing language detection service...';
+                await languageDetectionService.initialize();
+                
+                const results = [];
+                const startTime = performance.now();
+
+                for (let i = 0; i < testCases.length; i++) {
+                    const testCase = testCases[i];
+                    
+                    // Update overall progress
+                    const overallProgress = (i / testCases.length) * 100;
+                    document.getElementById('overall-progress').style.width = overallProgress + '%';
+                    document.getElementById('progress-text').textContent = `Testing ${testCase.name}... (${i + 1}/${testCases.length})`;
+
+                    // Create test case div
+                    const testDiv = document.createElement('div');
+                    testDiv.className = 'test-case';
+                    testDiv.innerHTML = `
+                        <h3>${testCase.name}</h3>
+                        <p><strong>Text:</strong> ${testCase.text.substring(0, 100)}...</p>
+                        <div class="progress">
+                            <div class="progress-bar" id="progress-${i}"></div>
+                        </div>
+                        <div id="status-${i}">Starting detection...</div>
+                        <div id="result-${i}"></div>
+                    `;
+                    resultsDiv.appendChild(testDiv);
+
+                    // Run detection with progress tracking
+                    const testStartTime = performance.now();
+                    let detectionTerminatedEarly = false;
+                    
+                    const detectionResults = await languageDetectionService.detectLanguages(testCase.text, {
+                        topK: 5,
+                        onProgress: (progress) => {
+                            document.getElementById(`progress-${i}`).style.width = progress.percentage + '%';
+                            document.getElementById(`status-${i}`).textContent = progress.status;
+                            
+                            if (progress.status.includes('High confidence match found')) {
+                                detectionTerminatedEarly = true;
+                            }
+                        }
+                    });
+                    
+                    const testEndTime = performance.now();
+                    const duration = testEndTime - testStartTime;
+                    
+                    if (detectionTerminatedEarly) {
+                        earlyTerminationCount++;
+                    }
+
+                    const topResult = detectionResults[0];
+                    const isCorrect = topResult && topResult.language === testCase.expected;
+                    
+                    // Display results
+                    const resultDiv = document.getElementById(`result-${i}`);
+                    resultDiv.innerHTML = `
+                        <div class="result ${isCorrect ? 'success' : 'error'}">
+                            <strong>Duration:</strong> ${duration.toFixed(2)}ms<br>
+                            <strong>Top result:</strong> ${topResult ? topResult.language : 'none'} 
+                            (${topResult ? (topResult.confidence * 100).toFixed(1) : 0}%)<br>
+                            <strong>Expected:</strong> ${testCase.expected}<br>
+                            <strong>Correct:</strong> ${isCorrect ? '✅' : '❌'}<br>
+                            <strong>Early termination:</strong> ${detectionTerminatedEarly ? '✅' : '❌'}
+                        </div>
+                    `;
+
+                    results.push({
+                        name: testCase.name,
+                        duration,
+                        correct: isCorrect,
+                        topResult: topResult ? topResult.language : null,
+                        confidence: topResult ? topResult.confidence : 0,
+                        earlyTermination: detectionTerminatedEarly
+                    });
+                }
+
+                const totalTime = performance.now() - startTime;
+                
+                // Calculate statistics
+                const avgTime = results.reduce((sum, r) => sum + r.duration, 0) / results.length;
+                const correctCount = results.filter(r => r.correct).length;
+                const accuracy = (correctCount / results.length) * 100;
+
+                // Update stats display
+                document.getElementById('total-time').textContent = totalTime.toFixed(0);
+                document.getElementById('avg-time').textContent = avgTime.toFixed(0);
+                document.getElementById('accuracy').textContent = accuracy.toFixed(1);
+                document.getElementById('early-terminations').textContent = earlyTerminationCount;
+                document.getElementById('stats').style.display = 'grid';
+
+                // Final progress update
+                document.getElementById('overall-progress').style.width = '100%';
+                document.getElementById('progress-text').textContent = `Complete! ${correctCount}/${results.length} correct, ${avgTime.toFixed(0)}ms average`;
+
+            } catch (error) {
+                console.error('Test failed:', error);
+                resultsDiv.innerHTML = `<div class="result error">Test failed: ${error.message}</div>`;
+            } finally {
+                isRunning = false;
+                document.getElementById('runBtn').disabled = false;
+            }
+        };
+
+        window.clearResults = function() {
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('progress-container').style.display = 'none';
+            document.getElementById('stats').style.display = 'none';
+        };
+    </script>
+</body>
+</html>
