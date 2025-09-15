@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm-run-all predev vite-dev",
+    "dev": "npm-run-all predev generate-freq-index vite-dev",
     "vite-dev": "vite",
     "predev": "cpr ../data ./public/data -o",
-    "build": "npm run predev && vite build",
+    "generate-freq-index": "node scripts/generate-freq-index.js",
+    "build": "npm run predev && npm run generate-freq-index && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
