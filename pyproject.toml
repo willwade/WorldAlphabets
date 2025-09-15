@@ -48,8 +48,8 @@ build-backend = "setuptools.build_meta"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["src", "."]
-include = ["scripts*", "worldalphabets*"]
+where = ["src"]
+include = ["worldalphabets*"]
 
 [tool.ruff]
 line-length = 88
