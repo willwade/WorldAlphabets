@@ -6,7 +6,7 @@ export const FREQ_WEIGHT = Number(process.env.WA_FREQ_OVERLAP_WEIGHT ?? 0.35);
 
 const DEFAULT_FREQ_DIR =
   process.env.WORLDALPHABETS_FREQ_DIR ??
-  path.resolve(__dirname, '..', '..', '..', 'data', 'freq', 'top200');
+  path.resolve(__dirname, '..', '..', '..', 'data', 'freq', 'top1000');
 
 type RankData = { mode: 'word' | 'bigram'; ranks: Map<string, number> };
 const cache = new Map<string, RankData>();

@@ -151,7 +151,7 @@ getDiacriticVariants('pl').then((v) => v.L); // ['L', 'Ł']
 
 The library provides two language detection approaches:
 
-1. **Word-based detection** (primary): Uses Top-200 frequency lists for languages with available word frequency data
+1. **Word-based detection** (primary): Uses Top-1000 frequency lists for languages with available word frequency data
 2. **Character-based fallback**: For languages without frequency data, analyzes character sets and character frequencies from alphabet data
 
 #### Automatic Detection (Recommended)
@@ -429,7 +429,7 @@ uv run scripts/build_data_pipeline.py --language mi --script Latn
 3. **build_alphabets** - Generate alphabet files from CLDR + fallbacks
 4. **build_translations** - Add "Hello, how are you?" translations
 5. **build_keyboards** - Generate keyboard layout files
-6. **build_top200** - Generate Top-200 token lists for detection
+6. **build_top1000** - Generate Top-1000 token lists for detection
 7. **build_tts_index** - Index available TTS voices
 8. **build_audio** - Generate audio files using TTS
 9. **build_index** - Create searchable indexes and metadata
@@ -493,21 +493,21 @@ ruff check .
 mypy .
 ```
 
-### Top-200 token lists
+### Top-1000 token lists
 
-The language detection helpers rely on compact frequency lists for each
+The language detection helpers rely on comprehensive frequency lists for each
 language. These lists are generated using a unified 5-priority pipeline that
 maximizes coverage across as many languages as we can:
 
 ```bash
 # Generate for all languages
-uv run python scripts/build_top200_unified.py --all
+uv run python scripts/build_top1000_unified.py --all
 
 # Generate for specific languages
-uv run python scripts/build_top200_unified.py --langs en,ja,cy
+uv run python scripts/build_top1000_unified.py --langs en,ja,cy
 
 # Generate only for missing languages
-uv run python scripts/build_top200_unified.py --missing-only
+uv run python scripts/build_top1000_unified.py --missing-only
 ```
 
 **Priority Sources (in order):**
