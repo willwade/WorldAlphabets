@@ -46,18 +46,10 @@ class LanguageDetectionService {
         this.frequencyLanguages = new Set(freqLanguages);
         console.log('Frequency data available for:', this.frequencyLanguages.size, 'languages');
       } else {
-        // Fallback to known frequency languages if index loading fails
-        this.frequencyLanguages = new Set([
-          'af', 'am', 'ar', 'ast', 'ay', 'ban', 'bg', 'bn', 'bo', 'ca', 'ceb', 'chr',
-          'ckb', 'cs', 'cy', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa',
-          'fi', 'fo', 'fr', 'fur', 'ga', 'gd', 'gl', 'gn', 'gu', 'haw', 'he', 'hr',
-          'hu', 'ie', 'is', 'it', 'ja', 'jv', 'ka', 'kab', 'km', 'kn', 'ko', 'ksh',
-          'la', 'lij', 'lo', 'lt', 'lv', 'lzh', 'mk', 'ml', 'mn', 'my', 'nds', 'nn',
-          'no', 'oc', 'or', 'pl', 'ps', 'pt', 'ro', 'ru', 'si', 'sl', 'so', 'sr',
-          'su', 'sv', 'szl', 'ta', 'te', 'th', 'ti', 'tl', 'tn', 'tr', 'uk', 'ur',
-          'vec', 'zh'
-        ]);
-        console.log('Using fallback frequency language list');
+        // If index loading fails, assume no frequency data is available
+        // This will cause all languages to fall back to character-based detection
+        console.warn('Failed to load frequency data index - falling back to character-based detection only');
+        this.frequencyLanguages = new Set();
       }
 
       // Load available languages from index data (includes both frequency and alphabet-only languages)
