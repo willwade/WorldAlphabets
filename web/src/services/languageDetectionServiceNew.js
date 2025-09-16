@@ -97,7 +97,7 @@ class LanguageDetectionService {
         return {
           language: langCode,
           confidence: confidence, // Keep as decimal (0-1) to match Vue component expectation
-          name: languageInfo?.name || langCode,
+          languageName: languageInfo?.name || langCode, // Match Vue component expected key
           script: languageInfo?.script || 'Unknown',
           mode: confidence > 0.05 ? 'word' : 'character', // Estimate mode based on confidence
           tokenCount: Math.floor(confidence * 100), // Match Vue component property name

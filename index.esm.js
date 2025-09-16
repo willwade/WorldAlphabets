@@ -102,20 +102,35 @@ async function loadAlphabetData(langCode) {
     return alphabetCache.get(langCode);
   }
 
-  try {
-    const response = await fetch(`./data/alphabets/${langCode}.json`);
-    if (!response.ok) {
-      alphabetCache.set(langCode, null);
+  // Helper to fetch and cache a specific file path
+  async function fetchAlphabetFile(filePath) {
+    try {
+      const resp = await fetch(filePath);
+      if (!resp.ok) return null;
+      const json = await resp.json();
+      alphabetCache.set(langCode, json);
+      return json;
+    } catch {
       return null;
     }
-
-    const data = await response.json();
-    alphabetCache.set(langCode, data);
-    return data;
-  } catch (error) {
-    alphabetCache.set(langCode, null);
-    return null;
   }
+
+  // 1) Try plain code (e.g., en.json)
+  const direct = await fetchAlphabetFile(`./data/alphabets/${langCode}.json`);
+  if (direct) return direct;
+
+  // 2) Try to resolve via index file mapping (e.g., cgg-Latn.json)
+  try {
+    const index = await getIndexData();
+    const entry = index.find(item => item.language === langCode && item.file);
+    if (entry && entry.file) {
+      const viaIndex = await fetchAlphabetFile(`./data/alphabets/${entry.file}`);
+      if (viaIndex) return viaIndex;
+    }
+  } catch {}
+
+  alphabetCache.set(langCode, null);
+  return null;
 }
 
 /**
