@@ -10,16 +10,6 @@
         <span class="stat">{{ statistics.withKeyboard }} with keyboards</span>
       </div>
 
-      <!-- Language Detection Promo -->
-      <div class="feature-promo">
-        <div class="promo-content">
-          <h2>🔍 Try Our Language Detection</h2>
-          <p>Test our frequency-based language detection system that can identify 86+ languages from text samples.</p>
-          <router-link to="/detect-language" class="promo-button">
-            Detect Languages →
-          </router-link>
-        </div>
-      </div>
     </div>
 
     <!-- Search and Filters -->
@@ -126,14 +116,13 @@
       </div>
 
       <!-- Desktop: Alphabet Table -->
-      <div v-if="searchResults?.data.length" class="table-container desktop-only">
+      <div v-if="searchResults?.data.length" class="table-container">
         <table class="alphabet-table">
           <thead>
             <tr>
               <th>Name</th>
               <th>Language</th>
               <th>Script</th>
-              <th>Letters</th>
               <th>Features</th>
             </tr>
           </thead>
@@ -154,9 +143,6 @@
               <td class="script-cell">
                 {{ getScriptTypeName(alphabet.script) }}
               </td>
-              <td class="count-cell">
-                {{ alphabet.letterCount }}
-              </td>
               <td class="features-cell">
                 <div class="feature-badges">
                   <span v-if="alphabet.hasTTS" class="badge tts-badge" title="Text-to-Speech Available">TTS</span>
@@ -169,41 +155,6 @@
         </table>
       </div>
 
-      <!-- Mobile: Alphabet Cards -->
-      <div v-if="searchResults?.data.length" class="cards-container mobile-only">
-        <div
-          v-for="alphabet in searchResults.data"
-          :key="`${alphabet.language}-${alphabet.script}`"
-          class="alphabet-card"
-          @click="selectAlphabet(alphabet)"
-        >
-          <div class="card-header">
-            <h3 class="card-title">{{ alphabet.name }}</h3>
-            <div class="card-badges">
-              <span v-if="alphabet.hasTTS" class="badge tts-badge" title="Text-to-Speech Available">TTS</span>
-              <span v-if="alphabet.hasFrequency" class="badge freq-badge" title="Frequency Data Available">FREQ</span>
-              <span v-if="alphabet.hasKeyboard" class="badge kbd-badge" title="Keyboard Layout Available">KBD</span>
-            </div>
-          </div>
-          <div class="card-details">
-            <div class="card-row">
-              <span class="card-label">Language:</span>
-              <span class="card-value">
-                {{ alphabet.language }}
-                <span v-if="alphabet.iso639_3" class="iso-code">({{ alphabet.iso639_3 }})</span>
-              </span>
-            </div>
-            <div class="card-row">
-              <span class="card-label">Script:</span>
-              <span class="card-value">{{ getScriptTypeName(alphabet.script) }}</span>
-            </div>
-            <div class="card-row">
-              <span class="card-label">Letters:</span>
-              <span class="card-value">{{ alphabet.letterCount }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <!-- No results -->
       <div v-else class="no-results">
@@ -436,46 +387,6 @@ onMounted(async () => {
   color: #666;
 }
 
-.feature-promo {
-  margin-top: 2rem;
-  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
-  border-radius: 12px;
-  padding: 2rem;
-  color: white;
-  text-align: center;
-}
-
-.promo-content h2 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.promo-content p {
-  margin: 0 0 1.5rem 0;
-  font-size: 1rem;
-  opacity: 0.9;
-  line-height: 1.5;
-}
-
-.promo-button {
-  display: inline-block;
-  background: white;
-  color: #007bff;
-  padding: 0.75rem 2rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.2s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.promo-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  color: #0056b3;
-}
 
 .search-filters {
   background: white;
@@ -848,18 +759,8 @@ onMounted(async () => {
     gap: 1rem;
   }
 
-  .feature-promo {
-    margin-top: 1.5rem;
-    padding: 1.5rem;
-  }
 
-  .promo-content h2 {
-    font-size: 1.3rem;
-  }
 
-  .promo-content p {
-    font-size: 0.9rem;
-  }
 
   /* Show mobile filter toggle */
   .mobile-filter-toggle {
@@ -909,19 +810,8 @@ onMounted(async () => {
     gap: 0.5rem;
   }
 
-  .feature-promo {
-    margin-top: 1rem;
-    padding: 1rem;
-  }
 
-  .promo-content h2 {
-    font-size: 1.2rem;
-  }
 
-  .promo-button {
-    padding: 0.6rem 1.5rem;
-    font-size: 0.9rem;
-  }
 
   /* Smaller page size for mobile */
   .cards-container {

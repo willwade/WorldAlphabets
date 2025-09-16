@@ -145,19 +145,8 @@ import LanguageDetector from '../components/LanguageDetector.vue';
 }
 
 @media (max-width: 480px) {
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .nav-container {
-    flex-direction: column;
-    height: auto;
-    padding: 0.5rem;
-  }
-  
-  .nav-brand {
-    margin-bottom: 0.5rem;
+  .nav-brand-text {
+    display: none;
   }
 }
 </style>

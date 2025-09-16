@@ -158,6 +158,10 @@ function handleLanguageSelected(langCode) {
 }
 
 @media (max-width: 480px) {
+  .nav-brand-text {
+    display: none;
+  }
+
   .app-container {
     display: flex;
     flex-direction: column;

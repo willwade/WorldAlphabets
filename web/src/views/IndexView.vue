@@ -19,7 +19,7 @@
         </div>
       </div>
     </nav>
-    
+
     <main class="main-content">
       <AlphabetIndex />
     </main>
@@ -109,7 +109,7 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
     padding: 0 0.5rem;
     height: 50px;
   }
-  
+
   .nav-logo {
     height: 32px;
   }
@@ -117,18 +117,25 @@ import AlphabetIndex from '../components/AlphabetIndex.vue';
   .nav-brand-text {
     font-size: 1.2rem;
   }
-  
+
   .nav-links {
     gap: 1rem;
   }
-  
+
   .nav-link {
     padding: 0.25rem 0.5rem;
     font-size: 0.9rem;
   }
-  
+
   .main-content {
     padding-top: 1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .nav-brand-text {
+    display: none;
+  }
+}
+
 </style>

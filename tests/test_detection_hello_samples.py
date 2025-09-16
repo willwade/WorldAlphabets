@@ -1,6 +1,5 @@
 import os
-import json
-from typing import List, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 
 import pytest
 
@@ -16,7 +15,7 @@ from worldalphabets import (
     get_index_data(),
     ids=lambda e: f"{e.get('language')}[{e.get('script')}]",
 )
-def test_detect_from_hello_sample(entry):
+def test_detect_from_hello_sample(entry: Dict[str, Any]) -> None:
     """
     For each language that has a hello_how_are_you sample in its alphabet data,
     run optimized detection on the sample and record whether the correct
@@ -24,11 +23,11 @@ def test_detect_from_hello_sample(entry):
     should not be overly strict to avoid flakiness across data updates.
     """
     lang_code: str = entry["language"]
-    script: str = entry.get("script")
+    script: Optional[str] = entry.get("script")
 
     # Load alphabet JSON to retrieve the hello string
     data = get_language(lang_code, script=script)
-    hello = data.get("hello_how_are_you") if data else None
+    hello: Optional[str] = data.get("hello_how_are_you") if data else None
 
     if not hello or not isinstance(hello, str) or len(hello.strip()) < 4:
         pytest.skip("No usable hello_how_are_you sample for this language")
@@ -51,7 +50,7 @@ def test_detect_from_hello_sample(entry):
         assert isinstance(item[1], float)
 
 
-def test_detection_hello_summary(capfd):
+def test_detection_hello_summary(capfd: pytest.CaptureFixture[str]) -> None:
     """
     Emit a brief summary of hello-sample detection accuracy across languages.
     This does not enforce thresholds; it prints a summary to help evaluate quality.
@@ -96,8 +95,11 @@ def test_detection_hello_summary(capfd):
 
     print(f"Total languages in index: {total}")
     print(f"Languages with hello sample: {with_hello}")
-    print(f"Exact match @ top1: {exact_top1}/{with_hello} ({(exact_top1/with_hello*100 if with_hello else 0):.1f}%)")
-    print(f"Exact match within top3: {exact_top3}/{with_hello} ({(exact_top3/with_hello*100 if with_hello else 0):.1f}%)")
+
+    top1_pct = (exact_top1 / with_hello * 100) if with_hello else 0.0
+    top3_pct = (exact_top3 / with_hello * 100) if with_hello else 0.0
+    print(f"Exact match @ top1: {exact_top1}/{with_hello} ({top1_pct:.1f}%)")
+    print(f"Exact match within top3: {exact_top3}/{with_hello} ({top3_pct:.1f}%)")
 
     # Show a small sample for quick inspection
     preview = samples[:10]
@@ -106,4 +108,3 @@ def test_detection_hello_summary(capfd):
 
     # Keep the test green; this test is diagnostic.
     assert True
-
