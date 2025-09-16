@@ -83,7 +83,7 @@ class DataPipeline:
             ("build_alphabets", "Generating alphabets"),
             ("build_translations", "Generating translations"),
             ("build_keyboards", "Building keyboard layouts"),
-            ("build_top200", "Building Top-200 token lists"),
+            ("build_top1000", "Building Top-1000 token lists"),
             ("build_tts_index", "Indexing TTS voices"),
             ("build_audio", "Generating audio files"),
             ("build_index", "Creating indexes"),
@@ -352,10 +352,12 @@ class DataPipeline:
             self.stats["errors"].append(f"build_keyboards: {e}")
             return False
 
-    def build_top200(self) -> bool:
-        """Stage 6: Build Top-200 token lists using unified pipeline."""
+    def build_top1000(self) -> bool:
+        """Stage 6: Build Top-1000 token lists using unified pipeline."""
         try:
-            logger.info("Building Top-200 token lists using unified 5-priority pipeline...")
+            logger.info(
+                "Building Top-200 token lists using unified 5-priority pipeline..."
+            )
             import subprocess
 
             result = subprocess.run(
@@ -570,7 +572,7 @@ Examples:
             "build_alphabets",
             "build_translations",
             "build_keyboards",
-            "build_top200",
+            "build_top1000",
             "build_tts_index",
             "build_audio",
             "build_index",

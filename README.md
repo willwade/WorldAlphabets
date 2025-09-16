@@ -92,6 +92,29 @@ main();
 
 TypeScript projects receive typings automatically via `index.d.ts`.
 
+
+#### ES Modules (Browser / Node ESM)
+
+If your project uses ES modules (e.g. Vite/webpack/Next.js or `"type": "module"` in Node), you can import directly. The ES module build also supports automatic candidate selection for language detection.
+
+```javascript
+import { getAvailableCodes, getScripts, detectLanguages } from 'worldalphabets';
+
+const codes = await getAvailableCodes();
+console.log('Available codes (first 5):', codes.slice(0, 5));
+
+// Automatic candidate selection (pass null). Also works in the browser.
+const textKo = '나는 매우 행복하고 돈이 많이 있습니다.';
+const top = await detectLanguages(textKo, null, {}, 3);
+console.log(top);
+// e.g. [['ko', 0.1203], ['ja', ...], ...]
+```
+
+Notes:
+- CommonJS (`require`) API requires `candidateLangs` (array) for detection.
+- ES Module (`import`) API supports `candidateLangs = null` and will select smart candidates via character analysis.
+- Both builds share the same detection algorithm; ES module uses `fetch()` to load data (browser-friendly), CommonJS uses `fs`.
+
 #### Local Usage
 
 If you have cloned the repository, you can use the module directly:
@@ -537,7 +560,7 @@ consolidated data pipeline as the ``build_top1000`` stage.
 ## Licence Info
 
 - This project is licensed under the MIT License.
-- Data sourced from [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) is licensed under the Apache 2.0 License. 
+- Data sourced from [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) is licensed under the Apache 2.0 License.
 - Data sourced from [Simia unigrams dataset](http://simia.net/letters/) (Data from [Wiktionary](https://wiktionary.org)) is licensed under the Creative Commons Attribution-ShareAlike License.
-- Data sourced from [Wikipedia](https://wikipedia.org) is licensed under the Creative Commons Attribution-ShareAlike License. 
+- Data sourced from [Wikipedia](https://wikipedia.org) is licensed under the Creative Commons Attribution-ShareAlike License.
 

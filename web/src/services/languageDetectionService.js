@@ -6,7 +6,7 @@
 const PRIOR_WEIGHT = 0.65;
 const FREQ_WEIGHT = 0.35;
 const CHAR_WEIGHT = 0.2; // Weight for character-based detection fallback
-const DETECTION_THRESHOLD = 0.01; // Lowered for testing
+const DETECTION_THRESHOLD = 0.001; // Lowered further to debug word-based detection
 const CHAR_DETECTION_THRESHOLD = 0.02; // Lower threshold for character-based detection
 
 class LanguageDetectionService {

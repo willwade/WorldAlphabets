@@ -132,7 +132,7 @@
 
 <script setup>
 import { ref, onMounted, computed } from 'vue';
-import languageDetectionService from '../services/languageDetectionService.js';
+import languageDetectionService from '../services/languageDetectionServiceNew.js';
 
 // Reactive data
 const inputText = ref('');
@@ -234,15 +234,17 @@ const detectLanguage = async () => {
   }, 50);
 
   try {
-    const results = await languageDetectionService.detectLanguages(inputText.value.trim(), {
-      topK: 5,
-      onProgress: (progress) => {
+    const results = await languageDetectionService.detectLanguages(
+      inputText.value.trim(),
+      null, // Use automatic candidate selection
+      5,    // topK
+      (progress) => {
         detectionStatus.value = progress.status;
         detectionProgress.value = progress.percentage;
         processedLanguages.value = progress.processed;
         totalLanguages.value = progress.total;
       }
-    });
+    );
 
     console.log('Detection results:', results);
     detectionResults.value = results;

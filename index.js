@@ -220,7 +220,7 @@ const FREQ_WEIGHT = Number(process.env.WA_FREQ_OVERLAP_WEIGHT ?? 0.35);
 const CHAR_WEIGHT = 0.2; // Weight for character-based detection fallback
 const DEFAULT_FREQ_DIR =
   process.env.WORLDALPHABETS_FREQ_DIR ??
-  require('path').resolve(__dirname, 'data', 'freq', 'top200');
+  require('path').resolve(__dirname, 'data', 'freq', 'top1000');
 
 function tokenizeWords(text) {
   return new Set(text.normalize('NFKC').toLowerCase().match(/\p{L}+/gu) || []);
@@ -444,8 +444,8 @@ function detectLanguages(text, candidateLangs, priors = {}, topk = 3) {
   results.sort((a, b) => {
     const [langA, scoreA] = a;
     const [langB, scoreB] = b;
-    const adjustedScoreA = wordBasedLangs.has(langA) ? scoreA + 0.01 : scoreA;
-    const adjustedScoreB = wordBasedLangs.has(langB) ? scoreB + 0.01 : scoreB;
+    const adjustedScoreA = wordBasedLangs.has(langA) ? scoreA + 0.1 : scoreA; // Increased boost
+    const adjustedScoreB = wordBasedLangs.has(langB) ? scoreB + 0.1 : scoreB; // Increased boost
     return adjustedScoreB - adjustedScoreA;
   });
 

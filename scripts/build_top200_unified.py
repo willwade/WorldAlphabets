@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Unified Top-200 frequency data builder - consolidates all sources and approaches.
+Unified Top-1000 frequency data builder - consolidates all sources and approaches.
 
 This script combines the best features from all previous build scripts:
 - Original modular system (scripts/build_top200/)

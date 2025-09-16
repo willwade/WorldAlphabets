@@ -6,9 +6,9 @@ WorldAlphabets uses a **hybrid detection system** that combines word-based and c
 
 ### 1. Word-Based Detection (Primary)
 
-The primary detection method uses Top-200 token lists stored under `data/freq/top200`. Each file is a UTF-8 list of tokens in rank order. Languages without explicit word boundaries contain a header line `# type=bigram` followed by character bigrams.
+The primary detection method uses Top-1000 token lists stored under `data/freq/top1000`. Each file is a UTF-8 list of tokens in rank order. Languages without explicit word boundaries contain a header line `# type=bigram` followed by character bigrams.
 
-**Coverage**: 86 languages with frequency data
+**Coverage**: 150 languages with frequency data
 **Threshold**: 0.05 (configurable)
 **Accuracy**: High for languages with sufficient training data
 
@@ -56,3 +56,11 @@ detect_languages("Аҧсуа бызшәа", candidate_langs=['ab', 'ru'])
 ```
 
 This hybrid approach enables detection of **4x more languages** compared to word-based detection alone.
+
+
+## JavaScript interfaces (CJS vs ESM)
+
+- CommonJS (Node `require`): `detectLanguages(text, candidateLangs, priors?, topk?)` — you must provide `candidateLangs` (array)
+- ES Modules (browser/Node `import`): `detectLanguages(text, candidateLangs = null, priors?, topk?)` — if `candidateLangs` is `null`, the module auto-selects candidates using character analysis before applying word/bigram detection and character fallback.
+
+Both interfaces use the same scoring and thresholds; the ES module loads data via `fetch()` and is suitable for web bundlers (Vite/webpack/etc.).

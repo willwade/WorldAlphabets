@@ -108,10 +108,10 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 - `data/layouts/{lang}-{layout}.json` - Keyboard layout files
 - `data/layouts/index.json` - Keyboard layout index
 
-### Stage 6: Top-200 Token Lists
-**Function**: `build_top200()` (uses unified pipeline)
-**Purpose**: Generate compact token frequency lists for language detection
-**Script**: `scripts/build_top200_unified.py`
+### Stage 6: Top-1000 Token Lists
+**Function**: `build_top1000()` (uses unified pipeline)
+**Purpose**: Generate comprehensive token frequency lists for language detection
+**Script**: `scripts/build_top1000_unified.py`
 
 **5-Priority Source Pipeline**:
 1. **Leipzig Corpora Collection** - High-quality news/web corpora (CC-BY)
@@ -123,8 +123,8 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 **Coverage**: 90.9% (130/143 languages)
 
 **Outputs**:
-- `data/freq/top200/<lang>.txt` - Top-200 tokens per language
-- `data/freq/top200/BUILD_REPORT_UNIFIED.json` - Build summary with source attribution
+- `data/freq/top1000/<lang>.txt` - Top-1000 tokens per language
+- `data/freq/top1000/BUILD_REPORT_UNIFIED.json` - Build summary with source attribution
 
 ### Stage 7: TTS Voice Indexing
 **Function**: `build_tts_index()`
@@ -198,7 +198,7 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 3. Skip if no fallback available, log warning
 
 ### Missing Frequency Data
-The unified Top-200 pipeline handles missing data through a comprehensive 5-priority fallback:
+The unified Top-1000 pipeline handles missing data through a comprehensive 5-priority fallback:
 1. **Leipzig Corpora** - Major languages with news/web corpora
 2. **HermitDave FrequencyWords** - 47 languages from subtitles/Wikipedia
 3. **Tatoeba sentences** - Under-resourced languages via sentence extraction
