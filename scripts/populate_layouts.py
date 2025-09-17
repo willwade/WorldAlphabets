@@ -2,7 +2,7 @@ import json
 import re
 import unicodedata
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Sequence
+from typing import Any, Dict, List, Sequence
 
 import langcodes
 import requests
