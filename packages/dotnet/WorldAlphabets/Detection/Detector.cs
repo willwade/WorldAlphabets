@@ -22,7 +22,6 @@ public static class Detector
 
     private static IReadOnlyList<IndexEntry>? _index;
     private static IReadOnlyDictionary<string, HashSet<string>>? _charToLangs;
-    private static IReadOnlyDictionary<string, object>? _scriptIndex; // reserved
 
     private static IReadOnlyList<IndexEntry> Index => _index ??= LoadIndex();
 

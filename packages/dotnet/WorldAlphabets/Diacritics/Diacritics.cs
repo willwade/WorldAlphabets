@@ -25,9 +25,10 @@ public static class DiacriticUtils
     /// <summary>Returns text with diacritic marks removed.</summary>
     public static string StripDiacritics(string? text)
     {
-        if (string.IsNullOrEmpty(text)) return text ?? string.Empty;
-        var sb = new StringBuilder(text.Length);
-        foreach (var ch in text!)
+        var s = text ?? string.Empty;
+        if (s.Length == 0) return s;
+        var sb = new StringBuilder(s.Length);
+        foreach (var ch in s)
         {
             if (SpecialBase.TryGetValue(ch, out var mapped))
             {
@@ -47,7 +48,7 @@ public static class DiacriticUtils
 
     /// <summary>True if the string contains diacritic marks.</summary>
     public static bool HasDiacritics(string? s)
-        => !string.IsNullOrEmpty(s) && StripDiacritics(s!) != s;
+        => !string.IsNullOrEmpty(s) && !string.Equals(StripDiacritics(s), s, StringComparison.Ordinal);
 
     /// <summary>Filters the provided characters to only those with diacritics.</summary>
     public static IEnumerable<string> CharactersWithDiacritics(IEnumerable<string> chars)
