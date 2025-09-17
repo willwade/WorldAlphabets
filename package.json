@@ -8,16 +8,18 @@
   "type": "commonjs",
   "exports": {
     ".": {
+      "browser": "./index.esm.js",
       "import": "./index.esm.js",
       "require": "./index.js"
     }
   },
   "scripts": {
     "test": "jest",
-    "build": "node scripts/create_index.js",
+    "build": "node scripts/create_index.js && node scripts/generate_browser_modules.js && node scripts/generate_browser_freq.js && node scripts/generate_browser_index_mjs.js",
     "dev": "npm run build && npm test",
     "lint": "eslint .",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test:browser": "node scripts/verify_browser_esmbuild.mjs"
   },
   "repository": {
     "type": "git",
@@ -42,10 +44,12 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "index.esm.js",
     "index.d.ts",
     "keyboards.js",
     "keyboards.d.ts",
-    "data/"
+    "data/",
+    "dist/"
   ],
   "devDependencies": {
     "@types/jest": "^29.5.4",
@@ -53,8 +57,5 @@
     "jest": "^30.0.5",
     "ts-jest": "^29.1.1",
     "typescript": "^5.9.2"
-  },
-  "dependencies": {
-    "node-fetch": "^3.3.2"
   }
 }

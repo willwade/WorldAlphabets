@@ -112,12 +112,49 @@ console.log(top);
 
 Notes:
 - CommonJS (`require`) API requires `candidateLangs` (array) for detection.
-- ES Module (`import`) API supports `candidateLangs = null` and will select smart candidates via character analysis.
-- Both builds share the same detection algorithm; ES module uses `fetch()` to load data (browser-friendly), CommonJS uses `fs`.
+- ES Module (`import`) API supports `candidateLangs = null` and will select smart candidates via character analysis and embedded word/bigram ranks.
+- Browser ESM build ships data with the package and uses static JSON imports — no `fs`, `path`, or `fetch` required.
+
+#### Browser (ESM) usage
+
+Modern bundlers (Webpack 5, Vite, Rollup, Next.js) will automatically pick the browser ESM entry via conditional exports. The browser build is fully static and contains the alphabets, keyboard layouts, and frequency ranks.
+
+```javascript
+// Works in the browser with ESM bundlers
+import {
+  getIndexData,
+  getLanguage,
+  getAvailableCodes,
+  getScripts,
+  detectLanguages,
+  getAvailableLayouts,
+  loadKeyboard,
+  getUnicode,
+  detectDominantScript,
+} from 'worldalphabets';
+
+// Detect language without specifying candidates (short phrases supported)
+const res = await detectLanguages('Bonjour comment allez-vous?', null, {}, 3);
+console.log(res);
+
+// Use keyboard layouts
+const layouts = await getAvailableLayouts();
+const kb = await loadKeyboard('en-us');
+console.log(getUnicode(kb.keys[1], 'base'));
+
+// Optional: determine dominant script in an input
+console.log(detectDominantScript('Здраво, како си?')); // 'Cyrl'
+```
+
+Notes:
+- No network fetches are performed at runtime; data is packaged and statically imported.
+- For ambiguous greetings shared by multiple languages, detection may return either (both are acceptable). Use domain context to disambiguate.
+
 
 #### Local Usage
 
 If you have cloned the repository, you can use the module directly:
+
 
 ```javascript
 const { getUppercase } = require('./index');

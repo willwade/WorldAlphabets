@@ -101,7 +101,6 @@ class AlphabetDataService {
       // Enrich alphabet data
       this.cache.enrichedData = alphabets.map(alphabet => {
         const languageCode = alphabet.language;
-        const languageName = alphabet.name.toLowerCase();
 
         // Check TTS availability
         const hasTTS = ttsLanguages.has(languageCode);

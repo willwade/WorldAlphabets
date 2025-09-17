@@ -35,10 +35,13 @@ export function getDiacriticVariants(
 // Language detection
 export function detectLanguages(
   text: string,
-  candidateLangs: string[],
+  candidateLangs: string[] | null,
   priors?: Record<string, number>,
   topk?: number
 ): Array<[string, number]>;
+
+// Script utilities (ESM)
+export function detectDominantScript(text: string): string | null;
 
 // Re-export all keyboard types and functions
 export * from './keyboards';
