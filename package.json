@@ -3,15 +3,16 @@
   "version": "{{version}}",
   "description": "Simple Node interface to WorldAlphabets data",
   "main": "index.js",
-  "module": "index.esm.js",
+  "module": "index.mjs",
   "types": "index.d.ts",
   "type": "commonjs",
   "exports": {
     ".": {
-      "browser": "./index.esm.js",
-      "import": "./index.esm.js",
+      "browser": "./index.mjs",
+      "import": "./index.mjs",
       "require": "./index.js"
-    }
+    },
+    "./index.esm.js": "./index.esm.js"
   },
   "scripts": {
     "test": "jest",
@@ -44,6 +45,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "index.mjs",
     "index.esm.js",
     "index.d.ts",
     "keyboards.js",

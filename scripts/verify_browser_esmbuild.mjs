@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /*
  Verify browser ESM build using embedded data.
- - Imports ./index.esm.js directly
+ - Imports the published ESM bundle directly
  - Iterates all languages with hello_how_are_you
  - Runs detectLanguages(text) and checks top-1 equals language code
  Exits non-zero on any mismatch.
@@ -55,4 +55,3 @@ main().catch((e) => {
   console.error('Error running verify_browser_esmbuild:', e);
   process.exit(1);
 });
-

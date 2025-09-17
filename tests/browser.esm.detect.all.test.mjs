@@ -2,7 +2,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 // Import the browser ESM entry directly
-import * as esm from '../index.esm.js';
+import * as esm from '../index.mjs';
 
 jest.setTimeout(30000);
 
@@ -44,4 +44,3 @@ describe('Browser ESM detection with embedded data', () => {
     expect(failures).toEqual([]);
   });
 });
-

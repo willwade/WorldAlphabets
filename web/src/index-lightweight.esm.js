@@ -52,7 +52,8 @@ async function getIndexData() {
  */
 export async function getAvailableCodes() {
   const data = await getIndexData();
-  return data.map(item => item.language).sort();
+  const codes = data.map(item => item.language);
+  return Array.from(new Set(codes)).sort();
 }
 
 /**

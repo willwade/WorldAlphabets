@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate an ESM mirror of index.esm.js at dist/index.browser.esm.mjs
+ * Generate an ESM mirror of index.mjs at dist/index.browser.esm.mjs
  * with adjusted import paths so it can be executed directly by Node as ESM.
  */
 
@@ -9,7 +9,7 @@ const fsp = fs.promises;
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const SRC = path.join(ROOT, 'index.esm.js');
+const SRC = path.join(ROOT, 'index.mjs');
 const DIST = path.join(ROOT, 'dist');
 const OUT = path.join(DIST, 'index.browser.esm.mjs');
 
@@ -41,4 +41,3 @@ if (require.main === module) {
     process.exit(1);
   });
 }
-

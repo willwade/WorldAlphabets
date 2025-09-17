@@ -31,6 +31,7 @@ describe('worldalphabets', () => {
     expect(codes.length).toBeGreaterThan(0);
     expect(codes).toContain('en');
     expect(codes).toContain('fr');
+    expect(new Set(codes).size).toBe(codes.length);
   });
 
   it('should load the whole alphabet for "en"', async () => {

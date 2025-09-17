@@ -114,6 +114,7 @@ Notes:
 - CommonJS (`require`) API requires `candidateLangs` (array) for detection.
 - ES Module (`import`) API supports `candidateLangs = null` and will select smart candidates via character analysis and embedded word/bigram ranks.
 - Browser ESM build ships data with the package and uses static JSON imports — no `fs`, `path`, or `fetch` required.
+- The published ESM entry is `index.mjs`, so bundlers pick it up without extra configuration. `index.esm.js` remains as a compatibility re-export.
 
 #### Browser (ESM) usage
 
@@ -600,4 +601,3 @@ consolidated data pipeline as the ``build_top1000`` stage.
 - Data sourced from [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) is licensed under the Apache 2.0 License.
 - Data sourced from [Simia unigrams dataset](http://simia.net/letters/) (Data from [Wiktionary](https://wiktionary.org)) is licensed under the Creative Commons Attribution-ShareAlike License.
 - Data sourced from [Wikipedia](https://wikipedia.org) is licensed under the Creative Commons Attribution-ShareAlike License.
-

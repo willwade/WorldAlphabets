@@ -4,11 +4,11 @@
  * This is the browser-compatible version that imports packaged JSON assets
  * (no fs, no fetch) and exports ES modules.
  */
-import indexDataJson from '../data/index.json' with { type: 'json' };
-import charIndexJson from '../data/char_index.json' with { type: 'json' };
-import { ALPHABETS } from './browser-alphabets.mjs';
-import { LAYOUTS, AVAILABLE_LAYOUTS } from './browser-layouts.mjs';
-import { FREQ_RANKS } from './browser-freq.mjs';
+import indexDataJson from './data/index.json';
+import charIndexJson from './data/char_index.json';
+import { ALPHABETS } from './dist/browser-alphabets.mjs';
+import { LAYOUTS, AVAILABLE_LAYOUTS } from './dist/browser-layouts.mjs';
+import { FREQ_RANKS } from './dist/browser-freq.mjs';
 
 
 // Detection algorithm constants (same as Node.js version)
