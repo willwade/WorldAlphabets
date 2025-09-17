@@ -22,7 +22,7 @@ jobs:
           dotnet restore packages/dotnet/WorldAlphabets/WorldAlphabets.csproj
           dotnet build packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-restore
       - name: Test
-        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release
+        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release -f net8.0
 
       - name: Pack
         run: dotnet pack packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-build -o artifacts/nuget

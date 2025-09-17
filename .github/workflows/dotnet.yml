@@ -21,5 +21,5 @@ jobs:
           dotnet build packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-restore -p:Version=0.0.0-dev
           dotnet build packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release --no-restore -p:Version=0.0.0-dev
       - name: Test
-        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release -p:Version=0.0.0-dev --logger "trx;LogFileName=test_results.trx"
+        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release -p:Version=0.0.0-dev -f net8.0 --logger "trx;LogFileName=test_results.trx"
 
