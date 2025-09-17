@@ -41,7 +41,9 @@ jobs:
         run: uv run mypy . --exclude build
 
       - name: Build package
-        run: uv run python -m build
+        run: uv run python -m build --outdir python-dist
 
       - name: Publish package
         uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages_dir: python-dist

@@ -19,6 +19,7 @@ external/
 # Build artifacts
 src/worldalphabets.egg-info/
 /build/
+python-dist/
 
 # Node
 node_modules/
