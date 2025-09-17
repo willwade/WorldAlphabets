@@ -3,19 +3,26 @@ from typing import Dict, List, Tuple, Any, Optional
 
 from worldalphabets.models.keyboard import KeyEntry, LayerLegends, DeadKey
 
-def get_layer_name(modifiers: Optional[str], right_alt_is_alt_gr: bool) -> Optional[str]:
+
+LAYER_MAP: dict[frozenset[str], str] = {
+    frozenset({"VK_SHIFT"}): "shift",
+    frozenset({"VK_CAPITAL"}): "caps",
+    frozenset({"VK_ALTGR"}): "altgr",
+    frozenset({"VK_SHIFT", "VK_ALTGR"}): "shift_altgr",
+    frozenset({"VK_CONTROL"}): "ctrl",
+    frozenset({"VK_MENU"}): "alt",
+}
+
+
+def get_layer_name(modifiers: Optional[str], _right_alt_is_alt_gr: bool) -> Optional[str]:
     if not modifiers:
         return "base"
     mods = set(modifiers.split())
-    if right_alt_is_alt_gr and "VK_CONTROL" in mods and "VK_MENU" in mods:
-        mods.remove("VK_CONTROL")
-        mods.remove("VK_MENU")
+    if "VK_CONTROL" in mods and "VK_MENU" in mods:
+        mods.discard("VK_CONTROL")
+        mods.discard("VK_MENU")
         mods.add("VK_ALTGR")
-    layer_map = {
-        "VK_SHIFT": "shift", "VK_CAPITAL": "caps", "VK_ALTGR": "altgr",
-        "VK_SHIFT VK_ALTGR": "shift_altgr", "VK_CONTROL": "ctrl", "VK_MENU": "alt"
-    }
-    return layer_map.get(" ".join(sorted(list(mods))))
+    return LAYER_MAP.get(frozenset(mods))
 
 def parse_keyboard_layout_xml(xml_content: str) -> Tuple[Dict[str, Any], List[KeyEntry], List[DeadKey]]:
     parser = ET.XMLParser(recover=True, resolve_entities=False)

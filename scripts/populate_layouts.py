@@ -22,6 +22,8 @@ LANGUAGE_NAME_MAPPING = {
     "Swedish with Sami": "Swedish",
     "Sami Extended Norway": "Northern Sami",
     "Sami Extended Finland-Sweden": "Northern Sami",
+    "Cherokee Nation": "Cherokee",
+    "Cherokee Phonetic": "Cherokee",
 }
 
 

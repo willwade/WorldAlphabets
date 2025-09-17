@@ -36,6 +36,8 @@ export type LayerLegends = {
   alt: string | null;
 };
 
+export type LayerName = keyof LayerLegends;
+
 export type DeadKey = {
   name?: string;
   trigger: string;
@@ -49,4 +51,9 @@ export type Ligature = {
 
 export function getAvailableLayouts(): Promise<string[]>;
 export function loadKeyboard(layoutId: string): Promise<KeyboardLayout>;
-export function getUnicode(keyEntry: KeyEntry, layer: keyof LayerLegends): string | null;
+export function getUnicode(keyEntry: KeyEntry, layer: LayerName): string | null;
+export const DEFAULT_LAYERS: LayerName[];
+export function extractLayers(
+  layout: KeyboardLayout,
+  layers?: LayerName[]
+): Record<string, Record<string, string>>;

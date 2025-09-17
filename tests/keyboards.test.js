@@ -1,4 +1,4 @@
-const { getAvailableLayouts, loadKeyboard, getUnicode } = require('../index');
+const { getAvailableLayouts, loadKeyboard, getUnicode, extractLayers } = require('../index');
 const fs = require('fs');
 const path = require('path');
 
@@ -59,5 +59,12 @@ describe('Keyboard Layouts Node API', () => {
 
     test('loadKeyboard throws for non-existent layout', async () => {
         await expect(loadKeyboard('non-existent-layout')).rejects.toThrow();
+    });
+
+    test('extractLayers captures shift+AltGr legends', async () => {
+        const layout = await loadKeyboard('fr-french-standard-azerty');
+        const layers = extractLayers(layout, ['shift_altgr']);
+        expect(layers.shift_altgr).toBeDefined();
+        expect(layers.shift_altgr.Digit1).toBe('À');
     });
 });

@@ -1,6 +1,6 @@
 import json
 from importlib.resources import files, as_file
-from typing import List
+from typing import Dict, Iterable, List
 from pathlib import Path
 
 from ..models.keyboard import KeyboardLayout
@@ -29,3 +29,39 @@ def load_keyboard(layout_id: str) -> KeyboardLayout:
         return KeyboardLayout.model_validate(data)
     except FileNotFoundError:
         raise ValueError(f"Keyboard layout '{layout_id}' not found.")
+
+
+DEFAULT_LAYERS: tuple[str, ...] = (
+    "base",
+    "shift",
+    "caps",
+    "altgr",
+    "shift_altgr",
+    "ctrl",
+    "alt",
+)
+
+
+def extract_layers(
+    layout: KeyboardLayout, layers: Iterable[str] | None = None
+) -> Dict[str, Dict[str, str]]:
+    """Return a mapping of layer name to key legends for the given layout."""
+
+    result: Dict[str, Dict[str, str]] = {}
+    target_layers = list(layers) if layers is not None else list(DEFAULT_LAYERS)
+
+    for layer in target_layers:
+        layer_values: Dict[str, str] = {}
+        for key in layout.keys:
+            if key.legends is None:
+                continue
+            value = getattr(key.legends, layer, None)
+            if not value:
+                continue
+            pos = key.pos or key.vk or key.sc
+            if pos:
+                layer_values[str(pos)] = value
+        if layer_values:
+            result[layer] = layer_values
+
+    return result

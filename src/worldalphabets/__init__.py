@@ -7,7 +7,12 @@ from importlib.resources import files
 from typing import Dict, List, Optional
 
 from .helpers import get_index_data, get_language, get_scripts
-from .keyboards import get_available_layouts, load_keyboard
+from .keyboards import (
+    DEFAULT_LAYERS,
+    extract_layers,
+    get_available_layouts,
+    load_keyboard,
+)
 from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
 from .diacritics import (
     strip_diacritics,
@@ -95,6 +100,8 @@ __all__ = [
     # Keyboards
     "load_keyboard",
     "get_available_layouts",
+    "DEFAULT_LAYERS",
+    "extract_layers",
     "KeyboardLayout",
     "KeyEntry",
     "LayerLegends",

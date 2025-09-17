@@ -131,6 +131,7 @@ import {
   getAvailableLayouts,
   loadKeyboard,
   getUnicode,
+  extractLayers,
   detectDominantScript,
 } from 'worldalphabets';
 
@@ -140,8 +141,12 @@ console.log(res);
 
 // Use keyboard layouts
 const layouts = await getAvailableLayouts();
-const kb = await loadKeyboard('en-us');
+const kb = await loadKeyboard('fr-french-standard-azerty');
 console.log(getUnicode(kb.keys[1], 'base'));
+
+// Inspect modifier layers (Shift, AltGr, etc.)
+const layers = extractLayers(kb, ['base', 'shift', 'altgr', 'shift_altgr']);
+console.log(layers.shift_altgr.Digit1); // 'À'
 
 // Optional: determine dominant script in an input
 console.log(detectDominantScript('Здраво, како си?')); // 'Cyrl'
@@ -379,6 +384,16 @@ or with --offset flag
 |  |  | z | x | c | v | b | n | m | , | . | / |  |
 |  |  |  |  |  | ␠ |  |  |  |  |  |  |  |
 
+Programmatically, the same data is accessible from Python:
+
+```python
+from worldalphabets import load_keyboard, extract_layers
+
+layout = load_keyboard("fr-french-standard-azerty")
+layers = extract_layers(layout, ["base", "shift", "altgr", "shift_altgr"])
+print(layers["shift_altgr"]["Digit1"])
+```
+
 #### Node.js
 
 ```javascript
@@ -386,15 +401,17 @@ const {
   getAvailableLayouts,
   loadKeyboard,
   getUnicode,
+  extractLayers,
 } = require('worldalphabets');
 
 async function main() {
   const layouts = await getAvailableLayouts();
   console.log('Available layouts (first 5):', layouts.slice(0, 5));
 
-  const kb = await loadKeyboard('en-us');
+  const kb = await loadKeyboard('fr-french-standard-azerty');
   console.log('First key Unicode:', getUnicode(kb.keys[1], 'base'));
-  console.log('First key position:', kb.keys[1].pos, kb.keys[1].row, kb.keys[1].col);
+  const layers = extractLayers(kb, ['base', 'shift', 'altgr', 'shift_altgr']);
+  console.log('Shift+AltGr on Digit1:', layers.shift_altgr.Digit1);
 }
 
 main();

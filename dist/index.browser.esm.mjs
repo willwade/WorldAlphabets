@@ -16,6 +16,8 @@ const PRIOR_WEIGHT = 0.65;
 const FREQ_WEIGHT = 0.35;
 const CHAR_WEIGHT = 0.2;
 
+const DEFAULT_LAYERS = ['base', 'shift', 'caps', 'altgr', 'shift_altgr', 'ctrl', 'alt'];
+
 // Cache for loaded data
 const frequencyCache = new Map();
 const alphabetCache = new Map();
@@ -545,6 +547,33 @@ export function getUnicode(keyEntry, layer) {
   }
   return null;
 }
+
+export function extractLayers(layout, layers = DEFAULT_LAYERS) {
+  if (!layout || !Array.isArray(layout.keys)) {
+    return {};
+  }
+
+  const result = {};
+  for (const layer of layers) {
+    const layerEntries = {};
+    for (const key of layout.keys) {
+      if (!key || !key.legends) continue;
+      const value = key.legends[layer];
+      if (!value) continue;
+      const pos = key.pos || key.vk || key.sc;
+      if (pos) {
+        layerEntries[String(pos)] = value;
+      }
+    }
+    if (Object.keys(layerEntries).length > 0) {
+      result[layer] = layerEntries;
+    }
+  }
+
+  return result;
+}
+
+export { DEFAULT_LAYERS };
 
 // Utility exports mirroring helpers from Node build
 export { getIndexData, tokenizeWords, tokenizeBigrams, tokenizeCharacters, overlap, characterOverlap, detectDominantScript };

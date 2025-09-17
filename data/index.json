@@ -76,7 +76,12 @@
     "iso639_3": "ara",
     "letterCount": 36,
     "hasFrequency": true,
-    "file": "ar-Arab.json"
+    "file": "ar-Arab.json",
+    "keyboards": [
+      "00000401",
+      "00010401",
+      "00020401"
+    ]
   },
   {
     "language": "arn",
@@ -133,7 +138,11 @@
     "iso639_3": "aze",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "az-Cyrl.json"
+    "file": "az-Cyrl.json",
+    "keyboards": [
+      "0000042c",
+      "0001042c"
+    ]
   },
   {
     "language": "az",
@@ -143,7 +152,11 @@
     "iso639_3": "aze",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "az-Latn.json"
+    "file": "az-Latn.json",
+    "keyboards": [
+      "0000042c",
+      "0001042c"
+    ]
   },
   {
     "language": "ba",
@@ -153,7 +166,10 @@
     "iso639_3": "bak",
     "letterCount": 42,
     "hasFrequency": true,
-    "file": "ba-Cyrl.json"
+    "file": "ba-Cyrl.json",
+    "keyboards": [
+      "0000046d"
+    ]
   },
   {
     "language": "bal",
@@ -208,7 +224,10 @@
     "iso639_3": "bel",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "be-Cyrl.json"
+    "file": "be-Cyrl.json",
+    "keyboards": [
+      "00000423"
+    ]
   },
   {
     "language": "be",
@@ -218,7 +237,10 @@
     "iso639_3": "bel",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "be-x-old.json"
+    "file": "be-x-old.json",
+    "keyboards": [
+      "00000423"
+    ]
   },
   {
     "language": "bem",
@@ -255,7 +277,14 @@
     "iso639_3": "bul",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "bg-Cyrl.json"
+    "file": "bg-Cyrl.json",
+    "keyboards": [
+      "00000402",
+      "00010402",
+      "00020402",
+      "00030402",
+      "00040402"
+    ]
   },
   {
     "language": "bgc",
@@ -331,7 +360,11 @@
     "iso639_3": "bod",
     "letterCount": 36,
     "hasFrequency": true,
-    "file": "bo-Tibt.json"
+    "file": "bo-Tibt.json",
+    "keyboards": [
+      "00000451",
+      "00010451"
+    ]
   },
   {
     "language": "br",
@@ -360,7 +393,10 @@
     "iso639_3": "bos",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "bs-Latn.json"
+    "file": "bs-Latn.json",
+    "keyboards": [
+      "0000201a"
+    ]
   },
   {
     "language": "bss",
@@ -378,7 +414,10 @@
     "iso639_3": "bug",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "bug-Latn.json"
+    "file": "bug-Latn.json",
+    "keyboards": [
+      "000b0c00"
+    ]
   },
   {
     "language": "bya",
@@ -470,7 +509,11 @@
     "iso639_3": "chr",
     "letterCount": 85,
     "hasFrequency": true,
-    "file": "chr-Cher.json"
+    "file": "chr-Cher.json",
+    "keyboards": [
+      "0000045c",
+      "0001045c"
+    ]
   },
   {
     "language": "cic",
@@ -488,7 +531,10 @@
     "iso639_3": "ckb",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "ckb-Arab.json"
+    "file": "ckb-Arab.json",
+    "keyboards": [
+      "00000492"
+    ]
   },
   {
     "language": "co",
@@ -517,7 +563,11 @@
     "iso639_3": "ces",
     "letterCount": 41,
     "hasFrequency": true,
-    "file": "cs-Latn.json"
+    "file": "cs-Latn.json",
+    "keyboards": [
+      "00000405",
+      "00010405"
+    ]
   },
   {
     "language": "csw",
@@ -566,7 +616,10 @@
     "iso639_3": "dan",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "da-Latn.json"
+    "file": "da-Latn.json",
+    "keyboards": [
+      "00000406"
+    ]
   },
   {
     "language": "dav",
@@ -585,7 +638,12 @@
     "iso639_3": "deu",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "de-Latn.json"
+    "file": "de-Latn.json",
+    "keyboards": [
+      "00000407",
+      "00000807",
+      "00010407"
+    ]
   },
   {
     "language": "dje",
@@ -641,7 +699,10 @@
     "iso639_3": "dzo",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "dz-Tibt.json"
+    "file": "dz-Tibt.json",
+    "keyboards": [
+      "00000c51"
+    ]
   },
   {
     "language": "ebu",
@@ -670,7 +731,15 @@
     "iso639_3": "ell",
     "letterCount": 36,
     "hasFrequency": true,
-    "file": "el-Grek.json"
+    "file": "el-Grek.json",
+    "keyboards": [
+      "00000408",
+      "00010408",
+      "00020408",
+      "00030408",
+      "00040408",
+      "00050408"
+    ]
   },
   {
     "language": "en",
@@ -680,7 +749,14 @@
     "iso639_3": "eng",
     "letterCount": 26,
     "hasFrequency": true,
-    "file": "en-Latn.json"
+    "file": "en-Latn.json",
+    "keyboards": [
+      "00000409",
+      "00000809",
+      "00004009",
+      "00010409",
+      "00020409"
+    ]
   },
   {
     "language": "eo",
@@ -700,7 +776,11 @@
     "iso639_3": "spa",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "es-Latn.json"
+    "file": "es-Latn.json",
+    "keyboards": [
+      "0000040a",
+      "0000080a"
+    ]
   },
   {
     "language": "et",
@@ -710,7 +790,10 @@
     "iso639_3": "est",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "et-Latn.json"
+    "file": "et-Latn.json",
+    "keyboards": [
+      "00000425"
+    ]
   },
   {
     "language": "eu",
@@ -739,7 +822,11 @@
     "iso639_3": "fas",
     "letterCount": 38,
     "hasFrequency": true,
-    "file": "fa-Arab.json"
+    "file": "fa-Arab.json",
+    "keyboards": [
+      "00000429",
+      "00050429"
+    ]
   },
   {
     "language": "ff",
@@ -769,7 +856,11 @@
     "iso639_3": "fin",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "fi-Latn.json"
+    "file": "fi-Latn.json",
+    "keyboards": [
+      "0000040b",
+      "0001083b"
+    ]
   },
   {
     "language": "fo",
@@ -779,7 +870,10 @@
     "iso639_3": "fao",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "fo-Latn.json"
+    "file": "fo-Latn.json",
+    "keyboards": [
+      "00000438"
+    ]
   },
   {
     "language": "fr",
@@ -789,7 +883,16 @@
     "iso639_3": "fra",
     "letterCount": 42,
     "hasFrequency": true,
-    "file": "fr-Latn.json"
+    "file": "fr-Latn.json",
+    "keyboards": [
+      "0000040c",
+      "0000080c",
+      "00000c0c",
+      "00001009",
+      "0000100c",
+      "0001040c",
+      "0002040c"
+    ]
   },
   {
     "language": "frr",
@@ -827,7 +930,10 @@
     "iso639_3": "gle",
     "letterCount": 23,
     "hasFrequency": true,
-    "file": "ga-Latn.json"
+    "file": "ga-Latn.json",
+    "keyboards": [
+      "00001809"
+    ]
   },
   {
     "language": "gaa",
@@ -846,7 +952,10 @@
     "iso639_3": "gla",
     "letterCount": 23,
     "hasFrequency": true,
-    "file": "gd-Latn.json"
+    "file": "gd-Latn.json",
+    "keyboards": [
+      "00011809"
+    ]
   },
   {
     "language": "gez",
@@ -875,7 +984,10 @@
     "iso639_3": "grn",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "gn-Latn.json"
+    "file": "gn-Latn.json",
+    "keyboards": [
+      "00000474"
+    ]
   },
   {
     "language": "gsw",
@@ -894,7 +1006,10 @@
     "iso639_3": "guj",
     "letterCount": 50,
     "hasFrequency": true,
-    "file": "gu-Gujr.json"
+    "file": "gu-Gujr.json",
+    "keyboards": [
+      "00000447"
+    ]
   },
   {
     "language": "guz",
@@ -923,7 +1038,10 @@
     "iso639_3": "hau",
     "letterCount": 27,
     "hasFrequency": true,
-    "file": "ha-Latn.json"
+    "file": "ha-Latn.json",
+    "keyboards": [
+      "00000468"
+    ]
   },
   {
     "language": "haw",
@@ -932,7 +1050,10 @@
     "iso639_3": "haw",
     "letterCount": 18,
     "hasFrequency": true,
-    "file": "haw-Latn.json"
+    "file": "haw-Latn.json",
+    "keyboards": [
+      "00000475"
+    ]
   },
   {
     "language": "he",
@@ -942,7 +1063,12 @@
     "iso639_3": "heb",
     "letterCount": 27,
     "hasFrequency": true,
-    "file": "he-Hebr.json"
+    "file": "he-Hebr.json",
+    "keyboards": [
+      "0000040d",
+      "0002040d",
+      "0003040d"
+    ]
   },
   {
     "language": "hi",
@@ -1000,7 +1126,10 @@
     "iso639_3": "hun",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "hu-Latn.json"
+    "file": "hu-Latn.json",
+    "keyboards": [
+      "0000040e"
+    ]
   },
   {
     "language": "hy",
@@ -1050,7 +1179,10 @@
     "iso639_3": "ibo",
     "letterCount": 28,
     "hasFrequency": true,
-    "file": "ig-Latn.json"
+    "file": "ig-Latn.json",
+    "keyboards": [
+      "00000470"
+    ]
   },
   {
     "language": "ii",
@@ -1080,7 +1212,10 @@
     "iso639_3": "isl",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "is-Latn.json"
+    "file": "is-Latn.json",
+    "keyboards": [
+      "0000040f"
+    ]
   },
   {
     "language": "it",
@@ -1090,7 +1225,11 @@
     "iso639_3": "ita",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "it-Latn.json"
+    "file": "it-Latn.json",
+    "keyboards": [
+      "00000410",
+      "00010410"
+    ]
   },
   {
     "language": "iu",
@@ -1120,7 +1259,10 @@
     "iso639_3": "jpn",
     "letterCount": 46,
     "hasFrequency": true,
-    "file": "ja-Hira.json"
+    "file": "ja-Hira.json",
+    "keyboards": [
+      "00000411"
+    ]
   },
   {
     "language": "ja",
@@ -1130,7 +1272,10 @@
     "iso639_3": "jpn",
     "letterCount": 2311,
     "hasFrequency": true,
-    "file": "ja-Jpan.json"
+    "file": "ja-Jpan.json",
+    "keyboards": [
+      "00000411"
+    ]
   },
   {
     "language": "ja",
@@ -1140,7 +1285,10 @@
     "iso639_3": "jpn",
     "letterCount": 46,
     "hasFrequency": true,
-    "file": "ja-Kana.json"
+    "file": "ja-Kana.json",
+    "keyboards": [
+      "00000411"
+    ]
   },
   {
     "language": "jbo",
@@ -1168,7 +1316,10 @@
     "iso639_3": "jav",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "jv-Latn.json"
+    "file": "jv-Latn.json",
+    "keyboards": [
+      "00110c00"
+    ]
   },
   {
     "language": "ka",
@@ -1178,7 +1329,14 @@
     "iso639_3": "kat",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "ka-Geor.json"
+    "file": "ka-Geor.json",
+    "keyboards": [
+      "00000437",
+      "00010437",
+      "00020437",
+      "00030437",
+      "00040437"
+    ]
   },
   {
     "language": "kaa",
@@ -1279,7 +1437,10 @@
     "iso639_3": "kaz",
     "letterCount": 42,
     "hasFrequency": true,
-    "file": "kk-Cyrl.json"
+    "file": "kk-Cyrl.json",
+    "keyboards": [
+      "0000043f"
+    ]
   },
   {
     "language": "kkj",
@@ -1308,7 +1469,11 @@
     "iso639_3": "khm",
     "letterCount": 47,
     "hasFrequency": true,
-    "file": "km-Khmr.json"
+    "file": "km-Khmr.json",
+    "keyboards": [
+      "00000453",
+      "00010453"
+    ]
   },
   {
     "language": "kn",
@@ -1318,7 +1483,10 @@
     "iso639_3": "kan",
     "letterCount": 52,
     "hasFrequency": true,
-    "file": "kn-Knda.json"
+    "file": "kn-Knda.json",
+    "keyboards": [
+      "0000044b"
+    ]
   },
   {
     "language": "ko",
@@ -1328,7 +1496,10 @@
     "iso639_3": "kor",
     "letterCount": 24,
     "hasFrequency": true,
-    "file": "ko-Hang.json"
+    "file": "ko-Hang.json",
+    "keyboards": [
+      "00000412"
+    ]
   },
   {
     "language": "ko",
@@ -1338,7 +1509,10 @@
     "iso639_3": "kor",
     "letterCount": 11172,
     "hasFrequency": true,
-    "file": "ko-Kore.json"
+    "file": "ko-Kore.json",
+    "keyboards": [
+      "00000412"
+    ]
   },
   {
     "language": "kok",
@@ -1480,7 +1654,10 @@
     "iso639_3": "ltz",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "lb-Latn.json"
+    "file": "lb-Latn.json",
+    "keyboards": [
+      "0000046e"
+    ]
   },
   {
     "language": "lep",
@@ -1526,7 +1703,11 @@
     "iso639_3": "lis",
     "letterCount": 40,
     "hasFrequency": true,
-    "file": "lis-Lisu.json"
+    "file": "lis-Lisu.json",
+    "keyboards": [
+      "00070c00",
+      "00080c00"
+    ]
   },
   {
     "language": "lkt",
@@ -1573,7 +1754,10 @@
     "iso639_3": "lao",
     "letterCount": 40,
     "hasFrequency": true,
-    "file": "lo-Laoo.json"
+    "file": "lo-Laoo.json",
+    "keyboards": [
+      "00000454"
+    ]
   },
   {
     "language": "lrc",
@@ -1592,7 +1776,10 @@
     "iso639_3": "lit",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "lt-Latn.json"
+    "file": "lt-Latn.json",
+    "keyboards": [
+      "00010427"
+    ]
   },
   {
     "language": "ltg",
@@ -1639,7 +1826,12 @@
     "iso639_3": "lav",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "lv-Latn.json"
+    "file": "lv-Latn.json",
+    "keyboards": [
+      "00000426",
+      "00010426",
+      "00020426"
+    ]
   },
   {
     "language": "lzh",
@@ -1768,7 +1960,10 @@
     "iso639_3": "mkd",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "mk-Cyrl.json"
+    "file": "mk-Cyrl.json",
+    "keyboards": [
+      "0000042f"
+    ]
   },
   {
     "language": "ml",
@@ -1778,7 +1973,10 @@
     "iso639_3": "mal",
     "letterCount": 49,
     "hasFrequency": true,
-    "file": "ml-Mlym.json"
+    "file": "ml-Mlym.json",
+    "keyboards": [
+      "0000044c"
+    ]
   },
   {
     "language": "mn",
@@ -1788,7 +1986,10 @@
     "iso639_3": "mon",
     "letterCount": 35,
     "hasFrequency": true,
-    "file": "mn-Cyrl.json"
+    "file": "mn-Cyrl.json",
+    "keyboards": [
+      "00000850"
+    ]
   },
   {
     "language": "mn",
@@ -1798,7 +1999,10 @@
     "iso639_3": "mon",
     "letterCount": 35,
     "hasFrequency": true,
-    "file": "mn-Mong.json"
+    "file": "mn-Mong.json",
+    "keyboards": [
+      "00000850"
+    ]
   },
   {
     "language": "mni",
@@ -1826,7 +2030,12 @@
     "iso639_3": "ron",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "mo-Latn.json"
+    "file": "mo-Latn.json",
+    "keyboards": [
+      "00000418",
+      "00010418",
+      "00020418"
+    ]
   },
   {
     "language": "moh",
@@ -1845,7 +2054,10 @@
     "iso639_3": "mar",
     "letterCount": 49,
     "hasFrequency": true,
-    "file": "mr-Deva.json"
+    "file": "mr-Deva.json",
+    "keyboards": [
+      "0000044e"
+    ]
   },
   {
     "language": "mr",
@@ -1855,7 +2067,10 @@
     "iso639_3": "mar",
     "letterCount": 26,
     "hasFrequency": true,
-    "file": "mr-Latn.json"
+    "file": "mr-Latn.json",
+    "keyboards": [
+      "0000044e"
+    ]
   },
   {
     "language": "ms",
@@ -1969,7 +2184,10 @@
     "iso639_3": "nep",
     "letterCount": 50,
     "hasFrequency": true,
-    "file": "ne-Deva.json"
+    "file": "ne-Deva.json",
+    "keyboards": [
+      "00000461"
+    ]
   },
   {
     "language": "nl",
@@ -1979,7 +2197,10 @@
     "iso639_3": "nld",
     "letterCount": 36,
     "hasFrequency": true,
-    "file": "nl-Latn.json"
+    "file": "nl-Latn.json",
+    "keyboards": [
+      "00000413"
+    ]
   },
   {
     "language": "nmg",
@@ -2017,7 +2238,11 @@
     "iso639_3": "nor",
     "letterCount": 34,
     "hasFrequency": true,
-    "file": "no-Latn.json"
+    "file": "no-Latn.json",
+    "keyboards": [
+      "00000414",
+      "0000043b"
+    ]
   },
   {
     "language": "nqo",
@@ -2026,7 +2251,10 @@
     "iso639_3": "nqo",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "nqo-Nkoo.json"
+    "file": "nqo-Nkoo.json",
+    "keyboards": [
+      "00090c00"
+    ]
   },
   {
     "language": "nr",
@@ -2113,7 +2341,10 @@
     "iso639_3": "ori",
     "letterCount": 47,
     "hasFrequency": true,
-    "file": "or-Orya.json"
+    "file": "or-Orya.json",
+    "keyboards": [
+      "00000448"
+    ]
   },
   {
     "language": "os",
@@ -2132,7 +2363,10 @@
     "iso639_3": "osa",
     "letterCount": 36,
     "hasFrequency": true,
-    "file": "osa-Osge.json"
+    "file": "osa-Osge.json",
+    "keyboards": [
+      "00150c00"
+    ]
   },
   {
     "language": "pa",
@@ -2142,7 +2376,10 @@
     "iso639_3": "pan",
     "letterCount": 45,
     "hasFrequency": true,
-    "file": "pa-Guru.json"
+    "file": "pa-Guru.json",
+    "keyboards": [
+      "00000446"
+    ]
   },
   {
     "language": "pap",
@@ -2179,7 +2416,11 @@
     "iso639_3": "pol",
     "letterCount": 32,
     "hasFrequency": true,
-    "file": "pl-Latn.json"
+    "file": "pl-Latn.json",
+    "keyboards": [
+      "00000415",
+      "00010415"
+    ]
   },
   {
     "language": "prg",
@@ -2198,7 +2439,10 @@
     "iso639_3": "pus",
     "letterCount": 50,
     "hasFrequency": true,
-    "file": "ps-Arab.json"
+    "file": "ps-Arab.json",
+    "keyboards": [
+      "00000463"
+    ]
   },
   {
     "language": "pt",
@@ -2208,7 +2452,12 @@
     "iso639_3": "por",
     "letterCount": 39,
     "hasFrequency": true,
-    "file": "pt-Latn.json"
+    "file": "pt-Latn.json",
+    "keyboards": [
+      "00000416",
+      "00000816",
+      "00010416"
+    ]
   },
   {
     "language": "qu",
@@ -2284,7 +2533,12 @@
     "iso639_3": "ron",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "ro-Latn.json"
+    "file": "ro-Latn.json",
+    "keyboards": [
+      "00000418",
+      "00010418",
+      "00020418"
+    ]
   },
   {
     "language": "ru",
@@ -2294,7 +2548,11 @@
     "iso639_3": "rus",
     "letterCount": 33,
     "hasFrequency": true,
-    "file": "ru-Cyrl.json"
+    "file": "ru-Cyrl.json",
+    "keyboards": [
+      "00000419",
+      "00010419"
+    ]
   },
   {
     "language": "rw",
@@ -2472,7 +2730,11 @@
     "iso639_3": "srp",
     "letterCount": 27,
     "hasFrequency": true,
-    "file": "sh-Latn.json"
+    "file": "sh-Latn.json",
+    "keyboards": [
+      "0000081a",
+      "00000c1a"
+    ]
   },
   {
     "language": "shi",
@@ -2491,7 +2753,10 @@
     "iso639_3": "sin",
     "letterCount": 55,
     "hasFrequency": true,
-    "file": "si-Sinh.json"
+    "file": "si-Sinh.json",
+    "keyboards": [
+      "0000045b"
+    ]
   },
   {
     "language": "sk",
@@ -2501,7 +2766,11 @@
     "iso639_3": "slk",
     "letterCount": 43,
     "hasFrequency": true,
-    "file": "sk-Latn.json"
+    "file": "sk-Latn.json",
+    "keyboards": [
+      "0000041b",
+      "0001041b"
+    ]
   },
   {
     "language": "sl",
@@ -2511,7 +2780,10 @@
     "iso639_3": "slv",
     "letterCount": 25,
     "hasFrequency": true,
-    "file": "sl-Latn.json"
+    "file": "sl-Latn.json",
+    "keyboards": [
+      "00000424"
+    ]
   },
   {
     "language": "sma",
@@ -2577,7 +2849,10 @@
     "iso639_3": "sqi",
     "letterCount": 27,
     "hasFrequency": true,
-    "file": "sq-Latn.json"
+    "file": "sq-Latn.json",
+    "keyboards": [
+      "0000041c"
+    ]
   },
   {
     "language": "sr",
@@ -2587,7 +2862,11 @@
     "iso639_3": "srp",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "sr-Cyrl.json"
+    "file": "sr-Cyrl.json",
+    "keyboards": [
+      "0000081a",
+      "00000c1a"
+    ]
   },
   {
     "language": "sr",
@@ -2597,7 +2876,11 @@
     "iso639_3": "srp",
     "letterCount": 27,
     "hasFrequency": true,
-    "file": "sr-Latn.json"
+    "file": "sr-Latn.json",
+    "keyboards": [
+      "0000081a",
+      "00000c1a"
+    ]
   },
   {
     "language": "ss",
@@ -2646,7 +2929,11 @@
     "iso639_3": "swe",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "sv-Latn.json"
+    "file": "sv-Latn.json",
+    "keyboards": [
+      "0000041d",
+      "0000083b"
+    ]
   },
   {
     "language": "sw",
@@ -2665,7 +2952,10 @@
     "iso639_3": "syr",
     "letterCount": 22,
     "hasFrequency": true,
-    "file": "syr-Syrc.json"
+    "file": "syr-Syrc.json",
+    "keyboards": [
+      "0000045a"
+    ]
   },
   {
     "language": "szl",
@@ -2684,7 +2974,10 @@
     "iso639_3": "tam",
     "letterCount": 35,
     "hasFrequency": true,
-    "file": "ta-Taml.json"
+    "file": "ta-Taml.json",
+    "keyboards": [
+      "00000449"
+    ]
   },
   {
     "language": "tbw",
@@ -2703,7 +2996,10 @@
     "iso639_3": "tel",
     "letterCount": 51,
     "hasFrequency": true,
-    "file": "te-Telu.json"
+    "file": "te-Telu.json",
+    "keyboards": [
+      "0000044a"
+    ]
   },
   {
     "language": "teo",
@@ -2722,7 +3018,10 @@
     "iso639_3": "tgk",
     "letterCount": 35,
     "hasFrequency": true,
-    "file": "tg-Cyrl.json"
+    "file": "tg-Cyrl.json",
+    "keyboards": [
+      "00000428"
+    ]
   },
   {
     "language": "th",
@@ -2761,7 +3060,10 @@
     "iso639_3": "tuk",
     "letterCount": 30,
     "hasFrequency": true,
-    "file": "tk-Latn.json"
+    "file": "tk-Latn.json",
+    "keyboards": [
+      "00000442"
+    ]
   },
   {
     "language": "tl",
@@ -2838,7 +3140,11 @@
     "iso639_3": "tat",
     "letterCount": 39,
     "hasFrequency": true,
-    "file": "tt-Cyrl.json"
+    "file": "tt-Cyrl.json",
+    "keyboards": [
+      "00000444",
+      "00010444"
+    ]
   },
   {
     "language": "twq",
@@ -2865,7 +3171,10 @@
     "iso639_3": "tzm",
     "letterCount": 31,
     "hasFrequency": true,
-    "file": "tzm-Latn.json"
+    "file": "tzm-Latn.json",
+    "keyboards": [
+      "0000085f"
+    ]
   },
   {
     "language": "ug",
@@ -2875,7 +3184,11 @@
     "iso639_3": "uig",
     "letterCount": 34,
     "hasFrequency": true,
-    "file": "ug-Arab.json"
+    "file": "ug-Arab.json",
+    "keyboards": [
+      "00000480",
+      "00010480"
+    ]
   },
   {
     "language": "uk",
@@ -2885,7 +3198,11 @@
     "iso639_3": "ukr",
     "letterCount": 34,
     "hasFrequency": true,
-    "file": "uk-Cyrl.json"
+    "file": "uk-Cyrl.json",
+    "keyboards": [
+      "00000422",
+      "00020422"
+    ]
   },
   {
     "language": "ur",
@@ -2895,7 +3212,10 @@
     "iso639_3": "urd",
     "letterCount": 38,
     "hasFrequency": true,
-    "file": "ur-Arab.json"
+    "file": "ur-Arab.json",
+    "keyboards": [
+      "00000420"
+    ]
   },
   {
     "language": "uz",
@@ -2953,7 +3273,10 @@
     "iso639_3": "vie",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "vi-Latn.json"
+    "file": "vi-Latn.json",
+    "keyboards": [
+      "0000042a"
+    ]
   },
   {
     "language": "vmw",
@@ -3019,7 +3342,10 @@
     "iso639_3": "wol",
     "letterCount": 29,
     "hasFrequency": true,
-    "file": "wo-Latn.json"
+    "file": "wo-Latn.json",
+    "keyboards": [
+      "00000488"
+    ]
   },
   {
     "language": "xh",
@@ -3076,7 +3402,10 @@
     "iso639_3": "yor",
     "letterCount": 37,
     "hasFrequency": true,
-    "file": "yo-Latn.json"
+    "file": "yo-Latn.json",
+    "keyboards": [
+      "0000046a"
+    ]
   },
   {
     "language": "yrl",
@@ -3105,7 +3434,14 @@
     "iso639_3": "zho",
     "letterCount": 2210,
     "hasFrequency": true,
-    "file": "zh-Hans.json"
+    "file": "zh-Hans.json",
+    "keyboards": [
+      "00000404",
+      "00000804",
+      "00000c04",
+      "00001004",
+      "00001404"
+    ]
   },
   {
     "language": "zh",
@@ -3115,7 +3451,14 @@
     "iso639_3": "zho",
     "letterCount": 2179,
     "hasFrequency": true,
-    "file": "zh-Hant.json"
+    "file": "zh-Hant.json",
+    "keyboards": [
+      "00000404",
+      "00000804",
+      "00000c04",
+      "00001004",
+      "00001404"
+    ]
   },
   {
     "language": "zh",

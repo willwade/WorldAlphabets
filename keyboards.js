@@ -3,6 +3,8 @@ const path = require('path');
 
 const LAYOUTS_DIR = path.join(__dirname, 'data', 'layouts');
 
+const DEFAULT_LAYERS = ['base', 'shift', 'caps', 'altgr', 'shift_altgr', 'ctrl', 'alt'];
+
 async function getAvailableLayouts() {
     try {
         const files = await fs.readdir(LAYOUTS_DIR);
@@ -42,8 +44,35 @@ function getUnicode(keyEntry, layer) {
     return null;
 }
 
+function extractLayers(layout, layers = DEFAULT_LAYERS) {
+    if (!layout || !Array.isArray(layout.keys)) {
+        return {};
+    }
+
+    const result = {};
+    for (const layer of layers) {
+        const layerEntries = {};
+        for (const key of layout.keys) {
+            if (!key || !key.legends) continue;
+            const value = key.legends[layer];
+            if (!value) continue;
+            const pos = key.pos || key.vk || key.sc;
+            if (pos) {
+                layerEntries[String(pos)] = value;
+            }
+        }
+        if (Object.keys(layerEntries).length > 0) {
+            result[layer] = layerEntries;
+        }
+    }
+
+    return result;
+}
+
 module.exports = {
     getAvailableLayouts,
     loadKeyboard,
     getUnicode,
+    extractLayers,
+    DEFAULT_LAYERS,
 };
