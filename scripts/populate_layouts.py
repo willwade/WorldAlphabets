@@ -115,9 +115,9 @@ def resolve_candidates(
 ) -> List[Dict[str, Any]]:
     normalized = normalize_language_name(lang_name)
     if normalized:
-        candidates = norm_lookup.get(normalized)
-        if candidates:
-            return dedupe_entries(candidates)
+        direct_matches = norm_lookup.get(normalized)
+        if direct_matches:
+            return dedupe_entries(direct_matches)
 
         # Try progressively shortening the name (dropping trailing tokens)
         parts = normalized.split()
@@ -132,25 +132,30 @@ def resolve_candidates(
         tag_obj = langcodes.find(lang_name)
         if tag_obj:
             tag = tag_obj if isinstance(tag_obj, str) else tag_obj.to_tag()
-            codes.add(tag.lower())
-            primary = tag.split("-")[0].lower()
-            codes.add(primary)
-            language = langcodes.get(tag)
-            codes.add(language.language.lower())
-            try:
-                alpha3 = language.to_alpha3()
-                if alpha3:
-                    codes.add(alpha3.lower())
-            except LookupError:
-                pass
+            if tag:
+                codes.add(tag.lower())
+                primary = tag.split("-")[0].lower()
+                codes.add(primary)
+                language = langcodes.get(tag)
+                lang_code = language.language or ""
+                if lang_code:
+                    codes.add(lang_code.lower())
+                try:
+                    alpha3 = language.to_alpha3()
+                    if alpha3:
+                        codes.add(alpha3.lower())
+                except LookupError:
+                    pass
     except LookupError:
         pass
 
-    candidates: List[Dict[str, Any]] = []
+    matched_entries: List[Dict[str, Any]] = []
     for code in codes:
-        candidates.extend(iso_lookup.get(code, []))
+        matches = iso_lookup.get(code)
+        if matches:
+            matched_entries.extend(matches)
 
-    return dedupe_entries(candidates)
+    return dedupe_entries(matched_entries)
 
 
 def get_driver_name(session: requests.Session, url: str) -> str | None:
@@ -218,7 +223,7 @@ def main() -> None:
         norm_name = normalize_language_name(entry["name"])
         if norm_name:
             norm_name_to_entries.setdefault(norm_name, []).append(entry)
-        codes: Iterable[str] = (
+        codes = (
             entry.get("language"),
             entry.get("iso639_1"),
             entry.get("iso639_3"),
