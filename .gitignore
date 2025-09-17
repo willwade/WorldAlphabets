@@ -19,9 +19,55 @@ external/
 # Build artifacts
 src/worldalphabets.egg-info/
 /build/
+artifacts/
 
 # Node
 node_modules/
 
 # Web app generated assets
 web/public/data/
+web/dist/
+webui/dist/
+
+# .NET
+*.user
+*.suo
+*.nupkg
+*.snupkg
+**/bin/
+**/obj/
+.vs/
+TestResults/
+packages/dotnet/**/TestResults/
+
+# Coverage / caches
+.coverage
+.pytest_cache/
+.coverage.*
+coverage.xml
+
+# Misc
+*.log
+
+
+# Dotnet
+packages/dotnet/**/bin/
+packages/dotnet/**/obj/
+packages/dotnet/**/TestResults/
+TestResults/
+artifacts/
+*.nupkg
+*.snupkg
+
+# Web build output
+web/dist/
+webui/dist/
+/dist/
+
+# Editors
+.vscode/
+.idea/
+
+# JavaScript coverage
+coverage/
+.nyc_output/

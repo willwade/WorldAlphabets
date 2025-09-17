@@ -168,6 +168,43 @@ async function main() {
 main();
 ```
 
+
+### .NET (NuGet)
+
+Install the package:
+
+```bash
+dotnet add package WorldAlphabets
+```
+
+Basic usage in C#:
+
+```csharp
+using WorldAlphabets;
+
+var codes = WorldAlphabets.GetAvailableCodes();
+Console.WriteLine($"Loaded {codes.Count} alphabets");
+
+var alphabet = WorldAlphabets.LoadAlphabet("en");
+Console.WriteLine($"English uppercase first 5: {string.Join(", ", alphabet.Uppercase!.Take(5))}");
+
+var top = WorldAlphabets.OptimizedDetectLanguages("Hello world");
+Console.WriteLine(string.Join(", ", top.Select(t => $"{t.lang}:{t.score:F3}")));
+
+var layouts = WorldAlphabets.GetAvailableLayouts();
+var kb = WorldAlphabets.LoadKeyboard("en-us");
+Console.WriteLine(kb.Keys[1].Pos);
+
+Console.WriteLine(WorldAlphabets.StripDiacritics("café")); // cafe
+```
+
+Notes:
+- Targets netstandard2.0 for broad compatibility and net6.0 for modern projects.
+- Data files are embedded; no external I/O required at runtime.
+- API parity with Python/Node: load alphabets, list scripts/codes, detection, diacritics, keyboards.
+
+
+
 ### Diacritic Utilities
 
 Both interfaces provide helpers to work with diacritic marks.
@@ -404,6 +441,17 @@ main();
 
 For a detailed list of supported languages and their metadata, including available
 keyboard layouts, see the [Alphabet Table](table.md).
+
+
+## Releases & Versioning
+
+All three packages (Python, Node.js, .NET) derive their version from the GitHub release tag (e.g. `v0.3.0`). Packaging files contain a `{{version}}` placeholder which the publish workflows replace at release time:
+
+- Python: `pyproject.toml` version is set from the tag in `.github/workflows/publish.yml`
+- Node: `package.json` version is set from the tag in `.github/workflows/npm-publish.yml`
+- .NET: `packages/dotnet/WorldAlphabets/WorldAlphabets.csproj` `<Version>{{version}}</Version>` is set from the tag in `.github/workflows/nuget-publish.yml`
+
+To release all packages, create a GitHub release with a semantic tag like `vX.Y.Z`. CI will build, test, and publish to PyPI, npm, and NuGet.
 
 ## Developer Guide
 

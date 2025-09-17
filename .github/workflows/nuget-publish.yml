@@ -1,0 +1,33 @@
+name: Publish to NuGet
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build_pack_publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Set version from release tag
+        run: |
+          VERSION=$(echo "${{ github.event.release.tag_name }}" | sed 's/^v//')
+          sed -i "s#<Version>{{version}}</Version>#<Version>${VERSION}</Version>#" packages/dotnet/WorldAlphabets/WorldAlphabets.csproj
+      - name: Restore & Build
+        run: |
+          dotnet restore packages/dotnet/WorldAlphabets/WorldAlphabets.csproj
+          dotnet build packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-restore
+      - name: Test
+        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release
+
+      - name: Pack
+        run: dotnet pack packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-build -o artifacts/nuget
+      - name: Publish to NuGet
+        run: dotnet nuget push artifacts/nuget/*.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json --skip-duplicate
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+

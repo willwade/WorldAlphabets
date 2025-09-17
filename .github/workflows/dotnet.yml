@@ -1,0 +1,25 @@
+name: .NET Build & Test
+
+on: [push]
+
+jobs:
+  test_dotnet:
+    name: Test .NET
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Restore
+        run: |
+          dotnet restore packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -p:Version=0.0.0-dev
+          dotnet restore packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -p:Version=0.0.0-dev
+      - name: Build
+        run: |
+          dotnet build packages/dotnet/WorldAlphabets/WorldAlphabets.csproj -c Release --no-restore -p:Version=0.0.0-dev
+          dotnet build packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release --no-restore -p:Version=0.0.0-dev
+      - name: Test
+        run: dotnet test packages/dotnet/WorldAlphabets.Tests/WorldAlphabets.Tests.csproj -c Release -p:Version=0.0.0-dev --logger "trx;LogFileName=test_results.trx"
+
