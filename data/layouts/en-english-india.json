@@ -170,7 +170,7 @@
         "shift": "^",
         "caps": null,
         "altgr": null,
-        "shift_altgr": null,
+        "shift_altgr": "ˆ",
         "ctrl": null,
         "alt": null
       },
@@ -242,7 +242,7 @@
         "shift": "(",
         "caps": null,
         "altgr": null,
-        "shift_altgr": null,
+        "shift_altgr": "˘",
         "ctrl": null,
         "alt": null
       },
@@ -290,7 +290,7 @@
         "shift": "_",
         "caps": null,
         "altgr": "-",
-        "shift_altgr": null,
+        "shift_altgr": "ˍ",
         "ctrl": null,
         "alt": null
       },
@@ -314,7 +314,7 @@
         "shift": "+",
         "caps": null,
         "altgr": "–",
-        "shift_altgr": null,
+        "shift_altgr": "—",
         "ctrl": null,
         "alt": null
       },
@@ -386,7 +386,7 @@
         "shift": "Q",
         "caps": "Q",
         "altgr": "æ",
-        "shift_altgr": null,
+        "shift_altgr": "Æ",
         "ctrl": null,
         "alt": null
       },
@@ -434,7 +434,7 @@
         "shift": "E",
         "caps": "E",
         "altgr": "ē",
-        "shift_altgr": null,
+        "shift_altgr": "Ē",
         "ctrl": null,
         "alt": null
       },
@@ -458,7 +458,7 @@
         "shift": "R",
         "caps": "R",
         "altgr": "r̥",
-        "shift_altgr": null,
+        "shift_altgr": "R̥",
         "ctrl": null,
         "alt": null
       },
@@ -482,7 +482,7 @@
         "shift": "T",
         "caps": "T",
         "altgr": "ṭ",
-        "shift_altgr": null,
+        "shift_altgr": "Ṭ",
         "ctrl": null,
         "alt": null
       },
@@ -506,7 +506,7 @@
         "shift": "Y",
         "caps": "Y",
         "altgr": "ñ",
-        "shift_altgr": null,
+        "shift_altgr": "Ñ",
         "ctrl": null,
         "alt": null
       },
@@ -530,7 +530,7 @@
         "shift": "U",
         "caps": "U",
         "altgr": "ū",
-        "shift_altgr": null,
+        "shift_altgr": "Ū",
         "ctrl": null,
         "alt": null
       },
@@ -554,7 +554,7 @@
         "shift": "I",
         "caps": "I",
         "altgr": "ī",
-        "shift_altgr": null,
+        "shift_altgr": "Ī",
         "ctrl": null,
         "alt": null
       },
@@ -578,7 +578,7 @@
         "shift": "O",
         "caps": "O",
         "altgr": "ō",
-        "shift_altgr": null,
+        "shift_altgr": "Ō",
         "ctrl": null,
         "alt": null
       },
@@ -722,7 +722,7 @@
         "shift": "A",
         "caps": "A",
         "altgr": "ā",
-        "shift_altgr": null,
+        "shift_altgr": "Ā",
         "ctrl": null,
         "alt": null
       },
@@ -746,7 +746,7 @@
         "shift": "S",
         "caps": "S",
         "altgr": "ś",
-        "shift_altgr": null,
+        "shift_altgr": "Ś",
         "ctrl": null,
         "alt": null
       },
@@ -770,7 +770,7 @@
         "shift": "D",
         "caps": "D",
         "altgr": "ḍ",
-        "shift_altgr": null,
+        "shift_altgr": "Ḍ",
         "ctrl": null,
         "alt": null
       },
@@ -818,7 +818,7 @@
         "shift": "G",
         "caps": "G",
         "altgr": "ṅ",
-        "shift_altgr": null,
+        "shift_altgr": "Ṅ",
         "ctrl": null,
         "alt": null
       },
@@ -842,7 +842,7 @@
         "shift": "H",
         "caps": "H",
         "altgr": "ḥ",
-        "shift_altgr": null,
+        "shift_altgr": "Ḥ",
         "ctrl": null,
         "alt": null
       },
@@ -914,7 +914,7 @@
         "shift": "L",
         "caps": "L",
         "altgr": "l̥",
-        "shift_altgr": null,
+        "shift_altgr": "L̥",
         "ctrl": null,
         "alt": null
       },
@@ -962,7 +962,7 @@
         "shift": "\"",
         "caps": null,
         "altgr": "'",
-        "shift_altgr": null,
+        "shift_altgr": "\"",
         "ctrl": null,
         "alt": null
       },
@@ -986,7 +986,7 @@
         "shift": "~",
         "caps": null,
         "altgr": "`",
-        "shift_altgr": null,
+        "shift_altgr": "~",
         "ctrl": null,
         "alt": null
       },
@@ -1082,7 +1082,7 @@
         "shift": "X",
         "caps": "X",
         "altgr": "ṣ",
-        "shift_altgr": null,
+        "shift_altgr": "Ṣ",
         "ctrl": null,
         "alt": null
       },
@@ -1178,7 +1178,7 @@
         "shift": "N",
         "caps": "N",
         "altgr": "ṇ",
-        "shift_altgr": null,
+        "shift_altgr": "Ṇ",
         "ctrl": null,
         "alt": null
       },
@@ -1202,7 +1202,7 @@
         "shift": "M",
         "caps": "M",
         "altgr": "ṁ",
-        "shift_altgr": null,
+        "shift_altgr": "Ṁ",
         "ctrl": null,
         "alt": null
       },
@@ -1226,7 +1226,7 @@
         "shift": "<",
         "caps": null,
         "altgr": ",",
-        "shift_altgr": null,
+        "shift_altgr": "<",
         "ctrl": null,
         "alt": null
       },
@@ -1274,7 +1274,7 @@
         "shift": "?",
         "caps": null,
         "altgr": "/",
-        "shift_altgr": null,
+        "shift_altgr": "§",
         "ctrl": null,
         "alt": null
       },
