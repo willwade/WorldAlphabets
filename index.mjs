@@ -290,7 +290,7 @@ async function getCandidateLanguages(text, maxCandidates = 20) {
   const dom = detectDominantScript(text);
   if (dom) {
     const primaryByScript = {
-      Latn: ['en','es','fr','de','pt','it','nl'],
+      Latn: ['en','es','fr','de','pt','it','nl','af'],
       Cyrl: ['ru','uk','sr','bg'],
       Grek: ['el'],
       Arab: ['ar','fa','ur','ps'],
@@ -363,7 +363,7 @@ async function getCandidateLanguages(text, maxCandidates = 20) {
 export async function detectLanguages(text, candidateLangs = null, priors = {}, topk = 3) {
   // If no candidates provided, use smart filtering
   if (!candidateLangs || candidateLangs === null) {
-    candidateLangs = await getCandidateLanguages(text, 20);
+    candidateLangs = await getCandidateLanguages(text, 50);
   }
 
   // Validate that candidateLangs is now an array
