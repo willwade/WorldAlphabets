@@ -19,7 +19,12 @@ pip install worldalphabets
 To load the data in Python (omitting ``script`` uses the first script listed):
 
 ```python
-from worldalphabets import get_available_codes, get_scripts, load_alphabet
+from worldalphabets import (
+    get_available_codes,
+    get_scripts,
+    load_alphabet,
+    load_frequency_list,
+)
 
 codes = get_available_codes()
 print("Loaded", len(codes), "alphabets")
@@ -43,6 +48,10 @@ print("Arabic digits:", alphabet_ar.digits)
 from worldalphabets import optimized_detect_languages
 results = optimized_detect_languages("Hello world")  # Automatic detection
 print("Detected languages:", results)
+
+freq_en = load_frequency_list("en")
+print("English tokens (first 5):", freq_en.tokens[:5])
+print("Token mode:", freq_en.mode)
 ```
 
 ### Node.js
@@ -65,6 +74,7 @@ const {
   getDigits,
   getAvailableCodes,
   getScripts,
+  loadFrequencyList,
 } = require('worldalphabets');
 
 async function main() {
@@ -85,6 +95,10 @@ async function main() {
 
   const digitsAr = await getDigits('ar', 'Arab');
   console.log('Arabic digits:', digitsAr);
+
+  const freqEn = await loadFrequencyList('en');
+  console.log('English tokens (first 5):', freqEn.tokens.slice(0, 5));
+  console.log('Token mode:', freqEn.mode);
 }
 
 main();

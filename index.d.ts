@@ -6,12 +6,19 @@ export interface Alphabet {
   digits?: string[];
 }
 
+export interface FrequencyList {
+  language: string;
+  tokens: string[];
+  mode: 'word' | 'bigram';
+}
+
 export function loadAlphabet(code: string, script?: string): Promise<Alphabet>;
 export function getUppercase(code: string, script?: string): Promise<string[]>;
 export function getLowercase(code: string, script?: string): Promise<string[]>;
 export function getFrequency(code: string, script?: string): Promise<Record<string, number>>;
 export function getDigits(code: string, script?: string): Promise<string[]>;
 export function getAvailableCodes(): Promise<string[]>;
+export function loadFrequencyList(code: string): Promise<FrequencyList>;
 export interface IndexEntry {
   language: string;
   'language-name': string;

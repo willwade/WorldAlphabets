@@ -2,6 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
+const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
 
 /**
  * Loads the alphabet data for a given language code and script.
@@ -90,6 +91,41 @@ async function getAvailableCodes() {
   const data = await getIndexData();
   const codes = data.map((item) => item.language);
   return Array.from(new Set(codes)).sort();
+}
+
+/**
+ * Loads the Top-1000 frequency tokens for a language.
+ * @param {string} code - The ISO language code.
+ * @returns {Promise<{language: string, tokens: string[], mode: 'word' | 'bigram'}>}
+ */
+async function loadFrequencyList(code) {
+  const filePath = path.join(FREQ_DIR, `${code}.txt`);
+  let content;
+  try {
+    content = await fs.readFile(filePath, 'utf8');
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      throw new Error(`Frequency list for code "${code}" not found.`);
+    }
+    throw error;
+  }
+
+  const tokens = [];
+  let mode = 'word';
+
+  for (const line of content.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    if (tokens.length === 0 && trimmed.startsWith('#')) {
+      if (trimmed.toLowerCase().includes('bigram')) {
+        mode = 'bigram';
+      }
+      continue;
+    }
+    tokens.push(trimmed);
+  }
+
+  return { language: code, tokens, mode };
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
@@ -463,6 +499,7 @@ module.exports = {
   getFrequency,
   getDigits,
   getAvailableCodes,
+  loadFrequencyList,
   getIndexData,
   getLanguage,
   getScripts,

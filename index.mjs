@@ -57,6 +57,21 @@ export async function getAvailableCodes() {
 }
 
 /**
+ * Load Top-1000 frequency tokens for a language from embedded data.
+ */
+export async function loadFrequencyList(code) {
+  const entry = FREQ_RANKS[code];
+  if (!entry || !Array.isArray(entry.tokens)) {
+    throw new Error(`Frequency list for code "${code}" not found.`);
+  }
+  const mode = entry.mode === 'bigram' ? 'bigram' : 'word';
+  const tokens = entry.tokens
+    .map(token => (typeof token === 'string' ? token.trim() : ''))
+    .filter(Boolean);
+  return { language: code, tokens, mode };
+}
+
+/**
  * Load frequency data for a language (browser: static embedded ranks)
  */
 async function loadRankData(lang) {

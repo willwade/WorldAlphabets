@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from importlib.resources import files
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Literal
 
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import (
@@ -37,6 +37,15 @@ class Alphabet:
     digits: Optional[List[str]] = None
 
 
+@dataclass
+class FrequencyList:
+    """Top-1000 token list for language detection."""
+
+    language: str
+    tokens: List[str]
+    mode: Literal["word", "bigram"] = "word"
+
+
 def load_alphabet(code: str, script: str | None = None) -> Alphabet:
     """Return alphabet information for ISO language ``code`` and ``script``."""
 
@@ -55,6 +64,29 @@ def load_alphabet(code: str, script: str | None = None) -> Alphabet:
 def get_available_codes() -> List[str]:
     """Return sorted language codes with available alphabets."""
     return sorted(item["language"] for item in get_index_data())
+
+
+def load_frequency_list(code: str) -> FrequencyList:
+    """Return Top-1000 token list for ISO language ``code``."""
+
+    freq_dir = files("worldalphabets") / "data" / "freq" / "top1000"
+    path = freq_dir / f"{code}.txt"
+    if not path.is_file():
+        raise FileNotFoundError(f"Frequency list for code '{code}' not found")
+
+    mode: Literal["word", "bigram"] = "word"
+    tokens: List[str] = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if not tokens and stripped.startswith("#"):
+            if "bigram" in stripped.lower():
+                mode = "bigram"
+            continue
+        tokens.append(stripped)
+
+    return FrequencyList(language=code, tokens=tokens, mode=mode)
 
 
 def get_diacritic_variants(
@@ -83,6 +115,8 @@ __all__ = [
     "load_alphabet",
     "Alphabet",
     "get_available_codes",
+    "load_frequency_list",
+    "FrequencyList",
     "get_index_data",
     "get_language",
     "get_scripts",
