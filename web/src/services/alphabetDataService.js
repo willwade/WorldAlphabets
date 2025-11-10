@@ -200,6 +200,10 @@ class AlphabetDataService {
       filteredData = filteredData.filter(alphabet => alphabet.hasFrequency === true);
     }
 
+    if (filters.hasWordFrequency === true) {
+      filteredData = filteredData.filter(alphabet => alphabet.hasWordFrequency === true);
+    }
+
     if (filters.hasKeyboard === true) {
       filteredData = filteredData.filter(alphabet => alphabet.hasKeyboard === true);
     }
@@ -259,11 +263,12 @@ class AlphabetDataService {
    */
   async getStatistics() {
     const enrichedData = await this.getEnrichedAlphabetData();
-    
+
     return {
       totalAlphabets: enrichedData.length,
       withTTS: enrichedData.filter(a => a.hasTTS).length,
       withFrequency: enrichedData.filter(a => a.hasFrequency).length,
+      withWordFrequency: enrichedData.filter(a => a.hasWordFrequency).length,
       withKeyboard: enrichedData.filter(a => a.hasKeyboard).length,
       scriptTypes: [...new Set(enrichedData.map(a => a.script))].length
     };
