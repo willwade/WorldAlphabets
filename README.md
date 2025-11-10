@@ -616,6 +616,23 @@ The script writes results to ``data/freq/top1000`` with build reports in
 ``BUILD_REPORT_UNIFIED.json``. The unified pipeline also runs within the
 consolidated data pipeline as the ``build_top1000`` stage.
 
+### Leipzig coverage tooling
+
+Use `scripts/fetch_leipzig_corpora.py` to inspect Leipzig support and
+produce fresh word and character frequencies for under-resourced languages.
+
+```bash
+# Report languages lacking Top-1000 word lists and show Leipzig coverage
+uv run python scripts/fetch_leipzig_corpora.py report --show-sources
+
+# Fetch Igbo data and write outputs under leipzig_output/
+uv run python scripts/fetch_leipzig_corpora.py fetch --langs ig,ibo
+```
+
+The fetch command creates three artefacts per language: a plain word list, a
+character-frequency JSON file, and a combined summary so you can review the
+source corpus before copying data into `data/freq/top1000`.
+
 ## Sources
 
 - [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet)
