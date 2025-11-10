@@ -32,6 +32,11 @@ const copiedStates = ref({
   python: false,
   nodejs: false
 });
+const supportsWordFrequency = ref(false);
+const wordFrequency = ref([]);
+const wordFrequencyMode = ref('word');
+const wordFrequencyError = ref(null);
+const wordFrequencyLoading = ref(false);
 const scriptNames = {
   Latn: 'Latin',
   Deva: 'Devanagari'
@@ -79,6 +84,11 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   activeTab.value = 'alphabet';
   availableScripts.value = [];
   selectedScript.value = null;
+  supportsWordFrequency.value = false;
+  wordFrequency.value = [];
+  wordFrequencyMode.value = 'word';
+  wordFrequencyError.value = null;
+  wordFrequencyLoading.value = false;
 
   try {
     // Fetch indexes in parallel
@@ -107,6 +117,14 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
       const scripts = langEntries.map(entry => entry.script);
       availableScripts.value = scripts;
       selectedScript.value = scripts[0];
+
+      supportsWordFrequency.value = langEntries.some(
+        entry => entry.hasWordFrequency
+      );
+
+      if (supportsWordFrequency.value) {
+        await loadWordFrequency(newLangCode);
+      }
     } else {
       await loadAlphabet(newLangCode, null);
     }
@@ -178,9 +196,9 @@ watch(selectedScript, async script => {
 });
 
 function playAudio() {
-    if (audioUrl.value) {
-        new Audio(audioUrl.value).play();
-    }
+  if (audioUrl.value) {
+    new Audio(audioUrl.value).play();
+  }
 }
 
 watch(selectedLayoutId, id => {
@@ -252,6 +270,49 @@ async function example() {
 
 example();`;
 });
+
+async function loadWordFrequency(langCode) {
+  wordFrequencyLoading.value = true;
+  wordFrequencyError.value = null;
+  wordFrequency.value = [];
+  wordFrequencyMode.value = 'word';
+
+  try {
+    const response = await fetch(
+      `${baseUrl}data/freq/top1000/${langCode}.txt`
+    );
+
+    if (!response.ok) {
+      wordFrequencyError.value = 'No word frequency data available.';
+      return;
+    }
+
+    const text = await response.text();
+    const lines = text.split(/\r?\n/).filter(Boolean);
+
+    if (!lines.length) {
+      wordFrequencyError.value = 'Word frequency list is empty.';
+      return;
+    }
+
+    if (lines[0].startsWith('#')) {
+      const header = lines.shift();
+      if (header.toLowerCase().includes('bigram')) {
+        wordFrequencyMode.value = 'bigram';
+      }
+    }
+
+    wordFrequency.value = lines.map((token, index) => ({
+      token,
+      rank: index + 1
+    }));
+  } catch (err) {
+    console.error('Failed to load word frequency data:', err);
+    wordFrequencyError.value = 'Failed to load word frequency data.';
+  } finally {
+    wordFrequencyLoading.value = false;
+  }
+}
 
 async function copyCode(type) {
   try {
@@ -326,6 +387,11 @@ watch(showCodeExamples, (newValue) => {
           :class="{ active: activeTab === 'keyboard' }"
           @click="activeTab = 'keyboard'"
         >Keyboard ({{ keyboardCount }})</button>
+        <button
+          v-if="supportsWordFrequency"
+          :class="{ active: activeTab === 'wordFrequency' }"
+          @click="activeTab = 'wordFrequency'"
+        >Word Frequency</button>
       </div>
 
       <div v-if="activeTab === 'alphabet'" class="tab-content">
@@ -370,6 +436,40 @@ watch(showCodeExamples, (newValue) => {
         </div>
         <div v-else>
           <p>No keyboard layout available for this language.</p>
+        </div>
+      </div>
+
+      <div v-else-if="activeTab === 'wordFrequency'" class="tab-content">
+        <div class="feature-section">
+          <h3>
+            Top {{ wordFrequency.length }}
+            {{ wordFrequencyMode === 'bigram' ? 'Bigrams' : 'Words' }}
+          </h3>
+          <p
+            v-if="wordFrequencyMode === 'bigram'"
+            class="word-frequency-note"
+          >
+            This frequency list uses bigrams (pairs of letters) instead of
+            single words.
+          </p>
+          <div v-if="wordFrequencyLoading" class="word-frequency-status">
+            Loading word frequency data...
+          </div>
+          <div v-else-if="wordFrequencyError" class="word-frequency-status">
+            {{ wordFrequencyError }}
+          </div>
+          <div v-else class="word-frequency-container">
+            <div class="word-frequency-list">
+              <div
+                v-for="item in wordFrequency"
+                :key="item.rank"
+                class="word-frequency-item"
+              >
+                <span class="word-rank">#{{ item.rank }}</span>
+                <span class="word-token">{{ item.token }}</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -490,6 +590,57 @@ a:hover {
 }
 .tab-content {
   margin-top: 1em;
+}
+
+.word-frequency-container {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #fafafa;
+}
+
+.word-frequency-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.5em;
+  padding: 1em;
+}
+
+.word-frequency-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+  font-family: 'Fira Sans', 'Roboto', sans-serif;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 0.4em 0.6em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.word-rank {
+  font-weight: 600;
+  color: #555;
+  min-width: 3.5em;
+}
+
+.word-token {
+  font-size: 1em;
+  color: #222;
+  word-break: break-word;
+}
+
+.word-frequency-status {
+  margin-top: 1em;
+  font-style: italic;
+  color: #555;
+}
+
+.word-frequency-note {
+  margin: 0.5em 0 1em;
+  font-size: 0.9em;
+  color: #555;
 }
 
 .toggle-button {
