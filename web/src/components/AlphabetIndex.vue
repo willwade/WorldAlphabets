@@ -6,7 +6,8 @@
       <div v-if="statistics" class="stats">
         <span class="stat">{{ statistics.totalAlphabets }} alphabets</span>
         <span class="stat">{{ statistics.withTTS }} with TTS</span>
-        <span class="stat">{{ statistics.withFrequency }} with frequency data</span>
+        <span class="stat">{{ statistics.withFrequency }} with character frequency data</span>
+        <span class="stat">{{ statistics.withWordFrequency }} with word frequency lists</span>
         <span class="stat">{{ statistics.withKeyboard }} with keyboards</span>
       </div>
 
@@ -54,7 +55,15 @@
                 type="checkbox"
                 @change="onFilterChange"
               />
-              <span class="checkbox-text">Frequency Data</span>
+              <span class="checkbox-text">Character Frequency Data</span>
+            </label>
+            <label class="checkbox-label">
+              <input
+                v-model="filters.hasWordFrequency"
+                type="checkbox"
+                @change="onFilterChange"
+              />
+              <span class="checkbox-text">Word Frequency List</span>
             </label>
             <label class="checkbox-label">
               <input
@@ -146,7 +155,16 @@
               <td class="features-cell">
                 <div class="feature-badges">
                   <span v-if="alphabet.hasTTS" class="badge tts-badge" title="Text-to-Speech Available">TTS</span>
-                  <span v-if="alphabet.hasFrequency" class="badge freq-badge" title="Frequency Data Available">FREQ</span>
+                  <span
+                    v-if="alphabet.hasFrequency"
+                    class="badge freq-badge"
+                    title="Character Frequency Data Available"
+                  >FREQ</span>
+                  <span
+                    v-if="alphabet.hasWordFrequency"
+                    class="badge word-badge"
+                    title="Word Frequency List Available"
+                  >WORDS</span>
                   <span v-if="alphabet.hasKeyboard" class="badge kbd-badge" title="Keyboard Layout Available">KBD</span>
                 </div>
               </td>
@@ -229,6 +247,7 @@ const effectivePageSize = computed(() => {
 const filters = reactive({
   hasTTS: false,
   hasFrequency: false,
+  hasWordFrequency: false,
   hasKeyboard: false,
   scriptType: ''
 });
@@ -240,6 +259,7 @@ const sortOrder = ref('asc');
 const hasActiveFilters = computed(() => {
   return filters.hasTTS === true ||
          filters.hasFrequency === true ||
+         filters.hasWordFrequency === true ||
          filters.hasKeyboard === true ||
          filters.scriptType !== '';
 });
@@ -248,6 +268,7 @@ const activeFilterCount = computed(() => {
   let count = 0;
   if (filters.hasTTS) count++;
   if (filters.hasFrequency) count++;
+  if (filters.hasWordFrequency) count++;
   if (filters.hasKeyboard) count++;
   if (filters.scriptType) count++;
   return count;
@@ -274,6 +295,7 @@ const performSearch = async () => {
       filters: {
         hasTTS: filters.hasTTS ? true : null,
         hasFrequency: filters.hasFrequency ? true : null,
+        hasWordFrequency: filters.hasWordFrequency ? true : null,
         hasKeyboard: filters.hasKeyboard ? true : null,
         scriptType: filters.scriptType
       },
@@ -310,6 +332,7 @@ const clearFilters = () => {
   searchTerm.value = '';
   filters.hasTTS = false;
   filters.hasFrequency = false;
+  filters.hasWordFrequency = false;
   filters.hasKeyboard = false;
   filters.scriptType = '';
   sortBy.value = 'name';
@@ -626,6 +649,11 @@ onMounted(async () => {
 .freq-badge {
   background: #d1ecf1;
   color: #0c5460;
+}
+
+.word-badge {
+  background: #fff3cd;
+  color: #856404;
 }
 
 .kbd-badge {

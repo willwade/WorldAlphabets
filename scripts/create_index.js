@@ -9,15 +9,34 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ALPHABETS_DIR = path.join(DATA_DIR, 'alphabets');
+const WORD_FREQ_DIR = path.join(DATA_DIR, 'freq', 'top1000');
 
 async function createIndex() {
   console.log('🔄 Creating data index...');
   
   try {
+    // Load available word frequency lists (Top-1000 tokens)
+    let wordFrequencyCodes = new Set();
+    try {
+      const freqFiles = await fs.readdir(WORD_FREQ_DIR);
+      wordFrequencyCodes = new Set(
+        freqFiles
+          .filter((file) => file.endsWith('.txt'))
+          .map((file) => path.basename(file, '.txt').toLowerCase())
+      );
+      console.log(`ℹ️  Found ${wordFrequencyCodes.size} word frequency lists`);
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        console.warn('⚠️  Word frequency directory not found, skipping word frequency indexing');
+      } else {
+        console.warn(`⚠️  Unable to read word frequency directory: ${err.message}`);
+      }
+    }
+
     // Read all alphabet files
     const files = await fs.readdir(ALPHABETS_DIR);
     const alphabetFiles = files.filter(f => f.endsWith('.json'));
-    
+
     const index = [];
     const scripts = {};
     
@@ -33,6 +52,15 @@ async function createIndex() {
         const script = parts.slice(1).join('-') || 'Latn';
         
         // Add to index
+        const codeCandidates = new Set(
+          [language, data.iso639_1, data.iso639_3]
+            .filter(Boolean)
+            .map(code => code.toLowerCase())
+        );
+
+        const hasWordFrequency = Array.from(codeCandidates)
+          .some(code => wordFrequencyCodes.has(code));
+
         const entry = {
           language,
           script,
@@ -41,6 +69,7 @@ async function createIndex() {
           iso639_3: data.iso639_3,
           letterCount: data.lowercase ? data.lowercase.length : 0,
           hasFrequency: data.frequency && Object.keys(data.frequency).length > 0,
+          hasWordFrequency,
           file: file
         };
         
@@ -78,6 +107,7 @@ async function createIndex() {
       totalLanguages: Object.keys(scripts).length,
       totalScripts: new Set(index.map(e => e.script)).size,
       withFrequency: index.filter(e => e.hasFrequency).length,
+      withWordFrequency: index.filter(e => e.hasWordFrequency).length,
       lastUpdated: new Date().toISOString(),
       scriptCounts: {}
     };
@@ -95,7 +125,8 @@ async function createIndex() {
     console.log(`   Alphabets: ${stats.totalAlphabets}`);
     console.log(`   Languages: ${stats.totalLanguages}`);
     console.log(`   Scripts: ${stats.totalScripts}`);
-    console.log(`   With frequency data: ${stats.withFrequency}`);
+    console.log(`   With character frequency data: ${stats.withFrequency}`);
+    console.log(`   With word frequency data: ${stats.withWordFrequency}`);
     
   } catch (error) {
     console.error('❌ Error creating index:', error);
