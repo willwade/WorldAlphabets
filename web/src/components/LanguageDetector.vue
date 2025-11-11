@@ -247,6 +247,10 @@ const detectLanguage = async () => {
     );
 
     console.log('Detection results:', results);
+    console.log('Top 5 results:');
+    results.slice(0, 5).forEach((r, i) => {
+      console.log(`  ${i + 1}. ${r.languageName} (${r.language}): ${r.confidence.toFixed(4)} [${r.mode}]`);
+    });
     detectionResults.value = results;
     hasDetected.value = true;
     detectionStatus.value = 'Detection complete!';

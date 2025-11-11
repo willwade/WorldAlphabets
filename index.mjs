@@ -348,6 +348,30 @@ async function getCandidateLanguages(text, maxCandidates = 20) {
     }
   }
 
+  // Word-frequency-based candidate expansion: check if input words are in any language's top-1000 words
+  if (wordTokens.size > 0) {
+    const availableLangs = Object.keys(FREQ_RANKS);
+    for (const lang of availableLangs) {
+      if (seen.has(lang)) continue;
+      const entry = FREQ_RANKS[lang];
+      if (!entry || !Array.isArray(entry.tokens)) continue;
+
+      // Check if any input word is in this language's top-1000 words
+      let matches = 0;
+      for (const token of wordTokens) {
+        if (entry.tokens.includes(token)) {
+          matches++;
+        }
+      }
+
+      // If we have word matches, add this language to candidates
+      if (matches > 0) {
+        out.unshift(lang);  // Add to front since word matches are strong signals
+        seen.add(lang);
+      }
+    }
+  }
+
   // Short-text heuristic: if very few tokens, add languages whose hello samples overlap
   if (wordTokens.size > 0 && wordTokens.size <= 6) {
     const index = await getIndexData();
@@ -438,12 +462,12 @@ export async function detectLanguages(text, candidateLangs = null, priors = {}, 
           if (sampTokens.has(t)) matches++;
         }
         if (matches > 0) {
-          bonus = Math.min(0.7, matches * 0.25); // cap the boost
+          bonus = Math.min(0.05, matches * 0.02); // gentle boost, cap at 0.05
         }
         // Extra boost for near-exact phrase match (ignoring punctuation/case)
         const norm = s => s.normalize('NFKC').toLowerCase().replace(/[^\p{L}]+/gu, ' ').trim();
         if (norm(text) && norm(sample) && norm(text) === norm(sample)) {
-          bonus = Math.max(bonus, 0.7);
+          bonus = Math.max(bonus, 0.3); // exact phrase match gets 0.3 boost
           exactMatchLangs.add(lang);
         }
       }
