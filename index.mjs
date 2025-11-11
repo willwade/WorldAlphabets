@@ -469,8 +469,8 @@ export async function detectLanguages(text, candidateLangs = null, priors = {}, 
   results.sort((a, b) => {
     const [langA, scoreA] = a;
     const [langB, scoreB] = b;
-    let adjustedA = scoreA + (wordBasedLangs.has(langA) ? 0.10 : 0) + (exactMatchLangs.has(langA) ? 0.05 : 0);
-    let adjustedB = scoreB + (wordBasedLangs.has(langB) ? 0.10 : 0) + (exactMatchLangs.has(langB) ? 0.05 : 0);
+    let adjustedA = scoreA + (wordBasedLangs.has(langA) ? 0.15 : 0) + (exactMatchLangs.has(langA) ? 0.05 : 0);
+    let adjustedB = scoreB + (wordBasedLangs.has(langB) ? 0.15 : 0) + (exactMatchLangs.has(langB) ? 0.05 : 0);
 
     if (exactMatchLangs.has(langA) && exactMatchLangs.has(langB)) {
       const posA = indexPos.has(langA) ? indexPos.get(langA) : Number.MAX_SAFE_INTEGER;

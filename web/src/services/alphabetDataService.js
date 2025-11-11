@@ -266,6 +266,8 @@ class AlphabetDataService {
 
     return {
       totalAlphabets: enrichedData.length,
+      totalLanguages: [...new Set(enrichedData.map(a => a.language))].length,
+      totalScripts: [...new Set(enrichedData.map(a => a.script))].length,
       withTTS: enrichedData.filter(a => a.hasTTS).length,
       withFrequency: enrichedData.filter(a => a.hasFrequency).length,
       withWordFrequency: enrichedData.filter(a => a.hasWordFrequency).length,

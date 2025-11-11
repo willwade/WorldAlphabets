@@ -481,8 +481,8 @@ function detectLanguages(text, candidateLangs, priors = {}, topk = 3) {
   results.sort((a, b) => {
     const [langA, scoreA] = a;
     const [langB, scoreB] = b;
-    const adjustedScoreA = wordBasedLangs.has(langA) ? scoreA + 0.1 : scoreA; // Increased boost
-    const adjustedScoreB = wordBasedLangs.has(langB) ? scoreB + 0.1 : scoreB; // Increased boost
+    const adjustedScoreA = wordBasedLangs.has(langA) ? scoreA + 0.15 : scoreA; // Increased boost
+    const adjustedScoreB = wordBasedLangs.has(langB) ? scoreB + 0.15 : scoreB; // Increased boost
     return adjustedScoreB - adjustedScoreA;
   });
 

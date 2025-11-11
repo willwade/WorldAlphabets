@@ -206,7 +206,7 @@ def detect_languages(
     def sort_key(item: Tuple[str, float]) -> float:
         lang, score = item
         if lang in word_based_langs:
-            return score + 0.05  # Larger boost for word-based detection
+            return score + 0.15  # Larger boost for word-based detection
         return score
 
     results.sort(key=sort_key, reverse=True)

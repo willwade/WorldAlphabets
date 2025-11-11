@@ -4,9 +4,10 @@
     <div class="header">
       <h1>World Alphabets Explorer</h1>
       <div v-if="statistics" class="stats">
-        <span class="stat">{{ statistics.totalAlphabets }} alphabets</span>
+        <span class="stat">{{ statistics.totalAlphabets }} language-script combinations</span>
+        <span class="stat">{{ statistics.totalLanguages }} languages</span>
+        <span class="stat">{{ statistics.totalScripts }} scripts</span>
         <span class="stat">{{ statistics.withTTS }} with TTS</span>
-        <span class="stat">{{ statistics.withFrequency }} with character frequency data</span>
         <span class="stat">{{ statistics.withWordFrequency }} with word frequency lists</span>
         <span class="stat">{{ statistics.withKeyboard }} with keyboards</span>
       </div>
