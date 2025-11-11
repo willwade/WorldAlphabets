@@ -115,12 +115,16 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 
 **5-Priority Source Pipeline**:
 1. **Leipzig Corpora Collection** - High-quality news/web corpora (CC-BY)
+   - Dynamic catalogue-based discovery for 100+ languages
+   - Automatic fallback logic for missing corpora
+   - Uses ISO 639-3 codes for comprehensive coverage
+   - Prioritizes: community > news > mixed > web > newscrawl > wikipedia
 2. **HermitDave FrequencyWords** - OpenSubtitles/Wikipedia sources (CC-BY)
 3. **Tatoeba sentences** - Sentence-based extraction (CC-BY 2.0 FR)
 4. **Existing alphabet frequency data** - Character-level fallback
 5. **Simia unigrams** - CJK character data
 
-**Coverage**: 90.9% (130/143 languages)
+**Coverage**: ~95% (estimated after Leipzig improvements)
 
 **Outputs**:
 - `data/freq/top1000/<lang>.txt` - Top-1000 tokens per language
