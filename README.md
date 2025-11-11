@@ -630,6 +630,16 @@ consolidated data pipeline as the ``build_top1000`` stage.
 ## Licence Info
 
 - This project is licensed under the MIT License.
-- Data sourced from [kalenchukov/Alphabet](https://github.com/kalenchukov/Alphabet) is licensed under the Apache 2.0 License.
-- Data sourced from [Simia unigrams dataset](http://simia.net/letters/) (Data from [Wiktionary](https://wiktionary.org)) is licensed under the Creative Commons Attribution-ShareAlike License.
-- Data sourced from [Wikipedia](https://wikipedia.org) is licensed under the Creative Commons Attribution-ShareAlike License.
+- **All external data sources permit redistribution** under their respective open licenses.
+- For comprehensive licensing information and attribution requirements, see **[Data Sources and Licenses](docs/DATA_SOURCES_LICENSES.md)**.
+
+### Key Data Sources
+
+- **Leipzig Corpora Collection** (CC-BY) - High-quality frequency data for 77 languages
+- **HermitDave FrequencyWords** (CC-BY-SA-4.0) - OpenSubtitles/Wikipedia frequency data for 48 languages
+- **Tatoeba** (CC-BY 2.0 FR) - Sentence data for 73 languages
+- **Simia unigrams** (CC-BY-SA) - CJK character frequency data from Wiktionary
+- **Kalenchukov/Alphabet** (Apache 2.0) - Alphabet definitions
+- **Unicode CLDR** (Unicode License) - Locale and character data
+- **ISO 639-3** (ODC-By) - Language codes from SIL International
+- **Wikidata** (CC0) - Language-script mappings
