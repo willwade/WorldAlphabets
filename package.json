@@ -51,6 +51,7 @@
     "keyboards.js",
     "keyboards.d.ts",
     "data/",
+    "!data/audio/",
     "dist/"
   ],
   "devDependencies": {

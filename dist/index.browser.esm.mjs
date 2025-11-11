@@ -57,6 +57,21 @@ export async function getAvailableCodes() {
 }
 
 /**
+ * Load Top-1000 frequency tokens for a language from embedded data.
+ */
+export async function loadFrequencyList(code) {
+  const entry = FREQ_RANKS[code];
+  if (!entry || !Array.isArray(entry.tokens)) {
+    throw new Error(`Frequency list for code "${code}" not found.`);
+  }
+  const mode = entry.mode === 'bigram' ? 'bigram' : 'word';
+  const tokens = entry.tokens
+    .map(token => (typeof token === 'string' ? token.trim() : ''))
+    .filter(Boolean);
+  return { language: code, tokens, mode };
+}
+
+/**
  * Load frequency data for a language (browser: static embedded ranks)
  */
 async function loadRankData(lang) {
@@ -242,9 +257,9 @@ function characterOverlap(textChars, alphabetChars) {
 
   const coverage = matchingChars.size / textChars.size;
   const penalty = nonMatchingChars.size / textChars.size;
-  const alphabetCoverage = matchingChars.size / alphabetChars.size;
 
-  const score = coverage * 0.6 - penalty * 0.2 + alphabetCoverage * 0.2;
+  // Character fallback: remove size bonus to avoid bias toward small alphabets
+  const score = coverage * 0.7 - penalty * 0.3;
   return Math.max(0.0, score);
 }
 
@@ -290,7 +305,7 @@ async function getCandidateLanguages(text, maxCandidates = 20) {
   const dom = detectDominantScript(text);
   if (dom) {
     const primaryByScript = {
-      Latn: ['en','es','fr','de','pt','it','nl'],
+      Latn: ['en','es','fr','de','pt','it','nl','af'],
       Cyrl: ['ru','uk','sr','bg'],
       Grek: ['el'],
       Arab: ['ar','fa','ur','ps'],
@@ -363,7 +378,7 @@ async function getCandidateLanguages(text, maxCandidates = 20) {
 export async function detectLanguages(text, candidateLangs = null, priors = {}, topk = 3) {
   // If no candidates provided, use smart filtering
   if (!candidateLangs || candidateLangs === null) {
-    candidateLangs = await getCandidateLanguages(text, 20);
+    candidateLangs = await getCandidateLanguages(text, 50);
   }
 
   // Validate that candidateLangs is now an array
@@ -454,8 +469,8 @@ export async function detectLanguages(text, candidateLangs = null, priors = {}, 
   results.sort((a, b) => {
     const [langA, scoreA] = a;
     const [langB, scoreB] = b;
-    let adjustedA = scoreA + (wordBasedLangs.has(langA) ? 0.02 : 0) + (exactMatchLangs.has(langA) ? 0.05 : 0);
-    let adjustedB = scoreB + (wordBasedLangs.has(langB) ? 0.02 : 0) + (exactMatchLangs.has(langB) ? 0.05 : 0);
+    let adjustedA = scoreA + (wordBasedLangs.has(langA) ? 0.10 : 0) + (exactMatchLangs.has(langA) ? 0.05 : 0);
+    let adjustedB = scoreB + (wordBasedLangs.has(langB) ? 0.10 : 0) + (exactMatchLangs.has(langB) ? 0.05 : 0);
 
     if (exactMatchLangs.has(langA) && exactMatchLangs.has(langB)) {
       const posA = indexPos.has(langA) ? indexPos.get(langA) : Number.MAX_SAFE_INTEGER;
