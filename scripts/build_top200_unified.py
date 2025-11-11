@@ -11,9 +11,10 @@ This script combines the best features from all previous build scripts:
 Priority order for maximum coverage:
 1. Leipzig Corpora Collection (Wortschatz) - High-quality news/web corpora
 2. HermitDave FrequencyWords - OpenSubtitles/Wikipedia sources
-3. Tatoeba sentences - Great for under-resourced languages
-4. Existing alphabet frequency data - Character-level fallback
-5. Simia unigrams - CJK character data
+3. CommonVoice - Speech transcriptions for 130+ languages
+4. Tatoeba sentences - Great for under-resourced languages
+5. Existing alphabet frequency data - Character-level fallback
+6. Simia unigrams - CJK character data
 
 Usage:
     uv run python scripts/build_top200_unified.py --all
@@ -486,7 +487,73 @@ def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[
     return None
 
 
-# Priority 4: Existing alphabet frequency data
+# Priority 3: CommonVoice speech transcriptions
+def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+    """
+    Fetch word frequencies from CommonVoice transcriptions.
+
+    Requires manually downloaded CommonVoice datasets in .cache/commonvoice/<lang>/
+    See scripts/download_commonvoice_manual.md for instructions.
+    """
+    import csv
+
+    cache_dir = Path(".cache/commonvoice") / lang_code
+
+    if not cache_dir.exists():
+        return None
+
+    # Find validated.tsv file
+    tsv_path = cache_dir / "validated.tsv"
+
+    if not tsv_path.exists():
+        # Try in subdirectory (CommonVoice extracts to cv-corpus-*/)
+        subdirs = list(cache_dir.glob("cv-corpus-*"))
+        if subdirs:
+            tsv_path = subdirs[0] / lang_code / "validated.tsv"
+
+    if not tsv_path.exists():
+        return None
+
+    try:
+        # Read transcriptions from TSV
+        transcriptions = []
+        with open(tsv_path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                text = row.get("sentence", "").strip()
+                if text:
+                    transcriptions.append(text)
+
+        if not transcriptions:
+            return None
+
+        # Tokenize and count word frequencies
+        use_bigrams = is_cjk_language(lang_code)
+        word_counts: Counter[str] = Counter()
+
+        for text in transcriptions:
+            if use_bigrams:
+                tokens = tokenize_bigrams(text)
+            else:
+                tokens = tokenize_words(text)
+                # Filter out non-words (punctuation, etc.)
+                tokens = [t for t in tokens if _is_word(t)]
+            word_counts.update(tokens)
+
+        # Get top words
+        top_words = [word for word, count in word_counts.most_common(limit)]
+
+        if top_words:
+            print(f"  CommonVoice: {len(top_words)} tokens from {len(transcriptions)} transcriptions")
+            return top_words
+
+    except Exception as e:
+        print(f"  CommonVoice error for {lang_code}: {e}")
+
+    return None
+
+
+# Priority 5: Existing alphabet frequency data
 def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
     """Load character frequencies from existing alphabet data."""
     try:
@@ -577,7 +644,7 @@ def generate_bigrams(text: str, limit: int = 1000) -> List[str]:
 def build_top1000_unified(
     lang_code: str, output_dir: Path, force: bool = False
 ) -> Tuple[bool, str]:
-    """Build Top-1000 list using unified 5-priority approach."""
+    """Build Top-1000 list using unified 6-priority approach."""
     print(f"Building Top-1000 for {lang_code} (unified approach)...")
 
     output_file = output_dir / f"{lang_code}.txt"
@@ -610,13 +677,19 @@ def build_top1000_unified(
                 tokens = words[:1000]
             source_used = "HermitDave"
 
-    # Priority 3: Tatoeba sentences
+    # Priority 3: CommonVoice speech transcriptions
+    if not tokens:
+        tokens = fetch_commonvoice_words(lang_code, 1000)
+        if tokens:
+            source_used = "CommonVoice"
+
+    # Priority 4: Tatoeba sentences
     if not tokens:
         tokens = fetch_tatoeba_sentences(lang_code, 1000)
         if tokens:
             source_used = "Tatoeba"
 
-    # Priority 4: Existing alphabet frequency data
+    # Priority 5: Existing alphabet frequency data
     if not tokens:
         chars = load_alphabet_frequencies(lang_code, 1000)
         if chars:
@@ -629,7 +702,7 @@ def build_top1000_unified(
                 tokens = chars[:1000]
             source_used = "Alphabet"
 
-    # Priority 5: Simia unigrams (CJK fallback)
+    # Priority 6: Simia unigrams (CJK fallback)
     if not tokens:
         chars = load_simia_unigrams(lang_code, 1000)
         if chars:
@@ -705,13 +778,14 @@ def main() -> None:
         return
 
     print(
-        f"Processing {len(target_langs)} languages using unified 5-priority approach..."
+        f"Processing {len(target_langs)} languages using unified 6-priority approach..."
     )
     print("Priority 1: Leipzig Corpora Collection")
     print("Priority 2: HermitDave FrequencyWords")
-    print("Priority 3: Tatoeba sentences")
-    print("Priority 4: Existing alphabet frequency data")
-    print("Priority 5: Simia unigrams")
+    print("Priority 3: CommonVoice speech transcriptions")
+    print("Priority 4: Tatoeba sentences")
+    print("Priority 5: Existing alphabet frequency data")
+    print("Priority 6: Simia unigrams")
     print()
 
     successful = 0
@@ -719,6 +793,7 @@ def main() -> None:
     sources_used = {
         "Leipzig": 0,
         "HermitDave": 0,
+        "CommonVoice": 0,
         "Tatoeba": 0,
         "Alphabet": 0,
         "Simia": 0,
@@ -742,7 +817,7 @@ def main() -> None:
     # Write build report
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Unified 5-Priority Pipeline (Leipzig + HermitDave + Tatoeba + Alphabet + Simia)",
+        "source": "Unified 6-Priority Pipeline (Leipzig + HermitDave + CommonVoice + Tatoeba + Alphabet + Simia)",
         "successful": successful,
         "failed": failed,
         "languages": target_langs,

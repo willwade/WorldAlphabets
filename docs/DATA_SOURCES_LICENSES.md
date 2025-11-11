@@ -12,6 +12,14 @@ WorldAlphabets aggregates data from multiple open-source and openly-licensed sou
 
 The unified frequency data pipeline (`scripts/build_top200_unified.py`) uses the following sources in priority order:
 
+**Priority Order**:
+1. Leipzig Corpora Collection (77 languages)
+2. HermitDave FrequencyWords (48 languages)
+3. Mozilla CommonVoice (130+ languages)
+4. Tatoeba Sentences (73 languages)
+5. Existing alphabet frequency data (character-level fallback)
+6. Simia unigrams (CJK character data)
+
 ### 1. Leipzig Corpora Collection
 
 **Source**: Wortschatz Leipzig, University of Leipzig  
@@ -70,7 +78,50 @@ The unified frequency data pipeline (`scripts/build_top200_unified.py`) uses the
 
 ---
 
-### 3. Tatoeba Sentences
+### 3. Mozilla CommonVoice
+
+**Source**: Mozilla Foundation
+**Website**: https://commonvoice.mozilla.org/
+**Data Portal**: https://datacollective.mozillafoundation.org/
+**License**: **Creative Commons Zero (CC0) - Public Domain Dedication**
+
+**Languages Covered**: 130+ languages (Spontaneous Speech and regular datasets)
+
+**License Details**:
+- CC0 1.0 Universal Public Domain Dedication
+- No attribution required (though appreciated)
+- Commercial use is permitted
+- Modifications are permitted
+- **Redistribution**: ✅ **Allowed** without restrictions
+
+**Dataset Types**:
+- **Regular CommonVoice**: Validated speech recordings with transcriptions (`cv-corpus-*/validated.tsv`)
+- **Spontaneous Speech**: Natural speech recordings with transcriptions (`sps-corpus-*/ss-corpus-{lang}.tsv`)
+
+**API Access**: Mozilla Data Collective API
+- Base URL: `https://datacollective.mozillafoundation.org/api`
+- Requires API key authentication
+- Two-step download process (create session, then download)
+- Terms acceptance required per dataset via web interface
+
+**Usage in WorldAlphabets**:
+- Third-priority source for frequency data
+- Accessed via Mozilla Data Collective API (`scripts/fetch_commonvoice.py`)
+- Downloads complete dataset archives (`.tar.gz` format)
+- Extracts transcriptions from TSV files
+- Calculates word frequencies from speech transcriptions
+- Particularly valuable for under-resourced and indigenous languages
+
+**Attribution**: Speech transcription data from Mozilla CommonVoice (https://commonvoice.mozilla.org), licensed under CC0
+
+**Configured Languages** (as of 2025-11):
+- ady (Adyghe), ttj (Rutoro), tob (Toba Qom), meh (Southwestern Tlaxiaco Mixtec)
+- top (Papantla Totonac), ukv (Kuku), seh (Sena), mel (Central Melanau)
+- xkl (Kenyah), ruc (Ruuli), mmc (Michoacán Mazahua), msi (Sabah Malay)
+
+---
+
+### 4. Tatoeba Sentences
 
 **Source**: Tatoeba Association  
 **Website**: https://tatoeba.org/  
@@ -89,7 +140,7 @@ The unified frequency data pipeline (`scripts/build_top200_unified.py`) uses the
 **Terms of Use**: https://tatoeba.org/en/terms_of_use
 
 **Usage in WorldAlphabets**:
-- Tertiary source for frequency data, especially for under-resourced languages
+- Fourth-priority source for frequency data, especially for under-resourced languages
 - Sentences are tokenized and word frequencies are calculated
 - Particularly valuable for languages lacking other frequency data sources
 
@@ -97,7 +148,7 @@ The unified frequency data pipeline (`scripts/build_top200_unified.py`) uses the
 
 ---
 
-### 4. Simia Unigrams Dataset
+### 5. Simia Unigrams Dataset
 
 **Source**: Denny Vrandečić (Simia.net)  
 **Website**: http://simia.net/letters/  

@@ -589,7 +589,7 @@ mypy .
 
 The language detection helpers rely on comprehensive frequency lists for each language.
 These lists contain the 1000 most common words per language, sourced from real external
-data sources like HermitDave FrequencyWords, Leipzig Corpora, and Tatoeba sentences.
+data sources like Leipzig Corpora, HermitDave FrequencyWords, CommonVoice, and Tatoeba sentences.
 This provides significantly improved accuracy over the previous top-200 approach.
 
 For major languages (French, English, Spanish), the expanded lists include:
@@ -637,6 +637,7 @@ consolidated data pipeline as the ``build_top1000`` stage.
 
 - **Leipzig Corpora Collection** (CC-BY) - High-quality frequency data for 77 languages
 - **HermitDave FrequencyWords** (CC-BY-SA-4.0) - OpenSubtitles/Wikipedia frequency data for 48 languages
+- **Mozilla CommonVoice** (CC0) - Speech transcription data for 130+ languages via Mozilla Data Collective
 - **Tatoeba** (CC-BY 2.0 FR) - Sentence data for 73 languages
 - **Simia unigrams** (CC-BY-SA) - CJK character frequency data from Wiktionary
 - **Kalenchukov/Alphabet** (Apache 2.0) - Alphabet definitions

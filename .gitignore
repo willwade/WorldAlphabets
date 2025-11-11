@@ -1,5 +1,9 @@
 .DS_Store
 data/sources
+
+# Cache directories
+.cache/
+
 # Python
 __pycache__/
 *.pyc
