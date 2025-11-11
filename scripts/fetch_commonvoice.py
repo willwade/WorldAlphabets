@@ -229,7 +229,7 @@ def fetch_commonvoice_transcriptions(
         else:
             tsv_files = [f"{split}.tsv"]
 
-        transcriptions = []
+        transcriptions: List[str] = []
 
         for tsv_file in tsv_files:
             tsv_path = dataset_dir / tsv_file
@@ -280,7 +280,7 @@ def fetch_commonvoice_transcriptions(
 
 def calculate_word_frequencies(transcriptions: List[str]) -> Counter:
     """Calculate word frequencies from transcriptions."""
-    word_counts = Counter()
+    word_counts: Counter[str] = Counter()
     
     for text in transcriptions:
         # Simple word tokenization (split on whitespace and punctuation)
@@ -292,7 +292,7 @@ def calculate_word_frequencies(transcriptions: List[str]) -> Counter:
 
 def calculate_char_frequencies(transcriptions: List[str]) -> Counter:
     """Calculate character frequencies from transcriptions."""
-    char_counts = Counter()
+    char_counts: Counter[str] = Counter()
     
     for text in transcriptions:
         # Count all alphabetic characters
@@ -359,7 +359,7 @@ def save_frequency_list(
     print(f"✅ Saved {len(tokens)} {mode}s to {output_path}")
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--lang",
