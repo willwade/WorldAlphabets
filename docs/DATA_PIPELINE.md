@@ -207,6 +207,20 @@ The unified Top-1000 pipeline handles missing data through a comprehensive 5-pri
 
 This approach achieves 90.9% coverage, with only 19 very low-resource languages remaining without frequency data.
 
+Use `scripts/fetch_leipzig_corpora.py` to monitor these gaps and download fresh
+frequency lists directly from Leipzig corpora:
+
+```bash
+# Inspect missing languages (including partial lists) and show Leipzig availability
+uv run python scripts/fetch_leipzig_corpora.py report --show-sources
+
+# Adjust the minimum token threshold for incomplete lists
+uv run python scripts/fetch_leipzig_corpora.py report --min-words 750
+
+# Fetch corpora and emit local frequency artefacts
+uv run python scripts/fetch_leipzig_corpora.py fetch --langs ig,ibo
+```
+
 ### Missing Language Information
 1. Use langcodes library for basic info
 2. Check manual overrides
