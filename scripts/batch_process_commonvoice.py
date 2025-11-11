@@ -170,7 +170,7 @@ def main():
         return 0
     
     print(f"\n{'='*60}")
-    print(f"🌍 CommonVoice Batch Processing")
+    print("🌍 CommonVoice Batch Processing")
     print(f"{'='*60}")
     print(f"Languages to process: {len(langs_to_process)}")
     for lang in langs_to_process:

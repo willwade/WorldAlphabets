@@ -19,16 +19,11 @@ Requirements:
 
 import argparse
 import csv
-import gzip
-import io
-import json
-import os
 import re
 import tarfile
 from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from urllib.parse import urljoin
 
 try:
     import requests
@@ -187,7 +182,7 @@ def download_dataset(lang_code: str) -> Optional[Path]:
         print(f"\nDownload complete: {tar_path}")
 
         # Extract tar file
-        print(f"Extracting dataset...")
+        print("Extracting dataset...")
         lang_cache.mkdir(parents=True, exist_ok=True)
         with tarfile.open(tar_path, "r:gz") as tar:
             tar.extractall(lang_cache)
@@ -289,7 +284,6 @@ def calculate_word_frequencies(transcriptions: List[str]) -> Counter:
     
     for text in transcriptions:
         # Simple word tokenization (split on whitespace and punctuation)
-        import re
         words = re.findall(r'\b\w+\b', text.lower())
         word_counts.update(words)
     
