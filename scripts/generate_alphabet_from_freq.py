@@ -33,7 +33,7 @@ def is_cyrillic(char: str) -> bool:
     """Check if character is Cyrillic."""
     try:
         return "CYRILLIC" in unicodedata.name(char, "")
-    except:
+    except (ValueError, TypeError):
         return False
 
 
@@ -42,7 +42,7 @@ def is_latin(char: str) -> bool:
     try:
         name = unicodedata.name(char, "")
         return "LATIN" in name or char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    except:
+    except (ValueError, TypeError):
         return False
 
 
@@ -66,7 +66,7 @@ def extract_characters(words: List[str], script: Optional[str] = None) -> Set[st
 
 def calculate_char_frequencies(words: List[str], script: Optional[str] = None) -> Dict[str, float]:
     """Calculate character frequencies from word list, filtered by script."""
-    char_counts = Counter()
+    char_counts: Counter[str] = Counter()
     total_chars = 0
 
     for word in words:
@@ -135,7 +135,7 @@ def get_language_name(lang_code: str) -> str:
     try:
         import langcodes
         return langcodes.Language.get(lang_code).display_name()
-    except:
+    except (ImportError, AttributeError, LookupError):
         # Fallback names
         names = {
             "ady": "Adyghe",
@@ -209,7 +209,7 @@ def generate_alphabet_file(lang_code: str, script: Optional[str] = None) -> bool
     return True
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(description="Generate alphabet JSON from word frequency data")
     parser.add_argument("--lang", required=True, help="Language code (e.g., ady)")
     parser.add_argument("--script", help="Script code (e.g., Cyrl, Latn). Auto-detected if not provided")

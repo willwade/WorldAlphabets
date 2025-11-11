@@ -115,7 +115,7 @@ def update_index() -> bool:
         return False
 
 
-def main():
+def main() -> int:
     parser = argparse.ArgumentParser(
         description="Batch process CommonVoice languages"
     )
@@ -143,7 +143,7 @@ def main():
     elif args.langs:
         langs_to_process = args.langs
         # Validate language codes
-        invalid = [l for l in langs_to_process if l not in AVAILABLE_LANGUAGES]
+        invalid = [lang for lang in langs_to_process if lang not in AVAILABLE_LANGUAGES]
         if invalid:
             print(f"❌ Invalid language codes: {', '.join(invalid)}")
             print(f"Available: {', '.join(AVAILABLE_LANGUAGES.keys())}")
