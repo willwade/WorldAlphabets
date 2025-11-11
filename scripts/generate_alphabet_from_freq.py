@@ -169,21 +169,18 @@ def generate_alphabet_file(lang_code: str, script: Optional[str] = None) -> bool
 
     # Separate case (generates missing uppercase/lowercase)
     uppercase, lowercase = separate_case(chars)
-    
-    # Get all unique letters (both cases)
-    all_letters = sorted(set(c.lower() for c in chars))
 
     # Calculate frequencies (with script filtering)
     frequencies = calculate_char_frequencies(words, script)
-    
+
     # Get language name
     language_name = get_language_name(lang_code)
-    
+
     # Build alphabet data
     alphabet_data = {
         "language": language_name,
         "iso639_3": lang_code,  # Note: might not be exact ISO 639-3
-        "alphabetical": all_letters,
+        "alphabetical": uppercase,  # Use uppercase for alphabetical (matches existing format)
         "uppercase": uppercase,
         "lowercase": lowercase,
         "frequency": frequencies,
@@ -203,8 +200,8 @@ def generate_alphabet_file(lang_code: str, script: Optional[str] = None) -> bool
     print(f"✅ Generated: {output_file}")
     print(f"   Language: {language_name}")
     print(f"   Script: {script}")
-    print(f"   Characters: {len(all_letters)}")
-    print(f"   Sample: {' '.join(all_letters[:10])}")
+    print(f"   Characters: {len(uppercase)}")
+    print(f"   Sample: {' '.join(uppercase[:10])}")
     
     return True
 
