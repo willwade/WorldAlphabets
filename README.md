@@ -622,8 +622,11 @@ Use `scripts/fetch_leipzig_corpora.py` to inspect Leipzig support and
 produce fresh word and character frequencies for under-resourced languages.
 
 ```bash
-# Report languages lacking Top-1000 word lists and show Leipzig coverage
+# Report languages lacking Top-1000 word lists (or with <1000 tokens)
 uv run python scripts/fetch_leipzig_corpora.py report --show-sources
+
+# Treat languages with fewer than 500 tokens as incomplete
+uv run python scripts/fetch_leipzig_corpora.py report --min-words 500
 
 # Fetch Igbo data and write outputs under leipzig_output/
 uv run python scripts/fetch_leipzig_corpora.py fetch --langs ig,ibo

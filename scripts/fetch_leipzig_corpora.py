@@ -23,6 +23,7 @@ DEFAULT_WORD_DIR = Path("leipzig_output/words")
 DEFAULT_CHAR_DIR = Path("leipzig_output/chars")
 DEFAULT_JSON_DIR = Path("leipzig_output/json")
 DEFAULT_CORPUS_ID = "eng_news_2024"
+TOP_WORD_DIR = DATA_DIR / "freq" / "top1000"
 
 
 @dataclass(slots=True)
@@ -35,6 +36,7 @@ class LanguageEntry:
     iso639_3: str | None
     has_word_frequency: bool
     source_file: str | None
+    word_frequency_tokens: int | None
 
 
 @dataclass(slots=True)
@@ -53,6 +55,22 @@ class CorpusResult:
     words: List[str]
     word_counts: List[tuple[str, int]]
     char_counts: List[tuple[str, int]]
+
+
+def count_word_frequency_tokens(code: str) -> int | None:
+    """Return the number of tokens in ``data/freq/top1000/<code>.txt``."""
+
+    if not code:
+        return None
+    path = TOP_WORD_DIR / f"{code}.txt"
+    if not path.exists():
+        return None
+    tokens = 0
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            if line.strip():
+                tokens += 1
+    return tokens
 
 
 def _string_attr(element: Tag, attribute: str) -> str | None:
@@ -198,6 +216,7 @@ def load_language_entries(index_path: Path) -> List[LanguageEntry]:
     data = json.loads(index_path.read_text(encoding="utf-8"))
     entries: List[LanguageEntry] = []
     for item in data:
+        tokens = count_word_frequency_tokens(item.get("language", ""))
         entries.append(
             LanguageEntry(
                 code=item.get("language", ""),
@@ -206,15 +225,20 @@ def load_language_entries(index_path: Path) -> List[LanguageEntry]:
                 iso639_3=item.get("iso639_3"),
                 has_word_frequency=bool(item.get("hasWordFrequency")),
                 source_file=item.get("file"),
+                word_frequency_tokens=tokens,
             )
         )
     return entries
 
 
-def missing_word_languages(entries: Iterable[LanguageEntry]) -> List[LanguageEntry]:
+def missing_word_languages(
+    entries: Iterable[LanguageEntry], min_words: int
+) -> List[LanguageEntry]:
     missing: Dict[str, LanguageEntry] = {}
     for entry in entries:
-        if entry.has_word_frequency:
+        tokens = entry.word_frequency_tokens
+        has_full_coverage = tokens is not None and tokens >= min_words
+        if has_full_coverage:
             continue
         key = entry.iso639_3 or entry.code
         if key not in missing:
@@ -222,15 +246,29 @@ def missing_word_languages(entries: Iterable[LanguageEntry]) -> List[LanguageEnt
     return sorted(missing.values(), key=lambda item: item.code)
 
 
-def print_report(entries: Sequence[LanguageEntry], catalogue: Dict[str, CorpusListing]) -> None:
-    print("Languages missing word frequency data:")
+def print_report(
+    entries: Sequence[LanguageEntry],
+    catalogue: Dict[str, CorpusListing],
+    min_words: int,
+) -> None:
+    print(
+        "Languages missing word frequency data "
+        f"(expecting at least {min_words} tokens):"
+    )
     for entry in entries:
         iso3 = entry.iso639_3 or "unknown"
         listing = catalogue.get(iso3)
         corp_summary = "no Leipzig corpora"
         if listing:
             corp_summary = f"{len(listing.corpora)} Leipzig corpora"
-        print(f"- {entry.code} ({entry.name}) [{iso3}] -> {corp_summary}")
+        tokens = entry.word_frequency_tokens
+        if tokens is None or tokens == 0:
+            coverage = "no existing list"
+        else:
+            coverage = f"{tokens} tokens"
+        print(
+            f"- {entry.code} ({entry.name}) [{iso3}] -> {coverage}; {corp_summary}"
+        )
 
 
 def ensure_dirs(*paths: Path) -> None:
@@ -273,6 +311,7 @@ def resolve_targets(
     all_entries: Sequence[LanguageEntry],
     codes: Sequence[str] | None,
     include_missing: bool,
+    min_words: int,
 ) -> List[LanguageEntry]:
     entries_by_code: Dict[str, LanguageEntry] = {}
     entries_by_iso3: Dict[str, LanguageEntry] = {}
@@ -283,7 +322,7 @@ def resolve_targets(
             entries_by_iso3[entry.iso639_3] = entry
     targets: Dict[str, LanguageEntry] = {}
     if include_missing:
-        for entry in missing_word_languages(all_entries):
+        for entry in missing_word_languages(all_entries, min_words):
             key = entry.iso639_3 or entry.code
             targets[key] = entry
     if codes:
@@ -303,7 +342,9 @@ def resolve_targets(
 
 def fetch_command(args: argparse.Namespace) -> None:
     entries = load_language_entries(LANG_INDEX_PATH)
-    target_entries = resolve_targets(entries, args.langs, args.all_missing)
+    target_entries = resolve_targets(
+        entries, args.langs, args.all_missing, args.min_words
+    )
     if not target_entries:
         print("No target languages selected")
         return
@@ -356,10 +397,10 @@ def fetch_command(args: argparse.Namespace) -> None:
 
 def report_command(args: argparse.Namespace) -> None:
     entries = load_language_entries(LANG_INDEX_PATH)
-    missing = missing_word_languages(entries)
+    missing = missing_word_languages(entries, args.min_words)
     client = LeipzigClient()
     catalogue = client.catalogue() if args.show_sources else {}
-    print_report(missing, catalogue)
+    print_report(missing, catalogue, args.min_words)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -373,6 +414,12 @@ def build_parser() -> argparse.ArgumentParser:
         "--show-sources",
         action="store_true",
         help="Include the count of available Leipzig corpora for each language.",
+    )
+    report_parser.add_argument(
+        "--min-words",
+        type=int,
+        default=1000,
+        help="Minimum number of tokens required to consider coverage complete.",
     )
     report_parser.set_defaults(func=report_command)
 
@@ -392,6 +439,15 @@ def build_parser() -> argparse.ArgumentParser:
     )
     fetch_parser.add_argument(
         "--limit", type=int, default=1000, help="Number of top words to export."
+    )
+    fetch_parser.add_argument(
+        "--min-words",
+        type=int,
+        default=1000,
+        help=(
+            "Treat languages with fewer than this many existing tokens as missing "
+            "when using --all-missing."
+        ),
     )
     fetch_parser.add_argument(
         "--word-output-dir",

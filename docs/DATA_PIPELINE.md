@@ -211,8 +211,11 @@ Use `scripts/fetch_leipzig_corpora.py` to monitor these gaps and download fresh
 frequency lists directly from Leipzig corpora:
 
 ```bash
-# Inspect missing languages and show Leipzig availability
+# Inspect missing languages (including partial lists) and show Leipzig availability
 uv run python scripts/fetch_leipzig_corpora.py report --show-sources
+
+# Adjust the minimum token threshold for incomplete lists
+uv run python scripts/fetch_leipzig_corpora.py report --min-words 750
 
 # Fetch corpora and emit local frequency artefacts
 uv run python scripts/fetch_leipzig_corpora.py fetch --langs ig,ibo
