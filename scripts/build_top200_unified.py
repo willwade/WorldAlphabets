@@ -24,12 +24,16 @@ Usage:
 
 import argparse
 import json
+import tarfile
 import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 from urllib.error import HTTPError
+
+import requests
+from bs4 import BeautifulSoup
 
 # Import existing modular components where possible
 try:
@@ -80,82 +84,233 @@ def tokenize_words(text: str) -> List[str]:
     return word_tokens(text)
 
 
-# Priority 1: Leipzig Corpora Collection
-def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
-    """Fetch high-quality frequency data from Leipzig Corpora Collection."""
-    # Comprehensive corpus mappings for major languages
-    leipzig_mappings = {
-        "en": ["eng_news_2013_1M", "eng_news_2012_3M", "eng_wikipedia_2012_1M"],
-        "de": ["deu_news_2012_1M", "deu_news_2012_3M", "deu_wikipedia_2010_1M"],
-        "fr": ["fra_news_2012_1M", "fra_news_2011_3M", "fra_wikipedia_2013_1M"],
-        "es": ["spa_news_2011_1M", "spa_news_2012_3M", "spa_wikipedia_2013_1M"],
-        "it": ["ita_news_2009_1M", "ita_news_2012_3M", "ita_wikipedia_2013_1M"],
-        "pt": ["por_news_2012_1M", "por_news_2011_3M", "por_wikipedia_2013_1M"],
-        "ru": ["rus_news_2013_1M", "rus_news_2012_3M", "rus_wikipedia_2013_1M"],
-        "zh": ["cmn_news_2007_1M", "cmn_news_2005_3M", "cmn_wikipedia_2013_1M"],
-        "ja": ["jpn_news_2008_1M", "jpn_news_2012_3M", "jpn_wikipedia_2013_1M"],
-        "ar": ["ara_news_2013_1M", "ara_news_2012_3M", "ara_wikipedia_2013_1M"],
-        "hi": ["hin_news_2012_1M", "hin_news_2013_3M", "hin_wikipedia_2013_1M"],
-        "tr": ["tur_news_2012_1M", "tur_news_2011_3M", "tur_wikipedia_2013_1M"],
-        "pl": ["pol_news_2012_1M", "pol_news_2011_3M", "pol_wikipedia_2013_1M"],
-        "nl": ["nld_news_2012_1M", "nld_news_2011_3M", "nld_wikipedia_2013_1M"],
-        "sv": ["swe_news_2012_1M", "swe_news_2011_3M", "swe_wikipedia_2013_1M"],
-        "da": ["dan_news_2012_1M", "dan_news_2011_3M", "dan_wikipedia_2013_1M"],
-        "no": ["nor_news_2012_1M", "nor_news_2011_3M", "nor_wikipedia_2013_1M"],
-        "fi": ["fin_news_2012_1M", "fin_news_2011_3M", "fin_wikipedia_2013_1M"],
-        "hu": ["hun_news_2012_1M", "hun_news_2011_3M", "hun_wikipedia_2013_1M"],
-        "cs": ["ces_news_2012_1M", "ces_news_2011_3M", "ces_wikipedia_2013_1M"],
-        "sk": ["slk_news_2012_1M", "slk_news_2011_3M", "slk_wikipedia_2013_1M"],
-        "bg": ["bul_news_2012_1M", "bul_news_2011_3M", "bul_wikipedia_2013_1M"],
-        "hr": ["hrv_news_2012_1M", "hrv_news_2011_3M", "hrv_wikipedia_2013_1M"],
-        "sr": ["srp_news_2012_1M", "srp_news_2011_3M", "srp_wikipedia_2013_1M"],
-        "sl": ["slv_news_2012_1M", "slv_news_2011_3M", "slv_wikipedia_2013_1M"],
-        "et": ["est_news_2012_1M", "est_news_2011_3M", "est_wikipedia_2013_1M"],
-        "lv": ["lav_news_2012_1M", "lav_news_2011_3M", "lav_wikipedia_2013_1M"],
-        "lt": ["lit_news_2012_1M", "lit_news_2011_3M", "lit_wikipedia_2013_1M"],
-        "ro": ["ron_news_2012_1M", "ron_news_2011_3M", "ron_wikipedia_2013_1M"],
-        "el": ["ell_news_2012_1M", "ell_news_2011_3M", "ell_wikipedia_2013_1M"],
-        "he": ["heb_news_2012_1M", "heb_news_2011_3M", "heb_wikipedia_2013_1M"],
-        "th": ["tha_news_2012_1M", "tha_news_2011_3M", "tha_wikipedia_2013_1M"],
-        "vi": ["vie_news_2012_1M", "vie_news_2011_3M", "vie_wikipedia_2013_1M"],
-        "id": ["ind_news_2012_1M", "ind_news_2011_3M", "ind_wikipedia_2013_1M"],
-        "ms": ["msa_news_2012_1M", "msa_news_2011_3M", "msa_wikipedia_2013_1M"],
-        "tl": ["tgl_newscrawl_2013_300K", "tgl_wikipedia_2013_300K"],
-        "ko": ["kor_news_2008_1M", "kor_news_2012_3M", "kor_wikipedia_2013_1M"],
-        "ca": ["cat_news_2012_1M", "cat_news_2011_3M", "cat_wikipedia_2013_1M"],
-        "eu": ["eus_news_2012_1M", "eus_news_2011_3M", "eus_wikipedia_2013_1M"],
-        "gl": ["glg_news_2012_1M", "glg_news_2011_3M", "glg_wikipedia_2013_1M"],
-        "mt": ["mlt_news_2012_1M", "mlt_news_2011_3M", "mlt_wikipedia_2013_1M"],
-        "is": ["isl_news_2012_1M", "isl_news_2011_3M", "isl_wikipedia_2013_1M"],
-        "ga": ["gle_news_2012_1M", "gle_news_2011_3M", "gle_wikipedia_2013_1M"],
-        "cy": ["cym_news_2012_1M", "cym_news_2011_3M", "cym_wikipedia_2013_1M"],
-        "la": ["lat_news_2012_1M", "lat_news_2011_3M", "lat_wikipedia_2013_1M"],
-        "eo": ["epo_news_2012_1M", "epo_news_2011_3M", "epo_wikipedia_2013_1M"],
-    }
+def _is_word(token: str) -> bool:
+    """Check if a token is a word (not just punctuation/symbols)."""
+    if not token:
+        return False
+    # A word must contain at least one letter or digit
+    return any(c.isalpha() or c.isdigit() for c in token)
 
-    corpora = leipzig_mappings.get(lang_code, [])
 
-    for corpus_name in corpora:
+# Priority 1: Leipzig Corpora Collection (Dynamic Catalogue-Based)
+class LeipzigClient:
+    """Client for fetching Leipzig Corpora using dynamic catalogue discovery."""
+
+    CATALOGUE_URL = "https://corpora.wortschatz-leipzig.de/en/webservice/loadCorpusSelection"
+    DOWNLOAD_BASE = "https://downloads.wortschatz-leipzig.de/corpora"
+    DEFAULT_CORPUS_ID = "eng_news_2024"
+
+    def __init__(self, cache_dir: Path):
+        self.cache_dir = cache_dir
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        self._catalogue_cache: Optional[Dict] = None
+
+    def get_catalogue(self) -> Dict:
+        """Fetch and parse the Leipzig corpus catalogue."""
+        if self._catalogue_cache is not None:
+            return self._catalogue_cache
+
         try:
-            url = f"https://api.wortschatz-leipzig.de/ws/words/{corpus_name}/wordlist/?limit={limit}"
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-
-            with urllib.request.urlopen(req) as resp:
-                import json
-
-                data = json.loads(resp.read().decode("utf-8"))
-
-            if "words" in data:
-                words = [item["word"] for item in data["words"] if "word" in item]
-                if words:
-                    print(f"  Leipzig: {len(words)} words from {corpus_name}")
-                    return words[:limit]
-
-        except HTTPError as e:
-            if e.code != 404:
-                print(f"  Leipzig HTTP {e.code} for {corpus_name}")
+            params = {"corpusId": self.DEFAULT_CORPUS_ID, "word": ""}
+            resp = requests.get(
+                self.CATALOGUE_URL,
+                params=params,
+                timeout=60,
+                headers={"User-Agent": USER_AGENT},
+            )
+            resp.raise_for_status()
+            self._catalogue_cache = self._parse_catalogue(resp.text)
+            return self._catalogue_cache
         except Exception as e:
-            print(f"  Leipzig error for {corpus_name}: {e}")
+            print(f"  Leipzig catalogue error: {e}")
+            return {}
+
+    @staticmethod
+    def _parse_catalogue(html: str) -> Dict:
+        """Parse catalogue HTML to extract available corpora by ISO 639-3 code."""
+        soup = BeautifulSoup(html, "html.parser")
+        result: Dict[str, List[str]] = {}
+
+        for anchor in soup.select("a[data-lang-id]"):
+            lang_id_attr = anchor.get("data-lang-id")
+            lang_id = lang_id_attr[0] if isinstance(lang_id_attr, list) else lang_id_attr
+            if not lang_id:
+                continue
+
+            corpora: List[str] = []
+
+            # Get corpus ID from the anchor itself
+            corpus_id_attr = anchor.get("data-corpus-id")
+            corpus_id = corpus_id_attr[0] if isinstance(corpus_id_attr, list) else corpus_id_attr
+            if corpus_id and corpus_id not in corpora:
+                corpora.append(corpus_id)
+
+            # Look for nested corpora in parent list item
+            parent_li = anchor.find_parent("li")
+            if parent_li:
+                for link in parent_li.select("a[data-corpus-id]"):
+                    nested_id_attr = link.get("data-corpus-id")
+                    nested_id = nested_id_attr[0] if isinstance(nested_id_attr, list) else nested_id_attr
+                    if nested_id and nested_id not in corpora:
+                        corpora.append(nested_id)
+
+            if corpora:
+                result[lang_id] = corpora
+
+        return result
+
+    @staticmethod
+    def choose_corpus(corpora: List[str]) -> Optional[str]:
+        """Choose the best corpus from available options based on priority."""
+        if not corpora:
+            return None
+
+        priority = ["_community_", "_news_", "_mixed_", "_web_", "_newscrawl_", "_wikipedia_"]
+        for token in priority:
+            for corpus_id in corpora:
+                if token in corpus_id:
+                    return corpus_id
+        return corpora[0]
+
+    def download_corpus(self, corpus_id: str) -> Optional[Path]:
+        """Download a corpus archive if not already cached."""
+        archive_path = self.cache_dir / f"{corpus_id}.tar.gz"
+        if archive_path.exists():
+            return archive_path
+
+        try:
+            url = f"{self.DOWNLOAD_BASE}/{corpus_id}.tar.gz"
+            with requests.get(url, stream=True, timeout=120, headers={"User-Agent": USER_AGENT}) as resp:
+                resp.raise_for_status()
+                with archive_path.open("wb") as fh:
+                    for chunk in resp.iter_content(chunk_size=65536):
+                        if chunk:
+                            fh.write(chunk)
+            return archive_path
+        except requests.HTTPError as e:
+            if e.response.status_code == 404:
+                return None  # Corpus doesn't exist
+            raise
+
+    @staticmethod
+    def extract_words(archive_path: Path, limit: int) -> Optional[List[str]]:
+        """Extract word list from Leipzig corpus archive."""
+        try:
+            with tarfile.open(archive_path, "r:gz") as tar:
+                word_member = next(
+                    (m for m in tar.getmembers() if m.name.endswith("-words.txt")),
+                    None,
+                )
+                if not word_member:
+                    return None
+
+                handle = tar.extractfile(word_member)
+                if not handle:
+                    return None
+
+                words: List[str] = []
+                for raw_line in handle:
+                    line = raw_line.decode("utf-8", errors="ignore").strip()
+                    if not line or line.startswith("#"):
+                        continue
+                    parts = line.split("\t")
+                    if len(parts) < 2:
+                        continue
+                    token = parts[1].strip()
+                    if token and _is_word(token):
+                        words.append(token)
+                        if len(words) >= limit:
+                            break
+
+                return words
+        except Exception:
+            return None
+
+    @staticmethod
+    def generate_fallback_corpus_ids(iso3: str, primary_corpus_id: str) -> List[str]:
+        """Generate fallback corpus IDs when primary corpus is unavailable."""
+        fallbacks: List[str] = []
+        corpus_types = ["community", "news", "mixed", "web", "newscrawl", "wikipedia"]
+        years = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015"]
+
+        # Extract primary type
+        primary_type = None
+        for ctype in corpus_types:
+            if f"_{ctype}_" in primary_corpus_id:
+                primary_type = ctype
+                break
+
+        # Generate fallbacks
+        for ctype in corpus_types:
+            if ctype == primary_type:
+                continue
+            for year in years:
+                fallback = f"{iso3}_{ctype}_{year}"
+                if fallback != primary_corpus_id:
+                    fallbacks.append(fallback)
+
+        return fallbacks
+
+
+def get_iso639_3_code(lang_code: str) -> Optional[str]:
+    """Map language code to ISO 639-3 using the index."""
+    try:
+        index_path = Path("data/index.json")
+        if not index_path.exists():
+            return None
+
+        with open(index_path, "r", encoding="utf-8") as f:
+            index_data = json.load(f)
+
+        for entry in index_data:
+            if entry.get("language") == lang_code:
+                return entry.get("iso639_3")
+
+        return None
+    except Exception:
+        return None
+
+
+def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+    """Fetch high-quality frequency data from Leipzig Corpora Collection using dynamic catalogue."""
+    # Get ISO 639-3 code for Leipzig lookup
+    iso3 = get_iso639_3_code(lang_code)
+    if not iso3:
+        return None
+
+    # Initialize client with cache
+    cache_dir = Path(".leipzig_cache")
+    client = LeipzigClient(cache_dir)
+
+    # Get available corpora for this language
+    catalogue = client.get_catalogue()
+    corpora = catalogue.get(iso3, [])
+    if not corpora:
+        return None
+
+    # Choose best corpus
+    corpus_id = client.choose_corpus(corpora)
+    if not corpus_id:
+        return None
+
+    # Try to download and extract with fallbacks
+    tried_corpora = []
+    for attempt_corpus_id in [corpus_id] + client.generate_fallback_corpus_ids(iso3, corpus_id):
+        if attempt_corpus_id in tried_corpora:
+            continue
+        tried_corpora.append(attempt_corpus_id)
+
+        try:
+            archive = client.download_corpus(attempt_corpus_id)
+            if not archive:
+                continue  # 404, try next
+
+            words = client.extract_words(archive, limit)
+            if words:
+                print(f"  Leipzig: {len(words)} words from {attempt_corpus_id}")
+                return words
+        except Exception:
+            continue
 
     return None
 
