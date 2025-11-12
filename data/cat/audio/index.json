@@ -1,0 +1,37 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "ca",
+    "path": "data/ca/audio/ca-Latn_microsoft_ca_es_joananeural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "roa",
+    "path": "data/ca/audio/ca-Latn_espeak_roa_ca.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ca",
+    "path": "data/ca/audio/ca-Latn_microsoft_ca_es_enricneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ca",
+    "path": "data/ca/audio/ca-Latn_microsoft_ca_es_albaneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/ca/audio/ca-Latn_sherpaonnx_mms_cat.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "ca",
+    "path": "data/ca/audio/ca-Latn_google_ca_es_standard_b.wav"
+  },
+  {
+    "engine": "polly",
+    "voice_id": "arlet",
+    "path": "data/ca/audio/ca-Latn_polly_arlet.wav"
+  }
+]

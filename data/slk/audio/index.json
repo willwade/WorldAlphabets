@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "zlw",
+    "path": "data/sk/audio/sk-Latn_espeak_zlw_sk.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sk",
+    "path": "data/sk/audio/sk-Latn_microsoft_sk_sk_viktorianeural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sk",
+    "path": "data/sk/audio/sk-Latn_microsoft_sk_sk_lukasneural.wav"
+  }
+]

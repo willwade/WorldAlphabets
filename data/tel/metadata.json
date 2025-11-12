@@ -1,0 +1,28 @@
+{
+  "language": "tel",
+  "sections": {
+    "alphabet": {
+      "script": "Telu",
+      "file": "tel/alphabet/tel-Telu.json",
+      "letter_count": 51,
+      "updated": "2025-11-12T09:17:22.137013Z"
+    },
+    "frequency_top1000": {
+      "file": "tel/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:36:07.724467Z"
+    },
+    "translation_Telu": {
+      "script": "Telu",
+      "source": "google_translate",
+      "target": "te",
+      "cached": false,
+      "updated": "2025-11-12T10:37:53.267845Z"
+    }
+  },
+  "language_name": "Telugu",
+  "iso639_1": "te",
+  "iso639_3": "tel"
+}

@@ -1,0 +1,27 @@
+{
+  "language": "haw",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "haw/alphabet/haw-Latn.json",
+      "letter_count": 18,
+      "updated": "2025-11-12T09:19:17.464216Z"
+    },
+    "frequency_top1000": {
+      "file": "haw/frequency/top1000.txt",
+      "token_count": 24,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:17.880320Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "haw",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.721146Z"
+    }
+  },
+  "language_name": "Hawaiian",
+  "iso639_3": "haw"
+}

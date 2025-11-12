@@ -1,0 +1,28 @@
+{
+  "language": "swa",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "swa/alphabet/swa-Latn.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:17:07.708916Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sw",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.309994Z"
+    },
+    "frequency_top1000": {
+      "file": "swa/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Swahili (macrolanguage)",
+  "iso639_1": "sw",
+  "iso639_3": "swa"
+}

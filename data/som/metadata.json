@@ -1,0 +1,35 @@
+{
+  "language": "som",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "som/alphabet/som-Latn.json",
+      "letter_count": 18,
+      "updated": "2025-11-12T09:16:53.092289Z"
+    },
+    "frequency_top1000": {
+      "file": "som/frequency/top1000.txt",
+      "token_count": 36,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:35.837443Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "so",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.348513Z"
+    }
+  },
+  "language_name": "Somali",
+  "iso639_1": "so",
+  "iso639_3": "som",
+  "missing_scripts": [
+    {
+      "script": "Osma",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:53.327106Z"
+    }
+  ]
+}

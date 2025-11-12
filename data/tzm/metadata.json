@@ -1,0 +1,20 @@
+{
+  "language": "tzm",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "tzm/alphabet/tzm-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:17:53.275718Z"
+    }
+  },
+  "language_name": "Central Atlas Tamazight",
+  "iso639_3": "tzm",
+  "missing_scripts": [
+    {
+      "script": "Tfng",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:53.543224Z"
+    }
+  ]
+}

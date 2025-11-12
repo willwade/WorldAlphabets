@@ -1,0 +1,33 @@
+{
+  "language": "cym",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "cym/alphabet/cym-Latn.json",
+      "letter_count": 49,
+      "updated": "2025-11-12T09:10:08.241922Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "cym/alphabet/cym-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "cym/frequency/top1000.txt",
+      "token_count": 40,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:24:07.535384Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "cy",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.687731Z"
+    }
+  },
+  "language_name": "Welsh",
+  "iso639_1": "cy",
+  "iso639_3": "cym"
+}

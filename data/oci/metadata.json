@@ -1,0 +1,33 @@
+{
+  "language": "oci",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "oci/alphabet/oci-Latn.json",
+      "letter_count": 37,
+      "updated": "2025-11-12T09:15:15.741974Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "oci/alphabet/oci-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "oci/frequency/top1000.txt",
+      "token_count": 47,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:32:46.589676Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "oc",
+      "cached": false,
+      "updated": "2025-11-12T10:37:48.388618Z"
+    }
+  },
+  "language_name": "Occitan (post 1500)",
+  "iso639_1": "oc",
+  "iso639_3": "oci"
+}

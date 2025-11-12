@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/et/audio/et-Latn_espeak_mb_mb_ee1.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "et",
+    "path": "data/et/audio/et-Latn_microsoft_et_ee_anuneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "et",
+    "path": "data/et/audio/et-Latn_microsoft_et_ee_kertneural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "et",
+    "path": "data/et/audio/et-Latn_google_et_ee_standard_a.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "urj",
+    "path": "data/et/audio/et-Latn_espeak_urj_et.wav"
+  }
+]

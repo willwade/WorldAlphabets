@@ -1,0 +1,31 @@
+{
+  "language": "xng",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:38.733877Z"
+    },
+    {
+      "script": "Hani",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:38.981228Z"
+    },
+    {
+      "script": "Mong",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:39.204339Z"
+    },
+    {
+      "script": "Armn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:39.426497Z"
+    },
+    {
+      "script": "Phag",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:39.709840Z"
+    }
+  ]
+}

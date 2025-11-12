@@ -1,11 +1,29 @@
 import json
 from importlib.resources import files
+from importlib.resources.abc import Traversable
 from typing import List, Optional
 
-INDEX_FILE = files("worldalphabets") / "data" / "index.json"
-ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
+DATA_ROOT = files("worldalphabets") / "data"
+INDEX_FILE = DATA_ROOT / "index.json"
+ALPHABET_DIR = DATA_ROOT / "alphabets"
 
 _index_data: Optional[list[dict]] = None
+
+
+def _joinpath(base: Traversable, *parts: str) -> Traversable:
+    """Join importlib Traversable segments in a Py3.8-compatible way."""
+    for part in parts:
+        base = base.joinpath(part)
+    return base
+
+
+def _load_json(candidate: Traversable) -> dict | None:
+    """Load JSON from a Traversable if it exists."""
+    try:
+        content = candidate.read_text(encoding="utf-8")
+    except (FileNotFoundError, OSError):
+        return None
+    return json.loads(content)
 
 
 def get_index_data() -> list[dict]:
@@ -41,21 +59,24 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
         elif "scripts" in entry and entry["scripts"]:
             script = entry["scripts"][0]
 
-    path = None
+    candidates: list[Traversable] = []
     if script:
-        candidate = ALPHABET_DIR / f"{lang_code}-{script}.json"
-        if candidate.is_file():
-            path = candidate
+        candidates.append(
+            _joinpath(DATA_ROOT, lang_code, "alphabet", f"{lang_code}-{script}.json")
+        )
+    candidates.append(
+        _joinpath(DATA_ROOT, lang_code, "alphabet", f"{lang_code}.json")
+    )
+    if script:
+        candidates.append(ALPHABET_DIR / f"{lang_code}-{script}.json")
+    candidates.append(ALPHABET_DIR / f"{lang_code}.json")
 
-    if path is None:
-        candidate = ALPHABET_DIR / f"{lang_code}.json"
-        if candidate.is_file():
-            path = candidate
+    for candidate in candidates:
+        data = _load_json(candidate)
+        if data is not None:
+            return data
 
-    if path is None:
-        return None
-
-    return json.loads(path.read_text(encoding="utf-8"))
+    return None
 
 
 def get_scripts(lang_code: str) -> List[str]:

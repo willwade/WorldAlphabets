@@ -1,0 +1,28 @@
+{
+  "language": "vie",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "vie/alphabet/vie-Latn.json",
+      "letter_count": 89,
+      "updated": "2025-11-12T09:18:11.611814Z"
+    },
+    "frequency_top1000": {
+      "file": "vie/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:37:37.231639Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "vi",
+      "cached": false,
+      "updated": "2025-11-12T10:37:55.369710Z"
+    }
+  },
+  "language_name": "Vietnamese",
+  "iso639_1": "vi",
+  "iso639_3": "vie"
+}

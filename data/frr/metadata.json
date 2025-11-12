@@ -1,0 +1,25 @@
+{
+  "language": "frr",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "frr/alphabet/frr-Latn.json",
+      "letter_count": 28,
+      "updated": "2025-11-12T09:11:15.821140Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "frr/alphabet/frr-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "frr/frequency/top1000.txt",
+      "token_count": 44,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:25:30.991750Z"
+    }
+  },
+  "language_name": "Northern Frisian",
+  "iso639_3": "frr"
+}

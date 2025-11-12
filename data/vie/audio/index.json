@@ -1,0 +1,32 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "aav",
+    "path": "data/vi/audio/vi-Latn_espeak_aav_vi_vn_x_south.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "vi",
+    "path": "data/vi/audio/vi-Latn_microsoft_vi_vn_namminhneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/vi/audio/vi-Latn_sherpaonnx_mms_vie.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "aav",
+    "path": "data/vi/audio/vi-Latn_espeak_aav_vi_vn_x_central.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "aav",
+    "path": "data/vi/audio/vi-Latn_espeak_aav_vi.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "vi",
+    "path": "data/vi/audio/vi-Latn_microsoft_vi_vn_hoaimyneural.wav"
+  }
+]

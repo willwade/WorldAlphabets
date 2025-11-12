@@ -1,0 +1,33 @@
+{
+  "language": "msa",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "msa/alphabet/msa-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:14:28.800199Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "msa/alphabet/msa-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "msa/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:31:18.476048Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "ms",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.841709Z"
+    }
+  },
+  "language_name": "Malay (macrolanguage)",
+  "iso639_1": "ms",
+  "iso639_3": "msa"
+}

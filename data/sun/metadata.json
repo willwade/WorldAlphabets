@@ -1,0 +1,35 @@
+{
+  "language": "sun",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sun/alphabet/sun-Latn.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:17:04.833900Z"
+    },
+    "frequency_top1000": {
+      "file": "sun/frequency/top1000.txt",
+      "token_count": 57,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:45.813532Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "su",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.159220Z"
+    }
+  },
+  "language_name": "Sundanese",
+  "iso639_1": "su",
+  "iso639_3": "sun",
+  "missing_scripts": [
+    {
+      "script": "Sund",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:05.201502Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "language": "asm",
+  "sections": {
+    "frequency_top1000": {
+      "file": "asm/frequency/top1000.txt",
+      "token_count": 47,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:20:58.531759Z"
+    },
+    "translation_Beng": {
+      "script": "Beng",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.254859Z"
+    }
+  },
+  "language_name": "Assamese",
+  "iso639_1": "as",
+  "iso639_3": "asm"
+}

@@ -1,0 +1,28 @@
+{
+  "language": "tgk",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "tgk/alphabet/tgk-Cyrl.json",
+      "letter_count": 35,
+      "updated": "2025-11-12T09:17:25.195506Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "tg",
+      "cached": false,
+      "updated": "2025-11-12T10:37:53.417782Z"
+    },
+    "frequency_top1000": {
+      "file": "tgk/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Tajik",
+  "iso639_1": "tg",
+  "iso639_3": "tgk"
+}

@@ -1,0 +1,33 @@
+{
+  "language": "lav",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lav/alphabet/lav-Latn.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:13:28.993467Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lav/alphabet/lav-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lav/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:30:00.301903Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "lv",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.741013Z"
+    }
+  },
+  "language_name": "Latvian",
+  "iso639_1": "lv",
+  "iso639_3": "lav"
+}

@@ -1,0 +1,33 @@
+{
+  "language": "kan",
+  "sections": {
+    "alphabet": {
+      "script": "Knda",
+      "file": "kan/alphabet/kan-Knda.json",
+      "letter_count": 52,
+      "updated": "2025-11-12T09:12:32.778598Z"
+    },
+    "alphabet_Knda": {
+      "script": "Knda",
+      "file": "kan/alphabet/kan-Knda.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "kan/frequency/top1000.txt",
+      "token_count": 42,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:58.245724Z"
+    },
+    "translation_Knda": {
+      "script": "Knda",
+      "source": "google_translate (cache)",
+      "target": "kn",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.731130Z"
+    }
+  },
+  "language_name": "Kannada",
+  "iso639_1": "kn",
+  "iso639_3": "kan"
+}

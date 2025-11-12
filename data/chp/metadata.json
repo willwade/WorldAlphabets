@@ -1,0 +1,16 @@
+{
+  "language": "chp",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Cans",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:45.518192Z"
+    },
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:45.764897Z"
+    }
+  ]
+}

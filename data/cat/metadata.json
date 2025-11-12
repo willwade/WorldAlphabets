@@ -1,0 +1,33 @@
+{
+  "language": "cat",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "cat/alphabet/cat-Latn.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:09:36.377126Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "cat/alphabet/cat-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "cat/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:23:02.621324Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ca",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.679943Z"
+    }
+  },
+  "language_name": "Catalan",
+  "iso639_1": "ca",
+  "iso639_3": "cat"
+}

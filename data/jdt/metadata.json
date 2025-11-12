@@ -1,0 +1,16 @@
+{
+  "language": "jdt",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:25.299054Z"
+    },
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:25.691702Z"
+    }
+  ]
+}

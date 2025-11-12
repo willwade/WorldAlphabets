@@ -1,0 +1,25 @@
+{
+  "language": "jbo",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "jbo/alphabet/jbo-Latn.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:12:24.413674Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "jbo/alphabet/jbo-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "jbo/frequency/top1000.txt",
+      "token_count": 54,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:05.388861Z"
+    }
+  },
+  "language_name": "Lojban",
+  "iso639_3": "jbo"
+}

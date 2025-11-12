@@ -1,0 +1,52 @@
+{
+  "language": "zho",
+  "sections": {
+    "alphabet": {
+      "script": "Hans",
+      "file": "zho/alphabet/zho-Hans.json",
+      "letter_count": 2210,
+      "updated": "2025-11-12T09:19:08.738113Z"
+    },
+    "frequency_top1000": {
+      "file": "zho/frequency/top1000.txt",
+      "token_count": 91,
+      "mode": "bigram",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:38:40.359796Z"
+    },
+    "translation_Hans": {
+      "script": "Hans",
+      "source": "google_translate",
+      "target": "zh-CN",
+      "cached": false,
+      "updated": "2025-11-12T10:37:55.951481Z"
+    },
+    "translation_min-nan-Hans": {
+      "script": "min-nan-Hans",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.461709Z"
+    },
+    "translation_yue-Hant": {
+      "script": "yue-Hant",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.467812Z"
+    },
+    "translation_Hant": {
+      "script": "Hant",
+      "source": "google_translate (cache)",
+      "target": "zh-TW",
+      "cached": true,
+      "updated": "2025-11-12T10:37:55.957462Z"
+    }
+  },
+  "language_name": "Chinese",
+  "iso639_1": "zh",
+  "iso639_3": "zho",
+  "missing_scripts": [
+    {
+      "script": "Hani",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:19:09.138620Z"
+    }
+  ]
+}

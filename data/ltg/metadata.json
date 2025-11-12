@@ -1,0 +1,32 @@
+{
+  "language": "ltg",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ltg/alphabet/ltg-Latn.json",
+      "letter_count": 35,
+      "updated": "2025-11-12T09:13:47.830568Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ltg/alphabet/ltg-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ltg/frequency/top1000.txt",
+      "token_count": 42,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:29:45.895869Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ltg",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.747281Z"
+    }
+  },
+  "language_name": "Latgalian",
+  "iso639_3": "ltg"
+}

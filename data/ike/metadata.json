@@ -1,0 +1,16 @@
+{
+  "language": "ike",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Cans",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:10.640908Z"
+    },
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:10.905621Z"
+    }
+  ]
+}

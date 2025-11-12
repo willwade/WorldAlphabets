@@ -1,0 +1,40 @@
+{
+  "language": "uig",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "uig/alphabet/uig-Arab.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:17:58.445374Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "google_translate",
+      "target": "ug",
+      "cached": false,
+      "updated": "2025-11-12T10:37:54.801115Z"
+    },
+    "frequency_top1000": {
+      "file": "uig/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:57.984347Z"
+    },
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:58.727440Z"
+    }
+  ],
+  "language_name": "Uighur",
+  "iso639_1": "ug",
+  "iso639_3": "uig"
+}

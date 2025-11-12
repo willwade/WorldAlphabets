@@ -1,0 +1,16 @@
+{
+  "language": "aot",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:33.054494Z"
+    },
+    {
+      "script": "Beng",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:33.309558Z"
+    }
+  ]
+}

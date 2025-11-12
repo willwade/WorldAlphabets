@@ -529,6 +529,24 @@ uv run scripts/build_data_pipeline.py --language mi --script Latn
 
 For detailed pipeline documentation, see [docs/DATA_PIPELINE.md](docs/DATA_PIPELINE.md).
 
+#### Per-language Data Layout
+
+Running the consolidated pipeline now creates a dedicated folder for each language:
+
+```
+data/<lang>/
+  alphabet/<lang>-<script>.json
+  frequency/top1000.txt
+  audio/*.wav
+  audio/index.json
+  layouts/*.json
+  SOURCE.txt         # human-readable provenance log
+  metadata.json      # machine-readable summary per section
+```
+
+Legacy flat directories (`data/alphabets`, `data/freq/top1000`, `data/audio`, `data/layouts`)
+are still populated automatically so existing tooling keeps working while the transition happens.
+
 #### Legacy Individual Scripts (Deprecated)
 
 The following individual scripts are deprecated in favor of the consolidated pipeline:
@@ -552,7 +570,8 @@ uv run scripts/build_alphabet_from_cldr.py  # Use: --stage build_alphabets
 
 Populate a sample translation for each alphabet using Google Translate. The
 script iterates over every language and script combination, writing a
-`hello_how_are_you` field to `data/alphabets/<code>-<script>.json`.
+`hello_how_are_you` field to `data/<lang>/alphabet/<code>-<script>.json`
+and mirroring the file into `data/alphabets/` for backwards compatibility.
 
 ```bash
 GOOGLE_TRANS_KEY=<key> uv run scripts/generate_translations.py
@@ -612,8 +631,9 @@ uv run python scripts/expand_to_top1000.py
 4. **Existing alphabet frequency data** - Character-level fallback
 5. **Simia unigrams** - CJK character data
 
-The script writes results to ``data/freq/top1000`` with build reports in
-``BUILD_REPORT_UNIFIED.json``. The unified pipeline also runs within the
+The script writes canonical files to ``data/<lang>/frequency/top1000.txt`` and
+maintains a legacy mirror under ``data/freq/top1000`` (with build reports in
+``BUILD_REPORT_UNIFIED.json``). The unified pipeline also runs within the
 consolidated data pipeline as the ``build_top1000`` stage.
 
 

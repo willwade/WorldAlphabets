@@ -1,0 +1,28 @@
+{
+  "language": "spa",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "spa/alphabet/spa-Latn.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:16:55.219545Z"
+    },
+    "frequency_top1000": {
+      "file": "spa/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:00.592184Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "es",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.642602Z"
+    }
+  },
+  "language_name": "Spanish",
+  "iso639_1": "es",
+  "iso639_3": "spa"
+}

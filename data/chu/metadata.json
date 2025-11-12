@@ -1,0 +1,36 @@
+{
+  "language": "chu",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "chu/alphabet/chu-Cyrl.json",
+      "letter_count": 52,
+      "updated": "2025-11-12T09:09:47.537932Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "chu/alphabet/chu-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Glag",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:47.106442Z"
+    },
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:47.808845Z"
+    },
+    {
+      "script": "Cyrs",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:48.067911Z"
+    }
+  ],
+  "language_name": "Church Slavic",
+  "iso639_1": "cu",
+  "iso639_3": "chu"
+}

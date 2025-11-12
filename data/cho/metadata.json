@@ -1,0 +1,25 @@
+{
+  "language": "cho",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "cho/alphabet/cho-Latn.json",
+      "letter_count": 20,
+      "updated": "2025-11-12T09:09:45.143371Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "cho/alphabet/cho-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "cho/frequency/top1000.txt",
+      "token_count": 40,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:23:27.424751Z"
+    }
+  },
+  "language_name": "Choctaw",
+  "iso639_3": "cho"
+}

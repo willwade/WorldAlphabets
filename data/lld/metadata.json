@@ -1,0 +1,25 @@
+{
+  "language": "lld",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lld/alphabet/lld-Latn.json",
+      "letter_count": 41,
+      "updated": "2025-11-12T09:13:40.255175Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lld/alphabet/lld-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lld/frequency/top1000.txt",
+      "token_count": 60,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:29:20.525714Z"
+    }
+  },
+  "language_name": "Ladin",
+  "iso639_3": "lld"
+}

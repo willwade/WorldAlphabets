@@ -1,0 +1,28 @@
+{
+  "language": "xho",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "xho/alphabet/xho-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:18:34.380026Z"
+    },
+    "frequency_top1000": {
+      "file": "xho/frequency/top1000.txt",
+      "token_count": 33,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:38:10.237037Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "xh",
+      "cached": false,
+      "updated": "2025-11-12T10:37:55.506739Z"
+    }
+  },
+  "language_name": "Xhosa",
+  "iso639_1": "xh",
+  "iso639_3": "xho"
+}

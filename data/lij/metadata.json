@@ -1,0 +1,32 @@
+{
+  "language": "lij",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lij/alphabet/lij-Latn.json",
+      "letter_count": 46,
+      "updated": "2025-11-12T09:13:35.830005Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lij/alphabet/lij-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lij/frequency/top1000.txt",
+      "token_count": 39,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:29:13.883706Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "lij",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.742182Z"
+    }
+  },
+  "language_name": "Ligurian",
+  "iso639_3": "lij"
+}

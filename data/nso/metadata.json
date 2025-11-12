@@ -1,0 +1,32 @@
+{
+  "language": "nso",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "nso/alphabet/nso-Latn.json",
+      "letter_count": 25,
+      "updated": "2025-11-12T09:15:04.910922Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "nso/alphabet/nso-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "nso/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "Leipzig",
+      "updated": "2025-11-12T09:32:24.819913Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "nso",
+      "cached": false,
+      "updated": "2025-11-12T10:37:47.927260Z"
+    }
+  },
+  "language_name": "Pedi",
+  "iso639_3": "nso"
+}

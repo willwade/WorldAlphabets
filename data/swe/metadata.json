@@ -1,0 +1,28 @@
+{
+  "language": "swe",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "swe/alphabet/swe-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:17:08.228430Z"
+    },
+    "frequency_top1000": {
+      "file": "swe/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:35:47.030490Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sv",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.455429Z"
+    }
+  },
+  "language_name": "Swedish",
+  "iso639_1": "sv",
+  "iso639_3": "swe"
+}

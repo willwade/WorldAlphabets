@@ -1,0 +1,20 @@
+{
+  "language": "ssy",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ssy/alphabet/ssy-Latn.json",
+      "letter_count": 22,
+      "updated": "2025-11-12T09:17:01.725338Z"
+    }
+  },
+  "language_name": "Saho",
+  "iso639_3": "ssy",
+  "missing_scripts": [
+    {
+      "script": "Ethi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:01.983883Z"
+    }
+  ]
+}

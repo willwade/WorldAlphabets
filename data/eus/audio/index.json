@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "eu",
+    "path": "data/eu/audio/eu-Latn_microsoft_eu_es_ainhoaneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/eu/audio/eu-Latn_sherpaonnx_mms_eus.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "eu",
+    "path": "data/eu/audio/eu-Latn_espeak_eu.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "eu",
+    "path": "data/eu/audio/eu-Latn_microsoft_eu_es_anderneural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "eu",
+    "path": "data/eu/audio/eu-Latn_google_eu_es_standard_b.wav"
+  }
+]

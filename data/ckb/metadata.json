@@ -1,0 +1,32 @@
+{
+  "language": "ckb",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "ckb/alphabet/ckb-Arab.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:09:53.132850Z"
+    },
+    "alphabet_Arab": {
+      "script": "Arab",
+      "file": "ckb/alphabet/ckb-Arab.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ckb/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "Leipzig",
+      "updated": "2025-11-12T09:23:41.887146Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "google_translate (cache)",
+      "target": "ckb",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.684564Z"
+    }
+  },
+  "language_name": "Central Kurdish",
+  "iso639_3": "ckb"
+}

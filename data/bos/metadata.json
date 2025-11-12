@@ -1,0 +1,20 @@
+{
+  "language": "bos",
+  "sections": {
+    "frequency_top1000": {
+      "file": "bos/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:22:40.062607Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.271155Z"
+    }
+  },
+  "language_name": "Bosnian",
+  "iso639_1": "bs",
+  "iso639_3": "bos"
+}

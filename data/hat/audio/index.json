@@ -1,0 +1,12 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "roa",
+    "path": "data/ht/audio/ht-Latn_espeak_roa_ht.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/ht/audio/ht-Latn_sherpaonnx_mms_hat.wav"
+  }
+]

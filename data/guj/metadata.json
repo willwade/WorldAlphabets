@@ -1,0 +1,33 @@
+{
+  "language": "guj",
+  "sections": {
+    "alphabet": {
+      "script": "Gujr",
+      "file": "guj/alphabet/guj-Gujr.json",
+      "letter_count": 50,
+      "updated": "2025-11-12T09:11:43.128589Z"
+    },
+    "alphabet_Gujr": {
+      "script": "Gujr",
+      "file": "guj/alphabet/guj-Gujr.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "guj/frequency/top1000.txt",
+      "token_count": 39,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:01.060212Z"
+    },
+    "translation_Gujr": {
+      "script": "Gujr",
+      "source": "google_translate (cache)",
+      "target": "gu",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.716522Z"
+    }
+  },
+  "language_name": "Gujarati",
+  "iso639_1": "gu",
+  "iso639_3": "guj"
+}

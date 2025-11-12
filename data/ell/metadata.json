@@ -1,0 +1,33 @@
+{
+  "language": "ell",
+  "sections": {
+    "alphabet": {
+      "script": "Grek",
+      "file": "ell/alphabet/ell-Grek.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:10:34.222583Z"
+    },
+    "alphabet_Grek": {
+      "script": "Grek",
+      "file": "ell/alphabet/ell-Grek.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ell/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:24:57.065319Z"
+    },
+    "translation_Grek": {
+      "script": "Grek",
+      "source": "google_translate (cache)",
+      "target": "el",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.693038Z"
+    }
+  },
+  "language_name": "Modern Greek (1453-)",
+  "iso639_1": "el",
+  "iso639_3": "ell"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "as",
+    "path": "data/as/audio/as-Beng_microsoft_as_in_yashicaneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/as/audio/as-Beng_sherpaonnx_mms_asm.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/as/audio/as-Beng_espeak_inc_as.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "as",
+    "path": "data/as/audio/as-Beng_microsoft_as_in_priyomneural.wav"
+  }
+]

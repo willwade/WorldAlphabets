@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "zls",
+    "path": "data/bs/audio/bs-Latn_espeak_zls_bs.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bs",
+    "path": "data/bs/audio/bs-Latn_microsoft_bs_ba_vesnaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bs",
+    "path": "data/bs/audio/bs-Latn_microsoft_bs_ba_goranneural.wav"
+  }
+]

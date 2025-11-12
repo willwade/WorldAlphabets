@@ -1,0 +1,39 @@
+{
+  "language": "bho",
+  "sections": {
+    "alphabet": {
+      "script": "Deva",
+      "file": "bho/alphabet/bho-Deva.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:09:08.202478Z"
+    },
+    "alphabet_Deva": {
+      "script": "Deva",
+      "file": "bho/alphabet/bho-Deva.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "bho/frequency/top1000.txt",
+      "token_count": 44,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:22:20.726644Z"
+    },
+    "translation_Deva": {
+      "script": "Deva",
+      "source": "google_translate (cache)",
+      "target": "bho",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.677429Z"
+    }
+  },
+  "language_name": "Bhojpuri",
+  "iso639_3": "bho",
+  "missing_scripts": [
+    {
+      "script": "Kthi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:08.466423Z"
+    }
+  ]
+}

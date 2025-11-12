@@ -1,0 +1,19 @@
+{
+  "language": "tob",
+  "sections": {
+    "frequency_top1000": {
+      "file": "tob/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:33.755463Z"
+    }
+  ]
+}

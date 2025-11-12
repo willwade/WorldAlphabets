@@ -1,0 +1,32 @@
+{
+  "language": "pap",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "pap/alphabet/pap-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:15:33.283953Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "pap/alphabet/pap-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "pap/frequency/top1000.txt",
+      "token_count": 30,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:33:08.849835Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "pap",
+      "cached": false,
+      "updated": "2025-11-12T10:37:49.122550Z"
+    }
+  },
+  "language_name": "Papiamento",
+  "iso639_3": "pap"
+}

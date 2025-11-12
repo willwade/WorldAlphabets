@@ -1,0 +1,25 @@
+{
+  "language": "byn",
+  "sections": {
+    "alphabet": {
+      "script": "Ethi",
+      "file": "byn/alphabet/byn-Ethi.json",
+      "letter_count": 288,
+      "updated": "2025-11-12T09:09:30.640905Z"
+    },
+    "alphabet_Ethi": {
+      "script": "Ethi",
+      "file": "byn/alphabet/byn-Ethi.json",
+      "updated": "1970-01-01T00:00:00Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:30.219494Z"
+    }
+  ],
+  "language_name": "Blin",
+  "iso639_3": "byn"
+}

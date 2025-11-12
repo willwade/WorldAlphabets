@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "tai",
+    "path": "data/th/audio/th-Thai_espeak_tai_th.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "th",
+    "path": "data/th/audio/th-Thai_microsoft_th_th_acharaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "th",
+    "path": "data/th/audio/th-Thai_microsoft_th_th_niwatneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "th",
+    "path": "data/th/audio/th-Thai_microsoft_th_th_premwadeeneura.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/th/audio/th-Thai_sherpaonnx_mms_tha.wav"
+  }
+]

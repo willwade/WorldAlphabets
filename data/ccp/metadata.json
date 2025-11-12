@@ -1,0 +1,25 @@
+{
+  "language": "ccp",
+  "sections": {
+    "alphabet": {
+      "script": "Cakm",
+      "file": "ccp/alphabet/ccp-Cakm.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:09:38.771383Z"
+    },
+    "alphabet_Cakm": {
+      "script": "Cakm",
+      "file": "ccp/alphabet/ccp-Cakm.json",
+      "updated": "1970-01-01T00:00:00Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:38.397516Z"
+    }
+  ],
+  "language_name": "Chakma",
+  "iso639_3": "ccp"
+}

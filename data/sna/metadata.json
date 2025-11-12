@@ -1,0 +1,28 @@
+{
+  "language": "sna",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sna/alphabet/sna-Latn.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:16:50.026065Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.205947Z"
+    },
+    "frequency_top1000": {
+      "file": "sna/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Shona",
+  "iso639_1": "sn",
+  "iso639_3": "sna"
+}

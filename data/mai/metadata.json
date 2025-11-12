@@ -1,0 +1,44 @@
+{
+  "language": "mai",
+  "sections": {
+    "alphabet": {
+      "script": "Deva",
+      "file": "mai/alphabet/mai-Deva.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:13:54.957798Z"
+    },
+    "alphabet_Deva": {
+      "script": "Deva",
+      "file": "mai/alphabet/mai-Deva.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mai/frequency/top1000.txt",
+      "token_count": 16,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:30:08.878973Z"
+    },
+    "translation_Deva": {
+      "script": "Deva",
+      "source": "google_translate (cache)",
+      "target": "mai",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.752729Z"
+    }
+  },
+  "language_name": "Maithili",
+  "iso639_3": "mai",
+  "missing_scripts": [
+    {
+      "script": "Tirh",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:55.200108Z"
+    },
+    {
+      "script": "Kthi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:55.445093Z"
+    }
+  ]
+}

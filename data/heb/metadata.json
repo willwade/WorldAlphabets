@@ -1,0 +1,33 @@
+{
+  "language": "heb",
+  "sections": {
+    "alphabet": {
+      "script": "Hebr",
+      "file": "heb/alphabet/heb-Hebr.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:11:52.563098Z"
+    },
+    "alphabet_Hebr": {
+      "script": "Hebr",
+      "file": "heb/alphabet/heb-Hebr.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "heb/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:19.455140Z"
+    },
+    "translation_Hebr": {
+      "script": "Hebr",
+      "source": "google_translate (cache)",
+      "target": "he",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.722326Z"
+    }
+  },
+  "language_name": "Hebrew",
+  "iso639_1": "he",
+  "iso639_3": "heb"
+}

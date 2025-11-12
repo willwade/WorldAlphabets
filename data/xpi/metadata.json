@@ -1,0 +1,11 @@
+{
+  "language": "xpi",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Ogam",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:43.470019Z"
+    }
+  ]
+}

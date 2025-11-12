@@ -1,0 +1,21 @@
+{
+  "language": "gag",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:21.201676Z"
+    },
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:21.463278Z"
+    },
+    {
+      "script": "Grek",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:21.803184Z"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "language": "hun",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "hun/alphabet/hun-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:12:04.147089Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "hun/alphabet/hun-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "hun/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:42.473265Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "hu",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.723452Z"
+    }
+  },
+  "language_name": "Hungarian",
+  "iso639_1": "hu",
+  "iso639_3": "hun",
+  "missing_scripts": [
+    {
+      "script": "Hung",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:04.364495Z"
+    }
+  ]
+}

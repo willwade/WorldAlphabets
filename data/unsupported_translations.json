@@ -1,6 +1,6 @@
 [
   {
-    "language": "aa",
+    "language": "aar",
     "script": "Latn",
     "name": "Afar"
   },
@@ -10,7 +10,7 @@
     "name": "Aghem"
   },
   {
-    "language": "an",
+    "language": "arg",
     "script": "Latn",
     "name": "Aragonese"
   },
@@ -45,11 +45,6 @@
     "name": "Basaa"
   },
   {
-    "language": "bax",
-    "script": "Bamu",
-    "name": "Bamun"
-  },
-  {
     "language": "bez",
     "script": "Latn",
     "name": "Bena"
@@ -65,12 +60,7 @@
     "name": "Western Balochi"
   },
   {
-    "language": "bku",
-    "script": "Latn",
-    "name": "Buhid"
-  },
-  {
-    "language": "bo",
+    "language": "bod",
     "script": "Tibt",
     "name": "Tibetan"
   },
@@ -83,16 +73,6 @@
     "language": "bss",
     "script": "Latn",
     "name": "Akoose"
-  },
-  {
-    "language": "bug",
-    "script": "Latn",
-    "name": "Buginese"
-  },
-  {
-    "language": "bya",
-    "script": "Latn",
-    "name": "Batak"
   },
   {
     "language": "byn",
@@ -110,7 +90,7 @@
     "name": "Chakma"
   },
   {
-    "language": "ce",
+    "language": "che",
     "script": "Cyrl",
     "name": "Chechen"
   },
@@ -125,6 +105,11 @@
     "name": "Cherokee"
   },
   {
+    "language": "chu",
+    "script": "Cyrl",
+    "name": "Church Slavic"
+  },
+  {
     "language": "cic",
     "script": "Latn",
     "name": "Chickasaw"
@@ -135,14 +120,14 @@
     "name": "Coptic"
   },
   {
+    "language": "cor",
+    "script": "Latn",
+    "name": "Cornish"
+  },
+  {
     "language": "csw",
     "script": "Cans",
     "name": "Swampy Cree"
-  },
-  {
-    "language": "cu",
-    "script": "Cyrl",
-    "name": "Church Slavic"
   },
   {
     "language": "dav",
@@ -180,7 +165,7 @@
     "name": "Ewondo"
   },
   {
-    "language": "fo",
+    "language": "fao",
     "script": "Latn",
     "name": "Faroese"
   },
@@ -200,6 +185,11 @@
     "name": "Geez"
   },
   {
+    "language": "glv",
+    "script": "Latn",
+    "name": "Manx"
+  },
+  {
     "language": "gsw",
     "script": "Latn",
     "name": "Swiss German"
@@ -210,49 +200,39 @@
     "name": "Gusii"
   },
   {
-    "language": "gv",
-    "script": "Latn",
-    "name": "Manx"
-  },
-  {
-    "language": "hnn",
-    "script": "Latn",
-    "name": "Hanunoo"
-  },
-  {
     "language": "hsb",
     "script": "Latn",
     "name": "Upper Sorbian"
   },
   {
-    "language": "ia",
-    "script": "Latn",
-    "name": "Interlingua"
-  },
-  {
-    "language": "ie",
-    "script": "Latn",
-    "name": "Interlingue"
-  },
-  {
-    "language": "ii",
-    "script": "Yiii",
-    "name": "Sichuan Yi"
-  },
-  {
-    "language": "io",
+    "language": "ido",
     "script": "Latn",
     "name": "Ido"
   },
   {
-    "language": "iu",
+    "language": "iii",
+    "script": "Yiii",
+    "name": "Sichuan Yi"
+  },
+  {
+    "language": "iku",
     "script": "Cans",
     "name": "Inuktitut"
   },
   {
-    "language": "iu",
+    "language": "iku",
     "script": "Latn",
     "name": "Inuktitut"
+  },
+  {
+    "language": "ile",
+    "script": "Latn",
+    "name": "Interlingue"
+  },
+  {
+    "language": "ina",
+    "script": "Latn",
+    "name": "Interlingua"
   },
   {
     "language": "jbo",
@@ -285,6 +265,11 @@
     "name": "Kamba"
   },
   {
+    "language": "kas",
+    "script": "Deva",
+    "name": "Kashmiri"
+  },
+  {
     "language": "kde",
     "script": "Latn",
     "name": "Makonde"
@@ -310,7 +295,7 @@
     "name": "Koyra Chiini"
   },
   {
-    "language": "ki",
+    "language": "kik",
     "script": "Latn",
     "name": "Kikuyu"
   },
@@ -318,11 +303,6 @@
     "language": "kkj",
     "script": "Latn",
     "name": "Kako"
-  },
-  {
-    "language": "kl",
-    "script": "Latn",
-    "name": "Kalaallisut"
   },
   {
     "language": "kok",
@@ -340,16 +320,6 @@
     "name": "Kpelle"
   },
   {
-    "language": "ks",
-    "script": "Arab",
-    "name": "Kashmiri"
-  },
-  {
-    "language": "ks",
-    "script": "Deva",
-    "name": "Kashmiri"
-  },
-  {
     "language": "ksb",
     "script": "Latn",
     "name": "Shambala"
@@ -360,16 +330,6 @@
     "name": "Bafia"
   },
   {
-    "language": "ksh",
-    "script": "Latn",
-    "name": "Colognian"
-  },
-  {
-    "language": "kw",
-    "script": "Latn",
-    "name": "Cornish"
-  },
-  {
     "language": "kxv",
     "script": "Orya",
     "name": "Kuvi"
@@ -378,21 +338,6 @@
     "language": "lag",
     "script": "Latn",
     "name": "Langi"
-  },
-  {
-    "language": "lep",
-    "script": "Lepc",
-    "name": "Lepcha"
-  },
-  {
-    "language": "lif",
-    "script": "Deva",
-    "name": "Limbu"
-  },
-  {
-    "language": "lis",
-    "script": "Lisu",
-    "name": "Lisu"
   },
   {
     "language": "lkt",
@@ -410,7 +355,7 @@
     "name": "Northern Luri"
   },
   {
-    "language": "lu",
+    "language": "lub",
     "script": "Latn",
     "name": "Luba-Katanga"
   },
@@ -418,11 +363,6 @@
     "language": "luy",
     "script": "Latn",
     "name": "Luyia"
-  },
-  {
-    "language": "lzh",
-    "script": "Hans",
-    "name": "Literary Chinese"
   },
   {
     "language": "mas",
@@ -465,19 +405,9 @@
     "name": "Mi'kmaw"
   },
   {
-    "language": "mid",
-    "script": "Latn",
-    "name": "Mandaic"
-  },
-  {
     "language": "mni",
     "script": "Beng",
     "name": "Manipuri"
-  },
-  {
-    "language": "mo",
-    "script": "Latn",
-    "name": "Romanian"
   },
   {
     "language": "moh",
@@ -510,7 +440,12 @@
     "name": "Nama"
   },
   {
-    "language": "nd",
+    "language": "nav",
+    "script": "Latn",
+    "name": "Navajo"
+  },
+  {
+    "language": "nde",
     "script": "Latn",
     "name": "North Ndebele"
   },
@@ -525,14 +460,14 @@
     "name": "Kwasio"
   },
   {
-    "language": "nn",
-    "script": "Latn",
-    "name": "Norwegian Nynorsk"
-  },
-  {
     "language": "nnh",
     "script": "Latn",
     "name": "Ngiemboon"
+  },
+  {
+    "language": "nno",
+    "script": "Latn",
+    "name": "Norwegian Nynorsk"
   },
   {
     "language": "nqo",
@@ -548,11 +483,6 @@
     "language": "nyn",
     "script": "Latn",
     "name": "Nyankole"
-  },
-  {
-    "language": "os",
-    "script": "Cyrl",
-    "name": "Ossetic"
   },
   {
     "language": "osa",
@@ -585,17 +515,12 @@
     "name": "Rajasthani"
   },
   {
-    "language": "rej",
-    "script": "Latn",
-    "name": "Rejang"
-  },
-  {
     "language": "rhg",
     "script": "Rohg",
     "name": "Rohingya"
   },
   {
-    "language": "rm",
+    "language": "roh",
     "script": "Latn",
     "name": "Romansh"
   },
@@ -608,11 +533,6 @@
     "language": "sah",
     "script": "Cyrl",
     "name": "Yakut"
-  },
-  {
-    "language": "sam",
-    "script": "Latn",
-    "name": "Samaritan Aramaic"
   },
   {
     "language": "saq",
@@ -630,29 +550,14 @@
     "name": "Santali"
   },
   {
-    "language": "saz",
-    "script": "Saur",
-    "name": "Saurashtra"
-  },
-  {
     "language": "sbp",
     "script": "Latn",
     "name": "Sangu"
   },
   {
-    "language": "sc",
-    "script": "Latn",
-    "name": "Sardinian"
-  },
-  {
     "language": "sdh",
     "script": "Arab",
     "name": "Southern Kurdish"
-  },
-  {
-    "language": "se",
-    "script": "Latn",
-    "name": "Northern Sami"
   },
   {
     "language": "seh",
@@ -665,11 +570,6 @@
     "name": "Koyraboro Senni"
   },
   {
-    "language": "sh",
-    "script": "Latn",
-    "name": "Serbian"
-  },
-  {
     "language": "shi",
     "script": "Latn",
     "name": "Tachelhit"
@@ -678,6 +578,11 @@
     "language": "sma",
     "script": "Latn",
     "name": "Southern Sami"
+  },
+  {
+    "language": "sme",
+    "script": "Latn",
+    "name": "Northern Sami"
   },
   {
     "language": "smj",
@@ -695,19 +600,14 @@
     "name": "Skolt Sami"
   },
   {
+    "language": "srd",
+    "script": "Latn",
+    "name": "Sardinian"
+  },
+  {
     "language": "ssy",
     "script": "Latn",
     "name": "Saho"
-  },
-  {
-    "language": "syr",
-    "script": "Syrc",
-    "name": "Syriac"
-  },
-  {
-    "language": "tbw",
-    "script": "Latn",
-    "name": "Tagbanwa"
   },
   {
     "language": "teo",
@@ -720,14 +620,14 @@
     "name": "Tigre"
   },
   {
-    "language": "to",
-    "script": "Latn",
-    "name": "Tongan"
-  },
-  {
     "language": "tok",
     "script": "Latn",
     "name": "Toki Pona"
+  },
+  {
+    "language": "ton",
+    "script": "Latn",
+    "name": "Tongan"
   },
   {
     "language": "tpi",
@@ -755,14 +655,14 @@
     "name": "Vai"
   },
   {
-    "language": "ve",
-    "script": "Latn",
-    "name": "Venda"
-  },
-  {
     "language": "vec",
     "script": "Latn",
     "name": "Venetian"
+  },
+  {
+    "language": "ven",
+    "script": "Latn",
+    "name": "Venda"
   },
   {
     "language": "vmw",
@@ -770,7 +670,7 @@
     "name": "Makhuwa"
   },
   {
-    "language": "vo",
+    "language": "vol",
     "script": "Latn",
     "name": "Volapük"
   },
@@ -778,11 +678,6 @@
     "language": "vun",
     "script": "Latn",
     "name": "Vunjo"
-  },
-  {
-    "language": "wa",
-    "script": "Latn",
-    "name": "Walloon"
   },
   {
     "language": "wae",
@@ -795,7 +690,12 @@
     "name": "Warlpiri"
   },
   {
-    "language": "wo",
+    "language": "wln",
+    "script": "Latn",
+    "name": "Walloon"
+  },
+  {
+    "language": "wol",
     "script": "Latn",
     "name": "Wolof"
   },
@@ -820,13 +720,8 @@
     "name": "Nheengatu"
   },
   {
-    "language": "za",
+    "language": "zha",
     "script": "Latn",
     "name": "Zhuang"
-  },
-  {
-    "language": "zra",
-    "script": "Latn",
-    "name": "Kara (Korea)"
   }
 ]

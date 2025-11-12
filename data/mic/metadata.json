@@ -1,0 +1,25 @@
+{
+  "language": "mic",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "mic/alphabet/mic-Latn.json",
+      "letter_count": 22,
+      "updated": "2025-11-12T09:14:09.809657Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "mic/alphabet/mic-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mic/frequency/top1000.txt",
+      "token_count": 17,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:30:56.864877Z"
+    }
+  },
+  "language_name": "Mi'kmaq",
+  "iso639_3": "mic"
+}

@@ -1,0 +1,28 @@
+{
+  "language": "tir",
+  "sections": {
+    "alphabet": {
+      "script": "Ethi",
+      "file": "tir/alphabet/tir-Ethi.json",
+      "letter_count": 300,
+      "updated": "2025-11-12T09:17:28.902886Z"
+    },
+    "frequency_top1000": {
+      "file": "tir/frequency/top1000.txt",
+      "token_count": 36,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:18.537048Z"
+    },
+    "translation_Ethi": {
+      "script": "Ethi",
+      "source": "google_translate",
+      "target": "ti",
+      "cached": false,
+      "updated": "2025-11-12T10:37:54.170327Z"
+    }
+  },
+  "language_name": "Tigrinya",
+  "iso639_1": "ti",
+  "iso639_3": "tir"
+}

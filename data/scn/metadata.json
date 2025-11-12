@@ -1,0 +1,32 @@
+{
+  "language": "scn",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "scn/alphabet/scn-Latn.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:16:27.177618Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "scn/alphabet/scn-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "scn/frequency/top1000.txt",
+      "token_count": 49,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:34:39.176792Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "scn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:50.614524Z"
+    }
+  },
+  "language_name": "Sicilian",
+  "iso639_3": "scn"
+}

@@ -1,0 +1,32 @@
+{
+  "language": "mni",
+  "sections": {
+    "alphabet": {
+      "script": "Beng",
+      "file": "mni/alphabet/mni-Beng.json",
+      "letter_count": 44,
+      "updated": "2025-11-12T09:14:17.155751Z"
+    },
+    "alphabet_Beng": {
+      "script": "Beng",
+      "file": "mni/alphabet/mni-Beng.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mni/frequency/top1000.txt",
+      "token_count": 28,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:31:04.787804Z"
+    },
+    "translation_Mtei": {
+      "script": "Mtei",
+      "source": "google_translate (cache)",
+      "target": "mni-Mtei",
+      "cached": true,
+      "updated": "2025-11-12T10:37:46.287028Z"
+    }
+  },
+  "language_name": "Manipuri",
+  "iso639_3": "mni"
+}

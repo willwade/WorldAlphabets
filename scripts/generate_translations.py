@@ -1,12 +1,25 @@
 #!/usr/bin/env python3
-import os
-import json
-import time
-import html
 import argparse
-from typing import Dict, Any, Iterable, List, Optional, Set
-import requests
+import html
+import json
+import os
+import time
+from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, Dict, Iterable, List, Optional, Set
+
+import requests
+
+try:
+    from scripts.lib.data_layout import RepoDataLayout
+except ModuleNotFoundError:  # pragma: no cover
+    import sys
+    from pathlib import Path
+
+    ROOT = Path(__file__).resolve().parent.parent
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from scripts.lib.data_layout import RepoDataLayout
 
 TRANSLATE_URL = "https://translation.googleapis.com/language/translate/v2"
 REQUEST_TIMEOUT = 15
@@ -16,6 +29,8 @@ ALPHABETS_DIR = Path("data/alphabets")
 INDEX_PATH = Path("data/index.json")
 FIELD_NAME = "hello_how_are_you"
 SOURCE_TEXT = "Hello how are you?"
+CACHE_DIR = Path(".cache/translations")
+DATA_LAYOUT = RepoDataLayout()
 
 # Known alias/canonicalization candidates -> try in order
 ALIASES: Dict[str, List[str]] = {
@@ -38,6 +53,10 @@ ALIASES: Dict[str, List[str]] = {
     # fallbacks where API prefers 2-letter
     "id": ["id"],  # Indonesian (not 'in')
 }
+
+
+def _utcnow() -> str:
+    return datetime.now(tz=timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def backoff_delays() -> Iterable[int]:
@@ -115,6 +134,81 @@ def translate_once(api_key: str, text: str, target: str) -> str:
     return html.unescape(data["data"]["translations"][0]["translatedText"])
 
 
+def cache_file_path(lang_code: str, script: str) -> Path:
+    canonical = DATA_LAYOUT.canonical_code(lang_code)
+    return CACHE_DIR / canonical / f"{canonical}-{script}.json"
+
+
+def load_cached_translation(
+    lang_code: str, script: str, target: str
+) -> Optional[Dict[str, Any]]:
+    path = cache_file_path(lang_code, script)
+    if not path.exists():
+        return None
+    try:
+        cached = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    entries = cached.get("entries") or {}
+    entry = entries.get(target)
+    if entry and entry.get("text"):
+        return entry
+    return None
+
+
+def save_cached_translation(
+    lang_code: str, script: str, target: str, text: str
+) -> None:
+    path = cache_file_path(lang_code, script)
+    if path.exists():
+        try:
+            cache_obj = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            cache_obj = {}
+    else:
+        cache_obj = {}
+    entries = cache_obj.setdefault("entries", {})
+    entries[target] = {
+        "text": text,
+        "timestamp": _utcnow(),
+        "source": "google_translate",
+    }
+    cache_obj["language"] = DATA_LAYOUT.canonical_code(lang_code)
+    cache_obj["script"] = script
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(cache_obj, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+def load_alphabet_record(canonical_path: Path, legacy_path: Path) -> Dict[str, Any]:
+    for path in (canonical_path, legacy_path):
+        if path.exists():
+            try:
+                obj = json.loads(path.read_text(encoding="utf-8"))
+                if isinstance(obj, dict):
+                    return obj
+            except Exception:
+                continue
+    return {
+        "alphabetical": [],
+        "uppercase": [],
+        "lowercase": [],
+        "frequency": {},
+    }
+
+
+def write_alphabet_records(lang_code: str, script: str, data: Dict[str, Any]) -> None:
+    canonical_path = DATA_LAYOUT.alphabet_path(lang_code, script)
+    DATA_LAYOUT.ensure_section(lang_code, "alphabet")
+    payload = json.dumps(data, ensure_ascii=False, indent=2)
+    canonical_path.write_text(payload, encoding="utf-8")
+
+    legacy_path = ALPHABETS_DIR / f"{lang_code}-{script}.json"
+    legacy_path.parent.mkdir(parents=True, exist_ok=True)
+    legacy_path.write_text(payload, encoding="utf-8")
+
+
 def generate_translations(skip_existing: bool = False) -> None:
     api_key = os.environ.get("GOOGLE_TRANS_KEY")
     if not api_key:
@@ -144,6 +238,7 @@ def generate_translations(skip_existing: bool = False) -> None:
 
     # Ensure output directory
     ALPHABETS_DIR.mkdir(parents=True, exist_ok=True)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     unsupported: List[Dict[str, str]] = []
 
@@ -152,72 +247,119 @@ def generate_translations(skip_existing: bool = False) -> None:
             lang_code = item["language"]
             lang_name = item.get("name", lang_code)
             script = item["script"]
+            # Prefer iso639_1 (2-letter) for Google Translate API
+            iso639_1 = item.get("iso639_1")
         except (KeyError, TypeError):
             print(f"Skipping malformed entry: {item!r}")
             continue
 
-        code_with_script = f"{lang_code}-{script}"
-        target = find_supported_code(code_with_script, supported)
-        if not target:
-            target = find_supported_code(lang_code, supported)
+        # Try to find a supported Google Translate code
+        # Priority: iso639_1-script, iso639_1, lang_code-script, lang_code
+        target = None
+        script_specific = False
+        display_code = f"{lang_code}-{script}"
 
-            file_path = ALPHABETS_DIR / f"{lang_code}-{script}.json"
-
-            if not target:
-                print(
-                    f"- {lang_name} ({code_with_script}) -> unsupported by Google; skipping"
-                )
-                unsupported.append(
-                    {"language": lang_code, "script": script, "name": lang_name}
-                )
-                continue
-
-            print(
-                f"- {lang_name} ({code_with_script}) -> using target '{target}'"
-                f" -> {file_path} ... ",
-                end="",
-                flush=True,
-            )
-
-            if file_path.exists():
-                try:
-                    with file_path.open("r", encoding="utf-8") as f:
-                        base_obj = json.load(f)
-                    if not isinstance(base_obj, dict):
-                        raise ValueError("Top-level JSON must be an object")
-
-                    # Skip if translation already exists and skip_existing is True
-                    if skip_existing and FIELD_NAME in base_obj:
-                        print("skipped (already has translation)")
-                        continue
-
-                except Exception as e:
-                    print(f"failed to read: {e}")
-                    continue
+        if iso639_1:
+            # Try 2-letter code with script first (e.g., zh-CN)
+            code_with_script = f"{iso639_1}-{script}"
+            target = find_supported_code(code_with_script, supported)
+            if target:
+                script_specific = True
             else:
-                base_obj = {
-                    "alphabetical": [],
-                    "uppercase": [],
-                    "lowercase": [],
-                    "frequency": {},
-                }
+                # Try plain 2-letter code
+                target = find_supported_code(iso639_1, supported)
 
+        if not target:
+            # Fallback to 3-letter code
+            code_with_script = f"{lang_code}-{script}"
+            target = find_supported_code(code_with_script, supported)
+            if target:
+                script_specific = True
+            else:
+                target = find_supported_code(lang_code, supported)
+
+        if not target:
+            print(
+                f"- {lang_name} ({display_code}) -> " f"unsupported by Google; skipping"
+            )
+            unsupported.append(
+                {"language": lang_code, "script": script, "name": lang_name}
+            )
+            continue
+
+        canonical_lang = DATA_LAYOUT.canonical_code(lang_code)
+        legacy_path = ALPHABETS_DIR / f"{lang_code}-{script}.json"
+        canonical_path = DATA_LAYOUT.alphabet_path(lang_code, script)
+        base_obj = load_alphabet_record(canonical_path, legacy_path)
+
+        if skip_existing and FIELD_NAME in base_obj:
+            print(f"- {lang_name} ({display_code}) -> " f"skipped (already translated)")
+            continue
+
+        cache_hit = load_cached_translation(canonical_lang, script, target)
+        output_label = f"{legacy_path}"
+        match_type = "script-match" if script_specific else "fallback"
+        print(
+            f"- {lang_name} ({display_code}) -> target '{target}' "
+            f"({match_type}) -> {output_label} ... ",
+            end="",
+            flush=True,
+        )
+
+        if cache_hit:
+            base_obj[FIELD_NAME] = cache_hit["text"]
+            write_alphabet_records(lang_code, script, base_obj)
+            DATA_LAYOUT.update_metadata(
+                canonical_lang,
+                f"translation_{script}",
+                {
+                    "script": script,
+                    "source": "google_translate (cache)",
+                    "target": target,
+                    "cached": True,
+                },
+            )
+            DATA_LAYOUT.append_source_entry(
+                canonical_lang,
+                "translation",
+                "Translation applied from cache",
+                {"script": script, "target": target},
+            )
+            print("cached")
+            continue
+
+        try:
+            translated = translate_once(api_key, SOURCE_TEXT, target)
+            base_obj[FIELD_NAME] = translated
+            write_alphabet_records(lang_code, script, base_obj)
+            save_cached_translation(canonical_lang, script, target, translated)
+            DATA_LAYOUT.update_metadata(
+                canonical_lang,
+                f"translation_{script}",
+                {
+                    "script": script,
+                    "source": "google_translate",
+                    "target": target,
+                    "cached": False,
+                },
+            )
+            DATA_LAYOUT.append_source_entry(
+                canonical_lang,
+                "translation",
+                "Translation updated via Google Translate",
+                {"script": script, "target": target},
+            )
+            print("ok")
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response is not None else "?"
             try:
-                translated = translate_once(api_key, SOURCE_TEXT, target)
-                base_obj[FIELD_NAME] = translated
-                with file_path.open("w", encoding="utf-8") as f:
-                    json.dump(base_obj, f, ensure_ascii=False, indent=2)
-                print("ok")
-            except requests.HTTPError as e:
-                status = e.response.status_code if e.response is not None else "?"
-                try:
-                    err_json = e.response.json()
-                    msg = err_json.get("error", {}).get("message", "")
-                except Exception:
-                    msg = str(e)
-                print(f"failed: HTTP {status} {msg}")
-            except Exception as e:
-                print(f"failed: {e}")
+                err_json = e.response.json()
+                msg = err_json.get("error", {}).get("message", "")
+            except Exception:
+                msg = str(e)
+            print(f"failed: HTTP {status} {msg}")
+        except Exception as e:
+            print(f"failed: {e}")
 
     # Optional: write a small report of unsupported languages for follow-up
     if unsupported:

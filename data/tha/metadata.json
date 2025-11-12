@@ -1,0 +1,28 @@
+{
+  "language": "tha",
+  "sections": {
+    "alphabet": {
+      "script": "Thai",
+      "file": "tha/alphabet/tha-Thai.json",
+      "letter_count": 57,
+      "updated": "2025-11-12T09:17:25.809242Z"
+    },
+    "frequency_top1000": {
+      "file": "tha/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "bigram",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:36:17.822773Z"
+    },
+    "translation_Thai": {
+      "script": "Thai",
+      "source": "google_translate",
+      "target": "th",
+      "cached": false,
+      "updated": "2025-11-12T10:37:53.560409Z"
+    }
+  },
+  "language_name": "Thai",
+  "iso639_1": "th",
+  "iso639_3": "tha"
+}

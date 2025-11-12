@@ -1,0 +1,26 @@
+{
+  "language": "nbl",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "nbl/alphabet/nbl-Latn.json",
+      "letter_count": 25,
+      "updated": "2025-11-12T09:14:45.377941Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "nbl/alphabet/nbl-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "nr",
+      "cached": false,
+      "updated": "2025-11-12T10:37:47.151244Z"
+    }
+  },
+  "language_name": "South Ndebele",
+  "iso639_1": "nr",
+  "iso639_3": "nbl"
+}

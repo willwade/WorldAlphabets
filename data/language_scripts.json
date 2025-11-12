@@ -2,12 +2,19 @@
   "aae": [
     "Latn"
   ],
+  "aar": [
+    "Latn",
+    "Ethi"
+  ],
   "aat": [
     "Latn",
     "Grek"
   ],
   "aau": [
     "Latn"
+  ],
+  "abk": [
+    "Cyrl"
   ],
   "abq": [
     "Cyrl"
@@ -37,14 +44,17 @@
     "Tibt"
   ],
   "ady": [
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "aeb": [
     "Latn",
     "Arab"
   ],
   "afh": [
+    "Latn"
+  ],
+  "afr": [
     "Latn"
   ],
   "agi": [
@@ -90,6 +100,9 @@
   "aji": [
     "Latn"
   ],
+  "aka": [
+    "Latn"
+  ],
   "akk": [
     "Xsux"
   ],
@@ -112,8 +125,8 @@
     "Latn"
   ],
   "alq": [
-    "Latn",
-    "Cans"
+    "Cans",
+    "Latn"
   ],
   "alr": [
     "Cyrl"
@@ -129,6 +142,9 @@
   ],
   "amg": [
     "Latn"
+  ],
+  "amh": [
+    "Ethi"
   ],
   "ami": [
     "Latn"
@@ -149,8 +165,8 @@
     "Latn"
   ],
   "anm": [
-    "Mtei",
-    "Latn"
+    "Latn",
+    "Mtei"
   ],
   "anp": [
     "Deva"
@@ -171,15 +187,15 @@
     "Latn"
   ],
   "aot": [
-    "Beng",
-    "Latn"
+    "Latn",
+    "Beng"
   ],
   "aoz": [
     "Latn"
   ],
   "apc": [
-    "Latn",
-    "Hebr"
+    "Hebr",
+    "Latn"
   ],
   "app": [
     "Latn"
@@ -187,8 +203,14 @@
   "aqc": [
     "Cyrl"
   ],
+  "ara": [
+    "Arab"
+  ],
   "arb": [
     "Arab"
+  ],
+  "arg": [
+    "Latn"
   ],
   "ari": [
     "Latn"
@@ -230,8 +252,8 @@
     "Latn"
   ],
   "atb": [
-    "Lisu",
-    "Latn"
+    "Latn",
+    "Lisu"
   ],
   "atj": [
     "Latn"
@@ -257,6 +279,13 @@
   "aut": [
     "Latn"
   ],
+  "ava": [
+    "Cyrl"
+  ],
+  "ave": [
+    "Gujr",
+    "Avst"
+  ],
   "avk": [
     "Latn"
   ],
@@ -272,15 +301,30 @@
   "axm": [
     "Armn"
   ],
+  "aym": [
+    "Latn"
+  ],
+  "aze": [
+    "Latn",
+    "Cyrl"
+  ],
   "baa": [
     "Latn"
   ],
   "bah": [
     "Latn"
   ],
+  "bak": [
+    "Arab",
+    "Cyrl"
+  ],
+  "bam": [
+    "Latn",
+    "Nkoo"
+  ],
   "ban": [
-    "Bali",
-    "Latn"
+    "Latn",
+    "Bali"
   ],
   "bar": [
     "Latn"
@@ -349,8 +393,8 @@
     "Taml"
   ],
   "bft": [
-    "Tibt",
-    "Arab"
+    "Arab",
+    "Tibt"
   ],
   "bfw": [
     "Orya"
@@ -378,8 +422,8 @@
     "Latn"
   ],
   "bgx": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "bha": [
     "Deva"
@@ -388,8 +432,8 @@
     "Deva"
   ],
   "bho": [
-    "Kthi",
-    "Deva"
+    "Deva",
+    "Kthi"
   ],
   "bhp": [
     "Latn"
@@ -398,6 +442,9 @@
     "Latn"
   ],
   "bin": [
+    "Latn"
+  ],
+  "bis": [
     "Latn"
   ],
   "bji": [
@@ -436,6 +483,9 @@
   ],
   "bnv": [
     "Latn"
+  ],
+  "bod": [
+    "Tibt"
   ],
   "bol": [
     "Latn"
@@ -477,11 +527,12 @@
     "Latn"
   ],
   "bsk": [
-    "Latn"
+    "Latn",
+    "Arab"
   ],
   "bsq": [
-    "Bass",
-    "Latn"
+    "Latn",
+    "Bass"
   ],
   "bss": [
     "Latn"
@@ -499,9 +550,9 @@
     "Deva"
   ],
   "bua": [
-    "Mong",
+    "Latn",
     "Cyrl",
-    "Latn"
+    "Mong"
   ],
   "bug": [
     "Latn",
@@ -509,6 +560,9 @@
   ],
   "buh": [
     "Latn"
+  ],
+  "bul": [
+    "Cyrl"
   ],
   "bum": [
     "Latn"
@@ -523,9 +577,9 @@
     "Latn"
   ],
   "bxm": [
-    "Mong",
+    "Latn",
     "Cyrl",
-    "Latn"
+    "Mong"
   ],
   "byh": [
     "Deva"
@@ -573,6 +627,9 @@
   "car": [
     "Latn"
   ],
+  "cat": [
+    "Latn"
+  ],
   "caw": [
     "Latn"
   ],
@@ -586,8 +643,8 @@
     "Latn"
   ],
   "ccp": [
-    "Cakm",
-    "Latn"
+    "Latn",
+    "Cakm"
   ],
   "cdh": [
     "Deva"
@@ -602,8 +659,16 @@
   "cgg": [
     "Latn"
   ],
+  "cha": [
+    "Latn"
+  ],
   "chb": [
     "Latn"
+  ],
+  "che": [
+    "Latn",
+    "Arab",
+    "Cyrl"
   ],
   "chf": [
     "Latn"
@@ -625,14 +690,23 @@
     "Latn"
   ],
   "chp": [
-    "Latn",
-    "Cans"
+    "Cans",
+    "Latn"
   ],
   "chr": [
     "Cher"
   ],
   "cht": [
     "Latn"
+  ],
+  "chu": [
+    "Glag",
+    "Cyrl",
+    "Latn",
+    "Cyrs"
+  ],
+  "chv": [
+    "Cyrl"
   ],
   "chx": [
     "Deva"
@@ -641,8 +715,8 @@
     "Latn"
   ],
   "cia": [
-    "Hang",
-    "Latn"
+    "Latn",
+    "Hang"
   ],
   "cic": [
     "Latn"
@@ -687,8 +761,8 @@
     "Cyrl"
   ],
   "cmg": [
-    "Mong",
-    "Soyo"
+    "Soyo",
+    "Mong"
   ],
   "cmn": [
     "Hans",
@@ -721,12 +795,22 @@
   "cop": [
     "Copt"
   ],
+  "cor": [
+    "Latn"
+  ],
+  "cos": [
+    "Latn"
+  ],
   "coz": [
     "Latn"
   ],
   "cpx": [
     "Hans",
     "Hant"
+  ],
+  "cre": [
+    "Cans",
+    "Latn"
   ],
   "crg": [
     "Latn"
@@ -750,8 +834,8 @@
     "Latn"
   ],
   "csw": [
-    "Latn",
-    "Cans"
+    "Cans",
+    "Latn"
   ],
   "ctu": [
     "Latn"
@@ -760,6 +844,9 @@
     "Latn"
   ],
   "cwe": [
+    "Latn"
+  ],
+  "cym": [
     "Latn"
   ],
   "cyo": [
@@ -774,10 +861,13 @@
   "dak": [
     "Latn"
   ],
+  "dan": [
+    "Latn"
+  ],
   "dar": [
     "Latn",
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "dav": [
     "Latn"
@@ -820,6 +910,10 @@
   ],
   "diu": [
     "Latn"
+  ],
+  "div": [
+    "Thaa",
+    "Diak"
   ],
   "djd": [
     "Latn"
@@ -905,6 +999,9 @@
   "dzg": [
     "Latn"
   ],
+  "dzo": [
+    "Tibt"
+  ],
   "ebu": [
     "Latn"
   ],
@@ -912,8 +1009,8 @@
     "Grek"
   ],
   "ecy": [
-    "Cprt",
-    "Cpmn"
+    "Cpmn",
+    "Cprt"
   ],
   "efi": [
     "Latn"
@@ -923,15 +1020,18 @@
   ],
   "egy": [
     "Egyd",
-    "Egyh",
+    "Egyp",
     "Copt",
-    "Egyp"
+    "Egyh"
   ],
   "eka": [
     "Latn"
   ],
   "eky": [
     "Kali"
+  ],
+  "ell": [
+    "Grek"
   ],
   "elx": [
     "Xsux"
@@ -948,6 +1048,9 @@
   "end": [
     "Latn"
   ],
+  "eng": [
+    "Latn"
+  ],
   "enh": [
     "Cyrl"
   ],
@@ -957,6 +1060,9 @@
   "enq": [
     "Latn"
   ],
+  "epo": [
+    "Latn"
+  ],
   "erg": [
     "Latn"
   ],
@@ -964,7 +1070,10 @@
     "Latn"
   ],
   "ess": [
-    "Cyrl",
+    "Latn",
+    "Cyrl"
+  ],
+  "est": [
     "Latn"
   ],
   "esu": [
@@ -973,12 +1082,18 @@
   "etu": [
     "Latn"
   ],
+  "eus": [
+    "Latn"
+  ],
   "eve": [
     "Cyrl"
   ],
   "evn": [
-    "Mong",
+    "Latn",
     "Cyrl",
+    "Mong"
+  ],
+  "ewe": [
     "Latn"
   ],
   "ewo": [
@@ -996,6 +1111,12 @@
   "fan": [
     "Latn"
   ],
+  "fao": [
+    "Latn"
+  ],
+  "fas": [
+    "Arab"
+  ],
   "fat": [
     "Latn"
   ],
@@ -1003,6 +1124,13 @@
     "Latn",
     "Arab",
     "Copt"
+  ],
+  "fij": [
+    "Latn",
+    "Deva"
+  ],
+  "fin": [
+    "Latn"
   ],
   "fip": [
     "Latn"
@@ -1028,6 +1156,9 @@
   "fon": [
     "Latn"
   ],
+  "fra": [
+    "Latn"
+  ],
   "frc": [
     "Latn"
   ],
@@ -1050,9 +1181,16 @@
   "frs": [
     "Latn"
   ],
+  "fry": [
+    "Latn"
+  ],
   "fuf": [
     "Latn",
     "Arab",
+    "Adlm"
+  ],
+  "ful": [
+    "Latn",
     "Adlm"
   ],
   "fun": [
@@ -1068,8 +1206,9 @@
     "Latn"
   ],
   "gag": [
+    "Latn",
     "Cyrl",
-    "Latn"
+    "Grek"
   ],
   "gan": [
     "Hani"
@@ -1120,8 +1259,8 @@
     "Latn"
   ],
   "gha": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "gil": [
     "Latn"
@@ -1130,11 +1269,25 @@
     "Deva",
     "Takr"
   ],
+  "gla": [
+    "Latn"
+  ],
   "gld": [
     "Cyrl"
   ],
+  "gle": [
+    "Latn",
+    "Ogam",
+    "Latg"
+  ],
+  "glg": [
+    "Latn"
+  ],
   "glk": [
     "Arab"
+  ],
+  "glv": [
+    "Latn"
   ],
   "gmh": [
     "Latn"
@@ -1146,8 +1299,8 @@
     "Linb"
   ],
   "gnc": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "gng": [
     "Latn"
@@ -1171,9 +1324,9 @@
     "Knda"
   ],
   "gon": [
+    "Deva",
     "Gonm",
     "Gong",
-    "Deva",
     "Telu"
   ],
   "gor": [
@@ -1193,8 +1346,11 @@
     "Latn"
   ],
   "grc": [
-    "Grek",
-    "Linb"
+    "Linb",
+    "Grek"
+  ],
+  "grn": [
+    "Latn"
   ],
   "gsg": [
     "Sgnw"
@@ -1204,6 +1360,9 @@
   ],
   "guc": [
     "Latn"
+  ],
+  "guj": [
+    "Gujr"
   ],
   "guk": [
     "Latn",
@@ -1222,8 +1381,8 @@
     "Latn"
   ],
   "gvr": [
-    "Gukh",
-    "Deva"
+    "Deva",
+    "Gukh"
   ],
   "gwd": [
     "Ethi"
@@ -1252,13 +1411,26 @@
   "har": [
     "Ethi"
   ],
+  "hat": [
+    "Latn"
+  ],
+  "hau": [
+    "Latn"
+  ],
   "hbo": [
+    "Hebr",
     "Samr",
-    "Phnx",
-    "Hebr"
+    "Phnx"
+  ],
+  "hbs": [
+    "Latn",
+    "Cyrl"
   ],
   "heb": [
     "Hebr"
+  ],
+  "her": [
+    "Latn"
   ],
   "hid": [
     "Latn"
@@ -1270,23 +1442,26 @@
     "Xsux"
   ],
   "hlb": [
-    "Orya",
-    "Deva"
+    "Deva",
+    "Orya"
   ],
   "hlu": [
     "Hluw"
   ],
   "hmd": [
-    "Plrd",
-    "Latn"
+    "Latn",
+    "Plrd"
   ],
   "hmk": [
     "Hani"
   ],
   "hmn": [
-    "Hmnp",
     "Latn",
+    "Hmnp",
     "Hmng"
+  ],
+  "hmo": [
+    "Latn"
   ],
   "hne": [
     "Deva"
@@ -1301,12 +1476,12 @@
     "Hano"
   ],
   "hoc": [
-    "Orya",
+    "Latn",
+    "Telu",
     "Wara",
     "Deva",
     "Beng",
-    "Latn",
-    "Telu"
+    "Orya"
   ],
   "hoi": [
     "Latn"
@@ -1335,6 +1510,10 @@
   "hul": [
     "Latn"
   ],
+  "hun": [
+    "Latn",
+    "Hung"
+  ],
   "hup": [
     "Latn"
   ],
@@ -1350,6 +1529,9 @@
   "hwc": [
     "Latn"
   ],
+  "hye": [
+    "Armn"
+  ],
   "hyw": [
     "Armn"
   ],
@@ -1362,19 +1544,41 @@
   "icr": [
     "Latn"
   ],
+  "ido": [
+    "Latn"
+  ],
   "ifk": [
     "Latn"
+  ],
+  "igs": [
+    "Latn"
+  ],
+  "iii": [
+    "Yiii"
   ],
   "ijn": [
     "Latn"
   ],
   "ike": [
-    "Latn",
-    "Cans"
+    "Cans",
+    "Latn"
+  ],
+  "iku": [
+    "Cans",
+    "Latn"
+  ],
+  "ile": [
+    "Latn"
   ],
   "ilo": [
     "Latn",
     "Tglg"
+  ],
+  "ina": [
+    "Latn"
+  ],
+  "ind": [
+    "Latn"
   ],
   "ing": [
     "Latn"
@@ -1385,6 +1589,12 @@
   "ins": [
     "Sgnw"
   ],
+  "ipk": [
+    "Latn"
+  ],
+  "isl": [
+    "Latn"
+  ],
   "ist": [
     "Latn"
   ],
@@ -1392,7 +1602,10 @@
     "Latn"
   ],
   "isv": [
-    "Cyrl",
+    "Latn",
+    "Cyrl"
+  ],
+  "ita": [
     "Latn"
   ],
   "itk": [
@@ -1429,12 +1642,17 @@
   "jam": [
     "Latn"
   ],
+  "jav": [
+    "Latn",
+    "Kawi",
+    "Java"
+  ],
   "jax": [
     "Latn"
   ],
   "jbn": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "jbo": [
     "Latn"
@@ -1443,14 +1661,19 @@
     "Cyrl"
   ],
   "jdt": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "jgo": [
     "Latn"
   ],
   "jns": [
     "Deva"
+  ],
+  "jpn": [
+    "Kana",
+    "Hrkt",
+    "Hira"
   ],
   "jpr": [
     "Hebr"
@@ -1468,12 +1691,12 @@
     "Latn"
   ],
   "jvn": [
-    "Java",
-    "Latn"
+    "Latn",
+    "Java"
   ],
   "kaa": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "kab": [
     "Latn"
@@ -1490,16 +1713,30 @@
   "kam": [
     "Latn"
   ],
+  "kan": [
+    "Knda"
+  ],
   "kap": [
     "Cyrl"
+  ],
+  "kas": [
+    "Deva",
+    "Shrd"
+  ],
+  "kau": [
+    "Latn"
   ],
   "kaw": [
     "Kawi"
   ],
+  "kaz": [
+    "Latn",
+    "Cyrl"
+  ],
   "kbd": [
     "Latn",
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "kbl": [
     "Latn"
@@ -1539,9 +1776,9 @@
     "Latn"
   ],
   "kdr": [
+    "Hebr",
     "Cyrl",
-    "Latn",
-    "Hebr"
+    "Latn"
   ],
   "kea": [
     "Latn"
@@ -1600,23 +1837,26 @@
   "khb": [
     "Tale",
     "Laoo",
-    "Thai",
+    "Lana",
     "Talu",
-    "Lana"
+    "Thai"
   ],
   "khg": [
     "Tibt"
   ],
   "khk": [
-    "Mong",
-    "Cyrl"
+    "Cyrl",
+    "Mong"
+  ],
+  "khm": [
+    "Khmr"
   ],
   "khn": [
     "Deva"
   ],
   "kho": [
-    "Brah",
-    "Khar"
+    "Khar",
+    "Brah"
   ],
   "khq": [
     "Latn"
@@ -1627,11 +1867,20 @@
   "kii": [
     "Latn"
   ],
+  "kik": [
+    "Latn"
+  ],
   "kim": [
     "Cyrl"
   ],
+  "kin": [
+    "Latn"
+  ],
   "kio": [
     "Latn"
+  ],
+  "kir": [
+    "Cyrl"
   ],
   "kjb": [
     "Latn"
@@ -1643,8 +1892,8 @@
     "Latn"
   ],
   "kjj": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "kjp": [
     "Leke",
@@ -1663,8 +1912,8 @@
     "Latn"
   ],
   "kkv": [
-    "Java",
-    "Latn"
+    "Latn",
+    "Java"
   ],
   "kkw": [
     "Latn"
@@ -1689,8 +1938,8 @@
   ],
   "kmr": [
     "Latn",
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "kna": [
     "Latn"
@@ -1711,17 +1960,27 @@
     "Cyrl"
   ],
   "kok": [
-    "Mlym",
-    "Deva",
+    "Latn",
     "Arab",
     "Knda",
-    "Latn"
+    "Mlym",
+    "Deva"
   ],
   "kol": [
     "Latn"
   ],
+  "kom": [
+    "Cyrl",
+    "Perm"
+  ],
+  "kon": [
+    "Latn"
+  ],
   "koo": [
     "Latn"
+  ],
+  "kor": [
+    "Hang"
   ],
   "kos": [
     "Latn"
@@ -1743,8 +2002,8 @@
     "Ethi"
   ],
   "krc": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "kri": [
     "Latn"
@@ -1753,8 +2012,8 @@
     "Latn"
   ],
   "kru": [
-    "Tols",
-    "Deva"
+    "Deva",
+    "Tols"
   ],
   "ksb": [
     "Latn"
@@ -1777,6 +2036,9 @@
   "ktz": [
     "Latn"
   ],
+  "kua": [
+    "Latn"
+  ],
   "kuf": [
     "Laoo"
   ],
@@ -1788,11 +2050,15 @@
   ],
   "kum": [
     "Latn",
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "kun": [
     "Latn"
+  ],
+  "kur": [
+    "Latn",
+    "Cyrl"
   ],
   "kus": [
     "Latn"
@@ -1819,13 +2085,13 @@
     "Orya"
   ],
   "kyu": [
-    "Kali",
-    "Latn"
+    "Latn",
+    "Kali"
   ],
   "kyw": [
-    "Orya",
     "Deva",
-    "Chis"
+    "Chis",
+    "Orya"
   ],
   "kzr": [
     "Latn"
@@ -1843,6 +2109,15 @@
     "Latn"
   ],
   "lam": [
+    "Latn"
+  ],
+  "lao": [
+    "Laoo"
+  ],
+  "lat": [
+    "Latn"
+  ],
+  "lav": [
     "Latn"
   ],
   "lbc": [
@@ -1876,8 +2151,8 @@
     "Cyrl"
   ],
   "lfn": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "lgn": [
     "Latn"
@@ -1901,8 +2176,17 @@
   "lik": [
     "Latn"
   ],
+  "lim": [
+    "Latn"
+  ],
+  "lin": [
+    "Latn"
+  ],
   "liq": [
     "Ethi"
+  ],
+  "lit": [
+    "Latn"
   ],
   "liv": [
     "Latn"
@@ -1931,8 +2215,8 @@
   ],
   "lmn": [
     "Deva",
-    "Telu",
-    "Knda"
+    "Knda",
+    "Telu"
   ],
   "lmo": [
     "Latn"
@@ -1956,8 +2240,8 @@
     "Latn"
   ],
   "loy": [
-    "Tibt",
-    "Deva"
+    "Deva",
+    "Tibt"
   ],
   "loz": [
     "Latn"
@@ -1980,10 +2264,19 @@
   "ltg": [
     "Latn"
   ],
+  "ltz": [
+    "Latn"
+  ],
   "lua": [
     "Latn"
   ],
+  "lub": [
+    "Latn"
+  ],
   "lud": [
+    "Latn"
+  ],
+  "lug": [
     "Latn"
   ],
   "lui": [
@@ -2011,8 +2304,8 @@
     "Latn"
   ],
   "mad": [
-    "Java",
-    "Latn"
+    "Latn",
+    "Java"
   ],
   "maf": [
     "Latn"
@@ -2020,18 +2313,28 @@
   "mag": [
     "Deva"
   ],
+  "mah": [
+    "Latn"
+  ],
   "mai": [
-    "Kthi",
+    "Deva",
     "Tirh",
-    "Deva"
+    "Kthi"
   ],
   "mak": [
     "Latn",
     "Maka",
     "Bugi"
   ],
+  "mal": [
+    "Mlym"
+  ],
   "mam": [
     "Latn"
+  ],
+  "mar": [
+    "Deva",
+    "Modi"
   ],
   "mas": [
     "Latn"
@@ -2079,8 +2382,8 @@
   ],
   "mfa": [
     "Latn",
-    "Thai",
-    "Arab"
+    "Arab",
+    "Thai"
   ],
   "mfb": [
     "Latn"
@@ -2136,16 +2439,25 @@
   "mjl": [
     "Deva"
   ],
+  "mkd": [
+    "Cyrl"
+  ],
   "mkf": [
     "Latn"
   ],
   "mkj": [
     "Latn"
   ],
+  "mlg": [
+    "Latn"
+  ],
   "mli": [
     "Latn"
   ],
   "mll": [
+    "Latn"
+  ],
+  "mlt": [
     "Latn"
   ],
   "mlv": [
@@ -2205,6 +2517,10 @@
   "moh": [
     "Latn"
   ],
+  "mon": [
+    "Cyrl",
+    "Mong"
+  ],
   "mop": [
     "Latn"
   ],
@@ -2242,8 +2558,8 @@
     "Latn"
   ],
   "mro": [
-    "Mroo",
-    "Latn"
+    "Latn",
+    "Mroo"
   ],
   "mrr": [
     "Deva"
@@ -2252,6 +2568,9 @@
     "Latn"
   ],
   "mrw": [
+    "Latn"
+  ],
+  "msa": [
     "Latn"
   ],
   "msb": [
@@ -2276,8 +2595,8 @@
     "Latn"
   ],
   "mui": [
-    "Rjng",
-    "Latn"
+    "Latn",
+    "Rjng"
   ],
   "muk": [
     "Tibt"
@@ -2311,8 +2630,8 @@
     "Latn"
   ],
   "mwr": [
-    "Deva",
-    "Arab"
+    "Arab",
+    "Deva"
   ],
   "mwv": [
     "Latn"
@@ -2322,6 +2641,9 @@
   ],
   "mxi": [
     "Latn"
+  ],
+  "mya": [
+    "Mymr"
   ],
   "mye": [
     "Latn"
@@ -2340,8 +2662,8 @@
     "Latn"
   ],
   "mzb": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "mzn": [
     "Arab"
@@ -2364,10 +2686,25 @@
   "naq": [
     "Latn"
   ],
+  "nau": [
+    "Latn"
+  ],
+  "nav": [
+    "Latn"
+  ],
   "nbh": [
     "Latn"
   ],
+  "nbl": [
+    "Latn"
+  ],
   "nce": [
+    "Latn"
+  ],
+  "nde": [
+    "Latn"
+  ],
+  "ndo": [
     "Latn"
   ],
   "nds": [
@@ -2375,6 +2712,12 @@
   ],
   "neg": [
     "Cyrl"
+  ],
+  "nep": [
+    "Deva"
+  ],
+  "neu": [
+    "Latn"
   ],
   "new": [
     "Deva",
@@ -2431,6 +2774,9 @@
   "nkr": [
     "Latn"
   ],
+  "nld": [
+    "Latn"
+  ],
   "nlv": [
     "Latn"
   ],
@@ -2449,10 +2795,16 @@
   "nnh": [
     "Latn"
   ],
+  "nno": [
+    "Latn"
+  ],
   "nnp": [
     "Latn",
-    "Wcho",
-    "Deva"
+    "Deva",
+    "Wcho"
+  ],
+  "nob": [
+    "Latn"
   ],
   "nod": [
     "Thai",
@@ -2462,12 +2814,15 @@
     "Deva"
   ],
   "nog": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "non": [
     "Latn",
     "Runr"
+  ],
+  "nor": [
+    "Latn"
   ],
   "nov": [
     "Latn"
@@ -2518,15 +2873,18 @@
     "Latn"
   ],
   "nwc": [
-    "Brah",
     "Deva",
     "Newa",
-    "Ranj"
+    "Ranj",
+    "Brah"
   ],
   "nwo": [
     "Latn"
   ],
   "nxq": [
+    "Latn"
+  ],
+  "nya": [
     "Latn"
   ],
   "nym": [
@@ -2555,14 +2913,17 @@
   ],
   "oak": [
     "Latn",
-    "Beng",
-    "Deva"
+    "Deva",
+    "Beng"
   ],
   "obm": [
     "Phnx"
   ],
   "och": [
     "Hani"
+  ],
+  "oci": [
+    "Latn"
   ],
   "ocm": [
     "Brah"
@@ -2579,6 +2940,10 @@
   ],
   "oge": [
     "Geok"
+  ],
+  "oji": [
+    "Cans",
+    "Latn"
   ],
   "ojs": [
     "Cans"
@@ -2616,9 +2981,16 @@
   "opm": [
     "Latn"
   ],
+  "ori": [
+    "Orya"
+  ],
+  "orm": [
+    "Latn",
+    "Ethi"
+  ],
   "orv": [
-    "Cyrl",
-    "Glag"
+    "Glag",
+    "Cyrl"
   ],
   "osa": [
     "Latn",
@@ -2649,14 +3021,14 @@
     "Latn"
   ],
   "oua": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "oui": [
-    "Brah",
     "Orkh",
     "Ougr",
-    "Tibt"
+    "Tibt",
+    "Brah"
   ],
   "ovd": [
     "Latn"
@@ -2665,12 +3037,15 @@
     "Latn"
   ],
   "pal": [
-    "Phli",
     "Mani",
-    "Avst"
+    "Avst",
+    "Phli"
   ],
   "pam": [
     "Latn"
+  ],
+  "pan": [
+    "Guru"
   ],
   "pao": [
     "Latn"
@@ -2772,6 +3147,9 @@
   "pld": [
     "Latn"
   ],
+  "pli": [
+    "Brah"
+  ],
   "pln": [
     "Latn"
   ],
@@ -2807,7 +3185,13 @@
   "poh": [
     "Latn"
   ],
+  "pol": [
+    "Latn"
+  ],
   "pon": [
+    "Latn"
+  ],
+  "por": [
     "Latn"
   ],
   "pot": [
@@ -2831,9 +3215,6 @@
   "pro": [
     "Latn"
   ],
-  "prs": [
-    "Arab"
-  ],
   "ptt": [
     "Latn"
   ],
@@ -2845,6 +3226,9 @@
   ],
   "puq": [
     "Latn"
+  ],
+  "pus": [
+    "Arab"
   ],
   "puw": [
     "Latn"
@@ -2858,6 +3242,9 @@
   "quc": [
     "Latn"
   ],
+  "que": [
+    "Latn"
+  ],
   "qug": [
     "Latn"
   ],
@@ -2868,10 +3255,10 @@
     "Latn"
   ],
   "qya": [
-    "Latn",
     "Cirt",
     "Teng",
-    "Sara"
+    "Sara",
+    "Latn"
   ],
   "raj": [
     "Deva"
@@ -2917,8 +3304,8 @@
     "Armn"
   ],
   "rml": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "rmo": [
     "Latn"
@@ -2926,9 +3313,12 @@
   "rmu": [
     "Latn"
   ],
-  "rmy": [
-    "Cyrl",
+  "rmv": [
     "Latn"
+  ],
+  "rmy": [
+    "Latn",
+    "Cyrl"
   ],
   "rng": [
     "Latn"
@@ -2936,10 +3326,16 @@
   "rob": [
     "Latn"
   ],
+  "roh": [
+    "Latn"
+  ],
   "rom": [
     "Latn",
     "Cyrl",
     "Deva"
+  ],
+  "ron": [
+    "Latn"
   ],
   "roo": [
     "Latn"
@@ -2962,8 +3358,14 @@
   "rug": [
     "Latn"
   ],
+  "run": [
+    "Latn"
+  ],
   "rup": [
     "Latn"
+  ],
+  "rus": [
+    "Cyrl"
   ],
   "rut": [
     "Cyrl"
@@ -2983,6 +3385,9 @@
   "saf": [
     "Latn"
   ],
+  "sag": [
+    "Latn"
+  ],
   "sah": [
     "Cyrl"
   ],
@@ -2991,6 +3396,13 @@
   ],
   "sam": [
     "Samr"
+  ],
+  "san": [
+    "Nand",
+    "Sidd",
+    "Shrd",
+    "Knda",
+    "Deva"
   ],
   "sao": [
     "Latn"
@@ -3002,11 +3414,11 @@
     "Latn"
   ],
   "sat": [
-    "Orya",
+    "Latn",
     "Olck",
     "Deva",
     "Beng",
-    "Latn"
+    "Orya"
   ],
   "saz": [
     "Deva",
@@ -3032,9 +3444,9 @@
     "Taml"
   ],
   "sck": [
-    "Orya",
+    "Deva",
     "Beng",
-    "Deva"
+    "Orya"
   ],
   "scn": [
     "Latn"
@@ -3044,6 +3456,9 @@
   ],
   "scx": [
     "Grek"
+  ],
+  "scz": [
+    "Latn"
   ],
   "sda": [
     "Latn"
@@ -3082,8 +3497,8 @@
     "Latn"
   ],
   "sgh": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "sgs": [
     "Latn"
@@ -3102,8 +3517,8 @@
     "Latn"
   ],
   "shr": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "shu": [
     "Latn",
@@ -3119,6 +3534,9 @@
     "Latn",
     "Ethi"
   ],
+  "sin": [
+    "Sinh"
+  ],
   "sip": [
     "Tibt"
   ],
@@ -3129,13 +3547,13 @@
     "Cyrl"
   ],
   "sjn": [
-    "Latn",
     "Cirt",
-    "Teng"
+    "Teng",
+    "Latn"
   ],
   "sjs": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "sjt": [
     "Cyrl"
@@ -3149,13 +3567,22 @@
   "sli": [
     "Latn"
   ],
+  "slk": [
+    "Latn"
+  ],
   "slr": [
+    "Latn"
+  ],
+  "slv": [
     "Latn"
   ],
   "sly": [
     "Latn"
   ],
   "sma": [
+    "Latn"
+  ],
+  "sme": [
     "Latn"
   ],
   "smj": [
@@ -3167,6 +3594,9 @@
   "smn": [
     "Latn"
   ],
+  "smo": [
+    "Latn"
+  ],
   "smp": [
     "Samr"
   ],
@@ -3176,6 +3606,14 @@
   "smw": [
     "Latn"
   ],
+  "sna": [
+    "Latn"
+  ],
+  "snd": [
+    "Gujr",
+    "Sind",
+    "Khoj"
+  ],
   "snk": [
     "Latn"
   ],
@@ -3183,9 +3621,16 @@
     "Tavt"
   ],
   "sog": [
-    "Sogd",
     "Mani",
+    "Sogd",
     "Syrc"
+  ],
+  "som": [
+    "Latn",
+    "Osma"
+  ],
+  "sot": [
+    "Latn"
   ],
   "sou": [
     "Thai"
@@ -3196,17 +3641,26 @@
   "sox": [
     "Latn"
   ],
+  "spa": [
+    "Latn"
+  ],
   "spi": [
     "Latn"
   ],
   "spv": [
     "Orya"
   ],
+  "sqi": [
+    "Latn"
+  ],
   "srb": [
-    "Orya",
-    "Telu",
     "Latn",
-    "Sora"
+    "Sora",
+    "Telu",
+    "Orya"
+  ],
+  "srd": [
+    "Latn"
   ],
   "srl": [
     "Latn"
@@ -3228,6 +3682,9 @@
     "Deva"
   ],
   "sso": [
+    "Latn"
+  ],
+  "ssw": [
     "Latn"
   ],
   "ssy": [
@@ -3255,6 +3712,10 @@
   "suk": [
     "Latn"
   ],
+  "sun": [
+    "Latn",
+    "Sund"
+  ],
   "sur": [
     "Latn"
   ],
@@ -3265,13 +3726,19 @@
     "Xsux"
   ],
   "sva": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "svm": [
     "Latn"
   ],
+  "swa": [
+    "Latn"
+  ],
   "swc": [
+    "Latn"
+  ],
+  "swe": [
     "Latn"
   ],
   "swg": [
@@ -3295,8 +3762,8 @@
   ],
   "syl": [
     "Latn",
-    "Beng",
     "Deva",
+    "Beng",
     "Sylo"
   ],
   "syw": [
@@ -3317,6 +3784,13 @@
   "tad": [
     "Latn"
   ],
+  "tah": [
+    "Latn"
+  ],
+  "tam": [
+    "Arab",
+    "Taml"
+  ],
   "tan": [
     "Latn"
   ],
@@ -3324,8 +3798,11 @@
     "Latn"
   ],
   "taq": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
+  ],
+  "tat": [
+    "Cyrl"
   ],
   "tay": [
     "Latn"
@@ -3340,14 +3817,14 @@
     "Latn"
   ],
   "tcy": [
-    "Mlym",
     "Tutg",
+    "Mlym",
     "Knda"
   ],
   "tda": [
     "Latn",
-    "Tfng",
-    "Arab"
+    "Arab",
+    "Tfng"
   ],
   "tdd": [
     "Tale",
@@ -3355,6 +3832,9 @@
   ],
   "tdn": [
     "Latn"
+  ],
+  "tel": [
+    "Telu"
   ],
   "tem": [
     "Latn"
@@ -3378,6 +3858,9 @@
   "tgk": [
     "Cyrl"
   ],
+  "tha": [
+    "Thai"
+  ],
   "thk": [
     "Latn"
   ],
@@ -3397,6 +3880,9 @@
     "Tfng"
   ],
   "tig": [
+    "Ethi"
+  ],
+  "tir": [
     "Ethi"
   ],
   "tiv": [
@@ -3425,15 +3911,15 @@
   ],
   "tly": [
     "Latn",
-    "Cyrl",
-    "Arab"
+    "Arab",
+    "Cyrl"
   ],
   "tmc": [
     "Latn"
   ],
   "tmh": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "tob": [
     "Latn"
@@ -3448,6 +3934,9 @@
     "Latn"
   ],
   "tok": [
+    "Latn"
+  ],
+  "ton": [
     "Latn"
   ],
   "tpi": [
@@ -3487,6 +3976,12 @@
   "tsj": [
     "Tibt"
   ],
+  "tsn": [
+    "Latn"
+  ],
+  "tso": [
+    "Latn"
+  ],
   "tsr": [
     "Latn"
   ],
@@ -3500,12 +3995,16 @@
     "Thai"
   ],
   "ttt": [
+    "Hebr",
     "Cyrl",
-    "Latn",
-    "Hebr"
+    "Latn"
   ],
   "ttv": [
     "Latn"
+  ],
+  "tuk": [
+    "Latn",
+    "Cyrl"
   ],
   "tul": [
     "Latn"
@@ -3528,6 +4027,9 @@
   "twh": [
     "Tavt"
   ],
+  "twi": [
+    "Latn"
+  ],
   "twq": [
     "Latn"
   ],
@@ -3548,8 +4050,8 @@
     "Laoo"
   ],
   "tyv": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "tyz": [
     "Latn"
@@ -3561,22 +4063,22 @@
     "Latn"
   ],
   "tzm": [
-    "Tfng",
-    "Latn"
+    "Latn",
+    "Tfng"
   ],
   "tzo": [
     "Latn"
   ],
   "uby": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "ude": [
     "Cyrl"
   ],
   "udi": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "udm": [
     "Cyrl"
@@ -3593,8 +4095,16 @@
   "uhn": [
     "Latn"
   ],
+  "uig": [
+    "Latn",
+    "Arab",
+    "Cyrl"
+  ],
   "uki": [
     "Orya"
+  ],
+  "ukr": [
+    "Cyrl"
   ],
   "ulc": [
     "Cyrl"
@@ -3618,11 +4128,11 @@
     "Latn"
   ],
   "unr": [
-    "Orya",
+    "Latn",
+    "Nagm",
     "Deva",
     "Beng",
-    "Nagm",
-    "Latn"
+    "Orya"
   ],
   "urk": [
     "Thai"
@@ -3633,6 +4143,10 @@
   "uum": [
     "Cyrl",
     "Grek"
+  ],
+  "uzb": [
+    "Latn",
+    "Cyrl"
   ],
   "uzs": [
     "Arab"
@@ -3647,14 +4161,17 @@
     "Latn"
   ],
   "vav": [
-    "Gujr",
-    "Deva"
+    "Deva",
+    "Gujr"
   ],
   "vec": [
     "Latn"
   ],
   "ved": [
     "Sinh"
+  ],
+  "ven": [
+    "Latn"
   ],
   "vep": [
     "Latn"
@@ -3668,6 +4185,9 @@
   "vid": [
     "Latn"
   ],
+  "vie": [
+    "Latn"
+  ],
   "vls": [
     "Latn"
   ],
@@ -3675,6 +4195,9 @@
     "Latn"
   ],
   "vmw": [
+    "Latn"
+  ],
+  "vol": [
     "Latn"
   ],
   "vot": [
@@ -3700,8 +4223,8 @@
     "Latn"
   ],
   "wbl": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "wbp": [
     "Latn"
@@ -3730,6 +4253,9 @@
   "wlk": [
     "Latn"
   ],
+  "wln": [
+    "Latn"
+  ],
   "wls": [
     "Latn"
   ],
@@ -3750,6 +4276,10 @@
   ],
   "woe": [
     "Latn"
+  ],
+  "wol": [
+    "Latn",
+    "Gara"
   ],
   "wry": [
     "Deva"
@@ -3773,8 +4303,8 @@
     "Aghb"
   ],
   "xal": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "xan": [
     "Ethi"
@@ -3783,8 +4313,8 @@
     "Latn"
   ],
   "xbc": [
-    "Grek",
-    "Mani"
+    "Mani",
+    "Grek"
   ],
   "xbo": [
     "Grek"
@@ -3818,13 +4348,16 @@
   "xhd": [
     "Sarb"
   ],
+  "xho": [
+    "Latn"
+  ],
   "xht": [
     "Xsux"
   ],
   "xhu": [
-    "Ugar",
+    "Xsux",
     "Hluw",
-    "Xsux"
+    "Ugar"
   ],
   "xlc": [
     "Lyci"
@@ -3845,11 +4378,11 @@
     "Mani"
   ],
   "xng": [
+    "Arab",
     "Hani",
     "Mong",
-    "Phag",
-    "Arab",
-    "Armn"
+    "Armn",
+    "Phag"
   ],
   "xno": [
     "Latn"
@@ -3901,8 +4434,8 @@
     "Latn"
   ],
   "xsr": [
-    "Tibt",
-    "Deva"
+    "Deva",
+    "Tibt"
   ],
   "xsy": [
     "Latn"
@@ -3933,8 +4466,8 @@
     "Latn"
   ],
   "yah": [
-    "Cyrl",
-    "Latn"
+    "Latn",
+    "Cyrl"
   ],
   "yao": [
     "Latn"
@@ -3966,6 +4499,9 @@
   "ygr": [
     "Latn"
   ],
+  "yid": [
+    "Hebr"
+  ],
   "ykg": [
     "Cyrl"
   ],
@@ -3994,14 +4530,14 @@
     "Latn"
   ],
   "yoi": [
-    "Hira",
     "Kana",
-    "Hrkt"
-  ],
-  "yol": [
-    "Latn"
+    "Hrkt",
+    "Hira"
   ],
   "yom": [
+    "Latn"
+  ],
+  "yor": [
     "Latn"
   ],
   "yrk": [
@@ -4041,8 +4577,16 @@
   "zea": [
     "Latn"
   ],
+  "zha": [
+    "Latn"
+  ],
   "zhn": [
     "Latn"
+  ],
+  "zho": [
+    "Hant",
+    "Hans",
+    "Hani"
   ],
   "ziw": [
     "Latn"
@@ -4051,8 +4595,8 @@
     "Ougr"
   ],
   "zkt": [
-    "Kits",
-    "Kitl"
+    "Kitl",
+    "Kits"
   ],
   "zkv": [
     "Latn"
@@ -4085,6 +4629,9 @@
     "Latn"
   ],
   "zuh": [
+    "Latn"
+  ],
+  "zul": [
     "Latn"
   ],
   "zum": [

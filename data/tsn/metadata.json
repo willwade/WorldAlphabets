@@ -1,0 +1,28 @@
+{
+  "language": "tsn",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "tsn/alphabet/tsn-Latn.json",
+      "letter_count": 23,
+      "updated": "2025-11-12T09:17:41.621284Z"
+    },
+    "frequency_top1000": {
+      "file": "tsn/frequency/top1000.txt",
+      "token_count": 59,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:25.165371Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "tn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:54.316152Z"
+    }
+  },
+  "language_name": "Tswana",
+  "iso639_1": "tn",
+  "iso639_3": "tsn"
+}

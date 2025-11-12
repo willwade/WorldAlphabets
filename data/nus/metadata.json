@@ -1,0 +1,32 @@
+{
+  "language": "nus",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "nus/alphabet/nus-Latn.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:15:07.395703Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "nus/alphabet/nus-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "nus/frequency/top1000.txt",
+      "token_count": 53,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:32:26.014718Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "nus",
+      "cached": false,
+      "updated": "2025-11-12T10:37:48.078597Z"
+    }
+  },
+  "language_name": "Nuer",
+  "iso639_3": "nus"
+}

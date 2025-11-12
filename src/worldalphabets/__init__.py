@@ -69,9 +69,22 @@ def get_available_codes() -> List[str]:
 def load_frequency_list(code: str) -> FrequencyList:
     """Return Top-1000 token list for ISO language ``code``."""
 
-    freq_dir = files("worldalphabets") / "data" / "freq" / "top1000"
-    path = freq_dir / f"{code}.txt"
-    if not path.is_file():
+    data_root = files("worldalphabets") / "data"
+    candidates = [
+        data_root / code / "frequency" / "top1000.txt",
+        data_root / "freq" / "top1000" / f"{code}.txt",
+    ]
+
+    path = None
+    for candidate in candidates:
+        try:
+            if candidate.is_file():
+                path = candidate
+                break
+        except FileNotFoundError:
+            continue
+
+    if path is None:
         raise FileNotFoundError(f"Frequency list for code '{code}' not found")
 
     mode: Literal["word", "bigram"] = "word"

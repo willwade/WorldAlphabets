@@ -7,7 +7,9 @@
 - Run `ruff check` and `mypy` on any Python files you modify. (NB: uv run mypy --install-types for types installation)
 - Run `npm test` when JavaScript files are changed.
 - Keep lines under 88 characters when possible.
-- Store generated alphabet JSON under `data/alphabets/`.
+- Store generated alphabet JSON under `data/<3-letter-langcode/alphabet/`.
+- Other data is also in data/3-letter-lancode
+- We do not publish audio files to npm or pypi to keep published size low
 - Note scripts are in `scripts/`. Many of these are used to generate data files. 
 - Document significant script or data changes in `README.md`.
 - A webUI which is built using vue+vite is in the `webui/` directory. Note its a static site with no backend. Hosted on github pages. (See workflows)

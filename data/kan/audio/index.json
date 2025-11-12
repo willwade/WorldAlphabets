@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "dra",
+    "path": "data/kn/audio/kn-Knda_espeak_dra_kn.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "kn",
+    "path": "data/kn/audio/kn-Knda_microsoft_kn_in_sapnaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "kn",
+    "path": "data/kn/audio/kn-Knda_microsoft_kn_in_gaganneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/kn/audio/kn-Knda_sherpaonnx_mms_kan.wav"
+  }
+]

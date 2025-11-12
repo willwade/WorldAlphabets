@@ -1,0 +1,25 @@
+{
+  "language": "kaa",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "kaa/alphabet/kaa-Cyrl.json",
+      "letter_count": 41,
+      "updated": "2025-11-12T09:12:30.164599Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "kaa/alphabet/kaa-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "kaa/frequency/top1000.txt",
+      "token_count": 34,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:19.397098Z"
+    }
+  },
+  "language_name": "Kara-Kalpak",
+  "iso639_3": "kaa"
+}

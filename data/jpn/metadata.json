@@ -1,0 +1,47 @@
+{
+  "language": "jpn",
+  "sections": {
+    "frequency_top1000": {
+      "file": "jpn/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "bigram",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:27:04.118417Z"
+    },
+    "translation_Hira": {
+      "script": "Hira",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.314248Z"
+    },
+    "translation_Jpan": {
+      "script": "Jpan",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.320292Z"
+    },
+    "translation_Kana": {
+      "script": "Kana",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.321248Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Kana",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:26.959750Z"
+    },
+    {
+      "script": "Hrkt",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:27.195244Z"
+    },
+    {
+      "script": "Hira",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:27.426272Z"
+    }
+  ],
+  "language_name": "Japanese",
+  "iso639_1": "ja",
+  "iso639_3": "jpn"
+}

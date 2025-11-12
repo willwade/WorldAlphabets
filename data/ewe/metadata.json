@@ -1,0 +1,33 @@
+{
+  "language": "ewe",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ewe/alphabet/ewe-Latn.json",
+      "letter_count": 45,
+      "updated": "2025-11-12T09:10:44.219346Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ewe/alphabet/ewe-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ee",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.700308Z"
+    },
+    "frequency_top1000": {
+      "file": "ewe/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Ewe",
+  "iso639_1": "ee",
+  "iso639_3": "ewe"
+}

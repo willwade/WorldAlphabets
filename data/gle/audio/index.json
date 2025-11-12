@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "ga",
+    "path": "data/ga/audio/ga-Latn_microsoft_ga_ie_orlaneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "cel",
+    "path": "data/ga/audio/ga-Latn_espeak_cel_ga.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ga",
+    "path": "data/ga/audio/ga-Latn_microsoft_ga_ie_colmneural.wav"
+  }
+]

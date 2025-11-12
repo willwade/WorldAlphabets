@@ -1,0 +1,32 @@
+{
+  "language": "gaa",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "gaa/alphabet/gaa-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:11:20.825944Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "gaa/alphabet/gaa-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "gaa/frequency/top1000.txt",
+      "token_count": 59,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:25:45.777160Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "gaa",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.710276Z"
+    }
+  },
+  "language_name": "Ga",
+  "iso639_3": "gaa"
+}

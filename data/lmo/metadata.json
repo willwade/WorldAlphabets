@@ -1,0 +1,32 @@
+{
+  "language": "lmo",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lmo/alphabet/lmo-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:13:42.560501Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lmo/alphabet/lmo-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lmo/frequency/top1000.txt",
+      "token_count": 34,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:29:28.312436Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "lmo",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.745966Z"
+    }
+  },
+  "language_name": "Lombard",
+  "iso639_3": "lmo"
+}

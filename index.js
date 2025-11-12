@@ -1,8 +1,9 @@
 const fs = require('fs/promises');
 const path = require('path');
 
-const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
-const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
+const LEGACY_ALPHABET_DIR = path.join(__dirname, 'data', 'alphabets');
+const CANONICAL_DATA_DIR = path.join(__dirname, 'data');
+const LEGACY_FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
 
 /**
  * Loads the alphabet data for a given language code and script.
@@ -10,35 +11,78 @@ const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
  * @param {string} [script] - Optional ISO-15924 script code.
  * @returns {Promise<object>} A promise that resolves to the alphabet data.
  */
-async function loadAlphabet(code, script) {
-  const candidates = [];
-  if (!script) {
-    try {
-      const data = await getIndexData();
-      const entries = data.filter((item) => item.language === code);
-      if (entries.length > 0) {
-        // Use the first available script as default
-        script = entries[0].script;
-      }
-    } catch (_) {
-      /* ignore */
-    }
-  }
-  if (script) {
-    candidates.push(path.join(DATA_DIR, `${code}-${script}.json`));
-  }
-  candidates.push(path.join(DATA_DIR, `${code}.json`));
+async function resolveEntries(code) {
+  const data = await getIndexData();
+  const needle = (code || '').toLowerCase();
+  if (!needle) return [];
+  return data.filter(
+    (item) =>
+      item.language === needle ||
+      (item.iso639_1 && item.iso639_1.toLowerCase() === needle)
+  );
+}
 
-  for (const filePath of candidates) {
+function getAlphabetPath(entry) {
+  const fileName = entry.file || `${entry.language}-${entry.script}.json`;
+  const canonicalPath = path.join(
+    CANONICAL_DATA_DIR,
+    entry.language,
+    'alphabet',
+    fileName
+  );
+  return canonicalPath;
+}
+
+async function loadAlphabet(code, script) {
+  const entries = await resolveEntries(code);
+  const candidates = [];
+  if (script) {
+    candidates.push(
+      ...entries.filter(
+        (entry) => entry.script && entry.script.toLowerCase() === script.toLowerCase()
+      )
+    );
+  }
+  candidates.push(...entries);
+
+  for (const entry of candidates) {
+    const filePath = getAlphabetPath(entry);
     try {
       const content = await fs.readFile(filePath, 'utf8');
-      return JSON.parse(content);
+      const parsed = JSON.parse(content);
+      if (!parsed.script && entry.script) {
+        parsed.script = entry.script;
+      }
+      return parsed;
     } catch (error) {
       if (error.code !== 'ENOENT') {
         throw error;
       }
     }
   }
+
+  // Fallback to legacy layout (for backward compatibility)
+  const legacyCandidates = [];
+  if (script) {
+    legacyCandidates.push(path.join(LEGACY_ALPHABET_DIR, `${code}-${script}.json`));
+  }
+  legacyCandidates.push(path.join(LEGACY_ALPHABET_DIR, `${code}.json`));
+
+  for (const filePath of legacyCandidates) {
+    try {
+      const content = await fs.readFile(filePath, 'utf8');
+      const parsed = JSON.parse(content);
+      if (!parsed.script && script) {
+        parsed.script = script;
+      }
+      return parsed;
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        throw error;
+      }
+    }
+  }
+
   throw new Error(`Alphabet data for code "${code}" not found.`);
 }
 
@@ -89,7 +133,7 @@ async function getDigits(code, script) {
  */
 async function getAvailableCodes() {
   const data = await getIndexData();
-  const codes = data.map((item) => item.language);
+  const codes = data.map((item) => item.iso639_1 || item.language);
   return Array.from(new Set(codes)).sort();
 }
 
@@ -99,15 +143,32 @@ async function getAvailableCodes() {
  * @returns {Promise<{language: string, tokens: string[], mode: 'word' | 'bigram'}>}
  */
 async function loadFrequencyList(code) {
-  const filePath = path.join(FREQ_DIR, `${code}.txt`);
+  const entries = await resolveEntries(code);
+  const freqCode = entries.length > 0 ? entries[0].language : code;
+  const canonicalPath = path.join(
+    CANONICAL_DATA_DIR,
+    freqCode,
+    'frequency',
+    'top1000.txt'
+  );
+  let filePath = canonicalPath;
   let content;
   try {
     content = await fs.readFile(filePath, 'utf8');
   } catch (error) {
     if (error.code === 'ENOENT') {
+      filePath = path.join(LEGACY_FREQ_DIR, `${freqCode}.txt`);
+      try {
+        content = await fs.readFile(filePath, 'utf8');
+      } catch (innerError) {
+        if (innerError.code === 'ENOENT') {
+          throw new Error(`Frequency list for code "${code}" not found.`);
+        }
+        throw innerError;
+      }
+    } else {
       throw new Error(`Frequency list for code "${code}" not found.`);
     }
-    throw error;
   }
 
   const tokens = [];
@@ -125,7 +186,11 @@ async function loadFrequencyList(code) {
     tokens.push(trimmed);
   }
 
-  return { language: code, tokens, mode };
+  const returnCode =
+    entries.length > 0
+      ? entries[0].iso639_1 || entries[0].language
+      : code;
+  return { language: returnCode, tokens, mode };
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
@@ -151,15 +216,13 @@ async function getIndexData() {
  * @returns {Promise<object|null>} A promise that resolves to the language information or null if not found.
  */
 async function getLanguage(langCode, script) {
-  const data = await getIndexData();
-  const entry = data.find((item) => item.language === langCode);
-  if (!entry) {
+  const entries = await resolveEntries(langCode);
+  if (!entries.length) {
     return null;
   }
-  const scripts = entry.scripts || [];
-  const chosen = script || scripts[0];
+  const chosenScript = script || entries[0].script;
   try {
-    return await loadAlphabet(langCode, chosen);
+    return await loadAlphabet(entries[0].language, chosenScript);
   } catch (_) {
     return null;
   }
@@ -171,9 +234,9 @@ async function getLanguage(langCode, script) {
  * @returns {Promise<string[]>} A promise that resolves to an array of script codes.
  */
 async function getScripts(langCode) {
-  const data = await getIndexData();
-  const entry = data.find((item) => item.language === langCode);
-  return entry && entry.scripts ? entry.scripts : [];
+  const entries = await resolveEntries(langCode);
+  if (!entries.length) return [];
+  return Array.from(new Set(entries.map((entry) => entry.script))).filter(Boolean);
 }
 
 // Special characters that don't decompose properly with NFD

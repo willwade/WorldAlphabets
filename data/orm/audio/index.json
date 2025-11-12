@@ -1,0 +1,12 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/om/audio/om-Latn_sherpaonnx_mms_orm.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "cus",
+    "path": "data/om/audio/om-Latn_espeak_cus_om.wav"
+  }
+]

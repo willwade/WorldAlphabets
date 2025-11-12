@@ -1,0 +1,44 @@
+[alphabet] 2025-11-12T09:19:08.385589Z
+Alphabet generated
+script: Hant
+letters: 2179
+sources: CLDR characters (zh-Hant)
+[alphabet] 2025-11-12T09:19:08.738613Z
+Alphabet generated
+script: Hans
+letters: 2210
+sources: CLDR characters (zh-Hans)
+[frequency_top1000] 2025-11-12T09:38:40.360096Z
+Generated via build_top200_unified.py
+source: Tatoeba
+tokens: 91
+[translation] 2025-11-12T10:15:55.228480Z
+Translation migrated from legacy data/alphabets
+script: Hans
+[translation] 2025-11-12T10:15:55.235584Z
+Translation migrated from legacy data/alphabets
+script: min-nan-Hans
+[translation] 2025-11-12T10:15:55.243057Z
+Translation migrated from legacy data/alphabets
+script: yue-Hant
+[translation] 2025-11-12T10:15:55.453989Z
+Translation migrated from legacy data/alphabets
+script: Hans
+[translation] 2025-11-12T10:15:55.461940Z
+Translation migrated from legacy data/alphabets
+script: min-nan-Hans
+[translation] 2025-11-12T10:15:55.468281Z
+Translation migrated from legacy data/alphabets
+script: yue-Hant
+[translation] 2025-11-12T10:31:12.697806Z
+Translation updated via Google Translate
+script: Hant
+target: zh-TW
+[translation] 2025-11-12T10:37:55.951823Z
+Translation updated via Google Translate
+script: Hans
+target: zh-CN
+[translation] 2025-11-12T10:37:55.957635Z
+Translation applied from cache
+script: Hant
+target: zh-TW

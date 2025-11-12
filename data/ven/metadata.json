@@ -1,0 +1,21 @@
+{
+  "language": "ven",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ven/alphabet/ven-Latn.json",
+      "letter_count": 28,
+      "updated": "2025-11-12T09:18:09.346125Z"
+    },
+    "frequency_top1000": {
+      "file": "ven/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Venda",
+  "iso639_1": "ve",
+  "iso639_3": "ven"
+}

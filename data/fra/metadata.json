@@ -1,0 +1,33 @@
+{
+  "language": "fra",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "fra/alphabet/fra-Latn.json",
+      "letter_count": 42,
+      "updated": "2025-11-12T09:11:13.460807Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "fra/alphabet/fra-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "fra/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:23.234266Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "fr",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.704680Z"
+    }
+  },
+  "language_name": "French",
+  "iso639_1": "fr",
+  "iso639_3": "fra"
+}

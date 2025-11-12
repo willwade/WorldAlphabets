@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "pa",
+    "path": "data/pa/audio/pa-Guru_microsoft_pa_in_ojasneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/pa/audio/pa-Guru_espeak_inc_pa.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "pa",
+    "path": "data/pa/audio/pa-Guru_microsoft_pa_in_vaanineural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/pa/audio/pa-Guru_sherpaonnx_mms_pan.wav"
+  }
+]

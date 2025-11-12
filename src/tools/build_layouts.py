@@ -310,21 +310,36 @@ def main() -> None:
     index_data = json.loads(index_path.read_text(encoding="utf-8"))
 
     layouts_to_build: list[tuple[str, str]] = []
+    def lang_code_for_entry(entry: dict[str, str]) -> str:
+        return entry.get("iso639_1") or entry.get("language")
+
     if args.only:
         # If --only is used, we need to find the lang_code for the given layout_id
         for layout_id in args.only:
             found = False
             for lang in index_data:
                 if layout_id in lang.get("keyboards", []):
-                    layouts_to_build.append((layout_id, lang["language"]))
+                    layouts_to_build.append((layout_id, lang_code_for_entry(lang)))
                     found = True
                     break
+            if not found:
+                prefix = layout_id.split("-")[0].lower()
+                for lang in index_data:
+                    candidates = {
+                        (lang.get("language") or "").lower(),
+                        (lang.get("iso639_1") or "").lower(),
+                        (lang.get("iso639_3") or "").lower(),
+                    }
+                    if prefix in candidates:
+                        layouts_to_build.append((layout_id, lang_code_for_entry(lang)))
+                        found = True
+                        break
             if not found:
                 print(f"Warning: Could not find language for layout {layout_id}.")
     else:
         # Build all layouts found in the index
         for lang in index_data:
-            lang_code = lang["language"]
+            lang_code = lang_code_for_entry(lang)
             for layout_id in lang.get("keyboards", []):
                 layouts_to_build.append((layout_id, lang_code))
 

@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 from typing import Dict, Optional, Any
 import time
+import shutil
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
@@ -38,11 +39,12 @@ logger = logging.getLogger(__name__)
 class DataPipeline:
     """Consolidated data collection pipeline for WorldAlphabets."""
 
-    def __init__(self, root_dir: Path, verbose: bool = False):
+    def __init__(self, root_dir: Path, verbose: bool = False, skip_existing: bool = True):
         self.root_dir = root_dir
         self.data_dir = root_dir / "data"
         self.sources_dir = self.data_dir / "sources"
         self.alphabets_dir = self.data_dir / "alphabets"
+        self.public_data_dir = self.root_dir / "web" / "public" / "data"
 
         # Create directories
         for dir_path in [self.data_dir, self.sources_dir, self.alphabets_dir]:
@@ -51,6 +53,7 @@ class DataPipeline:
         # Configure logging level
         if verbose:
             logging.getLogger().setLevel(logging.DEBUG)
+        self.skip_existing = skip_existing
 
         # Pipeline statistics
         self.stats: Dict[str, Any] = {
@@ -71,6 +74,58 @@ class DataPipeline:
         self.fallback = FallbackDataCollector(
             self.root_dir / "src" / "worldalphabets" / "data" / "fallbacks.json"
         )
+        self._index_script = self.root_dir / "scripts" / "create_index.js"
+
+    def _run_create_index(self) -> bool:
+        """Generate data/index.json and related files."""
+        import subprocess
+
+        result = subprocess.run(
+            ["node", str(self._index_script)],
+            cwd=self.root_dir,
+            capture_output=True,
+            text=True,
+        )
+        if result.returncode != 0:
+            logger.error(f"Index creation failed: {result.stderr}")
+            return False
+        return True
+
+    def _ensure_keyboard_inputs(self) -> bool:
+        """Ensure kbdlayouts metadata and driver mapping exist before building layouts."""
+        targets = [
+            (
+                self.data_dir / "kbdlayouts.json",
+                [
+                    self.public_data_dir / "kbdlayouts.json",
+                    self.root_dir / "data-old" / "kbdlayouts.json",
+                ],
+            ),
+            (
+                self.data_dir / "mappings" / "layout_to_driver.json",
+                [
+                    self.public_data_dir / "mappings" / "layout_to_driver.json",
+                    self.root_dir / "data-old" / "mappings" / "layout_to_driver.json",
+                ],
+            ),
+        ]
+
+        ok = True
+        for target, fallbacks in targets:
+            if target.exists():
+                continue
+            target.parent.mkdir(parents=True, exist_ok=True)
+            copied = False
+            for fallback in fallbacks:
+                if fallback.exists():
+                    shutil.copy2(fallback, target)
+                    logger.info(f"Copied {fallback} -> {target}")
+                    copied = True
+                    break
+            if not copied:
+                logger.error(f"Missing required keyboard metadata: {target}")
+                ok = False
+        return ok
 
     def run_full_pipeline(self) -> bool:
         """Run the complete data collection pipeline."""
@@ -163,6 +218,12 @@ class DataPipeline:
                 if not code or len(code) < 2:
                     continue
 
+                iso639_1 = (lang.get("Part1") or "").lower()
+
+                scripts_for_lang = list(wikidata_scripts.get(code, set()))
+                if not scripts_for_lang and iso639_1:
+                    scripts_for_lang = list(wikidata_scripts.get(iso639_1, set()))
+
                 registry[code] = {
                     "code": code,
                     "iso639_1": lang.get("Part1", ""),
@@ -173,7 +234,7 @@ class DataPipeline:
                     "status": (
                         "active" if lang.get("Language_Type") == "L" else "inactive"
                     ),
-                    "scripts": list(wikidata_scripts.get(code, set())),
+                    "scripts": scripts_for_lang,
                     "sources": ["iso639-3"],
                 }
 
@@ -227,16 +288,19 @@ class DataPipeline:
             # Run the existing build_comprehensive_alphabets.py script
             import subprocess
 
+            cmd = [
+                "uv",
+                "run",
+                "python",
+                str(self.root_dir / "scripts" / "build_comprehensive_alphabets.py"),
+                "--manifest",
+                str(self.data_dir / "language_scripts.json"),
+                "--verbose",
+            ]
+            if self.skip_existing:
+                cmd.append("--skip-existing")
             result = subprocess.run(
-                [
-                    "uv",
-                    "run",
-                    "python",
-                    str(self.root_dir / "scripts" / "build_comprehensive_alphabets.py"),
-                    "--manifest",
-                    str(self.data_dir / "language_scripts.json"),
-                    "--verbose",
-                ],
+                cmd,
                 cwd=self.root_dir,
                 capture_output=True,
                 text=True,
@@ -279,14 +343,17 @@ class DataPipeline:
             # Run the generate_translations script
             import subprocess
 
+            cmd = [
+                "uv",
+                "run",
+                "python",
+                str(self.root_dir / "scripts" / "generate_translations.py"),
+            ]
+            if self.skip_existing:
+                cmd.append("--skip-existing")
+
             result = subprocess.run(
-                [
-                    "uv",
-                    "run",
-                    "python",
-                    str(self.root_dir / "scripts" / "generate_translations.py"),
-                    "--skip-existing",
-                ],
+                cmd,
                 cwd=self.root_dir,
                 capture_output=True,
                 text=True,
@@ -310,6 +377,15 @@ class DataPipeline:
         """Stage 5: Build keyboard layouts."""
         try:
             logger.info("Populating keyboard layout references...")
+
+            index_file = self.data_dir / "index.json"
+            if not index_file.exists():
+                logger.info("index.json missing; generating provisional index...")
+                if not self._run_create_index():
+                    return False
+
+            if not self._ensure_keyboard_inputs():
+                return False
 
             # Run the populate_layouts script
             import subprocess
@@ -356,7 +432,7 @@ class DataPipeline:
         """Stage 6: Build Top-1000 token lists using unified pipeline."""
         try:
             logger.info(
-                "Building Top-200 token lists using unified 5-priority pipeline..."
+                "Building Top-1000 token lists using unified 5-priority pipeline..."
             )
             import subprocess
 
@@ -367,7 +443,8 @@ class DataPipeline:
                     "python",
                     "scripts/build_top200_unified.py",
                     "--all",
-                ],
+                ]
+                + (["--force"] if not self.skip_existing else []),
                 cwd=self.root_dir,
                 capture_output=True,
                 text=True,
@@ -459,18 +536,7 @@ class DataPipeline:
         try:
             logger.info("Creating searchable indexes and metadata...")
 
-            # Use the Node.js script which handles the new format correctly
-            import subprocess
-
-            result = subprocess.run(
-                ["node", str(self.root_dir / "scripts" / "create_index.js")],
-                cwd=self.root_dir,
-                capture_output=True,
-                text=True,
-            )
-
-            if result.returncode != 0:
-                logger.error(f"Index creation failed: {result.stderr}")
+            if not self._run_create_index():
                 return False
 
             logger.info("Indexes and metadata created successfully")
@@ -593,6 +659,19 @@ Examples:
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Enable verbose logging"
     )
+    parser.add_argument(
+        "--skip-existing",
+        dest="skip_existing",
+        action="store_true",
+        help="Skip stages that already produced outputs (default)",
+    )
+    parser.add_argument(
+        "--ignore-existing",
+        dest="skip_existing",
+        action="store_false",
+        help="Rebuild stages even if outputs already exist",
+    )
+    parser.set_defaults(skip_existing=True)
 
     args = parser.parse_args()
 
@@ -604,7 +683,9 @@ Examples:
 
     # Initialize pipeline
     root_dir = Path(__file__).parent.parent
-    pipeline = DataPipeline(root_dir, verbose=args.verbose)
+    pipeline = DataPipeline(
+        root_dir, verbose=args.verbose, skip_existing=args.skip_existing
+    )
 
     # Run appropriate pipeline mode
     success = False

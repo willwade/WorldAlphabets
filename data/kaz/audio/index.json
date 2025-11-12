@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/kk/audio/kk-Cyrl_sherpaonnx_mms_kaz.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "trk",
+    "path": "data/kk/audio/kk-Cyrl_espeak_trk_kk.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "kk",
+    "path": "data/kk/audio/kk-Cyrl_microsoft_kk_kz_aigulneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "kk",
+    "path": "data/kk/audio/kk-Cyrl_microsoft_kk_kz_dauletneural.wav"
+  }
+]

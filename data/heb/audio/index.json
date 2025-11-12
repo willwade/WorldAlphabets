@@ -1,0 +1,72 @@
+[
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_wavenet_a.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/he/audio/he-Hebr_espeak_mb_mb_hb2.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_wavenet_b.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/he/audio/he-Hebr_espeak_mb_mb_hb1.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_microsoft_he_il_avrineural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_wavenet_c.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_wavenet_d.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_standard_d.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_microsoft_he_il_hilaneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "sem",
+    "path": "data/he/audio/he-Hebr_espeak_sem_he.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_standard_c.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_standard_b.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/he/audio/he-Hebr_sherpaonnx_mms_heb.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "he",
+    "path": "data/he/audio/he-Hebr_google_he_il_standard_a.wav"
+  }
+]

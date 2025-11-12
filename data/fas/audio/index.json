@@ -1,0 +1,32 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "ira",
+    "path": "data/fa/audio/fa-Arab_espeak_ira_fa_latn.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "fa",
+    "path": "data/fa/audio/fa-Arab_microsoft_fa_ir_dilaraneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "fa",
+    "path": "data/fa/audio/fa-Arab_microsoft_fa_ir_faridneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/fa/audio/fa-Arab_sherpaonnx_mms_fas.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "ira",
+    "path": "data/fa/audio/fa-Arab_espeak_ira_fa.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/fa/audio/fa-Arab_espeak_mb_mb_ir1.wav"
+  }
+]

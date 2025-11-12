@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/mr/audio/mr-Latn_espeak_inc_mr.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mr",
+    "path": "data/mr/audio/mr-Latn_microsoft_mr_in_manoharneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mr",
+    "path": "data/mr/audio/mr-Latn_microsoft_mr_in_aarohineural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/mr/audio/mr-Latn_sherpaonnx_mms_mar.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mr",
+    "path": "data/mr/audio/mr-Deva_microsoft_mr_in_aarohineural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/mr/audio/mr-Deva_sherpaonnx_mms_mar.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/mr/audio/mr-Deva_espeak_inc_mr.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mr",
+    "path": "data/mr/audio/mr-Deva_microsoft_mr_in_manoharneural.wav"
+  }
+]

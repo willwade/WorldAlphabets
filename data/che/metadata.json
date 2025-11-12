@@ -1,0 +1,38 @@
+{
+  "language": "che",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "che/alphabet/che-Cyrl.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:09:42.461386Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "che/alphabet/che-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "che/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:41.776619Z"
+    },
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:42.051572Z"
+    }
+  ],
+  "language_name": "Chechen",
+  "iso639_1": "ce",
+  "iso639_3": "che"
+}

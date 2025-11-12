@@ -1,0 +1,33 @@
+{
+  "language": "khm",
+  "sections": {
+    "alphabet": {
+      "script": "Khmr",
+      "file": "khm/alphabet/khm-Khmr.json",
+      "letter_count": 47,
+      "updated": "2025-11-12T09:12:51.319505Z"
+    },
+    "alphabet_Khmr": {
+      "script": "Khmr",
+      "file": "khm/alphabet/khm-Khmr.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "khm/frequency/top1000.txt",
+      "token_count": 203,
+      "mode": "bigram",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:57.440017Z"
+    },
+    "translation_Khmr": {
+      "script": "Khmr",
+      "source": "google_translate (cache)",
+      "target": "km",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.733526Z"
+    }
+  },
+  "language_name": "Khmer",
+  "iso639_1": "km",
+  "iso639_3": "khm"
+}

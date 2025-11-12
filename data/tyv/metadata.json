@@ -1,0 +1,27 @@
+{
+  "language": "tyv",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "tyv/alphabet/tyv-Cyrl.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:17:51.643677Z"
+    },
+    "frequency_top1000": {
+      "file": "tyv/frequency/top1000.txt",
+      "token_count": 41,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:58.758081Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:51.262551Z"
+    }
+  ],
+  "language_name": "Tuvinian",
+  "iso639_3": "tyv"
+}

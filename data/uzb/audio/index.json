@@ -1,0 +1,32 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "uz",
+    "path": "data/uz/audio/uz-Cyrl_microsoft_uz_uz_sardorneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "uz",
+    "path": "data/uz/audio/uz-Cyrl_microsoft_uz_uz_madinaneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "trk",
+    "path": "data/uz/audio/uz-Latn_espeak_trk_uz.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "trk",
+    "path": "data/uz/audio/uz-Cyrl_espeak_trk_uz.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "uz",
+    "path": "data/uz/audio/uz-Latn_microsoft_uz_uz_sardorneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "uz",
+    "path": "data/uz/audio/uz-Latn_microsoft_uz_uz_madinaneural.wav"
+  }
+]

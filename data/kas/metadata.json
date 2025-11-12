@@ -1,0 +1,33 @@
+{
+  "language": "kas",
+  "sections": {
+    "alphabet": {
+      "script": "Deva",
+      "file": "kas/alphabet/kas-Deva.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:12:33.486414Z"
+    },
+    "alphabet_Deva": {
+      "script": "Deva",
+      "file": "kas/alphabet/kas-Deva.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "kas/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Kashmiri",
+  "iso639_1": "ks",
+  "iso639_3": "kas",
+  "missing_scripts": [
+    {
+      "script": "Shrd",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:33.888545Z"
+    }
+  ]
+}

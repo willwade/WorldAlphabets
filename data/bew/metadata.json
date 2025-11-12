@@ -1,0 +1,32 @@
+{
+  "language": "bew",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "bew/alphabet/bew-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:08:59.628665Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "bew/alphabet/bew-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "bew",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.676330Z"
+    }
+  },
+  "language_name": "Betawi",
+  "iso639_3": "bew",
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:59.878988Z"
+    }
+  ]
+}

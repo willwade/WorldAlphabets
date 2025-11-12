@@ -1,0 +1,33 @@
+{
+  "language": "fin",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "fin/alphabet/fin-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:11:09.548905Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "fin/alphabet/fin-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "fin/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:20.477736Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "fi",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.703432Z"
+    }
+  },
+  "language_name": "Finnish",
+  "iso639_1": "fi",
+  "iso639_3": "fin"
+}

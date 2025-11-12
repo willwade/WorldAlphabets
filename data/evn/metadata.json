@@ -1,0 +1,21 @@
+{
+  "language": "evn",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:43.105120Z"
+    },
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:43.406481Z"
+    },
+    {
+      "script": "Mong",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:43.668938Z"
+    }
+  ]
+}

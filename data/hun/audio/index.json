@@ -1,0 +1,32 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/hu/audio/hu-Latn_sherpaonnx_mms_hun.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "hu",
+    "path": "data/hu/audio/hu-Latn_google_hu_hu_standard_b.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "hu",
+    "path": "data/hu/audio/hu-Latn_google_hu_hu_wavenet_b.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "hu",
+    "path": "data/hu/audio/hu-Latn_microsoft_hu_hu_noemineural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "urj",
+    "path": "data/hu/audio/hu-Latn_espeak_urj_hu.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "hu",
+    "path": "data/hu/audio/hu-Latn_microsoft_hu_hu_tamasneural.wav"
+  }
+]

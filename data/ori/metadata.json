@@ -1,0 +1,33 @@
+{
+  "language": "ori",
+  "sections": {
+    "alphabet": {
+      "script": "Orya",
+      "file": "ori/alphabet/ori-Orya.json",
+      "letter_count": 47,
+      "updated": "2025-11-12T09:15:23.483137Z"
+    },
+    "alphabet_Orya": {
+      "script": "Orya",
+      "file": "ori/alphabet/ori-Orya.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ori/frequency/top1000.txt",
+      "token_count": 35,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:32:51.638574Z"
+    },
+    "translation_Orya": {
+      "script": "Orya",
+      "source": "google_translate",
+      "target": "or",
+      "cached": false,
+      "updated": "2025-11-12T10:37:48.635794Z"
+    }
+  },
+  "language_name": "Oriya (macrolanguage)",
+  "iso639_1": "or",
+  "iso639_3": "ori"
+}

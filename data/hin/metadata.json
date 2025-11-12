@@ -1,0 +1,20 @@
+{
+  "language": "hin",
+  "sections": {
+    "frequency_top1000": {
+      "file": "hin/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:19.681708Z"
+    },
+    "translation_Deva": {
+      "script": "Deva",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.306127Z"
+    }
+  },
+  "language_name": "Hindi",
+  "iso639_1": "hi",
+  "iso639_3": "hin"
+}

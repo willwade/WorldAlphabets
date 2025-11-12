@@ -1,0 +1,20 @@
+{
+  "language": "tpi",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "tpi/alphabet/tpi-Latn.json",
+      "letter_count": 21,
+      "updated": "2025-11-12T09:17:35.876980Z"
+    },
+    "frequency_top1000": {
+      "file": "tpi/frequency/top1000.txt",
+      "token_count": 31,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:38.234827Z"
+    }
+  },
+  "language_name": "Tok Pisin",
+  "iso639_3": "tpi"
+}

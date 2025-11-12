@@ -1,0 +1,25 @@
+{
+  "language": "cgg",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "cgg/alphabet/cgg-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:09:40.706806Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "cgg/alphabet/cgg-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "cgg",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.681148Z"
+    }
+  },
+  "language_name": "Chiga",
+  "iso639_3": "cgg"
+}

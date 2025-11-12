@@ -1,0 +1,28 @@
+{
+  "language": "sot",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sot/alphabet/sot-Latn.json",
+      "letter_count": 22,
+      "updated": "2025-11-12T09:16:53.698009Z"
+    },
+    "frequency_top1000": {
+      "file": "sot/frequency/top1000.txt",
+      "token_count": 15,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:44.921311Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "st",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.494113Z"
+    }
+  },
+  "language_name": "Southern Sotho",
+  "iso639_1": "st",
+  "iso639_3": "sot"
+}

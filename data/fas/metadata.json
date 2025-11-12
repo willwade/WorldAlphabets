@@ -1,0 +1,33 @@
+{
+  "language": "fas",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "fas/alphabet/fas-Arab.json",
+      "letter_count": 38,
+      "updated": "2025-11-12T09:11:06.689378Z"
+    },
+    "alphabet_Arab": {
+      "script": "Arab",
+      "file": "fas/alphabet/fas-Arab.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "fas/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:07.859160Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "google_translate (cache)",
+      "target": "fa",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.702101Z"
+    }
+  },
+  "language_name": "Persian",
+  "iso639_1": "fa",
+  "iso639_3": "fas"
+}

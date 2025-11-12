@@ -1,0 +1,26 @@
+{
+  "language": "sag",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sag/alphabet/sag-Latn.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:16:17.228662Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "sag/alphabet/sag-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sg",
+      "cached": false,
+      "updated": "2025-11-12T10:37:50.317330Z"
+    }
+  },
+  "language_name": "Sango",
+  "iso639_1": "sg",
+  "iso639_3": "sag"
+}

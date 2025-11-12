@@ -1,0 +1,16 @@
+{
+  "language": "nod",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Thai",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:14:59.550863Z"
+    },
+    {
+      "script": "Lana",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:14:59.781367Z"
+    }
+  ]
+}

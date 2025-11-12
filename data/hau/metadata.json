@@ -1,0 +1,33 @@
+{
+  "language": "hau",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "hau/alphabet/hau-Latn.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:11:51.154683Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "hau/alphabet/hau-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "hau/frequency/top1000.txt",
+      "token_count": 65,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:10.073712Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ha",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.719414Z"
+    }
+  },
+  "language_name": "Hausa",
+  "iso639_1": "ha",
+  "iso639_3": "hau"
+}

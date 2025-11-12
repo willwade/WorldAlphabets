@@ -1,0 +1,33 @@
+{
+  "language": "kin",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "kin/alphabet/kin-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:12:54.845972Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "kin/alphabet/kin-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "rw",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.735134Z"
+    },
+    "frequency_top1000": {
+      "file": "kin/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Kinyarwanda",
+  "iso639_1": "rw",
+  "iso639_3": "kin"
+}

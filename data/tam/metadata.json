@@ -1,0 +1,35 @@
+{
+  "language": "tam",
+  "sections": {
+    "alphabet": {
+      "script": "Taml",
+      "file": "tam/alphabet/tam-Taml.json",
+      "letter_count": 35,
+      "updated": "2025-11-12T09:17:15.458114Z"
+    },
+    "frequency_top1000": {
+      "file": "tam/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:36:03.188501Z"
+    },
+    "translation_Taml": {
+      "script": "Taml",
+      "source": "google_translate",
+      "target": "ta",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.879272Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:17:15.195624Z"
+    }
+  ],
+  "language_name": "Tamil",
+  "iso639_1": "ta",
+  "iso639_3": "tam"
+}

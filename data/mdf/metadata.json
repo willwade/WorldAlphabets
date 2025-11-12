@@ -1,0 +1,25 @@
+{
+  "language": "mdf",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "mdf/alphabet/mdf-Cyrl.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:14:00.426167Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "mdf/alphabet/mdf-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mdf/frequency/top1000.txt",
+      "token_count": 32,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:30:21.312616Z"
+    }
+  },
+  "language_name": "Moksha",
+  "iso639_3": "mdf"
+}

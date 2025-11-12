@@ -1,0 +1,33 @@
+{
+  "language": "ron",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ron/alphabet/ron-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:16:10.930608Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ron/alphabet/ron-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ron/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:33:44.458355Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "ro",
+      "cached": false,
+      "updated": "2025-11-12T10:37:49.895716Z"
+    }
+  },
+  "language_name": "Romanian",
+  "iso639_1": "ro",
+  "iso639_3": "ron"
+}

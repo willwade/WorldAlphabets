@@ -1,0 +1,25 @@
+{
+  "language": "csw",
+  "sections": {
+    "alphabet": {
+      "script": "Cans",
+      "file": "csw/alphabet/csw-Cans.json",
+      "letter_count": 97,
+      "updated": "2025-11-12T09:10:06.474215Z"
+    },
+    "alphabet_Cans": {
+      "script": "Cans",
+      "file": "csw/alphabet/csw-Cans.json",
+      "updated": "1970-01-01T00:00:00Z"
+    }
+  },
+  "language_name": "Swampy Cree",
+  "iso639_3": "csw",
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:06.717192Z"
+    }
+  ]
+}

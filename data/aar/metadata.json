@@ -1,0 +1,26 @@
+{
+  "language": "aar",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "aar/alphabet/aar-Latn.json",
+      "letter_count": 22,
+      "updated": "2025-11-12T09:08:09.055548Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "aar/alphabet/aar-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    }
+  },
+  "language_name": "Afar",
+  "iso639_1": "aa",
+  "iso639_3": "aar",
+  "missing_scripts": [
+    {
+      "script": "Ethi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:09.279139Z"
+    }
+  ]
+}

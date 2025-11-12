@@ -1,0 +1,33 @@
+{
+  "language": "cos",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "cos/alphabet/cos-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:10:01.517200Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "cos/alphabet/cos-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "cos/frequency/top1000.txt",
+      "token_count": 23,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:23:42.623764Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "co",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.686102Z"
+    }
+  },
+  "language_name": "Corsican",
+  "iso639_1": "co",
+  "iso639_3": "cos"
+}

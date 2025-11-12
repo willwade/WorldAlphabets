@@ -1,0 +1,27 @@
+{
+  "language": "lat",
+  "sections": {
+    "frequency_top1000": {
+      "file": "lat/frequency/top1000.txt",
+      "token_count": 37,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:28:46.363245Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.363408Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:28.404101Z"
+    }
+  ],
+  "language_name": "Latin",
+  "iso639_1": "la",
+  "iso639_3": "lat"
+}

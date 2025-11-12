@@ -1,0 +1,16 @@
+{
+  "language": "mde",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:59.798224Z"
+    },
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:14:00.027185Z"
+    }
+  ]
+}

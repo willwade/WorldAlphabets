@@ -1,0 +1,28 @@
+{
+  "language": "ssw",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ssw/alphabet/ssw-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:17:01.236590Z"
+    },
+    "frequency_top1000": {
+      "file": "ssw/frequency/top1000.txt",
+      "token_count": 13,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:39.707512Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "ss",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.003794Z"
+    }
+  },
+  "language_name": "Swati",
+  "iso639_1": "ss",
+  "iso639_3": "ssw"
+}

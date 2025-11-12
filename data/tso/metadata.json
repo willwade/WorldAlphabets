@@ -1,0 +1,28 @@
+{
+  "language": "tso",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "tso/alphabet/tso-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:17:41.992058Z"
+    },
+    "frequency_top1000": {
+      "file": "tso/frequency/top1000.txt",
+      "token_count": 6,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:41.690533Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "ts",
+      "cached": false,
+      "updated": "2025-11-12T10:37:54.449489Z"
+    }
+  },
+  "language_name": "Tsonga",
+  "iso639_1": "ts",
+  "iso639_3": "tso"
+}

@@ -1,0 +1,16 @@
+{
+  "language": "aiw",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:20.618250Z"
+    },
+    {
+      "script": "Ethi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:20.855123Z"
+    }
+  ]
+}

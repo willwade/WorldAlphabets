@@ -1,0 +1,16 @@
+{
+  "language": "gha",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:28.398866Z"
+    },
+    {
+      "script": "Tfng",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:28.659759Z"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "language": "ecr",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Grek",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:30.172276Z"
+    }
+  ]
+}

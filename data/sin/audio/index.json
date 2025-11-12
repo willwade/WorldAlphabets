@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/si/audio/si-Sinh_espeak_inc_si.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "si",
+    "path": "data/si/audio/si-Sinh_microsoft_si_lk_thilinineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "si",
+    "path": "data/si/audio/si-Sinh_microsoft_si_lk_sameeraneural.wav"
+  }
+]

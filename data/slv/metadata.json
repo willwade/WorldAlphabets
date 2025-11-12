@@ -1,0 +1,28 @@
+{
+  "language": "slv",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "slv/alphabet/slv-Latn.json",
+      "letter_count": 25,
+      "updated": "2025-11-12T09:16:45.144670Z"
+    },
+    "frequency_top1000": {
+      "file": "slv/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:35:13.793240Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sl",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.070333Z"
+    }
+  },
+  "language_name": "Slovenian",
+  "iso639_1": "sl",
+  "iso639_3": "slv"
+}

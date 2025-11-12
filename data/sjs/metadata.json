@@ -1,0 +1,16 @@
+{
+  "language": "sjs",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:42.042122Z"
+    },
+    {
+      "script": "Tfng",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:42.275133Z"
+    }
+  ]
+}

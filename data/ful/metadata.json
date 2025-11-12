@@ -1,0 +1,40 @@
+{
+  "language": "ful",
+  "sections": {
+    "alphabet": {
+      "script": "Adlm",
+      "file": "ful/alphabet/ful-Adlm.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:11:19.088576Z"
+    },
+    "alphabet_Adlm": {
+      "script": "Adlm",
+      "file": "ful/alphabet/ful-Adlm.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Adlm": {
+      "script": "Adlm",
+      "source": "google_translate (cache)",
+      "target": "ff",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.707470Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ff",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.708861Z"
+    },
+    "frequency_top1000": {
+      "file": "ful/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Fulah",
+  "iso639_1": "ff",
+  "iso639_3": "ful"
+}

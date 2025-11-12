@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "sit",
+    "path": "data/my/audio/my-Mymr_espeak_sit_my.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/my/audio/my-Mymr_sherpaonnx_mms_mya.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "my",
+    "path": "data/my/audio/my-Mymr_microsoft_my_mm_thihaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "my",
+    "path": "data/my/audio/my-Mymr_microsoft_my_mm_nilarneural.wav"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "language": "run",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "run/alphabet/run-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:16:13.804918Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "run/alphabet/run-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "rn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:50.038373Z"
+    },
+    "frequency_top1000": {
+      "file": "run/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Rundi",
+  "iso639_1": "rn",
+  "iso639_3": "run"
+}

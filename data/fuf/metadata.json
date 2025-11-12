@@ -1,0 +1,21 @@
+{
+  "language": "fuf",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:16.891763Z"
+    },
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:17.153380Z"
+    },
+    {
+      "script": "Adlm",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:18.437829Z"
+    }
+  ]
+}

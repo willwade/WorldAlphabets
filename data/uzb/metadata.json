@@ -1,0 +1,35 @@
+{
+  "language": "uzb",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "uzb/alphabet/uzb-Cyrl.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:18:05.803189Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "uz",
+      "cached": false,
+      "updated": "2025-11-12T10:37:55.078062Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "uz",
+      "cached": false,
+      "updated": "2025-11-12T10:37:55.222027Z"
+    },
+    "frequency_top1000": {
+      "file": "uzb/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Uzbek",
+  "iso639_1": "uz",
+  "iso639_3": "uzb"
+}

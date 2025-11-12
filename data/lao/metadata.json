@@ -1,0 +1,33 @@
+{
+  "language": "lao",
+  "sections": {
+    "alphabet": {
+      "script": "Laoo",
+      "file": "lao/alphabet/lao-Laoo.json",
+      "letter_count": 40,
+      "updated": "2025-11-12T09:13:28.153031Z"
+    },
+    "alphabet_Laoo": {
+      "script": "Laoo",
+      "file": "lao/alphabet/lao-Laoo.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lao/frequency/top1000.txt",
+      "token_count": 206,
+      "mode": "bigram",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:29:33.245054Z"
+    },
+    "translation_Laoo": {
+      "script": "Laoo",
+      "source": "google_translate (cache)",
+      "target": "lo",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.739660Z"
+    }
+  },
+  "language_name": "Lao",
+  "iso639_1": "lo",
+  "iso639_3": "lao"
+}

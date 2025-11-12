@@ -1,0 +1,72 @@
+[
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_standard_d.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_standard_a.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_standard_c.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_standard_b.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/bn/audio/bn-Beng_espeak_inc_bn.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_microsoft_bn_bd_nabanitaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_microsoft_bn_bd_pradeepneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_microsoft_bn_in_tanishaaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_microsoft_bn_in_bashkarneural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_wavenet_d.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_wavenet_a.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/bn/audio/bn-Beng_sherpaonnx_mms_ben.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_wavenet_b.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "bn",
+    "path": "data/bn/audio/bn-Beng_google_bn_in_wavenet_c.wav"
+  }
+]

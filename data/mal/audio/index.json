@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/ml/audio/ml-Mlym_sherpaonnx_mms_mal.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "dra",
+    "path": "data/ml/audio/ml-Mlym_espeak_dra_ml.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ml",
+    "path": "data/ml/audio/ml-Mlym_microsoft_ml_in_midhunneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ml",
+    "path": "data/ml/audio/ml-Mlym_microsoft_ml_in_sobhananeural.wav"
+  }
+]

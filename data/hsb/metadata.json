@@ -1,0 +1,25 @@
+{
+  "language": "hsb",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "hsb/alphabet/hsb-Latn.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:12:02.182024Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "hsb/alphabet/hsb-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "hsb/frequency/top1000.txt",
+      "token_count": 30,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:33.463897Z"
+    }
+  },
+  "language_name": "Upper Sorbian",
+  "iso639_3": "hsb"
+}

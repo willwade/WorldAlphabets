@@ -1,0 +1,32 @@
+{
+  "language": "kor",
+  "sections": {
+    "frequency_top1000": {
+      "file": "kor/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "bigram",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:27:59.309460Z"
+    },
+    "translation_Hang": {
+      "script": "Hang",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.329815Z"
+    },
+    "translation_Kore": {
+      "script": "Kore",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.358153Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Hang",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:10.433996Z"
+    }
+  ],
+  "language_name": "Korean",
+  "iso639_1": "ko",
+  "iso639_3": "kor"
+}

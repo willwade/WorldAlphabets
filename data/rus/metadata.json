@@ -1,0 +1,33 @@
+{
+  "language": "rus",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "rus/alphabet/rus-Cyrl.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:16:14.660090Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "rus/alphabet/rus-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "rus/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:33:46.724462Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "ru",
+      "cached": false,
+      "updated": "2025-11-12T10:37:50.182098Z"
+    }
+  },
+  "language_name": "Russian",
+  "iso639_1": "ru",
+  "iso639_3": "rus"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "sw",
+    "path": "data/sw/audio/sw-Latn_microsoft_sw_ke_rafikineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sw",
+    "path": "data/sw/audio/sw-Latn_microsoft_sw_ke_zurineural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "bnt",
+    "path": "data/sw/audio/sw-Latn_espeak_bnt_sw.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sw",
+    "path": "data/sw/audio/sw-Latn_microsoft_sw_tz_rehemaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sw",
+    "path": "data/sw/audio/sw-Latn_microsoft_sw_tz_daudineural.wav"
+  }
+]

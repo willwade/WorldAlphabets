@@ -1,0 +1,21 @@
+{
+  "language": "bua",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:24.179865Z"
+    },
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:24.430505Z"
+    },
+    {
+      "script": "Mong",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:24.680085Z"
+    }
+  ]
+}

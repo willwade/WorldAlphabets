@@ -1,0 +1,28 @@
+{
+  "language": "sqi",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sqi/alphabet/sqi-Latn.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:16:56.530498Z"
+    },
+    "frequency_top1000": {
+      "file": "sqi/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:35:36.248192Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sq",
+      "cached": false,
+      "updated": "2025-11-12T10:37:51.861019Z"
+    }
+  },
+  "language_name": "Albanian",
+  "iso639_1": "sq",
+  "iso639_3": "sqi"
+}

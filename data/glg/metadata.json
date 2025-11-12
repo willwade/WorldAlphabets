@@ -1,0 +1,33 @@
+{
+  "language": "glg",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "glg/alphabet/glg-Latn.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:11:32.257394Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "glg/alphabet/glg-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "glg/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:51.370435Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "gl",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.713692Z"
+    }
+  },
+  "language_name": "Galician",
+  "iso639_1": "gl",
+  "iso639_3": "glg"
+}

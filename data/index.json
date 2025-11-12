@@ -1,6 +1,6 @@
 [
   {
-    "language": "aa",
+    "language": "aar",
     "script": "Latn",
     "name": "Afar",
     "iso639_1": "aa",
@@ -8,10 +8,10 @@
     "letterCount": 22,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "aa-Latn.json"
+    "file": "aar-Latn.json"
   },
   {
-    "language": "ab",
+    "language": "abk",
     "script": "Cyrl",
     "name": "Abkhazian",
     "iso639_1": "ab",
@@ -19,21 +19,10 @@
     "letterCount": 40,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "ab-Cyrl.json"
+    "file": "abk-Cyrl.json"
   },
   {
-    "language": "ady",
-    "script": "Cyrl",
-    "name": "Adyghe",
-    "iso639_1": null,
-    "iso639_3": "ady",
-    "letterCount": 33,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ady-Cyrl.json"
-  },
-  {
-    "language": "af",
+    "language": "afr",
     "script": "Latn",
     "name": "Afrikaans",
     "iso639_1": "af",
@@ -41,12 +30,13 @@
     "letterCount": 37,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "af-Latn.json"
+    "file": "afr-Latn.json"
   },
   {
     "language": "agq",
     "script": "Latn",
     "name": "Aghem",
+    "iso639_1": "",
     "iso639_3": "agq",
     "letterCount": 48,
     "hasFrequency": true,
@@ -54,18 +44,18 @@
     "file": "agq-Latn.json"
   },
   {
-    "language": "ak",
+    "language": "aka",
     "script": "Latn",
     "name": "Akan",
     "iso639_1": "ak",
     "iso639_3": "aka",
     "letterCount": 22,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ak-Latn.json"
+    "hasWordFrequency": false,
+    "file": "aka-Latn.json"
   },
   {
-    "language": "am",
+    "language": "amh",
     "script": "Ethi",
     "name": "Amharic",
     "iso639_1": "am",
@@ -73,21 +63,10 @@
     "letterCount": 282,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "am-Ethi.json"
+    "file": "amh-Ethi.json"
   },
   {
-    "language": "an",
-    "script": "Latn",
-    "name": "Aragonese",
-    "iso639_1": "an",
-    "iso639_3": "arg",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "an-Latn.json"
-  },
-  {
-    "language": "ar",
+    "language": "ara",
     "script": "Arab",
     "name": "Arabic",
     "iso639_1": "ar",
@@ -95,12 +74,24 @@
     "letterCount": 36,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ar-Arab.json"
+    "file": "ara-Arab.json"
+  },
+  {
+    "language": "arg",
+    "script": "Latn",
+    "name": "Aragonese",
+    "iso639_1": "an",
+    "iso639_3": "arg",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "arg-Latn.json"
   },
   {
     "language": "arn",
     "script": "Latn",
     "name": "Mapuche",
+    "iso639_1": "",
     "iso639_3": "arn",
     "letterCount": 25,
     "hasFrequency": true,
@@ -108,20 +99,10 @@
     "file": "arn-Latn.json"
   },
   {
-    "language": "as",
-    "script": "Beng",
-    "name": "Assamese",
-    "iso639_1": "as",
-    "iso639_3": "asm",
-    "letterCount": 44,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "as-Beng.json"
-  },
-  {
     "language": "asa",
     "script": "Latn",
     "name": "Asu",
+    "iso639_1": "",
     "iso639_3": "asa",
     "letterCount": 24,
     "hasFrequency": true,
@@ -129,9 +110,21 @@
     "file": "asa-Latn.json"
   },
   {
+    "language": "asm",
+    "script": "Beng",
+    "name": "asm",
+    "iso639_1": "as",
+    "iso639_3": "asm",
+    "letterCount": 44,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "asm-Beng.json"
+  },
+  {
     "language": "ast",
     "script": "Latn",
     "name": "Asturian",
+    "iso639_1": "",
     "iso639_3": "ast",
     "letterCount": 32,
     "hasFrequency": true,
@@ -139,18 +132,18 @@
     "file": "ast-Latn.json"
   },
   {
-    "language": "ay",
+    "language": "aym",
     "script": "Latn",
-    "name": "Aymara",
+    "name": "aym",
     "iso639_1": "ay",
     "iso639_3": "aym",
     "letterCount": 35,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ay-Latn.json"
+    "hasWordFrequency": false,
+    "file": "aym-Latn.json"
   },
   {
-    "language": "az",
+    "language": "aze",
     "script": "Cyrl",
     "name": "Azerbaijani",
     "iso639_1": "az",
@@ -158,10 +151,10 @@
     "letterCount": 33,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "az-Cyrl.json"
+    "file": "aze-Cyrl.json"
   },
   {
-    "language": "az",
+    "language": "aze",
     "script": "Latn",
     "name": "Azerbaijani",
     "iso639_1": "az",
@@ -169,23 +162,24 @@
     "letterCount": 33,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "az-Latn.json"
+    "file": "aze-Latn.json"
   },
   {
-    "language": "ba",
+    "language": "bak",
     "script": "Cyrl",
     "name": "Bashkir",
     "iso639_1": "ba",
     "iso639_3": "bak",
     "letterCount": 42,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ba-Cyrl.json"
+    "hasWordFrequency": false,
+    "file": "bak-Cyrl.json"
   },
   {
     "language": "bal",
     "script": "Arab",
     "name": "Baluchi",
+    "iso639_1": "",
     "iso639_3": "bal",
     "letterCount": 28,
     "hasFrequency": true,
@@ -196,6 +190,7 @@
     "language": "bal",
     "script": "Latn",
     "name": "Baluchi",
+    "iso639_1": "",
     "iso639_3": "bal",
     "letterCount": 26,
     "hasFrequency": true,
@@ -203,9 +198,32 @@
     "file": "bal-Latn.json"
   },
   {
+    "language": "bam",
+    "script": "Latn",
+    "name": "Bambara",
+    "iso639_1": "bm",
+    "iso639_3": "bam",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "bam-Latn.json"
+  },
+  {
+    "language": "bam",
+    "script": "Nkoo",
+    "name": "Bambara",
+    "iso639_1": "bm",
+    "iso639_3": "bam",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "bam-Nkoo.json"
+  },
+  {
     "language": "ban",
     "script": "Latn",
-    "name": "Balinese",
+    "name": "ban",
+    "iso639_1": "",
     "iso639_3": "ban",
     "letterCount": 76,
     "hasFrequency": true,
@@ -216,6 +234,7 @@
     "language": "bas",
     "script": "Latn",
     "name": "Basaa",
+    "iso639_1": "",
     "iso639_3": "bas",
     "letterCount": 55,
     "hasFrequency": true,
@@ -223,41 +242,32 @@
     "file": "bas-Latn.json"
   },
   {
-    "language": "bax",
-    "script": "Bamu",
-    "name": "Bamun",
-    "iso639_3": "bax",
-    "letterCount": 80,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "bax-Bamu.json"
-  },
-  {
-    "language": "be",
+    "language": "bel",
     "script": "Cyrl",
-    "name": "Belarusian",
+    "name": "bel",
     "iso639_1": "be",
     "iso639_3": "bel",
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "be-Cyrl.json"
+    "file": "bel-Cyrl.json"
   },
   {
-    "language": "be",
+    "language": "bel",
     "script": "x-old",
-    "name": "Belarusian",
+    "name": "bel",
     "iso639_1": "be",
     "iso639_3": "bel",
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "be-x-old.json"
+    "file": "bel-x-old.json"
   },
   {
     "language": "bem",
     "script": "Latn",
     "name": "Bemba",
+    "iso639_1": "",
     "iso639_3": "bem",
     "letterCount": 20,
     "hasFrequency": true,
@@ -265,9 +275,21 @@
     "file": "bem-Latn.json"
   },
   {
+    "language": "ben",
+    "script": "Beng",
+    "name": "ben",
+    "iso639_1": "bn",
+    "iso639_3": "ben",
+    "letterCount": 51,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ben-Beng.json"
+  },
+  {
     "language": "bew",
     "script": "Latn",
     "name": "Betawi",
+    "iso639_1": "",
     "iso639_3": "bew",
     "letterCount": 29,
     "hasFrequency": true,
@@ -278,6 +300,7 @@
     "language": "bez",
     "script": "Latn",
     "name": "Bena",
+    "iso639_1": "",
     "iso639_3": "bez",
     "letterCount": 25,
     "hasFrequency": true,
@@ -285,20 +308,10 @@
     "file": "bez-Latn.json"
   },
   {
-    "language": "bg",
-    "script": "Cyrl",
-    "name": "Bulgarian",
-    "iso639_1": "bg",
-    "iso639_3": "bul",
-    "letterCount": 30,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "bg-Cyrl.json"
-  },
-  {
     "language": "bgc",
     "script": "Deva",
     "name": "Haryanvi",
+    "iso639_1": "",
     "iso639_3": "bgc",
     "letterCount": 44,
     "hasFrequency": true,
@@ -309,6 +322,7 @@
     "language": "bgn",
     "script": "Arab",
     "name": "Western Balochi",
+    "iso639_1": "",
     "iso639_3": "bgn",
     "letterCount": 37,
     "hasFrequency": true,
@@ -319,6 +333,7 @@
     "language": "bho",
     "script": "Deva",
     "name": "Bhojpuri",
+    "iso639_1": "",
     "iso639_3": "bho",
     "letterCount": 32,
     "hasFrequency": true,
@@ -326,50 +341,7 @@
     "file": "bho-Deva.json"
   },
   {
-    "language": "bku",
-    "script": "Latn",
-    "name": "Buhid",
-    "iso639_3": "bku",
-    "letterCount": 20,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "bku-Latn.json"
-  },
-  {
-    "language": "bm",
-    "script": "Latn",
-    "name": "Bambara",
-    "iso639_1": "bm",
-    "iso639_3": "bam",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "bm-Latn.json"
-  },
-  {
-    "language": "bm",
-    "script": "Nkoo",
-    "name": "Bambara",
-    "iso639_1": "bm",
-    "iso639_3": "bam",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "bm-Nkoo.json"
-  },
-  {
-    "language": "bn",
-    "script": "Beng",
-    "name": "Bangla",
-    "iso639_1": "bn",
-    "iso639_3": "ben",
-    "letterCount": 51,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "bn-Beng.json"
-  },
-  {
-    "language": "bo",
+    "language": "bod",
     "script": "Tibt",
     "name": "Tibetan",
     "iso639_1": "bo",
@@ -377,23 +349,35 @@
     "letterCount": 36,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "bo-Tibt.json"
+    "file": "bod-Tibt.json"
   },
   {
-    "language": "br",
+    "language": "bos",
     "script": "Latn",
-    "name": "Breton",
+    "name": "bos",
+    "iso639_1": "bs",
+    "iso639_3": "bos",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "bos-Latn.json"
+  },
+  {
+    "language": "bre",
+    "script": "Latn",
+    "name": "bre",
     "iso639_1": "br",
     "iso639_3": "bre",
     "letterCount": 27,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "br-Latn.json"
+    "hasWordFrequency": false,
+    "file": "bre-Latn.json"
   },
   {
     "language": "brx",
     "script": "Deva",
     "name": "Bodo",
+    "iso639_1": "",
     "iso639_3": "brx",
     "letterCount": 45,
     "hasFrequency": true,
@@ -401,20 +385,10 @@
     "file": "brx-Deva.json"
   },
   {
-    "language": "bs",
-    "script": "Latn",
-    "name": "Bosnian",
-    "iso639_1": "bs",
-    "iso639_3": "bos",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "bs-Latn.json"
-  },
-  {
     "language": "bss",
     "script": "Latn",
     "name": "Akoose",
+    "iso639_1": "",
     "iso639_3": "bss",
     "letterCount": 48,
     "hasFrequency": true,
@@ -422,29 +396,21 @@
     "file": "bss-Latn.json"
   },
   {
-    "language": "bug",
-    "script": "Latn",
-    "name": "Buginese",
-    "iso639_3": "bug",
+    "language": "bul",
+    "script": "Cyrl",
+    "name": "Bulgarian",
+    "iso639_1": "bg",
+    "iso639_3": "bul",
     "letterCount": 30,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "bug-Latn.json"
-  },
-  {
-    "language": "bya",
-    "script": "Latn",
-    "name": "Batak",
-    "iso639_3": "bya",
-    "letterCount": 52,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "bya-Latn.json"
+    "file": "bul-Cyrl.json"
   },
   {
     "language": "byn",
     "script": "Ethi",
     "name": "Blin",
+    "iso639_1": "",
     "iso639_3": "byn",
     "letterCount": 288,
     "hasFrequency": true,
@@ -452,20 +418,10 @@
     "file": "byn-Ethi.json"
   },
   {
-    "language": "ca",
-    "script": "Latn",
-    "name": "Catalan",
-    "iso639_1": "ca",
-    "iso639_3": "cat",
-    "letterCount": 36,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ca-Latn.json"
-  },
-  {
     "language": "cad",
     "script": "Latn",
     "name": "Caddo",
+    "iso639_1": "",
     "iso639_3": "cad",
     "letterCount": 30,
     "hasFrequency": true,
@@ -473,9 +429,21 @@
     "file": "cad-Latn.json"
   },
   {
+    "language": "cat",
+    "script": "Latn",
+    "name": "Catalan",
+    "iso639_1": "ca",
+    "iso639_3": "cat",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "cat-Latn.json"
+  },
+  {
     "language": "ccp",
     "script": "Cakm",
     "name": "Chakma",
+    "iso639_1": "",
     "iso639_3": "ccp",
     "letterCount": 36,
     "hasFrequency": true,
@@ -483,20 +451,10 @@
     "file": "ccp-Cakm.json"
   },
   {
-    "language": "ce",
-    "script": "Cyrl",
-    "name": "Chechen",
-    "iso639_1": "ce",
-    "iso639_3": "che",
-    "letterCount": 34,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ce-Cyrl.json"
-  },
-  {
     "language": "ceb",
     "script": "Latn",
-    "name": "Cebuano",
+    "name": "ceb",
+    "iso639_1": "",
     "iso639_3": "ceb",
     "letterCount": 19,
     "hasFrequency": true,
@@ -504,9 +462,21 @@
     "file": "ceb-Latn.json"
   },
   {
+    "language": "ces",
+    "script": "Latn",
+    "name": "ces",
+    "iso639_1": "cs",
+    "iso639_3": "ces",
+    "letterCount": 41,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ces-Latn.json"
+  },
+  {
     "language": "cgg",
     "script": "Latn",
     "name": "Chiga",
+    "iso639_1": "",
     "iso639_3": "cgg",
     "letterCount": 26,
     "hasFrequency": true,
@@ -514,9 +484,21 @@
     "file": "cgg-Latn.json"
   },
   {
+    "language": "che",
+    "script": "Cyrl",
+    "name": "Chechen",
+    "iso639_1": "ce",
+    "iso639_3": "che",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "che-Cyrl.json"
+  },
+  {
     "language": "cho",
     "script": "Latn",
     "name": "Choctaw",
+    "iso639_1": "",
     "iso639_3": "cho",
     "letterCount": 20,
     "hasFrequency": true,
@@ -527,6 +509,7 @@
     "language": "chr",
     "script": "Cher",
     "name": "Cherokee",
+    "iso639_1": "",
     "iso639_3": "chr",
     "letterCount": 85,
     "hasFrequency": true,
@@ -534,9 +517,32 @@
     "file": "chr-Cher.json"
   },
   {
+    "language": "chu",
+    "script": "Cyrl",
+    "name": "Church Slavic",
+    "iso639_1": "cu",
+    "iso639_3": "chu",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "chu-Cyrl.json"
+  },
+  {
+    "language": "chv",
+    "script": "Cyrl",
+    "name": "Chuvash",
+    "iso639_1": "cv",
+    "iso639_3": "chv",
+    "letterCount": 37,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "chv-Cyrl.json"
+  },
+  {
     "language": "cic",
     "script": "Latn",
     "name": "Chickasaw",
+    "iso639_1": "",
     "iso639_3": "cic",
     "letterCount": 18,
     "hasFrequency": true,
@@ -547,6 +553,7 @@
     "language": "ckb",
     "script": "Arab",
     "name": "Central Kurdish",
+    "iso639_1": "",
     "iso639_3": "ckb",
     "letterCount": 33,
     "hasFrequency": true,
@@ -554,20 +561,10 @@
     "file": "ckb-Arab.json"
   },
   {
-    "language": "co",
-    "script": "Latn",
-    "name": "Corsican",
-    "iso639_1": "co",
-    "iso639_3": "cos",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "co-Latn.json"
-  },
-  {
     "language": "cop",
     "script": "Copt",
     "name": "Coptic",
+    "iso639_1": "",
     "iso639_3": "cop",
     "letterCount": 32,
     "hasFrequency": true,
@@ -575,20 +572,32 @@
     "file": "cop-Copt.json"
   },
   {
-    "language": "cs",
+    "language": "cor",
     "script": "Latn",
-    "name": "Czech",
-    "iso639_1": "cs",
-    "iso639_3": "ces",
-    "letterCount": 41,
+    "name": "Cornish",
+    "iso639_1": "kw",
+    "iso639_3": "cor",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "cor-Latn.json"
+  },
+  {
+    "language": "cos",
+    "script": "Latn",
+    "name": "Corsican",
+    "iso639_1": "co",
+    "iso639_3": "cos",
+    "letterCount": 29,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "cs-Latn.json"
+    "file": "cos-Latn.json"
   },
   {
     "language": "csw",
     "script": "Cans",
     "name": "Swampy Cree",
+    "iso639_1": "",
     "iso639_3": "csw",
     "letterCount": 97,
     "hasFrequency": true,
@@ -596,29 +605,7 @@
     "file": "csw-Cans.json"
   },
   {
-    "language": "cu",
-    "script": "Cyrl",
-    "name": "Church Slavic",
-    "iso639_1": "cu",
-    "iso639_3": "chu",
-    "letterCount": 52,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "cu-Cyrl.json"
-  },
-  {
-    "language": "cv",
-    "script": "Cyrl",
-    "name": "Chuvash",
-    "iso639_1": "cv",
-    "iso639_3": "chv",
-    "letterCount": 37,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "cv-Cyrl.json"
-  },
-  {
-    "language": "cy",
+    "language": "cym",
     "script": "Latn",
     "name": "Welsh",
     "iso639_1": "cy",
@@ -626,10 +613,10 @@
     "letterCount": 49,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "cy-Latn.json"
+    "file": "cym-Latn.json"
   },
   {
-    "language": "da",
+    "language": "dan",
     "script": "Latn",
     "name": "Danish",
     "iso639_1": "da",
@@ -637,12 +624,13 @@
     "letterCount": 29,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "da-Latn.json"
+    "file": "dan-Latn.json"
   },
   {
     "language": "dav",
     "script": "Latn",
     "name": "Taita",
+    "iso639_1": "",
     "iso639_3": "dav",
     "letterCount": 24,
     "hasFrequency": true,
@@ -650,20 +638,32 @@
     "file": "dav-Latn.json"
   },
   {
-    "language": "de",
+    "language": "deu",
     "script": "Latn",
-    "name": "German",
+    "name": "deu",
     "iso639_1": "de",
     "iso639_3": "deu",
     "letterCount": 30,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "de-Latn.json"
+    "hasWordFrequency": false,
+    "file": "deu-Latn.json"
+  },
+  {
+    "language": "div",
+    "script": "Thaa",
+    "name": "Divehi",
+    "iso639_1": "dv",
+    "iso639_3": "div",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "div-Thaa.json"
   },
   {
     "language": "dje",
     "script": "Latn",
     "name": "Zarma",
+    "iso639_1": "",
     "iso639_3": "dje",
     "letterCount": 32,
     "hasFrequency": true,
@@ -674,6 +674,7 @@
     "language": "dsb",
     "script": "Latn",
     "name": "Lower Sorbian",
+    "iso639_1": "",
     "iso639_3": "dsb",
     "letterCount": 37,
     "hasFrequency": true,
@@ -684,6 +685,7 @@
     "language": "dua",
     "script": "Latn",
     "name": "Duala",
+    "iso639_1": "",
     "iso639_3": "dua",
     "letterCount": 32,
     "hasFrequency": true,
@@ -691,20 +693,10 @@
     "file": "dua-Latn.json"
   },
   {
-    "language": "dv",
-    "script": "Thaa",
-    "name": "Divehi",
-    "iso639_1": "dv",
-    "iso639_3": "div",
-    "letterCount": 24,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "dv-Thaa.json"
-  },
-  {
     "language": "dyo",
     "script": "Latn",
     "name": "Jola-Fonyi",
+    "iso639_1": "",
     "iso639_3": "dyo",
     "letterCount": 32,
     "hasFrequency": true,
@@ -712,7 +704,7 @@
     "file": "dyo-Latn.json"
   },
   {
-    "language": "dz",
+    "language": "dzo",
     "script": "Tibt",
     "name": "Dzongkha",
     "iso639_1": "dz",
@@ -720,12 +712,13 @@
     "letterCount": 30,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "dz-Tibt.json"
+    "file": "dzo-Tibt.json"
   },
   {
     "language": "ebu",
     "script": "Latn",
     "name": "Embu",
+    "iso639_1": "",
     "iso639_3": "ebu",
     "letterCount": 28,
     "hasFrequency": true,
@@ -733,18 +726,7 @@
     "file": "ebu-Latn.json"
   },
   {
-    "language": "ee",
-    "script": "Latn",
-    "name": "Ewe",
-    "iso639_1": "ee",
-    "iso639_3": "ewe",
-    "letterCount": 45,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ee-Latn.json"
-  },
-  {
-    "language": "el",
+    "language": "ell",
     "script": "Grek",
     "name": "Greek",
     "iso639_1": "el",
@@ -752,10 +734,10 @@
     "letterCount": 36,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "el-Grek.json"
+    "file": "ell-Grek.json"
   },
   {
-    "language": "en",
+    "language": "eng",
     "script": "Latn",
     "name": "English",
     "iso639_1": "en",
@@ -763,10 +745,10 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "en-Latn.json"
+    "file": "eng-Latn.json"
   },
   {
-    "language": "eo",
+    "language": "epo",
     "script": "Latn",
     "name": "Esperanto",
     "iso639_1": "eo",
@@ -774,21 +756,10 @@
     "letterCount": 28,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "eo-Latn.json"
+    "file": "epo-Latn.json"
   },
   {
-    "language": "es",
-    "script": "Latn",
-    "name": "Spanish",
-    "iso639_1": "es",
-    "iso639_3": "spa",
-    "letterCount": 33,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "es-Latn.json"
-  },
-  {
-    "language": "et",
+    "language": "est",
     "script": "Latn",
     "name": "Estonian",
     "iso639_1": "et",
@@ -796,10 +767,10 @@
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "et-Latn.json"
+    "file": "est-Latn.json"
   },
   {
-    "language": "eu",
+    "language": "eus",
     "script": "Latn",
     "name": "Basque",
     "iso639_1": "eu",
@@ -807,12 +778,24 @@
     "letterCount": 28,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "eu-Latn.json"
+    "file": "eus-Latn.json"
+  },
+  {
+    "language": "ewe",
+    "script": "Latn",
+    "name": "Ewe",
+    "iso639_1": "ee",
+    "iso639_3": "ewe",
+    "letterCount": 45,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ewe-Latn.json"
   },
   {
     "language": "ewo",
     "script": "Latn",
     "name": "Ewondo",
+    "iso639_1": "",
     "iso639_3": "ewo",
     "letterCount": 48,
     "hasFrequency": true,
@@ -820,51 +803,7 @@
     "file": "ewo-Latn.json"
   },
   {
-    "language": "fa",
-    "script": "Arab",
-    "name": "Persian",
-    "iso639_1": "fa",
-    "iso639_3": "fas",
-    "letterCount": 38,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "fa-Arab.json"
-  },
-  {
-    "language": "ff",
-    "script": "Adlm",
-    "name": "Fula",
-    "iso639_1": "ff",
-    "iso639_3": "ful",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ff-Adlm.json"
-  },
-  {
-    "language": "ff",
-    "script": "Latn",
-    "name": "Fula",
-    "iso639_1": "ff",
-    "iso639_3": "ful",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ff-Latn.json"
-  },
-  {
-    "language": "fi",
-    "script": "Latn",
-    "name": "Finnish",
-    "iso639_1": "fi",
-    "iso639_3": "fin",
-    "letterCount": 31,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "fi-Latn.json"
-  },
-  {
-    "language": "fo",
+    "language": "fao",
     "script": "Latn",
     "name": "Faroese",
     "iso639_1": "fo",
@@ -872,10 +811,32 @@
     "letterCount": 29,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "fo-Latn.json"
+    "file": "fao-Latn.json"
   },
   {
-    "language": "fr",
+    "language": "fas",
+    "script": "Arab",
+    "name": "Persian",
+    "iso639_1": "fa",
+    "iso639_3": "fas",
+    "letterCount": 38,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "fas-Arab.json"
+  },
+  {
+    "language": "fin",
+    "script": "Latn",
+    "name": "Finnish",
+    "iso639_1": "fi",
+    "iso639_3": "fin",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "fin-Latn.json"
+  },
+  {
+    "language": "fra",
     "script": "Latn",
     "name": "French",
     "iso639_1": "fr",
@@ -883,12 +844,13 @@
     "letterCount": 42,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "fr-Latn.json"
+    "file": "fra-Latn.json"
   },
   {
     "language": "frr",
     "script": "Latn",
     "name": "Northern Frisian",
+    "iso639_1": "",
     "iso639_3": "frr",
     "letterCount": 28,
     "hasFrequency": true,
@@ -896,17 +858,7 @@
     "file": "frr-Latn.json"
   },
   {
-    "language": "fur",
-    "script": "Latn",
-    "name": "Friulian",
-    "iso639_3": "fur",
-    "letterCount": 37,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "fur-Latn.json"
-  },
-  {
-    "language": "fy",
+    "language": "fry",
     "script": "Latn",
     "name": "Western Frisian",
     "iso639_1": "fy",
@@ -914,23 +866,46 @@
     "letterCount": 41,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "fy-Latn.json"
+    "file": "fry-Latn.json"
   },
   {
-    "language": "ga",
+    "language": "ful",
+    "script": "Adlm",
+    "name": "Fula",
+    "iso639_1": "ff",
+    "iso639_3": "ful",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ful-Adlm.json"
+  },
+  {
+    "language": "ful",
     "script": "Latn",
-    "name": "Irish",
-    "iso639_1": "ga",
-    "iso639_3": "gle",
-    "letterCount": 23,
+    "name": "Fula",
+    "iso639_1": "ff",
+    "iso639_3": "ful",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ful-Latn.json"
+  },
+  {
+    "language": "fur",
+    "script": "Latn",
+    "name": "Friulian",
+    "iso639_1": "",
+    "iso639_3": "fur",
+    "letterCount": 37,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ga-Latn.json"
+    "file": "fur-Latn.json"
   },
   {
     "language": "gaa",
     "script": "Latn",
     "name": "Ga",
+    "iso639_1": "",
     "iso639_3": "gaa",
     "letterCount": 26,
     "hasFrequency": true,
@@ -938,20 +913,10 @@
     "file": "gaa-Latn.json"
   },
   {
-    "language": "gd",
-    "script": "Latn",
-    "name": "Scottish Gaelic",
-    "iso639_1": "gd",
-    "iso639_3": "gla",
-    "letterCount": 23,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "gd-Latn.json"
-  },
-  {
     "language": "gez",
     "script": "Ethi",
     "name": "Geez",
+    "iso639_1": "",
     "iso639_3": "gez",
     "letterCount": 202,
     "hasFrequency": true,
@@ -959,7 +924,29 @@
     "file": "gez-Ethi.json"
   },
   {
-    "language": "gl",
+    "language": "gla",
+    "script": "Latn",
+    "name": "Scottish Gaelic",
+    "iso639_1": "gd",
+    "iso639_3": "gla",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "gla-Latn.json"
+  },
+  {
+    "language": "gle",
+    "script": "Latn",
+    "name": "Irish",
+    "iso639_1": "ga",
+    "iso639_3": "gle",
+    "letterCount": 23,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "gle-Latn.json"
+  },
+  {
+    "language": "glg",
     "script": "Latn",
     "name": "Galician",
     "iso639_1": "gl",
@@ -967,52 +954,10 @@
     "letterCount": 34,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "gl-Latn.json"
+    "file": "glg-Latn.json"
   },
   {
-    "language": "gn",
-    "script": "Latn",
-    "name": "Guarani",
-    "iso639_1": "gn",
-    "iso639_3": "grn",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "gn-Latn.json"
-  },
-  {
-    "language": "gsw",
-    "script": "Latn",
-    "name": "Swiss German",
-    "iso639_3": "gsw",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "gsw-Latn.json"
-  },
-  {
-    "language": "gu",
-    "script": "Gujr",
-    "name": "Gujarati",
-    "iso639_1": "gu",
-    "iso639_3": "guj",
-    "letterCount": 50,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "gu-Gujr.json"
-  },
-  {
-    "language": "guz",
-    "script": "Latn",
-    "name": "Gusii",
-    "iso639_3": "guz",
-    "letterCount": 24,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "guz-Latn.json"
-  },
-  {
-    "language": "gv",
+    "language": "glv",
     "script": "Latn",
     "name": "Manx",
     "iso639_1": "gv",
@@ -1020,10 +965,65 @@
     "letterCount": 27,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "gv-Latn.json"
+    "file": "glv-Latn.json"
   },
   {
-    "language": "ha",
+    "language": "grn",
+    "script": "Latn",
+    "name": "Guarani",
+    "iso639_1": "gn",
+    "iso639_3": "grn",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "grn-Latn.json"
+  },
+  {
+    "language": "gsw",
+    "script": "Latn",
+    "name": "Swiss German",
+    "iso639_1": "",
+    "iso639_3": "gsw",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "gsw-Latn.json"
+  },
+  {
+    "language": "guj",
+    "script": "Gujr",
+    "name": "Gujarati",
+    "iso639_1": "gu",
+    "iso639_3": "guj",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "guj-Gujr.json"
+  },
+  {
+    "language": "guz",
+    "script": "Latn",
+    "name": "Gusii",
+    "iso639_1": "",
+    "iso639_3": "guz",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "guz-Latn.json"
+  },
+  {
+    "language": "hat",
+    "script": "Latn",
+    "name": "Haitian Creole",
+    "iso639_1": "ht",
+    "iso639_3": "hat",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "hat-Latn.json"
+  },
+  {
+    "language": "hau",
     "script": "Latn",
     "name": "Hausa",
     "iso639_1": "ha",
@@ -1031,12 +1031,13 @@
     "letterCount": 27,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ha-Latn.json"
+    "file": "hau-Latn.json"
   },
   {
     "language": "haw",
     "script": "Latn",
     "name": "Hawaiian",
+    "iso639_1": "",
     "iso639_3": "haw",
     "letterCount": 18,
     "hasFrequency": true,
@@ -1044,7 +1045,7 @@
     "file": "haw-Latn.json"
   },
   {
-    "language": "he",
+    "language": "heb",
     "script": "Hebr",
     "name": "Hebrew",
     "iso639_1": "he",
@@ -1052,44 +1053,35 @@
     "letterCount": 27,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "he-Hebr.json"
+    "file": "heb-Hebr.json"
   },
   {
-    "language": "hi",
+    "language": "hin",
     "script": "Deva",
-    "name": "Hindi",
+    "name": "hin",
     "iso639_1": "hi",
     "iso639_3": "hin",
     "letterCount": 50,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "hi-Deva.json"
-  },
-  {
-    "language": "hnn",
-    "script": "Latn",
-    "name": "Hanunoo",
-    "iso639_3": "hnn",
-    "letterCount": 23,
-    "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "hnn-Latn.json"
+    "file": "hin-Deva.json"
   },
   {
-    "language": "hr",
+    "language": "hrv",
     "script": "Latn",
-    "name": "Croatian",
+    "name": "hrv",
     "iso639_1": "hr",
     "iso639_3": "hrv",
     "letterCount": 34,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "hr-Latn.json"
+    "hasWordFrequency": false,
+    "file": "hrv-Latn.json"
   },
   {
     "language": "hsb",
     "script": "Latn",
     "name": "Upper Sorbian",
+    "iso639_1": "",
     "iso639_3": "hsb",
     "letterCount": 36,
     "hasFrequency": true,
@@ -1097,18 +1089,7 @@
     "file": "hsb-Latn.json"
   },
   {
-    "language": "ht",
-    "script": "Latn",
-    "name": "Haitian Creole",
-    "iso639_1": "ht",
-    "iso639_3": "hat",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ht-Latn.json"
-  },
-  {
-    "language": "hu",
+    "language": "hun",
     "script": "Latn",
     "name": "Hungarian",
     "iso639_1": "hu",
@@ -1116,10 +1097,10 @@
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "hu-Latn.json"
+    "file": "hun-Latn.json"
   },
   {
-    "language": "hy",
+    "language": "hye",
     "script": "Armn",
     "name": "Armenian",
     "iso639_1": "hy",
@@ -1127,65 +1108,21 @@
     "letterCount": 38,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "hy-Armn.json"
+    "file": "hye-Armn.json"
   },
   {
-    "language": "ia",
+    "language": "ibo",
     "script": "Latn",
-    "name": "Interlingua",
-    "iso639_1": "ia",
-    "iso639_3": "ina",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ia-Latn.json"
-  },
-  {
-    "language": "id",
-    "script": "Latn",
-    "name": "Indonesian",
-    "iso639_1": "id",
-    "iso639_3": "ind",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "id-Latn.json"
-  },
-  {
-    "language": "ie",
-    "script": "Latn",
-    "name": "Interlingue",
-    "iso639_1": "ie",
-    "iso639_3": "ile",
-    "letterCount": 31,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ie-Latn.json"
-  },
-  {
-    "language": "ig",
-    "script": "Latn",
-    "name": "Igbo",
+    "name": "ibo",
     "iso639_1": "ig",
     "iso639_3": "ibo",
     "letterCount": 28,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ig-Latn.json"
-  },
-  {
-    "language": "ii",
-    "script": "Yiii",
-    "name": "Sichuan Yi",
-    "iso639_1": "ii",
-    "iso639_3": "iii",
-    "letterCount": 1165,
-    "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "ii-Yiii.json"
+    "file": "ibo-Latn.json"
   },
   {
-    "language": "io",
+    "language": "ido",
     "script": "Latn",
     "name": "Ido",
     "iso639_1": "io",
@@ -1193,32 +1130,21 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "io-Latn.json"
+    "file": "ido-Latn.json"
   },
   {
-    "language": "is",
-    "script": "Latn",
-    "name": "Icelandic",
-    "iso639_1": "is",
-    "iso639_3": "isl",
-    "letterCount": 32,
+    "language": "iii",
+    "script": "Yiii",
+    "name": "Sichuan Yi",
+    "iso639_1": "ii",
+    "iso639_3": "iii",
+    "letterCount": 1165,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "is-Latn.json"
+    "hasWordFrequency": false,
+    "file": "iii-Yiii.json"
   },
   {
-    "language": "it",
-    "script": "Latn",
-    "name": "Italian",
-    "iso639_1": "it",
-    "iso639_3": "ita",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "it-Latn.json"
-  },
-  {
-    "language": "iu",
+    "language": "iku",
     "script": "Cans",
     "name": "Inuktitut",
     "iso639_1": "iu",
@@ -1226,10 +1152,10 @@
     "letterCount": 109,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "iu-Cans.json"
+    "file": "iku-Cans.json"
   },
   {
-    "language": "iu",
+    "language": "iku",
     "script": "Latn",
     "name": "Inuktitut",
     "iso639_1": "iu",
@@ -1237,45 +1163,79 @@
     "letterCount": 16,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "iu-Latn.json"
+    "file": "iku-Latn.json"
   },
   {
-    "language": "ja",
-    "script": "Hira",
-    "name": "Japanese",
-    "iso639_1": "ja",
-    "iso639_3": "jpn",
-    "letterCount": 46,
+    "language": "ile",
+    "script": "Latn",
+    "name": "Interlingue",
+    "iso639_1": "ie",
+    "iso639_3": "ile",
+    "letterCount": 31,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ja-Hira.json"
+    "file": "ile-Latn.json"
   },
   {
-    "language": "ja",
-    "script": "Jpan",
-    "name": "Japanese",
-    "iso639_1": "ja",
-    "iso639_3": "jpn",
-    "letterCount": 2311,
+    "language": "ina",
+    "script": "Latn",
+    "name": "Interlingua",
+    "iso639_1": "ia",
+    "iso639_3": "ina",
+    "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ja-Jpan.json"
+    "file": "ina-Latn.json"
   },
   {
-    "language": "ja",
-    "script": "Kana",
-    "name": "Japanese",
-    "iso639_1": "ja",
-    "iso639_3": "jpn",
-    "letterCount": 46,
+    "language": "ind",
+    "script": "Latn",
+    "name": "Indonesian",
+    "iso639_1": "id",
+    "iso639_3": "ind",
+    "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ja-Kana.json"
+    "file": "ind-Latn.json"
+  },
+  {
+    "language": "isl",
+    "script": "Latn",
+    "name": "Icelandic",
+    "iso639_1": "is",
+    "iso639_3": "isl",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "isl-Latn.json"
+  },
+  {
+    "language": "ita",
+    "script": "Latn",
+    "name": "Italian",
+    "iso639_1": "it",
+    "iso639_3": "ita",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "ita-Latn.json"
+  },
+  {
+    "language": "jav",
+    "script": "Latn",
+    "name": "Javanese",
+    "iso639_1": "jv",
+    "iso639_3": "jav",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "jav-Latn.json"
   },
   {
     "language": "jbo",
     "script": "Latn",
     "name": "Lojban",
+    "iso639_1": "",
     "iso639_3": "jbo",
     "letterCount": 24,
     "hasFrequency": true,
@@ -1286,6 +1246,7 @@
     "language": "jgo",
     "script": "Latn",
     "name": "Ngomba",
+    "iso639_1": "",
     "iso639_3": "jgo",
     "letterCount": 39,
     "hasFrequency": true,
@@ -1293,31 +1254,43 @@
     "file": "jgo-Latn.json"
   },
   {
-    "language": "jv",
-    "script": "Latn",
-    "name": "Javanese",
-    "iso639_1": "jv",
-    "iso639_3": "jav",
-    "letterCount": 29,
+    "language": "jpn",
+    "script": "Hira",
+    "name": "jpn",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 46,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "jv-Latn.json"
+    "hasWordFrequency": false,
+    "file": "jpn-Hira.json"
   },
   {
-    "language": "ka",
-    "script": "Geor",
-    "name": "Georgian",
-    "iso639_1": "ka",
-    "iso639_3": "kat",
-    "letterCount": 33,
+    "language": "jpn",
+    "script": "Jpan",
+    "name": "jpn",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 2311,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ka-Geor.json"
+    "hasWordFrequency": false,
+    "file": "jpn-Jpan.json"
+  },
+  {
+    "language": "jpn",
+    "script": "Kana",
+    "name": "jpn",
+    "iso639_1": "ja",
+    "iso639_3": "jpn",
+    "letterCount": 46,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "jpn-Kana.json"
   },
   {
     "language": "kaa",
     "script": "Cyrl",
     "name": "Kara-Kalpak",
+    "iso639_1": "",
     "iso639_3": "kaa",
     "letterCount": 41,
     "hasFrequency": true,
@@ -1328,6 +1301,7 @@
     "language": "kaa",
     "script": "Latn",
     "name": "Kara-Kalpak",
+    "iso639_1": "",
     "iso639_3": "kaa",
     "letterCount": 32,
     "hasFrequency": true,
@@ -1338,6 +1312,7 @@
     "language": "kab",
     "script": "Latn",
     "name": "Kabyle",
+    "iso639_1": "",
     "iso639_3": "kab",
     "letterCount": 34,
     "hasFrequency": true,
@@ -1348,6 +1323,7 @@
     "language": "kam",
     "script": "Latn",
     "name": "Kamba",
+    "iso639_1": "",
     "iso639_3": "kam",
     "letterCount": 27,
     "hasFrequency": true,
@@ -1355,9 +1331,54 @@
     "file": "kam-Latn.json"
   },
   {
+    "language": "kan",
+    "script": "Knda",
+    "name": "Kannada",
+    "iso639_1": "kn",
+    "iso639_3": "kan",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "kan-Knda.json"
+  },
+  {
+    "language": "kas",
+    "script": "Deva",
+    "name": "Kashmiri",
+    "iso639_1": "ks",
+    "iso639_3": "kas",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kas-Deva.json"
+  },
+  {
+    "language": "kat",
+    "script": "Geor",
+    "name": "kat",
+    "iso639_1": "ka",
+    "iso639_3": "kat",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kat-Geor.json"
+  },
+  {
+    "language": "kaz",
+    "script": "Cyrl",
+    "name": "Kazakh",
+    "iso639_1": "kk",
+    "iso639_3": "kaz",
+    "letterCount": 42,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "kaz-Cyrl.json"
+  },
+  {
     "language": "kde",
     "script": "Latn",
     "name": "Makonde",
+    "iso639_1": "",
     "iso639_3": "kde",
     "letterCount": 26,
     "hasFrequency": true,
@@ -1368,6 +1389,7 @@
     "language": "kea",
     "script": "Latn",
     "name": "Kabuverdianu",
+    "iso639_1": "",
     "iso639_3": "kea",
     "letterCount": 24,
     "hasFrequency": true,
@@ -1378,6 +1400,7 @@
     "language": "ken",
     "script": "Latn",
     "name": "Kenyang",
+    "iso639_1": "",
     "iso639_3": "ken",
     "letterCount": 38,
     "hasFrequency": true,
@@ -1388,6 +1411,7 @@
     "language": "kgp",
     "script": "Latn",
     "name": "Kaingang",
+    "iso639_1": "",
     "iso639_3": "kgp",
     "letterCount": 26,
     "hasFrequency": true,
@@ -1395,60 +1419,7 @@
     "file": "kgp-Latn.json"
   },
   {
-    "language": "khq",
-    "script": "Latn",
-    "name": "Koyra Chiini",
-    "iso639_3": "khq",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "khq-Latn.json"
-  },
-  {
-    "language": "ki",
-    "script": "Latn",
-    "name": "Kikuyu",
-    "iso639_1": "ki",
-    "iso639_3": "kik",
-    "letterCount": 20,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "ki-Latn.json"
-  },
-  {
-    "language": "kk",
-    "script": "Cyrl",
-    "name": "Kazakh",
-    "iso639_1": "kk",
-    "iso639_3": "kaz",
-    "letterCount": 42,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "kk-Cyrl.json"
-  },
-  {
-    "language": "kkj",
-    "script": "Latn",
-    "name": "Kako",
-    "iso639_3": "kkj",
-    "letterCount": 43,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "kkj-Latn.json"
-  },
-  {
-    "language": "kl",
-    "script": "Latn",
-    "name": "Kalaallisut",
-    "iso639_1": "kl",
-    "iso639_3": "kal",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "kl-Latn.json"
-  },
-  {
-    "language": "km",
+    "language": "khm",
     "script": "Khmr",
     "name": "Khmer",
     "iso639_1": "km",
@@ -1456,45 +1427,68 @@
     "letterCount": 47,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "km-Khmr.json"
+    "file": "khm-Khmr.json"
   },
   {
-    "language": "kn",
-    "script": "Knda",
-    "name": "Kannada",
-    "iso639_1": "kn",
-    "iso639_3": "kan",
-    "letterCount": 52,
+    "language": "khq",
+    "script": "Latn",
+    "name": "Koyra Chiini",
+    "iso639_1": "",
+    "iso639_3": "khq",
+    "letterCount": 32,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "kn-Knda.json"
+    "hasWordFrequency": false,
+    "file": "khq-Latn.json"
   },
   {
-    "language": "ko",
-    "script": "Hang",
-    "name": "Korean",
-    "iso639_1": "ko",
-    "iso639_3": "kor",
-    "letterCount": 24,
+    "language": "kik",
+    "script": "Latn",
+    "name": "Kikuyu",
+    "iso639_1": "ki",
+    "iso639_3": "kik",
+    "letterCount": 20,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ko-Hang.json"
+    "hasWordFrequency": false,
+    "file": "kik-Latn.json"
   },
   {
-    "language": "ko",
-    "script": "Kore",
-    "name": "Korean",
-    "iso639_1": "ko",
-    "iso639_3": "kor",
-    "letterCount": 11172,
+    "language": "kin",
+    "script": "Latn",
+    "name": "Kinyarwanda",
+    "iso639_1": "rw",
+    "iso639_3": "kin",
+    "letterCount": 26,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ko-Kore.json"
+    "hasWordFrequency": false,
+    "file": "kin-Latn.json"
+  },
+  {
+    "language": "kir",
+    "script": "Cyrl",
+    "name": "Kyrgyz",
+    "iso639_1": "ky",
+    "iso639_3": "kir",
+    "letterCount": 31,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kir-Cyrl.json"
+  },
+  {
+    "language": "kkj",
+    "script": "Latn",
+    "name": "Kako",
+    "iso639_1": "",
+    "iso639_3": "kkj",
+    "letterCount": 43,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kkj-Latn.json"
   },
   {
     "language": "kok",
     "script": "Deva",
     "name": "Konkani",
+    "iso639_1": "",
     "iso639_3": "kok",
     "letterCount": 50,
     "hasFrequency": true,
@@ -1505,6 +1499,7 @@
     "language": "kok",
     "script": "Latn",
     "name": "Konkani",
+    "iso639_1": "",
     "iso639_3": "kok",
     "letterCount": 34,
     "hasFrequency": true,
@@ -1512,9 +1507,32 @@
     "file": "kok-Latn.json"
   },
   {
+    "language": "kor",
+    "script": "Hang",
+    "name": "kor",
+    "iso639_1": "ko",
+    "iso639_3": "kor",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kor-Hang.json"
+  },
+  {
+    "language": "kor",
+    "script": "Kore",
+    "name": "kor",
+    "iso639_1": "ko",
+    "iso639_3": "kor",
+    "letterCount": 11172,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "kor-Kore.json"
+  },
+  {
     "language": "kpe",
     "script": "Latn",
     "name": "Kpelle",
+    "iso639_1": "",
     "iso639_3": "kpe",
     "letterCount": 29,
     "hasFrequency": true,
@@ -1522,31 +1540,10 @@
     "file": "kpe-Latn.json"
   },
   {
-    "language": "ks",
-    "script": "Arab",
-    "name": "Kashmiri",
-    "iso639_1": "ks",
-    "iso639_3": "kas",
-    "letterCount": 46,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ks-Arab.json"
-  },
-  {
-    "language": "ks",
-    "script": "Deva",
-    "name": "Kashmiri",
-    "iso639_1": "ks",
-    "iso639_3": "kas",
-    "letterCount": 33,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ks-Deva.json"
-  },
-  {
     "language": "ksb",
     "script": "Latn",
     "name": "Shambala",
+    "iso639_1": "",
     "iso639_3": "ksb",
     "letterCount": 23,
     "hasFrequency": true,
@@ -1557,6 +1554,7 @@
     "language": "ksf",
     "script": "Latn",
     "name": "Bafia",
+    "iso639_1": "",
     "iso639_3": "ksf",
     "letterCount": 33,
     "hasFrequency": true,
@@ -1564,41 +1562,21 @@
     "file": "ksf-Latn.json"
   },
   {
-    "language": "ksh",
-    "script": "Latn",
-    "name": "Colognian",
-    "iso639_3": "ksh",
-    "letterCount": 36,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ksh-Latn.json"
-  },
-  {
-    "language": "ku",
+    "language": "kur",
     "script": "Latn",
     "name": "Kurdish",
     "iso639_1": "ku",
     "iso639_3": "kur",
     "letterCount": 31,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ku-Latn.json"
-  },
-  {
-    "language": "kw",
-    "script": "Latn",
-    "name": "Cornish",
-    "iso639_1": "kw",
-    "iso639_3": "cor",
-    "letterCount": 26,
-    "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "kw-Latn.json"
+    "file": "kur-Latn.json"
   },
   {
     "language": "kxv",
     "script": "Orya",
     "name": "Kuvi",
+    "iso639_1": "",
     "iso639_3": "kxv",
     "letterCount": 29,
     "hasFrequency": true,
@@ -1606,31 +1584,10 @@
     "file": "kxv-Orya.json"
   },
   {
-    "language": "ky",
-    "script": "Cyrl",
-    "name": "Kyrgyz",
-    "iso639_1": "ky",
-    "iso639_3": "kir",
-    "letterCount": 31,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ky-Cyrl.json"
-  },
-  {
-    "language": "la",
-    "script": "Latn",
-    "name": "Latin",
-    "iso639_1": "la",
-    "iso639_3": "lat",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "la-Latn.json"
-  },
-  {
     "language": "lag",
     "script": "Latn",
     "name": "Langi",
+    "iso639_1": "",
     "iso639_3": "lag",
     "letterCount": 33,
     "hasFrequency": true,
@@ -1638,51 +1595,43 @@
     "file": "lag-Latn.json"
   },
   {
-    "language": "lb",
-    "script": "Latn",
-    "name": "Luxembourgish",
-    "iso639_1": "lb",
-    "iso639_3": "ltz",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "lb-Latn.json"
-  },
-  {
-    "language": "lep",
-    "script": "Lepc",
-    "name": "Lepcha",
-    "iso639_3": "lep",
-    "letterCount": 59,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "lep-Lepc.json"
-  },
-  {
-    "language": "lg",
-    "script": "Latn",
-    "name": "Ganda",
-    "iso639_1": "lg",
-    "iso639_3": "lug",
-    "letterCount": 24,
+    "language": "lao",
+    "script": "Laoo",
+    "name": "Lao",
+    "iso639_1": "lo",
+    "iso639_3": "lao",
+    "letterCount": 40,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "lg-Latn.json"
+    "file": "lao-Laoo.json"
   },
   {
-    "language": "lif",
-    "script": "Deva",
-    "name": "Limbu",
-    "iso639_3": "lif",
-    "letterCount": 56,
+    "language": "lat",
+    "script": "Latn",
+    "name": "lat",
+    "iso639_1": "la",
+    "iso639_3": "lat",
+    "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "lif-Deva.json"
+    "file": "lat-Latn.json"
+  },
+  {
+    "language": "lav",
+    "script": "Latn",
+    "name": "Latvian",
+    "iso639_1": "lv",
+    "iso639_3": "lav",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "lav-Latn.json"
   },
   {
     "language": "lij",
     "script": "Latn",
     "name": "Ligurian",
+    "iso639_1": "",
     "iso639_3": "lij",
     "letterCount": 46,
     "hasFrequency": true,
@@ -1690,19 +1639,32 @@
     "file": "lij-Latn.json"
   },
   {
-    "language": "lis",
-    "script": "Lisu",
-    "name": "Lisu",
-    "iso639_3": "lis",
-    "letterCount": 40,
+    "language": "lin",
+    "script": "Latn",
+    "name": "Lingala",
+    "iso639_1": "ln",
+    "iso639_3": "lin",
+    "letterCount": 38,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "lis-Lisu.json"
+    "file": "lin-Latn.json"
+  },
+  {
+    "language": "lit",
+    "script": "Latn",
+    "name": "Lithuanian",
+    "iso639_1": "lt",
+    "iso639_3": "lit",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "lit-Latn.json"
   },
   {
     "language": "lkt",
     "script": "Latn",
     "name": "Lakota",
+    "iso639_1": "",
     "iso639_3": "lkt",
     "letterCount": 30,
     "hasFrequency": true,
@@ -1713,6 +1675,7 @@
     "language": "lld",
     "script": "Latn",
     "name": "Ladin",
+    "iso639_1": "",
     "iso639_3": "lld",
     "letterCount": 41,
     "hasFrequency": true,
@@ -1723,6 +1686,7 @@
     "language": "lmo",
     "script": "Latn",
     "name": "Lombard",
+    "iso639_1": "",
     "iso639_3": "lmo",
     "letterCount": 26,
     "hasFrequency": true,
@@ -1730,31 +1694,10 @@
     "file": "lmo-Latn.json"
   },
   {
-    "language": "ln",
-    "script": "Latn",
-    "name": "Lingala",
-    "iso639_1": "ln",
-    "iso639_3": "lin",
-    "letterCount": 38,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ln-Latn.json"
-  },
-  {
-    "language": "lo",
-    "script": "Laoo",
-    "name": "Lao",
-    "iso639_1": "lo",
-    "iso639_3": "lao",
-    "letterCount": 40,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "lo-Laoo.json"
-  },
-  {
     "language": "lrc",
     "script": "Arab",
     "name": "Northern Luri",
+    "iso639_1": "",
     "iso639_3": "lrc",
     "letterCount": 41,
     "hasFrequency": true,
@@ -1762,20 +1705,10 @@
     "file": "lrc-Arab.json"
   },
   {
-    "language": "lt",
-    "script": "Latn",
-    "name": "Lithuanian",
-    "iso639_1": "lt",
-    "iso639_3": "lit",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "lt-Latn.json"
-  },
-  {
     "language": "ltg",
     "script": "Latn",
     "name": "Latgalian",
+    "iso639_1": "",
     "iso639_3": "ltg",
     "letterCount": 35,
     "hasFrequency": true,
@@ -1783,7 +1716,18 @@
     "file": "ltg-Latn.json"
   },
   {
-    "language": "lu",
+    "language": "ltz",
+    "script": "Latn",
+    "name": "Luxembourgish",
+    "iso639_1": "lb",
+    "iso639_3": "ltz",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ltz-Latn.json"
+  },
+  {
+    "language": "lub",
     "script": "Latn",
     "name": "Luba-Katanga",
     "iso639_1": "lu",
@@ -1791,12 +1735,24 @@
     "letterCount": 36,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "lu-Latn.json"
+    "file": "lub-Latn.json"
+  },
+  {
+    "language": "lug",
+    "script": "Latn",
+    "name": "Ganda",
+    "iso639_1": "lg",
+    "iso639_3": "lug",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "lug-Latn.json"
   },
   {
     "language": "luo",
     "script": "Latn",
     "name": "Luo (Kenya and Tanzania)",
+    "iso639_1": "",
     "iso639_3": "luo",
     "letterCount": 23,
     "hasFrequency": true,
@@ -1807,6 +1763,7 @@
     "language": "luy",
     "script": "Latn",
     "name": "Luyia",
+    "iso639_1": "",
     "iso639_3": "luy",
     "letterCount": 26,
     "hasFrequency": true,
@@ -1814,30 +1771,10 @@
     "file": "luy-Latn.json"
   },
   {
-    "language": "lv",
-    "script": "Latn",
-    "name": "Latvian",
-    "iso639_1": "lv",
-    "iso639_3": "lav",
-    "letterCount": 33,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "lv-Latn.json"
-  },
-  {
-    "language": "lzh",
-    "script": "Hans",
-    "name": "Literary Chinese",
-    "iso639_3": "lzh",
-    "letterCount": 2210,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "lzh-Hans.json"
-  },
-  {
     "language": "mai",
     "script": "Deva",
     "name": "Maithili",
+    "iso639_1": "",
     "iso639_3": "mai",
     "letterCount": 32,
     "hasFrequency": true,
@@ -1845,9 +1782,43 @@
     "file": "mai-Deva.json"
   },
   {
+    "language": "mal",
+    "script": "Mlym",
+    "name": "Malayalam",
+    "iso639_1": "ml",
+    "iso639_3": "mal",
+    "letterCount": 49,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "mal-Mlym.json"
+  },
+  {
+    "language": "mar",
+    "script": "Deva",
+    "name": "Marathi",
+    "iso639_1": "mr",
+    "iso639_3": "mar",
+    "letterCount": 49,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "mar-Deva.json"
+  },
+  {
+    "language": "mar",
+    "script": "Latn",
+    "name": "mar",
+    "iso639_1": "mr",
+    "iso639_3": "mar",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "mar-Latn.json"
+  },
+  {
     "language": "mas",
     "script": "Latn",
     "name": "Masai",
+    "iso639_1": "",
     "iso639_3": "mas",
     "letterCount": 46,
     "hasFrequency": true,
@@ -1858,6 +1829,7 @@
     "language": "mdf",
     "script": "Cyrl",
     "name": "Moksha",
+    "iso639_1": "",
     "iso639_3": "mdf",
     "letterCount": 33,
     "hasFrequency": true,
@@ -1865,31 +1837,10 @@
     "file": "mdf-Cyrl.json"
   },
   {
-    "language": "meh",
-    "script": "Latn",
-    "name": "Southwestern Tlaxiaco Mixtec",
-    "iso639_1": null,
-    "iso639_3": "meh",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "meh-Latn.json"
-  },
-  {
-    "language": "mel",
-    "script": "Latn",
-    "name": "Central Melanau",
-    "iso639_1": null,
-    "iso639_3": "mel",
-    "letterCount": 24,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mel-Latn.json"
-  },
-  {
     "language": "mer",
     "script": "Latn",
     "name": "Meru",
+    "iso639_1": "",
     "iso639_3": "mer",
     "letterCount": 28,
     "hasFrequency": true,
@@ -1900,6 +1851,7 @@
     "language": "mfe",
     "script": "Latn",
     "name": "Morisyen",
+    "iso639_1": "",
     "iso639_3": "mfe",
     "letterCount": 25,
     "hasFrequency": true,
@@ -1907,20 +1859,10 @@
     "file": "mfe-Latn.json"
   },
   {
-    "language": "mg",
-    "script": "Latn",
-    "name": "Malagasy",
-    "iso639_1": "mg",
-    "iso639_3": "mlg",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mg-Latn.json"
-  },
-  {
     "language": "mgh",
     "script": "Latn",
     "name": "Makhuwa-Meetto",
+    "iso639_1": "",
     "iso639_3": "mgh",
     "letterCount": 24,
     "hasFrequency": true,
@@ -1931,6 +1873,7 @@
     "language": "mgo",
     "script": "Latn",
     "name": "Metaʼ",
+    "iso639_1": "",
     "iso639_3": "mgo",
     "letterCount": 31,
     "hasFrequency": true,
@@ -1941,6 +1884,7 @@
     "language": "mhn",
     "script": "Latn",
     "name": "Mócheno",
+    "iso639_1": "",
     "iso639_3": "mhn",
     "letterCount": 37,
     "hasFrequency": true,
@@ -1962,6 +1906,7 @@
     "language": "mic",
     "script": "Latn",
     "name": "Mi'kmaw",
+    "iso639_1": "",
     "iso639_3": "mic",
     "letterCount": 22,
     "hasFrequency": true,
@@ -1969,17 +1914,7 @@
     "file": "mic-Latn.json"
   },
   {
-    "language": "mid",
-    "script": "Latn",
-    "name": "Mandaic",
-    "iso639_3": "mid",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "mid-Latn.json"
-  },
-  {
-    "language": "mk",
+    "language": "mkd",
     "script": "Cyrl",
     "name": "Macedonian",
     "iso639_1": "mk",
@@ -1987,56 +1922,35 @@
     "letterCount": 31,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "mk-Cyrl.json"
+    "file": "mkd-Cyrl.json"
   },
   {
-    "language": "ml",
-    "script": "Mlym",
-    "name": "Malayalam",
-    "iso639_1": "ml",
-    "iso639_3": "mal",
-    "letterCount": 49,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ml-Mlym.json"
-  },
-  {
-    "language": "mmc",
+    "language": "mlg",
     "script": "Latn",
-    "name": "Michoacán Mazahua",
-    "iso639_1": null,
-    "iso639_3": "mmc",
-    "letterCount": 46,
+    "name": "Malagasy",
+    "iso639_1": "mg",
+    "iso639_3": "mlg",
+    "letterCount": 32,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mmc-Latn.json"
+    "hasWordFrequency": false,
+    "file": "mlg-Latn.json"
   },
   {
-    "language": "mn",
-    "script": "Cyrl",
-    "name": "Mongolian",
-    "iso639_1": "mn",
-    "iso639_3": "mon",
-    "letterCount": 35,
+    "language": "mlt",
+    "script": "Latn",
+    "name": "Maltese",
+    "iso639_1": "mt",
+    "iso639_3": "mlt",
+    "letterCount": 33,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "mn-Cyrl.json"
-  },
-  {
-    "language": "mn",
-    "script": "Mong",
-    "name": "Mongolian",
-    "iso639_1": "mn",
-    "iso639_3": "mon",
-    "letterCount": 35,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mn-Mong.json"
+    "file": "mlt-Latn.json"
   },
   {
     "language": "mni",
     "script": "Beng",
     "name": "Manipuri",
+    "iso639_1": "",
     "iso639_3": "mni",
     "letterCount": 44,
     "hasFrequency": true,
@@ -2047,6 +1961,7 @@
     "language": "mni",
     "script": "Mtei",
     "name": "Manipuri",
+    "iso639_1": "",
     "iso639_3": "mni",
     "letterCount": 35,
     "hasFrequency": true,
@@ -2054,20 +1969,10 @@
     "file": "mni-Mtei.json"
   },
   {
-    "language": "mo",
-    "script": "Latn",
-    "name": "Romanian",
-    "iso639_1": "ro",
-    "iso639_3": "ron",
-    "letterCount": 31,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mo-Latn.json"
-  },
-  {
     "language": "moh",
     "script": "Latn",
     "name": "Mohawk",
+    "iso639_1": "",
     "iso639_3": "moh",
     "letterCount": 21,
     "hasFrequency": true,
@@ -2075,29 +1980,29 @@
     "file": "moh-Latn.json"
   },
   {
-    "language": "mr",
-    "script": "Deva",
-    "name": "Marathi",
-    "iso639_1": "mr",
-    "iso639_3": "mar",
-    "letterCount": 49,
+    "language": "mon",
+    "script": "Cyrl",
+    "name": "Mongolian",
+    "iso639_1": "mn",
+    "iso639_3": "mon",
+    "letterCount": 35,
     "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "mr-Deva.json"
+    "hasWordFrequency": true,
+    "file": "mon-Cyrl.json"
   },
   {
-    "language": "mr",
-    "script": "Latn",
-    "name": "Marathi",
-    "iso639_1": "mr",
-    "iso639_3": "mar",
-    "letterCount": 26,
+    "language": "mon",
+    "script": "Mong",
+    "name": "Mongolian",
+    "iso639_1": "mn",
+    "iso639_3": "mon",
+    "letterCount": 35,
     "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "mr-Latn.json"
+    "hasWordFrequency": true,
+    "file": "mon-Mong.json"
   },
   {
-    "language": "ms",
+    "language": "msa",
     "script": "Latn",
     "name": "Malay",
     "iso639_1": "ms",
@@ -2105,34 +2010,13 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ms-Latn.json"
-  },
-  {
-    "language": "msi",
-    "script": "Latn",
-    "name": "Sabah Malay",
-    "iso639_1": null,
-    "iso639_3": "msi",
-    "letterCount": 25,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "msi-Latn.json"
-  },
-  {
-    "language": "mt",
-    "script": "Latn",
-    "name": "Maltese",
-    "iso639_1": "mt",
-    "iso639_3": "mlt",
-    "letterCount": 33,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "mt-Latn.json"
+    "file": "msa-Latn.json"
   },
   {
     "language": "mua",
     "script": "Latn",
     "name": "Mundang",
+    "iso639_1": "",
     "iso639_3": "mua",
     "letterCount": 33,
     "hasFrequency": true,
@@ -2143,6 +2027,7 @@
     "language": "mus",
     "script": "Latn",
     "name": "Muscogee",
+    "iso639_1": "",
     "iso639_3": "mus",
     "letterCount": 21,
     "hasFrequency": true,
@@ -2150,7 +2035,7 @@
     "file": "mus-Latn.json"
   },
   {
-    "language": "my",
+    "language": "mya",
     "script": "Mymr",
     "name": "Burmese",
     "iso639_1": "my",
@@ -2158,12 +2043,13 @@
     "letterCount": 42,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "my-Mymr.json"
+    "file": "mya-Mymr.json"
   },
   {
     "language": "myv",
     "script": "Cyrl",
     "name": "Erzya",
+    "iso639_1": "",
     "iso639_3": "myv",
     "letterCount": 33,
     "hasFrequency": true,
@@ -2174,6 +2060,7 @@
     "language": "mzn",
     "script": "Arab",
     "name": "Mazanderani",
+    "iso639_1": "",
     "iso639_3": "mzn",
     "letterCount": 38,
     "hasFrequency": true,
@@ -2184,6 +2071,7 @@
     "language": "naq",
     "script": "Latn",
     "name": "Nama",
+    "iso639_1": "",
     "iso639_3": "naq",
     "letterCount": 31,
     "hasFrequency": true,
@@ -2191,113 +2079,18 @@
     "file": "naq-Latn.json"
   },
   {
-    "language": "nb",
+    "language": "nav",
     "script": "Latn",
-    "name": "Norwegian Bokmål",
-    "iso639_1": "nb",
-    "iso639_3": "nob",
-    "letterCount": 34,
+    "name": "Navajo",
+    "iso639_1": "nv",
+    "iso639_3": "nav",
+    "letterCount": 29,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "nb-Latn.json"
+    "file": "nav-Latn.json"
   },
   {
-    "language": "nd",
-    "script": "Latn",
-    "name": "North Ndebele",
-    "iso639_1": "nd",
-    "iso639_3": "nde",
-    "letterCount": 25,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "nd-Latn.json"
-  },
-  {
-    "language": "nds",
-    "script": "Latn",
-    "name": "Low German",
-    "iso639_3": "nds",
-    "letterCount": 30,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "nds-Latn.json"
-  },
-  {
-    "language": "ne",
-    "script": "Deva",
-    "name": "Nepali",
-    "iso639_1": "ne",
-    "iso639_3": "nep",
-    "letterCount": 50,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ne-Deva.json"
-  },
-  {
-    "language": "nl",
-    "script": "Latn",
-    "name": "Dutch",
-    "iso639_1": "nl",
-    "iso639_3": "nld",
-    "letterCount": 36,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "nl-Latn.json"
-  },
-  {
-    "language": "nmg",
-    "script": "Latn",
-    "name": "Kwasio",
-    "iso639_3": "nmg",
-    "letterCount": 53,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "nmg-Latn.json"
-  },
-  {
-    "language": "nn",
-    "script": "Latn",
-    "name": "Norwegian Nynorsk",
-    "iso639_1": "nn",
-    "iso639_3": "nno",
-    "letterCount": 34,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "nn-Latn.json"
-  },
-  {
-    "language": "nnh",
-    "script": "Latn",
-    "name": "Ngiemboon",
-    "iso639_3": "nnh",
-    "letterCount": 50,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "nnh-Latn.json"
-  },
-  {
-    "language": "no",
-    "script": "Latn",
-    "name": "Norwegian",
-    "iso639_1": "no",
-    "iso639_3": "nor",
-    "letterCount": 34,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "no-Latn.json"
-  },
-  {
-    "language": "nqo",
-    "script": "Nkoo",
-    "name": "N’Ko",
-    "iso639_3": "nqo",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "nqo-Nkoo.json"
-  },
-  {
-    "language": "nr",
+    "language": "nbl",
     "script": "Latn",
     "name": "South Ndebele",
     "iso639_1": "nr",
@@ -2305,12 +2098,123 @@
     "letterCount": 25,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "nr-Latn.json"
+    "file": "nbl-Latn.json"
+  },
+  {
+    "language": "nde",
+    "script": "Latn",
+    "name": "North Ndebele",
+    "iso639_1": "nd",
+    "iso639_3": "nde",
+    "letterCount": 25,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nde-Latn.json"
+  },
+  {
+    "language": "nds",
+    "script": "Latn",
+    "name": "Low German",
+    "iso639_1": "",
+    "iso639_3": "nds",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "nds-Latn.json"
+  },
+  {
+    "language": "nep",
+    "script": "Deva",
+    "name": "Nepali",
+    "iso639_1": "ne",
+    "iso639_3": "nep",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nep-Deva.json"
+  },
+  {
+    "language": "nld",
+    "script": "Latn",
+    "name": "Dutch",
+    "iso639_1": "nl",
+    "iso639_3": "nld",
+    "letterCount": 36,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "nld-Latn.json"
+  },
+  {
+    "language": "nmg",
+    "script": "Latn",
+    "name": "Kwasio",
+    "iso639_1": "",
+    "iso639_3": "nmg",
+    "letterCount": 53,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nmg-Latn.json"
+  },
+  {
+    "language": "nnh",
+    "script": "Latn",
+    "name": "Ngiemboon",
+    "iso639_1": "",
+    "iso639_3": "nnh",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nnh-Latn.json"
+  },
+  {
+    "language": "nno",
+    "script": "Latn",
+    "name": "Norwegian Nynorsk",
+    "iso639_1": "nn",
+    "iso639_3": "nno",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "nno-Latn.json"
+  },
+  {
+    "language": "nob",
+    "script": "Latn",
+    "name": "Norwegian Bokmål",
+    "iso639_1": "nb",
+    "iso639_3": "nob",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nob-Latn.json"
+  },
+  {
+    "language": "nor",
+    "script": "Latn",
+    "name": "Norwegian",
+    "iso639_1": "no",
+    "iso639_3": "nor",
+    "letterCount": 34,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "nor-Latn.json"
+  },
+  {
+    "language": "nqo",
+    "script": "Nkoo",
+    "name": "N’Ko",
+    "iso639_1": "",
+    "iso639_3": "nqo",
+    "letterCount": 32,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "nqo-Nkoo.json"
   },
   {
     "language": "nso",
     "script": "Latn",
     "name": "Northern Sotho",
+    "iso639_1": "",
     "iso639_3": "nso",
     "letterCount": 25,
     "hasFrequency": true,
@@ -2321,6 +2225,7 @@
     "language": "nus",
     "script": "Latn",
     "name": "Nuer",
+    "iso639_1": "",
     "iso639_3": "nus",
     "letterCount": 34,
     "hasFrequency": true,
@@ -2339,7 +2244,7 @@
     "file": "nv-Latn.json"
   },
   {
-    "language": "ny",
+    "language": "nya",
     "script": "Latn",
     "name": "Nyanja",
     "iso639_1": "ny",
@@ -2347,12 +2252,13 @@
     "letterCount": 24,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "ny-Latn.json"
+    "file": "nya-Latn.json"
   },
   {
     "language": "nyn",
     "script": "Latn",
     "name": "Nyankole",
+    "iso639_1": "",
     "iso639_3": "nyn",
     "letterCount": 26,
     "hasFrequency": true,
@@ -2360,7 +2266,7 @@
     "file": "nyn-Latn.json"
   },
   {
-    "language": "oc",
+    "language": "oci",
     "script": "Latn",
     "name": "Occitan",
     "iso639_1": "oc",
@@ -2368,21 +2274,10 @@
     "letterCount": 37,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "oc-Latn.json"
+    "file": "oci-Latn.json"
   },
   {
-    "language": "om",
-    "script": "Latn",
-    "name": "Oromo",
-    "iso639_1": "om",
-    "iso639_3": "orm",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "om-Latn.json"
-  },
-  {
-    "language": "or",
+    "language": "ori",
     "script": "Orya",
     "name": "Odia",
     "iso639_1": "or",
@@ -2390,23 +2285,24 @@
     "letterCount": 47,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "or-Orya.json"
+    "file": "ori-Orya.json"
   },
   {
-    "language": "os",
-    "script": "Cyrl",
-    "name": "Ossetic",
-    "iso639_1": "os",
-    "iso639_3": "oss",
-    "letterCount": 34,
+    "language": "orm",
+    "script": "Latn",
+    "name": "Oromo",
+    "iso639_1": "om",
+    "iso639_3": "orm",
+    "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "os-Cyrl.json"
+    "file": "orm-Latn.json"
   },
   {
     "language": "osa",
     "script": "Osge",
     "name": "Osage",
+    "iso639_1": "",
     "iso639_3": "osa",
     "letterCount": 36,
     "hasFrequency": true,
@@ -2414,7 +2310,7 @@
     "file": "osa-Osge.json"
   },
   {
-    "language": "pa",
+    "language": "pan",
     "script": "Guru",
     "name": "Punjabi",
     "iso639_1": "pa",
@@ -2422,12 +2318,13 @@
     "letterCount": 45,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "pa-Guru.json"
+    "file": "pan-Guru.json"
   },
   {
     "language": "pap",
     "script": "Latn",
     "name": "Papiamento",
+    "iso639_1": "",
     "iso639_3": "pap",
     "letterCount": 31,
     "hasFrequency": true,
@@ -2438,6 +2335,7 @@
     "language": "pcm",
     "script": "Latn",
     "name": "Nigerian Pidgin",
+    "iso639_1": "",
     "iso639_3": "pcm",
     "letterCount": 31,
     "hasFrequency": true,
@@ -2448,6 +2346,7 @@
     "language": "pis",
     "script": "Latn",
     "name": "Pijin",
+    "iso639_1": "",
     "iso639_3": "pis",
     "letterCount": 22,
     "hasFrequency": true,
@@ -2455,7 +2354,7 @@
     "file": "pis-Latn.json"
   },
   {
-    "language": "pl",
+    "language": "pol",
     "script": "Latn",
     "name": "Polish",
     "iso639_1": "pl",
@@ -2463,31 +2362,10 @@
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "pl-Latn.json"
+    "file": "pol-Latn.json"
   },
   {
-    "language": "prg",
-    "script": "Latn",
-    "name": "Prussian",
-    "iso639_3": "prg",
-    "letterCount": 39,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "prg-Latn.json"
-  },
-  {
-    "language": "ps",
-    "script": "Arab",
-    "name": "Pashto",
-    "iso639_1": "ps",
-    "iso639_3": "pus",
-    "letterCount": 50,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ps-Arab.json"
-  },
-  {
-    "language": "pt",
+    "language": "por",
     "script": "Latn",
     "name": "Portuguese",
     "iso639_1": "pt",
@@ -2495,23 +2373,35 @@
     "letterCount": 39,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "pt-Latn.json"
+    "file": "por-Latn.json"
   },
   {
-    "language": "qu",
+    "language": "prg",
     "script": "Latn",
-    "name": "Quechua",
-    "iso639_1": "qu",
-    "iso639_3": "que",
-    "letterCount": 17,
+    "name": "Prussian",
+    "iso639_1": "",
+    "iso639_3": "prg",
+    "letterCount": 39,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "qu-Latn.json"
+    "file": "prg-Latn.json"
+  },
+  {
+    "language": "pus",
+    "script": "Arab",
+    "name": "Pashto",
+    "iso639_1": "ps",
+    "iso639_3": "pus",
+    "letterCount": 50,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "pus-Arab.json"
   },
   {
     "language": "quc",
     "script": "Latn",
     "name": "Kʼicheʼ",
+    "iso639_1": "",
     "iso639_3": "quc",
     "letterCount": 25,
     "hasFrequency": true,
@@ -2519,9 +2409,21 @@
     "file": "quc-Latn.json"
   },
   {
+    "language": "que",
+    "script": "Latn",
+    "name": "Quechua",
+    "iso639_1": "qu",
+    "iso639_3": "que",
+    "letterCount": 17,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "que-Latn.json"
+  },
+  {
     "language": "raj",
     "script": "Deva",
     "name": "Rajasthani",
+    "iso639_1": "",
     "iso639_3": "raj",
     "letterCount": 34,
     "hasFrequency": true,
@@ -2529,19 +2431,10 @@
     "file": "raj-Deva.json"
   },
   {
-    "language": "rej",
-    "script": "Latn",
-    "name": "Rejang",
-    "iso639_3": "rej",
-    "letterCount": 37,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "rej-Latn.json"
-  },
-  {
     "language": "rhg",
     "script": "Rohg",
     "name": "Rohingya",
+    "iso639_1": "",
     "iso639_3": "rhg",
     "letterCount": 35,
     "hasFrequency": true,
@@ -2549,7 +2442,7 @@
     "file": "rhg-Rohg.json"
   },
   {
-    "language": "rm",
+    "language": "roh",
     "script": "Latn",
     "name": "Romansh",
     "iso639_1": "rm",
@@ -2557,21 +2450,10 @@
     "letterCount": 32,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "rm-Latn.json"
+    "file": "roh-Latn.json"
   },
   {
-    "language": "rn",
-    "script": "Latn",
-    "name": "Rundi",
-    "iso639_1": "rn",
-    "iso639_3": "run",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "rn-Latn.json"
-  },
-  {
-    "language": "ro",
+    "language": "ron",
     "script": "Latn",
     "name": "Romanian",
     "iso639_1": "ro",
@@ -2579,10 +2461,21 @@
     "letterCount": 31,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ro-Latn.json"
+    "file": "ron-Latn.json"
   },
   {
-    "language": "ru",
+    "language": "run",
+    "script": "Latn",
+    "name": "Rundi",
+    "iso639_1": "rn",
+    "iso639_3": "run",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "run-Latn.json"
+  },
+  {
+    "language": "rus",
     "script": "Cyrl",
     "name": "Russian",
     "iso639_1": "ru",
@@ -2590,34 +2483,13 @@
     "letterCount": 33,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ru-Cyrl.json"
-  },
-  {
-    "language": "ruc",
-    "script": "Latn",
-    "name": "Ruuli",
-    "iso639_1": null,
-    "iso639_3": "ruc",
-    "letterCount": 24,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ruc-Latn.json"
-  },
-  {
-    "language": "rw",
-    "script": "Latn",
-    "name": "Kinyarwanda",
-    "iso639_1": "rw",
-    "iso639_3": "kin",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "rw-Latn.json"
+    "file": "rus-Cyrl.json"
   },
   {
     "language": "rwk",
     "script": "Latn",
     "name": "Rwa",
+    "iso639_1": "",
     "iso639_3": "rwk",
     "letterCount": 24,
     "hasFrequency": true,
@@ -2625,20 +2497,21 @@
     "file": "rwk-Latn.json"
   },
   {
-    "language": "sa",
-    "script": "Deva",
-    "name": "Sanskrit",
-    "iso639_1": "sa",
-    "iso639_3": "san",
-    "letterCount": 50,
+    "language": "sag",
+    "script": "Latn",
+    "name": "Sango",
+    "iso639_1": "sg",
+    "iso639_3": "sag",
+    "letterCount": 34,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "sa-Deva.json"
+    "file": "sag-Latn.json"
   },
   {
     "language": "sah",
     "script": "Cyrl",
     "name": "Yakut",
+    "iso639_1": "",
     "iso639_3": "sah",
     "letterCount": 26,
     "hasFrequency": true,
@@ -2646,19 +2519,21 @@
     "file": "sah-Cyrl.json"
   },
   {
-    "language": "sam",
-    "script": "Latn",
-    "name": "Samaritan Aramaic",
-    "iso639_3": "sam",
-    "letterCount": 61,
+    "language": "san",
+    "script": "Deva",
+    "name": "Sanskrit",
+    "iso639_1": "sa",
+    "iso639_3": "san",
+    "letterCount": 50,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "sam-Latn.json"
+    "file": "san-Deva.json"
   },
   {
     "language": "saq",
     "script": "Latn",
     "name": "Samburu",
+    "iso639_1": "",
     "iso639_3": "saq",
     "letterCount": 22,
     "hasFrequency": true,
@@ -2669,6 +2544,7 @@
     "language": "sat",
     "script": "Deva",
     "name": "Santali",
+    "iso639_1": "",
     "iso639_3": "sat",
     "letterCount": 26,
     "hasFrequency": true,
@@ -2679,6 +2555,7 @@
     "language": "sat",
     "script": "Olck",
     "name": "Santali",
+    "iso639_1": "",
     "iso639_3": "sat",
     "letterCount": 36,
     "hasFrequency": true,
@@ -2686,19 +2563,10 @@
     "file": "sat-Olck.json"
   },
   {
-    "language": "saz",
-    "script": "Saur",
-    "name": "Saurashtra",
-    "iso639_3": "saz",
-    "letterCount": 51,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "saz-Saur.json"
-  },
-  {
     "language": "sbp",
     "script": "Latn",
     "name": "Sangu",
+    "iso639_1": "",
     "iso639_3": "sbp",
     "letterCount": 22,
     "hasFrequency": true,
@@ -2706,20 +2574,10 @@
     "file": "sbp-Latn.json"
   },
   {
-    "language": "sc",
-    "script": "Latn",
-    "name": "Sardinian",
-    "iso639_1": "sc",
-    "iso639_3": "srd",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "sc-Latn.json"
-  },
-  {
     "language": "scn",
     "script": "Latn",
     "name": "Sicilian",
+    "iso639_1": "",
     "iso639_3": "scn",
     "letterCount": 33,
     "hasFrequency": true,
@@ -2727,20 +2585,10 @@
     "file": "scn-Latn.json"
   },
   {
-    "language": "sd",
-    "script": "Arab",
-    "name": "Sindhi",
-    "iso639_1": "sd",
-    "iso639_3": "snd",
-    "letterCount": 52,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sd-Arab.json"
-  },
-  {
     "language": "sdh",
     "script": "Arab",
     "name": "Southern Kurdish",
+    "iso639_1": "",
     "iso639_3": "sdh",
     "letterCount": 34,
     "hasFrequency": true,
@@ -2748,20 +2596,10 @@
     "file": "sdh-Arab.json"
   },
   {
-    "language": "se",
-    "script": "Latn",
-    "name": "Northern Sami",
-    "iso639_1": "se",
-    "iso639_3": "sme",
-    "letterCount": 29,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "se-Latn.json"
-  },
-  {
     "language": "seh",
     "script": "Latn",
     "name": "Sena",
+    "iso639_1": "",
     "iso639_3": "seh",
     "letterCount": 39,
     "hasFrequency": true,
@@ -2772,6 +2610,7 @@
     "language": "ses",
     "script": "Latn",
     "name": "Koyraboro Senni",
+    "iso639_1": "",
     "iso639_3": "ses",
     "letterCount": 32,
     "hasFrequency": true,
@@ -2779,31 +2618,10 @@
     "file": "ses-Latn.json"
   },
   {
-    "language": "sg",
-    "script": "Latn",
-    "name": "Sango",
-    "iso639_1": "sg",
-    "iso639_3": "sag",
-    "letterCount": 34,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "sg-Latn.json"
-  },
-  {
-    "language": "sh",
-    "script": "Latn",
-    "name": "Serbian",
-    "iso639_1": "sr",
-    "iso639_3": "srp",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sh-Latn.json"
-  },
-  {
     "language": "shi",
     "script": "Latn",
     "name": "Tachelhit",
+    "iso639_1": "",
     "iso639_3": "shi",
     "letterCount": 31,
     "hasFrequency": true,
@@ -2811,7 +2629,7 @@
     "file": "shi-Latn.json"
   },
   {
-    "language": "si",
+    "language": "sin",
     "script": "Sinh",
     "name": "Sinhala",
     "iso639_1": "si",
@@ -2819,10 +2637,10 @@
     "letterCount": 55,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "si-Sinh.json"
+    "file": "sin-Sinh.json"
   },
   {
-    "language": "sk",
+    "language": "slk",
     "script": "Latn",
     "name": "Slovak",
     "iso639_1": "sk",
@@ -2830,10 +2648,10 @@
     "letterCount": 43,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "sk-Latn.json"
+    "file": "slk-Latn.json"
   },
   {
-    "language": "sl",
+    "language": "slv",
     "script": "Latn",
     "name": "Slovenian",
     "iso639_1": "sl",
@@ -2841,12 +2659,13 @@
     "letterCount": 25,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "sl-Latn.json"
+    "file": "slv-Latn.json"
   },
   {
     "language": "sma",
     "script": "Latn",
     "name": "Southern Sami",
+    "iso639_1": "",
     "iso639_3": "sma",
     "letterCount": 24,
     "hasFrequency": true,
@@ -2854,9 +2673,21 @@
     "file": "sma-Latn.json"
   },
   {
+    "language": "sme",
+    "script": "Latn",
+    "name": "Northern Sami",
+    "iso639_1": "se",
+    "iso639_3": "sme",
+    "letterCount": 29,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "sme-Latn.json"
+  },
+  {
     "language": "smj",
     "script": "Latn",
     "name": "Lule Sami",
+    "iso639_1": "",
     "iso639_3": "smj",
     "letterCount": 24,
     "hasFrequency": true,
@@ -2867,6 +2698,7 @@
     "language": "smn",
     "script": "Latn",
     "name": "Inari Sami",
+    "iso639_1": "",
     "iso639_3": "smn",
     "letterCount": 31,
     "hasFrequency": true,
@@ -2877,6 +2709,7 @@
     "language": "sms",
     "script": "Latn",
     "name": "Skolt Sami",
+    "iso639_1": "",
     "iso639_3": "sms",
     "letterCount": 36,
     "hasFrequency": true,
@@ -2884,18 +2717,29 @@
     "file": "sms-Latn.json"
   },
   {
-    "language": "sn",
+    "language": "sna",
     "script": "Latn",
     "name": "Shona",
     "iso639_1": "sn",
     "iso639_3": "sna",
     "letterCount": 24,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sn-Latn.json"
+    "hasWordFrequency": false,
+    "file": "sna-Latn.json"
   },
   {
-    "language": "so",
+    "language": "snd",
+    "script": "Arab",
+    "name": "snd",
+    "iso639_1": "sd",
+    "iso639_3": "snd",
+    "letterCount": 52,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "snd-Arab.json"
+  },
+  {
+    "language": "som",
     "script": "Latn",
     "name": "Somali",
     "iso639_1": "so",
@@ -2903,64 +2747,10 @@
     "letterCount": 18,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "so-Latn.json"
+    "file": "som-Latn.json"
   },
   {
-    "language": "sq",
-    "script": "Latn",
-    "name": "Albanian",
-    "iso639_1": "sq",
-    "iso639_3": "sqi",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sq-Latn.json"
-  },
-  {
-    "language": "sr",
-    "script": "Cyrl",
-    "name": "Serbian",
-    "iso639_1": "sr",
-    "iso639_3": "srp",
-    "letterCount": 30,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sr-Cyrl.json"
-  },
-  {
-    "language": "sr",
-    "script": "Latn",
-    "name": "Serbian",
-    "iso639_1": "sr",
-    "iso639_3": "srp",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sr-Latn.json"
-  },
-  {
-    "language": "ss",
-    "script": "Latn",
-    "name": "Swati",
-    "iso639_1": "ss",
-    "iso639_3": "ssw",
-    "letterCount": 26,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ss-Latn.json"
-  },
-  {
-    "language": "ssy",
-    "script": "Latn",
-    "name": "Saho",
-    "iso639_3": "ssy",
-    "letterCount": 22,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "ssy-Latn.json"
-  },
-  {
-    "language": "st",
+    "language": "sot",
     "script": "Latn",
     "name": "Southern Sotho",
     "iso639_1": "st",
@@ -2968,10 +2758,87 @@
     "letterCount": 22,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "st-Latn.json"
+    "file": "sot-Latn.json"
   },
   {
-    "language": "su",
+    "language": "spa",
+    "script": "Latn",
+    "name": "Spanish",
+    "iso639_1": "es",
+    "iso639_3": "spa",
+    "letterCount": 33,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "spa-Latn.json"
+  },
+  {
+    "language": "sqi",
+    "script": "Latn",
+    "name": "Albanian",
+    "iso639_1": "sq",
+    "iso639_3": "sqi",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "sqi-Latn.json"
+  },
+  {
+    "language": "srd",
+    "script": "Latn",
+    "name": "Sardinian",
+    "iso639_1": "sc",
+    "iso639_3": "srd",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "srd-Latn.json"
+  },
+  {
+    "language": "srp",
+    "script": "Cyrl",
+    "name": "srp",
+    "iso639_1": "sr",
+    "iso639_3": "srp",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "srp-Cyrl.json"
+  },
+  {
+    "language": "srp",
+    "script": "Latn",
+    "name": "srp",
+    "iso639_1": "sr",
+    "iso639_3": "srp",
+    "letterCount": 27,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "srp-Latn.json"
+  },
+  {
+    "language": "ssw",
+    "script": "Latn",
+    "name": "Swati",
+    "iso639_1": "ss",
+    "iso639_3": "ssw",
+    "letterCount": 26,
+    "hasFrequency": true,
+    "hasWordFrequency": true,
+    "file": "ssw-Latn.json"
+  },
+  {
+    "language": "ssy",
+    "script": "Latn",
+    "name": "Saho",
+    "iso639_1": "",
+    "iso639_3": "ssy",
+    "letterCount": 22,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ssy-Latn.json"
+  },
+  {
+    "language": "sun",
     "script": "Latn",
     "name": "Sundanese",
     "iso639_1": "su",
@@ -2979,10 +2846,21 @@
     "letterCount": 27,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "su-Latn.json"
+    "file": "sun-Latn.json"
   },
   {
-    "language": "sv",
+    "language": "swa",
+    "script": "Latn",
+    "name": "Swahili",
+    "iso639_1": "sw",
+    "iso639_3": "swa",
+    "letterCount": 24,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "swa-Latn.json"
+  },
+  {
+    "language": "swe",
     "script": "Latn",
     "name": "Swedish",
     "iso639_1": "sv",
@@ -2990,33 +2868,13 @@
     "letterCount": 31,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "sv-Latn.json"
-  },
-  {
-    "language": "sw",
-    "script": "Latn",
-    "name": "Swahili",
-    "iso639_1": "sw",
-    "iso639_3": "swa",
-    "letterCount": 24,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "sw-Latn.json"
-  },
-  {
-    "language": "syr",
-    "script": "Syrc",
-    "name": "Syriac",
-    "iso639_3": "syr",
-    "letterCount": 22,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "syr-Syrc.json"
+    "file": "swe-Latn.json"
   },
   {
     "language": "szl",
     "script": "Latn",
     "name": "Silesian",
+    "iso639_1": "",
     "iso639_3": "szl",
     "letterCount": 34,
     "hasFrequency": true,
@@ -3024,7 +2882,7 @@
     "file": "szl-Latn.json"
   },
   {
-    "language": "ta",
+    "language": "tam",
     "script": "Taml",
     "name": "Tamil",
     "iso639_1": "ta",
@@ -3032,20 +2890,21 @@
     "letterCount": 35,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ta-Taml.json"
+    "file": "tam-Taml.json"
   },
   {
-    "language": "tbw",
-    "script": "Latn",
-    "name": "Tagbanwa",
-    "iso639_3": "tbw",
-    "letterCount": 18,
+    "language": "tat",
+    "script": "Cyrl",
+    "name": "Tatar",
+    "iso639_1": "tt",
+    "iso639_3": "tat",
+    "letterCount": 39,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "tbw-Latn.json"
+    "file": "tat-Cyrl.json"
   },
   {
-    "language": "te",
+    "language": "tel",
     "script": "Telu",
     "name": "Telugu",
     "iso639_1": "te",
@@ -3053,12 +2912,13 @@
     "letterCount": 51,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "te-Telu.json"
+    "file": "tel-Telu.json"
   },
   {
     "language": "teo",
     "script": "Latn",
     "name": "Teso",
+    "iso639_1": "",
     "iso639_3": "teo",
     "letterCount": 23,
     "hasFrequency": true,
@@ -3066,18 +2926,29 @@
     "file": "teo-Latn.json"
   },
   {
-    "language": "tg",
+    "language": "tgk",
     "script": "Cyrl",
     "name": "Tajik",
     "iso639_1": "tg",
     "iso639_3": "tgk",
     "letterCount": 35,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "tg-Cyrl.json"
+    "hasWordFrequency": false,
+    "file": "tgk-Cyrl.json"
   },
   {
-    "language": "th",
+    "language": "tgl",
+    "script": "Latn",
+    "name": "tgl",
+    "iso639_1": "tl",
+    "iso639_3": "tgl",
+    "letterCount": 20,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "tgl-Latn.json"
+  },
+  {
+    "language": "tha",
     "script": "Thai",
     "name": "Thai",
     "iso639_1": "th",
@@ -3085,23 +2956,13 @@
     "letterCount": 57,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "th-Thai.json"
-  },
-  {
-    "language": "ti",
-    "script": "Ethi",
-    "name": "Tigrinya",
-    "iso639_1": "ti",
-    "iso639_3": "tir",
-    "letterCount": 300,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ti-Ethi.json"
+    "file": "tha-Thai.json"
   },
   {
     "language": "tig",
     "script": "Ethi",
     "name": "Tigre",
+    "iso639_1": "",
     "iso639_3": "tig",
     "letterCount": 421,
     "hasFrequency": true,
@@ -3109,63 +2970,21 @@
     "file": "tig-Ethi.json"
   },
   {
-    "language": "tk",
-    "script": "Latn",
-    "name": "Turkmen",
-    "iso639_1": "tk",
-    "iso639_3": "tuk",
-    "letterCount": 30,
+    "language": "tir",
+    "script": "Ethi",
+    "name": "Tigrinya",
+    "iso639_1": "ti",
+    "iso639_3": "tir",
+    "letterCount": 300,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "tk-Latn.json"
-  },
-  {
-    "language": "tl",
-    "script": "Latn",
-    "name": "Filipino",
-    "iso639_3": "fil",
-    "letterCount": 20,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "tl-Latn.json"
-  },
-  {
-    "language": "tn",
-    "script": "Latn",
-    "name": "Tswana",
-    "iso639_1": "tn",
-    "iso639_3": "tsn",
-    "letterCount": 23,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "tn-Latn.json"
-  },
-  {
-    "language": "to",
-    "script": "Latn",
-    "name": "Tongan",
-    "iso639_1": "to",
-    "iso639_3": "ton",
-    "letterCount": 27,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "to-Latn.json"
-  },
-  {
-    "language": "tob",
-    "script": "Latn",
-    "name": "Toba",
-    "iso639_1": null,
-    "iso639_3": "tob",
-    "letterCount": 32,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "tob-Latn.json"
+    "file": "tir-Ethi.json"
   },
   {
     "language": "tok",
     "script": "Latn",
     "name": "Toki Pona",
+    "iso639_1": "",
     "iso639_3": "tok",
     "letterCount": 14,
     "hasFrequency": true,
@@ -3173,20 +2992,21 @@
     "file": "tok-Latn.json"
   },
   {
-    "language": "top",
+    "language": "ton",
     "script": "Latn",
-    "name": "Papantla Totonac",
-    "iso639_1": null,
-    "iso639_3": "top",
-    "letterCount": 32,
+    "name": "Tongan",
+    "iso639_1": "to",
+    "iso639_3": "ton",
+    "letterCount": 27,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "top-Latn.json"
+    "hasWordFrequency": false,
+    "file": "ton-Latn.json"
   },
   {
     "language": "tpi",
     "script": "Latn",
     "name": "Tok Pisin",
+    "iso639_1": "",
     "iso639_3": "tpi",
     "letterCount": 21,
     "hasFrequency": true,
@@ -3194,18 +3014,18 @@
     "file": "tpi-Latn.json"
   },
   {
-    "language": "tr",
+    "language": "tsn",
     "script": "Latn",
-    "name": "Turkish",
-    "iso639_1": "tr",
-    "iso639_3": "tur",
-    "letterCount": 30,
+    "name": "Tswana",
+    "iso639_1": "tn",
+    "iso639_3": "tsn",
+    "letterCount": 23,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "tr-Latn.json"
+    "file": "tsn-Latn.json"
   },
   {
-    "language": "ts",
+    "language": "tso",
     "script": "Latn",
     "name": "Tsonga",
     "iso639_1": "ts",
@@ -3213,34 +3033,35 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "ts-Latn.json"
+    "file": "tso-Latn.json"
   },
   {
-    "language": "tt",
-    "script": "Cyrl",
-    "name": "Tatar",
-    "iso639_1": "tt",
-    "iso639_3": "tat",
-    "letterCount": 39,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "tt-Cyrl.json"
-  },
-  {
-    "language": "ttj",
+    "language": "tuk",
     "script": "Latn",
-    "name": "Tooro",
-    "iso639_1": null,
-    "iso639_3": "ttj",
-    "letterCount": 25,
+    "name": "Turkmen",
+    "iso639_1": "tk",
+    "iso639_3": "tuk",
+    "letterCount": 30,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ttj-Latn.json"
+    "hasWordFrequency": false,
+    "file": "tuk-Latn.json"
+  },
+  {
+    "language": "tur",
+    "script": "Latn",
+    "name": "tur",
+    "iso639_1": "tr",
+    "iso639_3": "tur",
+    "letterCount": 30,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "tur-Latn.json"
   },
   {
     "language": "twq",
     "script": "Latn",
     "name": "Tasawaq",
+    "iso639_1": "",
     "iso639_3": "twq",
     "letterCount": 32,
     "hasFrequency": true,
@@ -3251,6 +3072,7 @@
     "language": "tyv",
     "script": "Cyrl",
     "name": "Tuvinian",
+    "iso639_1": "",
     "iso639_3": "tyv",
     "letterCount": 36,
     "hasFrequency": true,
@@ -3261,6 +3083,7 @@
     "language": "tzm",
     "script": "Latn",
     "name": "Central Atlas Tamazight",
+    "iso639_1": "",
     "iso639_3": "tzm",
     "letterCount": 31,
     "hasFrequency": true,
@@ -3268,18 +3091,18 @@
     "file": "tzm-Latn.json"
   },
   {
-    "language": "ug",
+    "language": "uig",
     "script": "Arab",
     "name": "Uyghur",
     "iso639_1": "ug",
     "iso639_3": "uig",
     "letterCount": 34,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ug-Arab.json"
+    "hasWordFrequency": false,
+    "file": "uig-Arab.json"
   },
   {
-    "language": "uk",
+    "language": "ukr",
     "script": "Cyrl",
     "name": "Ukrainian",
     "iso639_1": "uk",
@@ -3287,56 +3110,46 @@
     "letterCount": 34,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "uk-Cyrl.json"
+    "file": "ukr-Cyrl.json"
   },
   {
-    "language": "ukv",
-    "script": "Latn",
-    "name": "Kuku",
-    "iso639_1": null,
-    "iso639_3": "ukv",
-    "letterCount": 23,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ukv-Latn.json"
-  },
-  {
-    "language": "ur",
+    "language": "urd",
     "script": "Arab",
-    "name": "Urdu",
+    "name": "urd",
     "iso639_1": "ur",
     "iso639_3": "urd",
     "letterCount": 38,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ur-Arab.json"
+    "hasWordFrequency": false,
+    "file": "urd-Arab.json"
   },
   {
-    "language": "uz",
+    "language": "uzb",
     "script": "Cyrl",
     "name": "Uzbek",
     "iso639_1": "uz",
     "iso639_3": "uzb",
     "letterCount": 33,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "uz-Cyrl.json"
+    "hasWordFrequency": false,
+    "file": "uzb-Cyrl.json"
   },
   {
-    "language": "uz",
+    "language": "uzb",
     "script": "Latn",
     "name": "Uzbek",
     "iso639_1": "uz",
     "iso639_3": "uzb",
     "letterCount": 27,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "uz-Latn.json"
+    "hasWordFrequency": false,
+    "file": "uzb-Latn.json"
   },
   {
     "language": "vai",
     "script": "Vaii",
     "name": "Vai",
+    "iso639_1": "",
     "iso639_3": "vai",
     "letterCount": 274,
     "hasFrequency": true,
@@ -3344,20 +3157,10 @@
     "file": "vai-Vaii.json"
   },
   {
-    "language": "ve",
-    "script": "Latn",
-    "name": "Venda",
-    "iso639_1": "ve",
-    "iso639_3": "ven",
-    "letterCount": 28,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "ve-Latn.json"
-  },
-  {
     "language": "vec",
     "script": "Latn",
     "name": "Venetian",
+    "iso639_1": "",
     "iso639_3": "vec",
     "letterCount": 29,
     "hasFrequency": true,
@@ -3365,20 +3168,32 @@
     "file": "vec-Latn.json"
   },
   {
-    "language": "vi",
+    "language": "ven",
+    "script": "Latn",
+    "name": "Venda",
+    "iso639_1": "ve",
+    "iso639_3": "ven",
+    "letterCount": 28,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "ven-Latn.json"
+  },
+  {
+    "language": "vie",
     "script": "Latn",
     "name": "Vietnamese",
     "iso639_1": "vi",
     "iso639_3": "vie",
-    "letterCount": 29,
+    "letterCount": 89,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "vi-Latn.json"
+    "file": "vie-Latn.json"
   },
   {
     "language": "vmw",
     "script": "Latn",
     "name": "Makhuwa",
+    "iso639_1": "",
     "iso639_3": "vmw",
     "letterCount": 22,
     "hasFrequency": true,
@@ -3386,7 +3201,7 @@
     "file": "vmw-Latn.json"
   },
   {
-    "language": "vo",
+    "language": "vol",
     "script": "Latn",
     "name": "Volapük",
     "iso639_1": "vo",
@@ -3394,12 +3209,13 @@
     "letterCount": 27,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "vo-Latn.json"
+    "file": "vol-Latn.json"
   },
   {
     "language": "vun",
     "script": "Latn",
     "name": "Vunjo",
+    "iso639_1": "",
     "iso639_3": "vun",
     "letterCount": 24,
     "hasFrequency": true,
@@ -3407,20 +3223,10 @@
     "file": "vun-Latn.json"
   },
   {
-    "language": "wa",
-    "script": "Latn",
-    "name": "Walloon",
-    "iso639_1": "wa",
-    "iso639_3": "wln",
-    "letterCount": 43,
-    "hasFrequency": true,
-    "hasWordFrequency": false,
-    "file": "wa-Latn.json"
-  },
-  {
     "language": "wae",
     "script": "Latn",
     "name": "Walser",
+    "iso639_1": "",
     "iso639_3": "wae",
     "letterCount": 39,
     "hasFrequency": true,
@@ -3431,6 +3237,7 @@
     "language": "wbp",
     "script": "Latn",
     "name": "Warlpiri",
+    "iso639_1": "",
     "iso639_3": "wbp",
     "letterCount": 15,
     "hasFrequency": true,
@@ -3438,18 +3245,29 @@
     "file": "wbp-Latn.json"
   },
   {
-    "language": "wo",
+    "language": "wln",
+    "script": "Latn",
+    "name": "Walloon",
+    "iso639_1": "wa",
+    "iso639_3": "wln",
+    "letterCount": 43,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "wln-Latn.json"
+  },
+  {
+    "language": "wol",
     "script": "Latn",
     "name": "Wolof",
     "iso639_1": "wo",
     "iso639_3": "wol",
     "letterCount": 29,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "wo-Latn.json"
+    "hasWordFrequency": false,
+    "file": "wol-Latn.json"
   },
   {
-    "language": "xh",
+    "language": "xho",
     "script": "Latn",
     "name": "Xhosa",
     "iso639_1": "xh",
@@ -3457,23 +3275,13 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "xh-Latn.json"
-  },
-  {
-    "language": "xkl",
-    "script": "Latn",
-    "name": "Mainstream Kenyah",
-    "iso639_1": null,
-    "iso639_3": "xkl",
-    "letterCount": 25,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "xkl-Latn.json"
+    "file": "xho-Latn.json"
   },
   {
     "language": "xnr",
     "script": "Deva",
     "name": "Kangri",
+    "iso639_1": "",
     "iso639_3": "xnr",
     "letterCount": 50,
     "hasFrequency": true,
@@ -3484,6 +3292,7 @@
     "language": "xog",
     "script": "Latn",
     "name": "Soga",
+    "iso639_1": "",
     "iso639_3": "xog",
     "letterCount": 26,
     "hasFrequency": true,
@@ -3494,6 +3303,7 @@
     "language": "yav",
     "script": "Latn",
     "name": "Yangben",
+    "iso639_1": "",
     "iso639_3": "yav",
     "letterCount": 45,
     "hasFrequency": true,
@@ -3501,7 +3311,7 @@
     "file": "yav-Latn.json"
   },
   {
-    "language": "yi",
+    "language": "yid",
     "script": "Hebr",
     "name": "Yiddish",
     "iso639_1": "yi",
@@ -3509,10 +3319,10 @@
     "letterCount": 28,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "yi-Hebr.json"
+    "file": "yid-Hebr.json"
   },
   {
-    "language": "yo",
+    "language": "yor",
     "script": "Latn",
     "name": "Yoruba",
     "iso639_1": "yo",
@@ -3520,12 +3330,13 @@
     "letterCount": 37,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "yo-Latn.json"
+    "file": "yor-Latn.json"
   },
   {
     "language": "yrl",
     "script": "Latn",
     "name": "Nheengatu",
+    "iso639_1": "",
     "iso639_3": "yrl",
     "letterCount": 21,
     "hasFrequency": true,
@@ -3533,18 +3344,18 @@
     "file": "yrl-Latn.json"
   },
   {
-    "language": "za",
+    "language": "zha",
     "script": "Latn",
     "name": "Zhuang",
     "iso639_1": "za",
     "iso639_3": "zha",
     "letterCount": 26,
     "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "za-Latn.json"
+    "hasWordFrequency": false,
+    "file": "zha-Latn.json"
   },
   {
-    "language": "zh",
+    "language": "zho",
     "script": "Hans",
     "name": "Chinese",
     "iso639_1": "zh",
@@ -3552,10 +3363,10 @@
     "letterCount": 2210,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "zh-Hans.json"
+    "file": "zho-Hans.json"
   },
   {
-    "language": "zh",
+    "language": "zho",
     "script": "Hant",
     "name": "Chinese",
     "iso639_1": "zh",
@@ -3563,40 +3374,32 @@
     "letterCount": 2179,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "zh-Hant.json"
+    "file": "zho-Hant.json"
   },
   {
-    "language": "zh",
+    "language": "zho",
     "script": "min-nan-Hans",
-    "name": "Min Nan Chinese",
-    "iso639_3": "nan",
+    "name": "zho",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
     "letterCount": 2210,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "zh-min-nan-Hans.json"
-  },
-  {
-    "language": "zh",
-    "script": "yue-Hant",
-    "name": "Cantonese",
-    "iso639_3": "yue",
-    "letterCount": 2210,
-    "hasFrequency": true,
-    "hasWordFrequency": true,
-    "file": "zh-yue-Hant.json"
-  },
-  {
-    "language": "zra",
-    "script": "Latn",
-    "name": "Kara (Korea)",
-    "iso639_3": "zra",
-    "letterCount": 48,
     "hasFrequency": true,
     "hasWordFrequency": false,
-    "file": "zra-Latn.json"
+    "file": "zho-min-nan-Hans.json"
   },
   {
-    "language": "zu",
+    "language": "zho",
+    "script": "yue-Hant",
+    "name": "zho",
+    "iso639_1": "zh",
+    "iso639_3": "zho",
+    "letterCount": 2210,
+    "hasFrequency": true,
+    "hasWordFrequency": false,
+    "file": "zho-yue-Hant.json"
+  },
+  {
+    "language": "zul",
     "script": "Latn",
     "name": "Zulu",
     "iso639_1": "zu",
@@ -3604,6 +3407,6 @@
     "letterCount": 26,
     "hasFrequency": true,
     "hasWordFrequency": true,
-    "file": "zu-Latn.json"
+    "file": "zul-Latn.json"
   }
 ]

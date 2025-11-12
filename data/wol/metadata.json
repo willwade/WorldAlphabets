@@ -1,0 +1,28 @@
+{
+  "language": "wol",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "wol/alphabet/wol-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:18:24.604936Z"
+    },
+    "frequency_top1000": {
+      "file": "wol/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Wolof",
+  "iso639_1": "wo",
+  "iso639_3": "wol",
+  "missing_scripts": [
+    {
+      "script": "Gara",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:18:24.867473Z"
+    }
+  ]
+}

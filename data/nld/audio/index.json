@@ -1,0 +1,57 @@
+[
+  {
+    "engine": "polly",
+    "voice_id": "lisa",
+    "path": "data/nl/audio/nl-Latn_polly_lisa.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "nl",
+    "path": "data/nl/audio/nl-Latn_microsoft_nl_nl_maartenneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "nl",
+    "path": "data/nl/audio/nl-Latn_microsoft_nl_be_denaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "nl",
+    "path": "data/nl/audio/nl-Latn_microsoft_nl_be_arnaudneural.wav"
+  },
+  {
+    "engine": "polly",
+    "voice_id": "laura",
+    "path": "data/nl/audio/nl-Latn_polly_laura.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "gmw",
+    "path": "data/nl/audio/nl-Latn_espeak_gmw_nl.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/nl/audio/nl-Latn_espeak_mb_mb_nl3.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/nl/audio/nl-Latn_espeak_mb_mb_nl1.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "nl",
+    "path": "data/nl/audio/nl-Latn_microsoft_nl_nl_coletteneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/nl/audio/nl-Latn_sherpaonnx_mms_nld.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "nl",
+    "path": "data/nl/audio/nl-Latn_microsoft_nl_nl_fennaneural.wav"
+  }
+]

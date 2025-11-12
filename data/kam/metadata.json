@@ -1,0 +1,25 @@
+{
+  "language": "kam",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "kam/alphabet/kam-Latn.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:12:32.409002Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "kam/alphabet/kam-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "kam/frequency/top1000.txt",
+      "token_count": 33,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:22.219581Z"
+    }
+  },
+  "language_name": "Kamba (Kenya)",
+  "iso639_3": "kam"
+}

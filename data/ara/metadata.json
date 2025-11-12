@@ -1,0 +1,33 @@
+{
+  "language": "ara",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "ara/alphabet/ara-Arab.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:08:35.593462Z"
+    },
+    "alphabet_Arab": {
+      "script": "Arab",
+      "file": "ara/alphabet/ara-Arab.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ara/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:20:56.200876Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "google_translate (cache)",
+      "target": "ar",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.667510Z"
+    }
+  },
+  "language_name": "Arabic",
+  "iso639_1": "ar",
+  "iso639_3": "ara"
+}

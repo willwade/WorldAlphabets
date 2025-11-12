@@ -1,0 +1,25 @@
+{
+  "language": "prg",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "prg/alphabet/prg-Latn.json",
+      "letter_count": 39,
+      "updated": "2025-11-12T09:15:53.393361Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "prg/alphabet/prg-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "prg/frequency/top1000.txt",
+      "token_count": 42,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:33:21.129792Z"
+    }
+  },
+  "language_name": "Prussian",
+  "iso639_3": "prg"
+}

@@ -1,0 +1,28 @@
+{
+  "language": "slk",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "slk/alphabet/slk-Latn.json",
+      "letter_count": 43,
+      "updated": "2025-11-12T09:16:44.258106Z"
+    },
+    "frequency_top1000": {
+      "file": "slk/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:35:12.818015Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "sk",
+      "cached": false,
+      "updated": "2025-11-12T10:37:50.927119Z"
+    }
+  },
+  "language_name": "Slovak",
+  "iso639_1": "sk",
+  "iso639_3": "slk"
+}

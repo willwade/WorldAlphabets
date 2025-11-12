@@ -1,0 +1,33 @@
+{
+  "language": "lin",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lin/alphabet/lin-Latn.json",
+      "letter_count": 38,
+      "updated": "2025-11-12T09:13:36.928322Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lin/alphabet/lin-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ln",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.743587Z"
+    },
+    "frequency_top1000": {
+      "file": "lin/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Lingala",
+  "iso639_1": "ln",
+  "iso639_3": "lin"
+}

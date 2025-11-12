@@ -1,0 +1,20 @@
+{
+  "language": "tig",
+  "sections": {
+    "alphabet": {
+      "script": "Ethi",
+      "file": "tig/alphabet/tig-Ethi.json",
+      "letter_count": 421,
+      "updated": "2025-11-12T09:17:28.533476Z"
+    },
+    "frequency_top1000": {
+      "file": "tig/frequency/top1000.txt",
+      "token_count": 34,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:19.698837Z"
+    }
+  },
+  "language_name": "Tigre",
+  "iso639_3": "tig"
+}

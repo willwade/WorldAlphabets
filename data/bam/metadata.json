@@ -1,0 +1,40 @@
+{
+  "language": "bam",
+  "sections": {
+    "alphabet": {
+      "script": "Nkoo",
+      "file": "bam/alphabet/bam-Nkoo.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:08:51.827799Z"
+    },
+    "alphabet_Nkoo": {
+      "script": "Nkoo",
+      "file": "bam/alphabet/bam-Nkoo.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "bm",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.672967Z"
+    },
+    "translation_Nkoo": {
+      "script": "Nkoo",
+      "source": "google_translate (cache)",
+      "target": "bm",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.674144Z"
+    },
+    "frequency_top1000": {
+      "file": "bam/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Bambara",
+  "iso639_1": "bm",
+  "iso639_3": "bam"
+}

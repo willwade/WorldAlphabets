@@ -1,0 +1,26 @@
+{
+  "language": "bod",
+  "sections": {
+    "alphabet": {
+      "script": "Tibt",
+      "file": "bod/alphabet/bod-Tibt.json",
+      "letter_count": 36,
+      "updated": "2025-11-12T09:09:15.216632Z"
+    },
+    "alphabet_Tibt": {
+      "script": "Tibt",
+      "file": "bod/alphabet/bod-Tibt.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "bod/frequency/top1000.txt",
+      "token_count": 49,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:22:37.512348Z"
+    }
+  },
+  "language_name": "Tibetan",
+  "iso639_1": "bo",
+  "iso639_3": "bod"
+}

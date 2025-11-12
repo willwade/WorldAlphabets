@@ -1,0 +1,27 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "mb",
+    "path": "data/te/audio/te-Telu_espeak_mb_mb_tl1.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "te",
+    "path": "data/te/audio/te-Telu_microsoft_te_in_shrutineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "te",
+    "path": "data/te/audio/te-Telu_microsoft_te_in_mohanneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "dra",
+    "path": "data/te/audio/te-Telu_espeak_dra_te.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/te/audio/te-Telu_sherpaonnx_mms_tel.wav"
+  }
+]

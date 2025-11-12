@@ -1,0 +1,33 @@
+{
+  "language": "lit",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lit/alphabet/lit-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:13:37.858547Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lit/alphabet/lit-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "lit/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:29:38.475480Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "lt",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.744629Z"
+    }
+  },
+  "language_name": "Lithuanian",
+  "iso639_1": "lt",
+  "iso639_3": "lit"
+}

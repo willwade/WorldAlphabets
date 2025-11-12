@@ -1,0 +1,27 @@
+{
+  "language": "aym",
+  "sections": {
+    "frequency_top1000": {
+      "file": "aym/frequency/top1000.txt",
+      "token_count": 20,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:21:13.253483Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.256551Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:48.839578Z"
+    }
+  ],
+  "language_name": "Aymara",
+  "iso639_1": "ay",
+  "iso639_3": "aym"
+}

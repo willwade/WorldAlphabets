@@ -91,7 +91,11 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 **Function**: `build_alphabets()`
 **Purpose**: Generate alphabet files for all language-script pairs
 **Inputs**: Language registry, CLDR, frequency data
-**Outputs**: `data/alphabets/{lang}-{script}.json`
+**Outputs**:
+- `data/<lang>/alphabet/{lang}-{script}.json` (canonical per-language files)
+- `data/alphabets/{lang}-{script}.json` (legacy mirror maintained for tooling)
+- `data/<lang>/SOURCE.txt` entry documenting alphabet provenance
+- `data/<lang>/metadata.json` (alphabet section with script and letter counts)
 
 ### Stage 4: Translation Generation
 **Function**: `build_translations()`
@@ -127,8 +131,11 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 **Coverage**: ~95% (estimated after Leipzig improvements)
 
 **Outputs**:
-- `data/freq/top1000/<lang>.txt` - Top-1000 tokens per language
+- `data/<lang>/frequency/top1000.txt` - Canonical Top-1000 tokens per language
+- `data/freq/top1000/<lang>.txt` - Legacy flat copy (auto-maintained)
 - `data/freq/top1000/BUILD_REPORT_UNIFIED.json` - Build summary with source attribution
+- `data/<lang>/SOURCE.txt` entry that records which of the 5 priority sources won
+- `data/<lang>/metadata.json` (frequency section with token counts and mode)
 
 ### Stage 7: TTS Voice Indexing
 **Function**: `build_tts_index()`
@@ -141,8 +148,10 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 **Purpose**: Generate audio files using TTS engines
 **Inputs**: TTS index, alphabet files
 **Outputs**:
-- `data/audio/*.wav` - Audio files
-- `data/audio/index.json` - Audio file index
+- `data/<lang>/audio/*.wav` plus `data/<lang>/audio/index.json` per language
+- `data/audio/index.json` - Aggregated audio index for consumers
+- `data/<lang>/SOURCE.txt` entry capturing engines/voices
+- `data/<lang>/metadata.json` (audio section with last generated file details)
 
 ### Stage 9: Index Generation
 **Function**: `build_index()`

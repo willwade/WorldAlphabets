@@ -1,0 +1,33 @@
+{
+  "language": "hye",
+  "sections": {
+    "alphabet": {
+      "script": "Armn",
+      "file": "hye/alphabet/hye-Armn.json",
+      "letter_count": 38,
+      "updated": "2025-11-12T09:12:06.599014Z"
+    },
+    "alphabet_Armn": {
+      "script": "Armn",
+      "file": "hye/alphabet/hye-Armn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "hye/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:42.679367Z"
+    },
+    "translation_Armn": {
+      "script": "Armn",
+      "source": "google_translate (cache)",
+      "target": "hy",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.724614Z"
+    }
+  },
+  "language_name": "Armenian",
+  "iso639_1": "hy",
+  "iso639_3": "hye"
+}

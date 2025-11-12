@@ -1,0 +1,40 @@
+{
+  "language": "orm",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "orm/alphabet/orm-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:15:23.849376Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "orm/alphabet/orm-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "om",
+      "cached": false,
+      "updated": "2025-11-12T10:37:48.829973Z"
+    },
+    "frequency_top1000": {
+      "file": "orm/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Oromo",
+  "iso639_1": "om",
+  "iso639_3": "orm",
+  "missing_scripts": [
+    {
+      "script": "Ethi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:15:24.088092Z"
+    }
+  ]
+}

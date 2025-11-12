@@ -6,8 +6,13 @@ import platform
 import re
 from pathlib import Path
 from typing import Any, Optional, Dict, List
+import sys
 
-from tts_wrapper import (
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from tts_wrapper import (  # noqa: E402
     ElevenLabsClient,
     GoogleClient,
     MicrosoftTTS,
@@ -24,12 +29,15 @@ from tts_wrapper import (
 if platform.system() == "Darwin":  # macOS
     from tts_wrapper import AVSynthClient
 
-ALPHABETS_DIR = Path("data/alphabets")
+from scripts.lib.data_layout import RepoDataLayout  # noqa: E402
+
+DATA_LAYOUT = RepoDataLayout()
+ALPHABETS_DIR = DATA_LAYOUT.legacy_alphabet_dir()
 TTS_INDEX_PATH = Path("data/tts_index.json")
 TEXT_FIELD = "hello_how_are_you"  # field added by your translate step
-# Base output directory
-OUTPUT_DIR = Path("data/audio")
-AUDIO_INDEX_PATH = Path("data/audio/index.json")
+# Legacy output directory retained for compatibility
+LEGACY_AUDIO_DIR = DATA_LAYOUT.legacy_audio_dir()
+AUDIO_INDEX_PATH = LEGACY_AUDIO_DIR / "index.json"
 
 
 def sanitize_voice_id(voice_id: str, max_len: int = 20) -> str:
@@ -45,12 +53,13 @@ def add_index_entry(
     engine: str,
     voice_id: str,
     path: Path,
-) -> None:
-    entry = {"engine": engine, "voice_id": voice_id, "path": str(path)}
+) -> Dict[str, str]:
+    entry = {"engine": engine, "voice_id": voice_id, "path": str(path.as_posix())}
     items = audio_index.setdefault(lang, [])
     # de-duplicate by exact path
     if not any(it.get("path") == entry["path"] for it in items):
         items.append(entry)
+    return entry
 
 
 def get_tts_client(engine_name: str) -> Optional[Any]:
@@ -119,18 +128,28 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
 
 def read_sample_phrase(lang_code: str) -> Optional[str]:
     """Returns TEXT_FIELD from data/alphabets/{lang_code}.json if present."""
-    path = ALPHABETS_DIR / f"{lang_code}.json"
-    if not path.exists():
-        return None
-    try:
-        with path.open("r", encoding="utf-8") as f:
-            obj = json.load(f)
-        if isinstance(obj, dict):
-            val = obj.get(TEXT_FIELD)
-            if isinstance(val, str) and val.strip():
-                return val
-    except Exception:
-        pass
+    candidates: List[Path] = []
+    if "-" in lang_code:
+        lang, script = lang_code.split("-", 1)
+        candidate = DATA_LAYOUT.alphabet_path(lang, script)
+        candidates.append(candidate)
+    candidates.append(ALPHABETS_DIR / f"{lang_code}.json")
+    if "-" in lang_code:
+        lang = lang_code.split("-", 1)[0]
+        candidates.append(ALPHABETS_DIR / f"{lang}.json")
+
+    for path in candidates:
+        if not path.exists():
+            continue
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                obj = json.load(f)
+            if isinstance(obj, dict):
+                val = obj.get(TEXT_FIELD)
+                if isinstance(val, str) and val.strip():
+                    return val
+        except Exception:
+            continue
     return None
 
 
@@ -144,7 +163,7 @@ def generate_audio_files(skip_existing: bool = True) -> None:
     Iterate alphabet files (the source of truth), synth audio for each voice found in
     tts_index.json that matches the alphabet's language code, using the phrase in TEXT_FIELD.
     """
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    LEGACY_AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
     # Load existing audio index if present
     audio_index: Dict[str, List[Dict[str, str]]] = {}
@@ -169,7 +188,17 @@ def generate_audio_files(skip_existing: bool = True) -> None:
         return
 
     # Build the set of languages we actually have alphabet files for
-    alphabet_langs = sorted(p.stem for p in ALPHABETS_DIR.glob("*.json"))
+    alphabet_langs_set: set[str] = set()
+    if DATA_LAYOUT.root.exists():
+        for lang_dir in DATA_LAYOUT.root.iterdir():
+            alphabet_dir = lang_dir / "alphabet"
+            if alphabet_dir.is_dir():
+                alphabet_langs_set.update(p.stem for p in alphabet_dir.glob("*.json"))
+
+    if not alphabet_langs_set and ALPHABETS_DIR.exists():
+        alphabet_langs_set.update(p.stem for p in ALPHABETS_DIR.glob("*.json"))
+
+    alphabet_langs = sorted(alphabet_langs_set)
 
     print("Starting audio generation...")
     generated = 0
@@ -185,6 +214,7 @@ def generate_audio_files(skip_existing: bool = True) -> None:
 
         # Extract base language code for TTS lookup (e.g., "en-Latn" -> "en")
         base_lang_code = lang_code.split('-')[0]
+        canonical_lang = DATA_LAYOUT.canonical_code(base_lang_code)
 
         # Try both full lang_code and base language code
         voices = tts_index.get(lang_code) or tts_index.get(base_lang_code) or []
@@ -202,12 +232,14 @@ def generate_audio_files(skip_existing: bool = True) -> None:
 
             engine_slug = safe_engine_suffix(engine)
             safe_voice = sanitize_voice_id(voice_id)
-            out_path = OUTPUT_DIR / f"{lang_code}_{engine_slug}_{safe_voice}.wav"
+            lang_output_dir = DATA_LAYOUT.audio_dir(canonical_lang)
+            lang_output_dir.mkdir(parents=True, exist_ok=True)
+            out_path = lang_output_dir / f"{lang_code}_{engine_slug}_{safe_voice}.wav"
 
             # If the file already exists and skip_existing is True, skip it
             if out_path.exists() and skip_existing:
                 # Use base language code for audio index (e.g., "en-Latn" -> "en")
-                base_lang_for_index = base_lang_code
+                base_lang_for_index = canonical_lang
                 add_index_entry(
                     audio_index,
                     lang=base_lang_for_index,
@@ -222,6 +254,24 @@ def generate_audio_files(skip_existing: bool = True) -> None:
                         json.dump(audio_index, f, ensure_ascii=False, indent=2)
                 except Exception as e:
                     print(f"Warning: failed to write audio index: {e}")
+
+                rel_path = out_path.relative_to(DATA_LAYOUT.root)
+                DATA_LAYOUT.update_metadata(
+                    base_lang_for_index,
+                    "audio",
+                    {
+                        "file": str(rel_path),
+                        "engine": engine,
+                        "voice_id": voice_id,
+                        "status": "existing",
+                    },
+                )
+                DATA_LAYOUT.append_source_entry(
+                    base_lang_for_index,
+                    "audio",
+                    "Audio sample already present on disk",
+                    {"engine": engine, "voice": voice_id, "file": str(rel_path)},
+                )
 
                 print(
                     f"Skipping {lang_code} ({engine_slug}, voice {voice_id}): already exists."
@@ -244,7 +294,7 @@ def generate_audio_files(skip_existing: bool = True) -> None:
                 print(f"  -> Saved to {out_path}")
                 generated += 1
                 # Use base language code for audio index (e.g., "en-Latn" -> "en")
-                base_lang_for_index = base_lang_code
+                base_lang_for_index = canonical_lang
                 add_index_entry(
                     audio_index,
                     lang=base_lang_for_index,
@@ -260,11 +310,38 @@ def generate_audio_files(skip_existing: bool = True) -> None:
                 except Exception as e:
                     print(f"Warning: failed to write audio index: {e}")
 
+                rel_path = out_path.relative_to(DATA_LAYOUT.root)
+                DATA_LAYOUT.update_metadata(
+                    base_lang_for_index,
+                    "audio",
+                    {
+                        "file": str(rel_path),
+                        "engine": engine,
+                        "voice_id": voice_id,
+                        "status": "generated",
+                    },
+                )
+                DATA_LAYOUT.append_source_entry(
+                    base_lang_for_index,
+                    "audio",
+                    "Generated audio sample",
+                    {"engine": engine, "voice": voice_id, "file": str(rel_path)},
+                )
+
             else:
                 print(
                     f"  Skipped (invalid/failed synth) for {lang_code} ({engine_slug}, voice {voice_id})."
                 )
     # Removed final bulk save of audio index since incremental saves are done
+
+    for lang, entries in audio_index.items():
+        per_lang_index_path = DATA_LAYOUT.audio_dir(lang) / "index.json"
+        per_lang_index_path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with per_lang_index_path.open("w", encoding="utf-8") as fh:
+                json.dump(entries, fh, ensure_ascii=False, indent=2)
+        except Exception as exc:
+            print(f"Warning: failed to write {per_lang_index_path}: {exc}")
 
     print(
         f"\nAudio generation complete. Files created: {generated}. "

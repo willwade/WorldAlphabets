@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "mk",
+    "path": "data/mk/audio/mk-Cyrl_microsoft_mk_mk_marijaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mk",
+    "path": "data/mk/audio/mk-Cyrl_microsoft_mk_mk_aleksandarneur.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "zls",
+    "path": "data/mk/audio/mk-Cyrl_espeak_zls_mk.wav"
+  }
+]

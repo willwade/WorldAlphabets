@@ -1,0 +1,45 @@
+{
+  "language": "jav",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "jav/alphabet/jav-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:12:22.663810Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "jav/alphabet/jav-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "jav/frequency/top1000.txt",
+      "token_count": 44,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:27:11.196033Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "jv",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.729883Z"
+    }
+  },
+  "language_name": "Javanese",
+  "iso639_1": "jv",
+  "iso639_3": "jav",
+  "missing_scripts": [
+    {
+      "script": "Kawi",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:22.898077Z"
+    },
+    {
+      "script": "Java",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:12:23.126099Z"
+    }
+  ]
+}

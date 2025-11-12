@@ -1,0 +1,16 @@
+{
+  "language": "bax",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:53.855348Z"
+    },
+    {
+      "script": "Bamu",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:54.129110Z"
+    }
+  ]
+}

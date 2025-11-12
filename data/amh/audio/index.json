@@ -1,0 +1,52 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "sem",
+    "path": "data/am/audio/am_espeak_sem_am.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "am",
+    "path": "data/am/audio/am_microsoft_am_et_amehaneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "sem",
+    "path": "data/am/audio/am-Ethi_espeak_sem_am.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_microsoft_am_et_amehaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "am",
+    "path": "data/am/audio/am_microsoft_am_et_mekdesneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_microsoft_am_et_mekdesneural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_google_am_et_wavenet_b.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_google_am_et_wavenet_a.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_google_am_et_standard_a.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "am",
+    "path": "data/am/audio/am-Ethi_google_am_et_standard_b.wav"
+  }
+]

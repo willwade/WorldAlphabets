@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "su",
+    "path": "data/su/audio/su-Latn_microsoft_su_id_tutineural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/su/audio/su-Latn_sherpaonnx_mms_sun.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "su",
+    "path": "data/su/audio/su-Latn_microsoft_su_id_jajangneural.wav"
+  }
+]

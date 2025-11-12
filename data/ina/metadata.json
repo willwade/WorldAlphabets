@@ -1,0 +1,26 @@
+{
+  "language": "ina",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ina/alphabet/ina-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:12:13.520876Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ina/alphabet/ina-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ina/frequency/top1000.txt",
+      "token_count": 65,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:43.402604Z"
+    }
+  },
+  "language_name": "Interlingua (International Auxiliary Language Association)",
+  "iso639_1": "ia",
+  "iso639_3": "ina"
+}

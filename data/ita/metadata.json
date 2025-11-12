@@ -1,0 +1,33 @@
+{
+  "language": "ita",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ita/alphabet/ita-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:12:17.866841Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ita/alphabet/ita-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ita/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:56.069760Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "it",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.728528Z"
+    }
+  },
+  "language_name": "Italian",
+  "iso639_1": "it",
+  "iso639_3": "ita"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "lo",
+    "path": "data/lo/audio/lo-Laoo_microsoft_lo_la_chanthavongneu.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "lo",
+    "path": "data/lo/audio/lo-Laoo_microsoft_lo_la_keomanyneural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/lo/audio/lo-Laoo_sherpaonnx_mms_lao.wav"
+  }
+]

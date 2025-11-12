@@ -1,0 +1,28 @@
+{
+  "language": "ukr",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "ukr/alphabet/ukr-Cyrl.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:17:59.657980Z"
+    },
+    "frequency_top1000": {
+      "file": "ukr/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:37:10.813545Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "uk",
+      "cached": false,
+      "updated": "2025-11-12T10:37:54.944884Z"
+    }
+  },
+  "language_name": "Ukrainian",
+  "iso639_1": "uk",
+  "iso639_3": "ukr"
+}

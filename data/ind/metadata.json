@@ -1,0 +1,33 @@
+{
+  "language": "ind",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ind/alphabet/ind-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:12:14.070130Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ind/alphabet/ind-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ind/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:43.988918Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "id",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.726039Z"
+    }
+  },
+  "language_name": "Indonesian",
+  "iso639_1": "id",
+  "iso639_3": "ind"
+}

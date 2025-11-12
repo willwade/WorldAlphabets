@@ -47,6 +47,7 @@ COMMON_LANGUAGES = [
 _alphabet_cache: Dict[str, Optional[Dict]] = {}
 _char_index: Optional[Dict] = None
 _script_index: Optional[Dict] = None
+_code_map: Optional[Dict[str, str]] = None
 
 
 class ProgressCallback:
@@ -115,6 +116,41 @@ def _load_script_index() -> Optional[Dict]:
 
     _script_index = None
     return None
+
+
+@lru_cache(maxsize=1)
+def _load_code_map() -> Dict[str, str]:
+    """Map ISO-639-3 codes to ISO-639-1 when available."""
+    global _code_map
+    if _code_map is not None:
+        return _code_map
+    try:
+        from ..helpers import get_index_data
+
+        mapping: Dict[str, str] = {}
+        for entry in get_index_data():
+            iso1 = entry.get("iso639_1")
+            iso3 = entry.get("iso639_3")
+            lang_code = entry["language"]
+            target = iso1 or lang_code
+            mapping[lang_code] = target
+            if iso3:
+                mapping[iso3] = target
+        _code_map = mapping
+        return mapping
+    except Exception:
+        _code_map = {}
+        return {}
+
+
+def _frequency_code(code: str) -> str:
+    mapping = _load_code_map()
+    return mapping.get(code, code)
+
+
+def _display_code(code: str) -> str:
+    mapping = _load_code_map()
+    return mapping.get(code, code)
 
 
 def _get_cached_alphabet_data(lang_code: str) -> Optional[Dict]:
@@ -205,10 +241,20 @@ def optimized_detect_languages(
             # Fallback to common languages if index loading fails
             candidate_langs = COMMON_LANGUAGES
 
+    # Normalize candidate codes to canonical (prefer ISO-639-1) forms
+    code_map = _load_code_map()
+    normalized_candidates: List[str] = []
+    seen_candidates: set[str] = set()
+    for lang in candidate_langs:
+        canonical = code_map.get(lang, lang)
+        if canonical not in seen_candidates:
+            normalized_candidates.append(canonical)
+            seen_candidates.add(canonical)
+
     # Prioritize common languages
     prioritized_langs = [
-        lang for lang in candidate_langs if lang in COMMON_LANGUAGES
-    ] + [lang for lang in candidate_langs if lang not in COMMON_LANGUAGES]
+        lang for lang in normalized_candidates if lang in COMMON_LANGUAGES
+    ] + [lang for lang in normalized_candidates if lang not in COMMON_LANGUAGES]
 
     progress.update("Starting language detection", 0, len(prioritized_langs))
 
@@ -232,8 +278,9 @@ def optimized_detect_languages(
         progress.update(f"Processing {lang}", i, len(prioritized_langs))
 
         try:
+            freq_lang = _frequency_code(lang)
             # Try word-based detection first
-            data = _load_rank_data(lang, freq_dir)
+            data = _load_rank_data(freq_lang, freq_dir)
             tokens = word_tokens if data.mode == "word" else bigram_tokens
             word_overlap = 0.0
 
@@ -305,7 +352,9 @@ def optimized_detect_languages(
         return score
 
     results.sort(key=sort_key, reverse=True)
-    return results[:topk]
+    top_results = results[:topk]
+    display_results = [(_display_code(lang), score) for lang, score in top_results]
+    return display_results
 
 
 def detect_languages_with_progress(

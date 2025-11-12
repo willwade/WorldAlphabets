@@ -1,0 +1,33 @@
+{
+  "language": "est",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "est/alphabet/est-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:10:41.060247Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "est/alphabet/est-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "est/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:01.815460Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "et",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.696456Z"
+    }
+  },
+  "language_name": "Estonian",
+  "iso639_1": "et",
+  "iso639_3": "est"
+}

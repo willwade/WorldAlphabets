@@ -1,0 +1,33 @@
+{
+  "language": "mya",
+  "sections": {
+    "alphabet": {
+      "script": "Mymr",
+      "file": "mya/alphabet/mya-Mymr.json",
+      "letter_count": 42,
+      "updated": "2025-11-12T09:14:38.656034Z"
+    },
+    "alphabet_Mymr": {
+      "script": "Mymr",
+      "file": "mya/alphabet/mya-Mymr.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mya/frequency/top1000.txt",
+      "token_count": 209,
+      "mode": "bigram",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:31:25.763043Z"
+    },
+    "translation_Mymr": {
+      "script": "Mymr",
+      "source": "google_translate",
+      "target": "my",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.993659Z"
+    }
+  },
+  "language_name": "Burmese",
+  "iso639_1": "my",
+  "iso639_3": "mya"
+}

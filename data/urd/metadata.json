@@ -1,0 +1,20 @@
+{
+  "language": "urd",
+  "sections": {
+    "frequency_top1000": {
+      "file": "urd/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:37:10.996324Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.440913Z"
+    }
+  },
+  "language_name": "Urdu",
+  "iso639_1": "ur",
+  "iso639_3": "urd"
+}

@@ -1,0 +1,33 @@
+{
+  "language": "eus",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "eus/alphabet/eus-Latn.json",
+      "letter_count": 28,
+      "updated": "2025-11-12T09:10:42.356385Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "eus/alphabet/eus-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "eus/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:25:02.133924Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "eu",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.698988Z"
+    }
+  },
+  "language_name": "Basque",
+  "iso639_1": "eu",
+  "iso639_3": "eus"
+}

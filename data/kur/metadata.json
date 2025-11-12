@@ -1,0 +1,40 @@
+{
+  "language": "kur",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "kur/alphabet/kur-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:13:20.851432Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "kur/alphabet/kur-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ku",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.738345Z"
+    },
+    "frequency_top1000": {
+      "file": "kur/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Kurdish",
+  "iso639_1": "ku",
+  "iso639_3": "kur",
+  "missing_scripts": [
+    {
+      "script": "Cyrl",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:13:21.092832Z"
+    }
+  ]
+}

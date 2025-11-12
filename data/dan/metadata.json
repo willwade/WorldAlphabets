@@ -1,0 +1,33 @@
+{
+  "language": "dan",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "dan/alphabet/dan-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:10:10.127145Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "dan/alphabet/dan-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "dan/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:24:08.505082Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "da",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.689022Z"
+    }
+  },
+  "language_name": "Danish",
+  "iso639_1": "da",
+  "iso639_3": "dan"
+}

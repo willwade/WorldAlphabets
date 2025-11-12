@@ -1,0 +1,25 @@
+{
+  "language": "mzn",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "mzn/alphabet/mzn-Arab.json",
+      "letter_count": 38,
+      "updated": "2025-11-12T09:14:41.549076Z"
+    },
+    "alphabet_Arab": {
+      "script": "Arab",
+      "file": "mzn/alphabet/mzn-Arab.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mzn/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "Leipzig",
+      "updated": "2025-11-12T09:31:34.702862Z"
+    }
+  },
+  "language_name": "Mazanderani",
+  "iso639_3": "mzn"
+}

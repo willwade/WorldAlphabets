@@ -1,0 +1,32 @@
+{
+  "language": "shi",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "shi/alphabet/shi-Latn.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:16:35.847855Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "shi/alphabet/shi-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "shi/frequency/top1000.txt",
+      "token_count": 38,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:11.019364Z"
+    }
+  },
+  "language_name": "Tachelhit",
+  "iso639_3": "shi",
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:36.246122Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "language": "bft",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:02.376656Z"
+    },
+    {
+      "script": "Tibt",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:09:02.639316Z"
+    }
+  ]
+}

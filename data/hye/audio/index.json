@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "ine",
+    "path": "data/hy/audio/hy-Armn_espeak_ine_hy.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "hy",
+    "path": "data/hy/audio/hy-Armn_microsoft_hy_am_haykneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "hy",
+    "path": "data/hy/audio/hy-Armn_microsoft_hy_am_anahitneural.wav"
+  }
+]

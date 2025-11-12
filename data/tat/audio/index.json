@@ -1,0 +1,12 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/tt/audio/tt-Cyrl_sherpaonnx_mms_tat.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "trk",
+    "path": "data/tt/audio/tt-Cyrl_espeak_trk_tt.wav"
+  }
+]

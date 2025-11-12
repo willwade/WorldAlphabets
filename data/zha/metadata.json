@@ -1,0 +1,21 @@
+{
+  "language": "zha",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "zha/alphabet/zha-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:19:07.607479Z"
+    },
+    "frequency_top1000": {
+      "file": "zha/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Zhuang",
+  "iso639_1": "za",
+  "iso639_3": "zha"
+}

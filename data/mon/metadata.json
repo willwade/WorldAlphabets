@@ -1,0 +1,40 @@
+{
+  "language": "mon",
+  "sections": {
+    "alphabet": {
+      "script": "Mong",
+      "file": "mon/alphabet/mon-Mong.json",
+      "letter_count": 35,
+      "updated": "2025-11-12T09:14:22.398064Z"
+    },
+    "alphabet_Mong": {
+      "script": "Mong",
+      "file": "mon/alphabet/mon-Mong.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mon/frequency/top1000.txt",
+      "token_count": 45,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:31:03.555126Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "mn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.508144Z"
+    },
+    "translation_Mong": {
+      "script": "Mong",
+      "source": "google_translate",
+      "target": "mn",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.692539Z"
+    }
+  },
+  "language_name": "Mongolian",
+  "iso639_1": "mn",
+  "iso639_3": "mon"
+}

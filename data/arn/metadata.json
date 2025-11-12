@@ -1,0 +1,25 @@
+{
+  "language": "arn",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "arn/alphabet/arn-Latn.json",
+      "letter_count": 25,
+      "updated": "2025-11-12T09:08:37.395909Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "arn/alphabet/arn-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "arn/frequency/top1000.txt",
+      "token_count": 25,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:20:57.508425Z"
+    }
+  },
+  "language_name": "Mapudungun",
+  "iso639_3": "arn"
+}

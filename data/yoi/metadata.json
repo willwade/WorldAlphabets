@@ -1,0 +1,21 @@
+{
+  "language": "yoi",
+  "sections": {},
+  "missing_scripts": [
+    {
+      "script": "Kana",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:19:00.714847Z"
+    },
+    {
+      "script": "Hrkt",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:19:00.970255Z"
+    },
+    {
+      "script": "Hira",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:19:01.190009Z"
+    }
+  ]
+}

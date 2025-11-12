@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "ine",
+    "path": "data/sq/audio/sq-Latn_espeak_ine_sq.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/sq/audio/sq-Latn_sherpaonnx_mms_sqi.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sq",
+    "path": "data/sq/audio/sq-Latn_microsoft_sq_al_ilirneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sq",
+    "path": "data/sq/audio/sq-Latn_microsoft_sq_al_anilaneural.wav"
+  }
+]

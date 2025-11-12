@@ -1,0 +1,37 @@
+[
+  {
+    "engine": "google",
+    "voice_id": "af",
+    "path": "data/af/audio/af-Latn_google_af_za_standard_a.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "gmw",
+    "path": "data/af/audio/af-Latn_espeak_gmw_af.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "af",
+    "path": "data/af/audio/af-Latn_microsoft_af_za_willemneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "gmw",
+    "path": "data/af/audio/af_espeak_gmw_af.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "af",
+    "path": "data/af/audio/af-Latn_microsoft_af_za_adrineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "af",
+    "path": "data/af/audio/af_microsoft_af_za_adrineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "af",
+    "path": "data/af/audio/af_microsoft_af_za_willemneural.wav"
+  }
+]

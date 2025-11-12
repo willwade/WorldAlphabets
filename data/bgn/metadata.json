@@ -1,0 +1,25 @@
+{
+  "language": "bgn",
+  "sections": {
+    "alphabet": {
+      "script": "Arab",
+      "file": "bgn/alphabet/bgn-Arab.json",
+      "letter_count": 37,
+      "updated": "2025-11-12T09:19:19.416790Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.266112Z"
+    }
+  },
+  "language_name": "Western Balochi",
+  "iso639_3": "bgn",
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:19:19.647778Z"
+    }
+  ]
+}

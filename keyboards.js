@@ -24,7 +24,9 @@ async function loadKeyboard(layoutId) {
     const filePath = path.join(LAYOUTS_DIR, `${layoutId}.json`);
     try {
         const data = await fs.readFile(filePath, 'utf-8');
-        return JSON.parse(data);
+        const layout = JSON.parse(data);
+        layout.id = layoutId;
+        return layout;
     } catch (error) {
         if (error.code === 'ENOENT') {
             throw new Error(`Keyboard layout '${layoutId}' not found.`);

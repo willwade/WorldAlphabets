@@ -1,0 +1,32 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "ru",
+    "path": "data/ru/audio/ru-Cyrl_microsoft_ru_ru_svetlananeural.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/ru/audio/ru-Cyrl_sherpaonnx_mms_rus.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ru",
+    "path": "data/ru/audio/ru-Cyrl_microsoft_ru_ru_dmitryneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "zle",
+    "path": "data/ru/audio/ru-Cyrl_espeak_zle_ru.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ru",
+    "path": "data/ru/audio/ru-Cyrl_microsoft_ru_ru_dariyaneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "zle",
+    "path": "data/ru/audio/ru-Cyrl_espeak_zle_ru_cl.wav"
+  }
+]

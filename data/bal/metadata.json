@@ -1,0 +1,30 @@
+{
+  "language": "bal",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "bal/alphabet/bal-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:19:18.431840Z"
+    },
+    "frequency_top1000": {
+      "file": "bal/frequency/top1000.txt",
+      "token_count": 50,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:21:31.052843Z"
+    },
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.259681Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.260459Z"
+    }
+  },
+  "language_name": "Baluchi",
+  "iso639_3": "bal"
+}

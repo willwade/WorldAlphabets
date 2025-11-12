@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
 """
-Rebuild the audio index by scanning actual audio files in the data/audio directory.
+Rebuild the audio index by scanning audio files under the per-language directories.
 This fixes corrupted audio index files.
 """
 
+from __future__ import annotations
+
 import json
 from pathlib import Path
+from typing import Dict, List, Optional
+import sys
 
-def parse_audio_filename(filename: str) -> dict:
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from scripts.lib.data_layout import RepoDataLayout  # noqa: E402
+
+DATA_LAYOUT = RepoDataLayout()
+
+
+def parse_audio_filename(path: Path) -> Optional[dict[str, str]]:
     """
     Parse audio filename to extract metadata.
     Expected format: {lang-script}_{engine}_{voice_id}.wav
     Example: cy-Latn_microsoft_cy_gb_aledneural.wav
     """
+    filename = path.name
     # Remove .wav extension
     name = filename.replace('.wav', '')
     
@@ -28,30 +42,40 @@ def parse_audio_filename(filename: str) -> dict:
     # Extract base language code (e.g., "cy-Latn" -> "cy")
     base_lang = lang_script.split('-')[0]
     
+    rel_path = path if not path.is_absolute() else path.relative_to(Path.cwd())
+
     return {
         'engine': engine,
         'voice_id': voice_id,
-        'path': f'data/audio/{filename}',
+        'path': rel_path.as_posix(),
         'lang_script': lang_script,
         'base_lang': base_lang
     }
 
-def main():
-    audio_dir = Path("data/audio")
-    
-    if not audio_dir.exists():
-        print("❌ Audio directory not found at data/audio")
+def main() -> None:
+    wav_files: List[Path] = []
+    if DATA_LAYOUT.root.exists():
+        for lang_dir in DATA_LAYOUT.root.iterdir():
+            audio_dir = lang_dir / "audio"
+            if audio_dir.is_dir():
+                wav_files.extend(audio_dir.glob("*.wav"))
+
+    # Fallback to legacy flat structure
+    legacy_audio_dir = DATA_LAYOUT.legacy_audio_dir()
+    if legacy_audio_dir.exists():
+        wav_files.extend(legacy_audio_dir.glob("*.wav"))
+
+    if not wav_files:
+        print("❌ No audio files found under data/*/audio or data/audio")
         return
     
-    # Find all .wav files
-    wav_files = list(audio_dir.glob("*.wav"))
     print(f"Found {len(wav_files)} audio files")
     
     # Build new index
-    new_index = {}
+    new_index: Dict[str, List[Dict[str, str]]] = {}
     
     for wav_file in wav_files:
-        metadata = parse_audio_filename(wav_file.name)
+        metadata = parse_audio_filename(wav_file)
         if not metadata:
             print(f"⚠️ Could not parse filename: {wav_file.name}")
             continue
@@ -85,9 +109,17 @@ def main():
         print(f"✅ {lang_code}: {len(unique_files)} unique audio files")
     
     # Save the rebuilt index
-    index_path = Path("data/audio/index.json")
+    DATA_LAYOUT.legacy_audio_dir().mkdir(parents=True, exist_ok=True)
+    index_path = DATA_LAYOUT.audio_index_path()
     with open(index_path, 'w', encoding='utf-8') as f:
         json.dump(new_index, f, ensure_ascii=False, indent=2)
+
+    # Write per-language indexes
+    for lang_code, entries in new_index.items():
+        lang_index = DATA_LAYOUT.audio_dir(lang_code) / "index.json"
+        lang_index.parent.mkdir(parents=True, exist_ok=True)
+        with lang_index.open('w', encoding='utf-8') as fh:
+            json.dump(entries, fh, ensure_ascii=False, indent=2)
     
     print(f"\n🎵 Rebuilt audio index saved to {index_path}")
     print(f"Languages with audio: {sorted(new_index.keys())}")

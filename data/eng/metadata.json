@@ -1,0 +1,33 @@
+{
+  "language": "eng",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "eng/alphabet/eng-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:10:37.580145Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "eng/alphabet/eng-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "eng/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:24:58.809881Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "en",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.694081Z"
+    }
+  },
+  "language_name": "English",
+  "iso639_1": "en",
+  "iso639_3": "eng"
+}

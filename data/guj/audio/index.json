@@ -1,0 +1,62 @@
+[
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/gu/audio/gu-Gujr_sherpaonnx_mms_guj.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/gu/audio/gu-Gujr_espeak_inc_gu.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_microsoft_gu_in_niranjanneural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_wavenet_d.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_wavenet_a.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_wavenet_c.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_wavenet_b.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_microsoft_gu_in_dhwanineural.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_standard_b.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_standard_c.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_standard_a.wav"
+  },
+  {
+    "engine": "google",
+    "voice_id": "gu",
+    "path": "data/gu/audio/gu-Gujr_google_gu_in_standard_d.wav"
+  }
+]

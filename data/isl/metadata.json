@@ -1,0 +1,33 @@
+{
+  "language": "isl",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "isl/alphabet/isl-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:12:15.997293Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "isl/alphabet/isl-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "isl/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:26:55.080662Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "is",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.727515Z"
+    }
+  },
+  "language_name": "Icelandic",
+  "iso639_1": "is",
+  "iso639_3": "isl"
+}

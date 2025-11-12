@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "ccs",
+    "path": "data/ka/audio/ka-Geor_espeak_ccs_ka.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ka",
+    "path": "data/ka/audio/ka-Geor_microsoft_ka_ge_giorgineural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ka",
+    "path": "data/ka/audio/ka-Geor_microsoft_ka_ge_ekaneural.wav"
+  }
+]

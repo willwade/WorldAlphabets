@@ -1,0 +1,33 @@
+{
+  "language": "hat",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "hat/alphabet/hat-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:11:50.631944Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "hat/alphabet/hat-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ht",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.718181Z"
+    },
+    "frequency_top1000": {
+      "file": "hat/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Haitian",
+  "iso639_1": "ht",
+  "iso639_3": "hat"
+}

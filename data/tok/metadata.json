@@ -1,0 +1,20 @@
+{
+  "language": "tok",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "tok/alphabet/tok-Latn.json",
+      "letter_count": 14,
+      "updated": "2025-11-12T09:17:35.321701Z"
+    },
+    "frequency_top1000": {
+      "file": "tok/frequency/top1000.txt",
+      "token_count": 38,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:30.690780Z"
+    }
+  },
+  "language_name": "Toki Pona",
+  "iso639_3": "tok"
+}

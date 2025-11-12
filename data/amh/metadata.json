@@ -1,0 +1,33 @@
+{
+  "language": "amh",
+  "sections": {
+    "alphabet": {
+      "script": "Ethi",
+      "file": "amh/alphabet/amh-Ethi.json",
+      "letter_count": 282,
+      "updated": "2025-11-12T09:08:27.636622Z"
+    },
+    "alphabet_Ethi": {
+      "script": "Ethi",
+      "file": "amh/alphabet/amh-Ethi.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "amh/frequency/top1000.txt",
+      "token_count": 32,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:20:46.359144Z"
+    },
+    "translation_Ethi": {
+      "script": "Ethi",
+      "source": "google_translate (cache)",
+      "target": "am",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.665956Z"
+    }
+  },
+  "language_name": "Amharic",
+  "iso639_1": "am",
+  "iso639_3": "amh"
+}

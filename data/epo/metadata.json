@@ -1,0 +1,33 @@
+{
+  "language": "epo",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "epo/alphabet/epo-Latn.json",
+      "letter_count": 28,
+      "updated": "2025-11-12T09:10:39.152937Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "epo/alphabet/epo-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "epo/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:24:59.017847Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "eo",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.695161Z"
+    }
+  },
+  "language_name": "Esperanto",
+  "iso639_1": "eo",
+  "iso639_3": "epo"
+}

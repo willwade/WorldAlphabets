@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "cel",
+    "path": "data/cy/audio/cy-Latn_espeak_cel_cy.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/cy/audio/cy-Latn_sherpaonnx_mms_cym.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "cy",
+    "path": "data/cy/audio/cy-Latn_microsoft_cy_gb_aledneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "cy",
+    "path": "data/cy/audio/cy-Latn_microsoft_cy_gb_nianeural.wav"
+  }
+]

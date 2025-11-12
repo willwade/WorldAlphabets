@@ -1,0 +1,45 @@
+{
+  "language": "gle",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "gle/alphabet/gle-Latn.json",
+      "letter_count": 23,
+      "updated": "2025-11-12T09:11:31.251290Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "gle/alphabet/gle-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "gle/frequency/top1000.txt",
+      "token_count": 44,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:25:44.318398Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "ga",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.712496Z"
+    }
+  },
+  "language_name": "Irish",
+  "iso639_1": "ga",
+  "iso639_3": "gle",
+  "missing_scripts": [
+    {
+      "script": "Ogam",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:31.498667Z"
+    },
+    {
+      "script": "Latg",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:11:31.743754Z"
+    }
+  ]
+}

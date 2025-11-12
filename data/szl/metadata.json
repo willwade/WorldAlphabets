@@ -1,0 +1,27 @@
+{
+  "language": "szl",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "szl/alphabet/szl-Latn.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:17:12.652545Z"
+    },
+    "frequency_top1000": {
+      "file": "szl/frequency/top1000.txt",
+      "token_count": 45,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:36:02.957690Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "szl",
+      "cached": false,
+      "updated": "2025-11-12T10:37:52.604838Z"
+    }
+  },
+  "language_name": "Silesian",
+  "iso639_3": "szl"
+}

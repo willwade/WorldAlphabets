@@ -1,0 +1,20 @@
+{
+  "language": "vec",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "vec/alphabet/vec-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:18:08.266473Z"
+    },
+    "frequency_top1000": {
+      "file": "vec/frequency/top1000.txt",
+      "token_count": 57,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:37:36.940069Z"
+    }
+  },
+  "language_name": "Venetian",
+  "iso639_3": "vec"
+}

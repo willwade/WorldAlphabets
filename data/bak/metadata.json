@@ -1,0 +1,40 @@
+{
+  "language": "bak",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "bak/alphabet/bak-Cyrl.json",
+      "letter_count": 42,
+      "updated": "2025-11-12T09:08:51.011905Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "bak/alphabet/bak-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate (cache)",
+      "target": "ba",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.671612Z"
+    },
+    "frequency_top1000": {
+      "file": "bak/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Arab",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:08:50.598410Z"
+    }
+  ],
+  "language_name": "Bashkir",
+  "iso639_1": "ba",
+  "iso639_3": "bak"
+}

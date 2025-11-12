@@ -26,6 +26,14 @@ def load_keyboard(layout_id: str) -> KeyboardLayout:
     try:
         with open(layout_path, "r", encoding="utf-8") as f:
             data = json.load(f)
+        original_id = data.get("id")
+        if original_id and original_id != layout_id:
+            meta = data.get("meta")
+            if meta is None:
+                meta = {}
+                data["meta"] = meta
+            meta["source_layout_id"] = original_id
+        data["id"] = layout_id
         return KeyboardLayout.model_validate(data)
     except FileNotFoundError:
         raise ValueError(f"Keyboard layout '{layout_id}' not found.")

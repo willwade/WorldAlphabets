@@ -1,0 +1,33 @@
+{
+  "language": "mlg",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "mlg/alphabet/mlg-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:14:13.375021Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "mlg/alphabet/mlg-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "mg",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.090633Z"
+    },
+    "frequency_top1000": {
+      "file": "mlg/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Malagasy",
+  "iso639_1": "mg",
+  "iso639_3": "mlg"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "espeak",
+    "voice_id": "zls",
+    "path": "data/sl/audio/sl-Latn_espeak_zls_sl.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sl",
+    "path": "data/sl/audio/sl-Latn_microsoft_sl_si_petraneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "sl",
+    "path": "data/sl/audio/sl-Latn_microsoft_sl_si_rokneural.wav"
+  }
+]

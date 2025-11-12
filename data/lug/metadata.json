@@ -1,0 +1,33 @@
+{
+  "language": "lug",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "lug/alphabet/lug-Latn.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:13:49.883348Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "lug/alphabet/lug-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate (cache)",
+      "target": "lg",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.750020Z"
+    },
+    "frequency_top1000": {
+      "file": "lug/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "language_name": "Ganda",
+  "iso639_1": "lg",
+  "iso639_3": "lug"
+}

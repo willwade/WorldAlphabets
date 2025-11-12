@@ -1,0 +1,37 @@
+{
+  "language": "snd",
+  "sections": {
+    "translation_Arab": {
+      "script": "Arab",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.411490Z"
+    },
+    "frequency_top1000": {
+      "file": "snd/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "historic_legacy (Leipzig)",
+      "updated": "2025-11-12T11:28:08Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Gujr",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:50.441537Z"
+    },
+    {
+      "script": "Sind",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:50.704498Z"
+    },
+    {
+      "script": "Khoj",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:50.971967Z"
+    }
+  ],
+  "language_name": "Sindhi",
+  "iso639_1": "sd",
+  "iso639_3": "snd"
+}

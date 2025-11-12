@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "ne",
+    "path": "data/ne/audio/ne-Deva_microsoft_ne_np_hemkalaneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "ne",
+    "path": "data/ne/audio/ne-Deva_microsoft_ne_np_sagarneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "inc",
+    "path": "data/ne/audio/ne-Deva_espeak_inc_ne.wav"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "language": "sma",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "sma/alphabet/sma-Latn.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:16:46.062289Z"
+    },
+    "frequency_top1000": {
+      "file": "sma/frequency/top1000.txt",
+      "token_count": 25,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:35:15.631625Z"
+    }
+  },
+  "language_name": "Southern Sami",
+  "iso639_3": "sma"
+}

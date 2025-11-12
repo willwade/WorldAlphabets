@@ -1,0 +1,25 @@
+{
+  "language": "fur",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "fur/alphabet/fur-Latn.json",
+      "letter_count": 37,
+      "updated": "2025-11-12T09:11:19.875059Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "fur/alphabet/fur-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "fur/frequency/top1000.txt",
+      "token_count": 56,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:25:38.974062Z"
+    }
+  },
+  "language_name": "Friulian",
+  "iso639_3": "fur"
+}

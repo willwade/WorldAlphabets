@@ -1,0 +1,25 @@
+{
+  "language": "nds",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "nds/alphabet/nds-Latn.json",
+      "letter_count": 30,
+      "updated": "2025-11-12T09:14:46.644053Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "nds/alphabet/nds-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "nds/frequency/top1000.txt",
+      "token_count": 49,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:31:55.264529Z"
+    }
+  },
+  "language_name": "Low German",
+  "iso639_3": "nds"
+}

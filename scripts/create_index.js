@@ -10,6 +10,7 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ALPHABETS_DIR = path.join(DATA_DIR, 'alphabets');
 const WORD_FREQ_DIR = path.join(DATA_DIR, 'freq', 'top1000');
+const REGISTRY_FILE = path.join(DATA_DIR, 'language_registry.json');
 
 async function createIndex() {
   console.log('🔄 Creating data index...');
@@ -34,6 +35,14 @@ async function createIndex() {
     }
 
     // Read all alphabet files
+    let registry = {};
+    try {
+      const registryContent = await fs.readFile(REGISTRY_FILE, 'utf8');
+      registry = JSON.parse(registryContent);
+    } catch {
+      console.warn('⚠️  language_registry.json not found; ISO metadata may be incomplete');
+    }
+
     const files = await fs.readdir(ALPHABETS_DIR);
     const alphabetFiles = files.filter(f => f.endsWith('.json'));
 
@@ -61,12 +70,14 @@ async function createIndex() {
         const hasWordFrequency = Array.from(codeCandidates)
           .some(code => wordFrequencyCodes.has(code));
 
+        const registryEntry = registry[language] || {};
+
         const entry = {
           language,
           script,
           name: data.language || language,
-          iso639_1: data.iso639_1,
-          iso639_3: data.iso639_3,
+          iso639_1: data.iso639_1 || registryEntry.iso639_1,
+          iso639_3: data.iso639_3 || registryEntry.iso639_3 || language,
           letterCount: data.lowercase ? data.lowercase.length : 0,
           hasFrequency: data.frequency && Object.keys(data.frequency).length > 0,
           hasWordFrequency,

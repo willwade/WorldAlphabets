@@ -1,0 +1,26 @@
+{
+  "language": "fao",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "fao/alphabet/fao-Latn.json",
+      "letter_count": 29,
+      "updated": "2025-11-12T09:11:06.093098Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "fao/alphabet/fao-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "fao/frequency/top1000.txt",
+      "token_count": 42,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:25:21.233273Z"
+    }
+  },
+  "language_name": "Faroese",
+  "iso639_1": "fo",
+  "iso639_3": "fao"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "mt",
+    "path": "data/mt/audio/mt-Latn_microsoft_mt_mt_graceneural.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "mt",
+    "path": "data/mt/audio/mt-Latn_microsoft_mt_mt_josephneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "sem",
+    "path": "data/mt/audio/mt-Latn_espeak_sem_mt.wav"
+  }
+]

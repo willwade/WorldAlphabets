@@ -1,0 +1,33 @@
+{
+  "language": "div",
+  "sections": {
+    "alphabet": {
+      "script": "Thaa",
+      "file": "div/alphabet/div-Thaa.json",
+      "letter_count": 24,
+      "updated": "2025-11-12T09:10:17.181902Z"
+    },
+    "alphabet_Thaa": {
+      "script": "Thaa",
+      "file": "div/alphabet/div-Thaa.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "translation_Thaa": {
+      "script": "Thaa",
+      "source": "google_translate (cache)",
+      "target": "dv",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.690346Z"
+    }
+  },
+  "language_name": "Dhivehi",
+  "iso639_1": "dv",
+  "iso639_3": "div",
+  "missing_scripts": [
+    {
+      "script": "Diak",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:10:17.446526Z"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "language": "tgl",
+  "sections": {
+    "frequency_top1000": {
+      "file": "tgl/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:36:24.543089Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.432936Z"
+    }
+  },
+  "language_name": "Tagalog",
+  "iso639_1": "tl",
+  "iso639_3": "tgl"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "microsoft",
+    "voice_id": "lv",
+    "path": "data/lv/audio/lv-Latn_microsoft_lv_lv_nilsneural.wav"
+  },
+  {
+    "engine": "espeak",
+    "voice_id": "bat",
+    "path": "data/lv/audio/lv-Latn_espeak_bat_lv.wav"
+  },
+  {
+    "engine": "sherpaonnx",
+    "voice_id": "mms",
+    "path": "data/lv/audio/lv-Latn_sherpaonnx_mms_lav.wav"
+  },
+  {
+    "engine": "microsoft",
+    "voice_id": "lv",
+    "path": "data/lv/audio/lv-Latn_microsoft_lv_lv_everitaneural.wav"
+  }
+]

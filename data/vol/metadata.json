@@ -1,0 +1,21 @@
+{
+  "language": "vol",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "vol/alphabet/vol-Latn.json",
+      "letter_count": 27,
+      "updated": "2025-11-12T09:18:13.672703Z"
+    },
+    "frequency_top1000": {
+      "file": "vol/frequency/top1000.txt",
+      "token_count": 45,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:37:43.216873Z"
+    }
+  },
+  "language_name": "Volapük",
+  "iso639_1": "vo",
+  "iso639_3": "vol"
+}

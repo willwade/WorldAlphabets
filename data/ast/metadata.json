@@ -1,0 +1,25 @@
+{
+  "language": "ast",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "ast/alphabet/ast-Latn.json",
+      "letter_count": 32,
+      "updated": "2025-11-12T09:08:41.472211Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "ast/alphabet/ast-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "ast/frequency/top1000.txt",
+      "token_count": 69,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:21:12.186893Z"
+    }
+  },
+  "language_name": "Asturian",
+  "iso639_3": "ast"
+}

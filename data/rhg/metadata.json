@@ -1,0 +1,32 @@
+{
+  "language": "rhg",
+  "sections": {
+    "alphabet": {
+      "script": "Rohg",
+      "file": "rhg/alphabet/rhg-Rohg.json",
+      "letter_count": 35,
+      "updated": "2025-11-12T09:16:04.280053Z"
+    },
+    "alphabet_Rohg": {
+      "script": "Rohg",
+      "file": "rhg/alphabet/rhg-Rohg.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "rhg/frequency/top1000.txt",
+      "token_count": 115,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:33:35.031740Z"
+    }
+  },
+  "missing_scripts": [
+    {
+      "script": "Latn",
+      "reason": "No CLDR or fallback data",
+      "timestamp": "2025-11-12T09:16:03.930074Z"
+    }
+  ],
+  "language_name": "Rohingya",
+  "iso639_3": "rhg"
+}

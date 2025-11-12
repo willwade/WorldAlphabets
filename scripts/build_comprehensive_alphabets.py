@@ -21,13 +21,20 @@ from urllib.error import HTTPError
 
 import langcodes
 import requests
+import sys
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from scripts.lib.data_layout import RepoDataLayout  # noqa: E402
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 try:
-    from icu import Collator, Locale  # type: ignore[import-not-found]
+    from icu import Collator, Locale  # type: ignore[import-not-found,import-untyped]
 except ImportError:
     logger.warning("PyICU not available, falling back to basic sorting")
     Collator = None
@@ -66,7 +73,7 @@ FALLBACK_ALPHABETS = {
 }
 
 class AlphabetBuilder:
-    def __init__(self) -> None:
+    def __init__(self, skip_existing: bool = False) -> None:
         self.unigrams_dir = Path("external/unigrams")
         self.unigrams_zip = self.unigrams_dir / "unigrams.zip"
         self.stats: Dict[str, Any] = {
@@ -77,6 +84,8 @@ class AlphabetBuilder:
             "fallback_used": 0,
             "errors": [],
         }
+        self.data_layout = RepoDataLayout()
+        self.skip_existing = skip_existing
 
     def download_unigrams(self) -> None:
         """Download and extract the unigrams dataset if needed."""
@@ -253,70 +262,123 @@ class AlphabetBuilder:
             return list(alphabet_str)
         return None
 
+    def _alphabet_exists(self, language: str, script: str) -> bool:
+        candidate_paths = [
+            self.data_layout.alphabet_path(language, script),
+            self.data_layout.legacy_alphabet_dir() / f"{language}-{script}.json",
+        ]
+        return any(path.exists() for path in candidate_paths)
+
     def build_alphabet(self, language: str, script: str) -> Optional[Dict]:
         """Build alphabet data for a language-script combination."""
         self.stats["total_processed"] += 1
-        locale = f"{language}-{script}"
-        
-        logger.info(f"Processing {locale}")
-        
-        # Try CLDR first
-        url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
-        resp = requests.get(url, timeout=30)
-        
-        if resp.status_code == 404:
-            # Try without script
-            try:
-                default_script = langcodes.get(language).maximize().script
-                if script != default_script:
-                    logger.debug(f"No CLDR data for {locale}, trying fallback")
-                    fallback_letters = self.get_fallback_alphabet(language, script)
-                    if fallback_letters:
-                        self.stats["fallback_used"] += 1
-                        return self._build_from_letters(language, script, fallback_letters, None, [])
-                    self.stats["cldr_missing"] += 1
-                    return None
-                
-                locale = language
-                url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
-                resp = requests.get(url, timeout=30)
-            except Exception as e:
-                logger.warning(f"Error getting default script for {language}: {e}")
-        
-        if resp.status_code == 404:
-            logger.debug(f"No CLDR data for {locale}")
-            fallback_letters = self.get_fallback_alphabet(language, script)
-            if fallback_letters:
-                self.stats["fallback_used"] += 1
-                return self._build_from_letters(language, script, fallback_letters, None, [])
-            self.stats["cldr_missing"] += 1
+        if self.skip_existing and self._alphabet_exists(language, script):
+            logger.info(f"Skipping {language}-{script} (already exists)")
             return None
-        
+
+        logger.info(f"Processing {language}-{script}")
+
         try:
-            resp.raise_for_status()
-            data = resp.json()["main"][locale]["characters"]
-            exemplar = data["exemplarCharacters"]
-            letters = set(self.parse_exemplars(exemplar))
+            lang_obj = langcodes.get(language)
+            base_tag = lang_obj.to_tag()
+        except Exception:
+            lang_obj = None
+            base_tag = language
 
-            if not letters:
-                logger.warning(f"No exemplar data for {locale}")
-                return None
+        candidate_locales: List[str] = []
+        if script:
+            candidate_locales.append(
+                langcodes.standardize_tag(f"{base_tag}-{script}")
+            )
+        candidate_locales.append(langcodes.standardize_tag(base_tag))
 
-            # Extract digits if available
-            digits = []
-            if "numbers" in data:
-                digits = self.parse_numbers(data["numbers"])
+        for locale in candidate_locales:
+            url = f"{CLDR_BASE}/cldr-misc-full/main/{locale}/characters.json"
+            try:
+                resp = requests.get(url, timeout=30)
+            except requests.RequestException as exc:
+                logger.warning(f"CLDR request failed for {locale}: {exc}")
+                continue
 
-            return self._build_from_letters(language, script, list(letters), data, digits)
-            
-        except Exception as e:
-            logger.error(f"Error processing {locale}: {e}")
-            self.stats["errors"].append(f"{locale}: {e}")
-            return None
+            if resp.status_code == 404:
+                continue
 
-    def _build_from_letters(self, language: str, script: str, letters: List[str], cldr_data: Optional[Dict] = None, digits: Optional[List[str]] = None) -> Dict:
+            try:
+                resp.raise_for_status()
+                data = resp.json()["main"][locale]["characters"]
+                exemplar = data["exemplarCharacters"]
+                letters = set(self.parse_exemplars(exemplar))
+
+                if not letters:
+                    logger.warning(f"No exemplar data for {locale}")
+                    continue
+
+                locale_script = ""
+                try:
+                    locale_script = (
+                        langcodes.get(locale).maximize().script or ""
+                    )
+                except Exception:
+                    locale_script = ""
+
+                if script and locale_script and locale_script.lower() != script.lower():
+                    logger.debug(
+                        "Locale %s uses script %s (requested %s) - skipping",
+                        locale,
+                        locale_script,
+                        script,
+                    )
+                    continue
+
+                digits = []
+                if "numbers" in data:
+                    digits = self.parse_numbers(data["numbers"])
+
+                return self._build_from_letters(
+                    language,
+                    script,
+                    list(letters),
+                    data,
+                    digits,
+                    source_tags=[f"CLDR characters ({locale})"],
+                )
+            except Exception as exc:
+                logger.error(f"Error processing {locale}: {exc}")
+                self.stats["errors"].append(f"{locale}: {exc}")
+                continue
+
+        fallback_letters = self.get_fallback_alphabet(language, script)
+        if fallback_letters:
+            logger.debug(f"No CLDR data for {language}-{script}, using fallback")
+            self.stats["fallback_used"] += 1
+            return self._build_from_letters(
+                language,
+                script,
+                fallback_letters,
+                None,
+                [],
+                source_tags=["fallbacks.json"],
+            )
+
+        logger.debug(f"No CLDR or fallback data for {language}-{script}")
+        self.stats["cldr_missing"] += 1
+        self.data_layout.record_missing_script(
+            language, script, "No CLDR or fallback data"
+        )
+        return None
+
+    def _build_from_letters(
+        self,
+        language: str,
+        script: str,
+        letters: List[str],
+        cldr_data: Optional[Dict] = None,
+        digits: Optional[List[str]] = None,
+        source_tags: Optional[List[str]] = None,
+    ) -> Dict:
         """Build alphabet data from a list of letters."""
         locale = f"{language}-{script}"
+        sources = list(source_tags or [])
 
         if language in TONE_MARK_LANGS:
             letters = [strip_tone_marks(ch) for ch in letters]
@@ -404,6 +466,7 @@ class AlphabetBuilder:
                 "lowercase": lower_sorted,
                 "frequency": freq,
                 "script": script,
+                "sources": sources or ["unknown"],
             }
 
             # Add digits if available
@@ -418,11 +481,13 @@ class AlphabetBuilder:
             logger.warning(f"Error getting language info for {language}: {e}")
             result = {
                 "language": language,
+                "iso639_3": language,
                 "alphabetical": alphabetical,
                 "uppercase": upper_sorted,
                 "lowercase": lower_sorted,
                 "frequency": freq,
                 "script": script,
+                "sources": sources or ["unknown"],
             }
 
             # Add digits if available
@@ -432,25 +497,72 @@ class AlphabetBuilder:
         self.stats["successful"] += 1
         return result
 
+    def _load_existing_alphabet(self, language: str, script: str) -> Optional[Dict[str, Any]]:
+        """Return existing alphabet data from either layout (new or legacy)."""
+        candidates = [
+            self.data_layout.alphabet_path(language, script),
+            self.data_layout.legacy_alphabet_dir() / f"{language}-{script}.json",
+        ]
+        for candidate in candidates:
+            if candidate.exists():
+                try:
+                    return json.loads(candidate.read_text(encoding="utf-8"))
+                except Exception as exc:  # pragma: no cover - guardrail
+                    logger.warning("Error reading %s: %s", candidate, exc)
+        return None
+
     def save_alphabet(self, language: str, script: str, data: Dict) -> None:
         """Save alphabet data to JSON file."""
-        out_path = Path("data/alphabets") / f"{language}-{script}.json"
-        
-        # Preserve existing translations if they exist
-        if out_path.exists():
-            try:
-                existing = json.loads(out_path.read_text(encoding="utf-8"))
-                if "hello_how_are_you" in existing:
-                    data["hello_how_are_you"] = existing["hello_how_are_you"]
-            except Exception as e:
-                logger.warning(f"Error reading existing file {out_path}: {e}")
 
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2),
-            encoding="utf-8",
+        target_path = self.data_layout.alphabet_path(language, script)
+        self.data_layout.ensure_section(language, "alphabet")
+
+        # Preserve translations if they exist in either layout
+        existing = self._load_existing_alphabet(language, script)
+        if existing and "hello_how_are_you" in existing:
+            data["hello_how_are_you"] = existing["hello_how_are_you"]
+
+        payload = json.dumps(data, ensure_ascii=False, indent=2)
+        target_path.write_text(payload, encoding="utf-8")
+
+        # Maintain legacy flat copy for backwards compatibility during transition
+        legacy_dir = self.data_layout.legacy_alphabet_dir()
+        legacy_dir.mkdir(parents=True, exist_ok=True)
+        legacy_path = legacy_dir / f"{language}-{script}.json"
+        legacy_path.write_text(payload, encoding="utf-8")
+
+        rel_path = target_path.relative_to(self.data_layout.root)
+        letter_count = len(data.get("lowercase", []))
+
+        language_info = {
+            "code": language.lower(),
+            "name": data.get("language"),
+            "iso639_1": data.get("iso639_1"),
+            "iso639_3": data.get("iso639_3", language.lower()),
+        }
+
+        self.data_layout.update_metadata(
+            language,
+            "alphabet",
+            {
+                "script": script,
+                "file": str(rel_path),
+                "letter_count": letter_count,
+            },
+            language_info=language_info,
         )
-        logger.info(f"Wrote {out_path}")
+        self.data_layout.append_source_entry(
+            language,
+            "alphabet",
+            "Alphabet generated",
+            {
+                "script": script,
+                "letters": letter_count,
+                "sources": ", ".join(data.get("sources", [])),
+            },
+        )
+
+        logger.info("Wrote %s (and legacy copy %s)", target_path, legacy_path)
 
     def print_stats(self) -> None:
         """Print collection statistics."""
@@ -477,13 +589,18 @@ def main() -> None:
     parser.add_argument("script", nargs="?", help="ISO 15924 code")
     parser.add_argument("--manifest", help="JSON file mapping languages to script codes")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose logging")
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help="Skip languages that already have alphabet files",
+    )
     
     args = parser.parse_args()
     
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    builder = AlphabetBuilder()
+    builder = AlphabetBuilder(skip_existing=args.skip_existing)
     
     if args.manifest:
         mapping = json.loads(Path(args.manifest).read_text(encoding="utf-8"))

@@ -1,0 +1,20 @@
+{
+  "language": "ibo",
+  "sections": {
+    "frequency_top1000": {
+      "file": "ibo/frequency/top1000.txt",
+      "token_count": 42,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:26:45.747168Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "legacy_copy",
+      "updated": "2025-11-12T10:15:55.310855Z"
+    }
+  },
+  "language_name": "Igbo",
+  "iso639_1": "ig",
+  "iso639_3": "ibo"
+}

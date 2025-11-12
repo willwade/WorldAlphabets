@@ -1,0 +1,33 @@
+{
+  "language": "mlt",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "mlt/alphabet/mlt-Latn.json",
+      "letter_count": 33,
+      "updated": "2025-11-12T09:14:14.458057Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "mlt/alphabet/mlt-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mlt/frequency/top1000.txt",
+      "token_count": 33,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:31:19.159901Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "mt",
+      "cached": false,
+      "updated": "2025-11-12T10:37:46.284734Z"
+    }
+  },
+  "language_name": "Maltese",
+  "iso639_1": "mt",
+  "iso639_3": "mlt"
+}

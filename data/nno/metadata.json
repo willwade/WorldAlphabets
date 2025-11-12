@@ -1,0 +1,26 @@
+{
+  "language": "nno",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "nno/alphabet/nno-Latn.json",
+      "letter_count": 34,
+      "updated": "2025-11-12T09:14:57.832628Z"
+    },
+    "alphabet_Latn": {
+      "script": "Latn",
+      "file": "nno/alphabet/nno-Latn.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "nno/frequency/top1000.txt",
+      "token_count": 45,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:32:07.585081Z"
+    }
+  },
+  "language_name": "Norwegian Nynorsk",
+  "iso639_1": "nn",
+  "iso639_3": "nno"
+}

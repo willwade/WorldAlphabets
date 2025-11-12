@@ -1,0 +1,33 @@
+{
+  "language": "mkd",
+  "sections": {
+    "alphabet": {
+      "script": "Cyrl",
+      "file": "mkd/alphabet/mkd-Cyrl.json",
+      "letter_count": 31,
+      "updated": "2025-11-12T09:14:12.387834Z"
+    },
+    "alphabet_Cyrl": {
+      "script": "Cyrl",
+      "file": "mkd/alphabet/mkd-Cyrl.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mkd/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:31:01.698433Z"
+    },
+    "translation_Cyrl": {
+      "script": "Cyrl",
+      "source": "google_translate",
+      "target": "mk",
+      "cached": false,
+      "updated": "2025-11-12T10:37:45.930630Z"
+    }
+  },
+  "language_name": "Macedonian",
+  "iso639_1": "mk",
+  "iso639_3": "mkd"
+}

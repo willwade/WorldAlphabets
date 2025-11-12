@@ -1,0 +1,33 @@
+{
+  "language": "mal",
+  "sections": {
+    "alphabet": {
+      "script": "Mlym",
+      "file": "mal/alphabet/mal-Mlym.json",
+      "letter_count": 49,
+      "updated": "2025-11-12T09:13:56.969855Z"
+    },
+    "alphabet_Mlym": {
+      "script": "Mlym",
+      "file": "mal/alphabet/mal-Mlym.json",
+      "updated": "1970-01-01T00:00:00Z"
+    },
+    "frequency_top1000": {
+      "file": "mal/frequency/top1000.txt",
+      "token_count": 1000,
+      "mode": "word",
+      "source": "HermitDave",
+      "updated": "2025-11-12T09:31:02.792466Z"
+    },
+    "translation_Mlym": {
+      "script": "Mlym",
+      "source": "google_translate (cache)",
+      "target": "ml",
+      "cached": true,
+      "updated": "2025-11-12T10:37:45.754183Z"
+    }
+  },
+  "language_name": "Malayalam",
+  "iso639_1": "ml",
+  "iso639_3": "mal"
+}

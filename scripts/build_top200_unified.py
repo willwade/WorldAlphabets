@@ -13,8 +13,11 @@ Priority order for maximum coverage:
 2. HermitDave FrequencyWords - OpenSubtitles/Wikipedia sources
 3. CommonVoice - Speech transcriptions for 130+ languages
 4. Tatoeba sentences - Great for under-resourced languages
-5. Existing alphabet frequency data - Character-level fallback
-6. Simia unigrams - CJK character data
+5. Wiktionary-derived frequency tables
+6. Leipzig "new100" / Starling lexicon dumps
+7. Legacy Top-1000 cache (pre-refactor data)
+8. Existing alphabet frequency data - Character-level fallback
+9. Simia unigrams - CJK character data
 
 Usage:
     uv run python scripts/build_top200_unified.py --all
@@ -35,12 +38,19 @@ from urllib.error import HTTPError
 
 import requests
 from bs4 import BeautifulSoup
+import sys
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from scripts.lib.data_layout import RepoDataLayout  # noqa: E402
 
 # Import existing modular components where possible
 try:
-    from scripts.build_top200.tokenize import char_bigrams, word_tokens
-    from scripts.build_top200.normalize import normalize_token
-    from scripts.build_top200.sources import load_hermitdave
+    from scripts.build_top200.tokenize import char_bigrams, word_tokens  # type: ignore[import-untyped]
+    from scripts.build_top200.normalize import normalize_token  # type: ignore[import-untyped]
+    from scripts.build_top200.sources import load_hermitdave  # type: ignore[import-untyped]
 except ImportError:
     # Fallback implementations if modular system not available
     def char_bigrams(text: str) -> List[str]:
@@ -67,6 +77,29 @@ except ImportError:
 
 
 USER_AGENT = "WorldAlphabets/1.0 (https://github.com/willwade/WorldAlphabets)"
+DATA_LAYOUT = RepoDataLayout()
+
+
+def resolve_language_codes(lang_code: str) -> Dict[str, Optional[str] | List[str]]:
+    """Return canonical/ISO code variants for the provided language code."""
+    info = DATA_LAYOUT.get_language_info(lang_code)
+    canonical = DATA_LAYOUT.canonical_code(lang_code)
+    iso3 = (info.get("iso639_3") or canonical or "").lower()
+    iso1 = (info.get("iso639_1") or "").lower() or None
+
+    variants: List[str] = []
+    for code in [lang_code, canonical, iso3, iso1]:
+        if code:
+            lower = code.lower()
+            if lower not in variants:
+                variants.append(lower)
+
+    return {
+        "canonical": canonical,
+        "iso3": iso3 or None,
+        "iso1": iso1,
+        "variants": variants,
+    }
 
 
 def is_cjk_language(lang_code: str) -> bool:
@@ -83,6 +116,22 @@ def tokenize_bigrams(text: str) -> List[str]:
 def tokenize_words(text: str) -> List[str]:
     """Tokenize text into words."""
     return word_tokens(text)
+
+
+def _read_frequency_file(path: Path, limit: int = 1000) -> List[str]:
+    """Read a frequency file (token [count]) and return up to ``limit`` tokens."""
+    tokens: List[str] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            token = line.split()[0]
+            if token:
+                tokens.append(token)
+            if len(tokens) >= limit:
+                break
+    return tokens
 
 
 def _is_word(token: str) -> bool:
@@ -253,71 +302,63 @@ class LeipzigClient:
         return fallbacks
 
 
-def get_iso639_3_code(lang_code: str) -> Optional[str]:
-    """Map language code to ISO 639-3 using the index."""
-    try:
-        index_path = Path("data/index.json")
-        if not index_path.exists():
-            return None
-
-        with open(index_path, "r", encoding="utf-8") as f:
-            index_data = json.load(f)
-
-        for entry in index_data:
-            if entry.get("language") == lang_code:
-                return entry.get("iso639_3")
-
-        return None
-    except Exception:
-        return None
-
-
-def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_leipzig_words(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
     """Fetch high-quality frequency data from Leipzig Corpora Collection using dynamic catalogue."""
-    # Get ISO 639-3 code for Leipzig lookup
-    iso3 = get_iso639_3_code(lang_code)
-    if not iso3:
+    variants = code_variants or [lang_code]
+    iso3_candidates = [code for code in variants if len(code) == 3]
+    if not iso3_candidates:
         return None
 
     # Initialize client with cache
     cache_dir = Path(".leipzig_cache")
     client = LeipzigClient(cache_dir)
 
-    # Get available corpora for this language
     catalogue = client.get_catalogue()
-    corpora = catalogue.get(iso3, [])
-    if not corpora:
-        return None
 
-    # Choose best corpus
-    corpus_id = client.choose_corpus(corpora)
-    if not corpus_id:
-        return None
-
-    # Try to download and extract with fallbacks
-    tried_corpora = []
-    for attempt_corpus_id in [corpus_id] + client.generate_fallback_corpus_ids(iso3, corpus_id):
-        if attempt_corpus_id in tried_corpora:
+    for iso3 in iso3_candidates:
+        corpora = catalogue.get(iso3, [])
+        if not corpora:
             continue
-        tried_corpora.append(attempt_corpus_id)
 
-        try:
-            archive = client.download_corpus(attempt_corpus_id)
-            if not archive:
-                continue  # 404, try next
-
-            words = client.extract_words(archive, limit)
-            if words:
-                print(f"  Leipzig: {len(words)} words from {attempt_corpus_id}")
-                return words
-        except Exception:
+        corpus_id = client.choose_corpus(corpora)
+        if not corpus_id:
             continue
+
+        tried_corpora: List[str] = []
+        for attempt_corpus_id in [corpus_id] + client.generate_fallback_corpus_ids(
+            iso3, corpus_id
+        ):
+            if attempt_corpus_id in tried_corpora:
+                continue
+            tried_corpora.append(attempt_corpus_id)
+
+            try:
+                archive = client.download_corpus(attempt_corpus_id)
+                if not archive:
+                    continue  # 404, try next
+
+                words = client.extract_words(archive, limit)
+                if words:
+                    print(
+                        f"  Leipzig: {len(words)} words from {attempt_corpus_id} (code={iso3})"
+                    )
+                    return words
+            except Exception:
+                continue
 
     return None
 
 
 # Priority 2: HermitDave FrequencyWords
-def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_hermitdave_words(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
     """Fetch from HermitDave FrequencyWords repository.
 
     Tries multiple file patterns in order of preference:
@@ -333,38 +374,50 @@ def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> Optional[List[s
         f"{lang_code}.txt",  # Basic list
     ]
 
-    for filename in filename_patterns:
-        try:
-            url = f"https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/{lang_code}/{filename}"
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    variants = code_variants or [lang_code]
 
-            with urllib.request.urlopen(req) as resp:
-                text = resp.read().decode("utf-8", errors="ignore")
+    for code in variants:
+        for filename in filename_patterns:
+            try:
+                url = f"https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/{code}/{filename}"
+                req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
 
-            words = []
-            for line in text.splitlines()[:limit]:
-                parts = line.split()
-                if parts:
-                    words.append(parts[0])
+                with urllib.request.urlopen(req) as resp:
+                    text = resp.read().decode("utf-8", errors="ignore")
 
-            if words:
-                print(f"  HermitDave: {len(words)} words from {filename}")
-                return words
+                words = []
+                for line in text.splitlines():
+                    line = line.strip()
+                    if not line:
+                        continue
+                    parts = line.split()
+                    if parts:
+                        words.append(parts[0])
+                    if len(words) >= limit:
+                        break
 
-        except HTTPError as e:
-            if e.code == 404:
+                if words:
+                    print(f"  HermitDave: {len(words)} words from {filename} (code={code})")
+                    return words
+
+            except HTTPError as e:
+                if e.code == 404:
+                    continue  # Try next filename pattern
+                else:
+                    print(f"  HermitDave HTTP {e.code} for {filename} (code={code})")
+            except Exception as e:
+                print(f"  HermitDave error for {filename} (code={code}): {e}")
                 continue  # Try next filename pattern
-            else:
-                print(f"  HermitDave HTTP {e.code} for {filename}")
-        except Exception as e:
-            print(f"  HermitDave error for {filename}: {e}")
-            continue  # Try next filename pattern
 
     return None
 
 
-# Priority 3: Tatoeba sentences
-def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+# Priority 4: Tatoeba sentences
+def fetch_tatoeba_sentences(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
     """Fetch from Tatoeba sentences and extract top words."""
     # Tatoeba language code mappings (ISO 639-3)
     tatoeba_mappings = {
@@ -434,61 +487,69 @@ def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[
         "jbo": "jbo",
     }
 
-    tatoeba_code = tatoeba_mappings.get(lang_code, lang_code)
+    variants = code_variants or [lang_code]
 
-    try:
-        # Get sentences using the search API
-        url = f"https://tatoeba.org/en/api_v0/search?from={tatoeba_code}&query=&sort=random&limit=500"
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    candidate_codes: List[str] = []
+    for variant in variants:
+        mapped = tatoeba_mappings.get(variant, variant)
+        if mapped not in candidate_codes:
+            candidate_codes.append(mapped)
 
-        with urllib.request.urlopen(req) as resp:
-            import json
+    for tatoeba_code in candidate_codes:
+        try:
+            url = f"https://tatoeba.org/en/api_v0/search?from={tatoeba_code}&query=&sort=random&limit=500"
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
 
-            data = json.loads(resp.read().decode("utf-8"))
+            with urllib.request.urlopen(req) as resp:
+                import json
 
-        # Extract sentences from API response - filter by correct language
-        sentences = []
-        if "results" in data:
-            for result in data["results"]:
-                if "text" in result and "lang" in result:
-                    # Only include sentences in the target language
-                    if result["lang"] == tatoeba_code:
-                        sentence = result["text"].strip()
-                        if sentence and len(sentence) > 5:  # Skip very short sentences
-                            sentences.append(sentence)
+                data = json.loads(resp.read().decode("utf-8"))
 
-        if not sentences:
-            return None
+            sentences = []
+            if "results" in data:
+                for result in data["results"]:
+                    if "text" in result and "lang" in result:
+                        if result["lang"] == tatoeba_code:
+                            sentence = result["text"].strip()
+                            if sentence and len(sentence) > 5:
+                                sentences.append(sentence)
 
-        # Tokenize all sentences and count word frequencies
-        use_bigrams = is_cjk_language(lang_code)
-        word_counts: Counter[str] = Counter()
+            if not sentences:
+                continue
 
-        for sentence in sentences:
-            if use_bigrams:
-                tokens = tokenize_bigrams(sentence)
-            else:
-                tokens = tokenize_words(sentence)
-            word_counts.update(tokens)
+            use_bigrams = is_cjk_language(lang_code)
+            word_counts: Counter[str] = Counter()
 
-        # Get top words
-        top_words = [word for word, count in word_counts.most_common(limit)]
+            for sentence in sentences:
+                if use_bigrams:
+                    tokens = tokenize_bigrams(sentence)
+                else:
+                    tokens = tokenize_words(sentence)
+                word_counts.update(tokens)
 
-        if top_words:
-            print(f"  Tatoeba: {len(top_words)} tokens from {len(sentences)} sentences")
-            return top_words
+            top_words = [word for word, count in word_counts.most_common(limit)]
 
-    except HTTPError as e:
-        if e.code != 404:
-            print(f"  Tatoeba HTTP {e.code} for {tatoeba_code}")
-    except Exception as e:
-        print(f"  Tatoeba error for {tatoeba_code}: {e}")
+            if top_words:
+                print(
+                    f"  Tatoeba: {len(top_words)} tokens from {len(sentences)} sentences (code={tatoeba_code})"
+                )
+                return top_words
+
+        except HTTPError as e:
+            if e.code != 404:
+                print(f"  Tatoeba HTTP {e.code} for {tatoeba_code}")
+        except Exception as e:
+            print(f"  Tatoeba error for {tatoeba_code}: {e}")
 
     return None
 
 
 # Priority 3: CommonVoice speech transcriptions
-def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_commonvoice_words(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
     """
     Fetch word frequencies from CommonVoice transcriptions.
 
@@ -497,78 +558,80 @@ def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> Optional[List[
     """
     import csv
 
-    cache_dir = Path(".cache/commonvoice") / lang_code
+    variants = code_variants or [lang_code]
 
-    if not cache_dir.exists():
-        return None
+    for code in variants:
+        cache_dir = Path(".cache/commonvoice") / code
 
-    # Find validated.tsv file
-    tsv_path = cache_dir / "validated.tsv"
+        if not cache_dir.exists():
+            continue
 
-    if not tsv_path.exists():
-        # Try in subdirectory (CommonVoice extracts to cv-corpus-*/)
-        subdirs = list(cache_dir.glob("cv-corpus-*"))
-        if subdirs:
-            tsv_path = subdirs[0] / lang_code / "validated.tsv"
+        tsv_path = cache_dir / "validated.tsv"
 
-    if not tsv_path.exists():
-        return None
+        if not tsv_path.exists():
+            subdirs = list(cache_dir.glob("cv-corpus-*"))
+            if subdirs:
+                tsv_path = subdirs[0] / code / "validated.tsv"
 
-    try:
-        # Read transcriptions from TSV
-        transcriptions = []
-        with open(tsv_path, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f, delimiter="\t")
-            for row in reader:
-                text = row.get("sentence", "").strip()
-                if text:
-                    transcriptions.append(text)
+        if not tsv_path.exists():
+            continue
 
-        if not transcriptions:
-            return None
+        try:
+            transcriptions = []
+            with open(tsv_path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                for row in reader:
+                    text = row.get("sentence", "").strip()
+                    if text:
+                        transcriptions.append(text)
 
-        # Tokenize and count word frequencies
-        use_bigrams = is_cjk_language(lang_code)
-        word_counts: Counter[str] = Counter()
+            if not transcriptions:
+                continue
 
-        for text in transcriptions:
-            if use_bigrams:
-                tokens = tokenize_bigrams(text)
-            else:
-                tokens = tokenize_words(text)
-                # Filter out non-words (punctuation, etc.)
-                tokens = [t for t in tokens if _is_word(t)]
-            word_counts.update(tokens)
+            use_bigrams = is_cjk_language(lang_code)
+            word_counts: Counter[str] = Counter()
 
-        # Get top words
-        top_words = [word for word, count in word_counts.most_common(limit)]
+            for text in transcriptions:
+                if use_bigrams:
+                    tokens = tokenize_bigrams(text)
+                else:
+                    tokens = tokenize_words(text)
+                    tokens = [t for t in tokens if _is_word(t)]
+                word_counts.update(tokens)
 
-        if top_words:
-            print(f"  CommonVoice: {len(top_words)} tokens from {len(transcriptions)} transcriptions")
-            return top_words
+            top_words = [word for word, count in word_counts.most_common(limit)]
 
-    except Exception as e:
-        print(f"  CommonVoice error for {lang_code}: {e}")
+            if top_words:
+                print(
+                    f"  CommonVoice: {len(top_words)} tokens from {len(transcriptions)} transcriptions (code={code})"
+                )
+                return top_words
+
+        except Exception as e:
+            print(f"  CommonVoice error for {code}: {e}")
 
     return None
 
 
-# Priority 5: Existing alphabet frequency data
+# Priority 8: Existing alphabet frequency data
 def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
     """Load character frequencies from existing alphabet data."""
     try:
-        # Try to load from existing alphabet JSON files
-        alphabet_dir = Path("data/alphabets")
-        if not alphabet_dir.exists():
-            return None
+        candidates: List[Path] = []
 
-        # Look for alphabet files for this language
-        alphabet_files = list(alphabet_dir.glob(f"{lang_code}-*.json"))
-        if not alphabet_files:
+        new_dir = DATA_LAYOUT.alphabet_dir(lang_code)
+        if new_dir.exists():
+            candidates.extend(new_dir.glob(f"{lang_code}-*.json"))
+
+        legacy_dir = DATA_LAYOUT.legacy_alphabet_dir()
+        if legacy_dir.exists():
+            candidates.extend(legacy_dir.glob(f"{lang_code}-*.json"))
+
+        if not candidates:
             return None
 
         # Try the first available alphabet file
-        alphabet_file = alphabet_files[0]
+        alphabet_file = candidates[0]
         with open(alphabet_file, "r", encoding="utf-8") as f:
             import json
 
@@ -595,7 +658,7 @@ def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> Optional[Lis
     return None
 
 
-# Priority 5: Simia unigrams (CJK fallback)
+# Priority 9: Simia unigrams (CJK fallback)
 def load_simia_unigrams(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
     """Load character data from Simia unigrams for CJK languages."""
     if not is_cjk_language(lang_code):
@@ -635,6 +698,118 @@ def load_simia_unigrams(lang_code: str, limit: int = 1000) -> Optional[List[str]
     return None
 
 
+# Priority 5: Wiktionary scraped tables
+def load_wiktionary_frequency(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
+    """Load frequency lists scraped from Wiktionary (if available locally)."""
+    base_dir = Path("data/sources/wiktionary")
+    if not base_dir.exists():
+        return None
+
+    variants = code_variants or [lang_code]
+    for code in variants:
+        txt_path = base_dir / f"{code}.txt"
+        csv_path = base_dir / f"{code}.csv"
+
+        if txt_path.exists():
+            tokens = _read_frequency_file(txt_path, limit)
+            if tokens:
+                print(f"  Wiktionary: {len(tokens)} tokens from {txt_path.name}")
+                return tokens
+
+        if csv_path.exists():
+            import csv
+
+            tokens: List[str] = []
+            with open(csv_path, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if not row:
+                        continue
+                    token = row[0].strip()
+                    if token:
+                        tokens.append(token)
+                    if len(tokens) >= limit:
+                        break
+            if tokens:
+                print(f"  Wiktionary: {len(tokens)} tokens from {csv_path.name}")
+                return tokens
+
+    return None
+
+
+# Priority 6: Leipzig new100 (Starling)
+def load_leipzig_new100(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
+    """Load manually downloaded Leipzig new100 datasets (Starling) if present."""
+    base_dir = Path("data/sources/starling/new100")
+    if not base_dir.exists():
+        return None
+
+    variants = code_variants or [lang_code]
+    for code in variants:
+        txt_path = base_dir / f"{code}.txt"
+        csv_path = base_dir / f"{code}.csv"
+
+        candidate = txt_path if txt_path.exists() else csv_path if csv_path.exists() else None
+        if not candidate:
+            continue
+
+        if candidate.suffix.lower() == ".csv":
+            import csv
+
+            tokens: List[str] = []
+            with open(candidate, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if not row:
+                        continue
+                    token = row[0].strip()
+                    if token:
+                        tokens.append(token)
+                    if len(tokens) >= limit:
+                        break
+        else:
+            tokens = _read_frequency_file(candidate, limit)
+
+        if tokens:
+            print(
+                f"  Leipzig-new100: {len(tokens)} tokens from {candidate.name} (code={code})"
+            )
+            return tokens
+
+    return None
+
+
+# Priority 7: Legacy cache fallback
+def load_legacy_top1000(
+    lang_code: str,
+    code_variants: Optional[List[str]] = None,
+    limit: int = 1000,
+) -> Optional[List[str]]:
+    """Load legacy Top-1000 lists stored under dontcommit/originaldata."""
+    legacy_dir = Path("dontcommit/originaldata/freq/top1000")
+    if not legacy_dir.exists():
+        return None
+
+    variants = code_variants or [lang_code]
+    for code in variants:
+        candidate = legacy_dir / f"{code}.txt"
+        if candidate.exists():
+            tokens = _read_frequency_file(candidate, limit)
+            if tokens:
+                print(f"  LegacyCache: {len(tokens)} tokens from {candidate.name}")
+                return tokens
+
+    return None
+
+
 def generate_bigrams(text: str, limit: int = 1000) -> List[str]:
     """Generate bigrams from text with frequency counting."""
     bigram_counts = Counter(tokenize_bigrams(text))
@@ -642,34 +817,50 @@ def generate_bigrams(text: str, limit: int = 1000) -> List[str]:
 
 
 def build_top1000_unified(
-    lang_code: str, output_dir: Path, force: bool = False
+    lang_code: str, legacy_output_dir: Path, force: bool = False
 ) -> Tuple[bool, str]:
-    """Build Top-1000 list using unified 6-priority approach."""
-    print(f"Building Top-1000 for {lang_code} (unified approach)...")
+    """Build Top-1000 list using unified 9-priority approach."""
+    code_info = resolve_language_codes(lang_code)
+    canonical = code_info["canonical"]
+    variants = code_info["variants"] or [canonical]
+    display_aliases = ", ".join(code for code in variants if code != canonical)
 
-    output_file = output_dir / f"{lang_code}.txt"
-    if output_file.exists() and not force:
-        print(f"  File already exists: {output_file}")
+    if display_aliases:
+        print(
+            f"Building Top-1000 for {canonical} (aliases: {display_aliases}) (unified approach)..."
+        )
+    else:
+        print(f"Building Top-1000 for {canonical} (unified approach)...")
+
+    new_output_file = DATA_LAYOUT.frequency_path(canonical)
+    legacy_filename = code_info["iso1"] or canonical
+    legacy_output_file = legacy_output_dir / f"{legacy_filename}.txt"
+
+    if (new_output_file.exists() or legacy_output_file.exists()) and not force:
+        existing_path = (
+            new_output_file if new_output_file.exists() else legacy_output_file
+        )
+        print(f"  File already exists: {existing_path}")
         return True, "Existing"
 
-    use_bigrams = is_cjk_language(lang_code)
-    tokens = None
+    use_bigrams = is_cjk_language(canonical)
+    tokens: Optional[List[str]] = None
     source_used = "Unknown"
 
     # Priority 1: Leipzig Corpora Collection
-    tokens = fetch_leipzig_words(lang_code, 1000)
+    tokens = fetch_leipzig_words(canonical, variants, 1000)
     if tokens:
         source_used = "Leipzig"
 
     # Priority 2: HermitDave FrequencyWords
     if not tokens:
-        words = fetch_hermitdave_words(lang_code, 1000 if not use_bigrams else 2000)
+        words = fetch_hermitdave_words(
+            canonical, variants, 1000 if not use_bigrams else 2000
+        )
         if words:
-            if use_bigrams and lang_code.startswith("zh"):
-                # Chinese words are often characters/phrases, use directly
+            if use_bigrams and canonical.startswith("zh"):
                 tokens = words[:1000]
             elif use_bigrams:
-                # Generate bigrams from text
                 text = "".join(words)
                 bigram_counts = Counter(tokenize_bigrams(text))
                 tokens = [bigram for bigram, _ in bigram_counts.most_common(1000)]
@@ -679,35 +870,50 @@ def build_top1000_unified(
 
     # Priority 3: CommonVoice speech transcriptions
     if not tokens:
-        tokens = fetch_commonvoice_words(lang_code, 1000)
+        tokens = fetch_commonvoice_words(canonical, variants, 1000)
         if tokens:
             source_used = "CommonVoice"
 
     # Priority 4: Tatoeba sentences
     if not tokens:
-        tokens = fetch_tatoeba_sentences(lang_code, 1000)
+        tokens = fetch_tatoeba_sentences(canonical, variants, 1000)
         if tokens:
             source_used = "Tatoeba"
 
-    # Priority 5: Existing alphabet frequency data
+    # Priority 5: Wiktionary scrape data
     if not tokens:
-        chars = load_alphabet_frequencies(lang_code, 1000)
+        tokens = load_wiktionary_frequency(canonical, variants, 1000)
+        if tokens:
+            source_used = "Wiktionary"
+
+    # Priority 6: Leipzig new100 / Starling
+    if not tokens:
+        tokens = load_leipzig_new100(canonical, variants, 1000)
+        if tokens:
+            source_used = "Leipzig_new100"
+
+    # Priority 7: Legacy cache
+    if not tokens:
+        tokens = load_legacy_top1000(canonical, variants, 1000)
+        if tokens:
+            source_used = "LegacyCache"
+
+    # Priority 8: Existing alphabet frequency data
+    if not tokens:
+        chars = load_alphabet_frequencies(canonical, 1000)
         if chars:
             if use_bigrams:
-                # Generate bigrams from character sequence
                 text = "".join(chars * 10)
                 tokens = generate_bigrams(text, 1000)
             else:
-                # For word-based languages, characters aren't ideal but better than nothing
                 tokens = chars[:1000]
             source_used = "Alphabet"
 
-    # Priority 6: Simia unigrams (CJK fallback)
+    # Priority 9: Simia unigrams
     if not tokens:
-        chars = load_simia_unigrams(lang_code, 1000)
+        chars = load_simia_unigrams(canonical, 1000)
         if chars:
             if use_bigrams:
-                # Generate bigrams from character sequence
                 text = "".join(chars * 10)
                 tokens = generate_bigrams(text, 1000)
             else:
@@ -715,15 +921,43 @@ def build_top1000_unified(
             source_used = "Simia"
 
     if not tokens:
-        print(f"  No frequency data available for {lang_code}")
+        print(f"  No frequency data available for {canonical}")
         return False, "None"
 
-    # Write the file
     header = "# type=bigram\n" if use_bigrams else ""
     content = header + "\n".join(tokens) + "\n"
 
-    output_file.write_text(content, encoding="utf-8")
-    print(f"  Generated {len(tokens)} tokens for {lang_code} (source: {source_used})")
+    DATA_LAYOUT.ensure_section(canonical, "frequency")
+    new_output_file.write_text(content, encoding="utf-8")
+
+    legacy_output_dir.mkdir(parents=True, exist_ok=True)
+    legacy_output_file.write_text(content, encoding="utf-8")
+
+    rel_path = new_output_file.relative_to(DATA_LAYOUT.root)
+    DATA_LAYOUT.update_metadata(
+        canonical,
+        "frequency_top1000",
+        {
+            "file": str(rel_path),
+            "token_count": len(tokens),
+            "mode": "bigram" if use_bigrams else "word",
+            "source": source_used,
+        },
+    )
+    DATA_LAYOUT.append_source_entry(
+        canonical,
+        "frequency_top1000",
+        "Generated via build_top200_unified.py",
+        {
+            "source": source_used,
+            "tokens": len(tokens),
+            "aliases": display_aliases or "n/a",
+        },
+    )
+
+    print(
+        f"  Generated {len(tokens)} tokens for {canonical} (source: {source_used}) -> {new_output_file}"
+    )
     return True, source_used
 
 
@@ -740,13 +974,21 @@ def main() -> None:
     )
     parser.add_argument("--force", action="store_true", help="Overwrite existing files")
     parser.add_argument(
-        "--output-dir", default="data/freq/top1000", help="Output directory"
+        "--output-dir",
+        default="data/freq/top1000",
+        help="Legacy flat output directory (kept for backwards compatibility)",
+    )
+    parser.add_argument(
+        "--data-root",
+        default="data",
+        help="Root directory for per-language assets (default: data)",
     )
 
     args = parser.parse_args()
 
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    DATA_LAYOUT.root = Path(args.data_root)
+    legacy_output_dir = Path(args.output_dir)
+    legacy_output_dir.mkdir(parents=True, exist_ok=True)
 
     # Determine target languages
     if args.all:
@@ -764,7 +1006,11 @@ def main() -> None:
             from worldalphabets import get_available_codes
 
             all_codes = get_available_codes()
-            existing_codes = {f.stem for f in output_dir.glob("*.txt")}
+            existing_codes = {
+                path.parent.parent.name
+                for path in DATA_LAYOUT.root.glob("*/frequency/top1000.txt")
+            }
+            existing_codes.update(f.stem for f in legacy_output_dir.glob("*.txt"))
             target_langs = sorted(set(all_codes) - existing_codes)
         except ImportError:
             print(
@@ -784,8 +1030,11 @@ def main() -> None:
     print("Priority 2: HermitDave FrequencyWords")
     print("Priority 3: CommonVoice speech transcriptions")
     print("Priority 4: Tatoeba sentences")
-    print("Priority 5: Existing alphabet frequency data")
-    print("Priority 6: Simia unigrams")
+    print("Priority 5: Wiktionary frequency tables")
+    print("Priority 6: Leipzig new100 / Starling datasets")
+    print("Priority 7: Legacy cache (historic Top-1000 files)")
+    print("Priority 8: Existing alphabet frequency data")
+    print("Priority 9: Simia unigrams")
     print()
 
     successful = 0
@@ -795,13 +1044,17 @@ def main() -> None:
         "HermitDave": 0,
         "CommonVoice": 0,
         "Tatoeba": 0,
+        "Wiktionary": 0,
+        "Leipzig_new100": 0,
+        "LegacyCache": 0,
         "Alphabet": 0,
         "Simia": 0,
-        "Existing": 0,
     }
 
     for lang_code in target_langs:
-        success, source = build_top1000_unified(lang_code, output_dir, force=args.force)
+        success, source = build_top1000_unified(
+            lang_code, legacy_output_dir, force=args.force
+        )
         if success:
             successful += 1
             sources_used[source] = sources_used.get(source, 0) + 1
@@ -817,14 +1070,17 @@ def main() -> None:
     # Write build report
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "Unified 6-Priority Pipeline (Leipzig + HermitDave + CommonVoice + Tatoeba + Alphabet + Simia)",
+        "source": (
+            "Unified 9-Priority Pipeline (Leipzig + HermitDave + CommonVoice + "
+            "Tatoeba + Wiktionary + Leipzig_new100 + Legacy + Alphabet + Simia)"
+        ),
         "successful": successful,
         "failed": failed,
         "languages": target_langs,
         "sources_used": sources_used,
     }
 
-    report_file = output_dir / "BUILD_REPORT_UNIFIED.json"
+    report_file = legacy_output_dir / "BUILD_REPORT_UNIFIED.json"
     with open(report_file, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 

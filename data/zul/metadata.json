@@ -1,0 +1,28 @@
+{
+  "language": "zul",
+  "sections": {
+    "alphabet": {
+      "script": "Latn",
+      "file": "zul/alphabet/zul-Latn.json",
+      "letter_count": 26,
+      "updated": "2025-11-12T09:19:15.358458Z"
+    },
+    "frequency_top1000": {
+      "file": "zul/frequency/top1000.txt",
+      "token_count": 55,
+      "mode": "word",
+      "source": "Tatoeba",
+      "updated": "2025-11-12T09:38:45.552008Z"
+    },
+    "translation_Latn": {
+      "script": "Latn",
+      "source": "google_translate",
+      "target": "zu",
+      "cached": false,
+      "updated": "2025-11-12T10:37:56.108936Z"
+    }
+  },
+  "language_name": "Zulu",
+  "iso639_1": "zu",
+  "iso639_3": "zul"
+}
