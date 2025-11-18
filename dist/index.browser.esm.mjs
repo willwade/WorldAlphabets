@@ -120,6 +120,17 @@ async function loadAlphabetData(langCode, script) {
 }
 
 /**
+ * Load alphabet data for consumers (mirrors CommonJS loadAlphabet)
+ */
+export async function loadAlphabet(langCode, script = null) {
+  const data = await loadAlphabetData(langCode, script);
+  if (!data) {
+    throw new Error(`Alphabet data for code "${langCode}" not found.`);
+  }
+  return data;
+}
+
+/**
  * Tokenize text into words (same as Node.js version)
  */
 function tokenizeWords(text) {

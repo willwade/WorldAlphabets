@@ -363,6 +363,8 @@ async function main() {
 main();
 ```
 
+Prefer to work directly with the alphabet JSON instead of the higher-level helpers? Both the CommonJS and ESM builds export `loadAlphabet(code, script)` which resolves to the same object used above, letting you opt into manual handling of the raw alphabet data when needed.
+
 ### Keyboard Layouts
 
 Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code) when available) along with `row`, `col`, and size information.
