@@ -2,9 +2,15 @@
 
 <div align="center">
   <img src="web/public/logo.png" alt="World Alphabets Logo" width="200" height="auto">
+
+  [![npm version](https://img.shields.io/npm/v/worldalphabets.svg)](https://www.npmjs.com/package/worldalphabets)
+  [![PyPI version](https://img.shields.io/pypi/v/worldalphabets.svg)](https://pypi.org/project/worldalphabets/)
+  [![GitHub release](https://img.shields.io/github/v/release/willwade/WorldAlphabets)](https://github.com/willwade/WorldAlphabets/releases/latest)
+  [![C Library](https://img.shields.io/badge/C_Library-Download-blue)](https://github.com/willwade/WorldAlphabets/releases/latest)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
-A tool to access alphabets of the world with Python and Node interfaces.
+A tool to access alphabets of the world with Python, Node.js, and C interfaces.
 
 ## Usage
 
