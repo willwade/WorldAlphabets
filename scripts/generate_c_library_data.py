@@ -1,7 +1,9 @@
 #!/usr/bin/env python
+"""Generate C library data files from JSON data."""
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
@@ -12,11 +14,9 @@ FREQ_DIR = DATA_DIR / "freq" / "top1000"
 LAYOUT_DIR = DATA_DIR / "layouts"
 OUT_DIR = ROOT / "c" / "generated"
 
-# Reuse keyboard mappings from the runtime to avoid divergence.
-import sys  # noqa: E402
-
+# Import keyboard mappings from the runtime to avoid duplication.
 sys.path.insert(0, str(ROOT / "src"))
-from worldalphabets.keyboards.loader import (  # type: ignore  # noqa: E402
+from worldalphabets.keyboards.loader import (  # noqa: E402
     CODE_TO_HID,
     DEFAULT_LAYERS,
     SCANCODE_TO_CODE,
