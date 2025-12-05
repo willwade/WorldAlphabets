@@ -27,7 +27,14 @@ jobs:
         shell: bash
         run: uv run python scripts/generate_c_library_data.py
 
-      - name: Configure
+      # Use MinGW on Windows to avoid MSVC internal compiler errors with large static data
+      - name: Configure (Windows)
+        if: runner.os == 'Windows'
+        shell: bash
+        run: cmake -S c -B c/build -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+
+      - name: Configure (Unix)
+        if: runner.os != 'Windows'
         shell: bash
         run: cmake -S c -B c/build -DCMAKE_BUILD_TYPE=Release
 
@@ -45,8 +52,12 @@ jobs:
           mkdir -p artifact/include
           cp -R c/include/ artifact/include/
           cp -R c/generated artifact/
+          # Unix builds (including MinGW on Windows)
           cp c/build/libworldalphabets.a artifact/ 2>/dev/null || true
           cp c/build/libworldalphabets.dylib artifact/ 2>/dev/null || true
+          cp c/build/libworldalphabets.dll artifact/ 2>/dev/null || true
+          cp c/build/libworldalphabets.dll.a artifact/ 2>/dev/null || true
+          # MSVC builds (if we ever switch back)
           cp c/build/Release/worldalphabets.lib artifact/ 2>/dev/null || true
           cp c/build/Release/worldalphabets.dll artifact/ 2>/dev/null || true
           cp c/build/Release/worldalphabets.pdb artifact/ 2>/dev/null || true

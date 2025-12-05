@@ -18,8 +18,12 @@ target_include_directories(worldalphabets_shared PUBLIC ${CMAKE_CURRENT_SOURCE_D
 
 target_include_directories(worldalphabets PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_compile_features(worldalphabets PUBLIC c_std_99)
-target_link_libraries(worldalphabets PUBLIC m)
-target_link_libraries(worldalphabets_shared PUBLIC m)
+
+# Link math library (not needed on Windows/MSVC, but needed for MinGW and Unix)
+if(NOT MSVC)
+    target_link_libraries(worldalphabets PUBLIC m)
+    target_link_libraries(worldalphabets_shared PUBLIC m)
+endif()
 
 # MSVC: Disable optimization for generated data files to avoid internal compiler errors
 # with very large static data arrays (Korean/Japanese/Chinese alphabets)
