@@ -11,6 +11,7 @@ from .keyboards import (
     DEFAULT_LAYERS,
     extract_layers,
     get_available_layouts,
+    generate_c_header,
     load_keyboard,
 )
 from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
@@ -136,6 +137,7 @@ __all__ = [
     "get_available_layouts",
     "DEFAULT_LAYERS",
     "extract_layers",
+    "generate_c_header",
     "KeyboardLayout",
     "KeyEntry",
     "LayerLegends",

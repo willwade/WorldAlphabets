@@ -433,6 +433,40 @@ async function main() {
 main();
 ```
 
+### Export layouts to C headers
+
+Generate an ESP32-friendly header that maps keyboard layers to USB HID usage
+codes:
+
+```javascript
+const { generateCHeader } = require('worldalphabets');
+
+async function main() {
+  const header = await generateCHeader('fr-french-standard-azerty', {
+    layers: ['base', 'shift', 'altgr', 'shift_altgr'],
+  });
+  console.log(header);
+}
+
+main();
+```
+
+The Python API provides the same helper:
+
+```python
+from worldalphabets import generate_c_header
+
+header = generate_c_header(
+    "fr-french-standard-azerty",
+    layers=["base", "shift", "altgr", "shift_altgr"],
+)
+print(header)
+```
+
+The emitted header defines `keyboard_layout_t` plus per-layer mappings keyed by
+HID usage codes (e.g. `0x04` for `KeyA`). Pass `guard=False` if you need to
+inline the output into an existing header.
+
 ## Supported Languages
 
 For a detailed list of supported languages and their metadata, including available

@@ -57,3 +57,12 @@ export function extractLayers(
   layout: KeyboardLayout,
   layers?: LayerName[]
 ): Record<string, Record<string, string>>;
+export type CHeaderOptions = {
+  layers?: LayerName[];
+  guard?: boolean;
+  symbolName?: string;
+};
+export function generateCHeader(
+  layoutId: string,
+  options?: CHeaderOptions
+): Promise<string>;

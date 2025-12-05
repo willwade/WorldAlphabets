@@ -1,4 +1,10 @@
-const { getAvailableLayouts, loadKeyboard, getUnicode, extractLayers } = require('../index');
+const {
+    getAvailableLayouts,
+    loadKeyboard,
+    getUnicode,
+    extractLayers,
+    generateCHeader,
+} = require('../index');
 const fs = require('fs');
 const path = require('path');
 
@@ -66,5 +72,17 @@ describe('Keyboard Layouts Node API', () => {
         const layers = extractLayers(layout, ['shift_altgr']);
         expect(layers.shift_altgr).toBeDefined();
         expect(layers.shift_altgr.Digit1).toBe('À');
+    });
+
+    test('generateCHeader outputs HID-based mappings', async () => {
+        const header = await generateCHeader('fr-french-standard-azerty', {
+            layers: ['base', 'shift', 'altgr', 'shift_altgr'],
+            guard: false,
+        });
+        expect(header).toContain('keyboard_layout_t');
+        expect(header).toContain('{ 0x04, "q" }'); // KeyA -> q
+        expect(header).toContain('{ 0x14, "a" }'); // KeyQ -> a
+        expect(header).toContain('.layer_count = 4u');
+        expect(header).toContain('.display_name = "French (Standard, AZERTY)"');
     });
 });

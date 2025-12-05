@@ -1,5 +1,10 @@
 import pytest
-from worldalphabets import get_available_layouts, load_keyboard, KeyboardLayout
+from worldalphabets import (
+    generate_c_header,
+    get_available_layouts,
+    load_keyboard,
+    KeyboardLayout,
+)
 
 def test_get_available_layouts() -> None:
     layouts = get_available_layouts()
@@ -54,3 +59,15 @@ def test_load_uk_layout() -> None:
 def test_load_non_existent_layout() -> None:
     with pytest.raises(ValueError, match="Keyboard layout 'non-existent-layout' not found."):
         load_keyboard("non-existent-layout")
+
+
+def test_generate_c_header() -> None:
+    header = generate_c_header(
+        "fr-french-standard-azerty",
+        layers=["base", "shift", "altgr", "shift_altgr"],
+        guard=False,
+    )
+    assert "keyboard_layout_t" in header
+    assert '{ 0x04, "q" }' in header
+    assert '{ 0x14, "a" }' in header
+    assert ".layer_count = 4u" in header
