@@ -4,6 +4,7 @@ const {
     getUnicode,
     extractLayers,
     generateCHeader,
+    findLayoutsByKeycode,
 } = require('../index');
 const fs = require('fs');
 const path = require('path');
@@ -84,5 +85,12 @@ describe('Keyboard Layouts Node API', () => {
         expect(header).toContain('{ 0x14, "a" }'); // KeyQ -> a
         expect(header).toContain('.layer_count = 4u');
         expect(header).toContain('.display_name = "French (Standard, AZERTY)"');
+    });
+
+    test('findLayoutsByKeycode finds IntlBackslash base legends', async () => {
+        const matches = await findLayoutsByKeycode('IntlBackslash', 'base');
+        const ids = matches.map(m => m.id);
+        expect(ids).toContain('fr-french-standard-azerty');
+        expect(matches.find(m => m.id === 'fr-french-standard-azerty').legend).toBe('<');
     });
 });

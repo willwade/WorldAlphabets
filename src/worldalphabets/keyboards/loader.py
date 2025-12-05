@@ -280,6 +280,61 @@ for i in range(1, 10):
 CODE_TO_HID["Digit0"] = 0x27
 
 
+def _normalize_keycode(keycode: str | int | None) -> int | None:
+    if keycode is None:
+        return None
+    if isinstance(keycode, int):
+        return keycode
+    raw = keycode.strip()
+    if raw.startswith("0x") or raw.startswith("0X"):
+        try:
+            return int(raw, 16)
+        except ValueError:
+            return None
+    if raw.isdigit():
+        return int(raw, 10)
+    sc = raw.upper()
+    if sc in SCANCODE_TO_CODE:
+        dom = SCANCODE_TO_CODE[sc]
+        return CODE_TO_HID.get(dom)
+    if raw in VK_TO_CODE:
+        dom = VK_TO_CODE[raw]
+        return CODE_TO_HID.get(dom)
+    return CODE_TO_HID.get(raw)
+
+
+def find_layouts_by_keycode(keycode: str | int, layer: str = "base") -> list[dict]:
+    """Return layouts matching a given keycode (DOM code, VK, scan, or HID)."""
+
+    hid = _normalize_keycode(keycode)
+    if hid is None:
+        return []
+
+    matches: list[dict] = []
+    for layout_id in get_available_layouts():
+        try:
+            kb = load_keyboard(layout_id)
+        except ValueError:
+            continue
+        for key in kb.keys:
+            legends = key.legends
+            legend = getattr(legends, layer, None)
+            if not legend:
+                continue
+            dom_code = _resolve_dom_code(key)
+            if dom_code is None:
+                continue
+            usage = _code_to_hid_usage(dom_code)
+            if usage is None:
+                continue
+            if usage == hid:
+                matches.append(
+                    {"id": kb.id, "name": kb.name, "legend": legend, "layer": layer}
+                )
+                break
+    return matches
+
+
 def _resolve_dom_code(key: KeyEntry) -> str | None:
     if key.pos:
         return key.pos

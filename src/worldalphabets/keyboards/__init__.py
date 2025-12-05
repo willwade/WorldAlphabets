@@ -2,6 +2,7 @@ from .loader import (
     DEFAULT_LAYERS,
     extract_layers,
     get_available_layouts,
+    find_layouts_by_keycode,
     generate_c_header,
     load_keyboard,
 )
@@ -12,4 +13,5 @@ __all__ = [
     "DEFAULT_LAYERS",
     "extract_layers",
     "generate_c_header",
+    "find_layouts_by_keycode",
 ]

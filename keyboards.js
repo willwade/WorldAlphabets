@@ -340,6 +340,57 @@ function formatHex(value) {
     return `0x${value.toString(16).toUpperCase().padStart(2, '0')}`;
 }
 
+function normalizeKeycode(input) {
+    if (typeof input === 'number') return input;
+    if (!input) return null;
+    const raw = String(input).trim();
+    if (/^0x[0-9a-f]+$/i.test(raw)) {
+        return parseInt(raw, 16);
+    }
+    if (/^[0-9]+$/.test(raw)) {
+        return parseInt(raw, 10);
+    }
+    const sc = raw.toUpperCase();
+    if (SCANCODE_TO_CODE[sc]) {
+        const dom = SCANCODE_TO_CODE[sc];
+        if (CODE_TO_HID[dom] !== undefined) return CODE_TO_HID[dom];
+    }
+    if (VK_TO_CODE[raw]) {
+        const dom = VK_TO_CODE[raw];
+        if (CODE_TO_HID[dom] !== undefined) return CODE_TO_HID[dom];
+    }
+    if (CODE_TO_HID[raw] !== undefined) return CODE_TO_HID[raw];
+    return null;
+}
+
+async function findLayoutsByKeycode(keycode, layer = 'base') {
+    const hid = normalizeKeycode(keycode);
+    if (hid === null) return [];
+    const layouts = await getAvailableLayouts();
+    const matches = [];
+    for (const id of layouts) {
+        try {
+            const kb = await loadKeyboard(id);
+            for (const key of kb.keys || []) {
+                const legends = key.legends || {};
+                const legend = legends[layer];
+                if (!legend) continue;
+                const dom = resolveDomCode(key);
+                if (!dom) continue;
+                const usage = CODE_TO_HID[dom];
+                if (usage === undefined) continue;
+                if (usage === hid) {
+                    matches.push({ id: kb.id, name: kb.name, legend, layer });
+                    break;
+                }
+            }
+        } catch (_) {
+            /* ignore */
+        }
+    }
+    return matches;
+}
+
 async function generateCHeader(layoutId, options = {}) {
     const { layers = DEFAULT_LAYERS, guard = true, symbolName } = options;
     const layout = await loadKeyboard(layoutId);
@@ -426,5 +477,6 @@ module.exports = {
     getUnicode,
     extractLayers,
     generateCHeader,
+    findLayoutsByKeycode,
     DEFAULT_LAYERS,
 };

@@ -30,6 +30,9 @@ int main(void) {
     wa_keyboard_layer base = wa_extract_layer(kb, "base");
     assert(base.entries != NULL);
     assert(base.entry_count > 10);
+    wa_layout_match_array matches = wa_find_layouts_by_hid(0x64, "base");
+    assert(matches.len > 0);
+    wa_free_layout_matches(&matches);
     printf("smoke tests passed\n");
     return 0;
 }

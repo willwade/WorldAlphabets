@@ -66,3 +66,13 @@ export function generateCHeader(
   layoutId: string,
   options?: CHeaderOptions
 ): Promise<string>;
+export type KeycodeMatch = {
+  id: string;
+  name: string;
+  legend: string;
+  layer: LayerName;
+};
+export function findLayoutsByKeycode(
+  keycode: string | number,
+  layer?: LayerName
+): Promise<KeycodeMatch[]>;

@@ -541,3 +541,37 @@ wa_keyboard_layer wa_extract_layer(const wa_keyboard_layout *layout,
     }
     return empty;
 }
+
+wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
+                                             const char *layer_name) {
+    wa_layout_match_array arr = { .items = NULL, .len = 0 };
+    if (layer_name == NULL) return arr;
+    arr.items = (wa_layout_match *)malloc(sizeof(wa_layout_match) * WA_KEYBOARD_LAYOUTS_COUNT);
+    if (arr.items == NULL) return arr;
+    for (size_t i = 0; i < WA_KEYBOARD_LAYOUTS_COUNT; i++) {
+        const wa_keyboard_layout *layout = &WA_KEYBOARD_LAYOUTS[i];
+        for (size_t j = 0; j < layout->layer_count; j++) {
+            const wa_keyboard_layer *layer = &layout->layers[j];
+            if (!wa_streq(layer->name, layer_name)) continue;
+            for (size_t k = 0; k < layer->entry_count; k++) {
+                const wa_keyboard_mapping *mapping = &layer->entries[k];
+                if (mapping->keycode == hid_usage) {
+                    arr.items[arr.len++] = (wa_layout_match){
+                        .layout = layout,
+                        .layer = layer,
+                        .mapping = mapping,
+                    };
+                    break;
+                }
+            }
+        }
+    }
+    return arr;
+}
+
+void wa_free_layout_matches(wa_layout_match_array *matches) {
+    if (matches == NULL || matches->items == NULL) return;
+    free(matches->items);
+    matches->items = NULL;
+    matches->len = 0;
+}

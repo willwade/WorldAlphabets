@@ -4,6 +4,7 @@ from worldalphabets import (
     get_available_layouts,
     load_keyboard,
     KeyboardLayout,
+    find_layouts_by_keycode,
 )
 
 def test_get_available_layouts() -> None:
@@ -71,3 +72,11 @@ def test_generate_c_header() -> None:
     assert '{ 0x04, "q" }' in header
     assert '{ 0x14, "a" }' in header
     assert ".layer_count = 4u" in header
+
+
+def test_find_layouts_by_keycode() -> None:
+    matches = find_layouts_by_keycode("IntlBackslash", layer="base")
+    ids = [m["id"] for m in matches]
+    assert "fr-french-standard-azerty" in ids
+    fr = next(m for m in matches if m["id"] == "fr-french-standard-azerty")
+    assert fr["legend"] == "<"

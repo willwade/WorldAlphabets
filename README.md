@@ -500,6 +500,35 @@ Artifacts can be published as GitHub release assets; CMake installs both static
 and shared builds plus headers. CI builds for Linux, macOS, and Windows and
 uploads release assets automatically.
 
+### Quick layout hint from a keycode
+
+You can ask for layouts that use a given keycode (DOM `code`, scan code, VK, or
+HID usage) on a specific layer. A common trick is the key immediately right of
+Left Shift (`IntlBackslash`/scan code `56`) to distinguish ISO layouts.
+
+JavaScript / Node:
+
+```javascript
+const { findLayoutsByKeycode } = require('worldalphabets');
+const matches = await findLayoutsByKeycode('IntlBackslash', 'base');
+console.log(matches[0]); // { id, name, legend, layer }
+```
+
+Python:
+
+```python
+from worldalphabets import find_layouts_by_keycode
+matches = find_layouts_by_keycode("IntlBackslash", layer="base")
+print(matches[0])
+```
+
+C (using HID code 0x64 for `IntlBackslash`):
+
+```c
+wa_layout_match_array arr = wa_find_layouts_by_hid(0x64, "base");
+// arr.items points into static data; free with wa_free_layout_matches when done.
+```
+
 ## Supported Languages
 
 For a detailed list of supported languages and their metadata, including available

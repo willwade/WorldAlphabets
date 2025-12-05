@@ -79,6 +79,17 @@ typedef struct {
     double prior;
 } wa_prior;
 
+typedef struct {
+    const wa_keyboard_layout *layout;
+    const wa_keyboard_layer *layer;
+    const wa_keyboard_mapping *mapping;
+} wa_layout_match;
+
+typedef struct {
+    wa_layout_match *items;
+    size_t len;
+} wa_layout_match_array;
+
 // Alphabets
 wa_string_array wa_get_available_codes(void);
 const wa_alphabet *wa_load_alphabet(const char *code, const char *script);
@@ -101,6 +112,9 @@ wa_string_array wa_get_available_layouts(void);
 const wa_keyboard_layout *wa_load_keyboard(const char *layout_id);
 wa_keyboard_layer wa_extract_layer(const wa_keyboard_layout *layout,
                                    const char *layer_name);
+wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
+                                             const char *layer_name);
+void wa_free_layout_matches(wa_layout_match_array *matches);
 
 #ifdef __cplusplus
 }

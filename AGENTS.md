@@ -6,6 +6,8 @@
 - Use `uv run` for Python scripts and checks.
 - Run `ruff check` and `mypy` on any Python files you modify. (NB: uv run mypy --install-types for types installation)
 - Run `npm test` when JavaScript files are changed.
+- Run cmake --build c/build
+ctest --test-dir c/build --output-on-failure to build and test C code. Note it too uses python scripts to generate data
 - Keep lines under 88 characters when possible.
 - Store generated alphabet JSON under `data/alphabets/`.
 - Note scripts are in `scripts/`. Many of these are used to generate data files. 
