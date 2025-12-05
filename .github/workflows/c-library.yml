@@ -1,0 +1,65 @@
+name: C Library
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: Build (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Generate C data
+        shell: bash
+        run: uv run python scripts/generate_c_library_data.py
+
+      - name: Configure
+        shell: bash
+        run: cmake -S c -B c/build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        shell: bash
+        run: cmake --build c/build --config Release
+
+      - name: Test
+        shell: bash
+        run: ctest --test-dir c/build --output-on-failure --build-config Release
+
+      - name: Package artifacts
+        shell: bash
+        run: |
+          mkdir -p artifact/include
+          cp -R c/include/ artifact/include/
+          cp -R c/generated artifact/
+          cp c/build/libworldalphabets.a artifact/ 2>/dev/null || true
+          cp c/build/libworldalphabets.dylib artifact/ 2>/dev/null || true
+          cp c/build/Release/worldalphabets.lib artifact/ 2>/dev/null || true
+          cp c/build/Release/worldalphabets.dll artifact/ 2>/dev/null || true
+          cp c/build/Release/worldalphabets.pdb artifact/ 2>/dev/null || true
+          tar -czf worldalphabets-${{ matrix.os }}.tar.gz -C artifact .
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: worldalphabets-${{ matrix.os }}
+          path: worldalphabets-${{ matrix.os }}.tar.gz
+
+      - name: Attach to release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: worldalphabets-${{ matrix.os }}.tar.gz

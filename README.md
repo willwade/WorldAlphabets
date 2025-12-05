@@ -467,6 +467,39 @@ The emitted header defines `keyboard_layout_t` plus per-layer mappings keyed by
 HID usage codes (e.g. `0x04` for `KeyA`). Pass `guard=False` if you need to
 inline the output into an existing header.
 
+### C library
+
+A native C library is generated from the same JSON assets and ships prebuilt
+data tables for alphabets, frequency lists, detection, and keyboard layers.
+
+Generate the C sources and build:
+
+```bash
+uv run python scripts/generate_c_library_data.py
+cmake -S c -B c/build
+cmake --build c/build
+ctest --test-dir c/build
+```
+
+Public API (see `c/include/worldalphabets.h`):
+
+```c
+#include "worldalphabets.h"
+
+const wa_alphabet *alpha = wa_load_alphabet("fr", "Latn");
+const wa_frequency_list *freq = wa_load_frequency_list("fr");
+wa_prior priors[] = {{"fr", 0.5}};
+wa_detect_result_array r = wa_detect_languages(
+    "bonjour", NULL, 0, priors, 1, 3);
+const wa_keyboard_layout *kb = wa_load_keyboard("fr-french-standard-azerty");
+wa_keyboard_layer base = wa_extract_layer(kb, "base");
+wa_free_detect_results(&r);
+```
+
+Artifacts can be published as GitHub release assets; CMake installs both static
+and shared builds plus headers. CI builds for Linux, macOS, and Windows and
+uploads release assets automatically.
+
 ## Supported Languages
 
 For a detailed list of supported languages and their metadata, including available
