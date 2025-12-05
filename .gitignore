@@ -24,6 +24,7 @@ external/
 src/worldalphabets.egg-info/
 /build/
 c/build/
+c/generated/*.c
 python-dist/
 
 # Node

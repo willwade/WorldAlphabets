@@ -1,14 +1,17 @@
 cmake_minimum_required(VERSION 3.15)
 project(worldalphabets C)
 
+# Collect all generated source files
+file(GLOB WA_GENERATED_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/generated/*.c")
+
 add_library(worldalphabets STATIC
     src/worldalphabets.c
-    generated/worldalphabets_data.c
+    ${WA_GENERATED_SOURCES}
 )
 
 add_library(worldalphabets_shared SHARED
     src/worldalphabets.c
-    generated/worldalphabets_data.c
+    ${WA_GENERATED_SOURCES}
 )
 set_target_properties(worldalphabets_shared PROPERTIES OUTPUT_NAME worldalphabets)
 target_include_directories(worldalphabets_shared PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
