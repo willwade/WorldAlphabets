@@ -60,12 +60,12 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
 
 def get_scripts(lang_code: str) -> List[str]:
     """Return available script codes for ``lang_code``."""
-
-    entry = next(
-        (item for item in get_index_data() if item["language"] == lang_code),
-        None,
-    )
-    if entry is None:
-        return []
-    scripts = entry.get("scripts")
-    return scripts if scripts else []
+    # Collect all unique scripts for this language across all entries
+    scripts: set[str] = set()
+    for entry in get_index_data():
+        if entry.get("language") == lang_code:
+            if entry.get("script"):
+                scripts.add(entry["script"])
+            if entry.get("scripts"):
+                scripts.update(entry["scripts"])
+    return sorted(scripts)

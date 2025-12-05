@@ -46,8 +46,18 @@ def format_string_array(
     return "\n".join(lines)
 
 
-def load_json(path: Path) -> dict | list:
-    return json.loads(path.read_text(encoding="utf-8"))
+def load_json_dict(path: Path) -> Dict:
+    """Load JSON file that must contain a dict/object."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{path} should contain a JSON object"
+    return data
+
+
+def load_json_list(path: Path) -> List[Dict]:
+    """Load JSON file that must contain a list of objects."""
+    data = json.loads(path.read_text(encoding="utf-8"))
+    assert isinstance(data, list), f"{path} should contain a JSON array"
+    return data
 
 
 def build_scripts(index_data: List[dict]) -> Dict[str, List[str]]:
@@ -71,7 +81,7 @@ def build_scripts(index_data: List[dict]) -> Dict[str, List[str]]:
 def build_alphabets() -> List[dict]:
     entries: List[dict] = []
     for file in sorted(ALPHABET_DIR.glob("*.json")):
-        data = load_json(file)
+        data = load_json_dict(file)
         parts = file.stem.split("-", 1)
         lang = parts[0]
         script = parts[1] if len(parts) > 1 else data.get("script", "")
@@ -151,7 +161,7 @@ def build_keyboard_layers(layout: dict) -> List[dict]:
 def build_keyboard_layouts() -> List[dict]:
     layouts: List[dict] = []
     for file in sorted(LAYOUT_DIR.glob("*.json")):
-        data = load_json(file)
+        data = load_json_dict(file)
         if "id" not in data or "keys" not in data:
             continue
         layouts.append(
@@ -169,8 +179,7 @@ def write_data_files() -> None:
     header_path = OUT_DIR / "worldalphabets_data.h"
     source_path = OUT_DIR / "worldalphabets_data.c"
 
-    index_data = load_json(DATA_DIR / "index.json")
-    assert isinstance(index_data, list), "index.json should be a list"
+    index_data = load_json_list(DATA_DIR / "index.json")
     scripts_by_lang = build_scripts(index_data)
     alphabets = build_alphabets()
     freq_lists = build_frequency_lists()

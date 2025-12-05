@@ -2,10 +2,13 @@ const {
   getUppercase,
   getLowercase,
   getFrequency,
+  getDigits,
   getAvailableCodes,
   loadAlphabet,
+  loadFrequencyList,
   getIndexData,
   getLanguage,
+  getScripts,
 } = require('../index');
 
 describe('worldalphabets', () => {
@@ -73,5 +76,37 @@ describe('worldalphabets', () => {
   it('should return null for an invalid language code', async () => {
     const langInfo = await getLanguage('invalid-code');
     expect(langInfo).toBeNull();
+  });
+
+  it('should get digits for a language', async () => {
+    const digits = await getDigits('ar');
+    expect(Array.isArray(digits)).toBe(true);
+    // Arabic has native digits
+    expect(digits.length).toBeGreaterThan(0);
+  });
+
+  it('should load frequency list for a language', async () => {
+    const freqList = await loadFrequencyList('en');
+    expect(freqList).toHaveProperty('language', 'en');
+    expect(freqList).toHaveProperty('tokens');
+    expect(freqList).toHaveProperty('mode');
+    expect(Array.isArray(freqList.tokens)).toBe(true);
+    expect(freqList.tokens.length).toBeGreaterThan(100);
+  });
+
+  it('should throw for invalid frequency list', async () => {
+    await expect(loadFrequencyList('invalid-code')).rejects.toThrow();
+  });
+
+  it('should get scripts for a language', async () => {
+    const scripts = await getScripts('zh');
+    expect(Array.isArray(scripts)).toBe(true);
+    // Chinese should have multiple scripts (Hans, Hant)
+    expect(scripts.length).toBeGreaterThan(0);
+  });
+
+  it('should return empty array for unknown language scripts', async () => {
+    const scripts = await getScripts('nonexistent');
+    expect(scripts).toEqual([]);
   });
 });

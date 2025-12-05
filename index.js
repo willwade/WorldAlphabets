@@ -172,8 +172,21 @@ async function getLanguage(langCode, script) {
  */
 async function getScripts(langCode) {
   const data = await getIndexData();
-  const entry = data.find((item) => item.language === langCode);
-  return entry && entry.scripts ? entry.scripts : [];
+  // Collect all unique scripts for this language across all entries
+  const scripts = new Set();
+  for (const entry of data) {
+    if (entry.language === langCode) {
+      if (entry.script) {
+        scripts.add(entry.script);
+      }
+      if (entry.scripts) {
+        for (const s of entry.scripts) {
+          scripts.add(s);
+        }
+      }
+    }
+  }
+  return Array.from(scripts).sort();
 }
 
 // Special characters that don't decompose properly with NFD
