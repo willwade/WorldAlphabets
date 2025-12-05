@@ -186,20 +186,22 @@ def write_data_files() -> None:
     layouts = build_keyboard_layouts()
     language_codes = sorted(scripts_by_lang.keys())
 
+    # Use #define for counts to ensure compile-time constants (required for MSVC)
     header_lines = [
         "#pragma once",
         '#include "../include/worldalphabets.h"',
         "",
+        f"#define WA_LANGUAGE_CODES_COUNT {len(language_codes)}u",
+        f"#define WA_SCRIPT_ENTRIES_COUNT {len(scripts_by_lang)}u",
+        f"#define WA_ALPHABETS_COUNT {len(alphabets)}u",
+        f"#define WA_FREQUENCY_LISTS_COUNT {len(freq_lists)}u",
+        f"#define WA_KEYBOARD_LAYOUTS_COUNT {len(layouts)}u",
+        "",
         "extern const char *WA_LANGUAGE_CODES[];",
-        "extern const size_t WA_LANGUAGE_CODES_COUNT;",
         "extern const wa_script_entry WA_SCRIPT_ENTRIES[];",
-        "extern const size_t WA_SCRIPT_ENTRIES_COUNT;",
         "extern const wa_alphabet WA_ALPHABETS[];",
-        "extern const size_t WA_ALPHABETS_COUNT;",
         "extern const wa_frequency_list WA_FREQUENCY_LISTS[];",
-        "extern const size_t WA_FREQUENCY_LISTS_COUNT;",
         "extern const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[];",
-        "extern const size_t WA_KEYBOARD_LAYOUTS_COUNT;",
         "extern const char *WA_LAYOUT_IDS[];",
     ]
     header_path.write_text("\n".join(header_lines) + "\n", encoding="utf-8")
@@ -208,7 +210,6 @@ def write_data_files() -> None:
     src.append('#include "worldalphabets_data.h"')
     src.append("")
     src.append(format_string_array("WA_LANGUAGE_CODES", language_codes, exported=True))
-    src.append(f"const size_t WA_LANGUAGE_CODES_COUNT = {len(language_codes)}u;")
     src.append("")
 
     script_entries: List[dict] = []
@@ -224,7 +225,6 @@ def write_data_files() -> None:
             f'  {{ "{escape(entry["lang"])}", {entry["arr"]}, {entry["count"]}u }},'
         )
     src.append("};")
-    src.append(f"const size_t WA_SCRIPT_ENTRIES_COUNT = {len(script_entries)}u;")
     src.append("")
 
     upper_names: List[str] = []
@@ -263,7 +263,6 @@ def write_data_files() -> None:
         src.append(f"    {digit_names[idx]}, {len(alpha['digits'])}u,")
         src.append("  },")
     src.append("};")
-    src.append(f"const size_t WA_ALPHABETS_COUNT = {len(alphabets)}u;")
     src.append("")
 
     for idx, freq_entry in enumerate(freq_lists):
@@ -277,7 +276,6 @@ def write_data_files() -> None:
         src.append(f"    WA_FREQ_{idx}_TOKENS, {len(freq_entry['tokens'])}u,")
         src.append("  },")
     src.append("};")
-    src.append(f"const size_t WA_FREQUENCY_LISTS_COUNT = {len(freq_lists)}u;")
     src.append("")
 
     layout_ids = [layout["id"] for layout in layouts]
@@ -320,7 +318,7 @@ def write_data_files() -> None:
         src.append(f"    LAYOUT_{idx}_LAYERS, {len(layout['layers'])}u,")
         src.append("  },")
     src.append("};")
-    src.append(f"const size_t WA_KEYBOARD_LAYOUTS_COUNT = {len(layouts)}u;")
+    src.append("")
 
     source_path.write_text("\n".join(src) + "\n", encoding="utf-8")
     print(f"Wrote {header_path} and {source_path}")
