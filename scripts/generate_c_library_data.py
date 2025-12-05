@@ -342,49 +342,56 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     src1.append("")
     (OUT_DIR / "wa_data_langs.c").write_text("\n".join(src1) + "\n", encoding="utf-8")
 
-    # File 2: Alphabets (medium)
-    src2: List[str] = ['#include "worldalphabets_data.h"', ""]
-    upper_names: List[str] = []
-    lower_names: List[str] = []
-    digit_names: List[str] = []
-    freq_names: List[str] = []
+    # File 2: Alphabets (each alphabet in its own file to avoid MSVC ICE)
+    # Some alphabets (Korean, Japanese, Chinese) have >10K characters each
     for idx, alpha in enumerate(alphabets):
+        src2: List[str] = ['#include "worldalphabets_data.h"', ""]
         base = f"ALPHA_{idx}"
         upper = f"{base}_UPPER"
         lower = f"{base}_LOWER"
         digits = f"{base}_DIGITS"
         freq = f"{base}_FREQ"
-        upper_names.append(upper)
-        lower_names.append(lower)
-        digit_names.append(digits)
-        freq_names.append(freq)
-        src2.append(format_string_array(upper, alpha["uppercase"]))
-        src2.append(format_string_array(lower, alpha["lowercase"]))
-        src2.append(format_string_array(digits, alpha["digits"]))
-        src2.append("static const wa_freq_entry " + freq + "[] = {")
+        src2.append(format_string_array(upper, alpha["uppercase"], exported=True))
+        src2.append(format_string_array(lower, alpha["lowercase"], exported=True))
+        src2.append(format_string_array(digits, alpha["digits"], exported=True))
+        src2.append("const wa_freq_entry " + freq + "[] = {")
         for ch, val in alpha["frequency"].items():
             src2.append(f'  {{ "{escape(ch)}", {float(val):.8f} }},')
         src2.append("};")
         src2.append("")
-    src2.append("const wa_alphabet WA_ALPHABETS[] = {")
+        (OUT_DIR / f"wa_data_alpha_{idx}.c").write_text(
+            "\n".join(src2) + "\n", encoding="utf-8"
+        )
+
+    # Alphabet table file (references the data from chunk files)
+    src2_table: List[str] = ['#include "worldalphabets_data.h"', ""]
     for idx, alpha in enumerate(alphabets):
-        src2.append("  {")
-        src2.append(f'    "{escape(alpha["language"])}",')
-        src2.append(f'    "{escape(alpha["script"])}",')
-        src2.append(f"    {upper_names[idx]}, {len(alpha['uppercase'])}u,")
-        src2.append(f"    {lower_names[idx]}, {len(alpha['lowercase'])}u,")
-        src2.append(f"    {freq_names[idx]}, {len(alpha['frequency'].keys())}u,")
-        src2.append(f"    {digit_names[idx]}, {len(alpha['digits'])}u,")
-        src2.append("  },")
-    src2.append("};")
-    src2.append("")
-    (OUT_DIR / "wa_data_alphabets.c").write_text(
-        "\n".join(src2) + "\n", encoding="utf-8"
+        base = f"ALPHA_{idx}"
+        src2_table.append(f"extern const char *{base}_UPPER[];")
+        src2_table.append(f"extern const char *{base}_LOWER[];")
+        src2_table.append(f"extern const char *{base}_DIGITS[];")
+        src2_table.append(f"extern const wa_freq_entry {base}_FREQ[];")
+    src2_table.append("")
+    src2_table.append("const wa_alphabet WA_ALPHABETS[] = {")
+    for idx, alpha in enumerate(alphabets):
+        base = f"ALPHA_{idx}"
+        src2_table.append("  {")
+        src2_table.append(f'    "{escape(alpha["language"])}",')
+        src2_table.append(f'    "{escape(alpha["script"])}",')
+        src2_table.append(f"    {base}_UPPER, {len(alpha['uppercase'])}u,")
+        src2_table.append(f"    {base}_LOWER, {len(alpha['lowercase'])}u,")
+        src2_table.append(f"    {base}_FREQ, {len(alpha['frequency'].keys())}u,")
+        src2_table.append(f"    {base}_DIGITS, {len(alpha['digits'])}u,")
+        src2_table.append("  },")
+    src2_table.append("};")
+    src2_table.append("")
+    (OUT_DIR / "wa_data_alphabets_table.c").write_text(
+        "\n".join(src2_table) + "\n", encoding="utf-8"
     )
 
     # File 3: Frequency lists (large - split into chunks)
     # Use exported=True so symbols are visible across translation units
-    FREQ_CHUNK_SIZE = 50
+    FREQ_CHUNK_SIZE = 15  # Smaller chunks to avoid MSVC ICE
     if cfg.packed_strings:
         # Packed strings mode: store data in blob + generate pointer array
         # This maintains API compatibility while reducing relocations
@@ -456,65 +463,86 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         "\n".join(src4) + "\n", encoding="utf-8"
     )
 
-    # File 5: Keyboard layouts
-    src5: List[str] = ['#include "worldalphabets_data.h"', ""]
-    layout_ids = [layout["id"] for layout in layouts]
-    src5.append(format_string_array("WA_LAYOUT_IDS", layout_ids, exported=True))
-    src5.append("")
-    for idx, layout in enumerate(layouts):
-        layer_entries: List[dict] = []
-        for layer_idx, layer in enumerate(layout["layers"]):
-            entry_name = f"LAYOUT_{idx}_LAYER_{layer_idx}_ENTRIES"
-            src5.append(f"static const wa_keyboard_mapping {entry_name}[] = {{")
-            for entry in layer["entries"]:
-                src5.append(
-                    f'  {{ 0x{int(entry["hid"]):02X}, "{escape(entry["value"])}" }},'
+    # File 5: Keyboard layouts (split into chunks)
+    KEYBOARD_CHUNK_SIZE = 40  # ~40 layouts per file
+    for chunk_idx in range(0, len(layouts), KEYBOARD_CHUNK_SIZE):
+        chunk_end = min(chunk_idx + KEYBOARD_CHUNK_SIZE, len(layouts))
+        src5: List[str] = ['#include "worldalphabets_data.h"', ""]
+
+        for idx in range(chunk_idx, chunk_end):
+            layout = layouts[idx]
+            layer_entries: List[dict] = []
+            for layer_idx, layer in enumerate(layout["layers"]):
+                entry_name = f"LAYOUT_{idx}_LAYER_{layer_idx}_ENTRIES"
+                src5.append(f"const wa_keyboard_mapping {entry_name}[] = {{")
+                for entry in layer["entries"]:
+                    hid = int(entry["hid"])
+                    val = escape(entry["value"])
+                    src5.append(f'  {{ 0x{hid:02X}, "{val}" }},')
+                src5.append("};")
+                src5.append("")
+                layer_entries.append(
+                    {
+                        "name": layer["name"],
+                        "entry_name": entry_name,
+                        "count": len(layer["entries"]),
+                    }
                 )
+            src5.append(f"const wa_keyboard_layer LAYOUT_{idx}_LAYERS[] = {{")
+            for layer in layer_entries:
+                src5.append("  {")
+                src5.append(f'    "{layer["name"]}",')
+                src5.append(f"    {layer['entry_name']}, {layer['count']}u,")
+                src5.append("  },")
             src5.append("};")
             src5.append("")
-            layer_entries.append(
-                {
-                    "name": layer["name"],
-                    "entry_name": entry_name,
-                    "count": len(layer["entries"]),
-                }
-            )
-        src5.append(f"static const wa_keyboard_layer LAYOUT_{idx}_LAYERS[] = {{")
-        for layer in layer_entries:
-            src5.append("  {")
-            src5.append(f'    "{layer["name"]}",')
-            src5.append(f"    {layer['entry_name']}, {layer['count']}u,")
-            src5.append("  },")
-        src5.append("};")
-        src5.append("")
-    src5.append("const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[] = {")
+
+        chunk_num = chunk_idx // KEYBOARD_CHUNK_SIZE
+        (OUT_DIR / f"wa_data_keyboards_{chunk_num}.c").write_text(
+            "\n".join(src5) + "\n", encoding="utf-8"
+        )
+
+    # Keyboard table file
+    src5_table: List[str] = ['#include "worldalphabets_data.h"', ""]
+    layout_ids = [layout["id"] for layout in layouts]
+    src5_table.append(format_string_array("WA_LAYOUT_IDS", layout_ids, exported=True))
+    src5_table.append("")
+    for idx, _layout in enumerate(layouts):
+        src5_table.append(f"extern const wa_keyboard_layer LAYOUT_{idx}_LAYERS[];")
+    src5_table.append("")
+    src5_table.append("const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[] = {")
     for idx, layout in enumerate(layouts):
-        src5.append("  {")
-        src5.append(f'    "{escape(layout["id"])}",')
-        src5.append(f'    "{escape(layout["name"])}",')
-        src5.append(f"    LAYOUT_{idx}_LAYERS, {len(layout['layers'])}u,")
-        src5.append("  },")
-    src5.append("};")
-    src5.append("")
-    (OUT_DIR / "wa_data_keyboards.c").write_text(
-        "\n".join(src5) + "\n", encoding="utf-8"
+        src5_table.append("  {")
+        src5_table.append(f'    "{escape(layout["id"])}",')
+        src5_table.append(f'    "{escape(layout["name"])}",')
+        src5_table.append(f"    LAYOUT_{idx}_LAYERS, {len(layout['layers'])}u,")
+        src5_table.append("  },")
+    src5_table.append("};")
+    src5_table.append("")
+    (OUT_DIR / "wa_data_keyboards_table.c").write_text(
+        "\n".join(src5_table) + "\n", encoding="utf-8"
     )
 
     # Count generated files
+    alpha_file_count = len(alphabets)  # Each alphabet in its own file
+    kbd_file_count = (len(layouts) + KEYBOARD_CHUNK_SIZE - 1) // KEYBOARD_CHUNK_SIZE
     if cfg.packed_strings:
         freq_file_count = 1  # All packed into one file
     else:
         freq_file_count = (len(freq_lists) + FREQ_CHUNK_SIZE - 1) // FREQ_CHUNK_SIZE
-    files = [
-        "worldalphabets_data.h",
-        "wa_data_langs.c",
-        "wa_data_alphabets.c",
-        "wa_data_freq_table.c",
-        "wa_data_keyboards.c",
-    ] + [f"wa_data_freq_{i}.c" for i in range(freq_file_count)]
+    file_count = (
+        1  # header
+        + 1  # langs
+        + alpha_file_count
+        + 1  # alphabet table
+        + freq_file_count
+        + 1  # freq table
+        + kbd_file_count
+        + 1  # keyboard table
+    )
 
     # Print summary
-    print(f"Generated {len(files)} files to {OUT_DIR}")
+    print(f"Generated {file_count} files to {OUT_DIR}")
     print(f"  Languages: {len(language_codes)}")
     print(f"  Alphabets: {len(alphabets)}")
     print(f"  Frequency lists: {len(freq_lists)}")

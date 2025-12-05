@@ -21,6 +21,14 @@ target_compile_features(worldalphabets PUBLIC c_std_99)
 target_link_libraries(worldalphabets PUBLIC m)
 target_link_libraries(worldalphabets_shared PUBLIC m)
 
+# MSVC: Disable optimization for generated data files to avoid internal compiler errors
+# with very large static data arrays (Korean/Japanese/Chinese alphabets)
+if(MSVC)
+    foreach(SRC ${WA_GENERATED_SOURCES})
+        set_source_files_properties(${SRC} PROPERTIES COMPILE_FLAGS "/Od")
+    endforeach()
+endif()
+
 install(TARGETS worldalphabets
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib
