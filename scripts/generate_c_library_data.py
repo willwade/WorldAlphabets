@@ -35,7 +35,9 @@ def escape(value: str | None) -> str:
     )
 
 
-def format_string_array(name: str, values: Iterable[str], exported: bool = False) -> str:
+def format_string_array(
+    name: str, values: Iterable[str], exported: bool = False
+) -> str:
     prefix = "const" if exported else "static const"
     lines = [f"{prefix} char *{name}[] = {{"]
     for val in values:
@@ -44,7 +46,7 @@ def format_string_array(name: str, values: Iterable[str], exported: bool = False
     return "\n".join(lines)
 
 
-def load_json(path: Path) -> dict:
+def load_json(path: Path) -> dict | list:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -138,7 +140,9 @@ def build_keyboard_layers(layout: dict) -> List[dict]:
             layers.append(
                 {
                     "name": layer,
-                    "entries": [{"hid": hid, "value": legend} for hid, legend in entries],
+                    "entries": [
+                        {"hid": hid, "value": legend} for hid, legend in entries
+                    ],
                 }
             )
     return layers
@@ -166,6 +170,7 @@ def write_data_files() -> None:
     source_path = OUT_DIR / "worldalphabets_data.c"
 
     index_data = load_json(DATA_DIR / "index.json")
+    assert isinstance(index_data, list), "index.json should be a list"
     scripts_by_lang = build_scripts(index_data)
     alphabets = build_alphabets()
     freq_lists = build_frequency_lists()
@@ -203,9 +208,7 @@ def write_data_files() -> None:
         arr_name = f"WA_SCRIPTS_{lang.replace('-', '_')}"
         src.append(format_string_array(arr_name, scripts))
         src.append("")
-        script_entries.append(
-            {"lang": lang, "arr": arr_name, "count": len(scripts)}
-        )
+        script_entries.append({"lang": lang, "arr": arr_name, "count": len(scripts)})
     src.append("const wa_script_entry WA_SCRIPT_ENTRIES[] = {")
     for entry in script_entries:
         src.append(
@@ -247,24 +250,22 @@ def write_data_files() -> None:
         src.append(f'    "{escape(alpha["script"])}",')
         src.append(f"    {upper_names[idx]}, {len(alpha['uppercase'])}u,")
         src.append(f"    {lower_names[idx]}, {len(alpha['lowercase'])}u,")
-        src.append(
-            f"    {freq_names[idx]}, {len(alpha['frequency'].keys())}u,"
-        )
+        src.append(f"    {freq_names[idx]}, {len(alpha['frequency'].keys())}u,")
         src.append(f"    {digit_names[idx]}, {len(alpha['digits'])}u,")
         src.append("  },")
     src.append("};")
     src.append(f"const size_t WA_ALPHABETS_COUNT = {len(alphabets)}u;")
     src.append("")
 
-    for idx, freq in enumerate(freq_lists):
-        src.append(format_string_array(f"WA_FREQ_{idx}_TOKENS", freq["tokens"]))
+    for idx, freq_entry in enumerate(freq_lists):
+        src.append(format_string_array(f"WA_FREQ_{idx}_TOKENS", freq_entry["tokens"]))
         src.append("")
     src.append("const wa_frequency_list WA_FREQUENCY_LISTS[] = {")
-    for idx, freq in enumerate(freq_lists):
+    for idx, freq_entry in enumerate(freq_lists):
         src.append("  {")
-        src.append(f'    "{escape(freq["language"])}",')
-        src.append(f'    "{escape(freq["mode"])}",')
-        src.append(f"    WA_FREQ_{idx}_TOKENS, {len(freq['tokens'])}u,")
+        src.append(f'    "{escape(freq_entry["language"])}",')
+        src.append(f'    "{escape(freq_entry["mode"])}",')
+        src.append(f"    WA_FREQ_{idx}_TOKENS, {len(freq_entry['tokens'])}u,")
         src.append("  },")
     src.append("};")
     src.append(f"const size_t WA_FREQUENCY_LISTS_COUNT = {len(freq_lists)}u;")

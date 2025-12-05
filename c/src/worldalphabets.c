@@ -542,13 +542,15 @@ wa_keyboard_layer wa_extract_layer(const wa_keyboard_layout *layout,
     return empty;
 }
 
-wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
-                                             const char *layer_name) {
-    wa_layout_match_array arr = { .items = NULL, .len = 0 };
-    if (layer_name == NULL) return arr;
-    arr.items = (wa_layout_match *)malloc(sizeof(wa_layout_match) * WA_KEYBOARD_LAYOUTS_COUNT);
-    if (arr.items == NULL) return arr;
-    for (size_t i = 0; i < WA_KEYBOARD_LAYOUTS_COUNT; i++) {
+// Core search logic - populates buffer up to buffer_size entries
+// Returns number of matches found
+static size_t find_layouts_by_hid_impl(uint16_t hid_usage,
+                                       const char *layer_name,
+                                       wa_layout_match *buffer,
+                                       size_t buffer_size) {
+    if (layer_name == NULL || buffer == NULL || buffer_size == 0) return 0;
+    size_t count = 0;
+    for (size_t i = 0; i < WA_KEYBOARD_LAYOUTS_COUNT && count < buffer_size; i++) {
         const wa_keyboard_layout *layout = &WA_KEYBOARD_LAYOUTS[i];
         for (size_t j = 0; j < layout->layer_count; j++) {
             const wa_keyboard_layer *layer = &layout->layers[j];
@@ -556,7 +558,7 @@ wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
             for (size_t k = 0; k < layer->entry_count; k++) {
                 const wa_keyboard_mapping *mapping = &layer->entries[k];
                 if (mapping->keycode == hid_usage) {
-                    arr.items[arr.len++] = (wa_layout_match){
+                    buffer[count++] = (wa_layout_match){
                         .layout = layout,
                         .layer = layer,
                         .mapping = mapping,
@@ -564,14 +566,59 @@ wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
                     break;
                 }
             }
+            if (count >= buffer_size) break;
         }
     }
+    return count;
+}
+
+size_t wa_find_layouts_by_hid_static(uint16_t hid_usage,
+                                     const char *layer_name,
+                                     wa_layout_match *buffer,
+                                     size_t buffer_size) {
+    return find_layouts_by_hid_impl(hid_usage, layer_name, buffer, buffer_size);
+}
+
+wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
+                                             const char *layer_name) {
+    wa_layout_match_array arr = {
+        .items = NULL, .len = 0, .capacity = 0, .is_static = 0
+    };
+    if (layer_name == NULL) return arr;
+
+    // First pass: count matches to allocate exact size needed
+    size_t count = 0;
+    for (size_t i = 0; i < WA_KEYBOARD_LAYOUTS_COUNT; i++) {
+        const wa_keyboard_layout *layout = &WA_KEYBOARD_LAYOUTS[i];
+        for (size_t j = 0; j < layout->layer_count; j++) {
+            const wa_keyboard_layer *layer = &layout->layers[j];
+            if (!wa_streq(layer->name, layer_name)) continue;
+            for (size_t k = 0; k < layer->entry_count; k++) {
+                if (layer->entries[k].keycode == hid_usage) {
+                    count++;
+                    break;
+                }
+            }
+        }
+    }
+
+    if (count == 0) return arr;
+
+    arr.items = (wa_layout_match *)malloc(sizeof(wa_layout_match) * count);
+    if (arr.items == NULL) return arr;
+    arr.capacity = count;
+
+    arr.len = find_layouts_by_hid_impl(hid_usage, layer_name, arr.items, count);
     return arr;
 }
 
 void wa_free_layout_matches(wa_layout_match_array *matches) {
     if (matches == NULL || matches->items == NULL) return;
-    free(matches->items);
+    if (!matches->is_static) {
+        free(matches->items);
+    }
     matches->items = NULL;
     matches->len = 0;
+    matches->capacity = 0;
+    matches->is_static = 0;
 }

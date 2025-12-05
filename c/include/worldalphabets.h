@@ -10,6 +10,16 @@
 extern "C" {
 #endif
 
+// Configuration macros for embedded use:
+// WA_STATIC_MATCH_BUFFER_SIZE - Pre-allocated buffer size for wa_find_layouts_by_hid
+//                               Set to 0 to use dynamic allocation (default)
+// WA_DISABLE_LANGUAGE_DETECTION - Exclude language detection to reduce code size
+// WA_MAX_STATIC_MATCHES - Maximum static match array size (default: 32)
+
+#ifndef WA_MAX_STATIC_MATCHES
+#define WA_MAX_STATIC_MATCHES 32
+#endif
+
 typedef struct {
     const char **items;
     size_t len;
@@ -88,6 +98,8 @@ typedef struct {
 typedef struct {
     wa_layout_match *items;
     size_t len;
+    size_t capacity;   // For static buffer tracking
+    int is_static;     // 1 if using static buffer, 0 if dynamically allocated
 } wa_layout_match_array;
 
 // Alphabets
@@ -114,6 +126,12 @@ wa_keyboard_layer wa_extract_layer(const wa_keyboard_layout *layout,
                                    const char *layer_name);
 wa_layout_match_array wa_find_layouts_by_hid(uint16_t hid_usage,
                                              const char *layer_name);
+// Static buffer version - uses provided buffer, no dynamic allocation
+// Returns number of matches found (up to buffer_size)
+size_t wa_find_layouts_by_hid_static(uint16_t hid_usage,
+                                     const char *layer_name,
+                                     wa_layout_match *buffer,
+                                     size_t buffer_size);
 void wa_free_layout_matches(wa_layout_match_array *matches);
 
 #ifdef __cplusplus

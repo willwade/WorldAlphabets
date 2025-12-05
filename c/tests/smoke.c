@@ -27,12 +27,25 @@ int main(void) {
     const wa_keyboard_layout *kb = wa_load_keyboard("fr-french-standard-azerty");
     assert(kb != NULL);
     assert(kb->layer_count > 0);
-    wa_keyboard_layer base = wa_extract_layer(kb, "base");
-    assert(base.entries != NULL);
-    assert(base.entry_count > 10);
+    wa_keyboard_layer base_layer = wa_extract_layer(kb, "base");
+    assert(base_layer.entries != NULL);
+    assert(base_layer.entry_count > 10);
+
+    // Dynamic allocation version
     wa_layout_match_array matches = wa_find_layouts_by_hid(0x64, "base");
     assert(matches.len > 0);
+    assert(matches.is_static == 0);
+    size_t dynamic_count = matches.len;
     wa_free_layout_matches(&matches);
+
+    // Static buffer version (for embedded devices)
+    wa_layout_match static_buffer[WA_MAX_STATIC_MATCHES];
+    size_t static_count = wa_find_layouts_by_hid_static(
+        0x64, "base", static_buffer, WA_MAX_STATIC_MATCHES);
+    assert(static_count > 0);
+    // Verify static and dynamic find same matches
+    assert(static_count == dynamic_count || static_count == WA_MAX_STATIC_MATCHES);
+
     printf("smoke tests passed\n");
     return 0;
 }
