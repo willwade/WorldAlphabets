@@ -286,6 +286,54 @@ uv run scripts/build_all_data.py  # Replaced by build_data_pipeline.py
 - Fallback definitions need linguistic validation
 - Frequency data outliers flagged for review
 
+## C Library Data Generation
+
+The C library requires a separate code generation step to convert JSON data into
+C source files with static data arrays.
+
+### Build Command
+```bash
+uv run python scripts/generate_c_library_data.py [OPTIONS]
+```
+
+### Options
+
+| Option | Description |
+|--------|-------------|
+| `--max-tokens=N` | Limit frequency tokens per language (reduces binary size) |
+| `--include-langs=xx,yy` | Only include specific language codes |
+| `--packed-strings` | Use packed string storage (30-40% smaller) |
+
+### Size Examples
+
+| Configuration | Approx. Size |
+|---------------|--------------|
+| Full (all languages) | ~4 MB |
+| `--max-tokens=200` | ~2.7 MB |
+| `--max-tokens=200 --include-langs=en,fr,de,es,pt,it` | ~150 KB |
+
+### File Splitting Strategy
+
+The generator splits data across many small files (~365 files) rather than a few
+large ones. This works around MSVC (Visual Studio) internal compiler errors that
+occur with very large static string arrays (hundreds of thousands of string
+literals). MSVC crashes during link-time code generation on such files.
+
+**Current split strategy:**
+- Each alphabet → separate file (`wa_data_alpha_N.c`)
+- Frequency data → chunked by ~15 languages (`wa_data_freq_N.c`)
+- Keyboard layouts → chunked similarly (`wa_data_keyboards_N.c`)
+
+**Why keep splitting even with MinGW/GCC?**
+1. MSVC compatibility for local Windows development
+2. Faster incremental rebuilds
+3. Lower peak memory during compilation
+4. Future-proofing against other compiler limitations
+
+### Generated Files Location
+- Output: `c/generated/`
+- These files are gitignored and regenerated during CI builds
+
 ## Maintenance
 
 ### Regular Updates

@@ -1,6 +1,28 @@
 #!/usr/bin/env python
 """Generate C library data files from JSON data.
 
+This script generates C source files containing static data for alphabets,
+frequency lists, and keyboard layouts.
+
+File Splitting Strategy:
+------------------------
+The generated data is split across many small files rather than a few large ones.
+This is intentional to work around MSVC (Visual Studio) internal compiler errors
+(ICE) that occur when compiling very large static string arrays. MSVC crashes
+during link-time code generation with exit code -529706956 on files with hundreds
+of thousands of string literals.
+
+Current split strategy:
+  - Each alphabet gets its own file (wa_data_alpha_N.c)
+  - Frequency data is chunked by ~15 languages per file (wa_data_freq_N.c)
+  - Keyboard layouts are chunked similarly (wa_data_keyboards_N.c)
+
+While GCC/Clang handle large files without issues, the splitting is kept for:
+  1. MSVC compatibility for local Windows builds
+  2. Faster incremental rebuilds (only recompile changed files)
+  3. Lower peak memory usage during compilation
+  4. Future-proofing against other compiler limitations
+
 Usage:
     python generate_c_library_data.py [OPTIONS]
 
