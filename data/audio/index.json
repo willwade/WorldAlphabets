@@ -49,6 +49,11 @@
       "engine": "espeak",
       "voice_id": "gmw\\af",
       "path": "data\\audio\\af-Latn_espeak_gmw_af.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mimic3-af-google-nwu_low",
+      "path": "data\\audio\\af-Latn_sherpaonnx_mimic3_af_google_nwu_low.wav"
     }
   ],
   "ak": [
@@ -66,6 +71,21 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_aka",
       "path": "data\\audio\\ak-Latn_sherpaonnx_mms_aka.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ake",
+      "path": "data\\audio\\ak-Latn_sherpaonnx_mms_ake.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_akb",
+      "path": "data\\audio\\ak-Latn_sherpaonnx_mms_akb.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_akp",
+      "path": "data\\audio\\ak-Latn_sherpaonnx_mms_akp.wav"
     }
   ],
   "am": [
@@ -133,6 +153,26 @@
       "engine": "espeak",
       "voice_id": "sem\\am",
       "path": "data\\audio\\am-Ethi_espeak_sem_am.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_amk",
+      "path": "data\\audio\\am-Ethi_sherpaonnx_mms_amk.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ami",
+      "path": "data\\audio\\am-Ethi_sherpaonnx_mms_ami.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_amf",
+      "path": "data\\audio\\am-Ethi_sherpaonnx_mms_amf.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ame",
+      "path": "data\\audio\\am-Ethi_sherpaonnx_mms_ame.wav"
     }
   ],
   "ar": [
@@ -905,6 +945,41 @@
       "engine": "espeak",
       "voice_id": "sem\\ar",
       "path": "data\\audio\\ar-Arab_espeak_sem_ar.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-ar-kareem-low",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_piper_ar_kareem_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-ar-kareem-medium",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_piper_ar_kareem_medium.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_arl",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_arl.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bcc-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_bcc_script_arabic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_kmr-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_kmr_script_arabic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_rif-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_rif_script_arabic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_tuk-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_tuk_script_arabic.wav"
     }
   ],
   "az": [
@@ -5706,6 +5781,11 @@
       "engine": "espeak",
       "voice_id": "mb\\mb-us3",
       "path": "data\\audio\\en-Latn_espeak_mb_mb_us3.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "kokoro-en-en-19",
+      "path": "data\\audio\\en-Latn_sherpaonnx_kokoro_en_en_19.wav"
     }
   ],
   "eo": [
@@ -17233,6 +17313,18 @@
       "engine": "microsoft",
       "voice_id": "zu-ZA-ThembaNeural",
       "path": "data\\audio\\zu-Latn_microsoft_zu_za_thembaneural.wav"
+    }
+  ],
+  "ab": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_abi",
+      "path": "data\\audio\\ab-Cyrl_sherpaonnx_mms_abi.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_abp",
+      "path": "data\\audio\\ab-Cyrl_sherpaonnx_mms_abp.wav"
     }
   ]
 }
