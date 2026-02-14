@@ -12,8 +12,6 @@ import os
 import re
 import shutil
 import tarfile
-import tempfile
-import zipfile
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -145,14 +143,14 @@ def extract_model_id_lang(model_id: str) -> Optional[str]:
             "pus": "ps", "sin": "si", "slk": "sk", "slv": "sl",
             "sna": "sn", "som": "so", "sqi": "sq", "srp": "sr",
             "swa": "sw", "tam": "ta", "tel": "te", "tgk": "tg",
-            "tlh": "tlh", "tsn": "tn", "tur": "tr", "ukr": "uk",
+            "tlh": "tlh", "tsn": "tn",
             "urd": "ur", "uzb": "uz", "wol": "wo", "xho": "xh",
             "yor": "yo", "zul": "zu",
             # Additional 3-letter codes
             "aag": "aa", "aak": "aa", "aau": "aa",
             "abk": "ab", "ady": "ady", "afh": "af",
             "agq": "agq", "aht": "aht", "aia": "aia",
-            "aka": "ak", "als": "als", "amh": "am",
+            "aka": "ak", "als": "als",
             # Add more as needed from MMS model list
         }
         return iso639_3_to_1.get(code, code)
@@ -330,7 +328,7 @@ def synthesize_with_model(model_dir: Path, text: str, model_id: str) -> Optional
         # Create appropriate config
         if model_type == "kokoro":
             if not voices_bin:
-                print(f"    Kokoro model requires voices.bin")
+                print("    Kokoro model requires voices.bin")
                 return None
             config = create_kokoro_config(model_file, tokens_file, voices_bin, espeak_dir)
         elif model_type == "matcha":
@@ -353,7 +351,7 @@ def synthesize_with_model(model_dir: Path, text: str, model_id: str) -> Optional
         audio = tts.generate(text)
 
         if len(audio.samples) == 0:
-            print(f"    No audio generated")
+            print("    No audio generated")
             return None
 
         # Convert to bytes
@@ -604,7 +602,7 @@ def main():
                 success = download_model(model_id, model_url, model_dir)
 
                 if not success:
-                    print(f"  Failed to download model")
+                    print("  Failed to download model")
                     failed += 1
                     cleanup_model(model_dir)
                     continue
@@ -613,7 +611,7 @@ def main():
                 result = synthesize_with_model(model_dir, phrase, model_id)
 
                 if result is None:
-                    print(f"  Failed to synthesize audio")
+                    print("  Failed to synthesize audio")
                     failed += 1
                     cleanup_model(model_dir)
                     continue
