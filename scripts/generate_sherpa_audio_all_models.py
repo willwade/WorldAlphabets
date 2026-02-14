@@ -12,6 +12,7 @@ import os
 import re
 import shutil
 import tarfile
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -111,6 +112,30 @@ def get_project_languages() -> Dict[str, str]:
     return lang_map
 
 
+@lru_cache(maxsize=1)
+def get_iso_mapping() -> Dict[str, str]:
+    """
+    Read data/index.json and create a mapping from ISO 639-3 codes
+    to the project's language codes (usually ISO 639-1 or a 3-letter code).
+    """
+    index_path = Path("data/index.json")
+    if not index_path.exists():
+        return {}
+
+    with index_path.open("r", encoding="utf-8") as f:
+        languages = json.load(f)
+
+    mapping = {}
+    for lang in languages:
+        iso3 = lang.get("iso639_3")
+        code = lang.get("language")
+        if iso3 and code:
+            # Map 3-letter code to project language code
+            mapping[iso3] = code
+
+    return mapping
+
+
 def extract_model_id_lang(model_id: str) -> Optional[str]:
     """
     Extract language code from SherpaOnnx model ID.
@@ -123,37 +148,10 @@ def extract_model_id_lang(model_id: str) -> Optional[str]:
     # MMS models: mms_<iso_639_3> or mms_<iso_639_2>
     if model_id.startswith("mms_"):
         code = model_id[4:].split("-")[0].split("_")[0]
-        # Convert 3-letter ISO 639-3 to 2-letter if possible
-        iso639_3_to_1 = {
-            "eng": "en", "spa": "es", "fra": "fr", "deu": "de",
-            "ita": "it", "por": "pt", "nld": "nl", "pol": "pl",
-            "rus": "ru", "ara": "ar", "hin": "hi", "ben": "bn",
-            "jpn": "ja", "kor": "ko", "zho": "zh", "tha": "th",
-            "vie": "vi", "tur": "tr", "fin": "fi", "swe": "sv",
-            "nor": "no", "dan": "da", "ces": "cs", "ell": "el",
-            "heb": "he", "ukr": "uk", "ron": "ro", "hun": "hu",
-            "afr": "af", "amh": "am", "asm": "as", "aze": "az",
-            "bel": "be", "bul": "bg", "cat": "ca", "ceb": "ceb",
-            "ckb": "ku", "dzo": "dz", "est": "et", "fas": "fa",
-            "gle": "ga", "glg": "gl", "guj": "gu", "hye": "hy",
-            "ibo": "ig", "ind": "id", "jav": "jv", "kat": "ka",
-            "khm": "km", "lao": "lo", "lav": "lv", "lit": "lt",
-            "lug": "lg", "mal": "ml", "mar": "mr", "mkd": "mk",
-            "mlt": "mt", "mya": "my", "nep": "ne", "pan": "pa",
-            "pus": "ps", "sin": "si", "slk": "sk", "slv": "sl",
-            "sna": "sn", "som": "so", "sqi": "sq", "srp": "sr",
-            "swa": "sw", "tam": "ta", "tel": "te", "tgk": "tg",
-            "tlh": "tlh", "tsn": "tn",
-            "urd": "ur", "uzb": "uz", "wol": "wo", "xho": "xh",
-            "yor": "yo", "zul": "zu",
-            # Additional 3-letter codes
-            "aag": "aa", "aak": "aa", "aau": "aa",
-            "abk": "ab", "ady": "ady", "afh": "af",
-            "agq": "agq", "aht": "aht", "aia": "aia",
-            "aka": "ak", "als": "als",
-            # Add more as needed from MMS model list
-        }
-        return iso639_3_to_1.get(code, code)
+
+        # Use mapping from data/index.json instead of hardcoded dictionary
+        iso_map = get_iso_mapping()
+        return iso_map.get(code, code)
 
     # VITS/models with lang codes
     if "-" in model_id:
