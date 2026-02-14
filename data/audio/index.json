@@ -980,6 +980,16 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_tuk-script_arabic",
       "path": "data\\audio\\ar-Arab_sherpaonnx_mms_tuk_script_arabic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_urd-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_urd_script_arabic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_uig-script_arabic",
+      "path": "data\\audio\\ar-Arab_sherpaonnx_mms_uig_script_arabic.wav"
     }
   ],
   "az": [
@@ -1042,6 +1052,36 @@
       "engine": "espeak",
       "voice_id": "trk\\az",
       "path": "data\\audio\\az-Latn_espeak_trk_az.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azg",
+      "path": "data\\audio\\az-Cyrl_sherpaonnx_mms_azg.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azb",
+      "path": "data\\audio\\az-Cyrl_sherpaonnx_mms_azb.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azz",
+      "path": "data\\audio\\az-Cyrl_sherpaonnx_mms_azz.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azg",
+      "path": "data\\audio\\az-Latn_sherpaonnx_mms_azg.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azb",
+      "path": "data\\audio\\az-Latn_sherpaonnx_mms_azb.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azz",
+      "path": "data\\audio\\az-Latn_sherpaonnx_mms_azz.wav"
     }
   ],
   "ba": [
@@ -1064,6 +1104,26 @@
       "engine": "espeak",
       "voice_id": "trk\\ba",
       "path": "data\\audio\\ba-Cyrl_espeak_trk_ba.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ban",
+      "path": "data\\audio\\ba-Cyrl_sherpaonnx_mms_ban.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bam",
+      "path": "data\\audio\\ba-Cyrl_sherpaonnx_mms_bam.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bav",
+      "path": "data\\audio\\ba-Cyrl_sherpaonnx_mms_bav.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bao",
+      "path": "data\\audio\\ba-Cyrl_sherpaonnx_mms_bao.wav"
     }
   ],
   "ban": [
@@ -1098,6 +1158,56 @@
       "engine": "espeak",
       "voice_id": "zle\\be",
       "path": "data\\audio\\be-x-old_espeak_zle_be.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bep",
+      "path": "data\\audio\\be-Cyrl_sherpaonnx_mms_bep.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bem",
+      "path": "data\\audio\\be-Cyrl_sherpaonnx_mms_bem.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ben",
+      "path": "data\\audio\\be-Cyrl_sherpaonnx_mms_ben.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_beh",
+      "path": "data\\audio\\be-Cyrl_sherpaonnx_mms_beh.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bex",
+      "path": "data\\audio\\be-Cyrl_sherpaonnx_mms_bex.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bep",
+      "path": "data\\audio\\be-x-old_sherpaonnx_mms_bep.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bem",
+      "path": "data\\audio\\be-x-old_sherpaonnx_mms_bem.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ben",
+      "path": "data\\audio\\be-x-old_sherpaonnx_mms_ben.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_beh",
+      "path": "data\\audio\\be-x-old_sherpaonnx_mms_beh.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bex",
+      "path": "data\\audio\\be-x-old_sherpaonnx_mms_bex.wav"
     }
   ],
   "bg": [
@@ -1365,6 +1475,36 @@
       "engine": "espeak",
       "voice_id": "zls\\bg",
       "path": "data\\audio\\bg-Cyrl_espeak_zls_bg.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "coqui-bg-cv",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_coqui_bg_cv.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bgq",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_mms_bgq.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bgw",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_mms_bgw.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bgt",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_mms_bgt.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bgr",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_mms_bgr.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bgc",
+      "path": "data\\audio\\bg-Cyrl_sherpaonnx_mms_bgc.wav"
     }
   ],
   "bm": [
@@ -1387,6 +1527,46 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_bam",
       "path": "data\\audio\\bm-Nkoo_sherpaonnx_mms_bam.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmq",
+      "path": "data\\audio\\bm-Latn_sherpaonnx_mms_bmq.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmv",
+      "path": "data\\audio\\bm-Latn_sherpaonnx_mms_bmv.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmr",
+      "path": "data\\audio\\bm-Latn_sherpaonnx_mms_bmr.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmu",
+      "path": "data\\audio\\bm-Latn_sherpaonnx_mms_bmu.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmq",
+      "path": "data\\audio\\bm-Nkoo_sherpaonnx_mms_bmq.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmv",
+      "path": "data\\audio\\bm-Nkoo_sherpaonnx_mms_bmv.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmr",
+      "path": "data\\audio\\bm-Nkoo_sherpaonnx_mms_bmr.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bmu",
+      "path": "data\\audio\\bm-Nkoo_sherpaonnx_mms_bmu.wav"
     }
   ],
   "bn": [
@@ -1489,6 +1669,31 @@
       "engine": "espeak",
       "voice_id": "inc\\bn",
       "path": "data\\audio\\bn-Beng_espeak_inc_bn.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "coqui-bn-custom_female",
+      "path": "data\\audio\\bn-Beng_sherpaonnx_coqui_bn_custom_female.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mimic3-bn-multi",
+      "path": "data\\audio\\bn-Beng_sherpaonnx_mimic3_bn_multi.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bno",
+      "path": "data\\audio\\bn-Beng_sherpaonnx_mms_bno.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bng",
+      "path": "data\\audio\\bn-Beng_sherpaonnx_mms_bng.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bnp",
+      "path": "data\\audio\\bn-Beng_sherpaonnx_mms_bnp.wav"
     }
   ],
   "bs": [
@@ -1521,6 +1726,21 @@
       "engine": "espeak",
       "voice_id": "zls\\bs",
       "path": "data\\audio\\bs-Latn_espeak_zls_bs.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bss",
+      "path": "data\\audio\\bs-Latn_sherpaonnx_mms_bss.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bsq",
+      "path": "data\\audio\\bs-Latn_sherpaonnx_mms_bsq.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bsc",
+      "path": "data\\audio\\bs-Latn_sherpaonnx_mms_bsc.wav"
     }
   ],
   "ca": [
@@ -1588,6 +1808,51 @@
       "engine": "espeak",
       "voice_id": "roa\\ca",
       "path": "data\\audio\\ca-Latn_espeak_roa_ca.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-ca-upc_ona-medium",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_piper_ca_upc_ona_medium.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-ca-upc_ona-low",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_piper_ca_upc_ona_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-ca-upc_pau-low",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_piper_ca_upc_pau_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_car",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_car.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cap",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_cap.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cax",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_cax.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_caa",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_caa.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cab",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_cab.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cas",
+      "path": "data\\audio\\ca-Latn_sherpaonnx_mms_cas.wav"
     }
   ],
   "ceb": [
@@ -1872,6 +2137,31 @@
       "engine": "espeak",
       "voice_id": "zlw\\cs",
       "path": "data\\audio\\cs-Latn_espeak_zlw_cs.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "coqui-cs-cv",
+      "path": "data\\audio\\cs-Latn_sherpaonnx_coqui_cs_cv.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-cs-jirka-low",
+      "path": "data\\audio\\cs-Latn_sherpaonnx_piper_cs_jirka_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-cs-jirka-medium",
+      "path": "data\\audio\\cs-Latn_sherpaonnx_piper_cs_jirka_medium.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cso",
+      "path": "data\\audio\\cs-Latn_sherpaonnx_mms_cso.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_csk",
+      "path": "data\\audio\\cs-Latn_sherpaonnx_mms_csk.wav"
     }
   ],
   "cv": [
@@ -1936,6 +2226,51 @@
       "engine": "espeak",
       "voice_id": "cel\\cy",
       "path": "data\\audio\\cy-Latn_espeak_cel_cy.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-cy-gwryw_gogleddol-medium",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_piper_cy_gwryw_gogleddol_mediu.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_azj-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_azj_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cya",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_cya.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_gag-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_gag_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_kmr-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_kmr_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_rmc-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_rmc_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_rmy-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_rmy_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_uig-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_uig_script_cyrillic.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_uzb-script_cyrillic",
+      "path": "data\\audio\\cy-Latn_sherpaonnx_mms_uzb_script_cyrillic.wav"
     }
   ],
   "da": [
@@ -2218,6 +2553,31 @@
       "engine": "espeak",
       "voice_id": "gmq\\da",
       "path": "data\\audio\\da-Latn_espeak_gmq_da.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "coqui-da-cv",
+      "path": "data\\audio\\da-Latn_sherpaonnx_coqui_da_cv.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-da-talesyntese-medium",
+      "path": "data\\audio\\da-Latn_sherpaonnx_piper_da_talesyntese_medium.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_daa",
+      "path": "data\\audio\\da-Latn_sherpaonnx_mms_daa.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_dar",
+      "path": "data\\audio\\da-Latn_sherpaonnx_mms_dar.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_dah",
+      "path": "data\\audio\\da-Latn_sherpaonnx_mms_dah.wav"
     }
   ],
   "de": [
@@ -2730,6 +3090,71 @@
       "engine": "espeak",
       "voice_id": "gmw\\de",
       "path": "data\\audio\\de-Latn_espeak_gmw_de.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "coqui-de-css10",
+      "path": "data\\audio\\de-Latn_sherpaonnx_coqui_de_css10.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-eva_k-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_eva_k_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-karlsson-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_karlsson_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-kerstin-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_kerstin_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-pavoque-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_pavoque_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-ramona-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_ramona_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-thorsten-high",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_thorsten_high.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-thorsten-low",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_thorsten_low.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-thorsten-medium",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_thorsten_medium.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-de-thorsten_emotional-medium",
+      "path": "data\\audio\\de-Latn_sherpaonnx_piper_de_thorsten_emotional_me.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ded",
+      "path": "data\\audio\\de-Latn_sherpaonnx_mms_ded.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_des",
+      "path": "data\\audio\\de-Latn_sherpaonnx_mms_des.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_urd-script_devanagari",
+      "path": "data\\audio\\de-Latn_sherpaonnx_mms_urd_script_devanagari.wav"
     }
   ],
   "dz": [
@@ -3014,6 +3439,16 @@
       "engine": "espeak",
       "voice_id": "grk\\el",
       "path": "data\\audio\\el-Grek_espeak_grk_el.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mimic3-el-rapunzelina",
+      "path": "data\\audio\\el-Grek_sherpaonnx_mimic3_el_rapunzelina.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "piper-el-rapunzelina-low",
+      "path": "data\\audio\\el-Grek_sherpaonnx_piper_el_rapunzelina_low.wav"
     }
   ],
   "en": [
@@ -16296,6 +16731,16 @@
       "engine": "espeak",
       "voice_id": "inc\\as",
       "path": "data\\audio\\as-Beng_espeak_inc_as.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_asa",
+      "path": "data\\audio\\as-Beng_sherpaonnx_mms_asa.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_asg",
+      "path": "data\\audio\\as-Beng_sherpaonnx_mms_asg.wav"
     }
   ],
   "bem": [
@@ -17325,6 +17770,62 @@
       "engine": "sherpaonnx",
       "voice_id": "mms_abp",
       "path": "data\\audio\\ab-Cyrl_sherpaonnx_mms_abp.wav"
+    }
+  ],
+  "ay": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ayr",
+      "path": "data\\audio\\ay-Latn_sherpaonnx_mms_ayr.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ayo",
+      "path": "data\\audio\\ay-Latn_sherpaonnx_mms_ayo.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_ayz",
+      "path": "data\\audio\\ay-Latn_sherpaonnx_mms_ayz.wav"
+    }
+  ],
+  "br": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_bru",
+      "path": "data\\audio\\br-Latn_sherpaonnx_mms_bru.wav"
+    }
+  ],
+  "co": [
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cot",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_cot.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_con",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_con.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cok",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_cok.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_coe",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_coe.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cof",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_cof.wav"
+    },
+    {
+      "engine": "sherpaonnx",
+      "voice_id": "mms_cou",
+      "path": "data\\audio\\co-Latn_sherpaonnx_mms_cou.wav"
     }
   ]
 }
