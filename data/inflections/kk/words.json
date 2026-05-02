@@ -1,0 +1,167 @@
+{
+  "_locale": "kk",
+  "_type": "words",
+  "_version": "0.1",
+  "автобус": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "автобус",
+    "inflections": {
+      "n_abl_pl": "автобустардан",
+      "n_abl_sg": "автобустан",
+      "n_acc_pl": "автобустарды",
+      "n_acc_sg": "автобусты",
+      "n_dat_pl": "автобустарға",
+      "n_dat_sg": "автобусқа",
+      "n_gen_pl": "автобустардың",
+      "n_gen_sg": "автобустың",
+      "n_inst_pl": "автобустармен",
+      "n_inst_sg": "автобуспен",
+      "n_loc_pl": "автобустарда",
+      "n_loc_sg": "автобуста",
+      "n_nom_pl": "автобустар",
+      "n_nom_sg": "автобус",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "адам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "адам",
+    "inflections": {
+      "n_abl_pl": "адамдардан",
+      "n_abl_sg": "адамнан",
+      "n_acc_pl": "адамдарды",
+      "n_acc_sg": "адамды",
+      "n_dat_pl": "адамдарға",
+      "n_dat_sg": "адамға",
+      "n_gen_pl": "адамдардың",
+      "n_gen_sg": "адамның",
+      "n_inst_pl": "адамдармен",
+      "n_inst_sg": "адаммен",
+      "n_loc_pl": "адамдарда",
+      "n_loc_sg": "адамда",
+      "n_nom_pl": "адамдар",
+      "n_nom_sg": "адам",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "бала": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бала",
+    "inflections": {
+      "n_abl_pl": "балалардан",
+      "n_abl_sg": "баладан",
+      "n_acc_pl": "балаларда",
+      "n_acc_sg": "балада",
+      "n_dat_pl": "балаларға",
+      "n_dat_sg": "балаға",
+      "n_gen_pl": "балалардың",
+      "n_gen_sg": "баланың",
+      "n_inst_pl": "балалармен",
+      "n_inst_sg": "баламен",
+      "n_loc_pl": "балаларды",
+      "n_loc_sg": "баланы",
+      "n_nom_pl": "балалар",
+      "n_nom_sg": "бала",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "сағат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сағат",
+    "inflections": {
+      "n_abl_pl": "сағаттардан",
+      "n_abl_sg": "сағаттан",
+      "n_acc_pl": "сағаттарды",
+      "n_acc_sg": "сағатты",
+      "n_dat_pl": "сағаттарға",
+      "n_dat_sg": "сағатқа",
+      "n_gen_pl": "сағаттардың",
+      "n_gen_sg": "сағаттың",
+      "n_inst_pl": "сағаттармен",
+      "n_inst_sg": "сағатпен",
+      "n_loc_pl": "сағаттарда",
+      "n_loc_sg": "сағатта",
+      "n_nom_pl": "сағаттар",
+      "n_nom_sg": "сағат",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ұшақ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ұшақ",
+    "inflections": {
+      "n_abl_pl": "ұшақтардан",
+      "n_abl_sg": "ұшақтан",
+      "n_acc_pl": "ұшақтарды",
+      "n_acc_sg": "ұшақты",
+      "n_dat_pl": "ұшақтарға",
+      "n_dat_sg": "ұшаққа",
+      "n_gen_pl": "ұшақтардың",
+      "n_gen_sg": "ұшақтың",
+      "n_inst_pl": "ұшақтармен",
+      "n_inst_sg": "ұшақпен",
+      "n_loc_pl": "ұшақтарда",
+      "n_loc_sg": "ұшақта",
+      "n_nom_pl": "ұшақтар",
+      "n_nom_sg": "ұшақ",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "өлім": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "өлім",
+    "inflections": {
+      "n_abl_pl": "өлімдерден",
+      "n_abl_sg": "өлімнен",
+      "n_acc_pl": "өлімдерді",
+      "n_acc_sg": "өлімді",
+      "n_dat_pl": "өлімдерге",
+      "n_dat_sg": "өлімге",
+      "n_gen_pl": "өлімдердің",
+      "n_gen_sg": "өлімнің",
+      "n_inst_pl": "өлімдермен",
+      "n_inst_sg": "өліммен",
+      "n_loc_pl": "өлімдерде",
+      "n_loc_sg": "өлімде",
+      "n_nom_pl": "өлімдер",
+      "n_nom_sg": "өлім",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  }
+}

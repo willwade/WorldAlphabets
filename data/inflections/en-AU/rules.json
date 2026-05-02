@@ -1,0 +1,88 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "you, i, it, he, we, me",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Pronoun Subject",
+      "overrides": "none"
+    },
+    {
+      "executable": "the, a",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Article Usage",
+      "overrides": "none"
+    },
+    {
+      "executable": "and",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Conjunction Usage",
+      "overrides": "none"
+    },
+    {
+      "executable": "'s",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Possessive Form",
+      "overrides": "none"
+    },
+    {
+      "executable": "'t",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Contraction Form",
+      "overrides": "none"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "Pronoun Subject",
+      "input": "you"
+    },
+    {
+      "expected": "Pronoun Subject",
+      "input": "i"
+    },
+    {
+      "expected": "Article Usage",
+      "input": "the"
+    },
+    {
+      "expected": "none",
+      "input": "to"
+    },
+    {
+      "expected": "Article Usage",
+      "input": "a"
+    },
+    {
+      "expected": "Possessive Form",
+      "input": "'s"
+    },
+    {
+      "expected": "Pronoun Subject",
+      "input": "it"
+    },
+    {
+      "expected": "Conjunction Usage",
+      "input": "and"
+    },
+    {
+      "expected": "Pronoun Subject",
+      "input": "that"
+    },
+    {
+      "expected": "Contraction Form",
+      "input": "'t"
+    }
+  ],
+  "_locale": "en-AU",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

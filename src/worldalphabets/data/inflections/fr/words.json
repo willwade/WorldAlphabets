@@ -1,0 +1,553 @@
+{
+  "_locale": "fr",
+  "_type": "words",
+  "_version": "0.1",
+  "ai": {
+    "antonyms": [],
+    "base": "avoir",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "as": {
+    "antonyms": [],
+    "base": "avoir",
+    "examples": [
+      "Tu as un livre."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "avez": {
+    "antonyms": [],
+    "base": "avoir",
+    "examples": [
+      "Vous avez raison."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "cette": {
+    "antonyms": [],
+    "base": "cette",
+    "examples": [
+      "Cette maison est belle."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "determiner"
+    ]
+  },
+  "dans": {
+    "antonyms": [],
+    "base": "dans",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "de": {
+    "antonyms": [],
+    "base": "de",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "des": {
+    "antonyms": [],
+    "base": "des",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "article"
+    ]
+  },
+  "dire": {
+    "antonyms": [],
+    "base": "dire",
+    "examples": [
+      "Je veux dire quelque chose."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "elle": {
+    "antonyms": [],
+    "base": "elle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "est": {
+    "antonyms": [],
+    "base": "être",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "suis",
+          "person": "1st singular",
+          "tense": "present"
+        },
+        {
+          "form": "es",
+          "person": "2nd singular",
+          "tense": "present"
+        },
+        {
+          "form": "sommes",
+          "person": "1st plural",
+          "tense": "present"
+        },
+        {
+          "form": "êtes",
+          "person": "2nd plural",
+          "tense": "present"
+        },
+        {
+          "form": "sont",
+          "person": "3rd plural",
+          "tense": "present"
+        }
+      ]
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "faire": {
+    "antonyms": [],
+    "base": "faire",
+    "examples": [
+      "Je vais faire mes devoirs."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "fait": {
+    "antonyms": [],
+    "base": "faire",
+    "examples": [
+      "Il fait beau aujourd'hui."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ils": {
+    "antonyms": [],
+    "base": "ils",
+    "examples": [
+      "Ils sont partis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "la": {
+    "antonyms": [],
+    "base": "la",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "le": {
+    "antonyms": [],
+    "base": "le",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "là": {
+    "antonyms": [],
+    "base": "là",
+    "examples": [
+      "Il est là."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "mais": {
+    "antonyms": [],
+    "base": "mais",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "moi": {
+    "antonyms": [],
+    "base": "moi",
+    "examples": [
+      "C'est moi qui ai gagné."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "n'": {
+    "antonyms": [],
+    "base": "n'",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nous": {
+    "antonyms": [],
+    "base": "nous",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "oui": {
+    "antonyms": [
+      "non"
+    ],
+    "base": "oui",
+    "examples": [
+      "Oui, je suis d'accord."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "où": {
+    "antonyms": [],
+    "base": "où",
+    "examples": [
+      "Où es-tu ?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "pas": {
+    "antonyms": [],
+    "base": "pas",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "peux": {
+    "antonyms": [],
+    "base": "pouvoir",
+    "examples": [
+      "Tu peux le faire."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "pour": {
+    "antonyms": [],
+    "base": "pour",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "qu'": {
+    "antonyms": [],
+    "base": "qu'",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "quand": {
+    "antonyms": [],
+    "base": "quand",
+    "examples": [
+      "Quand viens-tu ?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "que": {
+    "antonyms": [],
+    "base": "que",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "qui": {
+    "antonyms": [],
+    "base": "qui",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "rien": {
+    "antonyms": [
+      "tout"
+    ],
+    "base": "rien",
+    "examples": [
+      "Je n'ai rien dit."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "s'": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "son": {
+    "antonyms": [],
+    "base": "son",
+    "examples": [
+      "C'est son livre."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "determiner"
+    ]
+  },
+  "sont": {
+    "antonyms": [],
+    "base": "être",
+    "examples": [
+      "Ils sont ici."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "sur": {
+    "antonyms": [],
+    "base": "sur",
+    "examples": [
+      "Le livre est sur la table."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "tu": {
+    "antonyms": [],
+    "base": "tu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "un": {
+    "antonyms": [],
+    "base": "un",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "va": {
+    "antonyms": [],
+    "base": "aller",
+    "examples": [
+      "Il va au marché."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "vous": {
+    "antonyms": [],
+    "base": "vous",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "était": {
+    "antonyms": [],
+    "base": "être",
+    "examples": [
+      "Il était une fois."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

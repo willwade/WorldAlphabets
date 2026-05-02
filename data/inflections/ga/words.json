@@ -1,0 +1,183 @@
+{
+  "_locale": "ga",
+  "_type": "words",
+  "_version": "0.1",
+  "báisteach": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "báisteach",
+    "inflections": {
+      "n_gen_sg": "báistí",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "béarla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "béarla",
+    "inflections": {
+      "n_dat_pl": "béarlaí",
+      "n_dat_pl_def": "leis na béarlaí",
+      "n_dat_sg": "béarla",
+      "n_dat_sg_def": "leis an mbéarla",
+      "n_gen_pl": "béarlaí",
+      "n_gen_sg": "béarla",
+      "n_gen_sg_def": "na mbéarlaí",
+      "n_gen_sg_def_2": "an bhéarla",
+      "n_nom_pl": "béarlaí",
+      "n_nom_pl_def": "na béarlaí",
+      "n_nom_sg": "béarla",
+      "n_nom_sg_def": "an béarla",
+      "n_voc_pl": "a bhéarlaí",
+      "n_voc_sg": "a bhéarla",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "cruinnigh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cruinnigh",
+    "inflections": {
+      "regulars": [],
+      "v_v_msdr": "cruinniú"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "cruinniú": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cruinniú",
+    "inflections": {
+      "n_dat_pl": "cruinnithe",
+      "n_dat_pl_def": "leis na cruinnithe",
+      "n_dat_sg": "cruinniú",
+      "n_dat_sg_def": "leis an gcruinniú",
+      "n_gen_pl": "cruinnithe",
+      "n_gen_sg": "cruinnithe",
+      "n_gen_sg_def": "na gcruinnithe",
+      "n_gen_sg_def_2": "an chruinnithe",
+      "n_nom_pl": "cruinnithe",
+      "n_nom_pl_def": "na cruinnithe",
+      "n_nom_sg": "cruinniú",
+      "n_nom_sg_def": "an cruinniú",
+      "n_voc_pl": "a chruinnithe",
+      "n_voc_sg": "a chruinniú",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "inscne": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "inscne",
+    "inflections": {
+      "n_dat_pl": "inscní",
+      "n_dat_pl_def": "leis na hinscní",
+      "n_dat_sg": "inscne",
+      "n_dat_sg_def": "leis an inscne",
+      "n_gen_pl": "inscní",
+      "n_gen_sg": "inscne",
+      "n_gen_sg_def": "na n-inscní",
+      "n_gen_sg_def_2": "na hinscne",
+      "n_nom_pl": "inscní",
+      "n_nom_pl_def": "na hinscní",
+      "n_nom_sg": "inscne",
+      "n_nom_sg_def": "an inscne",
+      "n_voc_pl": "a inscní",
+      "n_voc_sg": "a inscne",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "rud": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rud",
+    "inflections": {
+      "n_dat_pl": "rudaí",
+      "n_dat_pl_def": "leis na rudaí",
+      "n_dat_sg": "rud",
+      "n_dat_sg_def": "leis an rud",
+      "n_gen_pl": "rudaí",
+      "n_gen_sg": "ruda",
+      "n_gen_sg_def": "na rudaí",
+      "n_gen_sg_def_2": "an ruda",
+      "n_nom_pl": "rudaí",
+      "n_nom_pl_def": "na rudaí",
+      "n_nom_sg": "rud",
+      "n_nom_sg_def": "an rud",
+      "n_voc_pl": "a rudaí",
+      "n_voc_sg": "a rud",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "uair": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uair",
+    "inflections": {
+      "n_dat_pl": "uaireanta",
+      "n_gen_pl": "uaireanta",
+      "n_nom_pl": "uaireanta",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "álainn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "álainn",
+    "inflections": {
+      "adj_cmpr": "níos áille",
+      "adj_dat_pl": "áille",
+      "adj_dat_sg_fem": "álainn",
+      "adj_dat_sg_masc": "álainn",
+      "adj_gen_pl_strong": "áille",
+      "adj_gen_pl_weak": "álainn",
+      "adj_gen_sg_fem": "áille",
+      "adj_nom_pl": "áille",
+      "adj_nom_sg_masc": "álainn",
+      "adj_nom_voc_sg_fem": "álainn",
+      "adj_sprl": "is áille",
+      "adj_voc_gen_sg_masv": "álainn",
+      "adj_voc_pl": "áille",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  }
+}

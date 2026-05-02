@@ -1,0 +1,3483 @@
+{
+  "_locale": "is",
+  "_type": "words",
+  "_version": "0.1",
+  "afi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "afi",
+    "inflections": {
+      "n_indf_nom_pl": "afar",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "afsökun": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "afsökun",
+    "inflections": {
+      "n_indf_gen_sg": "afsökunar",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "aftann": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aftann",
+    "inflections": {
+      "n_indf_acc_sg": "aftan",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "auga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "auga",
+    "inflections": {
+      "n_def_acc_pl": "augun",
+      "n_def_dat_pl": "augun",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "augnablik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "augnablik",
+    "inflections": {
+      "n_def_acc_pl": "augnablikin",
+      "n_def_acc_sg": "augnablikið",
+      "n_def_dat_pl": "augnablikunum",
+      "n_def_dat_sg": "augnablikinu",
+      "n_def_gen_pl": "augnablikanna",
+      "n_def_gen_sg": "augnabliksins",
+      "n_def_nom_pl": "augnablikin",
+      "n_def_nom_sg": "augnablikið",
+      "n_indf_acc_pl": "augnablik",
+      "n_indf_acc_sg": "augnablik",
+      "n_indf_dat_pl": "augnablikum",
+      "n_indf_dat_sg": "augnabliki",
+      "n_indf_gen_pl": "augnablika",
+      "n_indf_gen_sg": "augnabliks",
+      "n_indf_nom_pl": "augnablik",
+      "n_indf_nom_sg": "augnablik",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bak": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bak",
+    "inflections": {
+      "n_def_acc_pl": "bökin",
+      "n_def_acc_sg": "bakið",
+      "n_def_dat_pl": "bökunum",
+      "n_def_dat_sg": "bakinu",
+      "n_def_gen_pl": "bakanna",
+      "n_def_gen_sg": "baksins",
+      "n_def_nom_pl": "bökin",
+      "n_def_nom_sg": "bakið",
+      "n_indf_acc_pl": "bök",
+      "n_indf_acc_sg": "bak",
+      "n_indf_dat_pl": "bökum",
+      "n_indf_dat_sg": "baki",
+      "n_indf_gen_pl": "baka",
+      "n_indf_gen_sg": "baks",
+      "n_indf_nom_pl": "bök",
+      "n_indf_nom_sg": "bak",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "betra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "betra",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "betrað",
+      "v_imp_2_pl": "betrið",
+      "v_imp_2_sg": "betra",
+      "v_ind_prs_1_pl": "betruðum",
+      "v_ind_prs_1_pl_2": "betrum",
+      "v_ind_prs_1_sg": "betra",
+      "v_ind_prs_2_pl": "betrið",
+      "v_ind_prs_2_sg": "betrar",
+      "v_ind_prs_3_pl": "betra",
+      "v_ind_prs_3_sg": "betrar",
+      "v_ind_pst_1_sg": "betraði",
+      "v_ind_pst_2_pl": "betruðuð",
+      "v_ind_pst_2_sg": "betraðir",
+      "v_ind_pst_3_pl": "betruðu",
+      "v_ind_pst_3_sg": "betraði",
+      "v_nfin": "betra",
+      "v_ptcp_prs": "betrandi",
+      "v_sbjv_prs_1_pl": "betrum",
+      "v_sbjv_prs_1_sg": "betri",
+      "v_sbjv_prs_2_pl": "betrið",
+      "v_sbjv_prs_2_sg": "betrir",
+      "v_sbjv_prs_3_pl": "betri",
+      "v_sbjv_prs_3_sg": "betri",
+      "v_sbjv_pst_1_pl": "betruðum",
+      "v_sbjv_pst_1_sg": "betraði",
+      "v_sbjv_pst_2_pl": "betruðuð",
+      "v_sbjv_pst_2_sg": "betraðir",
+      "v_sbjv_pst_3_pl": "betruðu",
+      "v_sbjv_pst_3_sg": "betraði"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "björg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "björg",
+    "inflections": {
+      "n_indf_gen_pl": "bjarga",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "bær": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bær",
+    "inflections": {
+      "n_def_gen_sg": "bænum",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "bíll": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bíll",
+    "inflections": {
+      "n_def_acc_sg": "bílinn",
+      "n_def_dat_sg": "bílnum",
+      "n_indf_acc_sg": "bíl",
+      "n_indf_dat_sg": "bíl",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dagur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dagur",
+    "inflections": {
+      "n_def_acc_pl": "dagana",
+      "n_def_acc_sg": "daginn",
+      "n_def_dat_pl": "dögunum",
+      "n_def_dat_sg": "deginum",
+      "n_def_gen_pl": "daganna",
+      "n_def_gen_sg": "dagsins",
+      "n_def_nom_pl": "dagarnir",
+      "n_def_nom_sg": "dagurinn",
+      "n_indf_acc_pl": "daga",
+      "n_indf_acc_sg": "dag",
+      "n_indf_dat_pl": "dögum",
+      "n_indf_dat_sg": "degi",
+      "n_indf_gen_pl": "daga",
+      "n_indf_gen_sg": "dags",
+      "n_indf_nom_pl": "dagar",
+      "n_indf_nom_sg": "dagur",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dama",
+    "inflections": {
+      "n_indf_acc_pl": "dömur",
+      "n_indf_nom_pl": "dömur",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "dans": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dans",
+    "inflections": {
+      "n_indf_acc_pl": "dansa",
+      "n_indf_gen_pl": "dansa",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "drengur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drengur",
+    "inflections": {
+      "n_def_acc_pl": "drengina",
+      "n_def_acc_sg": "drenginn",
+      "n_def_dat_pl": "drengjunum",
+      "n_def_dat_sg": "drengnum",
+      "n_def_gen_pl": "drengjanna",
+      "n_def_gen_sg": "drengsins",
+      "n_def_nom_pl": "drengirnir",
+      "n_def_nom_sg": "drengurinn",
+      "n_indf_acc_pl": "drengi",
+      "n_indf_acc_sg": "dreng",
+      "n_indf_dat_pl": "drengjum",
+      "n_indf_dat_sg": "dreng",
+      "n_indf_gen_pl": "drengja",
+      "n_indf_gen_sg": "drengs",
+      "n_indf_nom_pl": "drengir",
+      "n_indf_nom_sg": "drengur",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "drepa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drepa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "drepið",
+      "v_imp_2_pl": "drepið",
+      "v_imp_2_sg": "drep",
+      "v_ind_prs_1_pl": "drápum",
+      "v_ind_prs_1_pl_2": "drepum",
+      "v_ind_prs_1_sg": "drep",
+      "v_ind_prs_2_pl": "drepið",
+      "v_ind_prs_2_sg": "drepur",
+      "v_ind_prs_3_pl": "drepa",
+      "v_ind_prs_3_sg": "drepur",
+      "v_ind_pst_1_sg": "drap",
+      "v_ind_pst_2_pl": "drápuð",
+      "v_ind_pst_2_sg": "drapst",
+      "v_ind_pst_3_pl": "drápu",
+      "v_ind_pst_3_sg": "drap",
+      "v_nfin": "drepa",
+      "v_ptcp_prs": "drepandi",
+      "v_sbjv_prs_1_pl": "drepum",
+      "v_sbjv_prs_1_sg": "drepi",
+      "v_sbjv_prs_2_pl": "drepið",
+      "v_sbjv_prs_2_sg": "drepir",
+      "v_sbjv_prs_3_pl": "drepi",
+      "v_sbjv_prs_3_sg": "drepi",
+      "v_sbjv_pst_1_pl": "dræpum",
+      "v_sbjv_pst_1_sg": "dræpi",
+      "v_sbjv_pst_2_pl": "dræpuð",
+      "v_sbjv_pst_2_sg": "dræpir",
+      "v_sbjv_pst_3_pl": "dræpu",
+      "v_sbjv_pst_3_sg": "dræpi"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "efni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "efni",
+    "inflections": {
+      "n_def_acc_pl": "efnin",
+      "n_def_acc_sg": "efnið",
+      "n_def_dat_pl": "efnunum",
+      "n_def_dat_sg": "efninu",
+      "n_def_gen_pl": "efnanna",
+      "n_def_gen_sg": "efnisins",
+      "n_def_nom_pl": "efnin",
+      "n_def_nom_sg": "efnið",
+      "n_indf_acc_pl": "efni",
+      "n_indf_acc_sg": "efni",
+      "n_indf_dat_pl": "efnum",
+      "n_indf_dat_sg": "efni",
+      "n_indf_gen_pl": "efna",
+      "n_indf_gen_sg": "efnis",
+      "n_indf_nom_pl": "efni",
+      "n_indf_nom_sg": "efni",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "enda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "enda",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "endað",
+      "v_imp_2_pl": "endið",
+      "v_imp_2_sg": "enda",
+      "v_ind_prs_1_pl": "enduðum",
+      "v_ind_prs_1_pl_2": "endum",
+      "v_ind_prs_1_sg": "enda",
+      "v_ind_prs_2_pl": "endið",
+      "v_ind_prs_3_pl": "enda",
+      "v_ind_pst_1_sg": "endaði",
+      "v_ind_pst_2_pl": "enduðuð",
+      "v_ind_pst_2_sg": "endaðir",
+      "v_ind_pst_2_sg_2": "endar",
+      "v_ind_pst_3_pl": "enduðu",
+      "v_ind_pst_3_sg": "endaði",
+      "v_ind_pst_3_sg_2": "endar",
+      "v_nfin": "enda",
+      "v_ptcp_prs": "endandi",
+      "v_sbjv_prs_2_pl": "endið",
+      "v_sbjv_prs_2_sg": "endir",
+      "v_sbjv_prs_3_pl": "endi",
+      "v_sbjv_prs_3_sg": "endi",
+      "v_sbjv_pst_1_pl": "enduðum",
+      "v_sbjv_pst_1_pl_2": "endum",
+      "v_sbjv_pst_1_sg": "endaði",
+      "v_sbjv_pst_1_sg_2": "endi",
+      "v_sbjv_pst_2_pl": "enduðuð",
+      "v_sbjv_pst_2_sg": "endaðir",
+      "v_sbjv_pst_3_pl": "enduðu",
+      "v_sbjv_pst_3_sg": "endaði"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "endir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "endir",
+    "inflections": {
+      "n_indf_acc_pl": "enda",
+      "n_indf_gen_pl": "enda",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "engi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "engi",
+    "inflections": {
+      "n_def_acc_pl": "engin",
+      "n_def_nom_pl": "engin",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "enn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "enn",
+    "inflections": {
+      "n_def_acc_pl": "ennin",
+      "n_def_acc_sg": "ennið",
+      "n_def_dat_pl": "ennunum",
+      "n_def_dat_sg": "enninu",
+      "n_def_gen_pl": "ennanna",
+      "n_def_gen_sg": "ennsins",
+      "n_def_nom_pl": "ennin",
+      "n_def_nom_sg": "ennið",
+      "n_indf_acc_pl": "enn",
+      "n_indf_acc_sg": "enn",
+      "n_indf_dat_pl": "ennum",
+      "n_indf_dat_sg": "enni",
+      "n_indf_gen_pl": "enna",
+      "n_indf_gen_sg": "enns",
+      "n_indf_nom_pl": "enn",
+      "n_indf_nom_sg": "enn",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "eð": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eð",
+    "inflections": {
+      "n_indf_gen_pl": "eða",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "fangelsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fangelsi",
+    "inflections": {
+      "n_def_acc_pl": "fangelsin",
+      "n_def_acc_sg": "fangelsið",
+      "n_def_dat_pl": "fangelsunum",
+      "n_def_dat_sg": "fangelsinu",
+      "n_def_gen_pl": "fangelsanna",
+      "n_def_gen_sg": "fangelsisins",
+      "n_def_nom_pl": "fangelsin",
+      "n_def_nom_sg": "fangelsið",
+      "n_indf_acc_pl": "fangelsi",
+      "n_indf_acc_sg": "fangelsi",
+      "n_indf_dat_pl": "fangelsum",
+      "n_indf_dat_sg": "fangelsi",
+      "n_indf_gen_pl": "fangelsa",
+      "n_indf_gen_sg": "fangelsis",
+      "n_indf_nom_pl": "fangelsi",
+      "n_indf_nom_sg": "fangelsi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "far": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "far",
+    "inflections": {
+      "n_def_acc_sg": "farið",
+      "n_def_nom_sg": "farið",
+      "n_indf_dat_pl": "förum",
+      "n_indf_dat_sg": "fari",
+      "n_indf_gen_pl": "fara",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "finnast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "finnast",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "finnst",
+      "v_ind_prs_1_sg": "finnst",
+      "v_ind_pst_1_sg": "fannst",
+      "v_ind_pst_2_sg": "fannst",
+      "v_ind_pst_2_sg_2": "finnst",
+      "v_ind_pst_3_sg": "fannst",
+      "v_ind_pst_3_sg_2": "finnst"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "fjölskylda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fjölskylda",
+    "inflections": {
+      "n_indf_acc_sg": "fjölskyldu",
+      "n_indf_dat_sg": "fjölskyldu",
+      "n_indf_gen_sg": "fjölskyldu",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "frændi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frændi",
+    "inflections": {
+      "n_def_acc_pl": "frændurna",
+      "n_def_acc_sg": "frændann",
+      "n_def_dat_pl": "frændunum",
+      "n_def_dat_sg": "frændanum",
+      "n_def_gen_pl": "frændanna",
+      "n_def_gen_sg": "frændans",
+      "n_def_nom_pl": "frændurnir",
+      "n_def_nom_sg": "frændinn",
+      "n_indf_acc_pl": "frændur",
+      "n_indf_acc_sg": "frænda",
+      "n_indf_dat_pl": "frændum",
+      "n_indf_dat_sg": "frænda",
+      "n_indf_gen_pl": "frænda",
+      "n_indf_gen_sg": "frænda",
+      "n_indf_nom_pl": "frændur",
+      "n_indf_nom_sg": "frændi",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "frétt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frétt",
+    "inflections": {
+      "n_indf_acc_pl": "fréttir",
+      "n_indf_nom_pl": "fréttir",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "frú": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frú",
+    "inflections": {
+      "n_def_acc_pl": "frúrnar",
+      "n_def_acc_sg": "frúna",
+      "n_def_dat_pl": "frúnum",
+      "n_def_dat_sg": "frúnni",
+      "n_def_gen_pl": "frúnna",
+      "n_def_gen_sg": "frúarinnar",
+      "n_def_nom_pl": "frúrnar",
+      "n_def_nom_sg": "frúin",
+      "n_indf_acc_pl": "frúr",
+      "n_indf_acc_sg": "frú",
+      "n_indf_dat_pl": "frúm",
+      "n_indf_dat_sg": "frú",
+      "n_indf_gen_pl": "frúa",
+      "n_indf_gen_sg": "frúar",
+      "n_indf_nom_pl": "frúr",
+      "n_indf_nom_sg": "frú",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "færa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "færa",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "fær",
+      "v_ind_prs_1_sg": "færi",
+      "v_sbjv_prs_1_sg": "færi",
+      "v_sbjv_prs_3_pl": "færi",
+      "v_sbjv_prs_3_sg": "færi"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "færi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "færi",
+    "inflections": {
+      "n_def_acc_pl": "færin",
+      "n_def_acc_sg": "færið",
+      "n_def_dat_pl": "færunum",
+      "n_def_dat_sg": "færinu",
+      "n_def_gen_pl": "færanna",
+      "n_def_gen_sg": "færisins",
+      "n_def_nom_pl": "færin",
+      "n_def_nom_sg": "færið",
+      "n_indf_acc_pl": "færi",
+      "n_indf_acc_sg": "færi",
+      "n_indf_dat_pl": "færum",
+      "n_indf_dat_sg": "færi",
+      "n_indf_gen_pl": "færa",
+      "n_indf_gen_sg": "færis",
+      "n_indf_nom_pl": "færi",
+      "n_indf_nom_sg": "færi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "félag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "félag",
+    "inflections": {
+      "n_indf_dat_sg": "félagi",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "félagi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "félagi",
+    "inflections": {
+      "n_def_acc_pl": "félagana",
+      "n_def_acc_sg": "félagann",
+      "n_def_dat_pl": "félagunum",
+      "n_def_dat_sg": "félaganum",
+      "n_def_gen_pl": "félaganna",
+      "n_def_gen_sg": "félagans",
+      "n_def_nom_pl": "félagarnir",
+      "n_def_nom_sg": "félaginn",
+      "n_indf_acc_pl": "félaga",
+      "n_indf_acc_sg": "félaga",
+      "n_indf_dat_pl": "félagum",
+      "n_indf_dat_sg": "félaga",
+      "n_indf_gen_pl": "félaga",
+      "n_indf_gen_sg": "félaga",
+      "n_indf_nom_pl": "félagar",
+      "n_indf_nom_sg": "félagi",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "gaman": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaman",
+    "inflections": {
+      "n_def_acc_sg": "gamanið",
+      "n_def_dat_sg": "gamninu",
+      "n_def_gen_sg": "gamansins",
+      "n_def_nom_sg": "gamanið",
+      "n_indf_acc_sg": "gaman",
+      "n_indf_dat_sg": "gamni",
+      "n_indf_gen_sg": "gamans",
+      "n_indf_nom_sg": "gaman",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "gat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gat",
+    "inflections": {
+      "n_def_acc_pl": "götin",
+      "n_def_acc_sg": "gatið",
+      "n_def_dat_pl": "götunum",
+      "n_def_dat_sg": "gatinu",
+      "n_def_gen_pl": "gatanna",
+      "n_def_gen_sg": "gatsins",
+      "n_def_nom_pl": "götin",
+      "n_def_nom_sg": "gatið",
+      "n_indf_acc_pl": "göt",
+      "n_indf_acc_sg": "gat",
+      "n_indf_dat_pl": "götum",
+      "n_indf_dat_sg": "gati",
+      "n_indf_gen_pl": "gata",
+      "n_indf_gen_sg": "gats",
+      "n_indf_nom_pl": "göt",
+      "n_indf_nom_sg": "gat",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "gaur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaur",
+    "inflections": {
+      "n_def_acc_pl": "gaurana",
+      "n_def_acc_sg": "gaurinn",
+      "n_def_dat_pl": "gaurunum",
+      "n_def_dat_sg": "gaurnum",
+      "n_def_gen_pl": "gauranna",
+      "n_def_gen_sg": "gaursins",
+      "n_def_nom_pl": "gaurarnir",
+      "n_def_nom_sg": "gaurinn",
+      "n_indf_acc_pl": "gaura",
+      "n_indf_acc_sg": "gaur",
+      "n_indf_dat_pl": "gaurum",
+      "n_indf_dat_sg": "gaur",
+      "n_indf_gen_pl": "gaura",
+      "n_indf_gen_sg": "gaurs",
+      "n_indf_nom_pl": "gaurar",
+      "n_indf_nom_sg": "gaur",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "gegna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gegna",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "gegn",
+      "v_ind_prs_1_pl": "gegnum",
+      "v_sbjv_pst_1_pl": "gegnum"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "gleyma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gleyma",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "gleymt",
+      "v_imp_2_pl": "gleymið",
+      "v_imp_2_sg": "gleym",
+      "v_ind_prs_1_pl": "gleymdum",
+      "v_ind_prs_1_pl_2": "gleymum",
+      "v_ind_prs_1_sg": "gleymi",
+      "v_ind_prs_2_pl": "gleymið",
+      "v_ind_prs_2_sg": "gleymir",
+      "v_ind_prs_3_pl": "gleyma",
+      "v_ind_prs_3_sg": "gleymir",
+      "v_ind_pst_1_sg": "gleymdi",
+      "v_ind_pst_2_pl": "gleymduð",
+      "v_ind_pst_2_sg": "gleymdir",
+      "v_ind_pst_3_pl": "gleymdu",
+      "v_ind_pst_3_sg": "gleymdi",
+      "v_nfin": "gleyma",
+      "v_ptcp_prs": "gleymandi",
+      "v_sbjv_prs_1_pl": "gleymum",
+      "v_sbjv_prs_1_sg": "gleymi",
+      "v_sbjv_prs_2_pl": "gleymið",
+      "v_sbjv_prs_2_sg": "gleymir",
+      "v_sbjv_prs_3_pl": "gleymi",
+      "v_sbjv_prs_3_sg": "gleymi",
+      "v_sbjv_pst_1_pl": "gleymdum",
+      "v_sbjv_pst_1_sg": "gleymdi",
+      "v_sbjv_pst_2_pl": "gleymduð",
+      "v_sbjv_pst_2_sg": "gleymdir",
+      "v_sbjv_pst_3_pl": "gleymdu",
+      "v_sbjv_pst_3_sg": "gleymdi"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "guð": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "guð",
+    "inflections": {
+      "n_def_acc_pl": "guðina",
+      "n_def_acc_sg": "guðinn",
+      "n_def_dat_pl": "guðunum",
+      "n_def_dat_sg": "guðinum",
+      "n_def_gen_pl": "guðanna",
+      "n_def_gen_sg": "guðsins",
+      "n_def_nom_pl": "guðirnir",
+      "n_def_nom_sg": "guðinn",
+      "n_indf_acc_pl": "guði",
+      "n_indf_acc_sg": "guð",
+      "n_indf_dat_pl": "guðum",
+      "n_indf_dat_sg": "guði",
+      "n_indf_gen_pl": "guða",
+      "n_indf_gen_sg": "guðs",
+      "n_indf_nom_pl": "guðir",
+      "n_indf_nom_sg": "guð",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "gæta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gæta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_pl": "gætum",
+      "v_ind_prs_1_sg": "gæti",
+      "v_ind_pst_2_sg": "gætir",
+      "v_ind_pst_3_sg": "gætir",
+      "v_sbjv_prs_2_sg": "gætir",
+      "v_sbjv_prs_3_pl": "gæti",
+      "v_sbjv_prs_3_sg": "gæti",
+      "v_sbjv_pst_1_pl": "gætum",
+      "v_sbjv_pst_1_sg": "gæti"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "göng": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "göng",
+    "inflections": {
+      "n_indf_gen_sg": "ganga",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "haf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "haf",
+    "inflections": {
+      "n_indf_dat_pl": "höfum",
+      "n_indf_dat_sg": "hafi",
+      "n_indf_gen_pl": "hafa",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "hald": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hald",
+    "inflections": {
+      "n_indf_dat_pl": "höldum",
+      "n_indf_gen_pl": "halda",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "hamingja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hamingja",
+    "inflections": {
+      "n_indf_acc_sg": "hamingju",
+      "n_indf_dat_sg": "hamingju",
+      "n_indf_gen_sg": "hamingju",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "hani": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hani",
+    "inflections": {
+      "n_indf_acc_pl": "hana",
+      "n_indf_acc_sg": "hana",
+      "n_indf_dat_sg": "hana",
+      "n_indf_gen_pl": "hana",
+      "n_indf_gen_sg": "hana",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "hata": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hata",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "hatað",
+      "v_imp_2_pl": "hatið",
+      "v_imp_2_sg": "hata",
+      "v_ind_prs_1_pl": "hötuðum",
+      "v_ind_prs_1_pl_2": "hötum",
+      "v_ind_prs_1_sg": "hata",
+      "v_ind_prs_2_pl": "hatið",
+      "v_ind_prs_2_sg": "hatar",
+      "v_ind_prs_3_pl": "hata",
+      "v_ind_prs_3_sg": "hatar",
+      "v_ind_pst_1_sg": "hataði",
+      "v_ind_pst_2_pl": "hötuðuð",
+      "v_ind_pst_2_sg": "hataðir",
+      "v_ind_pst_3_pl": "hötuðu",
+      "v_ind_pst_3_sg": "hataði",
+      "v_nfin": "hata",
+      "v_ptcp_prs": "hatandi",
+      "v_sbjv_prs_1_pl": "hötum",
+      "v_sbjv_prs_1_sg": "hati",
+      "v_sbjv_prs_2_pl": "hatið",
+      "v_sbjv_prs_2_sg": "hatir",
+      "v_sbjv_prs_3_pl": "hati",
+      "v_sbjv_prs_3_sg": "hati",
+      "v_sbjv_pst_1_pl": "hötuðum",
+      "v_sbjv_pst_1_sg": "hataði",
+      "v_sbjv_pst_2_pl": "hötuðuð",
+      "v_sbjv_pst_2_sg": "hataðir",
+      "v_sbjv_pst_3_pl": "hötuðu",
+      "v_sbjv_pst_3_sg": "hataði"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "hefja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hefja",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "hef",
+      "v_ind_prs_1_sg": "hef",
+      "v_ind_prs_2_sg": "hefur",
+      "v_ind_prs_3_sg": "hefur"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "heimur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "heimur",
+    "inflections": {
+      "n_def_dat_sg": "heiminum",
+      "n_indf_acc_pl": "heima",
+      "n_indf_acc_sg": "heim",
+      "n_indf_dat_sg": "heimi",
+      "n_indf_gen_pl": "heima",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "heit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "heit",
+    "inflections": {
+      "n_indf_dat_sg": "heiti",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "heiti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "heiti",
+    "inflections": {
+      "n_def_acc_pl": "heitin",
+      "n_def_acc_sg": "heitið",
+      "n_def_dat_pl": "heitunum",
+      "n_def_dat_sg": "heitinu",
+      "n_def_gen_pl": "heitanna",
+      "n_def_gen_sg": "heitisins",
+      "n_def_nom_pl": "heitin",
+      "n_def_nom_sg": "heitið",
+      "n_indf_acc_pl": "heiti",
+      "n_indf_acc_sg": "heiti",
+      "n_indf_dat_pl": "heitum",
+      "n_indf_dat_sg": "heiti",
+      "n_indf_gen_pl": "heita",
+      "n_indf_gen_sg": "heitis",
+      "n_indf_nom_pl": "heiti",
+      "n_indf_nom_sg": "heiti",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "helvíti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "helvíti",
+    "inflections": {
+      "n_indf_gen_sg": "helvítis",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "herri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "herri",
+    "inflections": {
+      "n_indf_acc_pl": "herra",
+      "n_indf_acc_sg": "herra",
+      "n_indf_dat_sg": "herra",
+      "n_indf_gen_pl": "herra",
+      "n_indf_gen_sg": "herra",
+      "n_indf_nom_pl": "herrar",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "hjarta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hjarta",
+    "inflections": {
+      "n_def_acc_pl": "hjörtun",
+      "n_def_acc_sg": "hjartað",
+      "n_def_dat_pl": "hjörtunum",
+      "n_def_dat_sg": "hjartanu",
+      "n_def_gen_pl": "hjartanna",
+      "n_def_gen_sg": "hjartans",
+      "n_def_nom_pl": "hjörtun",
+      "n_def_nom_sg": "hjartað",
+      "n_indf_acc_pl": "hjörtu",
+      "n_indf_acc_sg": "hjarta",
+      "n_indf_dat_pl": "hjörtum",
+      "n_indf_dat_sg": "hjarta",
+      "n_indf_gen_pl": "hjarta",
+      "n_indf_gen_sg": "hjarta",
+      "n_indf_nom_pl": "hjörtu",
+      "n_indf_nom_sg": "hjarta",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "hjálp": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hjálp",
+    "inflections": {
+      "n_def_acc_pl": "hjálpirnar",
+      "n_def_acc_sg": "hjálpina",
+      "n_def_dat_pl": "hjálpunum",
+      "n_def_dat_sg": "hjálpinni",
+      "n_def_gen_pl": "hjálpanna",
+      "n_def_gen_sg": "hjálparinnar",
+      "n_def_nom_pl": "hjálpirnar",
+      "n_def_nom_sg": "hjálpin",
+      "n_indf_acc_pl": "hjálpir",
+      "n_indf_acc_sg": "hjálp",
+      "n_indf_dat_pl": "hjálpum",
+      "n_indf_dat_sg": "hjálp",
+      "n_indf_gen_pl": "hjálpa",
+      "n_indf_gen_sg": "hjálpar",
+      "n_indf_nom_pl": "hjálpir",
+      "n_indf_nom_sg": "hjálp",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "hjörtur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hjörtur",
+    "inflections": {
+      "n_indf_gen_pl": "hjarta",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "hlutur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hlutur",
+    "inflections": {
+      "n_indf_acc_pl": "hluti",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "hringa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hringa",
+    "inflections": {
+      "regulars": [],
+      "v_sbjv_prs_1_sg": "hringi",
+      "v_sbjv_prs_3_pl": "hringi",
+      "v_sbjv_prs_3_sg": "hringi"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "hugmynd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hugmynd",
+    "inflections": {
+      "n_def_acc_pl": "hugmyndirnar",
+      "n_def_acc_sg": "hugmyndina",
+      "n_def_dat_pl": "hugmyndunum",
+      "n_def_dat_sg": "hugmyndinni",
+      "n_def_gen_pl": "hugmyndanna",
+      "n_def_gen_sg": "hugmyndarinnar",
+      "n_def_nom_pl": "hugmyndirnar",
+      "n_def_nom_sg": "hugmyndin",
+      "n_indf_acc_pl": "hugmyndir",
+      "n_indf_acc_sg": "hugmynd",
+      "n_indf_dat_pl": "hugmyndum",
+      "n_indf_dat_sg": "hugmynd",
+      "n_indf_gen_pl": "hugmynda",
+      "n_indf_gen_sg": "hugmyndar",
+      "n_indf_nom_pl": "hugmyndir",
+      "n_indf_nom_sg": "hugmynd",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "hugur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hugur",
+    "inflections": {
+      "n_indf_acc_sg": "hug",
+      "n_indf_dat_sg": "hug",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "hæða": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hæða",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "hætt"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "húnn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "húnn",
+    "inflections": {
+      "n_indf_acc_sg": "hún",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "hús": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hús",
+    "inflections": {
+      "n_def_acc_pl": "húsin",
+      "n_def_acc_sg": "húsið",
+      "n_def_dat_pl": "húsunum",
+      "n_def_dat_sg": "húsinu",
+      "n_def_gen_pl": "húsanna",
+      "n_def_gen_sg": "hússins",
+      "n_def_nom_pl": "húsin",
+      "n_def_nom_sg": "húsið",
+      "n_indf_acc_pl": "hús",
+      "n_indf_acc_sg": "hús",
+      "n_indf_dat_pl": "húsum",
+      "n_indf_dat_sg": "húsi",
+      "n_indf_gen_pl": "húsa",
+      "n_indf_gen_sg": "húss",
+      "n_indf_nom_pl": "hús",
+      "n_indf_nom_sg": "hús",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "kaffi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kaffi",
+    "inflections": {
+      "n_def_acc_sg": "kaffið",
+      "n_def_dat_sg": "kaffinu",
+      "n_def_gen_sg": "kaffisins",
+      "n_def_nom_sg": "kaffið",
+      "n_indf_acc_sg": "kaffi",
+      "n_indf_dat_sg": "kaffi",
+      "n_indf_gen_sg": "kaffis",
+      "n_indf_nom_sg": "kaffi",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "kalla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kalla",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "kallað",
+      "v_imp_2_pl": "kallið",
+      "v_imp_2_sg": "kalla",
+      "v_ind_prs_1_pl": "kölluðum",
+      "v_ind_prs_1_pl_2": "köllum",
+      "v_ind_prs_1_sg": "kalla",
+      "v_ind_prs_2_pl": "kallið",
+      "v_ind_prs_2_sg": "kallar",
+      "v_ind_prs_3_pl": "kalla",
+      "v_ind_prs_3_sg": "kallar",
+      "v_ind_pst_1_sg": "kallaði",
+      "v_ind_pst_2_pl": "kölluðuð",
+      "v_ind_pst_2_sg": "kallaðir",
+      "v_ind_pst_3_pl": "kölluðu",
+      "v_ind_pst_3_sg": "kallaði",
+      "v_nfin": "kalla",
+      "v_ptcp_prs": "kallandi",
+      "v_sbjv_prs_1_pl": "köllum",
+      "v_sbjv_prs_1_sg": "kalli",
+      "v_sbjv_prs_2_pl": "kallið",
+      "v_sbjv_prs_2_sg": "kallir",
+      "v_sbjv_prs_3_pl": "kalli",
+      "v_sbjv_prs_3_sg": "kalli",
+      "v_sbjv_pst_1_pl": "kölluðum",
+      "v_sbjv_pst_1_sg": "kallaði",
+      "v_sbjv_pst_2_pl": "kölluðuð",
+      "v_sbjv_pst_2_sg": "kallaðir",
+      "v_sbjv_pst_3_pl": "kölluðu",
+      "v_sbjv_pst_3_sg": "kallaði"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "kaup": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kaup",
+    "inflections": {
+      "n_indf_gen_pl": "kaupa",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "kona": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kona",
+    "inflections": {
+      "n_def_acc_pl": "konurnar",
+      "n_def_acc_sg": "konan",
+      "n_def_dat_pl": "konurnar",
+      "n_def_dat_sg": "konuna",
+      "n_def_gen_pl": "konunum",
+      "n_def_gen_sg": "konunni",
+      "n_def_nom_pl": "definite",
+      "n_def_nom_sg": "definite",
+      "n_indf_acc_pl": "konur",
+      "n_indf_acc_sg": "kona",
+      "n_indf_dat_pl": "konur",
+      "n_indf_dat_sg": "konu",
+      "n_indf_gen_pl": "konum",
+      "n_indf_gen_sg": "konu",
+      "n_indf_nom_pl": "indefinite",
+      "n_indf_nom_sg": "indefinite",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "krakki": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "krakki",
+    "inflections": {
+      "n_indf_nom_pl": "krakkar",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kvöld": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kvöld",
+    "inflections": {
+      "n_def_acc_pl": "kvöldin",
+      "n_def_acc_sg": "kvöldið",
+      "n_def_dat_pl": "kvöldunum",
+      "n_def_dat_sg": "kvöldinu",
+      "n_def_gen_pl": "kvöldanna",
+      "n_def_gen_sg": "kvöldsins",
+      "n_def_nom_pl": "kvöldin",
+      "n_def_nom_sg": "kvöldið",
+      "n_indf_acc_pl": "kvöld",
+      "n_indf_acc_sg": "kvöld",
+      "n_indf_dat_pl": "kvöldum",
+      "n_indf_dat_sg": "kvöldi",
+      "n_indf_gen_pl": "kvölda",
+      "n_indf_gen_sg": "kvölds",
+      "n_indf_nom_pl": "kvöld",
+      "n_indf_nom_sg": "kvöld",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "lag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lag",
+    "inflections": {
+      "n_indf_gen_sg": "lagi",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "laga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laga",
+    "inflections": {
+      "regulars": [],
+      "v_sbjv_prs_1_sg": "lagi",
+      "v_sbjv_prs_3_pl": "lagi",
+      "v_sbjv_prs_3_sg": "lagi"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "leyfi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leyfi",
+    "inflections": {
+      "n_def_acc_pl": "leyfin",
+      "n_def_acc_sg": "leyfið",
+      "n_def_dat_pl": "leyfunum",
+      "n_def_dat_sg": "leyfinu",
+      "n_def_gen_pl": "leyfanna",
+      "n_def_gen_sg": "leyfisins",
+      "n_def_nom_pl": "leyfin",
+      "n_def_nom_sg": "leyfið",
+      "n_indf_acc_pl": "leyfi",
+      "n_indf_acc_sg": "leyfi",
+      "n_indf_dat_pl": "leyfum",
+      "n_indf_dat_sg": "leyfi",
+      "n_indf_gen_pl": "leyfa",
+      "n_indf_gen_sg": "leyfis",
+      "n_indf_nom_pl": "leyfi",
+      "n_indf_nom_sg": "leyfi",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "lifandi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lifandi",
+    "inflections": {
+      "n_def_acc_pl": "lifendurna",
+      "n_def_acc_sg": "lifandann",
+      "n_def_dat_pl": "lifendunum",
+      "n_def_dat_sg": "lifandanum",
+      "n_def_gen_pl": "lifendanna",
+      "n_def_gen_sg": "lifandans",
+      "n_def_nom_pl": "lifendurnir",
+      "n_def_nom_sg": "lifandinn",
+      "n_indf_acc_pl": "lifendur",
+      "n_indf_acc_sg": "lifanda",
+      "n_indf_dat_pl": "lifendum",
+      "n_indf_dat_sg": "lifanda",
+      "n_indf_gen_pl": "lifenda",
+      "n_indf_gen_sg": "lifanda",
+      "n_indf_nom_pl": "lifendur",
+      "n_indf_nom_sg": "lifandi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "lofa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lofa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "lofað",
+      "v_imp_2_pl": "lofið",
+      "v_imp_2_sg": "lofa",
+      "v_ind_prs_1_pl": "lofuðum",
+      "v_ind_prs_1_pl_2": "lofum",
+      "v_ind_prs_1_sg": "lofa",
+      "v_ind_prs_2_pl": "lofið",
+      "v_ind_prs_2_sg": "lofar",
+      "v_ind_prs_3_pl": "lofa",
+      "v_ind_prs_3_sg": "lofar",
+      "v_ind_pst_1_sg": "lofaði",
+      "v_ind_pst_2_pl": "lofuðuð",
+      "v_ind_pst_2_sg": "lofaðir",
+      "v_ind_pst_3_pl": "lofuðu",
+      "v_ind_pst_3_sg": "lofaði",
+      "v_nfin": "lofa",
+      "v_ptcp_prs": "lofandi",
+      "v_sbjv_prs_1_pl": "lofum",
+      "v_sbjv_prs_1_sg": "lofi",
+      "v_sbjv_prs_2_pl": "lofið",
+      "v_sbjv_prs_2_sg": "lofir",
+      "v_sbjv_prs_3_pl": "lofi",
+      "v_sbjv_prs_3_sg": "lofi",
+      "v_sbjv_pst_1_pl": "lofuðum",
+      "v_sbjv_pst_1_sg": "lofaði",
+      "v_sbjv_pst_2_pl": "lofuðuð",
+      "v_sbjv_pst_2_sg": "lofaðir",
+      "v_sbjv_pst_3_pl": "lofuðu",
+      "v_sbjv_pst_3_sg": "lofaði"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "læknir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "læknir",
+    "inflections": {
+      "n_def_acc_pl": "læknana",
+      "n_def_acc_sg": "lækninn",
+      "n_def_dat_pl": "læknunum",
+      "n_def_dat_sg": "lækninum",
+      "n_def_gen_pl": "læknanna",
+      "n_def_gen_sg": "læknisins",
+      "n_def_nom_pl": "læknarnir",
+      "n_def_nom_sg": "læknirinn",
+      "n_indf_acc_pl": "lækna",
+      "n_indf_acc_sg": "lækni",
+      "n_indf_dat_pl": "læknum",
+      "n_indf_dat_sg": "lækni",
+      "n_indf_gen_pl": "lækna",
+      "n_indf_gen_sg": "læknis",
+      "n_indf_nom_pl": "læknar",
+      "n_indf_nom_sg": "læknir",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "læra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "læra",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "lært",
+      "v_imp_2_pl": "lærið",
+      "v_imp_2_sg": "lær",
+      "v_ind_prs_1_pl": "lærðum",
+      "v_ind_prs_1_pl_2": "lærum",
+      "v_ind_prs_1_sg": "læri",
+      "v_ind_prs_2_pl": "lærið",
+      "v_ind_prs_2_sg": "lærir",
+      "v_ind_prs_3_pl": "læra",
+      "v_ind_prs_3_sg": "lærir",
+      "v_ind_pst_1_sg": "lærði",
+      "v_ind_pst_2_pl": "lærðuð",
+      "v_ind_pst_2_sg": "lærðir",
+      "v_ind_pst_3_pl": "lærðu",
+      "v_ind_pst_3_sg": "lærði",
+      "v_nfin": "læra",
+      "v_ptcp_prs": "lærandi",
+      "v_sbjv_prs_1_pl": "lærum",
+      "v_sbjv_prs_1_sg": "læri",
+      "v_sbjv_prs_2_pl": "lærið",
+      "v_sbjv_prs_2_sg": "lærir",
+      "v_sbjv_prs_3_pl": "læri",
+      "v_sbjv_prs_3_sg": "læri",
+      "v_sbjv_pst_1_pl": "lærðum",
+      "v_sbjv_pst_1_sg": "lærði",
+      "v_sbjv_pst_2_pl": "lærðuð",
+      "v_sbjv_pst_2_sg": "lærðir",
+      "v_sbjv_pst_3_pl": "lærðu",
+      "v_sbjv_pst_3_sg": "lærði"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "líf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "líf",
+    "inflections": {
+      "n_def_acc_pl": "lífin",
+      "n_def_acc_sg": "lífið",
+      "n_def_dat_pl": "lífunum",
+      "n_def_dat_sg": "lífinu",
+      "n_def_gen_pl": "lífanna",
+      "n_def_gen_sg": "lífsins",
+      "n_def_nom_pl": "lífin",
+      "n_def_nom_sg": "lífið",
+      "n_indf_acc_pl": "líf",
+      "n_indf_acc_sg": "líf",
+      "n_indf_dat_pl": "lífum",
+      "n_indf_dat_sg": "lífi",
+      "n_indf_gen_pl": "lífa",
+      "n_indf_gen_sg": "lífs",
+      "n_indf_nom_pl": "líf",
+      "n_indf_nom_sg": "líf",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "lík": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lík",
+    "inflections": {
+      "n_indf_gen_pl": "líka",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "lögregla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lögregla",
+    "inflections": {
+      "n_def_nom_sg": "lögreglan",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mamma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mamma",
+    "inflections": {
+      "n_def_acc_pl": "mömmurnar",
+      "n_def_acc_sg": "mömmuna",
+      "n_def_dat_pl": "mömmunum",
+      "n_def_dat_sg": "mömmunni",
+      "n_def_gen_pl": "mammanna",
+      "n_def_gen_sg": "mömmunnar",
+      "n_def_nom_pl": "mömmurnar",
+      "n_def_nom_sg": "mamman",
+      "n_indf_acc_pl": "mömmur",
+      "n_indf_acc_sg": "mömmu",
+      "n_indf_dat_pl": "mömmum",
+      "n_indf_dat_sg": "mömmu",
+      "n_indf_gen_pl": "mamma",
+      "n_indf_gen_sg": "mömmu",
+      "n_indf_nom_pl": "mömmur",
+      "n_indf_nom_sg": "mamma",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "manni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "manni",
+    "inflections": {
+      "n_def_acc_pl": "mannana",
+      "n_def_acc_sg": "mannann",
+      "n_def_dat_pl": "mönnunum",
+      "n_def_dat_sg": "mannanum",
+      "n_def_gen_pl": "mannanna",
+      "n_def_gen_sg": "mannans",
+      "n_def_nom_pl": "mannarnir",
+      "n_def_nom_sg": "manninn",
+      "n_indf_acc_pl": "manna",
+      "n_indf_acc_sg": "manna",
+      "n_indf_dat_pl": "mönnum",
+      "n_indf_dat_sg": "manna",
+      "n_indf_gen_pl": "manna",
+      "n_indf_gen_sg": "manna",
+      "n_indf_nom_pl": "mannar",
+      "n_indf_nom_sg": "manni",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "mark": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mark",
+    "inflections": {
+      "n_def_acc_pl": "mörkin",
+      "n_def_acc_sg": "markið",
+      "n_def_dat_pl": "mörkunum",
+      "n_def_dat_sg": "markinu",
+      "n_def_gen_pl": "markanna",
+      "n_def_gen_sg": "marksins",
+      "n_def_nom_pl": "mörkin",
+      "n_def_nom_sg": "markið",
+      "n_indf_acc_pl": "mörk",
+      "n_indf_acc_sg": "mark",
+      "n_indf_dat_pl": "mörkum",
+      "n_indf_dat_sg": "marki",
+      "n_indf_gen_pl": "marka",
+      "n_indf_gen_sg": "marks",
+      "n_indf_nom_pl": "mörk",
+      "n_indf_nom_sg": "mark",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "mat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mat",
+    "inflections": {
+      "n_def_acc_pl": "mötin",
+      "n_def_acc_sg": "matið",
+      "n_def_dat_pl": "mötunum",
+      "n_def_dat_sg": "matinu",
+      "n_def_gen_pl": "matanna",
+      "n_def_gen_sg": "matsins",
+      "n_def_nom_pl": "mötin",
+      "n_def_nom_sg": "matið",
+      "n_indf_acc_pl": "möt",
+      "n_indf_acc_sg": "mat",
+      "n_indf_dat_pl": "mötum",
+      "n_indf_dat_sg": "mati",
+      "n_indf_gen_pl": "mata",
+      "n_indf_gen_sg": "mats",
+      "n_indf_nom_pl": "möt",
+      "n_indf_nom_sg": "mat",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "matur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "matur",
+    "inflections": {
+      "n_indf_dat_sg": "mat",
+      "n_indf_gen_sg": "mat",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "maður": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maður",
+    "inflections": {
+      "n_def_acc_pl": "mennirnir",
+      "n_def_acc_sg": "maðurinn",
+      "n_def_dat_pl": "mennina",
+      "n_def_dat_sg": "manninn",
+      "n_def_gen_pl": "mönnunum",
+      "n_def_gen_sg": "manninum",
+      "n_def_nom_pl": "definite",
+      "n_def_nom_sg": "definite",
+      "n_indf_acc_pl": "menn",
+      "n_indf_acc_sg": "maður",
+      "n_indf_dat_pl": "menn",
+      "n_indf_dat_sg": "mann",
+      "n_indf_gen_pl": "mönnum",
+      "n_indf_gen_sg": "manni",
+      "n_indf_nom_pl": "indefinite",
+      "n_indf_nom_sg": "indefinite",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "megin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "megin",
+    "inflections": {
+      "n_def_acc_sg": "megnið",
+      "n_def_dat_sg": "megninu",
+      "n_def_gen_sg": "meginsins",
+      "n_def_nom_sg": "megnið",
+      "n_indf_acc_sg": "megin",
+      "n_indf_dat_sg": "megni",
+      "n_indf_gen_sg": "megins",
+      "n_indf_nom_sg": "megin",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "minna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minna",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "minnt",
+      "v_imp_2_pl": "minnið",
+      "v_imp_2_sg": "minn",
+      "v_ind_prs_1_pl": "minntum",
+      "v_ind_prs_1_pl_2": "minnum",
+      "v_ind_prs_1_sg": "minni",
+      "v_ind_prs_2_pl": "minnið",
+      "v_ind_prs_2_sg": "minnir",
+      "v_ind_prs_3_pl": "minna",
+      "v_ind_prs_3_sg": "minnir",
+      "v_ind_pst_1_sg": "minnti",
+      "v_ind_pst_2_pl": "minntuð",
+      "v_ind_pst_2_sg": "minntir",
+      "v_ind_pst_3_pl": "minntu",
+      "v_ind_pst_3_sg": "minnti",
+      "v_nfin": "minna",
+      "v_ptcp_prs": "minnandi",
+      "v_sbjv_prs_1_pl": "minnum",
+      "v_sbjv_prs_1_sg": "minni",
+      "v_sbjv_prs_2_pl": "minnið",
+      "v_sbjv_prs_2_sg": "minnir",
+      "v_sbjv_prs_3_pl": "minni",
+      "v_sbjv_prs_3_sg": "minni",
+      "v_sbjv_pst_1_pl": "minntum",
+      "v_sbjv_pst_1_sg": "minnti",
+      "v_sbjv_pst_2_pl": "minntuð",
+      "v_sbjv_pst_2_sg": "minntir",
+      "v_sbjv_pst_3_pl": "minntu",
+      "v_sbjv_pst_3_sg": "minnti"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "minni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minni",
+    "inflections": {
+      "n_def_acc_pl": "minnin",
+      "n_def_acc_sg": "minnið",
+      "n_def_dat_pl": "minnunum",
+      "n_def_dat_sg": "minninu",
+      "n_def_gen_pl": "minnanna",
+      "n_def_gen_sg": "minnisins",
+      "n_def_nom_pl": "minnin",
+      "n_def_nom_sg": "minnið",
+      "n_indf_acc_pl": "minni",
+      "n_indf_acc_sg": "minni",
+      "n_indf_dat_pl": "minnum",
+      "n_indf_dat_sg": "minni",
+      "n_indf_gen_pl": "minna",
+      "n_indf_gen_sg": "minnis",
+      "n_indf_nom_pl": "minni",
+      "n_indf_nom_sg": "minni",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "missa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "missa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "misst",
+      "v_imp_2_pl": "missið",
+      "v_imp_2_sg": "miss",
+      "v_ind_prs_1_pl": "misstum",
+      "v_ind_prs_1_pl_2": "missum",
+      "v_ind_prs_1_sg": "missi",
+      "v_ind_prs_2_pl": "missið",
+      "v_ind_prs_3_pl": "missa",
+      "v_ind_pst_1_sg": "missti",
+      "v_ind_pst_2_pl": "misstuð",
+      "v_ind_pst_2_sg": "missir",
+      "v_ind_pst_2_sg_2": "misstir",
+      "v_ind_pst_3_pl": "misstu",
+      "v_ind_pst_3_sg": "missir",
+      "v_ind_pst_3_sg_2": "missti",
+      "v_nfin": "missa",
+      "v_ptcp_prs": "missandi",
+      "v_sbjv_prs_2_pl": "missið",
+      "v_sbjv_prs_2_sg": "missir",
+      "v_sbjv_prs_3_pl": "missi",
+      "v_sbjv_prs_3_sg": "missi",
+      "v_sbjv_pst_1_pl": "misstum",
+      "v_sbjv_pst_1_pl_2": "missum",
+      "v_sbjv_pst_1_sg": "missi",
+      "v_sbjv_pst_1_sg_2": "missti",
+      "v_sbjv_pst_2_pl": "misstuð",
+      "v_sbjv_pst_2_sg": "misstir",
+      "v_sbjv_pst_3_pl": "misstu",
+      "v_sbjv_pst_3_sg": "missti"
+    },
+    "priority": 3,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "morgunn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "morgunn",
+    "inflections": {
+      "n_indf_acc_sg": "morgun",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mynd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mynd",
+    "inflections": {
+      "n_def_acc_pl": "myndirnar",
+      "n_def_acc_sg": "myndina",
+      "n_def_dat_pl": "myndunum",
+      "n_def_dat_sg": "myndinni",
+      "n_def_gen_pl": "myndanna",
+      "n_def_gen_sg": "myndarinnar",
+      "n_def_nom_pl": "myndirnar",
+      "n_def_nom_sg": "myndin",
+      "n_indf_acc_pl": "myndir",
+      "n_indf_acc_sg": "mynd",
+      "n_indf_dat_pl": "myndum",
+      "n_indf_dat_sg": "mynd",
+      "n_indf_gen_pl": "mynda",
+      "n_indf_gen_sg": "myndar",
+      "n_indf_nom_pl": "myndir",
+      "n_indf_nom_sg": "mynd",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "mynda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mynda",
+    "inflections": {
+      "regulars": [],
+      "v_sbjv_prs_1_sg": "myndi",
+      "v_sbjv_prs_2_sg": "myndir",
+      "v_sbjv_prs_3_pl": "myndi",
+      "v_sbjv_prs_3_sg": "myndi"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "mála": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mála",
+    "inflections": {
+      "regulars": [],
+      "v_sbjv_prs_1_sg": "máli",
+      "v_sbjv_prs_3_pl": "máli",
+      "v_sbjv_prs_3_sg": "máli"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "máttur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "máttur",
+    "inflections": {
+      "n_indf_acc_sg": "mátt",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "mínúta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mínúta",
+    "inflections": {
+      "n_indf_acc_pl": "mínútur",
+      "n_indf_nom_pl": "mínútur",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "nafn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nafn",
+    "inflections": {
+      "n_def_acc_pl": "nöfnin",
+      "n_def_acc_sg": "nafnið",
+      "n_def_dat_pl": "nöfnunum",
+      "n_def_dat_sg": "nafninu",
+      "n_def_gen_pl": "nafnanna",
+      "n_def_gen_sg": "nafnsins",
+      "n_def_nom_pl": "nöfnin",
+      "n_def_nom_sg": "nafnið",
+      "n_indf_acc_pl": "nöfn",
+      "n_indf_acc_sg": "nafn",
+      "n_indf_dat_pl": "nöfnum",
+      "n_indf_dat_sg": "nafni",
+      "n_indf_gen_pl": "nafna",
+      "n_indf_gen_sg": "nafns",
+      "n_indf_nom_pl": "nöfn",
+      "n_indf_nom_sg": "nafn",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "nafni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nafni",
+    "inflections": {
+      "n_def_acc_pl": "nafnana",
+      "n_def_acc_sg": "nafnann",
+      "n_def_dat_pl": "nöfnunum",
+      "n_def_dat_sg": "nafnanum",
+      "n_def_gen_pl": "nafnanna",
+      "n_def_gen_sg": "nafnans",
+      "n_def_nom_pl": "nafnarnir",
+      "n_def_nom_sg": "nafninn",
+      "n_indf_acc_pl": "nafna",
+      "n_indf_acc_sg": "nafna",
+      "n_indf_dat_pl": "nöfnum",
+      "n_indf_dat_sg": "nafna",
+      "n_indf_gen_pl": "nafna",
+      "n_indf_gen_sg": "nafna",
+      "n_indf_nom_pl": "nafnar",
+      "n_indf_nom_sg": "nafni",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "nemi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nemi",
+    "inflections": {
+      "n_indf_acc_pl": "nema",
+      "n_indf_acc_sg": "nema",
+      "n_indf_dat_sg": "nema",
+      "n_indf_gen_pl": "nema",
+      "n_indf_gen_sg": "nema",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "not": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "not",
+    "inflections": {
+      "n_indf_gen_sg": "nota",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "nota": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nota",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "notað",
+      "v_imp_2_pl": "notið",
+      "v_imp_2_sg": "nota",
+      "v_ind_prs_1_pl": "notuðum",
+      "v_ind_prs_1_pl_2": "notum",
+      "v_ind_prs_1_sg": "nota",
+      "v_ind_prs_2_pl": "notið",
+      "v_ind_prs_2_sg": "notar",
+      "v_ind_prs_3_pl": "nota",
+      "v_ind_prs_3_sg": "notar",
+      "v_ind_pst_1_sg": "notaði",
+      "v_ind_pst_2_pl": "notuðuð",
+      "v_ind_pst_2_sg": "notaðir",
+      "v_ind_pst_3_pl": "notuðu",
+      "v_ind_pst_3_sg": "notaði",
+      "v_nfin": "nota",
+      "v_ptcp_prs": "notandi",
+      "v_sbjv_prs_1_pl": "notum",
+      "v_sbjv_prs_1_sg": "noti",
+      "v_sbjv_prs_2_pl": "notið",
+      "v_sbjv_prs_2_sg": "notir",
+      "v_sbjv_prs_3_pl": "noti",
+      "v_sbjv_prs_3_sg": "noti",
+      "v_sbjv_pst_1_pl": "notuðum",
+      "v_sbjv_pst_1_sg": "notaði",
+      "v_sbjv_pst_2_pl": "notuðuð",
+      "v_sbjv_pst_2_sg": "notaðir",
+      "v_sbjv_pst_3_pl": "notuðu",
+      "v_sbjv_pst_3_sg": "notaði"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "næra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "næra",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "nær"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "nía": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nía",
+    "inflections": {
+      "n_indf_acc_sg": "níu",
+      "n_indf_dat_sg": "níu",
+      "n_indf_gen_sg": "níu",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "númer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "númer",
+    "inflections": {
+      "n_def_acc_pl": "númerin",
+      "n_def_acc_sg": "númerið",
+      "n_def_dat_pl": "númerunum",
+      "n_def_dat_sg": "númerinu",
+      "n_def_gen_pl": "númeranna",
+      "n_def_gen_sg": "númersins",
+      "n_def_nom_pl": "númerin",
+      "n_def_nom_sg": "númerið",
+      "n_indf_acc_pl": "númer",
+      "n_indf_acc_sg": "númer",
+      "n_indf_dat_pl": "númerum",
+      "n_indf_dat_sg": "númeri",
+      "n_indf_gen_pl": "númera",
+      "n_indf_gen_sg": "númers",
+      "n_indf_nom_pl": "númer",
+      "n_indf_nom_sg": "númer",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pabbi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pabbi",
+    "inflections": {
+      "n_def_acc_pl": "pabbana",
+      "n_def_acc_sg": "pabbann",
+      "n_def_dat_pl": "pöbbunum",
+      "n_def_dat_sg": "pabbanum",
+      "n_def_gen_pl": "pabbanna",
+      "n_def_gen_sg": "pabbans",
+      "n_def_nom_pl": "pabbarnir",
+      "n_def_nom_sg": "pabbinn",
+      "n_indf_acc_pl": "pabba",
+      "n_indf_acc_sg": "pabba",
+      "n_indf_dat_pl": "pöbbum",
+      "n_indf_dat_sg": "pabba",
+      "n_indf_gen_pl": "pabba",
+      "n_indf_gen_sg": "pabba",
+      "n_indf_nom_pl": "pabbar",
+      "n_indf_nom_sg": "pabbi",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "peningur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "peningur",
+    "inflections": {
+      "n_def_acc_pl": "peningana",
+      "n_indf_acc_pl": "peninga",
+      "n_indf_gen_pl": "peninga",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "raun": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "raun",
+    "inflections": {
+      "n_def_acc_pl": "raunirnar",
+      "n_def_acc_sg": "raunina",
+      "n_def_dat_pl": "raununum",
+      "n_def_dat_sg": "rauninni",
+      "n_def_gen_pl": "raunanna",
+      "n_def_gen_sg": "raunarinnar",
+      "n_def_nom_pl": "raunirnar",
+      "n_def_nom_sg": "raunin",
+      "n_indf_acc_pl": "raunir",
+      "n_indf_acc_sg": "raun",
+      "n_indf_dat_pl": "raunum",
+      "n_indf_dat_sg": "raun",
+      "n_indf_gen_pl": "rauna",
+      "n_indf_gen_sg": "raunar",
+      "n_indf_nom_pl": "raunir",
+      "n_indf_nom_sg": "raun",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "reyna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "reyna",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "reynt",
+      "v_imp_2_pl": "reynið",
+      "v_imp_2_sg": "reyn",
+      "v_ind_prs_1_pl": "reyndum",
+      "v_ind_prs_1_pl_2": "reynum",
+      "v_ind_prs_1_sg": "reyni",
+      "v_ind_prs_2_pl": "reynið",
+      "v_ind_prs_2_sg": "reynir",
+      "v_ind_prs_3_pl": "reyna",
+      "v_ind_prs_3_sg": "reynir",
+      "v_ind_pst_1_sg": "reyndi",
+      "v_ind_pst_2_pl": "reynduð",
+      "v_ind_pst_2_sg": "reyndir",
+      "v_ind_pst_3_pl": "reyndu",
+      "v_ind_pst_3_sg": "reyndi",
+      "v_nfin": "reyna",
+      "v_ptcp_prs": "reynandi",
+      "v_sbjv_prs_1_pl": "reynum",
+      "v_sbjv_prs_1_sg": "reyni",
+      "v_sbjv_prs_2_pl": "reynið",
+      "v_sbjv_prs_2_sg": "reynir",
+      "v_sbjv_prs_3_pl": "reyni",
+      "v_sbjv_prs_3_sg": "reyni",
+      "v_sbjv_pst_1_pl": "reyndum",
+      "v_sbjv_pst_1_sg": "reyndi",
+      "v_sbjv_pst_2_pl": "reynduð",
+      "v_sbjv_pst_2_sg": "reyndir",
+      "v_sbjv_pst_3_pl": "reyndu",
+      "v_sbjv_pst_3_sg": "reyndi"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "rétt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rétt",
+    "inflections": {
+      "n_def_acc_pl": "réttirnar",
+      "n_def_acc_sg": "réttina",
+      "n_def_dat_pl": "réttunum",
+      "n_def_dat_sg": "réttinni",
+      "n_def_gen_pl": "réttanna",
+      "n_def_gen_sg": "réttarinnar",
+      "n_def_nom_pl": "réttirnar",
+      "n_def_nom_sg": "réttin",
+      "n_indf_acc_pl": "réttir",
+      "n_indf_acc_sg": "rétt",
+      "n_indf_dat_pl": "réttum",
+      "n_indf_dat_sg": "rétt",
+      "n_indf_gen_pl": "rétta",
+      "n_indf_gen_sg": "réttar",
+      "n_indf_nom_pl": "réttir",
+      "n_indf_nom_sg": "rétt",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "sakna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sakna",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "saknað",
+      "v_imp_2_pl": "saknið",
+      "v_imp_2_sg": "sakna",
+      "v_ind_prs_1_pl": "söknuðum",
+      "v_ind_prs_1_pl_2": "söknum",
+      "v_ind_prs_1_sg": "sakna",
+      "v_ind_prs_2_pl": "saknið",
+      "v_ind_prs_3_pl": "sakna",
+      "v_ind_pst_1_sg": "saknaði",
+      "v_ind_pst_2_pl": "söknuðuð",
+      "v_ind_pst_2_sg": "saknaðir",
+      "v_ind_pst_2_sg_2": "saknar",
+      "v_ind_pst_3_pl": "söknuðu",
+      "v_ind_pst_3_sg": "saknaði",
+      "v_ind_pst_3_sg_2": "saknar",
+      "v_nfin": "sakna",
+      "v_ptcp_prs": "saknandi",
+      "v_sbjv_prs_2_pl": "saknið",
+      "v_sbjv_prs_2_sg": "saknir",
+      "v_sbjv_prs_3_pl": "sakni",
+      "v_sbjv_prs_3_sg": "sakni",
+      "v_sbjv_pst_1_pl": "söknuðum",
+      "v_sbjv_pst_1_pl_2": "söknum",
+      "v_sbjv_pst_1_sg": "saknaði",
+      "v_sbjv_pst_1_sg_2": "sakni",
+      "v_sbjv_pst_2_pl": "söknuðuð",
+      "v_sbjv_pst_2_sg": "saknaðir",
+      "v_sbjv_pst_3_pl": "söknuðu",
+      "v_sbjv_pst_3_sg": "saknaði"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "samband": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "samband",
+    "inflections": {
+      "n_def_acc_pl": "samböndin",
+      "n_def_acc_sg": "sambandið",
+      "n_def_dat_pl": "samböndunum",
+      "n_def_dat_sg": "sambandinu",
+      "n_def_gen_pl": "sambandanna",
+      "n_def_gen_sg": "sambandsins",
+      "n_def_nom_pl": "samböndin",
+      "n_def_nom_sg": "sambandið",
+      "n_indf_acc_pl": "sambönd",
+      "n_indf_acc_sg": "samband",
+      "n_indf_dat_pl": "samböndum",
+      "n_indf_dat_sg": "sambandi",
+      "n_indf_gen_pl": "sambanda",
+      "n_indf_gen_sg": "sambands",
+      "n_indf_nom_pl": "sambönd",
+      "n_indf_nom_sg": "samband",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "semja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "semja",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "sem",
+      "v_ind_prs_1_sg": "sem"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "senda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "senda",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "sent",
+      "v_imp_2_pl": "sendið",
+      "v_imp_2_sg": "send",
+      "v_ind_prs_1_pl": "sendum",
+      "v_ind_prs_1_sg": "sendi",
+      "v_ind_prs_2_pl": "sendið",
+      "v_ind_prs_2_sg": "sendir",
+      "v_ind_prs_3_pl": "senda",
+      "v_ind_prs_3_sg": "sendir",
+      "v_ind_pst_1_sg": "sendi",
+      "v_ind_pst_2_pl": "senduð",
+      "v_ind_pst_2_sg": "sendir",
+      "v_ind_pst_3_pl": "sendu",
+      "v_ind_pst_3_sg": "sendi",
+      "v_nfin": "senda",
+      "v_ptcp_prs": "sendandi",
+      "v_sbjv_prs_1_pl": "sendum",
+      "v_sbjv_prs_1_sg": "sendi",
+      "v_sbjv_prs_2_pl": "sendið",
+      "v_sbjv_prs_2_sg": "sendir",
+      "v_sbjv_prs_3_pl": "sendi",
+      "v_sbjv_prs_3_sg": "sendi",
+      "v_sbjv_pst_1_pl": "sendum",
+      "v_sbjv_pst_1_sg": "sendi",
+      "v_sbjv_pst_2_pl": "senduð",
+      "v_sbjv_pst_2_sg": "sendir",
+      "v_sbjv_pst_3_pl": "sendu",
+      "v_sbjv_pst_3_sg": "sendi"
+    },
+    "priority": 3,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "sjálf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sjálf",
+    "inflections": {
+      "n_def_acc_pl": "sjálfin",
+      "n_def_acc_sg": "sjálfið",
+      "n_def_dat_pl": "sjálfunum",
+      "n_def_dat_sg": "sjálfinu",
+      "n_def_gen_pl": "sjálfanna",
+      "n_def_gen_sg": "sjálfsins",
+      "n_def_nom_pl": "sjálfin",
+      "n_def_nom_sg": "sjálfið",
+      "n_indf_acc_pl": "sjálf",
+      "n_indf_acc_sg": "sjálf",
+      "n_indf_dat_pl": "sjálfum",
+      "n_indf_dat_sg": "sjálfi",
+      "n_indf_gen_pl": "sjálfa",
+      "n_indf_gen_sg": "sjálfs",
+      "n_indf_nom_pl": "sjálf",
+      "n_indf_nom_sg": "sjálf",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "skrifa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skrifa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "skrifað",
+      "v_imp_2_pl": "skrifið",
+      "v_imp_2_sg": "skrifa",
+      "v_ind_prs_1_pl": "skrifuðum",
+      "v_ind_prs_1_pl_2": "skrifum",
+      "v_ind_prs_1_sg": "skrifa",
+      "v_ind_prs_2_pl": "skrifið",
+      "v_ind_prs_2_sg": "skrifar",
+      "v_ind_prs_3_pl": "skrifa",
+      "v_ind_prs_3_sg": "skrifar",
+      "v_ind_pst_1_sg": "skrifaði",
+      "v_ind_pst_2_pl": "skrifuðuð",
+      "v_ind_pst_2_sg": "skrifaðir",
+      "v_ind_pst_3_pl": "skrifuðu",
+      "v_ind_pst_3_sg": "skrifaði",
+      "v_nfin": "skrifa",
+      "v_ptcp_prs": "skrifandi",
+      "v_sbjv_prs_1_pl": "skrifum",
+      "v_sbjv_prs_1_sg": "skrifi",
+      "v_sbjv_prs_2_pl": "skrifið",
+      "v_sbjv_prs_2_sg": "skrifir",
+      "v_sbjv_prs_3_pl": "skrifi",
+      "v_sbjv_prs_3_sg": "skrifi",
+      "v_sbjv_pst_1_pl": "skrifuðum",
+      "v_sbjv_pst_1_sg": "skrifaði",
+      "v_sbjv_pst_2_pl": "skrifuðuð",
+      "v_sbjv_pst_2_sg": "skrifaðir",
+      "v_sbjv_pst_3_pl": "skrifuðu",
+      "v_sbjv_pst_3_sg": "skrifaði"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sleppa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sleppa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "sloppið",
+      "v_imp_2_pl": "sleppið",
+      "v_imp_2_sg": "slepp",
+      "v_ind_prs_1_pl": "sleppum",
+      "v_ind_prs_1_pl_2": "sluppum",
+      "v_ind_prs_1_sg": "slepp",
+      "v_ind_prs_2_pl": "sleppið",
+      "v_ind_prs_2_sg": "sleppur",
+      "v_ind_prs_3_pl": "sleppa",
+      "v_ind_prs_3_sg": "sleppur",
+      "v_ind_pst_1_sg": "slapp",
+      "v_ind_pst_2_pl": "sluppuð",
+      "v_ind_pst_2_sg": "slappst",
+      "v_ind_pst_3_pl": "sluppu",
+      "v_ind_pst_3_sg": "slapp",
+      "v_nfin": "sleppa",
+      "v_ptcp_prs": "sleppandi",
+      "v_sbjv_prs_1_pl": "sleppum",
+      "v_sbjv_prs_1_sg": "sleppi",
+      "v_sbjv_prs_2_pl": "sleppið",
+      "v_sbjv_prs_2_sg": "sleppir",
+      "v_sbjv_prs_3_pl": "sleppi",
+      "v_sbjv_prs_3_sg": "sleppi",
+      "v_sbjv_pst_1_pl": "slyppum",
+      "v_sbjv_pst_1_sg": "slyppi",
+      "v_sbjv_pst_2_pl": "slyppuð",
+      "v_sbjv_pst_2_sg": "slyppir",
+      "v_sbjv_pst_3_pl": "slyppu",
+      "v_sbjv_pst_3_sg": "slyppi"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sonur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sonur",
+    "inflections": {
+      "n_def_acc_pl": "synina",
+      "n_def_acc_sg": "soninn",
+      "n_def_dat_pl": "sonunum",
+      "n_def_dat_sg": "syninum",
+      "n_def_gen_pl": "sonanna",
+      "n_def_gen_sg": "sonarins",
+      "n_def_nom_pl": "synirnir",
+      "n_def_nom_sg": "sonurinn",
+      "n_indf_acc_pl": "syni",
+      "n_indf_acc_sg": "son",
+      "n_indf_dat_pl": "sonum",
+      "n_indf_dat_sg": "syni",
+      "n_indf_gen_pl": "sona",
+      "n_indf_gen_sg": "sonar",
+      "n_indf_nom_pl": "synir",
+      "n_indf_nom_sg": "sonur",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "spil": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spil",
+    "inflections": {
+      "n_indf_gen_pl": "spila",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "spila": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spila",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "spilað",
+      "v_imp_2_pl": "spilið",
+      "v_imp_2_sg": "spila",
+      "v_ind_prs_1_pl": "spiluðum",
+      "v_ind_prs_1_pl_2": "spilum",
+      "v_ind_prs_1_sg": "spila",
+      "v_ind_prs_2_pl": "spilið",
+      "v_ind_prs_2_sg": "spilar",
+      "v_ind_prs_3_pl": "spila",
+      "v_ind_prs_3_sg": "spilar",
+      "v_ind_pst_1_sg": "spilaði",
+      "v_ind_pst_2_pl": "spiluðuð",
+      "v_ind_pst_2_sg": "spilaðir",
+      "v_ind_pst_3_pl": "spiluðu",
+      "v_ind_pst_3_sg": "spilaði",
+      "v_nfin": "spila",
+      "v_ptcp_prs": "spilandi",
+      "v_sbjv_prs_1_pl": "spilum",
+      "v_sbjv_prs_1_sg": "spili",
+      "v_sbjv_prs_2_pl": "spilið",
+      "v_sbjv_prs_2_sg": "spilir",
+      "v_sbjv_prs_3_pl": "spili",
+      "v_sbjv_prs_3_sg": "spili",
+      "v_sbjv_pst_1_pl": "spiluðum",
+      "v_sbjv_pst_1_sg": "spilaði",
+      "v_sbjv_pst_2_pl": "spiluðuð",
+      "v_sbjv_pst_2_sg": "spilaðir",
+      "v_sbjv_pst_3_pl": "spiluðu",
+      "v_sbjv_pst_3_sg": "spilaði"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "starf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "starf",
+    "inflections": {
+      "n_def_acc_pl": "störfin",
+      "n_def_acc_sg": "starfið",
+      "n_def_dat_pl": "störfunum",
+      "n_def_dat_sg": "starfinu",
+      "n_def_gen_pl": "starfanna",
+      "n_def_gen_sg": "starfsins",
+      "n_def_nom_pl": "störfin",
+      "n_def_nom_sg": "starfið",
+      "n_indf_acc_pl": "störf",
+      "n_indf_acc_sg": "starf",
+      "n_indf_dat_pl": "störfum",
+      "n_indf_dat_sg": "starfi",
+      "n_indf_gen_pl": "starfa",
+      "n_indf_gen_sg": "starfs",
+      "n_indf_nom_pl": "störf",
+      "n_indf_nom_sg": "starf",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "strákur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "strákur",
+    "inflections": {
+      "n_def_acc_pl": "strákarnir",
+      "n_def_acc_sg": "strákurinn",
+      "n_def_dat_pl": "strákana",
+      "n_def_dat_sg": "strákinn",
+      "n_def_gen_pl": "strákunum",
+      "n_def_gen_sg": "stráknum",
+      "n_def_nom_pl": "definite",
+      "n_def_nom_sg": "definite",
+      "n_indf_acc_pl": "strákar",
+      "n_indf_acc_sg": "strákur",
+      "n_indf_dat_pl": "stráka",
+      "n_indf_dat_sg": "strák",
+      "n_indf_gen_pl": "strákum",
+      "n_indf_gen_sg": "stráki",
+      "n_indf_nom_pl": "indefinite",
+      "n_indf_nom_sg": "indefinite",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "stund": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stund",
+    "inflections": {
+      "n_def_acc_pl": "stundirnar",
+      "n_def_acc_sg": "stundina",
+      "n_def_dat_pl": "stundunum",
+      "n_def_dat_sg": "stundinni",
+      "n_def_gen_pl": "stundanna",
+      "n_def_gen_sg": "stundarinnar",
+      "n_def_nom_pl": "stundirnar",
+      "n_def_nom_sg": "stundin",
+      "n_indf_acc_pl": "stundir",
+      "n_indf_acc_sg": "stund",
+      "n_indf_dat_pl": "stundum",
+      "n_indf_dat_sg": "stund",
+      "n_indf_gen_pl": "stunda",
+      "n_indf_gen_sg": "stundar",
+      "n_indf_nom_pl": "stundir",
+      "n_indf_nom_sg": "stund",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "svar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svar",
+    "inflections": {
+      "n_indf_gen_pl": "svara",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "systir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "systir",
+    "inflections": {
+      "n_def_acc_pl": "systurnar",
+      "n_def_acc_sg": "systurina",
+      "n_def_dat_pl": "systrunum",
+      "n_def_dat_sg": "systurinni",
+      "n_def_gen_pl": "systranna",
+      "n_def_gen_sg": "systurinnar",
+      "n_def_nom_pl": "systurnar",
+      "n_def_nom_sg": "systirin",
+      "n_indf_acc_pl": "systur",
+      "n_indf_acc_sg": "systur",
+      "n_indf_dat_pl": "systrum",
+      "n_indf_dat_sg": "systur",
+      "n_indf_gen_pl": "systra",
+      "n_indf_gen_sg": "systur",
+      "n_indf_nom_pl": "systur",
+      "n_indf_nom_sg": "systir",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "sýr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sýr",
+    "inflections": {
+      "n_indf_acc_sg": "sú",
+      "n_indf_dat_sg": "sú",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tak": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tak",
+    "inflections": {
+      "n_indf_dat_pl": "tökum",
+      "n_indf_gen_pl": "taka",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "tal": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tal",
+    "inflections": {
+      "n_indf_gen_pl": "tala",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "trú": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trú",
+    "inflections": {
+      "n_indf_gen_pl": "trúa",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "tækifæri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tækifæri",
+    "inflections": {
+      "n_def_acc_pl": "tækifærin",
+      "n_def_acc_sg": "tækifærið",
+      "n_def_dat_pl": "tækifærunum",
+      "n_def_dat_sg": "tækifærinu",
+      "n_def_gen_pl": "tækifæranna",
+      "n_def_gen_sg": "tækifærisins",
+      "n_def_nom_pl": "tækifærin",
+      "n_def_nom_sg": "tækifærið",
+      "n_indf_acc_pl": "tækifæri",
+      "n_indf_acc_sg": "tækifæri",
+      "n_indf_dat_pl": "tækifærum",
+      "n_indf_dat_sg": "tækifæri",
+      "n_indf_gen_pl": "tækifæra",
+      "n_indf_gen_sg": "tækifæris",
+      "n_indf_nom_pl": "tækifæri",
+      "n_indf_nom_sg": "tækifæri",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "tía": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tía",
+    "inflections": {
+      "n_indf_acc_sg": "tíu",
+      "n_indf_dat_sg": "tíu",
+      "n_indf_gen_sg": "tíu",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tími": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tími",
+    "inflections": {
+      "n_def_acc_pl": "tímana",
+      "n_def_acc_sg": "tímann",
+      "n_def_dat_pl": "tímunum",
+      "n_def_dat_sg": "tímanum",
+      "n_def_gen_pl": "tímanna",
+      "n_def_gen_sg": "tímans",
+      "n_def_nom_pl": "tímarnir",
+      "n_def_nom_sg": "tíminn",
+      "n_indf_acc_pl": "tíma",
+      "n_indf_acc_sg": "tíma",
+      "n_indf_dat_pl": "tímum",
+      "n_indf_dat_sg": "tíma",
+      "n_indf_gen_pl": "tíma",
+      "n_indf_gen_sg": "tíma",
+      "n_indf_nom_pl": "tímar",
+      "n_indf_nom_sg": "tími",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "vatn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vatn",
+    "inflections": {
+      "n_def_acc_pl": "vötnin",
+      "n_def_acc_sg": "vatnið",
+      "n_def_dat_pl": "vötnunum",
+      "n_def_dat_sg": "vatninu",
+      "n_def_gen_pl": "vatnanna",
+      "n_def_gen_sg": "vatnsins",
+      "n_def_nom_pl": "vötnin",
+      "n_def_nom_sg": "vatnið",
+      "n_indf_acc_pl": "vötn",
+      "n_indf_acc_sg": "vatn",
+      "n_indf_dat_pl": "vötnum",
+      "n_indf_dat_sg": "vatni",
+      "n_indf_gen_pl": "vatna",
+      "n_indf_gen_sg": "vatns",
+      "n_indf_nom_pl": "vötn",
+      "n_indf_nom_sg": "vatn",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "velja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velja",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "vel",
+      "v_ind_prs_1_sg": "vel"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "verkur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verkur",
+    "inflections": {
+      "n_indf_acc_sg": "verk",
+      "n_indf_dat_sg": "verk",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "verð": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verð",
+    "inflections": {
+      "n_def_acc_pl": "verðin",
+      "n_def_acc_sg": "verðið",
+      "n_def_dat_pl": "verðunum",
+      "n_def_dat_sg": "verðinu",
+      "n_def_gen_pl": "verðanna",
+      "n_def_gen_sg": "verðsins",
+      "n_def_nom_pl": "verðin",
+      "n_def_nom_sg": "verðið",
+      "n_indf_acc_pl": "verð",
+      "n_indf_acc_sg": "verð",
+      "n_indf_dat_pl": "verðum",
+      "n_indf_dat_sg": "verði",
+      "n_indf_gen_pl": "verða",
+      "n_indf_gen_sg": "verðs",
+      "n_indf_nom_pl": "verð",
+      "n_indf_nom_sg": "verð",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "vika": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vika",
+    "inflections": {
+      "n_indf_acc_pl": "vikur",
+      "n_indf_acc_sg": "viku",
+      "n_indf_dat_sg": "viku",
+      "n_indf_gen_sg": "viku",
+      "n_indf_nom_pl": "vikur",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "vinur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vinur",
+    "inflections": {
+      "n_def_acc_pl": "vinina",
+      "n_def_acc_sg": "vininn",
+      "n_def_dat_pl": "vinunum",
+      "n_def_dat_sg": "vininum",
+      "n_def_gen_pl": "vinanna",
+      "n_def_gen_sg": "vinarins",
+      "n_def_nom_pl": "vinirnir",
+      "n_def_nom_sg": "vinurinn",
+      "n_indf_acc_pl": "vini",
+      "n_indf_acc_sg": "vin",
+      "n_indf_dat_pl": "vinum",
+      "n_indf_dat_sg": "vini",
+      "n_indf_gen_pl": "vina",
+      "n_indf_gen_sg": "vinar",
+      "n_indf_nom_pl": "vinir",
+      "n_indf_nom_sg": "vinur",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "viti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viti",
+    "inflections": {
+      "n_indf_acc_pl": "vita",
+      "n_indf_acc_sg": "vita",
+      "n_indf_dat_pl": "vitum",
+      "n_indf_dat_sg": "vita",
+      "n_indf_gen_pl": "vita",
+      "n_indf_gen_sg": "vita",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "viður": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viður",
+    "inflections": {
+      "n_indf_acc_sg": "við",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "von": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "von",
+    "inflections": {
+      "n_def_acc_pl": "vonirnar",
+      "n_def_acc_sg": "vonina",
+      "n_def_dat_pl": "vonunum",
+      "n_def_dat_sg": "voninni",
+      "n_def_gen_pl": "vonanna",
+      "n_def_gen_sg": "vonarinnar",
+      "n_def_nom_pl": "vonirnar",
+      "n_def_nom_sg": "vonin",
+      "n_indf_acc_pl": "vonir",
+      "n_indf_acc_sg": "von",
+      "n_indf_dat_pl": "vonum",
+      "n_indf_dat_sg": "von",
+      "n_indf_gen_pl": "vona",
+      "n_indf_gen_sg": "vonar",
+      "n_indf_nom_pl": "vonir",
+      "n_indf_nom_sg": "von",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "víkja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "víkja",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_pl": "viku"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "áhugi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "áhugi",
+    "inflections": {
+      "n_indf_acc_sg": "áhuga",
+      "n_indf_dat_sg": "áhuga",
+      "n_indf_gen_sg": "áhuga",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "áhyggja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "áhyggja",
+    "inflections": {
+      "n_indf_acc_pl": "áhyggjur",
+      "n_indf_nom_pl": "áhyggjur",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ást": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ást",
+    "inflections": {
+      "n_def_acc_pl": "ástirnar",
+      "n_def_acc_sg": "ástina",
+      "n_def_dat_pl": "ástunum",
+      "n_def_dat_sg": "ástinni",
+      "n_def_gen_pl": "ástanna",
+      "n_def_gen_sg": "ástarinnar",
+      "n_def_nom_pl": "ástirnar",
+      "n_def_nom_sg": "ástin",
+      "n_indf_acc_pl": "ástir",
+      "n_indf_acc_sg": "ást",
+      "n_indf_dat_pl": "ástum",
+      "n_indf_dat_sg": "ást",
+      "n_indf_gen_pl": "ásta",
+      "n_indf_gen_sg": "ástar",
+      "n_indf_nom_pl": "ástir",
+      "n_indf_nom_sg": "ást",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "átt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "átt",
+    "inflections": {
+      "n_def_acc_pl": "áttirnar",
+      "n_def_acc_sg": "áttina",
+      "n_def_dat_pl": "áttunum",
+      "n_def_dat_sg": "áttinni",
+      "n_def_gen_pl": "áttanna",
+      "n_def_gen_sg": "áttarinnar",
+      "n_def_nom_pl": "áttirnar",
+      "n_def_nom_sg": "áttin",
+      "n_indf_acc_pl": "áttir",
+      "n_indf_acc_sg": "átt",
+      "n_indf_dat_pl": "áttum",
+      "n_indf_dat_sg": "átt",
+      "n_indf_gen_pl": "átta",
+      "n_indf_gen_sg": "áttar",
+      "n_indf_nom_pl": "áttir",
+      "n_indf_nom_sg": "átt",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "áætlun": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "áætlun",
+    "inflections": {
+      "n_def_acc_pl": "áætlanirnar",
+      "n_def_acc_sg": "áætlunina",
+      "n_def_dat_pl": "áætlununum",
+      "n_def_dat_sg": "áætluninni",
+      "n_def_gen_pl": "áætlananna",
+      "n_def_gen_sg": "áætlunarinnar",
+      "n_def_nom_pl": "áætlanirnar",
+      "n_def_nom_sg": "áætlunin",
+      "n_indf_acc_pl": "áætlanir",
+      "n_indf_acc_sg": "áætlun",
+      "n_indf_dat_pl": "áætlunum",
+      "n_indf_dat_sg": "áætlun",
+      "n_indf_gen_pl": "áætlana",
+      "n_indf_gen_sg": "áætlunar",
+      "n_indf_nom_pl": "áætlanir",
+      "n_indf_nom_sg": "áætlun",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ætt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ætt",
+    "inflections": {
+      "n_indf_acc_pl": "ættir",
+      "n_indf_dat_pl": "ættum",
+      "n_indf_nom_pl": "ættir",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "éta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "éta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_2_sg": "ást"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "önn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "önn",
+    "inflections": {
+      "n_indf_gen_sg": "annar",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "þökk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "þökk",
+    "inflections": {
+      "n_indf_gen_pl": "þakka",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  }
+}

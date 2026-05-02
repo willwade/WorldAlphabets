@@ -1,0 +1,164 @@
+{
+  "_locale": "tk",
+  "_type": "words",
+  "_version": "0.1",
+  "aý": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aý",
+    "inflections": {
+      "n_abl_pl": "aýlardan",
+      "n_abl_sg": "aýdan",
+      "n_acc_pl": "aýlary",
+      "n_acc_sg": "aýy",
+      "n_dat_pl": "aýlara",
+      "n_dat_sg": "aýa",
+      "n_gen_pl": "aýlaryň",
+      "n_gen_sg": "aýyň",
+      "n_loc_pl": "aýlarda",
+      "n_loc_sg": "aýda",
+      "n_nom_pl": "aýlar",
+      "n_nom_sg": "aý",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "balyk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "balyk",
+    "inflections": {
+      "n_gen_pl": "balyklaryň",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "dag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dag",
+    "inflections": {
+      "n_gen_pl": "daglaryň",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "göz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "göz",
+    "inflections": {
+      "n_abl_pl": "gözlerden",
+      "n_abl_sg": "gözden",
+      "n_acc_pl": "gözleri",
+      "n_acc_sg": "gözü",
+      "n_dat_pl": "gözlere",
+      "n_dat_sg": "göze",
+      "n_gen_pl": "gözleriň",
+      "n_gen_sg": "gözüň",
+      "n_loc_pl": "gözlerde",
+      "n_loc_sg": "gözde",
+      "n_nom_pl": "gözler",
+      "n_nom_sg": "göz",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "gün": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gün",
+    "inflections": {
+      "n_abl_pl": "günlerden",
+      "n_abl_sg": "günden",
+      "n_acc_pl": "günleri",
+      "n_acc_sg": "günü",
+      "n_dat_pl": "günlere",
+      "n_dat_sg": "güne",
+      "n_gen_pl": "günleriň",
+      "n_gen_sg": "günüň",
+      "n_loc_pl": "günlerde",
+      "n_loc_sg": "günde",
+      "n_nom_pl": "günler",
+      "n_nom_sg": "gün",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "harp": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "harp",
+    "inflections": {
+      "n_gen_pl": "harplaryň",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "kitap": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kitap",
+    "inflections": {
+      "n_abl_pl": "kitaplardan",
+      "n_abl_sg": "kitapdan",
+      "n_acc_pl": "kitaplary",
+      "n_acc_sg": "kitaby",
+      "n_dat_pl": "kitaplara",
+      "n_dat_sg": "kitaba",
+      "n_gen_pl": "kitaplaryň",
+      "n_gen_sg": "kitabyň",
+      "n_loc_pl": "kitaplarda",
+      "n_loc_sg": "kitapda",
+      "n_nom_pl": "kitaplar",
+      "n_nom_sg": "kitap",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ýyl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ýyl",
+    "inflections": {
+      "n_dat_sg": "ýyla",
+      "n_gen_sg": "ýylyň",
+      "n_loc_sg": "ýylda",
+      "n_nom_pl": "ýyllar",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  }
+}

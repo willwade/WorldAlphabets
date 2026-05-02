@@ -1,0 +1,108 @@
+{
+  "_generated_inflection_location_notes": {
+    "noun": [
+      "singular",
+      "plural"
+    ],
+    "verb": [
+      "present",
+      "past",
+      "future"
+    ]
+  },
+  "_generated_rule_notes": [
+    {
+      "description": "Regular verbs follow a pattern based on their endings.",
+      "examples": [
+        "falar (to speak)",
+        "comer (to eat)",
+        "partir (to leave)"
+      ],
+      "name": "verb conjugation",
+      "pattern": "ar, er, ir"
+    },
+    {
+      "description": "Nouns are either masculine or feminine.",
+      "examples": [
+        "o carro (the car)",
+        "a casa (the house)"
+      ],
+      "name": "noun gender",
+      "pattern": "o (masculine), a (feminine)"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "falo, falas, fala, falamos, falam",
+      "test": "Conjugate the verb 'falar' in the present tense."
+    },
+    {
+      "expected": "feminine",
+      "test": "Identify the gender of 'mesa'."
+    }
+  ],
+  "_locale": "pt",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "achar_v_1_sg_ind_prs",
+      "inflection": "v_1_sg_ind_prs",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "achar"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dizer_v_1_pl_cond",
+      "inflection": "v_1_pl_cond",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dizer"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dizer_v_2_sg_imp_pos",
+      "inflection": "v_2_sg_imp_pos",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dizer"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "coisar_v_2_sg_imp_pos",
+      "inflection": "v_2_sg_imp_pos",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "coisar"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
+  "substitutions": {},
+  "tests": []
+}

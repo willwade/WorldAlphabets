@@ -1,0 +1,88 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "you, i, it",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Pronoun Inflection",
+      "overrides": "none",
+      "tests": [
+        {
+          "expected": "you",
+          "input": "you"
+        },
+        {
+          "expected": "i",
+          "input": "i"
+        },
+        {
+          "expected": "it",
+          "input": "it"
+        }
+      ]
+    },
+    {
+      "executable": "the, a",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Article Usage",
+      "overrides": "none",
+      "tests": [
+        {
+          "expected": "the",
+          "input": "the"
+        },
+        {
+          "expected": "a",
+          "input": "a"
+        }
+      ]
+    },
+    {
+      "executable": "and",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Conjunction Usage",
+      "overrides": "none",
+      "tests": [
+        {
+          "expected": "and",
+          "input": "and"
+        }
+      ]
+    },
+    {
+      "executable": "'s",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Possessive Form",
+      "overrides": "none",
+      "tests": [
+        {
+          "expected": "'s",
+          "input": "'s"
+        }
+      ]
+    },
+    {
+      "executable": "'t",
+      "inflection": "none",
+      "lookback": "none",
+      "name": "Contraction Form",
+      "overrides": "none",
+      "tests": [
+        {
+          "expected": "'t",
+          "input": "'t"
+        }
+      ]
+    }
+  ],
+  "_locale": "en-CA",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

@@ -1,0 +1,65 @@
+{
+  "_locale": "fur",
+  "_type": "words",
+  "_version": "0.1",
+  "clamâ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "clamâ",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs": "clami",
+      "v_3_sg_sbjv_prs": "clami",
+      "v_ind_prs_1_sg": "clami"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "fâ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fâ",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_sbjv_prs": "fasis",
+      "v_ind_prs_2_sg": "fasis"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "jessi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jessi",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "soi"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "lâ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lâ",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "va",
+      "v_ind_prs_3_sg": "va"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  }
+}

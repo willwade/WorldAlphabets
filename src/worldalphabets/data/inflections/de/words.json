@@ -1,0 +1,557 @@
+{
+  "_locale": "de",
+  "_type": "words",
+  "_version": "0.1",
+  "als": {
+    "antonyms": [],
+    "base": "als",
+    "examples": [
+      "Ich bin größer als du."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "auch": {
+    "antonyms": [],
+    "base": "auch",
+    "examples": [
+      "Ich mag auch Schokolade."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "dann": {
+    "antonyms": [],
+    "base": "dann",
+    "examples": [
+      "Dann gehen wir."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "das": {
+    "antonyms": [],
+    "base": "das",
+    "examples": [
+      "Das ist ein Buch."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun",
+      "article"
+    ]
+  },
+  "der": {
+    "antonyms": [],
+    "base": "der",
+    "examples": [
+      "Der Hund bellt."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article",
+      "pronoun"
+    ]
+  },
+  "die": {
+    "antonyms": [],
+    "base": "die",
+    "examples": [
+      "Die Katze schläft."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article",
+      "pronoun"
+    ]
+  },
+  "du": {
+    "antonyms": [],
+    "base": "du",
+    "examples": [
+      "Du bist mein Freund."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "eine": {
+    "antonyms": [],
+    "base": "eine",
+    "examples": [
+      "Ich habe eine Idee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "determiner"
+    ]
+  },
+  "es": {
+    "antonyms": [],
+    "base": "es",
+    "examples": [
+      "Es regnet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "etwas": {
+    "antonyms": [],
+    "base": "etwas",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "für": {
+    "antonyms": [],
+    "base": "für",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "geht": {
+    "antonyms": [],
+    "base": "geht",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "gut": {
+    "antonyms": [
+      "schlecht"
+    ],
+    "base": "gut",
+    "examples": [
+      "Das Essen ist gut."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "haben": {
+    "antonyms": [],
+    "base": "haben",
+    "examples": [
+      "Wir haben Zeit."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "hat": {
+    "antonyms": [],
+    "base": "hat",
+    "examples": [
+      "Er hat ein Buch."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "hier": {
+    "antonyms": [],
+    "base": "hier",
+    "examples": [
+      "Ich bin hier."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ich": {
+    "antonyms": [],
+    "base": "ich",
+    "examples": [
+      "Ich bin hier."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ihn": {
+    "antonyms": [],
+    "base": "ihn",
+    "examples": [
+      "Ich sehe ihn."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ihnen": {
+    "antonyms": [],
+    "base": "ihnen",
+    "examples": [
+      "Ich gebe es ihnen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ist": {
+    "antonyms": [],
+    "base": "sein",
+    "examples": [
+      "Er ist glücklich."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jetzt": {
+    "antonyms": [],
+    "base": "jetzt",
+    "examples": [
+      "Ich mache es jetzt."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "kann": {
+    "antonyms": [],
+    "base": "kann",
+    "examples": [
+      "Ich kann schwimmen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "mal": {
+    "antonyms": [],
+    "base": "mal",
+    "examples": [
+      "Mach es mal schnell."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "man": {
+    "antonyms": [],
+    "base": "man",
+    "examples": [
+      "Der Mann ist hier."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "Männer",
+          "type": "plural"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "mehr": {
+    "antonyms": [],
+    "base": "mehr",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "muss": {
+    "antonyms": [],
+    "base": "muss",
+    "examples": [
+      "Ich muss gehen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "nicht": {
+    "antonyms": [],
+    "base": "nicht",
+    "examples": [
+      "Ich verstehe nicht."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "oh": {
+    "antonyms": [],
+    "base": "oh",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "interjection"
+    ]
+  },
+  "schon": {
+    "antonyms": [],
+    "base": "schon",
+    "examples": [
+      "Ich habe das schon gemacht."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "sein": {
+    "antonyms": [
+      "nicht sein"
+    ],
+    "base": "sein",
+    "examples": [
+      "Er ist mein Freund."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "sie": {
+    "antonyms": [],
+    "base": "sie",
+    "examples": [
+      "Sie ist meine Freundin."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sind": {
+    "antonyms": [],
+    "base": "sind",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "so": {
+    "antonyms": [],
+    "base": "so",
+    "examples": [
+      "Ich bin so müde."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "und": {
+    "antonyms": [],
+    "base": "und",
+    "examples": [
+      "Ich mag Äpfel und Bananen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "von": {
+    "antonyms": [],
+    "base": "von",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "war": {
+    "antonyms": [],
+    "base": "war",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "wenn": {
+    "antonyms": [],
+    "base": "wenn",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "werden": {
+    "antonyms": [],
+    "base": "werden",
+    "examples": [
+      "Ich werde müde."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "will": {
+    "antonyms": [],
+    "base": "will",
+    "examples": [
+      "Ich will essen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "wo": {
+    "antonyms": [],
+    "base": "wo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  }
+}

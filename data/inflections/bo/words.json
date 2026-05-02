@@ -1,0 +1,214 @@
+{
+  "_locale": "bo",
+  "_type": "words",
+  "_version": "0.1",
+  "གཟུགས།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "གཟུགས།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "གཟུགས།",
+      "v_imp": "ཚུགས།",
+      "v_prs": "བཙུགས།",
+      "v_pst": "འཛུགས།"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "བཞུགས།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "བཞུགས།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "བཞུགས།",
+      "v_imp": "བཞུགས།",
+      "v_prs": "བཞུགས།",
+      "v_pst": "བཞུགས།"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "བརྟེན།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "བརྟེན།",
+    "inflections": {
+      "regulars": [],
+      "v_imp": "རྟེན།",
+      "v_pst": "རྟེན།"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "བསྒྲུང་།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "བསྒྲུང་།",
+    "inflections": {
+      "regulars": [],
+      "v_pst": "སྒྲུང་།"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "བྱ།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "བྱ།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "བྱ།",
+      "v_imp": "བྱོས།",
+      "v_prs": "བྱས།",
+      "v_pst": "བྱེད།"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ཟེར།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ཟེར།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "ཟེར།",
+      "v_prs": "ཟེར།",
+      "v_pst": "ཟེར།"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ཡིན།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ཡིན།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "ཡིན།",
+      "v_prs": "ཡིན།",
+      "v_pst": "ཡིན།"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ཡོད།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ཡོད།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "ཡོད།",
+      "v_prs": "ཡོད།",
+      "v_pst": "ཡོད།"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "རིགས།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "རིགས།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "རིགས།",
+      "v_prs": "རིགས།",
+      "v_pst": "རིགས།"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "རེད།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "རེད།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "རེད།",
+      "v_prs": "རེད།",
+      "v_pst": "རེད།"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "རྒྱུ།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "རྒྱུ།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "རྒྱུ།",
+      "v_prs": "རྒྱུ།",
+      "v_pst": "རྒྱུ།"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ལས།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ལས།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "ལས།",
+      "v_imp": "ལོས།",
+      "v_prs": "ལས།",
+      "v_pst": "ལས།"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ལུས།": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ལུས།",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "ལུས།",
+      "v_prs": "ལུས།",
+      "v_pst": "ལུས།"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  }
+}

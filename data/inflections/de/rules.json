@@ -1,0 +1,49 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "ist",
+      "inflection": "3rd_person_singular_present",
+      "lookback": "sein",
+      "name": "verb_conjugation",
+      "overrides": {}
+    },
+    {
+      "executable": "ich",
+      "inflection": "nominative",
+      "lookback": "first_person_singular",
+      "name": "pronoun_usage",
+      "overrides": {}
+    },
+    {
+      "executable": "die",
+      "inflection": "nominative",
+      "lookback": "feminine_noun",
+      "name": "article_usage",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "ist",
+      "input": "er",
+      "name": "test_verb_conjugation"
+    },
+    {
+      "expected": "ich",
+      "input": "ich",
+      "name": "test_pronoun_usage"
+    },
+    {
+      "expected": "die",
+      "input": "Katze",
+      "name": "test_article_usage"
+    }
+  ],
+  "_locale": "de",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

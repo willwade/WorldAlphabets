@@ -1,0 +1,553 @@
+{
+  "_locale": "nl",
+  "_type": "words",
+  "_version": "0.1",
+  "aan": {
+    "antonyms": [],
+    "base": "aan",
+    "examples": [
+      "Ik geef het aan jou."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "als": {
+    "antonyms": [],
+    "base": "als",
+    "examples": [
+      "Als het regent, blijf ik binnen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ben": {
+    "antonyms": [],
+    "base": "ben",
+    "examples": [
+      "Ik ben moe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "dan": {
+    "antonyms": [],
+    "base": "dan",
+    "examples": [
+      "Ik kom dan terug."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "dat": {
+    "antonyms": [],
+    "base": "dat",
+    "examples": [
+      "Dat is mijn boek."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "de": {
+    "antonyms": [],
+    "base": "de",
+    "examples": [
+      "De kat is zwart."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "deze": {
+    "antonyms": [],
+    "base": "deze",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "dit": {
+    "antonyms": [],
+    "base": "dit",
+    "examples": [
+      "Dit is mijn boek."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "doen": {
+    "antonyms": [],
+    "base": "doen",
+    "examples": [
+      "Wat ga je doen?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "een": {
+    "antonyms": [],
+    "base": "een",
+    "examples": [
+      "Een appel is lekker."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "Ik hou van koffie en thee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "goed": {
+    "antonyms": [
+      "slecht"
+    ],
+    "base": "goed",
+    "examples": [
+      "Dat is een goed idee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "haar": {
+    "antonyms": [],
+    "base": "haar",
+    "examples": [
+      "Ik zie haar daar."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hebt": {
+    "antonyms": [],
+    "base": "hebben",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "het": {
+    "antonyms": [],
+    "base": "het",
+    "examples": [
+      "Het is een mooie dag."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun",
+      "article"
+    ]
+  },
+  "hoe": {
+    "antonyms": [],
+    "base": "hoe",
+    "examples": [
+      "Hoe gaat het?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ik": {
+    "antonyms": [],
+    "base": "ik",
+    "examples": [
+      "Ik ben hier."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "is": {
+    "antonyms": [],
+    "base": "is",
+    "examples": [
+      "Hij is een dokter."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "Je bent mijn vriend."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kom": {
+    "antonyms": [],
+    "base": "komen",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "kunnen": {
+    "antonyms": [],
+    "base": "kunnen",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "laat": {
+    "antonyms": [],
+    "base": "laten",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "m": {
+    "antonyms": [],
+    "base": "m",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "meer": {
+    "antonyms": [
+      "minder"
+    ],
+    "base": "meer",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  "mijn": {
+    "antonyms": [],
+    "base": "mijn",
+    "examples": [
+      "Dit is mijn huis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "moeten": {
+    "antonyms": [],
+    "base": "moeten",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "n": {
+    "antonyms": [],
+    "base": "n",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "article"
+    ]
+  },
+  "nee": {
+    "antonyms": [
+      "ja"
+    ],
+    "base": "nee",
+    "examples": [
+      "Nee, dat wil ik niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "niet": {
+    "antonyms": [
+      "wel"
+    ],
+    "base": "niet",
+    "examples": [
+      "Ik begrijp het niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nu": {
+    "antonyms": [],
+    "base": "nu",
+    "examples": [
+      "Ik ben nu thuis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "om": {
+    "antonyms": [],
+    "base": "om",
+    "examples": [
+      "Ik kom om 5 uur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ook": {
+    "antonyms": [],
+    "base": "ook",
+    "examples": [
+      "Ik wil ook gaan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "over": {
+    "antonyms": [],
+    "base": "over",
+    "examples": [
+      "We praten over het probleem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "t": {
+    "antonyms": [],
+    "base": "t",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "u": {
+    "antonyms": [],
+    "base": "u",
+    "examples": [
+      "Kunt u mij helpen?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "uit": {
+    "antonyms": [],
+    "base": "uit",
+    "examples": [
+      "Hij komt uit Nederland."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "van": {
+    "antonyms": [],
+    "base": "van",
+    "examples": [
+      "Hij komt van Nederland."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "waar": {
+    "antonyms": [],
+    "base": "waar",
+    "examples": [
+      "Waar ben je?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "waarom": {
+    "antonyms": [],
+    "base": "waarom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "was": {
+    "antonyms": [],
+    "base": "was",
+    "examples": [
+      "Hij was er niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  }
+}

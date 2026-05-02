@@ -1,0 +1,4445 @@
+{
+  "_locale": "bg",
+  "_type": "words",
+  "_version": "0.1",
+  "абсолютен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "абсолютен",
+    "inflections": {
+      "adj_neut_sg_indf": "абсолютно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "агент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "агент",
+    "inflections": {
+      "n_pl": "агента",
+      "n_pl_def": "агентите",
+      "n_pl_indf": "агенти",
+      "n_pl_voc": "агенти",
+      "n_sg_acc_def": "агента",
+      "n_sg_indf": "агент",
+      "n_sg_nom_def": "агентът",
+      "n_sg_voc": "агенте",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "адвокат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "адвокат",
+    "inflections": {
+      "n_pl": "адвоката",
+      "n_pl_def": "адвокатите",
+      "n_pl_indf": "адвокати",
+      "n_pl_voc": "адвокати",
+      "n_sg_acc_def": "адвоката",
+      "n_sg_indf": "адвокат",
+      "n_sg_nom_def": "адвокатът",
+      "n_sg_voc": "адвокате",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "баба": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "баба",
+    "inflections": {
+      "n_pl_def": "бабите",
+      "n_pl_indf": "баби",
+      "n_pl_voc": "баби",
+      "n_sg_def": "бабата",
+      "n_sg_indf": "баба",
+      "n_sg_voc": "бабо",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "баща": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "баща",
+    "inflections": {
+      "n_pl_def": "бащите",
+      "n_pl_indf": "бащи",
+      "n_sg_def": "бащата",
+      "n_sg_indf": "баща",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "бебе": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бебе",
+    "inflections": {
+      "n_pl_def": "бебетата",
+      "n_pl_indf": "бебета",
+      "n_sg_def": "бебето",
+      "n_sg_indf": "бебе",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "бия": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бия",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "бих",
+      "v_ind_pst_2_pl": "бихте",
+      "v_ind_pst_2_sg": "би",
+      "v_ind_pst_3_sg": "би",
+      "v_ptcp_act_pst_fem_sg_indf": "била",
+      "v_ptcp_act_pst_masc_sg_indf": "бил",
+      "v_ptcp_act_pst_neut_sg_indf": "било",
+      "v_ptcp_act_pst_pl_indf": "били"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "благодаря": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "благодаря",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "благодарейки",
+      "v_imp_2_pl": "благодарете",
+      "v_imp_2_sg": "благодари",
+      "v_ind_prog_pst_1_pl": "благодаряхме",
+      "v_ind_prog_pst_1_sg": "благодарях",
+      "v_ind_prog_pst_2_pl": "благодаряхте",
+      "v_ind_prog_pst_2_sg": "благодареше",
+      "v_ind_prog_pst_3_pl": "благодаряха",
+      "v_ind_prog_pst_3_sg": "благодареше",
+      "v_ind_prs_1_pl": "благодарим",
+      "v_ind_prs_1_sg": "благодаря",
+      "v_ind_prs_2_pl": "благодарите",
+      "v_ind_prs_2_sg": "благодариш",
+      "v_ind_prs_3_pl": "благодарят",
+      "v_ind_prs_3_sg": "благодари",
+      "v_ind_pst_1_pl": "благодарихме",
+      "v_ind_pst_1_sg": "благодарих",
+      "v_ind_pst_2_pl": "благодарихте",
+      "v_ind_pst_2_sg": "благодари",
+      "v_ind_pst_3_pl": "благодариха",
+      "v_ind_pst_3_sg": "благодари",
+      "v_msdr_neut_sg_def": "благодаренето",
+      "v_msdr_neut_sg_indf": "благодарене",
+      "v_msdr_pl_def": "благодаренията-нетата",
+      "v_msdr_pl_indf": "благодарения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "благодарящата",
+      "v_ptcp_act_prs_fem_sg_indf": "благодаряща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "благодарящия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "благодарящият",
+      "v_ptcp_act_prs_masc_sg_indf": "благодарящ",
+      "v_ptcp_act_prs_neut_sg_def": "благодарящото",
+      "v_ptcp_act_prs_neut_sg_indf": "благодарящо",
+      "v_ptcp_act_prs_pl_def": "благодарящите",
+      "v_ptcp_act_prs_pl_indf": "благодарящи",
+      "v_ptcp_act_pst_fem_sg_def": "благодарилата",
+      "v_ptcp_act_pst_fem_sg_indf": "благодарила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "благодарилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "благодарилият",
+      "v_ptcp_act_pst_masc_sg_indf": "благодарил",
+      "v_ptcp_act_pst_neut_sg_def": "благодарилото",
+      "v_ptcp_act_pst_neut_sg_indf": "благодарило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "благодаряла",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "благодарял",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "благодаряло",
+      "v_ptcp_act_pst_nfh_pl_indf": "благодарели",
+      "v_ptcp_act_pst_pl_def": "благодарилите",
+      "v_ptcp_act_pst_pl_indf": "благодарили",
+      "v_ptcp_pass_pst_fem_sg_def": "благодарената",
+      "v_ptcp_pass_pst_fem_sg_indf": "благодарена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "благодарения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "благодареният",
+      "v_ptcp_pass_pst_masc_sg_indf": "благодарен",
+      "v_ptcp_pass_pst_neut_sg_def": "благодареното",
+      "v_ptcp_pass_pst_neut_sg_indf": "благодарено",
+      "v_ptcp_pass_pst_pl_def": "благодарените",
+      "v_ptcp_pass_pst_pl_indf": "благодарени"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "бог": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бог",
+    "inflections": {
+      "n_pl": "бога",
+      "n_pl_def": "боговете",
+      "n_pl_indf": "богове",
+      "n_pl_voc": "богове",
+      "n_sg_acc_def": "бога",
+      "n_sg_indf": "бог",
+      "n_sg_nom_def": "богът",
+      "n_sg_voc": "боже",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "болница": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "болница",
+    "inflections": {
+      "n_sg_def": "болницата",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "брава": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "брава",
+    "inflections": {
+      "n_sg_voc": "браво",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "бърз": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бърз",
+    "inflections": {
+      "adj_cmpr_neut_sg_indf": "по-бързо",
+      "adj_neut_sg_indf": "бързо",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "важен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "важен",
+    "inflections": {
+      "adj_neut_sg_indf": "важно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "верен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "верен",
+    "inflections": {
+      "adj_neut_sg_indf": "вярно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "вероятен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вероятен",
+    "inflections": {
+      "adj_neut_sg_indf": "вероятно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "вечер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вечер",
+    "inflections": {
+      "n_pl_def": "вечерите",
+      "n_pl_indf": "вечери",
+      "n_sg_def": "вечерта",
+      "n_sg_indf": "вечер",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "вечерям": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вечерям",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "вечеря",
+      "v_ind_pst_2_sg": "вечеря",
+      "v_ind_pst_3_sg": "вечеря"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "вземам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вземам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "взема",
+      "v_ind_pst_2_sg": "взема",
+      "v_ind_pst_3_sg": "взема"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "виждам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "виждам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "виждайки",
+      "v_imp_2_pl": "виждайте",
+      "v_imp_2_sg": "виждай",
+      "v_ind_prog_pst_1_pl": "виждахме",
+      "v_ind_prog_pst_1_sg": "виждах",
+      "v_ind_prog_pst_2_pl": "виждахте",
+      "v_ind_prog_pst_2_sg": "виждаше",
+      "v_ind_prog_pst_3_pl": "виждаха",
+      "v_ind_prog_pst_3_sg": "виждаше",
+      "v_ind_prs_1_pl": "виждаме",
+      "v_ind_prs_1_sg": "виждам",
+      "v_ind_prs_2_pl": "виждате",
+      "v_ind_prs_2_sg": "виждаш",
+      "v_ind_prs_3_pl": "виждат",
+      "v_ind_prs_3_sg": "вижда",
+      "v_ind_pst_1_pl": "виждахме",
+      "v_ind_pst_1_sg": "виждах",
+      "v_ind_pst_2_pl": "виждахте",
+      "v_ind_pst_2_sg": "вижда",
+      "v_ind_pst_3_pl": "виждаха",
+      "v_ind_pst_3_sg": "вижда",
+      "v_msdr_neut_sg_def": "виждането",
+      "v_msdr_neut_sg_indf": "виждане",
+      "v_msdr_pl_def": "вижданията-нетата",
+      "v_msdr_pl_indf": "виждания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "виждащата",
+      "v_ptcp_act_prs_fem_sg_indf": "виждаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "виждащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "виждащият",
+      "v_ptcp_act_prs_masc_sg_indf": "виждащ",
+      "v_ptcp_act_prs_neut_sg_def": "виждащото",
+      "v_ptcp_act_prs_neut_sg_indf": "виждащо",
+      "v_ptcp_act_prs_pl_def": "виждащите",
+      "v_ptcp_act_prs_pl_indf": "виждащи",
+      "v_ptcp_act_pst_fem_sg_def": "виждалата",
+      "v_ptcp_act_pst_fem_sg_indf": "виждала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "виждалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "виждалият",
+      "v_ptcp_act_pst_masc_sg_indf": "виждал",
+      "v_ptcp_act_pst_neut_sg_def": "виждалото",
+      "v_ptcp_act_pst_neut_sg_indf": "виждало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "виждала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "виждал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "виждало",
+      "v_ptcp_act_pst_nfh_pl_indf": "виждали",
+      "v_ptcp_act_pst_pl_def": "виждалите",
+      "v_ptcp_act_pst_pl_indf": "виждали",
+      "v_ptcp_pass_pst_fem_sg_def": "вижданата",
+      "v_ptcp_pass_pst_fem_sg_indf": "виждана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "виждания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "вижданият",
+      "v_ptcp_pass_pst_masc_sg_indf": "виждан",
+      "v_ptcp_pass_pst_neut_sg_def": "вижданото",
+      "v_ptcp_pass_pst_neut_sg_indf": "виждано",
+      "v_ptcp_pass_pst_pl_def": "вижданите",
+      "v_ptcp_pass_pst_pl_indf": "виждани"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "вино": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вино",
+    "inflections": {
+      "n_pl_def": "вината",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "внимателен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "внимателен",
+    "inflections": {
+      "adj_neut_sg_indf": "внимателно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "вода": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вода",
+    "inflections": {
+      "n_pl_def": "водите",
+      "n_pl_indf": "води",
+      "n_pl_voc": "води",
+      "n_sg_def": "водата",
+      "n_sg_indf": "вода",
+      "n_sg_voc": "водо",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "врата": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "врата",
+    "inflections": {
+      "n_pl_def": "вратите",
+      "n_pl_indf": "врати",
+      "n_pl_voc": "врати",
+      "n_sg_def": "вратата",
+      "n_sg_indf": "врата",
+      "n_sg_voc": "врато",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "време": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "време",
+    "inflections": {
+      "n_pl_def": "времената",
+      "n_pl_indf": "времена",
+      "n_sg_def": "времето",
+      "n_sg_indf": "време",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "връв": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "връв",
+    "inflections": {
+      "n_pl_indf": "върви",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "възможен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "възможен",
+    "inflections": {
+      "adj_neut_sg_indf": "възможно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "възможност": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "възможност",
+    "inflections": {
+      "n_pl_def": "възможностите",
+      "n_pl_indf": "възможности",
+      "n_sg_def": "възможността",
+      "n_sg_indf": "възможност",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "въпрос": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "въпрос",
+    "inflections": {
+      "n_pl": "въпроса",
+      "n_pl_def": "въпросите",
+      "n_pl_indf": "въпроси",
+      "n_pl_voc": "въпроси",
+      "n_sg_acc_def": "въпроса",
+      "n_sg_indf": "въпрос",
+      "n_sg_nom_def": "въпросът",
+      "n_sg_voc": "въпросе",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "вярвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вярвам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "вярвайки",
+      "v_imp_2_pl": "вярвайте",
+      "v_imp_2_sg": "вярвай",
+      "v_ind_prog_pst_1_pl": "вярвахме",
+      "v_ind_prog_pst_1_sg": "вярвах",
+      "v_ind_prog_pst_2_pl": "вярвахте",
+      "v_ind_prog_pst_2_sg": "вярваше",
+      "v_ind_prog_pst_3_pl": "вярваха",
+      "v_ind_prog_pst_3_sg": "вярваше",
+      "v_ind_prs_1_pl": "вярваме",
+      "v_ind_prs_1_sg": "вярвам",
+      "v_ind_prs_2_pl": "вярвате",
+      "v_ind_prs_2_sg": "вярваш",
+      "v_ind_prs_3_pl": "вярват",
+      "v_ind_prs_3_sg": "вярва",
+      "v_ind_pst_1_pl": "вярвахме",
+      "v_ind_pst_1_sg": "вярвах",
+      "v_ind_pst_2_pl": "вярвахте",
+      "v_ind_pst_2_sg": "вярва",
+      "v_ind_pst_3_pl": "вярваха",
+      "v_ind_pst_3_sg": "вярва",
+      "v_msdr_neut_sg_def": "вярването",
+      "v_msdr_neut_sg_indf": "вярване",
+      "v_msdr_pl_def": "вярванията-нетата",
+      "v_msdr_pl_indf": "вярвания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "вярващата",
+      "v_ptcp_act_prs_fem_sg_indf": "вярваща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "вярващия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "вярващият",
+      "v_ptcp_act_prs_masc_sg_indf": "вярващ",
+      "v_ptcp_act_prs_neut_sg_def": "вярващото",
+      "v_ptcp_act_prs_neut_sg_indf": "вярващо",
+      "v_ptcp_act_prs_pl_def": "вярващите",
+      "v_ptcp_act_prs_pl_indf": "вярващи",
+      "v_ptcp_act_pst_fem_sg_def": "вярвалата",
+      "v_ptcp_act_pst_fem_sg_indf": "вярвала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "вярвалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "вярвалият",
+      "v_ptcp_act_pst_masc_sg_indf": "вярвал",
+      "v_ptcp_act_pst_neut_sg_def": "вярвалото",
+      "v_ptcp_act_pst_neut_sg_indf": "вярвало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "вярвала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "вярвал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "вярвало",
+      "v_ptcp_act_pst_nfh_pl_indf": "вярвали",
+      "v_ptcp_act_pst_pl_def": "вярвалите",
+      "v_ptcp_act_pst_pl_indf": "вярвали"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "глава": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "глава",
+    "inflections": {
+      "n_sg_def": "главата",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "говоря": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "говоря",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "говорейки",
+      "v_imp_2_pl": "говорете",
+      "v_imp_2_sg": "говори",
+      "v_ind_prog_pst_1_pl": "говорехме",
+      "v_ind_prog_pst_1_sg": "говорех",
+      "v_ind_prog_pst_2_pl": "говорехте",
+      "v_ind_prog_pst_2_sg": "говореше",
+      "v_ind_prog_pst_3_pl": "говореха",
+      "v_ind_prog_pst_3_sg": "говореше",
+      "v_ind_prs_1_pl": "говорим",
+      "v_ind_prs_1_sg": "говоря",
+      "v_ind_prs_2_pl": "говорите",
+      "v_ind_prs_2_sg": "говориш",
+      "v_ind_prs_3_pl": "говорят",
+      "v_ind_prs_3_sg": "говори",
+      "v_ind_pst_1_pl": "говорихме",
+      "v_ind_pst_1_sg": "говорих",
+      "v_ind_pst_2_pl": "говорихте",
+      "v_ind_pst_2_sg": "говори",
+      "v_ind_pst_3_pl": "говориха",
+      "v_ind_pst_3_sg": "говори",
+      "v_msdr_neut_sg_def": "говоренето",
+      "v_msdr_neut_sg_indf": "говорене",
+      "v_msdr_pl_def": "говоренията-нетата",
+      "v_msdr_pl_indf": "говорения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "говорещата",
+      "v_ptcp_act_prs_fem_sg_indf": "говореща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "говорещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "говорещият",
+      "v_ptcp_act_prs_masc_sg_indf": "говорещ",
+      "v_ptcp_act_prs_neut_sg_def": "говорещото",
+      "v_ptcp_act_prs_neut_sg_indf": "говорещо",
+      "v_ptcp_act_prs_pl_def": "говорещите",
+      "v_ptcp_act_prs_pl_indf": "говорещи",
+      "v_ptcp_act_pst_fem_sg_def": "говорилата",
+      "v_ptcp_act_pst_fem_sg_indf": "говорила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "говорилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "говорилият",
+      "v_ptcp_act_pst_masc_sg_indf": "говорил",
+      "v_ptcp_act_pst_neut_sg_def": "говорилото",
+      "v_ptcp_act_pst_neut_sg_indf": "говорило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "говорела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "говорел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "говорело",
+      "v_ptcp_act_pst_nfh_pl_indf": "говорели",
+      "v_ptcp_act_pst_pl_def": "говорилите",
+      "v_ptcp_act_pst_pl_indf": "говорили",
+      "v_ptcp_pass_pst_fem_sg_def": "говорената",
+      "v_ptcp_pass_pst_fem_sg_indf": "говорена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "говорения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "говореният",
+      "v_ptcp_pass_pst_masc_sg_indf": "говорен",
+      "v_ptcp_pass_pst_neut_sg_def": "говореното",
+      "v_ptcp_pass_pst_neut_sg_indf": "говорено",
+      "v_ptcp_pass_pst_pl_def": "говорените",
+      "v_ptcp_pass_pst_pl_indf": "говорени"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "година": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "година",
+    "inflections": {
+      "n_pl_def": "годините",
+      "n_pl_indf": "години",
+      "n_pl_voc": "години",
+      "n_sg_def": "годината",
+      "n_sg_indf": "година",
+      "n_sg_voc": "годино",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "голям": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "голям",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-голямата",
+      "adj_cmpr_fem_sg_indf": "по-голяма",
+      "adj_cmpr_masc_sg_acc_def": "по-големия",
+      "adj_cmpr_masc_sg_indf": "по-голям",
+      "adj_cmpr_masc_sg_nom_def": "по-големият",
+      "adj_cmpr_masc_sg_voc": "по-големи",
+      "adj_cmpr_neut_sg_def": "по-голямото",
+      "adj_cmpr_neut_sg_indf": "по-голямо",
+      "adj_cmpr_pl_def": "по-големите",
+      "adj_cmpr_pl_indf": "по-големи",
+      "adj_fem_sg_def": "голямата",
+      "adj_fem_sg_indf": "голяма",
+      "adj_masc_sg_acc_def": "големия",
+      "adj_masc_sg_indf": "голям",
+      "adj_masc_sg_nom_def": "големият",
+      "adj_masc_sg_voc": "големи",
+      "adj_neut_sg_def": "голямото",
+      "adj_neut_sg_indf": "голямо",
+      "adj_pl_def": "големите",
+      "adj_pl_indf": "големи",
+      "adj_sprl_fem_sg_def": "най-голямата",
+      "adj_sprl_fem_sg_indf": "най-голяма",
+      "adj_sprl_masc_sg_acc_def": "най-големия",
+      "adj_sprl_masc_sg_indf": "най-голям",
+      "adj_sprl_masc_sg_nom_def": "най-големият",
+      "adj_sprl_masc_sg_voc": "най-големи",
+      "adj_sprl_neut_sg_def": "най-голямото",
+      "adj_sprl_neut_sg_indf": "най-голямо",
+      "adj_sprl_pl_def": "най-големите",
+      "adj_sprl_pl_indf": "най-големи",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "господин": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "господин",
+    "inflections": {
+      "n_pl": "господина",
+      "n_pl_def": "господата",
+      "n_pl_indf": "господа",
+      "n_pl_voc": "господа",
+      "n_sg_acc_def": "господина",
+      "n_sg_indf": "господин",
+      "n_sg_nom_def": "господинът",
+      "n_sg_voc": "господине",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "госпожа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "госпожа",
+    "inflections": {
+      "n_sg_voc": "госпожо",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "грижа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "грижа",
+    "inflections": {
+      "n_pl_def": "грижите",
+      "n_pl_indf": "грижи",
+      "n_pl_voc": "грижи",
+      "n_sg_def": "грижата",
+      "n_sg_indf": "грижа",
+      "n_sg_voc": "грижо",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "давам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "давам",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "давай",
+      "v_ind_prs_3_sg": "дава",
+      "v_ind_pst_2_sg": "дава",
+      "v_ind_pst_3_sg": "дава"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "дам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дам",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "дайте",
+      "v_imp_2_sg": "дай",
+      "v_ind_prog_pst_1_pl": "дадяхме",
+      "v_ind_prog_pst_1_sg": "дадях",
+      "v_ind_prog_pst_2_pl": "дадяхте",
+      "v_ind_prog_pst_2_sg": "дадеше",
+      "v_ind_prog_pst_3_pl": "дадяха",
+      "v_ind_prog_pst_3_sg": "дадеше",
+      "v_ind_prs_1_pl": "дадем",
+      "v_ind_prs_1_sg": "дам",
+      "v_ind_prs_2_pl": "дадете",
+      "v_ind_prs_2_sg": "дадеш",
+      "v_ind_prs_3_pl": "дадат",
+      "v_ind_prs_3_sg": "даде",
+      "v_ind_pst_1_pl": "дадохме",
+      "v_ind_pst_1_sg": "дадох",
+      "v_ind_pst_2_pl": "дадохте",
+      "v_ind_pst_2_sg": "даде",
+      "v_ind_pst_3_pl": "дадоха",
+      "v_ind_pst_3_sg": "даде",
+      "v_ptcp_act_pst_fem_sg_def": "далата",
+      "v_ptcp_act_pst_fem_sg_indf": "дала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "далия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "далият",
+      "v_ptcp_act_pst_masc_sg_indf": "дал",
+      "v_ptcp_act_pst_neut_sg_def": "далото",
+      "v_ptcp_act_pst_neut_sg_indf": "дало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "дадяла",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "дадял",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "дадяло",
+      "v_ptcp_act_pst_nfh_pl_indf": "дадели",
+      "v_ptcp_act_pst_pl_def": "далите",
+      "v_ptcp_act_pst_pl_indf": "дали",
+      "v_ptcp_pass_pst_fem_sg_def": "дадената",
+      "v_ptcp_pass_pst_fem_sg_indf": "дадена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "дадения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "даденият",
+      "v_ptcp_pass_pst_masc_sg_indf": "даден",
+      "v_ptcp_pass_pst_neut_sg_def": "даденото",
+      "v_ptcp_pass_pst_neut_sg_indf": "дадено",
+      "v_ptcp_pass_pst_pl_def": "дадените",
+      "v_ptcp_pass_pst_pl_indf": "дадени"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ден": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ден",
+    "inflections": {
+      "n_pl": "дена",
+      "n_pl_def": "дните",
+      "n_pl_indf": "дни",
+      "n_pl_voc": "дни",
+      "n_sg_acc_def": "деня",
+      "n_sg_indf": "ден",
+      "n_sg_nom_def": "денят",
+      "n_sg_voc": "дене",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "дете": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дете",
+    "inflections": {
+      "n_pl_def": "децата",
+      "n_pl_indf": "деца",
+      "n_sg_def": "детето",
+      "n_sg_indf": "дете",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "добър": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "добър",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-добрата",
+      "adj_cmpr_fem_sg_indf": "по-добра",
+      "adj_cmpr_masc_sg_acc_def": "по-добрия",
+      "adj_cmpr_masc_sg_indf": "по-добър",
+      "adj_cmpr_masc_sg_nom_def": "по-добрият",
+      "adj_cmpr_masc_sg_voc": "по-добри",
+      "adj_cmpr_neut_sg_def": "по-доброто",
+      "adj_cmpr_neut_sg_indf": "по-добро",
+      "adj_cmpr_pl_def": "по-добрите",
+      "adj_cmpr_pl_indf": "по-добри",
+      "adj_fem_sg_def": "добрата",
+      "adj_fem_sg_indf": "добра",
+      "adj_masc_sg_acc_def": "добрия",
+      "adj_masc_sg_indf": "добър",
+      "adj_masc_sg_nom_def": "добрият",
+      "adj_masc_sg_voc": "добри",
+      "adj_neut_sg_def": "доброто",
+      "adj_neut_sg_indf": "добро",
+      "adj_pl_def": "добрите",
+      "adj_pl_indf": "добри",
+      "adj_sprl_fem_sg_def": "най-добрата",
+      "adj_sprl_fem_sg_indf": "най-добра",
+      "adj_sprl_masc_sg_acc_def": "най-добрия",
+      "adj_sprl_masc_sg_indf": "най-добър",
+      "adj_sprl_masc_sg_nom_def": "най-добрият",
+      "adj_sprl_masc_sg_voc": "най-добри",
+      "adj_sprl_neut_sg_def": "най-доброто",
+      "adj_sprl_neut_sg_indf": "най-добро",
+      "adj_sprl_pl_def": "най-добрите",
+      "adj_sprl_pl_indf": "най-добри",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "доктор": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "доктор",
+    "inflections": {
+      "n_pl": "доктора",
+      "n_pl_def": "докторите",
+      "n_pl_indf": "доктори",
+      "n_pl_voc": "доктори",
+      "n_sg_acc_def": "доктора",
+      "n_sg_indf": "доктор",
+      "n_sg_nom_def": "докторът",
+      "n_sg_voc": "докторе",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "дом": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дом",
+    "inflections": {
+      "n_pl": "дома",
+      "n_pl_def": "домовете",
+      "n_pl_indf": "домове",
+      "n_pl_voc": "домове",
+      "n_sg_acc_def": "дома",
+      "n_sg_indf": "дом",
+      "n_sg_nom_def": "домът",
+      "n_sg_voc": "доме",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "друг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "друг",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-другата",
+      "adj_cmpr_fem_sg_indf": "по-друга",
+      "adj_cmpr_masc_sg_acc_def": "по-другия",
+      "adj_cmpr_masc_sg_indf": "по-друг",
+      "adj_cmpr_masc_sg_nom_def": "по-другият",
+      "adj_cmpr_masc_sg_voc": "по-други",
+      "adj_cmpr_neut_sg_def": "по-другото",
+      "adj_cmpr_neut_sg_indf": "по-друго",
+      "adj_cmpr_pl_def": "по-другите",
+      "adj_cmpr_pl_indf": "по-други",
+      "adj_fem_sg_def": "другата",
+      "adj_fem_sg_indf": "друга",
+      "adj_masc_sg_acc_def": "другия",
+      "adj_masc_sg_indf": "друг",
+      "adj_masc_sg_nom_def": "другият",
+      "adj_masc_sg_voc": "други",
+      "adj_neut_sg_def": "другото",
+      "adj_neut_sg_indf": "друго",
+      "adj_pl_def": "другите",
+      "adj_pl_indf": "други",
+      "adj_sprl_fem_sg_def": "най-другата",
+      "adj_sprl_fem_sg_indf": "най-друга",
+      "adj_sprl_masc_sg_acc_def": "най-другия",
+      "adj_sprl_masc_sg_indf": "най-друг",
+      "adj_sprl_masc_sg_nom_def": "най-другият",
+      "adj_sprl_masc_sg_voc": "най-други",
+      "adj_sprl_neut_sg_def": "най-другото",
+      "adj_sprl_neut_sg_indf": "най-друго",
+      "adj_sprl_pl_def": "най-другите",
+      "adj_sprl_pl_indf": "най-други",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "дума": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дума",
+    "inflections": {
+      "n_pl_def": "думите",
+      "n_pl_indf": "думи",
+      "n_pl_voc": "думи",
+      "n_sg_def": "думата",
+      "n_sg_indf": "дума",
+      "n_sg_voc": "думо",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "дълъг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дълъг",
+    "inflections": {
+      "adj_neut_sg_indf": "дълго",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "дъщеря": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дъщеря",
+    "inflections": {
+      "n_pl_def": "дъщерите",
+      "n_pl_indf": "дъщери",
+      "n_pl_voc": "дъщери",
+      "n_sg_def": "дъщерята",
+      "n_sg_indf": "дъщеря",
+      "n_sg_voc": "дъще",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "дядо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дядо",
+    "inflections": {
+      "n_pl_def": "дядовците",
+      "n_pl_indf": "дядовци",
+      "n_sg_def": "дядото",
+      "n_sg_indf": "дядо",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "жена": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жена",
+    "inflections": {
+      "n_pl_def": "жените",
+      "n_pl_indf": "жени",
+      "n_pl_voc": "жени",
+      "n_sg_def": "жената",
+      "n_sg_indf": "жена",
+      "n_sg_voc": "жено",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "живея": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "живея",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "живеейки",
+      "v_imp_2_pl": "живейте",
+      "v_imp_2_sg": "живей",
+      "v_ind_prog_pst_1_pl": "живеехме",
+      "v_ind_prog_pst_1_sg": "живеех",
+      "v_ind_prog_pst_2_pl": "живеехте",
+      "v_ind_prog_pst_2_sg": "живееше",
+      "v_ind_prog_pst_3_pl": "живееха",
+      "v_ind_prog_pst_3_sg": "живееше",
+      "v_ind_prs_1_pl": "живеем",
+      "v_ind_prs_1_sg": "живея",
+      "v_ind_prs_2_pl": "живеете",
+      "v_ind_prs_2_sg": "живееш",
+      "v_ind_prs_3_pl": "живеят",
+      "v_ind_prs_3_sg": "живее",
+      "v_ind_pst_1_pl": "живяхме",
+      "v_ind_pst_1_sg": "живях",
+      "v_ind_pst_2_pl": "живяхте",
+      "v_ind_pst_2_sg": "живя",
+      "v_ind_pst_3_pl": "живяха",
+      "v_ind_pst_3_sg": "живя",
+      "v_msdr_neut_sg_def": "живеенето",
+      "v_msdr_neut_sg_indf": "живеене",
+      "v_msdr_pl_def": "живеенията-нетата",
+      "v_msdr_pl_indf": "живеения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "живеещата",
+      "v_ptcp_act_prs_fem_sg_indf": "живееща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "живеещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "живеещият",
+      "v_ptcp_act_prs_masc_sg_indf": "живеещ",
+      "v_ptcp_act_prs_neut_sg_def": "живеещото",
+      "v_ptcp_act_prs_neut_sg_indf": "живеещо",
+      "v_ptcp_act_prs_pl_def": "живеещите",
+      "v_ptcp_act_prs_pl_indf": "живеещи",
+      "v_ptcp_act_pst_fem_sg_def": "живялата",
+      "v_ptcp_act_pst_fem_sg_indf": "живяла",
+      "v_ptcp_act_pst_masc_sg_def_acc": "живелия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "живелият",
+      "v_ptcp_act_pst_masc_sg_indf": "живял",
+      "v_ptcp_act_pst_neut_sg_def": "живялото",
+      "v_ptcp_act_pst_neut_sg_indf": "живяло",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "живеела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "живеел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "живеело",
+      "v_ptcp_act_pst_nfh_pl_indf": "живеели",
+      "v_ptcp_act_pst_pl_def": "живелите",
+      "v_ptcp_act_pst_pl_indf": "живели",
+      "v_ptcp_pass_pst_fem_sg_def": "живяната",
+      "v_ptcp_pass_pst_fem_sg_indf": "живяна",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "живения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "живеният",
+      "v_ptcp_pass_pst_masc_sg_indf": "живян",
+      "v_ptcp_pass_pst_neut_sg_def": "живяното",
+      "v_ptcp_pass_pst_neut_sg_indf": "живяно",
+      "v_ptcp_pass_pst_pl_def": "живените",
+      "v_ptcp_pass_pst_pl_indf": "живени"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "живот": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "живот",
+    "inflections": {
+      "n_pl": "живота",
+      "n_pl_def": "животите",
+      "n_pl_indf": "животи",
+      "n_pl_voc": "животи",
+      "n_sg_acc_def": "живота",
+      "n_sg_indf": "живот",
+      "n_sg_nom_def": "животът",
+      "n_sg_voc": "животе",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "забравя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "забравя",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "забрави",
+      "v_ind_prs_3_sg": "забрави",
+      "v_ind_pst_2_sg": "забрави",
+      "v_ind_pst_3_sg": "забрави"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "започвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "започвам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "започва",
+      "v_ind_pst_2_sg": "започва",
+      "v_ind_pst_3_sg": "започва"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "започна": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "започна",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "започнете",
+      "v_imp_2_sg": "започни",
+      "v_ind_prog_pst_1_pl": "започнехме",
+      "v_ind_prog_pst_1_sg": "започнех",
+      "v_ind_prog_pst_2_pl": "започнехте",
+      "v_ind_prog_pst_2_sg": "започнеше",
+      "v_ind_prog_pst_3_pl": "започнеха",
+      "v_ind_prog_pst_3_sg": "започнеше",
+      "v_ind_prs_1_pl": "започнем",
+      "v_ind_prs_1_sg": "започна",
+      "v_ind_prs_2_pl": "започнете",
+      "v_ind_prs_2_sg": "започнеш",
+      "v_ind_prs_3_pl": "започнат",
+      "v_ind_prs_3_sg": "започне",
+      "v_ind_pst_1_pl": "започнахме",
+      "v_ind_pst_1_sg": "започнах",
+      "v_ind_pst_2_pl": "започнахте",
+      "v_ind_pst_2_sg": "започна",
+      "v_ind_pst_3_pl": "започнаха",
+      "v_ind_pst_3_sg": "започна",
+      "v_ptcp_act_pst_fem_sg_def": "започналата",
+      "v_ptcp_act_pst_fem_sg_indf": "започнала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "започналия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "започналият",
+      "v_ptcp_act_pst_masc_sg_indf": "започнал",
+      "v_ptcp_act_pst_neut_sg_def": "започналото",
+      "v_ptcp_act_pst_neut_sg_indf": "започнало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "започнела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "започнел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "започнело",
+      "v_ptcp_act_pst_nfh_pl_indf": "започнели",
+      "v_ptcp_act_pst_pl_def": "започналите",
+      "v_ptcp_act_pst_pl_indf": "започнали",
+      "v_ptcp_pass_pst_fem_sg_def": "започнатата",
+      "v_ptcp_pass_pst_fem_sg_indf": "започната",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "започнатия",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "започнатият",
+      "v_ptcp_pass_pst_masc_sg_indf": "започнат",
+      "v_ptcp_pass_pst_neut_sg_def": "започнатото",
+      "v_ptcp_pass_pst_neut_sg_indf": "започнато",
+      "v_ptcp_pass_pst_pl_def": "започнатите",
+      "v_ptcp_pass_pst_pl_indf": "започнати"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "земя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "земя",
+    "inflections": {
+      "n_sg_def": "земята",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "играя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "играя",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_2_sg": "игра",
+      "v_ind_pst_3_sg": "игра"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "изляза": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "изляза",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "излезе",
+      "v_ind_pst_2_sg": "излезе",
+      "v_ind_pst_3_sg": "излезе"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "използвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "използвам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "използва",
+      "v_ind_pst_2_sg": "използва",
+      "v_ind_pst_3_sg": "използва"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "име": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "име",
+    "inflections": {
+      "n_pl_def": "имената",
+      "n_pl_indf": "имена",
+      "n_sg_def": "името",
+      "n_sg_indf": "име",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "интересен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "интересен",
+    "inflections": {
+      "adj_neut_sg_indf": "интересно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "интересувам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "интересувам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "интересува",
+      "v_ind_pst_2_sg": "интересува",
+      "v_ind_pst_3_sg": "интересува"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "искам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "искам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "искайки",
+      "v_imp_2_pl": "искайте",
+      "v_imp_2_sg": "искай",
+      "v_ind_prog_pst_1_pl": "искахме",
+      "v_ind_prog_pst_1_sg": "исках",
+      "v_ind_prog_pst_2_pl": "искахте",
+      "v_ind_prog_pst_2_sg": "искаше",
+      "v_ind_prog_pst_3_pl": "искаха",
+      "v_ind_prog_pst_3_sg": "искаше",
+      "v_ind_prs_1_pl": "искаме",
+      "v_ind_prs_1_sg": "искам",
+      "v_ind_prs_2_pl": "искате",
+      "v_ind_prs_2_sg": "искаш",
+      "v_ind_prs_3_pl": "искат",
+      "v_ind_prs_3_sg": "иска",
+      "v_ind_pst_1_pl": "искахме",
+      "v_ind_pst_1_sg": "исках",
+      "v_ind_pst_2_pl": "искахте",
+      "v_ind_pst_2_sg": "иска",
+      "v_ind_pst_3_pl": "искаха",
+      "v_ind_pst_3_sg": "иска",
+      "v_msdr_neut_sg_def": "искането",
+      "v_msdr_neut_sg_indf": "искане",
+      "v_msdr_pl_def": "исканията-нетата",
+      "v_msdr_pl_indf": "искания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "искащата",
+      "v_ptcp_act_prs_fem_sg_indf": "искаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "искащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "искащият",
+      "v_ptcp_act_prs_masc_sg_indf": "искащ",
+      "v_ptcp_act_prs_neut_sg_def": "искащото",
+      "v_ptcp_act_prs_neut_sg_indf": "искащо",
+      "v_ptcp_act_prs_pl_def": "искащите",
+      "v_ptcp_act_prs_pl_indf": "искащи",
+      "v_ptcp_act_pst_fem_sg_def": "искалата",
+      "v_ptcp_act_pst_fem_sg_indf": "искала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "искалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "искалият",
+      "v_ptcp_act_pst_masc_sg_indf": "искал",
+      "v_ptcp_act_pst_neut_sg_def": "искалото",
+      "v_ptcp_act_pst_neut_sg_indf": "искало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "искала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "искал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "искало",
+      "v_ptcp_act_pst_nfh_pl_indf": "искали",
+      "v_ptcp_act_pst_pl_def": "искалите",
+      "v_ptcp_act_pst_pl_indf": "искали",
+      "v_ptcp_pass_pst_fem_sg_def": "исканата",
+      "v_ptcp_pass_pst_fem_sg_indf": "искана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "искания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "исканият",
+      "v_ptcp_pass_pst_masc_sg_indf": "искан",
+      "v_ptcp_pass_pst_neut_sg_def": "исканото",
+      "v_ptcp_pass_pst_neut_sg_indf": "искано",
+      "v_ptcp_pass_pst_pl_def": "исканите",
+      "v_ptcp_pass_pst_pl_indf": "искани"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "истина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "истина",
+    "inflections": {
+      "n_pl_def": "истините",
+      "n_pl_indf": "истини",
+      "n_pl_voc": "истини",
+      "n_sg_def": "истината",
+      "n_sg_indf": "истина",
+      "n_sg_voc": "истино",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "истински": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "истински",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-истинската",
+      "adj_cmpr_fem_sg_indf": "по-истинска",
+      "adj_cmpr_masc_sg_acc_def": "по-истинския",
+      "adj_cmpr_masc_sg_indf": "по-истински",
+      "adj_cmpr_masc_sg_nom_def": "по-истинският",
+      "adj_cmpr_masc_sg_voc": "по-истински",
+      "adj_cmpr_neut_sg_def": "по-истинското",
+      "adj_cmpr_neut_sg_indf": "по-истинско",
+      "adj_cmpr_pl_def": "по-истинските",
+      "adj_cmpr_pl_indf": "по-истински",
+      "adj_fem_sg_def": "истинската",
+      "adj_fem_sg_indf": "истинска",
+      "adj_masc_sg_acc_def": "истинския",
+      "adj_masc_sg_indf": "истински",
+      "adj_masc_sg_nom_def": "истинският",
+      "adj_masc_sg_voc": "истински",
+      "adj_neut_sg_def": "истинското",
+      "adj_neut_sg_indf": "истинско",
+      "adj_pl_def": "истинските",
+      "adj_pl_indf": "истински",
+      "adj_sprl_fem_sg_def": "най-истинската",
+      "adj_sprl_fem_sg_indf": "най-истинска",
+      "adj_sprl_masc_sg_acc_def": "най-истинския",
+      "adj_sprl_masc_sg_indf": "най-истински",
+      "adj_sprl_masc_sg_nom_def": "най-истинският",
+      "adj_sprl_masc_sg_voc": "най-истински",
+      "adj_sprl_neut_sg_def": "най-истинското",
+      "adj_sprl_neut_sg_indf": "най-истинско",
+      "adj_sprl_pl_def": "най-истинските",
+      "adj_sprl_pl_indf": "най-истински",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "кажа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кажа",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "кажете",
+      "v_imp_2_sg": "кажи",
+      "v_ind_prog_pst_1_pl": "кажехме",
+      "v_ind_prog_pst_1_sg": "кажех",
+      "v_ind_prog_pst_2_pl": "кажехте",
+      "v_ind_prog_pst_2_sg": "кажеше",
+      "v_ind_prog_pst_3_pl": "кажеха",
+      "v_ind_prog_pst_3_sg": "кажеше",
+      "v_ind_prs_1_pl": "кажем",
+      "v_ind_prs_1_sg": "кажа",
+      "v_ind_prs_2_pl": "кажете",
+      "v_ind_prs_2_sg": "кажеш",
+      "v_ind_prs_3_pl": "кажат",
+      "v_ind_prs_3_sg": "каже",
+      "v_ind_pst_1_pl": "казахме",
+      "v_ind_pst_1_sg": "казах",
+      "v_ind_pst_2_pl": "казахте",
+      "v_ind_pst_2_sg": "каза",
+      "v_ind_pst_3_pl": "казаха",
+      "v_ind_pst_3_sg": "каза",
+      "v_ptcp_act_pst_fem_sg_def": "казалата",
+      "v_ptcp_act_pst_fem_sg_indf": "казала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "казалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "казалият",
+      "v_ptcp_act_pst_masc_sg_indf": "казал",
+      "v_ptcp_act_pst_neut_sg_def": "казалото",
+      "v_ptcp_act_pst_neut_sg_indf": "казало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "кажела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "кажел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "кажело",
+      "v_ptcp_act_pst_nfh_pl_indf": "кажели",
+      "v_ptcp_act_pst_pl_def": "казалите",
+      "v_ptcp_act_pst_pl_indf": "казали",
+      "v_ptcp_pass_pst_fem_sg_def": "казаната",
+      "v_ptcp_pass_pst_fem_sg_indf": "казана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "казания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "казаният",
+      "v_ptcp_pass_pst_masc_sg_indf": "казан",
+      "v_ptcp_pass_pst_neut_sg_def": "казаното",
+      "v_ptcp_pass_pst_neut_sg_indf": "казано",
+      "v_ptcp_pass_pst_pl_def": "казаните",
+      "v_ptcp_pass_pst_pl_indf": "казани"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "казвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "казвам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "казвайки",
+      "v_imp_2_pl": "казвайте",
+      "v_imp_2_sg": "казвай",
+      "v_ind_prog_pst_1_pl": "казвахме",
+      "v_ind_prog_pst_1_sg": "казвах",
+      "v_ind_prog_pst_2_pl": "казвахте",
+      "v_ind_prog_pst_2_sg": "казваше",
+      "v_ind_prog_pst_3_pl": "казваха",
+      "v_ind_prog_pst_3_sg": "казваше",
+      "v_ind_prs_1_pl": "казваме",
+      "v_ind_prs_1_sg": "казвам",
+      "v_ind_prs_2_pl": "казвате",
+      "v_ind_prs_2_sg": "казваш",
+      "v_ind_prs_3_pl": "казват",
+      "v_ind_prs_3_sg": "казва",
+      "v_ind_pst_1_pl": "казвахме",
+      "v_ind_pst_1_sg": "казвах",
+      "v_ind_pst_2_pl": "казвахте",
+      "v_ind_pst_2_sg": "казва",
+      "v_ind_pst_3_pl": "казваха",
+      "v_ind_pst_3_sg": "казва",
+      "v_msdr_neut_sg_def": "казването",
+      "v_msdr_neut_sg_indf": "казване",
+      "v_msdr_pl_def": "казванията-нетата",
+      "v_msdr_pl_indf": "казвания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "казващата",
+      "v_ptcp_act_prs_fem_sg_indf": "казваща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "казващия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "казващият",
+      "v_ptcp_act_prs_masc_sg_indf": "казващ",
+      "v_ptcp_act_prs_neut_sg_def": "казващото",
+      "v_ptcp_act_prs_neut_sg_indf": "казващо",
+      "v_ptcp_act_prs_pl_def": "казващите",
+      "v_ptcp_act_prs_pl_indf": "казващи",
+      "v_ptcp_act_pst_fem_sg_def": "казвалата",
+      "v_ptcp_act_pst_fem_sg_indf": "казвала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "казвалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "казвалият",
+      "v_ptcp_act_pst_masc_sg_indf": "казвал",
+      "v_ptcp_act_pst_neut_sg_def": "казвалото",
+      "v_ptcp_act_pst_neut_sg_indf": "казвало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "казвала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "казвал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "казвало",
+      "v_ptcp_act_pst_nfh_pl_indf": "казвали",
+      "v_ptcp_act_pst_pl_def": "казвалите",
+      "v_ptcp_act_pst_pl_indf": "казвали",
+      "v_ptcp_pass_pst_fem_sg_def": "казваната",
+      "v_ptcp_pass_pst_fem_sg_indf": "казвана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "казвания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "казваният",
+      "v_ptcp_pass_pst_masc_sg_indf": "казван",
+      "v_ptcp_pass_pst_neut_sg_def": "казваното",
+      "v_ptcp_pass_pst_neut_sg_indf": "казвано",
+      "v_ptcp_pass_pst_pl_def": "казваните",
+      "v_ptcp_pass_pst_pl_indf": "казвани"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "кафе": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кафе",
+    "inflections": {
+      "n_pl_def": "кафетата",
+      "n_pl_indf": "кафета",
+      "n_sg_def": "кафето",
+      "n_sg_indf": "кафе",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "кол": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кол",
+    "inflections": {
+      "n_pl": "кола",
+      "n_sg_acc_def": "кола",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "кораб": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кораб",
+    "inflections": {
+      "n_pl": "кораба",
+      "n_pl_def": "корабите",
+      "n_pl_indf": "кораби",
+      "n_pl_voc": "кораби",
+      "n_sg_acc_def": "кораба",
+      "n_sg_indf": "кораб",
+      "n_sg_nom_def": "корабът",
+      "n_sg_voc": "корабе",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "край": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "край",
+    "inflections": {
+      "n_pl": "края",
+      "n_pl_def": "краищата",
+      "n_pl_indf": "краища",
+      "n_pl_voc": "краища",
+      "n_sg_acc_def": "края",
+      "n_sg_indf": "край",
+      "n_sg_nom_def": "краят",
+      "n_sg_voc": "краю",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "крак": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "крак",
+    "inflections": {
+      "n_pl_def": "краката",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "красив": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "красив",
+    "inflections": {
+      "adj_fem_sg_indf": "красива",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "кръв": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кръв",
+    "inflections": {
+      "n_pl_def": "кървите",
+      "n_pl_indf": "кърви",
+      "n_sg_def": "кръвта",
+      "n_sg_indf": "кръв",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "куче": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "куче",
+    "inflections": {
+      "n_pl_def": "кучетата",
+      "n_pl_indf": "кучета",
+      "n_sg_def": "кучето",
+      "n_sg_indf": "куче",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "кучи": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кучи",
+    "inflections": {
+      "adj_neut_sg_indf": "куче",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "къща": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "къща",
+    "inflections": {
+      "n_pl_def": "къщите",
+      "n_pl_indf": "къщи",
+      "n_pl_voc": "къщи",
+      "n_sg_def": "къщата",
+      "n_sg_indf": "къща",
+      "n_sg_voc": "къщо",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "легло": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "легло",
+    "inflections": {
+      "n_sg_def": "леглото",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "лек": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лек",
+    "inflections": {
+      "adj_fem_sg_indf": "лека",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "лесен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лесен",
+    "inflections": {
+      "adj_neut_sg_indf": "лесно",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "лице": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лице",
+    "inflections": {
+      "n_pl_def": "лицата",
+      "n_pl_indf": "лица",
+      "n_sg_def": "лицето",
+      "n_sg_indf": "лице",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "любов": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "любов",
+    "inflections": {
+      "n_pl_def": "любовите",
+      "n_pl_indf": "любови",
+      "n_sg_def": "любовта",
+      "n_sg_indf": "любов",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "майка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "майка",
+    "inflections": {
+      "n_pl_def": "майките",
+      "n_pl_indf": "майки",
+      "n_pl_voc": "майки",
+      "n_sg_def": "майката",
+      "n_sg_indf": "майка",
+      "n_sg_voc": "майко",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "месец": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "месец",
+    "inflections": {
+      "n_pl": "месеца",
+      "n_pl_def": "месеците",
+      "n_pl_indf": "месеци",
+      "n_pl_voc": "месеци",
+      "n_sg_acc_def": "месеца",
+      "n_sg_indf": "месец",
+      "n_sg_nom_def": "месецът",
+      "n_sg_voc": "месецо",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "мисъл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мисъл",
+    "inflections": {
+      "n_pl_def": "мислите",
+      "n_pl_indf": "мисли",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "мога": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мога",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "можейки",
+      "v_ind_prog_pst_1_pl": "можехме",
+      "v_ind_prog_pst_1_sg": "можех",
+      "v_ind_prog_pst_2_pl": "можехте",
+      "v_ind_prog_pst_2_sg": "можеше",
+      "v_ind_prog_pst_3_pl": "можеха",
+      "v_ind_prog_pst_3_sg": "можеше",
+      "v_ind_prs_1_pl": "можем",
+      "v_ind_prs_1_sg": "мога",
+      "v_ind_prs_2_pl": "можете",
+      "v_ind_prs_2_sg": "можеш",
+      "v_ind_prs_3_pl": "могат",
+      "v_ind_prs_3_sg": "може",
+      "v_ind_pst_1_pl": "можахме",
+      "v_ind_pst_1_sg": "можах",
+      "v_ind_pst_2_pl": "можахте",
+      "v_ind_pst_2_sg": "можа",
+      "v_ind_pst_3_pl": "можаха",
+      "v_ind_pst_3_sg": "можа",
+      "v_msdr_neut_sg_def": "моженето",
+      "v_msdr_neut_sg_indf": "можене",
+      "v_msdr_pl_def": "моженията-нетата",
+      "v_msdr_pl_indf": "можения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "можещата",
+      "v_ptcp_act_prs_fem_sg_indf": "можеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "можещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "можещият",
+      "v_ptcp_act_prs_masc_sg_indf": "можещ",
+      "v_ptcp_act_prs_neut_sg_def": "можещото",
+      "v_ptcp_act_prs_neut_sg_indf": "можещо",
+      "v_ptcp_act_prs_pl_def": "можещите",
+      "v_ptcp_act_prs_pl_indf": "можещи",
+      "v_ptcp_act_pst_fem_sg_def": "моглата",
+      "v_ptcp_act_pst_fem_sg_indf": "могла",
+      "v_ptcp_act_pst_masc_sg_def_acc": "моглия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "моглият",
+      "v_ptcp_act_pst_masc_sg_indf": "могъл",
+      "v_ptcp_act_pst_neut_sg_def": "моглото",
+      "v_ptcp_act_pst_neut_sg_indf": "могло",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "можела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "можел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "можело",
+      "v_ptcp_act_pst_nfh_pl_indf": "можели",
+      "v_ptcp_act_pst_pl_def": "моглите",
+      "v_ptcp_act_pst_pl_indf": "могли"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "моля": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "моля",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "молейки",
+      "v_imp_2_pl": "молете",
+      "v_imp_2_sg": "моли",
+      "v_ind_prog_pst_1_pl": "молехме",
+      "v_ind_prog_pst_1_sg": "молех",
+      "v_ind_prog_pst_2_pl": "молехте",
+      "v_ind_prog_pst_2_sg": "молеше",
+      "v_ind_prog_pst_3_pl": "молеха",
+      "v_ind_prog_pst_3_sg": "молеше",
+      "v_ind_prs_1_pl": "молим",
+      "v_ind_prs_1_sg": "моля",
+      "v_ind_prs_2_pl": "молите",
+      "v_ind_prs_2_sg": "молиш",
+      "v_ind_prs_3_pl": "молят",
+      "v_ind_prs_3_sg": "моли",
+      "v_ind_pst_1_pl": "молихме",
+      "v_ind_pst_1_sg": "молих",
+      "v_ind_pst_2_pl": "молихте",
+      "v_ind_pst_2_sg": "моли",
+      "v_ind_pst_3_pl": "молиха",
+      "v_ind_pst_3_sg": "моли",
+      "v_msdr_neut_sg_def": "моленето",
+      "v_msdr_neut_sg_indf": "молене",
+      "v_msdr_pl_def": "моленията-нетата",
+      "v_msdr_pl_indf": "моления-нета",
+      "v_ptcp_act_prs_fem_sg_def": "молещата",
+      "v_ptcp_act_prs_fem_sg_indf": "молеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "молещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "молещият",
+      "v_ptcp_act_prs_masc_sg_indf": "молещ",
+      "v_ptcp_act_prs_neut_sg_def": "молещото",
+      "v_ptcp_act_prs_neut_sg_indf": "молещо",
+      "v_ptcp_act_prs_pl_def": "молещите",
+      "v_ptcp_act_prs_pl_indf": "молещи",
+      "v_ptcp_act_pst_fem_sg_def": "молилата",
+      "v_ptcp_act_pst_fem_sg_indf": "молила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "молилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "молилият",
+      "v_ptcp_act_pst_masc_sg_indf": "молил",
+      "v_ptcp_act_pst_neut_sg_def": "молилото",
+      "v_ptcp_act_pst_neut_sg_indf": "молило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "молела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "молел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "молело",
+      "v_ptcp_act_pst_nfh_pl_indf": "молели",
+      "v_ptcp_act_pst_pl_def": "молилите",
+      "v_ptcp_act_pst_pl_indf": "молили",
+      "v_ptcp_pass_pst_fem_sg_def": "молената",
+      "v_ptcp_pass_pst_fem_sg_indf": "молена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "моления",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "моленият",
+      "v_ptcp_pass_pst_masc_sg_indf": "молен",
+      "v_ptcp_pass_pst_neut_sg_def": "моленото",
+      "v_ptcp_pass_pst_neut_sg_indf": "молено",
+      "v_ptcp_pass_pst_pl_def": "молените",
+      "v_ptcp_pass_pst_pl_indf": "молени"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "момиче": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "момиче",
+    "inflections": {
+      "n_pl_def": "момичетата",
+      "n_pl_indf": "момичета",
+      "n_sg_def": "момичето",
+      "n_sg_indf": "момиче",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "момче": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "момче",
+    "inflections": {
+      "n_pl_def": "момчетата",
+      "n_pl_indf": "момчета",
+      "n_sg_def": "момчето",
+      "n_sg_indf": "момче",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "мразя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мразя",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "мразейки",
+      "v_imp_2_pl": "мразете",
+      "v_imp_2_sg": "мрази",
+      "v_ind_prog_pst_1_pl": "мразехме",
+      "v_ind_prog_pst_1_sg": "мразех",
+      "v_ind_prog_pst_2_pl": "мразехте",
+      "v_ind_prog_pst_2_sg": "мразеше",
+      "v_ind_prog_pst_3_pl": "мразеха",
+      "v_ind_prog_pst_3_sg": "мразеше",
+      "v_ind_prs_1_pl": "мразим",
+      "v_ind_prs_1_sg": "мразя",
+      "v_ind_prs_2_pl": "мразите",
+      "v_ind_prs_2_sg": "мразиш",
+      "v_ind_prs_3_pl": "мразят",
+      "v_ind_prs_3_sg": "мрази",
+      "v_ind_pst_1_pl": "мразихме",
+      "v_ind_pst_1_sg": "мразих",
+      "v_ind_pst_2_pl": "мразихте",
+      "v_ind_pst_2_sg": "мрази",
+      "v_ind_pst_3_pl": "мразиха",
+      "v_ind_pst_3_sg": "мрази",
+      "v_msdr_neut_sg_def": "мразенето",
+      "v_msdr_neut_sg_indf": "мразене",
+      "v_msdr_pl_def": "мразенията-нетата",
+      "v_msdr_pl_indf": "мразения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "мразещата",
+      "v_ptcp_act_prs_fem_sg_indf": "мразеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "мразещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "мразещият",
+      "v_ptcp_act_prs_masc_sg_indf": "мразещ",
+      "v_ptcp_act_prs_neut_sg_def": "мразещото",
+      "v_ptcp_act_prs_neut_sg_indf": "мразещо",
+      "v_ptcp_act_prs_pl_def": "мразещите",
+      "v_ptcp_act_prs_pl_indf": "мразещи",
+      "v_ptcp_act_pst_fem_sg_def": "мразилата",
+      "v_ptcp_act_pst_fem_sg_indf": "мразила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "мразилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "мразилият",
+      "v_ptcp_act_pst_masc_sg_indf": "мразил",
+      "v_ptcp_act_pst_neut_sg_def": "мразилото",
+      "v_ptcp_act_pst_neut_sg_indf": "мразило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "мразела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "мразел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "мразело",
+      "v_ptcp_act_pst_nfh_pl_indf": "мразели",
+      "v_ptcp_act_pst_pl_def": "мразилите",
+      "v_ptcp_act_pst_pl_indf": "мразили",
+      "v_ptcp_pass_pst_fem_sg_def": "мразената",
+      "v_ptcp_pass_pst_fem_sg_indf": "мразена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "мразения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "мразеният",
+      "v_ptcp_pass_pst_masc_sg_indf": "мразен",
+      "v_ptcp_pass_pst_neut_sg_def": "мразеното",
+      "v_ptcp_pass_pst_neut_sg_indf": "мразено",
+      "v_ptcp_pass_pst_pl_def": "мразените",
+      "v_ptcp_pass_pst_pl_indf": "мразени"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "мъж": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мъж",
+    "inflections": {
+      "n_pl_def": "мъжете",
+      "n_pl_indf": "мъже",
+      "n_pl_voc": "мъже",
+      "n_sg_acc_def": "мъжа",
+      "n_sg_indf": "мъж",
+      "n_sg_nom_def": "мъжът",
+      "n_sg_voc": "мъжо",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "мъртъв": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мъртъв",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-мъртвата",
+      "adj_cmpr_fem_sg_indf": "по-мъртва",
+      "adj_cmpr_masc_sg_acc_def": "по-мъртвия",
+      "adj_cmpr_masc_sg_indf": "по-мъртъв",
+      "adj_cmpr_masc_sg_nom_def": "по-мъртвият",
+      "adj_cmpr_masc_sg_voc": "по-мъртви",
+      "adj_cmpr_neut_sg_def": "по-мъртвото",
+      "adj_cmpr_neut_sg_indf": "по-мъртво",
+      "adj_cmpr_pl_def": "по-мъртвите",
+      "adj_cmpr_pl_indf": "по-мъртви",
+      "adj_fem_sg_def": "мъртвата",
+      "adj_fem_sg_indf": "мъртва",
+      "adj_masc_sg_acc_def": "мъртвия",
+      "adj_masc_sg_indf": "мъртъв",
+      "adj_masc_sg_nom_def": "мъртвият",
+      "adj_masc_sg_voc": "мъртви",
+      "adj_neut_sg_def": "мъртвото",
+      "adj_neut_sg_indf": "мъртво",
+      "adj_pl_def": "мъртвите",
+      "adj_pl_indf": "мъртви",
+      "adj_sprl_fem_sg_def": "най-мъртвата",
+      "adj_sprl_fem_sg_indf": "най-мъртва",
+      "adj_sprl_masc_sg_acc_def": "най-мъртвия",
+      "adj_sprl_masc_sg_indf": "най-мъртъв",
+      "adj_sprl_masc_sg_nom_def": "най-мъртвият",
+      "adj_sprl_masc_sg_voc": "най-мъртви",
+      "adj_sprl_neut_sg_def": "най-мъртвото",
+      "adj_sprl_neut_sg_indf": "най-мъртво",
+      "adj_sprl_pl_def": "най-мъртвите",
+      "adj_sprl_pl_indf": "най-мъртви",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "място": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "място",
+    "inflections": {
+      "n_pl_def": "местата",
+      "n_pl_indf": "места",
+      "n_sg_def": "мястото",
+      "n_sg_indf": "място",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "нещо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нещо",
+    "inflections": {
+      "n_pl_def": "нещата",
+      "n_pl_indf": "неща",
+      "n_sg_def": "нещото",
+      "n_sg_indf": "нещо",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "нов": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нов",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-новата",
+      "adj_cmpr_fem_sg_indf": "по-нова",
+      "adj_cmpr_masc_sg_acc_def": "по-новия",
+      "adj_cmpr_masc_sg_indf": "по-нов",
+      "adj_cmpr_masc_sg_nom_def": "по-новият",
+      "adj_cmpr_masc_sg_voc": "по-нови",
+      "adj_cmpr_neut_sg_def": "по-новото",
+      "adj_cmpr_neut_sg_indf": "по-ново",
+      "adj_cmpr_pl_def": "по-новите",
+      "adj_cmpr_pl_indf": "по-нови",
+      "adj_fem_sg_def": "новата",
+      "adj_fem_sg_indf": "нова",
+      "adj_masc_sg_acc_def": "новия",
+      "adj_masc_sg_indf": "нов",
+      "adj_masc_sg_nom_def": "новият",
+      "adj_masc_sg_voc": "нови",
+      "adj_neut_sg_def": "новото",
+      "adj_neut_sg_indf": "ново",
+      "adj_pl_def": "новите",
+      "adj_pl_indf": "нови",
+      "adj_sprl_fem_sg_def": "най-новата",
+      "adj_sprl_fem_sg_indf": "най-нова",
+      "adj_sprl_masc_sg_acc_def": "най-новия",
+      "adj_sprl_masc_sg_indf": "най-нов",
+      "adj_sprl_masc_sg_nom_def": "най-новият",
+      "adj_sprl_masc_sg_voc": "най-нови",
+      "adj_sprl_neut_sg_def": "най-новото",
+      "adj_sprl_neut_sg_indf": "най-ново",
+      "adj_sprl_pl_def": "най-новите",
+      "adj_sprl_pl_indf": "най-нови",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "номер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "номер",
+    "inflections": {
+      "n_pl": "номера",
+      "n_pl_def": "номерата",
+      "n_pl_indf": "номера",
+      "n_pl_voc": "номера",
+      "n_sg_acc_def": "номера",
+      "n_sg_indf": "номер",
+      "n_sg_nom_def": "номерът",
+      "n_sg_voc": "номере",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "нощ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нощ",
+    "inflections": {
+      "n_pl_def": "нощите",
+      "n_pl_indf": "нощи",
+      "n_sg_def": "нощта",
+      "n_sg_indf": "нощ",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "обещавам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "обещавам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "обещавайки",
+      "v_imp_2_pl": "обещавайте",
+      "v_imp_2_sg": "обещавай",
+      "v_ind_prog_pst_1_pl": "обещавахме",
+      "v_ind_prog_pst_1_sg": "обещавах",
+      "v_ind_prog_pst_2_pl": "обещавахте",
+      "v_ind_prog_pst_2_sg": "обещаваше",
+      "v_ind_prog_pst_3_pl": "обещаваха",
+      "v_ind_prog_pst_3_sg": "обещаваше",
+      "v_ind_prs_1_pl": "обещаваме",
+      "v_ind_prs_1_sg": "обещавам",
+      "v_ind_prs_2_pl": "обещавате",
+      "v_ind_prs_2_sg": "обещаваш",
+      "v_ind_prs_3_pl": "обещават",
+      "v_ind_prs_3_sg": "обещава",
+      "v_ind_pst_1_pl": "обещавахме",
+      "v_ind_pst_1_sg": "обещавах",
+      "v_ind_pst_2_pl": "обещавахте",
+      "v_ind_pst_2_sg": "обещава",
+      "v_ind_pst_3_pl": "обещаваха",
+      "v_ind_pst_3_sg": "обещава",
+      "v_msdr_neut_sg_def": "обещаването",
+      "v_msdr_neut_sg_indf": "обещаване",
+      "v_msdr_pl_def": "обещаванията-нетата",
+      "v_msdr_pl_indf": "обещавания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "обещаващата",
+      "v_ptcp_act_prs_fem_sg_indf": "обещаваща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "обещаващия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "обещаващият",
+      "v_ptcp_act_prs_masc_sg_indf": "обещаващ",
+      "v_ptcp_act_prs_neut_sg_def": "обещаващото",
+      "v_ptcp_act_prs_neut_sg_indf": "обещаващо",
+      "v_ptcp_act_prs_pl_def": "обещаващите",
+      "v_ptcp_act_prs_pl_indf": "обещаващи",
+      "v_ptcp_act_pst_fem_sg_def": "обещавалата",
+      "v_ptcp_act_pst_fem_sg_indf": "обещавала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "обещавалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "обещавалият",
+      "v_ptcp_act_pst_masc_sg_indf": "обещавал",
+      "v_ptcp_act_pst_neut_sg_def": "обещавалото",
+      "v_ptcp_act_pst_neut_sg_indf": "обещавало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "обещавала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "обещавал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "обещавало",
+      "v_ptcp_act_pst_nfh_pl_indf": "обещавали",
+      "v_ptcp_act_pst_pl_def": "обещавалите",
+      "v_ptcp_act_pst_pl_indf": "обещавали",
+      "v_ptcp_pass_pst_fem_sg_def": "обещаваната",
+      "v_ptcp_pass_pst_fem_sg_indf": "обещавана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "обещавания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "обещаваният",
+      "v_ptcp_pass_pst_masc_sg_indf": "обещаван",
+      "v_ptcp_pass_pst_neut_sg_def": "обещаваното",
+      "v_ptcp_pass_pst_neut_sg_indf": "обещавано",
+      "v_ptcp_pass_pst_pl_def": "обещаваните",
+      "v_ptcp_pass_pst_pl_indf": "обещавани"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "обичам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "обичам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "обичайки",
+      "v_imp_2_pl": "обичайте",
+      "v_imp_2_sg": "обичай",
+      "v_ind_prog_pst_1_pl": "обичахме",
+      "v_ind_prog_pst_1_sg": "обичах",
+      "v_ind_prog_pst_2_pl": "обичахте",
+      "v_ind_prog_pst_2_sg": "обичаше",
+      "v_ind_prog_pst_3_pl": "обичаха",
+      "v_ind_prog_pst_3_sg": "обичаше",
+      "v_ind_prs_1_pl": "обичаме",
+      "v_ind_prs_1_sg": "обичам",
+      "v_ind_prs_2_pl": "обичате",
+      "v_ind_prs_2_sg": "обичаш",
+      "v_ind_prs_3_pl": "обичат",
+      "v_ind_prs_3_sg": "обича",
+      "v_ind_pst_1_pl": "обичахме",
+      "v_ind_pst_1_sg": "обичах",
+      "v_ind_pst_2_pl": "обичахте",
+      "v_ind_pst_2_sg": "обича",
+      "v_ind_pst_3_pl": "обичаха",
+      "v_ind_pst_3_sg": "обича",
+      "v_msdr_neut_sg_def": "обичането",
+      "v_msdr_neut_sg_indf": "обичане",
+      "v_msdr_pl_def": "обичанията-нетата",
+      "v_msdr_pl_indf": "обичания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "обичащата",
+      "v_ptcp_act_prs_fem_sg_indf": "обичаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "обичащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "обичащият",
+      "v_ptcp_act_prs_masc_sg_indf": "обичащ",
+      "v_ptcp_act_prs_neut_sg_def": "обичащото",
+      "v_ptcp_act_prs_neut_sg_indf": "обичащо",
+      "v_ptcp_act_prs_pl_def": "обичащите",
+      "v_ptcp_act_prs_pl_indf": "обичащи",
+      "v_ptcp_act_pst_fem_sg_def": "обичалата",
+      "v_ptcp_act_pst_fem_sg_indf": "обичала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "обичалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "обичалият",
+      "v_ptcp_act_pst_masc_sg_indf": "обичал",
+      "v_ptcp_act_pst_neut_sg_def": "обичалото",
+      "v_ptcp_act_pst_neut_sg_indf": "обичало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "обичала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "обичал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "обичало",
+      "v_ptcp_act_pst_nfh_pl_indf": "обичали",
+      "v_ptcp_act_pst_pl_def": "обичалите",
+      "v_ptcp_act_pst_pl_indf": "обичали",
+      "v_ptcp_pass_pst_fem_sg_def": "обичаната",
+      "v_ptcp_pass_pst_fem_sg_indf": "обичана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "обичания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "обичаният",
+      "v_ptcp_pass_pst_masc_sg_indf": "обичан",
+      "v_ptcp_pass_pst_neut_sg_def": "обичаното",
+      "v_ptcp_pass_pst_neut_sg_indf": "обичано",
+      "v_ptcp_pass_pst_pl_def": "обичаните",
+      "v_ptcp_pass_pst_pl_indf": "обичани"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "око": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "око",
+    "inflections": {
+      "n_pl_def": "очите",
+      "n_pl_indf": "очи",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "опит": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "опит",
+    "inflections": {
+      "n_pl": "опита",
+      "n_pl_def": "опитите",
+      "n_pl_indf": "опити",
+      "n_pl_voc": "опити",
+      "n_sg_acc_def": "опита",
+      "n_sg_indf": "опит",
+      "n_sg_nom_def": "опитът",
+      "n_sg_voc": "опите",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "оръжие": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "оръжие",
+    "inflections": {
+      "n_pl_def": "оръжията",
+      "n_pl_indf": "оръжия",
+      "n_sg_def": "оръжието",
+      "n_sg_indf": "оръжие",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "отворя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "отворя",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "отвори",
+      "v_ind_prs_3_sg": "отвори",
+      "v_ind_pst_2_sg": "отвори",
+      "v_ind_pst_3_sg": "отвори"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "питам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "питам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "питайки",
+      "v_imp_2_pl": "питайте",
+      "v_imp_2_sg": "питай",
+      "v_ind_prog_pst_1_pl": "питахме",
+      "v_ind_prog_pst_1_sg": "питах",
+      "v_ind_prog_pst_2_pl": "питахте",
+      "v_ind_prog_pst_2_sg": "питаше",
+      "v_ind_prog_pst_3_pl": "питаха",
+      "v_ind_prog_pst_3_sg": "питаше",
+      "v_ind_prs_1_pl": "питаме",
+      "v_ind_prs_1_sg": "питам",
+      "v_ind_prs_2_pl": "питате",
+      "v_ind_prs_2_sg": "питаш",
+      "v_ind_prs_3_pl": "питат",
+      "v_ind_prs_3_sg": "пита",
+      "v_ind_pst_1_pl": "питахме",
+      "v_ind_pst_1_sg": "питах",
+      "v_ind_pst_2_pl": "питахте",
+      "v_ind_pst_2_sg": "пита",
+      "v_ind_pst_3_pl": "питаха",
+      "v_ind_pst_3_sg": "пита",
+      "v_msdr_neut_sg_def": "питането",
+      "v_msdr_neut_sg_indf": "питане",
+      "v_msdr_pl_def": "питанията-нетата",
+      "v_msdr_pl_indf": "питания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "питащата",
+      "v_ptcp_act_prs_fem_sg_indf": "питаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "питащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "питащият",
+      "v_ptcp_act_prs_masc_sg_indf": "питащ",
+      "v_ptcp_act_prs_neut_sg_def": "питащото",
+      "v_ptcp_act_prs_neut_sg_indf": "питащо",
+      "v_ptcp_act_prs_pl_def": "питащите",
+      "v_ptcp_act_prs_pl_indf": "питащи",
+      "v_ptcp_act_pst_fem_sg_def": "питалата",
+      "v_ptcp_act_pst_fem_sg_indf": "питала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "питалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "питалият",
+      "v_ptcp_act_pst_masc_sg_indf": "питал",
+      "v_ptcp_act_pst_neut_sg_def": "питалото",
+      "v_ptcp_act_pst_neut_sg_indf": "питало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "питала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "питал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "питало",
+      "v_ptcp_act_pst_nfh_pl_indf": "питали",
+      "v_ptcp_act_pst_pl_def": "питалите",
+      "v_ptcp_act_pst_pl_indf": "питали",
+      "v_ptcp_pass_pst_fem_sg_def": "питаната",
+      "v_ptcp_pass_pst_fem_sg_indf": "питана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "питания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "питаният",
+      "v_ptcp_pass_pst_masc_sg_indf": "питан",
+      "v_ptcp_pass_pst_neut_sg_def": "питаното",
+      "v_ptcp_pass_pst_neut_sg_indf": "питано",
+      "v_ptcp_pass_pst_pl_def": "питаните",
+      "v_ptcp_pass_pst_pl_indf": "питани"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "пиша": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пиша",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "пише"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "повярвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "повярвам",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "повярвайте",
+      "v_imp_2_sg": "повярвай",
+      "v_ind_prog_pst_1_pl": "повярвахме",
+      "v_ind_prog_pst_1_sg": "повярвах",
+      "v_ind_prog_pst_2_pl": "повярвахте",
+      "v_ind_prog_pst_2_sg": "повярваше",
+      "v_ind_prog_pst_3_pl": "повярваха",
+      "v_ind_prog_pst_3_sg": "повярваше",
+      "v_ind_prs_1_pl": "повярваме",
+      "v_ind_prs_1_sg": "повярвам",
+      "v_ind_prs_2_pl": "повярвате",
+      "v_ind_prs_2_sg": "повярваш",
+      "v_ind_prs_3_pl": "повярват",
+      "v_ind_prs_3_sg": "повярва",
+      "v_ind_pst_1_pl": "повярвахме",
+      "v_ind_pst_1_sg": "повярвах",
+      "v_ind_pst_2_pl": "повярвахте",
+      "v_ind_pst_2_sg": "повярва",
+      "v_ind_pst_3_pl": "повярваха",
+      "v_ind_pst_3_sg": "повярва",
+      "v_ptcp_act_pst_fem_sg_def": "повярвалата",
+      "v_ptcp_act_pst_fem_sg_indf": "повярвала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "повярвалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "повярвалият",
+      "v_ptcp_act_pst_masc_sg_indf": "повярвал",
+      "v_ptcp_act_pst_neut_sg_def": "повярвалото",
+      "v_ptcp_act_pst_neut_sg_indf": "повярвало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "повярвала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "повярвал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "повярвало",
+      "v_ptcp_act_pst_nfh_pl_indf": "повярвали",
+      "v_ptcp_act_pst_pl_def": "повярвалите",
+      "v_ptcp_act_pst_pl_indf": "повярвали"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "погледна": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "погледна",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "погледни"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "подобен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "подобен",
+    "inflections": {
+      "adj_neut_sg_indf": "подобно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "получа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "получа",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "получи",
+      "v_ind_prs_3_sg": "получи",
+      "v_ind_pst_2_sg": "получи",
+      "v_ind_pst_3_sg": "получи"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "правя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "правя",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "правейки",
+      "v_imp_2_pl": "правете",
+      "v_imp_2_sg": "прави",
+      "v_ind_prog_pst_1_pl": "правехме",
+      "v_ind_prog_pst_1_sg": "правех",
+      "v_ind_prog_pst_2_pl": "правехте",
+      "v_ind_prog_pst_2_sg": "правеше",
+      "v_ind_prog_pst_3_pl": "правеха",
+      "v_ind_prog_pst_3_sg": "правеше",
+      "v_ind_prs_1_pl": "правим",
+      "v_ind_prs_1_sg": "правя",
+      "v_ind_prs_2_pl": "правите",
+      "v_ind_prs_2_sg": "правиш",
+      "v_ind_prs_3_pl": "правят",
+      "v_ind_prs_3_sg": "прави",
+      "v_ind_pst_1_pl": "правихме",
+      "v_ind_pst_1_sg": "правих",
+      "v_ind_pst_2_pl": "правихте",
+      "v_ind_pst_2_sg": "прави",
+      "v_ind_pst_3_pl": "правиха",
+      "v_ind_pst_3_sg": "прави",
+      "v_msdr_neut_sg_def": "правенето",
+      "v_msdr_neut_sg_indf": "правене",
+      "v_msdr_pl_def": "правенията-нетата",
+      "v_msdr_pl_indf": "правения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "правещата",
+      "v_ptcp_act_prs_fem_sg_indf": "правеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "правещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "правещият",
+      "v_ptcp_act_prs_masc_sg_indf": "правещ",
+      "v_ptcp_act_prs_neut_sg_def": "правещото",
+      "v_ptcp_act_prs_neut_sg_indf": "правещо",
+      "v_ptcp_act_prs_pl_def": "правещите",
+      "v_ptcp_act_prs_pl_indf": "правещи",
+      "v_ptcp_act_pst_fem_sg_def": "правилата",
+      "v_ptcp_act_pst_fem_sg_indf": "правила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "правилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "правилият",
+      "v_ptcp_act_pst_masc_sg_indf": "правил",
+      "v_ptcp_act_pst_neut_sg_def": "правилото",
+      "v_ptcp_act_pst_neut_sg_indf": "правило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "правела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "правел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "правело",
+      "v_ptcp_act_pst_nfh_pl_indf": "правели",
+      "v_ptcp_act_pst_pl_def": "правилите",
+      "v_ptcp_act_pst_pl_indf": "правили",
+      "v_ptcp_pass_pst_fem_sg_def": "правената",
+      "v_ptcp_pass_pst_fem_sg_indf": "правена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "правения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "правеният",
+      "v_ptcp_pass_pst_masc_sg_indf": "правен",
+      "v_ptcp_pass_pst_neut_sg_def": "правеното",
+      "v_ptcp_pass_pst_neut_sg_indf": "правено",
+      "v_ptcp_pass_pst_pl_def": "правените",
+      "v_ptcp_pass_pst_pl_indf": "правени"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "преда": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "преда",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "преди"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "прекрасен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прекрасен",
+    "inflections": {
+      "adj_neut_sg_indf": "прекрасно",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "приятел": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "приятел",
+    "inflections": {
+      "n_pl": "приятеля",
+      "n_pl_def": "приятелите",
+      "n_pl_indf": "приятели",
+      "n_pl_voc": "приятели",
+      "n_sg_acc_def": "приятеля",
+      "n_sg_indf": "приятел",
+      "n_sg_nom_def": "приятелят",
+      "n_sg_voc": "приятелю",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "приятелка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "приятелка",
+    "inflections": {
+      "n_pl_def": "приятелките",
+      "n_pl_indf": "приятелки",
+      "n_pl_voc": "приятелки",
+      "n_sg_def": "приятелката",
+      "n_sg_indf": "приятелка",
+      "n_sg_voc": "приятелко",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "промяна": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "промяна",
+    "inflections": {
+      "n_pl_indf": "промени",
+      "n_pl_voc": "промени",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "работа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "работа",
+    "inflections": {
+      "n_pl_def": "работите",
+      "n_pl_indf": "работи",
+      "n_pl_voc": "работи",
+      "n_sg_def": "работата",
+      "n_sg_indf": "работа",
+      "n_sg_voc": "работо",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "работя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "работя",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "работейки",
+      "v_imp_2_pl": "работете",
+      "v_imp_2_sg": "работи",
+      "v_ind_prog_pst_1_pl": "работехме",
+      "v_ind_prog_pst_1_sg": "работех",
+      "v_ind_prog_pst_2_pl": "работехте",
+      "v_ind_prog_pst_2_sg": "работеше",
+      "v_ind_prog_pst_3_pl": "работеха",
+      "v_ind_prog_pst_3_sg": "работеше",
+      "v_ind_prs_1_pl": "работим",
+      "v_ind_prs_1_sg": "работя",
+      "v_ind_prs_2_pl": "работите",
+      "v_ind_prs_2_sg": "работиш",
+      "v_ind_prs_3_pl": "работят",
+      "v_ind_prs_3_sg": "работи",
+      "v_ind_pst_1_pl": "работихме",
+      "v_ind_pst_1_sg": "работих",
+      "v_ind_pst_2_pl": "работихте",
+      "v_ind_pst_2_sg": "работи",
+      "v_ind_pst_3_pl": "работиха",
+      "v_ind_pst_3_sg": "работи",
+      "v_msdr_neut_sg_def": "работенето",
+      "v_msdr_neut_sg_indf": "работене",
+      "v_msdr_pl_def": "работенията-нетата",
+      "v_msdr_pl_indf": "работения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "работещата",
+      "v_ptcp_act_prs_fem_sg_indf": "работеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "работещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "работещият",
+      "v_ptcp_act_prs_masc_sg_indf": "работещ",
+      "v_ptcp_act_prs_neut_sg_def": "работещото",
+      "v_ptcp_act_prs_neut_sg_indf": "работещо",
+      "v_ptcp_act_prs_pl_def": "работещите",
+      "v_ptcp_act_prs_pl_indf": "работещи",
+      "v_ptcp_act_pst_fem_sg_def": "работилата",
+      "v_ptcp_act_pst_fem_sg_indf": "работила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "работилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "работилият",
+      "v_ptcp_act_pst_masc_sg_indf": "работил",
+      "v_ptcp_act_pst_neut_sg_def": "работилото",
+      "v_ptcp_act_pst_neut_sg_indf": "работило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "работела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "работел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "работело",
+      "v_ptcp_act_pst_nfh_pl_indf": "работели",
+      "v_ptcp_act_pst_pl_def": "работилите",
+      "v_ptcp_act_pst_pl_indf": "работили"
+    },
+    "priority": 5,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "разбера": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "разбера",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "разберете",
+      "v_imp_2_sg": "разбери",
+      "v_ind_prog_pst_1_pl": "разберяхме",
+      "v_ind_prog_pst_1_sg": "разберях",
+      "v_ind_prog_pst_2_pl": "разберяхте",
+      "v_ind_prog_pst_2_sg": "разбереше",
+      "v_ind_prog_pst_3_pl": "разберяха",
+      "v_ind_prog_pst_3_sg": "разбереше",
+      "v_ind_prs_1_pl": "разберем",
+      "v_ind_prs_1_sg": "разбера",
+      "v_ind_prs_2_pl": "разберете",
+      "v_ind_prs_2_sg": "разбереш",
+      "v_ind_prs_3_pl": "разберат",
+      "v_ind_prs_3_sg": "разбере",
+      "v_ind_pst_1_pl": "разбрахме",
+      "v_ind_pst_1_sg": "разбрах",
+      "v_ind_pst_2_pl": "разбрахте",
+      "v_ind_pst_2_sg": "разбра",
+      "v_ind_pst_3_pl": "разбраха",
+      "v_ind_pst_3_sg": "разбра",
+      "v_ptcp_act_pst_fem_sg_def": "разбралата",
+      "v_ptcp_act_pst_fem_sg_indf": "разбрала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "разбралия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "разбралият",
+      "v_ptcp_act_pst_masc_sg_indf": "разбрал",
+      "v_ptcp_act_pst_neut_sg_def": "разбралото",
+      "v_ptcp_act_pst_neut_sg_indf": "разбрало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "разберяла",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "разберял",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "разберяло",
+      "v_ptcp_act_pst_nfh_pl_indf": "разберели",
+      "v_ptcp_act_pst_pl_def": "разбралите",
+      "v_ptcp_act_pst_pl_indf": "разбрали",
+      "v_ptcp_pass_pst_fem_sg_def": "разбраната",
+      "v_ptcp_pass_pst_fem_sg_indf": "разбрана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "разбрания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "разбраният",
+      "v_ptcp_pass_pst_masc_sg_indf": "разбран",
+      "v_ptcp_pass_pst_neut_sg_def": "разбраното",
+      "v_ptcp_pass_pst_neut_sg_indf": "разбрано",
+      "v_ptcp_pass_pst_pl_def": "разбраните",
+      "v_ptcp_pass_pst_pl_indf": "разбрани"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "разбирам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "разбирам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "разбирайки",
+      "v_imp_2_pl": "разбирайте",
+      "v_imp_2_sg": "разбирай",
+      "v_ind_prog_pst_1_pl": "разбирахме",
+      "v_ind_prog_pst_1_sg": "разбирах",
+      "v_ind_prog_pst_2_pl": "разбирахте",
+      "v_ind_prog_pst_2_sg": "разбираше",
+      "v_ind_prog_pst_3_pl": "разбираха",
+      "v_ind_prog_pst_3_sg": "разбираше",
+      "v_ind_prs_1_pl": "разбираме",
+      "v_ind_prs_1_sg": "разбирам",
+      "v_ind_prs_2_pl": "разбирате",
+      "v_ind_prs_2_sg": "разбираш",
+      "v_ind_prs_3_pl": "разбират",
+      "v_ind_prs_3_sg": "разбира",
+      "v_ind_pst_1_pl": "разбирахме",
+      "v_ind_pst_1_sg": "разбирах",
+      "v_ind_pst_2_pl": "разбирахте",
+      "v_ind_pst_2_sg": "разбира",
+      "v_ind_pst_3_pl": "разбираха",
+      "v_ind_pst_3_sg": "разбира",
+      "v_msdr_neut_sg_def": "разбирането",
+      "v_msdr_neut_sg_indf": "разбиране",
+      "v_msdr_pl_def": "разбиранията-нетата",
+      "v_msdr_pl_indf": "разбирания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "разбиращата",
+      "v_ptcp_act_prs_fem_sg_indf": "разбираща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "разбиращия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "разбиращият",
+      "v_ptcp_act_prs_masc_sg_indf": "разбиращ",
+      "v_ptcp_act_prs_neut_sg_def": "разбиращото",
+      "v_ptcp_act_prs_neut_sg_indf": "разбиращо",
+      "v_ptcp_act_prs_pl_def": "разбиращите",
+      "v_ptcp_act_prs_pl_indf": "разбиращи",
+      "v_ptcp_act_pst_fem_sg_def": "разбиралата",
+      "v_ptcp_act_pst_fem_sg_indf": "разбирала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "разбиралия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "разбиралият",
+      "v_ptcp_act_pst_masc_sg_indf": "разбирал",
+      "v_ptcp_act_pst_neut_sg_def": "разбиралото",
+      "v_ptcp_act_pst_neut_sg_indf": "разбирало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "разбирала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "разбирал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "разбирало",
+      "v_ptcp_act_pst_nfh_pl_indf": "разбирали",
+      "v_ptcp_act_pst_pl_def": "разбиралите",
+      "v_ptcp_act_pst_pl_indf": "разбирали",
+      "v_ptcp_pass_pst_fem_sg_def": "разбираната",
+      "v_ptcp_pass_pst_fem_sg_indf": "разбирана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "разбирания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "разбираният",
+      "v_ptcp_pass_pst_masc_sg_indf": "разбиран",
+      "v_ptcp_pass_pst_neut_sg_def": "разбираното",
+      "v_ptcp_pass_pst_neut_sg_indf": "разбирано",
+      "v_ptcp_pass_pst_pl_def": "разбираните",
+      "v_ptcp_pass_pst_pl_indf": "разбирани"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "различен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "различен",
+    "inflections": {
+      "adj_masc_sg_voc": "различни",
+      "adj_pl_indf": "различни",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "реша": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "реша",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "реших"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ръка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ръка",
+    "inflections": {
+      "n_pl_def": "ръцете",
+      "n_pl_indf": "ръце",
+      "n_pl_voc": "ръце",
+      "n_sg_def": "ръката",
+      "n_sg_indf": "ръка",
+      "n_sg_voc": "ръко",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "седмица": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "седмица",
+    "inflections": {
+      "n_pl_def": "седмиците",
+      "n_pl_indf": "седмици",
+      "n_pl_voc": "седмици",
+      "n_sg_def": "седмицата",
+      "n_sg_indf": "седмица",
+      "n_sg_voc": "седмице",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "сериозен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сериозен",
+    "inflections": {
+      "adj_neut_sg_indf": "сериозно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сестра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сестра",
+    "inflections": {
+      "n_pl_def": "сестрите",
+      "n_pl_indf": "сестри",
+      "n_pl_voc": "сестри",
+      "n_sg_def": "сестрата",
+      "n_sg_indf": "сестра",
+      "n_sg_voc": "сестро",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "сигурен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сигурен",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-сигурната",
+      "adj_cmpr_fem_sg_indf": "по-сигурна",
+      "adj_cmpr_masc_sg_acc_def": "по-сигурния",
+      "adj_cmpr_masc_sg_indf": "по-сигурен",
+      "adj_cmpr_masc_sg_nom_def": "по-сигурният",
+      "adj_cmpr_masc_sg_voc": "по-сигурни",
+      "adj_cmpr_neut_sg_def": "по-сигурното",
+      "adj_cmpr_neut_sg_indf": "по-сигурно",
+      "adj_cmpr_pl_def": "по-сигурните",
+      "adj_cmpr_pl_indf": "по-сигурни",
+      "adj_fem_sg_def": "сигурната",
+      "adj_fem_sg_indf": "сигурна",
+      "adj_masc_sg_acc_def": "сигурния",
+      "adj_masc_sg_indf": "сигурен",
+      "adj_masc_sg_nom_def": "сигурният",
+      "adj_masc_sg_voc": "сигурни",
+      "adj_neut_sg_def": "сигурното",
+      "adj_neut_sg_indf": "сигурно",
+      "adj_pl_def": "сигурните",
+      "adj_pl_indf": "сигурни",
+      "adj_sprl_fem_sg_def": "най-сигурната",
+      "adj_sprl_fem_sg_indf": "най-сигурна",
+      "adj_sprl_masc_sg_acc_def": "най-сигурния",
+      "adj_sprl_masc_sg_indf": "най-сигурен",
+      "adj_sprl_masc_sg_nom_def": "най-сигурният",
+      "adj_sprl_masc_sg_voc": "най-сигурни",
+      "adj_sprl_neut_sg_def": "най-сигурното",
+      "adj_sprl_neut_sg_indf": "най-сигурно",
+      "adj_sprl_pl_def": "най-сигурните",
+      "adj_sprl_pl_indf": "най-сигурни",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сила": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сила",
+    "inflections": {
+      "n_pl_def": "силите",
+      "n_pl_indf": "сили",
+      "n_pl_voc": "сили",
+      "n_sg_def": "силата",
+      "n_sg_indf": "сила",
+      "n_sg_voc": "сило",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "скъп": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "скъп",
+    "inflections": {
+      "adj_fem_sg_indf": "скъпа",
+      "adj_masc_sg_voc": "скъпи",
+      "adj_pl_indf": "скъпи",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "слушам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "слушам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "слушайки",
+      "v_imp_2_pl": "слушайте",
+      "v_imp_2_sg": "слушай",
+      "v_ind_prog_pst_1_pl": "слушахме",
+      "v_ind_prog_pst_1_sg": "слушах",
+      "v_ind_prog_pst_2_pl": "слушахте",
+      "v_ind_prog_pst_2_sg": "слушаше",
+      "v_ind_prog_pst_3_pl": "слушаха",
+      "v_ind_prog_pst_3_sg": "слушаше",
+      "v_ind_prs_1_pl": "слушаме",
+      "v_ind_prs_1_sg": "слушам",
+      "v_ind_prs_2_pl": "слушате",
+      "v_ind_prs_2_sg": "слушаш",
+      "v_ind_prs_3_pl": "слушат",
+      "v_ind_prs_3_sg": "слуша",
+      "v_ind_pst_1_pl": "слушахме",
+      "v_ind_pst_1_sg": "слушах",
+      "v_ind_pst_2_pl": "слушахте",
+      "v_ind_pst_2_sg": "слуша",
+      "v_ind_pst_3_pl": "слушаха",
+      "v_ind_pst_3_sg": "слуша",
+      "v_msdr_neut_sg_def": "слушането",
+      "v_msdr_neut_sg_indf": "слушане",
+      "v_msdr_pl_def": "слушанията-нетата",
+      "v_msdr_pl_indf": "слушания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "слушащата",
+      "v_ptcp_act_prs_fem_sg_indf": "слушаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "слушащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "слушащият",
+      "v_ptcp_act_prs_masc_sg_indf": "слушащ",
+      "v_ptcp_act_prs_neut_sg_def": "слушащото",
+      "v_ptcp_act_prs_neut_sg_indf": "слушащо",
+      "v_ptcp_act_prs_pl_def": "слушащите",
+      "v_ptcp_act_prs_pl_indf": "слушащи",
+      "v_ptcp_act_pst_fem_sg_def": "слушалата",
+      "v_ptcp_act_pst_fem_sg_indf": "слушала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "слушалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "слушалият",
+      "v_ptcp_act_pst_masc_sg_indf": "слушал",
+      "v_ptcp_act_pst_neut_sg_def": "слушалото",
+      "v_ptcp_act_pst_neut_sg_indf": "слушало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "слушала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "слушал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "слушало",
+      "v_ptcp_act_pst_nfh_pl_indf": "слушали",
+      "v_ptcp_act_pst_pl_def": "слушалите",
+      "v_ptcp_act_pst_pl_indf": "слушали",
+      "v_ptcp_pass_pst_fem_sg_def": "слушаната",
+      "v_ptcp_pass_pst_fem_sg_indf": "слушана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "слушания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "слушаният",
+      "v_ptcp_pass_pst_masc_sg_indf": "слушан",
+      "v_ptcp_pass_pst_neut_sg_def": "слушаното",
+      "v_ptcp_pass_pst_neut_sg_indf": "слушано",
+      "v_ptcp_pass_pst_pl_def": "слушаните",
+      "v_ptcp_pass_pst_pl_indf": "слушани"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "снимка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "снимка",
+    "inflections": {
+      "n_pl_def": "снимките",
+      "n_pl_indf": "снимки",
+      "n_pl_voc": "снимки",
+      "n_sg_def": "снимката",
+      "n_sg_indf": "снимка",
+      "n_sg_voc": "снимко",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "спася": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "спася",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "спаси",
+      "v_ind_prs_3_sg": "спаси",
+      "v_ind_pst_2_sg": "спаси",
+      "v_ind_pst_3_sg": "спаси"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "спра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "спра",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "спрете",
+      "v_imp_2_sg": "спри",
+      "v_ind_prs_2_pl": "спрете",
+      "v_ind_prs_3_sg": "спре"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "срещам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "срещам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "среща",
+      "v_ind_pst_2_sg": "среща",
+      "v_ind_pst_3_sg": "среща"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ставам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ставам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "става",
+      "v_ind_pst_2_sg": "става",
+      "v_ind_pst_3_sg": "става"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "стан": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "стан",
+    "inflections": {
+      "n_pl": "стана",
+      "n_sg_acc_def": "стана",
+      "n_sg_voc": "стане",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "стана": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "стана",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "станете",
+      "v_imp_2_sg": "стани",
+      "v_ind_prog_pst_1_pl": "станехме",
+      "v_ind_prog_pst_1_sg": "станех",
+      "v_ind_prog_pst_2_pl": "станехте",
+      "v_ind_prog_pst_2_sg": "станеше",
+      "v_ind_prog_pst_3_pl": "станеха",
+      "v_ind_prog_pst_3_sg": "станеше",
+      "v_ind_prs_1_pl": "станем",
+      "v_ind_prs_1_sg": "стана",
+      "v_ind_prs_2_pl": "станете",
+      "v_ind_prs_2_sg": "станеш",
+      "v_ind_prs_3_pl": "станат",
+      "v_ind_prs_3_sg": "стане",
+      "v_ind_pst_1_pl": "станахме",
+      "v_ind_pst_1_sg": "станах",
+      "v_ind_pst_2_pl": "станахте",
+      "v_ind_pst_2_sg": "стана",
+      "v_ind_pst_3_pl": "станаха",
+      "v_ind_pst_3_sg": "стана",
+      "v_ptcp_act_pst_fem_sg_def": "станалата",
+      "v_ptcp_act_pst_fem_sg_indf": "станала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "станалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "станалият",
+      "v_ptcp_act_pst_masc_sg_indf": "станал",
+      "v_ptcp_act_pst_neut_sg_def": "станалото",
+      "v_ptcp_act_pst_neut_sg_indf": "станало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "станела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "станел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "станело",
+      "v_ptcp_act_pst_nfh_pl_indf": "станели",
+      "v_ptcp_act_pst_pl_def": "станалите",
+      "v_ptcp_act_pst_pl_indf": "станали"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "стар": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "стар",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-старата",
+      "adj_cmpr_fem_sg_indf": "по-стара",
+      "adj_cmpr_masc_sg_acc_def": "по-стария",
+      "adj_cmpr_masc_sg_indf": "по-стар",
+      "adj_cmpr_masc_sg_nom_def": "по-старият",
+      "adj_cmpr_masc_sg_voc": "по-стари",
+      "adj_cmpr_neut_sg_def": "по-старото",
+      "adj_cmpr_neut_sg_indf": "по-старо",
+      "adj_cmpr_pl_def": "по-старите",
+      "adj_cmpr_pl_indf": "по-стари",
+      "adj_fem_sg_def": "старата",
+      "adj_fem_sg_indf": "стара",
+      "adj_masc_sg_acc_def": "стария",
+      "adj_masc_sg_indf": "стар",
+      "adj_masc_sg_nom_def": "старият",
+      "adj_masc_sg_voc": "стари",
+      "adj_neut_sg_def": "старото",
+      "adj_neut_sg_indf": "старо",
+      "adj_pl_def": "старите",
+      "adj_pl_indf": "стари",
+      "adj_sprl_fem_sg_def": "най-старата",
+      "adj_sprl_fem_sg_indf": "най-стара",
+      "adj_sprl_masc_sg_acc_def": "най-стария",
+      "adj_sprl_masc_sg_indf": "най-стар",
+      "adj_sprl_masc_sg_nom_def": "най-старият",
+      "adj_sprl_masc_sg_voc": "най-стари",
+      "adj_sprl_neut_sg_def": "най-старото",
+      "adj_sprl_neut_sg_indf": "най-старо",
+      "adj_sprl_pl_def": "най-старите",
+      "adj_sprl_pl_indf": "най-стари",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "стая": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "стая",
+    "inflections": {
+      "n_pl_def": "стаите",
+      "n_pl_indf": "стаи",
+      "n_pl_voc": "стаи",
+      "n_sg_def": "стаята",
+      "n_sg_indf": "стая",
+      "n_sg_voc": "стайо",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "съобщение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "съобщение",
+    "inflections": {
+      "n_pl_def": "съобщенията",
+      "n_pl_indf": "съобщения",
+      "n_sg_def": "съобщението",
+      "n_sg_indf": "съобщение",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "съпруг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "съпруг",
+    "inflections": {
+      "n_pl": "съпруга",
+      "n_sg_acc_def": "съпруга",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "съпруга": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "съпруга",
+    "inflections": {
+      "n_pl_def": "съпругите",
+      "n_pl_indf": "съпруги",
+      "n_pl_voc": "съпруги",
+      "n_sg_def": "съпругата",
+      "n_sg_indf": "съпруга",
+      "n_sg_voc": "съпруго",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "сърце": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сърце",
+    "inflections": {
+      "n_sg_def": "сърцето",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "татко": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "татко",
+    "inflections": {
+      "n_pl_def": "татковците",
+      "n_pl_indf": "татковци",
+      "n_sg_def": "таткото",
+      "n_sg_indf": "татко",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "точен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "точен",
+    "inflections": {
+      "adj_neut_sg_indf": "точно",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "тръгвам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тръгвам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "тръгвайки",
+      "v_imp_2_pl": "тръгвайте",
+      "v_imp_2_sg": "тръгвай",
+      "v_ind_prog_pst_1_pl": "тръгвахме",
+      "v_ind_prog_pst_1_sg": "тръгвах",
+      "v_ind_prog_pst_2_pl": "тръгвахте",
+      "v_ind_prog_pst_2_sg": "тръгваше",
+      "v_ind_prog_pst_3_pl": "тръгваха",
+      "v_ind_prog_pst_3_sg": "тръгваше",
+      "v_ind_prs_1_pl": "тръгваме",
+      "v_ind_prs_1_sg": "тръгвам",
+      "v_ind_prs_2_pl": "тръгвате",
+      "v_ind_prs_2_sg": "тръгваш",
+      "v_ind_prs_3_pl": "тръгват",
+      "v_ind_prs_3_sg": "тръгва",
+      "v_ind_pst_1_pl": "тръгвахме",
+      "v_ind_pst_1_sg": "тръгвах",
+      "v_ind_pst_2_pl": "тръгвахте",
+      "v_ind_pst_2_sg": "тръгва",
+      "v_ind_pst_3_pl": "тръгваха",
+      "v_ind_pst_3_sg": "тръгва",
+      "v_msdr_neut_sg_def": "тръгването",
+      "v_msdr_neut_sg_indf": "тръгване",
+      "v_msdr_pl_def": "тръгванията-нетата",
+      "v_msdr_pl_indf": "тръгвания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "тръгващата",
+      "v_ptcp_act_prs_fem_sg_indf": "тръгваща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "тръгващия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "тръгващият",
+      "v_ptcp_act_prs_masc_sg_indf": "тръгващ",
+      "v_ptcp_act_prs_neut_sg_def": "тръгващото",
+      "v_ptcp_act_prs_neut_sg_indf": "тръгващо",
+      "v_ptcp_act_prs_pl_def": "тръгващите",
+      "v_ptcp_act_prs_pl_indf": "тръгващи",
+      "v_ptcp_act_pst_fem_sg_def": "тръгвалата",
+      "v_ptcp_act_pst_fem_sg_indf": "тръгвала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "тръгвалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "тръгвалият",
+      "v_ptcp_act_pst_masc_sg_indf": "тръгвал",
+      "v_ptcp_act_pst_neut_sg_def": "тръгвалото",
+      "v_ptcp_act_pst_neut_sg_indf": "тръгвало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "тръгвала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "тръгвал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "тръгвало",
+      "v_ptcp_act_pst_nfh_pl_indf": "тръгвали",
+      "v_ptcp_act_pst_pl_def": "тръгвалите",
+      "v_ptcp_act_pst_pl_indf": "тръгвали"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "търся": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "търся",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "търсейки",
+      "v_imp_2_pl": "търсете",
+      "v_imp_2_sg": "търси",
+      "v_ind_prog_pst_1_pl": "търсехме",
+      "v_ind_prog_pst_1_sg": "търсех",
+      "v_ind_prog_pst_2_pl": "търсехте",
+      "v_ind_prog_pst_2_sg": "търсеше",
+      "v_ind_prog_pst_3_pl": "търсеха",
+      "v_ind_prog_pst_3_sg": "търсеше",
+      "v_ind_prs_1_pl": "търсим",
+      "v_ind_prs_1_sg": "търся",
+      "v_ind_prs_2_pl": "търсите",
+      "v_ind_prs_2_sg": "търсиш",
+      "v_ind_prs_3_pl": "търсят",
+      "v_ind_prs_3_sg": "търси",
+      "v_ind_pst_1_pl": "търсихме",
+      "v_ind_pst_1_sg": "търсих",
+      "v_ind_pst_2_pl": "търсихте",
+      "v_ind_pst_2_sg": "търси",
+      "v_ind_pst_3_pl": "търсиха",
+      "v_ind_pst_3_sg": "търси",
+      "v_msdr_neut_sg_def": "търсенето",
+      "v_msdr_neut_sg_indf": "търсене",
+      "v_msdr_pl_def": "търсенията-нетата",
+      "v_msdr_pl_indf": "търсения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "търсещата",
+      "v_ptcp_act_prs_fem_sg_indf": "търсеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "търсещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "търсещият",
+      "v_ptcp_act_prs_masc_sg_indf": "търсещ",
+      "v_ptcp_act_prs_neut_sg_def": "търсещото",
+      "v_ptcp_act_prs_neut_sg_indf": "търсещо",
+      "v_ptcp_act_prs_pl_def": "търсещите",
+      "v_ptcp_act_prs_pl_indf": "търсещи",
+      "v_ptcp_act_pst_fem_sg_def": "търсилата",
+      "v_ptcp_act_pst_fem_sg_indf": "търсила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "търсилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "търсилият",
+      "v_ptcp_act_pst_masc_sg_indf": "търсил",
+      "v_ptcp_act_pst_neut_sg_def": "търсилото",
+      "v_ptcp_act_pst_neut_sg_indf": "търсило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "търсела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "търсел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "търсело",
+      "v_ptcp_act_pst_nfh_pl_indf": "търсели",
+      "v_ptcp_act_pst_pl_def": "търсилите",
+      "v_ptcp_act_pst_pl_indf": "търсили",
+      "v_ptcp_pass_pst_fem_sg_def": "търсената",
+      "v_ptcp_pass_pst_fem_sg_indf": "търсена",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "търсения",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "търсеният",
+      "v_ptcp_pass_pst_masc_sg_indf": "търсен",
+      "v_ptcp_pass_pst_neut_sg_def": "търсеното",
+      "v_ptcp_pass_pst_neut_sg_indf": "търсено",
+      "v_ptcp_pass_pst_pl_def": "търсените",
+      "v_ptcp_pass_pst_pl_indf": "търсени"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "тяло": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тяло",
+    "inflections": {
+      "n_sg_def": "тялото",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "убиец": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "убиец",
+    "inflections": {
+      "n_pl": "убиеца",
+      "n_pl_def": "убийците",
+      "n_pl_indf": "убийци",
+      "n_pl_voc": "убийци",
+      "n_sg_acc_def": "убиеца",
+      "n_sg_indf": "убиец",
+      "n_sg_nom_def": "убиецът",
+      "n_sg_voc": "убиецо",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "убия": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "убия",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "убийте",
+      "v_imp_2_sg": "убий",
+      "v_ind_prog_pst_1_pl": "убиехме",
+      "v_ind_prog_pst_1_sg": "убиех",
+      "v_ind_prog_pst_2_pl": "убиехте",
+      "v_ind_prog_pst_2_sg": "убиеше",
+      "v_ind_prog_pst_3_pl": "убиеха",
+      "v_ind_prog_pst_3_sg": "убиеше",
+      "v_ind_prs_1_pl": "убием",
+      "v_ind_prs_1_sg": "убия",
+      "v_ind_prs_2_pl": "убиете",
+      "v_ind_prs_2_sg": "убиеш",
+      "v_ind_prs_3_pl": "убият",
+      "v_ind_prs_3_sg": "убие",
+      "v_ind_pst_1_pl": "убихме",
+      "v_ind_pst_1_sg": "убих",
+      "v_ind_pst_2_pl": "убихте",
+      "v_ind_pst_2_sg": "уби",
+      "v_ind_pst_3_pl": "убиха",
+      "v_ind_pst_3_sg": "уби",
+      "v_ptcp_act_pst_fem_sg_def": "убилата",
+      "v_ptcp_act_pst_fem_sg_indf": "убила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "убилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "убилият",
+      "v_ptcp_act_pst_masc_sg_indf": "убил",
+      "v_ptcp_act_pst_neut_sg_def": "убилото",
+      "v_ptcp_act_pst_neut_sg_indf": "убило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "убиела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "убиел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "убиело",
+      "v_ptcp_act_pst_nfh_pl_indf": "убиели",
+      "v_ptcp_act_pst_pl_def": "убилите",
+      "v_ptcp_act_pst_pl_indf": "убили",
+      "v_ptcp_pass_pst_fem_sg_def": "убитата",
+      "v_ptcp_pass_pst_fem_sg_indf": "убита",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "убития",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "убитият",
+      "v_ptcp_pass_pst_masc_sg_indf": "убит",
+      "v_ptcp_pass_pst_neut_sg_def": "убитото",
+      "v_ptcp_pass_pst_neut_sg_indf": "убито",
+      "v_ptcp_pass_pst_pl_def": "убитите",
+      "v_ptcp_pass_pst_pl_indf": "убити"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "удар": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "удар",
+    "inflections": {
+      "n_pl_indf": "удари",
+      "n_pl_voc": "удари",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "умра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "умра",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "умре"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "уста": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уста",
+    "inflections": {
+      "n_sg_def": "устата",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "училище": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "училище",
+    "inflections": {
+      "n_pl_def": "училищата",
+      "n_pl_indf": "училища",
+      "n_sg_def": "училището",
+      "n_sg_indf": "училище",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "ходя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ходя",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "ходейки",
+      "v_imp_2_pl": "ходете",
+      "v_imp_2_sg": "ходи",
+      "v_ind_prog_pst_1_pl": "ходехме",
+      "v_ind_prog_pst_1_sg": "ходех",
+      "v_ind_prog_pst_2_pl": "ходехте",
+      "v_ind_prog_pst_2_sg": "ходеше",
+      "v_ind_prog_pst_3_pl": "ходеха",
+      "v_ind_prog_pst_3_sg": "ходеше",
+      "v_ind_prs_1_pl": "ходим",
+      "v_ind_prs_1_sg": "ходя",
+      "v_ind_prs_2_pl": "ходите",
+      "v_ind_prs_2_sg": "ходиш",
+      "v_ind_prs_3_pl": "ходят",
+      "v_ind_prs_3_sg": "ходи",
+      "v_ind_pst_1_pl": "ходихме",
+      "v_ind_pst_1_sg": "ходих",
+      "v_ind_pst_2_pl": "ходихте",
+      "v_ind_pst_2_sg": "ходи",
+      "v_ind_pst_3_pl": "ходиха",
+      "v_ind_pst_3_sg": "ходи",
+      "v_msdr_neut_sg_def": "ходенето",
+      "v_msdr_neut_sg_indf": "ходене",
+      "v_msdr_pl_def": "ходенията-нетата",
+      "v_msdr_pl_indf": "ходения-нета",
+      "v_ptcp_act_prs_fem_sg_def": "ходещата",
+      "v_ptcp_act_prs_fem_sg_indf": "ходеща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "ходещия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "ходещият",
+      "v_ptcp_act_prs_masc_sg_indf": "ходещ",
+      "v_ptcp_act_prs_neut_sg_def": "ходещото",
+      "v_ptcp_act_prs_neut_sg_indf": "ходещо",
+      "v_ptcp_act_prs_pl_def": "ходещите",
+      "v_ptcp_act_prs_pl_indf": "ходещи",
+      "v_ptcp_act_pst_fem_sg_def": "ходилата",
+      "v_ptcp_act_pst_fem_sg_indf": "ходила",
+      "v_ptcp_act_pst_masc_sg_def_acc": "ходилия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "ходилият",
+      "v_ptcp_act_pst_masc_sg_indf": "ходил",
+      "v_ptcp_act_pst_neut_sg_def": "ходилото",
+      "v_ptcp_act_pst_neut_sg_indf": "ходило",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "ходела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "ходел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "ходело",
+      "v_ptcp_act_pst_nfh_pl_indf": "ходели",
+      "v_ptcp_act_pst_pl_def": "ходилите",
+      "v_ptcp_act_pst_pl_indf": "ходили"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "храна": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "храна",
+    "inflections": {
+      "n_pl_def": "храните",
+      "n_pl_indf": "храни",
+      "n_pl_voc": "храни",
+      "n_sg_def": "храната",
+      "n_sg_indf": "храна",
+      "n_sg_voc": "храно",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "хубав": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хубав",
+    "inflections": {
+      "adj_fem_sg_indf": "хубава",
+      "adj_neut_sg_indf": "хубаво",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "цял": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "цял",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-цялата",
+      "adj_cmpr_fem_sg_indf": "по-цяла",
+      "adj_cmpr_masc_sg_acc_def": "по-целия",
+      "adj_cmpr_masc_sg_indf": "по-цял",
+      "adj_cmpr_masc_sg_nom_def": "по-целият",
+      "adj_cmpr_masc_sg_voc": "по-цели",
+      "adj_cmpr_neut_sg_def": "по-цялото",
+      "adj_cmpr_neut_sg_indf": "по-цяло",
+      "adj_cmpr_pl_def": "по-целите",
+      "adj_cmpr_pl_indf": "по-цели",
+      "adj_fem_sg_def": "цялата",
+      "adj_fem_sg_indf": "цяла",
+      "adj_masc_sg_acc_def": "целия",
+      "adj_masc_sg_indf": "цял",
+      "adj_masc_sg_nom_def": "целият",
+      "adj_masc_sg_voc": "цели",
+      "adj_neut_sg_def": "цялото",
+      "adj_neut_sg_indf": "цяло",
+      "adj_pl_def": "целите",
+      "adj_pl_indf": "цели",
+      "adj_sprl_fem_sg_def": "най-цялата",
+      "adj_sprl_fem_sg_indf": "най-цяла",
+      "adj_sprl_masc_sg_acc_def": "най-целия",
+      "adj_sprl_masc_sg_indf": "най-цял",
+      "adj_sprl_masc_sg_nom_def": "най-целият",
+      "adj_sprl_masc_sg_voc": "най-цели",
+      "adj_sprl_neut_sg_def": "най-цялото",
+      "adj_sprl_neut_sg_indf": "най-цяло",
+      "adj_sprl_pl_def": "най-целите",
+      "adj_sprl_pl_indf": "най-цели",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "чакам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чакам",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "чакайки",
+      "v_imp_2_pl": "чакайте",
+      "v_imp_2_sg": "чакай",
+      "v_ind_prog_pst_1_pl": "чакахме",
+      "v_ind_prog_pst_1_sg": "чаках",
+      "v_ind_prog_pst_2_pl": "чакахте",
+      "v_ind_prog_pst_2_sg": "чакаше",
+      "v_ind_prog_pst_3_pl": "чакаха",
+      "v_ind_prog_pst_3_sg": "чакаше",
+      "v_ind_prs_1_pl": "чакаме",
+      "v_ind_prs_1_sg": "чакам",
+      "v_ind_prs_2_pl": "чакате",
+      "v_ind_prs_2_sg": "чакаш",
+      "v_ind_prs_3_pl": "чакат",
+      "v_ind_prs_3_sg": "чака",
+      "v_ind_pst_1_pl": "чакахме",
+      "v_ind_pst_1_sg": "чаках",
+      "v_ind_pst_2_pl": "чакахте",
+      "v_ind_pst_2_sg": "чака",
+      "v_ind_pst_3_pl": "чакаха",
+      "v_ind_pst_3_sg": "чака",
+      "v_msdr_neut_sg_def": "чакането",
+      "v_msdr_neut_sg_indf": "чакане",
+      "v_msdr_pl_def": "чаканията-нетата",
+      "v_msdr_pl_indf": "чакания-нета",
+      "v_ptcp_act_prs_fem_sg_def": "чакащата",
+      "v_ptcp_act_prs_fem_sg_indf": "чакаща",
+      "v_ptcp_act_prs_masc_sg_def_acc": "чакащия",
+      "v_ptcp_act_prs_masc_sg_def_nom": "чакащият",
+      "v_ptcp_act_prs_masc_sg_indf": "чакащ",
+      "v_ptcp_act_prs_neut_sg_def": "чакащото",
+      "v_ptcp_act_prs_neut_sg_indf": "чакащо",
+      "v_ptcp_act_prs_pl_def": "чакащите",
+      "v_ptcp_act_prs_pl_indf": "чакащи",
+      "v_ptcp_act_pst_fem_sg_def": "чакалата",
+      "v_ptcp_act_pst_fem_sg_indf": "чакала",
+      "v_ptcp_act_pst_masc_sg_def_acc": "чакалия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "чакалият",
+      "v_ptcp_act_pst_masc_sg_indf": "чакал",
+      "v_ptcp_act_pst_neut_sg_def": "чакалото",
+      "v_ptcp_act_pst_neut_sg_indf": "чакало",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "чакала",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "чакал",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "чакало",
+      "v_ptcp_act_pst_nfh_pl_indf": "чакали",
+      "v_ptcp_act_pst_pl_def": "чакалите",
+      "v_ptcp_act_pst_pl_indf": "чакали",
+      "v_ptcp_pass_pst_fem_sg_def": "чаканата",
+      "v_ptcp_pass_pst_fem_sg_indf": "чакана",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "чакания",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "чаканият",
+      "v_ptcp_pass_pst_masc_sg_indf": "чакан",
+      "v_ptcp_pass_pst_neut_sg_def": "чаканото",
+      "v_ptcp_pass_pst_neut_sg_indf": "чакано",
+      "v_ptcp_pass_pst_pl_def": "чаканите",
+      "v_ptcp_pass_pst_pl_indf": "чакани"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "час": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "час",
+    "inflections": {
+      "n_pl": "часа",
+      "n_pl_def": "часовете",
+      "n_pl_indf": "часове",
+      "n_pl_voc": "часове",
+      "n_sg_acc_def": "часа",
+      "n_sg_indf": "час",
+      "n_sg_nom_def": "часът",
+      "n_sg_voc": "часе",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "част": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "част",
+    "inflections": {
+      "n_pl_def": "частите",
+      "n_pl_indf": "части",
+      "n_sg_def": "частта",
+      "n_sg_indf": "част",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "чичо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чичо",
+    "inflections": {
+      "n_pl_def": "чичовците",
+      "n_pl_indf": "чичовци",
+      "n_sg_def": "чичото",
+      "n_sg_indf": "чичо",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "човек": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "човек",
+    "inflections": {
+      "n_pl": "души",
+      "n_pl_def": "хората",
+      "n_pl_indf": "хора",
+      "n_pl_voc": "хора",
+      "n_sg_acc_def": "човека",
+      "n_sg_indf": "човек",
+      "n_sg_nom_def": "човекът",
+      "n_sg_voc": "човече",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "чувам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чувам",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "чуваш"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "чудесен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чудесен",
+    "inflections": {
+      "adj_neut_sg_indf": "чудесно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "чуя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чуя",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "чуйте",
+      "v_imp_2_sg": "чуй",
+      "v_ind_prog_pst_1_pl": "чуехме",
+      "v_ind_prog_pst_1_sg": "чуех",
+      "v_ind_prog_pst_2_pl": "чуехте",
+      "v_ind_prog_pst_2_sg": "чуеше",
+      "v_ind_prog_pst_3_pl": "чуеха",
+      "v_ind_prog_pst_3_sg": "чуеше",
+      "v_ind_prs_1_pl": "чуем",
+      "v_ind_prs_1_sg": "чуя",
+      "v_ind_prs_2_pl": "чуете",
+      "v_ind_prs_2_sg": "чуеш",
+      "v_ind_prs_3_pl": "чуят",
+      "v_ind_prs_3_sg": "чуе",
+      "v_ind_pst_1_pl": "чухме",
+      "v_ind_pst_1_sg": "чух",
+      "v_ind_pst_2_pl": "чухте",
+      "v_ind_pst_2_sg": "чу",
+      "v_ind_pst_3_pl": "чуха",
+      "v_ind_pst_3_sg": "чу",
+      "v_ptcp_act_pst_fem_sg_def": "чулата",
+      "v_ptcp_act_pst_fem_sg_indf": "чула",
+      "v_ptcp_act_pst_masc_sg_def_acc": "чулия",
+      "v_ptcp_act_pst_masc_sg_def_nom": "чулият",
+      "v_ptcp_act_pst_masc_sg_indf": "чул",
+      "v_ptcp_act_pst_neut_sg_def": "чулото",
+      "v_ptcp_act_pst_neut_sg_indf": "чуло",
+      "v_ptcp_act_pst_nfh_fem_sg_indf": "чуела",
+      "v_ptcp_act_pst_nfh_masc_sg_indf": "чуел",
+      "v_ptcp_act_pst_nfh_neut_sg_indf": "чуело",
+      "v_ptcp_act_pst_nfh_pl_indf": "чуели",
+      "v_ptcp_act_pst_pl_def": "чулите",
+      "v_ptcp_act_pst_pl_indf": "чули",
+      "v_ptcp_pass_pst_fem_sg_def": "чутата",
+      "v_ptcp_pass_pst_fem_sg_indf": "чута",
+      "v_ptcp_pass_pst_masc_sg_def_acc": "чутия",
+      "v_ptcp_pass_pst_masc_sg_def_nom": "чутият",
+      "v_ptcp_pass_pst_masc_sg_indf": "чут",
+      "v_ptcp_pass_pst_neut_sg_def": "чутото",
+      "v_ptcp_pass_pst_neut_sg_indf": "чуто",
+      "v_ptcp_pass_pst_pl_def": "чутите",
+      "v_ptcp_pass_pst_pl_indf": "чути"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "шеф": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шеф",
+    "inflections": {
+      "n_sg_voc": "шефе",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "щастлив": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "щастлив",
+    "inflections": {
+      "adj_cmpr_fem_sg_def": "по-щастливата",
+      "adj_cmpr_fem_sg_indf": "по-щастлива",
+      "adj_cmpr_masc_sg_acc_def": "по-щастливия",
+      "adj_cmpr_masc_sg_indf": "по-щастлив",
+      "adj_cmpr_masc_sg_nom_def": "по-щастливият",
+      "adj_cmpr_masc_sg_voc": "по-щастливи",
+      "adj_cmpr_neut_sg_def": "по-щастливото",
+      "adj_cmpr_neut_sg_indf": "по-щастливо",
+      "adj_cmpr_pl_def": "по-щастливите",
+      "adj_cmpr_pl_indf": "по-щастливи",
+      "adj_fem_sg_def": "щастливата",
+      "adj_fem_sg_indf": "щастлива",
+      "adj_masc_sg_acc_def": "щастливия",
+      "adj_masc_sg_indf": "щастлив",
+      "adj_masc_sg_nom_def": "щастливият",
+      "adj_masc_sg_voc": "щастливи",
+      "adj_neut_sg_def": "щастливото",
+      "adj_neut_sg_indf": "щастливо",
+      "adj_pl_def": "щастливите",
+      "adj_pl_indf": "щастливи",
+      "adj_sprl_fem_sg_def": "най-щастливата",
+      "adj_sprl_fem_sg_indf": "най-щастлива",
+      "adj_sprl_masc_sg_acc_def": "най-щастливия",
+      "adj_sprl_masc_sg_indf": "най-щастлив",
+      "adj_sprl_masc_sg_nom_def": "най-щастливият",
+      "adj_sprl_masc_sg_voc": "най-щастливи",
+      "adj_sprl_neut_sg_def": "най-щастливото",
+      "adj_sprl_neut_sg_indf": "най-щастливо",
+      "adj_sprl_pl_def": "най-щастливите",
+      "adj_sprl_pl_indf": "най-щастливи",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ясен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ясен",
+    "inflections": {
+      "adj_neut_sg_indf": "ясно",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  }
+}

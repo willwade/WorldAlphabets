@@ -1,0 +1,4412 @@
+{
+  "_locale": "sl",
+  "_type": "words",
+  "_version": "0.1",
+  "avto": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "avto",
+    "inflections": {
+      "n_acc_du": "ávti",
+      "n_acc_pl": "ávta",
+      "n_acc_sg": "ávto",
+      "n_dat_du": "ávtoma",
+      "n_dat_pl": "ávtom",
+      "n_dat_sg": "ávtu",
+      "n_ess_du": "ávtih",
+      "n_ess_pl": "ávtih",
+      "n_ess_sg": "ávtu",
+      "n_gen_du": "ávt",
+      "n_gen_pl": "ávt",
+      "n_gen_sg": "ávta",
+      "n_ins_du": "ávtoma",
+      "n_ins_pl": "ávti",
+      "n_ins_sg": "ávtom",
+      "n_nom_du": "ávti",
+      "n_nom_pl": "ávta",
+      "n_nom_sg": "ávto",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "bilo": {
+    "antonyms": [],
+    "base": "bilo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "bog": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bog",
+    "inflections": {
+      "n_acc_du": "bogôva",
+      "n_acc_pl": "bogôve",
+      "n_acc_sg": "bogá",
+      "n_dat_du": "bogôvoma",
+      "n_dat_pl": "bogôvom",
+      "n_dat_sg": "bógu",
+      "n_ess_du": "bogôvih",
+      "n_ess_pl": "bogôvih",
+      "n_ess_sg": "bógu",
+      "n_gen_du": "bogôv",
+      "n_gen_pl": "bogôv",
+      "n_gen_sg": "bogá",
+      "n_ins_du": "bogôvoma",
+      "n_ins_pl": "bogôvi",
+      "n_ins_sg": "bógom",
+      "n_nom_du": "bogôva",
+      "n_nom_pl": "bogôvi",
+      "n_nom_sg": "bóg",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "boljši": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "boljši",
+    "inflections": {
+      "adj_fem_acc_du": "bóljši",
+      "adj_fem_acc_pl": "bóljše",
+      "adj_fem_acc_sg": "bóljšo",
+      "adj_fem_dat_du": "bóljšima",
+      "adj_fem_dat_pl": "bóljšim",
+      "adj_fem_dat_sg": "bóljši",
+      "adj_fem_ess_du": "bóljših",
+      "adj_fem_ess_pl": "bóljših",
+      "adj_fem_ess_sg": "bóljši",
+      "adj_fem_gen_du": "bóljših",
+      "adj_fem_gen_pl": "bóljših",
+      "adj_fem_gen_sg": "bóljše",
+      "adj_fem_ins_du": "bóljšima",
+      "adj_fem_ins_pl": "bóljšimi",
+      "adj_fem_ins_sg": "bóljšo",
+      "adj_fem_nom_du": "bóljši",
+      "adj_fem_nom_pl": "bóljše",
+      "adj_fem_nom_sg": "bóljša",
+      "adj_masc_acc_du": "bóljša",
+      "adj_masc_acc_pl": "bóljše",
+      "adj_masc_dat_du": "bóljšima",
+      "adj_masc_dat_pl": "bóljšim",
+      "adj_masc_dat_sg": "bóljšemu",
+      "adj_masc_ess_du": "bóljših",
+      "adj_masc_ess_pl": "bóljših",
+      "adj_masc_ess_sg": "bóljšem",
+      "adj_masc_gen_du": "bóljših",
+      "adj_masc_gen_pl": "bóljših",
+      "adj_masc_gen_sg": "bóljšega",
+      "adj_masc_ins_du": "bóljšima",
+      "adj_masc_ins_pl": "bóljšimi",
+      "adj_masc_ins_sg": "bóljšim",
+      "adj_masc_nom_du": "bóljša",
+      "adj_masc_nom_pl": "bóljši",
+      "adj_masc_nom_sg": "bóljši",
+      "adj_neut_acc_du": "bóljši",
+      "adj_neut_acc_pl": "bóljša",
+      "adj_neut_acc_sg": "bóljše",
+      "adj_neut_dat_du": "bóljšima",
+      "adj_neut_dat_pl": "bóljšim",
+      "adj_neut_dat_sg": "bóljšemu",
+      "adj_neut_ess_du": "bóljših",
+      "adj_neut_ess_pl": "bóljših",
+      "adj_neut_ess_sg": "bóljšem",
+      "adj_neut_gen_du": "bóljših",
+      "adj_neut_gen_pl": "bóljših",
+      "adj_neut_gen_sg": "bóljšega",
+      "adj_neut_ins_du": "bóljšima",
+      "adj_neut_ins_pl": "bóljšimi",
+      "adj_neut_ins_sg": "bóljšim",
+      "adj_neut_nom_du": "bóljši",
+      "adj_neut_nom_pl": "bóljša",
+      "adj_neut_nom_sg": "bóljše",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "bomo": {
+    "antonyms": [],
+    "base": "bomo",
+    "examples": [
+      "Bomo šli na izlet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "brat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "brat",
+    "inflections": {
+      "n_acc_du": "bráta",
+      "n_acc_pl": "bráte",
+      "n_acc_sg": "bráta",
+      "n_dat_du": "brátoma",
+      "n_dat_pl": "brátom",
+      "n_dat_sg": "brátu",
+      "n_ess_du": "brátih",
+      "n_ess_pl": "brátih",
+      "n_ess_sg": "brátu",
+      "n_gen_du": "brátov",
+      "n_gen_pl": "brátov",
+      "n_gen_sg": "bráta",
+      "n_ins_du": "brátoma",
+      "n_ins_pl": "bráti",
+      "n_ins_sg": "brátom",
+      "n_nom_du": "bráta",
+      "n_nom_pl": "brátje",
+      "n_nom_sg": "bràt",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "briga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "briga",
+    "inflections": {
+      "n_acc_du": "brígi",
+      "n_acc_pl": "bríge",
+      "n_acc_sg": "brígo",
+      "n_dat_du": "brígama",
+      "n_dat_pl": "brígam",
+      "n_dat_sg": "brígi",
+      "n_ess_du": "brígah",
+      "n_ess_pl": "brígah",
+      "n_ess_sg": "brígi",
+      "n_gen_du": "bríg",
+      "n_gen_pl": "bríg",
+      "n_gen_sg": "bríge",
+      "n_ins_du": "brígama",
+      "n_ins_pl": "brígami",
+      "n_ins_sg": "brígo",
+      "n_nom_du": "brígi",
+      "n_nom_pl": "bríge",
+      "n_nom_sg": "bríga",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "cel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cel",
+    "inflections": {
+      "adj_fem_acc_du": "céli",
+      "adj_fem_acc_pl": "céle",
+      "adj_fem_acc_sg": "célo",
+      "adj_fem_dat_du": "célima",
+      "adj_fem_dat_pl": "célim",
+      "adj_fem_dat_sg": "céli",
+      "adj_fem_ess_du": "célih",
+      "adj_fem_ess_pl": "célih",
+      "adj_fem_ess_sg": "céli",
+      "adj_fem_gen_du": "célih",
+      "adj_fem_gen_pl": "célih",
+      "adj_fem_gen_sg": "céle",
+      "adj_fem_ins_du": "célima",
+      "adj_fem_ins_pl": "célimi",
+      "adj_fem_ins_sg": "célo",
+      "adj_fem_nom_du": "céli",
+      "adj_fem_nom_pl": "céle",
+      "adj_fem_nom_sg": "céla",
+      "adj_masc_acc_du": "céla",
+      "adj_masc_acc_pl": "céle",
+      "adj_masc_dat_du": "célima",
+      "adj_masc_dat_pl": "célim",
+      "adj_masc_dat_sg": "célemu",
+      "adj_masc_ess_du": "célih",
+      "adj_masc_ess_pl": "célih",
+      "adj_masc_ess_sg": "célem",
+      "adj_masc_gen_du": "célih",
+      "adj_masc_gen_pl": "célih",
+      "adj_masc_gen_sg": "célega",
+      "adj_masc_ins_du": "célima",
+      "adj_masc_ins_pl": "célimi",
+      "adj_masc_ins_sg": "célim",
+      "adj_masc_nom_du": "céla",
+      "adj_masc_nom_pl": "céli",
+      "adj_masc_nom_sg_def": "céli",
+      "adj_masc_nom_sg_indf": "cél",
+      "adj_neut_acc_du": "céli",
+      "adj_neut_acc_pl": "céla",
+      "adj_neut_acc_sg": "célo",
+      "adj_neut_dat_du": "célima",
+      "adj_neut_dat_pl": "célim",
+      "adj_neut_dat_sg": "célemu",
+      "adj_neut_ess_du": "célih",
+      "adj_neut_ess_pl": "célih",
+      "adj_neut_ess_sg": "célem",
+      "adj_neut_gen_du": "célih",
+      "adj_neut_gen_pl": "célih",
+      "adj_neut_gen_sg": "célega",
+      "adj_neut_ins_du": "célima",
+      "adj_neut_ins_pl": "célimi",
+      "adj_neut_ins_sg": "célim",
+      "adj_neut_nom_du": "céli",
+      "adj_neut_nom_pl": "céla",
+      "adj_neut_nom_sg": "célo",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "da": {
+    "antonyms": [
+      "ne"
+    ],
+    "base": "da",
+    "examples": [
+      "Da, to je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "darilo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darilo",
+    "inflections": {
+      "n_acc_du": "daríli",
+      "n_acc_pl": "daríla",
+      "n_acc_sg": "darílo",
+      "n_dat_du": "daríloma",
+      "n_dat_pl": "darílom",
+      "n_dat_sg": "darílu",
+      "n_ess_du": "darílih",
+      "n_ess_pl": "darílih",
+      "n_ess_sg": "darílu",
+      "n_gen_du": "daríl",
+      "n_gen_pl": "daríl",
+      "n_gen_sg": "daríla",
+      "n_ins_du": "daríloma",
+      "n_ins_pl": "daríli",
+      "n_ins_sg": "darílom",
+      "n_nom_du": "daríli",
+      "n_nom_pl": "daríla",
+      "n_nom_sg": "darílo",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "dekle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dekle",
+    "inflections": {
+      "n_acc_du": "dekleti",
+      "n_acc_pl": "dekleta",
+      "n_acc_sg": "dekle",
+      "n_dat_du": "dekletoma",
+      "n_dat_pl": "dekletom",
+      "n_dat_sg": "dekletu",
+      "n_ess_du": "dekletih",
+      "n_ess_pl": "dekletih",
+      "n_ess_sg": "dekletu",
+      "n_gen_du": "deklet",
+      "n_gen_pl": "deklet",
+      "n_gen_sg": "dekleta",
+      "n_ins_du": "dekletoma",
+      "n_ins_pl": "dekleti",
+      "n_ins_sg": "dekletom",
+      "n_nom_du": "dekleti",
+      "n_nom_pl": "dekleta",
+      "n_nom_sg": "dekle",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "del": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "del",
+    "inflections": {
+      "n_acc_du": "déla",
+      "n_acc_pl": "déle",
+      "n_acc_sg": "dél",
+      "n_dat_du": "déloma",
+      "n_dat_pl": "délom",
+      "n_dat_sg": "délu",
+      "n_ess_du": "délih",
+      "n_ess_pl": "délih",
+      "n_ess_sg": "délu",
+      "n_gen_du": "délov",
+      "n_gen_pl": "délov",
+      "n_gen_sg": "déla",
+      "n_ins_du": "déloma",
+      "n_ins_pl": "déli",
+      "n_ins_sg": "délom",
+      "n_nom_du": "déla",
+      "n_nom_pl": "déli",
+      "n_nom_sg": "dél",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "delo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "delo",
+    "inflections": {
+      "n_acc_du": "déli",
+      "n_acc_pl": "déla",
+      "n_acc_sg": "délo",
+      "n_dat_du": "déloma",
+      "n_dat_pl": "délom",
+      "n_dat_sg": "délu",
+      "n_ess_du": "délih",
+      "n_ess_pl": "délih",
+      "n_ess_sg": "délu",
+      "n_gen_du": "dél",
+      "n_gen_pl": "dél",
+      "n_gen_sg": "déla",
+      "n_ins_du": "déloma",
+      "n_ins_pl": "déli",
+      "n_ins_sg": "délom",
+      "n_nom_du": "déli",
+      "n_nom_pl": "déla",
+      "n_nom_sg": "délo",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "denar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "denar",
+    "inflections": {
+      "n_acc_du": "denárja",
+      "n_acc_pl": "denárje",
+      "n_acc_sg": "denár",
+      "n_dat_du": "denárjema",
+      "n_dat_pl": "denárjem",
+      "n_dat_sg": "denárju",
+      "n_ess_du": "denárjih",
+      "n_ess_pl": "denárjih",
+      "n_ess_sg": "denárju",
+      "n_gen_du": "denárjev",
+      "n_gen_pl": "denárjev",
+      "n_gen_sg": "denárja",
+      "n_ins_du": "denárjema",
+      "n_ins_pl": "denárji",
+      "n_ins_sg": "denárjem",
+      "n_nom_du": "denárja",
+      "n_nom_pl": "denárji",
+      "n_nom_sg": "denár",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "do": {
+    "antonyms": [],
+    "base": "do",
+    "examples": [
+      "Pojdi do trgovine."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "dober": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dober",
+    "inflections": {
+      "adj_fem_acc_du": "dobri",
+      "adj_fem_acc_pl": "dobre",
+      "adj_fem_acc_sg": "dobro",
+      "adj_fem_dat_du": "dobrima",
+      "adj_fem_dat_pl": "dobrim",
+      "adj_fem_dat_sg": "dobri",
+      "adj_fem_ess_du": "dobrih",
+      "adj_fem_ess_pl": "dobrih",
+      "adj_fem_ess_sg": "dobri",
+      "adj_fem_gen_du": "dobrih",
+      "adj_fem_gen_pl": "dobrih",
+      "adj_fem_gen_sg": "dobre",
+      "adj_fem_ins_du": "dobrima",
+      "adj_fem_ins_pl": "dobrimi",
+      "adj_fem_ins_sg": "dobro",
+      "adj_fem_nom_du": "dobri",
+      "adj_fem_nom_pl": "dobre",
+      "adj_fem_nom_sg": "dobra",
+      "adj_masc_acc_du": "dobra",
+      "adj_masc_acc_pl": "dobre",
+      "adj_masc_dat_du": "dobrima",
+      "adj_masc_dat_pl": "dobrim",
+      "adj_masc_dat_sg": "dobremu",
+      "adj_masc_ess_du": "dobrih",
+      "adj_masc_ess_pl": "dobrih",
+      "adj_masc_ess_sg": "dobrem",
+      "adj_masc_gen_du": "dobrih",
+      "adj_masc_gen_pl": "dobrih",
+      "adj_masc_gen_sg": "dobrega",
+      "adj_masc_ins_du": "dobrima",
+      "adj_masc_ins_pl": "dobrimi",
+      "adj_masc_ins_sg": "dobrim",
+      "adj_masc_nom_du": "dobra",
+      "adj_masc_nom_pl": "dobri",
+      "adj_masc_nom_sg_def": "dobri",
+      "adj_masc_nom_sg_indf": "dober",
+      "adj_neut_acc_du": "dobri",
+      "adj_neut_acc_pl": "dobra",
+      "adj_neut_acc_sg": "dobro",
+      "adj_neut_dat_du": "dobrima",
+      "adj_neut_dat_pl": "dobrim",
+      "adj_neut_dat_sg": "dobremu",
+      "adj_neut_ess_du": "dobrih",
+      "adj_neut_ess_pl": "dobrih",
+      "adj_neut_ess_sg": "dobrem",
+      "adj_neut_gen_du": "dobrih",
+      "adj_neut_gen_pl": "dobrih",
+      "adj_neut_gen_sg": "dobrega",
+      "adj_neut_ins_du": "dobrima",
+      "adj_neut_ins_pl": "dobrimi",
+      "adj_neut_ins_sg": "dobrim",
+      "adj_neut_nom_du": "dobri",
+      "adj_neut_nom_pl": "dobra",
+      "adj_neut_nom_sg": "dobro",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "drug": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drug",
+    "inflections": {
+      "adj_fem_acc_du": "drúgi",
+      "adj_fem_acc_pl": "drúge",
+      "adj_fem_acc_sg": "drúgo",
+      "adj_fem_dat_du": "drúgima",
+      "adj_fem_dat_pl": "drúgim",
+      "adj_fem_dat_sg": "drúgi",
+      "adj_fem_ess_du": "drúgih",
+      "adj_fem_ess_pl": "drúgih",
+      "adj_fem_ess_sg": "drúgi",
+      "adj_fem_gen_du": "drúgih",
+      "adj_fem_gen_pl": "drúgih",
+      "adj_fem_gen_sg": "drúge",
+      "adj_fem_ins_du": "drúgima",
+      "adj_fem_ins_pl": "drúgimi",
+      "adj_fem_ins_sg": "drúgo",
+      "adj_fem_nom_du": "drúgi",
+      "adj_fem_nom_pl": "drúge",
+      "adj_fem_nom_sg": "drúga",
+      "adj_masc_acc_du": "drúga",
+      "adj_masc_acc_pl": "drúge",
+      "adj_masc_dat_du": "drúgima",
+      "adj_masc_dat_pl": "drúgim",
+      "adj_masc_dat_sg": "drúgemu",
+      "adj_masc_ess_du": "drúgih",
+      "adj_masc_ess_pl": "drúgih",
+      "adj_masc_ess_sg": "drúgem",
+      "adj_masc_gen_du": "drúgih",
+      "adj_masc_gen_pl": "drúgih",
+      "adj_masc_gen_sg": "drúgega",
+      "adj_masc_ins_du": "drúgima",
+      "adj_masc_ins_pl": "drúgimi",
+      "adj_masc_ins_sg": "drúgim",
+      "adj_masc_nom_du": "drúga",
+      "adj_masc_nom_pl": "drúgi",
+      "adj_masc_nom_sg_def": "drúgi",
+      "adj_masc_nom_sg_indf": "drúg",
+      "adj_neut_acc_du": "drúgi",
+      "adj_neut_acc_pl": "drúga",
+      "adj_neut_acc_sg": "drúgo",
+      "adj_neut_dat_du": "drúgima",
+      "adj_neut_dat_pl": "drúgim",
+      "adj_neut_dat_sg": "drúgemu",
+      "adj_neut_ess_du": "drúgih",
+      "adj_neut_ess_pl": "drúgih",
+      "adj_neut_ess_sg": "drúgem",
+      "adj_neut_gen_du": "drúgih",
+      "adj_neut_gen_pl": "drúgih",
+      "adj_neut_gen_sg": "drúgega",
+      "adj_neut_ins_du": "drúgima",
+      "adj_neut_ins_pl": "drúgimi",
+      "adj_neut_ins_sg": "drúgim",
+      "adj_neut_nom_du": "drúgi",
+      "adj_neut_nom_pl": "drúga",
+      "adj_neut_nom_sg": "drúgo",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "drugi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drugi",
+    "inflections": {
+      "adj_fem_acc_du": "drúgi",
+      "adj_fem_acc_pl": "drúge",
+      "adj_fem_acc_sg": "drúgo",
+      "adj_fem_dat_du": "drúgima",
+      "adj_fem_dat_pl": "drúgim",
+      "adj_fem_dat_sg": "drúgi",
+      "adj_fem_ess_du": "drúgih",
+      "adj_fem_ess_pl": "drúgih",
+      "adj_fem_ess_sg": "drúgi",
+      "adj_fem_gen_du": "drúgih",
+      "adj_fem_gen_pl": "drúgih",
+      "adj_fem_gen_sg": "drúge",
+      "adj_fem_ins_du": "drúgima",
+      "adj_fem_ins_pl": "drúgimi",
+      "adj_fem_ins_sg": "drúgo",
+      "adj_fem_nom_du": "drúgi",
+      "adj_fem_nom_pl": "drúge",
+      "adj_fem_nom_sg": "drúga",
+      "adj_masc_acc_du": "drúga",
+      "adj_masc_acc_pl": "drúge",
+      "adj_masc_dat_du": "drúgima",
+      "adj_masc_dat_pl": "drúgim",
+      "adj_masc_dat_sg": "drúgemu",
+      "adj_masc_ess_du": "drúgih",
+      "adj_masc_ess_pl": "drúgih",
+      "adj_masc_ess_sg": "drúgem",
+      "adj_masc_gen_du": "drúgih",
+      "adj_masc_gen_pl": "drúgih",
+      "adj_masc_gen_sg": "drúgega",
+      "adj_masc_ins_du": "drúgima",
+      "adj_masc_ins_pl": "drúgimi",
+      "adj_masc_ins_sg": "drúgim",
+      "adj_masc_nom_du": "drúga",
+      "adj_masc_nom_pl": "drúgi",
+      "adj_masc_nom_sg": "drúgi",
+      "adj_neut_acc_du": "drúgi",
+      "adj_neut_acc_pl": "drúga",
+      "adj_neut_acc_sg": "drúgo",
+      "adj_neut_dat_du": "drúgima",
+      "adj_neut_dat_pl": "drúgim",
+      "adj_neut_dat_sg": "drúgemu",
+      "adj_neut_ess_du": "drúgih",
+      "adj_neut_ess_pl": "drúgih",
+      "adj_neut_ess_sg": "drúgem",
+      "adj_neut_gen_du": "drúgih",
+      "adj_neut_gen_pl": "drúgih",
+      "adj_neut_gen_sg": "drúgega",
+      "adj_neut_ins_du": "drúgima",
+      "adj_neut_ins_pl": "drúgimi",
+      "adj_neut_ins_sg": "drúgim",
+      "adj_neut_nom_du": "drúgi",
+      "adj_neut_nom_pl": "drúga",
+      "adj_neut_nom_sg": "drúgo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "družina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "družina",
+    "inflections": {
+      "n_acc_du": "družíni",
+      "n_acc_pl": "družíne",
+      "n_acc_sg": "družíno",
+      "n_dat_du": "družínama",
+      "n_dat_pl": "družínam",
+      "n_dat_sg": "družíni",
+      "n_ess_du": "družínah",
+      "n_ess_pl": "družínah",
+      "n_ess_sg": "družíni",
+      "n_gen_du": "družín",
+      "n_gen_pl": "družín",
+      "n_gen_sg": "družíne",
+      "n_ins_du": "družínama",
+      "n_ins_pl": "družínami",
+      "n_ins_sg": "družíno",
+      "n_nom_du": "družíni",
+      "n_nom_pl": "družíne",
+      "n_nom_sg": "družína",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "fant": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fant",
+    "inflections": {
+      "n_acc_du": "fánta",
+      "n_acc_pl": "fánte",
+      "n_acc_sg": "fánta",
+      "n_dat_du": "fántoma",
+      "n_dat_pl": "fántom",
+      "n_dat_sg": "fántu",
+      "n_ess_du": "fántih",
+      "n_ess_pl": "fántih",
+      "n_ess_sg": "fántu",
+      "n_gen_du": "fántov",
+      "n_gen_pl": "fántov",
+      "n_gen_sg": "fánta",
+      "n_ins_du": "fántoma",
+      "n_ins_pl": "fánti",
+      "n_ins_sg": "fántom",
+      "n_nom_du": "fánta",
+      "n_nom_pl": "fántje",
+      "n_nom_sg": "fànt",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "gospa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gospa",
+    "inflections": {
+      "n_acc_du": "gospa",
+      "n_acc_pl": "gospa",
+      "n_acc_sg": "gospe",
+      "n_dat_du": "gospe",
+      "n_dat_pl": "gospe",
+      "n_dat_sg": "gospo",
+      "n_ess_du": "gospeh",
+      "n_ess_pl": "gospeh",
+      "n_ess_sg": "gospe",
+      "n_gen_du": "gospema",
+      "n_gen_pl": "gospem",
+      "n_gen_sg": "gospe",
+      "n_ins_du": "gospema",
+      "n_ins_pl": "gospemi",
+      "n_ins_sg": "gospo",
+      "n_nom_du": "gospe",
+      "n_nom_pl": "gospe",
+      "n_nom_sg": "gospa",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "gospod": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gospod",
+    "inflections": {
+      "n_acc_du": "gospóda",
+      "n_acc_pl": "gospóde",
+      "n_acc_sg": "gospód",
+      "n_dat_du": "gospódoma",
+      "n_dat_pl": "gospódom",
+      "n_dat_sg": "gospódu",
+      "n_ess_du": "gospódih",
+      "n_ess_pl": "gospódih",
+      "n_ess_sg": "gospódu",
+      "n_gen_du": "gospódov",
+      "n_gen_pl": "gospódov",
+      "n_gen_sg": "gospóda",
+      "n_ins_du": "gospódoma",
+      "n_ins_pl": "gospódi",
+      "n_ins_sg": "gospódom",
+      "n_nom_du": "gospóda",
+      "n_nom_pl": "gospódje",
+      "n_nom_sg": "gospód",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "govoriti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "govoriti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi govóril",
+      "v_cond_pst": "bi bil govóril",
+      "v_imp_1_du": "govoríva",
+      "v_imp_1_pl": "govorímo",
+      "v_imp_2_du": "govoríta",
+      "v_imp_2_pl": "govoríte",
+      "v_imp_2_sg": "govôri",
+      "v_ind_fut": "bom govóril",
+      "v_ind_prf_pst": "sem bil govóril",
+      "v_ind_prs_1_du": "govoríva",
+      "v_ind_prs_1_pl": "govorímo",
+      "v_ind_prs_1_sg": "govorím",
+      "v_ind_prs_2_du": "govoríta",
+      "v_ind_prs_2_pl": "govoríte",
+      "v_ind_prs_2_sg": "govoríš",
+      "v_ind_prs_3_du": "govoríta",
+      "v_ind_prs_3_pl": "govoríjo",
+      "v_ind_prs_3_sg": "govorí",
+      "v_ind_pst": "sem govóril",
+      "v_msdr": "govorjênje",
+      "v_nfin": "govoríti",
+      "v_pctp_act_prs": "govorèč",
+      "v_pctp_act_pst": "govóril",
+      "v_pctp_pass_pst": "govorjèn"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "hiša": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hiša",
+    "inflections": {
+      "n_acc_du": "híši",
+      "n_acc_pl": "híše",
+      "n_acc_sg": "híšo",
+      "n_dat_du": "híšama",
+      "n_dat_pl": "híšam",
+      "n_dat_sg": "híši",
+      "n_ess_du": "híšah",
+      "n_ess_pl": "híšah",
+      "n_ess_sg": "híši",
+      "n_gen_du": "híš",
+      "n_gen_pl": "híš",
+      "n_gen_sg": "híše",
+      "n_ins_du": "híšama",
+      "n_ins_pl": "híšami",
+      "n_ins_sg": "híšo",
+      "n_nom_du": "híši",
+      "n_nom_pl": "híše",
+      "n_nom_sg": "híša",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "hvala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hvala",
+    "inflections": {
+      "n_acc_pl": "hválo",
+      "n_dat_pl": "hváli",
+      "n_ess_pl": "hváli",
+      "n_gen_pl": "hvále",
+      "n_ins_pl": "hválo",
+      "n_nom_pl": "hvála",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "igra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "igra",
+    "inflections": {
+      "n_acc_du": "ígri",
+      "n_acc_pl": "ígre",
+      "n_acc_sg": "ígro",
+      "n_dat_du": "ígrama",
+      "n_dat_pl": "ígram",
+      "n_dat_sg": "ígri",
+      "n_ess_du": "ígrah",
+      "n_ess_pl": "ígrah",
+      "n_ess_sg": "ígri",
+      "n_gen_du": "íger",
+      "n_gen_pl": "íger",
+      "n_gen_sg": "ígre",
+      "n_ins_du": "ígrama",
+      "n_ins_pl": "ígrami",
+      "n_ins_sg": "ígro",
+      "n_nom_du": "ígri",
+      "n_nom_pl": "ígre",
+      "n_nom_sg": "ígra",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ime": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ime",
+    "inflections": {
+      "n_acc_du": "imeni",
+      "n_acc_pl": "imena",
+      "n_acc_sg": "ime",
+      "n_dat_du": "imenoma",
+      "n_dat_pl": "imenom",
+      "n_dat_sg": "imenu",
+      "n_ess_du": "imenih",
+      "n_ess_pl": "imenih",
+      "n_ess_sg": "imenu",
+      "n_gen_du": "imen",
+      "n_gen_pl": "imen",
+      "n_gen_sg": "imena",
+      "n_ins_du": "imenoma",
+      "n_ins_pl": "imeni",
+      "n_ins_sg": "imenom",
+      "n_nom_du": "imeni",
+      "n_nom_pl": "imena",
+      "n_nom_sg": "ime",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "imeti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "imeti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi imèl",
+      "v_cond_pst": "bi bil imèl",
+      "v_cvb_act_prs": "imáje",
+      "v_imp_1_du": "imêjva",
+      "v_imp_1_pl": "imêjmo",
+      "v_imp_2_du": "imêjta",
+      "v_imp_2_pl": "imêjte",
+      "v_imp_2_sg": "imèj",
+      "v_ind_fut": "bom imèl",
+      "v_ind_prf_pst": "sem bil imèl",
+      "v_ind_prs_1_du": "imáva",
+      "v_ind_prs_1_pl": "imámo",
+      "v_ind_prs_1_sg": "imám",
+      "v_ind_prs_2_du": "imáta",
+      "v_ind_prs_2_pl": "imáte",
+      "v_ind_prs_2_sg": "imáš",
+      "v_ind_prs_3_du": "imáta",
+      "v_ind_prs_3_pl": "imájo",
+      "v_ind_prs_3_sg": "imá",
+      "v_ind_pst": "sem imèl",
+      "v_nfin": "iméti",
+      "v_pctp_act_prs": "imajóč",
+      "v_pctp_act_pst": "imèl"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "in": {
+    "antonyms": [],
+    "base": "in",
+    "examples": [
+      "On je in ona."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [
+      "Ja, to je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jaz": {
+    "antonyms": [],
+    "base": "jaz",
+    "examples": [
+      "Jaz sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "On je učitelj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jih": {
+    "antonyms": [],
+    "base": "jih",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jutro": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jutro",
+    "inflections": {
+      "n_acc_du": "jútri",
+      "n_acc_pl": "jútra",
+      "n_acc_sg": "jútro",
+      "n_dat_du": "jútroma",
+      "n_dat_pl": "jútrom",
+      "n_dat_sg": "jútru",
+      "n_ess_du": "jútrih",
+      "n_ess_pl": "jútrih",
+      "n_ess_sg": "jútru",
+      "n_gen_du": "júter",
+      "n_gen_pl": "júter",
+      "n_gen_sg": "jútra",
+      "n_ins_du": "jútroma",
+      "n_ins_pl": "jútri",
+      "n_ins_sg": "jútrom",
+      "n_nom_du": "jútri",
+      "n_nom_pl": "jútra",
+      "n_nom_sg": "jútro",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "kaj": {
+    "antonyms": [],
+    "base": "kaj",
+    "examples": [
+      "Kaj delaš?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kako": {
+    "antonyms": [],
+    "base": "kako",
+    "examples": [
+      "Kako si?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ki": {
+    "antonyms": [],
+    "base": "ki",
+    "examples": [
+      "Ki je to?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "konec": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "konec",
+    "inflections": {
+      "n_acc_du": "kônca",
+      "n_acc_pl": "kônce",
+      "n_acc_sg": "kônec",
+      "n_dat_du": "kôncema",
+      "n_dat_pl": "kôncem",
+      "n_dat_sg": "kôncu",
+      "n_ess_du": "kôncih",
+      "n_ess_pl": "kôncih",
+      "n_ess_sg": "kôncu",
+      "n_gen_du": "kôncev",
+      "n_gen_pl": "kôncev",
+      "n_gen_sg": "kônca",
+      "n_ins_du": "kôncema",
+      "n_ins_pl": "kônci",
+      "n_ins_sg": "kôncem",
+      "n_nom_du": "kônca",
+      "n_nom_pl": "kônci",
+      "n_nom_sg": "kônec",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kot": {
+    "antonyms": [],
+    "base": "kot",
+    "examples": [
+      "Kot sem rekel."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "kraj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kraj",
+    "inflections": {
+      "n_acc_du": "krája",
+      "n_acc_pl": "kráje",
+      "n_acc_sg": "kràj",
+      "n_dat_du": "krájema",
+      "n_dat_pl": "krájem",
+      "n_dat_sg": "kráju",
+      "n_ess_du": "krájih",
+      "n_ess_pl": "krájih",
+      "n_ess_sg": "kráju",
+      "n_gen_du": "krájev",
+      "n_gen_pl": "krájev",
+      "n_gen_sg": "krája",
+      "n_ins_du": "krájema",
+      "n_ins_pl": "kráji",
+      "n_ins_sg": "krájem",
+      "n_nom_du": "krája",
+      "n_nom_pl": "kráji",
+      "n_nom_sg": "kràj",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "kralj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kralj",
+    "inflections": {
+      "n_acc_du": "králja",
+      "n_acc_pl": "králje",
+      "n_acc_sg": "králja",
+      "n_dat_du": "králjema",
+      "n_dat_pl": "králjem",
+      "n_dat_sg": "králju",
+      "n_ess_du": "králjih",
+      "n_ess_pl": "králjih",
+      "n_ess_sg": "králju",
+      "n_gen_du": "králjev",
+      "n_gen_pl": "králjev",
+      "n_gen_sg": "králja",
+      "n_ins_du": "králjema",
+      "n_ins_pl": "králji",
+      "n_ins_sg": "králjem",
+      "n_nom_du": "králja",
+      "n_nom_pl": "králji",
+      "n_nom_sg": "králj",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kri",
+    "inflections": {
+      "n_acc_pl": "kri",
+      "n_dat_pl": "krvi",
+      "n_ess_pl": "krvi",
+      "n_gen_pl": "krvi",
+      "n_ins_pl": "krvjo",
+      "n_nom_pl": "kri",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "let": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "let",
+    "inflections": {
+      "n_acc_du": "léta",
+      "n_acc_pl": "léte",
+      "n_acc_sg": "lèt",
+      "n_dat_du": "létoma",
+      "n_dat_pl": "létom",
+      "n_dat_sg": "létu",
+      "n_ess_du": "létih",
+      "n_ess_pl": "létih",
+      "n_ess_sg": "létu",
+      "n_gen_du": "létov",
+      "n_gen_pl": "létov",
+      "n_gen_sg": "léta",
+      "n_ins_du": "létoma",
+      "n_ins_pl": "léti",
+      "n_ins_sg": "létom",
+      "n_nom_du": "léta",
+      "n_nom_pl": "léti",
+      "n_nom_sg": "lèt",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "leto": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leto",
+    "inflections": {
+      "n_acc_du": "léti",
+      "n_acc_pl": "léta",
+      "n_acc_sg": "léto",
+      "n_dat_du": "létoma",
+      "n_dat_pl": "létom",
+      "n_dat_sg": "létu",
+      "n_ess_du": "létih",
+      "n_ess_pl": "létih",
+      "n_ess_sg": "létu",
+      "n_gen_du": "lét",
+      "n_gen_pl": "lét",
+      "n_gen_sg": "léta",
+      "n_ins_du": "létoma",
+      "n_ins_pl": "léti",
+      "n_ins_sg": "létom",
+      "n_nom_du": "léti",
+      "n_nom_pl": "léta",
+      "n_nom_sg": "léto",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ljubezen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ljubezen",
+    "inflections": {
+      "n_acc_pl": "ljubézen",
+      "n_dat_pl": "ljubézni",
+      "n_ess_pl": "ljubézni",
+      "n_gen_pl": "ljubézni",
+      "n_ins_pl": "ljubéznijo",
+      "n_nom_pl": "ljubézen",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "mati": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mati",
+    "inflections": {
+      "n_acc_du": "materi",
+      "n_acc_pl": "matere",
+      "n_acc_sg": "mater",
+      "n_dat_du": "materama",
+      "n_dat_pl": "materam",
+      "n_dat_sg": "materi",
+      "n_ess_du": "materah",
+      "n_ess_pl": "materah",
+      "n_ess_sg": "materi",
+      "n_gen_du": "mater",
+      "n_gen_pl": "mater",
+      "n_gen_sg": "matere",
+      "n_ins_du": "materama",
+      "n_ins_pl": "materami",
+      "n_ins_sg": "materjo",
+      "n_nom_du": "materi",
+      "n_nom_pl": "matere",
+      "n_nom_sg": "mati",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "mesto": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mesto",
+    "inflections": {
+      "n_acc_du": "mésti",
+      "n_acc_pl": "mésta",
+      "n_acc_sg": "mésto",
+      "n_dat_du": "méstoma",
+      "n_dat_pl": "méstom",
+      "n_dat_sg": "méstu",
+      "n_ess_du": "méstih",
+      "n_ess_pl": "méstih",
+      "n_ess_sg": "méstu",
+      "n_gen_du": "mést",
+      "n_gen_pl": "mést",
+      "n_gen_sg": "mésta",
+      "n_ins_du": "méstoma",
+      "n_ins_pl": "mésti",
+      "n_ins_sg": "méstom",
+      "n_nom_du": "mésti",
+      "n_nom_pl": "mésta",
+      "n_nom_sg": "mésto",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "mislim": {
+    "antonyms": [],
+    "base": "mislim",
+    "examples": [
+      "Mislim, da je to dobra ideja."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "moj": {
+    "antonyms": [],
+    "base": "moj",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "moč": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moč",
+    "inflections": {
+      "n_acc_du": "močí",
+      "n_acc_pl": "močí",
+      "n_acc_sg": "móč",
+      "n_dat_du": "močéma",
+      "n_dat_pl": "močém",
+      "n_dat_sg": "môči",
+      "n_ess_du": "močéh",
+      "n_ess_pl": "močéh",
+      "n_ess_sg": "môči",
+      "n_gen_du": "močí",
+      "n_gen_pl": "močí",
+      "n_gen_sg": "močí",
+      "n_ins_du": "močéma",
+      "n_ins_pl": "močmí",
+      "n_ins_sg": "močjó",
+      "n_nom_du": "močí",
+      "n_nom_pl": "močí",
+      "n_nom_sg": "móč",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "moški": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moški",
+    "inflections": {
+      "adj_fem_acc_du": "môški",
+      "adj_fem_acc_pl": "môške",
+      "adj_fem_acc_sg": "môško",
+      "adj_fem_dat_du": "môškima",
+      "adj_fem_dat_pl": "môškim",
+      "adj_fem_dat_sg": "môški",
+      "adj_fem_ess_du": "môških",
+      "adj_fem_ess_pl": "môških",
+      "adj_fem_ess_sg": "môški",
+      "adj_fem_gen_du": "môških",
+      "adj_fem_gen_pl": "môških",
+      "adj_fem_gen_sg": "môške",
+      "adj_fem_ins_du": "môškima",
+      "adj_fem_ins_pl": "môškimi",
+      "adj_fem_ins_sg": "môško",
+      "adj_fem_nom_du": "môški",
+      "adj_fem_nom_pl": "môške",
+      "adj_fem_nom_sg": "môška",
+      "adj_masc_acc_du": "môška",
+      "adj_masc_acc_pl": "môške",
+      "adj_masc_dat_du": "môškima",
+      "adj_masc_dat_pl": "môškim",
+      "adj_masc_dat_sg": "môškemu",
+      "adj_masc_ess_du": "môških",
+      "adj_masc_ess_pl": "môških",
+      "adj_masc_ess_sg": "môškem",
+      "adj_masc_gen_du": "môških",
+      "adj_masc_gen_pl": "môških",
+      "adj_masc_gen_sg": "môškega",
+      "adj_masc_ins_du": "môškima",
+      "adj_masc_ins_pl": "môškimi",
+      "adj_masc_ins_sg": "môškim",
+      "adj_masc_nom_du": "môška",
+      "adj_masc_nom_pl": "môški",
+      "adj_masc_nom_sg": "môški",
+      "adj_neut_acc_du": "môški",
+      "adj_neut_acc_pl": "môška",
+      "adj_neut_acc_sg": "môško",
+      "adj_neut_dat_du": "môškima",
+      "adj_neut_dat_pl": "môškim",
+      "adj_neut_dat_sg": "môškemu",
+      "adj_neut_ess_du": "môških",
+      "adj_neut_ess_pl": "môških",
+      "adj_neut_ess_sg": "môškem",
+      "adj_neut_gen_du": "môških",
+      "adj_neut_gen_pl": "môških",
+      "adj_neut_gen_sg": "môškega",
+      "adj_neut_ins_du": "môškima",
+      "adj_neut_ins_pl": "môškimi",
+      "adj_neut_ins_sg": "môškim",
+      "adj_neut_nom_du": "môški",
+      "adj_neut_nom_pl": "môška",
+      "adj_neut_nom_sg": "môško",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "možnost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "možnost",
+    "inflections": {
+      "n_acc_du": "móžnosti",
+      "n_acc_pl": "móžnosti",
+      "n_acc_sg": "móžnost",
+      "n_dat_du": "móžnostma",
+      "n_dat_pl": "móžnostim",
+      "n_dat_sg": "móžnosti",
+      "n_ess_du": "móžnostih",
+      "n_ess_pl": "móžnostih",
+      "n_ess_sg": "móžnosti",
+      "n_gen_du": "móžnosti",
+      "n_gen_pl": "móžnosti",
+      "n_gen_sg": "móžnosti",
+      "n_ins_du": "móžnostma",
+      "n_ins_pl": "móžnostmi",
+      "n_ins_sg": "móžnostjo",
+      "n_nom_du": "móžnosti",
+      "n_nom_pl": "móžnosti",
+      "n_nom_sg": "móžnost",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mrtev": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mrtev",
+    "inflections": {
+      "adj_fem_acc_du": "mŕtvi",
+      "adj_fem_acc_pl": "mŕtve",
+      "adj_fem_acc_sg": "mŕtvo",
+      "adj_fem_dat_du": "mŕtvima",
+      "adj_fem_dat_pl": "mŕtvim",
+      "adj_fem_dat_sg": "mŕtvi",
+      "adj_fem_ess_du": "mŕtvih",
+      "adj_fem_ess_pl": "mŕtvih",
+      "adj_fem_ess_sg": "mŕtvi",
+      "adj_fem_gen_du": "mŕtvih",
+      "adj_fem_gen_pl": "mŕtvih",
+      "adj_fem_gen_sg": "mŕtve",
+      "adj_fem_ins_du": "mŕtvima",
+      "adj_fem_ins_pl": "mŕtvimi",
+      "adj_fem_ins_sg": "mŕtvo",
+      "adj_fem_nom_du": "mŕtvi",
+      "adj_fem_nom_pl": "mŕtve",
+      "adj_fem_nom_sg": "mŕtva",
+      "adj_masc_acc_du": "mŕtva",
+      "adj_masc_acc_pl": "mŕtve",
+      "adj_masc_dat_du": "mŕtvima",
+      "adj_masc_dat_pl": "mŕtvim",
+      "adj_masc_dat_sg": "mŕtvemu",
+      "adj_masc_ess_du": "mŕtvih",
+      "adj_masc_ess_pl": "mŕtvih",
+      "adj_masc_ess_sg": "mŕtvem",
+      "adj_masc_gen_du": "mŕtvih",
+      "adj_masc_gen_pl": "mŕtvih",
+      "adj_masc_gen_sg": "mŕtvega",
+      "adj_masc_ins_du": "mŕtvima",
+      "adj_masc_ins_pl": "mŕtvimi",
+      "adj_masc_ins_sg": "mŕtvim",
+      "adj_masc_nom_du": "mŕtva",
+      "adj_masc_nom_pl": "mŕtvi",
+      "adj_masc_nom_sg_def": "mŕtvi",
+      "adj_masc_nom_sg_indf": "mŕtev",
+      "adj_neut_acc_du": "mŕtvi",
+      "adj_neut_acc_pl": "mŕtva",
+      "adj_neut_acc_sg": "mŕtvo",
+      "adj_neut_dat_du": "mŕtvima",
+      "adj_neut_dat_pl": "mŕtvim",
+      "adj_neut_dat_sg": "mŕtvemu",
+      "adj_neut_ess_du": "mŕtvih",
+      "adj_neut_ess_pl": "mŕtvih",
+      "adj_neut_ess_sg": "mŕtvem",
+      "adj_neut_gen_du": "mŕtvih",
+      "adj_neut_gen_pl": "mŕtvih",
+      "adj_neut_gen_sg": "mŕtvega",
+      "adj_neut_ins_du": "mŕtvima",
+      "adj_neut_ins_pl": "mŕtvimi",
+      "adj_neut_ins_sg": "mŕtvim",
+      "adj_neut_nom_du": "mŕtvi",
+      "adj_neut_nom_pl": "mŕtva",
+      "adj_neut_nom_sg": "mŕtvo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mu": {
+    "antonyms": [],
+    "base": "mu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "najboljši": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "najboljši",
+    "inflections": {
+      "adj_fem_acc_du": "nàjbóljši",
+      "adj_fem_acc_pl": "nàjbóljše",
+      "adj_fem_acc_sg": "nàjbóljšo",
+      "adj_fem_dat_du": "nàjbóljšima",
+      "adj_fem_dat_pl": "nàjbóljšim",
+      "adj_fem_dat_sg": "nàjbóljši",
+      "adj_fem_ess_du": "nàjbóljših",
+      "adj_fem_ess_pl": "nàjbóljših",
+      "adj_fem_ess_sg": "nàjbóljši",
+      "adj_fem_gen_du": "nàjbóljših",
+      "adj_fem_gen_pl": "nàjbóljših",
+      "adj_fem_gen_sg": "nàjbóljše",
+      "adj_fem_ins_du": "nàjbóljšima",
+      "adj_fem_ins_pl": "nàjbóljšimi",
+      "adj_fem_ins_sg": "nàjbóljšo",
+      "adj_fem_nom_du": "nàjbóljši",
+      "adj_fem_nom_pl": "nàjbóljše",
+      "adj_fem_nom_sg": "nàjbóljša",
+      "adj_masc_acc_du": "nàjbóljša",
+      "adj_masc_acc_pl": "nàjbóljše",
+      "adj_masc_dat_du": "nàjbóljšima",
+      "adj_masc_dat_pl": "nàjbóljšim",
+      "adj_masc_dat_sg": "nàjbóljšemu",
+      "adj_masc_ess_du": "nàjbóljših",
+      "adj_masc_ess_pl": "nàjbóljših",
+      "adj_masc_ess_sg": "nàjbóljšem",
+      "adj_masc_gen_du": "nàjbóljših",
+      "adj_masc_gen_pl": "nàjbóljših",
+      "adj_masc_gen_sg": "nàjbóljšega",
+      "adj_masc_ins_du": "nàjbóljšima",
+      "adj_masc_ins_pl": "nàjbóljšimi",
+      "adj_masc_ins_sg": "nàjbóljšim",
+      "adj_masc_nom_du": "nàjbóljša",
+      "adj_masc_nom_pl": "nàjbóljši",
+      "adj_masc_nom_sg": "nàjbóljši",
+      "adj_neut_acc_du": "nàjbóljši",
+      "adj_neut_acc_pl": "nàjbóljša",
+      "adj_neut_acc_sg": "nàjbóljše",
+      "adj_neut_dat_du": "nàjbóljšima",
+      "adj_neut_dat_pl": "nàjbóljšim",
+      "adj_neut_dat_sg": "nàjbóljšemu",
+      "adj_neut_ess_du": "nàjbóljših",
+      "adj_neut_ess_pl": "nàjbóljših",
+      "adj_neut_ess_sg": "nàjbóljšem",
+      "adj_neut_gen_du": "nàjbóljših",
+      "adj_neut_gen_pl": "nàjbóljših",
+      "adj_neut_gen_sg": "nàjbóljšega",
+      "adj_neut_ins_du": "nàjbóljšima",
+      "adj_neut_ins_pl": "nàjbóljšimi",
+      "adj_neut_ins_sg": "nàjbóljšim",
+      "adj_neut_nom_du": "nàjbóljši",
+      "adj_neut_nom_pl": "nàjbóljša",
+      "adj_neut_nom_sg": "nàjbóljše",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "napad": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "napad",
+    "inflections": {
+      "n_acc_du": "napáda",
+      "n_acc_pl": "napáde",
+      "n_acc_sg": "napàd",
+      "n_dat_du": "napádoma",
+      "n_dat_pl": "napádom",
+      "n_dat_sg": "napádu",
+      "n_ess_du": "napádih",
+      "n_ess_pl": "napádih",
+      "n_ess_sg": "napádu",
+      "n_gen_du": "napádov",
+      "n_gen_pl": "napádov",
+      "n_gen_sg": "napáda",
+      "n_ins_du": "napádoma",
+      "n_ins_pl": "napádi",
+      "n_ins_sg": "napádom",
+      "n_nom_du": "napáda",
+      "n_nom_pl": "napádi",
+      "n_nom_sg": "napàd",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "narediti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "narediti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi narédil",
+      "v_cond_pst": "bi bil narédil",
+      "v_imp_1_du": "naredíva",
+      "v_imp_1_pl": "naredímo",
+      "v_imp_2_du": "naredíta",
+      "v_imp_2_pl": "naredíte",
+      "v_imp_2_sg": "narêdi",
+      "v_ind_fut": "bom narédil",
+      "v_ind_prf_pst": "sem bil narédil",
+      "v_ind_prs_1_du": "naredíva",
+      "v_ind_prs_1_pl": "naredímo",
+      "v_ind_prs_1_sg": "naredím",
+      "v_ind_prs_2_du": "naredíta",
+      "v_ind_prs_2_pl": "naredíte",
+      "v_ind_prs_2_sg": "naredíš",
+      "v_ind_prs_3_du": "naredíta",
+      "v_ind_prs_3_pl": "naredíjo",
+      "v_ind_prs_3_sg": "naredí",
+      "v_ind_pst": "sem narédil",
+      "v_nfin": "naredíti",
+      "v_pctp_act_pst": "narédil",
+      "v_pctp_pass_pst": "narejèn"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "naslednji": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "naslednji",
+    "inflections": {
+      "adj_fem_acc_du": "naslédnji",
+      "adj_fem_acc_pl": "naslédnje",
+      "adj_fem_acc_sg": "naslédnjo",
+      "adj_fem_dat_du": "naslédnjima",
+      "adj_fem_dat_pl": "naslédnjim",
+      "adj_fem_dat_sg": "naslédnji",
+      "adj_fem_ess_du": "naslédnjih",
+      "adj_fem_ess_pl": "naslédnjih",
+      "adj_fem_ess_sg": "naslédnji",
+      "adj_fem_gen_du": "naslédnjih",
+      "adj_fem_gen_pl": "naslédnjih",
+      "adj_fem_gen_sg": "naslédnje",
+      "adj_fem_ins_du": "naslédnjima",
+      "adj_fem_ins_pl": "naslédnjimi",
+      "adj_fem_ins_sg": "naslédnjo",
+      "adj_fem_nom_du": "naslédnji",
+      "adj_fem_nom_pl": "naslédnje",
+      "adj_fem_nom_sg": "naslédnja",
+      "adj_masc_acc_du": "naslédnja",
+      "adj_masc_acc_pl": "naslédnje",
+      "adj_masc_dat_du": "naslédnjima",
+      "adj_masc_dat_pl": "naslédnjim",
+      "adj_masc_dat_sg": "naslédnjemu",
+      "adj_masc_ess_du": "naslédnjih",
+      "adj_masc_ess_pl": "naslédnjih",
+      "adj_masc_ess_sg": "naslédnjem",
+      "adj_masc_gen_du": "naslédnjih",
+      "adj_masc_gen_pl": "naslédnjih",
+      "adj_masc_gen_sg": "naslédnjega",
+      "adj_masc_ins_du": "naslédnjima",
+      "adj_masc_ins_pl": "naslédnjimi",
+      "adj_masc_ins_sg": "naslédnjim",
+      "adj_masc_nom_du": "naslédnja",
+      "adj_masc_nom_pl": "naslédnji",
+      "adj_masc_nom_sg": "naslédnji",
+      "adj_neut_acc_du": "naslédnji",
+      "adj_neut_acc_pl": "naslédnja",
+      "adj_neut_acc_sg": "naslédnje",
+      "adj_neut_dat_du": "naslédnjima",
+      "adj_neut_dat_pl": "naslédnjim",
+      "adj_neut_dat_sg": "naslédnjemu",
+      "adj_neut_ess_du": "naslédnjih",
+      "adj_neut_ess_pl": "naslédnjih",
+      "adj_neut_ess_sg": "naslédnjem",
+      "adj_neut_gen_du": "naslédnjih",
+      "adj_neut_gen_pl": "naslédnjih",
+      "adj_neut_gen_sg": "naslédnjega",
+      "adj_neut_ins_du": "naslédnjima",
+      "adj_neut_ins_pl": "naslédnjimi",
+      "adj_neut_ins_sg": "naslédnjim",
+      "adj_neut_nom_du": "naslédnji",
+      "adj_neut_nom_pl": "naslédnja",
+      "adj_neut_nom_sg": "naslédnje",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "načrt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "načrt",
+    "inflections": {
+      "n_acc_du": "načŕta",
+      "n_acc_pl": "načŕte",
+      "n_acc_sg": "načŕt",
+      "n_dat_du": "načŕtoma",
+      "n_dat_pl": "načŕtom",
+      "n_dat_sg": "načŕtu",
+      "n_ess_du": "načŕtih",
+      "n_ess_pl": "načŕtih",
+      "n_ess_sg": "načŕtu",
+      "n_gen_du": "načŕtov",
+      "n_gen_pl": "načŕtov",
+      "n_gen_sg": "načŕta",
+      "n_ins_du": "načŕtoma",
+      "n_ins_pl": "načŕti",
+      "n_ins_sg": "načŕtom",
+      "n_nom_du": "načŕta",
+      "n_nom_pl": "načŕti",
+      "n_nom_sg": "načŕt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ne": {
+    "antonyms": [
+      "da"
+    ],
+    "base": "ne",
+    "examples": [
+      "Ne vem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nekaj": {
+    "antonyms": [],
+    "base": "nekaj",
+    "examples": [
+      "Imam nekaj vprašanj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nit",
+    "inflections": {
+      "n_acc_du": "niti",
+      "n_acc_pl": "niti",
+      "n_dat_sg": "niti",
+      "n_ess_sg": "niti",
+      "n_gen_du": "niti",
+      "n_gen_pl": "niti",
+      "n_gen_sg": "niti",
+      "n_nom_du": "niti",
+      "n_nom_pl": "niti",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "nič": {
+    "antonyms": [
+      "vse"
+    ],
+    "base": "nič",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nor",
+    "inflections": {
+      "adj_fem_acc_du": "nôri",
+      "adj_fem_acc_pl": "nôre",
+      "adj_fem_acc_sg": "nôro",
+      "adj_fem_dat_du": "nôrima",
+      "adj_fem_dat_pl": "nôrim",
+      "adj_fem_dat_sg": "nôri",
+      "adj_fem_ess_du": "nôrih",
+      "adj_fem_ess_pl": "nôrih",
+      "adj_fem_ess_sg": "nôri",
+      "adj_fem_gen_du": "nôrih",
+      "adj_fem_gen_pl": "nôrih",
+      "adj_fem_gen_sg": "nôre",
+      "adj_fem_ins_du": "nôrima",
+      "adj_fem_ins_pl": "nôrimi",
+      "adj_fem_ins_sg": "nôro",
+      "adj_fem_nom_du": "nôri",
+      "adj_fem_nom_pl": "nôre",
+      "adj_fem_nom_sg": "nôra",
+      "adj_masc_acc_du": "nôra",
+      "adj_masc_acc_pl": "nôre",
+      "adj_masc_dat_du": "nôrima",
+      "adj_masc_dat_pl": "nôrim",
+      "adj_masc_dat_sg": "nôremu",
+      "adj_masc_ess_du": "nôrih",
+      "adj_masc_ess_pl": "nôrih",
+      "adj_masc_ess_sg": "nôrem",
+      "adj_masc_gen_du": "nôrih",
+      "adj_masc_gen_pl": "nôrih",
+      "adj_masc_gen_sg": "nôrega",
+      "adj_masc_ins_du": "nôrima",
+      "adj_masc_ins_pl": "nôrimi",
+      "adj_masc_ins_sg": "nôrim",
+      "adj_masc_nom_du": "nôra",
+      "adj_masc_nom_pl": "nôri",
+      "adj_masc_nom_sg_def": "nôri",
+      "adj_masc_nom_sg_indf": "nòr",
+      "adj_neut_acc_du": "nôri",
+      "adj_neut_acc_pl": "nôra",
+      "adj_neut_acc_sg": "nôro",
+      "adj_neut_dat_du": "nôrima",
+      "adj_neut_dat_pl": "nôrim",
+      "adj_neut_dat_sg": "nôremu",
+      "adj_neut_ess_du": "nôrih",
+      "adj_neut_ess_pl": "nôrih",
+      "adj_neut_ess_sg": "nôrem",
+      "adj_neut_gen_du": "nôrih",
+      "adj_neut_gen_pl": "nôrih",
+      "adj_neut_gen_sg": "nôrega",
+      "adj_neut_ins_du": "nôrima",
+      "adj_neut_ins_pl": "nôrimi",
+      "adj_neut_ins_sg": "nôrim",
+      "adj_neut_nom_du": "nôri",
+      "adj_neut_nom_pl": "nôra",
+      "adj_neut_nom_sg": "nôro",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nov": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nov",
+    "inflections": {
+      "adj_fem_acc_du": "nôvi",
+      "adj_fem_acc_pl": "nôve",
+      "adj_fem_acc_sg": "nôvo",
+      "adj_fem_dat_du": "nôvima",
+      "adj_fem_dat_pl": "nôvim",
+      "adj_fem_dat_sg": "nôvi",
+      "adj_fem_ess_du": "nôvih",
+      "adj_fem_ess_pl": "nôvih",
+      "adj_fem_ess_sg": "nôvi",
+      "adj_fem_gen_du": "nôvih",
+      "adj_fem_gen_pl": "nôvih",
+      "adj_fem_gen_sg": "nôve",
+      "adj_fem_ins_du": "nôvima",
+      "adj_fem_ins_pl": "nôvimi",
+      "adj_fem_ins_sg": "nôvo",
+      "adj_fem_nom_du": "nôvi",
+      "adj_fem_nom_pl": "nôve",
+      "adj_fem_nom_sg": "nôva",
+      "adj_masc_acc_du": "nôva",
+      "adj_masc_acc_pl": "nôve",
+      "adj_masc_dat_du": "nôvima",
+      "adj_masc_dat_pl": "nôvim",
+      "adj_masc_dat_sg": "nôvemu",
+      "adj_masc_ess_du": "nôvih",
+      "adj_masc_ess_pl": "nôvih",
+      "adj_masc_ess_sg": "nôvem",
+      "adj_masc_gen_du": "nôvih",
+      "adj_masc_gen_pl": "nôvih",
+      "adj_masc_gen_sg": "nôvega",
+      "adj_masc_ins_du": "nôvima",
+      "adj_masc_ins_pl": "nôvimi",
+      "adj_masc_ins_sg": "nôvim",
+      "adj_masc_nom_du": "nôva",
+      "adj_masc_nom_pl": "nôvi",
+      "adj_masc_nom_sg_def": "nôvi",
+      "adj_masc_nom_sg_indf": "nòv",
+      "adj_neut_acc_du": "nôvi",
+      "adj_neut_acc_pl": "nôva",
+      "adj_neut_acc_sg": "nôvo",
+      "adj_neut_dat_du": "nôvima",
+      "adj_neut_dat_pl": "nôvim",
+      "adj_neut_dat_sg": "nôvemu",
+      "adj_neut_ess_du": "nôvih",
+      "adj_neut_ess_pl": "nôvih",
+      "adj_neut_ess_sg": "nôvem",
+      "adj_neut_gen_du": "nôvih",
+      "adj_neut_gen_pl": "nôvih",
+      "adj_neut_gen_sg": "nôvega",
+      "adj_neut_ins_du": "nôvima",
+      "adj_neut_ins_pl": "nôvimi",
+      "adj_neut_ins_sg": "nôvim",
+      "adj_neut_nom_du": "nôvi",
+      "adj_neut_nom_pl": "nôva",
+      "adj_neut_nom_sg": "nôvo",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "noč": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noč",
+    "inflections": {
+      "n_acc_du": "nočí",
+      "n_acc_pl": "nočí",
+      "n_acc_sg": "nóč",
+      "n_dat_du": "nočéma",
+      "n_dat_pl": "nočém",
+      "n_dat_sg": "nôči",
+      "n_ess_du": "nočéh",
+      "n_ess_pl": "nočéh",
+      "n_ess_sg": "nôči",
+      "n_gen_du": "nočí",
+      "n_gen_pl": "nočí",
+      "n_gen_sg": "nočí",
+      "n_ins_du": "nočéma",
+      "n_ins_pl": "nočmí",
+      "n_ins_sg": "nočjó",
+      "n_nom_du": "nočí",
+      "n_nom_pl": "nočí",
+      "n_nom_sg": "nóč",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "obraz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "obraz",
+    "inflections": {
+      "n_acc_du": "obráza",
+      "n_acc_pl": "obráze",
+      "n_acc_sg": "obràz",
+      "n_dat_du": "obrázoma",
+      "n_dat_pl": "obrázom",
+      "n_dat_sg": "obrázu",
+      "n_ess_du": "obrázih",
+      "n_ess_pl": "obrázih",
+      "n_ess_sg": "obrázu",
+      "n_gen_du": "obrázov",
+      "n_gen_pl": "obrázov",
+      "n_gen_sg": "obráza",
+      "n_ins_du": "obrázoma",
+      "n_ins_pl": "obrázi",
+      "n_ins_sg": "obrázom",
+      "n_nom_du": "obráza",
+      "n_nom_pl": "obrázi",
+      "n_nom_sg": "obràz",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "odgovor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "odgovor",
+    "inflections": {
+      "n_acc_du": "odgôvora",
+      "n_acc_pl": "odgôvore",
+      "n_acc_sg": "odgôvor",
+      "n_dat_du": "odgôvoroma",
+      "n_dat_pl": "odgôvorom",
+      "n_dat_sg": "odgôvoru",
+      "n_ess_du": "odgôvorih",
+      "n_ess_pl": "odgôvorih",
+      "n_ess_sg": "odgôvoru",
+      "n_gen_du": "odgôvorov",
+      "n_gen_pl": "odgôvorov",
+      "n_gen_sg": "odgôvora",
+      "n_ins_du": "odgôvoroma",
+      "n_ins_pl": "odgôvori",
+      "n_ins_sg": "odgôvorom",
+      "n_nom_du": "odgôvora",
+      "n_nom_pl": "odgôvori",
+      "n_nom_sg": "odgôvor",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "oseba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oseba",
+    "inflections": {
+      "n_acc_du": "osébi",
+      "n_acc_pl": "osébe",
+      "n_acc_sg": "osébo",
+      "n_dat_du": "osébama",
+      "n_dat_pl": "osébam",
+      "n_dat_sg": "osébi",
+      "n_ess_du": "osébah",
+      "n_ess_pl": "osébah",
+      "n_ess_sg": "osébi",
+      "n_gen_du": "oséb",
+      "n_gen_pl": "oséb",
+      "n_gen_sg": "osébe",
+      "n_ins_du": "osébama",
+      "n_ins_pl": "osébami",
+      "n_ins_sg": "osébo",
+      "n_nom_du": "osébi",
+      "n_nom_pl": "osébe",
+      "n_nom_sg": "oséba",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "otrok": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "otrok",
+    "inflections": {
+      "n_acc_du": "otroka",
+      "n_acc_pl": "otroke",
+      "n_acc_sg": "otroka",
+      "n_dat_du": "otrokoma",
+      "n_dat_pl": "otrokom",
+      "n_dat_sg": "otroku",
+      "n_ess_du": "otrocih",
+      "n_ess_pl": "otrocih",
+      "n_ess_sg": "otroku",
+      "n_gen_du": "otrokov",
+      "n_gen_pl": "otrokov",
+      "n_gen_sg": "otroka",
+      "n_ins_du": "otrokoma",
+      "n_ins_pl": "otroki",
+      "n_ins_sg": "otrokom",
+      "n_nom_du": "otroka",
+      "n_nom_pl": "otroci",
+      "n_nom_sg": "otrok",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "oče": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oče",
+    "inflections": {
+      "n_acc_du": "očétov",
+      "n_acc_pl": "očétov",
+      "n_acc_sg": "očéta",
+      "n_dat_du": "očéta",
+      "n_dat_pl": "očéte",
+      "n_dat_sg": "očéta",
+      "n_ess_du": "očétih",
+      "n_ess_pl": "očétih",
+      "n_ess_sg": "očétu",
+      "n_gen_du": "očétoma",
+      "n_gen_pl": "očétom",
+      "n_gen_sg": "očétu",
+      "n_ins_du": "očétoma",
+      "n_ins_pl": "očéti",
+      "n_ins_sg": "očétom",
+      "n_nom_du": "očéta",
+      "n_nom_pl": "očétje",
+      "n_nom_sg": "ôče",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "pes": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pes",
+    "inflections": {
+      "n_acc_du": "psa",
+      "n_acc_pl": "pse",
+      "n_acc_sg": "psa",
+      "n_dat_du": "psoma",
+      "n_dat_pl": "psom",
+      "n_dat_sg": "psu",
+      "n_ess_du": "psih",
+      "n_ess_pl": "psih",
+      "n_ess_sg": "psu",
+      "n_gen_du": "psov",
+      "n_gen_pl": "psov",
+      "n_gen_sg": "psa",
+      "n_ins_du": "psoma",
+      "n_ins_pl": "psi",
+      "n_ins_sg": "psom",
+      "n_nom_du": "psa",
+      "n_nom_pl": "psi",
+      "n_nom_sg": "pes",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "po": {
+    "antonyms": [],
+    "base": "po",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "pod": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pod",
+    "inflections": {
+      "n_acc_du": "pôda",
+      "n_acc_pl": "pôde",
+      "n_acc_sg": "pòd",
+      "n_dat_du": "pôdoma",
+      "n_dat_pl": "pôdom",
+      "n_dat_sg": "pôdu",
+      "n_ess_du": "pôdih",
+      "n_ess_pl": "pôdih",
+      "n_ess_sg": "pôdu",
+      "n_gen_du": "pôdov",
+      "n_gen_pl": "pôdov",
+      "n_gen_sg": "pôda",
+      "n_ins_du": "pôdoma",
+      "n_ins_pl": "pôdi",
+      "n_ins_sg": "pôdom",
+      "n_nom_du": "pôda",
+      "n_nom_pl": "pôdi",
+      "n_nom_sg": "pòd",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "pomagati": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pomagati",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi pomágal",
+      "v_cond_pst": "bi bil pomágal",
+      "v_cvb_act_prs": "pomagáje",
+      "v_imp_1_du": "pomágajva",
+      "v_imp_1_pl": "pomágajmo",
+      "v_imp_2_du": "pomágajta",
+      "v_imp_2_pl": "pomágajte",
+      "v_imp_2_sg": "pomágaj",
+      "v_ind_fut": "bom pomágal",
+      "v_ind_prf_pst": "sem bil pomágal",
+      "v_ind_prs_1_du": "pomágava",
+      "v_ind_prs_1_pl": "pomágamo",
+      "v_ind_prs_1_sg": "pomágam",
+      "v_ind_prs_2_du": "pomágata",
+      "v_ind_prs_2_pl": "pomágate",
+      "v_ind_prs_2_sg": "pomágaš",
+      "v_ind_prs_3_du": "pomágata",
+      "v_ind_prs_3_pl": "pomágajo",
+      "v_ind_prs_3_sg": "pomága",
+      "v_ind_pst": "sem pomágal",
+      "v_msdr": "pomáganje",
+      "v_nfin": "pomágati",
+      "v_pctp_act_prs": "pomagajóč",
+      "v_pctp_act_pst": "pomágal",
+      "v_pctp_pass_pst": "pomágan"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "posel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "posel",
+    "inflections": {
+      "n_acc_du": "pôsla",
+      "n_acc_pl": "pôsle",
+      "n_acc_sg": "pôsel",
+      "n_dat_du": "pôsloma",
+      "n_dat_pl": "pôslom",
+      "n_dat_sg": "pôslu",
+      "n_ess_du": "pôslih",
+      "n_ess_pl": "pôslih",
+      "n_ess_sg": "pôslu",
+      "n_gen_du": "pôslov",
+      "n_gen_pl": "pôslov",
+      "n_gen_sg": "pôsla",
+      "n_ins_du": "pôsloma",
+      "n_ins_pl": "pôsli",
+      "n_ins_sg": "pôslom",
+      "n_nom_du": "pôsla",
+      "n_nom_pl": "pôsli",
+      "n_nom_sg": "pôsel",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "prav": {
+    "antonyms": [],
+    "base": "prav",
+    "examples": [
+      "To je prav."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "pravo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pravo",
+    "inflections": {
+      "n_acc_du": "právi",
+      "n_acc_pl": "práva",
+      "n_acc_sg": "právo",
+      "n_dat_du": "právoma",
+      "n_dat_pl": "právom",
+      "n_dat_sg": "právu",
+      "n_ess_du": "právih",
+      "n_ess_pl": "právih",
+      "n_ess_sg": "právu",
+      "n_gen_du": "práv",
+      "n_gen_pl": "práv",
+      "n_gen_sg": "práva",
+      "n_ins_du": "právoma",
+      "n_ins_pl": "právi",
+      "n_ins_sg": "právom",
+      "n_nom_du": "právi",
+      "n_nom_pl": "práva",
+      "n_nom_sg": "právo",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "predsednik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "predsednik",
+    "inflections": {
+      "n_acc_du": "predsédnika",
+      "n_acc_pl": "predsédnike",
+      "n_acc_sg": "predsédnika",
+      "n_dat_du": "predsédnikoma",
+      "n_dat_pl": "predsédnikom",
+      "n_dat_sg": "predsédniku",
+      "n_ess_du": "predsédnikih",
+      "n_ess_pl": "predsédnikih",
+      "n_ess_sg": "predsédniku",
+      "n_gen_du": "predsédnikov",
+      "n_gen_pl": "predsédnikov",
+      "n_gen_sg": "predsédnika",
+      "n_ins_du": "predsédnikoma",
+      "n_ins_pl": "predsédniki",
+      "n_ins_sg": "predsédnikom",
+      "n_nom_du": "predsédnika",
+      "n_nom_pl": "predsédniki",
+      "n_nom_sg": "predsédnik",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "prijatelj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prijatelj",
+    "inflections": {
+      "n_acc_du": "prijátelja",
+      "n_acc_pl": "prijátelje",
+      "n_acc_sg": "prijátelja",
+      "n_dat_du": "prijáteljema",
+      "n_dat_pl": "prijáteljem",
+      "n_dat_sg": "prijátelju",
+      "n_ess_du": "prijáteljih",
+      "n_ess_pl": "prijáteljih",
+      "n_ess_sg": "prijátelju",
+      "n_gen_du": "prijáteljev",
+      "n_gen_pl": "prijáteljev",
+      "n_gen_sg": "prijátelja",
+      "n_ins_du": "prijáteljema",
+      "n_ins_pl": "prijátelji",
+      "n_ins_sg": "prijáteljem",
+      "n_nom_du": "prijátelja",
+      "n_nom_pl": "prijátelji",
+      "n_nom_sg": "prijátelj",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "priložnost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "priložnost",
+    "inflections": {
+      "n_acc_du": "prilóžnosti",
+      "n_acc_pl": "prilóžnosti",
+      "n_acc_sg": "prilóžnost",
+      "n_dat_du": "prilóžnostma",
+      "n_dat_pl": "prilóžnostim",
+      "n_dat_sg": "prilóžnosti",
+      "n_ess_du": "prilóžnostih",
+      "n_ess_pl": "prilóžnostih",
+      "n_ess_sg": "prilóžnosti",
+      "n_gen_du": "prilóžnosti",
+      "n_gen_pl": "prilóžnosti",
+      "n_gen_sg": "prilóžnosti",
+      "n_ins_du": "prilóžnostma",
+      "n_ins_pl": "prilóžnostmi",
+      "n_ins_sg": "prilóžnostjo",
+      "n_nom_du": "prilóžnosti",
+      "n_nom_pl": "prilóžnosti",
+      "n_nom_sg": "prilóžnost",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "primer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "primer",
+    "inflections": {
+      "n_acc_du": "priméra",
+      "n_acc_pl": "primére",
+      "n_acc_sg": "primér",
+      "n_dat_du": "priméroma",
+      "n_dat_pl": "primérom",
+      "n_dat_sg": "priméru",
+      "n_ess_du": "primérih",
+      "n_ess_pl": "primérih",
+      "n_ess_sg": "priméru",
+      "n_gen_du": "primérov",
+      "n_gen_pl": "primérov",
+      "n_gen_sg": "priméra",
+      "n_ins_du": "priméroma",
+      "n_ins_pl": "priméri",
+      "n_ins_sg": "primérom",
+      "n_nom_du": "priméra",
+      "n_nom_pl": "priméri",
+      "n_nom_sg": "primér",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "prostor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prostor",
+    "inflections": {
+      "n_acc_du": "prostóra",
+      "n_acc_pl": "prostóre",
+      "n_acc_sg": "prôstor",
+      "n_dat_du": "prostóroma",
+      "n_dat_pl": "prostórom",
+      "n_dat_sg": "prostóru",
+      "n_ess_du": "prostórih",
+      "n_ess_pl": "prostórih",
+      "n_ess_sg": "prostóru",
+      "n_gen_du": "prostórov",
+      "n_gen_pl": "prostórov",
+      "n_gen_sg": "prostóra",
+      "n_ins_du": "prostóroma",
+      "n_ins_pl": "prostóri",
+      "n_ins_sg": "prostórom",
+      "n_nom_du": "prostóra",
+      "n_nom_pl": "prostóri",
+      "n_nom_sg": "prôstor",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "prvi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prvi",
+    "inflections": {
+      "adj_fem_acc_du": "pŕvi",
+      "adj_fem_acc_pl": "pŕve",
+      "adj_fem_acc_sg": "pŕvo",
+      "adj_fem_dat_du": "pŕvima",
+      "adj_fem_dat_pl": "pŕvim",
+      "adj_fem_dat_sg": "pŕvi",
+      "adj_fem_ess_du": "pŕvih",
+      "adj_fem_ess_pl": "pŕvih",
+      "adj_fem_ess_sg": "pŕvi",
+      "adj_fem_gen_du": "pŕvih",
+      "adj_fem_gen_pl": "pŕvih",
+      "adj_fem_gen_sg": "pŕve",
+      "adj_fem_ins_du": "pŕvima",
+      "adj_fem_ins_pl": "pŕvimi",
+      "adj_fem_ins_sg": "pŕvo",
+      "adj_fem_nom_du": "pŕvi",
+      "adj_fem_nom_pl": "pŕve",
+      "adj_fem_nom_sg": "pŕva",
+      "adj_masc_acc_du": "pŕva",
+      "adj_masc_acc_pl": "pŕve",
+      "adj_masc_dat_du": "pŕvima",
+      "adj_masc_dat_pl": "pŕvim",
+      "adj_masc_dat_sg": "pŕvemu",
+      "adj_masc_ess_du": "pŕvih",
+      "adj_masc_ess_pl": "pŕvih",
+      "adj_masc_ess_sg": "pŕvem",
+      "adj_masc_gen_du": "pŕvih",
+      "adj_masc_gen_pl": "pŕvih",
+      "adj_masc_gen_sg": "pŕvega",
+      "adj_masc_ins_du": "pŕvima",
+      "adj_masc_ins_pl": "pŕvimi",
+      "adj_masc_ins_sg": "pŕvim",
+      "adj_masc_nom_du": "pŕva",
+      "adj_masc_nom_pl": "pŕvi",
+      "adj_masc_nom_sg": "pŕvi",
+      "adj_neut_acc_du": "pŕvi",
+      "adj_neut_acc_pl": "pŕva",
+      "adj_neut_acc_sg": "pŕvo",
+      "adj_neut_dat_du": "pŕvima",
+      "adj_neut_dat_pl": "pŕvim",
+      "adj_neut_dat_sg": "pŕvemu",
+      "adj_neut_ess_du": "pŕvih",
+      "adj_neut_ess_pl": "pŕvih",
+      "adj_neut_ess_sg": "pŕvem",
+      "adj_neut_gen_du": "pŕvih",
+      "adj_neut_gen_pl": "pŕvih",
+      "adj_neut_gen_sg": "pŕvega",
+      "adj_neut_ins_du": "pŕvima",
+      "adj_neut_ins_pl": "pŕvimi",
+      "adj_neut_ins_sg": "pŕvim",
+      "adj_neut_nom_du": "pŕvi",
+      "adj_neut_nom_pl": "pŕva",
+      "adj_neut_nom_sg": "pŕvo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "redu": {
+    "antonyms": [],
+    "base": "redu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "res": {
+    "antonyms": [],
+    "base": "res",
+    "examples": [
+      "To je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "rit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rit",
+    "inflections": {
+      "n_acc_du": "ríti",
+      "n_acc_pl": "ríti",
+      "n_acc_sg": "rít",
+      "n_dat_du": "rítma",
+      "n_dat_pl": "rítim",
+      "n_dat_sg": "ríti",
+      "n_ess_du": "rítih",
+      "n_ess_pl": "rítih",
+      "n_ess_sg": "ríti",
+      "n_gen_du": "ríti",
+      "n_gen_pl": "ríti",
+      "n_gen_sg": "ríti",
+      "n_ins_du": "rítma",
+      "n_ins_pl": "rítmi",
+      "n_ins_sg": "rítjo",
+      "n_nom_du": "ríti",
+      "n_nom_pl": "ríti",
+      "n_nom_sg": "rít",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "s": {
+    "antonyms": [],
+    "base": "s",
+    "examples": [
+      "S prijatelji."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "sam": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sam",
+    "inflections": {
+      "adj_fem_acc_du": "sámi",
+      "adj_fem_acc_pl": "sáme",
+      "adj_fem_acc_sg": "sámo",
+      "adj_fem_dat_du": "sámima",
+      "adj_fem_dat_pl": "sámim",
+      "adj_fem_dat_sg": "sámi",
+      "adj_fem_ess_du": "sámih",
+      "adj_fem_ess_pl": "sámih",
+      "adj_fem_ess_sg": "sámi",
+      "adj_fem_gen_du": "sámih",
+      "adj_fem_gen_pl": "sámih",
+      "adj_fem_gen_sg": "sáme",
+      "adj_fem_ins_du": "sámima",
+      "adj_fem_ins_pl": "sámimi",
+      "adj_fem_ins_sg": "sámo",
+      "adj_fem_nom_du": "sámi",
+      "adj_fem_nom_pl": "sáme",
+      "adj_fem_nom_sg": "sáma",
+      "adj_masc_acc_du": "sáma",
+      "adj_masc_acc_pl": "sáme",
+      "adj_masc_dat_du": "sámima",
+      "adj_masc_dat_pl": "sámim",
+      "adj_masc_dat_sg": "sámemu",
+      "adj_masc_ess_du": "sámih",
+      "adj_masc_ess_pl": "sámih",
+      "adj_masc_ess_sg": "sámem",
+      "adj_masc_gen_du": "sámih",
+      "adj_masc_gen_pl": "sámih",
+      "adj_masc_gen_sg": "sámega",
+      "adj_masc_ins_du": "sámima",
+      "adj_masc_ins_pl": "sámimi",
+      "adj_masc_ins_sg": "sámim",
+      "adj_masc_nom_du": "sáma",
+      "adj_masc_nom_pl": "sámi",
+      "adj_masc_nom_sg_def": "sámi",
+      "adj_masc_nom_sg_indf": "sám",
+      "adj_neut_acc_du": "sámi",
+      "adj_neut_acc_pl": "sáma",
+      "adj_neut_acc_sg": "sámo",
+      "adj_neut_dat_du": "sámima",
+      "adj_neut_dat_pl": "sámim",
+      "adj_neut_dat_sg": "sámemu",
+      "adj_neut_ess_du": "sámih",
+      "adj_neut_ess_pl": "sámih",
+      "adj_neut_ess_sg": "sámem",
+      "adj_neut_gen_du": "sámih",
+      "adj_neut_gen_pl": "sámih",
+      "adj_neut_gen_sg": "sámega",
+      "adj_neut_ins_du": "sámima",
+      "adj_neut_ins_pl": "sámimi",
+      "adj_neut_ins_sg": "sámim",
+      "adj_neut_nom_du": "sámi",
+      "adj_neut_nom_pl": "sáma",
+      "adj_neut_nom_sg": "sámo",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sanje": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sanje",
+    "inflections": {
+      "n_acc_pl": "sánje",
+      "n_dat_pl": "sánjam",
+      "n_ess_pl": "sánjah",
+      "n_gen_pl": "sánj",
+      "n_ins_pl": "sánjami",
+      "n_nom_pl": "sánje",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [
+      "On se smeje."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sem": {
+    "antonyms": [],
+    "base": "sem",
+    "examples": [
+      "Jaz sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "si": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [
+      "Ti si prijazen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sin",
+    "inflections": {
+      "n_acc_du": "sinova",
+      "n_acc_pl": "sinove",
+      "n_acc_sg": "sin",
+      "n_dat_du": "sinovoma",
+      "n_dat_pl": "sinovom",
+      "n_dat_sg": "sinu",
+      "n_ess_du": "sinovih",
+      "n_ess_pl": "sinovih",
+      "n_ess_sg": "sinu",
+      "n_gen_du": "sinov",
+      "n_gen_pl": "sinov",
+      "n_gen_sg": "sina",
+      "n_ins_du": "sinovoma",
+      "n_ins_pl": "sinovi",
+      "n_ins_sg": "sinom",
+      "n_nom_du": "sinova",
+      "n_nom_pl": "sinovi",
+      "n_nom_sg": "sin",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "sistem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sistem",
+    "inflections": {
+      "n_acc_du": "sistéma",
+      "n_acc_pl": "sistéme",
+      "n_acc_sg": "sistém",
+      "n_dat_du": "sistémoma",
+      "n_dat_pl": "sistémom",
+      "n_dat_sg": "sistému",
+      "n_ess_du": "sistémih",
+      "n_ess_pl": "sistémih",
+      "n_ess_sg": "sistému",
+      "n_gen_du": "sistémov",
+      "n_gen_pl": "sistémov",
+      "n_gen_sg": "sistéma",
+      "n_ins_du": "sistémoma",
+      "n_ins_pl": "sistémi",
+      "n_ins_sg": "sistémom",
+      "n_nom_du": "sistéma",
+      "n_nom_pl": "sistémi",
+      "n_nom_sg": "sistém",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "skrivnost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skrivnost",
+    "inflections": {
+      "n_acc_du": "skrivnósti",
+      "n_acc_pl": "skrivnósti",
+      "n_acc_sg": "skrivnóst",
+      "n_dat_du": "skrivnóstma",
+      "n_dat_pl": "skrivnóstim",
+      "n_dat_sg": "skrivnósti",
+      "n_ess_du": "skrivnóstih",
+      "n_ess_pl": "skrivnóstih",
+      "n_ess_sg": "skrivnósti",
+      "n_gen_du": "skrivnósti",
+      "n_gen_pl": "skrivnósti",
+      "n_gen_sg": "skrivnósti",
+      "n_ins_du": "skrivnóstma",
+      "n_ins_pl": "skrivnóstmi",
+      "n_ins_sg": "skrivnóstjo",
+      "n_nom_du": "skrivnósti",
+      "n_nom_pl": "skrivnósti",
+      "n_nom_sg": "skrivnóst",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "smel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smel",
+    "inflections": {
+      "adj_fem_acc_du": "sméli",
+      "adj_fem_acc_pl": "sméle",
+      "adj_fem_acc_sg": "smélo",
+      "adj_fem_dat_du": "smélima",
+      "adj_fem_dat_pl": "smélim",
+      "adj_fem_dat_sg": "sméli",
+      "adj_fem_ess_du": "smélih",
+      "adj_fem_ess_pl": "smélih",
+      "adj_fem_ess_sg": "sméli",
+      "adj_fem_gen_du": "smélih",
+      "adj_fem_gen_pl": "smélih",
+      "adj_fem_gen_sg": "sméle",
+      "adj_fem_ins_du": "smélima",
+      "adj_fem_ins_pl": "smélimi",
+      "adj_fem_ins_sg": "smélo",
+      "adj_fem_nom_du": "sméli",
+      "adj_fem_nom_pl": "sméle",
+      "adj_fem_nom_sg": "sméla",
+      "adj_masc_acc_du": "sméla",
+      "adj_masc_acc_pl": "sméle",
+      "adj_masc_dat_du": "smélima",
+      "adj_masc_dat_pl": "smélim",
+      "adj_masc_dat_sg": "smélemu",
+      "adj_masc_ess_du": "smélih",
+      "adj_masc_ess_pl": "smélih",
+      "adj_masc_ess_sg": "smélem",
+      "adj_masc_gen_du": "smélih",
+      "adj_masc_gen_pl": "smélih",
+      "adj_masc_gen_sg": "smélega",
+      "adj_masc_ins_du": "smélima",
+      "adj_masc_ins_pl": "smélimi",
+      "adj_masc_ins_sg": "smélim",
+      "adj_masc_nom_du": "sméla",
+      "adj_masc_nom_pl": "sméli",
+      "adj_masc_nom_sg_def": "sméli",
+      "adj_masc_nom_sg_indf": "smél",
+      "adj_neut_acc_du": "sméli",
+      "adj_neut_acc_pl": "sméla",
+      "adj_neut_acc_sg": "smélo",
+      "adj_neut_dat_du": "smélima",
+      "adj_neut_dat_pl": "smélim",
+      "adj_neut_dat_sg": "smélemu",
+      "adj_neut_ess_du": "smélih",
+      "adj_neut_ess_pl": "smélih",
+      "adj_neut_ess_sg": "smélem",
+      "adj_neut_gen_du": "smélih",
+      "adj_neut_gen_pl": "smélih",
+      "adj_neut_gen_sg": "smélega",
+      "adj_neut_ins_du": "smélima",
+      "adj_neut_ins_pl": "smélimi",
+      "adj_neut_ins_sg": "smélim",
+      "adj_neut_nom_du": "sméli",
+      "adj_neut_nom_pl": "sméla",
+      "adj_neut_nom_sg": "smélo",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "smo": {
+    "antonyms": [],
+    "base": "smo",
+    "examples": [
+      "Mi smo srečni."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "smrt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smrt",
+    "inflections": {
+      "n_acc_du": "smŕti",
+      "n_acc_pl": "smŕti",
+      "n_acc_sg": "smŕt",
+      "n_dat_du": "smŕtma",
+      "n_dat_pl": "smŕtim",
+      "n_dat_sg": "smŕti",
+      "n_ess_du": "smŕtih",
+      "n_ess_pl": "smŕtih",
+      "n_ess_sg": "smŕti",
+      "n_gen_du": "smŕti",
+      "n_gen_pl": "smŕti",
+      "n_gen_sg": "smŕti",
+      "n_ins_du": "smŕtma",
+      "n_ins_pl": "smŕtmi",
+      "n_ins_sg": "smŕtjo",
+      "n_nom_du": "smŕti",
+      "n_nom_pl": "smŕti",
+      "n_nom_sg": "smŕt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "sporočilo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sporočilo",
+    "inflections": {
+      "n_acc_du": "sporočíli",
+      "n_acc_pl": "sporočíla",
+      "n_acc_sg": "sporočílo",
+      "n_dat_du": "sporočíloma",
+      "n_dat_pl": "sporočílom",
+      "n_dat_sg": "sporočílu",
+      "n_ess_du": "sporočílih",
+      "n_ess_pl": "sporočílih",
+      "n_ess_sg": "sporočílu",
+      "n_gen_du": "sporočíl",
+      "n_gen_pl": "sporočíl",
+      "n_gen_sg": "sporočíla",
+      "n_ins_du": "sporočíloma",
+      "n_ins_pl": "sporočíli",
+      "n_ins_sg": "sporočílom",
+      "n_nom_du": "sporočíli",
+      "n_nom_pl": "sporočíla",
+      "n_nom_sg": "sporočílo",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "sranje": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sranje",
+    "inflections": {
+      "n_acc_pl": "sránje",
+      "n_dat_pl": "sránju",
+      "n_ess_pl": "sránju",
+      "n_gen_pl": "sránja",
+      "n_ins_pl": "sránjem",
+      "n_nom_pl": "sránje",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "srce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "srce",
+    "inflections": {
+      "n_acc_du": "srci",
+      "n_acc_pl": "srca",
+      "n_acc_sg": "srce",
+      "n_dat_du": "srcema",
+      "n_dat_pl": "srcem",
+      "n_dat_sg": "srcu",
+      "n_ess_du": "srcih",
+      "n_ess_pl": "srcih",
+      "n_ess_sg": "srcu",
+      "n_gen_du": "src",
+      "n_gen_pl": "src",
+      "n_gen_sg": "srca",
+      "n_ins_du": "srcema",
+      "n_ins_pl": "srci",
+      "n_ins_sg": "srcem",
+      "n_nom_du": "srci",
+      "n_nom_pl": "srca",
+      "n_nom_sg": "srce",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "srečen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "srečen",
+    "inflections": {
+      "adj_fem_acc_du": "sréčni",
+      "adj_fem_acc_pl": "sréčne",
+      "adj_fem_acc_sg": "sréčno",
+      "adj_fem_dat_du": "sréčnima",
+      "adj_fem_dat_pl": "sréčnim",
+      "adj_fem_dat_sg": "sréčni",
+      "adj_fem_ess_du": "sréčnih",
+      "adj_fem_ess_pl": "sréčnih",
+      "adj_fem_ess_sg": "sréčni",
+      "adj_fem_gen_du": "sréčnih",
+      "adj_fem_gen_pl": "sréčnih",
+      "adj_fem_gen_sg": "sréčne",
+      "adj_fem_ins_du": "sréčnima",
+      "adj_fem_ins_pl": "sréčnimi",
+      "adj_fem_ins_sg": "sréčno",
+      "adj_fem_nom_du": "sréčni",
+      "adj_fem_nom_pl": "sréčne",
+      "adj_fem_nom_sg": "sréčna",
+      "adj_masc_acc_du": "sréčna",
+      "adj_masc_acc_pl": "sréčne",
+      "adj_masc_dat_du": "sréčnima",
+      "adj_masc_dat_pl": "sréčnim",
+      "adj_masc_dat_sg": "sréčnemu",
+      "adj_masc_ess_du": "sréčnih",
+      "adj_masc_ess_pl": "sréčnih",
+      "adj_masc_ess_sg": "sréčnem",
+      "adj_masc_gen_du": "sréčnih",
+      "adj_masc_gen_pl": "sréčnih",
+      "adj_masc_gen_sg": "sréčnega",
+      "adj_masc_ins_du": "sréčnima",
+      "adj_masc_ins_pl": "sréčnimi",
+      "adj_masc_ins_sg": "sréčnim",
+      "adj_masc_nom_du": "sréčna",
+      "adj_masc_nom_pl": "sréčni",
+      "adj_masc_nom_sg_def": "sréčni",
+      "adj_masc_nom_sg_indf": "sréčen",
+      "adj_neut_acc_du": "sréčni",
+      "adj_neut_acc_pl": "sréčna",
+      "adj_neut_acc_sg": "sréčno",
+      "adj_neut_dat_du": "sréčnima",
+      "adj_neut_dat_pl": "sréčnim",
+      "adj_neut_dat_sg": "sréčnemu",
+      "adj_neut_ess_du": "sréčnih",
+      "adj_neut_ess_pl": "sréčnih",
+      "adj_neut_ess_sg": "sréčnem",
+      "adj_neut_gen_du": "sréčnih",
+      "adj_neut_gen_pl": "sréčnih",
+      "adj_neut_gen_sg": "sréčnega",
+      "adj_neut_ins_du": "sréčnima",
+      "adj_neut_ins_pl": "sréčnimi",
+      "adj_neut_ins_sg": "sréčnim",
+      "adj_neut_nom_du": "sréčni",
+      "adj_neut_nom_pl": "sréčna",
+      "adj_neut_nom_sg": "sréčno",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "star": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "star",
+    "inflections": {
+      "adj_fem_acc_du": "stári",
+      "adj_fem_acc_pl": "stáre",
+      "adj_fem_acc_sg": "stáro",
+      "adj_fem_dat_du": "stárima",
+      "adj_fem_dat_pl": "stárim",
+      "adj_fem_dat_sg": "stári",
+      "adj_fem_ess_du": "stárih",
+      "adj_fem_ess_pl": "stárih",
+      "adj_fem_ess_sg": "stári",
+      "adj_fem_gen_du": "stárih",
+      "adj_fem_gen_pl": "stárih",
+      "adj_fem_gen_sg": "stáre",
+      "adj_fem_ins_du": "stárima",
+      "adj_fem_ins_pl": "stárimi",
+      "adj_fem_ins_sg": "stáro",
+      "adj_fem_nom_du": "stári",
+      "adj_fem_nom_pl": "stáre",
+      "adj_fem_nom_sg": "stára",
+      "adj_masc_acc_du": "stára",
+      "adj_masc_acc_pl": "stáre",
+      "adj_masc_dat_du": "stárima",
+      "adj_masc_dat_pl": "stárim",
+      "adj_masc_dat_sg": "stáremu",
+      "adj_masc_ess_du": "stárih",
+      "adj_masc_ess_pl": "stárih",
+      "adj_masc_ess_sg": "stárem",
+      "adj_masc_gen_du": "stárih",
+      "adj_masc_gen_pl": "stárih",
+      "adj_masc_gen_sg": "stárega",
+      "adj_masc_ins_du": "stárima",
+      "adj_masc_ins_pl": "stárimi",
+      "adj_masc_ins_sg": "stárim",
+      "adj_masc_nom_du": "stára",
+      "adj_masc_nom_pl": "stári",
+      "adj_masc_nom_sg_def": "stári",
+      "adj_masc_nom_sg_indf": "stàr",
+      "adj_neut_acc_du": "stári",
+      "adj_neut_acc_pl": "stára",
+      "adj_neut_acc_sg": "stáro",
+      "adj_neut_dat_du": "stárima",
+      "adj_neut_dat_pl": "stárim",
+      "adj_neut_dat_sg": "stáremu",
+      "adj_neut_ess_du": "stárih",
+      "adj_neut_ess_pl": "stárih",
+      "adj_neut_ess_sg": "stárem",
+      "adj_neut_gen_du": "stárih",
+      "adj_neut_gen_pl": "stárih",
+      "adj_neut_gen_sg": "stárega",
+      "adj_neut_ins_du": "stárima",
+      "adj_neut_ins_pl": "stárimi",
+      "adj_neut_ins_sg": "stárim",
+      "adj_neut_nom_du": "stári",
+      "adj_neut_nom_pl": "stára",
+      "adj_neut_nom_sg": "stáro",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "stran": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stran",
+    "inflections": {
+      "n_acc_du": "straní",
+      "n_acc_pl": "straní",
+      "n_acc_sg": "strán",
+      "n_dat_du": "stranéma",
+      "n_dat_pl": "straném",
+      "n_dat_sg": "stráni",
+      "n_ess_du": "stranéh",
+      "n_ess_pl": "stranéh",
+      "n_ess_sg": "stráni",
+      "n_gen_du": "straní",
+      "n_gen_pl": "straní",
+      "n_gen_sg": "straní",
+      "n_ins_du": "stranéma",
+      "n_ins_pl": "stranmí",
+      "n_ins_sg": "stranjó",
+      "n_nom_du": "straní",
+      "n_nom_pl": "straní",
+      "n_nom_sg": "strán",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "stric": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stric",
+    "inflections": {
+      "n_acc_du": "stríca",
+      "n_acc_pl": "stríce",
+      "n_acc_sg": "stríca",
+      "n_dat_du": "strícema",
+      "n_dat_pl": "strícem",
+      "n_dat_sg": "strícu",
+      "n_ess_du": "strícih",
+      "n_ess_pl": "strícih",
+      "n_ess_sg": "strícu",
+      "n_gen_du": "strícev",
+      "n_gen_pl": "strícev",
+      "n_gen_sg": "stríca",
+      "n_ins_du": "strícema",
+      "n_ins_pl": "stríci",
+      "n_ins_sg": "strícem",
+      "n_nom_du": "stríca",
+      "n_nom_pl": "stríci",
+      "n_nom_sg": "stríc",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "stvar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stvar",
+    "inflections": {
+      "n_acc_du": "stvarí",
+      "n_acc_pl": "stvarí",
+      "n_acc_sg": "stvár",
+      "n_dat_du": "stvaréma",
+      "n_dat_pl": "stvarém",
+      "n_dat_sg": "stvári",
+      "n_ess_du": "stvaréh",
+      "n_ess_pl": "stvaréh",
+      "n_ess_sg": "stvári",
+      "n_gen_du": "stvarí",
+      "n_gen_pl": "stvarí",
+      "n_gen_sg": "stvarí",
+      "n_ins_du": "stvaréma",
+      "n_ins_pl": "stvarmí",
+      "n_ins_sg": "stvarjó",
+      "n_nom_du": "stvarí",
+      "n_nom_pl": "stvarí",
+      "n_nom_sg": "stvár",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "sva": {
+    "antonyms": [],
+    "base": "sva",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "tako": {
+    "antonyms": [],
+    "base": "tako",
+    "examples": [
+      "Tako je prav."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "te": {
+    "antonyms": [],
+    "base": "te",
+    "examples": [
+      "Te vidim."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "teden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "teden",
+    "inflections": {
+      "n_acc_du": "tédna",
+      "n_acc_pl": "tédne",
+      "n_acc_sg": "téden",
+      "n_dat_du": "tédnoma",
+      "n_dat_pl": "tédnom",
+      "n_dat_sg": "tédnu",
+      "n_ess_du": "tédnih",
+      "n_ess_pl": "tédnih",
+      "n_ess_sg": "tédnu",
+      "n_gen_du": "tédnov",
+      "n_gen_pl": "tédnov",
+      "n_gen_sg": "tédna",
+      "n_ins_du": "tédnoma",
+      "n_ins_pl": "tédni",
+      "n_ins_sg": "tédnom",
+      "n_nom_du": "tédna",
+      "n_nom_pl": "tédni",
+      "n_nom_sg": "téden",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "telo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telo",
+    "inflections": {
+      "n_acc_du": "telesi",
+      "n_acc_pl": "telesa",
+      "n_acc_sg": "telo",
+      "n_dat_du": "telesoma",
+      "n_dat_pl": "telesom",
+      "n_dat_sg": "telesu",
+      "n_ess_du": "telesih",
+      "n_ess_pl": "telesih",
+      "n_ess_sg": "telesu",
+      "n_gen_du": "teles",
+      "n_gen_pl": "teles",
+      "n_gen_sg": "telesa",
+      "n_ins_du": "telesoma",
+      "n_ins_pl": "telesi",
+      "n_ins_sg": "telesom",
+      "n_nom_du": "telesi",
+      "n_nom_pl": "telesa",
+      "n_nom_sg": "telo",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "tip": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tip",
+    "inflections": {
+      "n_acc_du": "típa",
+      "n_acc_pl": "típe",
+      "n_acc_sg": "típ",
+      "n_dat_du": "típoma",
+      "n_dat_pl": "típom",
+      "n_dat_sg": "típu",
+      "n_ess_du": "típih",
+      "n_ess_pl": "típih",
+      "n_ess_sg": "típu",
+      "n_gen_du": "típov",
+      "n_gen_pl": "típov",
+      "n_gen_sg": "típa",
+      "n_ins_du": "típoma",
+      "n_ins_pl": "típi",
+      "n_ins_sg": "típom",
+      "n_nom_du": "típa",
+      "n_nom_pl": "típi",
+      "n_nom_sg": "típ",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "To je dobro."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tom",
+    "inflections": {
+      "n_acc_du": "tóma",
+      "n_acc_pl": "tóme",
+      "n_acc_sg": "tóm",
+      "n_dat_du": "tómoma",
+      "n_dat_pl": "tómom",
+      "n_dat_sg": "tómu",
+      "n_ess_du": "tómih",
+      "n_ess_pl": "tómih",
+      "n_ess_sg": "tómu",
+      "n_gen_du": "tómov",
+      "n_gen_pl": "tómov",
+      "n_gen_sg": "tóma",
+      "n_ins_du": "tómoma",
+      "n_ins_pl": "tómi",
+      "n_ins_sg": "tómom",
+      "n_nom_du": "tóma",
+      "n_nom_pl": "tómi",
+      "n_nom_sg": "tóm",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "trenutek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trenutek",
+    "inflections": {
+      "n_acc_du": "trenútka",
+      "n_acc_pl": "trenútke",
+      "n_acc_sg": "trenútek",
+      "n_dat_du": "trenútkoma",
+      "n_dat_pl": "trenútkom",
+      "n_dat_sg": "trenútku",
+      "n_ess_du": "trenútkih",
+      "n_ess_pl": "trenútkih",
+      "n_ess_sg": "trenútku",
+      "n_gen_du": "trenútkov",
+      "n_gen_pl": "trenútkov",
+      "n_gen_sg": "trenútka",
+      "n_ins_du": "trenútkoma",
+      "n_ins_pl": "trenútki",
+      "n_ins_sg": "trenútkom",
+      "n_nom_du": "trenútka",
+      "n_nom_pl": "trenútki",
+      "n_nom_sg": "trenútek",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "truplo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "truplo",
+    "inflections": {
+      "n_acc_du": "trúpli",
+      "n_acc_pl": "trúpla",
+      "n_acc_sg": "trúplo",
+      "n_dat_du": "trúploma",
+      "n_dat_pl": "trúplom",
+      "n_dat_sg": "trúplu",
+      "n_ess_du": "trúplih",
+      "n_ess_pl": "trúplih",
+      "n_ess_sg": "trúplu",
+      "n_gen_du": "trúpel",
+      "n_gen_pl": "trúpel",
+      "n_gen_sg": "trúpla",
+      "n_ins_du": "trúploma",
+      "n_ins_pl": "trúpli",
+      "n_ins_sg": "trúplom",
+      "n_nom_du": "trúpli",
+      "n_nom_pl": "trúpla",
+      "n_nom_sg": "trúplo",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "tudi": {
+    "antonyms": [],
+    "base": "tudi",
+    "examples": [
+      "Tudi jaz sem prišel."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tukaj": {
+    "antonyms": [],
+    "base": "tukaj",
+    "examples": [
+      "Sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ubiti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ubiti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi ubìl",
+      "v_cond_pst": "bi bil ubìl",
+      "v_imp_1_du": "ubíjva",
+      "v_imp_1_pl": "ubíjmo",
+      "v_imp_2_du": "ubíjta",
+      "v_imp_2_pl": "ubíjte",
+      "v_imp_2_sg": "ubíj",
+      "v_ind_fut": "bom ubìl",
+      "v_ind_prf_pst": "sem bil ubìl",
+      "v_ind_prs_1_du": "ubíjeva",
+      "v_ind_prs_1_pl": "ubíjemo",
+      "v_ind_prs_1_sg": "ubíjem",
+      "v_ind_prs_2_du": "ubíjeta",
+      "v_ind_prs_2_pl": "ubíjete",
+      "v_ind_prs_2_sg": "ubíješ",
+      "v_ind_prs_3_du": "ubíjeta",
+      "v_ind_prs_3_pl": "ubíjejo",
+      "v_ind_prs_3_sg": "ubíje",
+      "v_ind_pst": "sem ubìl",
+      "v_msdr": "ubítje",
+      "v_nfin": "ubíti",
+      "v_pctp_act_prs": "ubijóč",
+      "v_pctp_act_pst": "ubìl",
+      "v_pctp_pass_pst": "ubít"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "umor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "umor",
+    "inflections": {
+      "n_acc_du": "umôra",
+      "n_acc_pl": "umôre",
+      "n_acc_sg": "umòr",
+      "n_dat_du": "umôroma",
+      "n_dat_pl": "umôrom",
+      "n_dat_sg": "umôru",
+      "n_ess_du": "umôrih",
+      "n_ess_pl": "umôrih",
+      "n_ess_sg": "umôru",
+      "n_gen_du": "umôrov",
+      "n_gen_pl": "umôrov",
+      "n_gen_sg": "umôra",
+      "n_ins_du": "umôroma",
+      "n_ins_pl": "umôri",
+      "n_ins_sg": "umôrom",
+      "n_nom_du": "umôra",
+      "n_nom_pl": "umôri",
+      "n_nom_sg": "umòr",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "v": {
+    "antonyms": [],
+    "base": "v",
+    "examples": [
+      "On je v hiši."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "vas",
+    "examples": [],
+    "inflections": {
+      "n_acc_du": "vasí",
+      "n_acc_pl": "vasí",
+      "n_acc_sg": "vás",
+      "n_dat_du": "vaséma",
+      "n_dat_pl": "vasém",
+      "n_dat_sg": "vási",
+      "n_ess_du": "vaséh",
+      "n_ess_pl": "vaséh",
+      "n_ess_sg": "vási",
+      "n_gen_du": "vasí",
+      "n_gen_pl": "vasí",
+      "n_gen_sg": "vasí",
+      "n_ins_du": "vaséma",
+      "n_ins_pl": "vasmí",
+      "n_ins_sg": "vasjó",
+      "n_nom_du": "vasí",
+      "n_nom_pl": "vasí",
+      "n_nom_sg": "vás",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun",
+      "noun"
+    ]
+  },
+  "vedeti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vedeti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi védel",
+      "v_cond_pst": "bi bil védel",
+      "v_cvb_act_prs": "véde",
+      "v_imp_1_du": "védiva",
+      "v_imp_1_pl": "védimo",
+      "v_imp_2_du": "védita",
+      "v_imp_2_pl": "védite",
+      "v_imp_2_sg": "védi",
+      "v_ind_fut": "bom védel",
+      "v_ind_prf_pst": "sem bil védel",
+      "v_ind_prs_1_du": "véva",
+      "v_ind_prs_1_pl": "vémo",
+      "v_ind_prs_1_sg": "vém",
+      "v_ind_prs_2_du": "vésta",
+      "v_ind_prs_2_pl": "véste",
+      "v_ind_prs_2_sg": "véš",
+      "v_ind_prs_3_du": "vésta",
+      "v_ind_prs_3_pl": "vêjo",
+      "v_ind_prs_3_sg": "vé",
+      "v_ind_pst": "sem védel",
+      "v_msdr": "védenje",
+      "v_nfin": "védeti",
+      "v_pctp_act_prs": "vedóč",
+      "v_pctp_act_pst": "védel"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vedno": {
+    "antonyms": [
+      "nikoli"
+    ],
+    "base": "vedno",
+    "examples": [
+      "Vedno sem tu zate."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "velik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velik",
+    "inflections": {
+      "adj_fem_acc_du": "veliki",
+      "adj_fem_acc_pl": "velike",
+      "adj_fem_acc_sg": "veliko",
+      "adj_fem_dat_du": "velikima",
+      "adj_fem_dat_pl": "velikim",
+      "adj_fem_dat_sg": "veliki",
+      "adj_fem_ess_du": "velikih",
+      "adj_fem_ess_pl": "velikih",
+      "adj_fem_ess_sg": "veliki",
+      "adj_fem_gen_du": "velikih",
+      "adj_fem_gen_pl": "velikih",
+      "adj_fem_gen_sg": "velike",
+      "adj_fem_ins_du": "velikima",
+      "adj_fem_ins_pl": "velikimi",
+      "adj_fem_ins_sg": "veliko",
+      "adj_fem_nom_du": "veliki",
+      "adj_fem_nom_pl": "velike",
+      "adj_fem_nom_sg": "velika",
+      "adj_masc_acc_du": "velika",
+      "adj_masc_acc_pl": "velike",
+      "adj_masc_dat_du": "velikima",
+      "adj_masc_dat_pl": "velikim",
+      "adj_masc_dat_sg": "velikemu",
+      "adj_masc_ess_du": "velikih",
+      "adj_masc_ess_pl": "velikih",
+      "adj_masc_ess_sg": "velikem",
+      "adj_masc_gen_du": "velikih",
+      "adj_masc_gen_pl": "velikih",
+      "adj_masc_gen_sg": "velikega",
+      "adj_masc_ins_du": "velikima",
+      "adj_masc_ins_pl": "velikimi",
+      "adj_masc_ins_sg": "velikim",
+      "adj_masc_nom_du": "velika",
+      "adj_masc_nom_pl": "veliki",
+      "adj_masc_nom_sg_def": "veliki",
+      "adj_masc_nom_sg_indf": "velik",
+      "adj_neut_acc_du": "veliki",
+      "adj_neut_acc_pl": "velika",
+      "adj_neut_acc_sg": "veliko",
+      "adj_neut_dat_du": "velikima",
+      "adj_neut_dat_pl": "velikim",
+      "adj_neut_dat_sg": "velikemu",
+      "adj_neut_ess_du": "velikih",
+      "adj_neut_ess_pl": "velikih",
+      "adj_neut_ess_sg": "velikem",
+      "adj_neut_gen_du": "velikih",
+      "adj_neut_gen_pl": "velikih",
+      "adj_neut_gen_sg": "velikega",
+      "adj_neut_ins_du": "velikima",
+      "adj_neut_ins_pl": "velikimi",
+      "adj_neut_ins_sg": "velikim",
+      "adj_neut_nom_du": "veliki",
+      "adj_neut_nom_pl": "velika",
+      "adj_neut_nom_sg": "veliko",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "verjeti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verjeti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi verjél",
+      "v_cond_pst": "bi bil verjél",
+      "v_imp_1_du": "verjemíva",
+      "v_imp_1_pl": "verjemímo",
+      "v_imp_2_du": "verjemíta",
+      "v_imp_2_pl": "verjemíte",
+      "v_imp_2_sg": "verjêmi",
+      "v_ind_fut": "bom verjél",
+      "v_ind_prf_pst": "sem bil verjél",
+      "v_ind_prs_1_du": "verjámeva",
+      "v_ind_prs_1_pl": "verjámemo",
+      "v_ind_prs_1_sg": "verjámem",
+      "v_ind_prs_2_du": "verjámeta",
+      "v_ind_prs_2_pl": "verjámete",
+      "v_ind_prs_2_sg": "verjámeš",
+      "v_ind_prs_3_du": "verjámeta",
+      "v_ind_prs_3_pl": "verjámejo",
+      "v_ind_prs_3_sg": "verjáme",
+      "v_ind_pst": "sem verjél",
+      "v_msdr": "verjétje",
+      "v_nfin": "verjéti",
+      "v_pctp_act_pst": "verjél"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vesel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vesel",
+    "inflections": {
+      "adj_fem_acc_du": "veséli",
+      "adj_fem_acc_pl": "veséle",
+      "adj_fem_acc_sg": "vesélo",
+      "adj_fem_dat_du": "vesélima",
+      "adj_fem_dat_pl": "vesélim",
+      "adj_fem_dat_sg": "veséli",
+      "adj_fem_ess_du": "vesélih",
+      "adj_fem_ess_pl": "vesélih",
+      "adj_fem_ess_sg": "veséli",
+      "adj_fem_gen_du": "vesélih",
+      "adj_fem_gen_pl": "vesélih",
+      "adj_fem_gen_sg": "veséle",
+      "adj_fem_ins_du": "vesélima",
+      "adj_fem_ins_pl": "vesélimi",
+      "adj_fem_ins_sg": "vesélo",
+      "adj_fem_nom_du": "veséli",
+      "adj_fem_nom_pl": "veséle",
+      "adj_fem_nom_sg": "veséla",
+      "adj_masc_acc_du": "veséla",
+      "adj_masc_acc_pl": "veséle",
+      "adj_masc_dat_du": "vesélima",
+      "adj_masc_dat_pl": "vesélim",
+      "adj_masc_dat_sg": "vesélemu",
+      "adj_masc_ess_du": "vesélih",
+      "adj_masc_ess_pl": "vesélih",
+      "adj_masc_ess_sg": "vesélem",
+      "adj_masc_gen_du": "vesélih",
+      "adj_masc_gen_pl": "vesélih",
+      "adj_masc_gen_sg": "vesélega",
+      "adj_masc_ins_du": "vesélima",
+      "adj_masc_ins_pl": "vesélimi",
+      "adj_masc_ins_sg": "vesélim",
+      "adj_masc_nom_du": "veséla",
+      "adj_masc_nom_pl": "veséli",
+      "adj_masc_nom_sg_def": "veséli",
+      "adj_masc_nom_sg_indf": "vesél",
+      "adj_neut_acc_du": "veséli",
+      "adj_neut_acc_pl": "veséla",
+      "adj_neut_acc_sg": "vesélo",
+      "adj_neut_dat_du": "vesélima",
+      "adj_neut_dat_pl": "vesélim",
+      "adj_neut_dat_sg": "vesélemu",
+      "adj_neut_ess_du": "vesélih",
+      "adj_neut_ess_pl": "vesélih",
+      "adj_neut_ess_sg": "vesélem",
+      "adj_neut_gen_du": "vesélih",
+      "adj_neut_gen_pl": "vesélih",
+      "adj_neut_gen_sg": "vesélega",
+      "adj_neut_ins_du": "vesélima",
+      "adj_neut_ins_pl": "vesélimi",
+      "adj_neut_ins_sg": "vesélim",
+      "adj_neut_nom_du": "veséli",
+      "adj_neut_nom_pl": "veséla",
+      "adj_neut_nom_sg": "vesélo",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "večer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "večer",
+    "inflections": {
+      "n_acc_du": "večéra",
+      "n_acc_pl": "večére",
+      "n_acc_sg": "večér",
+      "n_dat_du": "večéroma",
+      "n_dat_pl": "večérom",
+      "n_dat_sg": "večéru",
+      "n_ess_du": "večérih",
+      "n_ess_pl": "večérih",
+      "n_ess_sg": "večéru",
+      "n_gen_du": "večérov",
+      "n_gen_pl": "večérov",
+      "n_gen_sg": "večéra",
+      "n_ins_du": "večéroma",
+      "n_ins_pl": "večéri",
+      "n_ins_sg": "večérom",
+      "n_nom_du": "večéra",
+      "n_nom_pl": "večéri",
+      "n_nom_sg": "večér",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "veš": {
+    "antonyms": [],
+    "base": "veš",
+    "examples": [
+      "Veš, da je to res?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "videti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "videti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi vídel",
+      "v_cond_pst": "bi bil vídel",
+      "v_cvb_act_pst": "vidévši",
+      "v_ind_fut": "bom vídel",
+      "v_ind_prf_pst": "sem bil vídel",
+      "v_ind_prs_1_du": "vídiva",
+      "v_ind_prs_1_pl": "vídimo",
+      "v_ind_prs_1_sg": "vídim",
+      "v_ind_prs_2_du": "vídita",
+      "v_ind_prs_2_pl": "vídite",
+      "v_ind_prs_2_sg": "vídiš",
+      "v_ind_prs_3_du": "vídita",
+      "v_ind_prs_3_pl": "vídijo",
+      "v_ind_prs_3_sg": "vídi",
+      "v_ind_pst": "sem vídel",
+      "v_msdr": "vídenje",
+      "v_nfin": "vídeti",
+      "v_pctp_act_prs": "vidèč",
+      "v_pctp_act_pst": "vídel",
+      "v_pctp_pass_pst": "víden"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vprašanje": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vprašanje",
+    "inflections": {
+      "n_acc_du": "vprašánji",
+      "n_acc_pl": "vprašánja",
+      "n_acc_sg": "vprašánje",
+      "n_dat_du": "vprašánjema",
+      "n_dat_pl": "vprašánjem",
+      "n_dat_sg": "vprašánju",
+      "n_ess_du": "vprašánjih",
+      "n_ess_pl": "vprašánjih",
+      "n_ess_sg": "vprašánju",
+      "n_gen_du": "vprašánj",
+      "n_gen_pl": "vprašánj",
+      "n_gen_sg": "vprašánja",
+      "n_ins_du": "vprašánjema",
+      "n_ins_pl": "vprašánji",
+      "n_ins_sg": "vprašánjem",
+      "n_nom_du": "vprašánji",
+      "n_nom_pl": "vprašánja",
+      "n_nom_sg": "vprašánje",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "vrata": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vrata",
+    "inflections": {
+      "n_acc_pl": "vráta",
+      "n_dat_pl": "vrátom",
+      "n_ess_pl": "vrátih",
+      "n_gen_pl": "vrát",
+      "n_ins_pl": "vráti",
+      "n_nom_pl": "vráta",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "vse": {
+    "antonyms": [],
+    "base": "vse",
+    "examples": [
+      "Vse je v redu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "zadnji": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zadnji",
+    "inflections": {
+      "adj_fem_acc_du": "zádnji",
+      "adj_fem_acc_pl": "zádnje",
+      "adj_fem_acc_sg": "zádnjo",
+      "adj_fem_dat_du": "zádnjima",
+      "adj_fem_dat_pl": "zádnjim",
+      "adj_fem_dat_sg": "zádnji",
+      "adj_fem_ess_du": "zádnjih",
+      "adj_fem_ess_pl": "zádnjih",
+      "adj_fem_ess_sg": "zádnji",
+      "adj_fem_gen_du": "zádnjih",
+      "adj_fem_gen_pl": "zádnjih",
+      "adj_fem_gen_sg": "zádnje",
+      "adj_fem_ins_du": "zádnjima",
+      "adj_fem_ins_pl": "zádnjimi",
+      "adj_fem_ins_sg": "zádnjo",
+      "adj_fem_nom_du": "zádnji",
+      "adj_fem_nom_pl": "zádnje",
+      "adj_fem_nom_sg": "zádnja",
+      "adj_masc_acc_du": "zádnja",
+      "adj_masc_acc_pl": "zádnje",
+      "adj_masc_dat_du": "zádnjima",
+      "adj_masc_dat_pl": "zádnjim",
+      "adj_masc_dat_sg": "zádnjemu",
+      "adj_masc_ess_du": "zádnjih",
+      "adj_masc_ess_pl": "zádnjih",
+      "adj_masc_ess_sg": "zádnjem",
+      "adj_masc_gen_du": "zádnjih",
+      "adj_masc_gen_pl": "zádnjih",
+      "adj_masc_gen_sg": "zádnjega",
+      "adj_masc_ins_du": "zádnjima",
+      "adj_masc_ins_pl": "zádnjimi",
+      "adj_masc_ins_sg": "zádnjim",
+      "adj_masc_nom_du": "zádnja",
+      "adj_masc_nom_pl": "zádnji",
+      "adj_masc_nom_sg": "zádnji",
+      "adj_neut_acc_du": "zádnji",
+      "adj_neut_acc_pl": "zádnja",
+      "adj_neut_acc_sg": "zádnje",
+      "adj_neut_dat_du": "zádnjima",
+      "adj_neut_dat_pl": "zádnjim",
+      "adj_neut_dat_sg": "zádnjemu",
+      "adj_neut_ess_du": "zádnjih",
+      "adj_neut_ess_pl": "zádnjih",
+      "adj_neut_ess_sg": "zádnjem",
+      "adj_neut_gen_du": "zádnjih",
+      "adj_neut_gen_pl": "zádnjih",
+      "adj_neut_gen_sg": "zádnjega",
+      "adj_neut_ins_du": "zádnjima",
+      "adj_neut_ins_pl": "zádnjimi",
+      "adj_neut_ins_sg": "zádnjim",
+      "adj_neut_nom_du": "zádnji",
+      "adj_neut_nom_pl": "zádnja",
+      "adj_neut_nom_sg": "zádnje",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "zgodba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zgodba",
+    "inflections": {
+      "n_acc_du": "zgódbi",
+      "n_acc_pl": "zgódbe",
+      "n_acc_sg": "zgódbo",
+      "n_dat_du": "zgódbama",
+      "n_dat_pl": "zgódbam",
+      "n_dat_sg": "zgódbi",
+      "n_ess_du": "zgódbah",
+      "n_ess_pl": "zgódbah",
+      "n_ess_sg": "zgódbi",
+      "n_gen_du": "zgódb",
+      "n_gen_pl": "zgódb",
+      "n_gen_sg": "zgódbe",
+      "n_ins_du": "zgódbama",
+      "n_ins_pl": "zgódbami",
+      "n_ins_sg": "zgódbo",
+      "n_nom_du": "zgódbi",
+      "n_nom_pl": "zgódbe",
+      "n_nom_sg": "zgódba",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "čas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "čas",
+    "inflections": {
+      "n_acc_du": "čása",
+      "n_acc_pl": "čáse",
+      "n_acc_sg": "čàs",
+      "n_dat_du": "čásoma",
+      "n_dat_pl": "čásom",
+      "n_dat_sg": "čásu",
+      "n_ess_du": "čásih",
+      "n_ess_pl": "čásih",
+      "n_ess_sg": "čásu",
+      "n_gen_du": "čásov",
+      "n_gen_pl": "čásov",
+      "n_gen_sg": "čása",
+      "n_ins_du": "čásoma",
+      "n_ins_pl": "čási",
+      "n_ins_sg": "čásom",
+      "n_nom_du": "čása",
+      "n_nom_pl": "čási",
+      "n_nom_sg": "čàs",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "še": {
+    "antonyms": [],
+    "base": "še",
+    "examples": [
+      "Še vedno sem tu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ženska": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ženska",
+    "inflections": {
+      "n_acc_du": "žénski",
+      "n_acc_pl": "žénske",
+      "n_acc_sg": "žénsko",
+      "n_dat_du": "žénskama",
+      "n_dat_pl": "žénskam",
+      "n_dat_sg": "žénski",
+      "n_ess_du": "žénskah",
+      "n_ess_pl": "žénskah",
+      "n_ess_sg": "žénski",
+      "n_gen_du": "žénsk",
+      "n_gen_pl": "žénsk",
+      "n_gen_sg": "žénske",
+      "n_ins_du": "žénskama",
+      "n_ins_pl": "žénskami",
+      "n_ins_sg": "žénsko",
+      "n_nom_du": "žénski",
+      "n_nom_pl": "žénske",
+      "n_nom_sg": "žénska",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "živ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "živ",
+    "inflections": {
+      "adj_fem_acc_du": "žívi",
+      "adj_fem_acc_pl": "žíve",
+      "adj_fem_acc_sg": "žívo",
+      "adj_fem_dat_du": "žívima",
+      "adj_fem_dat_pl": "žívim",
+      "adj_fem_dat_sg": "žívi",
+      "adj_fem_ess_du": "žívih",
+      "adj_fem_ess_pl": "žívih",
+      "adj_fem_ess_sg": "žívi",
+      "adj_fem_gen_du": "žívih",
+      "adj_fem_gen_pl": "žívih",
+      "adj_fem_gen_sg": "žíve",
+      "adj_fem_ins_du": "žívima",
+      "adj_fem_ins_pl": "žívimi",
+      "adj_fem_ins_sg": "žívo",
+      "adj_fem_nom_du": "žívi",
+      "adj_fem_nom_pl": "žíve",
+      "adj_fem_nom_sg": "žíva",
+      "adj_masc_acc_du": "žíva",
+      "adj_masc_acc_pl": "žíve",
+      "adj_masc_dat_du": "žívima",
+      "adj_masc_dat_pl": "žívim",
+      "adj_masc_dat_sg": "žívemu",
+      "adj_masc_ess_du": "žívih",
+      "adj_masc_ess_pl": "žívih",
+      "adj_masc_ess_sg": "žívem",
+      "adj_masc_gen_du": "žívih",
+      "adj_masc_gen_pl": "žívih",
+      "adj_masc_gen_sg": "žívega",
+      "adj_masc_ins_du": "žívima",
+      "adj_masc_ins_pl": "žívimi",
+      "adj_masc_ins_sg": "žívim",
+      "adj_masc_nom_du": "žíva",
+      "adj_masc_nom_pl": "žívi",
+      "adj_masc_nom_sg_def": "žívi",
+      "adj_masc_nom_sg_indf": "žív",
+      "adj_neut_acc_du": "žívi",
+      "adj_neut_acc_pl": "žíva",
+      "adj_neut_acc_sg": "žívo",
+      "adj_neut_dat_du": "žívima",
+      "adj_neut_dat_pl": "žívim",
+      "adj_neut_dat_sg": "žívemu",
+      "adj_neut_ess_du": "žívih",
+      "adj_neut_ess_pl": "žívih",
+      "adj_neut_ess_sg": "žívem",
+      "adj_neut_gen_du": "žívih",
+      "adj_neut_gen_pl": "žívih",
+      "adj_neut_gen_sg": "žívega",
+      "adj_neut_ins_du": "žívima",
+      "adj_neut_ins_pl": "žívimi",
+      "adj_neut_ins_sg": "žívim",
+      "adj_neut_nom_du": "žívi",
+      "adj_neut_nom_pl": "žíva",
+      "adj_neut_nom_sg": "žívo",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "živeti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "živeti",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "bi žível",
+      "v_cond_pst": "bi bil žível",
+      "v_imp_1_du": "živíva",
+      "v_imp_1_pl": "živímo",
+      "v_imp_2_du": "živíta",
+      "v_imp_2_pl": "živíte",
+      "v_imp_2_sg": "žívi",
+      "v_ind_fut": "bom žível",
+      "v_ind_prf_pst": "sem bil žível",
+      "v_ind_prs_1_du": "živíva",
+      "v_ind_prs_1_pl": "živímo",
+      "v_ind_prs_1_sg": "živím",
+      "v_ind_prs_2_du": "živíta",
+      "v_ind_prs_2_pl": "živíte",
+      "v_ind_prs_2_sg": "živíš",
+      "v_ind_prs_3_du": "živíta",
+      "v_ind_prs_3_pl": "živíjo",
+      "v_ind_prs_3_sg": "živí",
+      "v_ind_pst": "sem žível",
+      "v_nfin": "živéti",
+      "v_pctp_act_pst": "žível",
+      "v_pctp_pass_pst": "živét"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "življenje": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "življenje",
+    "inflections": {
+      "n_acc_pl": "življênje",
+      "n_dat_pl": "življênju",
+      "n_ess_pl": "življênju",
+      "n_gen_pl": "življênja",
+      "n_ins_pl": "življênjem",
+      "n_nom_pl": "življênje",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  }
+}

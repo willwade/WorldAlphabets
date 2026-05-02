@@ -1,0 +1,511 @@
+{
+  "_locale": "es-419",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "al": {
+    "antonyms": [],
+    "base": "al",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "aquí": {
+    "antonyms": [],
+    "base": "aquí",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "bien": {
+    "antonyms": [
+      "mal"
+    ],
+    "base": "bien",
+    "examples": [
+      "Todo está bien."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "como": {
+    "antonyms": [],
+    "base": "como",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "creo": {
+    "antonyms": [],
+    "base": "creer",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "cuando": {
+    "antonyms": [],
+    "base": "cuando",
+    "examples": [
+      "¿Cuándo llegas?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "cómo": {
+    "antonyms": [],
+    "base": "cómo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "de": {
+    "antonyms": [],
+    "base": "de",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "del": {
+    "antonyms": [],
+    "base": "del",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "el": {
+    "antonyms": [],
+    "base": "el",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "eres": {
+    "antonyms": [],
+    "base": "ser",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "es": {
+    "antonyms": [],
+    "base": "es",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ese": {
+    "antonyms": [],
+    "base": "ese",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "eso": {
+    "antonyms": [],
+    "base": "eso",
+    "examples": [
+      "Eso es lo que quiero."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "estaba": {
+    "antonyms": [],
+    "base": "estar",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "este": {
+    "antonyms": [],
+    "base": "este",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "estás": {
+    "antonyms": [],
+    "base": "estar",
+    "examples": [
+      "Tú estás aquí."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "la": {
+    "antonyms": [],
+    "base": "la",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "las": {
+    "antonyms": [],
+    "base": "las",
+    "examples": [
+      "Las flores son hermosas."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "article"
+    ]
+  },
+  "lo": {
+    "antonyms": [],
+    "base": "lo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nada": {
+    "antonyms": [],
+    "base": "nada",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "no": {
+    "antonyms": [
+      "sí"
+    ],
+    "base": "no",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nos": {
+    "antonyms": [],
+    "base": "nos",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "porque": {
+    "antonyms": [],
+    "base": "porque",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "puede": {
+    "antonyms": [],
+    "base": "poder",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "que": {
+    "antonyms": [],
+    "base": "que",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "sabes": {
+    "antonyms": [],
+    "base": "saber",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "son": {
+    "antonyms": [],
+    "base": "ser",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "su": {
+    "antonyms": [],
+    "base": "su",
+    "examples": [
+      "Su casa es grande."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sé": {
+    "antonyms": [],
+    "base": "saber",
+    "examples": [
+      "Yo sé la respuesta."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tengo": {
+    "antonyms": [],
+    "base": "tener",
+    "examples": [
+      "Yo tengo un perro."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tienes": {
+    "antonyms": [],
+    "base": "tener",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "tu": {
+    "antonyms": [],
+    "base": "tu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tú": {
+    "antonyms": [],
+    "base": "tú",
+    "examples": [
+      "Tú eres importante."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "voy": {
+    "antonyms": [],
+    "base": "ir",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "y": {
+    "antonyms": [],
+    "base": "y",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "yo": {
+    "antonyms": [],
+    "base": "yo",
+    "examples": [
+      "Yo voy al mercado."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "él": {
+    "antonyms": [],
+    "base": "él",
+    "examples": [
+      "Él es mi amigo."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_generated_rule_notes": [
+    {
+      "description": "Negate a verb using 'nie'",
+      "executable": "verb + nie",
+      "inflection": "none",
+      "lookback": 1,
+      "name": "Negation",
+      "overrides": {}
+    },
+    {
+      "description": "Use 'ek' for first person singular",
+      "executable": "ek",
+      "inflection": "none",
+      "lookback": 0,
+      "name": "Subject Pronoun",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "Ek is nie",
+      "input": "Ek is"
+    },
+    {
+      "expected": "Ek",
+      "input": "Ek"
+    }
+  ],
+  "_locale": "af",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

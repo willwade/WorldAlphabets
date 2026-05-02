@@ -1,0 +1,277 @@
+{
+  "_locale": "te",
+  "_type": "words",
+  "_version": "0.1",
+  "అశోకుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "అశోకుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ఆర్యుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ఆర్యుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ఇంద్రుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ఇంద్రుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ఉండు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ఉండు",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_pst": "ఉన్నారు",
+      "v_3_fem_pl_pst": "ఉన్నారు",
+      "v_3_fem_sg_pst": "ఉన్నది",
+      "v_3_masc_pl_pst": "ఉన్నారు",
+      "v_3_masc_sg_pst": "ఉన్నాడు"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "కుమారుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "కుమారుడు",
+    "inflections": {
+      "n_pl_abl": "కుమారులవలన",
+      "n_pl_acc": "కుమారుల",
+      "n_pl_at": "కుమారులయందు",
+      "n_pl_dat": "కుమారులకొరకు",
+      "n_pl_gen": "కుమారులయొక్క",
+      "n_pl_ins": "కుమారులతో",
+      "n_pl_nom": "కుమారులు",
+      "n_pl_voc": "ఓ",
+      "n_pl_voc_2": "కుమారులారా",
+      "n_sg_abl": "కుమారునివలన",
+      "n_sg_acc": "కుమారుని",
+      "n_sg_at": "కుమారునియందు",
+      "n_sg_dat": "కుమారునికొరకు",
+      "n_sg_gen": "కుమారునియొక్క",
+      "n_sg_ins": "కుమారునితో",
+      "n_sg_nom": "కుమారుడు",
+      "n_sg_voc": "ఓ",
+      "n_sg_voc_2": "కుమారా",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "కేశవుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "కేశవుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "గంధర్వుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "గంధర్వుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "చెప్పు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "చెప్పు",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_pst": "చెప్పారు",
+      "v_3_fem_pl_pst": "చెప్పారు",
+      "v_3_fem_sg_pst": "చెప్పింది",
+      "v_3_masc_pl_pst": "చెప్పారు",
+      "v_3_masc_sg_pst": "చెప్పాడు"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "చేయు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "చేయు",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_fut": "చేస్తారు",
+      "v_2_pl_prs_dur": "చేస్తున్నారు",
+      "v_2_pl_pst": "చేశారు",
+      "v_3_fem_pl_fut": "చేస్తారు",
+      "v_3_fem_pl_prs_dur": "చేస్తున్నారు",
+      "v_3_fem_pl_pst": "చేశారు",
+      "v_3_fem_sg_fut": "చేస్తుంది",
+      "v_3_fem_sg_pst": "చేసింది",
+      "v_3_masc_pl_fut": "చేస్తారు",
+      "v_3_masc_pl_prs_dur": "చేస్తున్నారు",
+      "v_3_masc_pl_pst": "చేశారు",
+      "v_3_masc_sg_pst": "చేశాడు"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "జరుగు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "జరుగు",
+    "inflections": {
+      "regulars": [],
+      "v_3_fem_sg_pst": "జరిగింది"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "పెరుగు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "పెరుగు",
+    "inflections": {
+      "regulars": [],
+      "v_3_fem_sg_pst": "పెరిగింది"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ప్రారంభించు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ప్రారంభించు",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_pst": "ప్రారంభించారు",
+      "v_3_fem_pl_pst": "ప్రారంభించారు",
+      "v_3_masc_pl_pst": "ప్రారంభించారు"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "వచ్చు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "వచ్చు",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_pst": "వచ్చారు",
+      "v_3_fem_pl_pst": "వచ్చారు",
+      "v_3_fem_sg_pst": "వచ్చింది",
+      "v_3_masc_pl_pst": "వచ్చారు"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "వరుణుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "వరుణుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "శిష్యుడు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "శిష్యుడు",
+    "inflections": {
+      "n_pl_voc": "ఓ",
+      "n_sg_voc": "ఓ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "సాధించు": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "సాధించు",
+    "inflections": {
+      "regulars": [],
+      "v_3_fem_sg_pst": "సాధించింది"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  }
+}

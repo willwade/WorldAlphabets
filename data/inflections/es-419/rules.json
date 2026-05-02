@@ -1,0 +1,37 @@
+{
+  "_generated_rule_notes": [
+    {
+      "base": "es",
+      "inflections": {
+        "regulars": [
+          {
+            "form": "soy",
+            "location": "c"
+          },
+          {
+            "form": "eres",
+            "location": "c"
+          }
+        ]
+      },
+      "tests": [
+        {
+          "expected": true,
+          "input": "yo soy"
+        },
+        {
+          "expected": true,
+          "input": "tú eres"
+        }
+      ],
+      "type": "inflection"
+    }
+  ],
+  "_locale": "es-419",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

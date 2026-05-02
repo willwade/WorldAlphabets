@@ -1,0 +1,397 @@
+{
+  "_locale": "nn",
+  "_type": "words",
+  "_version": "0.1",
+  "by": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "by",
+    "inflections": {
+      "n_def_sg": "byen",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "gjer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gjer",
+    "inflections": {
+      "adj_cmpr": "gjerare",
+      "adj_def_sprl": "gjeraste",
+      "adj_masc_fem": "gjer",
+      "adj_ndef_sprl": "gjerast",
+      "adj_neut": "gjert",
+      "n_def_sg_pl": "gjere",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "gjera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gjera",
+    "inflections": {
+      "regulars": [],
+      "v_imp": "gjer",
+      "v_nfin_pass": "gjerast",
+      "v_prs": "gjer",
+      "v_pst": "gjorde",
+      "v_v_ptcp_prs": "gjerande",
+      "v_v_ptcp_pst": "gjort"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "gjere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gjere",
+    "inflections": {
+      "regulars": [],
+      "v_imp": "gjer",
+      "v_prs": "gjer"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "god": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "god",
+    "inflections": {
+      "adj_cmpr": "betre",
+      "adj_def_sprl": "beste",
+      "adj_masc_fem": "god",
+      "adj_ndef_sprl": "best",
+      "adj_neut": "godt",
+      "n_def_sg_pl": "gode",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "ha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ha",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "har"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "hava": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hava",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "har"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "have": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "have",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "har"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "helg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "helg",
+    "inflections": {
+      "n_def_pl": "helgane",
+      "n_def_pl_2": "helgene",
+      "n_def_sg": "helga",
+      "n_ndef_pl": "helgar",
+      "n_ndef_pl_2": "helger",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "kamera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kamera",
+    "inflections": {
+      "n_def_pl": "kameraa",
+      "n_def_sg": "kameraet",
+      "n_ndef_pl": "kamera",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "land": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "land",
+    "inflections": {
+      "n_def_sg": "landet",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "måtta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "måtta",
+    "inflections": {
+      "regulars": [],
+      "v_pst": "måtte"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "måtte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "måtte",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "må",
+      "v_pst": "måtte",
+      "v_v_ptcp_pst": "måtta",
+      "v_v_ptcp_pst_2": "mått"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "piano": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "piano",
+    "inflections": {
+      "n_def_pl": "pianoa",
+      "n_def_sg": "pianoet",
+      "n_ndef_pl": "piano",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "pris": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pris",
+    "inflections": {
+      "n_ndef_pl": "prisar",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "seia": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "seia",
+    "inflections": {
+      "regulars": [],
+      "v_pst": "sa"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "seie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "seie",
+    "inflections": {
+      "regulars": [],
+      "v_pst": "sa"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ting": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ting",
+    "inflections": {
+      "n_def_pl": "tinga",
+      "n_def_sg": "tingen",
+      "n_def_sg_2": "tinget",
+      "n_ndef_pl": "ting",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "tom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tom",
+    "inflections": {
+      "adj_cmpr": "tommare",
+      "adj_def_sprl": "tommaste",
+      "adj_ndef_sprl": "tommast",
+      "adj_neut_sg": "tomt",
+      "n_def_sg_pl": "tomme",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "vera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vera",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "er"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "vere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vere",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "er"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "veta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veta",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "veit",
+      "v_pst": "visste"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "vete": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vete",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "veit",
+      "v_pst": "visste"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "vite": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vite",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "veit",
+      "v_pst": "visste"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "å": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "å",
+    "inflections": {
+      "n_def_pl": "åene",
+      "n_def_sg": "åa",
+      "n_ndef_pl": "åer",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  }
+}

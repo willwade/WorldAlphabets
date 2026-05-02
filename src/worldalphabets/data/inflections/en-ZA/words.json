@@ -1,0 +1,563 @@
+{
+  "'m": {
+    "antonyms": [],
+    "base": "'m",
+    "examples": [
+      "I'm going to the store."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "'re": {
+    "antonyms": [],
+    "base": "'re",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "'s": {
+    "antonyms": [],
+    "base": "'s",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "possessive"
+    ]
+  },
+  "'t": {
+    "antonyms": [],
+    "base": "'t",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "contraction"
+    ]
+  },
+  "_locale": "en-ZA",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "about": {
+    "antonyms": [],
+    "base": "about",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition",
+      "adverb"
+    ]
+  },
+  "an": {
+    "antonyms": [],
+    "base": "an",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "article"
+    ]
+  },
+  "and": {
+    "antonyms": [],
+    "base": "and",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "are": {
+    "antonyms": [],
+    "base": "are",
+    "examples": [
+      "They are coming over."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "is",
+          "tense": "present"
+        },
+        {
+          "form": "were",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "at": {
+    "antonyms": [],
+    "base": "at",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "back": {
+    "antonyms": [
+      "front"
+    ],
+    "base": "back",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb",
+      "noun"
+    ]
+  },
+  "be": {
+    "antonyms": [],
+    "base": "be",
+    "examples": [
+      "To be or not to be."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "am",
+          "tense": "present"
+        },
+        {
+          "form": "was",
+          "tense": "past"
+        },
+        {
+          "form": "being",
+          "tense": "gerund"
+        }
+      ]
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "can": {
+    "antonyms": [],
+    "base": "can",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "could",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "come": {
+    "antonyms": [],
+    "base": "come",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "comes",
+          "tense": "present"
+        },
+        {
+          "form": "came",
+          "tense": "past"
+        },
+        {
+          "form": "coming",
+          "tense": "gerund"
+        }
+      ]
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "don": {
+    "antonyms": [],
+    "base": "don",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "going": {
+    "antonyms": [],
+    "base": "go",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "going",
+          "tense": "present participle"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun",
+      "adjective"
+    ]
+  },
+  "him": {
+    "antonyms": [],
+    "base": "him",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "his": {
+    "antonyms": [],
+    "base": "his",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "it": {
+    "antonyms": [],
+    "base": "it",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "know": {
+    "antonyms": [],
+    "base": "know",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "knows",
+          "tense": "present"
+        },
+        {
+          "form": "knew",
+          "tense": "past"
+        },
+        {
+          "form": "knowing",
+          "tense": "gerund"
+        }
+      ]
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "look": {
+    "antonyms": [],
+    "base": "look",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "no": {
+    "antonyms": [],
+    "base": "no",
+    "examples": [
+      "No, I don't want that."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "not": {
+    "antonyms": [],
+    "base": "not",
+    "examples": [
+      "I do not understand."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "now": {
+    "antonyms": [],
+    "base": "now",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "oh": {
+    "antonyms": [],
+    "base": "oh",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "interjection"
+    ]
+  },
+  "okay": {
+    "antonyms": [
+      "not okay"
+    ],
+    "base": "okay",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "one": {
+    "antonyms": [],
+    "base": "one",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "numeral",
+      "pronoun"
+    ]
+  },
+  "that": {
+    "antonyms": [],
+    "base": "that",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "the": {
+    "antonyms": [],
+    "base": "the",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "time": {
+    "antonyms": [],
+    "base": "time",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "up": {
+    "antonyms": [],
+    "base": "up",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "preposition"
+    ]
+  },
+  "us": {
+    "antonyms": [],
+    "base": "us",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "well": {
+    "antonyms": [],
+    "base": "well",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  "when": {
+    "antonyms": [],
+    "base": "when",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "with": {
+    "antonyms": [],
+    "base": "with",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "yes": {
+    "antonyms": [],
+    "base": "yes",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "you": {
+    "antonyms": [],
+    "base": "you",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  }
+}

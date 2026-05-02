@@ -1,0 +1,835 @@
+{
+  "_locale": "cy",
+  "_type": "words",
+  "_version": "0.1",
+  "adrodd": {
+    "antonyms": [],
+    "base": "adrodd",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "afalau": {
+    "antonyms": [],
+    "base": "afalau",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "ail": {
+    "antonyms": [],
+    "base": "ail",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "aml": {
+    "antonyms": [],
+    "base": "aml",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "ar": {
+    "antonyms": [],
+    "base": "ar",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "araf": {
+    "antonyms": [],
+    "base": "araf",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ardd": {
+    "antonyms": [],
+    "base": "ardd",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "arwres": {
+    "antonyms": [],
+    "base": "arwres",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "bod": {
+    "antonyms": [],
+    "base": "bod",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "bwyta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "bwyta",
+    "examples": [],
+    "inflections": {
+      "regulars": [],
+      "v_col_1_pl_ind_ipfv": "bwyten ni",
+      "v_col_1_pl_ind_prs": "bwytwn ni",
+      "v_col_1_pl_ind_pst": "bwyton ni",
+      "v_col_1_sg_ind_ipfv": "bwytwn i",
+      "v_col_1_sg_ind_prs": "bwyta i",
+      "v_col_1_sg_ind_pst": "bwytais i",
+      "v_col_2_pl_imp": "bwytwch",
+      "v_col_2_pl_ind_ipfv": "bwytech chi",
+      "v_col_2_pl_ind_prs": "bwytwch chi",
+      "v_col_2_pl_ind_pst": "bwytoch chi",
+      "v_col_2_sg_imp": "bwyta",
+      "v_col_2_sg_ind_ipfv": "bwytet ti",
+      "v_col_2_sg_ind_prs": "bwyti di",
+      "v_col_2_sg_ind_pst": "bwytaist ti",
+      "v_col_3_pl_ind_ipfv": "bwyten nhw",
+      "v_col_3_pl_ind_prs": "bwytan nhw",
+      "v_col_3_pl_ind_pst": "bwyton nhw",
+      "v_col_3_sg_ind_ipfv": "bwytai fo",
+      "v_col_3_sg_ind_prs": "bwytith o",
+      "v_col_3_sg_ind_pst": "bwytodd o",
+      "v_lit_1_pl_imp": "bwytawn",
+      "v_lit_1_pl_ind_ipfv": "bwytaem",
+      "v_lit_1_pl_ind_prs": "bwytawn",
+      "v_lit_1_pl_ind_pst": "bwytasom",
+      "v_lit_1_pl_ind_pst_pfv": "bwytasem",
+      "v_lit_1_pl_sbjv": "bwytaom",
+      "v_lit_1_sg_ind_ipfv": "bwytawn",
+      "v_lit_1_sg_ind_prs": "bwytâf",
+      "v_lit_1_sg_ind_pst": "bwyteais",
+      "v_lit_1_sg_ind_pst_pfv": "bwytaswn",
+      "v_lit_1_sg_sbjv": "bwytawyf",
+      "v_lit_2_pl_imp": "bwytewch",
+      "v_lit_2_pl_ind_ipfv": "bwytaech",
+      "v_lit_2_pl_ind_prs": "bwytewch",
+      "v_lit_2_pl_ind_pst": "bwytasoch",
+      "v_lit_2_pl_ind_pst_pfv": "bwytasech",
+      "v_lit_2_pl_sbjv": "bwytaoch",
+      "v_lit_2_sg_imp": "bwytâ",
+      "v_lit_2_sg_ind_ipfv": "bwytait",
+      "v_lit_2_sg_ind_prs": "bwytei",
+      "v_lit_2_sg_ind_pst": "bwyteaist",
+      "v_lit_2_sg_ind_pst_pfv": "bwytasit",
+      "v_lit_2_sg_sbjv": "bwyteych",
+      "v_lit_3_pl_imp": "bwytaent",
+      "v_lit_3_pl_ind_ipfv": "bwytaent",
+      "v_lit_3_pl_ind_prs": "bwytânt",
+      "v_lit_3_pl_ind_pst": "bwytasant",
+      "v_lit_3_pl_ind_pst_pfv": "bwytasent",
+      "v_lit_3_pl_sbjv": "bwytaont",
+      "v_lit_3_sg_imp": "bwytaed",
+      "v_lit_3_sg_ind_ipfv": "bwytâi",
+      "v_lit_3_sg_ind_prs": "bwyty",
+      "v_lit_3_sg_ind_pst": "bwytaodd",
+      "v_lit_3_sg_ind_pst_pfv": "bwytasai",
+      "v_lit_3_sg_sbjv": "bwytao",
+      "v_lit_4_imp": "bwytaer",
+      "v_lit_4_ind_ipfv": "bwyteid",
+      "v_lit_4_ind_prs": "bwyteir",
+      "v_lit_4_ind_pst": "bwytawyd",
+      "v_lit_4_ind_pst_pfv": "bwytasid",
+      "v_lit_4_sbjv": "bwytaer",
+      "v_v_msdr": "bwyta",
+      "v_v_ptcp": "bwytaedig"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "chi": {
+    "antonyms": [],
+    "base": "chi",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "cymerwch": {
+    "antonyms": [],
+    "base": "cymerwch",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "cymraeg": {
+    "antonyms": [],
+    "base": "cymraeg",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "cymru": {
+    "antonyms": [],
+    "base": "cymru",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "cymryd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cymryd",
+    "inflections": {
+      "regulars": [],
+      "v_col_2_pl_imp": "cymerwch",
+      "v_lit_2_pl_imp": "cymerwch",
+      "v_lit_2_pl_ind_prs": "cymerwch"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "dda": {
+    "antonyms": [],
+    "base": "dda",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ddim": {
+    "antonyms": [],
+    "base": "ddim",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adverb"
+    ]
+  },
+  "dw": {
+    "antonyms": [],
+    "base": "dw",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "dwlu": {
+    "antonyms": [],
+    "base": "dwlu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "dy": {
+    "antonyms": [],
+    "base": "dy",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "dysgu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "dysgu",
+    "examples": [],
+    "inflections": {
+      "regulars": [],
+      "v_col_1_pl_ind_ipfv": "dysgen ni",
+      "v_col_1_pl_ind_prs": "dysgwn ni",
+      "v_col_1_pl_ind_pst": "dysgon ni",
+      "v_col_1_sg_ind_ipfv": "dysgwn i",
+      "v_col_1_sg_ind_prs": "dysga i",
+      "v_col_1_sg_ind_pst": "dysgais i",
+      "v_col_2_pl_imp": "dysgwch",
+      "v_col_2_pl_ind_ipfv": "dysgech chi",
+      "v_col_2_pl_ind_prs": "dysgwch chi",
+      "v_col_2_pl_ind_pst": "dysgoch chi",
+      "v_col_2_sg_imp": "dysga",
+      "v_col_2_sg_ind_ipfv": "dysget ti",
+      "v_col_2_sg_ind_prs": "dysgi di",
+      "v_col_2_sg_ind_pst": "dysgaist ti",
+      "v_col_3_pl_ind_ipfv": "dysgen nhw",
+      "v_col_3_pl_ind_prs": "dysgan nhw",
+      "v_col_3_pl_ind_pst": "dysgon nhw",
+      "v_col_3_sg_ind_ipfv": "dysgai fo",
+      "v_col_3_sg_ind_prs": "dysgith o",
+      "v_col_3_sg_ind_pst": "dysgodd o",
+      "v_lit_1_pl_imp": "dysgwn",
+      "v_lit_1_pl_ind_ipfv": "dysgem",
+      "v_lit_1_pl_ind_prs": "dysgwn",
+      "v_lit_1_pl_ind_pst": "dysgasom",
+      "v_lit_1_pl_ind_pst_pfv": "dysgasem",
+      "v_lit_1_pl_sbjv": "dysgom",
+      "v_lit_1_sg_ind_ipfv": "dysgwn",
+      "v_lit_1_sg_ind_prs": "dysgaf",
+      "v_lit_1_sg_ind_pst": "dysgais",
+      "v_lit_1_sg_ind_pst_pfv": "dysgaswn",
+      "v_lit_1_sg_sbjv": "dysgwyf",
+      "v_lit_2_pl_imp": "dysgwch",
+      "v_lit_2_pl_ind_ipfv": "dysgech",
+      "v_lit_2_pl_ind_prs": "dysgwch",
+      "v_lit_2_pl_ind_pst": "dysgasoch",
+      "v_lit_2_pl_ind_pst_pfv": "dysgasech",
+      "v_lit_2_pl_sbjv": "dysgoch",
+      "v_lit_2_sg_imp": "dysg",
+      "v_lit_2_sg_ind_ipfv": "dysgit",
+      "v_lit_2_sg_ind_prs": "dysgi",
+      "v_lit_2_sg_ind_pst": "dysgaist",
+      "v_lit_2_sg_ind_pst_pfv": "dysgasit",
+      "v_lit_2_sg_sbjv": "dysgych",
+      "v_lit_3_pl_imp": "dysgent",
+      "v_lit_3_pl_ind_ipfv": "dysgent",
+      "v_lit_3_pl_ind_prs": "dysgant",
+      "v_lit_3_pl_ind_pst": "dysgasant",
+      "v_lit_3_pl_ind_pst_pfv": "dysgasent",
+      "v_lit_3_pl_sbjv": "dysgont",
+      "v_lit_3_sg_imp": "dysged",
+      "v_lit_3_sg_ind_ipfv": "dysgai",
+      "v_lit_3_sg_ind_prs": "dysg",
+      "v_lit_3_sg_ind_pst": "dysgodd",
+      "v_lit_3_sg_ind_pst_pfv": "dysgasai",
+      "v_lit_3_sg_sbjv": "dysgo",
+      "v_lit_4_imp": "dysger",
+      "v_lit_4_ind_ipfv": "dysgid",
+      "v_lit_4_ind_prs": "dysgir",
+      "v_lit_4_ind_pst": "dysgwyd",
+      "v_lit_4_ind_pst_pfv": "dysgasid",
+      "v_lit_4_sbjv": "dysger",
+      "v_v_msdr": "dysgu",
+      "v_v_ptcp": "dysgedig"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "dyw": {
+    "antonyms": [],
+    "base": "dyw",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ei": {
+    "antonyms": [],
+    "base": "ei",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "eisiau": {
+    "antonyms": [],
+    "base": "eisiau",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "fach": {
+    "antonyms": [],
+    "base": "fach",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "fwy": {
+    "antonyms": [],
+    "base": "fwy",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "gallu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "gallu",
+    "examples": [],
+    "inflections": {
+      "regulars": [],
+      "v_col_1_pl_ind_ipfv": "gallen ni",
+      "v_col_1_pl_ind_prs": "gallwn ni",
+      "v_col_1_pl_ind_pst": "gallon ni",
+      "v_col_1_sg_ind_ipfv": "gallwn i",
+      "v_col_1_sg_ind_prs": "galla i",
+      "v_col_1_sg_ind_pst": "gallais i",
+      "v_col_2_pl_imp": "gallwch",
+      "v_col_2_pl_ind_ipfv": "gallech chi",
+      "v_col_2_pl_ind_prs": "gallwch chi",
+      "v_col_2_pl_ind_pst": "galloch chi",
+      "v_col_2_sg_imp": "galla",
+      "v_col_2_sg_ind_ipfv": "gallet ti",
+      "v_col_2_sg_ind_prs": "galli di",
+      "v_col_2_sg_ind_pst": "gallaist ti",
+      "v_col_3_pl_ind_ipfv": "gallen nhw",
+      "v_col_3_pl_ind_prs": "gallan nhw",
+      "v_col_3_pl_ind_pst": "gallon nhw",
+      "v_col_3_sg_ind_ipfv": "gallai fo",
+      "v_col_3_sg_ind_prs": "gall o",
+      "v_col_3_sg_ind_pst": "gallodd o",
+      "v_lit_1_pl_imp": "gallwn",
+      "v_lit_1_pl_ind_ipfv": "gallem",
+      "v_lit_1_pl_ind_prs": "gallwn",
+      "v_lit_1_pl_ind_pst": "gallasom",
+      "v_lit_1_pl_ind_pst_pfv": "gallasem",
+      "v_lit_1_pl_sbjv": "gallom",
+      "v_lit_1_sg_ind_ipfv": "gallwn",
+      "v_lit_1_sg_ind_prs": "gallaf",
+      "v_lit_1_sg_ind_pst": "gellais",
+      "v_lit_1_sg_ind_pst_pfv": "gallaswn",
+      "v_lit_1_sg_sbjv": "gallwyf",
+      "v_lit_2_pl_imp": "gellwch",
+      "v_lit_2_pl_ind_ipfv": "gallech",
+      "v_lit_2_pl_ind_prs": "gellwch",
+      "v_lit_2_pl_ind_pst": "gallasoch",
+      "v_lit_2_pl_ind_pst_pfv": "gallasech",
+      "v_lit_2_pl_sbjv": "galloch",
+      "v_lit_2_sg_imp": "gall",
+      "v_lit_2_sg_ind_ipfv": "gallit",
+      "v_lit_2_sg_ind_prs": "gelli",
+      "v_lit_2_sg_ind_pst": "gellaist",
+      "v_lit_2_sg_ind_pst_pfv": "gallasit",
+      "v_lit_2_sg_sbjv": "gellych",
+      "v_lit_3_pl_imp": "gallent",
+      "v_lit_3_pl_ind_ipfv": "gallent",
+      "v_lit_3_pl_ind_prs": "gallant",
+      "v_lit_3_pl_ind_pst": "gallasant",
+      "v_lit_3_pl_ind_pst_pfv": "gallasent",
+      "v_lit_3_pl_sbjv": "gallont",
+      "v_lit_3_sg_imp": "galled",
+      "v_lit_3_sg_ind_ipfv": "gallai",
+      "v_lit_3_sg_ind_prs": "gall",
+      "v_lit_3_sg_ind_pst": "gallodd",
+      "v_lit_3_sg_ind_pst_pfv": "gallasai",
+      "v_lit_3_sg_sbjv": "gallo",
+      "v_lit_4_imp": "galler",
+      "v_lit_4_ind_ipfv": "gellid",
+      "v_lit_4_ind_prs": "gellir",
+      "v_lit_4_ind_pst": "gallwyd",
+      "v_lit_4_ind_pst_pfv": "gallasid",
+      "v_lit_4_sbjv": "galler",
+      "v_v_msdr": "gallu",
+      "v_v_ptcp": "galledig"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "gweithio": {
+    "antonyms": [],
+    "base": "gweithio",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "gweld": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gweld",
+    "inflections": {
+      "regulars": [],
+      "v_col_2_pl_imp": "gwelwch",
+      "v_lit_2_pl_imp": "gwelwch",
+      "v_lit_2_pl_ind_prs": "gwelwch"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "gwelwch": {
+    "antonyms": [],
+    "base": "gwelwch",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "hi": {
+    "antonyms": [],
+    "base": "hi",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hwyneb": {
+    "antonyms": [],
+    "base": "hwyneb",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "lliw": {
+    "antonyms": [],
+    "base": "lliw",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mae": {
+    "antonyms": [],
+    "base": "mae",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "n": {
+    "antonyms": [],
+    "base": "n",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "nid": {
+    "antonyms": [],
+    "base": "nid",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "os": {
+    "antonyms": [],
+    "base": "os",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "prawf": {
+    "antonyms": [],
+    "base": "prawf",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "r": {
+    "antonyms": [],
+    "base": "r",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ti": {
+    "antonyms": [],
+    "base": "ti",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tom": {
+    "antonyms": [],
+    "base": "tom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ty": {
+    "antonyms": [],
+    "base": "ty",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "welaist": {
+    "antonyms": [],
+    "base": "welaist",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "werth": {
+    "antonyms": [],
+    "base": "werth",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "wnewch": {
+    "antonyms": [],
+    "base": "wnewch",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "wrin": {
+    "antonyms": [],
+    "base": "wrin",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "wythnos": {
+    "antonyms": [],
+    "base": "wythnos",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "y": {
+    "antonyms": [],
+    "base": "y",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "determiner"
+    ]
+  },
+  "yma": {
+    "antonyms": [],
+    "base": "yma",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "yn": {
+    "antonyms": [],
+    "base": "yn",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "yw": {
+    "antonyms": [],
+    "base": "yw",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  }
+}

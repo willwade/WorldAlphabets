@@ -1,0 +1,582 @@
+{
+  "_locale": "sv",
+  "_type": "words",
+  "_version": "0.1",
+  "att": {
+    "antonyms": [],
+    "base": "att",
+    "examples": [
+      "Jag vill att du kommer."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "particle"
+    ]
+  },
+  "av": {
+    "antonyms": [],
+    "base": "av",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "bra": {
+    "antonyms": [
+      "dålig"
+    ],
+    "base": "bra",
+    "examples": [
+      "Det är en bra idé."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "de": {
+    "antonyms": [],
+    "base": "de",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "det": {
+    "antonyms": [],
+    "base": "det",
+    "examples": [
+      "Det är bra."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "du": {
+    "antonyms": [],
+    "base": "du",
+    "examples": [
+      "Du är min vän."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "En katt sitter där."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "er": {
+    "antonyms": [],
+    "base": "er",
+    "examples": [
+      "Jag såg er igår."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ett": {
+    "antonyms": [],
+    "base": "ett",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "article"
+    ]
+  },
+  "få": {
+    "antonyms": [
+      "ge"
+    ],
+    "base": "få",
+    "examples": [
+      "Jag vill få en present."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "får",
+          "type": "present"
+        },
+        {
+          "form": "fick",
+          "type": "past"
+        },
+        {
+          "form": "fått",
+          "type": "past participle"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "får": {
+    "antonyms": [],
+    "base": "får",
+    "examples": [
+      "Hon får en present."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "gå": {
+    "antonyms": [
+      "stanna"
+    ],
+    "base": "gå",
+    "examples": [
+      "Jag vill gå till parken."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "går",
+          "type": "present"
+        },
+        {
+          "form": "gick",
+          "type": "past"
+        },
+        {
+          "form": "gått",
+          "type": "past participle"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "går": {
+    "antonyms": [],
+    "base": "går",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ha": {
+    "antonyms": [],
+    "base": "ha",
+    "examples": [
+      "Jag har en bok."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "har": {
+    "antonyms": [],
+    "base": "har",
+    "examples": [
+      "Jag har en bok."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "hej": {
+    "antonyms": [],
+    "base": "hej",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "interjection"
+    ]
+  },
+  "hon": {
+    "antonyms": [],
+    "base": "hon",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "igen": {
+    "antonyms": [],
+    "base": "igen",
+    "examples": [
+      "Vi ses igen imorgon."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "in": {
+    "antonyms": [
+      "ut"
+    ],
+    "base": "in",
+    "examples": [
+      "Boken är in i väskan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "inte": {
+    "antonyms": [],
+    "base": "inte",
+    "examples": [
+      "Jag förstår inte."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jag": {
+    "antonyms": [],
+    "base": "jag",
+    "examples": [
+      "Jag är här."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kom": {
+    "antonyms": [],
+    "base": "kom",
+    "examples": [
+      "Han kom till festen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "man": {
+    "antonyms": [],
+    "base": "man",
+    "examples": [
+      "Man bör vara snäll."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "men": {
+    "antonyms": [],
+    "base": "men",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "mycket": {
+    "antonyms": [],
+    "base": "mycket",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ni": {
+    "antonyms": [],
+    "base": "ni",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nåt": {
+    "antonyms": [],
+    "base": "nåt",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "och": {
+    "antonyms": [],
+    "base": "och",
+    "examples": [
+      "Jag och du."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "oss": {
+    "antonyms": [],
+    "base": "oss",
+    "examples": [
+      "De såg oss på gatan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "ser",
+          "type": "present"
+        },
+        {
+          "form": "såg",
+          "type": "past"
+        },
+        {
+          "form": "sett",
+          "type": "past participle"
+        }
+      ]
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ska": {
+    "antonyms": [],
+    "base": "ska",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ta": {
+    "antonyms": [],
+    "base": "ta",
+    "examples": [
+      "Kan du ta boken?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tack": {
+    "antonyms": [],
+    "base": "tack",
+    "examples": [
+      "Tack för hjälpen!"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "interjection"
+    ]
+  },
+  "till": {
+    "antonyms": [],
+    "base": "till",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ut": {
+    "antonyms": [],
+    "base": "ut",
+    "examples": [
+      "Vi gick ut i solen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "vara": {
+    "antonyms": [],
+    "base": "vara",
+    "examples": [
+      "Jag vill vara här."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "vi": {
+    "antonyms": [],
+    "base": "vi",
+    "examples": [
+      "Vi går hem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vill": {
+    "antonyms": [],
+    "base": "vill",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "är": {
+    "antonyms": [],
+    "base": "är",
+    "examples": [
+      "Han är snäll."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

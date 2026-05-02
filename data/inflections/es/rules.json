@@ -1,0 +1,32 @@
+{
+  "_locale": "es",
+  "_version": "0.1",
+  "_license": "CC By, OpenAAC",
+  "_type": "rules",
+  "rules": [
+    {
+      "id": "yo_estoy",
+      "type": "verb",
+      "lookback": [
+        {
+          "words": [
+            "yo"
+          ],
+          "condense": true
+        }
+      ],
+      "inflection": "present_1s"
+    }
+  ],
+  "inflection_locations": {},
+  "tests": [
+    [
+      "yo",
+      "estar",
+      "estoy",
+      {
+        "rule_id": "yo_estoy"
+      }
+    ]
+  ]
+}

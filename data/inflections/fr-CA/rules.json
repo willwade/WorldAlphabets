@@ -1,0 +1,190 @@
+{
+  "_generated_inflection_location_notes": {
+    "past": [
+      "n",
+      "ne",
+      "e",
+      "se",
+      "s",
+      "sw",
+      "w",
+      "nw",
+      "c"
+    ],
+    "present": [
+      "n",
+      "ne",
+      "e",
+      "se",
+      "s",
+      "sw",
+      "w",
+      "nw",
+      "c"
+    ]
+  },
+  "_generated_rule_notes": [
+    {
+      "description": "Conjugate regular verbs in the present tense.",
+      "examples": [
+        "parler -> parle, parles, parle, parlons, parlez, parlent"
+      ],
+      "name": "Regular Verb Conjugation",
+      "pattern": "verb + e, es, e, ons, ez, ent"
+    },
+    {
+      "description": "Form past participles for regular verbs.",
+      "examples": [
+        "parler -> parlé, finir -> fini, vendre -> vendu"
+      ],
+      "name": "Past Participle Formation",
+      "pattern": "verb + é (for -er verbs), i (for -ir verbs), u (for -re verbs)"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected_output": [
+        "parle",
+        "parles",
+        "parle",
+        "parlons",
+        "parlez",
+        "parlent"
+      ],
+      "input": "parler",
+      "name": "Test Regular Verb Conjugation"
+    },
+    {
+      "expected_output": "fini",
+      "input": "finir",
+      "name": "Test Past Participle Formation"
+    }
+  ],
+  "_locale": "fr-CA",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "rule_1",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "a",
+            "ai",
+            "as",
+            "avez"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_2",
+      "inflection": "v_ind_fut_3_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "aler",
+            "commer"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_3",
+      "inflection": "v_cond_3_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "aveir",
+            "avoyr"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_4",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "juste",
+            "juster"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_5",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "estre"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_6",
+      "inflection": "v_ind_fut_2_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dire"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_7",
+      "inflection": "v_ptcp_pst",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "luire"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "rule_8",
+      "inflection": "v_sbjv_prs_1_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "lesser",
+            "lessier"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
+  "substitutions": {},
+  "tests": []
+}

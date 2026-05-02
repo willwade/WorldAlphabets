@@ -1,0 +1,37 @@
+{
+  "_generated_rule_notes": [
+    {
+      "description": "Convert verbs to present tense.",
+      "executable": "is",
+      "inflection": "present",
+      "lookback": 1,
+      "name": "verb_to_present",
+      "overrides": {}
+    },
+    {
+      "description": "Use 'de' for common nouns and 'het' for neuter nouns.",
+      "executable": "de, het",
+      "inflection": "article",
+      "lookback": 1,
+      "name": "article_usage",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "is",
+      "input": "is"
+    },
+    {
+      "expected": "de",
+      "input": "de"
+    }
+  ],
+  "_locale": "nl-BE",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

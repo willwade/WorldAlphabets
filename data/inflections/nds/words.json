@@ -1,0 +1,401 @@
+{
+  "_locale": "nds",
+  "_type": "words",
+  "_version": "0.1",
+  "dumm": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dumm",
+    "inflections": {
+      "adj_acc_cmpr_def_fem_sg": "de dümmere",
+      "adj_acc_cmpr_def_masc_sg": "den dümmern",
+      "adj_acc_cmpr_def_neut_sg": "dat dümmere",
+      "adj_acc_cmpr_def_pl": "de dümmern",
+      "adj_acc_cmpr_fem_sg": "dümmere",
+      "adj_acc_cmpr_indf_fem_sg": "en dümmere",
+      "adj_acc_cmpr_indf_masc_sg": "en dümmern",
+      "adj_acc_cmpr_indf_neut_sg": "en dümmer",
+      "adj_acc_cmpr_indf_pl": "keen dümmern",
+      "adj_acc_cmpr_masc_sg": "dümmern",
+      "adj_acc_cmpr_neut_sg": "dümmer",
+      "adj_acc_cmpr_pl": "dümmere",
+      "adj_acc_def_fem_sg": "de dumme",
+      "adj_acc_def_masc_sg": "den dummen",
+      "adj_acc_def_neut_sg": "dat dumme",
+      "adj_acc_def_pl": "de dummen",
+      "adj_acc_fem_sg": "dumme",
+      "adj_acc_indf_fem_sg": "en dumme",
+      "adj_acc_indf_masc_sg": "en dummen",
+      "adj_acc_indf_neut_sg": "en dumm",
+      "adj_acc_indf_neut_sg_2": "dummet",
+      "adj_acc_indf_pl": "keen dummen",
+      "adj_acc_masc_sg": "dummen",
+      "adj_acc_neut_sg": "dumm",
+      "adj_acc_pl": "dumme",
+      "adj_acc_sprl_def_fem_sg": "de dümmste",
+      "adj_acc_sprl_def_masc_sg": "den dümmsten",
+      "adj_acc_sprl_def_neut_sg": "dat dümmste",
+      "adj_acc_sprl_def_pl": "de dümmsten",
+      "adj_acc_sprl_fem_sg": "dümmste",
+      "adj_acc_sprl_indf_fem_sg": "en dümmste",
+      "adj_acc_sprl_indf_masc_sg": "en dümmsten",
+      "adj_acc_sprl_indf_neut_sg": "en dümmst",
+      "adj_acc_sprl_indf_pl": "keen dümmsten",
+      "adj_acc_sprl_masc_sg": "dümmsten",
+      "adj_acc_sprl_neut_sg": "dümmst",
+      "adj_acc_sprl_pl": "dümmste",
+      "adj_cmpr_fem_sg_lgspec01": "se is dümmer",
+      "adj_cmpr_masc_sg_lgspec01": "he is dümmer",
+      "adj_cmpr_neut_sg_lgspec01": "dat is dümmer",
+      "adj_cmpr_pl_lgspec01": "se sünd dümmer",
+      "adj_dat_cmpr_def_fem_sg": "de dümmere",
+      "adj_dat_cmpr_def_masc_sg": "den dümmern",
+      "adj_dat_cmpr_def_neut_sg": "dat dümmere",
+      "adj_dat_cmpr_def_pl": "de dümmern",
+      "adj_dat_cmpr_fem_sg": "dümmere",
+      "adj_dat_cmpr_indf_fem_sg": "en dümmere",
+      "adj_dat_cmpr_indf_masc_sg": "en dümmern",
+      "adj_dat_cmpr_indf_neut_sg": "en dümmer",
+      "adj_dat_cmpr_indf_pl": "keen dümmern",
+      "adj_dat_cmpr_masc_sg": "dümmern",
+      "adj_dat_cmpr_neut_sg": "dümmer",
+      "adj_dat_cmpr_pl": "dümmere",
+      "adj_dat_def_fem_sg": "de dumme",
+      "adj_dat_def_masc_sg": "den dummen",
+      "adj_dat_def_neut_sg": "dat dumme",
+      "adj_dat_def_pl": "de dummen",
+      "adj_dat_fem_sg": "dumme",
+      "adj_dat_indf_fem_sg": "en dumme",
+      "adj_dat_indf_masc_sg": "en dummen",
+      "adj_dat_indf_neut_sg": "en dumm",
+      "adj_dat_indf_neut_sg_2": "dummet",
+      "adj_dat_indf_pl": "keen dummen",
+      "adj_dat_masc_sg": "dummen",
+      "adj_dat_neut_sg": "dumm",
+      "adj_dat_pl": "dumme",
+      "adj_dat_sprl_def_fem_sg": "de dümmste",
+      "adj_dat_sprl_def_masc_sg": "den dümmsten",
+      "adj_dat_sprl_def_neut_sg": "dat dümmste",
+      "adj_dat_sprl_def_pl": "de dümmsten",
+      "adj_dat_sprl_fem_sg": "dümmste",
+      "adj_dat_sprl_indf_fem_sg": "en dümmste",
+      "adj_dat_sprl_indf_masc_sg": "en dümmsten",
+      "adj_dat_sprl_indf_neut_sg": "en dümmst",
+      "adj_dat_sprl_indf_pl": "keen dümmsten",
+      "adj_dat_sprl_masc_sg": "dümmsten",
+      "adj_dat_sprl_neut_sg": "dümmst",
+      "adj_dat_sprl_pl": "dümmste",
+      "adj_fem_sg_lgspec01": "se is dumm",
+      "adj_gen_cmpr_def_fem_sg": "de dümmere",
+      "adj_gen_cmpr_def_masc_sg": "den dümmern",
+      "adj_gen_cmpr_def_neut_sg": "dat dümmere",
+      "adj_gen_cmpr_def_pl": "de dümmern",
+      "adj_gen_cmpr_fem_sg": "dümmere",
+      "adj_gen_cmpr_indf_fem_sg": "en dümmere",
+      "adj_gen_cmpr_indf_masc_sg": "en dümmern",
+      "adj_gen_cmpr_indf_neut_sg": "en dümmer",
+      "adj_gen_cmpr_indf_pl": "keen dümmern",
+      "adj_gen_cmpr_masc_sg": "dümmern",
+      "adj_gen_cmpr_neut_sg": "dümmer",
+      "adj_gen_cmpr_pl": "dümmere",
+      "adj_gen_def_fem_sg": "de dumme",
+      "adj_gen_def_masc_sg": "den dummen",
+      "adj_gen_def_neut_sg": "dat dumme",
+      "adj_gen_def_pl": "de dummen",
+      "adj_gen_fem_sg": "dumme",
+      "adj_gen_indf_fem_sg": "en dumme",
+      "adj_gen_indf_masc_sg": "en dummen",
+      "adj_gen_indf_neut_sg": "en dumm",
+      "adj_gen_indf_neut_sg_2": "dummet",
+      "adj_gen_indf_pl": "keen dummen",
+      "adj_gen_masc_sg": "dummen",
+      "adj_gen_neut_sg": "dumm",
+      "adj_gen_pl": "dumme",
+      "adj_gen_sprl_def_fem_sg": "de dümmste",
+      "adj_gen_sprl_def_masc_sg": "den dümmsten",
+      "adj_gen_sprl_def_neut_sg": "dat dümmste",
+      "adj_gen_sprl_def_pl": "de dümmsten",
+      "adj_gen_sprl_fem_sg": "dümmste",
+      "adj_gen_sprl_indf_fem_sg": "en dümmste",
+      "adj_gen_sprl_indf_masc_sg": "en dümmsten",
+      "adj_gen_sprl_indf_neut_sg": "en dümmst",
+      "adj_gen_sprl_indf_pl": "keen dümmsten",
+      "adj_gen_sprl_masc_sg": "dümmsten",
+      "adj_gen_sprl_neut_sg": "dümmst",
+      "adj_gen_sprl_pl": "dümmste",
+      "adj_masc_sg_lgspec01": "he is dumm",
+      "adj_neut_sg_lgspec01": "dat is dumm",
+      "adj_nom_cmpr_def_fem_sg": "de dümmere",
+      "adj_nom_cmpr_def_masc_sg": "de dümmere",
+      "adj_nom_cmpr_def_neut_sg": "dat dümmere",
+      "adj_nom_cmpr_def_pl": "de dümmern",
+      "adj_nom_cmpr_fem_sg": "dümmere",
+      "adj_nom_cmpr_indf_fem_sg": "en dümmere",
+      "adj_nom_cmpr_indf_masc_sg": "en dümmere",
+      "adj_nom_cmpr_indf_neut_sg": "en dümmer",
+      "adj_nom_cmpr_indf_pl": "keen dümmern",
+      "adj_nom_cmpr_masc_sg": "dümmere",
+      "adj_nom_cmpr_neut_sg": "dümmer",
+      "adj_nom_cmpr_pl": "dümmere",
+      "adj_nom_def_fem_sg": "de dumme",
+      "adj_nom_def_masc_sg": "de dumme",
+      "adj_nom_def_neut_sg": "dat dumme",
+      "adj_nom_def_pl": "de dummen",
+      "adj_nom_fem_sg": "dumme",
+      "adj_nom_indf_fem_sg": "en dumme",
+      "adj_nom_indf_masc_sg": "en dumme",
+      "adj_nom_indf_neut_sg": "en dumm",
+      "adj_nom_indf_neut_sg_2": "dummet",
+      "adj_nom_indf_pl": "keen dummen",
+      "adj_nom_masc_sg": "dumme",
+      "adj_nom_neut_sg": "dumm",
+      "adj_nom_pl": "dumme",
+      "adj_nom_sprl_def_fem_sg": "de dümmste",
+      "adj_nom_sprl_def_masc_sg": "de dümmste",
+      "adj_nom_sprl_def_neut_sg": "dat dümmste",
+      "adj_nom_sprl_def_pl": "de dümmsten",
+      "adj_nom_sprl_fem_sg": "dümmste",
+      "adj_nom_sprl_indf_fem_sg": "en dümmste",
+      "adj_nom_sprl_indf_masc_sg": "en dümmste",
+      "adj_nom_sprl_indf_neut_sg": "en dümmst",
+      "adj_nom_sprl_indf_pl": "keen dümmsten",
+      "adj_nom_sprl_masc_sg": "dümmste",
+      "adj_nom_sprl_neut_sg": "dümmst",
+      "adj_nom_sprl_pl": "dümmste",
+      "adj_pl_lgspec01": "se sünd dumm",
+      "adj_prt_cmpr_fem_sg": "een dümmers",
+      "adj_prt_cmpr_masc_sg": "een dümmers",
+      "adj_prt_cmpr_neut_sg": "wat dümmers",
+      "adj_prt_cmpr_pl": "allens dümmer",
+      "adj_prt_fem_sg": "een dumms",
+      "adj_prt_masc_sg": "een dumms",
+      "adj_prt_neut_sg": "wat dumms",
+      "adj_prt_pl": "allens dumm",
+      "adj_sprl_fem_sg_lgspec01": "se is de Dümmste",
+      "adj_sprl_masc_sg_lgspec01": "he is de Dümmste",
+      "adj_sprl_neut_sg_lgspec01": "dat is dat Dümmste",
+      "adj_sprl_pl_lgspec01": "se sünd de Dümmsten",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ehren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ehren",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_prs": "ehr",
+      "v_ind_sg_1_pst": "ehr",
+      "v_ind_sg_3_pst": "ehr"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "gahn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gahn",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_3_prs": "geiht"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "hebben": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hebben",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_prs": "heff"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "könen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "könen",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_prs": "kann",
+      "v_ind_sg_3_prs": "kann"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "maken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maken",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_prs": "maak",
+      "v_ind_sg_1_pst": "maak",
+      "v_ind_sg_3_pst": "maak"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "sehn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sehn",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl_prs": "seht",
+      "v_imp_sg_prs": "seh",
+      "v_ind_pl_prs": "seht",
+      "v_ind_pl_prs_2": "sehen",
+      "v_ind_pl_pst": "segen",
+      "v_ind_sg_1_prs": "seh",
+      "v_ind_sg_1_pst": "seeg",
+      "v_ind_sg_2_prs": "sühst",
+      "v_ind_sg_2_pst": "seegst",
+      "v_ind_sg_3_prs": "süht",
+      "v_ind_sg_3_pst": "seeg",
+      "v_nfin": "sehn",
+      "v_ptcp_prs": "sehn",
+      "v_ptcp_pst": "esehen",
+      "v_ptcp_pst_2": "gesehen"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sien": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sien",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_pst": "weer",
+      "v_ind_sg_3_prs": "is",
+      "v_ind_sg_3_pst": "weer"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "sön": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sön",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_1_pst": "weer",
+      "v_ind_sg_3_pst": "weer"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "warrn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "warrn",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl_prs": "warrt",
+      "v_ind_pl_prs": "warrt",
+      "v_ind_sg_3_prs": "warrt"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "wassen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wassen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl_prs": "wasst",
+      "v_imp_sg_prs": "wass",
+      "v_ind_pl_prs": "wasst",
+      "v_ind_pl_prs_2": "wassen",
+      "v_ind_pl_pst": "wussen",
+      "v_ind_sg_1_prs": "wass",
+      "v_ind_sg_1_pst": "wuss",
+      "v_ind_sg_2_prs": "wassst",
+      "v_ind_sg_2_pst": "wussst",
+      "v_ind_sg_3_prs": "wasst",
+      "v_ind_sg_3_pst": "wuss",
+      "v_nfin": "wassen",
+      "v_ptcp_prs": "wassen",
+      "v_ptcp_pst": "ewussen",
+      "v_ptcp_pst_2": "gewussen"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "wesen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wesen",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pl_prs": "sin",
+      "v_ind_pl_pst": "wassen",
+      "v_ind_sg_1_prs": "sin",
+      "v_ind_sg_1_pst": "weer",
+      "v_ind_sg_3_prs": "is",
+      "v_ind_sg_3_pst": "weer"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "wüllen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wüllen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg_prs": "will",
+      "v_ind_sg_1_prs": "will",
+      "v_ind_sg_3_prs": "will"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "is",
+      "inflection": "is",
+      "lookback": 1,
+      "name": "verb_conjugation",
+      "overrides": {}
+    },
+    {
+      "executable": "de",
+      "inflection": "de",
+      "lookback": 1,
+      "name": "article_usage",
+      "overrides": {}
+    },
+    {
+      "executable": "ik",
+      "inflection": "ik",
+      "lookback": 1,
+      "name": "pronoun_usage",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "is",
+      "input": "Hij is een dokter."
+    },
+    {
+      "expected": "de",
+      "input": "De kat is zwart."
+    },
+    {
+      "expected": "ik",
+      "input": "Ik ben hier."
+    }
+  ],
+  "_locale": "nl",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

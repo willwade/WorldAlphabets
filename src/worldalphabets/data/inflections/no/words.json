@@ -1,0 +1,704 @@
+{
+  "Da": {
+    "antonyms": [],
+    "base": "Da",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "De": {
+    "antonyms": [],
+    "base": "De",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "Det": {
+    "antonyms": [],
+    "base": "Det",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "En": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "determiner"
+    ]
+  },
+  "For": {
+    "antonyms": [],
+    "base": "for",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "preposition"
+    ]
+  },
+  "Foto": {
+    "antonyms": [],
+    "base": "foto",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "Gud": {
+    "antonyms": [],
+    "base": "Gud",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "Gå": {
+    "antonyms": [],
+    "base": "Gå",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "Han": {
+    "antonyms": [],
+    "base": "Han",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "I": {
+    "antonyms": [],
+    "base": "I",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "Jeg": {
+    "antonyms": [],
+    "base": "Jeg",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "Men": {
+    "antonyms": [],
+    "base": "Men",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "Så": {
+    "antonyms": [],
+    "base": "Så",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "_locale": "no",
+  "_type": "words",
+  "_version": "0.1",
+  "alle": {
+    "antonyms": [],
+    "base": "alle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "bare": {
+    "antonyms": [],
+    "base": "bare",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "blir": {
+    "antonyms": [],
+    "base": "blir",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "blir",
+          "type": "present"
+        },
+        {
+          "form": "ble",
+          "type": "past"
+        },
+        {
+          "form": "blitt",
+          "type": "past participle"
+        }
+      ]
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "da": {
+    "antonyms": [],
+    "base": "da",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adverb"
+    ]
+  },
+  "dem": {
+    "antonyms": [],
+    "base": "dem",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "det": {
+    "antonyms": [],
+    "base": "det",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "du": {
+    "antonyms": [],
+    "base": "du",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "er": {
+    "antonyms": [],
+    "base": "er",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "hadde": {
+    "antonyms": [],
+    "base": "hadde",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ham": {
+    "antonyms": [],
+    "base": "ham",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "han": {
+    "antonyms": [],
+    "base": "han",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hans": {
+    "antonyms": [],
+    "base": "hans",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hovedinnhold": {
+    "antonyms": [],
+    "base": "hovedinnhold",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "hovedmeny": {
+    "antonyms": [],
+    "base": "hovedmeny",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "hun": {
+    "antonyms": [],
+    "base": "hun",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ikke": {
+    "antonyms": [],
+    "base": "ikke",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "inn": {
+    "antonyms": [],
+    "base": "inn",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "kan": {
+    "antonyms": [],
+    "base": "kan",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kom": {
+    "antonyms": [],
+    "base": "kom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kommer": {
+    "antonyms": [],
+    "base": "komme",
+    "examples": [
+      "Han kommer i morgen."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "kommer",
+          "tense": "present"
+        },
+        {
+          "form": "kom",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "men": {
+    "antonyms": [],
+    "base": "men",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "mot": {
+    "antonyms": [],
+    "base": "mot",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ned": {
+    "antonyms": [],
+    "base": "ned",
+    "examples": [
+      "Han gikk ned."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "og": {
+    "antonyms": [],
+    "base": "og",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "om": {
+    "antonyms": [],
+    "base": "om",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "oss": {
+    "antonyms": [],
+    "base": "oss",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "over": {
+    "antonyms": [],
+    "base": "over",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "på": {
+    "antonyms": [],
+    "base": "på",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "sa": {
+    "antonyms": [],
+    "base": "sa",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "sammen": {
+    "antonyms": [],
+    "base": "sammen",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "sier": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "sin": {
+    "antonyms": [],
+    "base": "sin",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sine": {
+    "antonyms": [],
+    "base": "sine",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "som": {
+    "antonyms": [],
+    "base": "som",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "til": {
+    "antonyms": [],
+    "base": "til",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ut": {
+    "antonyms": [],
+    "base": "ut",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ved": {
+    "antonyms": [],
+    "base": "ved",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vi": {
+    "antonyms": [],
+    "base": "vi",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vil": {
+    "antonyms": [],
+    "base": "vil",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "være": {
+    "antonyms": [],
+    "base": "være",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "er",
+          "type": "present"
+        },
+        {
+          "form": "var",
+          "type": "past"
+        },
+        {
+          "form": "vært",
+          "type": "past participle"
+        }
+      ]
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

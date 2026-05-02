@@ -1,0 +1,1104 @@
+{
+  "_locale": "fo",
+  "_type": "words",
+  "_version": "0.1",
+  "bomm": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bomm",
+    "inflections": {
+      "n_def_acc_pl": "bommini",
+      "n_def_nom_pl": "bommini",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bommini": {
+    "antonyms": [],
+    "base": "bommini",
+    "examples": [
+      "Bommini eru góð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bróðir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bróðir",
+    "inflections": {
+      "n_indf_acc_sg": "bróður",
+      "n_indf_dat_sg": "bróður",
+      "n_indf_gen_sg": "bróður",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bróður": {
+    "antonyms": [],
+    "base": "bróður",
+    "examples": [
+      "Mín bróður er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "byrja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "byrja",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "byrjar",
+      "v_ind_prs_3_sg": "byrjar"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "byrjar": {
+    "antonyms": [],
+    "base": "byrjar",
+    "examples": [
+      "Eg byrja arbeiðið."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "byrur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "byrur",
+    "inflections": {
+      "n_indf_gen_sg": "byrjar",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "bíligasta": {
+    "antonyms": [],
+    "base": "bíligasta",
+    "examples": [
+      "Tað er bíligasta."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dag": {
+    "antonyms": [],
+    "base": "dag",
+    "examples": [
+      "Í dag er ein góður dagur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dagur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dagur",
+    "inflections": {
+      "n_indf_acc_sg": "dag",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dámar": {
+    "antonyms": [],
+    "base": "dámar",
+    "examples": [
+      "Eg dámi tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "elska": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "elska",
+    "examples": [
+      "Eg elski teg."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "elskað",
+      "v_imp_2_pl": "elskið",
+      "v_imp_2_sg": "elska",
+      "v_ind_prs_1_sg": "elski",
+      "v_ind_prs_2_sg": "elskar",
+      "v_ind_prs_3": "elska",
+      "v_ind_prs_3_sg": "elskar",
+      "v_ind_pst_1_sg": "elskaði",
+      "v_ind_pst_2_sg": "elskaði",
+      "v_ind_pst_3": "elskaðu",
+      "v_ind_pst_3_sg": "elskaði",
+      "v_nfin": "elska",
+      "v_ptcp_prs": "elskandi",
+      "v_ptcp_pst": "elskaður"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "enda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "enda",
+    "examples": [
+      "Eg enda arbeiðið."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "endað",
+      "v_imp_2_pl": "endið",
+      "v_imp_2_sg": "enda",
+      "v_ind_prs_1_sg": "endi",
+      "v_ind_prs_2_sg": "endar",
+      "v_ind_prs_3": "enda",
+      "v_ind_prs_3_sg": "endar",
+      "v_ind_pst_1_sg": "endaði",
+      "v_ind_pst_2_sg": "endaði",
+      "v_ind_pst_3": "endaðu",
+      "v_ind_pst_3_sg": "endaði",
+      "v_nfin": "enda",
+      "v_ptcp_prs": "endandi",
+      "v_ptcp_pst": "endaður"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "endi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "endi",
+    "inflections": {
+      "n_indf_acc_sg": "enda",
+      "n_indf_dat_sg": "enda",
+      "n_indf_gen_pl": "enda",
+      "n_indf_gen_sg": "enda",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "er": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [
+      "ikki"
+    ],
+    "base": "er",
+    "examples": [
+      "Hann er her."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_imp_2_sg": "ver",
+      "v_ind_prs_1_sg": "eri",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3": "eru",
+      "v_ind_prs_3_sg": "er",
+      "v_ind_pst_1_sg": "var",
+      "v_ind_pst_2_sg": "vart",
+      "v_ind_pst_3": "vóru",
+      "v_ind_pst_3_sg": "var",
+      "v_nfin": "vera",
+      "v_ptcp_prs": "verandi"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ert": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "ert",
+    "examples": [
+      "Tú ert góður."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_imp_2_sg": "ver",
+      "v_ind_prs_1_sg": "eri",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3": "eru",
+      "v_ind_prs_3_sg": "er",
+      "v_ind_pst_1_sg": "var",
+      "v_ind_pst_2_sg": "vart",
+      "v_ind_pst_3": "vóru",
+      "v_ind_pst_3_sg": "var",
+      "v_nfin": "vera",
+      "v_ptcp_prs": "verandi"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "eru": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eru",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3_sg": "er"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "far": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "far",
+    "inflections": {
+      "n_indf_gen_pl": "fara",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "fara": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "fara",
+    "examples": [
+      "Vit fara til strondina."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "farið",
+      "v_imp_2_pl": "farið",
+      "v_imp_2_sg": "far",
+      "v_ind_prs_1_sg": "fari",
+      "v_ind_prs_2_sg": "fert",
+      "v_ind_prs_3": "fara",
+      "v_ind_prs_3_sg": "fer",
+      "v_ind_pst_1_sg": "fór",
+      "v_ind_pst_2_sg": "fórt",
+      "v_ind_pst_3": "fóru",
+      "v_ind_pst_3_sg": "fór",
+      "v_nfin": "fara",
+      "v_ptcp_prs": "farandi",
+      "v_ptcp_pst": "farin"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "framførsla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "framførsla",
+    "inflections": {
+      "n_def_nom_sg": "framførslan",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "framførslan": {
+    "antonyms": [],
+    "base": "framførslan",
+    "examples": [
+      "Framførslan var góð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "fyrr": {
+    "antonyms": [],
+    "base": "fyrr",
+    "examples": [
+      "Eg kom fyrr."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "gala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gala",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "galið",
+      "v_imp_2_pl": "galið"
+    },
+    "priority": 5,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "galin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "galin",
+    "inflections": {
+      "adj_nom_acc_neut_sg": "galið",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "galið": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "galið",
+    "examples": [
+      "Hann er galið."
+    ],
+    "inflections": {
+      "adj_acc_fem_sg": "galna",
+      "adj_acc_masc_pl": "galnar",
+      "adj_acc_masc_sg": "galnan",
+      "adj_dat_fem_sg": "galnari",
+      "adj_dat_masc_pl": "galnum",
+      "adj_dat_masc_sg": "galnum",
+      "adj_dat_neut_sg": "galnum",
+      "adj_fem_pl": "galnar",
+      "adj_gen_fem_sg": "galnar",
+      "adj_gen_masc_pl": "galna",
+      "adj_gen_masc_sg": "galins",
+      "adj_gen_neut_sg": "galins",
+      "adj_neut_pl": "galin",
+      "adj_nom_acc_neut_sg": "galið",
+      "adj_nom_fem_sg": "galin",
+      "adj_nom_masc_pl": "galnir",
+      "adj_nom_masc_sg": "galin",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hann": {
+    "antonyms": [],
+    "base": "hann",
+    "examples": [
+      "Hann kemur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hava": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hava",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "hevði",
+      "v_ind_pst_2_sg": "hevði",
+      "v_ind_pst_3_sg": "hevði"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [
+      "Eg eri her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "hevur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hevur",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "hevði",
+      "v_ind_pst_2_sg": "hevði",
+      "v_ind_pst_3_sg": "hevði"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "hevði": {
+    "antonyms": [],
+    "base": "hevði",
+    "examples": [
+      "Eg hevði tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "høgt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "høgt",
+    "inflections": {
+      "adj_nom_masc_sg": "høgur",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "høgur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "høgur",
+    "examples": [
+      "Hann er høgur."
+    ],
+    "inflections": {
+      "adj_acc_fem_sg": "høga",
+      "adj_acc_masc_pl": "høgar",
+      "adj_acc_masc_sg": "høgan",
+      "adj_dat_fem_sg": "høgari",
+      "adj_dat_masc_pl": "høgum",
+      "adj_dat_masc_sg": "høgum",
+      "adj_dat_neut_sg": "høgum",
+      "adj_fem_pl": "høgar",
+      "adj_gen_fem_sg": "høgar",
+      "adj_gen_masc_pl": "høga",
+      "adj_gen_masc_sg": "høgs",
+      "adj_gen_neut_sg": "høgs",
+      "adj_neut_pl": "høg",
+      "adj_nom_acc_neut_sg": "høgt",
+      "adj_nom_fem_sg": "høg",
+      "adj_nom_masc_pl": "høgir",
+      "adj_nom_masc_sg": "høgur",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "høvdu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "høvdu",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "hevði",
+      "v_ind_pst_2_sg": "hevði",
+      "v_ind_pst_3_sg": "hevði"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ikki": {
+    "antonyms": [],
+    "base": "ikki",
+    "examples": [
+      "Eg eri ikki her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adverb"
+    ]
+  },
+  "inni": {
+    "antonyms": [],
+    "base": "inni",
+    "examples": [
+      "Eg eri inni."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adverb"
+    ]
+  },
+  "kann": {
+    "antonyms": [],
+    "base": "kann",
+    "examples": [
+      "Eg kann tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "keypa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "keypa",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3": "keyptu"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "keyptu": {
+    "antonyms": [],
+    "base": "keyptu",
+    "examples": [
+      "Tú keyptu tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "kunna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kunna",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "kann",
+      "v_ind_prs_3_sg": "kann"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "mannin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mannin",
+    "inflections": {
+      "n_def_nom_sg": "maðurin",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "maður": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maður",
+    "inflections": {
+      "n_def_nom_sg": "maðurin",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "maðurin": {
+    "antonyms": [],
+    "base": "maðurin",
+    "examples": [
+      "Maðurin er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mega": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mega",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3": "mugu"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "menninir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "menninir",
+    "inflections": {
+      "n_def_nom_sg": "maðurin",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mugu": {
+    "antonyms": [],
+    "base": "mugu",
+    "examples": [
+      "Eg mugu tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "má": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "má",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3": "mugu"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "mátti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mátti",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3": "mugu"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "mín": {
+    "antonyms": [],
+    "base": "mín",
+    "examples": [
+      "Mín bók er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "náa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "náa",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "nær",
+      "v_ind_prs_3_sg": "nær"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "nær": {
+    "antonyms": [],
+    "base": "nær",
+    "examples": [
+      "Eg eri nær."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adverb"
+    ]
+  },
+  "okinawa": {
+    "antonyms": [],
+    "base": "okinawa",
+    "examples": [
+      "Eg vil til Okinawa."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ongantíð": {
+    "antonyms": [],
+    "base": "ongantíð",
+    "examples": [
+      "Eg havi ongantíð sæð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "systir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "systir",
+    "examples": [
+      "Mín systir er her."
+    ],
+    "inflections": {
+      "n_def_acc_pl": "systrarnar",
+      "n_def_acc_sg": "systrina",
+      "n_def_dat_pl": "systrunum",
+      "n_def_dat_sg": "systrini",
+      "n_def_gen_pl": "systranna",
+      "n_def_gen_sg": "systurinnar",
+      "n_def_nom_pl": "systrarnar",
+      "n_def_nom_sg": "systirin",
+      "n_indf_acc_pl": "systrar",
+      "n_indf_acc_sg": "systur",
+      "n_indf_dat_pl": "systrum",
+      "n_indf_dat_sg": "systur",
+      "n_indf_gen_pl": "systra",
+      "n_indf_gen_sg": "systur",
+      "n_indf_nom_pl": "systrar",
+      "n_indf_nom_sg": "systir",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tað": {
+    "antonyms": [],
+    "base": "tað",
+    "examples": [
+      "Tað er gott."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "teið": {
+    "antonyms": [],
+    "base": "teið",
+    "examples": [
+      "Teið er langt."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "tú": {
+    "antonyms": [],
+    "base": "tú",
+    "examples": [
+      "Tú kanst tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "var": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "var",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3_sg": "er"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vart": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vart",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3_sg": "er"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verandi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verandi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3_sg": "er"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verið": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "verið",
+    "examples": [
+      "Tú hevur verið her."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_imp_2_sg": "ver",
+      "v_ind_prs_1_sg": "eri",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3": "eru",
+      "v_ind_prs_3_sg": "er",
+      "v_ind_pst_1_sg": "var",
+      "v_ind_pst_2_sg": "vart",
+      "v_ind_pst_3": "vóru",
+      "v_ind_pst_3_sg": "var",
+      "v_nfin": "vera",
+      "v_ptcp_prs": "verandi"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vit": {
+    "antonyms": [],
+    "base": "vit",
+    "examples": [
+      "Vit elska okkum."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vóru": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vóru",
+    "inflections": {
+      "regulars": [],
+      "v_cvb": "verið",
+      "v_imp_2_pl": "verið",
+      "v_ind_prs_2_sg": "ert",
+      "v_ind_prs_3_sg": "er"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "í": {
+    "antonyms": [],
+    "base": "í",
+    "examples": [
+      "Eg eri í húsinum."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "útferðir": {
+    "antonyms": [],
+    "base": "útferðir",
+    "examples": [
+      "Útferðir eru spennandi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  }
+}

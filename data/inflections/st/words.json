@@ -1,0 +1,453 @@
+{
+  "_locale": "st",
+  "_type": "words",
+  "_version": "0.1",
+  "bala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bala",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "balaea",
+      "v_pl_1_fut": "sibala",
+      "v_pl_1_prs": "uyabala",
+      "v_pl_1_pst": "uzobala",
+      "v_pl_2_fut": "nibala",
+      "v_pl_2_prs": "siyabala",
+      "v_pl_2_pst": "sizobala",
+      "v_pl_3_fut": "babala",
+      "v_pl_3_prs": "niyabala",
+      "v_pl_3_pst": "bazobala",
+      "v_sg_1_fut": "ngibala",
+      "v_sg_1_prs": "ngiyabala",
+      "v_sg_1_pst": "bayabala",
+      "v_sg_2_fut": "nibala",
+      "v_sg_2_prs": "uyabala",
+      "v_sg_2_pst": "ngizobala",
+      "v_sg_3_fut": "ubala",
+      "v_sg_3_prs": "uyabala",
+      "v_sg_3_pst": "uzobala"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "bula": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bula",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "bulaea",
+      "v_pl_1_fut": "sibula",
+      "v_pl_1_prs": "uyabula",
+      "v_pl_1_pst": "uzobula",
+      "v_pl_2_fut": "nibula",
+      "v_pl_2_prs": "siyabula",
+      "v_pl_2_pst": "sizobula",
+      "v_pl_3_fut": "babula",
+      "v_pl_3_prs": "niyabula",
+      "v_pl_3_pst": "bazobula",
+      "v_sg_1_fut": "ngibula",
+      "v_sg_1_prs": "ngiyabula",
+      "v_sg_1_pst": "bayabula",
+      "v_sg_2_fut": "nibula",
+      "v_sg_2_prs": "uyabula",
+      "v_sg_2_pst": "ngizobula",
+      "v_sg_3_fut": "ubula",
+      "v_sg_3_prs": "uyabula",
+      "v_sg_3_pst": "uzobula"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "e": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "e",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "eea",
+      "v_pl_1_fut": "sie",
+      "v_pl_1_prs": "uyae",
+      "v_pl_1_pst": "uzoe",
+      "v_pl_2_fut": "nie",
+      "v_pl_2_prs": "siyae",
+      "v_pl_2_pst": "sizoe",
+      "v_pl_3_fut": "bae",
+      "v_pl_3_prs": "niyae",
+      "v_pl_3_pst": "bazoe",
+      "v_sg_1_fut": "ngie",
+      "v_sg_1_prs": "ngiyae",
+      "v_sg_1_pst": "bayae",
+      "v_sg_2_fut": "nie",
+      "v_sg_2_prs": "uyae",
+      "v_sg_2_pst": "ngizoe",
+      "v_sg_3_fut": "ue",
+      "v_sg_3_prs": "uyae",
+      "v_sg_3_pst": "uzoe"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ebe": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ebe",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "ebeea",
+      "v_pl_1_fut": "siebe",
+      "v_pl_1_prs": "uyaebe",
+      "v_pl_1_pst": "uzoebe",
+      "v_pl_2_fut": "niebe",
+      "v_pl_2_prs": "siyaebe",
+      "v_pl_2_pst": "sizoebe",
+      "v_pl_3_fut": "baebe",
+      "v_pl_3_prs": "niyaebe",
+      "v_pl_3_pst": "bazoebe",
+      "v_sg_1_fut": "ngiebe",
+      "v_sg_1_prs": "ngiyaebe",
+      "v_sg_1_pst": "bayaebe",
+      "v_sg_2_fut": "niebe",
+      "v_sg_2_prs": "uyaebe",
+      "v_sg_2_pst": "ngizoebe",
+      "v_sg_3_fut": "uebe",
+      "v_sg_3_prs": "uyaebe",
+      "v_sg_3_pst": "uzoebe"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ema",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "emaea",
+      "v_pl_1_fut": "siema",
+      "v_pl_1_prs": "uyaema",
+      "v_pl_1_pst": "uzoema",
+      "v_pl_2_fut": "niema",
+      "v_pl_2_prs": "siyaema",
+      "v_pl_2_pst": "sizoema",
+      "v_pl_3_fut": "baema",
+      "v_pl_3_prs": "niyaema",
+      "v_pl_3_pst": "bazoema",
+      "v_sg_1_fut": "ngiema",
+      "v_sg_1_prs": "ngiyaema",
+      "v_sg_1_pst": "bayaema",
+      "v_sg_2_fut": "niema",
+      "v_sg_2_prs": "uyaema",
+      "v_sg_2_pst": "ngizoema",
+      "v_sg_3_fut": "uema",
+      "v_sg_3_prs": "uyaema",
+      "v_sg_3_pst": "uzoema"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "etsa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "etsa",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "etsaea",
+      "v_pl_1_fut": "sietsa",
+      "v_pl_1_prs": "uyaetsa",
+      "v_pl_1_pst": "uzoetsa",
+      "v_pl_2_fut": "nietsa",
+      "v_pl_2_prs": "siyaetsa",
+      "v_pl_2_pst": "sizoetsa",
+      "v_pl_3_fut": "baetsa",
+      "v_pl_3_prs": "niyaetsa",
+      "v_pl_3_pst": "bazoetsa",
+      "v_sg_1_fut": "ngietsa",
+      "v_sg_1_prs": "ngiyaetsa",
+      "v_sg_1_pst": "bayaetsa",
+      "v_sg_2_fut": "nietsa",
+      "v_sg_2_prs": "uyaetsa",
+      "v_sg_2_pst": "ngizoetsa",
+      "v_sg_3_fut": "uetsa",
+      "v_sg_3_prs": "uyaetsa",
+      "v_sg_3_pst": "uzoetsa"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "fofa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fofa",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "fofaea",
+      "v_pl_1_fut": "sifofa",
+      "v_pl_1_prs": "uyafofa",
+      "v_pl_1_pst": "uzofofa",
+      "v_pl_2_fut": "nifofa",
+      "v_pl_2_prs": "siyafofa",
+      "v_pl_2_pst": "sizofofa",
+      "v_pl_3_fut": "bafofa",
+      "v_pl_3_prs": "niyafofa",
+      "v_pl_3_pst": "bazofofa",
+      "v_sg_1_fut": "ngifofa",
+      "v_sg_1_prs": "ngiyafofa",
+      "v_sg_1_pst": "bayafofa",
+      "v_sg_2_fut": "nifofa",
+      "v_sg_2_prs": "uyafofa",
+      "v_sg_2_pst": "ngizofofa",
+      "v_sg_3_fut": "ufofa",
+      "v_sg_3_prs": "uyafofa",
+      "v_sg_3_pst": "uzofofa"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "haufi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "haufi",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "haufiea",
+      "v_pl_1_fut": "sihaufi",
+      "v_pl_1_prs": "uyahaufi",
+      "v_pl_1_pst": "uzohaufi",
+      "v_pl_2_fut": "nihaufi",
+      "v_pl_2_prs": "siyahaufi",
+      "v_pl_2_pst": "sizohaufi",
+      "v_pl_3_fut": "bahaufi",
+      "v_pl_3_prs": "niyahaufi",
+      "v_pl_3_pst": "bazohaufi",
+      "v_sg_1_fut": "ngihaufi",
+      "v_sg_1_prs": "ngiyahaufi",
+      "v_sg_1_pst": "bayahaufi",
+      "v_sg_2_fut": "nihaufi",
+      "v_sg_2_prs": "uyahaufi",
+      "v_sg_2_pst": "ngizohaufi",
+      "v_sg_3_fut": "uhaufi",
+      "v_sg_3_prs": "uyahaufi",
+      "v_sg_3_pst": "uzohaufi"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ja",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "jaea",
+      "v_pl_1_fut": "sija",
+      "v_pl_1_prs": "uyaja",
+      "v_pl_1_pst": "uzoja",
+      "v_pl_2_fut": "nija",
+      "v_pl_2_prs": "siyaja",
+      "v_pl_2_pst": "sizoja",
+      "v_pl_3_fut": "baja",
+      "v_pl_3_prs": "niyaja",
+      "v_pl_3_pst": "bazoja",
+      "v_sg_1_fut": "ngija",
+      "v_sg_1_prs": "ngiyaja",
+      "v_sg_1_pst": "bayaja",
+      "v_sg_2_fut": "nija",
+      "v_sg_2_prs": "uyaja",
+      "v_sg_2_pst": "ngizoja",
+      "v_sg_3_fut": "uja",
+      "v_sg_3_prs": "uyaja",
+      "v_sg_3_pst": "uzoja"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ngola": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ngola",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "ngolaea",
+      "v_pl_1_fut": "singola",
+      "v_pl_1_prs": "uyangola",
+      "v_pl_1_pst": "uzongola",
+      "v_pl_2_fut": "ningola",
+      "v_pl_2_prs": "siyangola",
+      "v_pl_2_pst": "sizongola",
+      "v_pl_3_fut": "bangola",
+      "v_pl_3_prs": "niyangola",
+      "v_pl_3_pst": "bazongola",
+      "v_sg_1_fut": "ngingola",
+      "v_sg_1_prs": "ngiyangola",
+      "v_sg_1_pst": "bayangola",
+      "v_sg_2_fut": "ningola",
+      "v_sg_2_prs": "uyangola",
+      "v_sg_2_pst": "ngizongola",
+      "v_sg_3_fut": "ungola",
+      "v_sg_3_prs": "uyangola",
+      "v_sg_3_pst": "uzongola"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "qala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qala",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "qalaea",
+      "v_pl_1_fut": "siqala",
+      "v_pl_1_prs": "uyaqala",
+      "v_pl_1_pst": "uzoqala",
+      "v_pl_2_fut": "niqala",
+      "v_pl_2_prs": "siyaqala",
+      "v_pl_2_pst": "sizoqala",
+      "v_pl_3_fut": "baqala",
+      "v_pl_3_prs": "niyaqala",
+      "v_pl_3_pst": "bazoqala",
+      "v_sg_1_fut": "ngiqala",
+      "v_sg_1_prs": "ngiyaqala",
+      "v_sg_1_pst": "bayaqala",
+      "v_sg_2_fut": "niqala",
+      "v_sg_2_prs": "uyaqala",
+      "v_sg_2_pst": "ngizoqala",
+      "v_sg_3_fut": "uqala",
+      "v_sg_3_prs": "uyaqala",
+      "v_sg_3_pst": "uzoqala"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "reka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "reka",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "rekaea",
+      "v_pl_1_fut": "sireka",
+      "v_pl_1_prs": "uyareka",
+      "v_pl_1_pst": "uzoreka",
+      "v_pl_2_fut": "nireka",
+      "v_pl_2_prs": "siyareka",
+      "v_pl_2_pst": "sizoreka",
+      "v_pl_3_fut": "bareka",
+      "v_pl_3_prs": "niyareka",
+      "v_pl_3_pst": "bazoreka",
+      "v_sg_1_fut": "ngireka",
+      "v_sg_1_prs": "ngiyareka",
+      "v_sg_1_pst": "bayareka",
+      "v_sg_2_fut": "nireka",
+      "v_sg_2_prs": "uyareka",
+      "v_sg_2_pst": "ngizoreka",
+      "v_sg_3_fut": "ureka",
+      "v_sg_3_prs": "uyareka",
+      "v_sg_3_pst": "uzoreka"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "thusa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "thusa",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "thusaea",
+      "v_pl_1_fut": "sithusa",
+      "v_pl_1_prs": "uyathusa",
+      "v_pl_1_pst": "uzothusa",
+      "v_pl_2_fut": "nithusa",
+      "v_pl_2_prs": "siyathusa",
+      "v_pl_2_pst": "sizothusa",
+      "v_pl_3_fut": "bathusa",
+      "v_pl_3_prs": "niyathusa",
+      "v_pl_3_pst": "bazothusa",
+      "v_sg_1_fut": "ngithusa",
+      "v_sg_1_prs": "ngiyathusa",
+      "v_sg_1_pst": "bayathusa",
+      "v_sg_2_fut": "nithusa",
+      "v_sg_2_prs": "uyathusa",
+      "v_sg_2_pst": "ngizothusa",
+      "v_sg_3_fut": "uthusa",
+      "v_sg_3_prs": "uyathusa",
+      "v_sg_3_pst": "uzothusa"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ya": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ya",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "yaea",
+      "v_pl_1_fut": "siya",
+      "v_pl_1_prs": "uyaya",
+      "v_pl_1_pst": "uzoya",
+      "v_pl_2_fut": "niya",
+      "v_pl_2_prs": "siyaya",
+      "v_pl_2_pst": "sizoya",
+      "v_pl_3_fut": "baya",
+      "v_pl_3_prs": "niyaya",
+      "v_pl_3_pst": "bazoya",
+      "v_sg_1_fut": "ngiya",
+      "v_sg_1_prs": "ngiyaya",
+      "v_sg_1_pst": "bayaya",
+      "v_sg_2_fut": "niya",
+      "v_sg_2_prs": "uyaya",
+      "v_sg_2_pst": "ngizoya",
+      "v_sg_3_fut": "uya",
+      "v_sg_3_prs": "uyaya",
+      "v_sg_3_pst": "uzoya"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

@@ -1,0 +1,5935 @@
+{
+  "_locale": "he",
+  "_type": "words",
+  "_version": "0.1",
+  "אבה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אבה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "אבי"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "אבל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אבל",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נאבל",
+      "v_1_pl_pst": "אבלנו",
+      "v_1_sg_fut": "אאבל",
+      "v_1_sg_pst": "אבלתי",
+      "v_2_pl_fut_fem": "תאבלנה",
+      "v_2_pl_fut_masc": "תאבלו",
+      "v_2_pl_imp_fem": "אבלנה",
+      "v_2_pl_imp_masc": "אבלו",
+      "v_2_pl_pst_fem": "אבלתן",
+      "v_2_pl_pst_masc": "אבלתם",
+      "v_2_sg_fut_fem": "תאבלי",
+      "v_2_sg_fut_masc": "תאבל",
+      "v_2_sg_imp_fem": "אבלי",
+      "v_2_sg_imp_masc": "אבל",
+      "v_2_sg_pst_fem": "אבלת",
+      "v_2_sg_pst_masc": "אבלת",
+      "v_3_pl_fut_fem": "תאבלנה",
+      "v_3_pl_fut_masc": "יאבלו",
+      "v_3_pl_pst": "אבלו",
+      "v_3_sg_fut_fem": "תאבל",
+      "v_3_sg_fut_masc": "יאבל",
+      "v_3_sg_pst_fem": "אבלה",
+      "v_3_sg_pst_masc": "אבל",
+      "v_nfin": "לאבול",
+      "v_pl_prs_fem": "אבלות",
+      "v_pl_prs_masc": "אבלים",
+      "v_sg_prs_fem": "אבלה",
+      "v_sg_prs_masc": "אבל"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "אהב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אהב",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אוהב",
+      "v_1_sg_pst": "אהבתי",
+      "v_3_sg_pst_fem": "אהבה",
+      "v_msdr": "אהבה",
+      "v_pl_prs_masc": "אוהבים",
+      "v_sg_prs_fem": "אוהבת",
+      "v_sg_prs_masc": "אוהב"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "אוכל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אוכל",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נאוכל",
+      "v_1_pl_pst": "אוכלנו",
+      "v_1_sg_fut": "אאוכל",
+      "v_1_sg_pst": "אוכלתי",
+      "v_2_pl_fut_fem": "תאוכלנה",
+      "v_2_pl_fut_masc": "תאוכלו",
+      "v_2_pl_pst_fem": "אוכלתן",
+      "v_2_pl_pst_masc": "אוכלתם",
+      "v_2_sg_fut_fem": "תאוכלי",
+      "v_2_sg_fut_masc": "תאוכל",
+      "v_2_sg_pst_fem": "אוכלת",
+      "v_2_sg_pst_masc": "אוכלת",
+      "v_3_pl_fut_fem": "תאוכלנה",
+      "v_3_pl_fut_masc": "יאוכלו",
+      "v_3_pl_pst": "אוכלו",
+      "v_3_sg_fut_fem": "תאוכל",
+      "v_3_sg_fut_masc": "יאוכל",
+      "v_3_sg_pst_fem": "אוכלה",
+      "v_3_sg_pst_masc": "אוכל",
+      "v_pl_prs_fem": "מאוכלות",
+      "v_pl_prs_masc": "מאוכלים",
+      "v_sg_prs_fem": "מאוכלת",
+      "v_sg_prs_masc": "מאוכל"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "אותו": {
+    "antonyms": [],
+    "base": "אותו",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "אותך": {
+    "antonyms": [],
+    "base": "אותך",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "אז": {
+    "antonyms": [],
+    "base": "אז",
+    "examples": [
+      "אז אני הולך."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "איחד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "איחד",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "אחד"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "איחר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "איחר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "אחרי",
+      "v_2_sg_imp_masc": "אחר",
+      "v_nfin": "לאחר"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "אילף": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אילף",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "אלף"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "אין": {
+    "antonyms": [
+      "יש"
+    ],
+    "base": "אין",
+    "examples": [
+      "אין לי זמן."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "איש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "איש",
+    "inflections": {
+      "n_pl_def": "האנשים",
+      "n_pl_ndef": "אנשים",
+      "n_pl_pssd": "אנשי",
+      "n_pl_pssd_pss1p": "אנשינו",
+      "n_pl_pssd_pss1s": "אנשיי",
+      "n_pl_pssd_pss2p_fem": "אנשיכן",
+      "n_pl_pssd_pss2p_masc": "אנשיכם",
+      "n_pl_pssd_pss2s_fem": "אנשייך",
+      "n_pl_pssd_pss2s_masc": "אנשיך",
+      "n_pl_pssd_pss3p_fem": "אנשיהן",
+      "n_pl_pssd_pss3p_masc": "אנשיהם",
+      "n_pl_pssd_pss3s_fem": "אנשיה",
+      "n_pl_pssd_pss3s_masc": "אנשיו",
+      "n_sg_def": "האיש",
+      "n_sg_ndef": "איש",
+      "n_sg_pssd": "איש",
+      "n_sg_pssd_pss1p": "אישנו",
+      "n_sg_pssd_pss1s": "אישי",
+      "n_sg_pssd_pss2p_fem": "אישכן",
+      "n_sg_pssd_pss2p_masc": "אישכם",
+      "n_sg_pssd_pss2s_fem": "אישך",
+      "n_sg_pssd_pss2s_masc": "אישך",
+      "n_sg_pssd_pss3p_fem": "אישן",
+      "n_sg_pssd_pss3p_masc": "אישם",
+      "n_sg_pssd_pss3s_fem": "אישה",
+      "n_sg_pssd_pss3s_masc": "אישו",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "אישר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אישר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "אשר",
+      "v_sg_prs_masc": "מאשר"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "אכל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אכל",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אוכל",
+      "v_nfin": "לאכול",
+      "v_sg_prs_masc": "אוכל"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "אלוה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אלוה",
+    "inflections": {
+      "n_pl_ndef": "אלוהים",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "אמר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אמר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נאמר",
+      "v_1_pl_pst": "אמרנו",
+      "v_1_sg_fut": "אומר",
+      "v_1_sg_pst": "אמרתי",
+      "v_2_pl_fut_fem": "תאמרנה",
+      "v_2_pl_fut_masc": "תאמרו",
+      "v_2_pl_imp_fem": "אמורנה",
+      "v_2_pl_imp_masc": "אמרו",
+      "v_2_pl_pst_fem": "אמרתן",
+      "v_2_pl_pst_masc": "אמרתם",
+      "v_2_sg_fut_fem": "תאמרי",
+      "v_2_sg_fut_masc": "תאמר",
+      "v_2_sg_imp_fem": "אמרי",
+      "v_2_sg_imp_masc": "אמור",
+      "v_2_sg_pst_fem": "אמרת",
+      "v_2_sg_pst_masc": "אמרת",
+      "v_3_pl_fut_fem": "תאמרנה",
+      "v_3_pl_fut_masc": "יאמרו",
+      "v_3_pl_pst": "אמרו",
+      "v_3_sg_fut_fem": "תאמר",
+      "v_3_sg_fut_masc": "יאמר",
+      "v_3_sg_pst_fem": "אמרה",
+      "v_3_sg_pst_masc": "אמר",
+      "v_msdr": "אמירה",
+      "v_nfin": "לומר",
+      "v_pl_prs_fem": "אומרות",
+      "v_pl_prs_masc": "אומרים",
+      "v_sg_prs_fem": "אומרת",
+      "v_sg_prs_masc": "אומר"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "אני": {
+    "antonyms": [],
+    "base": "אני",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "אסר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "אסר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "אסור"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ארץ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ארץ",
+    "inflections": {
+      "n_sg_def": "הארץ",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "את": {
+    "antonyms": [],
+    "base": "את",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "אתה": {
+    "antonyms": [],
+    "base": "אתה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "בא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בא",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נבוא",
+      "v_1_pl_pst": "באנו",
+      "v_1_sg_fut": "אבוא",
+      "v_1_sg_pst": "באתי",
+      "v_2_pl_fut_fem": "תבואנה",
+      "v_2_pl_fut_masc": "תבואו",
+      "v_2_pl_imp_fem": "בואנה",
+      "v_2_pl_imp_masc": "בואו",
+      "v_2_pl_pst_fem": "באתן",
+      "v_2_pl_pst_masc": "באתם",
+      "v_2_sg_fut_fem": "תבואי",
+      "v_2_sg_fut_masc": "תבוא",
+      "v_2_sg_imp_fem": "בואי",
+      "v_2_sg_imp_masc": "בוא",
+      "v_2_sg_pst_fem": "באת",
+      "v_2_sg_pst_masc": "באת",
+      "v_3_pl_fut_fem": "תבואנה",
+      "v_3_pl_fut_masc": "יבואו",
+      "v_3_pl_pst": "באו",
+      "v_3_sg_fut_fem": "תבוא",
+      "v_3_sg_fut_masc": "יבוא",
+      "v_3_sg_pst_fem": "באה",
+      "v_3_sg_pst_masc": "בא",
+      "v_msdr": "ביאה",
+      "v_nfin": "לבוא",
+      "v_pl_prs_fem": "באות",
+      "v_pl_prs_masc": "באים",
+      "v_sg_prs_fem": "באה",
+      "v_sg_prs_masc": "בא"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "בדק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בדק",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לבדוק"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "בוקר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בוקר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נבוקר",
+      "v_1_pl_pst": "בוקרנו",
+      "v_1_sg_fut": "אבוקר",
+      "v_1_sg_pst": "בוקרתי",
+      "v_2_pl_fut_fem": "תבוקרנה",
+      "v_2_pl_fut_masc": "תבוקרו",
+      "v_2_pl_pst_fem": "בוקרתן",
+      "v_2_pl_pst_masc": "בוקרתם",
+      "v_2_sg_fut_fem": "תבוקרי",
+      "v_2_sg_fut_masc": "תבוקר",
+      "v_2_sg_pst_fem": "בוקרת",
+      "v_2_sg_pst_masc": "בוקרת",
+      "v_3_pl_fut_fem": "תבוקרנה",
+      "v_3_pl_fut_masc": "יבוקרו",
+      "v_3_pl_pst": "בוקרו",
+      "v_3_sg_fut_fem": "תבוקר",
+      "v_3_sg_fut_masc": "יבוקר",
+      "v_3_sg_pst_fem": "בוקרה",
+      "v_3_sg_pst_masc": "בוקר",
+      "v_pl_prs_fem": "מבוקרות",
+      "v_pl_prs_masc": "מבוקרים",
+      "v_sg_prs_fem": "מבוקרת",
+      "v_sg_prs_masc": "מבוקר"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "בז": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בז",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pst_fem": "בזה",
+      "v_sg_prs_fem": "בזה"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "בחר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בחר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לבחור"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "בטח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בטח",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נבטח",
+      "v_1_pl_pst": "בטחנו",
+      "v_1_sg_fut": "אבטח",
+      "v_1_sg_pst": "בטחתי",
+      "v_2_pl_fut_fem": "תבטחנה",
+      "v_2_pl_fut_masc": "תבטחו",
+      "v_2_pl_imp_fem": "בטחנה",
+      "v_2_pl_imp_masc": "בטחו",
+      "v_2_pl_pst_fem": "בטחתן",
+      "v_2_pl_pst_masc": "בטחתם",
+      "v_2_sg_fut_fem": "תבטחי",
+      "v_2_sg_fut_masc": "תבטח",
+      "v_2_sg_imp_fem": "בטחי",
+      "v_2_sg_imp_masc": "בטח",
+      "v_2_sg_pst_fem": "בטחת",
+      "v_2_sg_pst_masc": "בטחת",
+      "v_3_pl_fut_fem": "תבטחנה",
+      "v_3_pl_fut_masc": "יבטחו",
+      "v_3_pl_pst": "בטחו",
+      "v_3_sg_fut_fem": "תבטח",
+      "v_3_sg_fut_masc": "יבטח",
+      "v_3_sg_pst_fem": "בטחה",
+      "v_3_sg_pst_masc": "בטח",
+      "v_nfin": "לבטוח",
+      "v_pl_prs_fem": "בוטחות",
+      "v_pl_prs_masc": "בוטחים",
+      "v_sg_prs_fem": "בוטחת",
+      "v_sg_prs_masc": "בוטח"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "בילה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בילה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "בלי"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "בלה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בלה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "בלי"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "בן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נבין",
+      "v_1_pl_pst": "בנו",
+      "v_1_sg_fut": "אבין",
+      "v_1_sg_pst": "בנתי",
+      "v_2_pl_fut_fem": "תבנה",
+      "v_2_pl_fut_masc": "תבינו",
+      "v_2_pl_imp_fem": "בנה",
+      "v_2_pl_imp_masc": "בינו",
+      "v_2_pl_pst_fem": "בנתן",
+      "v_2_pl_pst_masc": "בנתם",
+      "v_2_sg_fut_fem": "תביני",
+      "v_2_sg_fut_masc": "תבין",
+      "v_2_sg_imp_fem": "ביני",
+      "v_2_sg_imp_masc": "בין",
+      "v_2_sg_pst_fem": "בנת",
+      "v_2_sg_pst_masc": "בנת",
+      "v_3_pl_fut_fem": "תבנה",
+      "v_3_pl_fut_masc": "יבינו",
+      "v_3_pl_pst": "בנו",
+      "v_3_sg_fut_fem": "תבין",
+      "v_3_sg_fut_masc": "יבין",
+      "v_3_sg_pst_fem": "בנה",
+      "v_3_sg_pst_masc": "בן",
+      "v_msdr": "בינה",
+      "v_nfin": "לבין",
+      "v_pl_prs_fem": "בנות",
+      "v_pl_prs_masc": "בנים",
+      "v_sg_prs_fem": "בנה",
+      "v_sg_prs_masc": "בן"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "בנה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בנה",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "בנו",
+      "v_2_sg_imp_fem": "בני",
+      "v_3_pl_pst": "בנו"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "בעל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בעל",
+    "inflections": {
+      "n_pl_def": "הבעלים",
+      "n_pl_ndef": "בעלים",
+      "n_pl_pssd": "בעלי",
+      "n_pl_pssd_pss1p": "בעלינו",
+      "n_pl_pssd_pss1s": "בעליי",
+      "n_pl_pssd_pss2p_fem": "בעליכן",
+      "n_pl_pssd_pss2p_masc": "בעליכם",
+      "n_pl_pssd_pss2s_fem": "בעלייך",
+      "n_pl_pssd_pss2s_masc": "בעליך",
+      "n_pl_pssd_pss3p_fem": "בעליהן",
+      "n_pl_pssd_pss3p_masc": "בעליהם",
+      "n_pl_pssd_pss3s_fem": "בעליה",
+      "n_pl_pssd_pss3s_masc": "בעליו",
+      "n_sg_def": "הבעל",
+      "n_sg_ndef": "בעל",
+      "n_sg_pssd": "בעל",
+      "n_sg_pssd_pss1p": "בעלנו",
+      "n_sg_pssd_pss1s": "בעלי",
+      "n_sg_pssd_pss2p_fem": "בעלכן",
+      "n_sg_pssd_pss2p_masc": "בעלכם",
+      "n_sg_pssd_pss2s_fem": "בעלך",
+      "n_sg_pssd_pss2s_masc": "בעלך",
+      "n_sg_pssd_pss3p_fem": "בעלן",
+      "n_sg_pssd_pss3p_masc": "בעלם",
+      "n_sg_pssd_pss3s_fem": "בעלה",
+      "n_sg_pssd_pss3s_masc": "בעלו",
+      "regulars": [],
+      "v_1_pl_fut": "נבעל",
+      "v_1_pl_pst": "בעלנו",
+      "v_1_sg_fut": "אבעל",
+      "v_1_sg_pst": "בעלתי",
+      "v_2_pl_fut_fem": "תבעלנה",
+      "v_2_pl_fut_masc": "תבעלו",
+      "v_2_pl_imp_fem": "בעלנה",
+      "v_2_pl_imp_masc": "בעלו",
+      "v_2_pl_pst_fem": "בעלתן",
+      "v_2_pl_pst_masc": "בעלתם",
+      "v_2_sg_fut_fem": "תבעלי",
+      "v_2_sg_fut_masc": "תבעל",
+      "v_2_sg_imp_fem": "בעלי",
+      "v_2_sg_imp_masc": "בעל",
+      "v_2_sg_pst_fem": "בעלת",
+      "v_2_sg_pst_masc": "בעלת",
+      "v_3_pl_fut_fem": "תבעלנה",
+      "v_3_pl_fut_masc": "יבעלו",
+      "v_3_pl_pst": "בעלו",
+      "v_3_sg_fut_fem": "תבעל",
+      "v_3_sg_fut_masc": "יבעל",
+      "v_3_sg_pst_fem": "בעלה",
+      "v_3_sg_pst_masc": "בעל",
+      "v_msdr": "בעילה",
+      "v_nfin": "לבעול",
+      "v_pl_prs_fem": "בועלות",
+      "v_pl_prs_masc": "בועלים",
+      "v_sg_prs_fem": "בועלת",
+      "v_sg_prs_masc": "בועל"
+    },
+    "priority": 2,
+    "types": [
+      "noun",
+      "verb",
+      "word"
+    ]
+  },
+  "ברח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ברח",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לברוח"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "בת": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "בת",
+    "inflections": {
+      "n_pl_def": "הבנות",
+      "n_pl_ndef": "בנות",
+      "n_pl_pssd": "בנות",
+      "n_pl_pssd_pss1p": "בנותינו",
+      "n_pl_pssd_pss1s": "בנותיי",
+      "n_pl_pssd_pss2p_fem": "בנותיכן",
+      "n_pl_pssd_pss2p_masc": "בנותיכם",
+      "n_pl_pssd_pss2s_fem": "בנותייך",
+      "n_pl_pssd_pss2s_masc": "בנותיך",
+      "n_pl_pssd_pss3p_fem": "בנותן",
+      "n_pl_pssd_pss3p_masc": "בנותם",
+      "n_pl_pssd_pss3s_fem": "בנותיה",
+      "n_pl_pssd_pss3s_masc": "בנותיו",
+      "n_sg_def": "הבת",
+      "n_sg_ndef": "בת",
+      "n_sg_pssd": "בת",
+      "n_sg_pssd_pss1p": "בתנו",
+      "n_sg_pssd_pss1s": "בתי",
+      "n_sg_pssd_pss2p_fem": "בתכן",
+      "n_sg_pssd_pss2p_masc": "בתכם",
+      "n_sg_pssd_pss2s_fem": "בתך",
+      "n_sg_pssd_pss2s_masc": "בתך",
+      "n_sg_pssd_pss3p_fem": "בתן",
+      "n_sg_pssd_pss3p_masc": "בתם",
+      "n_sg_pssd_pss3s_fem": "בתה",
+      "n_sg_pssd_pss3s_masc": "בתו",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "ג": {
+    "antonyms": [],
+    "base": "ג",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "גבר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "גבר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נגבר",
+      "v_1_pl_pst": "גברנו",
+      "v_1_sg_fut": "אגבר",
+      "v_1_sg_pst": "גברתי",
+      "v_2_pl_fut_fem": "תגברנה",
+      "v_2_pl_fut_masc": "תגברו",
+      "v_2_pl_imp_fem": "גברנה",
+      "v_2_pl_imp_masc": "גברו",
+      "v_2_pl_pst_fem": "גברתן",
+      "v_2_pl_pst_masc": "גברתם",
+      "v_2_sg_fut_fem": "תגברי",
+      "v_2_sg_fut_masc": "תגבר",
+      "v_2_sg_imp_fem": "גברי",
+      "v_2_sg_imp_masc": "גבר",
+      "v_2_sg_pst_fem": "גברת",
+      "v_2_sg_pst_masc": "גברת",
+      "v_3_pl_fut_fem": "תגברנה",
+      "v_3_pl_fut_masc": "יגברו",
+      "v_3_pl_pst": "גברו",
+      "v_3_sg_fut_fem": "תגבר",
+      "v_3_sg_fut_masc": "יגבר",
+      "v_3_sg_pst_fem": "גברה",
+      "v_3_sg_pst_masc": "גבר",
+      "v_nfin": "לגבור",
+      "v_pl_prs_fem": "גוברות",
+      "v_pl_prs_masc": "גוברים",
+      "v_sg_prs_fem": "גוברת",
+      "v_sg_prs_masc": "גובר"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "גילה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "גילה",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לגלות"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "גלה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "גלה",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לגלות"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "גמר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "גמר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "גמור"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "גרם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "גרם",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לגרום",
+      "v_sg_prs_masc": "גורם"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "דאג": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "דאג",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תדאג",
+      "v_3_sg_fut_fem": "תדאג",
+      "v_nfin": "לדאוג"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "דבר": {
+    "antonyms": [],
+    "base": "דבר",
+    "examples": [
+      "מה אתה אומר על הדבר הזה?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "דיבר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "דיבר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "דבר",
+      "v_nfin": "לדבר",
+      "v_pl_prs_masc": "מדברים",
+      "v_sg_prs_fem": "מדברת",
+      "v_sg_prs_masc": "מדבר"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "דם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "דם",
+    "inflections": {
+      "n_pl_def": "הדמים",
+      "n_pl_ndef": "דמים",
+      "n_pl_pssd": "דמי",
+      "n_pl_pssd_pss1p": "דמינו",
+      "n_pl_pssd_pss1s": "דמיי",
+      "n_pl_pssd_pss2p_fem": "דמיכן",
+      "n_pl_pssd_pss2p_masc": "דמיכם",
+      "n_pl_pssd_pss2s_fem": "דמייך",
+      "n_pl_pssd_pss2s_masc": "דמיך",
+      "n_pl_pssd_pss3p_fem": "דמיהן",
+      "n_pl_pssd_pss3p_masc": "דמיהם",
+      "n_pl_pssd_pss3s_fem": "דמיה",
+      "n_pl_pssd_pss3s_masc": "דמיו",
+      "n_sg_def": "הדם",
+      "n_sg_ndef": "דם",
+      "n_sg_pssd": "דם",
+      "n_sg_pssd_pss1p": "דמנו",
+      "n_sg_pssd_pss1s": "דמי",
+      "n_sg_pssd_pss2p_fem": "דמכן",
+      "n_sg_pssd_pss2p_masc": "דמכם",
+      "n_sg_pssd_pss2s_fem": "דמך",
+      "n_sg_pssd_pss2s_masc": "דמך",
+      "n_sg_pssd_pss3p_fem": "דמן",
+      "n_sg_pssd_pss3p_masc": "דמם",
+      "n_sg_pssd_pss3s_fem": "דמה",
+      "n_sg_pssd_pss3s_masc": "דמו",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "דרך": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "דרך",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נדרוך",
+      "v_1_pl_pst": "דרכנו",
+      "v_1_sg_fut": "אדרוך",
+      "v_1_sg_pst": "דרכתי",
+      "v_2_pl_fut_fem": "תדרוכנה",
+      "v_2_pl_fut_masc": "תדרכו",
+      "v_2_pl_imp_fem": "דרוכנה",
+      "v_2_pl_imp_masc": "דרכו",
+      "v_2_pl_pst_fem": "דרכתן",
+      "v_2_pl_pst_masc": "דרכתם",
+      "v_2_sg_fut_fem": "תדרכי",
+      "v_2_sg_fut_masc": "תדרוך",
+      "v_2_sg_imp_fem": "דרכי",
+      "v_2_sg_imp_masc": "דרוך",
+      "v_2_sg_pst_fem": "דרכת",
+      "v_2_sg_pst_masc": "דרכת",
+      "v_3_pl_fut_fem": "תדרוכנה",
+      "v_3_pl_fut_masc": "ידרכו",
+      "v_3_pl_pst": "דרכו",
+      "v_3_sg_fut_fem": "תדרוך",
+      "v_3_sg_fut_masc": "ידרוך",
+      "v_3_sg_pst_fem": "דרכה",
+      "v_3_sg_pst_masc": "דרך",
+      "v_msdr": "דריכה",
+      "v_nfin": "לדרוך",
+      "v_pl_prs_fem": "דורכות",
+      "v_pl_prs_masc": "דורכים",
+      "v_sg_prs_fem": "דורכת",
+      "v_sg_prs_masc": "דורך"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "האם": {
+    "antonyms": [],
+    "base": "האם",
+    "examples": [
+      "האם אתה בא?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "interrogative"
+    ]
+  },
+  "האמין": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "האמין",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להאמין",
+      "v_sg_prs_fem": "מאמינה",
+      "v_sg_prs_masc": "מאמין"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "הבטיח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הבטיח",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "מבטיח"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "הביא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הביא",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תביא",
+      "v_2_sg_imp_masc": "הבא",
+      "v_3_sg_fut_fem": "תביא",
+      "v_msdr": "הבאה",
+      "v_nfin": "להביא"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הבין": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הבין",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst": "הבנתי",
+      "v_2_sg_imp_masc": "הבן",
+      "v_nfin": "להבין",
+      "v_sg_prs_fem": "מבינה",
+      "v_sg_prs_masc": "מבין"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "הגיד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הגיד",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אגיד",
+      "v_2_sg_fut_fem": "תגידי",
+      "v_2_sg_fut_masc": "תגיד",
+      "v_3_sg_fut_fem": "תגיד",
+      "v_nfin": "להגיד"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "הגיע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הגיע",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נגיע",
+      "v_1_pl_pst": "הגענו",
+      "v_1_sg_fut": "אגיע",
+      "v_1_sg_pst": "הגעתי",
+      "v_2_pl_fut_fem": "תגענה",
+      "v_2_pl_fut_masc": "תגיעו",
+      "v_2_pl_imp_fem": "הגענה",
+      "v_2_pl_imp_masc": "הגיעו",
+      "v_2_pl_pst_fem": "הגעתן",
+      "v_2_pl_pst_masc": "הגעתם",
+      "v_2_sg_fut_fem": "תגיעי",
+      "v_2_sg_fut_masc": "תגיע",
+      "v_2_sg_imp_fem": "הגיעי",
+      "v_2_sg_imp_masc": "הגע",
+      "v_2_sg_pst_fem": "הגעת",
+      "v_2_sg_pst_masc": "הגעת",
+      "v_3_pl_fut_fem": "תגענה",
+      "v_3_pl_fut_masc": "יגיעו",
+      "v_3_pl_pst": "הגיעו",
+      "v_3_sg_fut_fem": "תגיע",
+      "v_3_sg_fut_masc": "יגיע",
+      "v_3_sg_pst_fem": "הגיעה",
+      "v_3_sg_pst_masc": "הגיע",
+      "v_msdr": "הגעה",
+      "v_nfin": "להגיע",
+      "v_pl_prs_fem": "מגיעות",
+      "v_pl_prs_masc": "מגיעים",
+      "v_sg_prs_fem": "מגיעה",
+      "v_sg_prs_masc": "מגיע"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הגן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הגן",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להגן"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "הדריך": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הדריך",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "הדרך"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "הוא": {
+    "antonyms": [],
+    "base": "הוא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "הודה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הודה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תודה",
+      "v_3_sg_fut_fem": "תודה",
+      "v_nfin": "להודות"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "הודיע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הודיע",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "הודעה"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "הוכן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הוכן",
+    "inflections": {
+      "regulars": [],
+      "v_pl_prs_masc": "מוכנים",
+      "v_sg_prs_masc": "מוכן"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "הוסף": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הוסף",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נוסף"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "הוצא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הוצא",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_fut_masc": "יוצא",
+      "v_sg_prs_masc": "מוצא"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "הוציא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הוציא",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להוציא"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "הזדמנות": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הזדמנות",
+    "inflections": {
+      "n_pl_def": "ההזדמנויות",
+      "n_pl_ndef": "הזדמנויות",
+      "n_pl_pssd": "הזדמנויות",
+      "n_pl_pssd_pss1p": "הזדמנויותינו",
+      "n_pl_pssd_pss1s": "הזדמנויותיי",
+      "n_pl_pssd_pss2p_fem": "הזדמנויותיכן",
+      "n_pl_pssd_pss2p_masc": "הזדמנויותיכם",
+      "n_pl_pssd_pss2s_fem": "הזדמנויותייך",
+      "n_pl_pssd_pss2s_masc": "הזדמנויותיך",
+      "n_pl_pssd_pss3p_fem": "הזדמנויותן",
+      "n_pl_pssd_pss3p_masc": "הזדמנויותם",
+      "n_pl_pssd_pss3s_fem": "הזדמנויותיה",
+      "n_pl_pssd_pss3s_masc": "הזדמנויותיו",
+      "n_sg_def": "ההזדמנות",
+      "n_sg_ndef": "הזדמנות",
+      "n_sg_pssd": "הזדמנות",
+      "n_sg_pssd_pss1p": "הזדמנותנו",
+      "n_sg_pssd_pss1s": "הזדמנותי",
+      "n_sg_pssd_pss2p_fem": "הזדמנותכן",
+      "n_sg_pssd_pss2p_masc": "הזדמנותכם",
+      "n_sg_pssd_pss2s_fem": "הזדמנותך",
+      "n_sg_pssd_pss2s_masc": "הזדמנותך",
+      "n_sg_pssd_pss3p_fem": "הזדמנותן",
+      "n_sg_pssd_pss3p_masc": "הזדמנותם",
+      "n_sg_pssd_pss3s_fem": "הזדמנותה",
+      "n_sg_pssd_pss3s_masc": "הזדמנותו",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "הזה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הזה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נהזה",
+      "v_1_pl_pst": "הזינו",
+      "v_1_sg_fut": "אהזה",
+      "v_1_sg_pst": "הזיתי",
+      "v_2_pl_fut_fem": "תהזינה",
+      "v_2_pl_fut_masc": "תהזו",
+      "v_2_pl_imp_fem": "הזינה",
+      "v_2_pl_imp_masc": "הזו",
+      "v_2_pl_pst_fem": "הזיתן",
+      "v_2_pl_pst_masc": "הזיתם",
+      "v_2_sg_fut_fem": "תהזי",
+      "v_2_sg_fut_masc": "תהזה",
+      "v_2_sg_imp_fem": "הזי",
+      "v_2_sg_imp_masc": "הזה",
+      "v_2_sg_pst_fem": "הזית",
+      "v_2_sg_pst_masc": "הזית",
+      "v_3_pl_fut_fem": "תהזינה",
+      "v_3_pl_fut_masc": "יהזו",
+      "v_3_pl_pst": "הזו",
+      "v_3_sg_fut_fem": "תהזה",
+      "v_3_sg_fut_masc": "יהזה",
+      "v_3_sg_pst_fem": "הזתה",
+      "v_3_sg_pst_masc": "הזה",
+      "v_msdr": "הזיה",
+      "v_nfin": "להזות",
+      "v_pl_prs_fem": "הוזות",
+      "v_pl_prs_masc": "הוזים",
+      "v_sg_prs_fem": "הוזה",
+      "v_sg_prs_masc": "הוזה"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הזמין": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הזמין",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "הזמן"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "החזיר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "החזיר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להחזיר"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "החליק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "החליק",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "החלק"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "היה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "היה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נהיה",
+      "v_1_pl_pst": "היינו",
+      "v_1_sg_fut": "אהיה",
+      "v_1_sg_pst": "הייתי",
+      "v_2_pl_fut_fem": "תהיינה",
+      "v_2_pl_fut_masc": "תהיו",
+      "v_2_pl_imp_fem": "היינה",
+      "v_2_pl_imp_masc": "היו",
+      "v_2_pl_pst_fem": "הייתן",
+      "v_2_pl_pst_masc": "הייתם",
+      "v_2_sg_fut_fem": "תהיי",
+      "v_2_sg_fut_masc": "תהיה",
+      "v_2_sg_imp_fem": "היי",
+      "v_2_sg_imp_masc": "היה",
+      "v_2_sg_pst_fem": "היית",
+      "v_2_sg_pst_masc": "היית",
+      "v_3_pl_fut_fem": "תהיינה",
+      "v_3_pl_fut_masc": "יהיו",
+      "v_3_pl_pst": "היו",
+      "v_3_sg_fut_fem": "תהיה",
+      "v_3_sg_fut_masc": "יהיה",
+      "v_3_sg_pst_fem": "הייתה",
+      "v_3_sg_pst_masc": "היה",
+      "v_nfin": "להיות"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "הילל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הילל",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "הללו"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "הכה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הכה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "הכי"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "הכיל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הכיל",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "הכל"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "הכיר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הכיר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להכיר",
+      "v_sg_prs_fem": "מכירה",
+      "v_sg_prs_masc": "מכיר"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "הלך": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הלך",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נלך",
+      "v_1_pl_pst": "הלכנו",
+      "v_1_sg_fut": "אלך",
+      "v_1_sg_pst": "הלכתי",
+      "v_2_pl_fut_fem": "תלכנה",
+      "v_2_pl_fut_masc": "תלכו",
+      "v_2_pl_imp_fem": "לכנה",
+      "v_2_pl_imp_masc": "לכו",
+      "v_2_pl_pst_fem": "הלכתן",
+      "v_2_pl_pst_masc": "הלכתם",
+      "v_2_sg_fut_fem": "תלכי",
+      "v_2_sg_fut_masc": "תלך",
+      "v_2_sg_imp_fem": "לכי",
+      "v_2_sg_imp_masc": "לך",
+      "v_2_sg_pst_fem": "הלכת",
+      "v_2_sg_pst_masc": "הלכת",
+      "v_3_pl_fut_fem": "תלכנה",
+      "v_3_pl_fut_masc": "ילכו",
+      "v_3_pl_pst": "הלכו",
+      "v_3_sg_fut_fem": "תלך",
+      "v_3_sg_fut_masc": "ילך",
+      "v_3_sg_pst_fem": "הלכה",
+      "v_3_sg_pst_masc": "הלך",
+      "v_msdr": "הליכה",
+      "v_nfin": "ללכת",
+      "v_pl_prs_fem": "הולכות",
+      "v_pl_prs_masc": "הולכים",
+      "v_sg_prs_fem": "הולכת",
+      "v_sg_prs_masc": "הולך"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הם": {
+    "antonyms": [],
+    "base": "הם",
+    "examples": [
+      "הם באים מחר."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "הניח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הניח",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "מניחה",
+      "v_sg_prs_masc": "מניח"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "הסביר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הסביר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להסביר"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "הסתכל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הסתכל",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תסתכל",
+      "v_3_sg_fut_fem": "תסתכל"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "העיר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "העיר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נעיר",
+      "v_1_pl_pst": "הערנו",
+      "v_1_sg_fut": "אעיר",
+      "v_1_sg_pst": "הערתי",
+      "v_2_pl_fut_fem": "תערנה",
+      "v_2_pl_fut_masc": "תעירו",
+      "v_2_pl_imp_fem": "הערנה",
+      "v_2_pl_imp_masc": "העירו",
+      "v_2_pl_pst_fem": "הערתן",
+      "v_2_pl_pst_masc": "הערתם",
+      "v_2_sg_fut_fem": "תעירי",
+      "v_2_sg_fut_masc": "תעיר",
+      "v_2_sg_imp_fem": "העירי",
+      "v_2_sg_imp_masc": "הער",
+      "v_2_sg_pst_fem": "הערת",
+      "v_2_sg_pst_masc": "הערת",
+      "v_3_pl_fut_fem": "תערנה",
+      "v_3_pl_fut_masc": "יעירו",
+      "v_3_pl_pst": "העירו",
+      "v_3_sg_fut_fem": "תעיר",
+      "v_3_sg_fut_masc": "יעיר",
+      "v_3_sg_pst_fem": "העירה",
+      "v_3_sg_pst_masc": "העיר",
+      "v_msdr": "הערה",
+      "v_nfin": "להעיר",
+      "v_pl_prs_fem": "מעירות",
+      "v_pl_prs_masc": "מעירים",
+      "v_sg_prs_fem": "מעירה",
+      "v_sg_prs_masc": "מעיר"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הפך": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הפך",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להפוך"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "הפסיק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הפסיק",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תפסיק",
+      "v_3_sg_fut_fem": "תפסיק",
+      "v_nfin": "להפסיק"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "הצחיק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הצחיק",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "מצחיק"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "הצטער": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הצטער",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "מצטערת",
+      "v_sg_prs_masc": "מצטער"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "הציל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הציל",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להציל"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "הצל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הצל",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אצל"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "הקטין": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הקטין",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "הקטן"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "הקשיב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הקשיב",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_fem": "תקשיבי",
+      "v_2_sg_fut_masc": "תקשיב",
+      "v_3_sg_fut_fem": "תקשיב"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "הראה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הראה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נראה",
+      "v_1_sg_fut": "אראה",
+      "v_2_pl_fut_masc": "תראו",
+      "v_2_sg_fut_fem": "תראי",
+      "v_2_sg_fut_masc": "תראה",
+      "v_3_sg_fut_fem": "תראה",
+      "v_nfin": "להראות"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "הרבה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הרבה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נרבה",
+      "v_1_pl_pst": "הרבינו",
+      "v_1_sg_fut": "ארבה",
+      "v_1_sg_pst": "הרביתי",
+      "v_2_pl_fut_fem": "תרבינה",
+      "v_2_pl_fut_masc": "תרבו",
+      "v_2_pl_imp_fem": "הרבינה",
+      "v_2_pl_imp_masc": "הרבו",
+      "v_2_pl_pst_fem": "הרביתן",
+      "v_2_pl_pst_masc": "הרביתם",
+      "v_2_sg_fut_fem": "תרבי",
+      "v_2_sg_fut_masc": "תרבה",
+      "v_2_sg_imp_fem": "הרבי",
+      "v_2_sg_imp_masc": "הרבה",
+      "v_2_sg_pst_fem": "הרבית",
+      "v_2_sg_pst_masc": "הרבית",
+      "v_3_pl_fut_fem": "תרבינה",
+      "v_3_pl_fut_masc": "ירבו",
+      "v_3_pl_pst": "הרבו",
+      "v_3_sg_fut_fem": "תרבה",
+      "v_3_sg_fut_masc": "ירבה",
+      "v_3_sg_pst_fem": "הרבתה",
+      "v_3_sg_pst_masc": "הרבה",
+      "v_nfin": "להרבות",
+      "v_pl_prs_fem": "מרבות",
+      "v_pl_prs_masc": "מרבים",
+      "v_sg_prs_fem": "מרבה",
+      "v_sg_prs_masc": "מרבה"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "הרג": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הרג",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נהרוג",
+      "v_1_pl_pst": "הרגנו",
+      "v_1_sg_fut": "אהרוג",
+      "v_1_sg_pst": "הרגתי",
+      "v_2_pl_fut_fem": "תהרוגנה",
+      "v_2_pl_fut_masc": "תהרגו",
+      "v_2_pl_imp_fem": "הרוגנה",
+      "v_2_pl_imp_masc": "הרגו",
+      "v_2_pl_pst_fem": "הרגתן",
+      "v_2_pl_pst_masc": "הרגתם",
+      "v_2_sg_fut_fem": "תהרגי",
+      "v_2_sg_fut_masc": "תהרוג",
+      "v_2_sg_imp_fem": "הרגי",
+      "v_2_sg_imp_masc": "הרוג",
+      "v_2_sg_pst_fem": "הרגת",
+      "v_2_sg_pst_masc": "הרגת",
+      "v_3_pl_fut_fem": "תהרוגנה",
+      "v_3_pl_fut_masc": "יהרגו",
+      "v_3_pl_pst": "הרגו",
+      "v_3_sg_fut_fem": "תהרוג",
+      "v_3_sg_fut_masc": "יהרוג",
+      "v_3_sg_pst_fem": "הרגה",
+      "v_3_sg_pst_masc": "הרג",
+      "v_msdr": "הריגה",
+      "v_nfin": "להרוג",
+      "v_pl_prs_fem": "הורגות",
+      "v_pl_prs_masc": "הורגים",
+      "v_sg_prs_fem": "הורגת",
+      "v_sg_prs_masc": "הורג"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "הרגיע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הרגיע",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "הרגע"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "הרגיש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "הרגיש",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להרגיש",
+      "v_sg_prs_fem": "מרגישה",
+      "v_sg_prs_masc": "מרגיש"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "השיג": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "השיג",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להשיג"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "השתמש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "השתמש",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להשתמש"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "התחיל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "התחיל",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להתחיל",
+      "v_sg_prs_masc": "מתחיל"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "התמודד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "התמודד",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להתמודד"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "התקשר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "התקשר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "להתקשר"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "התראה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "התראה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נתראה",
+      "v_nfin": "להתראות"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ואני": {
+    "antonyms": [],
+    "base": "ואני",
+    "examples": [
+      "ואני הולך הביתה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "זאת": {
+    "antonyms": [],
+    "base": "זאת",
+    "examples": [
+      "זאת היא."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "זה": {
+    "antonyms": [],
+    "base": "זה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "זז": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זז",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לזוז"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "זיהה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זיהה",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "זהו"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "זכר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זכר",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "זוכרת",
+      "v_sg_prs_masc": "זוכר"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "זמן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זמן",
+    "inflections": {
+      "n_pl_def": "הזמנים",
+      "n_pl_ndef": "זמנים",
+      "n_pl_pssd": "זמני",
+      "n_pl_pssd_pss1p": "זמנינו",
+      "n_pl_pssd_pss1s": "זמניי",
+      "n_pl_pssd_pss2p_fem": "זמניכן",
+      "n_pl_pssd_pss2p_masc": "זמניכם",
+      "n_pl_pssd_pss2s_fem": "זמנייך",
+      "n_pl_pssd_pss2s_masc": "זמניך",
+      "n_pl_pssd_pss3p_fem": "זמניהן",
+      "n_pl_pssd_pss3p_masc": "זמניהם",
+      "n_pl_pssd_pss3s_fem": "זמניה",
+      "n_pl_pssd_pss3s_masc": "זמניו",
+      "n_sg_def": "הזמן",
+      "n_sg_ndef": "זמן",
+      "n_sg_pssd": "זמן",
+      "n_sg_pssd_pss1p": "זמננו",
+      "n_sg_pssd_pss1s": "זמני",
+      "n_sg_pssd_pss2p_fem": "זמנכן",
+      "n_sg_pssd_pss2p_masc": "זמנכם",
+      "n_sg_pssd_pss2s_fem": "זמנך",
+      "n_sg_pssd_pss2s_masc": "זמנך",
+      "n_sg_pssd_pss3p_fem": "זמנן",
+      "n_sg_pssd_pss3p_masc": "זמנם",
+      "n_sg_pssd_pss3s_fem": "זמנה",
+      "n_sg_pssd_pss3s_masc": "זמנו",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "זן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זן",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_fem": "זונה"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "זנה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "זנה",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "זונה",
+      "v_sg_prs_masc": "זונה"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "חג": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חג",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחוג",
+      "v_1_pl_pst": "חגנו",
+      "v_1_sg_fut": "אחוג",
+      "v_1_sg_pst": "חגתי",
+      "v_2_pl_fut_fem": "תחוגנה",
+      "v_2_pl_fut_masc": "תחוגו",
+      "v_2_pl_imp_fem": "חוגנה",
+      "v_2_pl_imp_masc": "חוגו",
+      "v_2_pl_pst_fem": "חגתן",
+      "v_2_pl_pst_masc": "חגתם",
+      "v_2_sg_fut_fem": "תחוגי",
+      "v_2_sg_fut_masc": "תחוג",
+      "v_2_sg_imp_fem": "חוגי",
+      "v_2_sg_imp_masc": "חוג",
+      "v_2_sg_pst_fem": "חגת",
+      "v_2_sg_pst_masc": "חגת",
+      "v_3_pl_fut_fem": "תחוגנה",
+      "v_3_pl_fut_masc": "יחוגו",
+      "v_3_pl_pst": "חגו",
+      "v_3_sg_fut_fem": "תחוג",
+      "v_3_sg_fut_masc": "יחוג",
+      "v_3_sg_pst_fem": "חגה",
+      "v_3_sg_pst_masc": "חג",
+      "v_nfin": "לחוג",
+      "v_pl_prs_fem": "חגות",
+      "v_pl_prs_masc": "חגים",
+      "v_sg_prs_fem": "חגה",
+      "v_sg_prs_masc": "חג"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "חדר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חדר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחדור",
+      "v_1_pl_pst": "חדרנו",
+      "v_1_sg_fut": "אחדור",
+      "v_1_sg_pst": "חדרתי",
+      "v_2_pl_fut_fem": "תחדורנה",
+      "v_2_pl_fut_masc": "תחדרו",
+      "v_2_pl_imp_fem": "חדורנה",
+      "v_2_pl_imp_masc": "חדרו",
+      "v_2_pl_pst_fem": "חדרתן",
+      "v_2_pl_pst_masc": "חדרתם",
+      "v_2_sg_fut_fem": "תחדרי",
+      "v_2_sg_fut_masc": "תחדור",
+      "v_2_sg_imp_fem": "חדרי",
+      "v_2_sg_imp_masc": "חדור",
+      "v_2_sg_pst_fem": "חדרת",
+      "v_2_sg_pst_masc": "חדרת",
+      "v_3_pl_fut_fem": "תחדורנה",
+      "v_3_pl_fut_masc": "יחדרו",
+      "v_3_pl_pst": "חדרו",
+      "v_3_sg_fut_fem": "תחדור",
+      "v_3_sg_fut_masc": "יחדור",
+      "v_3_sg_pst_fem": "חדרה",
+      "v_3_sg_pst_masc": "חדר",
+      "v_msdr": "חדירה",
+      "v_nfin": "לחדור",
+      "v_pl_prs_fem": "חודרות",
+      "v_pl_prs_masc": "חודרים",
+      "v_sg_prs_fem": "חודרת",
+      "v_sg_prs_masc": "חודר"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "חושב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חושב",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחושב",
+      "v_1_pl_pst": "חושבנו",
+      "v_1_sg_fut": "אחושב",
+      "v_1_sg_pst": "חושבתי",
+      "v_2_pl_fut_fem": "תחושבנה",
+      "v_2_pl_fut_masc": "תחושבו",
+      "v_2_pl_pst_fem": "חושבתן",
+      "v_2_pl_pst_masc": "חושבתם",
+      "v_2_sg_fut_fem": "תחושבי",
+      "v_2_sg_fut_masc": "תחושב",
+      "v_2_sg_pst_fem": "חושבת",
+      "v_2_sg_pst_masc": "חושבת",
+      "v_3_pl_fut_fem": "תחושבנה",
+      "v_3_pl_fut_masc": "יחושבו",
+      "v_3_pl_pst": "חושבו",
+      "v_3_sg_fut_fem": "תחושב",
+      "v_3_sg_fut_masc": "יחושב",
+      "v_3_sg_pst_fem": "חושבה",
+      "v_3_sg_pst_masc": "חושב",
+      "v_pl_prs_fem": "מחושבות",
+      "v_pl_prs_masc": "מחושבים",
+      "v_sg_prs_fem": "מחושבת",
+      "v_sg_prs_masc": "מחושב"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "חזק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חזק",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחזק",
+      "v_1_pl_pst": "חזקנו",
+      "v_1_sg_fut": "אחזק",
+      "v_1_sg_pst": "חזקתי",
+      "v_2_pl_fut_fem": "תחזקנה",
+      "v_2_pl_fut_masc": "תחזקו",
+      "v_2_pl_imp_fem": "חזקנה",
+      "v_2_pl_imp_masc": "חזקו",
+      "v_2_pl_pst_fem": "חזקתן",
+      "v_2_pl_pst_masc": "חזקתם",
+      "v_2_sg_fut_fem": "תחזקי",
+      "v_2_sg_fut_masc": "תחזק",
+      "v_2_sg_imp_fem": "חזקי",
+      "v_2_sg_imp_masc": "חזק",
+      "v_2_sg_pst_fem": "חזקת",
+      "v_2_sg_pst_masc": "חזקת",
+      "v_3_pl_fut_fem": "תחזקנה",
+      "v_3_pl_fut_masc": "יחזקו",
+      "v_3_pl_pst": "חזקו",
+      "v_3_sg_fut_fem": "תחזק",
+      "v_3_sg_fut_masc": "יחזק",
+      "v_3_sg_pst_fem": "חזקה",
+      "v_3_sg_pst_masc": "חזק",
+      "v_nfin": "לחזוק",
+      "v_pl_prs_fem": "חזקות",
+      "v_pl_prs_masc": "חזקים",
+      "v_sg_prs_fem": "חזקה",
+      "v_sg_prs_masc": "חזק"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "חזר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חזר",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אחזור",
+      "v_2_sg_fut_masc": "תחזור",
+      "v_3_sg_fut_fem": "תחזור",
+      "v_3_sg_pst_fem": "חזרה",
+      "v_msdr": "חזרה",
+      "v_nfin": "לחזור",
+      "v_sg_prs_masc": "חוזר"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "חזרה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חזרה",
+    "inflections": {
+      "n_pl_def": "החזרות",
+      "n_pl_ndef": "חזרות",
+      "n_pl_pssd": "חזרות",
+      "n_pl_pssd_pss1p": "חזרותינו",
+      "n_pl_pssd_pss1s": "חזרותיי",
+      "n_pl_pssd_pss2p_fem": "חזרותיכן",
+      "n_pl_pssd_pss2p_masc": "חזרותיכם",
+      "n_pl_pssd_pss2s_fem": "חזרותייך",
+      "n_pl_pssd_pss2s_masc": "חזרותיך",
+      "n_pl_pssd_pss3p_fem": "חזרותן",
+      "n_pl_pssd_pss3p_masc": "חזרותם",
+      "n_pl_pssd_pss3s_fem": "חזרותיה",
+      "n_pl_pssd_pss3s_masc": "חזרותיו",
+      "n_sg_def": "החזרה",
+      "n_sg_ndef": "חזרה",
+      "n_sg_pssd": "חזרת",
+      "n_sg_pssd_pss1p": "חזרתנו",
+      "n_sg_pssd_pss1s": "חזרתי",
+      "n_sg_pssd_pss2p_fem": "חזרתכן",
+      "n_sg_pssd_pss2p_masc": "חזרתכם",
+      "n_sg_pssd_pss2s_fem": "חזרתך",
+      "n_sg_pssd_pss2s_masc": "חזרתך",
+      "n_sg_pssd_pss3p_fem": "חזרתן",
+      "n_sg_pssd_pss3p_masc": "חזרתם",
+      "n_sg_pssd_pss3s_fem": "חזרתה",
+      "n_sg_pssd_pss3s_masc": "חזרתו",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "חי": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חי",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחיה",
+      "v_1_pl_pst": "חיינו",
+      "v_1_sg_fut": "אחיה",
+      "v_1_sg_pst": "חייתי",
+      "v_2_pl_fut_fem": "תחיינה",
+      "v_2_pl_fut_masc": "תחיו",
+      "v_2_pl_imp_fem": "חיינה",
+      "v_2_pl_imp_masc": "חיו",
+      "v_2_pl_pst_fem": "חייתן",
+      "v_2_pl_pst_masc": "חייתם",
+      "v_2_sg_fut_fem": "תחיי",
+      "v_2_sg_fut_masc": "תחיה",
+      "v_2_sg_imp_fem": "חיי",
+      "v_2_sg_imp_masc": "חיה",
+      "v_2_sg_pst_fem": "חיית",
+      "v_2_sg_pst_masc": "חיית",
+      "v_3_pl_fut_fem": "תחיינה",
+      "v_3_pl_fut_masc": "יחיו",
+      "v_3_pl_pst": "חיו",
+      "v_3_sg_fut_fem": "תחיה",
+      "v_3_sg_fut_masc": "יחיה",
+      "v_3_sg_pst_fem": "חייתה",
+      "v_3_sg_pst_masc": "חי",
+      "v_nfin": "לחיות",
+      "v_pl_prs_fem": "חיות",
+      "v_pl_prs_masc": "חיים",
+      "v_sg_prs_fem": "חיה",
+      "v_sg_prs_masc": "חי"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "חיבל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חיבל",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "חבל"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "חיבר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חיבר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "חבר"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "חידש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חידש",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "חדש",
+      "v_sg_prs_masc": "מחדש"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "חיזק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חיזק",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "חזק"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "חיכה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חיכה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "חכי",
+      "v_2_sg_imp_masc": "חכה",
+      "v_nfin": "לחכות",
+      "v_sg_prs_fem": "מחכה",
+      "v_sg_prs_masc": "מחכה"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "חילק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חילק",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "חלק"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "חיפש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חיפש",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לחפש",
+      "v_sg_prs_masc": "מחפש"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "חכם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חכם",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחכם",
+      "v_1_pl_pst": "חכמנו",
+      "v_1_sg_fut": "אחכם",
+      "v_1_sg_pst": "חכמתי",
+      "v_2_pl_fut_fem": "תחכמנה",
+      "v_2_pl_fut_masc": "תחכמו",
+      "v_2_pl_imp_fem": "חכמנה",
+      "v_2_pl_imp_masc": "חכמו",
+      "v_2_pl_pst_fem": "חכמתן",
+      "v_2_pl_pst_masc": "חכמתם",
+      "v_2_sg_fut_fem": "תחכמי",
+      "v_2_sg_fut_masc": "תחכם",
+      "v_2_sg_imp_fem": "חכמי",
+      "v_2_sg_imp_masc": "חכם",
+      "v_2_sg_pst_fem": "חכמת",
+      "v_2_sg_pst_masc": "חכמת",
+      "v_3_pl_fut_fem": "תחכמנה",
+      "v_3_pl_fut_masc": "יחכמו",
+      "v_3_pl_pst": "חכמו",
+      "v_3_sg_fut_fem": "תחכם",
+      "v_3_sg_fut_masc": "יחכם",
+      "v_3_sg_pst_fem": "חכמה",
+      "v_3_sg_pst_masc": "חכם",
+      "v_nfin": "לחכום",
+      "v_pl_prs_fem": "חכמות",
+      "v_pl_prs_masc": "חכמים",
+      "v_sg_prs_fem": "חכמה",
+      "v_sg_prs_masc": "חכם"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "חלה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חלה",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "חולה",
+      "v_sg_prs_masc": "חולה"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "חלק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חלק",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נחלוק",
+      "v_1_pl_pst": "חלקנו",
+      "v_1_sg_fut": "אחלוק",
+      "v_1_sg_pst": "חלקתי",
+      "v_2_pl_fut_fem": "תחלוקנה",
+      "v_2_pl_fut_masc": "תחלקו",
+      "v_2_pl_imp_fem": "חלוקנה",
+      "v_2_pl_imp_masc": "חלקו",
+      "v_2_pl_pst_fem": "חלקתן",
+      "v_2_pl_pst_masc": "חלקתם",
+      "v_2_sg_fut_fem": "תחלקי",
+      "v_2_sg_fut_masc": "תחלוק",
+      "v_2_sg_imp_fem": "חלקי",
+      "v_2_sg_imp_masc": "חלוק",
+      "v_2_sg_pst_fem": "חלקת",
+      "v_2_sg_pst_masc": "חלקת",
+      "v_3_pl_fut_fem": "תחלוקנה",
+      "v_3_pl_fut_masc": "יחלקו",
+      "v_3_pl_pst": "חלקו",
+      "v_3_sg_fut_fem": "תחלוק",
+      "v_3_sg_fut_masc": "יחלוק",
+      "v_3_sg_pst_fem": "חלקה",
+      "v_3_sg_pst_masc": "חלק",
+      "v_msdr": "חלוקה",
+      "v_nfin": "לחלוק",
+      "v_pl_prs_fem": "חולקות",
+      "v_pl_prs_masc": "חולקים",
+      "v_sg_prs_fem": "חולקת",
+      "v_sg_prs_masc": "חולק"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "חצה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חצה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "חצי"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "חשב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "חשב",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst": "חשבתי",
+      "v_2_sg_imp_masc": "חשוב",
+      "v_2_sg_pst_fem": "חשבת",
+      "v_2_sg_pst_masc": "חשבת",
+      "v_nfin": "לחשוב",
+      "v_pl_prs_masc": "חושבים",
+      "v_sg_prs_fem": "חושבת",
+      "v_sg_prs_masc": "חושב"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "טיפל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "טיפל",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לטפל"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ידה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ידה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "ידי"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ידע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ידע",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נדע",
+      "v_1_pl_pst": "ידענו",
+      "v_1_sg_fut": "אדע",
+      "v_1_sg_pst": "ידעתי",
+      "v_2_pl_fut_fem": "תדענה",
+      "v_2_pl_fut_masc": "תדעו",
+      "v_2_pl_imp_fem": "דענה",
+      "v_2_pl_imp_masc": "דעו",
+      "v_2_pl_pst_fem": "ידעתן",
+      "v_2_pl_pst_masc": "ידעתם",
+      "v_2_sg_fut_fem": "תדעי",
+      "v_2_sg_fut_masc": "תדע",
+      "v_2_sg_imp_fem": "דעי",
+      "v_2_sg_imp_masc": "דע",
+      "v_2_sg_pst_fem": "ידעת",
+      "v_2_sg_pst_masc": "ידעת",
+      "v_3_pl_fut_fem": "תדענה",
+      "v_3_pl_fut_masc": "ידעו",
+      "v_3_pl_pst": "ידעו",
+      "v_3_sg_fut_fem": "תדע",
+      "v_3_sg_fut_masc": "ידע",
+      "v_3_sg_pst_fem": "ידעה",
+      "v_3_sg_pst_masc": "ידע",
+      "v_msdr": "ידיעה",
+      "v_nfin": "לדעת",
+      "v_pl_prs_fem": "יודעות",
+      "v_pl_prs_masc": "יודעים",
+      "v_sg_prs_fem": "יודעת",
+      "v_sg_prs_masc": "יודע"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "יודע": {
+    "antonyms": [],
+    "base": "יודע",
+    "examples": [
+      "אני יודע את התשובה."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "יודעת",
+          "gender": "feminine"
+        },
+        {
+          "form": "ידע",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "יותר": {
+    "antonyms": [],
+    "base": "יותר",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "יחידה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "יחידה",
+    "inflections": {
+      "n_sg_def": "היחידה",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ייחד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ייחד",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "יחד"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "יכול": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "יכול",
+    "examples": [
+      "אני יכול לעזור לך."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "יכולה",
+          "gender": "feminine"
+        },
+        {
+          "form": "יכולתי",
+          "tense": "past"
+        }
+      ],
+      "v_1_pl_fut": "נוכל",
+      "v_1_pl_pst": "יכולנו",
+      "v_1_sg_fut": "אוכל",
+      "v_1_sg_pst": "יכולתי",
+      "v_2_pl_fut_fem": "תוכלנה",
+      "v_2_pl_fut_masc": "תוכלו",
+      "v_2_pl_pst_fem": "יכולתן",
+      "v_2_pl_pst_masc": "יכולתם",
+      "v_2_sg_fut_fem": "תוכלי",
+      "v_2_sg_fut_masc": "תוכל",
+      "v_2_sg_pst_fem": "יכולת",
+      "v_2_sg_pst_masc": "יכולת",
+      "v_3_pl_fut_fem": "תוכלנה",
+      "v_3_pl_fut_masc": "יוכלו",
+      "v_3_pl_pst": "יכלו",
+      "v_3_sg_fut_fem": "תוכל",
+      "v_3_sg_fut_masc": "יוכל",
+      "v_3_sg_pst_fem": "יכלה",
+      "v_3_sg_pst_masc": "יכול",
+      "v_nfin": "להיות יכול",
+      "v_pl_prs_fem": "יכולות",
+      "v_pl_prs_masc": "יכולים",
+      "v_sg_prs_fem": "יכולה",
+      "v_sg_prs_masc": "יכול"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ילד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ילד",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נלד",
+      "v_1_pl_pst": "ילדנו",
+      "v_1_sg_fut": "אלד",
+      "v_1_sg_pst": "ילדתי",
+      "v_2_pl_fut_fem": "תלדנה",
+      "v_2_pl_fut_masc": "תלדו",
+      "v_2_pl_imp_fem": "לדנה",
+      "v_2_pl_imp_masc": "לדו",
+      "v_2_pl_pst_fem": "ילדתן",
+      "v_2_pl_pst_masc": "ילדתם",
+      "v_2_sg_fut_fem": "תלדי",
+      "v_2_sg_fut_masc": "תלד",
+      "v_2_sg_imp_fem": "לדי",
+      "v_2_sg_imp_masc": "לד",
+      "v_2_sg_pst_fem": "ילדת",
+      "v_2_sg_pst_masc": "ילדת",
+      "v_3_pl_fut_fem": "תלדנה",
+      "v_3_pl_fut_masc": "ילדו",
+      "v_3_pl_pst": "ילדו",
+      "v_3_sg_fut_fem": "תלד",
+      "v_3_sg_fut_masc": "ילד",
+      "v_3_sg_pst_fem": "ילדה",
+      "v_3_sg_pst_masc": "ילד",
+      "v_msdr": "לידה",
+      "v_nfin": "ללדת",
+      "v_pl_prs_fem": "יולדות",
+      "v_pl_prs_masc": "יולדים",
+      "v_sg_prs_fem": "יולדת",
+      "v_sg_prs_masc": "יולד"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "יצא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "יצא",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נצא",
+      "v_1_pl_pst": "יצאנו",
+      "v_1_sg_fut": "אצא",
+      "v_1_sg_pst": "יצאתי",
+      "v_2_pl_fut_fem": "תצאנה",
+      "v_2_pl_fut_masc": "תצאו",
+      "v_2_pl_imp_fem": "צאנה",
+      "v_2_pl_imp_masc": "צאו",
+      "v_2_pl_pst_fem": "יצאתן",
+      "v_2_pl_pst_masc": "יצאתם",
+      "v_2_sg_fut_fem": "תצאי",
+      "v_2_sg_fut_masc": "תצא",
+      "v_2_sg_imp_fem": "צאי",
+      "v_2_sg_imp_masc": "צא",
+      "v_2_sg_pst_fem": "יצאת",
+      "v_2_sg_pst_masc": "יצאת",
+      "v_3_pl_fut_fem": "תצאנה",
+      "v_3_pl_fut_masc": "יצאו",
+      "v_3_pl_pst": "יצאו",
+      "v_3_sg_fut_fem": "תצא",
+      "v_3_sg_fut_masc": "יצא",
+      "v_3_sg_pst_fem": "יצאה",
+      "v_3_sg_pst_masc": "יצא",
+      "v_msdr": "יציאה",
+      "v_nfin": "לצאת",
+      "v_pl_prs_fem": "יוצאות",
+      "v_pl_prs_masc": "יוצאים",
+      "v_sg_prs_fem": "יוצאת",
+      "v_sg_prs_masc": "יוצא"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "יצר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "יצר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "ליצור"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ירד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ירד",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "רד"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ישב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ישב",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "שבו",
+      "v_nfin": "לשבת"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ישן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ישן",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לישון"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "כאן": {
+    "antonyms": [],
+    "base": "כאן",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "כבוד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "כבוד",
+    "inflections": {
+      "n_sg_def": "הכבוד",
+      "n_sg_ndef": "כבוד",
+      "n_sg_pssd": "כבוד",
+      "n_sg_pssd_pss1p": "כבודנו",
+      "n_sg_pssd_pss1s": "כבודי",
+      "n_sg_pssd_pss2p_fem": "כבודכן",
+      "n_sg_pssd_pss2p_masc": "כבודכם",
+      "n_sg_pssd_pss2s_fem": "כבודך",
+      "n_sg_pssd_pss2s_masc": "כבודך",
+      "n_sg_pssd_pss3p_fem": "כבודן",
+      "n_sg_pssd_pss3p_masc": "כבודם",
+      "n_sg_pssd_pss3s_fem": "כבודה",
+      "n_sg_pssd_pss3s_masc": "כבודו",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "כבר": {
+    "antonyms": [],
+    "base": "כבר",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "כינס": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "כינס",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נכנס"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "כמה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "כמה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נכמה",
+      "v_1_pl_pst": "כמהנו",
+      "v_1_sg_fut": "אכמה",
+      "v_1_sg_pst": "כמהתי",
+      "v_2_pl_fut_fem": "תכמהנה",
+      "v_2_pl_fut_masc": "תכמהו",
+      "v_2_pl_imp_fem": "כמהנה",
+      "v_2_pl_imp_masc": "כמהו",
+      "v_2_pl_pst_fem": "כמהתן",
+      "v_2_pl_pst_masc": "כמהתם",
+      "v_2_sg_fut_fem": "תכמהי",
+      "v_2_sg_fut_masc": "תכמה",
+      "v_2_sg_imp_fem": "כמהי",
+      "v_2_sg_imp_masc": "כמה",
+      "v_2_sg_pst_fem": "כמהת",
+      "v_2_sg_pst_masc": "כמהת",
+      "v_3_pl_fut_fem": "תכמהנה",
+      "v_3_pl_fut_masc": "יכמהו",
+      "v_3_pl_pst": "כמהו",
+      "v_3_sg_fut_fem": "תכמה",
+      "v_3_sg_fut_masc": "יכמה",
+      "v_3_sg_pst_fem": "כמהה",
+      "v_3_sg_pst_masc": "כמה",
+      "v_msdr": "כמיהה",
+      "v_nfin": "לכמוה",
+      "v_pl_prs_fem": "כמהות",
+      "v_pl_prs_masc": "כמהים",
+      "v_sg_prs_fem": "כמהה",
+      "v_sg_prs_masc": "כמה"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "כסף": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "כסף",
+    "inflections": {
+      "n_pl_def": "הכספים",
+      "n_pl_ndef": "כספים",
+      "n_pl_pssd": "כספי",
+      "n_pl_pssd_pss1p": "כספינו",
+      "n_pl_pssd_pss1s": "כספיי",
+      "n_pl_pssd_pss2p_fem": "כספיכן",
+      "n_pl_pssd_pss2p_masc": "כספיכם",
+      "n_pl_pssd_pss2s_fem": "כספייך",
+      "n_pl_pssd_pss2s_masc": "כספיך",
+      "n_pl_pssd_pss3p_fem": "כספיהן",
+      "n_pl_pssd_pss3p_masc": "כספיהם",
+      "n_pl_pssd_pss3s_fem": "כספיה",
+      "n_pl_pssd_pss3s_masc": "כספיו",
+      "n_sg_def": "הכסף",
+      "n_sg_ndef": "כסף",
+      "n_sg_pssd": "כסף",
+      "n_sg_pssd_pss1p": "כספנו",
+      "n_sg_pssd_pss1s": "כספי",
+      "n_sg_pssd_pss2p_fem": "כספכן",
+      "n_sg_pssd_pss2p_masc": "כספכם",
+      "n_sg_pssd_pss2s_fem": "כספך",
+      "n_sg_pssd_pss2s_masc": "כספך",
+      "n_sg_pssd_pss3p_fem": "כספן",
+      "n_sg_pssd_pss3p_masc": "כספם",
+      "n_sg_pssd_pss3s_fem": "כספה",
+      "n_sg_pssd_pss3s_masc": "כספו",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "כפה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "כפה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "כפי"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "לא": {
+    "antonyms": [
+      "כן"
+    ],
+    "base": "לא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "לו": {
+    "antonyms": [],
+    "base": "לו",
+    "examples": [
+      "לו הייתי יודע."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "לי": {
+    "antonyms": [],
+    "base": "לי",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ליבן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ליבן",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "לבן"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "למד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "למד",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "ללמוד"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "לן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "לן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_pst": "לנו",
+      "v_3_pl_pst": "לנו"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "לנו": {
+    "antonyms": [],
+    "base": "לנו",
+    "examples": [
+      "זה שלנו."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "לעשות": {
+    "antonyms": [
+      "להפסיק"
+    ],
+    "base": "לעשות",
+    "examples": [
+      "אני רוצה לעשות את זה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "לקח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "לקח",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניקח",
+      "v_1_pl_pst": "לקחנו",
+      "v_1_sg_fut": "אקח",
+      "v_1_sg_pst": "לקחתי",
+      "v_2_pl_fut_fem": "תיקחנה",
+      "v_2_pl_fut_masc": "תיקחו",
+      "v_2_pl_imp_fem": "לקחנה",
+      "v_2_pl_imp_masc": "לקחו",
+      "v_2_pl_pst_fem": "לקחתן",
+      "v_2_pl_pst_masc": "לקחתם",
+      "v_2_sg_fut_fem": "תיקחי",
+      "v_2_sg_fut_masc": "תיקח",
+      "v_2_sg_imp_fem": "לקחי",
+      "v_2_sg_imp_masc": "לקח",
+      "v_2_sg_pst_fem": "לקחת",
+      "v_2_sg_pst_masc": "לקחת",
+      "v_3_pl_fut_fem": "תיקחנה",
+      "v_3_pl_fut_masc": "ייקחו",
+      "v_3_pl_pst": "לקחו",
+      "v_3_sg_fut_fem": "תיקח",
+      "v_3_sg_fut_masc": "ייקח",
+      "v_3_sg_pst_fem": "לקחה",
+      "v_3_sg_pst_masc": "לקח",
+      "v_msdr": "לקיחה",
+      "v_nfin": "ליקוח",
+      "v_pl_prs_fem": "לוקחות",
+      "v_pl_prs_masc": "לוקחים",
+      "v_sg_prs_fem": "לוקחת",
+      "v_sg_prs_masc": "לוקח"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "לש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "לש",
+    "inflections": {
+      "regulars": [],
+      "v_pl_prs_masc": "לשים"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "מאוד": {
+    "antonyms": [],
+    "base": "מאוד",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "מה": {
+    "antonyms": [],
+    "base": "מה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "מי": {
+    "antonyms": [],
+    "base": "מי",
+    "examples": [
+      "מי אתה?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "מיהר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מיהר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "מהר"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "מילא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מילא",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "מלא"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "מיפה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מיפה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "מפה"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "מכר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מכר",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "מכירה"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "מלא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מלא",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נמלא",
+      "v_1_pl_pst": "מלאנו",
+      "v_1_sg_fut": "אמלא",
+      "v_1_sg_pst": "מלאתי",
+      "v_2_pl_fut_fem": "תמלאנה",
+      "v_2_pl_fut_masc": "תמלאו",
+      "v_2_pl_imp_fem": "מלאנה",
+      "v_2_pl_imp_masc": "מלאו",
+      "v_2_pl_pst_fem": "מלאתן",
+      "v_2_pl_pst_masc": "מלאתם",
+      "v_2_sg_fut_fem": "תמלאי",
+      "v_2_sg_fut_masc": "תמלא",
+      "v_2_sg_imp_fem": "מלאי",
+      "v_2_sg_imp_masc": "מלא",
+      "v_2_sg_pst_fem": "מלאת",
+      "v_2_sg_pst_masc": "מלאת",
+      "v_3_pl_fut_fem": "תמלאנה",
+      "v_3_pl_fut_masc": "ימלאו",
+      "v_3_pl_pst": "מלאו",
+      "v_3_sg_fut_fem": "תמלא",
+      "v_3_sg_fut_masc": "ימלא",
+      "v_3_sg_pst_fem": "מלאה",
+      "v_3_sg_pst_masc": "מלא",
+      "v_nfin": "למלוא",
+      "v_pl_prs_fem": "מלאות",
+      "v_pl_prs_masc": "מלאים",
+      "v_sg_prs_fem": "מלאה",
+      "v_sg_prs_masc": "מלא"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "מעל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מעל",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נמעל",
+      "v_1_pl_pst": "מעלנו",
+      "v_1_sg_fut": "אמעל",
+      "v_1_sg_pst": "מעלתי",
+      "v_2_pl_fut_fem": "תמעלנה",
+      "v_2_pl_fut_masc": "תמעלו",
+      "v_2_pl_imp_fem": "מעלנה",
+      "v_2_pl_imp_masc": "מעלו",
+      "v_2_pl_pst_fem": "מעלתן",
+      "v_2_pl_pst_masc": "מעלתם",
+      "v_2_sg_fut_fem": "תמעלי",
+      "v_2_sg_fut_masc": "תמעל",
+      "v_2_sg_imp_fem": "מעלי",
+      "v_2_sg_imp_masc": "מעל",
+      "v_2_sg_pst_fem": "מעלת",
+      "v_2_sg_pst_masc": "מעלת",
+      "v_3_pl_fut_fem": "תמעלנה",
+      "v_3_pl_fut_masc": "ימעלו",
+      "v_3_pl_pst": "מעלו",
+      "v_3_sg_fut_fem": "תמעל",
+      "v_3_sg_fut_masc": "ימעל",
+      "v_3_sg_pst_fem": "מעלה",
+      "v_3_sg_pst_masc": "מעל",
+      "v_msdr": "מעילה",
+      "v_nfin": "למעול",
+      "v_pl_prs_fem": "מועלות",
+      "v_pl_prs_masc": "מועלים",
+      "v_sg_prs_fem": "מועלת",
+      "v_sg_prs_masc": "מועל"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "מצא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מצא",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נמצא",
+      "v_1_sg_pst": "מצאתי",
+      "v_nfin": "למצוא",
+      "v_sg_prs_masc": "מוצא"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "מצב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מצב",
+    "inflections": {
+      "n_pl_def": "המצבים",
+      "n_pl_ndef": "מצבים",
+      "n_pl_pssd": "מצבי",
+      "n_pl_pssd_pss1p": "מצבינו",
+      "n_pl_pssd_pss1s": "מצביי",
+      "n_pl_pssd_pss2p_fem": "מצביכן",
+      "n_pl_pssd_pss2p_masc": "מצביכם",
+      "n_pl_pssd_pss2s_fem": "מצבייך",
+      "n_pl_pssd_pss2s_masc": "מצביך",
+      "n_pl_pssd_pss3p_fem": "מצביהן",
+      "n_pl_pssd_pss3p_masc": "מצביהם",
+      "n_pl_pssd_pss3s_fem": "מצביה",
+      "n_pl_pssd_pss3s_masc": "מצביו",
+      "n_sg_def": "המצב",
+      "n_sg_ndef": "מצב",
+      "n_sg_pssd": "מצב",
+      "n_sg_pssd_pss1p": "מצבנו",
+      "n_sg_pssd_pss1s": "מצבי",
+      "n_sg_pssd_pss2p_fem": "מצבכן",
+      "n_sg_pssd_pss2p_masc": "מצבכם",
+      "n_sg_pssd_pss2s_fem": "מצבך",
+      "n_sg_pssd_pss2s_masc": "מצבך",
+      "n_sg_pssd_pss3p_fem": "מצבן",
+      "n_sg_pssd_pss3p_masc": "מצבם",
+      "n_sg_pssd_pss3s_fem": "מצבה",
+      "n_sg_pssd_pss3s_masc": "מצבו",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "מקום": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מקום",
+    "inflections": {
+      "n_pl_def": "המקומות",
+      "n_pl_ndef": "מקומות",
+      "n_pl_pssd": "מקומות",
+      "n_pl_pssd_pss1p": "מקומותינו",
+      "n_pl_pssd_pss1s": "מקומותיי",
+      "n_pl_pssd_pss2p_fem": "מקומותיכן",
+      "n_pl_pssd_pss2p_masc": "מקומותיכם",
+      "n_pl_pssd_pss2s_fem": "מקומותייך",
+      "n_pl_pssd_pss2s_masc": "מקומותיך",
+      "n_pl_pssd_pss3p_fem": "מקומותן",
+      "n_pl_pssd_pss3p_masc": "מקומותם",
+      "n_pl_pssd_pss3s_fem": "מקומותיה",
+      "n_pl_pssd_pss3s_masc": "מקומותיו",
+      "n_sg_def": "המקום",
+      "n_sg_ndef": "מקום",
+      "n_sg_pssd": "מקום",
+      "n_sg_pssd_pss1p": "מקומנו",
+      "n_sg_pssd_pss1s": "מקומי",
+      "n_sg_pssd_pss2p_fem": "מקומכן",
+      "n_sg_pssd_pss2p_masc": "מקומכם",
+      "n_sg_pssd_pss2s_fem": "מקומך",
+      "n_sg_pssd_pss2s_masc": "מקומך",
+      "n_sg_pssd_pss3p_fem": "מקומן",
+      "n_sg_pssd_pss3p_masc": "מקומם",
+      "n_sg_pssd_pss3s_fem": "מקומה",
+      "n_sg_pssd_pss3s_masc": "מקומו",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "משפחה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "משפחה",
+    "inflections": {
+      "n_pl_def": "המשפחות",
+      "n_pl_ndef": "משפחות",
+      "n_pl_pssd": "משפחות",
+      "n_pl_pssd_pss1p": "משפחותינו",
+      "n_pl_pssd_pss1s": "משפחותיי",
+      "n_pl_pssd_pss2p_fem": "משפחותיכן",
+      "n_pl_pssd_pss2p_masc": "משפחותיכם",
+      "n_pl_pssd_pss2s_fem": "משפחותייך",
+      "n_pl_pssd_pss2s_masc": "משפחותיך",
+      "n_pl_pssd_pss3p_fem": "משפחותן",
+      "n_pl_pssd_pss3p_masc": "משפחותם",
+      "n_pl_pssd_pss3s_fem": "משפחותיה",
+      "n_pl_pssd_pss3s_masc": "משפחותיו",
+      "n_sg_def": "המשפחה",
+      "n_sg_ndef": "משפחה",
+      "n_sg_pssd": "משפחת",
+      "n_sg_pssd_pss1p": "משפחתנו",
+      "n_sg_pssd_pss1s": "משפחתי",
+      "n_sg_pssd_pss2p_fem": "משפחתכן",
+      "n_sg_pssd_pss2p_masc": "משפחתכם",
+      "n_sg_pssd_pss2s_fem": "משפחתך",
+      "n_sg_pssd_pss2s_masc": "משפחתך",
+      "n_sg_pssd_pss3p_fem": "משפחתן",
+      "n_sg_pssd_pss3p_masc": "משפחתם",
+      "n_sg_pssd_pss3s_fem": "משפחתה",
+      "n_sg_pssd_pss3s_masc": "משפחתו",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "מת": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "מת",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נמות",
+      "v_1_pl_pst": "מתנו",
+      "v_1_sg_fut": "אמות",
+      "v_1_sg_pst": "מתתי",
+      "v_2_pl_fut_fem": "תמותנה",
+      "v_2_pl_fut_masc": "תמותו",
+      "v_2_pl_imp_fem": "מותנה",
+      "v_2_pl_imp_masc": "מותו",
+      "v_2_pl_pst_fem": "מתתן",
+      "v_2_pl_pst_masc": "מתתם",
+      "v_2_sg_fut_fem": "תמותי",
+      "v_2_sg_fut_masc": "תמות",
+      "v_2_sg_imp_fem": "מותי",
+      "v_2_sg_imp_masc": "מות",
+      "v_2_sg_pst_fem": "מתת",
+      "v_2_sg_pst_masc": "מתת",
+      "v_3_pl_fut_fem": "תמותנה",
+      "v_3_pl_fut_masc": "ימותו",
+      "v_3_pl_pst": "מתו",
+      "v_3_sg_fut_fem": "תמות",
+      "v_3_sg_fut_masc": "ימות",
+      "v_3_sg_pst_fem": "מתה",
+      "v_3_sg_pst_masc": "מת",
+      "v_msdr": "מיתה",
+      "v_nfin": "למות",
+      "v_pl_prs_fem": "מתות",
+      "v_pl_prs_masc": "מתים",
+      "v_sg_prs_fem": "מתה",
+      "v_sg_prs_masc": "מת"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נגד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נגד",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ננגוד",
+      "v_1_pl_pst": "נגדנו",
+      "v_1_sg_fut": "אנגוד",
+      "v_1_sg_pst": "נגדתי",
+      "v_2_pl_fut_fem": "תנגודנה",
+      "v_2_pl_fut_masc": "תנגדו",
+      "v_2_pl_imp_fem": "נגודנה",
+      "v_2_pl_imp_masc": "נגדו",
+      "v_2_pl_pst_fem": "נגדתן",
+      "v_2_pl_pst_masc": "נגדתם",
+      "v_2_sg_fut_fem": "תנגדי",
+      "v_2_sg_fut_masc": "תנגוד",
+      "v_2_sg_imp_fem": "נגדי",
+      "v_2_sg_imp_masc": "נגוד",
+      "v_2_sg_pst_fem": "נגדת",
+      "v_2_sg_pst_masc": "נגדת",
+      "v_3_pl_fut_fem": "תנגודנה",
+      "v_3_pl_fut_masc": "ינגדו",
+      "v_3_pl_pst": "נגדו",
+      "v_3_sg_fut_fem": "תנגוד",
+      "v_3_sg_fut_masc": "ינגוד",
+      "v_3_sg_pst_fem": "נגדה",
+      "v_3_sg_pst_masc": "נגד",
+      "v_nfin": "לנגוד",
+      "v_pl_prs_fem": "נוגדות",
+      "v_pl_prs_masc": "נוגדים",
+      "v_sg_prs_fem": "נוגדת",
+      "v_sg_prs_masc": "נוגד"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "נגמר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נגמר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניגמר",
+      "v_1_pl_pst": "נגמרנו",
+      "v_1_sg_fut": "אגמר",
+      "v_1_sg_pst": "נגמרתי",
+      "v_2_pl_fut_fem": "תיגמרנה",
+      "v_2_pl_fut_masc": "תיגמרו",
+      "v_2_pl_imp_fem": "היגמרנה",
+      "v_2_pl_imp_masc": "היגמרו",
+      "v_2_pl_pst_fem": "נגמרתן",
+      "v_2_pl_pst_masc": "נגמרתם",
+      "v_2_sg_fut_fem": "תיגמרי",
+      "v_2_sg_fut_masc": "תיגמר",
+      "v_2_sg_imp_fem": "היגמרי",
+      "v_2_sg_imp_masc": "היגמר",
+      "v_2_sg_pst_fem": "נגמרת",
+      "v_2_sg_pst_masc": "נגמרת",
+      "v_3_pl_fut_fem": "תיגמרנה",
+      "v_3_pl_fut_masc": "ייגמרו",
+      "v_3_pl_pst": "נגמרו",
+      "v_3_sg_fut_fem": "תיגמר",
+      "v_3_sg_fut_masc": "ייגמר",
+      "v_3_sg_pst_fem": "נגמרה",
+      "v_3_sg_pst_masc": "נגמר",
+      "v_msdr": "היגמרות",
+      "v_nfin": "להיגמר",
+      "v_pl_prs_fem": "נגמרות",
+      "v_pl_prs_masc": "נגמרים",
+      "v_sg_prs_fem": "נגמרת",
+      "v_sg_prs_masc": "נגמר"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נהיה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נהיה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_pst": "נהיינו",
+      "v_1_sg_pst": "נהייתי",
+      "v_2_pl_pst_fem": "נהייתן",
+      "v_2_pl_pst_masc": "נהייתם",
+      "v_2_sg_pst_fem": "נהיית",
+      "v_2_sg_pst_masc": "נהיית",
+      "v_3_pl_pst": "נהיו",
+      "v_3_sg_pst_fem": "נהיתה",
+      "v_3_sg_pst_masc": "נהיה",
+      "v_pl_prs_fem": "נהיות",
+      "v_pl_prs_masc": "נהיים",
+      "v_sg_prs_fem": "נהיית",
+      "v_sg_prs_masc": "נהיה"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ניסה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ניסה",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst": "ניסיתי",
+      "v_nfin": "לנסות",
+      "v_sg_prs_fem": "מנסה",
+      "v_sg_prs_masc": "מנסה"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ניצח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ניצח",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לנצח"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ניתן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ניתן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נינתן",
+      "v_1_pl_pst": "ניתנו",
+      "v_1_sg_fut": "אנתן",
+      "v_1_sg_pst": "ניתנתי",
+      "v_2_pl_fut_fem": "תינתנה",
+      "v_2_pl_fut_masc": "תינתנו",
+      "v_2_pl_imp_fem": "הינתנה",
+      "v_2_pl_imp_masc": "הינתנו",
+      "v_2_pl_pst_fem": "ניתנתן",
+      "v_2_pl_pst_masc": "ניתנתם",
+      "v_2_sg_fut_fem": "תינתני",
+      "v_2_sg_fut_masc": "תינתן",
+      "v_2_sg_imp_fem": "הינתני",
+      "v_2_sg_imp_masc": "הינתן",
+      "v_2_sg_pst_fem": "ניתנת",
+      "v_2_sg_pst_masc": "ניתנת",
+      "v_3_pl_fut_fem": "תינתנה",
+      "v_3_pl_fut_masc": "יינתנו",
+      "v_3_pl_pst": "ניתנו",
+      "v_3_sg_fut_fem": "תינתן",
+      "v_3_sg_fut_masc": "יינתן",
+      "v_3_sg_pst_fem": "ניתנה",
+      "v_3_sg_pst_masc": "ניתן",
+      "v_nfin": "להינתן",
+      "v_pl_prs_fem": "ניתנות",
+      "v_pl_prs_masc": "ניתנים",
+      "v_sg_prs_fem": "ניתנת",
+      "v_sg_prs_masc": "ניתן"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "נכון": {
+    "antonyms": [
+      "שקרי"
+    ],
+    "base": "נכון",
+    "examples": [
+      "זה נכון."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "נכנס": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נכנס",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניכנס",
+      "v_1_pl_pst": "נכנסנו",
+      "v_1_sg_fut": "אכנס",
+      "v_1_sg_pst": "נכנסתי",
+      "v_2_pl_fut_fem": "תיכנסנה",
+      "v_2_pl_fut_masc": "תיכנסו",
+      "v_2_pl_imp_fem": "היכנסנה",
+      "v_2_pl_imp_masc": "היכנסו",
+      "v_2_pl_pst_fem": "נכנסתן",
+      "v_2_pl_pst_masc": "נכנסתם",
+      "v_2_sg_fut_fem": "תיכנסי",
+      "v_2_sg_fut_masc": "תיכנס",
+      "v_2_sg_imp_fem": "היכנסי",
+      "v_2_sg_imp_masc": "היכנס",
+      "v_2_sg_pst_fem": "נכנסת",
+      "v_2_sg_pst_masc": "נכנסת",
+      "v_3_pl_fut_fem": "תיכנסנה",
+      "v_3_pl_fut_masc": "ייכנסו",
+      "v_3_pl_pst": "נכנסו",
+      "v_3_sg_fut_fem": "תיכנס",
+      "v_3_sg_fut_masc": "ייכנס",
+      "v_3_sg_pst_fem": "נכנסה",
+      "v_3_sg_pst_masc": "נכנס",
+      "v_msdr": "כניסה",
+      "v_nfin": "להיכנס",
+      "v_pl_prs_fem": "נכנסות",
+      "v_pl_prs_masc": "נכנסים",
+      "v_sg_prs_fem": "נכנסת",
+      "v_sg_prs_masc": "נכנס"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נמס": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נמס",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_fut_masc": "יימס"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "נמצא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נמצא",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נימצא",
+      "v_1_pl_pst": "נמצאנו",
+      "v_1_sg_fut": "אמצא",
+      "v_1_sg_pst": "נמצאתי",
+      "v_2_pl_fut_fem": "תימצאנה",
+      "v_2_pl_fut_masc": "תימצאו",
+      "v_2_pl_imp_fem": "הימצאנה",
+      "v_2_pl_imp_masc": "הימצאו",
+      "v_2_pl_pst_fem": "נמצאתן",
+      "v_2_pl_pst_masc": "נמצאתם",
+      "v_2_sg_fut_fem": "תימצאי",
+      "v_2_sg_fut_masc": "תימצא",
+      "v_2_sg_imp_fem": "הימצאי",
+      "v_2_sg_imp_masc": "הימצא",
+      "v_2_sg_pst_fem": "נמצאת",
+      "v_2_sg_pst_masc": "נמצאת",
+      "v_3_pl_fut_fem": "תימצאנה",
+      "v_3_pl_fut_masc": "יימצאו",
+      "v_3_pl_pst": "נמצאו",
+      "v_3_sg_fut_fem": "תימצא",
+      "v_3_sg_fut_masc": "יימצא",
+      "v_3_sg_pst_fem": "נמצאה",
+      "v_3_sg_pst_masc": "נמצא",
+      "v_msdr": "הימצאות",
+      "v_nfin": "להימצא",
+      "v_pl_prs_fem": "נמצאות",
+      "v_pl_prs_masc": "נמצאים",
+      "v_sg_prs_fem": "נמצאת",
+      "v_sg_prs_masc": "נמצא"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נע",
+    "inflections": {
+      "regulars": [],
+      "v_pl_prs_masc": "נעים"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "נעלם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נעלם",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניעלם",
+      "v_1_pl_pst": "נעלמנו",
+      "v_1_sg_fut": "איעלם",
+      "v_1_sg_pst": "נעלמתי",
+      "v_2_pl_fut_fem": "תיעלמנה",
+      "v_2_pl_fut_masc": "תיעלמו",
+      "v_2_pl_imp_fem": "היעלמנה",
+      "v_2_pl_imp_masc": "היעלמו",
+      "v_2_pl_pst_fem": "נעלמתן",
+      "v_2_pl_pst_masc": "נעלמתם",
+      "v_2_sg_fut_fem": "תיעלמי",
+      "v_2_sg_fut_masc": "תיעלם",
+      "v_2_sg_imp_fem": "היעלמי",
+      "v_2_sg_imp_masc": "היעלם",
+      "v_2_sg_pst_fem": "נעלמת",
+      "v_2_sg_pst_masc": "נעלמת",
+      "v_3_pl_fut_fem": "תיעלמנה",
+      "v_3_pl_fut_masc": "ייעלמו",
+      "v_3_pl_pst": "נעלמו",
+      "v_3_sg_fut_fem": "תיעלם",
+      "v_3_sg_fut_masc": "ייעלם",
+      "v_3_sg_pst_fem": "נעלמה",
+      "v_3_sg_pst_masc": "נעלם",
+      "v_msdr": "היעלמות",
+      "v_nfin": "להיעלם",
+      "v_pl_prs_fem": "נעלמות",
+      "v_pl_prs_masc": "נעלמים",
+      "v_sg_prs_fem": "נעלמת",
+      "v_sg_prs_masc": "נעלם"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נעם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נעם",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "נעים"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "נעשה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נעשה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניעשה",
+      "v_1_pl_pst": "נעשינו",
+      "v_1_sg_fut": "איעשה",
+      "v_1_sg_pst": "נעשיתי",
+      "v_2_pl_fut_fem": "תיעשינה",
+      "v_2_pl_fut_masc": "תיעשו",
+      "v_2_pl_imp_fem": "היעשינה",
+      "v_2_pl_imp_masc": "היעשו",
+      "v_2_pl_pst_fem": "נעשיתן",
+      "v_2_pl_pst_masc": "נעשיתם",
+      "v_2_sg_fut_fem": "תיעשי",
+      "v_2_sg_fut_masc": "תיעשה",
+      "v_2_sg_imp_fem": "היעשי",
+      "v_2_sg_imp_masc": "היעשה",
+      "v_2_sg_pst_fem": "נעשית",
+      "v_2_sg_pst_masc": "נעשית",
+      "v_3_pl_fut_fem": "תיעשינה",
+      "v_3_pl_fut_masc": "ייעשו",
+      "v_3_pl_pst": "נעשו",
+      "v_3_sg_fut_fem": "תיעשה",
+      "v_3_sg_fut_masc": "ייעשה",
+      "v_3_sg_pst_fem": "נעשתה",
+      "v_3_sg_pst_masc": "נעשה",
+      "v_nfin": "להיעשות",
+      "v_pl_prs_fem": "נעשות",
+      "v_pl_prs_masc": "נעשים",
+      "v_sg_prs_fem": "נעשית",
+      "v_sg_prs_masc": "נעשה"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "נראה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "נראה",
+    "examples": [],
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניראה",
+      "v_1_pl_pst": "נראינו",
+      "v_1_sg_fut": "איראה",
+      "v_1_sg_pst": "נראיתי",
+      "v_2_pl_fut_fem": "תיראינה",
+      "v_2_pl_fut_masc": "תיראו",
+      "v_2_pl_imp_fem": "היראינה",
+      "v_2_pl_imp_masc": "היראו",
+      "v_2_pl_pst_fem": "נראיתן",
+      "v_2_pl_pst_masc": "נראיתם",
+      "v_2_sg_fut_fem": "תיראי",
+      "v_2_sg_fut_masc": "תיראה",
+      "v_2_sg_imp_fem": "היראי",
+      "v_2_sg_imp_masc": "היראה",
+      "v_2_sg_pst_fem": "נראית",
+      "v_2_sg_pst_masc": "נראית",
+      "v_3_pl_fut_fem": "תיראינה",
+      "v_3_pl_fut_masc": "ייראו",
+      "v_3_pl_pst": "נראו",
+      "v_3_sg_fut_fem": "תיראה",
+      "v_3_sg_fut_masc": "ייראה",
+      "v_3_sg_pst_fem": "נראתה",
+      "v_3_sg_pst_masc": "נראה",
+      "v_msdr": "היראות",
+      "v_nfin": "להיראות",
+      "v_pl_prs_fem": "נראות",
+      "v_pl_prs_masc": "נראים",
+      "v_sg_prs_fem": "נראית",
+      "v_sg_prs_masc": "נראה"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נרגע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נרגע",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_masc": "תירגע",
+      "v_3_sg_fut_fem": "תירגע"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "נשאר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נשאר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נישאר",
+      "v_1_pl_pst": "נשארנו",
+      "v_1_sg_fut": "אשאר",
+      "v_1_sg_pst": "נשארתי",
+      "v_2_pl_fut_fem": "תישארנה",
+      "v_2_pl_fut_masc": "תישארו",
+      "v_2_pl_imp_fem": "הישארנה",
+      "v_2_pl_imp_masc": "הישארו",
+      "v_2_pl_pst_fem": "נשארתן",
+      "v_2_pl_pst_masc": "נשארתם",
+      "v_2_sg_fut_fem": "תישארי",
+      "v_2_sg_fut_masc": "תישאר",
+      "v_2_sg_imp_fem": "הישארי",
+      "v_2_sg_imp_masc": "הישאר",
+      "v_2_sg_pst_fem": "נשארת",
+      "v_2_sg_pst_masc": "נשארת",
+      "v_3_pl_fut_fem": "תישארנה",
+      "v_3_pl_fut_masc": "יישארו",
+      "v_3_pl_pst": "נשארו",
+      "v_3_sg_fut_fem": "תישאר",
+      "v_3_sg_fut_masc": "יישאר",
+      "v_3_sg_pst_fem": "נשארה",
+      "v_3_sg_pst_masc": "נשאר",
+      "v_msdr": "הישארות",
+      "v_nfin": "להישאר",
+      "v_pl_prs_fem": "נשארות",
+      "v_pl_prs_masc": "נשארים",
+      "v_sg_prs_fem": "נשארת",
+      "v_sg_prs_masc": "נשאר"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "נשמע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נשמע",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נישמע",
+      "v_1_pl_pst": "נשמענו",
+      "v_1_sg_fut": "אשמע",
+      "v_1_sg_pst": "נשמעתי",
+      "v_2_pl_fut_fem": "תישמענה",
+      "v_2_pl_fut_masc": "תישמעו",
+      "v_2_pl_imp_fem": "הישמענה",
+      "v_2_pl_imp_masc": "הישמעו",
+      "v_2_pl_pst_fem": "נשמעתן",
+      "v_2_pl_pst_masc": "נשמעתם",
+      "v_2_sg_fut_fem": "תישמעי",
+      "v_2_sg_fut_masc": "תישמע",
+      "v_2_sg_imp_fem": "הישמעי",
+      "v_2_sg_imp_masc": "הישמע",
+      "v_2_sg_pst_fem": "נשמעת",
+      "v_2_sg_pst_masc": "נשמעת",
+      "v_3_pl_fut_fem": "תישמענה",
+      "v_3_pl_fut_masc": "יישמעו",
+      "v_3_pl_pst": "נשמעו",
+      "v_3_sg_fut_fem": "תישמע",
+      "v_3_sg_fut_masc": "יישמע",
+      "v_3_sg_pst_fem": "נשמעה",
+      "v_3_sg_pst_masc": "נשמע",
+      "v_nfin": "להישמע",
+      "v_pl_prs_fem": "נשמעות",
+      "v_pl_prs_masc": "נשמעים",
+      "v_sg_prs_fem": "נשמעת",
+      "v_sg_prs_masc": "נשמע"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "נתן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "נתן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "ניתן",
+      "v_1_pl_pst": "נתנו",
+      "v_1_sg_fut": "אתן",
+      "v_1_sg_pst": "נתתי",
+      "v_2_pl_fut_fem": "תיתנה",
+      "v_2_pl_fut_masc": "תיתנו",
+      "v_2_pl_imp_fem": "תנה",
+      "v_2_pl_imp_masc": "תנו",
+      "v_2_pl_pst_fem": "נתתן",
+      "v_2_pl_pst_masc": "נתתם",
+      "v_2_sg_fut_fem": "תיתני",
+      "v_2_sg_fut_masc": "תיתן",
+      "v_2_sg_imp_fem": "תני",
+      "v_2_sg_imp_masc": "תן",
+      "v_2_sg_pst_fem": "נתת",
+      "v_2_sg_pst_masc": "נתת",
+      "v_3_pl_fut_fem": "תיתנה",
+      "v_3_pl_fut_masc": "ייתנו",
+      "v_3_pl_pst": "נתנו",
+      "v_3_sg_fut_fem": "תיתן",
+      "v_3_sg_fut_masc": "ייתן",
+      "v_3_sg_pst_fem": "נתנה",
+      "v_3_sg_pst_masc": "נתן",
+      "v_msdr": "נתינה",
+      "v_nfin": "לתת",
+      "v_pl_prs_fem": "נותנות",
+      "v_pl_prs_masc": "נותנים",
+      "v_sg_prs_fem": "נותנת",
+      "v_sg_prs_masc": "נותן"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "סיפק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "סיפק",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "ספק"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "סיפר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "סיפר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "ספר",
+      "v_msdr": "סיפור",
+      "v_nfin": "לספר",
+      "v_sg_prs_masc": "מספר"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "סלח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "סלח",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נסלח",
+      "v_1_pl_pst": "סלחנו",
+      "v_1_sg_fut": "אסלח",
+      "v_1_sg_pst": "סלחתי",
+      "v_2_pl_fut_fem": "תסלחנה",
+      "v_2_pl_fut_masc": "תסלחו",
+      "v_2_pl_imp_fem": "סלחנה",
+      "v_2_pl_imp_masc": "סלחו",
+      "v_2_pl_pst_fem": "סלחתן",
+      "v_2_pl_pst_masc": "סלחתם",
+      "v_2_sg_fut_fem": "תסלחי",
+      "v_2_sg_fut_masc": "תסלח",
+      "v_2_sg_imp_fem": "סלחי",
+      "v_2_sg_imp_masc": "סלח",
+      "v_2_sg_pst_fem": "סלחת",
+      "v_2_sg_pst_masc": "סלחת",
+      "v_3_pl_fut_fem": "תסלחנה",
+      "v_3_pl_fut_masc": "יסלחו",
+      "v_3_pl_pst": "סלחו",
+      "v_3_sg_fut_fem": "תסלח",
+      "v_3_sg_fut_masc": "יסלח",
+      "v_3_sg_pst_fem": "סלחה",
+      "v_3_sg_pst_masc": "סלח",
+      "v_msdr": "סליחה",
+      "v_nfin": "לסלוח",
+      "v_pl_prs_fem": "סולחות",
+      "v_pl_prs_masc": "סולחים",
+      "v_sg_prs_fem": "סולחת",
+      "v_sg_prs_masc": "סולח"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ספר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ספר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נספור",
+      "v_1_pl_pst": "ספרנו",
+      "v_1_sg_fut": "אספור",
+      "v_1_sg_pst": "ספרתי",
+      "v_2_pl_fut_fem": "תספורנה",
+      "v_2_pl_fut_masc": "תספרו",
+      "v_2_pl_imp_fem": "ספורנה",
+      "v_2_pl_imp_masc": "ספרו",
+      "v_2_pl_pst_fem": "ספרתן",
+      "v_2_pl_pst_masc": "ספרתם",
+      "v_2_sg_fut_fem": "תספרי",
+      "v_2_sg_fut_masc": "תספור",
+      "v_2_sg_imp_fem": "ספרי",
+      "v_2_sg_imp_masc": "ספור",
+      "v_2_sg_pst_fem": "ספרת",
+      "v_2_sg_pst_masc": "ספרת",
+      "v_3_pl_fut_fem": "תספורנה",
+      "v_3_pl_fut_masc": "יספרו",
+      "v_3_pl_pst": "ספרו",
+      "v_3_sg_fut_fem": "תספור",
+      "v_3_sg_fut_masc": "יספור",
+      "v_3_sg_pst_fem": "ספרה",
+      "v_3_sg_pst_masc": "ספר",
+      "v_msdr": "ספירה",
+      "v_nfin": "לספור",
+      "v_pl_prs_fem": "סופרות",
+      "v_pl_prs_masc": "סופרים",
+      "v_sg_prs_fem": "סופרת",
+      "v_sg_prs_masc": "סופר"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "סר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "סר",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_fut": "אסור"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "סתם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "סתם",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נסתום",
+      "v_1_pl_pst": "סתמנו",
+      "v_1_sg_fut": "אסתום",
+      "v_1_sg_pst": "סתמתי",
+      "v_2_pl_fut_fem": "תסתומנה",
+      "v_2_pl_fut_masc": "תסתמו",
+      "v_2_pl_imp_fem": "סתומנה",
+      "v_2_pl_imp_masc": "סתמו",
+      "v_2_pl_pst_fem": "סתמתן",
+      "v_2_pl_pst_masc": "סתמתם",
+      "v_2_sg_fut_fem": "תסתמי",
+      "v_2_sg_fut_masc": "תסתום",
+      "v_2_sg_imp_fem": "סתמי",
+      "v_2_sg_imp_masc": "סתום",
+      "v_2_sg_pst_fem": "סתמת",
+      "v_2_sg_pst_masc": "סתמת",
+      "v_3_pl_fut_fem": "תסתומנה",
+      "v_3_pl_fut_masc": "יסתמו",
+      "v_3_pl_pst": "סתמו",
+      "v_3_sg_fut_fem": "תסתום",
+      "v_3_sg_fut_masc": "יסתום",
+      "v_3_sg_pst_fem": "סתמה",
+      "v_3_sg_pst_masc": "סתם",
+      "v_msdr": "סתימה",
+      "v_nfin": "לסתום",
+      "v_pl_prs_fem": "סותמות",
+      "v_pl_prs_masc": "סותמים",
+      "v_sg_prs_fem": "סותמת",
+      "v_sg_prs_masc": "סותם"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עבד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עבד",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "עבודה",
+      "v_nfin": "לעבוד",
+      "v_sg_prs_fem": "עובדת",
+      "v_sg_prs_masc": "עובד"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עבר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עבר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נעבור",
+      "v_1_pl_pst": "עברנו",
+      "v_1_sg_fut": "אעבור",
+      "v_1_sg_pst": "עברתי",
+      "v_2_pl_fut_fem": "תעבורנה",
+      "v_2_pl_fut_masc": "תעברו",
+      "v_2_pl_imp_fem": "עבורנה",
+      "v_2_pl_imp_masc": "עברו",
+      "v_2_pl_pst_fem": "עברתן",
+      "v_2_pl_pst_masc": "עברתם",
+      "v_2_sg_fut_fem": "תעברי",
+      "v_2_sg_fut_masc": "תעבור",
+      "v_2_sg_imp_fem": "עברי",
+      "v_2_sg_imp_masc": "עבור",
+      "v_2_sg_pst_fem": "עברת",
+      "v_2_sg_pst_masc": "עברת",
+      "v_3_pl_fut_fem": "תעבורנה",
+      "v_3_pl_fut_masc": "יעברו",
+      "v_3_pl_pst": "עברו",
+      "v_3_sg_fut_fem": "תעבור",
+      "v_3_sg_fut_masc": "יעבור",
+      "v_3_sg_pst_fem": "עברה",
+      "v_3_sg_pst_masc": "עבר",
+      "v_msdr": "מעבר",
+      "v_nfin": "לעבור",
+      "v_pl_prs_fem": "עוברות",
+      "v_pl_prs_masc": "עוברים",
+      "v_sg_prs_fem": "עוברת",
+      "v_sg_prs_masc": "עובר"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עוד": {
+    "antonyms": [],
+    "base": "עוד",
+    "examples": [
+      "אני רוצה עוד עוגה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "עולם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עולם",
+    "inflections": {
+      "n_sg_def": "העולם",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "עזב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עזב",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לעזוב"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "עזר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עזר",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pst_fem": "עזרה",
+      "v_msdr": "עזרה",
+      "v_nfin": "לעזור"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עיבר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עיבר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "עבר",
+      "v_sg_prs_masc": "מעבר"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "על": {
+    "antonyms": [],
+    "base": "על",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "עלה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עלה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_pst": "עלינו",
+      "v_2_sg_imp_fem": "עלי",
+      "v_msdr": "עליה"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עמד": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עמד",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "עומד"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ענה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ענה",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "עונה",
+      "v_sg_prs_masc": "עונה"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "עצם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עצם",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "עצמו",
+      "v_2_sg_imp_fem": "עצמי",
+      "v_3_pl_pst": "עצמו"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "עצר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עצר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "עצור",
+      "v_nfin": "לעצור"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ערב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ערב",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נערוב",
+      "v_1_pl_pst": "ערבנו",
+      "v_1_sg_fut": "אערוב",
+      "v_1_sg_pst": "ערבתי",
+      "v_2_pl_fut_fem": "תערובנה",
+      "v_2_pl_fut_masc": "תערבו",
+      "v_2_pl_imp_fem": "ערובנה",
+      "v_2_pl_imp_masc": "ערבו",
+      "v_2_pl_pst_fem": "ערבתן",
+      "v_2_pl_pst_masc": "ערבתם",
+      "v_2_sg_fut_fem": "תערבי",
+      "v_2_sg_fut_masc": "תערוב",
+      "v_2_sg_imp_fem": "ערבי",
+      "v_2_sg_imp_masc": "ערוב",
+      "v_2_sg_pst_fem": "ערבת",
+      "v_2_sg_pst_masc": "ערבת",
+      "v_3_pl_fut_fem": "תערובנה",
+      "v_3_pl_fut_masc": "יערבו",
+      "v_3_pl_pst": "ערבו",
+      "v_3_sg_fut_fem": "תערוב",
+      "v_3_sg_fut_masc": "יערוב",
+      "v_3_sg_pst_fem": "ערבה",
+      "v_3_sg_pst_masc": "ערב",
+      "v_msdr": "ערובה",
+      "v_nfin": "לערוב",
+      "v_pl_prs_fem": "עורבות",
+      "v_pl_prs_masc": "עורבים",
+      "v_sg_prs_fem": "עורבת",
+      "v_sg_prs_masc": "עורב"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "עשה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "עשה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נעשה",
+      "v_1_pl_pst": "עשינו",
+      "v_1_sg_fut": "אעשה",
+      "v_1_sg_pst": "עשיתי",
+      "v_2_pl_fut_fem": "תעשינה",
+      "v_2_pl_fut_masc": "תעשו",
+      "v_2_pl_imp_fem": "עשינה",
+      "v_2_pl_imp_masc": "עשו",
+      "v_2_pl_pst_fem": "עשיתן",
+      "v_2_pl_pst_masc": "עשיתם",
+      "v_2_sg_fut_fem": "תעשי",
+      "v_2_sg_fut_masc": "תעשה",
+      "v_2_sg_imp_fem": "עשי",
+      "v_2_sg_imp_masc": "עשה",
+      "v_2_sg_pst_fem": "עשית",
+      "v_2_sg_pst_masc": "עשית",
+      "v_3_pl_fut_fem": "תעשינה",
+      "v_3_pl_fut_masc": "יעשו",
+      "v_3_pl_pst": "עשו",
+      "v_3_sg_fut_fem": "תעשה",
+      "v_3_sg_fut_masc": "יעשה",
+      "v_3_sg_pst_fem": "עשתה",
+      "v_3_sg_pst_masc": "עשה",
+      "v_msdr": "עשיה",
+      "v_nfin": "לעשות",
+      "v_pl_prs_fem": "עושות",
+      "v_pl_prs_masc": "עושים",
+      "v_sg_prs_fem": "עושה",
+      "v_sg_prs_masc": "עושה"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "פגע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פגע",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לפגוע"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "פגש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פגש",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לפגוש"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "פיטר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פיטר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נפטר",
+      "v_1_pl_pst": "פיטרנו",
+      "v_1_sg_fut": "אפטר",
+      "v_1_sg_pst": "פיטרתי",
+      "v_2_pl_fut_fem": "תפטרנה",
+      "v_2_pl_fut_masc": "תפטרו",
+      "v_2_pl_imp_fem": "פטרנה",
+      "v_2_pl_imp_masc": "פטרו",
+      "v_2_pl_pst_fem": "פיטרתן",
+      "v_2_pl_pst_masc": "פיטרתם",
+      "v_2_sg_fut_fem": "תפטרי",
+      "v_2_sg_fut_masc": "תפטר",
+      "v_2_sg_imp_fem": "פטרי",
+      "v_2_sg_imp_masc": "פטר",
+      "v_2_sg_pst_fem": "פיטרת",
+      "v_2_sg_pst_masc": "פיטרת",
+      "v_3_pl_fut_fem": "תפטרנה",
+      "v_3_pl_fut_masc": "יפטרו",
+      "v_3_pl_pst": "פיטרו",
+      "v_3_sg_fut_fem": "תפטר",
+      "v_3_sg_fut_masc": "יפטר",
+      "v_3_sg_pst_fem": "פיטרה",
+      "v_3_sg_pst_masc": "פיטר",
+      "v_msdr": "פיטור",
+      "v_nfin": "לפטר",
+      "v_pl_prs_fem": "מפטרות",
+      "v_pl_prs_masc": "מפטרים",
+      "v_sg_prs_fem": "מפטרת",
+      "v_sg_prs_masc": "מפטר"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "פינה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פינה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "פני"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "פנה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פנה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "פני"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "פרק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "פרק",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נפרוק",
+      "v_1_pl_pst": "פרקנו",
+      "v_1_sg_fut": "אפרוק",
+      "v_1_sg_pst": "פרקתי",
+      "v_2_pl_fut_fem": "תפרוקנה",
+      "v_2_pl_fut_masc": "תפרקו",
+      "v_2_pl_imp_fem": "פרוקנה",
+      "v_2_pl_imp_masc": "פרקו",
+      "v_2_pl_pst_fem": "פרקתן",
+      "v_2_pl_pst_masc": "פרקתם",
+      "v_2_sg_fut_fem": "תפרקי",
+      "v_2_sg_fut_masc": "תפרוק",
+      "v_2_sg_imp_fem": "פרקי",
+      "v_2_sg_imp_masc": "פרוק",
+      "v_2_sg_pst_fem": "פרקת",
+      "v_2_sg_pst_masc": "פרקת",
+      "v_3_pl_fut_fem": "תפרוקנה",
+      "v_3_pl_fut_masc": "יפרקו",
+      "v_3_pl_pst": "פרקו",
+      "v_3_sg_fut_fem": "תפרוק",
+      "v_3_sg_fut_masc": "יפרוק",
+      "v_3_sg_pst_fem": "פרקה",
+      "v_3_sg_pst_masc": "פרק",
+      "v_msdr": "פריקה",
+      "v_nfin": "לפרוק",
+      "v_pl_prs_fem": "פורקות",
+      "v_pl_prs_masc": "פורקים",
+      "v_sg_prs_fem": "פורקת",
+      "v_sg_prs_masc": "פורק"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "צדק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "צדק",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "צודק"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "צחק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "צחק",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "צוחק"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ציפה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ציפה",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_fem": "מצפה",
+      "v_sg_prs_masc": "מצפה"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "צרך": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "צרך",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "צריכה"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "קדם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קדם",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "קדימה",
+      "v_sg_prs_masc": "קודם"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "קטון": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קטון",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_fem": "קטנה",
+      "v_2_sg_imp_masc": "קטן",
+      "v_3_sg_pst_fem": "קטנה",
+      "v_sg_prs_fem": "קטנה",
+      "v_sg_prs_masc": "קטן"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "קטן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קטן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נקטן",
+      "v_1_pl_pst": "קטנו",
+      "v_1_sg_fut": "אקטן",
+      "v_1_sg_pst": "קטנתי",
+      "v_2_pl_fut_fem": "תקטנה",
+      "v_2_pl_fut_masc": "תקטנו",
+      "v_2_pl_imp_fem": "קטנה",
+      "v_2_pl_imp_masc": "קטנו",
+      "v_2_pl_pst_fem": "קטנתן",
+      "v_2_pl_pst_masc": "קטנתם",
+      "v_2_sg_fut_fem": "תקטני",
+      "v_2_sg_fut_masc": "תקטן",
+      "v_2_sg_imp_fem": "קטני",
+      "v_2_sg_imp_masc": "קטן",
+      "v_2_sg_pst_fem": "קטנת",
+      "v_2_sg_pst_masc": "קטנת",
+      "v_3_pl_fut_fem": "תקטנה",
+      "v_3_pl_fut_masc": "יקטנו",
+      "v_3_pl_pst": "קטנו",
+      "v_3_sg_fut_fem": "תקטן",
+      "v_3_sg_fut_masc": "יקטן",
+      "v_3_sg_pst_fem": "קטנה",
+      "v_3_sg_pst_masc": "קטן",
+      "v_nfin": "לקטון",
+      "v_pl_prs_fem": "קטנות",
+      "v_pl_prs_masc": "קטנים",
+      "v_sg_prs_fem": "קטנה",
+      "v_sg_prs_masc": "קטן"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "קיבל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קיבל",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst": "קיבלתי",
+      "v_nfin": "לקבל",
+      "v_sg_prs_masc": "מקבל"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "קישר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קישר",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "קשר"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "קנה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קנה",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לקנות"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "קרא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קרא",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לקרוא",
+      "v_pl_prs_masc": "קוראים",
+      "v_sg_prs_masc": "קורא"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "קרה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קרה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נקרה",
+      "v_1_pl_pst": "קרינו",
+      "v_1_sg_fut": "אקרה",
+      "v_1_sg_pst": "קריתי",
+      "v_2_pl_fut_fem": "תקרינה",
+      "v_2_pl_fut_masc": "תקרו",
+      "v_2_pl_imp_fem": "קרינה",
+      "v_2_pl_imp_masc": "קרו",
+      "v_2_pl_pst_fem": "קריתן",
+      "v_2_pl_pst_masc": "קריתם",
+      "v_2_sg_fut_fem": "תקרי",
+      "v_2_sg_fut_masc": "תקרה",
+      "v_2_sg_imp_fem": "קרי",
+      "v_2_sg_imp_masc": "קרה",
+      "v_2_sg_pst_fem": "קרית",
+      "v_2_sg_pst_masc": "קרית",
+      "v_3_pl_fut_fem": "תקרינה",
+      "v_3_pl_fut_masc": "יקרו",
+      "v_3_pl_pst": "קרו",
+      "v_3_sg_fut_fem": "תקרה",
+      "v_3_sg_fut_masc": "יקרה",
+      "v_3_sg_pst_fem": "קרתה",
+      "v_3_sg_pst_masc": "קרה",
+      "v_nfin": "לקרות",
+      "v_pl_prs_fem": "קורות",
+      "v_pl_prs_masc": "קורים",
+      "v_sg_prs_fem": "קורה",
+      "v_sg_prs_masc": "קורה"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "קשר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "קשר",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נקשור",
+      "v_1_pl_pst": "קשרנו",
+      "v_1_sg_fut": "אקשור",
+      "v_1_sg_pst": "קשרתי",
+      "v_2_pl_fut_fem": "תקשורנה",
+      "v_2_pl_fut_masc": "תקשרו",
+      "v_2_pl_imp_fem": "קשורנה",
+      "v_2_pl_imp_masc": "קשרו",
+      "v_2_pl_pst_fem": "קשרתן",
+      "v_2_pl_pst_masc": "קשרתם",
+      "v_2_sg_fut_fem": "תקשרי",
+      "v_2_sg_fut_masc": "תקשור",
+      "v_2_sg_imp_fem": "קשרי",
+      "v_2_sg_imp_masc": "קשור",
+      "v_2_sg_pst_fem": "קשרת",
+      "v_2_sg_pst_masc": "קשרת",
+      "v_3_pl_fut_fem": "תקשורנה",
+      "v_3_pl_fut_masc": "יקשרו",
+      "v_3_pl_pst": "קשרו",
+      "v_3_sg_fut_fem": "תקשור",
+      "v_3_sg_fut_masc": "יקשור",
+      "v_3_sg_pst_fem": "קשרה",
+      "v_3_sg_pst_masc": "קשר",
+      "v_msdr": "קשירה",
+      "v_nfin": "לקשור",
+      "v_pl_prs_fem": "קושרות",
+      "v_pl_prs_masc": "קושרים",
+      "v_sg_prs_fem": "קושרת",
+      "v_sg_prs_masc": "קושר"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ראה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ראה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נראה",
+      "v_1_pl_pst": "ראינו",
+      "v_1_sg_fut": "אראה",
+      "v_1_sg_pst": "ראיתי",
+      "v_2_pl_fut_fem": "תראינה",
+      "v_2_pl_fut_masc": "תראו",
+      "v_2_pl_imp_fem": "ראינה",
+      "v_2_pl_imp_masc": "ראו",
+      "v_2_pl_pst_fem": "ראיתן",
+      "v_2_pl_pst_masc": "ראיתם",
+      "v_2_sg_fut_fem": "תראי",
+      "v_2_sg_fut_masc": "תראה",
+      "v_2_sg_imp_fem": "ראי",
+      "v_2_sg_imp_masc": "ראה",
+      "v_2_sg_pst_fem": "ראית",
+      "v_2_sg_pst_masc": "ראית",
+      "v_3_pl_fut_fem": "תראינה",
+      "v_3_pl_fut_masc": "יראו",
+      "v_3_pl_pst": "ראו",
+      "v_3_sg_fut_fem": "תראה",
+      "v_3_sg_fut_masc": "יראה",
+      "v_3_sg_pst_fem": "ראתה",
+      "v_3_sg_pst_masc": "ראה",
+      "v_msdr": "ראייה",
+      "v_nfin": "לראות",
+      "v_pl_prs_fem": "רואות",
+      "v_pl_prs_masc": "רואים",
+      "v_sg_prs_fem": "רואה",
+      "v_sg_prs_masc": "רואה"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ראש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ראש",
+    "inflections": {
+      "n_pl_def": "הראשים",
+      "n_pl_ndef": "ראשים",
+      "n_pl_pssd": "ראשי",
+      "n_pl_pssd_pss1p": "ראשינו",
+      "n_pl_pssd_pss1s": "ראשיי",
+      "n_pl_pssd_pss2p_fem": "ראשיכן",
+      "n_pl_pssd_pss2p_masc": "ראשיכם",
+      "n_pl_pssd_pss2s_fem": "ראשייך",
+      "n_pl_pssd_pss2s_masc": "ראשיך",
+      "n_pl_pssd_pss3p_fem": "ראשיהן",
+      "n_pl_pssd_pss3p_masc": "ראשיהם",
+      "n_pl_pssd_pss3s_fem": "ראשיה",
+      "n_pl_pssd_pss3s_masc": "ראשיו",
+      "n_sg_def": "הראש",
+      "n_sg_ndef": "ראש",
+      "n_sg_pssd": "ראש",
+      "n_sg_pssd_pss1p": "ראשנו",
+      "n_sg_pssd_pss1s": "ראשי",
+      "n_sg_pssd_pss2p_fem": "ראשכן",
+      "n_sg_pssd_pss2p_masc": "ראשכם",
+      "n_sg_pssd_pss2s_fem": "ראשך",
+      "n_sg_pssd_pss2s_masc": "ראשך",
+      "n_sg_pssd_pss3p_fem": "ראשן",
+      "n_sg_pssd_pss3p_masc": "ראשם",
+      "n_sg_pssd_pss3s_fem": "ראשה",
+      "n_sg_pssd_pss3s_masc": "ראשו",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "רבה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "רבה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נרבה",
+      "v_1_pl_pst": "רבינו",
+      "v_1_sg_fut": "ארבה",
+      "v_1_sg_pst": "רביתי",
+      "v_2_pl_fut_fem": "תרבינה",
+      "v_2_pl_fut_masc": "תרבו",
+      "v_2_pl_imp_fem": "רבינה",
+      "v_2_pl_imp_masc": "רבו",
+      "v_2_pl_pst_fem": "רביתן",
+      "v_2_pl_pst_masc": "רביתם",
+      "v_2_sg_fut_fem": "תרבי",
+      "v_2_sg_fut_masc": "תרבה",
+      "v_2_sg_imp_fem": "רבי",
+      "v_2_sg_imp_masc": "רבה",
+      "v_2_sg_pst_fem": "רבית",
+      "v_2_sg_pst_masc": "רבית",
+      "v_3_pl_fut_fem": "תרבינה",
+      "v_3_pl_fut_masc": "ירבו",
+      "v_3_pl_pst": "רבו",
+      "v_3_sg_fut_fem": "תרבה",
+      "v_3_sg_fut_masc": "ירבה",
+      "v_3_sg_pst_fem": "רבתה",
+      "v_3_sg_pst_masc": "רבה",
+      "v_msdr": "רביה",
+      "v_nfin": "לרבות",
+      "v_pl_prs_fem": "רובות",
+      "v_pl_prs_masc": "רובים",
+      "v_sg_prs_fem": "רובה",
+      "v_sg_prs_masc": "רובה"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ריצה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ריצה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "רצה"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "רץ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "רץ",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pst_fem": "רצה",
+      "v_sg_prs_fem": "רצה"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "רצה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "רצה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נרצה",
+      "v_1_pl_pst": "רצינו",
+      "v_1_sg_fut": "ארצה",
+      "v_1_sg_pst": "רציתי",
+      "v_2_pl_fut_fem": "תרצינה",
+      "v_2_pl_fut_masc": "תרצו",
+      "v_2_pl_imp_fem": "רצינה",
+      "v_2_pl_imp_masc": "רצו",
+      "v_2_pl_pst_fem": "רציתן",
+      "v_2_pl_pst_masc": "רציתם",
+      "v_2_sg_fut_fem": "תרצי",
+      "v_2_sg_fut_masc": "תרצה",
+      "v_2_sg_imp_fem": "רצי",
+      "v_2_sg_imp_masc": "רצה",
+      "v_2_sg_pst_fem": "רצית",
+      "v_2_sg_pst_masc": "רצית",
+      "v_3_pl_fut_fem": "תרצינה",
+      "v_3_pl_fut_masc": "ירצו",
+      "v_3_pl_pst": "רצו",
+      "v_3_sg_fut_fem": "תרצה",
+      "v_3_sg_fut_masc": "ירצה",
+      "v_3_sg_pst_fem": "רצתה",
+      "v_3_sg_pst_masc": "רצה",
+      "v_msdr": "רציה",
+      "v_nfin": "לרצות",
+      "v_pl_prs_fem": "רוצות",
+      "v_pl_prs_masc": "רוצים",
+      "v_sg_prs_fem": "רוצה",
+      "v_sg_prs_masc": "רוצה"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "רצח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "רצח",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נרצח",
+      "v_1_pl_pst": "רצחנו",
+      "v_1_sg_fut": "ארצח",
+      "v_1_sg_pst": "רצחתי",
+      "v_2_pl_fut_fem": "תרצחנה",
+      "v_2_pl_fut_masc": "תרצחו",
+      "v_2_pl_imp_fem": "רצחנה",
+      "v_2_pl_imp_masc": "רצחו",
+      "v_2_pl_pst_fem": "רצחתן",
+      "v_2_pl_pst_masc": "רצחתם",
+      "v_2_sg_fut_fem": "תרצחי",
+      "v_2_sg_fut_masc": "תרצח",
+      "v_2_sg_imp_fem": "רצחי",
+      "v_2_sg_imp_masc": "רצח",
+      "v_2_sg_pst_fem": "רצחת",
+      "v_2_sg_pst_masc": "רצחת",
+      "v_3_pl_fut_fem": "תרצחנה",
+      "v_3_pl_fut_masc": "ירצחו",
+      "v_3_pl_pst": "רצחו",
+      "v_3_sg_fut_fem": "תרצח",
+      "v_3_sg_fut_masc": "ירצח",
+      "v_3_sg_pst_fem": "רצחה",
+      "v_3_sg_pst_masc": "רצח",
+      "v_msdr": "רציחה",
+      "v_nfin": "לרצוח",
+      "v_pl_prs_fem": "רוצחות",
+      "v_pl_prs_masc": "רוצחים",
+      "v_sg_prs_fem": "רוצחת",
+      "v_sg_prs_masc": "רוצח"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "רק": {
+    "antonyms": [],
+    "base": "רק",
+    "examples": [
+      "אני רק רוצה לעזור."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "שאל": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שאל",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pst_fem": "שאלה",
+      "v_msdr": "שאלה",
+      "v_nfin": "לשאול"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "שאתה": {
+    "antonyms": [],
+    "base": "שאתה",
+    "examples": [
+      "שאתה יודע."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "שב": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שב",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "שוב",
+      "v_3_pl_pst": "שבו"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "שבה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שבה",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp_masc": "שבו",
+      "v_3_pl_pst": "שבו"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "שהה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שהה",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "שהיה"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "שונה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שונה",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נשונה",
+      "v_1_pl_pst": "שונינו",
+      "v_1_sg_fut": "אשונה",
+      "v_1_sg_pst": "שוניתי",
+      "v_2_pl_fut_fem": "תשונינה",
+      "v_2_pl_fut_masc": "תשונו",
+      "v_2_pl_pst_fem": "שוניתן",
+      "v_2_pl_pst_masc": "שוניתם",
+      "v_2_sg_fut_fem": "תשוני",
+      "v_2_sg_fut_masc": "תשונה",
+      "v_2_sg_pst_fem": "שונית",
+      "v_2_sg_pst_masc": "שונית",
+      "v_3_pl_fut_fem": "תשונינה",
+      "v_3_pl_fut_masc": "ישונו",
+      "v_3_pl_pst": "שונו",
+      "v_3_sg_fut_fem": "תשונה",
+      "v_3_sg_fut_masc": "ישונה",
+      "v_3_sg_pst_fem": "שונתה",
+      "v_3_sg_pst_masc": "שונה",
+      "v_pl_prs_fem": "משונות",
+      "v_pl_prs_masc": "משונים",
+      "v_sg_prs_fem": "משונה",
+      "v_sg_prs_masc": "משונה"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "שיחק": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שיחק",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לשחק",
+      "v_sg_prs_masc": "משחק"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "שילם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שילם",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לשלם"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "שינה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שינה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "שני",
+      "v_2_sg_imp_masc": "שנה",
+      "v_nfin": "לשנות",
+      "v_sg_prs_fem": "משנה",
+      "v_sg_prs_masc": "משנה"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "שכן": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שכן",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נשכון",
+      "v_1_pl_pst": "שכנו",
+      "v_1_sg_fut": "אשכון",
+      "v_1_sg_pst": "שכנתי",
+      "v_2_pl_fut_fem": "תשכונה",
+      "v_2_pl_fut_masc": "תשכנו",
+      "v_2_pl_imp_fem": "שכונה",
+      "v_2_pl_imp_masc": "שכנו",
+      "v_2_pl_pst_fem": "שכנתן",
+      "v_2_pl_pst_masc": "שכנתם",
+      "v_2_sg_fut_fem": "תשכני",
+      "v_2_sg_fut_masc": "תשכון",
+      "v_2_sg_imp_fem": "שכני",
+      "v_2_sg_imp_masc": "שכון",
+      "v_2_sg_pst_fem": "שכנת",
+      "v_2_sg_pst_masc": "שכנת",
+      "v_3_pl_fut_fem": "תשכונה",
+      "v_3_pl_fut_masc": "ישכנו",
+      "v_3_pl_pst": "שכנו",
+      "v_3_sg_fut_fem": "תשכון",
+      "v_3_sg_fut_masc": "ישכון",
+      "v_3_sg_pst_fem": "שכנה",
+      "v_3_sg_pst_masc": "שכן",
+      "v_msdr": "שכינה",
+      "v_nfin": "לשכון",
+      "v_pl_prs_fem": "שוכנות",
+      "v_pl_prs_masc": "שוכנים",
+      "v_sg_prs_fem": "שוכנת",
+      "v_sg_prs_masc": "שוכן"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "של": {
+    "antonyms": [],
+    "base": "של",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "שלא": {
+    "antonyms": [],
+    "base": "שלא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "שלו": {
+    "antonyms": [],
+    "base": "שלו",
+    "examples": [
+      "זה הספר שלו."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "possessive pronoun"
+    ]
+  },
+  "שלנו": {
+    "antonyms": [],
+    "base": "שלנו",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "possessive pronoun"
+    ]
+  },
+  "שם": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "שם",
+    "examples": [
+      "שם זה מקום יפה."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נשים",
+      "v_1_pl_pst": "שמנו",
+      "v_1_sg_fut": "אשים",
+      "v_1_sg_pst": "שמתי",
+      "v_2_pl_fut_fem": "תשמנה",
+      "v_2_pl_fut_masc": "תשימו",
+      "v_2_pl_imp_fem": "שמנה",
+      "v_2_pl_imp_masc": "שימו",
+      "v_2_pl_pst_fem": "שמתן",
+      "v_2_pl_pst_masc": "שמתם",
+      "v_2_sg_fut_fem": "תשימי",
+      "v_2_sg_fut_masc": "תשים",
+      "v_2_sg_imp_fem": "שימי",
+      "v_2_sg_imp_masc": "שים",
+      "v_2_sg_pst_fem": "שמת",
+      "v_2_sg_pst_masc": "שמת",
+      "v_3_pl_fut_fem": "תשמנה",
+      "v_3_pl_fut_masc": "ישימו",
+      "v_3_pl_pst": "שמו",
+      "v_3_sg_fut_fem": "תשים",
+      "v_3_sg_fut_masc": "ישים",
+      "v_3_sg_pst_fem": "שמה",
+      "v_3_sg_pst_masc": "שם",
+      "v_msdr": "שימה",
+      "v_nfin": "לשים",
+      "v_pl_prs_fem": "שמות",
+      "v_pl_prs_masc": "שמים",
+      "v_sg_prs_fem": "שמה",
+      "v_sg_prs_masc": "שם"
+    },
+    "priority": 10,
+    "types": [
+      "noun",
+      "verb",
+      "word"
+    ]
+  },
+  "שמח": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שמח",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נשמח",
+      "v_1_pl_pst": "שמחנו",
+      "v_1_sg_fut": "אשמח",
+      "v_1_sg_pst": "שמחתי",
+      "v_2_pl_fut_fem": "תשמחנה",
+      "v_2_pl_fut_masc": "תשמחו",
+      "v_2_pl_imp_fem": "שמחנה",
+      "v_2_pl_imp_masc": "שמחו",
+      "v_2_pl_pst_fem": "שמחתן",
+      "v_2_pl_pst_masc": "שמחתם",
+      "v_2_sg_fut_fem": "תשמחי",
+      "v_2_sg_fut_masc": "תשמח",
+      "v_2_sg_imp_fem": "שמחי",
+      "v_2_sg_imp_masc": "שמח",
+      "v_2_sg_pst_fem": "שמחת",
+      "v_2_sg_pst_masc": "שמחת",
+      "v_3_pl_fut_fem": "תשמחנה",
+      "v_3_pl_fut_masc": "ישמחו",
+      "v_3_pl_pst": "שמחו",
+      "v_3_sg_fut_fem": "תשמח",
+      "v_3_sg_fut_masc": "ישמח",
+      "v_3_sg_pst_fem": "שמחה",
+      "v_3_sg_pst_masc": "שמח",
+      "v_msdr": "שמחה",
+      "v_nfin": "לשמוח",
+      "v_pl_prs_fem": "שמחות",
+      "v_pl_prs_masc": "שמחים",
+      "v_sg_prs_fem": "שמחה",
+      "v_sg_prs_masc": "שמח"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "שמחה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שמחה",
+    "inflections": {
+      "n_pl_def": "השמחות",
+      "n_pl_ndef": "שמחות",
+      "n_pl_pssd": "שמחות",
+      "n_pl_pssd_pss1p": "שמחותינו",
+      "n_pl_pssd_pss1s": "שמחותיי",
+      "n_pl_pssd_pss2p_fem": "שמחותיכן",
+      "n_pl_pssd_pss2p_masc": "שמחותיכם",
+      "n_pl_pssd_pss2s_fem": "שמחותייך",
+      "n_pl_pssd_pss2s_masc": "שמחותיך",
+      "n_pl_pssd_pss3p_fem": "שמחותן",
+      "n_pl_pssd_pss3p_masc": "שמחותם",
+      "n_pl_pssd_pss3s_fem": "שמחותיה",
+      "n_pl_pssd_pss3s_masc": "שמחותיו",
+      "n_sg_def": "השמחה",
+      "n_sg_ndef": "שמחה",
+      "n_sg_pssd": "שמחת",
+      "n_sg_pssd_pss1p": "שמחתנו",
+      "n_sg_pssd_pss1s": "שמחתי",
+      "n_sg_pssd_pss2p_fem": "שמחתכן",
+      "n_sg_pssd_pss2p_masc": "שמחתכם",
+      "n_sg_pssd_pss2s_fem": "שמחתך",
+      "n_sg_pssd_pss2s_masc": "שמחתך",
+      "n_sg_pssd_pss3p_fem": "שמחתן",
+      "n_sg_pssd_pss3p_masc": "שמחתם",
+      "n_sg_pssd_pss3s_fem": "שמחתה",
+      "n_sg_pssd_pss3s_masc": "שמחתו",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "שמע": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שמע",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "נשמע",
+      "v_1_sg_pst": "שמעתי",
+      "v_2_sg_pst_fem": "שמעת",
+      "v_2_sg_pst_masc": "שמעת",
+      "v_nfin": "לשמוע",
+      "v_sg_prs_masc": "שומע"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "שמר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שמר",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לשמור"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "שנא": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שנא",
+    "inflections": {
+      "regulars": [],
+      "v_sg_prs_masc": "שונא"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "שר": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שר",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pst_fem": "שרה",
+      "v_sg_prs_fem": "שרה"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "שש": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שש",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_masc": "שיש"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "שתה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "שתה",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_fem": "שתי",
+      "v_nfin": "לשתות"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "תהה": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "תהה",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "תהיה"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "תו": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "תו",
+    "inflections": {
+      "n_sg_pssd_pss2s_fem": "תוך",
+      "n_sg_pssd_pss2s_masc": "תוך",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "תודה": {
+    "antonyms": [],
+    "base": "תודה",
+    "examples": [
+      "תודה רבה!"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "תפס": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "תפס",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "לתפוס"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

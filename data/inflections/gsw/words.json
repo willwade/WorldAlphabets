@@ -1,0 +1,34 @@
+{
+  "_locale": "gsw",
+  "_type": "words",
+  "_version": "0.1",
+  "häisse": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "häisse",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_2_prs": "häissisch",
+      "v_sbjv_sg_2_prs": "häissisch"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "sii": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sii",
+    "inflections": {
+      "regulars": [],
+      "v_ind_sg_3_prs": "isch"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

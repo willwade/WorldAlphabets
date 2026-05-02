@@ -1,0 +1,1945 @@
+{
+  "_locale": "ba",
+  "_type": "words",
+  "_version": "0.1",
+  "ай": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ай",
+    "inflections": {
+      "n_abl_pl": "айҙарҙан",
+      "n_abl_sg": "айҙан",
+      "n_dat_pl": "айҙарға",
+      "n_dat_sg": "айға",
+      "n_def_acc_pl": "айҙарҙы",
+      "n_def_acc_sg": "айҙы",
+      "n_def_gen_pl": "айҙарҙың",
+      "n_def_gen_sg": "айҙың",
+      "n_loc_pl": "айҙарҙа",
+      "n_loc_sg": "айҙа",
+      "n_nom_pl": "айҙар",
+      "n_nom_sg": "ай",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ауыл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ауыл",
+    "inflections": {
+      "adj_abl_pl": "ауылдарҙан",
+      "adj_abl_sg": "ауылдан",
+      "adj_dat_pl": "ауылдарға",
+      "adj_dat_sg": "ауылға",
+      "adj_def_acc_pl": "ауылдарҙы",
+      "adj_def_acc_sg": "ауылды",
+      "adj_def_gen_pl": "ауылдарҙың",
+      "adj_def_gen_sg": "ауылдың",
+      "adj_loc_pl": "ауылдарҙа",
+      "adj_loc_sg": "ауылда",
+      "adj_nom_pl": "ауылдар",
+      "adj_nom_sg": "ауыл",
+      "n_abl_pl": "ауылдарҙан",
+      "n_abl_sg": "ауылдан",
+      "n_dat_pl": "ауылдарға",
+      "n_dat_sg": "ауылға",
+      "n_def_acc_pl": "ауылдарҙы",
+      "n_def_acc_sg": "ауылды",
+      "n_def_gen_pl": "ауылдарҙың",
+      "n_def_gen_sg": "ауылдың",
+      "n_loc_pl": "ауылдарҙа",
+      "n_loc_sg": "ауылда",
+      "n_nom_pl": "ауылдар",
+      "n_nom_sg": "ауыл",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "ағас": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ағас",
+    "inflections": {
+      "n_abl_pl": "ағастарҙан",
+      "n_abl_sg": "ағастан",
+      "n_dat_pl": "ағастарға",
+      "n_dat_sg": "ағасҡа",
+      "n_def_acc_pl": "ағастарҙы",
+      "n_def_acc_sg": "ағасты",
+      "n_def_gen_pl": "ағастарҙың",
+      "n_def_gen_sg": "ағастың",
+      "n_loc_pl": "ағастарҙа",
+      "n_loc_sg": "ағаста",
+      "n_nom_pl": "ағастар",
+      "n_nom_sg": "ағас",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "аҡса": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "аҡса",
+    "inflections": {
+      "n_abl_pl": "аҡсаларҙан",
+      "n_abl_sg": "аҡсанан",
+      "n_dat_pl": "аҡсаларға",
+      "n_dat_sg": "аҡсаға",
+      "n_def_acc_pl": "аҡсаларҙы",
+      "n_def_acc_sg": "аҡсаны",
+      "n_def_gen_pl": "аҡсаларҙың",
+      "n_def_gen_sg": "аҡсаның",
+      "n_loc_pl": "аҡсаларҙа",
+      "n_loc_sg": "аҡсала",
+      "n_nom_pl": "аҡсалар",
+      "n_nom_sg": "аҡса",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "бала": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бала",
+    "inflections": {
+      "n_abl_pl": "балаларҙан",
+      "n_abl_sg": "баланан",
+      "n_dat_pl": "балаларға",
+      "n_dat_sg": "балаға",
+      "n_def_acc_pl": "балаларҙы",
+      "n_def_acc_sg": "баланы",
+      "n_def_gen_pl": "балаларҙың",
+      "n_def_gen_sg": "баланың",
+      "n_loc_pl": "балаларҙа",
+      "n_loc_sg": "балала",
+      "n_nom_pl": "балалар",
+      "n_nom_sg": "бала",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "баш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "баш",
+    "inflections": {
+      "n_abl_pl": "баштарҙан",
+      "n_abl_sg": "баштан",
+      "n_dat_pl": "баштарға",
+      "n_dat_sg": "башҡа",
+      "n_def_acc_pl": "баштарҙы",
+      "n_def_acc_sg": "башты",
+      "n_def_gen_pl": "баштарҙың",
+      "n_def_gen_sg": "баштың",
+      "n_loc_pl": "баштарҙа",
+      "n_loc_sg": "башта",
+      "n_nom_pl": "баштар",
+      "n_nom_sg": "баш",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "башҡорт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "башҡорт",
+    "inflections": {
+      "adj_abl_pl": "башҡорттарҙан",
+      "adj_abl_sg": "башҡорттан",
+      "adj_dat_pl": "башҡорттарға",
+      "adj_dat_sg": "башҡортҡа",
+      "adj_def_acc_pl": "башҡорттарҙы",
+      "adj_def_acc_sg": "башҡортто",
+      "adj_def_gen_pl": "башҡорттарҙың",
+      "adj_def_gen_sg": "башҡорттоң",
+      "adj_loc_pl": "башҡорттарҙа",
+      "adj_loc_sg": "башҡортта",
+      "adj_nom_pl": "башҡорттар",
+      "adj_nom_sg": "башҡорт",
+      "n_abl_pl": "башҡорттарҙан",
+      "n_abl_sg": "башҡорттан",
+      "n_dat_pl": "башҡорттарға",
+      "n_dat_sg": "башҡортҡа",
+      "n_def_acc_pl": "башҡорттарҙы",
+      "n_def_acc_sg": "башҡортто",
+      "n_def_gen_pl": "башҡорттарҙың",
+      "n_def_gen_sg": "башҡорттоң",
+      "n_loc_pl": "башҡорттарҙа",
+      "n_loc_sg": "башҡортта",
+      "n_nom_pl": "башҡорттар",
+      "n_nom_sg": "башҡорт",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "белем": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "белем",
+    "inflections": {
+      "n_abl_sg": "белемдән",
+      "n_dat_sg": "белемгә",
+      "n_def_acc_sg": "белемде",
+      "n_def_gen_sg": "белемдең",
+      "n_loc_sg": "белемдә",
+      "n_nom_sg": "белем",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "быуат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "быуат",
+    "inflections": {
+      "n_abl_pl": "быуаттарҙан",
+      "n_abl_sg": "быуаттан",
+      "n_dat_pl": "быуаттарға",
+      "n_dat_sg": "быуатҡа",
+      "n_def_acc_pl": "быуаттарҙы",
+      "n_def_acc_sg": "быуатты",
+      "n_def_gen_pl": "быуаттарҙың",
+      "n_def_gen_sg": "быуаттың",
+      "n_loc_pl": "быуаттарҙа",
+      "n_loc_sg": "быуатта",
+      "n_nom_pl": "быуаттар",
+      "n_nom_sg": "быуат",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "бүләк": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бүләк",
+    "inflections": {
+      "n_abl_pl": "бүләктәрҙән",
+      "n_abl_sg": "бүләктән",
+      "n_dat_pl": "бүләктәргә",
+      "n_dat_sg": "бүләккә",
+      "n_def_acc_pl": "бүләктәрҙе",
+      "n_def_acc_sg": "бүләкте",
+      "n_def_gen_pl": "бүләктәрҙең",
+      "n_def_gen_sg": "бүләктең",
+      "n_loc_pl": "бүләктәрҙә",
+      "n_loc_sg": "бүләктә",
+      "n_nom_pl": "бүләктәр",
+      "n_nom_sg": "бүләк",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ваҡыт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ваҡыт",
+    "inflections": {
+      "n_abl_pl": "ваҡыттарҙан",
+      "n_abl_sg": "ваҡыттан",
+      "n_dat_pl": "ваҡыттарға",
+      "n_dat_sg": "ваҡытҡа",
+      "n_def_acc_pl": "ваҡыттарҙы",
+      "n_def_acc_sg": "ваҡытты",
+      "n_def_gen_pl": "ваҡыттарҙың",
+      "n_def_gen_sg": "ваҡыттың",
+      "n_loc_pl": "ваҡыттарҙа",
+      "n_loc_sg": "ваҡытта",
+      "n_nom_pl": "ваҡыттар",
+      "n_nom_sg": "ваҡыт",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "дауам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дауам",
+    "inflections": {
+      "n_abl_pl": "дауамдарҙан",
+      "n_abl_sg": "дауамдан",
+      "n_dat_pl": "дауамдарға",
+      "n_dat_sg": "дауамға",
+      "n_def_acc_pl": "дауамдарҙы",
+      "n_def_acc_sg": "дауамды",
+      "n_def_gen_pl": "дауамдарҙың",
+      "n_def_gen_sg": "дауамдың",
+      "n_loc_pl": "дауамдарҙа",
+      "n_loc_sg": "дауамда",
+      "n_nom_pl": "дауамдар",
+      "n_nom_sg": "дауам",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "дин": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дин",
+    "inflections": {
+      "n_abl_pl": "дин",
+      "n_abl_sg": "дин",
+      "n_dat_pl": "дин",
+      "n_dat_sg": "дин",
+      "n_def_acc_pl": "дин",
+      "n_def_acc_sg": "дин",
+      "n_def_gen_pl": "дин",
+      "n_def_gen_sg": "дин",
+      "n_loc_pl": "дин",
+      "n_loc_sg": "дин",
+      "n_nom_pl": "дин",
+      "n_nom_sg": "дин",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "донъя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "донъя",
+    "inflections": {
+      "n_abl_pl": "донъяларҙан",
+      "n_abl_sg": "донъянан",
+      "n_dat_pl": "донъяларға",
+      "n_dat_sg": "донъяға",
+      "n_def_acc_pl": "донъяларҙы",
+      "n_def_acc_sg": "донъяны",
+      "n_def_gen_pl": "донъяларҙың",
+      "n_def_gen_sg": "донъяның",
+      "n_loc_pl": "донъяларҙа",
+      "n_loc_sg": "донъяла",
+      "n_nom_pl": "донъялар",
+      "n_nom_sg": "донъя",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "дәүләт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дәүләт",
+    "inflections": {
+      "adj_abl_pl": "дәүләттәрҙән",
+      "adj_abl_sg": "дәүләттән",
+      "adj_dat_pl": "дәүләттәргә",
+      "adj_dat_sg": "дәүләткә",
+      "adj_def_acc_pl": "дәүләттәрҙе",
+      "adj_def_acc_sg": "дәүләтте",
+      "adj_def_gen_pl": "дәүләттәрҙең",
+      "adj_def_gen_sg": "дәүләттең",
+      "adj_loc_pl": "дәүләттәрҙә",
+      "adj_loc_sg": "дәүләттә",
+      "adj_nom_pl": "дәүләттәр",
+      "adj_nom_sg": "дәүләт",
+      "n_abl_pl": "дәүләттәрҙән",
+      "n_abl_sg": "дәүләттән",
+      "n_dat_pl": "дәүләттәргә",
+      "n_dat_sg": "дәүләткә",
+      "n_def_acc_pl": "дәүләттәрҙе",
+      "n_def_acc_sg": "дәүләтте",
+      "n_def_gen_pl": "дәүләттәрҙең",
+      "n_def_gen_sg": "дәүләттең",
+      "n_loc_pl": "дәүләттәрҙә",
+      "n_loc_sg": "дәүләттә",
+      "n_nom_pl": "дәүләттәр",
+      "n_nom_sg": "дәүләт",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "егет": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "егет",
+    "inflections": {
+      "n_abl_pl": "егеттәрҙән",
+      "n_abl_sg": "егеттән",
+      "n_dat_pl": "егеттәргә",
+      "n_dat_sg": "егеткә",
+      "n_def_acc_pl": "егеттәрҙе",
+      "n_def_acc_sg": "егетте",
+      "n_def_gen_pl": "егеттәрҙең",
+      "n_def_gen_sg": "егеттең",
+      "n_loc_pl": "егеттәрҙә",
+      "n_loc_sg": "егеттә",
+      "n_nom_pl": "егеттәр",
+      "n_nom_sg": "егет",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ел": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ел",
+    "inflections": {
+      "n_abl_pl": "елдәрҙән",
+      "n_abl_sg": "елдән",
+      "n_dat_pl": "елдәргә",
+      "n_dat_sg": "елгә",
+      "n_def_acc_pl": "елдәрҙе",
+      "n_def_acc_sg": "елде",
+      "n_def_gen_pl": "елдәрҙең",
+      "n_def_gen_sg": "елдең",
+      "n_loc_pl": "елдәрҙә",
+      "n_loc_sg": "елдә",
+      "n_nom_pl": "елдәр",
+      "n_nom_sg": "ел",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ер",
+    "inflections": {
+      "n_abl_pl": "ерҙәрҙән",
+      "n_abl_sg": "ерҙән",
+      "n_dat_pl": "ерҙәргә",
+      "n_dat_sg": "ергә",
+      "n_def_acc_pl": "ерҙәрҙе",
+      "n_def_acc_sg": "ерҙе",
+      "n_def_gen_pl": "ерҙәрҙең",
+      "n_def_gen_sg": "ерҙең",
+      "n_loc_pl": "ерҙәрҙә",
+      "n_loc_sg": "ерҙә",
+      "n_nom_pl": "ерҙәр",
+      "n_nom_sg": "ер",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "заман": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "заман",
+    "inflections": {
+      "n_abl_pl": "замандарҙан",
+      "n_abl_sg": "замандан",
+      "n_dat_pl": "замандарға",
+      "n_dat_sg": "заманға",
+      "n_def_acc_pl": "замандарҙы",
+      "n_def_acc_sg": "заманды",
+      "n_def_gen_pl": "замандарҙың",
+      "n_def_gen_sg": "замандың",
+      "n_loc_pl": "замандарҙа",
+      "n_loc_sg": "заманда",
+      "n_nom_pl": "замандар",
+      "n_nom_sg": "заман",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "зыян": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "зыян",
+    "inflections": {
+      "n_abl_pl": "зыяндарҙан",
+      "n_abl_sg": "зыяндан",
+      "n_dat_pl": "зыяндарға",
+      "n_dat_sg": "зыянға",
+      "n_def_acc_pl": "зыяндарҙы",
+      "n_def_acc_sg": "зыянды",
+      "n_def_gen_pl": "зыяндарҙың",
+      "n_def_gen_sg": "зыяндың",
+      "n_loc_pl": "зыяндарҙа",
+      "n_loc_sg": "зыянда",
+      "n_nom_pl": "зыяндар",
+      "n_nom_sg": "зыян",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ижад": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ижад",
+    "inflections": {
+      "n_abl_pl": "ижадтарҙан",
+      "n_abl_sg": "ижадтан",
+      "n_dat_pl": "ижадтарға",
+      "n_dat_sg": "ижадҡа",
+      "n_def_acc_pl": "ижадтарҙы",
+      "n_def_acc_sg": "ижадты",
+      "n_def_gen_pl": "ижадтарҙың",
+      "n_def_gen_sg": "ижадтың",
+      "n_loc_pl": "ижадтарҙа",
+      "n_loc_sg": "ижадта",
+      "n_nom_pl": "ижадтар",
+      "n_nom_sg": "ижад",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ил": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ил",
+    "inflections": {
+      "n_abl_pl": "ил",
+      "n_abl_sg": "ил",
+      "n_dat_pl": "ил",
+      "n_dat_sg": "ил",
+      "n_def_acc_pl": "ил",
+      "n_def_acc_sg": "ил",
+      "n_def_gen_pl": "ил",
+      "n_def_gen_sg": "ил",
+      "n_loc_pl": "ил",
+      "n_loc_sg": "ил",
+      "n_nom_pl": "ил",
+      "n_nom_sg": "ил",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "исем": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "исем",
+    "inflections": {
+      "n_abl_pl": "исемдәрҙән",
+      "n_abl_sg": "исемдән",
+      "n_dat_pl": "исемдәргә",
+      "n_dat_sg": "исемгә",
+      "n_def_acc_pl": "исемдәрҙе",
+      "n_def_acc_sg": "исемде",
+      "n_def_gen_pl": "исемдәрҙең",
+      "n_def_gen_sg": "исемдең",
+      "n_loc_pl": "исемдәрҙә",
+      "n_loc_sg": "исемдә",
+      "n_nom_pl": "исемдәр",
+      "n_nom_sg": "исем",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ислам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ислам",
+    "inflections": {
+      "n_abl_sg": "исламдан",
+      "n_dat_sg": "исламға",
+      "n_def_acc_sg": "исламды",
+      "n_def_gen_sg": "исламдың",
+      "n_loc_sg": "исламда",
+      "n_nom_sg": "ислам",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "иғтибар": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "иғтибар",
+    "inflections": {
+      "n_abl_pl": "иғтибарҙарҙан",
+      "n_abl_sg": "иғтибарҙан",
+      "n_dat_pl": "иғтибарҙарға",
+      "n_dat_sg": "иғтибарға",
+      "n_def_acc_pl": "иғтибарҙарҙы",
+      "n_def_acc_sg": "иғтибарҙы",
+      "n_def_gen_pl": "иғтибарҙарҙың",
+      "n_def_gen_sg": "иғтибарҙың",
+      "n_loc_pl": "иғтибарҙарҙа",
+      "n_loc_sg": "иғтибарҙа",
+      "n_nom_pl": "иғтибарҙар",
+      "n_nom_sg": "иғтибар",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "йыл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "йыл",
+    "inflections": {
+      "n_abl_pl": "йылдарҙан",
+      "n_abl_sg": "йылдан",
+      "n_dat_pl": "йылдарға",
+      "n_dat_sg": "йылға",
+      "n_def_acc_pl": "йылдарҙы",
+      "n_def_acc_sg": "йылды",
+      "n_def_gen_pl": "йылдарҙың",
+      "n_def_gen_sg": "йылдың",
+      "n_loc_pl": "йылдарҙа",
+      "n_loc_sg": "йылда",
+      "n_nom_pl": "йылдар",
+      "n_nom_sg": "йыл",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "йылға": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "йылға",
+    "inflections": {
+      "n_abl_pl": "йылғаларҙан",
+      "n_abl_sg": "йылғанан",
+      "n_dat_pl": "йылғаларға",
+      "n_dat_sg": "йылғаға",
+      "n_def_acc_pl": "йылғаларҙы",
+      "n_def_acc_sg": "йылғаны",
+      "n_def_gen_pl": "йылғаларҙың",
+      "n_def_gen_sg": "йылғаның",
+      "n_loc_pl": "йылғаларҙа",
+      "n_loc_sg": "йылғала",
+      "n_nom_pl": "йылғалар",
+      "n_nom_sg": "йылға",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "йәштәр": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "йәштәр",
+    "inflections": {
+      "n_abl_sg": "йәштәрҙән",
+      "n_dat_sg": "йәштәргә",
+      "n_def_acc_sg": "йәштәрҙе",
+      "n_def_gen_sg": "йәштәрҙең",
+      "n_loc_sg": "йәштәрҙә",
+      "n_nom_sg": "йәштәр",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "кеше": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кеше",
+    "inflections": {
+      "n_abl_pl": "кешеләрҙән",
+      "n_abl_sg": "кешенән",
+      "n_dat_pl": "кешеләргә",
+      "n_dat_sg": "кешегә",
+      "n_def_acc_pl": "кешеләрҙе",
+      "n_def_acc_sg": "кешене",
+      "n_def_gen_pl": "кешеләрҙең",
+      "n_def_gen_sg": "кешенең",
+      "n_loc_pl": "кешеләрҙә",
+      "n_loc_sg": "кешелә",
+      "n_nom_pl": "кешеләр",
+      "n_nom_sg": "кеше",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "китап": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "китап",
+    "inflections": {
+      "n_abl_pl": "китаптарҙан",
+      "n_abl_sg": "китаптан",
+      "n_dat_pl": "китаптарға",
+      "n_dat_sg": "китапҡа",
+      "n_def_acc_pl": "китаптарҙы",
+      "n_def_acc_sg": "китапты",
+      "n_def_gen_pl": "китаптарҙың",
+      "n_def_gen_sg": "китаптың",
+      "n_loc_pl": "китаптарҙа",
+      "n_loc_sg": "китапта",
+      "n_nom_pl": "китаптар",
+      "n_nom_sg": "китап",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "күренеш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "күренеш",
+    "inflections": {
+      "n_abl_pl": "күренештәрҙән",
+      "n_abl_sg": "күренештән",
+      "n_dat_pl": "күренештәргә",
+      "n_dat_sg": "күренешкә",
+      "n_def_acc_pl": "күренештәрҙе",
+      "n_def_acc_sg": "күренеште",
+      "n_def_gen_pl": "күренештәрҙең",
+      "n_def_gen_sg": "күренештең",
+      "n_loc_pl": "күренештәрҙә",
+      "n_loc_sg": "күренештә",
+      "n_nom_pl": "күренештәр",
+      "n_nom_sg": "күренеш",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "күрше": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "күрше",
+    "inflections": {
+      "n_abl_pl": "күршеләрҙән",
+      "n_abl_sg": "күршенән",
+      "n_dat_pl": "күршеләргә",
+      "n_dat_sg": "күршегә",
+      "n_def_acc_pl": "күршеләрҙе",
+      "n_def_acc_sg": "күршене",
+      "n_def_gen_pl": "күршеләрҙең",
+      "n_def_gen_sg": "күршенең",
+      "n_loc_pl": "күршеләрҙә",
+      "n_loc_sg": "күршелә",
+      "n_nom_pl": "күршеләр",
+      "n_nom_sg": "күрше",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "күңел": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "күңел",
+    "inflections": {
+      "n_abl_pl": "күңелдәрҙән",
+      "n_abl_sg": "күңелдән",
+      "n_dat_pl": "күңелдәргә",
+      "n_dat_sg": "күңелгә",
+      "n_def_acc_pl": "күңелдәрҙе",
+      "n_def_acc_sg": "күңелде",
+      "n_def_gen_pl": "күңелдәрҙең",
+      "n_def_gen_sg": "күңелдең",
+      "n_loc_pl": "күңелдәрҙә",
+      "n_loc_sg": "күңелдә",
+      "n_nom_pl": "күңелдәр",
+      "n_nom_sg": "күңел",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "көн": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "көн",
+    "inflections": {
+      "n_abl_pl": "көндәрҙән",
+      "n_abl_sg": "көндән",
+      "n_dat_pl": "көндәргә",
+      "n_dat_sg": "көнгә",
+      "n_def_acc_pl": "көндәрҙе",
+      "n_def_acc_sg": "көндө",
+      "n_def_gen_pl": "көндәрҙең",
+      "n_def_gen_sg": "көндөң",
+      "n_loc_pl": "көндәрҙә",
+      "n_loc_sg": "көндә",
+      "n_nom_pl": "көндәр",
+      "n_nom_sg": "көн",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "көрәш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "көрәш",
+    "inflections": {
+      "n_abl_pl": "көрәштәрҙән",
+      "n_abl_sg": "көрәштән",
+      "n_dat_pl": "көрәштәргә",
+      "n_dat_sg": "көрәшкә",
+      "n_def_acc_pl": "көрәштәрҙе",
+      "n_def_acc_sg": "көрәште",
+      "n_def_gen_pl": "көрәштәрҙең",
+      "n_def_gen_sg": "көрәштең",
+      "n_loc_pl": "көрәштәрҙә",
+      "n_loc_sg": "көрәштә",
+      "n_nom_pl": "көрәштәр",
+      "n_nom_sg": "көрәш",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "май": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "май",
+    "inflections": {
+      "n_abl_sg": "майҙан",
+      "n_dat_sg": "майға",
+      "n_def_acc_sg": "майҙы",
+      "n_def_gen_sg": "майҙың",
+      "n_loc_sg": "майҙа",
+      "n_nom_sg": "май",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "машина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "машина",
+    "inflections": {
+      "n_abl_pl": "машиналарҙан",
+      "n_abl_sg": "машинанан",
+      "n_dat_pl": "машиналарға",
+      "n_dat_sg": "машинаға",
+      "n_def_acc_pl": "машиналарҙы",
+      "n_def_acc_sg": "машинаны",
+      "n_def_gen_pl": "машиналарҙың",
+      "n_def_gen_sg": "машинаның",
+      "n_loc_pl": "машиналарҙа",
+      "n_loc_sg": "машинала",
+      "n_nom_pl": "машиналар",
+      "n_nom_sg": "машина",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "милләт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "милләт",
+    "inflections": {
+      "n_abl_pl": "милләттәрҙән",
+      "n_abl_sg": "милләттән",
+      "n_dat_pl": "милләттәргә",
+      "n_dat_sg": "милләткә",
+      "n_def_acc_pl": "милләттәрҙе",
+      "n_def_acc_sg": "милләтте",
+      "n_def_gen_pl": "милләттәрҙең",
+      "n_def_gen_sg": "милләттең",
+      "n_loc_pl": "милләттәрҙә",
+      "n_loc_sg": "милләттә",
+      "n_nom_pl": "милләттәр",
+      "n_nom_sg": "милләт",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "мәктәп": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мәктәп",
+    "inflections": {
+      "n_abl_pl": "мәктәптәрҙән",
+      "n_abl_sg": "мәктәптән",
+      "n_dat_pl": "мәктәптәргә",
+      "n_dat_sg": "мәктәпкә",
+      "n_def_acc_pl": "мәктәптәрҙе",
+      "n_def_acc_sg": "мәктәпте",
+      "n_def_gen_pl": "мәктәптәрҙең",
+      "n_def_gen_sg": "мәктәптең",
+      "n_loc_pl": "мәктәптәрҙә",
+      "n_loc_sg": "мәктәптә",
+      "n_nom_pl": "мәктәптәр",
+      "n_nom_sg": "мәктәп",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "мәсьәлә": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мәсьәлә",
+    "inflections": {
+      "n_abl_pl": "мәсьәләләрҙән",
+      "n_abl_sg": "мәсьәләнән",
+      "n_dat_pl": "мәсьәләләргә",
+      "n_dat_sg": "мәсьәләгә",
+      "n_def_acc_pl": "мәсьәләләрҙе",
+      "n_def_acc_sg": "мәсьәләне",
+      "n_def_gen_pl": "мәсьәләләрҙең",
+      "n_def_gen_sg": "мәсьәләнең",
+      "n_loc_pl": "мәсьәләләрҙә",
+      "n_loc_sg": "мәсьәләлә",
+      "n_nom_pl": "мәсьәләләр",
+      "n_nom_sg": "мәсьәлә",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "мәғлүмәт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мәғлүмәт",
+    "inflections": {
+      "n_abl_sg": "мәғлүмәттән",
+      "n_dat_sg": "мәғлүмәткә",
+      "n_def_acc_sg": "мәғлүмәтте",
+      "n_def_gen_sg": "мәғлүмәттең",
+      "n_loc_sg": "мәғлүмәттә",
+      "n_nom_sg": "мәғлүмәт",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "рәүеш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рәүеш",
+    "inflections": {
+      "n_loc_sg": "рәүештә",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "рөхсәт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рөхсәт",
+    "inflections": {
+      "n_abl_pl": "рөхсәттәрҙән",
+      "n_abl_sg": "рөхсәттән",
+      "n_dat_pl": "рөхсәттәргә",
+      "n_dat_sg": "рөхсәткә",
+      "n_def_acc_pl": "рөхсәттәрҙе",
+      "n_def_acc_sg": "рөхсәтте",
+      "n_def_gen_pl": "рөхсәттәрҙең",
+      "n_def_gen_sg": "рөхсәттең",
+      "n_loc_pl": "рөхсәттәрҙә",
+      "n_loc_sg": "рөхсәттә",
+      "n_nom_pl": "рөхсәттәр",
+      "n_nom_sg": "рөхсәт",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "сәнғәт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сәнғәт",
+    "inflections": {
+      "n_abl_pl": "сәнғәттәрҙән",
+      "n_abl_sg": "сәнғәттән",
+      "n_dat_pl": "сәнғәттәргә",
+      "n_dat_sg": "сәнғәткә",
+      "n_def_acc_pl": "сәнғәттәрҙе",
+      "n_def_acc_sg": "сәнғәтте",
+      "n_def_gen_pl": "сәнғәттәрҙең",
+      "n_def_gen_sg": "сәнғәттең",
+      "n_loc_pl": "сәнғәттәрҙә",
+      "n_loc_sg": "сәнғәттә",
+      "n_nom_pl": "сәнғәттәр",
+      "n_nom_sg": "сәнғәт",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "талап": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "талап",
+    "inflections": {
+      "n_abl_pl": "талаптарҙан",
+      "n_abl_sg": "талаптан",
+      "n_dat_pl": "талаптарға",
+      "n_dat_sg": "талапҡа",
+      "n_def_acc_pl": "талаптарҙы",
+      "n_def_acc_sg": "талапты",
+      "n_def_gen_pl": "талаптарҙың",
+      "n_def_gen_sg": "талаптың",
+      "n_loc_pl": "талаптарҙа",
+      "n_loc_sg": "талапта",
+      "n_nom_pl": "талаптар",
+      "n_nom_sg": "талап",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "тарих": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тарих",
+    "inflections": {
+      "n_abl_sg": "тарихтан",
+      "n_dat_sg": "тарихҡа",
+      "n_def_acc_sg": "тарихты",
+      "n_def_gen_sg": "тарихтың",
+      "n_loc_sg": "тарихта",
+      "n_nom_sg": "тарих",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "тел": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тел",
+    "inflections": {
+      "n_abl_pl": "телдәрҙән",
+      "n_abl_sg": "телдән",
+      "n_dat_pl": "телдәргә",
+      "n_dat_sg": "телгә",
+      "n_def_acc_pl": "телдәрҙе",
+      "n_def_acc_sg": "телде",
+      "n_def_gen_pl": "телдәрҙең",
+      "n_def_gen_sg": "телдең",
+      "n_loc_pl": "телдәрҙә",
+      "n_loc_sg": "телдә",
+      "n_nom_pl": "телдәр",
+      "n_nom_sg": "тел",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "тимер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тимер",
+    "inflections": {
+      "n_abl_sg": "тимерҙән",
+      "n_dat_sg": "тимергә",
+      "n_def_acc_sg": "тимерҙе",
+      "n_def_gen_sg": "тимерҙең",
+      "n_loc_sg": "тимерҙә",
+      "n_nom_sg": "тимер",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "тормош": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тормош",
+    "inflections": {
+      "n_abl_sg": "тормоштан",
+      "n_dat_sg": "тормошҡа",
+      "n_def_acc_sg": "тормошто",
+      "n_def_gen_sg": "тормоштоң",
+      "n_loc_sg": "тормошта",
+      "n_nom_sg": "тормош",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "тәҡдим": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тәҡдим",
+    "inflections": {
+      "n_abl_sg": "тәҡдим",
+      "n_dat_sg": "тәҡдим",
+      "n_def_acc_sg": "тәҡдим",
+      "n_def_gen_sg": "тәҡдим",
+      "n_loc_sg": "тәҡдим",
+      "n_nom_sg": "тәҡдим",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "төбәк": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "төбәк",
+    "inflections": {
+      "n_abl_pl": "төбәктәрҙән",
+      "n_abl_sg": "төбәктән",
+      "n_dat_pl": "төбәктәргә",
+      "n_dat_sg": "төбәккә",
+      "n_def_acc_pl": "төбәктәрҙе",
+      "n_def_acc_sg": "төбәкте",
+      "n_def_gen_pl": "төбәктәрҙең",
+      "n_def_gen_sg": "төбәктең",
+      "n_loc_pl": "төбәктәрҙә",
+      "n_loc_sg": "төбәктә",
+      "n_nom_pl": "төбәктәр",
+      "n_nom_sg": "төбәк",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "төп": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "төп",
+    "inflections": {
+      "adj_abl_pl": "төптәрҙән",
+      "adj_abl_sg": "төптән",
+      "adj_dat_pl": "төптәргә",
+      "adj_dat_sg": "төпкә",
+      "adj_def_acc_pl": "төптәрҙе",
+      "adj_def_acc_sg": "төптө",
+      "adj_def_gen_pl": "төптәрҙең",
+      "adj_def_gen_sg": "төптөң",
+      "adj_loc_pl": "төптәрҙә",
+      "adj_loc_sg": "төптә",
+      "adj_nom_pl": "төптәр",
+      "adj_nom_sg": "төп",
+      "n_abl_pl": "төптәрҙән",
+      "n_abl_sg": "төптән",
+      "n_dat_pl": "төптәргә",
+      "n_dat_sg": "төпкә",
+      "n_def_acc_pl": "төптәрҙе",
+      "n_def_acc_sg": "төптө",
+      "n_def_gen_pl": "төптәрҙең",
+      "n_def_gen_sg": "төптөң",
+      "n_loc_pl": "төптәрҙә",
+      "n_loc_sg": "төптә",
+      "n_nom_pl": "төптәр",
+      "n_nom_sg": "төп",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "урам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "урам",
+    "inflections": {
+      "n_abl_pl": "урамдарҙан",
+      "n_abl_sg": "урамдан",
+      "n_dat_pl": "урамдарға",
+      "n_dat_sg": "урамға",
+      "n_def_acc_pl": "урамдарҙы",
+      "n_def_acc_sg": "урамды",
+      "n_def_gen_pl": "урамдарҙың",
+      "n_def_gen_sg": "урамдың",
+      "n_loc_pl": "урамдарҙа",
+      "n_loc_sg": "урамда",
+      "n_nom_pl": "урамдар",
+      "n_nom_sg": "урам",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "урман": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "урман",
+    "inflections": {
+      "n_abl_pl": "урмандарҙан",
+      "n_abl_sg": "урмандан",
+      "n_dat_pl": "урмандарға",
+      "n_dat_sg": "урманға",
+      "n_def_acc_pl": "урмандарҙы",
+      "n_def_acc_sg": "урманды",
+      "n_def_gen_pl": "урмандарҙың",
+      "n_def_gen_sg": "урмандың",
+      "n_loc_pl": "урмандарҙа",
+      "n_loc_sg": "урманда",
+      "n_nom_pl": "урмандар",
+      "n_nom_sg": "урман",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "урта": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "урта",
+    "inflections": {
+      "adj_abl_pl": "урталарҙан",
+      "adj_abl_sg": "уртанан",
+      "adj_dat_pl": "урталарға",
+      "adj_dat_sg": "уртаға",
+      "adj_def_acc_pl": "урталарҙы",
+      "adj_def_acc_sg": "уртаны",
+      "adj_def_gen_pl": "урталарҙың",
+      "adj_def_gen_sg": "уртаның",
+      "adj_loc_pl": "урталарҙа",
+      "adj_loc_sg": "уртала",
+      "adj_nom_pl": "урталар",
+      "adj_nom_sg": "урта",
+      "n_abl_pl": "урталарҙан",
+      "n_abl_sg": "уртанан",
+      "n_dat_pl": "урталарға",
+      "n_dat_sg": "уртаға",
+      "n_def_acc_pl": "урталарҙы",
+      "n_def_acc_sg": "уртаны",
+      "n_def_gen_pl": "урталарҙың",
+      "n_def_gen_sg": "уртаның",
+      "n_loc_pl": "урталарҙа",
+      "n_loc_sg": "уртала",
+      "n_nom_pl": "урталар",
+      "n_nom_sg": "урта",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "урын": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "урын",
+    "inflections": {
+      "n_abl_pl": "урындарҙан",
+      "n_abl_sg": "урындан",
+      "n_dat_pl": "урындарға",
+      "n_dat_sg": "урынға",
+      "n_def_acc_pl": "урындарҙы",
+      "n_def_acc_sg": "урынды",
+      "n_def_gen_pl": "урындарҙың",
+      "n_def_gen_sg": "урындың",
+      "n_loc_pl": "урындарҙа",
+      "n_loc_sg": "урында",
+      "n_nom_pl": "урындар",
+      "n_nom_sg": "урын",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ут": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ут",
+    "inflections": {
+      "n_abl_sg": "ут",
+      "n_dat_sg": "ут",
+      "n_def_acc_sg": "ут",
+      "n_def_gen_sg": "ут",
+      "n_loc_sg": "ут",
+      "n_nom_sg": "ут",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "уҡ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уҡ",
+    "inflections": {
+      "n_abl_pl": "уҡ",
+      "n_abl_sg": "уҡ",
+      "n_dat_pl": "уҡ",
+      "n_dat_sg": "уҡ",
+      "n_def_acc_pl": "уҡ",
+      "n_def_acc_sg": "уҡ",
+      "n_def_gen_pl": "уҡ",
+      "n_def_gen_sg": "уҡ",
+      "n_loc_pl": "уҡ",
+      "n_loc_sg": "уҡ",
+      "n_nom_pl": "уҡ",
+      "n_nom_sg": "уҡ",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "фән": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "фән",
+    "inflections": {
+      "n_abl_sg": "фәндән",
+      "n_dat_sg": "фәнгә",
+      "n_def_acc_sg": "фәнде",
+      "n_def_gen_sg": "фәндең",
+      "n_loc_sg": "фәндә",
+      "n_nom_sg": "фән",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "халыҡ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "халыҡ",
+    "inflections": {
+      "n_abl_pl": "халыҡтарҙан",
+      "n_abl_sg": "халыҡтан",
+      "n_dat_pl": "халыҡтарға",
+      "n_dat_sg": "халыҡҡа",
+      "n_def_acc_pl": "халыҡтарҙы",
+      "n_def_acc_sg": "халыҡты",
+      "n_def_gen_pl": "халыҡтарҙың",
+      "n_def_gen_sg": "халыҡтың",
+      "n_loc_pl": "халыҡтарҙа",
+      "n_loc_sg": "халыҡта",
+      "n_nom_pl": "халыҡтар",
+      "n_nom_sg": "халыҡ",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "хат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хат",
+    "inflections": {
+      "n_abl_pl": "хаттарҙан",
+      "n_abl_sg": "хаттан",
+      "n_dat_pl": "хаттарға",
+      "n_dat_sg": "хатҡа",
+      "n_def_acc_pl": "хаттарҙы",
+      "n_def_acc_sg": "хатты",
+      "n_def_gen_pl": "хаттарҙың",
+      "n_def_gen_sg": "хаттың",
+      "n_loc_pl": "хаттарҙа",
+      "n_loc_sg": "хатта",
+      "n_nom_pl": "хаттар",
+      "n_nom_sg": "хат",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "хата": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хата",
+    "inflections": {
+      "n_abl_pl": "хата",
+      "n_abl_sg": "хата",
+      "n_dat_pl": "хата",
+      "n_dat_sg": "хата",
+      "n_def_acc_pl": "хата",
+      "n_def_acc_sg": "хата",
+      "n_def_gen_pl": "хата",
+      "n_def_gen_sg": "хата",
+      "n_loc_pl": "хата",
+      "n_loc_sg": "хата",
+      "n_nom_pl": "хата",
+      "n_nom_sg": "хата",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "хеҙмәт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хеҙмәт",
+    "inflections": {
+      "n_abl_pl": "хеҙмәттәрҙән",
+      "n_abl_sg": "хеҙмәттән",
+      "n_dat_pl": "хеҙмәттәргә",
+      "n_dat_sg": "хеҙмәткә",
+      "n_def_acc_pl": "хеҙмәттәрҙе",
+      "n_def_acc_sg": "хеҙмәтте",
+      "n_def_gen_pl": "хеҙмәттәрҙең",
+      "n_def_gen_sg": "хеҙмәттең",
+      "n_loc_pl": "хеҙмәттәрҙә",
+      "n_loc_sg": "хеҙмәттә",
+      "n_nom_pl": "хеҙмәттәр",
+      "n_nom_sg": "хеҙмәт",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "хәбәр": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хәбәр",
+    "inflections": {
+      "n_abl_pl": "хәбәрҙәрҙән",
+      "n_abl_sg": "хәбәрҙән",
+      "n_dat_pl": "хәбәрҙәргә",
+      "n_dat_sg": "хәбәргә",
+      "n_def_acc_pl": "хәбәрҙәрҙе",
+      "n_def_acc_sg": "хәбәрҙе",
+      "n_def_gen_pl": "хәбәрҙәрҙең",
+      "n_def_gen_sg": "хәбәрҙең",
+      "n_loc_pl": "хәбәрҙәрҙә",
+      "n_loc_sg": "хәбәрҙә",
+      "n_nom_pl": "хәбәрҙәр",
+      "n_nom_sg": "хәбәр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "хәл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хәл",
+    "inflections": {
+      "n_abl_pl": "хәлдәрҙән",
+      "n_abl_sg": "хәлдән",
+      "n_dat_pl": "хәлдәргә",
+      "n_dat_sg": "хәлгә",
+      "n_def_acc_pl": "хәлдәрҙе",
+      "n_def_acc_sg": "хәлде",
+      "n_def_gen_pl": "хәлдәрҙең",
+      "n_def_gen_sg": "хәлдең",
+      "n_loc_pl": "хәлдәрҙә",
+      "n_loc_sg": "хәлдә",
+      "n_nom_pl": "хәлдәр",
+      "n_nom_sg": "хәл",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "хөкүмәт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хөкүмәт",
+    "inflections": {
+      "n_abl_pl": "хөкүмәттәрҙән",
+      "n_abl_sg": "хөкүмәттән",
+      "n_dat_pl": "хөкүмәттәргә",
+      "n_dat_sg": "хөкүмәткә",
+      "n_def_acc_pl": "хөкүмәттәрҙе",
+      "n_def_acc_sg": "хөкүмәтте",
+      "n_def_gen_pl": "хөкүмәттәрҙең",
+      "n_def_gen_sg": "хөкүмәттең",
+      "n_loc_pl": "хөкүмәттәрҙә",
+      "n_loc_sg": "хөкүмәттә",
+      "n_nom_pl": "хөкүмәттәр",
+      "n_nom_sg": "хөкүмәт",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "эш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "эш",
+    "inflections": {
+      "n_abl_pl": "эш",
+      "n_abl_sg": "эш",
+      "n_dat_pl": "эш",
+      "n_dat_sg": "эш",
+      "n_def_acc_pl": "эш",
+      "n_def_acc_sg": "эш",
+      "n_def_gen_pl": "эш",
+      "n_def_gen_sg": "эш",
+      "n_loc_pl": "эш",
+      "n_loc_sg": "эш",
+      "n_nom_pl": "эш",
+      "n_nom_sg": "эш",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "юл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "юл",
+    "inflections": {
+      "n_abl_sg": "юл",
+      "n_dat_sg": "юл",
+      "n_def_acc_sg": "юл",
+      "n_def_gen_sg": "юл",
+      "n_loc_sg": "юл",
+      "n_nom_sg": "юл",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "ярҙам": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ярҙам",
+    "inflections": {
+      "n_abl_sg": "ярҙамдан",
+      "n_dat_sg": "ярҙамға",
+      "n_def_acc_sg": "ярҙамды",
+      "n_def_gen_sg": "ярҙамдың",
+      "n_loc_sg": "ярҙамда",
+      "n_nom_sg": "ярҙам",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "яуап": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "яуап",
+    "inflections": {
+      "n_abl_pl": "яуаптарҙан",
+      "n_abl_sg": "яуаптан",
+      "n_dat_pl": "яуаптарға",
+      "n_dat_sg": "яуапҡа",
+      "n_def_acc_pl": "яуаптарҙы",
+      "n_def_acc_sg": "яуапты",
+      "n_def_gen_pl": "яуаптарҙың",
+      "n_def_gen_sg": "яуаптың",
+      "n_loc_pl": "яуаптарҙа",
+      "n_loc_sg": "яуапта",
+      "n_nom_pl": "яуаптар",
+      "n_nom_sg": "яуап",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "яҡ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "яҡ",
+    "inflections": {
+      "n_abl_sg": "яҡтан",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ғаилә": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ғаилә",
+    "inflections": {
+      "n_abl_pl": "ғаиләләрҙән",
+      "n_abl_sg": "ғаиләнән",
+      "n_dat_pl": "ғаиләләргә",
+      "n_dat_sg": "ғаиләгә",
+      "n_def_acc_pl": "ғаиләләрҙе",
+      "n_def_acc_sg": "ғаиләне",
+      "n_def_gen_pl": "ғаиләләрҙең",
+      "n_def_gen_sg": "ғаиләнең",
+      "n_loc_pl": "ғаиләләрҙә",
+      "n_loc_sg": "ғаиләлә",
+      "n_nom_pl": "ғаиләләр",
+      "n_nom_sg": "ғаилә",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ғүмер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ғүмер",
+    "inflections": {
+      "n_abl_pl": "ғүмерҙәрҙән",
+      "n_abl_sg": "ғүмерҙән",
+      "n_dat_pl": "ғүмерҙәргә",
+      "n_dat_sg": "ғүмергә",
+      "n_def_acc_pl": "ғүмерҙәрҙе",
+      "n_def_acc_sg": "ғүмерҙе",
+      "n_def_gen_pl": "ғүмерҙәрҙең",
+      "n_def_gen_sg": "ғүмерҙең",
+      "n_loc_pl": "ғүмерҙәрҙә",
+      "n_loc_sg": "ғүмерҙә",
+      "n_nom_pl": "ғүмерҙәр",
+      "n_nom_sg": "ғүмер",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ҡала": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ҡала",
+    "inflections": {
+      "n_abl_pl": "ҡалаларҙан",
+      "n_abl_sg": "ҡаланан",
+      "n_dat_pl": "ҡалаларға",
+      "n_dat_sg": "ҡалаға",
+      "n_def_acc_pl": "ҡалаларҙы",
+      "n_def_acc_sg": "ҡаланы",
+      "n_def_gen_pl": "ҡалаларҙың",
+      "n_def_gen_sg": "ҡаланың",
+      "n_loc_pl": "ҡалаларҙа",
+      "n_loc_sg": "ҡалала",
+      "n_nom_pl": "ҡалалар",
+      "n_nom_sg": "ҡала",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "ҡул": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ҡул",
+    "inflections": {
+      "n_abl_pl": "ҡул",
+      "n_abl_sg": "ҡул",
+      "n_dat_pl": "ҡул",
+      "n_dat_sg": "ҡул",
+      "n_def_acc_pl": "ҡул",
+      "n_def_acc_sg": "ҡул",
+      "n_def_gen_pl": "ҡул",
+      "n_def_gen_sg": "ҡул",
+      "n_loc_pl": "ҡул",
+      "n_loc_sg": "ҡул",
+      "n_nom_pl": "ҡул",
+      "n_nom_sg": "ҡул",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "һум": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "һум",
+    "inflections": {
+      "n_abl_pl": "һум",
+      "n_abl_sg": "һум",
+      "n_dat_pl": "һум",
+      "n_dat_sg": "һум",
+      "n_def_acc_pl": "һум",
+      "n_def_acc_sg": "һум",
+      "n_def_gen_pl": "һум",
+      "n_def_gen_sg": "һум",
+      "n_loc_pl": "һум",
+      "n_loc_sg": "һум",
+      "n_nom_pl": "һум",
+      "n_nom_sg": "һум",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "һыу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "һыу",
+    "inflections": {
+      "n_abl_pl": "һыуҙарҙан",
+      "n_abl_sg": "һыуҙан",
+      "n_dat_pl": "һыуҙарға",
+      "n_dat_sg": "һыуға",
+      "n_def_acc_pl": "һыуҙарҙы",
+      "n_def_acc_sg": "һыуҙы",
+      "n_def_gen_pl": "һыуҙарҙың",
+      "n_def_gen_sg": "һыуҙың",
+      "n_loc_pl": "һыуҙарҙа",
+      "n_loc_sg": "һыуҙа",
+      "n_nom_pl": "һыуҙар",
+      "n_nom_sg": "һыу",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "һүҙ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "һүҙ",
+    "inflections": {
+      "n_abl_pl": "һүҙ",
+      "n_abl_sg": "һүҙ",
+      "n_dat_pl": "һүҙ",
+      "n_dat_sg": "һүҙ",
+      "n_def_acc_pl": "һүҙ",
+      "n_def_acc_sg": "һүҙ",
+      "n_def_gen_pl": "һүҙ",
+      "n_def_gen_sg": "һүҙ",
+      "n_loc_pl": "һүҙ",
+      "n_loc_sg": "һүҙ",
+      "n_nom_pl": "һүҙ",
+      "n_nom_sg": "һүҙ",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "әфәнде": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "әфәнде",
+    "inflections": {
+      "n_abl_pl": "әфәнделәрҙән",
+      "n_abl_sg": "әфәнденән",
+      "n_dat_pl": "әфәнделәргә",
+      "n_dat_sg": "әфәндегә",
+      "n_def_acc_pl": "әфәнделәрҙе",
+      "n_def_acc_sg": "әфәндене",
+      "n_def_gen_pl": "әфәнделәрҙең",
+      "n_def_gen_sg": "әфәнденең",
+      "n_loc_pl": "әфәнделәрҙә",
+      "n_loc_sg": "әфәнделә",
+      "n_nom_pl": "әфәнделәр",
+      "n_nom_sg": "әфәнде",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  }
+}

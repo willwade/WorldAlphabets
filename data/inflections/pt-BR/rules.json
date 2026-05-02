@@ -1,0 +1,141 @@
+{
+  "_generated_inflection_location_notes": {
+    "noun": [
+      "plural"
+    ],
+    "verb": [
+      "present",
+      "past",
+      "future"
+    ]
+  },
+  "_generated_rule_notes": [
+    {
+      "description": "Conjugate regular verbs in present, past, and future.",
+      "examples": [
+        "fazer -> faço, faz, fiz, fará"
+      ],
+      "name": "verb_conjugation",
+      "pattern": "verb + ending"
+    },
+    {
+      "description": "Pluralize nouns by adding -s or -es.",
+      "examples": [
+        "casa -> casas, carro -> carros"
+      ],
+      "name": "noun_pluralization",
+      "pattern": "noun + s/es"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": [
+        "faço",
+        "faz",
+        "fiz",
+        "fará"
+      ],
+      "input": "fazer",
+      "name": "test_verb_conjugation"
+    },
+    {
+      "expected": [
+        "casas"
+      ],
+      "input": "casa",
+      "name": "test_noun_pluralization"
+    }
+  ],
+  "_locale": "pt-BR",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "achar_v_1_sg_ind_prs",
+      "inflection": "v_1_sg_ind_prs",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "achar"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "achar_v_2_sg_imp_pos",
+      "inflection": "v_2_sg_imp_pos",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "achar"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "coisar_v_2_sg_imp_pos",
+      "inflection": "v_2_sg_imp_pos",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "coisar"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dizer_v_1_pl_cond",
+      "inflection": "v_1_pl_cond",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dizer"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dizer_v_1_pl_ind_prs",
+      "inflection": "v_1_pl_ind_prs",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dizer"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dizer_v_1_sg_cond",
+      "inflection": "v_1_sg_cond",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dizer"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
+  "substitutions": {},
+  "tests": []
+}

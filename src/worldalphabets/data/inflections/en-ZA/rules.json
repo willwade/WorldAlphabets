@@ -1,0 +1,52 @@
+{
+  "_generated_rule_notes": [
+    {
+      "description": "Usage of pronouns in sentences.",
+      "executable": "you, i, it, that",
+      "inflection": "none",
+      "lookback": "n",
+      "name": "pronoun_usage",
+      "overrides": {}
+    },
+    {
+      "description": "Usage of articles in sentences.",
+      "executable": "the, a",
+      "inflection": "none",
+      "lookback": "n",
+      "name": "article_usage",
+      "overrides": {}
+    },
+    {
+      "description": "Usage of conjunctions in sentences.",
+      "executable": "and",
+      "inflection": "none",
+      "lookback": "n",
+      "name": "conjunction_usage",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected_output": "valid",
+      "input": "you",
+      "test": "pronoun_usage_test"
+    },
+    {
+      "expected_output": "valid",
+      "input": "the",
+      "test": "article_usage_test"
+    },
+    {
+      "expected_output": "valid",
+      "input": "and",
+      "test": "conjunction_usage_test"
+    }
+  ],
+  "_locale": "en-ZA",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

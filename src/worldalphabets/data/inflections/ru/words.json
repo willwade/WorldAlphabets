@@ -1,0 +1,546 @@
+{
+  "_locale": "ru",
+  "_type": "words",
+  "_version": "0.1",
+  "будет": {
+    "antonyms": [],
+    "base": "будет",
+    "examples": [
+      "Он будет здесь."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "бы": {
+    "antonyms": [],
+    "base": "бы",
+    "examples": [
+      "Я бы хотел поехать."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "particle"
+    ]
+  },
+  "была": {
+    "antonyms": [],
+    "base": "быть",
+    "examples": [
+      "Она была там."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "быть": {
+    "antonyms": [],
+    "base": "быть",
+    "examples": [
+      "Я хочу быть там."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "в": {
+    "antonyms": [],
+    "base": "в",
+    "examples": [
+      "Я в доме."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "вам": {
+    "antonyms": [],
+    "base": "вам",
+    "examples": [
+      "Я говорю вам правду."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "вот": {
+    "antonyms": [],
+    "base": "вот",
+    "examples": [
+      "Вот он!"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "particle"
+    ]
+  },
+  "до": {
+    "antonyms": [],
+    "base": "до",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ее": {
+    "antonyms": [],
+    "base": "ее",
+    "examples": [
+      "Я видел её."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "если": {
+    "antonyms": [],
+    "base": "если",
+    "examples": [
+      "Если пойдет дождь, мы останемся дома."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "есть": {
+    "antonyms": [],
+    "base": "есть",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "же": {
+    "antonyms": [],
+    "base": "же",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "particle"
+    ]
+  },
+  "за": {
+    "antonyms": [],
+    "base": "за",
+    "examples": [
+      "Я стою за тобой."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "знаешь": {
+    "antonyms": [],
+    "base": "знать",
+    "examples": [
+      "Ты знаешь это."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "и": {
+    "antonyms": [],
+    "base": "и",
+    "examples": [
+      "Я и ты."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "их": {
+    "antonyms": [],
+    "base": "их",
+    "examples": [
+      "Я вижу их."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "кто": {
+    "antonyms": [],
+    "base": "кто",
+    "examples": [
+      "Кто это?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ладно": {
+    "antonyms": [],
+    "base": "ладно",
+    "examples": [
+      "Ладно, я согласен."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "может": {
+    "antonyms": [],
+    "base": "может",
+    "examples": [
+      "Он может прийти."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "мой": {
+    "antonyms": [],
+    "base": "мой",
+    "examples": [
+      "Это мой дом."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "на": {
+    "antonyms": [],
+    "base": "на",
+    "examples": [
+      "Книга на столе."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "нас": {
+    "antonyms": [],
+    "base": "нас",
+    "examples": [
+      "Это нас не касается."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "не": {
+    "antonyms": [],
+    "base": "не",
+    "examples": [
+      "Я не знаю."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "particle"
+    ]
+  },
+  "о": {
+    "antonyms": [],
+    "base": "о",
+    "examples": [
+      "Говорить о жизни."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "он": {
+    "antonyms": [],
+    "base": "он",
+    "examples": [
+      "Он пришёл."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "они": {
+    "antonyms": [],
+    "base": "они",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "от": {
+    "antonyms": [],
+    "base": "от",
+    "examples": [
+      "Я ушел от дома."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "п": {
+    "antonyms": [],
+    "base": "п",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "preposition"
+    ]
+  },
+  "потому": {
+    "antonyms": [],
+    "base": "потому",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "почему": {
+    "antonyms": [],
+    "base": "почему",
+    "examples": [
+      "Почему ты так думаешь?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "просто": {
+    "antonyms": [],
+    "base": "просто",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "с": {
+    "antonyms": [],
+    "base": "с",
+    "examples": [
+      "Я с другом."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "тебе": {
+    "antonyms": [],
+    "base": "тебе",
+    "examples": [
+      "Я дам это тебе."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "теперь": {
+    "antonyms": [],
+    "base": "теперь",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ты": {
+    "antonyms": [],
+    "base": "ты",
+    "examples": [
+      "Ты где?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "что": {
+    "antonyms": [],
+    "base": "что",
+    "examples": [
+      "Что ты делаешь?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun",
+      "conjunction"
+    ]
+  },
+  "чтобы": {
+    "antonyms": [],
+    "base": "чтобы",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "это": {
+    "antonyms": [],
+    "base": "это",
+    "examples": [
+      "Это мой дом."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "этом": {
+    "antonyms": [],
+    "base": "этот",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "я": {
+    "antonyms": [],
+    "base": "я",
+    "examples": [
+      "Я иду в магазин."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  }
+}

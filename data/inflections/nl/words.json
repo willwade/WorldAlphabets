@@ -1,0 +1,5362 @@
+{
+  "_locale": "nl",
+  "_type": "words",
+  "_version": "0.1",
+  "aan": {
+    "antonyms": [],
+    "base": "aan",
+    "examples": [
+      "Ik geef het aan jou."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "aardig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aardig",
+    "inflections": {
+      "adj_def": "aardige",
+      "adj_def_cmpr": "aardigere",
+      "adj_def_sprl": "aardigste",
+      "adj_indf_neut_sg": "aardig",
+      "adj_indf_neut_sg_cmpr": "aardige",
+      "adj_indf_neut_sg_sprl": "aardigere",
+      "adj_indf_pl": "aardige",
+      "adj_indf_pl_cmpr": "aardiger",
+      "adj_indf_pl_sprl": "aardigste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "absoluut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "absoluut",
+    "inflections": {
+      "adj_def": "absolute",
+      "adj_def_cmpr": "absolutere",
+      "adj_def_sprl": "absoluutste",
+      "adj_indf_neut_sg": "absoluut",
+      "adj_indf_neut_sg_cmpr": "absolute",
+      "adj_indf_neut_sg_sprl": "absolutere",
+      "adj_indf_pl": "absolute",
+      "adj_indf_pl_cmpr": "absoluter",
+      "adj_indf_pl_sprl": "absoluutste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "achten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "achten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "acht",
+      "v_imp_sg": "acht",
+      "v_ind_prs_1_sg": "acht",
+      "v_ind_prs_2_sg": "acht",
+      "v_ind_prs_3_sg": "acht"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "afgelopen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "afgelopen",
+    "inflections": {
+      "adj_def": "afgelopen",
+      "adj_indf_neut_sg": "afgelopen",
+      "adj_indf_pl": "afgelopen",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "alleen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "alleen",
+    "inflections": {
+      "adj_def": "allene",
+      "adj_def_cmpr": "allenere",
+      "adj_def_sprl": "alleenste",
+      "adj_indf_neut_sg": "alleen",
+      "adj_indf_neut_sg_cmpr": "allene",
+      "adj_indf_neut_sg_sprl": "allenere",
+      "adj_indf_pl": "allene",
+      "adj_indf_pl_cmpr": "allener",
+      "adj_indf_pl_sprl": "alleenste",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "als": {
+    "antonyms": [],
+    "base": "als",
+    "examples": [
+      "Als het regent, blijf ik binnen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "bedanken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bedanken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "bedankt",
+      "v_ind_prs_2_sg": "bedankt",
+      "v_ind_prs_3_sg": "bedankt",
+      "v_ptcp_pst": "bedankt"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bedoelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bedoelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "bedoelt",
+      "v_imp_sg": "bedoel",
+      "v_ind_prs_1_sg": "bedoel",
+      "v_ind_prs_2_sg": "bedoelt",
+      "v_ind_prs_3_sg": "bedoelt"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "beginnen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beginnen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "begint",
+      "v_imp_sg": "begin",
+      "v_ind_prs_1_sg": "begin",
+      "v_ind_prs_2_sg": "begint",
+      "v_ind_prs_3_sg": "begint",
+      "v_ind_prs_pl": "beginnen",
+      "v_ind_pst_1_sg": "begon",
+      "v_ind_pst_2_sg": "begon",
+      "v_ind_pst_3_sg": "begon",
+      "v_ind_pst_pl": "begonnen",
+      "v_nfin": "beginnen",
+      "v_ptcp_pst": "begonnen",
+      "v_sbjv_prs_pl": "beginnen",
+      "v_sbjv_prs_sg": "beginne",
+      "v_sbjv_pst_pl": "begonnen",
+      "v_sbjv_pst_sg": "begonne"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "begrijpen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "begrijpen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "begrijpt",
+      "v_imp_sg": "begrijp",
+      "v_ind_prs_1_sg": "begrijp",
+      "v_ind_prs_2_sg": "begrijpt",
+      "v_ind_prs_3_sg": "begrijpt",
+      "v_ind_prs_pl": "begrijpen",
+      "v_ind_pst_1_sg": "begreep",
+      "v_ind_pst_2_sg": "begreep",
+      "v_ind_pst_3_sg": "begreep",
+      "v_ind_pst_pl": "begrepen",
+      "v_nfin": "begrijpen",
+      "v_ptcp_pst": "begrepen",
+      "v_sbjv_prs_pl": "begrijpen",
+      "v_sbjv_prs_sg": "begrijpe",
+      "v_sbjv_pst_pl": "begrepen",
+      "v_sbjv_pst_sg": "begrepe"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bekennen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bekennen",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "bekend"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "belangrijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "belangrijk",
+    "inflections": {
+      "adj_def": "belangrijke",
+      "adj_def_cmpr": "belangrijkere",
+      "adj_def_sprl": "belangrijkste",
+      "adj_indf_neut_sg": "belangrijk",
+      "adj_indf_neut_sg_cmpr": "belangrijke",
+      "adj_indf_neut_sg_sprl": "belangrijkere",
+      "adj_indf_pl": "belangrijke",
+      "adj_indf_pl_cmpr": "belangrijker",
+      "adj_indf_pl_sprl": "belangrijkste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "beloven": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beloven",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "beloof",
+      "v_ind_prs_1_sg": "beloof"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ben": {
+    "antonyms": [],
+    "base": "ben",
+    "examples": [
+      "Ik ben moe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "beschermen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beschermen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "beschermt",
+      "v_imp_sg": "bescherm",
+      "v_ind_prs_1_sg": "bescherm",
+      "v_ind_prs_2_sg": "beschermt",
+      "v_ind_prs_3_sg": "beschermt",
+      "v_ind_prs_pl": "beschermen",
+      "v_ind_pst_1_sg": "beschermde",
+      "v_ind_pst_2_sg": "beschermde",
+      "v_ind_pst_3_sg": "beschermde",
+      "v_ind_pst_pl": "beschermden",
+      "v_nfin": "beschermen",
+      "v_ptcp_pst": "beschermd",
+      "v_sbjv_prs_pl": "beschermen",
+      "v_sbjv_prs_sg": "bescherme",
+      "v_sbjv_pst_pl": "beschermden",
+      "v_sbjv_pst_sg": "beschermde"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "betalen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "betalen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "betaalt",
+      "v_imp_sg": "betaal",
+      "v_ind_prs_1_sg": "betaal",
+      "v_ind_prs_2_sg": "betaalt",
+      "v_ind_prs_3_sg": "betaalt",
+      "v_ind_prs_pl": "betalen",
+      "v_ind_pst_1_sg": "betaalde",
+      "v_ind_pst_2_sg": "betaalde",
+      "v_ind_pst_3_sg": "betaalde",
+      "v_ind_pst_pl": "betaalden",
+      "v_nfin": "betalen",
+      "v_ptcp_pst": "betaald",
+      "v_sbjv_prs_pl": "betalen",
+      "v_sbjv_prs_sg": "betale",
+      "v_sbjv_pst_pl": "betaalden",
+      "v_sbjv_pst_sg": "betaalde"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "betekenen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "betekenen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "betekent",
+      "v_ind_prs_2_sg": "betekent",
+      "v_ind_prs_3_sg": "betekent"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "bewijzen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bewijzen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "bewijst",
+      "v_imp_sg": "bewijs",
+      "v_ind_prs_1_sg": "bewijs",
+      "v_ind_prs_2_sg": "bewijst",
+      "v_ind_prs_3_sg": "bewijst",
+      "v_ind_prs_pl": "bewijzen",
+      "v_ind_pst_1_sg": "bewees",
+      "v_ind_pst_2_sg": "bewees",
+      "v_ind_pst_3_sg": "bewees",
+      "v_ind_pst_pl": "bewezen",
+      "v_nfin": "bewijzen",
+      "v_ptcp_pst": "bewezen",
+      "v_sbjv_prs_pl": "bewijzen",
+      "v_sbjv_prs_sg": "bewijze",
+      "v_sbjv_pst_pl": "bewezen",
+      "v_sbjv_pst_sg": "beweze"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bezig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bezig",
+    "inflections": {
+      "adj_def": "bezige",
+      "adj_def_cmpr": "bezigere",
+      "adj_def_sprl": "bezigste",
+      "adj_indf_neut_sg": "bezig",
+      "adj_indf_neut_sg_cmpr": "bezige",
+      "adj_indf_neut_sg_sprl": "bezigere",
+      "adj_indf_pl": "bezige",
+      "adj_indf_pl_cmpr": "beziger",
+      "adj_indf_pl_sprl": "bezigste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "blijkbaar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "blijkbaar",
+    "inflections": {
+      "adj_def": "blijkbare",
+      "adj_def_cmpr": "blijkbaardere",
+      "adj_def_sprl": "blijkbaarste",
+      "adj_indf_neut_sg": "blijkbaar",
+      "adj_indf_neut_sg_cmpr": "blijkbare",
+      "adj_indf_neut_sg_sprl": "blijkbaardere",
+      "adj_indf_pl": "blijkbare",
+      "adj_indf_pl_cmpr": "blijkbaarder",
+      "adj_indf_pl_sprl": "blijkbaarste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "blijven": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "blijven",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "blijft",
+      "v_imp_sg": "blijf",
+      "v_ind_prs_1_sg": "blijf",
+      "v_ind_prs_2_sg": "blijft",
+      "v_ind_prs_3_sg": "blijft",
+      "v_ind_prs_pl": "blijven",
+      "v_ind_pst_1_sg": "bleef",
+      "v_ind_pst_2_sg": "bleef",
+      "v_ind_pst_3_sg": "bleef",
+      "v_ind_pst_pl": "bleven",
+      "v_nfin": "blijven",
+      "v_ptcp_pst": "gebleven",
+      "v_sbjv_prs_pl": "blijven",
+      "v_sbjv_prs_sg": "blijve",
+      "v_sbjv_pst_pl": "bleven",
+      "v_sbjv_pst_sg": "bleve"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bloeden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bloeden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "bloed",
+      "v_ind_prs_1_sg": "bloed"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "boeken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "boeken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "boek",
+      "v_ind_prs_1_sg": "boek"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "boos": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "boos",
+    "inflections": {
+      "adj_def": "boze",
+      "adj_def_cmpr": "bozere",
+      "adj_def_sprl": "booste",
+      "adj_indf_neut_sg": "boos",
+      "adj_indf_neut_sg_cmpr": "boze",
+      "adj_indf_neut_sg_sprl": "bozere",
+      "adj_indf_pl": "boze",
+      "adj_indf_pl_cmpr": "bozer",
+      "adj_indf_pl_sprl": "booste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "brengen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "brengen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "brengt",
+      "v_imp_sg": "breng",
+      "v_ind_prs_1_sg": "breng",
+      "v_ind_prs_2_sg": "brengt",
+      "v_ind_prs_3_sg": "brengt",
+      "v_ind_prs_pl": "brengen",
+      "v_ind_pst_1_sg": "bracht",
+      "v_ind_pst_2_sg": "bracht",
+      "v_ind_pst_3_sg": "bracht",
+      "v_ind_pst_pl": "brachten",
+      "v_nfin": "brengen",
+      "v_ptcp_pst": "gebracht",
+      "v_sbjv_prs_pl": "brengen",
+      "v_sbjv_prs_sg": "brenge",
+      "v_sbjv_pst_pl": "brachten",
+      "v_sbjv_pst_sg": "brachte"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "dan": {
+    "antonyms": [],
+    "base": "dan",
+    "examples": [
+      "Ik kom dan terug."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "danken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "danken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "dank",
+      "v_ind_prs_1_sg": "dank"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "dansen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dansen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "danst",
+      "v_imp_sg": "dans",
+      "v_ind_prs_1_sg": "dans",
+      "v_ind_prs_2_sg": "danst",
+      "v_ind_prs_3_sg": "danst",
+      "v_ind_prs_pl": "dansen",
+      "v_ind_pst_1_sg": "danste",
+      "v_ind_pst_2_sg": "danste",
+      "v_ind_pst_3_sg": "danste",
+      "v_ind_pst_pl": "dansten",
+      "v_nfin": "dansen",
+      "v_ptcp_pst": "gedanst",
+      "v_sbjv_prs_pl": "dansen",
+      "v_sbjv_prs_sg": "danse",
+      "v_sbjv_pst_pl": "dansten",
+      "v_sbjv_pst_sg": "danste"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "dat": {
+    "antonyms": [],
+    "base": "dat",
+    "examples": [
+      "Dat is mijn boek."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "de": {
+    "antonyms": [],
+    "base": "de",
+    "examples": [
+      "De kat is zwart."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "denken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "denken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "denkt",
+      "v_imp_sg": "denk",
+      "v_ind_prs_1_sg": "denk",
+      "v_ind_prs_2_sg": "denkt",
+      "v_ind_prs_3_sg": "denkt",
+      "v_ind_prs_pl": "denken",
+      "v_ind_pst_1_sg": "dacht",
+      "v_ind_pst_2_sg": "dacht",
+      "v_ind_pst_3_sg": "dacht",
+      "v_ind_pst_pl": "dachten",
+      "v_nfin": "denken",
+      "v_ptcp_pst": "gedacht",
+      "v_sbjv_prs_pl": "denken",
+      "v_sbjv_prs_sg": "denke",
+      "v_sbjv_pst_pl": "dachten",
+      "v_sbjv_pst_sg": "dachte"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "deze": {
+    "antonyms": [],
+    "base": "deze",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "dicht": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dicht",
+    "inflections": {
+      "adj_def": "dichte",
+      "adj_def_cmpr": "dichtere",
+      "adj_def_sprl": "dichtste",
+      "adj_indf_neut_sg": "dicht",
+      "adj_indf_neut_sg_cmpr": "dichte",
+      "adj_indf_neut_sg_sprl": "dichtere",
+      "adj_indf_pl": "dichte",
+      "adj_indf_pl_cmpr": "dichter",
+      "adj_indf_pl_sprl": "dichtste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "direct": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "direct",
+    "inflections": {
+      "adj_def": "directe",
+      "adj_def_cmpr": "directere",
+      "adj_def_sprl": "directste",
+      "adj_indf_neut_sg": "direct",
+      "adj_indf_neut_sg_cmpr": "directe",
+      "adj_indf_neut_sg_sprl": "directere",
+      "adj_indf_pl": "directe",
+      "adj_indf_pl_cmpr": "directer",
+      "adj_indf_pl_sprl": "directste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dit": {
+    "antonyms": [],
+    "base": "dit",
+    "examples": [
+      "Dit is mijn boek."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "doden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "doodt",
+      "v_imp_sg": "dood",
+      "v_ind_prs_1_sg": "dood",
+      "v_ind_prs_2_sg": "doodt",
+      "v_ind_prs_3_sg": "doodt",
+      "v_ind_prs_pl": "doden",
+      "v_ind_pst_1_sg": "doodde",
+      "v_ind_pst_2_sg": "doodde",
+      "v_ind_pst_3_sg": "doodde",
+      "v_ind_pst_pl": "doodden",
+      "v_nfin": "doden",
+      "v_ptcp_pst": "gedood",
+      "v_sbjv_prs_pl": "doden",
+      "v_sbjv_prs_sg": "dode",
+      "v_sbjv_pst_pl": "doodden",
+      "v_sbjv_pst_sg": "doodde"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "doen": {
+    "antonyms": [],
+    "base": "doen",
+    "examples": [
+      "Wat ga je doen?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "dragen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dragen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "draagt",
+      "v_imp_sg": "draag",
+      "v_ind_prs_1_sg": "draag",
+      "v_ind_prs_2_sg": "draagt",
+      "v_ind_prs_3_sg": "draagt",
+      "v_ind_prs_pl": "dragen",
+      "v_ind_pst_1_sg": "droeg",
+      "v_ind_pst_2_sg": "droeg",
+      "v_ind_pst_3_sg": "droeg",
+      "v_ind_pst_pl": "droegen",
+      "v_nfin": "dragen",
+      "v_ptcp_pst": "gedragen",
+      "v_sbjv_prs_pl": "dragen",
+      "v_sbjv_prs_sg": "drage",
+      "v_sbjv_pst_pl": "droegen",
+      "v_sbjv_pst_sg": "droege"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "drinken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drinken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "drinkt",
+      "v_imp_sg": "drink",
+      "v_ind_prs_1_sg": "drink",
+      "v_ind_prs_2_sg": "drinkt",
+      "v_ind_prs_3_sg": "drinkt",
+      "v_ind_prs_pl": "drinken",
+      "v_ind_pst_1_sg": "dronk",
+      "v_ind_pst_2_sg": "dronk",
+      "v_ind_pst_3_sg": "dronk",
+      "v_ind_pst_pl": "dronken",
+      "v_nfin": "drinken",
+      "v_ptcp_pst": "gedronken",
+      "v_sbjv_prs_pl": "drinken",
+      "v_sbjv_prs_sg": "drinke",
+      "v_sbjv_pst_pl": "dronken",
+      "v_sbjv_pst_sg": "dronke"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "dromen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dromen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "droom",
+      "v_ind_prs_1_sg": "droom"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "dronken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dronken",
+    "inflections": {
+      "adj_def": "dronken",
+      "adj_def_cmpr": "dronkener",
+      "adj_def_sprl": "dronkenste",
+      "adj_indf_neut_sg": "dronken",
+      "adj_indf_neut_sg_cmpr": "dronken",
+      "adj_indf_neut_sg_sprl": "dronkener",
+      "adj_indf_pl": "dronken",
+      "adj_indf_pl_cmpr": "dronkener",
+      "adj_indf_pl_sprl": "dronkenste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "duidelijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "duidelijk",
+    "inflections": {
+      "adj_def": "duidelijke",
+      "adj_def_cmpr": "duidelijkere",
+      "adj_def_sprl": "duidelijkste",
+      "adj_indf_neut_sg": "duidelijk",
+      "adj_indf_neut_sg_cmpr": "duidelijke",
+      "adj_indf_neut_sg_sprl": "duidelijkere",
+      "adj_indf_pl": "duidelijke",
+      "adj_indf_pl_cmpr": "duidelijker",
+      "adj_indf_pl_sprl": "duidelijkste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "duren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "duren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "duurt",
+      "v_ind_prs_2_sg": "duurt",
+      "v_ind_prs_3_sg": "duurt"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "echt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "echt",
+    "inflections": {
+      "adj_def": "echte",
+      "adj_def_cmpr": "echtere",
+      "adj_def_sprl": "echtste",
+      "adj_indf_neut_sg": "echt",
+      "adj_indf_neut_sg_cmpr": "echte",
+      "adj_indf_neut_sg_sprl": "echtere",
+      "adj_indf_pl": "echte",
+      "adj_indf_pl_cmpr": "echter",
+      "adj_indf_pl_sprl": "echtste",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "een": {
+    "antonyms": [],
+    "base": "een",
+    "examples": [
+      "Een appel is lekker."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "eerlijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eerlijk",
+    "inflections": {
+      "adj_def": "eerlijke",
+      "adj_def_cmpr": "eerlijkere",
+      "adj_def_sprl": "eerlijkste",
+      "adj_indf_neut_sg": "eerlijk",
+      "adj_indf_neut_sg_cmpr": "eerlijke",
+      "adj_indf_neut_sg_sprl": "eerlijkere",
+      "adj_indf_pl": "eerlijke",
+      "adj_indf_pl_cmpr": "eerlijker",
+      "adj_indf_pl_sprl": "eerlijkste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "eigenen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eigenen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "eigen",
+      "v_ind_prs_1_sg": "eigen"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "eigenlijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eigenlijk",
+    "inflections": {
+      "adj_def": "eigenlijke",
+      "adj_indf_neut_sg": "eigenlijk",
+      "adj_indf_pl": "eigenlijke",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "Ik hou van koffie en thee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "erg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "erg",
+    "inflections": {
+      "adj_def": "erge",
+      "adj_def_cmpr": "ergere",
+      "adj_def_sprl": "ergste",
+      "adj_indf_neut_sg": "erg",
+      "adj_indf_neut_sg_cmpr": "erge",
+      "adj_indf_neut_sg_sprl": "ergere",
+      "adj_indf_pl": "erge",
+      "adj_indf_pl_cmpr": "erger",
+      "adj_indf_pl_sprl": "ergste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ergeren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ergeren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "erger",
+      "v_ind_prs_1_sg": "erger"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "even": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "even",
+    "inflections": {
+      "adj_def": "even",
+      "adj_indf_neut_sg": "even",
+      "adj_indf_pl": "even",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "excuseren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "excuseren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "excuseer",
+      "v_ind_prs_1_sg": "excuseer"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "fantastisch": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fantastisch",
+    "inflections": {
+      "adj_def": "fantastische",
+      "adj_def_cmpr": "fantastischere",
+      "adj_def_sprl": "fantastischte",
+      "adj_indf_neut_sg": "fantastisch",
+      "adj_indf_neut_sg_cmpr": "fantastische",
+      "adj_indf_neut_sg_sprl": "fantastischere",
+      "adj_indf_pl": "fantastische",
+      "adj_indf_pl_cmpr": "fantastischer",
+      "adj_indf_pl_sprl": "fantastischte",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "feesten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "feesten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "feest",
+      "v_imp_sg": "feest",
+      "v_ind_prs_1_sg": "feest",
+      "v_ind_prs_2_sg": "feest",
+      "v_ind_prs_3_sg": "feest"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "feliciteren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "feliciteren",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "gefeliciteerd"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "fijn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fijn",
+    "inflections": {
+      "adj_def": "fijne",
+      "adj_def_cmpr": "fijnere",
+      "adj_def_sprl": "fijnste",
+      "adj_indf_neut_sg": "fijn",
+      "adj_indf_neut_sg_cmpr": "fijne",
+      "adj_indf_neut_sg_sprl": "fijnere",
+      "adj_indf_pl": "fijne",
+      "adj_indf_pl_cmpr": "fijner",
+      "adj_indf_pl_sprl": "fijnste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gassen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gassen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "gast",
+      "v_ind_prs_2_sg": "gast",
+      "v_ind_prs_3_sg": "gast"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "geboren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geboren",
+    "inflections": {
+      "adj_def": "geboren",
+      "adj_indf_neut_sg": "geboren",
+      "adj_indf_pl": "geboren",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gedenken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gedenken",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "gedacht",
+      "v_ind_pst_2_sg": "gedacht",
+      "v_ind_pst_3_sg": "gedacht",
+      "v_ind_pst_pl": "gedachten",
+      "v_ptcp_pst": "gedacht",
+      "v_sbjv_pst_pl": "gedachten"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "geheim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geheim",
+    "inflections": {
+      "adj_def": "geheime",
+      "adj_def_cmpr": "geheimere",
+      "adj_def_sprl": "geheimste",
+      "adj_indf_neut_sg": "geheim",
+      "adj_indf_neut_sg_cmpr": "geheime",
+      "adj_indf_neut_sg_sprl": "geheimere",
+      "adj_indf_pl": "geheime",
+      "adj_indf_pl_cmpr": "geheimer",
+      "adj_indf_pl_sprl": "geheimste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gek",
+    "inflections": {
+      "adj_def": "gekke",
+      "adj_def_cmpr": "gekkere",
+      "adj_def_sprl": "gekste",
+      "adj_indf_neut_sg": "gek",
+      "adj_indf_neut_sg_cmpr": "gekke",
+      "adj_indf_neut_sg_sprl": "gekkere",
+      "adj_indf_pl": "gekke",
+      "adj_indf_pl_cmpr": "gekker",
+      "adj_indf_pl_sprl": "gekste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gelden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gelden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "geld",
+      "v_ind_prs_1_sg": "geld"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "geleerd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geleerd",
+    "inflections": {
+      "adj_def": "geleerde",
+      "adj_def_cmpr": "geleerdere",
+      "adj_def_sprl": "geleerdste",
+      "adj_indf_neut_sg": "geleerd",
+      "adj_indf_neut_sg_cmpr": "geleerde",
+      "adj_indf_neut_sg_sprl": "geleerdere",
+      "adj_indf_pl": "geleerde",
+      "adj_indf_pl_cmpr": "geleerder",
+      "adj_indf_pl_sprl": "geleerdste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gelijken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gelijken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "gelijk",
+      "v_ind_prs_1_sg": "gelijk"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "gelukkig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gelukkig",
+    "inflections": {
+      "adj_def": "gelukkige",
+      "adj_def_cmpr": "gelukkigere",
+      "adj_def_sprl": "gelukkigste",
+      "adj_indf_neut_sg": "gelukkig",
+      "adj_indf_neut_sg_cmpr": "gelukkige",
+      "adj_indf_neut_sg_sprl": "gelukkigere",
+      "adj_indf_pl": "gelukkige",
+      "adj_indf_pl_cmpr": "gelukkiger",
+      "adj_indf_pl_sprl": "gelukkigste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gemaakt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gemaakt",
+    "inflections": {
+      "adj_def": "gemaakte",
+      "adj_def_cmpr": "gemaaktere",
+      "adj_def_sprl": "gemaaktste",
+      "adj_indf_neut_sg": "gemaakt",
+      "adj_indf_neut_sg_cmpr": "gemaakte",
+      "adj_indf_neut_sg_sprl": "gemaaktere",
+      "adj_indf_pl": "gemaakte",
+      "adj_indf_pl_cmpr": "gemaakter",
+      "adj_indf_pl_sprl": "gemaaktste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "geraken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geraken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "geraakt",
+      "v_ind_prs_2_sg": "geraakt",
+      "v_ind_prs_3_sg": "geraakt",
+      "v_ptcp_pst": "geraakt"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "getrouwd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "getrouwd",
+    "inflections": {
+      "adj_def": "getrouwde",
+      "adj_indf_neut_sg": "getrouwd",
+      "adj_indf_pl": "getrouwde",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gevaarlijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gevaarlijk",
+    "inflections": {
+      "adj_def": "gevaarlijke",
+      "adj_def_cmpr": "gevaarlijkere",
+      "adj_def_sprl": "gevaarlijkste",
+      "adj_indf_neut_sg": "gevaarlijk",
+      "adj_indf_neut_sg_cmpr": "gevaarlijke",
+      "adj_indf_neut_sg_sprl": "gevaarlijkere",
+      "adj_indf_pl": "gevaarlijke",
+      "adj_indf_pl_cmpr": "gevaarlijker",
+      "adj_indf_pl_sprl": "gevaarlijkste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gevoelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gevoelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "gevoel",
+      "v_ind_prs_1_sg": "gevoel"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "geweldig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geweldig",
+    "inflections": {
+      "adj_def": "geweldige",
+      "adj_def_cmpr": "geweldigere",
+      "adj_def_sprl": "geweldigste",
+      "adj_indf_neut_sg": "geweldig",
+      "adj_indf_neut_sg_cmpr": "geweldige",
+      "adj_indf_neut_sg_sprl": "geweldigere",
+      "adj_indf_pl": "geweldige",
+      "adj_indf_pl_cmpr": "geweldiger",
+      "adj_indf_pl_sprl": "geweldigste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gewoon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gewoon",
+    "inflections": {
+      "adj_def": "gewone",
+      "adj_def_cmpr": "gewonere",
+      "adj_def_sprl": "gewoonste",
+      "adj_indf_neut_sg": "gewoon",
+      "adj_indf_neut_sg_cmpr": "gewone",
+      "adj_indf_neut_sg_sprl": "gewonere",
+      "adj_indf_pl": "gewone",
+      "adj_indf_pl_cmpr": "gewoner",
+      "adj_indf_pl_sprl": "gewoonste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "goed": {
+    "antonyms": [
+      "slecht"
+    ],
+    "base": "goed",
+    "examples": [
+      "Dat is een goed idee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "goeden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "goeden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "goed",
+      "v_ind_prs_1_sg": "goed",
+      "v_sbjv_prs_sg": "goede"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "goei": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "goei",
+    "inflections": {
+      "adj_def": "goeie",
+      "adj_def_sprl": "beste",
+      "adj_indf_neut_sg_cmpr": "beter",
+      "adj_indf_neut_sg_sprl": "beste",
+      "adj_indf_pl": "goeie",
+      "adj_indf_pl_sprl": "beste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "grappig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "grappig",
+    "inflections": {
+      "adj_def": "grappige",
+      "adj_def_cmpr": "grappigere",
+      "adj_def_sprl": "grappigste",
+      "adj_indf_neut_sg": "grappig",
+      "adj_indf_neut_sg_cmpr": "grappige",
+      "adj_indf_neut_sg_sprl": "grappigere",
+      "adj_indf_pl": "grappige",
+      "adj_indf_pl_cmpr": "grappiger",
+      "adj_indf_pl_sprl": "grappigste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "groots": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "groots",
+    "inflections": {
+      "adj_def_sprl": "grootste",
+      "adj_indf_pl_sprl": "grootste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "haar": {
+    "antonyms": [],
+    "base": "haar",
+    "examples": [
+      "Ik zie haar daar."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "halen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "halen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "haalt",
+      "v_imp_sg": "haal",
+      "v_ind_prs_1_sg": "haal",
+      "v_ind_prs_2_sg": "haalt",
+      "v_ind_prs_3_sg": "haalt",
+      "v_ind_prs_pl": "halen",
+      "v_ind_pst_1_sg": "haalde",
+      "v_ind_pst_2_sg": "haalde",
+      "v_ind_pst_3_sg": "haalde",
+      "v_ind_pst_pl": "haalden",
+      "v_nfin": "halen",
+      "v_ptcp_pst": "gehaald",
+      "v_sbjv_prs_pl": "halen",
+      "v_sbjv_prs_sg": "hale",
+      "v_sbjv_pst_pl": "haalden",
+      "v_sbjv_pst_sg": "haalde"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "half": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "half",
+    "inflections": {
+      "adj_def": "halve",
+      "adj_indf_neut_sg": "half",
+      "adj_indf_pl": "halve",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hard": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hard",
+    "inflections": {
+      "adj_def": "harde",
+      "adj_def_cmpr": "hardere",
+      "adj_def_sprl": "hardste",
+      "adj_indf_neut_sg": "hard",
+      "adj_indf_neut_sg_cmpr": "harde",
+      "adj_indf_neut_sg_sprl": "hardere",
+      "adj_indf_pl": "harde",
+      "adj_indf_pl_cmpr": "harder",
+      "adj_indf_pl_sprl": "hardste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "harden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "harden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "hard",
+      "v_ind_prs_1_sg": "hard"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "haten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "haten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "haat",
+      "v_imp_sg": "haat",
+      "v_ind_prs_1_sg": "haat",
+      "v_ind_prs_2_sg": "haat",
+      "v_ind_prs_3_sg": "haat"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "hebben": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hebben",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "hebt",
+      "v_imp_sg": "heb",
+      "v_ind_prs_1_sg": "heb",
+      "v_ind_prs_2_sg": "hebt",
+      "v_ind_prs_3_sg": "heeft",
+      "v_ind_prs_pl": "hebben",
+      "v_ind_pst_1_sg": "had",
+      "v_ind_pst_2_sg": "had",
+      "v_ind_pst_3_sg": "had",
+      "v_ind_pst_pl": "hadden",
+      "v_nfin": "hebben",
+      "v_ptcp_pst": "gehad",
+      "v_sbjv_prs_pl": "hebben",
+      "v_sbjv_prs_sg": "hebbe",
+      "v_sbjv_pst_pl": "hadden",
+      "v_sbjv_pst_sg": "hadde"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "hebt": {
+    "antonyms": [],
+    "base": "hebben",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "heel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "heel",
+    "inflections": {
+      "adj_def": "hele",
+      "adj_def_cmpr": "helere",
+      "adj_def_sprl": "heelste",
+      "adj_indf_neut_sg": "heel",
+      "adj_indf_neut_sg_cmpr": "hele",
+      "adj_indf_neut_sg_sprl": "helere",
+      "adj_indf_pl": "hele",
+      "adj_indf_pl_cmpr": "heler",
+      "adj_indf_pl_sprl": "heelste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hellen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hellen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "hel",
+      "v_ind_prs_1_sg": "hel"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "helpen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "helpen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "helpt",
+      "v_imp_sg": "help",
+      "v_ind_prs_1_sg": "help",
+      "v_ind_prs_2_sg": "helpt",
+      "v_ind_prs_3_sg": "helpt",
+      "v_ind_prs_pl": "helpen",
+      "v_ind_pst_1_sg": "hielp",
+      "v_ind_pst_2_sg": "hielp",
+      "v_ind_pst_3_sg": "hielp",
+      "v_ind_pst_pl": "hielpen",
+      "v_nfin": "helpen",
+      "v_ptcp_pst": "geholpen",
+      "v_sbjv_prs_pl": "helpen",
+      "v_sbjv_prs_sg": "helpe",
+      "v_sbjv_pst_pl": "hielpen",
+      "v_sbjv_pst_sg": "hielpe"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "herinneren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "herinneren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "herinnert",
+      "v_imp_sg": "herinner",
+      "v_ind_prs_1_sg": "herinner",
+      "v_ind_prs_2_sg": "herinnert",
+      "v_ind_prs_3_sg": "herinnert",
+      "v_ind_prs_pl": "herinneren",
+      "v_ind_pst_1_sg": "herinnerde",
+      "v_ind_pst_2_sg": "herinnerde",
+      "v_ind_pst_3_sg": "herinnerde",
+      "v_ind_pst_pl": "herinnerden",
+      "v_nfin": "herinneren",
+      "v_ptcp_pst": "herinnerd",
+      "v_sbjv_prs_pl": "herinneren",
+      "v_sbjv_prs_sg": "herinnere",
+      "v_sbjv_pst_pl": "herinnerden",
+      "v_sbjv_pst_sg": "herinnerde"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "het": {
+    "antonyms": [],
+    "base": "het",
+    "examples": [
+      "Het is een mooie dag."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun",
+      "article"
+    ]
+  },
+  "hoe": {
+    "antonyms": [],
+    "base": "hoe",
+    "examples": [
+      "Hoe gaat het?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "hongeren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hongeren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "honger",
+      "v_ind_prs_1_sg": "honger"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "hopen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hopen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "hoop",
+      "v_ind_prs_1_sg": "hoop"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "horen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "horen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "hoort",
+      "v_imp_sg": "hoor",
+      "v_ind_prs_1_sg": "hoor",
+      "v_ind_prs_2_sg": "hoort",
+      "v_ind_prs_3_sg": "hoort",
+      "v_ind_prs_pl": "horen",
+      "v_ind_pst_1_sg": "hoorde",
+      "v_ind_pst_2_sg": "hoorde",
+      "v_ind_pst_3_sg": "hoorde",
+      "v_ind_pst_pl": "hoorden",
+      "v_nfin": "horen",
+      "v_ptcp_pst": "gehoord",
+      "v_sbjv_prs_pl": "horen",
+      "v_sbjv_prs_sg": "hore",
+      "v_sbjv_pst_pl": "hoorden",
+      "v_sbjv_pst_sg": "hoorde"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "huizen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "huizen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "huis",
+      "v_ind_prs_1_sg": "huis"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "idioot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "idioot",
+    "inflections": {
+      "adj_def": "idiote",
+      "adj_def_cmpr": "idiotere",
+      "adj_def_sprl": "idiootste",
+      "adj_indf_neut_sg": "idioot",
+      "adj_indf_neut_sg_cmpr": "idiote",
+      "adj_indf_neut_sg_sprl": "idiotere",
+      "adj_indf_pl": "idiote",
+      "adj_indf_pl_cmpr": "idioter",
+      "adj_indf_pl_sprl": "idiootste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ik": {
+    "antonyms": [],
+    "base": "ik",
+    "examples": [
+      "Ik ben hier."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "innen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "innen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "in",
+      "v_ind_prs_1_sg": "in"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "is": {
+    "antonyms": [],
+    "base": "is",
+    "examples": [
+      "Hij is een dokter."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "isogeen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "isogeen",
+    "inflections": {
+      "adj_def": "ene",
+      "adj_indf_pl": "ene",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "jammer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jammer",
+    "inflections": {
+      "adj_def": "jammere",
+      "adj_def_cmpr": "jammerdere",
+      "adj_def_sprl": "jammerste",
+      "adj_indf_neut_sg": "jammer",
+      "adj_indf_neut_sg_cmpr": "jammere",
+      "adj_indf_neut_sg_sprl": "jammerdere",
+      "adj_indf_pl": "jammere",
+      "adj_indf_pl_cmpr": "jammerder",
+      "adj_indf_pl_sprl": "jammerste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "jammeren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jammeren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "jammer",
+      "v_ind_prs_1_sg": "jammer"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "Je bent mijn vriend."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jijen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jijen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "jij",
+      "v_ind_prs_1_sg": "jij"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jong": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jong",
+    "inflections": {
+      "adj_def": "jonge",
+      "adj_def_cmpr": "jongere",
+      "adj_def_sprl": "jongste",
+      "adj_indf_neut_sg": "jong",
+      "adj_indf_neut_sg_cmpr": "jonge",
+      "adj_indf_neut_sg_sprl": "jongere",
+      "adj_indf_pl": "jonge",
+      "adj_indf_pl_cmpr": "jonger",
+      "adj_indf_pl_sprl": "jongste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "jouen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jouen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "jou",
+      "v_ind_prs_1_sg": "jou"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "juist": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "juist",
+    "inflections": {
+      "adj_def": "juiste",
+      "adj_def_cmpr": "juistere",
+      "adj_def_sprl": "juistste",
+      "adj_indf_neut_sg": "juist",
+      "adj_indf_neut_sg_cmpr": "juiste",
+      "adj_indf_neut_sg_sprl": "juistere",
+      "adj_indf_pl": "juiste",
+      "adj_indf_pl_cmpr": "juister",
+      "adj_indf_pl_sprl": "juistste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kijken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kijken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "kijkt",
+      "v_imp_sg": "kijk",
+      "v_ind_prs_1_sg": "kijk",
+      "v_ind_prs_2_sg": "kijkt",
+      "v_ind_prs_3_sg": "kijkt",
+      "v_ind_prs_pl": "kijken",
+      "v_ind_pst_1_sg": "keek",
+      "v_ind_pst_2_sg": "keek",
+      "v_ind_pst_3_sg": "keek",
+      "v_ind_pst_pl": "keken",
+      "v_nfin": "kijken",
+      "v_ptcp_pst": "gekeken",
+      "v_sbjv_prs_pl": "kijken",
+      "v_sbjv_prs_sg": "kijke",
+      "v_sbjv_pst_pl": "keken",
+      "v_sbjv_pst_sg": "keke"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "klaar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klaar",
+    "inflections": {
+      "adj_def": "klare",
+      "adj_def_cmpr": "klaardere",
+      "adj_def_sprl": "klaarste",
+      "adj_indf_neut_sg": "klaar",
+      "adj_indf_neut_sg_cmpr": "klare",
+      "adj_indf_neut_sg_sprl": "klaardere",
+      "adj_indf_pl": "klare",
+      "adj_indf_pl_cmpr": "klaarder",
+      "adj_indf_pl_sprl": "klaarste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "klinken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klinken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "klinkt",
+      "v_ind_prs_2_sg": "klinkt",
+      "v_ind_prs_3_sg": "klinkt"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kom": {
+    "antonyms": [],
+    "base": "komen",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "kommen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kommen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "komt",
+      "v_imp_sg": "kom",
+      "v_ind_prs_1_sg": "kom",
+      "v_ind_prs_2_sg": "komt",
+      "v_ind_prs_3_sg": "komt",
+      "v_ind_pst_1_sg": "kwam",
+      "v_ind_pst_2_sg": "kwam",
+      "v_ind_pst_3_sg": "kwam",
+      "v_ind_pst_pl": "kwamen",
+      "v_sbjv_pst_pl": "kwamen"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "koppen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "koppen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "kop",
+      "v_ind_prs_1_sg": "kop"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "krijgen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "krijgen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "krijgt",
+      "v_imp_sg": "krijg",
+      "v_ind_prs_1_sg": "krijg",
+      "v_ind_prs_2_sg": "krijgt",
+      "v_ind_prs_3_sg": "krijgt",
+      "v_ind_prs_pl": "krijgen",
+      "v_ind_pst_1_sg": "kreeg",
+      "v_ind_pst_2_sg": "kreeg",
+      "v_ind_pst_3_sg": "kreeg",
+      "v_ind_pst_pl": "kregen",
+      "v_nfin": "krijgen",
+      "v_ptcp_pst": "gekregen",
+      "v_sbjv_prs_pl": "krijgen",
+      "v_sbjv_prs_sg": "krijge",
+      "v_sbjv_pst_pl": "kregen",
+      "v_sbjv_pst_sg": "krege"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "kunnen": {
+    "antonyms": [],
+    "base": "kunnen",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "kwaad": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kwaad",
+    "inflections": {
+      "adj_def": "kwade",
+      "adj_def_cmpr": "kwadere",
+      "adj_def_sprl": "kwaadste",
+      "adj_indf_neut_sg": "kwaad",
+      "adj_indf_neut_sg_cmpr": "kwade",
+      "adj_indf_neut_sg_sprl": "kwadere",
+      "adj_indf_pl": "kwade",
+      "adj_indf_pl_cmpr": "kwader",
+      "adj_indf_pl_sprl": "kwaadste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kwijt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kwijt",
+    "inflections": {
+      "adj_def": "kwijte",
+      "adj_indf_neut_sg": "kwijt",
+      "adj_indf_pl": "kwijte",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kwijten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kwijten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "kwijt",
+      "v_imp_sg": "kwijt",
+      "v_ind_prs_1_sg": "kwijt",
+      "v_ind_prs_2_sg": "kwijt",
+      "v_ind_prs_3_sg": "kwijt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "laat": {
+    "antonyms": [],
+    "base": "laten",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "lachen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lachen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "lacht",
+      "v_imp_sg": "lach",
+      "v_ind_prs_1_sg": "lach",
+      "v_ind_prs_2_sg": "lacht",
+      "v_ind_prs_3_sg": "lacht",
+      "v_ind_prs_pl": "lachen",
+      "v_ind_pst_1_sg": "lachte",
+      "v_ind_pst_2_sg": "lachte",
+      "v_ind_pst_3_sg": "lachte",
+      "v_ind_pst_pl": "lachten",
+      "v_nfin": "lachen",
+      "v_ptcp_pst": "gelachen",
+      "v_sbjv_prs_pl": "lachen",
+      "v_sbjv_prs_sg": "lache",
+      "v_sbjv_pst_pl": "lachten",
+      "v_sbjv_pst_sg": "lachte"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "landen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "landen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "land",
+      "v_ind_prs_1_sg": "land"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "lang": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lang",
+    "inflections": {
+      "adj_def": "lange",
+      "adj_def_cmpr": "langere",
+      "adj_def_sprl": "langste",
+      "adj_indf_neut_sg": "lang",
+      "adj_indf_neut_sg_cmpr": "lange",
+      "adj_indf_neut_sg_sprl": "langere",
+      "adj_indf_pl": "lange",
+      "adj_indf_pl_cmpr": "langer",
+      "adj_indf_pl_sprl": "langste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "later": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "later",
+    "inflections": {
+      "adj_def": "latere",
+      "adj_indf_neut_sg": "later",
+      "adj_indf_pl": "latere",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "lek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lek",
+    "inflections": {
+      "adj_indf_pl_cmpr": "lekker",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "letten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "letten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "let",
+      "v_imp_sg": "let",
+      "v_ind_prs_1_sg": "let",
+      "v_ind_prs_2_sg": "let",
+      "v_ind_prs_3_sg": "let"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "leuk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leuk",
+    "inflections": {
+      "adj_def": "leuke",
+      "adj_def_cmpr": "leukere",
+      "adj_def_sprl": "leukste",
+      "adj_indf_neut_sg": "leuk",
+      "adj_indf_neut_sg_cmpr": "leuke",
+      "adj_indf_neut_sg_sprl": "leukere",
+      "adj_indf_pl": "leuke",
+      "adj_indf_pl_cmpr": "leuker",
+      "adj_indf_pl_sprl": "leukste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "lezen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lezen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "leest",
+      "v_imp_sg": "lees",
+      "v_ind_prs_1_sg": "lees",
+      "v_ind_prs_2_sg": "leest",
+      "v_ind_prs_3_sg": "leest",
+      "v_ind_prs_pl": "lezen",
+      "v_ind_pst_1_sg": "las",
+      "v_ind_pst_2_sg": "las",
+      "v_ind_pst_3_sg": "las",
+      "v_ind_pst_pl": "lazen",
+      "v_nfin": "lezen",
+      "v_ptcp_pst": "gelezen",
+      "v_sbjv_prs_pl": "lezen",
+      "v_sbjv_prs_sg": "leze",
+      "v_sbjv_pst_pl": "lazen",
+      "v_sbjv_pst_sg": "laze"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "lichten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lichten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "licht",
+      "v_imp_sg": "licht",
+      "v_ind_prs_1_sg": "licht",
+      "v_ind_prs_2_sg": "licht",
+      "v_ind_prs_3_sg": "licht"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "lijden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lijden",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "geleden"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "lossen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lossen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "los",
+      "v_ind_prs_1_sg": "los"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "luchten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "luchten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "lucht",
+      "v_imp_sg": "lucht",
+      "v_ind_prs_1_sg": "lucht",
+      "v_ind_prs_2_sg": "lucht",
+      "v_ind_prs_3_sg": "lucht"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "lukken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lukken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "lukt",
+      "v_ind_prs_2_sg": "lukt",
+      "v_ind_prs_3_sg": "lukt"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "m": {
+    "antonyms": [],
+    "base": "m",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "maken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "maakt",
+      "v_imp_sg": "maak",
+      "v_ind_prs_1_sg": "maak",
+      "v_ind_prs_2_sg": "maakt",
+      "v_ind_prs_3_sg": "maakt",
+      "v_ind_prs_pl": "maken",
+      "v_ind_pst_1_sg": "maakte",
+      "v_ind_pst_2_sg": "maakte",
+      "v_ind_pst_3_sg": "maakte",
+      "v_ind_pst_pl": "maakten",
+      "v_nfin": "maken",
+      "v_ptcp_pst": "gemaakt",
+      "v_sbjv_prs_pl": "maken",
+      "v_sbjv_prs_sg": "make",
+      "v_sbjv_pst_pl": "maakten",
+      "v_sbjv_pst_sg": "maakte"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "makkelijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "makkelijk",
+    "inflections": {
+      "adj_def": "makkelijke",
+      "adj_def_cmpr": "makkelijkere",
+      "adj_def_sprl": "makkelijkste",
+      "adj_indf_neut_sg": "makkelijk",
+      "adj_indf_neut_sg_cmpr": "makkelijke",
+      "adj_indf_neut_sg_sprl": "makkelijkere",
+      "adj_indf_pl": "makkelijke",
+      "adj_indf_pl_cmpr": "makkelijker",
+      "adj_indf_pl_sprl": "makkelijkste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "meer": {
+    "antonyms": [
+      "minder"
+    ],
+    "base": "meer",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  "menen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "menen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "meen",
+      "v_ind_prs_1_sg": "meen"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "mijn": {
+    "antonyms": [],
+    "base": "mijn",
+    "examples": [
+      "Dit is mijn huis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "missen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "missen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "mist",
+      "v_imp_sg": "mis",
+      "v_ind_prs_1_sg": "mis",
+      "v_ind_prs_2_sg": "mist",
+      "v_ind_prs_3_sg": "mist",
+      "v_ind_prs_pl": "missen",
+      "v_ind_pst_1_sg": "miste",
+      "v_ind_pst_2_sg": "miste",
+      "v_ind_pst_3_sg": "miste",
+      "v_ind_pst_pl": "misten",
+      "v_nfin": "missen",
+      "v_ptcp_pst": "gemist",
+      "v_sbjv_prs_pl": "missen",
+      "v_sbjv_prs_sg": "misse",
+      "v_sbjv_pst_pl": "misten",
+      "v_sbjv_pst_sg": "miste"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "moe": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moe",
+    "inflections": {
+      "adj_def": "moeë",
+      "adj_def_cmpr": "moeëre",
+      "adj_def_sprl": "moeste",
+      "adj_indf_neut_sg": "moe",
+      "adj_indf_neut_sg_cmpr": "moeë",
+      "adj_indf_neut_sg_sprl": "moeëre",
+      "adj_indf_pl": "moeë",
+      "adj_indf_pl_cmpr": "moeër",
+      "adj_indf_pl_sprl": "moeste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "moeilijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moeilijk",
+    "inflections": {
+      "adj_def": "moeilijke",
+      "adj_def_cmpr": "moeilijkere",
+      "adj_def_sprl": "moeilijkste",
+      "adj_indf_neut_sg": "moeilijk",
+      "adj_indf_neut_sg_cmpr": "moeilijke",
+      "adj_indf_neut_sg_sprl": "moeilijkere",
+      "adj_indf_pl": "moeilijke",
+      "adj_indf_pl_cmpr": "moeilijker",
+      "adj_indf_pl_sprl": "moeilijkste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "moeten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "moeten",
+    "examples": [],
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "moet",
+      "v_imp_sg": "moet",
+      "v_ind_prs_1_sg": "moet",
+      "v_ind_prs_2_sg": "moet",
+      "v_ind_prs_3_sg": "moet",
+      "v_ind_prs_pl": "moeten",
+      "v_ind_pst_1_sg": "moest",
+      "v_ind_pst_2_sg": "moest",
+      "v_ind_pst_3_sg": "moest",
+      "v_ind_pst_pl": "moesten",
+      "v_nfin": "moeten",
+      "v_ptcp_pst": "gemoeten",
+      "v_sbjv_prs_pl": "moeten",
+      "v_sbjv_prs_sg": "moete",
+      "v_sbjv_pst_pl": "moesten",
+      "v_sbjv_pst_sg": "moeste"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "mogelijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mogelijk",
+    "inflections": {
+      "adj_def": "mogelijke",
+      "adj_indf_neut_sg": "mogelijk",
+      "adj_indf_pl": "mogelijke",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mogen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mogen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "moogt",
+      "v_imp_sg": "mag",
+      "v_ind_prs_1_sg": "mag",
+      "v_ind_prs_2_sg": "mag",
+      "v_ind_prs_3_sg": "mag",
+      "v_ind_prs_pl": "mogen",
+      "v_ind_pst_1_sg": "mocht",
+      "v_ind_pst_2_sg": "mocht",
+      "v_ind_pst_3_sg": "mocht",
+      "v_ind_pst_pl": "mochten",
+      "v_nfin": "mogen",
+      "v_ptcp_pst": "gemogen",
+      "v_sbjv_prs_pl": "mogen",
+      "v_sbjv_prs_sg": "moge",
+      "v_sbjv_pst_pl": "mochten",
+      "v_sbjv_pst_sg": "mochte"
+    },
+    "priority": 5,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "mooi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mooi",
+    "inflections": {
+      "adj_def": "mooie",
+      "adj_def_cmpr": "mooiere",
+      "adj_def_sprl": "mooiste",
+      "adj_indf_neut_sg": "mooi",
+      "adj_indf_neut_sg_cmpr": "mooie",
+      "adj_indf_neut_sg_sprl": "mooiere",
+      "adj_indf_pl": "mooie",
+      "adj_indf_pl_cmpr": "mooier",
+      "adj_indf_pl_sprl": "mooiste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "moorden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moorden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "moord",
+      "v_ind_prs_1_sg": "moord"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "n": {
+    "antonyms": [],
+    "base": "n",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "article"
+    ]
+  },
+  "naasten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "naasten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "naast",
+      "v_imp_sg": "naast",
+      "v_ind_prs_1_sg": "naast",
+      "v_ind_prs_2_sg": "naast",
+      "v_ind_prs_3_sg": "naast"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "natuurlijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "natuurlijk",
+    "inflections": {
+      "adj_def": "natuurlijke",
+      "adj_def_cmpr": "natuurlijkere",
+      "adj_def_sprl": "natuurlijkste",
+      "adj_indf_neut_sg": "natuurlijk",
+      "adj_indf_neut_sg_cmpr": "natuurlijke",
+      "adj_indf_neut_sg_sprl": "natuurlijkere",
+      "adj_indf_pl": "natuurlijke",
+      "adj_indf_pl_cmpr": "natuurlijker",
+      "adj_indf_pl_sprl": "natuurlijkste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nee": {
+    "antonyms": [
+      "ja"
+    ],
+    "base": "nee",
+    "examples": [
+      "Nee, dat wil ik niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nemen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nemen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "neemt",
+      "v_imp_sg": "neem",
+      "v_ind_prs_1_sg": "neem",
+      "v_ind_prs_2_sg": "neemt",
+      "v_ind_prs_3_sg": "neemt",
+      "v_ind_prs_pl": "nemen",
+      "v_ind_pst_1_sg": "nam",
+      "v_ind_pst_2_sg": "nam",
+      "v_ind_pst_3_sg": "nam",
+      "v_ind_pst_pl": "namen",
+      "v_nfin": "nemen",
+      "v_ptcp_pst": "genomen",
+      "v_sbjv_prs_pl": "nemen",
+      "v_sbjv_prs_sg": "neme",
+      "v_sbjv_pst_pl": "namen",
+      "v_sbjv_pst_sg": "name"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "niet": {
+    "antonyms": [
+      "wel"
+    ],
+    "base": "niet",
+    "examples": [
+      "Ik begrijp het niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nieten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nieten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "niet",
+      "v_imp_sg": "niet",
+      "v_ind_prs_1_sg": "niet",
+      "v_ind_prs_2_sg": "niet",
+      "v_ind_prs_3_sg": "niet"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "nodig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nodig",
+    "inflections": {
+      "adj_def": "nodige",
+      "adj_def_cmpr": "nodigere",
+      "adj_def_sprl": "nodigste",
+      "adj_indf_neut_sg": "nodig",
+      "adj_indf_neut_sg_cmpr": "nodige",
+      "adj_indf_neut_sg_sprl": "nodigere",
+      "adj_indf_pl": "nodige",
+      "adj_indf_pl_cmpr": "nodiger",
+      "adj_indf_pl_sprl": "nodigste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "noemen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noemen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "noemt",
+      "v_imp_sg": "noem",
+      "v_ind_prs_1_sg": "noem",
+      "v_ind_prs_2_sg": "noemt",
+      "v_ind_prs_3_sg": "noemt",
+      "v_ind_prs_pl": "noemen",
+      "v_ind_pst_1_sg": "noemde",
+      "v_ind_pst_2_sg": "noemde",
+      "v_ind_pst_3_sg": "noemde",
+      "v_ind_pst_pl": "noemden",
+      "v_nfin": "noemen",
+      "v_ptcp_pst": "genoemd",
+      "v_sbjv_prs_pl": "noemen",
+      "v_sbjv_prs_sg": "noeme",
+      "v_sbjv_pst_pl": "noemden",
+      "v_sbjv_pst_sg": "noemde"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "normaal": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "normaal",
+    "inflections": {
+      "adj_def": "normale",
+      "adj_def_cmpr": "normalere",
+      "adj_def_sprl": "normaalste",
+      "adj_indf_neut_sg": "normaal",
+      "adj_indf_neut_sg_cmpr": "normale",
+      "adj_indf_neut_sg_sprl": "normalere",
+      "adj_indf_pl": "normale",
+      "adj_indf_pl_cmpr": "normaler",
+      "adj_indf_pl_sprl": "normaalste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nu": {
+    "antonyms": [],
+    "base": "nu",
+    "examples": [
+      "Ik ben nu thuis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "om": {
+    "antonyms": [],
+    "base": "om",
+    "examples": [
+      "Ik kom om 5 uur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "onderzoeken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "onderzoeken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "onderzoek",
+      "v_ind_prs_1_sg": "onderzoek"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "onmogelijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "onmogelijk",
+    "inflections": {
+      "adj_def": "onmogelijke",
+      "adj_def_cmpr": "onmogelijkere",
+      "adj_def_sprl": "onmogelijkste",
+      "adj_indf_neut_sg": "onmogelijk",
+      "adj_indf_neut_sg_cmpr": "onmogelijke",
+      "adj_indf_neut_sg_sprl": "onmogelijkere",
+      "adj_indf_pl": "onmogelijke",
+      "adj_indf_pl_cmpr": "onmogelijker",
+      "adj_indf_pl_sprl": "onmogelijkste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ontmoeten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ontmoeten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "ontmoet",
+      "v_imp_sg": "ontmoet",
+      "v_ind_prs_1_sg": "ontmoet",
+      "v_ind_prs_2_sg": "ontmoet",
+      "v_ind_prs_3_sg": "ontmoet",
+      "v_ind_prs_pl": "ontmoeten",
+      "v_ind_pst_1_sg": "ontmoette",
+      "v_ind_pst_2_sg": "ontmoette",
+      "v_ind_pst_3_sg": "ontmoette",
+      "v_ind_pst_pl": "ontmoetten",
+      "v_nfin": "ontmoeten",
+      "v_ptcp_pst": "ontmoet",
+      "v_sbjv_prs_pl": "ontmoeten",
+      "v_sbjv_prs_sg": "ontmoete",
+      "v_sbjv_pst_pl": "ontmoetten",
+      "v_sbjv_pst_sg": "ontmoette"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ook": {
+    "antonyms": [],
+    "base": "ook",
+    "examples": [
+      "Ik wil ook gaan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "open": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "open",
+    "inflections": {
+      "adj_def": "open",
+      "adj_def_cmpr": "opener",
+      "adj_def_sprl": "openste",
+      "adj_indf_neut_sg": "open",
+      "adj_indf_neut_sg_cmpr": "open",
+      "adj_indf_neut_sg_sprl": "opener",
+      "adj_indf_pl": "open",
+      "adj_indf_pl_cmpr": "opener",
+      "adj_indf_pl_sprl": "openste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "openen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "openen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "open",
+      "v_ind_prs_1_sg": "open"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "oud": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oud",
+    "inflections": {
+      "adj_def": "oude",
+      "adj_def_cmpr": "oudere",
+      "adj_def_sprl": "oudste",
+      "adj_indf_neut_sg": "oud",
+      "adj_indf_neut_sg_cmpr": "oude",
+      "adj_indf_neut_sg_sprl": "oudere",
+      "adj_indf_pl": "oude",
+      "adj_indf_pl_cmpr": "ouder",
+      "adj_indf_pl_sprl": "oudste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "over": {
+    "antonyms": [],
+    "base": "over",
+    "examples": [
+      "We praten over het probleem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "paren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "paren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "paar",
+      "v_ind_prs_1_sg": "paar"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "perfect": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "perfect",
+    "inflections": {
+      "adj_def": "perfecte",
+      "adj_def_cmpr": "perfectere",
+      "adj_def_sprl": "perfectste",
+      "adj_indf_neut_sg": "perfect",
+      "adj_indf_neut_sg_cmpr": "perfecte",
+      "adj_indf_neut_sg_sprl": "perfectere",
+      "adj_indf_pl": "perfecte",
+      "adj_indf_pl_cmpr": "perfecter",
+      "adj_indf_pl_sprl": "perfectste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "plaatsen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plaatsen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "plaats",
+      "v_ind_prs_1_sg": "plaats"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "prachtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prachtig",
+    "inflections": {
+      "adj_def": "prachtige",
+      "adj_def_cmpr": "prachtigere",
+      "adj_def_sprl": "prachtigste",
+      "adj_indf_neut_sg": "prachtig",
+      "adj_indf_neut_sg_cmpr": "prachtige",
+      "adj_indf_neut_sg_sprl": "prachtigere",
+      "adj_indf_pl": "prachtige",
+      "adj_indf_pl_cmpr": "prachtiger",
+      "adj_indf_pl_sprl": "prachtigste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "praten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "praten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "praat",
+      "v_imp_sg": "praat",
+      "v_ind_prs_1_sg": "praat",
+      "v_ind_prs_2_sg": "praat",
+      "v_ind_prs_3_sg": "praat",
+      "v_ind_prs_pl": "praten",
+      "v_ind_pst_1_sg": "praatte",
+      "v_ind_pst_2_sg": "praatte",
+      "v_ind_pst_3_sg": "praatte",
+      "v_ind_pst_pl": "praatten",
+      "v_nfin": "praten",
+      "v_ptcp_pst": "gepraat",
+      "v_sbjv_prs_pl": "praten",
+      "v_sbjv_prs_sg": "prate",
+      "v_sbjv_pst_pl": "praatten",
+      "v_sbjv_pst_sg": "praatte"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "precies": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "precies",
+    "inflections": {
+      "adj_def": "precieze",
+      "adj_def_cmpr": "preciezere",
+      "adj_def_sprl": "precieste",
+      "adj_indf_neut_sg": "precies",
+      "adj_indf_neut_sg_cmpr": "precieze",
+      "adj_indf_neut_sg_sprl": "preciezere",
+      "adj_indf_pl": "precieze",
+      "adj_indf_pl_cmpr": "preciezer",
+      "adj_indf_pl_sprl": "precieste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "raar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "raar",
+    "inflections": {
+      "adj_def": "rare",
+      "adj_def_cmpr": "raardere",
+      "adj_def_sprl": "raarste",
+      "adj_indf_neut_sg": "raar",
+      "adj_indf_neut_sg_cmpr": "rare",
+      "adj_indf_neut_sg_sprl": "raardere",
+      "adj_indf_pl": "rare",
+      "adj_indf_pl_cmpr": "raarder",
+      "adj_indf_pl_sprl": "raarste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "raken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "raken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "raakt",
+      "v_imp_sg": "raak",
+      "v_ind_prs_1_sg": "raak",
+      "v_ind_prs_2_sg": "raakt",
+      "v_ind_prs_3_sg": "raakt",
+      "v_ind_prs_pl": "raken",
+      "v_ind_pst_1_sg": "raakte",
+      "v_ind_pst_2_sg": "raakte",
+      "v_ind_pst_3_sg": "raakte",
+      "v_ind_pst_pl": "raakten",
+      "v_nfin": "raken",
+      "v_ptcp_pst": "geraakt",
+      "v_sbjv_prs_pl": "raken",
+      "v_sbjv_prs_sg": "rake",
+      "v_sbjv_pst_pl": "raakten",
+      "v_sbjv_pst_sg": "raakte"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "rechten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rechten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "recht",
+      "v_imp_sg": "recht",
+      "v_ind_prs_1_sg": "recht",
+      "v_ind_prs_2_sg": "recht",
+      "v_ind_prs_3_sg": "recht"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "rechter": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rechter",
+    "inflections": {
+      "adj_def": "rechter",
+      "adj_indf_neut_sg": "rechter",
+      "adj_indf_pl": "rechter",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "redden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "redden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "redt",
+      "v_imp_sg": "red",
+      "v_ind_prs_1_sg": "red",
+      "v_ind_prs_2_sg": "redt",
+      "v_ind_prs_3_sg": "redt",
+      "v_ind_prs_pl": "redden",
+      "v_ind_pst_1_sg": "redde",
+      "v_ind_pst_2_sg": "redde",
+      "v_ind_pst_3_sg": "redde",
+      "v_ind_pst_pl": "redden",
+      "v_nfin": "redden",
+      "v_ptcp_pst": "gered",
+      "v_sbjv_prs_pl": "redden",
+      "v_sbjv_prs_sg": "redde",
+      "v_sbjv_pst_pl": "redden",
+      "v_sbjv_pst_sg": "redde"
+    },
+    "priority": 6,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "reden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "reden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "reedt",
+      "v_imp_sg": "reed",
+      "v_ind_prs_1_sg": "reed",
+      "v_ind_prs_2_sg": "reedt",
+      "v_ind_prs_3_sg": "reedt",
+      "v_ind_prs_pl": "reden",
+      "v_ind_pst_1_sg": "reedde",
+      "v_ind_pst_2_sg": "reedde",
+      "v_ind_pst_3_sg": "reedde",
+      "v_ind_pst_pl": "reedden",
+      "v_nfin": "reden",
+      "v_ptcp_pst": "gereed",
+      "v_sbjv_prs_pl": "reden",
+      "v_sbjv_prs_sg": "rede",
+      "v_sbjv_pst_pl": "reedden",
+      "v_sbjv_pst_sg": "reedde"
+    },
+    "priority": 6,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "regelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "regelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "regelt",
+      "v_imp_sg": "regel",
+      "v_ind_prs_1_sg": "regel",
+      "v_ind_prs_2_sg": "regelt",
+      "v_ind_prs_3_sg": "regelt",
+      "v_ind_prs_pl": "regelen",
+      "v_ind_pst_1_sg": "regelde",
+      "v_ind_pst_2_sg": "regelde",
+      "v_ind_pst_3_sg": "regelde",
+      "v_ind_pst_pl": "regelden",
+      "v_nfin": "regelen",
+      "v_ptcp_pst": "geregeld",
+      "v_sbjv_prs_pl": "regelen",
+      "v_sbjv_prs_sg": "regele",
+      "v_sbjv_pst_pl": "regelden",
+      "v_sbjv_pst_sg": "regelde"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "reizen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "reizen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "reis",
+      "v_ind_prs_1_sg": "reis"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "rijen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rijen",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_pl": "rijden",
+      "v_sbjv_pst_pl": "rijden"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "rustig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rustig",
+    "inflections": {
+      "adj_def": "rustige",
+      "adj_def_cmpr": "rustigere",
+      "adj_def_sprl": "rustigste",
+      "adj_indf_neut_sg": "rustig",
+      "adj_indf_neut_sg_cmpr": "rustige",
+      "adj_indf_neut_sg_sprl": "rustigere",
+      "adj_indf_pl": "rustige",
+      "adj_indf_pl_cmpr": "rustiger",
+      "adj_indf_pl_sprl": "rustigste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ruziën": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ruziën",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "ruzie",
+      "v_ind_prs_1_sg": "ruzie"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "schelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "scheelt",
+      "v_imp_sg": "scheel",
+      "v_ind_prs_1_sg": "scheel",
+      "v_ind_prs_2_sg": "scheelt",
+      "v_ind_prs_3_sg": "scheelt",
+      "v_ind_prs_pl": "schelen",
+      "v_ind_pst_1_sg": "scheelde",
+      "v_ind_pst_2_sg": "scheelde",
+      "v_ind_pst_3_sg": "scheelde",
+      "v_ind_pst_pl": "scheelden",
+      "v_nfin": "schelen",
+      "v_ptcp_pst": "gescheeld",
+      "v_sbjv_prs_pl": "schelen",
+      "v_sbjv_prs_sg": "schele",
+      "v_sbjv_pst_pl": "scheelden",
+      "v_sbjv_pst_sg": "scheelde"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "schrijven": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schrijven",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "schrijft",
+      "v_imp_sg": "schrijf",
+      "v_ind_prs_1_sg": "schrijf",
+      "v_ind_prs_2_sg": "schrijft",
+      "v_ind_prs_3_sg": "schrijft",
+      "v_ind_prs_pl": "schrijven",
+      "v_ind_pst_1_sg": "schreef",
+      "v_ind_pst_2_sg": "schreef",
+      "v_ind_pst_3_sg": "schreef",
+      "v_ind_pst_pl": "schreven",
+      "v_nfin": "schrijven",
+      "v_ptcp_pst": "geschreven",
+      "v_sbjv_prs_pl": "schrijven",
+      "v_sbjv_prs_sg": "schrijve",
+      "v_sbjv_pst_pl": "schreven",
+      "v_sbjv_pst_sg": "schreve"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "schuilen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schuilen",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "school",
+      "v_ind_pst_2_sg": "school",
+      "v_ind_pst_3_sg": "school"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "schuldig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schuldig",
+    "inflections": {
+      "adj_def": "schuldige",
+      "adj_def_cmpr": "schuldigere",
+      "adj_def_sprl": "schuldigste",
+      "adj_indf_neut_sg": "schuldig",
+      "adj_indf_neut_sg_cmpr": "schuldige",
+      "adj_indf_neut_sg_sprl": "schuldigere",
+      "adj_indf_pl": "schuldige",
+      "adj_indf_pl_cmpr": "schuldiger",
+      "adj_indf_pl_sprl": "schuldigste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "serieus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "serieus",
+    "inflections": {
+      "adj_def": "serieuze",
+      "adj_def_cmpr": "serieuzere",
+      "adj_def_sprl": "serieuste",
+      "adj_indf_neut_sg": "serieus",
+      "adj_indf_neut_sg_cmpr": "serieuze",
+      "adj_indf_neut_sg_sprl": "serieuzere",
+      "adj_indf_pl": "serieuze",
+      "adj_indf_pl_cmpr": "serieuzer",
+      "adj_indf_pl_sprl": "serieuste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "slapen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "slapen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "slaapt",
+      "v_imp_sg": "slaap",
+      "v_ind_prs_1_sg": "slaap",
+      "v_ind_prs_2_sg": "slaapt",
+      "v_ind_prs_3_sg": "slaapt",
+      "v_ind_prs_pl": "slapen",
+      "v_ind_pst_1_sg": "sliep",
+      "v_ind_pst_2_sg": "sliep",
+      "v_ind_pst_3_sg": "sliep",
+      "v_ind_pst_pl": "sliepen",
+      "v_nfin": "slapen",
+      "v_ptcp_pst": "geslapen",
+      "v_sbjv_prs_pl": "slapen",
+      "v_sbjv_prs_sg": "slape",
+      "v_sbjv_pst_pl": "sliepen",
+      "v_sbjv_pst_sg": "sliepe"
+    },
+    "priority": 5,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "sleutelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sleutelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "sleutel",
+      "v_ind_prs_1_sg": "sleutel"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "slim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "slim",
+    "inflections": {
+      "adj_def": "slimme",
+      "adj_def_cmpr": "slimmere",
+      "adj_def_sprl": "slimste",
+      "adj_indf_neut_sg": "slim",
+      "adj_indf_neut_sg_cmpr": "slimme",
+      "adj_indf_neut_sg_sprl": "slimmere",
+      "adj_indf_pl": "slimme",
+      "adj_indf_pl_cmpr": "slimmer",
+      "adj_indf_pl_sprl": "slimste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "snappen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "snappen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "snap",
+      "v_ind_prs_1_sg": "snap"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "snellen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "snellen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "snel",
+      "v_ind_prs_1_sg": "snel"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "spellen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spellen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "spel",
+      "v_ind_prs_1_sg": "spel"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "spijten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spijten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "spijt",
+      "v_imp_sg": "spijt",
+      "v_ind_prs_1_sg": "spijt",
+      "v_ind_prs_2_sg": "spijt",
+      "v_ind_prs_3_sg": "spijt"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "spreken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spreken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "spreekt",
+      "v_imp_sg": "spreek",
+      "v_ind_prs_1_sg": "spreek",
+      "v_ind_prs_2_sg": "spreekt",
+      "v_ind_prs_3_sg": "spreekt",
+      "v_ind_prs_pl": "spreken",
+      "v_ind_pst_1_sg": "sprak",
+      "v_ind_pst_2_sg": "sprak",
+      "v_ind_pst_3_sg": "sprak",
+      "v_ind_pst_pl": "spraken",
+      "v_nfin": "spreken",
+      "v_ptcp_pst": "gesproken",
+      "v_sbjv_prs_pl": "spreken",
+      "v_sbjv_prs_sg": "spreke",
+      "v_sbjv_pst_pl": "spraken",
+      "v_sbjv_pst_sg": "sprake"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "stappen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stappen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "stap",
+      "v_ind_prs_1_sg": "stap"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "sterk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sterk",
+    "inflections": {
+      "adj_def": "sterke",
+      "adj_def_cmpr": "sterkere",
+      "adj_def_sprl": "sterkste",
+      "adj_indf_neut_sg": "sterk",
+      "adj_indf_neut_sg_cmpr": "sterke",
+      "adj_indf_neut_sg_sprl": "sterkere",
+      "adj_indf_pl": "sterke",
+      "adj_indf_pl_cmpr": "sterker",
+      "adj_indf_pl_sprl": "sterkste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sterken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sterken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "sterk",
+      "v_ind_prs_1_sg": "sterk"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "stil": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stil",
+    "inflections": {
+      "adj_def": "stille",
+      "adj_def_cmpr": "stillere",
+      "adj_def_sprl": "stilste",
+      "adj_indf_neut_sg": "stil",
+      "adj_indf_neut_sg_cmpr": "stille",
+      "adj_indf_neut_sg_sprl": "stillere",
+      "adj_indf_pl": "stille",
+      "adj_indf_pl_cmpr": "stiller",
+      "adj_indf_pl_sprl": "stilste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "stom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stom",
+    "inflections": {
+      "adj_def": "stomme",
+      "adj_def_cmpr": "stommere",
+      "adj_def_sprl": "stomste",
+      "adj_indf_neut_sg": "stom",
+      "adj_indf_neut_sg_cmpr": "stomme",
+      "adj_indf_neut_sg_sprl": "stommere",
+      "adj_indf_pl": "stomme",
+      "adj_indf_pl_cmpr": "stommer",
+      "adj_indf_pl_sprl": "stomste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "t": {
+    "antonyms": [],
+    "base": "t",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tafelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tafelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "tafel",
+      "v_ind_prs_1_sg": "tafel"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "trots": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trots",
+    "inflections": {
+      "adj_def": "trotse",
+      "adj_def_cmpr": "trotsere",
+      "adj_def_sprl": "trotste",
+      "adj_indf_neut_sg": "trots",
+      "adj_indf_neut_sg_cmpr": "trotse",
+      "adj_indf_neut_sg_sprl": "trotsere",
+      "adj_indf_pl": "trotse",
+      "adj_indf_pl_cmpr": "trotser",
+      "adj_indf_pl_sprl": "trotste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "u": {
+    "antonyms": [],
+    "base": "u",
+    "examples": [
+      "Kunt u mij helpen?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "uit": {
+    "antonyms": [],
+    "base": "uit",
+    "examples": [
+      "Hij komt uit Nederland."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "uiten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uiten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "uit",
+      "v_imp_sg": "uit",
+      "v_ind_prs_1_sg": "uit",
+      "v_ind_prs_2_sg": "uit",
+      "v_ind_prs_3_sg": "uit"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "van": {
+    "antonyms": [],
+    "base": "van",
+    "examples": [
+      "Hij komt van Nederland."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vechten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vechten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vecht",
+      "v_imp_sg": "vecht",
+      "v_ind_prs_1_sg": "vecht",
+      "v_ind_prs_2_sg": "vecht",
+      "v_ind_prs_3_sg": "vecht",
+      "v_ind_prs_pl": "vechten",
+      "v_ind_pst_1_sg": "vocht",
+      "v_ind_pst_2_sg": "vocht",
+      "v_ind_pst_3_sg": "vocht",
+      "v_ind_pst_pl": "vochten",
+      "v_nfin": "vechten",
+      "v_ptcp_pst": "gevochten",
+      "v_sbjv_prs_pl": "vechten",
+      "v_sbjv_prs_sg": "vechte",
+      "v_sbjv_pst_pl": "vochten",
+      "v_sbjv_pst_sg": "vochte"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "veilig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veilig",
+    "inflections": {
+      "adj_def": "veilige",
+      "adj_def_cmpr": "veiligere",
+      "adj_def_sprl": "veiligste",
+      "adj_indf_neut_sg": "veilig",
+      "adj_indf_neut_sg_cmpr": "veilige",
+      "adj_indf_neut_sg_sprl": "veiligere",
+      "adj_indf_pl": "veilige",
+      "adj_indf_pl_cmpr": "veiliger",
+      "adj_indf_pl_sprl": "veiligste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "velen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "veel",
+      "v_ind_prs_1_sg": "veel"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "venten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vent",
+      "v_imp_sg": "vent",
+      "v_ind_prs_1_sg": "vent",
+      "v_ind_prs_2_sg": "vent",
+      "v_ind_prs_3_sg": "vent"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ver": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ver",
+    "inflections": {
+      "adj_def": "verre",
+      "adj_def_cmpr": "verdere",
+      "adj_def_sprl": "verste",
+      "adj_indf_neut_sg": "ver",
+      "adj_indf_neut_sg_cmpr": "verre",
+      "adj_indf_neut_sg_sprl": "verdere",
+      "adj_indf_pl": "verre",
+      "adj_indf_pl_cmpr": "verder",
+      "adj_indf_pl_sprl": "verste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "veranderen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veranderen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "verandert",
+      "v_imp_sg": "verander",
+      "v_ind_prs_1_sg": "verander",
+      "v_ind_prs_2_sg": "verandert",
+      "v_ind_prs_3_sg": "verandert",
+      "v_ind_prs_pl": "veranderen",
+      "v_ind_pst_1_sg": "veranderde",
+      "v_ind_pst_2_sg": "veranderde",
+      "v_ind_pst_3_sg": "veranderde",
+      "v_ind_pst_pl": "veranderden",
+      "v_nfin": "veranderen",
+      "v_ptcp_pst": "veranderd",
+      "v_sbjv_prs_pl": "veranderen",
+      "v_sbjv_prs_sg": "verandere",
+      "v_sbjv_pst_pl": "veranderden",
+      "v_sbjv_pst_sg": "veranderde"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verdomd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verdomd",
+    "inflections": {
+      "adj_def": "verdomde",
+      "adj_indf_pl": "verdomde",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "verdommen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verdommen",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "verdomde",
+      "v_ind_pst_2_sg": "verdomde",
+      "v_ind_pst_3_sg": "verdomde",
+      "v_sbjv_prs_sg": "verdomme",
+      "v_sbjv_pst_sg": "verdomde"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "verhalen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verhalen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "verhaal",
+      "v_ind_prs_1_sg": "verhaal"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "verkeerd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verkeerd",
+    "inflections": {
+      "adj_def": "verkeerde",
+      "adj_def_cmpr": "verkeerdere",
+      "adj_def_sprl": "verkeerdste",
+      "adj_indf_neut_sg": "verkeerd",
+      "adj_indf_neut_sg_cmpr": "verkeerde",
+      "adj_indf_neut_sg_sprl": "verkeerdere",
+      "adj_indf_pl": "verkeerde",
+      "adj_indf_pl_cmpr": "verkeerder",
+      "adj_indf_pl_sprl": "verkeerdste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "verkeren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verkeren",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg": "verkeerde",
+      "v_ind_pst_2_sg": "verkeerde",
+      "v_ind_pst_3_sg": "verkeerde",
+      "v_ptcp_pst": "verkeerd",
+      "v_sbjv_pst_sg": "verkeerde"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verkopen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verkopen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "verkoopt",
+      "v_imp_sg": "verkoop",
+      "v_ind_prs_1_sg": "verkoop",
+      "v_ind_prs_2_sg": "verkoopt",
+      "v_ind_prs_3_sg": "verkoopt",
+      "v_ind_prs_pl": "verkopen",
+      "v_ind_pst_1_sg": "verkocht",
+      "v_ind_pst_2_sg": "verkocht",
+      "v_ind_pst_3_sg": "verkocht",
+      "v_ind_pst_pl": "verkochten",
+      "v_nfin": "verkopen",
+      "v_ptcp_pst": "verkocht",
+      "v_sbjv_prs_pl": "verkopen",
+      "v_sbjv_prs_sg": "verkope",
+      "v_sbjv_pst_pl": "verkochten",
+      "v_sbjv_pst_sg": "verkochte"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verleden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verleden",
+    "inflections": {
+      "adj_def": "verleden",
+      "adj_indf_neut_sg": "verleden",
+      "adj_indf_pl": "verleden",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "verliefd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verliefd",
+    "inflections": {
+      "adj_def": "verliefde",
+      "adj_def_cmpr": "verliefdere",
+      "adj_def_sprl": "verliefdste",
+      "adj_indf_neut_sg": "verliefd",
+      "adj_indf_neut_sg_cmpr": "verliefde",
+      "adj_indf_neut_sg_sprl": "verliefdere",
+      "adj_indf_pl": "verliefde",
+      "adj_indf_pl_cmpr": "verliefder",
+      "adj_indf_pl_sprl": "verliefdste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "verlieven": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verlieven",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "verliefd"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "verliezen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verliezen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "verliest",
+      "v_imp_sg": "verlies",
+      "v_ind_prs_1_sg": "verlies",
+      "v_ind_prs_2_sg": "verliest",
+      "v_ind_prs_3_sg": "verliest",
+      "v_ind_prs_pl": "verliezen",
+      "v_ind_pst_1_sg": "verloor",
+      "v_ind_pst_2_sg": "verloor",
+      "v_ind_pst_3_sg": "verloor",
+      "v_ind_pst_pl": "verloren",
+      "v_nfin": "verliezen",
+      "v_ptcp_pst": "verloren",
+      "v_sbjv_prs_pl": "verliezen",
+      "v_sbjv_prs_sg": "verlieze",
+      "v_sbjv_pst_pl": "verloren",
+      "v_sbjv_pst_sg": "verlore"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verlijden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verlijden",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_pl": "verleden",
+      "v_ptcp_pst": "verleden",
+      "v_sbjv_pst_pl": "verleden"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vermoorden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vermoorden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vermoordt",
+      "v_imp_sg": "vermoord",
+      "v_ind_prs_1_sg": "vermoord",
+      "v_ind_prs_2_sg": "vermoordt",
+      "v_ind_prs_3_sg": "vermoordt",
+      "v_ind_prs_pl": "vermoorden",
+      "v_ind_pst_1_sg": "vermoordde",
+      "v_ind_pst_2_sg": "vermoordde",
+      "v_ind_pst_3_sg": "vermoordde",
+      "v_ind_pst_pl": "vermoordden",
+      "v_nfin": "vermoorden",
+      "v_ptcp_pst": "vermoord",
+      "v_sbjv_prs_pl": "vermoorden",
+      "v_sbjv_prs_sg": "vermoorde",
+      "v_sbjv_pst_pl": "vermoordden",
+      "v_sbjv_pst_sg": "vermoordde"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vertrekken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vertrekken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vertrekt",
+      "v_imp_sg": "vertrek",
+      "v_ind_prs_1_sg": "vertrek",
+      "v_ind_prs_2_sg": "vertrekt",
+      "v_ind_prs_3_sg": "vertrekt",
+      "v_ind_prs_pl": "vertrekken",
+      "v_ind_pst_1_sg": "vertrok",
+      "v_ind_pst_2_sg": "vertrok",
+      "v_ind_pst_3_sg": "vertrok",
+      "v_ind_pst_pl": "vertrokken",
+      "v_nfin": "vertrekken",
+      "v_ptcp_pst": "vertrokken",
+      "v_sbjv_prs_pl": "vertrekken",
+      "v_sbjv_prs_sg": "vertrekke",
+      "v_sbjv_pst_pl": "vertrokken",
+      "v_sbjv_pst_sg": "vertrokke"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vertrouwen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vertrouwen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vertrouwt",
+      "v_imp_sg": "vertrouw",
+      "v_ind_prs_1_sg": "vertrouw",
+      "v_ind_prs_2_sg": "vertrouwt",
+      "v_ind_prs_3_sg": "vertrouwt",
+      "v_ind_prs_pl": "vertrouwen",
+      "v_ind_pst_1_sg": "vertrouwde",
+      "v_ind_pst_2_sg": "vertrouwde",
+      "v_ind_pst_3_sg": "vertrouwde",
+      "v_ind_pst_pl": "vertrouwden",
+      "v_nfin": "vertrouwen",
+      "v_ptcp_pst": "vertrouwd",
+      "v_sbjv_prs_pl": "vertrouwen",
+      "v_sbjv_prs_sg": "vertrouwe",
+      "v_sbjv_pst_pl": "vertrouwden",
+      "v_sbjv_pst_sg": "vertrouwde"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "verwachten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verwachten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "verwacht",
+      "v_imp_sg": "verwacht",
+      "v_ind_prs_1_sg": "verwacht",
+      "v_ind_prs_2_sg": "verwacht",
+      "v_ind_prs_3_sg": "verwacht",
+      "v_ptcp_pst": "verwacht"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vieren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vieren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "vier",
+      "v_ind_prs_1_sg": "vier"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "vinden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vinden",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vindt",
+      "v_imp_sg": "vind",
+      "v_ind_prs_1_sg": "vind",
+      "v_ind_prs_2_sg": "vindt",
+      "v_ind_prs_3_sg": "vindt",
+      "v_ind_prs_pl": "vinden",
+      "v_ind_pst_1_sg": "vond",
+      "v_ind_pst_2_sg": "vond",
+      "v_ind_pst_3_sg": "vond",
+      "v_ind_pst_pl": "vonden",
+      "v_nfin": "vinden",
+      "v_ptcp_pst": "gevonden",
+      "v_sbjv_prs_pl": "vinden",
+      "v_sbjv_prs_sg": "vinde",
+      "v_sbjv_pst_pl": "vonden",
+      "v_sbjv_pst_sg": "vonde"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "vluchten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vluchten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "vlucht",
+      "v_imp_sg": "vlucht",
+      "v_ind_prs_1_sg": "vlucht",
+      "v_ind_prs_2_sg": "vlucht",
+      "v_ind_prs_3_sg": "vlucht"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "voelen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "voelen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "voelt",
+      "v_imp_sg": "voel",
+      "v_ind_prs_1_sg": "voel",
+      "v_ind_prs_2_sg": "voelt",
+      "v_ind_prs_3_sg": "voelt",
+      "v_ind_prs_pl": "voelen",
+      "v_ind_pst_1_sg": "voelde",
+      "v_ind_pst_2_sg": "voelde",
+      "v_ind_pst_3_sg": "voelde",
+      "v_ind_pst_pl": "voelden",
+      "v_nfin": "voelen",
+      "v_ptcp_pst": "gevoeld",
+      "v_sbjv_prs_pl": "voelen",
+      "v_sbjv_prs_sg": "voele",
+      "v_sbjv_pst_pl": "voelden",
+      "v_sbjv_pst_sg": "voelde"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "volgen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volgen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "volgt",
+      "v_imp_sg": "volg",
+      "v_ind_prs_1_sg": "volg",
+      "v_ind_prs_2_sg": "volgt",
+      "v_ind_prs_3_sg": "volgt",
+      "v_ind_prs_pl": "volgen",
+      "v_ind_pst_1_sg": "volgde",
+      "v_ind_pst_2_sg": "volgde",
+      "v_ind_pst_3_sg": "volgde",
+      "v_ind_pst_pl": "volgden",
+      "v_nfin": "volgen",
+      "v_ptcp_pst": "gevolgd",
+      "v_sbjv_prs_pl": "volgen",
+      "v_sbjv_prs_sg": "volge",
+      "v_sbjv_pst_pl": "volgden",
+      "v_sbjv_pst_sg": "volgde"
+    },
+    "priority": 3,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "voorzichtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "voorzichtig",
+    "inflections": {
+      "adj_def": "voorzichtige",
+      "adj_def_cmpr": "voorzichtigere",
+      "adj_def_sprl": "voorzichtigste",
+      "adj_indf_neut_sg": "voorzichtig",
+      "adj_indf_neut_sg_cmpr": "voorzichtige",
+      "adj_indf_neut_sg_sprl": "voorzichtigere",
+      "adj_indf_pl": "voorzichtige",
+      "adj_indf_pl_cmpr": "voorzichtiger",
+      "adj_indf_pl_sprl": "voorzichtigste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vorig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vorig",
+    "inflections": {
+      "adj_def": "vorige",
+      "adj_indf_pl": "vorige",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vreemd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vreemd",
+    "inflections": {
+      "adj_def": "vreemde",
+      "adj_def_cmpr": "vreemdere",
+      "adj_def_sprl": "vreemdste",
+      "adj_indf_neut_sg": "vreemd",
+      "adj_indf_neut_sg_cmpr": "vreemde",
+      "adj_indf_neut_sg_sprl": "vreemdere",
+      "adj_indf_pl": "vreemde",
+      "adj_indf_pl_cmpr": "vreemder",
+      "adj_indf_pl_sprl": "vreemdste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vreselijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vreselijk",
+    "inflections": {
+      "adj_def": "vreselijke",
+      "adj_def_cmpr": "vreselijkere",
+      "adj_def_sprl": "vreselijkste",
+      "adj_indf_neut_sg": "vreselijk",
+      "adj_indf_neut_sg_cmpr": "vreselijke",
+      "adj_indf_neut_sg_sprl": "vreselijkere",
+      "adj_indf_pl": "vreselijke",
+      "adj_indf_pl_cmpr": "vreselijker",
+      "adj_indf_pl_sprl": "vreselijkste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vroeg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vroeg",
+    "inflections": {
+      "adj_def": "vroege",
+      "adj_def_cmpr": "vroegere",
+      "adj_def_sprl": "vroegste",
+      "adj_indf_neut_sg": "vroeg",
+      "adj_indf_neut_sg_cmpr": "vroege",
+      "adj_indf_neut_sg_sprl": "vroegere",
+      "adj_indf_pl": "vroege",
+      "adj_indf_pl_cmpr": "vroeger",
+      "adj_indf_pl_sprl": "vroegste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "waar": {
+    "antonyms": [],
+    "base": "waar",
+    "examples": [
+      "Waar ben je?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "waarom": {
+    "antonyms": [],
+    "base": "waarom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "waarschijnlijk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "waarschijnlijk",
+    "inflections": {
+      "adj_def": "waarschijnlijke",
+      "adj_def_cmpr": "waarschijnlijkere",
+      "adj_def_sprl": "waarschijnlijkste",
+      "adj_indf_neut_sg": "waarschijnlijk",
+      "adj_indf_neut_sg_cmpr": "waarschijnlijke",
+      "adj_indf_neut_sg_sprl": "waarschijnlijkere",
+      "adj_indf_pl": "waarschijnlijke",
+      "adj_indf_pl_cmpr": "waarschijnlijker",
+      "adj_indf_pl_sprl": "waarschijnlijkste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wakker": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wakker",
+    "inflections": {
+      "adj_def": "wakkere",
+      "adj_def_cmpr": "wakkerdere",
+      "adj_def_sprl": "wakkerste",
+      "adj_indf_neut_sg": "wakker",
+      "adj_indf_neut_sg_cmpr": "wakkere",
+      "adj_indf_neut_sg_sprl": "wakkerdere",
+      "adj_indf_pl": "wakkere",
+      "adj_indf_pl_cmpr": "wakkerder",
+      "adj_indf_pl_sprl": "wakkerste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wapenen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wapenen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "wapen",
+      "v_ind_prs_1_sg": "wapen"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "was": {
+    "antonyms": [],
+    "base": "was",
+    "examples": [
+      "Hij was er niet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "wateren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wateren",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "water",
+      "v_ind_prs_1_sg": "water"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "welken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "welken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "welk",
+      "v_ind_prs_1_sg": "welk",
+      "v_sbjv_prs_sg": "welke"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "welkom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "welkom",
+    "inflections": {
+      "adj_def": "welkome",
+      "adj_indf_neut_sg": "welkom",
+      "adj_indf_pl": "welkome",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wellen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wellen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_sg": "wel",
+      "v_ind_prs_1_sg": "wel"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "wetten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wetten",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "wet",
+      "v_imp_sg": "wet",
+      "v_ind_prs_1_sg": "wet",
+      "v_ind_prs_2_sg": "wet",
+      "v_ind_prs_3_sg": "wet"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "wild": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wild",
+    "inflections": {
+      "adj_def": "wilde",
+      "adj_indf_neut_sg_cmpr": "wilde",
+      "adj_indf_pl": "wilde",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "willen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "willen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "wilt",
+      "v_imp_sg": "wil",
+      "v_ind_prs_1_sg": "wil",
+      "v_ind_prs_2_sg": "wilt",
+      "v_ind_prs_3_sg": "wil",
+      "v_ind_prs_pl": "willen",
+      "v_ind_pst_1_sg": "wilde",
+      "v_ind_pst_2_sg": "wilde",
+      "v_ind_pst_3_sg": "wilde",
+      "v_ind_pst_pl": "wilden",
+      "v_nfin": "willen",
+      "v_ptcp_pst": "gewild",
+      "v_sbjv_prs_pl": "willen",
+      "v_sbjv_prs_sg": "wille",
+      "v_sbjv_pst_pl": "wilden",
+      "v_sbjv_pst_sg": "wilde"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "winnen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "winnen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "wint",
+      "v_imp_sg": "win",
+      "v_ind_prs_1_sg": "win",
+      "v_ind_prs_2_sg": "wint",
+      "v_ind_prs_3_sg": "wint",
+      "v_ind_prs_pl": "winnen",
+      "v_ind_pst_1_sg": "won",
+      "v_ind_pst_2_sg": "won",
+      "v_ind_pst_3_sg": "won",
+      "v_ind_pst_pl": "wonnen",
+      "v_nfin": "winnen",
+      "v_ptcp_pst": "gewonnen",
+      "v_sbjv_prs_pl": "winnen",
+      "v_sbjv_prs_sg": "winne",
+      "v_sbjv_pst_pl": "wonnen",
+      "v_sbjv_pst_sg": "wonne"
+    },
+    "priority": 3,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "wissen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wissen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "wist",
+      "v_ind_prs_2_sg": "wist",
+      "v_ind_prs_3_sg": "wist"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "wonen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wonen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "woont",
+      "v_imp_sg": "woon",
+      "v_ind_prs_1_sg": "woon",
+      "v_ind_prs_2_sg": "woont",
+      "v_ind_prs_3_sg": "woont",
+      "v_ind_prs_pl": "wonen",
+      "v_ind_pst_1_sg": "woonde",
+      "v_ind_pst_2_sg": "woonde",
+      "v_ind_pst_3_sg": "woonde",
+      "v_ind_pst_pl": "woonden",
+      "v_nfin": "wonen",
+      "v_ptcp_pst": "gewoond",
+      "v_sbjv_prs_pl": "wonen",
+      "v_sbjv_prs_sg": "wone",
+      "v_sbjv_pst_pl": "woonden",
+      "v_sbjv_pst_sg": "woonde"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "zat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zat",
+    "inflections": {
+      "adj_def": "zatte",
+      "adj_def_cmpr": "zattere",
+      "adj_def_sprl": "zatste",
+      "adj_indf_neut_sg": "zat",
+      "adj_indf_neut_sg_cmpr": "zatte",
+      "adj_indf_neut_sg_sprl": "zattere",
+      "adj_indf_pl": "zatte",
+      "adj_indf_pl_cmpr": "zatter",
+      "adj_indf_pl_sprl": "zatste",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "zeer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zeer",
+    "inflections": {
+      "adj_def": "zere",
+      "adj_def_cmpr": "zeerdere",
+      "adj_def_sprl": "zeerste",
+      "adj_indf_neut_sg": "zeer",
+      "adj_indf_neut_sg_cmpr": "zere",
+      "adj_indf_neut_sg_sprl": "zeerdere",
+      "adj_indf_pl": "zere",
+      "adj_indf_pl_cmpr": "zeerder",
+      "adj_indf_pl_sprl": "zeerste",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "zeker": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zeker",
+    "inflections": {
+      "adj_def": "zekere",
+      "adj_def_cmpr": "zekerdere",
+      "adj_def_sprl": "zekerste",
+      "adj_indf_neut_sg": "zeker",
+      "adj_indf_neut_sg_cmpr": "zekere",
+      "adj_indf_neut_sg_sprl": "zekerdere",
+      "adj_indf_pl": "zekere",
+      "adj_indf_pl_cmpr": "zekerder",
+      "adj_indf_pl_sprl": "zekerste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ziek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ziek",
+    "inflections": {
+      "adj_def": "zieke",
+      "adj_def_cmpr": "ziekere",
+      "adj_def_sprl": "ziekste",
+      "adj_indf_neut_sg": "ziek",
+      "adj_indf_neut_sg_cmpr": "zieke",
+      "adj_indf_neut_sg_sprl": "ziekere",
+      "adj_indf_pl": "zieke",
+      "adj_indf_pl_cmpr": "zieker",
+      "adj_indf_pl_sprl": "ziekste",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "zien": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zien",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "ziet",
+      "v_imp_sg": "zie",
+      "v_ind_prs_1_sg": "zie",
+      "v_ind_prs_2_sg": "ziet",
+      "v_ind_prs_3_sg": "ziet",
+      "v_ind_prs_pl": "zien",
+      "v_ind_pst_1_sg": "zag",
+      "v_ind_pst_2_sg": "zag",
+      "v_ind_pst_3_sg": "zag",
+      "v_ind_pst_pl": "zagen",
+      "v_nfin": "zien",
+      "v_ptcp_pst": "gezien",
+      "v_sbjv_prs_pl": "zien",
+      "v_sbjv_prs_sg": "zie",
+      "v_sbjv_pst_pl": "zagen",
+      "v_sbjv_pst_sg": "zage"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "zoeken": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zoeken",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "zoekt",
+      "v_imp_sg": "zoek",
+      "v_ind_prs_1_sg": "zoek",
+      "v_ind_prs_2_sg": "zoekt",
+      "v_ind_prs_3_sg": "zoekt",
+      "v_ind_prs_pl": "zoeken",
+      "v_ind_pst_1_sg": "zocht",
+      "v_ind_pst_2_sg": "zocht",
+      "v_ind_pst_3_sg": "zocht",
+      "v_ind_pst_pl": "zochten",
+      "v_nfin": "zoeken",
+      "v_ptcp_pst": "gezocht",
+      "v_sbjv_prs_pl": "zoeken",
+      "v_sbjv_prs_sg": "zoeke",
+      "v_sbjv_pst_pl": "zochten",
+      "v_sbjv_pst_sg": "zochte"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "zorgen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zorgen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "zorgt",
+      "v_imp_sg": "zorg",
+      "v_ind_prs_1_sg": "zorg",
+      "v_ind_prs_2_sg": "zorgt",
+      "v_ind_prs_3_sg": "zorgt",
+      "v_ind_prs_pl": "zorgen",
+      "v_ind_pst_1_sg": "zorgde",
+      "v_ind_pst_2_sg": "zorgde",
+      "v_ind_pst_3_sg": "zorgde",
+      "v_ind_pst_pl": "zorgden",
+      "v_nfin": "zorgen",
+      "v_ptcp_pst": "gezorgd",
+      "v_sbjv_prs_pl": "zorgen",
+      "v_sbjv_prs_sg": "zorge",
+      "v_sbjv_pst_pl": "zorgden",
+      "v_sbjv_pst_sg": "zorgde"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "zullen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zullen",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "zult",
+      "v_imp_sg": "zal",
+      "v_ind_prs_1_sg": "zal",
+      "v_ind_prs_2_sg": "zult",
+      "v_ind_prs_3_sg": "zal",
+      "v_ind_prs_pl": "zullen",
+      "v_ind_pst_1_sg": "zou",
+      "v_ind_pst_2_sg": "zou",
+      "v_ind_pst_3_sg": "zou",
+      "v_ind_pst_pl": "zouden",
+      "v_nfin": "zullen",
+      "v_sbjv_prs_pl": "zullen",
+      "v_sbjv_prs_sg": "zulle",
+      "v_sbjv_pst_pl": "zouden",
+      "v_sbjv_pst_sg": "zoude"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "zwaar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zwaar",
+    "inflections": {
+      "adj_def": "zware",
+      "adj_def_cmpr": "zwaardere",
+      "adj_def_sprl": "zwaarste",
+      "adj_indf_neut_sg": "zwaar",
+      "adj_indf_neut_sg_cmpr": "zware",
+      "adj_indf_neut_sg_sprl": "zwaardere",
+      "adj_indf_pl": "zware",
+      "adj_indf_pl_cmpr": "zwaarder",
+      "adj_indf_pl_sprl": "zwaarste",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  }
+}

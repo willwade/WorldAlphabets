@@ -1,0 +1,480 @@
+{
+  "_locale": "da",
+  "_type": "words",
+  "_version": "0.1",
+  "alle": {
+    "antonyms": [],
+    "base": "alle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun",
+      "adjective"
+    ]
+  },
+  "at": {
+    "antonyms": [],
+    "base": "at",
+    "examples": [
+      "Jeg skal til at spise."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "da": {
+    "antonyms": [],
+    "base": "da",
+    "examples": [
+      "Jeg er her da."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "dem": {
+    "antonyms": [],
+    "base": "dem",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "det": {
+    "antonyms": [],
+    "base": "det",
+    "examples": [
+      "Det er godt."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "du": {
+    "antonyms": [],
+    "base": "du",
+    "examples": [
+      "Du er min ven."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "En kat er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "er": {
+    "antonyms": [],
+    "base": "er",
+    "examples": [
+      "Han er glad."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "et": {
+    "antonyms": [],
+    "base": "et",
+    "examples": [
+      "Jeg har et hus."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "article"
+    ]
+  },
+  "fra": {
+    "antonyms": [],
+    "base": "fra",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "få": {
+    "antonyms": [],
+    "base": "få",
+    "examples": [
+      "Jeg vil gerne få hjælp."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "godt": {
+    "antonyms": [],
+    "base": "godt",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  "gå": {
+    "antonyms": [],
+    "base": "gå",
+    "examples": [
+      "Vi skal gå nu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "gør": {
+    "antonyms": [],
+    "base": "gør",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "har": {
+    "antonyms": [],
+    "base": "har",
+    "examples": [
+      "Jeg har en bog."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "have": {
+    "antonyms": [],
+    "base": "have",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [
+      "Her er din bog."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "hvorfor": {
+    "antonyms": [],
+    "base": "hvorfor",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [
+      "Jeg er i huset."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ikke": {
+    "antonyms": [],
+    "base": "ikke",
+    "examples": [
+      "Jeg kan ikke."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ingen": {
+    "antonyms": [
+      "nogen"
+    ],
+    "base": "ingen",
+    "examples": [
+      "Der er ingen problemer."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [
+      "Ja, jeg er klar."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jeg": {
+    "antonyms": [],
+    "base": "jeg",
+    "examples": [
+      "Jeg er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "man": {
+    "antonyms": [],
+    "base": "man",
+    "examples": [
+      "Man skal være forsigtig."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "men": {
+    "antonyms": [],
+    "base": "men",
+    "examples": [
+      "Jeg vil gerne, men jeg har ikke tid."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "nu": {
+    "antonyms": [],
+    "base": "nu",
+    "examples": [
+      "Nu er det tid til at gå."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "og": {
+    "antonyms": [],
+    "base": "og",
+    "examples": [
+      "Jeg og du."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "okay": {
+    "antonyms": [],
+    "base": "okay",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  "om": {
+    "antonyms": [],
+    "base": "om",
+    "examples": [
+      "Vi taler om vejret."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "skal": {
+    "antonyms": [],
+    "base": "skal",
+    "examples": [
+      "Vi skal til fest i aften."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "var": {
+    "antonyms": [],
+    "base": "var",
+    "examples": [
+      "Jeg vil være der, hvor du er."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ved": {
+    "antonyms": [],
+    "base": "ved",
+    "examples": [
+      "Vi mødes ved indgangen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vil": {
+    "antonyms": [],
+    "base": "vil",
+    "examples": [
+      "Jeg vil gerne have en kop kaffe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ville": {
+    "antonyms": [],
+    "base": "ville",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

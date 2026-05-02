@@ -1,0 +1,709 @@
+{
+  "'m": {
+    "antonyms": [],
+    "base": "be",
+    "examples": [
+      "I'm going to the store."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "'re": {
+    "antonyms": [],
+    "base": "be",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "'s": {
+    "antonyms": [],
+    "base": "'s",
+    "examples": [
+      "That is John's book."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "possessive"
+    ]
+  },
+  "'t": {
+    "antonyms": [],
+    "base": "'t",
+    "examples": [
+      "I can't go."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "contraction"
+    ]
+  },
+  "'ve": {
+    "antonyms": [],
+    "base": "'ve",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "contraction"
+    ]
+  },
+  "_locale": "en-NZ",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "I saw a bird."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "about": {
+    "antonyms": [],
+    "base": "about",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition",
+      "adverb"
+    ]
+  },
+  "an": {
+    "antonyms": [],
+    "base": "an",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "article"
+    ]
+  },
+  "and": {
+    "antonyms": [],
+    "base": "and",
+    "examples": [
+      "I like tea and coffee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "are": {
+    "antonyms": [],
+    "base": "be",
+    "examples": [
+      "They are happy."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "as": {
+    "antonyms": [],
+    "base": "as",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "conjunction",
+      "preposition"
+    ]
+  },
+  "at": {
+    "antonyms": [],
+    "base": "at",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "back": {
+    "antonyms": [],
+    "base": "back",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb",
+      "noun"
+    ]
+  },
+  "be": {
+    "antonyms": [],
+    "base": "be",
+    "examples": [
+      "To be or not to be."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "can": {
+    "antonyms": [],
+    "base": "can",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "come": {
+    "antonyms": [],
+    "base": "come",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "did": {
+    "antonyms": [],
+    "base": "did",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "don": {
+    "antonyms": [],
+    "base": "do",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "from": {
+    "antonyms": [],
+    "base": "from",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "going": {
+    "antonyms": [],
+    "base": "go",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "going",
+          "type": "present participle"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "good": {
+    "antonyms": [
+      "bad"
+    ],
+    "base": "good",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "got": {
+    "antonyms": [],
+    "base": "got",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "him": {
+    "antonyms": [],
+    "base": "him",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "his": {
+    "antonyms": [],
+    "base": "his",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "how": {
+    "antonyms": [],
+    "base": "how",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adverb"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [
+      "I am learning."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "it": {
+    "antonyms": [],
+    "base": "it",
+    "examples": [
+      "It is raining."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "know": {
+    "antonyms": [],
+    "base": "know",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "let": {
+    "antonyms": [],
+    "base": "let",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "look": {
+    "antonyms": [],
+    "base": "look",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "no": {
+    "antonyms": [],
+    "base": "no",
+    "examples": [
+      "There is no way."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "not": {
+    "antonyms": [],
+    "base": "not",
+    "examples": [
+      "I do not understand."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "now": {
+    "antonyms": [],
+    "base": "now",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "oh": {
+    "antonyms": [],
+    "base": "oh",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "interjection"
+    ]
+  },
+  "okay": {
+    "antonyms": [],
+    "base": "okay",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "one": {
+    "antonyms": [],
+    "base": "one",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "numeral",
+      "pronoun"
+    ]
+  },
+  "see": {
+    "antonyms": [],
+    "base": "see",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "that": {
+    "antonyms": [],
+    "base": "that",
+    "examples": [
+      "That is my car."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "the": {
+    "antonyms": [],
+    "base": "the",
+    "examples": [
+      "The cat is on the roof."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "think": {
+    "antonyms": [],
+    "base": "think",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "time": {
+    "antonyms": [],
+    "base": "time",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "I am going to the park."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "up": {
+    "antonyms": [],
+    "base": "up",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "preposition",
+      "adjective"
+    ]
+  },
+  "us": {
+    "antonyms": [],
+    "base": "us",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "want": {
+    "antonyms": [],
+    "base": "want",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "well": {
+    "antonyms": [],
+    "base": "well",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  "when": {
+    "antonyms": [],
+    "base": "when",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "who": {
+    "antonyms": [],
+    "base": "who",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "why": {
+    "antonyms": [],
+    "base": "why",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "will": {
+    "antonyms": [],
+    "base": "will",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "with": {
+    "antonyms": [],
+    "base": "with",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "yeah": {
+    "antonyms": [],
+    "base": "yeah",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "interjection"
+    ]
+  },
+  "yes": {
+    "antonyms": [],
+    "base": "yes",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "you": {
+    "antonyms": [],
+    "base": "you",
+    "examples": [
+      "You are going to the store."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  }
+}

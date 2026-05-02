@@ -1,0 +1,511 @@
+{
+  "_locale": "fo",
+  "_type": "words",
+  "_version": "0.1",
+  "bommini": {
+    "antonyms": [],
+    "base": "bommini",
+    "examples": [
+      "Bommini eru góð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bróður": {
+    "antonyms": [],
+    "base": "bróður",
+    "examples": [
+      "Mín bróður er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "byrjar": {
+    "antonyms": [],
+    "base": "byrjar",
+    "examples": [
+      "Eg byrja arbeiðið."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "bíligasta": {
+    "antonyms": [],
+    "base": "bíligasta",
+    "examples": [
+      "Tað er bíligasta."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dag": {
+    "antonyms": [],
+    "base": "dag",
+    "examples": [
+      "Í dag er ein góður dagur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dámar": {
+    "antonyms": [],
+    "base": "dámar",
+    "examples": [
+      "Eg dámi tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "elska": {
+    "antonyms": [],
+    "base": "elska",
+    "examples": [
+      "Eg elski teg."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "enda": {
+    "antonyms": [],
+    "base": "enda",
+    "examples": [
+      "Eg enda arbeiðið."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "er": {
+    "antonyms": [
+      "ikki"
+    ],
+    "base": "er",
+    "examples": [
+      "Hann er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ert": {
+    "antonyms": [],
+    "base": "ert",
+    "examples": [
+      "Tú ert góður."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "fara": {
+    "antonyms": [],
+    "base": "fara",
+    "examples": [
+      "Vit fara til strondina."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "framførslan": {
+    "antonyms": [],
+    "base": "framførslan",
+    "examples": [
+      "Framførslan var góð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "fyrr": {
+    "antonyms": [],
+    "base": "fyrr",
+    "examples": [
+      "Eg kom fyrr."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "galið": {
+    "antonyms": [],
+    "base": "galið",
+    "examples": [
+      "Hann er galið."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hann": {
+    "antonyms": [],
+    "base": "hann",
+    "examples": [
+      "Hann kemur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [
+      "Eg eri her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "hevði": {
+    "antonyms": [],
+    "base": "hevði",
+    "examples": [
+      "Eg hevði tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "høgur": {
+    "antonyms": [],
+    "base": "høgur",
+    "examples": [
+      "Hann er høgur."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ikki": {
+    "antonyms": [],
+    "base": "ikki",
+    "examples": [
+      "Eg eri ikki her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adverb"
+    ]
+  },
+  "inni": {
+    "antonyms": [],
+    "base": "inni",
+    "examples": [
+      "Eg eri inni."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adverb"
+    ]
+  },
+  "kann": {
+    "antonyms": [],
+    "base": "kann",
+    "examples": [
+      "Eg kann tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "keyptu": {
+    "antonyms": [],
+    "base": "keyptu",
+    "examples": [
+      "Tú keyptu tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "maðurin": {
+    "antonyms": [],
+    "base": "maðurin",
+    "examples": [
+      "Maðurin er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mugu": {
+    "antonyms": [],
+    "base": "mugu",
+    "examples": [
+      "Eg mugu tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "mín": {
+    "antonyms": [],
+    "base": "mín",
+    "examples": [
+      "Mín bók er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nær": {
+    "antonyms": [],
+    "base": "nær",
+    "examples": [
+      "Eg eri nær."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adverb"
+    ]
+  },
+  "okinawa": {
+    "antonyms": [],
+    "base": "okinawa",
+    "examples": [
+      "Eg vil til Okinawa."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ongantíð": {
+    "antonyms": [],
+    "base": "ongantíð",
+    "examples": [
+      "Eg havi ongantíð sæð."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "systir": {
+    "antonyms": [],
+    "base": "systir",
+    "examples": [
+      "Mín systir er her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tað": {
+    "antonyms": [],
+    "base": "tað",
+    "examples": [
+      "Tað er gott."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "teið": {
+    "antonyms": [],
+    "base": "teið",
+    "examples": [
+      "Teið er langt."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "tú": {
+    "antonyms": [],
+    "base": "tú",
+    "examples": [
+      "Tú kanst tað."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "verið": {
+    "antonyms": [],
+    "base": "verið",
+    "examples": [
+      "Tú hevur verið her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "vit": {
+    "antonyms": [],
+    "base": "vit",
+    "examples": [
+      "Vit elska okkum."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "í": {
+    "antonyms": [],
+    "base": "í",
+    "examples": [
+      "Eg eri í húsinum."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "útferðir": {
+    "antonyms": [],
+    "base": "útferðir",
+    "examples": [
+      "Útferðir eru spennandi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  }
+}

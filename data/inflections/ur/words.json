@@ -1,0 +1,1137 @@
+{
+  "_locale": "ur",
+  "_type": "words",
+  "_version": "0.1",
+  "آدمی": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "آدمی",
+    "inflections": {
+      "n_acc_pl": "آدمیوں",
+      "n_acc_sg": "آدمی",
+      "n_nom_pl": "آدمی",
+      "n_nom_sg": "آدمی",
+      "n_voc_pl": "آدمیو",
+      "n_voc_sg": "آدمی",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "آنکھ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "آنکھ",
+    "inflections": {
+      "n_acc_pl": "آنکھوں",
+      "n_nom_pl": "آنکھیں",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "اترنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "اترنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_form": "اترو"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "اٹھانا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "اٹھانا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "اٹھا"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "اٹھنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "اٹھنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_form": "اٹھو",
+      "v_v_ptcp_masc_sg_pfv": "اٹھا"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "بولنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "بولنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "بول"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "بھی": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "بھی",
+    "inflections": {
+      "n_acc_pl": "بھیوں",
+      "n_acc_sg": "بھی",
+      "n_nom_pl": "بھی",
+      "n_nom_sg": "بھی",
+      "n_voc_pl": "بھیو",
+      "n_voc_sg": "بھی",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "جواب": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "جواب",
+    "inflections": {
+      "n_acc_pl": "جوابوں",
+      "n_acc_sg": "جواب",
+      "n_nom_pl": "جواب",
+      "n_nom_sg": "جواب",
+      "n_voc_pl": "جوابو",
+      "n_voc_sg": "جواب",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "حفاظت": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "حفاظت",
+    "inflections": {
+      "n_acc_pl": "حفاظتوں",
+      "n_acc_sg": "حفاظت",
+      "n_nom_pl": "حفاظتیں",
+      "n_nom_sg": "حفاظت",
+      "n_voc_pl": "حفاظتو",
+      "n_voc_sg": "حفاظت",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "حق": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "حق",
+    "inflections": {
+      "n_acc_pl": "حقوں",
+      "n_acc_sg": "حق",
+      "n_nom_pl": "حق",
+      "n_nom_sg": "حق",
+      "n_voc_pl": "حقو",
+      "n_voc_sg": "حق",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "حملہ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "حملہ",
+    "inflections": {
+      "n_acc_pl": "حملوں",
+      "n_acc_sg": "حملے",
+      "n_nom_pl": "حملے",
+      "n_nom_sg": "حملہ",
+      "n_voc_pl": "حملو",
+      "n_voc_sg": "حملے",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "حکومت": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "حکومت",
+    "inflections": {
+      "n_acc_pl": "حکومتوں",
+      "n_acc_sg": "حکومت",
+      "n_nom_pl": "حکومتیں",
+      "n_nom_sg": "حکومت",
+      "n_voc_pl": "حکومتو",
+      "n_voc_sg": "حکومت",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "دیکھنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "دیکھنا",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_hab_lgspec3_fem": "دیکھتی ہوں گی",
+      "v_1_pl_hab_lgspec3_masc": "دیکھتے ہوں گے",
+      "v_1_pl_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_1_pl_hab_lgspec4_masc": "دیکھتے ہوتے",
+      "v_1_pl_hab_prs_fem": "دیکھتی ہیں",
+      "v_1_pl_hab_prs_masc": "دیکھتے ہیں",
+      "v_1_pl_hab_pst_fem": "دیکھتی تھیں",
+      "v_1_pl_hab_pst_masc": "دیکھتے تھے",
+      "v_1_pl_hab_sbjv_fem": "دیکھتی ہوں",
+      "v_1_pl_hab_sbjv_masc": "دیکھتے ہوں",
+      "v_1_pl_prf_lgspec3_fem": "دیکھی ہوں گی",
+      "v_1_pl_prf_lgspec3_masc": "دیکھے ہوں گے",
+      "v_1_pl_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_1_pl_prf_lgspec4_masc": "دیکھے ہوتے",
+      "v_1_pl_prf_prs_fem": "دیکھی ہیں",
+      "v_1_pl_prf_prs_masc": "دیکھے ہیں",
+      "v_1_pl_prf_pst_fem": "دیکھی تھیں",
+      "v_1_pl_prf_pst_masc": "دیکھے تھے",
+      "v_1_pl_prf_sbjv_fem": "دیکھی ہوں",
+      "v_1_pl_prf_sbjv_masc": "دیکھے ہوں",
+      "v_1_pl_prog_lgspec3_fem": "دیکھ رہی ہوں گی",
+      "v_1_pl_prog_lgspec3_masc": "دیکھ رہے ہوں گے",
+      "v_1_pl_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_1_pl_prog_lgspec4_masc": "دیکھ رہے ہوتے",
+      "v_1_pl_prog_prs_fem": "دیکھ رہی ہیں",
+      "v_1_pl_prog_prs_masc": "دیکھ رہے ہیں",
+      "v_1_pl_prog_pst_fem": "دیکھ رہی تھیں",
+      "v_1_pl_prog_pst_masc": "دیکھ رہے تھے",
+      "v_1_pl_prog_sbjv_fem": "دیکھ رہی ہوں",
+      "v_1_pl_prog_sbjv_masc": "دیکھ رہے ہوں",
+      "v_1_pl_sbjv": "ہم دیکھیں",
+      "v_1_pl_sbjv_fem": "ہم دیکھیں گی",
+      "v_1_pl_sbjv_masc": "ہم دیکھیں گے",
+      "v_1_sg_hab_lgspec3_fem": "دیکھتی ہوں گی",
+      "v_1_sg_hab_lgspec3_masc": "دیکھتا ہوں گا",
+      "v_1_sg_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_1_sg_hab_lgspec4_masc": "دیکھتا ہوتا",
+      "v_1_sg_hab_prs_fem": "دیکھتی ہوں",
+      "v_1_sg_hab_prs_masc": "دیکھتا ہوں",
+      "v_1_sg_hab_pst_fem": "دیکھتی تھی",
+      "v_1_sg_hab_pst_masc": "دیکھتا تھا",
+      "v_1_sg_hab_sbjv_fem": "دیکھتی ہوں",
+      "v_1_sg_hab_sbjv_masc": "دیکھتا ہوں",
+      "v_1_sg_prf_lgspec3_fem": "دیکھی ہوں گی",
+      "v_1_sg_prf_lgspec3_masc": "دیکھا ہوں گا",
+      "v_1_sg_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_1_sg_prf_lgspec4_masc": "دیکھا ہوتا",
+      "v_1_sg_prf_prs_fem": "دیکھی ہوں",
+      "v_1_sg_prf_prs_masc": "دیکھا ہوں",
+      "v_1_sg_prf_pst_fem": "دیکھی تھی",
+      "v_1_sg_prf_pst_masc": "دیکھا تھا",
+      "v_1_sg_prf_sbjv_fem": "دیکھی ہوں",
+      "v_1_sg_prf_sbjv_masc": "دیکھا ہوں",
+      "v_1_sg_prog_lgspec3_fem": "دیکھ رہی ہوں گی",
+      "v_1_sg_prog_lgspec3_masc": "دیکھ رہا ہوں گا",
+      "v_1_sg_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_1_sg_prog_lgspec4_masc": "دیکھ رہا ہوتا",
+      "v_1_sg_prog_prs_fem": "دیکھ رہی ہوں",
+      "v_1_sg_prog_prs_masc": "دیکھ رہا ہوں",
+      "v_1_sg_prog_pst_fem": "دیکھ رہی تھی",
+      "v_1_sg_prog_pst_masc": "دیکھ رہا تھا",
+      "v_1_sg_prog_sbjv_fem": "دیکھ رہی ہوں",
+      "v_1_sg_prog_sbjv_masc": "دیکھ رہا ہوں",
+      "v_1_sg_sbjv": "میں دیکھوں",
+      "v_1_sg_sbjv_fem": "میں دیکھوں گی",
+      "v_1_sg_sbjv_masc": "میں دیکھوں گا",
+      "v_2_pl_hab_lgspec3_fem": "دیکھتی ہو گی",
+      "v_2_pl_hab_lgspec3_masc": "دیکھتے ہو گے",
+      "v_2_pl_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_2_pl_hab_lgspec4_masc": "دیکھتے ہوتے",
+      "v_2_pl_hab_prs_fem": "دیکھتی ہو",
+      "v_2_pl_hab_prs_masc": "دیکھتے ہو",
+      "v_2_pl_hab_pst_fem": "دیکھتی تھیں",
+      "v_2_pl_hab_pst_masc": "دیکھتے تھے",
+      "v_2_pl_hab_sbjv_fem": "دیکھتی ہو",
+      "v_2_pl_hab_sbjv_masc": "دیکھتے ہو",
+      "v_2_pl_imp_form": "دیکھئیے",
+      "v_2_pl_prf_lgspec3_fem": "دیکھی ہو گی",
+      "v_2_pl_prf_lgspec3_masc": "دیکھے ہو گے",
+      "v_2_pl_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_2_pl_prf_lgspec4_masc": "دیکھے ہوتے",
+      "v_2_pl_prf_prs_fem": "دیکھی ہو",
+      "v_2_pl_prf_prs_masc": "دیکھے ہو",
+      "v_2_pl_prf_pst_fem": "دیکھی تھیں",
+      "v_2_pl_prf_pst_masc": "دیکھے تھے",
+      "v_2_pl_prf_sbjv_fem": "دیکھی ہو",
+      "v_2_pl_prf_sbjv_masc": "دیکھے ہو",
+      "v_2_pl_prog_lgspec3_fem": "دیکھ رہی ہو گی",
+      "v_2_pl_prog_lgspec3_masc": "دیکھ رہے ہو گے",
+      "v_2_pl_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_2_pl_prog_lgspec4_masc": "دیکھ رہے ہوتے",
+      "v_2_pl_prog_prs_fem": "دیکھ رہی ہو",
+      "v_2_pl_prog_prs_masc": "دیکھ رہے ہو",
+      "v_2_pl_prog_pst_fem": "دیکھ رہی تھیں",
+      "v_2_pl_prog_pst_masc": "دیکھ رہے تھے",
+      "v_2_pl_prog_sbjv_fem": "دیکھ رہی ہو",
+      "v_2_pl_prog_sbjv_masc": "دیکھ رہے ہو",
+      "v_2_pl_sbjv": "تم دیکھو",
+      "v_2_pl_sbjv_fem": "تم دیکھو گی",
+      "v_2_pl_sbjv_masc": "تم دیکھو گے",
+      "v_2_sg_hab_lgspec3_fem": "دیکھتی ہو گی",
+      "v_2_sg_hab_lgspec3_masc": "دیکھتا ہو گا",
+      "v_2_sg_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_2_sg_hab_lgspec4_masc": "دیکھتا ہوتا",
+      "v_2_sg_hab_prs_fem": "دیکھتی ہے",
+      "v_2_sg_hab_prs_masc": "دیکھتا ہے",
+      "v_2_sg_hab_pst_fem": "دیکھتی تھی",
+      "v_2_sg_hab_pst_masc": "دیکھتا تھا",
+      "v_2_sg_hab_sbjv_fem": "دیکھتی ہو",
+      "v_2_sg_hab_sbjv_masc": "دیکھتا ہو",
+      "v_2_sg_imp_form": "دیکھو",
+      "v_2_sg_imp_infm": "دیکھ",
+      "v_2_sg_prf_lgspec3_fem": "دیکھی ہو گی",
+      "v_2_sg_prf_lgspec3_masc": "دیکھا ہو گا",
+      "v_2_sg_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_2_sg_prf_lgspec4_masc": "دیکھا ہوتا",
+      "v_2_sg_prf_prs_fem": "دیکھی ہے",
+      "v_2_sg_prf_prs_masc": "دیکھا ہے",
+      "v_2_sg_prf_pst_fem": "دیکھی تھی",
+      "v_2_sg_prf_pst_masc": "دیکھا تھا",
+      "v_2_sg_prf_sbjv_fem": "دیکھی ہو",
+      "v_2_sg_prf_sbjv_masc": "دیکھا ہو",
+      "v_2_sg_prog_lgspec3_fem": "دیکھ رہی ہو گی",
+      "v_2_sg_prog_lgspec3_masc": "دیکھ رہا ہو گا",
+      "v_2_sg_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_2_sg_prog_lgspec4_masc": "دیکھ رہا ہوتا",
+      "v_2_sg_prog_prs_fem": "دیکھ رہی ہے",
+      "v_2_sg_prog_prs_masc": "دیکھ رہا ہے",
+      "v_2_sg_prog_pst_fem": "دیکھ رہی تھی",
+      "v_2_sg_prog_pst_masc": "دیکھ رہا تھا",
+      "v_2_sg_prog_sbjv_fem": "دیکھ رہی ہو",
+      "v_2_sg_prog_sbjv_masc": "دیکھ رہا ہو",
+      "v_2_sg_sbjv": "تو دیکھے",
+      "v_2_sg_sbjv_fem": "تو دیکھے گی",
+      "v_2_sg_sbjv_masc": "تو دیکھے گا",
+      "v_3_pl_hab_lgspec3_fem": "دیکھتی ہوں گی",
+      "v_3_pl_hab_lgspec3_masc": "دیکھتے ہوں گے",
+      "v_3_pl_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_3_pl_hab_lgspec4_masc": "دیکھتے ہوتے",
+      "v_3_pl_hab_prs_fem": "دیکھتی ہیں",
+      "v_3_pl_hab_prs_masc": "دیکھتے ہیں",
+      "v_3_pl_hab_pst_fem": "دیکھتی تھیں",
+      "v_3_pl_hab_pst_masc": "دیکھتے تھے",
+      "v_3_pl_hab_sbjv_fem": "دیکھتی ہوں",
+      "v_3_pl_hab_sbjv_masc": "دیکھتے ہوں",
+      "v_3_pl_prf_lgspec3_fem": "دیکھی ہوں گی",
+      "v_3_pl_prf_lgspec3_masc": "دیکھے ہوں گے",
+      "v_3_pl_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_3_pl_prf_lgspec4_masc": "دیکھے ہوتے",
+      "v_3_pl_prf_prs_fem": "دیکھی ہیں",
+      "v_3_pl_prf_prs_masc": "دیکھے ہیں",
+      "v_3_pl_prf_pst_fem": "دیکھی تھیں",
+      "v_3_pl_prf_pst_masc": "دیکھے تھے",
+      "v_3_pl_prf_sbjv_fem": "دیکھی ہوں",
+      "v_3_pl_prf_sbjv_masc": "دیکھے ہوں",
+      "v_3_pl_prog_lgspec3_fem": "دیکھ رہی ہوں گی",
+      "v_3_pl_prog_lgspec3_masc": "دیکھ رہے ہوں گے",
+      "v_3_pl_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_3_pl_prog_lgspec4_masc": "دیکھ رہے ہوتے",
+      "v_3_pl_prog_prs_fem": "دیکھ رہی ہیں",
+      "v_3_pl_prog_prs_masc": "دیکھ رہے ہیں",
+      "v_3_pl_prog_pst_fem": "دیکھ رہی تھیں",
+      "v_3_pl_prog_pst_masc": "دیکھ رہے تھے",
+      "v_3_pl_prog_sbjv_fem": "دیکھ رہی ہوں",
+      "v_3_pl_prog_sbjv_masc": "دیکھ رہے ہوں",
+      "v_3_pl_sbjv": "یہ وہ دیکھیں",
+      "v_3_pl_sbjv_fem": "یہ وہ دیکھیں گی",
+      "v_3_pl_sbjv_masc": "یہ وہ دیکھیں گے",
+      "v_3_sg_hab_lgspec3_fem": "دیکھتی ہو گی",
+      "v_3_sg_hab_lgspec3_masc": "دیکھتا ہو گا",
+      "v_3_sg_hab_lgspec4_fem": "دیکھتی ہوتی",
+      "v_3_sg_hab_lgspec4_masc": "دیکھتا ہوتا",
+      "v_3_sg_hab_prs_fem": "دیکھتی ہے",
+      "v_3_sg_hab_prs_masc": "دیکھتا ہے",
+      "v_3_sg_hab_pst_fem": "دیکھتی تھی",
+      "v_3_sg_hab_pst_masc": "دیکھتا تھا",
+      "v_3_sg_hab_sbjv_fem": "دیکھتی ہو",
+      "v_3_sg_hab_sbjv_masc": "دیکھتا ہو",
+      "v_3_sg_prf_lgspec3_fem": "دیکھی ہو گی",
+      "v_3_sg_prf_lgspec3_masc": "دیکھا ہو گا",
+      "v_3_sg_prf_lgspec4_fem": "دیکھی ہوتی",
+      "v_3_sg_prf_lgspec4_masc": "دیکھا ہوتا",
+      "v_3_sg_prf_prs_fem": "دیکھی ہے",
+      "v_3_sg_prf_prs_masc": "دیکھا ہے",
+      "v_3_sg_prf_pst_fem": "دیکھی تھی",
+      "v_3_sg_prf_pst_masc": "دیکھا تھا",
+      "v_3_sg_prf_sbjv_fem": "دیکھی ہو",
+      "v_3_sg_prf_sbjv_masc": "دیکھا ہو",
+      "v_3_sg_prog_lgspec3_fem": "دیکھ رہی ہو گی",
+      "v_3_sg_prog_lgspec3_masc": "دیکھ رہا ہو گا",
+      "v_3_sg_prog_lgspec4_fem": "دیکھ رہی ہوتی",
+      "v_3_sg_prog_lgspec4_masc": "دیکھ رہا ہوتا",
+      "v_3_sg_prog_prs_fem": "دیکھ رہی ہے",
+      "v_3_sg_prog_prs_masc": "دیکھ رہا ہے",
+      "v_3_sg_prog_pst_fem": "دیکھ رہی تھی",
+      "v_3_sg_prog_pst_masc": "دیکھ رہا تھا",
+      "v_3_sg_prog_sbjv_fem": "دیکھ رہی ہو",
+      "v_3_sg_prog_sbjv_masc": "دیکھ رہا ہو",
+      "v_3_sg_sbjv": "یہ وہ دیکھے",
+      "v_3_sg_sbjv_fem": "یہ وہ دیکھے گی",
+      "v_3_sg_sbjv_masc": "یہ وہ دیکھے گا",
+      "v_nfin_lgspec1": "دیکھنا",
+      "v_nfin_lgspec2": "دیکھنے",
+      "v_v_ptcp_fem_pl_ipfv": "دیکھتی",
+      "v_v_ptcp_fem_pl_pfv": "دیکھی",
+      "v_v_ptcp_fem_sg_ipfv": "دیکھتی",
+      "v_v_ptcp_fem_sg_pfv": "دیکھی",
+      "v_v_ptcp_masc_pl_ipfv": "دیکھتے",
+      "v_v_ptcp_masc_pl_pfv": "دیکھے",
+      "v_v_ptcp_masc_sg_ipfv": "دیکھتا",
+      "v_v_ptcp_masc_sg_pfv": "دیکھا"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "رات": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "رات",
+    "inflections": {
+      "n_acc_pl": "راتوں",
+      "n_acc_sg": "رات",
+      "n_nom_pl": "راتیں",
+      "n_nom_sg": "رات",
+      "n_voc_pl": "راتو",
+      "n_voc_sg": "رات",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "رنگ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "رنگ",
+    "inflections": {
+      "n_acc_pl": "رنگوں",
+      "n_acc_sg": "رنگ",
+      "n_nom_pl": "رنگ",
+      "n_nom_sg": "رنگ",
+      "n_voc_pl": "رنگو",
+      "n_voc_sg": "رنگ",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "زبان": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "زبان",
+    "inflections": {
+      "n_acc_pl": "زبانوں",
+      "n_acc_sg": "زبان",
+      "n_nom_pl": "زبانیں",
+      "n_nom_sg": "زبان",
+      "n_voc_pl": "زبانو",
+      "n_voc_sg": "زبان",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "سانس": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سانس",
+    "inflections": {
+      "n_acc_pl": "سانسوں",
+      "n_acc_sg": "سانس",
+      "n_nom_pl": "سانسیں",
+      "n_nom_sg": "سانس",
+      "n_voc_pl": "سانسو",
+      "n_voc_sg": "سانس",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "سمجھنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سمجھنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "سمجھ",
+      "v_v_ptcp_masc_pl_ipfv": "سمجھتے"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "سوچنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سوچنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "سوچ",
+      "v_nfin_lgspec2": "سوچنے",
+      "v_v_ptcp_masc_sg_ipfv": "سوچتا",
+      "v_v_ptcp_masc_sg_pfv": "سوچا"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "سڑک": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سڑک",
+    "inflections": {
+      "n_acc_pl": "سڑکوں",
+      "n_acc_sg": "سڑک",
+      "n_nom_pl": "سڑکیں",
+      "n_nom_sg": "سڑک",
+      "n_voc_pl": "سڑکو",
+      "n_voc_sg": "سڑک",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "سکنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سکنا",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_fem_pl_ipfv": "سکتی",
+      "v_v_ptcp_fem_sg_ipfv": "سکتی",
+      "v_v_ptcp_masc_pl_ipfv": "سکتے",
+      "v_v_ptcp_masc_pl_pfv": "سکے",
+      "v_v_ptcp_masc_sg_ipfv": "سکتا"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "شہر": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "شہر",
+    "inflections": {
+      "n_acc_pl": "شہروں",
+      "n_acc_sg": "شہر",
+      "n_nom_pl": "شہر",
+      "n_nom_sg": "شہر",
+      "n_voc_pl": "شہرو",
+      "n_voc_sg": "شہر",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "غلطی": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "غلطی",
+    "inflections": {
+      "n_acc_pl": "غلطیوں",
+      "n_acc_sg": "غلطی",
+      "n_nom_pl": "غلطیاں",
+      "n_nom_sg": "غلطی",
+      "n_voc_pl": "غلطیو",
+      "n_voc_sg": "غلطی",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "فیصلہ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "فیصلہ",
+    "inflections": {
+      "n_acc_pl": "فیصلوں",
+      "n_acc_sg": "فیصلے",
+      "n_nom_pl": "فیصلے",
+      "n_nom_sg": "فیصلہ",
+      "n_voc_pl": "فیصلو",
+      "n_voc_sg": "فیصلے",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "لڑکا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "لڑکا",
+    "inflections": {
+      "n_acc_pl": "لڑکوں",
+      "n_acc_sg": "لڑکے",
+      "n_nom_pl": "لڑکے",
+      "n_nom_sg": "لڑکا",
+      "n_voc_pl": "لڑکو",
+      "n_voc_sg": "لڑکے",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "لڑکی": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "لڑکی",
+    "inflections": {
+      "n_acc_pl": "لڑکیوں",
+      "n_acc_sg": "لڑکی",
+      "n_nom_pl": "لڑکیاں",
+      "n_nom_sg": "لڑکی",
+      "n_voc_pl": "لڑکیو",
+      "n_voc_sg": "لڑکی",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "لگنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "لگنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "لگ",
+      "v_v_ptcp_fem_pl_pfv": "لگی",
+      "v_v_ptcp_fem_sg_pfv": "لگی",
+      "v_v_ptcp_masc_pl_pfv": "لگے",
+      "v_v_ptcp_masc_sg_ipfv": "لگتا",
+      "v_v_ptcp_masc_sg_pfv": "لگا"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ملانا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ملانا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "ملا"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ملک": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ملک",
+    "inflections": {
+      "n_acc_pl": "ملکوں",
+      "n_acc_sg": "ملک",
+      "n_nom_pl": "ملک",
+      "n_nom_sg": "ملک",
+      "n_voc_pl": "ملکو",
+      "n_voc_sg": "ملک",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "مٹنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "مٹنا",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_fem_pl_pfv": "مٹی",
+      "v_v_ptcp_fem_sg_pfv": "مٹی"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "نام": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "نام",
+    "inflections": {
+      "n_acc_pl": "ناموں",
+      "n_acc_sg": "نام",
+      "n_nom_pl": "نام",
+      "n_nom_sg": "نام",
+      "n_voc_pl": "نامو",
+      "n_voc_sg": "نام",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "وعدہ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "وعدہ",
+    "inflections": {
+      "n_acc_pl": "وعدوں",
+      "n_acc_sg": "وعدے",
+      "n_nom_pl": "وعدے",
+      "n_nom_sg": "وعدہ",
+      "n_voc_pl": "وعدو",
+      "n_voc_sg": "وعدے",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "پتا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "پتا",
+    "inflections": {
+      "n_acc_pl": "پتاؤں",
+      "n_acc_sg": "پتا",
+      "n_nom_pl": "پتا",
+      "n_nom_sg": "پتا",
+      "n_voc_pl": "پتاؤ",
+      "n_voc_sg": "پتا",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "پہنچنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "پہنچنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "پہنچ"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "چاہنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "چاہنا",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_fem_pl_ipfv": "چاہتی",
+      "v_v_ptcp_fem_sg_ipfv": "چاہتی",
+      "v_v_ptcp_masc_pl_ipfv": "چاہتے",
+      "v_v_ptcp_masc_sg_ipfv": "چاہتا"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "چیز": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "چیز",
+    "inflections": {
+      "n_acc_pl": "چیزوں",
+      "n_acc_sg": "چیز",
+      "n_nom_pl": "چیزیں",
+      "n_nom_sg": "چیز",
+      "n_voc_pl": "چیزو",
+      "n_voc_sg": "چیز",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "کمرا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "کمرا",
+    "inflections": {
+      "n_acc_sg": "کمرے",
+      "n_nom_pl": "کمرے",
+      "n_voc_sg": "کمرے",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "کھیلنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "کھیلنا",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_infm": "کھیل"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "کہنا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "کہنا",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_hab_lgspec3_fem": "کہتی ہوں گی",
+      "v_1_pl_hab_lgspec3_masc": "کہتے ہوں گے",
+      "v_1_pl_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_1_pl_hab_lgspec4_masc": "کہتے ہوتے",
+      "v_1_pl_hab_prs_fem": "کہتی ہیں",
+      "v_1_pl_hab_prs_masc": "کہتے ہیں",
+      "v_1_pl_hab_pst_fem": "کہتی تھیں",
+      "v_1_pl_hab_pst_masc": "کہتے تھے",
+      "v_1_pl_hab_sbjv_fem": "کہتی ہوں",
+      "v_1_pl_hab_sbjv_masc": "کہتے ہوں",
+      "v_1_pl_prf_lgspec3_fem": "کہی ہوں گی",
+      "v_1_pl_prf_lgspec3_masc": "کہے ہوں گے",
+      "v_1_pl_prf_lgspec4_fem": "کہی ہوتی",
+      "v_1_pl_prf_lgspec4_masc": "کہے ہوتے",
+      "v_1_pl_prf_prs_fem": "کہی ہیں",
+      "v_1_pl_prf_prs_masc": "کہے ہیں",
+      "v_1_pl_prf_pst_fem": "کہی تھیں",
+      "v_1_pl_prf_pst_masc": "کہے تھے",
+      "v_1_pl_prf_sbjv_fem": "کہی ہوں",
+      "v_1_pl_prf_sbjv_masc": "کہے ہوں",
+      "v_1_pl_prog_lgspec3_fem": "کہ رہی ہوں گی",
+      "v_1_pl_prog_lgspec3_masc": "کہ رہے ہوں گے",
+      "v_1_pl_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_1_pl_prog_lgspec4_masc": "کہ رہے ہوتے",
+      "v_1_pl_prog_prs_fem": "کہ رہی ہیں",
+      "v_1_pl_prog_prs_masc": "کہ رہے ہیں",
+      "v_1_pl_prog_pst_fem": "کہ رہی تھیں",
+      "v_1_pl_prog_pst_masc": "کہ رہے تھے",
+      "v_1_pl_prog_sbjv_fem": "کہ رہی ہوں",
+      "v_1_pl_prog_sbjv_masc": "کہ رہے ہوں",
+      "v_1_pl_sbjv": "ہم کہیں",
+      "v_1_pl_sbjv_fem": "ہم کہیں گی",
+      "v_1_pl_sbjv_masc": "ہم کہیں گے",
+      "v_1_sg_hab_lgspec3_fem": "کہتی ہوں گی",
+      "v_1_sg_hab_lgspec3_masc": "کہتا ہوں گا",
+      "v_1_sg_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_1_sg_hab_lgspec4_masc": "کہتا ہوتا",
+      "v_1_sg_hab_prs_fem": "کہتی ہوں",
+      "v_1_sg_hab_prs_masc": "کہتا ہوں",
+      "v_1_sg_hab_pst_fem": "کہتی تھی",
+      "v_1_sg_hab_pst_masc": "کہتا تھا",
+      "v_1_sg_hab_sbjv_fem": "کہتی ہوں",
+      "v_1_sg_hab_sbjv_masc": "کہتا ہوں",
+      "v_1_sg_prf_lgspec3_fem": "کہی ہوں گی",
+      "v_1_sg_prf_lgspec3_masc": "کہا ہوں گا",
+      "v_1_sg_prf_lgspec4_fem": "کہی ہوتی",
+      "v_1_sg_prf_lgspec4_masc": "کہا ہوتا",
+      "v_1_sg_prf_prs_fem": "کہی ہوں",
+      "v_1_sg_prf_prs_masc": "کہا ہوں",
+      "v_1_sg_prf_pst_fem": "کہی تھی",
+      "v_1_sg_prf_pst_masc": "کہا تھا",
+      "v_1_sg_prf_sbjv_fem": "کہی ہوں",
+      "v_1_sg_prf_sbjv_masc": "کہا ہوں",
+      "v_1_sg_prog_lgspec3_fem": "کہ رہی ہوں گی",
+      "v_1_sg_prog_lgspec3_masc": "کہ رہا ہوں گا",
+      "v_1_sg_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_1_sg_prog_lgspec4_masc": "کہ رہا ہوتا",
+      "v_1_sg_prog_prs_fem": "کہ رہی ہوں",
+      "v_1_sg_prog_prs_masc": "کہ رہا ہوں",
+      "v_1_sg_prog_pst_fem": "کہ رہی تھی",
+      "v_1_sg_prog_pst_masc": "کہ رہا تھا",
+      "v_1_sg_prog_sbjv_fem": "کہ رہی ہوں",
+      "v_1_sg_prog_sbjv_masc": "کہ رہا ہوں",
+      "v_1_sg_sbjv": "میں کہوں",
+      "v_1_sg_sbjv_fem": "میں کہوں گی",
+      "v_1_sg_sbjv_masc": "میں کہوں گا",
+      "v_2_pl_hab_lgspec3_fem": "کہتی ہو گی",
+      "v_2_pl_hab_lgspec3_masc": "کہتے ہو گے",
+      "v_2_pl_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_2_pl_hab_lgspec4_masc": "کہتے ہوتے",
+      "v_2_pl_hab_prs_fem": "کہتی ہو",
+      "v_2_pl_hab_prs_masc": "کہتے ہو",
+      "v_2_pl_hab_pst_fem": "کہتی تھیں",
+      "v_2_pl_hab_pst_masc": "کہتے تھے",
+      "v_2_pl_hab_sbjv_fem": "کہتی ہو",
+      "v_2_pl_hab_sbjv_masc": "کہتے ہو",
+      "v_2_pl_imp_form": "کہئیے",
+      "v_2_pl_prf_lgspec3_fem": "کہی ہو گی",
+      "v_2_pl_prf_lgspec3_masc": "کہے ہو گے",
+      "v_2_pl_prf_lgspec4_fem": "کہی ہوتی",
+      "v_2_pl_prf_lgspec4_masc": "کہے ہوتے",
+      "v_2_pl_prf_prs_fem": "کہی ہو",
+      "v_2_pl_prf_prs_masc": "کہے ہو",
+      "v_2_pl_prf_pst_fem": "کہی تھیں",
+      "v_2_pl_prf_pst_masc": "کہے تھے",
+      "v_2_pl_prf_sbjv_fem": "کہی ہو",
+      "v_2_pl_prf_sbjv_masc": "کہے ہو",
+      "v_2_pl_prog_lgspec3_fem": "کہ رہی ہو گی",
+      "v_2_pl_prog_lgspec3_masc": "کہ رہے ہو گے",
+      "v_2_pl_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_2_pl_prog_lgspec4_masc": "کہ رہے ہوتے",
+      "v_2_pl_prog_prs_fem": "کہ رہی ہو",
+      "v_2_pl_prog_prs_masc": "کہ رہے ہو",
+      "v_2_pl_prog_pst_fem": "کہ رہی تھیں",
+      "v_2_pl_prog_pst_masc": "کہ رہے تھے",
+      "v_2_pl_prog_sbjv_fem": "کہ رہی ہو",
+      "v_2_pl_prog_sbjv_masc": "کہ رہے ہو",
+      "v_2_pl_sbjv": "تم کہو",
+      "v_2_pl_sbjv_fem": "تم کہو گی",
+      "v_2_pl_sbjv_masc": "تم کہو گے",
+      "v_2_sg_hab_lgspec3_fem": "کہتی ہو گی",
+      "v_2_sg_hab_lgspec3_masc": "کہتا ہو گا",
+      "v_2_sg_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_2_sg_hab_lgspec4_masc": "کہتا ہوتا",
+      "v_2_sg_hab_prs_fem": "کہتی ہے",
+      "v_2_sg_hab_prs_masc": "کہتا ہے",
+      "v_2_sg_hab_pst_fem": "کہتی تھی",
+      "v_2_sg_hab_pst_masc": "کہتا تھا",
+      "v_2_sg_hab_sbjv_fem": "کہتی ہو",
+      "v_2_sg_hab_sbjv_masc": "کہتا ہو",
+      "v_2_sg_imp_form": "کہو",
+      "v_2_sg_imp_infm": "کہ",
+      "v_2_sg_prf_lgspec3_fem": "کہی ہو گی",
+      "v_2_sg_prf_lgspec3_masc": "کہا ہو گا",
+      "v_2_sg_prf_lgspec4_fem": "کہی ہوتی",
+      "v_2_sg_prf_lgspec4_masc": "کہا ہوتا",
+      "v_2_sg_prf_prs_fem": "کہی ہے",
+      "v_2_sg_prf_prs_masc": "کہا ہے",
+      "v_2_sg_prf_pst_fem": "کہی تھی",
+      "v_2_sg_prf_pst_masc": "کہا تھا",
+      "v_2_sg_prf_sbjv_fem": "کہی ہو",
+      "v_2_sg_prf_sbjv_masc": "کہا ہو",
+      "v_2_sg_prog_lgspec3_fem": "کہ رہی ہو گی",
+      "v_2_sg_prog_lgspec3_masc": "کہ رہا ہو گا",
+      "v_2_sg_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_2_sg_prog_lgspec4_masc": "کہ رہا ہوتا",
+      "v_2_sg_prog_prs_fem": "کہ رہی ہے",
+      "v_2_sg_prog_prs_masc": "کہ رہا ہے",
+      "v_2_sg_prog_pst_fem": "کہ رہی تھی",
+      "v_2_sg_prog_pst_masc": "کہ رہا تھا",
+      "v_2_sg_prog_sbjv_fem": "کہ رہی ہو",
+      "v_2_sg_prog_sbjv_masc": "کہ رہا ہو",
+      "v_2_sg_sbjv": "تو کہے",
+      "v_2_sg_sbjv_fem": "تو کہے گی",
+      "v_2_sg_sbjv_masc": "تو کہے گا",
+      "v_3_pl_hab_lgspec3_fem": "کہتی ہوں گی",
+      "v_3_pl_hab_lgspec3_masc": "کہتے ہوں گے",
+      "v_3_pl_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_3_pl_hab_lgspec4_masc": "کہتے ہوتے",
+      "v_3_pl_hab_prs_fem": "کہتی ہیں",
+      "v_3_pl_hab_prs_masc": "کہتے ہیں",
+      "v_3_pl_hab_pst_fem": "کہتی تھیں",
+      "v_3_pl_hab_pst_masc": "کہتے تھے",
+      "v_3_pl_hab_sbjv_fem": "کہتی ہوں",
+      "v_3_pl_hab_sbjv_masc": "کہتے ہوں",
+      "v_3_pl_prf_lgspec3_fem": "کہی ہوں گی",
+      "v_3_pl_prf_lgspec3_masc": "کہے ہوں گے",
+      "v_3_pl_prf_lgspec4_fem": "کہی ہوتی",
+      "v_3_pl_prf_lgspec4_masc": "کہے ہوتے",
+      "v_3_pl_prf_prs_fem": "کہی ہیں",
+      "v_3_pl_prf_prs_masc": "کہے ہیں",
+      "v_3_pl_prf_pst_fem": "کہی تھیں",
+      "v_3_pl_prf_pst_masc": "کہے تھے",
+      "v_3_pl_prf_sbjv_fem": "کہی ہوں",
+      "v_3_pl_prf_sbjv_masc": "کہے ہوں",
+      "v_3_pl_prog_lgspec3_fem": "کہ رہی ہوں گی",
+      "v_3_pl_prog_lgspec3_masc": "کہ رہے ہوں گے",
+      "v_3_pl_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_3_pl_prog_lgspec4_masc": "کہ رہے ہوتے",
+      "v_3_pl_prog_prs_fem": "کہ رہی ہیں",
+      "v_3_pl_prog_prs_masc": "کہ رہے ہیں",
+      "v_3_pl_prog_pst_fem": "کہ رہی تھیں",
+      "v_3_pl_prog_pst_masc": "کہ رہے تھے",
+      "v_3_pl_prog_sbjv_fem": "کہ رہی ہوں",
+      "v_3_pl_prog_sbjv_masc": "کہ رہے ہوں",
+      "v_3_pl_sbjv": "یہ وہ کہیں",
+      "v_3_pl_sbjv_fem": "یہ وہ کہیں گی",
+      "v_3_pl_sbjv_masc": "یہ وہ کہیں گے",
+      "v_3_sg_hab_lgspec3_fem": "کہتی ہو گی",
+      "v_3_sg_hab_lgspec3_masc": "کہتا ہو گا",
+      "v_3_sg_hab_lgspec4_fem": "کہتی ہوتی",
+      "v_3_sg_hab_lgspec4_masc": "کہتا ہوتا",
+      "v_3_sg_hab_prs_fem": "کہتی ہے",
+      "v_3_sg_hab_prs_masc": "کہتا ہے",
+      "v_3_sg_hab_pst_fem": "کہتی تھی",
+      "v_3_sg_hab_pst_masc": "کہتا تھا",
+      "v_3_sg_hab_sbjv_fem": "کہتی ہو",
+      "v_3_sg_hab_sbjv_masc": "کہتا ہو",
+      "v_3_sg_prf_lgspec3_fem": "کہی ہو گی",
+      "v_3_sg_prf_lgspec3_masc": "کہا ہو گا",
+      "v_3_sg_prf_lgspec4_fem": "کہی ہوتی",
+      "v_3_sg_prf_lgspec4_masc": "کہا ہوتا",
+      "v_3_sg_prf_prs_fem": "کہی ہے",
+      "v_3_sg_prf_prs_masc": "کہا ہے",
+      "v_3_sg_prf_pst_fem": "کہی تھی",
+      "v_3_sg_prf_pst_masc": "کہا تھا",
+      "v_3_sg_prf_sbjv_fem": "کہی ہو",
+      "v_3_sg_prf_sbjv_masc": "کہا ہو",
+      "v_3_sg_prog_lgspec3_fem": "کہ رہی ہو گی",
+      "v_3_sg_prog_lgspec3_masc": "کہ رہا ہو گا",
+      "v_3_sg_prog_lgspec4_fem": "کہ رہی ہوتی",
+      "v_3_sg_prog_lgspec4_masc": "کہ رہا ہوتا",
+      "v_3_sg_prog_prs_fem": "کہ رہی ہے",
+      "v_3_sg_prog_prs_masc": "کہ رہا ہے",
+      "v_3_sg_prog_pst_fem": "کہ رہی تھی",
+      "v_3_sg_prog_pst_masc": "کہ رہا تھا",
+      "v_3_sg_prog_sbjv_fem": "کہ رہی ہو",
+      "v_3_sg_prog_sbjv_masc": "کہ رہا ہو",
+      "v_3_sg_sbjv": "یہ وہ کہے",
+      "v_3_sg_sbjv_fem": "یہ وہ کہے گی",
+      "v_3_sg_sbjv_masc": "یہ وہ کہے گا",
+      "v_nfin_lgspec1": "کہنا",
+      "v_nfin_lgspec2": "کہنے",
+      "v_v_ptcp_fem_pl_ipfv": "کہتی",
+      "v_v_ptcp_fem_pl_pfv": "کہی",
+      "v_v_ptcp_fem_sg_ipfv": "کہتی",
+      "v_v_ptcp_fem_sg_pfv": "کہی",
+      "v_v_ptcp_masc_pl_ipfv": "کہتے",
+      "v_v_ptcp_masc_pl_pfv": "کہے",
+      "v_v_ptcp_masc_sg_ipfv": "کہتا",
+      "v_v_ptcp_masc_sg_pfv": "کہا"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "گھوڑا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "گھوڑا",
+    "inflections": {
+      "n_acc_sg": "گھوڑے",
+      "n_nom_pl": "گھوڑے",
+      "n_voc_sg": "گھوڑے",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ہوا": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ہوا",
+    "inflections": {
+      "n_acc_pl": "ہواؤں",
+      "n_acc_sg": "ہوا",
+      "n_nom_pl": "ہوائیں",
+      "n_nom_sg": "ہوا",
+      "n_voc_pl": "ہواؤ",
+      "n_voc_sg": "ہوا",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  }
+}

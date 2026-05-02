@@ -1,0 +1,77 @@
+{
+  "_locale": "mt",
+  "_type": "words",
+  "_version": "0.1",
+  "ipprova": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ipprova",
+    "inflections": {
+      "regulars": [],
+      "v_fin_pst_ipfv_3_sg_masc": "jipprova"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "mar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mar",
+    "inflections": {
+      "regulars": [],
+      "v_fin_pst_prf_1_pl": "morna"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "tkellem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tkellem",
+    "inflections": {
+      "regulars": [],
+      "v_fin_imp_1_pl": "tkellmu",
+      "v_fin_imp_2_sg": "tkellem",
+      "v_fin_pst_ipfv_1_pl": "nitkellmu",
+      "v_fin_pst_ipfv_1_sg": "nitkellem",
+      "v_fin_pst_ipfv_2_pl": "titkellmu",
+      "v_fin_pst_ipfv_2_sg": "titkellem",
+      "v_fin_pst_ipfv_3_pl": "jitkellmu",
+      "v_fin_pst_ipfv_3_sg_fem": "titkellem",
+      "v_fin_pst_ipfv_3_sg_masc": "jitkellem",
+      "v_fin_pst_prf_1_pl": "tkellimna",
+      "v_fin_pst_prf_1_sg": "tkellimt",
+      "v_fin_pst_prf_2_pl": "tkellimtu",
+      "v_fin_pst_prf_2_sg": "tkellimt",
+      "v_fin_pst_prf_3_pl": "tkellmu",
+      "v_fin_pst_prf_3_sg_fem": "tkellmet",
+      "v_fin_pst_prf_3_sg_masc": "tkellem"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "xtara": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "xtara",
+    "inflections": {
+      "regulars": [],
+      "v_fin_pst_prf_1_sg": "xtrajt",
+      "v_fin_pst_prf_2_sg": "xtrajt"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  }
+}

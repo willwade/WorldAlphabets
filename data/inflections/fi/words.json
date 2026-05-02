@@ -1,0 +1,572 @@
+{
+  "_locale": "fi",
+  "_type": "words",
+  "_version": "0.1",
+  "ei": {
+    "antonyms": [],
+    "base": "ei",
+    "examples": [
+      "Se ei ole mahdollista."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "emme": {
+    "antonyms": [],
+    "base": "olla",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "Minä en tiedä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "et": {
+    "antonyms": [],
+    "base": "et",
+    "examples": [
+      "Et tule tänään."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "particle"
+    ]
+  },
+  "että": {
+    "antonyms": [],
+    "base": "että",
+    "examples": [
+      "Tiedän, että tulet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "haluan": {
+    "antonyms": [],
+    "base": "haluta",
+    "examples": [
+      "Haluan mennä ulos."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "haluan",
+          "tense": "present"
+        },
+        {
+          "form": "halusin",
+          "tense": "past"
+        },
+        {
+          "form": "haluavani",
+          "tense": "future"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "he": {
+    "antonyms": [],
+    "base": "he",
+    "examples": [
+      "He on täällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hyvä": {
+    "antonyms": [
+      "huono"
+    ],
+    "base": "hyvä",
+    "examples": [
+      "Se on hyvä idea."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hän": {
+    "antonyms": [],
+    "base": "hän",
+    "examples": [
+      "Hän tulee tänään."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hänen": {
+    "antonyms": [],
+    "base": "hänen",
+    "examples": [
+      "Hänen kirjansa on pöydällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "häntä": {
+    "antonyms": [],
+    "base": "häntä",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [
+      "Minä ja sinä olemme ystäviä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "jo": {
+    "antonyms": [],
+    "base": "jo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "joka": {
+    "antonyms": [],
+    "base": "joka",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kaikki": {
+    "antonyms": [],
+    "base": "kaikki",
+    "examples": [
+      "Kaikki ovat tervetulleita."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kanssa": {
+    "antonyms": [],
+    "base": "kanssa",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "koska": {
+    "antonyms": [],
+    "base": "koska",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "meidän": {
+    "antonyms": [],
+    "base": "meidän",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "minua": {
+    "antonyms": [],
+    "base": "minua",
+    "examples": [
+      "Minua ei kiinnosta."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "minulle": {
+    "antonyms": [],
+    "base": "minulle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "minun": {
+    "antonyms": [],
+    "base": "minun",
+    "examples": [
+      "Minun autoni on punainen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "mitä": {
+    "antonyms": [],
+    "base": "mitä",
+    "examples": [
+      "Mitä sinä teet?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ne": {
+    "antonyms": [],
+    "base": "ne",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ole": {
+    "antonyms": [],
+    "base": "ole",
+    "examples": [
+      "Ole hyvä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "olemme": {
+    "antonyms": [],
+    "base": "olla",
+    "examples": [
+      "Me olemme ystäviä."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "olemme",
+          "tense": "present"
+        },
+        {
+          "form": "olimme",
+          "tense": "past"
+        },
+        {
+          "form": "olemme",
+          "tense": "future"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "olen": {
+    "antonyms": [],
+    "base": "olen",
+    "examples": [
+      "Olen täällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "olla": {
+    "antonyms": [],
+    "base": "olla",
+    "examples": [
+      "Mitä sinä teet? Olen täällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ollut": {
+    "antonyms": [],
+    "base": "ollut",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "on": {
+    "antonyms": [],
+    "base": "on",
+    "examples": [
+      "Hän on täällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ovat": {
+    "antonyms": [],
+    "base": "ovat",
+    "examples": [
+      "He ovat ystäviä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "pitää": {
+    "antonyms": [],
+    "base": "pitää",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "saa": {
+    "antonyms": [],
+    "base": "saada",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [
+      "Se on kaunis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tai": {
+    "antonyms": [],
+    "base": "tai",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "tehdä": {
+    "antonyms": [],
+    "base": "tehdä",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "tiedä": {
+    "antonyms": [],
+    "base": "tiedä",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tiedän": {
+    "antonyms": [],
+    "base": "tietää",
+    "examples": [
+      "Tiedän vastauksen."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "tiedän",
+          "tense": "present"
+        },
+        {
+          "form": "tiesin",
+          "tense": "past"
+        },
+        {
+          "form": "tiedän",
+          "tense": "future"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "tänne": {
+    "antonyms": [],
+    "base": "tänne",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tässä": {
+    "antonyms": [],
+    "base": "tässä",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "täällä": {
+    "antonyms": [],
+    "base": "täällä",
+    "examples": [
+      "Olen täällä."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  }
+}

@@ -1,0 +1,6027 @@
+{
+  "_locale": "lv",
+  "_type": "words",
+  "_version": "0.1",
+  "aiziet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aiziet",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "aiziesim",
+      "v_1_pl_imp": "aiziesim",
+      "v_1_pl_prs_ind": "aizejam",
+      "v_1_pl_pst_ind": "aizgājām",
+      "v_1_sg_fut_ind": "aiziešu",
+      "v_1_sg_prs_ind": "aizeju",
+      "v_1_sg_pst_ind": "aizgāju",
+      "v_2_pl_fut_ind": "aiziesiet",
+      "v_2_pl_imp": "aizejiet",
+      "v_2_pl_prs_ind": "aizejat",
+      "v_2_pl_pst_ind": "aizgājāt",
+      "v_2_sg_fut_ind": "aiziesi",
+      "v_2_sg_imp": "aizej",
+      "v_2_sg_prs_ind": "aizej",
+      "v_2_sg_pst_ind": "aizgāji",
+      "v_3_pl_fut_ind": "aizies",
+      "v_3_pl_imp": "lai aiziet",
+      "v_3_pl_prs_ind": "aiziet",
+      "v_3_pl_pst_ind": "aizgāja",
+      "v_3_sg_fut_ind": "aizies",
+      "v_3_sg_imp": "lai aiziet",
+      "v_3_sg_prs_ind": "aiziet",
+      "v_3_sg_pst_ind": "aizgāja",
+      "v_cond_prs": "aizietu",
+      "v_cond_pst": "būtu aizgājis",
+      "v_lgspec1_fut": "aiziešot",
+      "v_lgspec1_imp": "lai aizejot",
+      "v_lgspec1_prs": "aizejot",
+      "v_lgspec1_pst": "esot aizgājis",
+      "v_lgspec2_ind": "būt jāaiziet",
+      "v_lgspec2_lgspec7": "esot jāaiziet",
+      "v_lgspec2_lgspec8": "jāaizejot",
+      "v_nfin": "aiziet",
+      "v_nfin_neg": "neaiziet",
+      "v_v_msdr": "aiziešana",
+      "v_v_ptcp_prs_lgspec3": "aizejošs",
+      "v_v_ptcp_prs_lgspec4": "aiziedams",
+      "v_v_ptcp_prs_lgspec5": "aizejot",
+      "v_v_ptcp_prs_lgspec6": "aizejam",
+      "v_v_ptcp_prs_pass": "aizejams",
+      "v_v_ptcp_pst_act": "aizgājis",
+      "v_v_ptcp_pst_pass": "aiziets"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "art": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "art",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "ar",
+      "v_2_sg_prs_ind": "ar",
+      "v_3_pl_prs_ind": "ar",
+      "v_3_sg_prs_ind": "ar"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "asinis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "asinis",
+    "inflections": {
+      "n_acc_pl": "asinis",
+      "n_dat_pl": "asinīm",
+      "n_gen_pl": "asiņu",
+      "n_inst_pl": "asinīm",
+      "n_loc_pl": "asinīs",
+      "n_nom_pl": "asinis",
+      "n_voc_pl": "asinis",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "atbilde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atbilde",
+    "inflections": {
+      "n_acc_sg": "atbildi",
+      "n_inst_sg": "atbildi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "atbildēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atbildēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "atbildi",
+      "v_2_sg_prs_ind": "atbildi"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "atcerēties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atcerēties",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "atceros",
+      "v_2_sg_imp": "atceries",
+      "v_2_sg_prs_ind": "atceries"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "atkalt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atkalt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "atkal",
+      "v_2_sg_prs_ind": "atkal"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "atrast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atrast",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "atradīsim",
+      "v_1_pl_imp": "atradīsim",
+      "v_1_pl_prs_ind": "atrodam",
+      "v_1_pl_pst_ind": "atradām",
+      "v_1_sg_fut_ind": "atradīšu",
+      "v_1_sg_prs_ind": "atrodu",
+      "v_1_sg_pst_ind": "atradu",
+      "v_2_pl_fut_ind": "atradīsit",
+      "v_2_pl_imp": "atrodiet",
+      "v_2_pl_prs_ind": "atrodat",
+      "v_2_pl_pst_ind": "atradāt",
+      "v_2_sg_fut_ind": "atradīsi",
+      "v_2_sg_imp": "atrodi",
+      "v_2_sg_prs_ind": "atrodi",
+      "v_2_sg_pst_ind": "atradi",
+      "v_3_pl_fut_ind": "atradīs",
+      "v_3_pl_imp": "lai atrod",
+      "v_3_pl_prs_ind": "atrod",
+      "v_3_pl_pst_ind": "atrada",
+      "v_3_sg_fut_ind": "atradīs",
+      "v_3_sg_imp": "lai atrod",
+      "v_3_sg_prs_ind": "atrod",
+      "v_3_sg_pst_ind": "atrada",
+      "v_cond_prs": "atrastu",
+      "v_cond_pst": "būtu atradis",
+      "v_lgspec1_fut": "atradīšot",
+      "v_lgspec1_imp": "lai atrodot",
+      "v_lgspec1_prs": "atrodot",
+      "v_lgspec1_pst": "esot atradis",
+      "v_lgspec2_ind": "būt jāatrod",
+      "v_lgspec2_lgspec7": "esot jāatrod",
+      "v_lgspec2_lgspec8": "jāatrodot",
+      "v_nfin": "atrast",
+      "v_nfin_neg": "neatrast",
+      "v_v_msdr": "atrašana",
+      "v_v_ptcp_prs_lgspec3": "atrodošs",
+      "v_v_ptcp_prs_lgspec4": "atrazdams",
+      "v_v_ptcp_prs_lgspec5": "atrodot",
+      "v_v_ptcp_prs_lgspec6": "atrodam",
+      "v_v_ptcp_prs_pass": "atrodams",
+      "v_v_ptcp_pst_act": "atradis",
+      "v_v_ptcp_pst_pass": "atrasts"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "atslēga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atslēga",
+    "inflections": {
+      "n_acc_pl": "atslēgas",
+      "n_gen_sg": "atslēgas",
+      "n_nom_pl": "atslēgas",
+      "n_voc_pl": "atslēgas",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "atvainot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atvainot",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "atvainojiet",
+      "v_2_sg_imp": "atvaino",
+      "v_2_sg_prs_ind": "atvaino",
+      "v_3_pl_prs_ind": "atvaino",
+      "v_3_sg_prs_ind": "atvaino"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "atvainoties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atvainoties",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "atvainojos",
+      "v_1_sg_pst_ind": "atvainojos"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "atvērt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atvērt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "atver",
+      "v_2_sg_prs_ind": "atver",
+      "v_3_pl_prs_ind": "atver",
+      "v_3_sg_prs_ind": "atver"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "augša": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "augša",
+    "inflections": {
+      "n_loc_sg": "augšā",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "beigt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beigt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "beidz",
+      "v_2_sg_prs_ind": "beidz",
+      "v_3_pl_prs_ind": "beidz",
+      "v_3_sg_prs_ind": "beidz",
+      "v_lgspec1_prs": "beidzot",
+      "v_v_ptcp_prs_lgspec5": "beidzot"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "braukt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "braukt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "brauksim",
+      "v_1_pl_imp": "brauksim",
+      "v_1_pl_prs_ind": "braucam",
+      "v_1_pl_pst_ind": "braucām",
+      "v_1_sg_fut_ind": "braukšu",
+      "v_1_sg_prs_ind": "braucu",
+      "v_1_sg_pst_ind": "braucu",
+      "v_2_pl_fut_ind": "brauksit",
+      "v_2_pl_imp": "brauciet",
+      "v_2_pl_prs_ind": "braucat",
+      "v_2_pl_pst_ind": "braucāt",
+      "v_2_sg_fut_ind": "brauksi",
+      "v_2_sg_imp": "brauc",
+      "v_2_sg_prs_ind": "brauc",
+      "v_2_sg_pst_ind": "brauci",
+      "v_3_pl_fut_ind": "brauks",
+      "v_3_pl_imp": "lai brauc",
+      "v_3_pl_prs_ind": "brauc",
+      "v_3_pl_pst_ind": "brauca",
+      "v_3_sg_fut_ind": "brauks",
+      "v_3_sg_imp": "lai brauc",
+      "v_3_sg_prs_ind": "brauc",
+      "v_3_sg_pst_ind": "brauca",
+      "v_cond_prs": "brauktu",
+      "v_cond_pst": "būtu braucis",
+      "v_lgspec1_fut": "braukšot",
+      "v_lgspec1_imp": "lai braucot",
+      "v_lgspec1_prs": "braucot",
+      "v_lgspec1_pst": "esot braucis",
+      "v_lgspec2_ind": "būt jābrauc",
+      "v_lgspec2_lgspec7": "esot jābrauc",
+      "v_lgspec2_lgspec8": "jābraucot",
+      "v_nfin": "braukt",
+      "v_nfin_neg": "nebraukt",
+      "v_v_msdr": "braukšana",
+      "v_v_ptcp_prs_lgspec3": "braucošs",
+      "v_v_ptcp_prs_lgspec4": "braukdams",
+      "v_v_ptcp_prs_lgspec5": "braucot",
+      "v_v_ptcp_prs_lgspec6": "braucam",
+      "v_v_ptcp_prs_pass": "braucams",
+      "v_v_ptcp_pst_act": "braucis",
+      "v_v_ptcp_pst_pass": "braukts"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "brālis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "brālis",
+    "inflections": {
+      "n_acc_pl": "brāļus",
+      "n_acc_sg": "brāli",
+      "n_dat_pl": "brāļiem",
+      "n_dat_sg": "brālim",
+      "n_gen_pl": "brāļu",
+      "n_gen_sg": "brāļa",
+      "n_inst_pl": "brāļiem",
+      "n_inst_sg": "brāli",
+      "n_loc_pl": "brāļos",
+      "n_loc_sg": "brālī",
+      "n_nom_pl": "brāļi",
+      "n_nom_sg": "brālis",
+      "n_voc_pl": "brāļi",
+      "n_voc_sg": "brāli",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "bērns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bērns",
+    "inflections": {
+      "n_acc_pl": "bērnus",
+      "n_acc_sg": "bērnu",
+      "n_dat_pl": "bērniem",
+      "n_dat_sg": "bērnam",
+      "n_gen_pl": "bērnu",
+      "n_gen_sg": "bērna",
+      "n_inst_pl": "bērniem",
+      "n_inst_sg": "bērnu",
+      "n_loc_pl": "bērnos",
+      "n_loc_sg": "bērnā",
+      "n_nom_pl": "bērni",
+      "n_nom_sg": "bērns",
+      "n_voc_pl": "bērni",
+      "n_voc_sg": "bērn",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "būt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "būt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "būsim",
+      "v_1_pl_imp": "būsim",
+      "v_1_pl_prs_ind": "esam",
+      "v_1_pl_pst_ind": "bijām",
+      "v_1_sg_fut_ind": "būšu",
+      "v_1_sg_prs_ind": "esmu",
+      "v_1_sg_pst_ind": "biju",
+      "v_2_pl_fut_ind": "būsiet",
+      "v_2_pl_imp": "esiet",
+      "v_2_pl_prs_ind": "esat",
+      "v_2_pl_pst_ind": "bijāt",
+      "v_2_sg_fut_ind": "būsi",
+      "v_2_sg_imp": "esi",
+      "v_2_sg_prs_ind": "esi",
+      "v_2_sg_pst_ind": "biji",
+      "v_3_pl_fut_ind": "būs",
+      "v_3_pl_imp": "lai ir",
+      "v_3_pl_prs_ind": "ir",
+      "v_3_pl_pst_ind": "bija",
+      "v_3_sg_fut_ind": "būs",
+      "v_3_sg_imp": "lai ir",
+      "v_3_sg_prs_ind": "ir",
+      "v_3_sg_pst_ind": "bija",
+      "v_cond_prs": "būtu",
+      "v_cond_pst": "būtu bijis",
+      "v_lgspec1_fut": "būšot",
+      "v_lgspec1_imp": "lai esot",
+      "v_lgspec1_prs": "esot",
+      "v_lgspec1_pst": "esot bijis",
+      "v_lgspec2_ind": "būt jābūt",
+      "v_lgspec2_lgspec7": "esot jābūt",
+      "v_lgspec2_lgspec8": "jābūtot",
+      "v_nfin": "būt",
+      "v_nfin_neg": "nebūt",
+      "v_v_msdr": "būšana",
+      "v_v_ptcp_prs_lgspec3": "esošs",
+      "v_v_ptcp_prs_lgspec4": "būdams",
+      "v_v_ptcp_prs_lgspec5": "esot",
+      "v_v_ptcp_prs_lgspec6": "esam",
+      "v_v_ptcp_pst_act": "bijis",
+      "v_v_ptcp_pst_pass": "būts"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "celis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "celis",
+    "inflections": {
+      "n_gen_pl": "ceļu",
+      "n_gen_sg": "ceļa",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "celt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "celt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "ceļu"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "censties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "censties",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "cenšos"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ceļš": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ceļš",
+    "inflections": {
+      "n_acc_pl": "ceļus",
+      "n_acc_sg": "ceļu",
+      "n_dat_pl": "ceļiem",
+      "n_dat_sg": "ceļam",
+      "n_gen_pl": "ceļu",
+      "n_gen_sg": "ceļa",
+      "n_inst_pl": "ceļiem",
+      "n_inst_sg": "ceļu",
+      "n_loc_pl": "ceļos",
+      "n_loc_sg": "ceļā",
+      "n_nom_pl": "ceļi",
+      "n_nom_sg": "ceļš",
+      "n_voc_pl": "ceļi",
+      "n_voc_sg": "ceļ",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "cietums": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cietums",
+    "inflections": {
+      "n_loc_sg": "cietumā",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "cilvēks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cilvēks",
+    "inflections": {
+      "n_acc_pl": "cilvēkus",
+      "n_acc_sg": "cilvēku",
+      "n_dat_pl": "cilvēkiem",
+      "n_dat_sg": "cilvēkam",
+      "n_gen_pl": "cilvēku",
+      "n_gen_sg": "cilvēka",
+      "n_inst_pl": "cilvēkiem",
+      "n_inst_sg": "cilvēku",
+      "n_loc_pl": "cilvēkos",
+      "n_loc_sg": "cilvēkā",
+      "n_nom_pl": "cilvēki",
+      "n_nom_sg": "cilvēks",
+      "n_voc_pl": "cilvēki",
+      "n_voc_sg": "cilvēk",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "cits": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cits",
+    "inflections": {
+      "adj_acc_pl_fem": "citu",
+      "adj_acc_pl_masc": "citu",
+      "adj_acc_sg_fem": "citas",
+      "adj_acc_sg_masc": "cita",
+      "adj_dat_pl_fem": "citām",
+      "adj_dat_pl_masc": "citiem",
+      "adj_dat_sg_fem": "citu",
+      "adj_dat_sg_masc": "citu",
+      "adj_gen_pl_fem": "citām",
+      "adj_gen_pl_masc": "citiem",
+      "adj_gen_sg_fem": "citai",
+      "adj_gen_sg_masc": "citam",
+      "adj_inst_pl_fem": "citās",
+      "adj_inst_pl_masc": "citos",
+      "adj_inst_sg_fem": "citā",
+      "adj_inst_sg_masc": "citā",
+      "adj_nom_pl_fem": "citas",
+      "adj_nom_pl_masc": "citus",
+      "adj_nom_sg_fem": "citu",
+      "adj_nom_sg_masc": "citu",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dabūt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dabūt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "dabūsim",
+      "v_1_pl_imp": "dabūsim",
+      "v_1_pl_prs_ind": "dabūjam",
+      "v_1_pl_pst_ind": "dabūjām",
+      "v_1_sg_fut_ind": "dabūšu",
+      "v_1_sg_prs_ind": "dabūju",
+      "v_1_sg_pst_ind": "dabūju",
+      "v_2_pl_fut_ind": "dabūsit",
+      "v_2_pl_imp": "dabūjiet",
+      "v_2_pl_prs_ind": "dabūjat",
+      "v_2_pl_pst_ind": "dabūjāt",
+      "v_2_sg_fut_ind": "dabūsi",
+      "v_2_sg_imp": "dabū",
+      "v_2_sg_prs_ind": "dabū",
+      "v_2_sg_pst_ind": "dabūji",
+      "v_3_pl_fut_ind": "dabūs",
+      "v_3_pl_imp": "lai dabū",
+      "v_3_pl_prs_ind": "dabū",
+      "v_3_pl_pst_ind": "dabūja",
+      "v_3_sg_fut_ind": "dabūs",
+      "v_3_sg_imp": "lai dabū",
+      "v_3_sg_prs_ind": "dabū",
+      "v_3_sg_pst_ind": "dabūja",
+      "v_cond_prs": "dabūtu",
+      "v_cond_pst": "būtu dabūjis",
+      "v_lgspec1_fut": "dabūšot",
+      "v_lgspec1_imp": "lai dabūjot",
+      "v_lgspec1_prs": "dabūjot",
+      "v_lgspec1_pst": "esot dabūjis",
+      "v_lgspec2_ind": "būt jādabū",
+      "v_lgspec2_lgspec7": "esot jādabū",
+      "v_lgspec2_lgspec8": "jādabūjot",
+      "v_nfin": "dabūt",
+      "v_nfin_neg": "nedabūt",
+      "v_v_msdr": "dabūšana",
+      "v_v_ptcp_prs_lgspec3": "dabūjošs",
+      "v_v_ptcp_prs_lgspec4": "dabūdams",
+      "v_v_ptcp_prs_lgspec5": "dabūjot",
+      "v_v_ptcp_prs_lgspec6": "dabūjam",
+      "v_v_ptcp_prs_pass": "dabūjams",
+      "v_v_ptcp_pst_act": "dabūjis",
+      "v_v_ptcp_pst_pass": "dabūts"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "darbs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darbs",
+    "inflections": {
+      "n_acc_pl": "darbus",
+      "n_acc_sg": "darbu",
+      "n_dat_pl": "darbiem",
+      "n_dat_sg": "darbam",
+      "n_gen_pl": "darbu",
+      "n_gen_sg": "darba",
+      "n_inst_pl": "darbiem",
+      "n_inst_sg": "darbu",
+      "n_loc_pl": "darbos",
+      "n_loc_sg": "darbā",
+      "n_nom_pl": "darbi",
+      "n_nom_sg": "darbs",
+      "n_voc_pl": "darbi",
+      "n_voc_sg": "darb",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "darīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "darīsim",
+      "v_1_pl_imp": "darīsim",
+      "v_1_pl_prs_ind": "darām",
+      "v_1_pl_pst_ind": "darījām",
+      "v_1_sg_fut_ind": "darīšu",
+      "v_1_sg_prs_ind": "daru",
+      "v_1_sg_pst_ind": "darīju",
+      "v_2_pl_fut_ind": "darīsit",
+      "v_2_pl_imp": "dariet",
+      "v_2_pl_prs_ind": "darāt",
+      "v_2_pl_pst_ind": "darījāt",
+      "v_2_sg_fut_ind": "darīsi",
+      "v_2_sg_imp": "dari",
+      "v_2_sg_prs_ind": "dari",
+      "v_2_sg_pst_ind": "darīji",
+      "v_3_pl_fut_ind": "darīs",
+      "v_3_pl_imp": "lai dara",
+      "v_3_pl_prs_ind": "dara",
+      "v_3_pl_pst_ind": "darīja",
+      "v_3_sg_fut_ind": "darīs",
+      "v_3_sg_imp": "lai dara",
+      "v_3_sg_prs_ind": "dara",
+      "v_3_sg_pst_ind": "darīja",
+      "v_cond_prs": "darītu",
+      "v_cond_pst": "būtu darījis",
+      "v_lgspec1_fut": "darīšot",
+      "v_lgspec1_imp": "lai darot",
+      "v_lgspec1_prs": "darot",
+      "v_lgspec1_pst": "esot darījis",
+      "v_lgspec2_ind": "būt jādara",
+      "v_lgspec2_lgspec7": "esot jādara",
+      "v_lgspec2_lgspec8": "jādarot",
+      "v_nfin": "darīt",
+      "v_nfin_neg": "nedarīt",
+      "v_v_msdr": "darīšana",
+      "v_v_ptcp_prs_lgspec3": "darošs",
+      "v_v_ptcp_prs_lgspec4": "darīdams",
+      "v_v_ptcp_prs_lgspec5": "darot",
+      "v_v_ptcp_prs_lgspec6": "darām",
+      "v_v_ptcp_prs_pass": "darāms",
+      "v_v_ptcp_pst_act": "darījis",
+      "v_v_ptcp_pst_pass": "darīts"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "daļa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "daļa",
+    "inflections": {
+      "n_acc_pl": "daļas",
+      "n_acc_sg": "daļu",
+      "n_dat_pl": "daļām",
+      "n_dat_sg": "daļai",
+      "n_gen_pl": "daļu",
+      "n_gen_sg": "daļas",
+      "n_inst_pl": "daļām",
+      "n_inst_sg": "daļu",
+      "n_loc_pl": "daļās",
+      "n_loc_sg": "daļā",
+      "n_nom_pl": "daļas",
+      "n_nom_sg": "daļa",
+      "n_voc_pl": "daļas",
+      "n_voc_sg": "daļa",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "diena": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "diena",
+    "inflections": {
+      "n_acc_pl": "dienas",
+      "n_acc_sg": "dienu",
+      "n_dat_pl": "dienām",
+      "n_dat_sg": "dienai",
+      "n_gen_pl": "dienu",
+      "n_gen_sg": "dienas",
+      "n_inst_pl": "dienām",
+      "n_inst_sg": "dienu",
+      "n_loc_pl": "dienās",
+      "n_loc_sg": "dienā",
+      "n_nom_pl": "dienas",
+      "n_nom_sg": "diena",
+      "n_voc_pl": "dienas",
+      "n_voc_sg": "diena",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dienēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dienēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "dienām",
+      "v_1_sg_prs_ind": "dienu",
+      "v_3_pl_imp": "diena",
+      "v_3_pl_prs_ind": "diena",
+      "v_3_sg_imp": "diena",
+      "v_3_sg_prs_ind": "diena",
+      "v_v_ptcp_prs_lgspec6": "dienām"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "dievs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dievs",
+    "inflections": {
+      "n_acc_pl": "dievus",
+      "n_acc_sg": "dievu",
+      "n_dat_pl": "dieviem",
+      "n_dat_sg": "dievam",
+      "n_gen_pl": "dievu",
+      "n_gen_sg": "dieva",
+      "n_inst_pl": "dieviem",
+      "n_inst_sg": "dievu",
+      "n_loc_pl": "dievos",
+      "n_loc_sg": "dievā",
+      "n_nom_pl": "dievi",
+      "n_nom_sg": "dievs",
+      "n_voc_pl": "dievi",
+      "n_voc_sg": "diev",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "dolārs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dolārs",
+    "inflections": {
+      "n_acc_sg": "dolāru",
+      "n_gen_pl": "dolāru",
+      "n_inst_sg": "dolāru",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "doma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doma",
+    "inflections": {
+      "n_acc_pl": "domas",
+      "n_acc_sg": "domu",
+      "n_dat_pl": "domām",
+      "n_dat_sg": "domai",
+      "n_gen_pl": "domu",
+      "n_gen_sg": "domas",
+      "n_inst_pl": "domām",
+      "n_inst_sg": "domu",
+      "n_loc_pl": "domās",
+      "n_loc_sg": "domā",
+      "n_nom_pl": "domas",
+      "n_nom_sg": "doma",
+      "n_voc_pl": "domas",
+      "n_voc_sg": "doma",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "domāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "domāt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "domāsim",
+      "v_1_pl_imp": "domāsim",
+      "v_1_pl_prs_ind": "domājam",
+      "v_1_pl_pst_ind": "domājām",
+      "v_1_sg_fut_ind": "domāšu",
+      "v_1_sg_prs_ind": "domāju",
+      "v_1_sg_pst_ind": "domāju",
+      "v_2_pl_fut_ind": "domāsit",
+      "v_2_pl_imp": "domājiet",
+      "v_2_pl_prs_ind": "domājat",
+      "v_2_pl_pst_ind": "domājāt",
+      "v_2_sg_fut_ind": "domāsi",
+      "v_2_sg_imp": "domā",
+      "v_2_sg_prs_ind": "domā",
+      "v_2_sg_pst_ind": "domāji",
+      "v_3_pl_fut_ind": "domās",
+      "v_3_pl_imp": "lai domā",
+      "v_3_pl_prs_ind": "domā",
+      "v_3_pl_pst_ind": "domāja",
+      "v_3_sg_fut_ind": "domās",
+      "v_3_sg_imp": "lai domā",
+      "v_3_sg_prs_ind": "domā",
+      "v_3_sg_pst_ind": "domāja",
+      "v_cond_prs": "domātu",
+      "v_cond_pst": "būtu domājis",
+      "v_lgspec1_fut": "domāšot",
+      "v_lgspec1_imp": "lai domājot",
+      "v_lgspec1_prs": "domājot",
+      "v_lgspec1_pst": "esot domājis",
+      "v_lgspec2_ind": "būt jādomā",
+      "v_lgspec2_lgspec7": "esot jādomā",
+      "v_lgspec2_lgspec8": "jādomājot",
+      "v_nfin": "domāt",
+      "v_nfin_neg": "nedomāt",
+      "v_v_msdr": "domāšana",
+      "v_v_ptcp_prs_lgspec3": "domājošs",
+      "v_v_ptcp_prs_lgspec4": "domādams",
+      "v_v_ptcp_prs_lgspec5": "domājot",
+      "v_v_ptcp_prs_lgspec6": "domājam",
+      "v_v_ptcp_prs_pass": "domājams",
+      "v_v_ptcp_pst_act": "domājis",
+      "v_v_ptcp_pst_pass": "domāts"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "dot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dot",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "dod",
+      "v_2_sg_prs_ind": "dod",
+      "v_3_pl_prs_ind": "dod",
+      "v_3_sg_prs_ind": "dod"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "doties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doties",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "dosimies",
+      "v_1_pl_imp": "dosimies",
+      "v_1_pl_prs_ind": "dodamies",
+      "v_1_pl_pst_ind": "devāmies",
+      "v_1_sg_fut_ind": "došos",
+      "v_1_sg_prs_ind": "dodos",
+      "v_1_sg_pst_ind": "devos",
+      "v_2_pl_fut_ind": "dosities",
+      "v_2_pl_imp": "dodieties",
+      "v_2_pl_prs_ind": "dodaties",
+      "v_2_pl_pst_ind": "devāties",
+      "v_2_sg_fut_ind": "dosies",
+      "v_2_sg_imp": "dodies",
+      "v_2_sg_prs_ind": "dodies",
+      "v_2_sg_pst_ind": "devies",
+      "v_3_pl_fut_ind": "dosies",
+      "v_3_pl_imp": "lai dodas",
+      "v_3_pl_prs_ind": "dodas",
+      "v_3_pl_pst_ind": "devās",
+      "v_3_sg_fut_ind": "dosies",
+      "v_3_sg_imp": "lai dodas",
+      "v_3_sg_prs_ind": "dodas",
+      "v_3_sg_pst_ind": "devās",
+      "v_cond_prs": "dotos",
+      "v_cond_pst": "būtu devies",
+      "v_lgspec1_fut": "došoties",
+      "v_lgspec1_imp": "lai dodoties",
+      "v_lgspec1_prs": "dodoties",
+      "v_lgspec1_pst": "esot devies",
+      "v_lgspec2_ind": "būt jādodas",
+      "v_lgspec2_lgspec7": "esot jādodas",
+      "v_lgspec2_lgspec8": "jādodoties",
+      "v_nfin": "doties",
+      "v_nfin_neg": "nedoties",
+      "v_v_msdr": "došanās",
+      "v_v_ptcp_prs_lgspec4": "dodamies",
+      "v_v_ptcp_prs_lgspec5": "dodoties",
+      "v_v_ptcp_prs_lgspec6": "dodamies",
+      "v_v_ptcp_pst_act": "devies"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "draudzene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "draudzene",
+    "inflections": {
+      "n_acc_pl": "draudzenes",
+      "n_acc_sg": "draudzeni",
+      "n_dat_pl": "draudzenēm",
+      "n_dat_sg": "draudzenei",
+      "n_gen_pl": "draudzeņu",
+      "n_gen_sg": "draudzenes",
+      "n_inst_pl": "draudzenēm",
+      "n_inst_sg": "draudzeni",
+      "n_loc_pl": "draudzenēs",
+      "n_loc_sg": "draudzenē",
+      "n_nom_pl": "draudzenes",
+      "n_nom_sg": "draudzene",
+      "n_voc_pl": "draudzenes",
+      "n_voc_sg": "draudzene",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "draugs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "draugs",
+    "inflections": {
+      "n_acc_pl": "draugus",
+      "n_acc_sg": "draugu",
+      "n_dat_pl": "draugiem",
+      "n_dat_sg": "draugam",
+      "n_gen_pl": "draugu",
+      "n_gen_sg": "drauga",
+      "n_inst_pl": "draugiem",
+      "n_inst_sg": "draugu",
+      "n_loc_pl": "draugos",
+      "n_loc_sg": "draugā",
+      "n_nom_pl": "draugi",
+      "n_nom_sg": "draugs",
+      "n_voc_pl": "draugi",
+      "n_voc_sg": "draug",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "drošs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drošs",
+    "inflections": {
+      "adj_acc_pl_fem": "drošu",
+      "adj_acc_pl_masc": "drošu",
+      "adj_acc_sg_fem": "drošas",
+      "adj_acc_sg_masc": "droša",
+      "adj_dat_pl_fem": "drošām",
+      "adj_dat_pl_masc": "drošiem",
+      "adj_dat_sg_fem": "drošu",
+      "adj_dat_sg_masc": "drošu",
+      "adj_gen_pl_fem": "drošām",
+      "adj_gen_pl_masc": "drošiem",
+      "adj_gen_sg_fem": "drošai",
+      "adj_gen_sg_masc": "drošam",
+      "adj_inst_pl_fem": "drošās",
+      "adj_inst_pl_masc": "drošos",
+      "adj_inst_sg_fem": "drošā",
+      "adj_inst_sg_masc": "drošā",
+      "adj_nom_pl_fem": "drošas",
+      "adj_nom_pl_masc": "drošus",
+      "adj_nom_sg_fem": "drošu",
+      "adj_nom_sg_masc": "drošu",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "drošība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drošība",
+    "inflections": {
+      "n_gen_sg": "drošības",
+      "n_loc_sg": "drošībā",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "drīkstēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drīkstēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "drīkstu"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "durvis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "durvis",
+    "inflections": {
+      "n_acc_pl": "durvis",
+      "n_dat_pl": "durvīm",
+      "n_gen_pl": "durvju",
+      "n_inst_pl": "durvīm",
+      "n_loc_pl": "durvīs",
+      "n_nom_pl": "durvis",
+      "n_voc_pl": "durvis",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dzimšana": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzimšana",
+    "inflections": {
+      "n_dat_sg": "dzimšanas",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dzirde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzirde",
+    "inflections": {
+      "n_acc_sg": "dzirdi",
+      "n_inst_sg": "dzirdi",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dzīvais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzīvais",
+    "inflections": {
+      "adj_acc_pl_fem": "dzīvo",
+      "adj_acc_pl_masc": "dzīvo",
+      "adj_dat_sg_fem": "dzīvo",
+      "adj_dat_sg_masc": "dzīvo",
+      "adj_nom_sg_fem": "dzīvo",
+      "adj_nom_sg_masc": "dzīvo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dzīve": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzīve",
+    "inflections": {
+      "n_acc_pl": "dzīves",
+      "n_acc_sg": "dzīvi",
+      "n_dat_pl": "dzīvēm",
+      "n_dat_sg": "dzīvei",
+      "n_gen_pl": "dzīvju",
+      "n_gen_sg": "dzīves",
+      "n_inst_pl": "dzīvēm",
+      "n_inst_sg": "dzīvi",
+      "n_loc_pl": "dzīvēs",
+      "n_loc_sg": "dzīvē",
+      "n_nom_pl": "dzīves",
+      "n_nom_sg": "dzīve",
+      "n_voc_pl": "dzīves",
+      "n_voc_sg": "dzīve",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dzīvot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzīvot",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "dzīvosim",
+      "v_1_pl_imp": "dzīvosim",
+      "v_1_pl_prs_ind": "dzīvojam",
+      "v_1_pl_pst_ind": "dzīvojām",
+      "v_1_sg_fut_ind": "dzīvošu",
+      "v_1_sg_prs_ind": "dzīvoju",
+      "v_1_sg_pst_ind": "dzīvoju",
+      "v_2_pl_fut_ind": "dzīvosit",
+      "v_2_pl_imp": "dzīvojiet",
+      "v_2_pl_prs_ind": "dzīvojat",
+      "v_2_pl_pst_ind": "dzīvojāt",
+      "v_2_sg_fut_ind": "dzīvosi",
+      "v_2_sg_imp": "dzīvo",
+      "v_2_sg_prs_ind": "dzīvo",
+      "v_2_sg_pst_ind": "dzīvoji",
+      "v_3_pl_fut_ind": "dzīvos",
+      "v_3_pl_imp": "lai dzīvo",
+      "v_3_pl_prs_ind": "dzīvo",
+      "v_3_pl_pst_ind": "dzīvoja",
+      "v_3_sg_fut_ind": "dzīvos",
+      "v_3_sg_imp": "lai dzīvo",
+      "v_3_sg_prs_ind": "dzīvo",
+      "v_3_sg_pst_ind": "dzīvoja",
+      "v_cond_prs": "dzīvotu",
+      "v_cond_pst": "būtu dzīvojis",
+      "v_lgspec1_fut": "dzīvošot",
+      "v_lgspec1_imp": "lai dzīvojot",
+      "v_lgspec1_prs": "dzīvojot",
+      "v_lgspec1_pst": "esot dzīvojis",
+      "v_lgspec2_ind": "būt jādzīvo",
+      "v_lgspec2_lgspec7": "esot jādzīvo",
+      "v_lgspec2_lgspec8": "jādzīvojot",
+      "v_nfin": "dzīvot",
+      "v_nfin_neg": "nedzīvot",
+      "v_v_msdr": "dzīvošana",
+      "v_v_ptcp_prs_lgspec3": "dzīvojošs",
+      "v_v_ptcp_prs_lgspec4": "dzīvodams",
+      "v_v_ptcp_prs_lgspec5": "dzīvojot",
+      "v_v_ptcp_prs_lgspec6": "dzīvojam",
+      "v_v_ptcp_prs_pass": "dzīvojams",
+      "v_v_ptcp_pst_act": "dzīvojis",
+      "v_v_ptcp_pst_pass": "dzīvots"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "dāma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dāma",
+    "inflections": {
+      "n_acc_pl": "dāmas",
+      "n_gen_sg": "dāmas",
+      "n_nom_pl": "dāmas",
+      "n_voc_pl": "dāmas",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "dārgais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dārgais",
+    "inflections": {
+      "adj_acc_sg_masc": "dārgā",
+      "adj_loc_sg_fem": "dārgā",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dēls": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dēls",
+    "inflections": {
+      "n_acc_pl": "dēlus",
+      "n_acc_sg": "dēlu",
+      "n_dat_pl": "dēliem",
+      "n_dat_sg": "dēlam",
+      "n_gen_pl": "dēlu",
+      "n_gen_sg": "dēla",
+      "n_inst_pl": "dēliem",
+      "n_inst_sg": "dēlu",
+      "n_loc_pl": "dēlos",
+      "n_loc_sg": "dēlā",
+      "n_nom_pl": "dēli",
+      "n_nom_sg": "dēls",
+      "n_voc_pl": "dēli",
+      "n_voc_sg": "dēl",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "elle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "elle",
+    "inflections": {
+      "n_loc_sg": "ellē",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "gads": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gads",
+    "inflections": {
+      "n_acc_pl": "gadus",
+      "n_acc_sg": "gadu",
+      "n_dat_pl": "gadiem",
+      "n_gen_pl": "gadu",
+      "n_gen_sg": "gada",
+      "n_inst_pl": "gadiem",
+      "n_inst_sg": "gadu",
+      "n_loc_sg": "gadā",
+      "n_nom_pl": "gadi",
+      "n_voc_pl": "gadi",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "gaida": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaida",
+    "inflections": {
+      "n_acc_pl": "gaidas",
+      "n_acc_sg": "gaidu",
+      "n_dat_pl": "gaidām",
+      "n_dat_sg": "gaidai",
+      "n_gen_pl": "gaidu",
+      "n_gen_sg": "gaidas",
+      "n_inst_pl": "gaidām",
+      "n_inst_sg": "gaidu",
+      "n_loc_pl": "gaidās",
+      "n_loc_sg": "gaidā",
+      "n_nom_pl": "gaidas",
+      "n_nom_sg": "gaida",
+      "n_voc_pl": "gaidas",
+      "n_voc_sg": "gaida",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "gaidīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaidīt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "gaida",
+      "v_3_sg_prs_ind": "gaida"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "gaiss": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaiss",
+    "inflections": {
+      "n_loc_sg": "gaisā",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "galds": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "galds",
+    "inflections": {
+      "n_gen_sg": "galda",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "gals": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gals",
+    "inflections": {
+      "n_loc_sg": "galā",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "gans": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gans",
+    "inflections": {
+      "n_gen_sg": "gana",
+      "n_voc_sg": "gan",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "grāmata": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "grāmata",
+    "inflections": {
+      "n_acc_sg": "grāmatu",
+      "n_gen_pl": "grāmatu",
+      "n_inst_sg": "grāmatu",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ideja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ideja",
+    "inflections": {
+      "n_acc_pl": "idejas",
+      "n_acc_sg": "ideju",
+      "n_dat_pl": "idejām",
+      "n_dat_sg": "idejai",
+      "n_gen_pl": "ideju",
+      "n_gen_sg": "idejas",
+      "n_inst_pl": "idejām",
+      "n_inst_sg": "ideju",
+      "n_loc_pl": "idejās",
+      "n_loc_sg": "idejā",
+      "n_nom_pl": "idejas",
+      "n_nom_sg": "ideja",
+      "n_voc_pl": "idejas",
+      "n_voc_sg": "ideja",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "iedot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iedot",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "iedod",
+      "v_2_sg_prs_ind": "iedod",
+      "v_3_pl_prs_ind": "iedod",
+      "v_3_sg_prs_ind": "iedod"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "iekša": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iekša",
+    "inflections": {
+      "n_loc_sg": "iekšā",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "iela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iela",
+    "inflections": {
+      "n_acc_pl": "ielas",
+      "n_gen_sg": "ielas",
+      "n_nom_pl": "ielas",
+      "n_voc_pl": "ielas",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ierocis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ierocis",
+    "inflections": {
+      "n_acc_sg": "ieroci",
+      "n_inst_sg": "ieroci",
+      "n_voc_sg": "ieroci",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "iespēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iespēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "iespēju",
+      "v_1_sg_pst_ind": "iespēju",
+      "v_3_pl_pst_ind": "iespēja",
+      "v_3_sg_pst_ind": "iespēja",
+      "v_v_ptcp_prs_pass": "iespējams"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "iet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iet",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "iesim",
+      "v_1_pl_imp": "iesim",
+      "v_1_pl_prs_ind": "ejam",
+      "v_1_pl_pst_ind": "gājām",
+      "v_1_sg_fut_ind": "iešu",
+      "v_1_sg_prs_ind": "eju",
+      "v_1_sg_pst_ind": "gāju",
+      "v_2_pl_fut_ind": "iesiet",
+      "v_2_pl_imp": "ejiet",
+      "v_2_pl_prs_ind": "ejat",
+      "v_2_pl_pst_ind": "gājāt",
+      "v_2_sg_fut_ind": "iesi",
+      "v_2_sg_imp": "ej",
+      "v_2_sg_prs_ind": "ej",
+      "v_2_sg_pst_ind": "gāji",
+      "v_3_pl_fut_ind": "ies",
+      "v_3_pl_imp": "lai iet",
+      "v_3_pl_prs_ind": "iet",
+      "v_3_pl_pst_ind": "gāja",
+      "v_3_sg_fut_ind": "ies",
+      "v_3_sg_imp": "lai iet",
+      "v_3_sg_prs_ind": "iet",
+      "v_3_sg_pst_ind": "gāja",
+      "v_cond_prs": "ietu",
+      "v_cond_pst": "būtu gājis",
+      "v_lgspec1_fut": "iešot",
+      "v_lgspec1_imp": "lai ejot",
+      "v_lgspec1_prs": "ejot",
+      "v_lgspec1_pst": "esot gājis",
+      "v_lgspec2_ind": "būt jāiet",
+      "v_lgspec2_lgspec7": "esot jāiet",
+      "v_lgspec2_lgspec8": "jāejot",
+      "v_nfin": "iet",
+      "v_nfin_neg": "neiet",
+      "v_v_msdr": "iešana",
+      "v_v_ptcp_prs_lgspec3": "ejošs",
+      "v_v_ptcp_prs_lgspec4": "iedams",
+      "v_v_ptcp_prs_lgspec5": "ejot",
+      "v_v_ptcp_prs_lgspec6": "ejam",
+      "v_v_ptcp_prs_pass": "ejams",
+      "v_v_ptcp_pst_act": "gājis",
+      "v_v_ptcp_pst_pass": "iets"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "informācija": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "informācija",
+    "inflections": {
+      "n_acc_sg": "informāciju",
+      "n_gen_pl": "informāciju",
+      "n_inst_sg": "informāciju",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "istaba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "istaba",
+    "inflections": {
+      "n_loc_sg": "istabā",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "izdarīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "izdarīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "izdarīsim",
+      "v_1_pl_imp": "izdarīsim",
+      "v_1_pl_prs_ind": "izdarām",
+      "v_1_pl_pst_ind": "izdarījām",
+      "v_1_sg_fut_ind": "izdarīšu",
+      "v_1_sg_prs_ind": "izdaru",
+      "v_1_sg_pst_ind": "izdarīju",
+      "v_2_pl_fut_ind": "izdarīsit",
+      "v_2_pl_imp": "izdariet",
+      "v_2_pl_prs_ind": "izdarāt",
+      "v_2_pl_pst_ind": "izdarījāt",
+      "v_2_sg_fut_ind": "izdarīsi",
+      "v_2_sg_imp": "izdari",
+      "v_2_sg_prs_ind": "izdari",
+      "v_2_sg_pst_ind": "izdarīji",
+      "v_3_pl_fut_ind": "izdarīs",
+      "v_3_pl_imp": "lai izdara",
+      "v_3_pl_prs_ind": "izdara",
+      "v_3_pl_pst_ind": "izdarīja",
+      "v_3_sg_fut_ind": "izdarīs",
+      "v_3_sg_imp": "lai izdara",
+      "v_3_sg_prs_ind": "izdara",
+      "v_3_sg_pst_ind": "izdarīja",
+      "v_cond_prs": "izdarītu",
+      "v_cond_pst": "būtu izdarījis",
+      "v_lgspec1_fut": "izdarīšot",
+      "v_lgspec1_imp": "lai izdarot",
+      "v_lgspec1_prs": "izdarot",
+      "v_lgspec1_pst": "esot izdarījis",
+      "v_lgspec2_ind": "būt jāizdara",
+      "v_lgspec2_lgspec7": "esot jāizdara",
+      "v_lgspec2_lgspec8": "jāizdarot",
+      "v_nfin": "izdarīt",
+      "v_nfin_neg": "neizdarīt",
+      "v_v_msdr": "izdarīšana",
+      "v_v_ptcp_prs_lgspec3": "izdarošs",
+      "v_v_ptcp_prs_lgspec4": "izdarīdams",
+      "v_v_ptcp_prs_lgspec5": "izdarot",
+      "v_v_ptcp_prs_lgspec6": "izdarām",
+      "v_v_ptcp_prs_pass": "izdarāms",
+      "v_v_ptcp_pst_act": "izdarījis",
+      "v_v_ptcp_pst_pass": "izdarīts"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "izskatīties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "izskatīties",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "izskaties",
+      "v_2_sg_prs_ind": "izskaties",
+      "v_3_pl_prs_ind": "izskatās",
+      "v_3_sg_prs_ind": "izskatās"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "jaunais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jaunais",
+    "inflections": {
+      "adj_acc_pl_fem": "jauno",
+      "adj_acc_pl_masc": "jauno",
+      "adj_acc_sg_fem": "jaunās",
+      "adj_acc_sg_masc": "jaunā",
+      "adj_dat_pl_fem": "jaunajām",
+      "adj_dat_pl_masc": "jaunajiem",
+      "adj_dat_sg_fem": "jauno",
+      "adj_dat_sg_masc": "jauno",
+      "adj_gen_pl_fem": "jaunajām",
+      "adj_gen_pl_masc": "jaunajiem",
+      "adj_gen_sg_fem": "jaunajai",
+      "adj_gen_sg_masc": "jaunajam",
+      "adj_inst_pl_fem": "jaunajās",
+      "adj_inst_pl_masc": "jaunajos",
+      "adj_inst_sg_fem": "jaunajā",
+      "adj_inst_sg_masc": "jaunajā",
+      "adj_loc_pl_fem": "jaunās",
+      "adj_loc_pl_masc": "jaunie",
+      "adj_loc_sg_fem": "jaunā",
+      "adj_loc_sg_masc": "jaunais",
+      "adj_nom_pl_fem": "jaunās",
+      "adj_nom_pl_masc": "jaunos",
+      "adj_nom_sg_fem": "jauno",
+      "adj_nom_sg_masc": "jauno",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "jautājums": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jautājums",
+    "inflections": {
+      "n_acc_pl": "jautājumus",
+      "n_acc_sg": "jautājumu",
+      "n_dat_pl": "jautājumiem",
+      "n_dat_sg": "jautājumam",
+      "n_gen_pl": "jautājumu",
+      "n_gen_sg": "jautājuma",
+      "n_inst_pl": "jautājumiem",
+      "n_inst_sg": "jautājumu",
+      "n_loc_pl": "jautājumos",
+      "n_loc_sg": "jautājumā",
+      "n_nom_pl": "jautājumi",
+      "n_nom_sg": "jautājums",
+      "n_voc_pl": "jautājumi",
+      "n_voc_sg": "jautājum",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "just": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "just",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "jūtu"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "kafija": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kafija",
+    "inflections": {
+      "n_acc_sg": "kafiju",
+      "n_gen_pl": "kafiju",
+      "n_inst_sg": "kafiju",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "karš": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "karš",
+    "inflections": {
+      "n_acc_pl": "karus",
+      "n_acc_sg": "karu",
+      "n_dat_pl": "kariem",
+      "n_dat_sg": "karam",
+      "n_gen_pl": "karu",
+      "n_gen_sg": "kara",
+      "n_inst_pl": "kariem",
+      "n_inst_sg": "karu",
+      "n_loc_pl": "karos",
+      "n_loc_sg": "karā",
+      "n_nom_pl": "kari",
+      "n_nom_sg": "karš",
+      "n_voc_pl": "kari",
+      "n_voc_sg": "karš",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kaut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kaut",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "kausim",
+      "v_1_pl_imp": "kausim",
+      "v_1_pl_prs_ind": "kaujam",
+      "v_1_pl_pst_ind": "kāvām",
+      "v_1_sg_fut_ind": "kaušu",
+      "v_1_sg_prs_ind": "kauju",
+      "v_1_sg_pst_ind": "kāvu",
+      "v_2_pl_fut_ind": "kausit",
+      "v_2_pl_imp": "kaujiet",
+      "v_2_pl_prs_ind": "kaujat",
+      "v_2_pl_pst_ind": "kāvāt",
+      "v_2_sg_fut_ind": "kausi",
+      "v_2_sg_imp": "kauj",
+      "v_2_sg_prs_ind": "kauj",
+      "v_2_sg_pst_ind": "kāvi",
+      "v_3_pl_fut_ind": "kaus",
+      "v_3_pl_imp": "lai kauj",
+      "v_3_pl_prs_ind": "kauj",
+      "v_3_pl_pst_ind": "kāva",
+      "v_3_sg_fut_ind": "kaus",
+      "v_3_sg_imp": "lai kauj",
+      "v_3_sg_prs_ind": "kauj",
+      "v_3_sg_pst_ind": "kāva",
+      "v_cond_prs": "kautu",
+      "v_cond_pst": "būtu kāvis",
+      "v_lgspec1_fut": "kaušot",
+      "v_lgspec1_imp": "lai kaujot",
+      "v_lgspec1_prs": "kaujot",
+      "v_lgspec1_pst": "esot kāvis",
+      "v_lgspec2_ind": "būt jākauj",
+      "v_lgspec2_lgspec7": "esot jākauj",
+      "v_lgspec2_lgspec8": "jākaujot",
+      "v_nfin": "kaut",
+      "v_nfin_neg": "nekaut",
+      "v_v_msdr": "kaušana",
+      "v_v_ptcp_prs_lgspec3": "kaujošs",
+      "v_v_ptcp_prs_lgspec4": "kaudams",
+      "v_v_ptcp_prs_lgspec5": "kaujot",
+      "v_v_ptcp_prs_lgspec6": "kaujam",
+      "v_v_ptcp_prs_pass": "kaujams",
+      "v_v_ptcp_pst_act": "kāvis",
+      "v_v_ptcp_pst_pass": "kauts"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "klausīties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klausīties",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "klausos",
+      "v_2_sg_imp": "klausies",
+      "v_2_sg_prs_ind": "klausies"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "klāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klāt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "klāsim",
+      "v_1_pl_imp": "klāsim",
+      "v_1_pl_prs_ind": "klājam",
+      "v_1_pl_pst_ind": "klājām",
+      "v_1_sg_fut_ind": "klāšu",
+      "v_1_sg_prs_ind": "klāju",
+      "v_1_sg_pst_ind": "klāju",
+      "v_2_pl_fut_ind": "klāsit",
+      "v_2_pl_imp": "klājiet",
+      "v_2_pl_prs_ind": "klājat",
+      "v_2_pl_pst_ind": "klājāt",
+      "v_2_sg_fut_ind": "klāsi",
+      "v_2_sg_imp": "klāj",
+      "v_2_sg_prs_ind": "klāj",
+      "v_2_sg_pst_ind": "klāji",
+      "v_3_pl_fut_ind": "klās",
+      "v_3_pl_imp": "lai klāj",
+      "v_3_pl_prs_ind": "klāj",
+      "v_3_pl_pst_ind": "klāja",
+      "v_3_sg_fut_ind": "klās",
+      "v_3_sg_imp": "lai klāj",
+      "v_3_sg_prs_ind": "klāj",
+      "v_3_sg_pst_ind": "klāja",
+      "v_cond_prs": "klātu",
+      "v_cond_pst": "būtu klājis",
+      "v_lgspec1_fut": "klāšot",
+      "v_lgspec1_imp": "lai klājot",
+      "v_lgspec1_prs": "klājot",
+      "v_lgspec1_pst": "esot klājis",
+      "v_lgspec2_ind": "būt jāklāj",
+      "v_lgspec2_lgspec7": "esot jāklāj",
+      "v_lgspec2_lgspec8": "jāklājot",
+      "v_nfin": "klāt",
+      "v_nfin_neg": "neklāt",
+      "v_v_msdr": "klāšana",
+      "v_v_ptcp_prs_lgspec3": "klājošs",
+      "v_v_ptcp_prs_lgspec4": "klādams",
+      "v_v_ptcp_prs_lgspec5": "klājot",
+      "v_v_ptcp_prs_lgspec6": "klājam",
+      "v_v_ptcp_prs_pass": "klājams",
+      "v_v_ptcp_pst_act": "klājis",
+      "v_v_ptcp_pst_pass": "klāts"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "kopa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kopa",
+    "inflections": {
+      "n_loc_sg": "kopā",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "kundze": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kundze",
+    "inflections": {
+      "n_acc_pl": "kundzes",
+      "n_acc_sg": "kundzi",
+      "n_dat_pl": "kundzēm",
+      "n_dat_sg": "kundzei",
+      "n_gen_pl": "kundžu",
+      "n_gen_sg": "kundzes",
+      "n_inst_pl": "kundzēm",
+      "n_inst_sg": "kundzi",
+      "n_loc_pl": "kundzēs",
+      "n_loc_sg": "kundzē",
+      "n_nom_pl": "kundzes",
+      "n_nom_sg": "kundze",
+      "n_voc_pl": "kundzes",
+      "n_voc_sg": "kundze",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kungs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kungs",
+    "inflections": {
+      "n_acc_pl": "kungus",
+      "n_acc_sg": "kungu",
+      "n_dat_pl": "kungiem",
+      "n_dat_sg": "kungam",
+      "n_gen_pl": "kungu",
+      "n_gen_sg": "kunga",
+      "n_inst_pl": "kungiem",
+      "n_inst_sg": "kungu",
+      "n_loc_pl": "kungos",
+      "n_loc_sg": "kungā",
+      "n_nom_pl": "kungi",
+      "n_nom_sg": "kungs",
+      "n_voc_pl": "kungi",
+      "n_voc_sg": "kung",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "kuģis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kuģis",
+    "inflections": {
+      "n_acc_pl": "kuģus",
+      "n_acc_sg": "kuģi",
+      "n_dat_pl": "kuģiem",
+      "n_dat_sg": "kuģim",
+      "n_gen_pl": "kuģu",
+      "n_gen_sg": "kuģa",
+      "n_inst_pl": "kuģiem",
+      "n_inst_sg": "kuģi",
+      "n_loc_pl": "kuģos",
+      "n_loc_sg": "kuģī",
+      "n_nom_pl": "kuģi",
+      "n_nom_sg": "kuģis",
+      "n_voc_pl": "kuģi",
+      "n_voc_sg": "kuģi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kārtība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kārtība",
+    "inflections": {
+      "n_loc_sg": "kārtībā",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "kļūt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kļūt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "kļūsim",
+      "v_1_pl_imp": "kļūsim",
+      "v_1_pl_prs_ind": "kļūstam",
+      "v_1_pl_pst_ind": "kļuvām",
+      "v_1_sg_fut_ind": "kļūšu",
+      "v_1_sg_prs_ind": "kļūstu",
+      "v_1_sg_pst_ind": "kļuvu",
+      "v_2_pl_fut_ind": "kļūsit",
+      "v_2_pl_imp": "kļūstiet",
+      "v_2_pl_prs_ind": "kļūstat",
+      "v_2_pl_pst_ind": "kļuvāt",
+      "v_2_sg_fut_ind": "kļūsi",
+      "v_2_sg_imp": "kļūsti",
+      "v_2_sg_prs_ind": "kļūsti",
+      "v_2_sg_pst_ind": "kļuvi",
+      "v_3_pl_fut_ind": "kļūs",
+      "v_3_pl_imp": "lai kļūst",
+      "v_3_pl_prs_ind": "kļūst",
+      "v_3_pl_pst_ind": "kļuva",
+      "v_3_sg_fut_ind": "kļūs",
+      "v_3_sg_imp": "lai kļūst",
+      "v_3_sg_prs_ind": "kļūst",
+      "v_3_sg_pst_ind": "kļuva",
+      "v_cond_prs": "kļūtu",
+      "v_cond_pst": "būtu kļuvis",
+      "v_lgspec1_fut": "kļūšot",
+      "v_lgspec1_imp": "lai kļūstot",
+      "v_lgspec1_prs": "kļūstot",
+      "v_lgspec1_pst": "esot kļuvis",
+      "v_lgspec2_ind": "būt jākļūst",
+      "v_lgspec2_lgspec7": "esot jākļūst",
+      "v_lgspec2_lgspec8": "jākļūstot",
+      "v_nfin": "kļūt",
+      "v_nfin_neg": "nekļūt",
+      "v_v_msdr": "kļūšana",
+      "v_v_ptcp_prs_lgspec3": "kļūstošs",
+      "v_v_ptcp_prs_lgspec4": "kļūdams",
+      "v_v_ptcp_prs_lgspec5": "kļūstot",
+      "v_v_ptcp_prs_lgspec6": "kļūstam",
+      "v_v_ptcp_prs_pass": "kļūstams",
+      "v_v_ptcp_pst_act": "kļuvis",
+      "v_v_ptcp_pst_pass": "kļūts"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "labais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "labais",
+    "inflections": {
+      "adj_acc_sg_masc": "labā",
+      "adj_loc_sg_fem": "labā",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "labrīts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "labrīts",
+    "inflections": {
+      "n_voc_sg": "labrīt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "labākais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "labākais",
+    "inflections": {
+      "adj_acc_pl_fem": "labāko",
+      "adj_acc_pl_masc": "labāko",
+      "adj_acc_sg_fem": "labākās",
+      "adj_acc_sg_masc": "labākā",
+      "adj_dat_pl_fem": "labākajām",
+      "adj_dat_pl_masc": "labākajiem",
+      "adj_dat_sg_fem": "labāko",
+      "adj_dat_sg_masc": "labāko",
+      "adj_gen_pl_fem": "labākajām",
+      "adj_gen_pl_masc": "labākajiem",
+      "adj_gen_sg_fem": "labākajai",
+      "adj_gen_sg_masc": "labākajam",
+      "adj_inst_pl_fem": "labākajās",
+      "adj_inst_pl_masc": "labākajos",
+      "adj_inst_sg_fem": "labākajā",
+      "adj_inst_sg_masc": "labākajā",
+      "adj_loc_pl_fem": "labākās",
+      "adj_loc_pl_masc": "labākie",
+      "adj_loc_sg_fem": "labākā",
+      "adj_loc_sg_masc": "labākais",
+      "adj_nom_pl_fem": "labākās",
+      "adj_nom_pl_masc": "labākos",
+      "adj_nom_sg_fem": "labāko",
+      "adj_nom_sg_masc": "labāko",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "laiks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laiks",
+    "inflections": {
+      "n_acc_pl": "laikus",
+      "n_acc_sg": "laiku",
+      "n_dat_pl": "laikiem",
+      "n_dat_sg": "laikam",
+      "n_gen_pl": "laiku",
+      "n_gen_sg": "laika",
+      "n_inst_pl": "laikiem",
+      "n_inst_sg": "laiku",
+      "n_loc_pl": "laikos",
+      "n_loc_sg": "laikā",
+      "n_nom_pl": "laiki",
+      "n_nom_sg": "laiks",
+      "n_voc_pl": "laiki",
+      "n_voc_sg": "laik",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "laist": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laist",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "laid",
+      "v_2_sg_prs_ind": "laid"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "lauks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lauks",
+    "inflections": {
+      "n_loc_sg": "laukā",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "leja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leja",
+    "inflections": {
+      "n_loc_sg": "lejā",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "lieks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lieks",
+    "inflections": {
+      "adj_acc_sg_fem": "liekas",
+      "adj_nom_pl_fem": "liekas",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "liekt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "liekt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "liec",
+      "v_2_sg_prs_ind": "liec",
+      "v_3_pl_prs_ind": "liec",
+      "v_3_sg_prs_ind": "liec"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "liet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "liet",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs": "lietu"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "lieta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lieta",
+    "inflections": {
+      "n_acc_pl": "lietas",
+      "n_acc_sg": "lietu",
+      "n_dat_pl": "lietām",
+      "n_dat_sg": "lietai",
+      "n_gen_pl": "lietu",
+      "n_gen_sg": "lietas",
+      "n_inst_pl": "lietām",
+      "n_inst_sg": "lietu",
+      "n_loc_pl": "lietās",
+      "n_loc_sg": "lietā",
+      "n_nom_pl": "lietas",
+      "n_nom_sg": "lieta",
+      "n_voc_pl": "lietas",
+      "n_voc_sg": "lieta",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "lietas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lietas",
+    "inflections": {
+      "n_acc_pl": "lietas",
+      "n_dat_pl": "lietām",
+      "n_gen_pl": "lietu",
+      "n_inst_pl": "lietām",
+      "n_loc_pl": "lietās",
+      "n_nom_pl": "lietas",
+      "n_voc_pl": "lietas",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "lietus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lietus",
+    "inflections": {
+      "n_acc_sg": "lietu",
+      "n_gen_pl": "lietu",
+      "n_inst_sg": "lietu",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "likt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "likt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "liec",
+      "v_2_sg_prs_ind": "liec",
+      "v_3_pl_prs_ind": "liek",
+      "v_3_pl_pst_ind": "lika",
+      "v_3_sg_prs_ind": "liek",
+      "v_3_sg_pst_ind": "lika"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "likties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "likties",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "liekas",
+      "v_3_pl_pst_ind": "likās",
+      "v_3_sg_prs_ind": "liekas",
+      "v_3_sg_pst_ind": "likās"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "līdzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "līdzēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "līdzi",
+      "v_2_sg_prs_ind": "līdzi",
+      "v_3_pl_prs_ind": "līdz",
+      "v_3_sg_prs_ind": "līdz"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "lūgt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lūgt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "lūdzu",
+      "v_1_sg_pst_ind": "lūdzu"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "mala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mala",
+    "inflections": {
+      "n_loc_sg": "malā",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "mamma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mamma",
+    "inflections": {
+      "n_acc_pl": "mammas",
+      "n_acc_sg": "mammu",
+      "n_dat_pl": "mammām",
+      "n_dat_sg": "mammai",
+      "n_gen_pl": "mammu",
+      "n_gen_sg": "mammas",
+      "n_inst_pl": "mammām",
+      "n_inst_sg": "mammu",
+      "n_loc_pl": "mammās",
+      "n_loc_sg": "mammā",
+      "n_nom_pl": "mammas",
+      "n_nom_sg": "mamma",
+      "n_voc_pl": "mammas",
+      "n_voc_sg": "mamma",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "manīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "manīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "manu",
+      "v_2_sg_imp": "mani",
+      "v_2_sg_prs_ind": "mani",
+      "v_3_pl_prs_ind": "mana",
+      "v_3_sg_prs_ind": "mana"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "mazais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mazais",
+    "inflections": {
+      "adj_acc_pl_fem": "mazo",
+      "adj_acc_pl_masc": "mazo",
+      "adj_acc_sg_fem": "mazās",
+      "adj_acc_sg_masc": "mazā",
+      "adj_dat_pl_fem": "mazajām",
+      "adj_dat_pl_masc": "mazajiem",
+      "adj_dat_sg_fem": "mazo",
+      "adj_dat_sg_masc": "mazo",
+      "adj_gen_pl_fem": "mazajām",
+      "adj_gen_pl_masc": "mazajiem",
+      "adj_gen_sg_fem": "mazajai",
+      "adj_gen_sg_masc": "mazajam",
+      "adj_inst_pl_fem": "mazajās",
+      "adj_inst_pl_masc": "mazajos",
+      "adj_inst_sg_fem": "mazajā",
+      "adj_inst_sg_masc": "mazajā",
+      "adj_loc_pl_fem": "mazās",
+      "adj_loc_pl_masc": "mazie",
+      "adj_loc_sg_fem": "mazā",
+      "adj_loc_sg_masc": "mazais",
+      "adj_nom_pl_fem": "mazās",
+      "adj_nom_pl_masc": "mazos",
+      "adj_nom_sg_fem": "mazo",
+      "adj_nom_sg_masc": "mazo",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mašīna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mašīna",
+    "inflections": {
+      "n_acc_pl": "mašīnas",
+      "n_acc_sg": "mašīnu",
+      "n_dat_pl": "mašīnām",
+      "n_dat_sg": "mašīnai",
+      "n_gen_pl": "mašīnu",
+      "n_gen_sg": "mašīnas",
+      "n_inst_pl": "mašīnām",
+      "n_inst_sg": "mašīnu",
+      "n_loc_pl": "mašīnās",
+      "n_loc_sg": "mašīnā",
+      "n_nom_pl": "mašīnas",
+      "n_nom_sg": "mašīna",
+      "n_voc_pl": "mašīnas",
+      "n_voc_sg": "mašīna",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "meita": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "meita",
+    "inflections": {
+      "n_acc_pl": "meitas",
+      "n_acc_sg": "meitu",
+      "n_dat_pl": "meitām",
+      "n_dat_sg": "meitai",
+      "n_gen_pl": "meitu",
+      "n_gen_sg": "meitas",
+      "n_inst_pl": "meitām",
+      "n_inst_sg": "meitu",
+      "n_loc_pl": "meitās",
+      "n_loc_sg": "meitā",
+      "n_nom_pl": "meitas",
+      "n_nom_sg": "meita",
+      "n_voc_pl": "meitas",
+      "n_voc_sg": "meit",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "meitene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "meitene",
+    "inflections": {
+      "n_acc_pl": "meitenes",
+      "n_acc_sg": "meiteni",
+      "n_dat_pl": "meitenēm",
+      "n_dat_sg": "meitenei",
+      "n_gen_pl": "meiteņu",
+      "n_gen_sg": "meitenes",
+      "n_inst_pl": "meitenēm",
+      "n_inst_sg": "meiteni",
+      "n_loc_pl": "meitenēs",
+      "n_loc_sg": "meitenē",
+      "n_nom_pl": "meitenes",
+      "n_nom_sg": "meitene",
+      "n_voc_pl": "meitenes",
+      "n_voc_sg": "meitene",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "meklēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "meklēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "meklēsim",
+      "v_1_pl_imp": "meklēsim",
+      "v_1_pl_prs_ind": "meklējam",
+      "v_1_pl_pst_ind": "meklējām",
+      "v_1_sg_fut_ind": "meklēšu",
+      "v_1_sg_prs_ind": "meklēju",
+      "v_1_sg_pst_ind": "meklēju",
+      "v_2_pl_fut_ind": "meklēsit",
+      "v_2_pl_imp": "meklējiet",
+      "v_2_pl_prs_ind": "meklējat",
+      "v_2_pl_pst_ind": "meklējāt",
+      "v_2_sg_fut_ind": "meklēsi",
+      "v_2_sg_imp": "meklē",
+      "v_2_sg_prs_ind": "meklē",
+      "v_2_sg_pst_ind": "meklēji",
+      "v_3_pl_fut_ind": "meklēs",
+      "v_3_pl_imp": "lai meklē",
+      "v_3_pl_prs_ind": "meklē",
+      "v_3_pl_pst_ind": "meklēja",
+      "v_3_sg_fut_ind": "meklēs",
+      "v_3_sg_imp": "lai meklē",
+      "v_3_sg_prs_ind": "meklē",
+      "v_3_sg_pst_ind": "meklēja",
+      "v_cond_prs": "meklētu",
+      "v_cond_pst": "būtu meklējis",
+      "v_lgspec1_fut": "meklēšot",
+      "v_lgspec1_imp": "lai meklējot",
+      "v_lgspec1_prs": "meklējot",
+      "v_lgspec1_pst": "esot meklējis",
+      "v_lgspec2_ind": "būt jāmeklē",
+      "v_lgspec2_lgspec7": "esot jāmeklē",
+      "v_lgspec2_lgspec8": "jāmeklējot",
+      "v_nfin": "meklēt",
+      "v_nfin_neg": "nemeklēt",
+      "v_v_msdr": "meklēšana",
+      "v_v_ptcp_prs_lgspec3": "meklējošs",
+      "v_v_ptcp_prs_lgspec4": "meklēdams",
+      "v_v_ptcp_prs_lgspec5": "meklējot",
+      "v_v_ptcp_prs_lgspec6": "meklējam",
+      "v_v_ptcp_prs_pass": "meklējams",
+      "v_v_ptcp_pst_act": "meklējis",
+      "v_v_ptcp_pst_pass": "meklēts"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "mest": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mest",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "met",
+      "v_2_sg_prs_ind": "met",
+      "v_3_pl_prs_ind": "met",
+      "v_3_sg_prs_ind": "met"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "miers": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miers",
+    "inflections": {
+      "n_acc_sg": "mieru",
+      "n_gen_pl": "mieru",
+      "n_inst_sg": "mieru",
+      "n_loc_sg": "mierā",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "minūte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minūte",
+    "inflections": {
+      "n_acc_pl": "minūtes",
+      "n_dat_pl": "minūtēm",
+      "n_gen_sg": "minūtes",
+      "n_inst_pl": "minūtēm",
+      "n_nom_pl": "minūtes",
+      "n_voc_pl": "minūtes",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "misters": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "misters",
+    "inflections": {
+      "n_voc_sg": "mister",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "muļķība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muļķība",
+    "inflections": {
+      "n_acc_pl": "muļķības",
+      "n_gen_sg": "muļķības",
+      "n_nom_pl": "muļķības",
+      "n_voc_pl": "muļķības",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "māja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "māja",
+    "inflections": {
+      "n_acc_pl": "mājas",
+      "n_acc_sg": "māju",
+      "n_dat_pl": "mājām",
+      "n_dat_sg": "mājai",
+      "n_gen_pl": "māju",
+      "n_gen_sg": "mājas",
+      "n_inst_pl": "mājām",
+      "n_inst_sg": "māju",
+      "n_loc_pl": "mājās",
+      "n_loc_sg": "mājā",
+      "n_nom_pl": "mājas",
+      "n_nom_sg": "māja",
+      "n_voc_pl": "mājas",
+      "n_voc_sg": "māja",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "māte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "māte",
+    "inflections": {
+      "n_acc_pl": "mātes",
+      "n_acc_sg": "māti",
+      "n_dat_pl": "mātēm",
+      "n_dat_sg": "mātei",
+      "n_gen_pl": "māšu",
+      "n_gen_sg": "mātes",
+      "n_inst_pl": "mātēm",
+      "n_inst_sg": "māti",
+      "n_loc_pl": "mātēs",
+      "n_loc_sg": "mātē",
+      "n_nom_pl": "mātes",
+      "n_nom_sg": "māte",
+      "n_voc_pl": "mātes",
+      "n_voc_sg": "māt",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "mīla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mīla",
+    "inflections": {
+      "n_acc_sg": "mīlu",
+      "n_inst_sg": "mīlu",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mīlestība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mīlestība",
+    "inflections": {
+      "n_acc_sg": "mīlestību",
+      "n_dat_sg": "mīlestībai",
+      "n_gen_sg": "mīlestības",
+      "n_inst_sg": "mīlestību",
+      "n_loc_sg": "mīlestībā",
+      "n_nom_sg": "mīlestība",
+      "n_voc_sg": "mīlestība",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "mīls": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mīls",
+    "inflections": {
+      "adj_acc_pl_fem": "mīlu",
+      "adj_acc_pl_masc": "mīlu",
+      "adj_dat_sg_fem": "mīlu",
+      "adj_dat_sg_masc": "mīlu",
+      "adj_nom_sg_fem": "mīlu",
+      "adj_nom_sg_masc": "mīlu",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mīļais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mīļais",
+    "inflections": {
+      "adj_acc_pl_fem": "mīļo",
+      "adj_acc_pl_masc": "mīļo",
+      "adj_acc_sg_fem": "mīļās",
+      "adj_acc_sg_masc": "mīļā",
+      "adj_dat_pl_fem": "mīļajām",
+      "adj_dat_pl_masc": "mīļajiem",
+      "adj_dat_sg_fem": "mīļo",
+      "adj_dat_sg_masc": "mīļo",
+      "adj_gen_pl_fem": "mīļajām",
+      "adj_gen_pl_masc": "mīļajiem",
+      "adj_gen_sg_fem": "mīļajai",
+      "adj_gen_sg_masc": "mīļajam",
+      "adj_inst_pl_fem": "mīļajās",
+      "adj_inst_pl_masc": "mīļajos",
+      "adj_inst_sg_fem": "mīļajā",
+      "adj_inst_sg_masc": "mīļajā",
+      "adj_loc_pl_fem": "mīļās",
+      "adj_loc_pl_masc": "mīļie",
+      "adj_loc_sg_fem": "mīļā",
+      "adj_loc_sg_masc": "mīļais",
+      "adj_nom_pl_fem": "mīļās",
+      "adj_nom_pl_masc": "mīļos",
+      "adj_nom_sg_fem": "mīļo",
+      "adj_nom_sg_masc": "mīļo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mūsa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mūsa",
+    "inflections": {
+      "n_acc_sg": "mūsu",
+      "n_gen_pl": "mūsu",
+      "n_inst_sg": "mūsu",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "nauda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nauda",
+    "inflections": {
+      "n_acc_sg": "naudu",
+      "n_dat_sg": "naudai",
+      "n_gen_sg": "naudas",
+      "n_inst_sg": "naudu",
+      "n_loc_sg": "naudā",
+      "n_nom_sg": "nauda",
+      "n_voc_sg": "nauda",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "neaiziet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "neaiziet",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "aiziet"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "neatrast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "neatrast",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "atrast"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "nebraukt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nebraukt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "braukt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "nebūt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nebūt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "neesam",
+      "v_1_sg_prs_ind": "neesmu",
+      "v_1_sg_pst_ind": "nebiju",
+      "v_2_pl_prs_ind": "neesat",
+      "v_2_sg_imp": "neesi",
+      "v_2_sg_prs_ind": "neesi",
+      "v_3_pl_fut_ind": "nebūs",
+      "v_3_pl_prs_ind": "nav",
+      "v_3_pl_pst_ind": "nebija",
+      "v_3_sg_fut_ind": "nebūs",
+      "v_3_sg_prs_ind": "nav",
+      "v_3_sg_pst_ind": "nebija",
+      "v_cond_prs": "nebūtu",
+      "v_nfin_neg": "būt"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedabūt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedabūt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "dabūt"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedarīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedarīt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "nedari",
+      "v_2_sg_prs_ind": "nedari",
+      "v_nfin_neg": "darīt"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedomāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedomāt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "nedomāju",
+      "v_1_sg_pst_ind": "nedomāju",
+      "v_2_sg_imp": "nedomā",
+      "v_2_sg_prs_ind": "nedomā",
+      "v_3_pl_prs_ind": "nedomā",
+      "v_3_sg_prs_ind": "nedomā",
+      "v_nfin_neg": "domāt"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedoties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedoties",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "doties"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedrīkstēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedrīkstēt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "nedrīkst",
+      "v_3_sg_prs_ind": "nedrīkst"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedzirdēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedzirdēt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "dzirdēt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedzīvot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedzīvot",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "dzīvot"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "nedēļa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nedēļa",
+    "inflections": {
+      "n_acc_pl": "nedēļas",
+      "n_gen_sg": "nedēļas",
+      "n_nom_pl": "nedēļas",
+      "n_voc_pl": "nedēļas",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "negribēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "negribēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "negribu",
+      "v_1_sg_pst_ind": "negribēju",
+      "v_2_sg_imp": "negribi",
+      "v_2_sg_prs_ind": "negribi"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "negulēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "negulēt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "gulēt"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "negādāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "negādāt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "domāt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "neiet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "neiet",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "iet"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "nekurt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nekurt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "nekur",
+      "v_2_sg_prs_ind": "nekur",
+      "v_3_pl_prs_ind": "nekur",
+      "v_3_sg_prs_ind": "nekur"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "nekļūt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nekļūt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "kļūt"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "nemeklēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nemeklēt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "meklēt"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "nepalīdzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nepalīdzēt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "palīdzēt"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "neredzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "neredzēt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "redzēt"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "nerunāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nerunāt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "nerunā",
+      "v_2_sg_prs_ind": "nerunā",
+      "v_3_pl_prs_ind": "nerunā",
+      "v_3_sg_prs_ind": "nerunā",
+      "v_nfin_neg": "runāt"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "nesacīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nesacīt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "nesaki",
+      "v_2_sg_prs_ind": "nesaki"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "nesaprast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nesaprast",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "nesaprotu",
+      "v_nfin_neg": "saprast"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "nespēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nespēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "nespēju",
+      "v_1_sg_pst_ind": "nespēju",
+      "v_2_sg_imp": "nespēj",
+      "v_2_sg_prs_ind": "nespēj",
+      "v_3_pl_prs_ind": "nespēj",
+      "v_3_sg_prs_ind": "nespēj"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "nestrādāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nestrādāt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "strādāt"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "nesākt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nesākt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "braukt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "neteikt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "neteikt",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_neg": "teikt"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "nevajadzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nevajadzēt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "nevajag",
+      "v_3_sg_prs_ind": "nevajag",
+      "v_cond_prs": "nevajadzētu"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "nevarēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nevarēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "nevaram",
+      "v_1_sg_prs_ind": "nevaru",
+      "v_2_sg_imp": "nevari",
+      "v_2_sg_prs_ind": "nevari",
+      "v_3_pl_prs_ind": "nevar",
+      "v_3_sg_prs_ind": "nevar",
+      "v_v_ptcp_prs_lgspec6": "nevaram"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "nezināt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nezināt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "nezinu",
+      "v_1_sg_pst_ind": "nezināju",
+      "v_2_sg_imp": "nezini",
+      "v_2_sg_prs_ind": "nezini",
+      "v_3_pl_prs_ind": "nezina",
+      "v_3_sg_prs_ind": "nezina",
+      "v_nfin_neg": "zināt"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "notikt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "notikt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_fut_ind": "notiks",
+      "v_3_pl_prs_ind": "notiek",
+      "v_3_pl_pst_ind": "notika",
+      "v_3_sg_fut_ind": "notiks",
+      "v_3_sg_prs_ind": "notiek",
+      "v_3_sg_pst_ind": "notika",
+      "v_v_ptcp_pst_act": "noticis"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "nozīme": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nozīme",
+    "inflections": {
+      "n_loc_sg": "nozīmē",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "nozīmēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nozīmēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "nozīmē",
+      "v_2_sg_prs_ind": "nozīmē",
+      "v_3_pl_prs_ind": "nozīmē",
+      "v_3_sg_prs_ind": "nozīmē"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "nākt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nākt",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "nāciet",
+      "v_2_sg_imp": "nāc",
+      "v_2_sg_prs_ind": "nāc",
+      "v_3_pl_prs_ind": "nāk",
+      "v_3_sg_prs_ind": "nāk"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "nāve": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nāve",
+    "inflections": {
+      "n_acc_pl": "nāves",
+      "n_dat_sg": "nāves",
+      "n_gen_pl": "nāves",
+      "n_gen_sg": "nāvi",
+      "n_loc_sg": "nāvi",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "nāvs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nāvs",
+    "inflections": {
+      "n_acc_sg": "nāvi",
+      "n_inst_sg": "nāvi",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "otrs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "otrs",
+    "inflections": {
+      "adj_acc_pl_fem": "otru",
+      "adj_acc_pl_masc": "otru",
+      "adj_dat_sg_fem": "otru",
+      "adj_dat_sg_masc": "otru",
+      "adj_inst_sg_fem": "otrā",
+      "adj_inst_sg_masc": "otrā",
+      "adj_nom_sg_fem": "otru",
+      "adj_nom_sg_masc": "otru",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "pagaidīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pagaidīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "pagaidām",
+      "v_2_pl_imp": "pagaidiet",
+      "v_2_sg_imp": "pagaidi",
+      "v_2_sg_prs_ind": "pagaidi",
+      "v_v_ptcp_prs_lgspec6": "pagaidām"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "pakalt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pakalt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "pakaļ",
+      "v_3_sg_prs_ind": "pakaļ"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "paliekt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "paliekt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "paliec",
+      "v_2_sg_prs_ind": "paliec",
+      "v_3_pl_prs_ind": "paliec",
+      "v_3_sg_prs_ind": "paliec"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "palikt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "palikt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "paliksim",
+      "v_1_pl_imp": "paliksim",
+      "v_1_pl_prs_ind": "paliekam",
+      "v_1_pl_pst_ind": "palikām",
+      "v_1_sg_fut_ind": "palikšu",
+      "v_1_sg_prs_ind": "palieku",
+      "v_1_sg_pst_ind": "paliku",
+      "v_2_pl_fut_ind": "paliksit",
+      "v_2_pl_imp": "palieciet",
+      "v_2_pl_prs_ind": "paliekat",
+      "v_2_pl_pst_ind": "palikāt",
+      "v_2_sg_fut_ind": "paliksi",
+      "v_2_sg_imp": "paliec",
+      "v_2_sg_prs_ind": "paliec",
+      "v_2_sg_pst_ind": "paliki",
+      "v_3_pl_fut_ind": "paliks",
+      "v_3_pl_imp": "lai paliek",
+      "v_3_pl_prs_ind": "paliek",
+      "v_3_pl_pst_ind": "palika",
+      "v_3_sg_fut_ind": "paliks",
+      "v_3_sg_imp": "lai paliek",
+      "v_3_sg_prs_ind": "paliek",
+      "v_3_sg_pst_ind": "palika",
+      "v_cond_prs": "paliktu",
+      "v_cond_pst": "būtu palicis",
+      "v_lgspec1_fut": "palikšot",
+      "v_lgspec1_imp": "lai paliekot",
+      "v_lgspec1_prs": "paliekot",
+      "v_lgspec1_pst": "esot palicis",
+      "v_lgspec2_ind": "būt jāpaliek",
+      "v_lgspec2_lgspec7": "esot jāpaliek",
+      "v_lgspec2_lgspec8": "jāpaliekot",
+      "v_nfin": "palikt",
+      "v_nfin_neg": "nepalikt",
+      "v_v_msdr": "palikšana",
+      "v_v_ptcp_prs_lgspec3": "paliekošs",
+      "v_v_ptcp_prs_lgspec4": "palikdams",
+      "v_v_ptcp_prs_lgspec5": "paliekot",
+      "v_v_ptcp_prs_lgspec6": "paliekam",
+      "v_v_ptcp_prs_pass": "paliekams",
+      "v_v_ptcp_pst_act": "palicis",
+      "v_v_ptcp_pst_pass": "palikts"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "palīdzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "palīdzēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "palīdzēsim",
+      "v_1_pl_imp": "palīdzēsim",
+      "v_1_pl_prs_ind": "palīdzam",
+      "v_1_pl_pst_ind": "palīdzējām",
+      "v_1_sg_fut_ind": "palīdzēšu",
+      "v_1_sg_prs_ind": "palīdzu",
+      "v_1_sg_pst_ind": "palīdzēju",
+      "v_2_pl_fut_ind": "palīdzēsit",
+      "v_2_pl_imp": "palīdziet",
+      "v_2_pl_prs_ind": "palīdzat",
+      "v_2_pl_pst_ind": "palīdzējāt",
+      "v_2_sg_fut_ind": "palīdzēsi",
+      "v_2_sg_imp": "palīdzi",
+      "v_2_sg_prs_ind": "palīdzi",
+      "v_2_sg_pst_ind": "palīdzēji",
+      "v_3_pl_fut_ind": "palīdzēs",
+      "v_3_pl_imp": "lai palīdz",
+      "v_3_pl_prs_ind": "palīdz",
+      "v_3_pl_pst_ind": "palīdzēja",
+      "v_3_sg_fut_ind": "palīdzēs",
+      "v_3_sg_imp": "lai palīdz",
+      "v_3_sg_prs_ind": "palīdz",
+      "v_3_sg_pst_ind": "palīdzēja",
+      "v_cond_prs": "palīdzētu",
+      "v_cond_pst": "būtu palīdzējis",
+      "v_lgspec1_fut": "palīdzēšot",
+      "v_lgspec1_imp": "lai palīdzot",
+      "v_lgspec1_prs": "palīdzot",
+      "v_lgspec1_pst": "esot palīdzējis",
+      "v_lgspec2_ind": "būt jāpalīdz",
+      "v_lgspec2_lgspec7": "esot jāpalīdz",
+      "v_lgspec2_lgspec8": "jāpalīdzot",
+      "v_nfin": "palīdzēt",
+      "v_nfin_neg": "nepalīdzēt",
+      "v_v_msdr": "palīdzēšana",
+      "v_v_ptcp_prs_lgspec3": "palīdzošs",
+      "v_v_ptcp_prs_lgspec4": "palīdzēdams",
+      "v_v_ptcp_prs_lgspec5": "palīdzot",
+      "v_v_ptcp_prs_lgspec6": "palīdzam",
+      "v_v_ptcp_prs_pass": "palīdzams",
+      "v_v_ptcp_pst_act": "palīdzējis",
+      "v_v_ptcp_pst_pass": "palīdzēts"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "parāds": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parāds",
+    "inflections": {
+      "n_loc_sg": "parādā",
+      "n_nom_pl": "parādi",
+      "n_voc_pl": "parādi",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pasacīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pasacīt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "pasaki",
+      "v_2_sg_prs_ind": "pasaki"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "pasaule": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pasaule",
+    "inflections": {
+      "n_acc_pl": "pasaules",
+      "n_acc_sg": "pasauli",
+      "n_dat_pl": "pasaulēm",
+      "n_dat_sg": "pasaulei",
+      "n_gen_pl": "pasauļu",
+      "n_gen_sg": "pasaules",
+      "n_inst_pl": "pasaulēm",
+      "n_inst_sg": "pasauli",
+      "n_loc_pl": "pasaulēs",
+      "n_loc_sg": "pasaulē",
+      "n_nom_pl": "pasaules",
+      "n_nom_sg": "pasaule",
+      "n_voc_pl": "pasaules",
+      "n_voc_sg": "pasaule",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "paskatīties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "paskatīties",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "paskatieties",
+      "v_2_sg_imp": "paskaties",
+      "v_2_sg_prs_ind": "paskaties"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "pateikt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pateikt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "pateiksim",
+      "v_1_pl_imp": "pateiksim",
+      "v_1_pl_prs_ind": "pateicam",
+      "v_1_pl_pst_ind": "pateicām",
+      "v_1_sg_fut_ind": "pateikšu",
+      "v_1_sg_prs_ind": "pateicu",
+      "v_1_sg_pst_ind": "pateicu",
+      "v_2_pl_fut_ind": "pateiksit",
+      "v_2_pl_imp": "pateiciet",
+      "v_2_pl_prs_ind": "pateicat",
+      "v_2_pl_pst_ind": "pateicāt",
+      "v_2_sg_fut_ind": "pateiksi",
+      "v_2_sg_imp": "pateic",
+      "v_2_sg_prs_ind": "pateic",
+      "v_2_sg_pst_ind": "pateici",
+      "v_3_pl_fut_ind": "pateiks",
+      "v_3_pl_imp": "lai pateic",
+      "v_3_pl_prs_ind": "pateic",
+      "v_3_pl_pst_ind": "pateica",
+      "v_3_sg_fut_ind": "pateiks",
+      "v_3_sg_imp": "lai pateic",
+      "v_3_sg_prs_ind": "pateic",
+      "v_3_sg_pst_ind": "pateica",
+      "v_cond_prs": "pateiktu",
+      "v_cond_pst": "būtu pateicis",
+      "v_lgspec1_fut": "pateikšot",
+      "v_lgspec1_imp": "lai pateicot",
+      "v_lgspec1_prs": "pateicot",
+      "v_lgspec1_pst": "esot pateicis",
+      "v_lgspec2_ind": "būt jāpateic",
+      "v_lgspec2_lgspec7": "esot jāpateic",
+      "v_lgspec2_lgspec8": "jāpateicot",
+      "v_nfin": "pateikt",
+      "v_nfin_neg": "nepateikt",
+      "v_v_msdr": "pateikšana",
+      "v_v_ptcp_prs_lgspec3": "pateicošs",
+      "v_v_ptcp_prs_lgspec4": "pateikdams",
+      "v_v_ptcp_prs_lgspec5": "pateicot",
+      "v_v_ptcp_prs_lgspec6": "pateicam",
+      "v_v_ptcp_prs_pass": "pateicams",
+      "v_v_ptcp_pst_act": "pateicis",
+      "v_v_ptcp_pst_pass": "pateikts"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "patiesība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "patiesība",
+    "inflections": {
+      "n_acc_pl": "patiesības",
+      "n_acc_sg": "patiesību",
+      "n_dat_pl": "patiesībām",
+      "n_dat_sg": "patiesībai",
+      "n_gen_pl": "patiesību",
+      "n_gen_sg": "patiesības",
+      "n_inst_pl": "patiesībām",
+      "n_inst_sg": "patiesību",
+      "n_loc_pl": "patiesībās",
+      "n_loc_sg": "patiesībā",
+      "n_nom_pl": "patiesības",
+      "n_nom_sg": "patiesība",
+      "n_voc_pl": "patiesības",
+      "n_voc_sg": "patiesība",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "patikt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "patikt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "patīk",
+      "v_3_pl_pst_ind": "patika",
+      "v_3_sg_prs_ind": "patīk",
+      "v_3_sg_pst_ind": "patika"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "pazīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pazīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "pazīstu"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "piederēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "piederēt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "pieder",
+      "v_3_sg_prs_ind": "pieder"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "piedot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "piedot",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "piedodiet",
+      "v_2_sg_imp": "piedod",
+      "v_2_sg_prs_ind": "piedod",
+      "v_3_pl_prs_ind": "piedod",
+      "v_3_sg_prs_ind": "piedod"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "piemērs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "piemērs",
+    "inflections": {
+      "n_dat_sg": "piemēram",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "pilnība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pilnība",
+    "inflections": {
+      "n_loc_sg": "pilnībā",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pilsēta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pilsēta",
+    "inflections": {
+      "n_acc_pl": "pilsētas",
+      "n_acc_sg": "pilsētu",
+      "n_gen_pl": "pilsētu",
+      "n_gen_sg": "pilsētas",
+      "n_inst_sg": "pilsētu",
+      "n_loc_sg": "pilsētā",
+      "n_nom_pl": "pilsētas",
+      "n_voc_pl": "pilsētas",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "pirmais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pirmais",
+    "inflections": {
+      "adj_acc_pl_fem": "pirmo",
+      "adj_acc_pl_masc": "pirmo",
+      "adj_acc_sg_fem": "pirmās",
+      "adj_acc_sg_masc": "pirmā",
+      "adj_dat_pl_fem": "pirmajām",
+      "adj_dat_pl_masc": "pirmajiem",
+      "adj_dat_sg_fem": "pirmo",
+      "adj_dat_sg_masc": "pirmo",
+      "adj_gen_pl_fem": "pirmajām",
+      "adj_gen_pl_masc": "pirmajiem",
+      "adj_gen_sg_fem": "pirmajai",
+      "adj_gen_sg_masc": "pirmajam",
+      "adj_inst_pl_fem": "pirmajās",
+      "adj_inst_pl_masc": "pirmajos",
+      "adj_inst_sg_fem": "pirmajā",
+      "adj_inst_sg_masc": "pirmajā",
+      "adj_loc_pl_fem": "pirmās",
+      "adj_loc_pl_masc": "pirmie",
+      "adj_loc_sg_fem": "pirmā",
+      "adj_loc_sg_masc": "pirmais",
+      "adj_nom_pl_fem": "pirmās",
+      "adj_nom_pl_masc": "pirmos",
+      "adj_nom_sg_fem": "pirmo",
+      "adj_nom_sg_masc": "pirmo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "policija": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "policija",
+    "inflections": {
+      "n_acc_sg": "policiju",
+      "n_dat_sg": "policijai",
+      "n_gen_sg": "policijas",
+      "n_inst_sg": "policiju",
+      "n_loc_sg": "policijā",
+      "n_nom_sg": "policija",
+      "n_voc_sg": "policija",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "prieks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prieks",
+    "inflections": {
+      "n_acc_pl": "priekus",
+      "n_acc_sg": "prieku",
+      "n_dat_pl": "priekiem",
+      "n_dat_sg": "priekam",
+      "n_gen_pl": "prieku",
+      "n_gen_sg": "prieka",
+      "n_inst_pl": "priekiem",
+      "n_inst_sg": "prieku",
+      "n_loc_pl": "priekos",
+      "n_loc_sg": "priekā",
+      "n_nom_pl": "prieki",
+      "n_nom_sg": "prieks",
+      "n_voc_pl": "prieki",
+      "n_voc_sg": "priek",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "priekša": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "priekša",
+    "inflections": {
+      "n_acc_sg": "priekšu",
+      "n_gen_pl": "priekšu",
+      "n_inst_sg": "priekšu",
+      "n_loc_sg": "priekšā",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "problēma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "problēma",
+    "inflections": {
+      "n_acc_pl": "problēmas",
+      "n_acc_sg": "problēmu",
+      "n_dat_pl": "problēmām",
+      "n_dat_sg": "problēmai",
+      "n_gen_pl": "problēmu",
+      "n_gen_sg": "problēmas",
+      "n_inst_pl": "problēmām",
+      "n_inst_sg": "problēmu",
+      "n_loc_pl": "problēmās",
+      "n_loc_sg": "problēmā",
+      "n_nom_pl": "problēmas",
+      "n_nom_sg": "problēma",
+      "n_voc_pl": "problēmas",
+      "n_voc_sg": "problēma",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "prāts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prāts",
+    "inflections": {
+      "n_loc_sg": "prātā",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "puika": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "puika",
+    "inflections": {
+      "n_acc_pl": "puikas",
+      "n_acc_sg": "puiku",
+      "n_dat_pl": "puikām",
+      "n_dat_sg": "puikam",
+      "n_gen_pl": "puiku",
+      "n_gen_sg": "puikas",
+      "n_inst_pl": "puikām",
+      "n_inst_sg": "puiku",
+      "n_loc_pl": "puikās",
+      "n_loc_sg": "puikā",
+      "n_nom_pl": "puikas",
+      "n_nom_sg": "puika",
+      "n_voc_pl": "puikas",
+      "n_voc_sg": "puika",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "puisis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "puisis",
+    "inflections": {
+      "n_acc_pl": "puišus",
+      "n_acc_sg": "puisi",
+      "n_dat_pl": "puišiem",
+      "n_dat_sg": "puisim",
+      "n_gen_pl": "puišu",
+      "n_gen_sg": "puiša",
+      "n_inst_pl": "puišiem",
+      "n_inst_sg": "puisi",
+      "n_loc_pl": "puišos",
+      "n_loc_sg": "puisī",
+      "n_nom_pl": "puiši",
+      "n_nom_sg": "puisis",
+      "n_voc_pl": "puiši",
+      "n_voc_sg": "puisi",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "puse": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "puse",
+    "inflections": {
+      "n_acc_sg": "pusi",
+      "n_inst_sg": "pusi",
+      "n_loc_sg": "pusē",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "pāris": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pāris",
+    "inflections": {
+      "n_acc_pl": "pārus",
+      "n_acc_sg": "pāri",
+      "n_dat_pl": "pāriem",
+      "n_dat_sg": "pārim",
+      "n_gen_pl": "pāru",
+      "n_gen_sg": "pāra",
+      "n_inst_pl": "pāriem",
+      "n_inst_sg": "pāri",
+      "n_loc_pl": "pāros",
+      "n_loc_sg": "pārī",
+      "n_nom_pl": "pāri",
+      "n_nom_sg": "pāris",
+      "n_voc_pl": "pāri",
+      "n_voc_sg": "pāri",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "rakt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rakt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "roku"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "redze": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "redze",
+    "inflections": {
+      "n_acc_sg": "redzi",
+      "n_inst_sg": "redzi",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "reize": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "reize",
+    "inflections": {
+      "n_acc_pl": "reizes",
+      "n_acc_sg": "reizi",
+      "n_dat_pl": "reizēm",
+      "n_gen_sg": "reizes",
+      "n_inst_pl": "reizēm",
+      "n_inst_sg": "reizi",
+      "n_nom_pl": "reizes",
+      "n_voc_pl": "reizes",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "runa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "runa",
+    "inflections": {
+      "n_acc_pl": "runas",
+      "n_acc_sg": "runu",
+      "n_dat_pl": "runām",
+      "n_dat_sg": "runai",
+      "n_gen_pl": "runu",
+      "n_gen_sg": "runas",
+      "n_inst_pl": "runām",
+      "n_inst_sg": "runu",
+      "n_loc_pl": "runās",
+      "n_loc_sg": "runā",
+      "n_nom_pl": "runas",
+      "n_nom_sg": "runa",
+      "n_voc_pl": "runas",
+      "n_voc_sg": "runa",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "runāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "runāt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "runāsim",
+      "v_1_pl_imp": "runāsim",
+      "v_1_pl_prs_ind": "runājam",
+      "v_1_pl_pst_ind": "runājām",
+      "v_1_sg_fut_ind": "runāšu",
+      "v_1_sg_prs_ind": "runāju",
+      "v_1_sg_pst_ind": "runāju",
+      "v_2_pl_fut_ind": "runāsit",
+      "v_2_pl_imp": "runājiet",
+      "v_2_pl_prs_ind": "runājat",
+      "v_2_pl_pst_ind": "runājāt",
+      "v_2_sg_fut_ind": "runāsi",
+      "v_2_sg_imp": "runā",
+      "v_2_sg_prs_ind": "runā",
+      "v_2_sg_pst_ind": "runāji",
+      "v_3_pl_fut_ind": "runās",
+      "v_3_pl_imp": "lai runā",
+      "v_3_pl_prs_ind": "runā",
+      "v_3_pl_pst_ind": "runāja",
+      "v_3_sg_fut_ind": "runās",
+      "v_3_sg_imp": "lai runā",
+      "v_3_sg_prs_ind": "runā",
+      "v_3_sg_pst_ind": "runāja",
+      "v_cond_prs": "runātu",
+      "v_cond_pst": "būtu runājis",
+      "v_lgspec1_fut": "runāšot",
+      "v_lgspec1_imp": "lai runājot",
+      "v_lgspec1_prs": "runājot",
+      "v_lgspec1_pst": "esot runājis",
+      "v_lgspec2_ind": "būt jārunā",
+      "v_lgspec2_lgspec7": "esot jārunā",
+      "v_lgspec2_lgspec8": "jārunājot",
+      "v_nfin": "runāt",
+      "v_nfin_neg": "nerunāt",
+      "v_v_msdr": "runāšana",
+      "v_v_ptcp_prs_lgspec3": "runājošs",
+      "v_v_ptcp_prs_lgspec4": "runādams",
+      "v_v_ptcp_prs_lgspec5": "runājot",
+      "v_v_ptcp_prs_lgspec6": "runājam",
+      "v_v_ptcp_prs_pass": "runājams",
+      "v_v_ptcp_pst_act": "runājis",
+      "v_v_ptcp_pst_pass": "runāts"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "rīts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rīts",
+    "inflections": {
+      "n_gen_sg": "rīta",
+      "n_voc_sg": "rīt",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "sacīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sacīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "saku",
+      "v_2_sg_imp": "saki",
+      "v_2_sg_prs_ind": "saki",
+      "v_3_pl_prs_ind": "saka",
+      "v_3_sg_prs_ind": "saka",
+      "v_lgspec1_prs": "sakot",
+      "v_v_ptcp_prs_lgspec5": "sakot"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "sajūta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sajūta",
+    "inflections": {
+      "n_acc_pl": "sajūtas",
+      "n_acc_sg": "sajūtu",
+      "n_dat_pl": "sajūtām",
+      "n_dat_sg": "sajūtai",
+      "n_gen_pl": "sajūtu",
+      "n_gen_sg": "sajūtas",
+      "n_inst_pl": "sajūtām",
+      "n_inst_sg": "sajūtu",
+      "n_loc_pl": "sajūtās",
+      "n_loc_sg": "sajūtā",
+      "n_nom_pl": "sajūtas",
+      "n_nom_sg": "sajūta",
+      "n_voc_pl": "sajūtas",
+      "n_voc_sg": "sajūta",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "sakas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sakas",
+    "inflections": {
+      "n_gen_pl": "saku",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "saprast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saprast",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "sapratīsim",
+      "v_1_pl_imp": "sapratīsim",
+      "v_1_pl_prs_ind": "saprotam",
+      "v_1_pl_pst_ind": "sapratām",
+      "v_1_sg_fut_ind": "sapratīšu",
+      "v_1_sg_prs_ind": "saprotu",
+      "v_1_sg_pst_ind": "sapratu",
+      "v_2_pl_fut_ind": "sapratīsit",
+      "v_2_pl_imp": "saprotiet",
+      "v_2_pl_prs_ind": "saprotat",
+      "v_2_pl_pst_ind": "sapratāt",
+      "v_2_sg_fut_ind": "sapratīsi",
+      "v_2_sg_imp": "saproti",
+      "v_2_sg_prs_ind": "saproti",
+      "v_2_sg_pst_ind": "saprati",
+      "v_3_pl_fut_ind": "sapratīs",
+      "v_3_pl_imp": "lai saprot",
+      "v_3_pl_prs_ind": "saprot",
+      "v_3_pl_pst_ind": "saprata",
+      "v_3_sg_fut_ind": "sapratīs",
+      "v_3_sg_imp": "lai saprot",
+      "v_3_sg_prs_ind": "saprot",
+      "v_3_sg_pst_ind": "saprata",
+      "v_cond_prs": "saprastu",
+      "v_cond_pst": "būtu sapratis",
+      "v_lgspec1_fut": "sapratīšot",
+      "v_lgspec1_imp": "lai saprotot",
+      "v_lgspec1_prs": "saprotot",
+      "v_lgspec1_pst": "esot sapratis",
+      "v_lgspec2_ind": "būt jāsaprot",
+      "v_lgspec2_lgspec7": "esot jāsaprot",
+      "v_lgspec2_lgspec8": "jāsaprotot",
+      "v_nfin": "saprast",
+      "v_nfin_neg": "nesaprast",
+      "v_v_msdr": "saprašana",
+      "v_v_ptcp_prs_lgspec3": "saprotošs",
+      "v_v_ptcp_prs_lgspec4": "saprazdams",
+      "v_v_ptcp_prs_lgspec5": "saprotot",
+      "v_v_ptcp_prs_lgspec6": "saprotam",
+      "v_v_ptcp_prs_pass": "saprotams",
+      "v_v_ptcp_pst_act": "sapratis",
+      "v_v_ptcp_pst_pass": "saprasts"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "saukt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saukt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "sauc",
+      "v_2_sg_prs_ind": "sauc",
+      "v_3_pl_prs_ind": "sauc",
+      "v_3_sg_prs_ind": "sauc"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "sieva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sieva",
+    "inflections": {
+      "n_acc_pl": "sievas",
+      "n_acc_sg": "sievu",
+      "n_dat_pl": "sievām",
+      "n_dat_sg": "sievai",
+      "n_gen_pl": "sievu",
+      "n_gen_sg": "sievas",
+      "n_inst_pl": "sievām",
+      "n_inst_sg": "sievu",
+      "n_loc_pl": "sievās",
+      "n_loc_sg": "sievā",
+      "n_nom_pl": "sievas",
+      "n_nom_sg": "sieva",
+      "n_voc_pl": "sievas",
+      "n_voc_sg": "sieva",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "sieviete": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sieviete",
+    "inflections": {
+      "n_acc_pl": "sievietes",
+      "n_acc_sg": "sievieti",
+      "n_dat_pl": "sievietēm",
+      "n_dat_sg": "sievietei",
+      "n_gen_pl": "sieviešu",
+      "n_gen_sg": "sievietes",
+      "n_inst_pl": "sievietēm",
+      "n_inst_sg": "sievieti",
+      "n_loc_pl": "sievietēs",
+      "n_loc_sg": "sievietē",
+      "n_nom_pl": "sievietes",
+      "n_nom_sg": "sieviete",
+      "n_voc_pl": "sievietes",
+      "n_voc_sg": "sieviete",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "skaidrs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skaidrs",
+    "inflections": {
+      "adj_acc_pl_fem": "skaidru",
+      "adj_acc_pl_masc": "skaidru",
+      "adj_acc_sg_fem": "skaidras",
+      "adj_acc_sg_masc": "skaidra",
+      "adj_dat_pl_fem": "skaidrām",
+      "adj_dat_pl_masc": "skaidriem",
+      "adj_dat_sg_fem": "skaidru",
+      "adj_dat_sg_masc": "skaidru",
+      "adj_gen_pl_fem": "skaidrām",
+      "adj_gen_pl_masc": "skaidriem",
+      "adj_gen_sg_fem": "skaidrai",
+      "adj_gen_sg_masc": "skaidram",
+      "adj_inst_pl_fem": "skaidrās",
+      "adj_inst_pl_masc": "skaidros",
+      "adj_inst_sg_fem": "skaidrā",
+      "adj_inst_sg_masc": "skaidrā",
+      "adj_nom_pl_fem": "skaidras",
+      "adj_nom_pl_masc": "skaidrus",
+      "adj_nom_sg_fem": "skaidru",
+      "adj_nom_sg_masc": "skaidru",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "skaists": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skaists",
+    "inflections": {
+      "adj_acc_sg_masc": "skaista",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "skats": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skats",
+    "inflections": {
+      "n_voc_sg": "skat",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "skatīties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skatīties",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "skatieties",
+      "v_2_sg_imp": "skaties",
+      "v_2_sg_prs_ind": "skaties"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "skola": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skola",
+    "inflections": {
+      "n_loc_sg": "skolā",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "skriet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skriet",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "skrien",
+      "v_2_sg_prs_ind": "skrien",
+      "v_3_pl_prs_ind": "skrien",
+      "v_3_sg_prs_ind": "skrien"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "slikts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "slikts",
+    "inflections": {
+      "adj_acc_pl_fem": "sliktu",
+      "adj_acc_pl_masc": "sliktu",
+      "adj_acc_sg_fem": "sliktas",
+      "adj_acc_sg_masc": "slikta",
+      "adj_dat_pl_fem": "sliktām",
+      "adj_dat_pl_masc": "sliktiem",
+      "adj_dat_sg_fem": "sliktu",
+      "adj_dat_sg_masc": "sliktu",
+      "adj_gen_pl_fem": "sliktām",
+      "adj_gen_pl_masc": "sliktiem",
+      "adj_gen_sg_fem": "sliktai",
+      "adj_gen_sg_masc": "sliktam",
+      "adj_inst_pl_fem": "sliktās",
+      "adj_inst_pl_masc": "sliktos",
+      "adj_inst_sg_fem": "sliktā",
+      "adj_inst_sg_masc": "sliktā",
+      "adj_nom_pl_fem": "sliktas",
+      "adj_nom_pl_masc": "sliktus",
+      "adj_nom_sg_fem": "sliktu",
+      "adj_nom_sg_masc": "sliktu",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "spēks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spēks",
+    "inflections": {
+      "n_acc_sg": "spēku",
+      "n_gen_pl": "spēku",
+      "n_inst_sg": "spēku",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "spēle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spēle",
+    "inflections": {
+      "n_acc_pl": "spēles",
+      "n_acc_sg": "spēli",
+      "n_dat_pl": "spēlēm",
+      "n_dat_sg": "spēlei",
+      "n_gen_pl": "spēļu",
+      "n_gen_sg": "spēles",
+      "n_inst_pl": "spēlēm",
+      "n_inst_sg": "spēli",
+      "n_loc_pl": "spēlēs",
+      "n_loc_sg": "spēlē",
+      "n_nom_pl": "spēles",
+      "n_nom_sg": "spēle",
+      "n_voc_pl": "spēles",
+      "n_voc_sg": "spēle",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "spēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "spēj",
+      "v_2_sg_prs_ind": "spēj",
+      "v_3_pl_prs_ind": "spēj",
+      "v_3_sg_prs_ind": "spēj"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "strādāt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "strādāt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "strādāsim",
+      "v_1_pl_imp": "strādāsim",
+      "v_1_pl_prs_ind": "strādājam",
+      "v_1_pl_pst_ind": "strādājām",
+      "v_1_sg_fut_ind": "strādāšu",
+      "v_1_sg_prs_ind": "strādāju",
+      "v_1_sg_pst_ind": "strādāju",
+      "v_2_pl_fut_ind": "strādāsit",
+      "v_2_pl_imp": "strādājiet",
+      "v_2_pl_prs_ind": "strādājat",
+      "v_2_pl_pst_ind": "strādājāt",
+      "v_2_sg_fut_ind": "strādāsi",
+      "v_2_sg_imp": "strādā",
+      "v_2_sg_prs_ind": "strādā",
+      "v_2_sg_pst_ind": "strādāji",
+      "v_3_pl_fut_ind": "strādās",
+      "v_3_pl_imp": "lai strādā",
+      "v_3_pl_prs_ind": "strādā",
+      "v_3_pl_pst_ind": "strādāja",
+      "v_3_sg_fut_ind": "strādās",
+      "v_3_sg_imp": "lai strādā",
+      "v_3_sg_prs_ind": "strādā",
+      "v_3_sg_pst_ind": "strādāja",
+      "v_cond_prs": "strādātu",
+      "v_cond_pst": "būtu strādājis",
+      "v_lgspec1_fut": "strādāšot",
+      "v_lgspec1_imp": "lai strādājot",
+      "v_lgspec1_prs": "strādājot",
+      "v_lgspec1_pst": "esot strādājis",
+      "v_lgspec2_ind": "būt jāstrādā",
+      "v_lgspec2_lgspec7": "esot jāstrādā",
+      "v_lgspec2_lgspec8": "jāstrādājot",
+      "v_nfin": "strādāt",
+      "v_nfin_neg": "nestrādāt",
+      "v_v_msdr": "strādāšana",
+      "v_v_ptcp_prs_lgspec3": "strādājošs",
+      "v_v_ptcp_prs_lgspec4": "strādādams",
+      "v_v_ptcp_prs_lgspec5": "strādājot",
+      "v_v_ptcp_prs_lgspec6": "strādājam",
+      "v_v_ptcp_prs_pass": "strādājams",
+      "v_v_ptcp_pst_act": "strādājis",
+      "v_v_ptcp_pst_pass": "strādāts"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "stunda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stunda",
+    "inflections": {
+      "n_acc_pl": "stundas",
+      "n_gen_sg": "stundas",
+      "n_nom_pl": "stundas",
+      "n_voc_pl": "stundas",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "stāsts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stāsts",
+    "inflections": {
+      "n_acc_pl": "stāstus",
+      "n_acc_sg": "stāstu",
+      "n_dat_pl": "stāstiem",
+      "n_dat_sg": "stāstam",
+      "n_gen_pl": "stāstu",
+      "n_gen_sg": "stāsta",
+      "n_inst_pl": "stāstiem",
+      "n_inst_sg": "stāstu",
+      "n_loc_pl": "stāstos",
+      "n_loc_sg": "stāstā",
+      "n_nom_pl": "stāsti",
+      "n_nom_sg": "stāsts",
+      "n_voc_pl": "stāsti",
+      "n_voc_sg": "stāst",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "stāstīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stāstīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "stāstu"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "suns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "suns",
+    "inflections": {
+      "n_acc_pl": "suņus",
+      "n_acc_sg": "suni",
+      "n_dat_pl": "suņiem",
+      "n_dat_sg": "sunim",
+      "n_gen_pl": "suņu",
+      "n_gen_sg": "suņa",
+      "n_inst_pl": "suņiem",
+      "n_inst_sg": "suni",
+      "n_loc_pl": "suņos",
+      "n_loc_sg": "sunī",
+      "n_nom_pl": "suņi",
+      "n_nom_sg": "suns",
+      "n_voc_pl": "suņi",
+      "n_voc_sg": "suni",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "sveiks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sveiks",
+    "inflections": {
+      "adj_acc_pl_fem": "sveiku",
+      "adj_acc_pl_masc": "sveiku",
+      "adj_acc_sg_fem": "sveikas",
+      "adj_acc_sg_masc": "sveika",
+      "adj_dat_pl_fem": "sveikām",
+      "adj_dat_pl_masc": "sveikiem",
+      "adj_dat_sg_fem": "sveiku",
+      "adj_dat_sg_masc": "sveiku",
+      "adj_gen_pl_fem": "sveikām",
+      "adj_gen_pl_masc": "sveikiem",
+      "adj_gen_sg_fem": "sveikai",
+      "adj_gen_sg_masc": "sveikam",
+      "adj_inst_pl_fem": "sveikās",
+      "adj_inst_pl_masc": "sveikos",
+      "adj_inst_sg_fem": "sveikā",
+      "adj_inst_sg_masc": "sveikā",
+      "adj_nom_pl_fem": "sveikas",
+      "adj_nom_pl_masc": "sveikus",
+      "adj_nom_sg_fem": "sveiku",
+      "adj_nom_sg_masc": "sveiku",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sākums": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sākums",
+    "inflections": {
+      "n_loc_sg": "sākumā",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "sūds": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sūds",
+    "inflections": {
+      "n_gen_sg": "sūda",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "taisnība": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "taisnība",
+    "inflections": {
+      "n_acc_pl": "taisnības",
+      "n_acc_sg": "taisnību",
+      "n_dat_pl": "taisnībām",
+      "n_dat_sg": "taisnībai",
+      "n_gen_pl": "taisnību",
+      "n_gen_sg": "taisnības",
+      "n_inst_pl": "taisnībām",
+      "n_inst_sg": "taisnību",
+      "n_loc_pl": "taisnībās",
+      "n_loc_sg": "taisnībā",
+      "n_nom_pl": "taisnības",
+      "n_nom_sg": "taisnība",
+      "n_voc_pl": "taisnības",
+      "n_voc_sg": "taisnība",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "tajs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tajs",
+    "inflections": {
+      "n_loc_sg": "tajā",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "telefons": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefons",
+    "inflections": {
+      "n_acc_sg": "telefonu",
+      "n_gen_pl": "telefonu",
+      "n_inst_sg": "telefonu",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ticēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ticēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "tici",
+      "v_2_sg_prs_ind": "tici"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "tiešs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tiešs",
+    "inflections": {
+      "adj_dat_pl_fem": "tiešām",
+      "adj_gen_pl_fem": "tiešām",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "traks": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "traks",
+    "inflections": {
+      "adj_acc_pl_fem": "traku",
+      "adj_acc_pl_masc": "traku",
+      "adj_acc_sg_fem": "trakas",
+      "adj_acc_sg_masc": "traka",
+      "adj_dat_pl_fem": "trakām",
+      "adj_dat_pl_masc": "trakiem",
+      "adj_dat_sg_fem": "traku",
+      "adj_dat_sg_masc": "traku",
+      "adj_gen_pl_fem": "trakām",
+      "adj_gen_pl_masc": "trakiem",
+      "adj_gen_sg_fem": "trakai",
+      "adj_gen_sg_masc": "trakam",
+      "adj_inst_pl_fem": "trakās",
+      "adj_inst_pl_masc": "trakos",
+      "adj_inst_sg_fem": "trakā",
+      "adj_inst_sg_masc": "trakā",
+      "adj_nom_pl_fem": "trakas",
+      "adj_nom_pl_masc": "trakus",
+      "adj_nom_sg_fem": "traku",
+      "adj_nom_sg_masc": "traku",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "turpināt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "turpināt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "turpini",
+      "v_2_sg_prs_ind": "turpini"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "turēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "turēt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "turi",
+      "v_2_sg_prs_ind": "turi",
+      "v_3_pl_prs_ind": "tur",
+      "v_3_sg_prs_ind": "tur"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "tētis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tētis",
+    "inflections": {
+      "n_acc_pl": "tētus",
+      "n_acc_sg": "tēti",
+      "n_dat_pl": "tētiem",
+      "n_dat_sg": "tētim",
+      "n_gen_pl": "tētu",
+      "n_gen_sg": "tēta",
+      "n_inst_pl": "tētiem",
+      "n_inst_sg": "tēti",
+      "n_loc_pl": "tētos",
+      "n_loc_sg": "tētī",
+      "n_nom_pl": "tēti",
+      "n_nom_sg": "tētis",
+      "n_voc_pl": "tēti",
+      "n_voc_sg": "tēti",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tēvs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tēvs",
+    "inflections": {
+      "n_acc_pl": "tēvus",
+      "n_acc_sg": "tēvu",
+      "n_dat_pl": "tēviem",
+      "n_dat_sg": "tēvam",
+      "n_gen_pl": "tēvu",
+      "n_gen_sg": "tēva",
+      "n_inst_pl": "tēviem",
+      "n_inst_sg": "tēvu",
+      "n_loc_pl": "tēvos",
+      "n_loc_sg": "tēvā",
+      "n_nom_pl": "tēvi",
+      "n_nom_sg": "tēvs",
+      "n_voc_pl": "tēvi",
+      "n_voc_sg": "tēvs",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "uguns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uguns",
+    "inflections": {
+      "n_acc_sg": "uguni",
+      "n_inst_sg": "uguni",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "vaina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaina",
+    "inflections": {
+      "n_acc_pl": "vainas",
+      "n_acc_sg": "vainu",
+      "n_dat_pl": "vainām",
+      "n_dat_sg": "vainai",
+      "n_gen_pl": "vainu",
+      "n_gen_sg": "vainas",
+      "n_inst_pl": "vainām",
+      "n_inst_sg": "vainu",
+      "n_loc_pl": "vainās",
+      "n_loc_sg": "vainā",
+      "n_nom_pl": "vainas",
+      "n_nom_sg": "vaina",
+      "n_voc_pl": "vainas",
+      "n_voc_sg": "vaina",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "vajadzēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vajadzēt",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_fut_ind": "vajadzēs",
+      "v_3_pl_prs_ind": "vajag",
+      "v_3_pl_pst_ind": "vajadzēja",
+      "v_3_sg_fut_ind": "vajadzēs",
+      "v_3_sg_prs_ind": "vajag",
+      "v_3_sg_pst_ind": "vajadzēja",
+      "v_cond_prs": "vajadzētu"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "vajadzīgs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vajadzīgs",
+    "inflections": {
+      "adj_acc_pl_fem": "vajadzīgu",
+      "adj_acc_pl_masc": "vajadzīgu",
+      "adj_acc_sg_fem": "vajadzīgas",
+      "adj_acc_sg_masc": "vajadzīga",
+      "adj_dat_pl_fem": "vajadzīgām",
+      "adj_dat_pl_masc": "vajadzīgiem",
+      "adj_dat_sg_fem": "vajadzīgu",
+      "adj_dat_sg_masc": "vajadzīgu",
+      "adj_gen_pl_fem": "vajadzīgām",
+      "adj_gen_pl_masc": "vajadzīgiem",
+      "adj_gen_sg_fem": "vajadzīgai",
+      "adj_gen_sg_masc": "vajadzīgam",
+      "adj_inst_pl_fem": "vajadzīgās",
+      "adj_inst_pl_masc": "vajadzīgos",
+      "adj_inst_sg_fem": "vajadzīgā",
+      "adj_inst_sg_masc": "vajadzīgā",
+      "adj_nom_pl_fem": "vajadzīgas",
+      "adj_nom_pl_masc": "vajadzīgus",
+      "adj_nom_sg_fem": "vajadzīgu",
+      "adj_nom_sg_masc": "vajadzīgu",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "valsts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "valsts",
+    "inflections": {
+      "n_acc_pl": "valstis",
+      "n_acc_sg": "valsti",
+      "n_dat_pl": "valstīm",
+      "n_dat_sg": "valstij",
+      "n_gen_pl": "valstu",
+      "n_gen_sg": "valsts",
+      "n_inst_pl": "valstīm",
+      "n_inst_sg": "valsti",
+      "n_loc_pl": "valstīs",
+      "n_loc_sg": "valstī",
+      "n_nom_pl": "valstis",
+      "n_nom_sg": "valsts",
+      "n_voc_pl": "valstis",
+      "n_voc_sg": "valsts",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "varēt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "varēt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "varam",
+      "v_1_sg_prs_ind": "varu",
+      "v_2_pl_prs_ind": "varat",
+      "v_2_sg_fut_ind": "varēsi",
+      "v_2_sg_imp": "vari",
+      "v_2_sg_prs_ind": "vari",
+      "v_3_pl_prs_ind": "var",
+      "v_3_pl_pst_ind": "varēja",
+      "v_3_sg_prs_ind": "var",
+      "v_3_sg_pst_ind": "varēja",
+      "v_cond_prs": "varētu",
+      "v_v_ptcp_prs_lgspec6": "varam"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "varš": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "varš",
+    "inflections": {
+      "n_acc_sg": "varu",
+      "n_dat_sg": "varam",
+      "n_inst_sg": "varu",
+      "n_voc_sg": "var",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "vaļa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaļa",
+    "inflections": {
+      "n_loc_sg": "vaļā",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "vecais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vecais",
+    "inflections": {
+      "adj_acc_pl_fem": "veco",
+      "adj_acc_pl_masc": "veco",
+      "adj_acc_sg_fem": "vecās",
+      "adj_acc_sg_masc": "vecā",
+      "adj_dat_pl_fem": "vecajām",
+      "adj_dat_pl_masc": "vecajiem",
+      "adj_dat_sg_fem": "veco",
+      "adj_dat_sg_masc": "veco",
+      "adj_gen_pl_fem": "vecajām",
+      "adj_gen_pl_masc": "vecajiem",
+      "adj_gen_sg_fem": "vecajai",
+      "adj_gen_sg_masc": "vecajam",
+      "adj_inst_pl_fem": "vecajās",
+      "adj_inst_pl_masc": "vecajos",
+      "adj_inst_sg_fem": "vecajā",
+      "adj_inst_sg_masc": "vecajā",
+      "adj_loc_pl_fem": "vecās",
+      "adj_loc_pl_masc": "vecie",
+      "adj_loc_sg_fem": "vecā",
+      "adj_loc_sg_masc": "vecais",
+      "adj_nom_pl_fem": "vecās",
+      "adj_nom_pl_masc": "vecos",
+      "adj_nom_sg_fem": "veco",
+      "adj_nom_sg_masc": "veco",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vecāki": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vecāki",
+    "inflections": {
+      "n_acc_pl": "vecākus",
+      "n_dat_pl": "vecākiem",
+      "n_gen_pl": "vecāku",
+      "n_inst_pl": "vecākiem",
+      "n_loc_pl": "vecākos",
+      "n_nom_pl": "vecāki",
+      "n_voc_pl": "vecāki",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "veids": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veids",
+    "inflections": {
+      "n_acc_pl": "veidus",
+      "n_acc_sg": "veidu",
+      "n_dat_pl": "veidiem",
+      "n_dat_sg": "veidam",
+      "n_gen_pl": "veidu",
+      "n_gen_sg": "veida",
+      "n_inst_pl": "veidiem",
+      "n_inst_sg": "veidu",
+      "n_loc_pl": "veidos",
+      "n_loc_sg": "veidā",
+      "n_nom_pl": "veidi",
+      "n_nom_sg": "veids",
+      "n_voc_pl": "veidi",
+      "n_voc_sg": "veid",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "velns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velns",
+    "inflections": {
+      "n_acc_pl": "velnus",
+      "n_acc_sg": "velnu",
+      "n_dat_pl": "velniem",
+      "n_dat_sg": "velnam",
+      "n_gen_pl": "velnu",
+      "n_gen_sg": "velna",
+      "n_inst_pl": "velniem",
+      "n_inst_sg": "velnu",
+      "n_loc_pl": "velnos",
+      "n_loc_sg": "velnā",
+      "n_nom_pl": "velni",
+      "n_nom_sg": "velns",
+      "n_voc_pl": "velni",
+      "n_voc_sg": "veln",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "velt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velt",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst_ind": "vēlu"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "velties": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velties",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst_ind": "vēlos",
+      "v_2_sg_pst_ind": "vēlies",
+      "v_v_ptcp_pst_act": "vēlies"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "vest": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vest",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "ved",
+      "v_2_sg_prs_ind": "ved",
+      "v_3_pl_prs_ind": "ved",
+      "v_3_sg_prs_ind": "ved"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "vienīgais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vienīgais",
+    "inflections": {
+      "adj_acc_pl_fem": "vienīgo",
+      "adj_acc_pl_masc": "vienīgo",
+      "adj_acc_sg_fem": "vienīgās",
+      "adj_acc_sg_masc": "vienīgā",
+      "adj_dat_pl_fem": "vienīgajām",
+      "adj_dat_pl_masc": "vienīgajiem",
+      "adj_dat_sg_fem": "vienīgo",
+      "adj_dat_sg_masc": "vienīgo",
+      "adj_gen_pl_fem": "vienīgajām",
+      "adj_gen_pl_masc": "vienīgajiem",
+      "adj_gen_sg_fem": "vienīgajai",
+      "adj_gen_sg_masc": "vienīgajam",
+      "adj_inst_pl_fem": "vienīgajās",
+      "adj_inst_pl_masc": "vienīgajos",
+      "adj_inst_sg_fem": "vienīgajā",
+      "adj_inst_sg_masc": "vienīgajā",
+      "adj_loc_pl_fem": "vienīgās",
+      "adj_loc_pl_masc": "vienīgie",
+      "adj_loc_sg_fem": "vienīgā",
+      "adj_loc_sg_masc": "vienīgais",
+      "adj_nom_pl_fem": "vienīgās",
+      "adj_nom_pl_masc": "vienīgos",
+      "adj_nom_sg_fem": "vienīgo",
+      "adj_nom_sg_masc": "vienīgo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vienīgs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vienīgs",
+    "inflections": {
+      "adj_inst_sg_fem": "vienīgā",
+      "adj_inst_sg_masc": "vienīgā",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vieta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vieta",
+    "inflections": {
+      "n_acc_pl": "vietas",
+      "n_acc_sg": "vietu",
+      "n_dat_pl": "vietām",
+      "n_dat_sg": "vietai",
+      "n_gen_pl": "vietu",
+      "n_gen_sg": "vietas",
+      "n_inst_pl": "vietām",
+      "n_inst_sg": "vietu",
+      "n_loc_pl": "vietās",
+      "n_loc_sg": "vietā",
+      "n_nom_pl": "vietas",
+      "n_nom_sg": "vieta",
+      "n_voc_pl": "vietas",
+      "n_voc_sg": "vieta",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "vēlais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vēlais",
+    "inflections": {
+      "adj_nom_pl_masc": "vēlos",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vēls": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vēls",
+    "inflections": {
+      "adj_acc_pl_fem": "vēlu",
+      "adj_acc_pl_masc": "vēlu",
+      "adj_acc_sg_fem": "vēlas",
+      "adj_dat_sg_fem": "vēlu",
+      "adj_dat_sg_masc": "vēlu",
+      "adj_inst_pl_masc": "vēlos",
+      "adj_nom_pl_fem": "vēlas",
+      "adj_nom_sg_fem": "vēlu",
+      "adj_nom_sg_masc": "vēlu",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vērt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vērt",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_pst_pass": "vērts"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "vīrietis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vīrietis",
+    "inflections": {
+      "n_acc_pl": "vīriešus",
+      "n_acc_sg": "vīrieti",
+      "n_dat_pl": "vīriešiem",
+      "n_dat_sg": "vīrietim",
+      "n_gen_pl": "vīriešu",
+      "n_gen_sg": "vīrieša",
+      "n_inst_pl": "vīriešiem",
+      "n_inst_sg": "vīrieti",
+      "n_loc_pl": "vīriešos",
+      "n_loc_sg": "vīrietī",
+      "n_nom_pl": "vīrieši",
+      "n_nom_sg": "vīrietis",
+      "n_voc_pl": "vīrieši",
+      "n_voc_sg": "vīrieti",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "vīrs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vīrs",
+    "inflections": {
+      "n_acc_pl": "vīrus",
+      "n_acc_sg": "vīru",
+      "n_dat_pl": "vīriem",
+      "n_dat_sg": "vīram",
+      "n_gen_pl": "vīru",
+      "n_gen_sg": "vīra",
+      "n_inst_pl": "vīriem",
+      "n_inst_sg": "vīru",
+      "n_loc_pl": "vīros",
+      "n_loc_sg": "vīrā",
+      "n_nom_pl": "vīri",
+      "n_nom_sg": "vīrs",
+      "n_voc_pl": "vīri",
+      "n_voc_sg": "vīr",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "zelts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zelts",
+    "inflections": {
+      "n_gen_sg": "zelta",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "zeme": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zeme",
+    "inflections": {
+      "n_acc_pl": "zemes",
+      "n_acc_sg": "zemi",
+      "n_gen_sg": "zemes",
+      "n_inst_sg": "zemi",
+      "n_loc_sg": "zemē",
+      "n_nom_pl": "zemes",
+      "n_voc_pl": "zemes",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "zvērs": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zvērs",
+    "inflections": {
+      "n_acc_sg": "zvēru",
+      "n_gen_pl": "zvēru",
+      "n_inst_sg": "zvēru",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "zāle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zāle",
+    "inflections": {
+      "n_acc_pl": "zāles",
+      "n_gen_sg": "zāles",
+      "n_nom_pl": "zāles",
+      "n_voc_pl": "zāles",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "zēns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zēns",
+    "inflections": {
+      "n_acc_pl": "zēnus",
+      "n_acc_sg": "zēnu",
+      "n_dat_pl": "zēniem",
+      "n_dat_sg": "zēnam",
+      "n_gen_pl": "zēnu",
+      "n_gen_sg": "zēna",
+      "n_inst_pl": "zēniem",
+      "n_inst_sg": "zēnu",
+      "n_loc_pl": "zēnos",
+      "n_loc_sg": "zēnā",
+      "n_nom_pl": "zēni",
+      "n_nom_sg": "zēns",
+      "n_voc_pl": "zēni",
+      "n_voc_sg": "zēn",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "zīt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zīt",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_pst_ind": "zinām",
+      "v_1_sg_pst_ind": "zinu",
+      "v_2_pl_pst_ind": "zināt",
+      "v_2_sg_pst_ind": "zini",
+      "v_3_pl_pst_ind": "zina",
+      "v_3_sg_pst_ind": "zina"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ģimene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ģimene",
+    "inflections": {
+      "n_acc_pl": "ģimenes",
+      "n_acc_sg": "ģimeni",
+      "n_dat_pl": "ģimenēm",
+      "n_dat_sg": "ģimenei",
+      "n_gen_pl": "ģimeņu",
+      "n_gen_sg": "ģimenes",
+      "n_inst_pl": "ģimenēm",
+      "n_inst_sg": "ģimeni",
+      "n_loc_pl": "ģimenēs",
+      "n_loc_sg": "ģimenē",
+      "n_nom_pl": "ģimenes",
+      "n_nom_sg": "ģimene",
+      "n_voc_pl": "ģimenes",
+      "n_voc_sg": "ģimene",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "īstais": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "īstais",
+    "inflections": {
+      "adj_acc_pl_fem": "īsto",
+      "adj_acc_pl_masc": "īsto",
+      "adj_acc_sg_fem": "īstās",
+      "adj_acc_sg_masc": "īstā",
+      "adj_dat_pl_fem": "īstajām",
+      "adj_dat_pl_masc": "īstajiem",
+      "adj_dat_sg_fem": "īsto",
+      "adj_dat_sg_masc": "īsto",
+      "adj_gen_pl_fem": "īstajām",
+      "adj_gen_pl_masc": "īstajiem",
+      "adj_gen_sg_fem": "īstajai",
+      "adj_gen_sg_masc": "īstajam",
+      "adj_inst_pl_fem": "īstajās",
+      "adj_inst_pl_masc": "īstajos",
+      "adj_inst_sg_fem": "īstajā",
+      "adj_inst_sg_masc": "īstajā",
+      "adj_loc_pl_fem": "īstās",
+      "adj_loc_pl_masc": "īstie",
+      "adj_loc_sg_fem": "īstā",
+      "adj_loc_sg_masc": "īstais",
+      "adj_nom_pl_fem": "īstās",
+      "adj_nom_pl_masc": "īstos",
+      "adj_nom_sg_fem": "īsto",
+      "adj_nom_sg_masc": "īsto",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "īsts": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "īsts",
+    "inflections": {
+      "adj_acc_pl_fem": "īstu",
+      "adj_acc_pl_masc": "īstu",
+      "adj_acc_sg_fem": "īstas",
+      "adj_acc_sg_masc": "īsta",
+      "adj_dat_pl_fem": "īstām",
+      "adj_dat_pl_masc": "īstiem",
+      "adj_dat_sg_fem": "īstu",
+      "adj_dat_sg_masc": "īstu",
+      "adj_gen_pl_fem": "īstām",
+      "adj_gen_pl_masc": "īstiem",
+      "adj_gen_sg_fem": "īstai",
+      "adj_gen_sg_masc": "īstam",
+      "adj_inst_pl_fem": "īstās",
+      "adj_inst_pl_masc": "īstos",
+      "adj_inst_sg_fem": "īstā",
+      "adj_inst_sg_masc": "īstā",
+      "adj_nom_pl_fem": "īstas",
+      "adj_nom_pl_masc": "īstus",
+      "adj_nom_sg_fem": "īstu",
+      "adj_nom_sg_masc": "īstu",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ļaudis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ļaudis",
+    "inflections": {
+      "n_acc_pl": "ļaudis",
+      "n_dat_pl": "ļaudīm",
+      "n_gen_pl": "ļaužu",
+      "n_inst_pl": "ļaudīm",
+      "n_loc_pl": "ļaudīs",
+      "n_nom_pl": "ļaudis",
+      "n_voc_pl": "ļaudis",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ļaut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ļaut",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "ļaujiet",
+      "v_2_sg_imp": "ļauj",
+      "v_2_sg_prs_ind": "ļauj",
+      "v_3_pl_prs_ind": "ļauj",
+      "v_3_sg_prs_ind": "ļauj"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ņemt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ņemt",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "ņem",
+      "v_2_sg_prs_ind": "ņem",
+      "v_3_pl_prs_ind": "ņem",
+      "v_3_sg_prs_ind": "ņem"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "šejiene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "šejiene",
+    "inflections": {
+      "n_gen_sg": "šejienes",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "šķist": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "šķist",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "šķiet",
+      "v_2_sg_prs_ind": "šķiet",
+      "v_3_pl_prs_ind": "šķiet",
+      "v_3_sg_prs_ind": "šķiet"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  }
+}

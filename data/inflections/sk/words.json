@@ -1,0 +1,531 @@
+{
+  "_locale": "sk",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "Mám jablko a hrušku."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "aby": {
+    "antonyms": [],
+    "base": "aby",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ak": {
+    "antonyms": [],
+    "base": "ak",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "bude": {
+    "antonyms": [],
+    "base": "bude",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "dobre": {
+    "antonyms": [],
+    "base": "dobre",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ho": {
+    "antonyms": [],
+    "base": "ho",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ich": {
+    "antonyms": [],
+    "base": "ich",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "je": {
+    "antonyms": [
+      "nie je"
+    ],
+    "base": "je",
+    "examples": [
+      "On je šťastný."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ju": {
+    "antonyms": [],
+    "base": "ju",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kde": {
+    "antonyms": [],
+    "base": "kde",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "keď": {
+    "antonyms": [],
+    "base": "keď",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "len": {
+    "antonyms": [],
+    "base": "len",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ma": {
+    "antonyms": [],
+    "base": "ma",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "mal": {
+    "antonyms": [],
+    "base": "mal",
+    "examples": [
+      "Mal som to urobiť."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "mňa": {
+    "antonyms": [],
+    "base": "mňa",
+    "examples": [
+      "Mňa to zaujíma."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "na": {
+    "antonyms": [],
+    "base": "na",
+    "examples": [
+      "Kniha je na stole."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "nie": {
+    "antonyms": [
+      "áno"
+    ],
+    "base": "nie",
+    "examples": [
+      "Nie je to pravda."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "particle"
+    ]
+  },
+  "nikdy": {
+    "antonyms": [],
+    "base": "nikdy",
+    "examples": [
+      "Nikdy som to nevidel."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nič": {
+    "antonyms": [],
+    "base": "nič",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "poriadku": {
+    "antonyms": [],
+    "base": "poriadku",
+    "examples": [
+      "Všetko je v poriadku."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "potom": {
+    "antonyms": [],
+    "base": "potom",
+    "examples": [
+      "Potom pôjdeme domov."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "prosím": {
+    "antonyms": [],
+    "base": "prosím",
+    "examples": [
+      "Prosím, pomôž mi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "interjection"
+    ]
+  },
+  "sa": {
+    "antonyms": [],
+    "base": "sa",
+    "examples": [
+      "On sa usmial."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "si": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [
+      "Ty si tu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "som": {
+    "antonyms": [
+      "nie som"
+    ],
+    "base": "som",
+    "examples": [
+      "Ja som tu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "takže": {
+    "antonyms": [],
+    "base": "takže",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ten": {
+    "antonyms": [],
+    "base": "ten",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ti": {
+    "antonyms": [],
+    "base": "ti",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "Idem to urobiť."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "particle"
+    ]
+  },
+  "tom": {
+    "antonyms": [],
+    "base": "tom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ty": {
+    "antonyms": [],
+    "base": "ty",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tým": {
+    "antonyms": [],
+    "base": "tým",
+    "examples": [
+      "Týmto spôsobom to urobíme."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "už": {
+    "antonyms": [],
+    "base": "už",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "veľmi": {
+    "antonyms": [],
+    "base": "veľmi",
+    "examples": [
+      "Som veľmi šťastný."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "viem": {
+    "antonyms": [],
+    "base": "viem",
+    "examples": [
+      "Viem, čo robíš."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "vieš": {
+    "antonyms": [],
+    "base": "vieš",
+    "examples": [
+      "Vieš, kde to je?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "vás": {
+    "antonyms": [],
+    "base": "vás",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "všetko": {
+    "antonyms": [],
+    "base": "všetko",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "čo": {
+    "antonyms": [],
+    "base": "čo",
+    "examples": [
+      "Čo robíš?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "že": {
+    "antonyms": [],
+    "base": "že",
+    "examples": [
+      "Hovorí, že príde."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  }
+}

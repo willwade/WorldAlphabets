@@ -1,0 +1,107 @@
+{
+  "_locale": "gaa",
+  "_type": "words",
+  "_version": "0.1",
+  "ha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ha",
+    "inflections": {
+      "regulars": [],
+      "v_hab_fut": "baaha"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "mi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mi",
+    "inflections": {
+      "regulars": [],
+      "v_hab_fut": "baami",
+      "v_hab_neg_fut": "miee",
+      "v_hab_neg_prs": "miko",
+      "v_hab_neg_pst": "miee",
+      "v_hab_prs": "mi",
+      "v_hab_pst": "mi",
+      "v_neg_prs": "miee",
+      "v_nfin": "mi",
+      "v_prs": "ŋmi"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "tsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tsi",
+    "inflections": {
+      "regulars": [],
+      "v_hab_fut": "baatsi",
+      "v_hab_neg_fut": "tsiee",
+      "v_hab_neg_prs": "tsiko",
+      "v_hab_neg_pst": "tsiee",
+      "v_hab_prs": "tsi",
+      "v_hab_pst": "tsi",
+      "v_neg_prs": "tsiee",
+      "v_nfin": "tsi",
+      "v_prs": "ŋtsi"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "wo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wo",
+    "inflections": {
+      "regulars": [],
+      "v_hab_fut": "baawo",
+      "v_hab_neg_fut": "woee",
+      "v_hab_neg_prs": "woko",
+      "v_hab_neg_pst": "woee",
+      "v_hab_prs": "wo",
+      "v_hab_pst": "wo",
+      "v_neg_prs": "woee",
+      "v_nfin": "wo",
+      "v_prs": "ŋwo"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ye": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ye",
+    "inflections": {
+      "regulars": [],
+      "v_hab_fut": "baaye",
+      "v_hab_neg_fut": "yeee",
+      "v_hab_neg_prs": "yeko",
+      "v_hab_neg_pst": "yeee",
+      "v_hab_prs": "ye",
+      "v_hab_pst": "ye",
+      "v_neg_prs": "yeee",
+      "v_nfin": "ye",
+      "v_prs": "ŋye"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

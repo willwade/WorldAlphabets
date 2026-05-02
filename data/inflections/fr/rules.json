@@ -1,0 +1,41 @@
+{
+  "_generated_rule_notes": [
+    {
+      "description": "Conjugate the verb être in present tense.",
+      "executable": true,
+      "inflection": "suis, es, sommes, êtes, sont",
+      "lookback": "est",
+      "name": "verb_conjugation",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected_output": "je suis",
+      "input": "je est"
+    },
+    {
+      "expected_output": "tu es",
+      "input": "tu est"
+    },
+    {
+      "expected_output": "nous sommes",
+      "input": "nous est"
+    },
+    {
+      "expected_output": "vous êtes",
+      "input": "vous est"
+    },
+    {
+      "expected_output": "ils sont",
+      "input": "ils est"
+    }
+  ],
+  "_locale": "fr",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

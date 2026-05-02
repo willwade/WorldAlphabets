@@ -1,0 +1,6031 @@
+{
+  "_locale": "cs",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "Jsem a ty jsi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "auto": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "auto",
+    "inflections": {
+      "n_acc_pl": "auta",
+      "n_acc_sg": "auto",
+      "n_dat_pl": "autům",
+      "n_dat_sg": "autu",
+      "n_ess_pl": "autech",
+      "n_ess_sg": "autu",
+      "n_gen_pl": "aut",
+      "n_gen_sg": "auta",
+      "n_ins_pl": "auty",
+      "n_ins_sg": "autem",
+      "n_nom_pl": "auta",
+      "n_nom_sg": "auto",
+      "n_voc_pl": "auta",
+      "n_voc_sg": "auto",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "bezpečí": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bezpečí",
+    "inflections": {
+      "n_acc_pl": "bezpečí",
+      "n_acc_sg": "bezpečí",
+      "n_dat_pl": "bezpečím",
+      "n_dat_sg": "bezpečí",
+      "n_ess_pl": "bezpečích",
+      "n_ess_sg": "bezpečí",
+      "n_gen_pl": "bezpečí",
+      "n_gen_sg": "bezpečí",
+      "n_ins_pl": "bezpečím",
+      "n_ins_sg": "bezpečím",
+      "n_nom_pl": "bezpečí",
+      "n_nom_sg": "bezpečí",
+      "n_voc_pl": "bezpečí",
+      "n_voc_sg": "bezpečí",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "bojovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bojovat",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "bojovaly bychom",
+      "v_cond_prs_1_pl_masc": "bojovali bychom",
+      "v_cond_prs_1_pl_masc_anim": "bojovali by",
+      "v_cond_prs_1_pl_masc_inan": "bojovaly by",
+      "v_cond_prs_1_pl_neut": "bojovala bychom",
+      "v_cond_prs_1_sg_fem": "bojovala bych",
+      "v_cond_prs_1_sg_masc": "bojoval bych",
+      "v_cond_prs_1_sg_neut": "bojovalo bych",
+      "v_cond_prs_2_pl_fem": "bojovaly byste",
+      "v_cond_prs_2_pl_masc": "bojovali byste",
+      "v_cond_prs_2_pl_neut": "bojovala byste",
+      "v_cond_prs_2_sg_fem": "bojovala bys",
+      "v_cond_prs_2_sg_form_fem": "bojovala byste",
+      "v_cond_prs_2_sg_form_masc": "bojoval byste",
+      "v_cond_prs_2_sg_form_neut": "bojovalo byste",
+      "v_cond_prs_2_sg_masc": "bojoval bys",
+      "v_cond_prs_2_sg_neut": "bojovalo bys",
+      "v_cond_prs_3_pl_fem": "bojovaly by",
+      "v_cond_prs_3_pl_neut": "bojovala by",
+      "v_cond_prs_3_sg_fem": "bojovala by",
+      "v_cond_prs_3_sg_masc": "bojoval by",
+      "v_cond_prs_3_sg_neut": "bojovalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom bojovaly",
+      "v_cond_pst_1_pl_masc": "byli bychom bojovali",
+      "v_cond_pst_1_pl_neut": "byla bychom bojovala",
+      "v_cond_pst_1_sg_fem": "byla bych bojovala",
+      "v_cond_pst_1_sg_masc": "byl bych bojoval",
+      "v_cond_pst_1_sg_neut": "bylo bych bojovalo",
+      "v_cond_pst_2_pl_fem": "byly byste bojovaly",
+      "v_cond_pst_2_pl_masc": "byli byste bojovali",
+      "v_cond_pst_2_pl_neut": "byla byste bojovala",
+      "v_cond_pst_2_sg_fem": "byla bys bojovala",
+      "v_cond_pst_2_sg_form_fem": "byla byste bojovala",
+      "v_cond_pst_2_sg_form_masc": "byl byste bojoval",
+      "v_cond_pst_2_sg_form_neut": "bylo byste bojovalo",
+      "v_cond_pst_2_sg_masc": "byl bys bojoval",
+      "v_cond_pst_2_sg_neut": "bylo bys bojovalo",
+      "v_cond_pst_3_pl_fem": "byly by bojovaly",
+      "v_cond_pst_3_pl_masc_anim": "byli by bojovali",
+      "v_cond_pst_3_pl_masc_inan": "byly by bojovaly",
+      "v_cond_pst_3_pl_neut": "byla by bojovala",
+      "v_cond_pst_3_sg_fem": "byla by bojovala",
+      "v_cond_pst_3_sg_masc": "byl by bojoval",
+      "v_cond_pst_3_sg_neut": "bylo by bojovalo",
+      "v_cvb": "bojování",
+      "v_cvb_prs_fem_sg": "bojujíc",
+      "v_cvb_prs_masc_sg": "bojujíce",
+      "v_cvb_prs_pl": "bojujíce",
+      "v_cvb_pst_fem_sg": "bojovavši",
+      "v_cvb_pst_masc_sg": "bojovav",
+      "v_cvb_pst_pl": "bojovavše",
+      "v_imp_1_pl": "bojujme",
+      "v_imp_2_pl": "bojujte",
+      "v_imp_2_sg": "bojuj",
+      "v_imp_2_sg_form": "bojujte",
+      "v_ind_fut_1_pl": "budeme bojovat",
+      "v_ind_fut_1_sg": "budu bojovat",
+      "v_ind_fut_2_pl": "budete bojovat",
+      "v_ind_fut_2_sg": "budeš bojovat",
+      "v_ind_fut_2_sg_form": "budete bojovat",
+      "v_ind_fut_3_pl": "budou bojovat",
+      "v_ind_fut_3_sg": "bude bojovat",
+      "v_ind_prs_1_pl": "bojujeme",
+      "v_ind_prs_1_sg": "bojuji",
+      "v_ind_prs_2_pl": "bojujete",
+      "v_ind_prs_2_sg": "bojuješ",
+      "v_ind_prs_2_sg_form": "bojujete",
+      "v_ind_prs_3_pl": "bojují",
+      "v_ind_prs_3_sg": "bojuje",
+      "v_ind_pst_1_pl_fem": "bojovaly jsme",
+      "v_ind_pst_1_pl_masc": "bojovali jsme",
+      "v_ind_pst_1_pl_neut": "bojovala jsme",
+      "v_ind_pst_1_sg_fem": "bojovala jsem",
+      "v_ind_pst_1_sg_masc": "bojoval jsem",
+      "v_ind_pst_1_sg_neut": "bojovalo jsem",
+      "v_ind_pst_2_pl_fem": "bojovaly jste",
+      "v_ind_pst_2_pl_masc": "bojovali jste",
+      "v_ind_pst_2_pl_neut": "bojovala jste",
+      "v_ind_pst_2_sg_fem": "bojovala jsi",
+      "v_ind_pst_2_sg_form_fem": "bojovala jste",
+      "v_ind_pst_2_sg_form_masc": "bojoval jste",
+      "v_ind_pst_2_sg_form_neut": "bojovalo jste",
+      "v_ind_pst_2_sg_masc": "bojoval jsi",
+      "v_ind_pst_2_sg_neut": "bojovalo jsi",
+      "v_ind_pst_3_pl_fem": "bojovaly",
+      "v_ind_pst_3_pl_masc_anim": "bojovali",
+      "v_ind_pst_3_pl_masc_inan": "bojovaly",
+      "v_ind_pst_3_pl_neut": "bojovala",
+      "v_ind_pst_3_sg_fem": "bojovala",
+      "v_ind_pst_3_sg_masc": "bojoval",
+      "v_ind_pst_3_sg_neut": "bojovalo",
+      "v_nfin": "bojovat",
+      "v_ptcp": "bojující",
+      "v_ptcp_act_prf_anim_masc_pl": "bojovali",
+      "v_ptcp_act_prf_fem_pl": "bojovaly",
+      "v_ptcp_act_prf_fem_sg": "bojovala",
+      "v_ptcp_act_prf_inan_masc_pl": "bojovaly",
+      "v_ptcp_act_prf_masc_sg": "bojoval",
+      "v_ptcp_act_prf_neut_pl": "bojovala",
+      "v_ptcp_act_prf_neut_sg": "bojovalo",
+      "v_ptcp_pass_anim_masc_pl": "bojováni",
+      "v_ptcp_pass_fem_pl": "bojovány",
+      "v_ptcp_pass_fem_sg": "bojována",
+      "v_ptcp_pass_inan_masc_pl": "bojovány",
+      "v_ptcp_pass_masc_sg": "bojován",
+      "v_ptcp_pass_neut_pl": "bojována",
+      "v_ptcp_pass_neut_sg": "bojováno"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bratr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bratr",
+    "inflections": {
+      "n_acc_pl": "bratry",
+      "n_acc_sg": "bratra",
+      "n_dat_pl": "bratrům",
+      "n_dat_sg": "bratrovi",
+      "n_ess_pl": "bratrech",
+      "n_ess_sg": "bratrovi",
+      "n_gen_pl": "bratrů",
+      "n_gen_sg": "bratra",
+      "n_ins_pl": "bratry",
+      "n_ins_sg": "bratrem",
+      "n_nom_pl": "bratři",
+      "n_nom_sg": "bratr",
+      "n_voc_pl": "bratři",
+      "n_voc_sg": "bratře",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "bude": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Zítra bude slunečno."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "by": {
+    "antonyms": [],
+    "base": "by",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "particle"
+    ]
+  },
+  "bych": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Kdybych měl čas."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "být": {
+    "_sources": [
+      "unimorph"
+    ],
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Musím být doma."
+    ],
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "byly bychom",
+      "v_cond_prs_1_pl_masc": "byli bychom",
+      "v_cond_prs_1_pl_masc_anim": "byli by",
+      "v_cond_prs_1_pl_masc_inan": "byly by",
+      "v_cond_prs_1_pl_neut": "byla bychom",
+      "v_cond_prs_1_sg_fem": "byla bych",
+      "v_cond_prs_1_sg_masc": "byl bych",
+      "v_cond_prs_1_sg_neut": "bylo bych",
+      "v_cond_prs_2_pl_fem": "byly byste",
+      "v_cond_prs_2_pl_masc": "byli byste",
+      "v_cond_prs_2_pl_neut": "byla byste",
+      "v_cond_prs_2_sg_fem": "byla bys",
+      "v_cond_prs_2_sg_form_fem": "byla byste",
+      "v_cond_prs_2_sg_form_masc": "byl byste",
+      "v_cond_prs_2_sg_form_neut": "bylo byste",
+      "v_cond_prs_2_sg_masc": "byl bys",
+      "v_cond_prs_2_sg_neut": "bylo bys",
+      "v_cond_prs_3_pl_fem": "byly by",
+      "v_cond_prs_3_pl_neut": "byla by",
+      "v_cond_prs_3_sg_fem": "byla by",
+      "v_cond_prs_3_sg_masc": "byl by",
+      "v_cond_prs_3_sg_neut": "bylo by",
+      "v_cond_pst_1_pl_fem": "byly bychom byly",
+      "v_cond_pst_1_pl_masc": "byli bychom byli",
+      "v_cond_pst_1_pl_neut": "byla bychom byla",
+      "v_cond_pst_1_sg_fem": "byla bych byla",
+      "v_cond_pst_1_sg_masc": "byl bych byl",
+      "v_cond_pst_1_sg_neut": "bylo bych bylo",
+      "v_cond_pst_2_pl_fem": "byly byste byly",
+      "v_cond_pst_2_pl_masc": "byli byste byli",
+      "v_cond_pst_2_pl_neut": "byla byste byla",
+      "v_cond_pst_2_sg_fem": "byla bys byla",
+      "v_cond_pst_2_sg_form_fem": "byla byste byla",
+      "v_cond_pst_2_sg_form_masc": "byl byste byl",
+      "v_cond_pst_2_sg_form_neut": "bylo byste bylo",
+      "v_cond_pst_2_sg_masc": "byl bys byl",
+      "v_cond_pst_2_sg_neut": "bylo bys bylo",
+      "v_cond_pst_3_pl_fem": "byly by byly",
+      "v_cond_pst_3_pl_masc_anim": "byli by byli",
+      "v_cond_pst_3_pl_masc_inan": "byly by byly",
+      "v_cond_pst_3_pl_neut": "byla by byla",
+      "v_cond_pst_3_sg_fem": "byla by byla",
+      "v_cond_pst_3_sg_masc": "byl by byl",
+      "v_cond_pst_3_sg_neut": "bylo by bylo",
+      "v_cvb": "bytí",
+      "v_cvb_prs_fem_sg": "jsouc",
+      "v_cvb_prs_masc_sg": "jsa",
+      "v_cvb_prs_pl": "jsouce",
+      "v_cvb_pst_fem_sg": "byvši",
+      "v_cvb_pst_masc_sg": "byv",
+      "v_cvb_pst_pl": "byvše",
+      "v_imp_1_pl": "buďme",
+      "v_imp_2_pl": "buďte",
+      "v_imp_2_sg": "buď",
+      "v_imp_2_sg_form": "buďte",
+      "v_ind_fut_1_pl": "budeme",
+      "v_ind_fut_1_sg": "budu",
+      "v_ind_fut_2_pl": "budete",
+      "v_ind_fut_2_sg": "budeš",
+      "v_ind_fut_2_sg_form": "budete",
+      "v_ind_fut_3_pl": "budou",
+      "v_ind_fut_3_sg": "bude",
+      "v_ind_prs_1_pl": "jsme",
+      "v_ind_prs_1_sg": "jsem",
+      "v_ind_prs_2_pl": "jste",
+      "v_ind_prs_2_sg": "jsi",
+      "v_ind_prs_2_sg_form": "jste",
+      "v_ind_prs_3_pl": "jsou",
+      "v_ind_prs_3_sg": "je",
+      "v_ind_pst_1_pl_fem": "byly jsme",
+      "v_ind_pst_1_pl_masc": "byli jsme",
+      "v_ind_pst_1_pl_neut": "byla jsme",
+      "v_ind_pst_1_sg_fem": "byla jsem",
+      "v_ind_pst_1_sg_masc": "byl jsem",
+      "v_ind_pst_1_sg_neut": "bylo jsem",
+      "v_ind_pst_2_pl_fem": "byly jste",
+      "v_ind_pst_2_pl_masc": "byli jste",
+      "v_ind_pst_2_pl_neut": "byla jste",
+      "v_ind_pst_2_sg_fem": "byla jsi",
+      "v_ind_pst_2_sg_form_fem": "byla jste",
+      "v_ind_pst_2_sg_form_masc": "byl jste",
+      "v_ind_pst_2_sg_form_neut": "bylo jste",
+      "v_ind_pst_2_sg_masc": "byl jsi",
+      "v_ind_pst_2_sg_neut": "bylo jsi",
+      "v_ind_pst_3_pl_fem": "byly",
+      "v_ind_pst_3_pl_masc_anim": "byli",
+      "v_ind_pst_3_pl_masc_inan": "byly",
+      "v_ind_pst_3_pl_neut": "byla",
+      "v_ind_pst_3_sg_fem": "byla",
+      "v_ind_pst_3_sg_masc": "byl",
+      "v_ind_pst_3_sg_neut": "bylo",
+      "v_nfin": "být",
+      "v_ptcp_act_prf_anim_masc_pl": "byli",
+      "v_ptcp_act_prf_fem_pl": "byly",
+      "v_ptcp_act_prf_fem_sg": "byla",
+      "v_ptcp_act_prf_inan_masc_pl": "byly",
+      "v_ptcp_act_prf_masc_sg": "byl",
+      "v_ptcp_act_prf_neut_pl": "byla",
+      "v_ptcp_act_prf_neut_sg": "bylo"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bůh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bůh",
+    "inflections": {
+      "n_acc_pl": "bohy",
+      "n_acc_sg": "boha",
+      "n_dat_pl": "bohům",
+      "n_dat_sg": "bohu",
+      "n_ess_pl": "bozích",
+      "n_ess_sg": "bohu",
+      "n_gen_pl": "bohů",
+      "n_gen_sg": "boha",
+      "n_ins_pl": "bohy",
+      "n_ins_sg": "bohem",
+      "n_nom_pl": "bozi",
+      "n_nom_sg": "bůh",
+      "n_voc_pl": "bozi",
+      "n_voc_sg": "bože",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "cena": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cena",
+    "inflections": {
+      "n_acc_sg": "cenu",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "cesta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cesta",
+    "inflections": {
+      "n_acc_pl": "cesty",
+      "n_acc_sg": "cestu",
+      "n_dat_pl": "cestám",
+      "n_dat_sg": "cestě",
+      "n_ess_pl": "cestách",
+      "n_ess_sg": "cestě",
+      "n_gen_pl": "cest",
+      "n_gen_sg": "cesty",
+      "n_ins_pl": "cestami",
+      "n_ins_sg": "cestou",
+      "n_nom_pl": "cesty",
+      "n_nom_sg": "cesta",
+      "n_voc_pl": "cesty",
+      "n_voc_sg": "cesto",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "chlap": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chlap",
+    "inflections": {
+      "n_acc_pl": "chlapy",
+      "n_acc_sg": "chlapa",
+      "n_dat_pl": "chlapům",
+      "n_dat_sg": "chlapovi",
+      "n_ess_pl": "chlapech",
+      "n_ess_sg": "chlapovi",
+      "n_gen_pl": "chlapů",
+      "n_gen_sg": "chlapa",
+      "n_ins_pl": "chlapy",
+      "n_ins_sg": "chlapem",
+      "n_nom_pl": "chlapi",
+      "n_nom_sg": "chlap",
+      "n_voc_pl": "chlapi",
+      "n_voc_sg": "chlape",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "chodit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chodit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_pl": "chodíme",
+      "v_ind_prs_1_sg": "chodím",
+      "v_ind_prs_2_pl": "chodíte",
+      "v_ind_prs_2_sg": "chodíš",
+      "v_ind_prs_3_pl": "chodí",
+      "v_ind_prs_3_sg": "chodí",
+      "v_ind_pst_1_pl_fem": "chodili jsme",
+      "v_ind_pst_1_pl_masc": "chodili jsme",
+      "v_ind_pst_1_pl_neut": "chodili jsme",
+      "v_ind_pst_1_sg_fem": "chodil jsem",
+      "v_ind_pst_1_sg_masc": "chodil jsem",
+      "v_ind_pst_1_sg_neut": "chodil jsem",
+      "v_ind_pst_2_pl_fem": "chodili jste",
+      "v_ind_pst_2_pl_masc": "chodili jste",
+      "v_ind_pst_2_pl_neut": "chodili jste",
+      "v_ind_pst_2_sg_fem": "chodil jsi",
+      "v_ind_pst_2_sg_masc": "chodil jsi",
+      "v_ind_pst_2_sg_neut": "chodil jsi",
+      "v_ind_pst_3_pl_fem": "chodili",
+      "v_ind_pst_3_pl_masc": "chodili",
+      "v_ind_pst_3_pl_neut": "chodili",
+      "v_ind_pst_3_sg_fem": "chodil",
+      "v_ind_pst_3_sg_masc": "chodil",
+      "v_ind_pst_3_sg_neut": "chodil"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "chtít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chtít",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "chtěly bychom",
+      "v_cond_prs_1_pl_masc": "chtěli bychom",
+      "v_cond_prs_1_pl_masc_anim": "chtěli by",
+      "v_cond_prs_1_pl_masc_inan": "chtěly by",
+      "v_cond_prs_1_pl_neut": "chtěla bychom",
+      "v_cond_prs_1_sg_fem": "chtěla bych",
+      "v_cond_prs_1_sg_masc": "chtěl bych",
+      "v_cond_prs_1_sg_neut": "chtělo bych",
+      "v_cond_prs_2_pl_fem": "chtěly byste",
+      "v_cond_prs_2_pl_masc": "chtěli byste",
+      "v_cond_prs_2_pl_neut": "chtěla byste",
+      "v_cond_prs_2_sg_fem": "chtěla bys",
+      "v_cond_prs_2_sg_form_fem": "chtěla byste",
+      "v_cond_prs_2_sg_form_masc": "chtěl byste",
+      "v_cond_prs_2_sg_form_neut": "chtělo byste",
+      "v_cond_prs_2_sg_masc": "chtěl bys",
+      "v_cond_prs_2_sg_neut": "chtělo bys",
+      "v_cond_prs_3_pl_fem": "chtěly by",
+      "v_cond_prs_3_pl_neut": "chtěla by",
+      "v_cond_prs_3_sg_fem": "chtěla by",
+      "v_cond_prs_3_sg_masc": "chtěl by",
+      "v_cond_prs_3_sg_neut": "chtělo by",
+      "v_cond_pst_1_pl_fem": "byly bychom chtěly",
+      "v_cond_pst_1_pl_masc": "byli bychom chtěli",
+      "v_cond_pst_1_pl_neut": "byla bychom chtěla",
+      "v_cond_pst_1_sg_fem": "byla bych chtěla",
+      "v_cond_pst_1_sg_masc": "byl bych chtěl",
+      "v_cond_pst_1_sg_neut": "bylo bych chtělo",
+      "v_cond_pst_2_pl_fem": "byly byste chtěly",
+      "v_cond_pst_2_pl_masc": "byli byste chtěli",
+      "v_cond_pst_2_pl_neut": "byla byste chtěla",
+      "v_cond_pst_2_sg_fem": "byla bys chtěla",
+      "v_cond_pst_2_sg_form_fem": "byla byste chtěla",
+      "v_cond_pst_2_sg_form_masc": "byl byste chtěl",
+      "v_cond_pst_2_sg_form_neut": "bylo byste chtělo",
+      "v_cond_pst_2_sg_masc": "byl bys chtěl",
+      "v_cond_pst_2_sg_neut": "bylo bys chtělo",
+      "v_cond_pst_3_pl_fem": "byly by chtěly",
+      "v_cond_pst_3_pl_masc_anim": "byli by chtěli",
+      "v_cond_pst_3_pl_masc_inan": "byly by chtěly",
+      "v_cond_pst_3_pl_neut": "byla by chtěla",
+      "v_cond_pst_3_sg_fem": "byla by chtěla",
+      "v_cond_pst_3_sg_masc": "byl by chtěl",
+      "v_cond_pst_3_sg_neut": "bylo by chtělo",
+      "v_cvb": "chtění",
+      "v_cvb_prs_fem_sg": "chtějíc",
+      "v_cvb_prs_masc_sg": "chtěje",
+      "v_cvb_prs_pl": "chtějíce",
+      "v_cvb_pst_fem_sg": "chtěvši",
+      "v_cvb_pst_masc_sg": "chtěv",
+      "v_cvb_pst_pl": "chtěvše",
+      "v_imp_1_pl": "chtějme",
+      "v_imp_2_pl": "chtějte",
+      "v_imp_2_sg": "chtěj",
+      "v_imp_2_sg_form": "chtějte",
+      "v_ind_fut_1_pl": "budeme chtít",
+      "v_ind_fut_1_sg": "budu chtít",
+      "v_ind_fut_2_pl": "budete chtít",
+      "v_ind_fut_2_sg": "budeš chtít",
+      "v_ind_fut_2_sg_form": "budete chtít",
+      "v_ind_fut_3_pl": "budou chtít",
+      "v_ind_fut_3_sg": "bude chtít",
+      "v_ind_prs_1_pl": "chceme",
+      "v_ind_prs_1_sg": "chci",
+      "v_ind_prs_2_pl": "chcete",
+      "v_ind_prs_2_sg": "chceš",
+      "v_ind_prs_2_sg_form": "chcete",
+      "v_ind_prs_3_pl": "chtějí",
+      "v_ind_prs_3_sg": "chce",
+      "v_ind_pst_1_pl_fem": "chtěly jsme",
+      "v_ind_pst_1_pl_masc": "chtěli jsme",
+      "v_ind_pst_1_pl_neut": "chtěla jsme",
+      "v_ind_pst_1_sg_fem": "chtěla jsem",
+      "v_ind_pst_1_sg_masc": "chtěl jsem",
+      "v_ind_pst_1_sg_neut": "chtělo jsem",
+      "v_ind_pst_2_pl_fem": "chtěly jste",
+      "v_ind_pst_2_pl_masc": "chtěli jste",
+      "v_ind_pst_2_pl_neut": "chtěla jste",
+      "v_ind_pst_2_sg_fem": "chtěla jsi",
+      "v_ind_pst_2_sg_form_fem": "chtěla jste",
+      "v_ind_pst_2_sg_form_masc": "chtěl jste",
+      "v_ind_pst_2_sg_form_neut": "chtělo jste",
+      "v_ind_pst_2_sg_masc": "chtěl jsi",
+      "v_ind_pst_2_sg_neut": "chtělo jsi",
+      "v_ind_pst_3_pl_fem": "chtěly",
+      "v_ind_pst_3_pl_masc_anim": "chtěli",
+      "v_ind_pst_3_pl_masc_inan": "chtěly",
+      "v_ind_pst_3_pl_neut": "chtěla",
+      "v_ind_pst_3_sg_fem": "chtěla",
+      "v_ind_pst_3_sg_masc": "chtěl",
+      "v_ind_pst_3_sg_neut": "chtělo",
+      "v_nfin": "chtít",
+      "v_ptcp": "chtějící",
+      "v_ptcp_act_prf_anim_masc_pl": "chtěli",
+      "v_ptcp_act_prf_fem_pl": "chtěly",
+      "v_ptcp_act_prf_fem_sg": "chtěla",
+      "v_ptcp_act_prf_inan_masc_pl": "chtěly",
+      "v_ptcp_act_prf_masc_sg": "chtěl",
+      "v_ptcp_act_prf_neut_pl": "chtěla",
+      "v_ptcp_act_prf_neut_sg": "chtělo",
+      "v_ptcp_pass_anim_masc_pl": "chtěni",
+      "v_ptcp_pass_fem_pl": "chtěny",
+      "v_ptcp_pass_fem_sg": "chtěna",
+      "v_ptcp_pass_inan_masc_pl": "chtěny",
+      "v_ptcp_pass_masc_sg": "chtěn",
+      "v_ptcp_pass_neut_pl": "chtěna",
+      "v_ptcp_pass_neut_sg": "chtěno"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "chvíle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chvíle",
+    "inflections": {
+      "n_acc_sg": "chvíli",
+      "n_dat_sg": "chvíli",
+      "n_ess_sg": "chvíli",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "chyba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chyba",
+    "inflections": {
+      "n_acc_pl": "chyby",
+      "n_acc_sg": "chybu",
+      "n_dat_pl": "chybám",
+      "n_dat_sg": "chybě",
+      "n_ess_pl": "chybách",
+      "n_ess_sg": "chybě",
+      "n_gen_pl": "chyb",
+      "n_gen_sg": "chyby",
+      "n_ins_pl": "chybami",
+      "n_ins_sg": "chybou",
+      "n_nom_pl": "chyby",
+      "n_nom_sg": "chyba",
+      "n_voc_pl": "chyby",
+      "n_voc_sg": "chybo",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "co": {
+    "antonyms": [],
+    "base": "co",
+    "examples": [
+      "Co děláš?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "cítit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cítit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "cítím"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "dcera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dcera",
+    "inflections": {
+      "n_acc_pl": "dcery",
+      "n_acc_sg": "dceru",
+      "n_dat_pl": "dcerám",
+      "n_dat_sg": "dceři",
+      "n_ess_pl": "dcerách",
+      "n_ess_sg": "dceři",
+      "n_gen_pl": "dcer",
+      "n_gen_sg": "dcery",
+      "n_ins_pl": "dcerami",
+      "n_ins_sg": "dcerou",
+      "n_nom_pl": "dcery",
+      "n_nom_sg": "dcera",
+      "n_voc_pl": "dcery",
+      "n_voc_sg": "dcero",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "dno": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dno",
+    "inflections": {
+      "n_gen_pl": "den",
+      "n_ins_pl": "dny",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "doba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doba",
+    "inflections": {
+      "n_acc_pl": "doby",
+      "n_acc_sg": "dobu",
+      "n_dat_sg": "době",
+      "n_ess_sg": "době",
+      "n_gen_sg": "doby",
+      "n_nom_pl": "doby",
+      "n_voc_pl": "doby",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dobrý": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dobrý",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "dobrého",
+      "adj_acc_fem_pl": "dobré",
+      "adj_acc_fem_sg": "dobrou",
+      "adj_acc_inan_masc_sg": "dobrý",
+      "adj_acc_masc_pl": "dobré",
+      "adj_acc_neut_pl": "dobrá",
+      "adj_acc_neut_sg": "dobré",
+      "adj_dat_fem_sg": "dobré",
+      "adj_dat_masc_sg": "dobrému",
+      "adj_dat_neut_sg": "dobrému",
+      "adj_dat_pl": "dobrým",
+      "adj_ess_fem_sg": "dobré",
+      "adj_ess_masc_sg": "dobrém",
+      "adj_ess_neut_sg": "dobrým",
+      "adj_ess_pl": "dobrých",
+      "adj_gen_fem_sg": "dobré",
+      "adj_gen_masc_sg": "dobrého",
+      "adj_gen_neut_sg": "dobrého",
+      "adj_gen_pl": "dobrých",
+      "adj_ins_masc_sg": "dobrým",
+      "adj_ins_pl": "dobrými",
+      "adj_nom_anim_masc_pl": "dobří",
+      "adj_nom_fem_pl": "dobré",
+      "adj_nom_fem_sg": "dobrá",
+      "adj_nom_masc_pl": "dobré",
+      "adj_nom_masc_sg": "dobrý",
+      "adj_nom_neut_pl": "dobrá",
+      "adj_nom_neut_sg": "dobré",
+      "adj_voc_anim_masc_pl": "dobří",
+      "adj_voc_fem_pl": "dobré",
+      "adj_voc_fem_sg": "dobrá",
+      "adj_voc_masc_pl": "dobré",
+      "adj_voc_masc_sg": "dobrý",
+      "adj_voc_neut_pl": "dobrá",
+      "adj_voc_neut_sg": "dobré",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "doktor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doktor",
+    "inflections": {
+      "n_acc_pl": "doktory",
+      "n_acc_sg": "doktora",
+      "n_dat_pl": "doktorům",
+      "n_dat_sg": "doktorovi",
+      "n_ess_pl": "doktorech",
+      "n_ess_sg": "doktorovi",
+      "n_gen_pl": "doktorů",
+      "n_gen_sg": "doktora",
+      "n_ins_pl": "doktory",
+      "n_ins_sg": "doktorem",
+      "n_nom_pl": "doktoři",
+      "n_nom_sg": "doktor",
+      "n_voc_pl": "doktoři",
+      "n_voc_sg": "doktoře",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "dolar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dolar",
+    "inflections": {
+      "n_gen_pl": "dolarů",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dostat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dostat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_2_pl": "dostaneme",
+      "v_ind_fut_2_sg": "dostanu",
+      "v_ind_fut_3_pl": "dostanete",
+      "v_ind_fut_3_sg": "dostaneš",
+      "v_ind_pst_2_pl_fem": "dostali",
+      "v_ind_pst_2_pl_masc": "dostali",
+      "v_ind_pst_2_pl_neut": "dostali",
+      "v_ind_pst_2_sg_fem": "dostal",
+      "v_ind_pst_2_sg_masc": "dostal",
+      "v_ind_pst_2_sg_neut": "dostal",
+      "v_ind_pst_3_pl_fem": "dostali",
+      "v_ind_pst_3_pl_masc": "dostali",
+      "v_ind_pst_3_pl_neut": "dostali",
+      "v_ind_pst_3_sg_fem": "dostal",
+      "v_ind_pst_3_sg_masc": "dostal",
+      "v_ind_pst_3_sg_neut": "dostal"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "doufat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doufat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "doufám"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "druhý": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "druhý",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "druhého",
+      "adj_acc_fem_pl": "druhé",
+      "adj_acc_fem_sg": "druhou",
+      "adj_acc_inan_masc_sg": "druhý",
+      "adj_acc_masc_pl": "druhé",
+      "adj_acc_neut_pl": "druhá",
+      "adj_acc_neut_sg": "druhé",
+      "adj_dat_fem_sg": "druhé",
+      "adj_dat_masc_sg": "druhému",
+      "adj_dat_neut_sg": "druhému",
+      "adj_dat_pl": "druhým",
+      "adj_ess_fem_sg": "druhé",
+      "adj_ess_masc_sg": "druhém",
+      "adj_ess_neut_sg": "druhým",
+      "adj_ess_pl": "druhých",
+      "adj_gen_fem_sg": "druhé",
+      "adj_gen_masc_sg": "druhého",
+      "adj_gen_neut_sg": "druhého",
+      "adj_gen_pl": "druhých",
+      "adj_ins_masc_sg": "druhým",
+      "adj_ins_pl": "druhými",
+      "adj_nom_anim_masc_pl": "druzí",
+      "adj_nom_fem_pl": "druhé",
+      "adj_nom_fem_sg": "druhá",
+      "adj_nom_masc_pl": "druhé",
+      "adj_nom_masc_sg": "druhý",
+      "adj_nom_neut_pl": "druhá",
+      "adj_nom_neut_sg": "druhé",
+      "adj_voc_anim_masc_pl": "druzí",
+      "adj_voc_fem_pl": "druhé",
+      "adj_voc_fem_sg": "druhá",
+      "adj_voc_masc_pl": "druhé",
+      "adj_voc_masc_sg": "druhý",
+      "adj_voc_neut_pl": "druhá",
+      "adj_voc_neut_sg": "druhé",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dáma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dáma",
+    "inflections": {
+      "n_acc_pl": "dámy",
+      "n_gen_pl": "dám",
+      "n_gen_sg": "dámy",
+      "n_nom_pl": "dámy",
+      "n_voc_pl": "dámy",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dát": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dát",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "daly bychom",
+      "v_cond_prs_1_pl_masc": "dali bychom",
+      "v_cond_prs_1_pl_masc_anim": "dali by",
+      "v_cond_prs_1_pl_masc_inan": "daly by",
+      "v_cond_prs_1_pl_neut": "dala bychom",
+      "v_cond_prs_1_sg_fem": "dala bych",
+      "v_cond_prs_1_sg_masc": "dal bych",
+      "v_cond_prs_1_sg_neut": "dalo bych",
+      "v_cond_prs_2_pl_fem": "daly byste",
+      "v_cond_prs_2_pl_masc": "dali byste",
+      "v_cond_prs_2_pl_neut": "dala byste",
+      "v_cond_prs_2_sg_fem": "dala bys",
+      "v_cond_prs_2_sg_form_fem": "dala byste",
+      "v_cond_prs_2_sg_form_masc": "dal byste",
+      "v_cond_prs_2_sg_form_neut": "dalo byste",
+      "v_cond_prs_2_sg_masc": "dal bys",
+      "v_cond_prs_2_sg_neut": "dalo bys",
+      "v_cond_prs_3_pl_fem": "daly by",
+      "v_cond_prs_3_pl_neut": "dala by",
+      "v_cond_prs_3_sg_fem": "dala by",
+      "v_cond_prs_3_sg_masc": "dal by",
+      "v_cond_prs_3_sg_neut": "dalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom daly",
+      "v_cond_pst_1_pl_masc": "byli bychom dali",
+      "v_cond_pst_1_pl_neut": "byla bychom dala",
+      "v_cond_pst_1_sg_fem": "byla bych dala",
+      "v_cond_pst_1_sg_masc": "byl bych dal",
+      "v_cond_pst_1_sg_neut": "bylo bych dalo",
+      "v_cond_pst_2_pl_fem": "byly byste daly",
+      "v_cond_pst_2_pl_masc": "byli byste dali",
+      "v_cond_pst_2_pl_neut": "byla byste dala",
+      "v_cond_pst_2_sg_fem": "byla bys dala",
+      "v_cond_pst_2_sg_form_fem": "byla byste dala",
+      "v_cond_pst_2_sg_form_masc": "byl byste dal",
+      "v_cond_pst_2_sg_form_neut": "bylo byste dalo",
+      "v_cond_pst_2_sg_masc": "byl bys dal",
+      "v_cond_pst_2_sg_neut": "bylo bys dalo",
+      "v_cond_pst_3_pl_fem": "byly by daly",
+      "v_cond_pst_3_pl_masc_anim": "byli by dali",
+      "v_cond_pst_3_pl_masc_inan": "byly by daly",
+      "v_cond_pst_3_pl_neut": "byla by dala",
+      "v_cond_pst_3_sg_fem": "byla by dala",
+      "v_cond_pst_3_sg_masc": "byl by dal",
+      "v_cond_pst_3_sg_neut": "bylo by dalo",
+      "v_cvb": "dání",
+      "v_cvb_prs_fem_sg": "dajíc",
+      "v_cvb_prs_masc_sg": "daje",
+      "v_cvb_prs_pl": "dajíce",
+      "v_cvb_pst_fem_sg": "davši",
+      "v_cvb_pst_masc_sg": "dav",
+      "v_cvb_pst_pl": "davše",
+      "v_imp_1_pl": "dejme",
+      "v_imp_2_pl": "dejte",
+      "v_imp_2_sg": "dej",
+      "v_imp_2_sg_form": "dejte",
+      "v_ind_fut_1_pl": "dáme",
+      "v_ind_fut_1_sg": "dám",
+      "v_ind_fut_2_pl": "dáte",
+      "v_ind_fut_2_sg": "dáš",
+      "v_ind_fut_2_sg_form": "dáte",
+      "v_ind_fut_3_pl": "dají",
+      "v_ind_fut_3_sg": "dá",
+      "v_ind_pst_1_pl_fem": "daly jsme",
+      "v_ind_pst_1_pl_masc": "dali jsme",
+      "v_ind_pst_1_pl_neut": "dala jsme",
+      "v_ind_pst_1_sg_fem": "dala jsem",
+      "v_ind_pst_1_sg_masc": "dal jsem",
+      "v_ind_pst_1_sg_neut": "dalo jsem",
+      "v_ind_pst_2_pl_fem": "daly jste",
+      "v_ind_pst_2_pl_masc": "dali jste",
+      "v_ind_pst_2_pl_neut": "dala jste",
+      "v_ind_pst_2_sg_fem": "dala jsi",
+      "v_ind_pst_2_sg_form_fem": "dala jste",
+      "v_ind_pst_2_sg_form_masc": "dal jste",
+      "v_ind_pst_2_sg_form_neut": "dalo jste",
+      "v_ind_pst_2_sg_masc": "dal jsi",
+      "v_ind_pst_2_sg_neut": "dalo jsi",
+      "v_ind_pst_3_pl_fem": "daly",
+      "v_ind_pst_3_pl_masc_anim": "dali",
+      "v_ind_pst_3_pl_masc_inan": "daly",
+      "v_ind_pst_3_pl_neut": "dala",
+      "v_ind_pst_3_sg_fem": "dala",
+      "v_ind_pst_3_sg_masc": "dal",
+      "v_ind_pst_3_sg_neut": "dalo",
+      "v_nfin": "dát",
+      "v_ptcp": "dající",
+      "v_ptcp_act_prf_anim_masc_pl": "dali",
+      "v_ptcp_act_prf_fem_pl": "daly",
+      "v_ptcp_act_prf_fem_sg": "dala",
+      "v_ptcp_act_prf_inan_masc_pl": "daly",
+      "v_ptcp_act_prf_masc_sg": "dal",
+      "v_ptcp_act_prf_neut_pl": "dala",
+      "v_ptcp_act_prf_neut_sg": "dalo",
+      "v_ptcp_pass_anim_masc_pl": "dáni",
+      "v_ptcp_pass_fem_pl": "dány",
+      "v_ptcp_pass_fem_sg": "dána",
+      "v_ptcp_pass_inan_masc_pl": "dány",
+      "v_ptcp_pass_masc_sg": "dán",
+      "v_ptcp_pass_neut_pl": "dána",
+      "v_ptcp_pass_neut_sg": "dáno"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "dítě": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dítě",
+    "inflections": {
+      "n_acc_pl": "děti",
+      "n_acc_sg": "dítě",
+      "n_dat_pl": "dětem",
+      "n_dat_sg": "dítěti",
+      "n_ess_pl": "dětech",
+      "n_ess_sg": "dítěti",
+      "n_gen_pl": "dětí",
+      "n_gen_sg": "dítěte",
+      "n_ins_pl": "dětmi",
+      "n_ins_sg": "dítětem",
+      "n_nom_pl": "děti",
+      "n_nom_sg": "dítě",
+      "n_voc_pl": "děti",
+      "n_voc_sg": "dítě",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "děj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "děj",
+    "inflections": {
+      "n_acc_pl": "děje",
+      "n_gen_sg": "děje",
+      "n_nom_pl": "děje",
+      "n_voc_pl": "děje",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "děkovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "děkovat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "děkuji"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "dělat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dělat",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "dělaly bychom",
+      "v_cond_prs_1_pl_masc": "dělali bychom",
+      "v_cond_prs_1_pl_masc_anim": "dělali by",
+      "v_cond_prs_1_pl_masc_inan": "dělaly by",
+      "v_cond_prs_1_pl_neut": "dělala bychom",
+      "v_cond_prs_1_sg_fem": "dělala bych",
+      "v_cond_prs_1_sg_masc": "dělal bych",
+      "v_cond_prs_1_sg_neut": "dělalo bych",
+      "v_cond_prs_2_pl_fem": "dělaly byste",
+      "v_cond_prs_2_pl_masc": "dělali byste",
+      "v_cond_prs_2_pl_neut": "dělala byste",
+      "v_cond_prs_2_sg_fem": "dělala bys",
+      "v_cond_prs_2_sg_form_fem": "dělala byste",
+      "v_cond_prs_2_sg_form_masc": "dělal byste",
+      "v_cond_prs_2_sg_form_neut": "dělalo byste",
+      "v_cond_prs_2_sg_masc": "dělal bys",
+      "v_cond_prs_2_sg_neut": "dělalo bys",
+      "v_cond_prs_3_pl_fem": "dělaly by",
+      "v_cond_prs_3_pl_neut": "dělala by",
+      "v_cond_prs_3_sg_fem": "dělala by",
+      "v_cond_prs_3_sg_masc": "dělal by",
+      "v_cond_prs_3_sg_neut": "dělalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom dělaly",
+      "v_cond_pst_1_pl_masc": "byli bychom dělali",
+      "v_cond_pst_1_pl_neut": "byla bychom dělala",
+      "v_cond_pst_1_sg_fem": "byla bych dělala",
+      "v_cond_pst_1_sg_masc": "byl bych dělal",
+      "v_cond_pst_1_sg_neut": "bylo bych dělalo",
+      "v_cond_pst_2_pl_fem": "byly byste dělaly",
+      "v_cond_pst_2_pl_masc": "byli byste dělali",
+      "v_cond_pst_2_pl_neut": "byla byste dělala",
+      "v_cond_pst_2_sg_fem": "byla bys dělala",
+      "v_cond_pst_2_sg_form_fem": "byla byste dělala",
+      "v_cond_pst_2_sg_form_masc": "byl byste dělal",
+      "v_cond_pst_2_sg_form_neut": "bylo byste dělalo",
+      "v_cond_pst_2_sg_masc": "byl bys dělal",
+      "v_cond_pst_2_sg_neut": "bylo bys dělalo",
+      "v_cond_pst_3_pl_fem": "byly by dělaly",
+      "v_cond_pst_3_pl_masc_anim": "byli by dělali",
+      "v_cond_pst_3_pl_masc_inan": "byly by dělaly",
+      "v_cond_pst_3_pl_neut": "byla by dělala",
+      "v_cond_pst_3_sg_fem": "byla by dělala",
+      "v_cond_pst_3_sg_masc": "byl by dělal",
+      "v_cond_pst_3_sg_neut": "bylo by dělalo",
+      "v_cvb": "dělání",
+      "v_cvb_prs_fem_sg": "dělajíc",
+      "v_cvb_prs_masc_sg": "dělaje",
+      "v_cvb_prs_pl": "dělajíce",
+      "v_cvb_pst_fem_sg": "dělavši",
+      "v_cvb_pst_masc_sg": "dělav",
+      "v_cvb_pst_pl": "dělavše",
+      "v_imp_1_pl": "dělejme",
+      "v_imp_2_pl": "dělejte",
+      "v_imp_2_sg": "dělej",
+      "v_imp_2_sg_form": "dělejte",
+      "v_ind_fut_1_pl": "budeme dělat",
+      "v_ind_fut_1_sg": "budu dělat",
+      "v_ind_fut_2_pl": "budete dělat",
+      "v_ind_fut_2_sg": "budeš dělat",
+      "v_ind_fut_2_sg_form": "budete dělat",
+      "v_ind_fut_3_pl": "budou dělat",
+      "v_ind_fut_3_sg": "bude dělat",
+      "v_ind_prs_1_pl": "děláme",
+      "v_ind_prs_1_sg": "dělám",
+      "v_ind_prs_2_pl": "děláte",
+      "v_ind_prs_2_sg": "děláš",
+      "v_ind_prs_2_sg_form": "děláte",
+      "v_ind_prs_3_pl": "dělají",
+      "v_ind_prs_3_sg": "dělá",
+      "v_ind_pst_1_pl_fem": "dělaly jsme",
+      "v_ind_pst_1_pl_masc": "dělali jsme",
+      "v_ind_pst_1_pl_neut": "dělala jsme",
+      "v_ind_pst_1_sg_fem": "dělala jsem",
+      "v_ind_pst_1_sg_masc": "dělal jsem",
+      "v_ind_pst_1_sg_neut": "dělalo jsem",
+      "v_ind_pst_2_pl_fem": "dělaly jste",
+      "v_ind_pst_2_pl_masc": "dělali jste",
+      "v_ind_pst_2_pl_neut": "dělala jste",
+      "v_ind_pst_2_sg_fem": "dělala jsi",
+      "v_ind_pst_2_sg_form_fem": "dělala jste",
+      "v_ind_pst_2_sg_form_masc": "dělal jste",
+      "v_ind_pst_2_sg_form_neut": "dělalo jste",
+      "v_ind_pst_2_sg_masc": "dělal jsi",
+      "v_ind_pst_2_sg_neut": "dělalo jsi",
+      "v_ind_pst_3_pl_fem": "dělaly",
+      "v_ind_pst_3_pl_masc_anim": "dělali",
+      "v_ind_pst_3_pl_masc_inan": "dělaly",
+      "v_ind_pst_3_pl_neut": "dělala",
+      "v_ind_pst_3_sg_fem": "dělala",
+      "v_ind_pst_3_sg_masc": "dělal",
+      "v_ind_pst_3_sg_neut": "dělalo",
+      "v_nfin": "dělat",
+      "v_ptcp": "dělající",
+      "v_ptcp_act_prf_anim_masc_pl": "dělali",
+      "v_ptcp_act_prf_fem_pl": "dělaly",
+      "v_ptcp_act_prf_fem_sg": "dělala",
+      "v_ptcp_act_prf_inan_masc_pl": "dělaly",
+      "v_ptcp_act_prf_masc_sg": "dělal",
+      "v_ptcp_act_prf_neut_pl": "dělala",
+      "v_ptcp_act_prf_neut_sg": "dělalo",
+      "v_ptcp_pass_anim_masc_pl": "děláni",
+      "v_ptcp_pass_fem_pl": "dělány",
+      "v_ptcp_pass_fem_sg": "dělána",
+      "v_ptcp_pass_inan_masc_pl": "dělány",
+      "v_ptcp_pass_masc_sg": "dělán",
+      "v_ptcp_pass_neut_pl": "dělána",
+      "v_ptcp_pass_neut_sg": "děláno"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "důl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "důl",
+    "inflections": {
+      "n_ess_sg": "dole",
+      "n_gen_pl": "dolů",
+      "n_voc_sg": "dole",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "důležitý": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "důležitý",
+    "inflections": {
+      "adj_acc_fem_pl": "důležité",
+      "adj_acc_masc_pl": "důležité",
+      "adj_acc_neut_sg": "důležité",
+      "adj_dat_fem_sg": "důležité",
+      "adj_ess_fem_sg": "důležité",
+      "adj_gen_fem_sg": "důležité",
+      "adj_nom_fem_pl": "důležité",
+      "adj_nom_masc_pl": "důležité",
+      "adj_nom_neut_sg": "důležité",
+      "adj_voc_fem_pl": "důležité",
+      "adj_voc_masc_pl": "důležité",
+      "adj_voc_neut_sg": "důležité",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dům": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dům",
+    "inflections": {
+      "n_acc_pl": "domy",
+      "n_acc_sg": "dům",
+      "n_dat_pl": "domům",
+      "n_dat_sg": "domu",
+      "n_ess_pl": "domech",
+      "n_ess_sg": "domu",
+      "n_gen_pl": "domů",
+      "n_gen_sg": "domu",
+      "n_ins_pl": "domy",
+      "n_ins_sg": "domem",
+      "n_nom_pl": "domy",
+      "n_nom_sg": "dům",
+      "n_voc_pl": "domy",
+      "n_voc_sg": "dome",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "hlava": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hlava",
+    "inflections": {
+      "n_acc_pl": "hlavy",
+      "n_acc_sg": "hlavu",
+      "n_gen_sg": "hlavy",
+      "n_nom_pl": "hlavy",
+      "n_voc_pl": "hlavy",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "hlaveň": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hlaveň",
+    "inflections": {
+      "n_acc_pl": "hlavně",
+      "n_gen_pl": "hlavní",
+      "n_gen_sg": "hlavně",
+      "n_ins_sg": "hlavní",
+      "n_nom_pl": "hlavně",
+      "n_voc_pl": "hlavně",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "hnát": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hnát",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ženu"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ho": {
+    "antonyms": [],
+    "base": "ho",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "hodina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hodina",
+    "inflections": {
+      "n_acc_pl": "hodiny",
+      "n_acc_sg": "hodinu",
+      "n_gen_pl": "hodin",
+      "n_gen_sg": "hodiny",
+      "n_nom_pl": "hodiny",
+      "n_voc_pl": "hodiny",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "holka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "holka",
+    "inflections": {
+      "n_acc_pl": "holky",
+      "n_acc_sg": "holku",
+      "n_dat_pl": "holkám",
+      "n_dat_sg": "holce",
+      "n_ess_pl": "holkách",
+      "n_ess_sg": "holce",
+      "n_gen_pl": "holek",
+      "n_gen_sg": "holky",
+      "n_ins_pl": "holkami",
+      "n_ins_sg": "holkou",
+      "n_nom_pl": "holky",
+      "n_nom_sg": "holka",
+      "n_voc_pl": "holky",
+      "n_voc_sg": "holko",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "informace": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "informace",
+    "inflections": {
+      "n_acc_pl": "informace",
+      "n_acc_sg": "informaci",
+      "n_dat_pl": "informacím",
+      "n_dat_sg": "informaci",
+      "n_ess_pl": "informacích",
+      "n_ess_sg": "informaci",
+      "n_gen_pl": "informací",
+      "n_gen_sg": "informace",
+      "n_ins_pl": "informacemi",
+      "n_ins_sg": "informací",
+      "n_nom_pl": "informace",
+      "n_nom_sg": "informace",
+      "n_voc_pl": "informace",
+      "n_voc_sg": "informace",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "jako": {
+    "antonyms": [],
+    "base": "jako",
+    "examples": [
+      "Jako vždy, přišel pozdě."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "On je tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jediný": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jediný",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "jediného",
+      "adj_acc_fem_pl": "jediné",
+      "adj_acc_fem_sg": "jedinou",
+      "adj_acc_inan_masc_sg": "jediný",
+      "adj_acc_masc_pl": "jediné",
+      "adj_acc_neut_pl": "jediná",
+      "adj_acc_neut_sg": "jediné",
+      "adj_dat_fem_sg": "jediné",
+      "adj_dat_masc_sg": "jedinému",
+      "adj_dat_neut_sg": "jedinému",
+      "adj_dat_pl": "jediným",
+      "adj_ess_fem_sg": "jediné",
+      "adj_ess_masc_sg": "jediném",
+      "adj_ess_neut_sg": "jediným",
+      "adj_ess_pl": "jediných",
+      "adj_gen_fem_sg": "jediné",
+      "adj_gen_masc_sg": "jediného",
+      "adj_gen_neut_sg": "jediného",
+      "adj_gen_pl": "jediných",
+      "adj_ins_masc_sg": "jediným",
+      "adj_ins_pl": "jedinými",
+      "adj_nom_anim_masc_pl": "jediní",
+      "adj_nom_fem_pl": "jediné",
+      "adj_nom_fem_sg": "jediná",
+      "adj_nom_masc_pl": "jediné",
+      "adj_nom_masc_sg": "jediný",
+      "adj_nom_neut_pl": "jediná",
+      "adj_nom_neut_sg": "jediné",
+      "adj_voc_anim_masc_pl": "jediní",
+      "adj_voc_fem_pl": "jediné",
+      "adj_voc_fem_sg": "jediná",
+      "adj_voc_masc_pl": "jediné",
+      "adj_voc_masc_sg": "jediný",
+      "adj_voc_neut_pl": "jediná",
+      "adj_voc_neut_sg": "jediné",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "jeho": {
+    "antonyms": [],
+    "base": "jeho",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jen": {
+    "antonyms": [],
+    "base": "jen",
+    "examples": [
+      "Jen se podívej."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jestli": {
+    "antonyms": [],
+    "base": "jestli",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "jet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jet",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "jely bychom",
+      "v_cond_prs_1_pl_masc": "jeli bychom",
+      "v_cond_prs_1_pl_masc_anim": "jeli by",
+      "v_cond_prs_1_pl_masc_inan": "jely by",
+      "v_cond_prs_1_pl_neut": "jela bychom",
+      "v_cond_prs_1_sg_fem": "jela bych",
+      "v_cond_prs_1_sg_masc": "jel bych",
+      "v_cond_prs_1_sg_neut": "jelo bych",
+      "v_cond_prs_2_pl_fem": "jely byste",
+      "v_cond_prs_2_pl_masc": "jeli byste",
+      "v_cond_prs_2_pl_neut": "jela byste",
+      "v_cond_prs_2_sg_fem": "jela bys",
+      "v_cond_prs_2_sg_form_fem": "jela byste",
+      "v_cond_prs_2_sg_form_masc": "jel byste",
+      "v_cond_prs_2_sg_form_neut": "jelo byste",
+      "v_cond_prs_2_sg_masc": "jel bys",
+      "v_cond_prs_2_sg_neut": "jelo bys",
+      "v_cond_prs_3_pl_fem": "jely by",
+      "v_cond_prs_3_pl_neut": "jela by",
+      "v_cond_prs_3_sg_fem": "jela by",
+      "v_cond_prs_3_sg_masc": "jel by",
+      "v_cond_prs_3_sg_neut": "jelo by",
+      "v_cond_pst_1_pl_fem": "byly bychom jely",
+      "v_cond_pst_1_pl_masc": "byli bychom jeli",
+      "v_cond_pst_1_pl_neut": "byla bychom jela",
+      "v_cond_pst_1_sg_fem": "byla bych jela",
+      "v_cond_pst_1_sg_masc": "byl bych jel",
+      "v_cond_pst_1_sg_neut": "bylo bych jelo",
+      "v_cond_pst_2_pl_fem": "byly byste jely",
+      "v_cond_pst_2_pl_masc": "byli byste jeli",
+      "v_cond_pst_2_pl_neut": "byla byste jela",
+      "v_cond_pst_2_sg_fem": "byla bys jela",
+      "v_cond_pst_2_sg_form_fem": "byla byste jela",
+      "v_cond_pst_2_sg_form_masc": "byl byste jel",
+      "v_cond_pst_2_sg_form_neut": "bylo byste jelo",
+      "v_cond_pst_2_sg_masc": "byl bys jel",
+      "v_cond_pst_2_sg_neut": "bylo bys jelo",
+      "v_cond_pst_3_pl_fem": "byly by jely",
+      "v_cond_pst_3_pl_masc_anim": "byli by jeli",
+      "v_cond_pst_3_pl_masc_inan": "byly by jely",
+      "v_cond_pst_3_pl_neut": "byla by jela",
+      "v_cond_pst_3_sg_fem": "byla by jela",
+      "v_cond_pst_3_sg_masc": "byl by jel",
+      "v_cond_pst_3_sg_neut": "bylo by jelo",
+      "v_cvb": "jetí",
+      "v_cvb_prs_fem_sg": "jedouc",
+      "v_cvb_prs_masc_sg": "jeda",
+      "v_cvb_prs_pl": "jedouce",
+      "v_cvb_pst_fem_sg": "jedavši",
+      "v_cvb_pst_masc_sg": "jedav",
+      "v_cvb_pst_pl": "jedavše",
+      "v_imp_1_pl": "jeďme",
+      "v_imp_2_pl": "jeďte",
+      "v_imp_2_sg": "jeď",
+      "v_imp_2_sg_form": "jeďte",
+      "v_ind_fut_1_pl": "pojedeme",
+      "v_ind_fut_1_sg": "pojedu",
+      "v_ind_fut_2_pl": "pojedete",
+      "v_ind_fut_2_sg": "pojedeš",
+      "v_ind_fut_2_sg_form": "pojedete",
+      "v_ind_fut_3_pl": "pojedou",
+      "v_ind_fut_3_sg": "pojede",
+      "v_ind_prs_1_pl": "jedeme",
+      "v_ind_prs_1_sg": "jedu",
+      "v_ind_prs_2_pl": "jedete",
+      "v_ind_prs_2_sg": "jedeš",
+      "v_ind_prs_2_sg_form": "jedete",
+      "v_ind_prs_3_pl": "jedou",
+      "v_ind_prs_3_sg": "jede",
+      "v_ind_pst_1_pl_fem": "jely jsme",
+      "v_ind_pst_1_pl_masc": "jeli jsme",
+      "v_ind_pst_1_pl_neut": "jela jsme",
+      "v_ind_pst_1_sg_fem": "jela jsem",
+      "v_ind_pst_1_sg_masc": "jel jsem",
+      "v_ind_pst_1_sg_neut": "jelo jsem",
+      "v_ind_pst_2_pl_fem": "jely jste",
+      "v_ind_pst_2_pl_masc": "jeli jste",
+      "v_ind_pst_2_pl_neut": "jela jste",
+      "v_ind_pst_2_sg_fem": "jela jsi",
+      "v_ind_pst_2_sg_form_fem": "jela jste",
+      "v_ind_pst_2_sg_form_masc": "jel jste",
+      "v_ind_pst_2_sg_form_neut": "jelo jste",
+      "v_ind_pst_2_sg_masc": "jel jsi",
+      "v_ind_pst_2_sg_neut": "jelo jsi",
+      "v_ind_pst_3_pl_fem": "jely",
+      "v_ind_pst_3_pl_masc_anim": "jeli",
+      "v_ind_pst_3_pl_masc_inan": "jely",
+      "v_ind_pst_3_pl_neut": "jela",
+      "v_ind_pst_3_sg_fem": "jela",
+      "v_ind_pst_3_sg_masc": "jel",
+      "v_ind_pst_3_sg_neut": "jelo",
+      "v_nfin": "jet",
+      "v_ptcp": "jedoucí",
+      "v_ptcp_act_prf_anim_masc_pl": "jeli",
+      "v_ptcp_act_prf_fem_pl": "jely",
+      "v_ptcp_act_prf_fem_sg": "jela",
+      "v_ptcp_act_prf_inan_masc_pl": "jely",
+      "v_ptcp_act_prf_masc_sg": "jel",
+      "v_ptcp_act_prf_neut_pl": "jela",
+      "v_ptcp_act_prf_neut_sg": "jelo",
+      "v_ptcp_pass_anim_masc_pl": "jeti",
+      "v_ptcp_pass_fem_pl": "jety",
+      "v_ptcp_pass_fem_sg": "jeta",
+      "v_ptcp_pass_inan_masc_pl": "jety",
+      "v_ptcp_pass_masc_sg": "jet",
+      "v_ptcp_pass_neut_pl": "jeta",
+      "v_ptcp_pass_neut_sg": "jeto"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "jmenovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jmenovat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "jmenuje"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "jméno": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jméno",
+    "inflections": {
+      "n_acc_pl": "jména",
+      "n_acc_sg": "jméno",
+      "n_dat_pl": "jménům",
+      "n_dat_sg": "jménu",
+      "n_ess_pl": "jménech",
+      "n_ess_sg": "jménu",
+      "n_gen_pl": "jmen",
+      "n_gen_sg": "jména",
+      "n_ins_pl": "jmény",
+      "n_ins_sg": "jménem",
+      "n_nom_pl": "jména",
+      "n_nom_sg": "jméno",
+      "n_voc_pl": "jména",
+      "n_voc_sg": "jméno",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "jsem": {
+    "antonyms": [],
+    "base": "jsem",
+    "examples": [
+      "Já jsem tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jsme": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Jsme tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "jsou": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Oni jsou šťastní."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "já": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "já",
+    "inflections": {
+      "n_acc_pl": "nás",
+      "n_acc_sg": "mě",
+      "n_dat_pl": "nám",
+      "n_dat_sg": "mně",
+      "n_ess_pl": "nás",
+      "n_ess_sg": "mně",
+      "n_gen_pl": "nás",
+      "n_gen_sg": "mě",
+      "n_ins_pl": "námi",
+      "n_ins_sg": "mnou",
+      "n_nom_pl": "my",
+      "n_nom_sg": "já",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "jídlo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jídlo",
+    "inflections": {
+      "n_acc_pl": "jídla",
+      "n_acc_sg": "jídlo",
+      "n_dat_pl": "jídlům",
+      "n_dat_sg": "jídlu",
+      "n_ess_pl": "jídlech",
+      "n_ess_sg": "jídlu",
+      "n_gen_pl": "jídel",
+      "n_gen_sg": "jídla",
+      "n_ins_pl": "jídly",
+      "n_ins_sg": "jídlem",
+      "n_nom_pl": "jídla",
+      "n_nom_sg": "jídlo",
+      "n_voc_pl": "jídla",
+      "n_voc_sg": "jídlo",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "jíst": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jíst",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "jí",
+      "v_ptcp_pass_masc_sg": "jeden"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "jít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jít",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "šly bychom",
+      "v_cond_prs_1_pl_masc": "šli bychom",
+      "v_cond_prs_1_pl_masc_anim": "šli by",
+      "v_cond_prs_1_pl_masc_inan": "šly by",
+      "v_cond_prs_1_pl_neut": "šla bychom",
+      "v_cond_prs_1_sg_fem": "šla bych",
+      "v_cond_prs_1_sg_masc": "šel bych",
+      "v_cond_prs_1_sg_neut": "šlo bych",
+      "v_cond_prs_2_pl_fem": "šly byste",
+      "v_cond_prs_2_pl_masc": "šli byste",
+      "v_cond_prs_2_pl_neut": "šla byste",
+      "v_cond_prs_2_sg_fem": "šla bys",
+      "v_cond_prs_2_sg_form_fem": "šla byste",
+      "v_cond_prs_2_sg_form_masc": "šel byste",
+      "v_cond_prs_2_sg_form_neut": "šlo byste",
+      "v_cond_prs_2_sg_masc": "šel bys",
+      "v_cond_prs_2_sg_neut": "šlo bys",
+      "v_cond_prs_3_pl_fem": "šly by",
+      "v_cond_prs_3_pl_neut": "šla by",
+      "v_cond_prs_3_sg_fem": "šla by",
+      "v_cond_prs_3_sg_masc": "šel by",
+      "v_cond_prs_3_sg_neut": "šlo by",
+      "v_cond_pst_1_pl_fem": "byly bychom šly",
+      "v_cond_pst_1_pl_masc": "byli bychom šli",
+      "v_cond_pst_1_pl_neut": "byla bychom šla",
+      "v_cond_pst_1_sg_fem": "byla bych šla",
+      "v_cond_pst_1_sg_masc": "byl bych šel",
+      "v_cond_pst_1_sg_neut": "bylo bych šlo",
+      "v_cond_pst_2_pl_fem": "byly byste šly",
+      "v_cond_pst_2_pl_masc": "byli byste šli",
+      "v_cond_pst_2_pl_neut": "byla byste šla",
+      "v_cond_pst_2_sg_fem": "byla bys šla",
+      "v_cond_pst_2_sg_form_fem": "byla byste šla",
+      "v_cond_pst_2_sg_form_masc": "byl byste šel",
+      "v_cond_pst_2_sg_form_neut": "bylo byste šlo",
+      "v_cond_pst_2_sg_masc": "byl bys šel",
+      "v_cond_pst_2_sg_neut": "bylo bys šlo",
+      "v_cond_pst_3_pl_fem": "byly by šly",
+      "v_cond_pst_3_pl_masc_anim": "byli by šli",
+      "v_cond_pst_3_pl_masc_inan": "byly by šly",
+      "v_cond_pst_3_pl_neut": "byla by šla",
+      "v_cond_pst_3_sg_fem": "byla by šla",
+      "v_cond_pst_3_sg_masc": "byl by šel",
+      "v_cond_pst_3_sg_neut": "bylo by šlo",
+      "v_cvb_prs_fem_sg": "jdouc",
+      "v_cvb_prs_masc_sg": "jda",
+      "v_cvb_prs_pl": "jdouce",
+      "v_cvb_pst_fem_sg": "šedši",
+      "v_cvb_pst_masc_sg": "šed",
+      "v_cvb_pst_pl": "šedše",
+      "v_imp_1_pl": "pojďme",
+      "v_imp_2_pl": "pojďte",
+      "v_imp_2_sg": "pojď",
+      "v_imp_2_sg_form": "pojďte",
+      "v_ind_fut_1_pl": "půjdeme",
+      "v_ind_fut_1_sg": "půjdu",
+      "v_ind_fut_2_pl": "půjdete",
+      "v_ind_fut_2_sg": "půjdeš",
+      "v_ind_fut_2_sg_form": "půjdete",
+      "v_ind_fut_3_pl": "půjdou",
+      "v_ind_fut_3_sg": "půjde",
+      "v_ind_prs_1_pl": "jdeme",
+      "v_ind_prs_1_sg": "jdu",
+      "v_ind_prs_2_pl": "jdete",
+      "v_ind_prs_2_sg": "jdeš",
+      "v_ind_prs_2_sg_form": "jdete",
+      "v_ind_prs_3_pl": "jdou",
+      "v_ind_prs_3_sg": "jde",
+      "v_ind_pst_1_pl_fem": "šly jsme",
+      "v_ind_pst_1_pl_masc": "šli jsme",
+      "v_ind_pst_1_pl_neut": "šla jsme",
+      "v_ind_pst_1_sg_fem": "šla jsem",
+      "v_ind_pst_1_sg_masc": "šel jsem",
+      "v_ind_pst_1_sg_neut": "šlo jsem",
+      "v_ind_pst_2_pl_fem": "šly jste",
+      "v_ind_pst_2_pl_masc": "šli jste",
+      "v_ind_pst_2_pl_neut": "šla jste",
+      "v_ind_pst_2_sg_fem": "šla jsi",
+      "v_ind_pst_2_sg_form_fem": "šla jste",
+      "v_ind_pst_2_sg_form_masc": "šel jste",
+      "v_ind_pst_2_sg_form_neut": "šlo jste",
+      "v_ind_pst_2_sg_masc": "šel jsi",
+      "v_ind_pst_2_sg_neut": "šlo jsi",
+      "v_ind_pst_3_pl_fem": "šly",
+      "v_ind_pst_3_pl_masc_anim": "šli",
+      "v_ind_pst_3_pl_masc_inan": "šly",
+      "v_ind_pst_3_pl_neut": "šla",
+      "v_ind_pst_3_sg_fem": "šla",
+      "v_ind_pst_3_sg_masc": "šel",
+      "v_ind_pst_3_sg_neut": "šlo",
+      "v_nfin": "jet",
+      "v_ptcp": "jdoucí",
+      "v_ptcp_act_prf_anim_masc_pl": "šli",
+      "v_ptcp_act_prf_fem_pl": "šly",
+      "v_ptcp_act_prf_fem_sg": "šla",
+      "v_ptcp_act_prf_inan_masc_pl": "šly",
+      "v_ptcp_act_prf_masc_sg": "šel",
+      "v_ptcp_act_prf_neut_pl": "šla",
+      "v_ptcp_act_prf_neut_sg": "šlo",
+      "v_ptcp_pass_anim_masc_pl": "jiti",
+      "v_ptcp_pass_fem_pl": "jity",
+      "v_ptcp_pass_fem_sg": "jita",
+      "v_ptcp_pass_inan_masc_pl": "jity",
+      "v_ptcp_pass_masc_sg": "jit",
+      "v_ptcp_pass_neut_pl": "jita",
+      "v_ptcp_pass_neut_sg": "jito"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "kapitán": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kapitán",
+    "inflections": {
+      "n_voc_sg": "kapitáne",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "když": {
+    "antonyms": [],
+    "base": "když",
+    "examples": [
+      "Když prší, zůstávám doma."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "klid": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klid",
+    "inflections": {
+      "n_acc_pl": "klidy",
+      "n_acc_sg": "klid",
+      "n_dat_pl": "klidům",
+      "n_dat_sg": "klidu",
+      "n_ess_pl": "klidech",
+      "n_ess_sg": "klidu",
+      "n_gen_pl": "klidů",
+      "n_gen_sg": "klidu",
+      "n_ins_pl": "klidy",
+      "n_ins_sg": "klidem",
+      "n_nom_pl": "klidy",
+      "n_nom_sg": "klid",
+      "n_voc_pl": "klidy",
+      "n_voc_sg": "klide",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kluk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kluk",
+    "inflections": {
+      "n_acc_pl": "kluky",
+      "n_acc_sg": "kluka",
+      "n_dat_pl": "klukům",
+      "n_dat_sg": "kluku",
+      "n_ess_pl": "klucích",
+      "n_ess_sg": "kluku",
+      "n_gen_pl": "kluků",
+      "n_gen_sg": "kluka",
+      "n_ins_pl": "kluky",
+      "n_ins_sg": "klukem",
+      "n_nom_pl": "kluci",
+      "n_nom_sg": "kluk",
+      "n_voc_pl": "kluci",
+      "n_voc_sg": "kluku",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "kolo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kolo",
+    "inflections": {
+      "n_ins_sg": "kolem",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "konec": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "konec",
+    "inflections": {
+      "n_acc_pl": "konece",
+      "n_acc_sg": "konec",
+      "n_dat_pl": "konecům",
+      "n_dat_sg": "koneci",
+      "n_ess_pl": "konecích",
+      "n_ess_sg": "koneci",
+      "n_gen_pl": "koneců",
+      "n_gen_sg": "konece",
+      "n_ins_pl": "koneci",
+      "n_ins_sg": "konecem",
+      "n_nom_pl": "konece",
+      "n_nom_sg": "konec",
+      "n_voc_pl": "konece",
+      "n_voc_sg": "koneci",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "krev": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "krev",
+    "inflections": {
+      "n_acc_pl": "krve",
+      "n_acc_sg": "krev",
+      "n_dat_pl": "krvím",
+      "n_dat_sg": "krvi",
+      "n_ess_pl": "krvích",
+      "n_ess_sg": "krvi",
+      "n_gen_pl": "krví",
+      "n_gen_sg": "krve",
+      "n_ins_pl": "krvemi",
+      "n_ins_sg": "krví",
+      "n_nom_pl": "krve",
+      "n_nom_sg": "krev",
+      "n_voc_pl": "krve",
+      "n_voc_sg": "krvi",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "kurva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kurva",
+    "inflections": {
+      "n_acc_pl": "kurvy",
+      "n_acc_sg": "kurvu",
+      "n_dat_pl": "kurvám",
+      "n_dat_sg": "kurvě",
+      "n_ess_pl": "kurvách",
+      "n_ess_sg": "kurvě",
+      "n_gen_pl": "kurev",
+      "n_gen_sg": "kurvy",
+      "n_ins_pl": "kurvami",
+      "n_ins_sg": "kurvou",
+      "n_nom_pl": "kurvy",
+      "n_nom_sg": "kurva",
+      "n_voc_pl": "kurvy",
+      "n_voc_sg": "kurvo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "loď": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "loď",
+    "inflections": {
+      "n_acc_pl": "lodě",
+      "n_acc_sg": "loď",
+      "n_dat_pl": "lodím",
+      "n_dat_sg": "lodi",
+      "n_ess_pl": "lodích",
+      "n_ess_sg": "lodi",
+      "n_gen_pl": "lodí",
+      "n_gen_sg": "lodě",
+      "n_ins_pl": "loděmi",
+      "n_ins_sg": "lodí",
+      "n_nom_pl": "lodě",
+      "n_nom_sg": "loď",
+      "n_voc_pl": "lodě",
+      "n_voc_sg": "lodi",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "láska": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "láska",
+    "inflections": {
+      "n_acc_pl": "lásky",
+      "n_acc_sg": "lásku",
+      "n_dat_pl": "láskám",
+      "n_dat_sg": "lásce",
+      "n_ess_pl": "láskách",
+      "n_ess_sg": "lásce",
+      "n_gen_pl": "lásek",
+      "n_gen_sg": "lásky",
+      "n_ins_pl": "láskami",
+      "n_ins_sg": "láskou",
+      "n_nom_pl": "lásky",
+      "n_nom_sg": "láska",
+      "n_voc_pl": "lásky",
+      "n_voc_sg": "lásko",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "líbit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "líbit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "líbí",
+      "v_ind_prs_3_sg": "líbí"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "manžel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "manžel",
+    "inflections": {
+      "n_acc_pl": "manžele",
+      "n_acc_sg": "manžela",
+      "n_dat_pl": "manželům",
+      "n_dat_sg": "manželovi",
+      "n_ess_pl": "manželech",
+      "n_ess_sg": "manželovi",
+      "n_gen_pl": "manželů",
+      "n_gen_sg": "manžela",
+      "n_ins_pl": "manželi",
+      "n_ins_sg": "manželem",
+      "n_nom_pl": "manželé",
+      "n_nom_sg": "manžel",
+      "n_voc_pl": "manželé",
+      "n_voc_sg": "manželi",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "matka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "matka",
+    "inflections": {
+      "n_acc_pl": "matky",
+      "n_acc_sg": "matku",
+      "n_dat_pl": "matkám",
+      "n_dat_sg": "matce",
+      "n_ess_pl": "matkách",
+      "n_ess_sg": "matce",
+      "n_gen_pl": "matek",
+      "n_gen_sg": "matky",
+      "n_ins_pl": "matkami",
+      "n_ins_sg": "matkou",
+      "n_nom_pl": "matky",
+      "n_nom_sg": "matka",
+      "n_voc_pl": "matky",
+      "n_voc_sg": "matko",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "mez": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mez",
+    "inflections": {
+      "n_dat_sg": "mezi",
+      "n_ess_sg": "mezi",
+      "n_voc_sg": "mezi",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "minout": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minout",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "no"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "minuta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minuta",
+    "inflections": {
+      "n_gen_pl": "minut",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "mluvit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mluvit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_pl": "mluvíme",
+      "v_ind_prs_1_sg": "mluvím",
+      "v_ind_prs_2_pl": "mluvíte",
+      "v_ind_prs_2_sg": "mluvíš",
+      "v_ind_prs_3_pl": "mluví",
+      "v_ind_prs_3_sg": "mluví",
+      "v_ind_pst_1_pl_fem": "mluvili jsme",
+      "v_ind_pst_1_pl_masc": "mluvili jsme",
+      "v_ind_pst_1_pl_neut": "mluvili jsme",
+      "v_ind_pst_1_sg_fem": "mluvil jsem",
+      "v_ind_pst_1_sg_masc": "mluvil jsem",
+      "v_ind_pst_1_sg_neut": "mluvil jsem",
+      "v_ind_pst_2_pl_fem": "mluvili jste",
+      "v_ind_pst_2_pl_masc": "mluvili jste",
+      "v_ind_pst_2_pl_neut": "mluvili jste",
+      "v_ind_pst_2_sg_fem": "mluvil jsi",
+      "v_ind_pst_2_sg_masc": "mluvil jsi",
+      "v_ind_pst_2_sg_neut": "mluvil jsi",
+      "v_ind_pst_3_pl_fem": "mluvili",
+      "v_ind_pst_3_pl_masc": "mluvili",
+      "v_ind_pst_3_pl_neut": "mluvili",
+      "v_ind_pst_3_sg_fem": "mluvil",
+      "v_ind_pst_3_sg_masc": "mluvil",
+      "v_ind_pst_3_sg_neut": "mluvil"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "moc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moc",
+    "inflections": {
+      "n_acc_pl": "moci",
+      "n_acc_sg": "moc",
+      "n_dat_pl": "mocem",
+      "n_dat_sg": "moci",
+      "n_ess_pl": "mocech",
+      "n_ess_sg": "moci",
+      "n_gen_pl": "mocí",
+      "n_gen_sg": "moci",
+      "n_ins_pl": "mocemi",
+      "n_ins_sg": "mocí",
+      "n_nom_pl": "moci",
+      "n_nom_sg": "moc",
+      "n_voc_pl": "moci",
+      "n_voc_sg": "moci",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "mrzet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mrzet",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "mrzí",
+      "v_ind_prs_3_sg": "mrzí"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "muset": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muset",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_2_pl": "budeme muset",
+      "v_ind_fut_2_sg": "budu muset",
+      "v_ind_fut_3_pl": "budete muset",
+      "v_ind_fut_3_sg": "budeš muset",
+      "v_ind_prs_2_pl": "musíme",
+      "v_ind_prs_2_sg": "musím",
+      "v_ind_prs_3_pl": "musíte",
+      "v_ind_prs_3_sg": "musíš",
+      "v_ind_pst_2_pl_fem": "museli",
+      "v_ind_pst_2_pl_masc": "museli",
+      "v_ind_pst_2_pl_neut": "museli",
+      "v_ind_pst_2_sg_fem": "musel",
+      "v_ind_pst_2_sg_masc": "musel",
+      "v_ind_pst_2_sg_neut": "musel",
+      "v_ind_pst_3_pl_fem": "museli",
+      "v_ind_pst_3_pl_masc": "museli",
+      "v_ind_pst_3_pl_neut": "museli",
+      "v_ind_pst_3_sg_fem": "musel",
+      "v_ind_pst_3_sg_masc": "musel",
+      "v_ind_pst_3_sg_neut": "musel"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "musit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "musit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_pl": "musíme",
+      "v_ind_prs_1_sg": "musím",
+      "v_ind_prs_2_pl": "musíte",
+      "v_ind_prs_2_sg": "musíš",
+      "v_ind_prs_3_pl": "musí",
+      "v_ind_prs_3_sg": "musí"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "muž": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muž",
+    "inflections": {
+      "n_acc_pl": "muže",
+      "n_acc_sg": "muže",
+      "n_dat_pl": "mužům",
+      "n_dat_sg": "mužovi",
+      "n_ess_pl": "mužích",
+      "n_ess_sg": "mužovi",
+      "n_gen_pl": "mužů",
+      "n_gen_sg": "muže",
+      "n_ins_pl": "muži",
+      "n_ins_sg": "mužem",
+      "n_nom_pl": "mužové",
+      "n_nom_sg": "muž",
+      "n_voc_pl": "mužové",
+      "n_voc_sg": "muži",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "mysl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mysl",
+    "inflections": {
+      "n_acc_pl": "mysli",
+      "n_dat_pl": "myslím",
+      "n_dat_sg": "mysli",
+      "n_ess_sg": "mysli",
+      "n_gen_pl": "myslí",
+      "n_gen_sg": "mysli",
+      "n_ins_sg": "myslí",
+      "n_nom_pl": "mysli",
+      "n_voc_pl": "mysli",
+      "n_voc_sg": "mysli",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "myslet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "myslet",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_1_pl": "budeme myslet",
+      "v_ind_fut_1_sg": "budu myslet",
+      "v_ind_fut_2_pl": "budete myslet",
+      "v_ind_fut_2_sg": "budeš myslet",
+      "v_ind_fut_3_pl": "budou myslet",
+      "v_ind_fut_3_sg": "bude myslet",
+      "v_ind_prs_1_pl": "myslíme",
+      "v_ind_prs_1_sg": "myslím",
+      "v_ind_prs_2_pl": "myslíte",
+      "v_ind_prs_2_sg": "myslíš",
+      "v_ind_prs_3_pl": "myslí",
+      "v_ind_prs_3_sg": "myslí",
+      "v_ind_pst_1_pl_fem": "mysleli",
+      "v_ind_pst_1_pl_masc": "mysleli",
+      "v_ind_pst_1_pl_neut": "mysleli",
+      "v_ind_pst_1_sg_fem": "myslel",
+      "v_ind_pst_1_sg_masc": "myslel",
+      "v_ind_pst_1_sg_neut": "myslel",
+      "v_ind_pst_2_pl_fem": "mysleli",
+      "v_ind_pst_2_pl_masc": "mysleli",
+      "v_ind_pst_2_pl_neut": "mysleli",
+      "v_ind_pst_2_sg_fem": "myslel",
+      "v_ind_pst_2_sg_masc": "myslel",
+      "v_ind_pst_2_sg_neut": "myslel",
+      "v_ind_pst_3_pl_fem": "mysleli",
+      "v_ind_pst_3_pl_masc": "mysleli",
+      "v_ind_pst_3_pl_neut": "mysleli",
+      "v_ind_pst_3_sg_fem": "myslel",
+      "v_ind_pst_3_sg_masc": "myslel",
+      "v_ind_pst_3_sg_neut": "myslel"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "myslit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "myslit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "myslím",
+      "v_ind_prs_3_pl": "myslíte",
+      "v_ind_prs_3_sg": "myslíš"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "myslím": {
+    "antonyms": [],
+    "base": "myslím",
+    "examples": [
+      "Myslím, že to zvládneme."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "má": {
+    "antonyms": [],
+    "base": "mít",
+    "examples": [
+      "Ona má knihu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "máma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "máma",
+    "inflections": {
+      "n_acc_pl": "mámy",
+      "n_acc_sg": "mámu",
+      "n_dat_pl": "mámám",
+      "n_dat_sg": "mámě",
+      "n_ess_pl": "mámách",
+      "n_ess_sg": "mámě",
+      "n_gen_pl": "mám",
+      "n_gen_sg": "mámy",
+      "n_ins_pl": "mámami",
+      "n_ins_sg": "mámou",
+      "n_nom_pl": "mámy",
+      "n_nom_sg": "máma",
+      "n_voc_pl": "mámy",
+      "n_voc_sg": "mámo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "máš": {
+    "antonyms": [],
+    "base": "máš",
+    "examples": [
+      "Máš pravdu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "místo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "místo",
+    "inflections": {
+      "n_acc_pl": "místa",
+      "n_acc_sg": "místo",
+      "n_dat_pl": "místům",
+      "n_dat_sg": "místu",
+      "n_ess_pl": "místech",
+      "n_ess_sg": "místu",
+      "n_gen_pl": "míst",
+      "n_gen_sg": "místa",
+      "n_ins_pl": "místy",
+      "n_ins_sg": "místem",
+      "n_nom_pl": "místa",
+      "n_nom_sg": "místo",
+      "n_voc_pl": "místa",
+      "n_voc_sg": "místo",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mít",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "měly bychom",
+      "v_cond_prs_1_pl_masc": "měli bychom",
+      "v_cond_prs_1_pl_masc_anim": "měli by",
+      "v_cond_prs_1_pl_masc_inan": "měly by",
+      "v_cond_prs_1_pl_neut": "měla bychom",
+      "v_cond_prs_1_sg_fem": "měla bych",
+      "v_cond_prs_1_sg_masc": "měl bych",
+      "v_cond_prs_1_sg_neut": "mělo bych",
+      "v_cond_prs_2_pl_fem": "měly byste",
+      "v_cond_prs_2_pl_masc": "měli byste",
+      "v_cond_prs_2_pl_neut": "měla byste",
+      "v_cond_prs_2_sg_fem": "měla bys",
+      "v_cond_prs_2_sg_form_fem": "měla byste",
+      "v_cond_prs_2_sg_form_masc": "měl byste",
+      "v_cond_prs_2_sg_form_neut": "mělo byste",
+      "v_cond_prs_2_sg_masc": "měl bys",
+      "v_cond_prs_2_sg_neut": "mělo bys",
+      "v_cond_prs_3_pl_fem": "měly by",
+      "v_cond_prs_3_pl_neut": "měla by",
+      "v_cond_prs_3_sg_fem": "měla by",
+      "v_cond_prs_3_sg_masc": "měl by",
+      "v_cond_prs_3_sg_neut": "mělo by",
+      "v_cond_pst_1_pl_fem": "byly bychom měly",
+      "v_cond_pst_1_pl_masc": "byli bychom měli",
+      "v_cond_pst_1_pl_neut": "byla bychom měla",
+      "v_cond_pst_1_sg_fem": "byla bych měla",
+      "v_cond_pst_1_sg_masc": "byl bych měl",
+      "v_cond_pst_1_sg_neut": "bylo bych mělo",
+      "v_cond_pst_2_pl_fem": "byly byste měly",
+      "v_cond_pst_2_pl_masc": "byli byste měli",
+      "v_cond_pst_2_pl_neut": "byla byste měla",
+      "v_cond_pst_2_sg_fem": "byla bys měla",
+      "v_cond_pst_2_sg_form_fem": "byla byste měla",
+      "v_cond_pst_2_sg_form_masc": "byl byste měl",
+      "v_cond_pst_2_sg_form_neut": "bylo byste mělo",
+      "v_cond_pst_2_sg_masc": "byl bys měl",
+      "v_cond_pst_2_sg_neut": "bylo bys mělo",
+      "v_cond_pst_3_pl_fem": "byly by měly",
+      "v_cond_pst_3_pl_masc_anim": "byli by měli",
+      "v_cond_pst_3_pl_masc_inan": "byly by měly",
+      "v_cond_pst_3_pl_neut": "byla by měla",
+      "v_cond_pst_3_sg_fem": "byla by měla",
+      "v_cond_pst_3_sg_masc": "byl by měl",
+      "v_cond_pst_3_sg_neut": "bylo by mělo",
+      "v_cvb": "mání",
+      "v_cvb_prs_fem_sg": "majíc",
+      "v_cvb_prs_masc_sg": "maje",
+      "v_cvb_prs_pl": "majíce",
+      "v_cvb_pst_fem_sg": "mavši",
+      "v_cvb_pst_masc_sg": "mav",
+      "v_cvb_pst_pl": "mavše",
+      "v_imp_1_pl": "mějme",
+      "v_imp_2_pl": "mějte",
+      "v_imp_2_sg": "měj",
+      "v_imp_2_sg_form": "mějte",
+      "v_ind_fut_1_pl": "budeme mít",
+      "v_ind_fut_1_sg": "budu mít",
+      "v_ind_fut_2_pl": "budete mít",
+      "v_ind_fut_2_sg": "budeš mít",
+      "v_ind_fut_2_sg_form": "budete mít",
+      "v_ind_fut_3_pl": "budou mít",
+      "v_ind_fut_3_sg": "bude mít",
+      "v_ind_prs_1_pl": "máme",
+      "v_ind_prs_1_sg": "mám",
+      "v_ind_prs_2_pl": "máte",
+      "v_ind_prs_2_sg": "máš",
+      "v_ind_prs_2_sg_form": "máte",
+      "v_ind_prs_3_pl": "mají",
+      "v_ind_prs_3_sg": "má",
+      "v_ind_pst_1_pl_fem": "měly jsme",
+      "v_ind_pst_1_pl_masc": "měli jsme",
+      "v_ind_pst_1_pl_neut": "měla jsme",
+      "v_ind_pst_1_sg_fem": "měla jsem",
+      "v_ind_pst_1_sg_masc": "měl jsem",
+      "v_ind_pst_1_sg_neut": "mělo jsem",
+      "v_ind_pst_2_pl_fem": "měly jste",
+      "v_ind_pst_2_pl_masc": "měli jste",
+      "v_ind_pst_2_pl_neut": "měla jste",
+      "v_ind_pst_2_sg_fem": "měla jsi",
+      "v_ind_pst_2_sg_form_fem": "měla jste",
+      "v_ind_pst_2_sg_form_masc": "měl jste",
+      "v_ind_pst_2_sg_form_neut": "mělo jste",
+      "v_ind_pst_2_sg_masc": "měl jsi",
+      "v_ind_pst_2_sg_neut": "mělo jsi",
+      "v_ind_pst_3_pl_fem": "měly",
+      "v_ind_pst_3_pl_masc_anim": "měli",
+      "v_ind_pst_3_pl_masc_inan": "měly",
+      "v_ind_pst_3_pl_neut": "měla",
+      "v_ind_pst_3_sg_fem": "měla",
+      "v_ind_pst_3_sg_masc": "měl",
+      "v_ind_pst_3_sg_neut": "mělo",
+      "v_nfin": "mít",
+      "v_ptcp": "mající",
+      "v_ptcp_act_prf_anim_masc_pl": "měli",
+      "v_ptcp_act_prf_fem_pl": "měly",
+      "v_ptcp_act_prf_fem_sg": "měla",
+      "v_ptcp_act_prf_inan_masc_pl": "měly",
+      "v_ptcp_act_prf_masc_sg": "měl",
+      "v_ptcp_act_prf_neut_pl": "měla",
+      "v_ptcp_act_prf_neut_sg": "mělo"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "měl": {
+    "antonyms": [],
+    "base": "měl",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "město": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "město",
+    "inflections": {
+      "n_acc_pl": "města",
+      "n_acc_sg": "město",
+      "n_dat_pl": "městům",
+      "n_dat_sg": "městu",
+      "n_ess_pl": "městech",
+      "n_ess_sg": "městě",
+      "n_gen_pl": "měst",
+      "n_gen_sg": "města",
+      "n_ins_pl": "městy",
+      "n_ins_sg": "městem",
+      "n_nom_pl": "města",
+      "n_nom_sg": "město",
+      "n_voc_pl": "města",
+      "n_voc_sg": "město",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "měsíc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "měsíc",
+    "inflections": {
+      "n_acc_pl": "měsíce",
+      "n_acc_sg": "měsíc",
+      "n_dat_pl": "měsícům",
+      "n_dat_sg": "měsíci",
+      "n_ess_pl": "měsících",
+      "n_ess_sg": "měsíci",
+      "n_gen_pl": "měsíců",
+      "n_gen_sg": "měsíce",
+      "n_ins_pl": "měsíci",
+      "n_ins_sg": "měsícem",
+      "n_nom_pl": "měsíce",
+      "n_nom_sg": "měsíc",
+      "n_voc_pl": "měsíce",
+      "n_voc_sg": "měsíci",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "můj": {
+    "antonyms": [],
+    "base": "můj",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "na": {
+    "antonyms": [],
+    "base": "na",
+    "examples": [
+      "Jdu na trh."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "než": {
+    "antonyms": [],
+    "base": "než",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "nic": {
+    "antonyms": [],
+    "base": "nic",
+    "examples": [
+      "Nemám nic."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "noc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noc",
+    "inflections": {
+      "n_acc_pl": "noci",
+      "n_acc_sg": "noc",
+      "n_dat_pl": "nocím",
+      "n_dat_sg": "noci",
+      "n_ess_pl": "nocích",
+      "n_ess_sg": "noci",
+      "n_gen_pl": "nocí",
+      "n_gen_sg": "noci",
+      "n_ins_pl": "nocemi",
+      "n_ins_sg": "nocí",
+      "n_nom_pl": "noci",
+      "n_nom_sg": "noc",
+      "n_voc_pl": "noci",
+      "n_voc_sg": "noci",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "noha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noha",
+    "inflections": {
+      "n_acc_pl": "nohy",
+      "n_gen_sg": "nohy",
+      "n_nom_pl": "nohy",
+      "n_voc_pl": "nohy",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "nový": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nový",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "nového",
+      "adj_acc_fem_pl": "nové",
+      "adj_acc_fem_sg": "novou",
+      "adj_acc_inan_masc_sg": "nový",
+      "adj_acc_masc_pl": "nové",
+      "adj_acc_neut_pl": "nová",
+      "adj_acc_neut_sg": "nové",
+      "adj_dat_fem_sg": "nové",
+      "adj_dat_masc_sg": "novému",
+      "adj_dat_neut_sg": "novému",
+      "adj_dat_pl": "novým",
+      "adj_ess_fem_sg": "nové",
+      "adj_ess_masc_sg": "novém",
+      "adj_ess_neut_sg": "novým",
+      "adj_ess_pl": "nových",
+      "adj_gen_fem_sg": "nové",
+      "adj_gen_masc_sg": "nového",
+      "adj_gen_neut_sg": "nového",
+      "adj_gen_pl": "nových",
+      "adj_ins_masc_sg": "novým",
+      "adj_ins_pl": "novými",
+      "adj_nom_anim_masc_pl": "noví",
+      "adj_nom_fem_pl": "nové",
+      "adj_nom_fem_sg": "nová",
+      "adj_nom_masc_pl": "nové",
+      "adj_nom_masc_sg": "nový",
+      "adj_nom_neut_pl": "nová",
+      "adj_nom_neut_sg": "nové",
+      "adj_voc_anim_masc_pl": "noví",
+      "adj_voc_fem_pl": "nové",
+      "adj_voc_fem_sg": "nová",
+      "adj_voc_masc_pl": "nové",
+      "adj_voc_masc_sg": "nový",
+      "adj_voc_neut_pl": "nová",
+      "adj_voc_neut_sg": "nové",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "náhoda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "náhoda",
+    "inflections": {
+      "n_ins_sg": "náhodou",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "od": {
+    "antonyms": [],
+    "base": "od",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "omlouvat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "omlouvat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "omlouvám"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ono": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ono",
+    "inflections": {
+      "n_acc_pl": "je",
+      "n_acc_sg": "je",
+      "n_dat_pl": "jim",
+      "n_dat_sg": "jemu",
+      "n_ess_pl": "nich",
+      "n_ess_sg": "něm",
+      "n_gen_pl": "jich",
+      "n_gen_sg": "jeho",
+      "n_ins_pl": "jimi",
+      "n_ins_sg": "jím",
+      "n_nom_pl": "ona",
+      "n_nom_sg": "ono",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "otec": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "otec",
+    "inflections": {
+      "n_acc_pl": "otce",
+      "n_acc_sg": "otce",
+      "n_dat_pl": "otcům",
+      "n_dat_sg": "otci",
+      "n_ess_pl": "otcích",
+      "n_ess_sg": "otci",
+      "n_gen_pl": "otců",
+      "n_gen_sg": "otce",
+      "n_ins_pl": "otci",
+      "n_ins_sg": "otcem",
+      "n_nom_pl": "otcové",
+      "n_nom_sg": "otec",
+      "n_voc_pl": "otcové",
+      "n_voc_sg": "otče",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "pamatovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pamatovat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "pamatuješ"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "paní": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "paní",
+    "inflections": {
+      "n_acc_pl": "paní",
+      "n_acc_sg": "paní",
+      "n_dat_pl": "paním",
+      "n_dat_sg": "paní",
+      "n_ess_pl": "paních",
+      "n_ess_sg": "paní",
+      "n_gen_pl": "paní",
+      "n_gen_sg": "paní",
+      "n_ins_pl": "paními",
+      "n_ins_sg": "paní",
+      "n_nom_pl": "paní",
+      "n_nom_sg": "paní",
+      "n_voc_pl": "paní",
+      "n_voc_sg": "paní",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "peníz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "peníz",
+    "inflections": {
+      "n_acc_pl": "peníze",
+      "n_gen_sg": "peníze",
+      "n_nom_pl": "peníze",
+      "n_voc_pl": "peníze",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "plán": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plán",
+    "inflections": {
+      "n_acc_pl": "plány",
+      "n_acc_sg": "plán",
+      "n_dat_pl": "plánům",
+      "n_dat_sg": "plánu",
+      "n_ess_pl": "plánech",
+      "n_ess_sg": "plánu",
+      "n_gen_pl": "plánů",
+      "n_gen_sg": "plánu",
+      "n_ins_pl": "plány",
+      "n_ins_sg": "plánem",
+      "n_nom_pl": "plány",
+      "n_nom_sg": "plán",
+      "n_voc_pl": "plány",
+      "n_voc_sg": "pláne",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pocit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pocit",
+    "inflections": {
+      "n_acc_pl": "pocity",
+      "n_acc_sg": "pocit",
+      "n_dat_pl": "pocitům",
+      "n_dat_sg": "pocitu",
+      "n_ess_pl": "pocitech",
+      "n_ess_sg": "pocitu",
+      "n_gen_pl": "pocitů",
+      "n_gen_sg": "pocitu",
+      "n_ins_pl": "pocity",
+      "n_ins_sg": "pocitem",
+      "n_nom_pl": "pocity",
+      "n_nom_sg": "pocit",
+      "n_voc_pl": "pocity",
+      "n_voc_sg": "pocite",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "pokoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pokoj",
+    "inflections": {
+      "n_acc_pl": "pokoje",
+      "n_acc_sg": "pokoj",
+      "n_dat_pl": "pokojům",
+      "n_dat_sg": "pokoji",
+      "n_ess_pl": "pokojích",
+      "n_ess_sg": "pokoji",
+      "n_gen_pl": "pokojů",
+      "n_gen_sg": "pokoje",
+      "n_ins_pl": "pokoji",
+      "n_ins_sg": "pokojem",
+      "n_nom_pl": "pokoje",
+      "n_nom_sg": "pokoj",
+      "n_voc_pl": "pokoje",
+      "n_voc_sg": "pokoji",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "policie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "policie",
+    "inflections": {
+      "n_acc_pl": "policie",
+      "n_acc_sg": "policii",
+      "n_dat_pl": "policiím",
+      "n_dat_sg": "policii",
+      "n_ess_pl": "policiích",
+      "n_ess_sg": "policii",
+      "n_gen_pl": "policií",
+      "n_gen_sg": "policie",
+      "n_ins_pl": "policiemi",
+      "n_ins_sg": "policií",
+      "n_nom_pl": "policie",
+      "n_nom_sg": "policie",
+      "n_voc_pl": "policie",
+      "n_voc_sg": "policie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pomoc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pomoc",
+    "inflections": {
+      "n_acc_pl": "pomoci",
+      "n_acc_sg": "pomoc",
+      "n_dat_pl": "pomocím",
+      "n_dat_sg": "pomoci",
+      "n_ess_pl": "pomocích",
+      "n_ess_sg": "pomoci",
+      "n_gen_pl": "pomocí",
+      "n_gen_sg": "pomoci",
+      "n_ins_pl": "pomocemi",
+      "n_ins_sg": "pomocí",
+      "n_nom_pl": "pomoci",
+      "n_nom_sg": "pomoc",
+      "n_voc_pl": "pomoci",
+      "n_voc_sg": "pomoci",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "poslouchat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "poslouchat",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "poslouchejte",
+      "v_imp_2_sg": "poslouchej",
+      "v_imp_2_sg_form": "poslouchejte"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "potřebovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "potřebovat",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "potřebovaly bychom",
+      "v_cond_prs_1_pl_masc": "potřebovali bychom",
+      "v_cond_prs_1_pl_masc_anim": "potřebovali by",
+      "v_cond_prs_1_pl_masc_inan": "potřebovaly by",
+      "v_cond_prs_1_pl_neut": "potřebovala bychom",
+      "v_cond_prs_1_sg_fem": "potřebovala bych",
+      "v_cond_prs_1_sg_masc": "potřeboval bych",
+      "v_cond_prs_1_sg_neut": "potřebovalo bych",
+      "v_cond_prs_2_pl_fem": "potřebovaly byste",
+      "v_cond_prs_2_pl_masc": "potřebovali byste",
+      "v_cond_prs_2_pl_neut": "potřebovala byste",
+      "v_cond_prs_2_sg_fem": "potřebovala bys",
+      "v_cond_prs_2_sg_form_fem": "potřebovala byste",
+      "v_cond_prs_2_sg_form_masc": "potřeboval byste",
+      "v_cond_prs_2_sg_form_neut": "potřebovalo byste",
+      "v_cond_prs_2_sg_masc": "potřeboval bys",
+      "v_cond_prs_2_sg_neut": "potřebovalo bys",
+      "v_cond_prs_3_pl_fem": "potřebovaly by",
+      "v_cond_prs_3_pl_neut": "potřebovala by",
+      "v_cond_prs_3_sg_fem": "potřebovala by",
+      "v_cond_prs_3_sg_masc": "potřeboval by",
+      "v_cond_prs_3_sg_neut": "potřebovalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom potřebovaly",
+      "v_cond_pst_1_pl_masc": "byli bychom potřebovali",
+      "v_cond_pst_1_pl_neut": "byla bychom potřebovala",
+      "v_cond_pst_1_sg_fem": "byla bych potřebovala",
+      "v_cond_pst_1_sg_masc": "byl bych potřeboval",
+      "v_cond_pst_1_sg_neut": "bylo bych potřebovalo",
+      "v_cond_pst_2_pl_fem": "byly byste potřebovaly",
+      "v_cond_pst_2_pl_masc": "byli byste potřebovali",
+      "v_cond_pst_2_pl_neut": "byla byste potřebovala",
+      "v_cond_pst_2_sg_fem": "byla bys potřebovala",
+      "v_cond_pst_2_sg_form_fem": "byla byste potřebovala",
+      "v_cond_pst_2_sg_form_masc": "byl byste potřeboval",
+      "v_cond_pst_2_sg_form_neut": "bylo byste potřebovalo",
+      "v_cond_pst_2_sg_masc": "byl bys potřeboval",
+      "v_cond_pst_2_sg_neut": "bylo bys potřebovalo",
+      "v_cond_pst_3_pl_fem": "byly by potřebovaly",
+      "v_cond_pst_3_pl_masc_anim": "byli by potřebovali",
+      "v_cond_pst_3_pl_masc_inan": "byly by potřebovaly",
+      "v_cond_pst_3_pl_neut": "byla by potřebovala",
+      "v_cond_pst_3_sg_fem": "byla by potřebovala",
+      "v_cond_pst_3_sg_masc": "byl by potřeboval",
+      "v_cond_pst_3_sg_neut": "bylo by potřebovalo",
+      "v_cvb": "potřebování",
+      "v_cvb_prs_fem_sg": "potřebujíc",
+      "v_cvb_prs_masc_sg": "potřebujíce",
+      "v_cvb_prs_pl": "potřebujíce",
+      "v_cvb_pst_fem_sg": "potřebovavši",
+      "v_cvb_pst_masc_sg": "potřebovav",
+      "v_cvb_pst_pl": "potřebovavše",
+      "v_imp_1_pl": "potřebujme",
+      "v_imp_2_pl": "potřebujte",
+      "v_imp_2_sg": "potřebuj",
+      "v_imp_2_sg_form": "potřebujte",
+      "v_ind_fut_1_pl": "budeme potřebovat",
+      "v_ind_fut_1_sg": "budu potřebovat",
+      "v_ind_fut_2_pl": "budete potřebovat",
+      "v_ind_fut_2_sg": "budeš potřebovat",
+      "v_ind_fut_2_sg_form": "budete potřebovat",
+      "v_ind_fut_3_pl": "budou potřebovat",
+      "v_ind_fut_3_sg": "bude potřebovat",
+      "v_ind_prs_1_pl": "potřebujeme",
+      "v_ind_prs_1_sg": "potřebuji",
+      "v_ind_prs_2_pl": "potřebujete",
+      "v_ind_prs_2_sg": "potřebuješ",
+      "v_ind_prs_2_sg_form": "potřebujete",
+      "v_ind_prs_3_pl": "potřebují",
+      "v_ind_prs_3_sg": "potřebuje",
+      "v_ind_pst_1_pl_fem": "potřebovaly jsme",
+      "v_ind_pst_1_pl_masc": "potřebovali jsme",
+      "v_ind_pst_1_pl_neut": "potřebovala jsme",
+      "v_ind_pst_1_sg_fem": "potřebovala jsem",
+      "v_ind_pst_1_sg_masc": "potřeboval jsem",
+      "v_ind_pst_1_sg_neut": "potřebovalo jsem",
+      "v_ind_pst_2_pl_fem": "potřebovaly jste",
+      "v_ind_pst_2_pl_masc": "potřebovali jste",
+      "v_ind_pst_2_pl_neut": "potřebovala jste",
+      "v_ind_pst_2_sg_fem": "potřebovala jsi",
+      "v_ind_pst_2_sg_form_fem": "potřebovala jste",
+      "v_ind_pst_2_sg_form_masc": "potřeboval jste",
+      "v_ind_pst_2_sg_form_neut": "potřebovalo jste",
+      "v_ind_pst_2_sg_masc": "potřeboval jsi",
+      "v_ind_pst_2_sg_neut": "potřebovalo jsi",
+      "v_ind_pst_3_pl_fem": "potřebovaly",
+      "v_ind_pst_3_pl_masc_anim": "potřebovali",
+      "v_ind_pst_3_pl_masc_inan": "potřebovaly",
+      "v_ind_pst_3_pl_neut": "potřebovala",
+      "v_ind_pst_3_sg_fem": "potřebovala",
+      "v_ind_pst_3_sg_masc": "potřeboval",
+      "v_ind_pst_3_sg_neut": "potřebovalo",
+      "v_nfin": "potřebovat",
+      "v_ptcp": "potřebující",
+      "v_ptcp_act_prf_anim_masc_pl": "potřebovali",
+      "v_ptcp_act_prf_fem_pl": "potřebovaly",
+      "v_ptcp_act_prf_fem_sg": "potřebovala",
+      "v_ptcp_act_prf_inan_masc_pl": "potřebovaly",
+      "v_ptcp_act_prf_masc_sg": "potřeboval",
+      "v_ptcp_act_prf_neut_pl": "potřebovala",
+      "v_ptcp_act_prf_neut_sg": "potřebovalo",
+      "v_ptcp_pass_anim_masc_pl": "potřebováni",
+      "v_ptcp_pass_fem_pl": "potřebovány",
+      "v_ptcp_pass_fem_sg": "potřebována",
+      "v_ptcp_pass_inan_masc_pl": "potřebovány",
+      "v_ptcp_pass_masc_sg": "potřebován",
+      "v_ptcp_pass_neut_pl": "potřebována",
+      "v_ptcp_pass_neut_sg": "potřebováno"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pozor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pozor",
+    "inflections": {
+      "n_acc_pl": "pozory",
+      "n_acc_sg": "pozor",
+      "n_dat_pl": "pozorům",
+      "n_dat_sg": "pozoru",
+      "n_ess_pl": "pozorech",
+      "n_ess_sg": "pozoru",
+      "n_gen_pl": "pozorů",
+      "n_gen_sg": "pozoru",
+      "n_ins_pl": "pozory",
+      "n_ins_sg": "pozorem",
+      "n_nom_pl": "pozory",
+      "n_nom_sg": "pozor",
+      "n_voc_pl": "pozory",
+      "n_voc_sg": "pozore",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "pořádek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pořádek",
+    "inflections": {
+      "n_dat_sg": "pořádku",
+      "n_ess_sg": "pořádku",
+      "n_gen_sg": "pořádku",
+      "n_voc_sg": "pořádku",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "prach": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prach",
+    "inflections": {
+      "n_acc_pl": "prachy",
+      "n_ins_pl": "prachy",
+      "n_nom_pl": "prachy",
+      "n_voc_pl": "prachy",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "prachy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prachy",
+    "inflections": {
+      "n_acc_pl": "prachy",
+      "n_dat_pl": "prachům",
+      "n_ess_pl": "prachách",
+      "n_gen_pl": "prachů",
+      "n_ins_pl": "prachy",
+      "n_nom_pl": "prachy",
+      "n_voc_pl": "prachy",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pracovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pracovat",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "pracovaly bychom",
+      "v_cond_prs_1_pl_masc": "pracovali bychom",
+      "v_cond_prs_1_pl_masc_anim": "pracovali by",
+      "v_cond_prs_1_pl_masc_inan": "pracovaly by",
+      "v_cond_prs_1_pl_neut": "pracovala bychom",
+      "v_cond_prs_1_sg_fem": "pracovala bych",
+      "v_cond_prs_1_sg_masc": "pracoval bych",
+      "v_cond_prs_1_sg_neut": "pracovalo bych",
+      "v_cond_prs_2_pl_fem": "pracovaly byste",
+      "v_cond_prs_2_pl_masc": "pracovali byste",
+      "v_cond_prs_2_pl_neut": "pracovala byste",
+      "v_cond_prs_2_sg_fem": "pracovala bys",
+      "v_cond_prs_2_sg_form_fem": "pracovala byste",
+      "v_cond_prs_2_sg_form_masc": "pracoval byste",
+      "v_cond_prs_2_sg_form_neut": "pracovalo byste",
+      "v_cond_prs_2_sg_masc": "pracoval bys",
+      "v_cond_prs_2_sg_neut": "pracovalo bys",
+      "v_cond_prs_3_pl_fem": "pracovaly by",
+      "v_cond_prs_3_pl_neut": "pracovala by",
+      "v_cond_prs_3_sg_fem": "pracovala by",
+      "v_cond_prs_3_sg_masc": "pracoval by",
+      "v_cond_prs_3_sg_neut": "pracovalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom pracovaly",
+      "v_cond_pst_1_pl_masc": "byli bychom pracovali",
+      "v_cond_pst_1_pl_neut": "byla bychom pracovala",
+      "v_cond_pst_1_sg_fem": "byla bych pracovala",
+      "v_cond_pst_1_sg_masc": "byl bych pracoval",
+      "v_cond_pst_1_sg_neut": "bylo bych pracovalo",
+      "v_cond_pst_2_pl_fem": "byly byste pracovaly",
+      "v_cond_pst_2_pl_masc": "byli byste pracovali",
+      "v_cond_pst_2_pl_neut": "byla byste pracovala",
+      "v_cond_pst_2_sg_fem": "byla bys pracovala",
+      "v_cond_pst_2_sg_form_fem": "byla byste pracovala",
+      "v_cond_pst_2_sg_form_masc": "byl byste pracoval",
+      "v_cond_pst_2_sg_form_neut": "bylo byste pracovalo",
+      "v_cond_pst_2_sg_masc": "byl bys pracoval",
+      "v_cond_pst_2_sg_neut": "bylo bys pracovalo",
+      "v_cond_pst_3_pl_fem": "byly by pracovaly",
+      "v_cond_pst_3_pl_masc_anim": "byli by pracovali",
+      "v_cond_pst_3_pl_masc_inan": "byly by pracovaly",
+      "v_cond_pst_3_pl_neut": "byla by pracovala",
+      "v_cond_pst_3_sg_fem": "byla by pracovala",
+      "v_cond_pst_3_sg_masc": "byl by pracoval",
+      "v_cond_pst_3_sg_neut": "bylo by pracovalo",
+      "v_cvb": "pracování",
+      "v_cvb_prs_fem_sg": "pracujíc",
+      "v_cvb_prs_masc_sg": "pracujíce",
+      "v_cvb_prs_pl": "pracujíce",
+      "v_cvb_pst_fem_sg": "pracovavši",
+      "v_cvb_pst_masc_sg": "pracovav",
+      "v_cvb_pst_pl": "pracovavše",
+      "v_imp_1_pl": "pracujme",
+      "v_imp_2_pl": "pracujte",
+      "v_imp_2_sg": "pracuj",
+      "v_imp_2_sg_form": "pracujte",
+      "v_ind_fut_1_pl": "budeme pracovat",
+      "v_ind_fut_1_sg": "budu pracovat",
+      "v_ind_fut_2_pl": "budete pracovat",
+      "v_ind_fut_2_sg": "budeš pracovat",
+      "v_ind_fut_2_sg_form": "budete pracovat",
+      "v_ind_fut_3_pl": "budou pracovat",
+      "v_ind_fut_3_sg": "bude pracovat",
+      "v_ind_prs_1_pl": "pracujeme",
+      "v_ind_prs_1_sg": "pracuji",
+      "v_ind_prs_2_pl": "pracujete",
+      "v_ind_prs_2_sg": "pracuješ",
+      "v_ind_prs_2_sg_form": "pracujete",
+      "v_ind_prs_3_pl": "pracují",
+      "v_ind_prs_3_sg": "pracuje",
+      "v_ind_pst_1_pl_fem": "pracovaly jsme",
+      "v_ind_pst_1_pl_masc": "pracovali jsme",
+      "v_ind_pst_1_pl_neut": "pracovala jsme",
+      "v_ind_pst_1_sg_fem": "pracovala jsem",
+      "v_ind_pst_1_sg_masc": "pracoval jsem",
+      "v_ind_pst_1_sg_neut": "pracovalo jsem",
+      "v_ind_pst_2_pl_fem": "pracovaly jste",
+      "v_ind_pst_2_pl_masc": "pracovali jste",
+      "v_ind_pst_2_pl_neut": "pracovala jste",
+      "v_ind_pst_2_sg_fem": "pracovala jsi",
+      "v_ind_pst_2_sg_form_fem": "pracovala jste",
+      "v_ind_pst_2_sg_form_masc": "pracoval jste",
+      "v_ind_pst_2_sg_form_neut": "pracovalo jste",
+      "v_ind_pst_2_sg_masc": "pracoval jsi",
+      "v_ind_pst_2_sg_neut": "pracovalo jsi",
+      "v_ind_pst_3_pl_fem": "pracovaly",
+      "v_ind_pst_3_pl_masc_anim": "pracovali",
+      "v_ind_pst_3_pl_masc_inan": "pracovaly",
+      "v_ind_pst_3_pl_neut": "pracovala",
+      "v_ind_pst_3_sg_fem": "pracovala",
+      "v_ind_pst_3_sg_masc": "pracoval",
+      "v_ind_pst_3_sg_neut": "pracovalo",
+      "v_nfin": "pracovat",
+      "v_ptcp": "pracující",
+      "v_ptcp_act_prf_anim_masc_pl": "pracovali",
+      "v_ptcp_act_prf_fem_pl": "pracovaly",
+      "v_ptcp_act_prf_fem_sg": "pracovala",
+      "v_ptcp_act_prf_inan_masc_pl": "pracovaly",
+      "v_ptcp_act_prf_masc_sg": "pracoval",
+      "v_ptcp_act_prf_neut_pl": "pracovala",
+      "v_ptcp_act_prf_neut_sg": "pracovalo",
+      "v_ptcp_pass_anim_masc_pl": "pracováni",
+      "v_ptcp_pass_fem_pl": "pracovány",
+      "v_ptcp_pass_fem_sg": "pracována",
+      "v_ptcp_pass_inan_masc_pl": "pracovány",
+      "v_ptcp_pass_masc_sg": "pracován",
+      "v_ptcp_pass_neut_pl": "pracována",
+      "v_ptcp_pass_neut_sg": "pracováno"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pravda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pravda",
+    "inflections": {
+      "n_acc_pl": "pravdy",
+      "n_acc_sg": "pravdu",
+      "n_dat_pl": "pravdám",
+      "n_dat_sg": "pravdě",
+      "n_ess_pl": "pravdách",
+      "n_ess_sg": "pravdě",
+      "n_gen_pl": "pravd",
+      "n_gen_sg": "pravdy",
+      "n_ins_pl": "pravdami",
+      "n_ins_sg": "pravdou",
+      "n_nom_pl": "pravdy",
+      "n_nom_sg": "pravda",
+      "n_voc_pl": "pravdy",
+      "n_voc_sg": "pravdo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "prdel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prdel",
+    "inflections": {
+      "n_acc_pl": "prdele",
+      "n_gen_sg": "prdele",
+      "n_nom_pl": "prdele",
+      "n_voc_pl": "prdele",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "prosit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prosit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "prosím"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "práce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "práce",
+    "inflections": {
+      "n_acc_pl": "práce",
+      "n_acc_sg": "práci",
+      "n_dat_pl": "pracím",
+      "n_dat_sg": "práci",
+      "n_ess_pl": "pracích",
+      "n_ess_sg": "práci",
+      "n_gen_pl": "prací",
+      "n_gen_sg": "práce",
+      "n_ins_pl": "pracemi",
+      "n_ins_sg": "prací",
+      "n_nom_pl": "práce",
+      "n_nom_sg": "práce",
+      "n_voc_pl": "práce",
+      "n_voc_sg": "práce",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "právo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "právo",
+    "inflections": {
+      "n_acc_pl": "práva",
+      "n_acc_sg": "právo",
+      "n_dat_pl": "právům",
+      "n_dat_sg": "právu",
+      "n_ess_pl": "právech",
+      "n_ess_sg": "právu",
+      "n_gen_pl": "práv",
+      "n_gen_sg": "práva",
+      "n_ins_pl": "právy",
+      "n_ins_sg": "právem",
+      "n_nom_pl": "práva",
+      "n_nom_sg": "právo",
+      "n_voc_pl": "práva",
+      "n_voc_sg": "právo",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pán": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pán",
+    "inflections": {
+      "n_nom_pl": "pánové",
+      "n_voc_pl": "pánové",
+      "n_voc_sg": "pane",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "pár": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pár",
+    "inflections": {
+      "n_acc_pl": "páry",
+      "n_acc_sg": "pár",
+      "n_dat_pl": "párům",
+      "n_dat_sg": "páru",
+      "n_ess_pl": "párech",
+      "n_ess_sg": "páru",
+      "n_gen_pl": "párů",
+      "n_gen_sg": "páru",
+      "n_ins_pl": "páry",
+      "n_ins_sg": "párem",
+      "n_nom_pl": "páry",
+      "n_nom_sg": "pár",
+      "n_voc_pl": "páry",
+      "n_voc_sg": "páre",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "pěkný": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pěkný",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "pěkného",
+      "adj_acc_fem_pl": "pěkné",
+      "adj_acc_fem_sg": "pěknou",
+      "adj_acc_inan_masc_sg": "pěkný",
+      "adj_acc_masc_pl": "pěkné",
+      "adj_acc_neut_pl": "pěkná",
+      "adj_acc_neut_sg": "pěkné",
+      "adj_dat_fem_sg": "pěkné",
+      "adj_dat_masc_sg": "pěknému",
+      "adj_dat_neut_sg": "pěknému",
+      "adj_dat_pl": "pěkným",
+      "adj_ess_fem_sg": "pěkné",
+      "adj_ess_masc_sg": "pěkném",
+      "adj_ess_neut_sg": "pěkným",
+      "adj_ess_pl": "pěkných",
+      "adj_gen_fem_sg": "pěkné",
+      "adj_gen_masc_sg": "pěkného",
+      "adj_gen_neut_sg": "pěkného",
+      "adj_gen_pl": "pěkných",
+      "adj_ins_masc_sg": "pěkným",
+      "adj_ins_pl": "pěknými",
+      "adj_nom_anim_masc_pl": "pěkní",
+      "adj_nom_fem_pl": "pěkné",
+      "adj_nom_fem_sg": "pěkná",
+      "adj_nom_masc_pl": "pěkné",
+      "adj_nom_masc_sg": "pěkný",
+      "adj_nom_neut_pl": "pěkná",
+      "adj_nom_neut_sg": "pěkné",
+      "adj_voc_anim_masc_pl": "pěkní",
+      "adj_voc_fem_pl": "pěkné",
+      "adj_voc_fem_sg": "pěkná",
+      "adj_voc_masc_pl": "pěkné",
+      "adj_voc_masc_sg": "pěkný",
+      "adj_voc_neut_pl": "pěkná",
+      "adj_voc_neut_sg": "pěkné",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "přechytračit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "přechytračit",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "no"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "překlad": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "překlad",
+    "inflections": {
+      "n_acc_pl": "překlady",
+      "n_acc_sg": "překlad",
+      "n_dat_pl": "překladům",
+      "n_dat_sg": "překladu",
+      "n_ess_pl": "překladech",
+      "n_ess_sg": "překladu",
+      "n_gen_pl": "překladů",
+      "n_gen_sg": "překladu",
+      "n_ins_pl": "překlady",
+      "n_ins_sg": "překladem",
+      "n_nom_pl": "překlady",
+      "n_nom_sg": "překlad",
+      "n_voc_pl": "překlady",
+      "n_voc_sg": "překlade",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "přijít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "přijít",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "přišly bychom",
+      "v_cond_prs_1_pl_masc": "přišli bychom",
+      "v_cond_prs_1_pl_masc_anim": "přišli by",
+      "v_cond_prs_1_pl_masc_inan": "přišly by",
+      "v_cond_prs_1_pl_neut": "přišla bychom",
+      "v_cond_prs_1_sg_fem": "přišla bych",
+      "v_cond_prs_1_sg_masc": "přišel bych",
+      "v_cond_prs_1_sg_neut": "přišlo bych",
+      "v_cond_prs_2_pl_fem": "přišly byste",
+      "v_cond_prs_2_pl_masc": "přišli byste",
+      "v_cond_prs_2_pl_neut": "přišla byste",
+      "v_cond_prs_2_sg_fem": "přišla bys",
+      "v_cond_prs_2_sg_form_fem": "přišla byste",
+      "v_cond_prs_2_sg_form_masc": "přišel byste",
+      "v_cond_prs_2_sg_form_neut": "přišlo byste",
+      "v_cond_prs_2_sg_masc": "přišel bys",
+      "v_cond_prs_2_sg_neut": "přišlo bys",
+      "v_cond_prs_3_pl_fem": "přišly by",
+      "v_cond_prs_3_pl_neut": "přišla by",
+      "v_cond_prs_3_sg_fem": "přišla by",
+      "v_cond_prs_3_sg_masc": "přišel by",
+      "v_cond_prs_3_sg_neut": "přišlo by",
+      "v_cond_pst_1_pl_fem": "byly bychom přišly",
+      "v_cond_pst_1_pl_masc": "byli bychom přišli",
+      "v_cond_pst_1_pl_neut": "byla bychom přišla",
+      "v_cond_pst_1_sg_fem": "byla bych přišla",
+      "v_cond_pst_1_sg_masc": "byl bych přišel",
+      "v_cond_pst_1_sg_neut": "bylo bych přišlo",
+      "v_cond_pst_2_pl_fem": "byly byste přišly",
+      "v_cond_pst_2_pl_masc": "byli byste přišli",
+      "v_cond_pst_2_pl_neut": "byla byste přišla",
+      "v_cond_pst_2_sg_fem": "byla bys přišla",
+      "v_cond_pst_2_sg_form_fem": "byla byste přišla",
+      "v_cond_pst_2_sg_form_masc": "byl byste přišel",
+      "v_cond_pst_2_sg_form_neut": "bylo byste přišlo",
+      "v_cond_pst_2_sg_masc": "byl bys přišel",
+      "v_cond_pst_2_sg_neut": "bylo bys přišlo",
+      "v_cond_pst_3_pl_fem": "byly by přišly",
+      "v_cond_pst_3_pl_masc_anim": "byli by přišli",
+      "v_cond_pst_3_pl_masc_inan": "byly by přišly",
+      "v_cond_pst_3_pl_neut": "byla by šla",
+      "v_cond_pst_3_sg_fem": "byla by přišla",
+      "v_cond_pst_3_sg_masc": "byl by přišel",
+      "v_cond_pst_3_sg_neut": "bylo by přišlo",
+      "v_cvb_prs_fem_sg": "přijdouc",
+      "v_cvb_prs_masc_sg": "přijda",
+      "v_cvb_prs_pl": "přijdouce",
+      "v_cvb_pst_fem_sg": "přišedši",
+      "v_cvb_pst_masc_sg": "přišed",
+      "v_cvb_pst_pl": "přišedše",
+      "v_imp_1_pl": "přijděme",
+      "v_imp_2_pl": "přijděte",
+      "v_imp_2_sg": "přijdi",
+      "v_imp_2_sg_form": "přijděte",
+      "v_ind_fut_1_pl": "přijdeme",
+      "v_ind_fut_1_sg": "přijdu",
+      "v_ind_fut_2_pl": "přijdete",
+      "v_ind_fut_2_sg": "přijdeš",
+      "v_ind_fut_2_sg_form": "přijdete",
+      "v_ind_fut_3_pl": "přijdou",
+      "v_ind_fut_3_sg": "přijde",
+      "v_ind_prs_1_pl": "přijdeme",
+      "v_ind_prs_1_sg": "přijdu",
+      "v_ind_prs_2_pl": "přijdete",
+      "v_ind_prs_2_sg": "přijdeš",
+      "v_ind_prs_2_sg_form": "přijdete",
+      "v_ind_prs_3_pl": "přijdou",
+      "v_ind_prs_3_sg": "přijde",
+      "v_ind_pst_1_pl_fem": "přišly jsme",
+      "v_ind_pst_1_pl_masc": "přišli jsme",
+      "v_ind_pst_1_pl_neut": "přišla jsme",
+      "v_ind_pst_1_sg_fem": "přišla jsem",
+      "v_ind_pst_1_sg_masc": "přišel jsem",
+      "v_ind_pst_1_sg_neut": "přišlo jsem",
+      "v_ind_pst_2_pl_fem": "přišly jste",
+      "v_ind_pst_2_pl_masc": "přišli jste",
+      "v_ind_pst_2_pl_neut": "přišla jste",
+      "v_ind_pst_2_sg_fem": "přišla jsi",
+      "v_ind_pst_2_sg_form_fem": "přišla jste",
+      "v_ind_pst_2_sg_form_masc": "přišel jste",
+      "v_ind_pst_2_sg_form_neut": "přišlo jste",
+      "v_ind_pst_2_sg_masc": "přišel jsi",
+      "v_ind_pst_2_sg_neut": "přišlo jsi",
+      "v_ind_pst_3_pl_fem": "přišly",
+      "v_ind_pst_3_pl_masc_anim": "přišli",
+      "v_ind_pst_3_pl_masc_inan": "přišly",
+      "v_ind_pst_3_pl_neut": "přišla",
+      "v_ind_pst_3_sg_fem": "přišla",
+      "v_ind_pst_3_sg_masc": "přišel",
+      "v_ind_pst_3_sg_neut": "přišlo",
+      "v_nfin": "přijet",
+      "v_ptcp_act_prf_anim_masc_pl": "přišli",
+      "v_ptcp_act_prf_fem_pl": "přišly",
+      "v_ptcp_act_prf_fem_sg": "přišla",
+      "v_ptcp_act_prf_inan_masc_pl": "přišly",
+      "v_ptcp_act_prf_masc_sg": "přišel",
+      "v_ptcp_act_prf_neut_pl": "přišla",
+      "v_ptcp_act_prf_neut_sg": "přišlo",
+      "v_ptcp_pass_anim_masc_pl": "přijiti",
+      "v_ptcp_pass_fem_pl": "přijity",
+      "v_ptcp_pass_fem_sg": "přijita",
+      "v_ptcp_pass_inan_masc_pl": "přijity",
+      "v_ptcp_pass_masc_sg": "přijit",
+      "v_ptcp_pass_neut_pl": "přijita",
+      "v_ptcp_pass_neut_sg": "přijito"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "příběh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "příběh",
+    "inflections": {
+      "n_acc_pl": "příběhy",
+      "n_acc_sg": "příběh",
+      "n_dat_pl": "příběhům",
+      "n_dat_sg": "příběhu",
+      "n_ess_pl": "příbězích",
+      "n_ess_sg": "příběhu",
+      "n_gen_pl": "příběhů",
+      "n_gen_sg": "příběhu",
+      "n_ins_pl": "příběhy",
+      "n_ins_sg": "příběhem",
+      "n_nom_pl": "příběhy",
+      "n_nom_sg": "příběh",
+      "n_voc_pl": "příběhy",
+      "n_voc_sg": "příběhu",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "případ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "případ",
+    "inflections": {
+      "n_acc_pl": "případy",
+      "n_acc_sg": "případ",
+      "n_dat_pl": "případům",
+      "n_dat_sg": "případu",
+      "n_ess_pl": "případech",
+      "n_ess_sg": "případu",
+      "n_gen_pl": "případů",
+      "n_gen_sg": "případu",
+      "n_ins_pl": "případy",
+      "n_ins_sg": "případem",
+      "n_nom_pl": "případy",
+      "n_nom_sg": "případ",
+      "n_voc_pl": "případy",
+      "n_voc_sg": "případe",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "přítel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "přítel",
+    "inflections": {
+      "n_acc_pl": "přátele",
+      "n_acc_sg": "přítele",
+      "n_dat_pl": "přátelům",
+      "n_dat_sg": "příteli",
+      "n_ess_pl": "přátelích",
+      "n_ess_sg": "příteli",
+      "n_gen_pl": "přátel",
+      "n_gen_sg": "přítele",
+      "n_ins_pl": "přáteli",
+      "n_ins_sg": "přítelem",
+      "n_nom_pl": "přátelé",
+      "n_nom_sg": "přítel",
+      "n_voc_pl": "přátelé",
+      "n_voc_sg": "příteli",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "rande": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rande",
+    "inflections": {
+      "n_acc_pl": "rande",
+      "n_acc_sg": "rande",
+      "n_dat_pl": "rande",
+      "n_dat_sg": "rande",
+      "n_ess_pl": "rande",
+      "n_ess_sg": "rande",
+      "n_gen_pl": "rande",
+      "n_gen_sg": "rande",
+      "n_ins_pl": "rande",
+      "n_ins_sg": "rande",
+      "n_nom_pl": "rande",
+      "n_nom_sg": "rande",
+      "n_voc_pl": "rande",
+      "n_voc_sg": "rande",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "rodina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rodina",
+    "inflections": {
+      "n_acc_pl": "rodiny",
+      "n_acc_sg": "rodinu",
+      "n_dat_pl": "rodinám",
+      "n_dat_sg": "rodině",
+      "n_ess_pl": "rodinách",
+      "n_ess_sg": "rodině",
+      "n_gen_pl": "rodin",
+      "n_gen_sg": "rodiny",
+      "n_ins_pl": "rodinami",
+      "n_ins_sg": "rodinou",
+      "n_nom_pl": "rodiny",
+      "n_nom_sg": "rodina",
+      "n_voc_pl": "rodiny",
+      "n_voc_sg": "rodino",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "rok": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rok",
+    "inflections": {
+      "n_acc_pl": "roky",
+      "n_acc_sg": "rok",
+      "n_dat_pl": "rokům",
+      "n_dat_sg": "roku",
+      "n_ess_pl": "rocích",
+      "n_ess_sg": "roku",
+      "n_gen_pl": "roků",
+      "n_gen_sg": "roka",
+      "n_ins_pl": "roky",
+      "n_ins_sg": "rokem",
+      "n_nom_pl": "roky",
+      "n_nom_sg": "rok",
+      "n_voc_pl": "roky",
+      "n_voc_sg": "roku",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "rozhodnutí": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rozhodnutí",
+    "inflections": {
+      "n_acc_pl": "rozhodnutí",
+      "n_acc_sg": "rozhodnutí",
+      "n_dat_pl": "rozhodnutím",
+      "n_dat_sg": "rozhodnutí",
+      "n_ess_pl": "rozhodnutích",
+      "n_ess_sg": "rozhodnutí",
+      "n_gen_pl": "rozhodnutí",
+      "n_gen_sg": "rozhodnutí",
+      "n_ins_pl": "rozhodnutími",
+      "n_ins_sg": "rozhodnutím",
+      "n_nom_pl": "rozhodnutí",
+      "n_nom_sg": "rozhodnutí",
+      "n_voc_pl": "rozhodnutí",
+      "n_voc_sg": "rozhodnutí",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ruka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ruka",
+    "inflections": {
+      "n_acc_pl": "ruce",
+      "n_acc_sg": "ruku",
+      "n_dat_sg": "ruce",
+      "n_ess_pl": "rukou",
+      "n_ess_sg": "ruce",
+      "n_gen_pl": "rukou",
+      "n_ins_sg": "rukou",
+      "n_nom_pl": "ruce",
+      "n_voc_pl": "ruce",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "rána": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rána",
+    "inflections": {
+      "n_voc_sg": "ráno",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [
+      "Učím se."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sestra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sestra",
+    "inflections": {
+      "n_acc_pl": "sestry",
+      "n_acc_sg": "sestru",
+      "n_dat_pl": "sestrám",
+      "n_dat_sg": "sestře",
+      "n_ess_pl": "sestrách",
+      "n_ess_sg": "sestře",
+      "n_gen_pl": "sester",
+      "n_gen_sg": "sestry",
+      "n_ins_pl": "sestrami",
+      "n_ins_sg": "sestrou",
+      "n_nom_pl": "sestry",
+      "n_nom_sg": "sestra",
+      "n_voc_pl": "sestry",
+      "n_voc_sg": "sestro",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "si": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [
+      "Mysli na sebe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "skutečnost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skutečnost",
+    "inflections": {
+      "n_acc_pl": "skutečnosti",
+      "n_dat_sg": "skutečnosti",
+      "n_ess_sg": "skutečnosti",
+      "n_gen_sg": "skutečnosti",
+      "n_nom_pl": "skutečnosti",
+      "n_voc_pl": "skutečnosti",
+      "n_voc_sg": "skutečnosti",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "skvělý": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skvělý",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "skvělého",
+      "adj_acc_fem_pl": "skvělé",
+      "adj_acc_fem_sg": "skvělou",
+      "adj_acc_inan_masc_sg": "skvělý",
+      "adj_acc_masc_pl": "skvělé",
+      "adj_acc_neut_pl": "skvělá",
+      "adj_acc_neut_sg": "skvělé",
+      "adj_dat_fem_sg": "skvělé",
+      "adj_dat_masc_sg": "skvělému",
+      "adj_dat_neut_sg": "skvělému",
+      "adj_dat_pl": "skvělým",
+      "adj_ess_fem_sg": "skvělé",
+      "adj_ess_masc_sg": "skvělém",
+      "adj_ess_neut_sg": "skvělým",
+      "adj_ess_pl": "skvělých",
+      "adj_gen_fem_sg": "skvělé",
+      "adj_gen_masc_sg": "skvělého",
+      "adj_gen_neut_sg": "skvělého",
+      "adj_gen_pl": "skvělých",
+      "adj_ins_masc_sg": "skvělým",
+      "adj_ins_pl": "skvělými",
+      "adj_nom_anim_masc_pl": "skvělí",
+      "adj_nom_fem_pl": "skvělé",
+      "adj_nom_fem_sg": "skvělá",
+      "adj_nom_masc_pl": "skvělé",
+      "adj_nom_masc_sg": "skvělý",
+      "adj_nom_neut_pl": "skvělá",
+      "adj_nom_neut_sg": "skvělé",
+      "adj_voc_anim_masc_pl": "skvělí",
+      "adj_voc_fem_pl": "skvělé",
+      "adj_voc_fem_sg": "skvělá",
+      "adj_voc_masc_pl": "skvělé",
+      "adj_voc_masc_sg": "skvělý",
+      "adj_voc_neut_pl": "skvělá",
+      "adj_voc_neut_sg": "skvělé",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "slovo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "slovo",
+    "inflections": {
+      "n_acc_pl": "slova",
+      "n_acc_sg": "slovo",
+      "n_dat_pl": "slovům",
+      "n_dat_sg": "slovu",
+      "n_ess_pl": "slovech",
+      "n_ess_sg": "slovu",
+      "n_gen_pl": "slov",
+      "n_gen_sg": "slova",
+      "n_ins_pl": "slovy",
+      "n_ins_sg": "slovem",
+      "n_nom_pl": "slova",
+      "n_nom_sg": "slovo",
+      "n_voc_pl": "slova",
+      "n_voc_sg": "slovo",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "smrt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smrt",
+    "inflections": {
+      "n_acc_pl": "smrti",
+      "n_acc_sg": "smrt",
+      "n_dat_pl": "smrtím",
+      "n_dat_sg": "smrti",
+      "n_ess_pl": "smrtích",
+      "n_ess_sg": "smrti",
+      "n_gen_pl": "smrtí",
+      "n_gen_sg": "smrti",
+      "n_ins_pl": "smrtmi",
+      "n_ins_sg": "smrtí",
+      "n_nom_pl": "smrti",
+      "n_nom_sg": "smrt",
+      "n_voc_pl": "smrti",
+      "n_voc_sg": "smrti",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "smysl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smysl",
+    "inflections": {
+      "n_acc_pl": "smysly",
+      "n_acc_sg": "smysl",
+      "n_dat_pl": "smyslům",
+      "n_dat_sg": "smyslu",
+      "n_ess_pl": "smyslech",
+      "n_ess_sg": "smyslu",
+      "n_gen_pl": "smyslů",
+      "n_gen_sg": "smyslu",
+      "n_ins_pl": "smysly",
+      "n_ins_sg": "smyslem",
+      "n_nom_pl": "smysly",
+      "n_nom_sg": "smysl",
+      "n_voc_pl": "smysly",
+      "n_voc_sg": "smysle",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "sníst": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sníst",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "no"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "společnost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "společnost",
+    "inflections": {
+      "n_acc_pl": "společnosti",
+      "n_acc_sg": "společnost",
+      "n_dat_pl": "společnostem",
+      "n_dat_sg": "společnosti",
+      "n_ess_pl": "společnostech",
+      "n_ess_sg": "společnosti",
+      "n_gen_pl": "společností",
+      "n_gen_sg": "společnosti",
+      "n_ins_pl": "společnostmi",
+      "n_ins_sg": "společností",
+      "n_nom_pl": "společnosti",
+      "n_nom_sg": "společnost",
+      "n_voc_pl": "společnosti",
+      "n_voc_sg": "společnosti",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "sponzorovat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sponzorovat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "jmenuje"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "spousta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spousta",
+    "inflections": {
+      "n_acc_sg": "spoustu",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "sranda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sranda",
+    "inflections": {
+      "n_acc_sg": "srandu",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "srdce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "srdce",
+    "inflections": {
+      "n_acc_pl": "srdce",
+      "n_acc_sg": "srdce",
+      "n_dat_pl": "srdcím",
+      "n_dat_sg": "srdci",
+      "n_ess_pl": "srdcích",
+      "n_ess_sg": "srdci",
+      "n_gen_pl": "srdcí",
+      "n_gen_sg": "srdce",
+      "n_ins_pl": "srdci",
+      "n_ins_sg": "srdcem",
+      "n_nom_pl": "srdce",
+      "n_nom_sg": "srdce",
+      "n_voc_pl": "srdce",
+      "n_voc_sg": "srdce",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "stan": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stan",
+    "inflections": {
+      "n_voc_sg": "stane",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "starost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "starost",
+    "inflections": {
+      "n_acc_pl": "starosti",
+      "n_dat_sg": "starosti",
+      "n_ess_sg": "starosti",
+      "n_gen_sg": "starosti",
+      "n_nom_pl": "starosti",
+      "n_voc_pl": "starosti",
+      "n_voc_sg": "starosti",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "strach": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "strach",
+    "inflections": {
+      "n_acc_pl": "strachy",
+      "n_acc_sg": "strach",
+      "n_dat_pl": "strachům",
+      "n_dat_sg": "strachu",
+      "n_ess_pl": "straších",
+      "n_ess_sg": "strachu",
+      "n_gen_pl": "strachů",
+      "n_gen_sg": "strachu",
+      "n_ins_pl": "strachy",
+      "n_ins_sg": "strachem",
+      "n_nom_pl": "strachy",
+      "n_nom_sg": "strach",
+      "n_voc_pl": "strachy",
+      "n_voc_sg": "strachu",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "strana": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "strana",
+    "inflections": {
+      "n_dat_sg": "straně",
+      "n_ess_sg": "straně",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "svět": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svět",
+    "inflections": {
+      "n_acc_pl": "světy",
+      "n_acc_sg": "svět",
+      "n_dat_pl": "světům",
+      "n_dat_sg": "světu",
+      "n_ess_pl": "světech",
+      "n_ess_sg": "světě",
+      "n_gen_pl": "světů",
+      "n_gen_sg": "světa",
+      "n_ins_pl": "světy",
+      "n_ins_sg": "světem",
+      "n_nom_pl": "světy",
+      "n_nom_sg": "svět",
+      "n_voc_pl": "světy",
+      "n_voc_sg": "světe",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "syn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "syn",
+    "inflections": {
+      "n_acc_pl": "syny",
+      "n_acc_sg": "syna",
+      "n_dat_pl": "synům",
+      "n_dat_sg": "synu",
+      "n_ess_pl": "synech",
+      "n_ess_sg": "synu",
+      "n_gen_pl": "synů",
+      "n_gen_sg": "syna",
+      "n_ins_pl": "syny",
+      "n_ins_sg": "synem",
+      "n_nom_pl": "synové",
+      "n_nom_sg": "syn",
+      "n_voc_pl": "synové",
+      "n_voc_sg": "synu",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "sám": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sám",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "samému",
+      "adj_acc_fem_sg": "samému",
+      "adj_acc_masc_sg": "samému",
+      "adj_acc_neut_sg": "samému",
+      "adj_acc_pl": "samým",
+      "adj_dat_fem_sg": "samého",
+      "adj_dat_masc_sg": "samého",
+      "adj_dat_neut_sg": "samé",
+      "adj_dat_pl": "samých‎‎",
+      "adj_ess_fem_sg": "samém",
+      "adj_ess_masc_sg": "samém",
+      "adj_ess_neut_sg": "samé",
+      "adj_ess_pl": "samých",
+      "adj_gen_fem_sg": "sám",
+      "adj_gen_masc_sg": "sám",
+      "adj_gen_neut_sg": "sama",
+      "adj_gen_pl": "sami",
+      "adj_ins_fem_sg": "samým",
+      "adj_ins_masc_sg": "samým",
+      "adj_ins_neut_sg": "samou",
+      "adj_ins_pl": "samými",
+      "adj_nom_pl": "masculine animate",
+      "adj_nom_sg": "masculine animate",
+      "adj_voc_pl": "sami",
+      "adj_voc_sg": "sama",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "tajemství": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tajemství",
+    "inflections": {
+      "n_acc_pl": "tajemství",
+      "n_acc_sg": "tajemství",
+      "n_dat_pl": "tajemstvím",
+      "n_dat_sg": "tajemství",
+      "n_ess_pl": "tajemstvích",
+      "n_ess_sg": "tajemství",
+      "n_gen_pl": "tajemství",
+      "n_gen_sg": "tajemství",
+      "n_ins_pl": "tajemstvími",
+      "n_ins_sg": "tajemstvím",
+      "n_nom_pl": "tajemství",
+      "n_nom_sg": "tajemství",
+      "n_voc_pl": "tajemství",
+      "n_voc_sg": "tajemství",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "takže": {
+    "antonyms": [],
+    "base": "takže",
+    "examples": [
+      "Bylo to těžké, takže jsem se vzdal."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "telefon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefon",
+    "inflections": {
+      "n_acc_pl": "telefony",
+      "n_acc_sg": "telefon",
+      "n_dat_pl": "telefonům",
+      "n_dat_sg": "telefonu",
+      "n_ess_pl": "telefonech",
+      "n_ess_sg": "telefonu",
+      "n_gen_pl": "telefonů",
+      "n_gen_sg": "telefonu",
+      "n_ins_pl": "telefony",
+      "n_ins_sg": "telefonem",
+      "n_nom_pl": "telefony",
+      "n_nom_sg": "telefon",
+      "n_voc_pl": "telefony",
+      "n_voc_sg": "telefone",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ten": {
+    "antonyms": [],
+    "base": "ten",
+    "examples": [
+      "Ten stůl je nový."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ti": {
+    "antonyms": [],
+    "base": "ti",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tisíc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tisíc",
+    "inflections": {
+      "n_acc_pl": "tisíce",
+      "n_acc_sg": "tisíc",
+      "n_dat_pl": "tisícům",
+      "n_dat_sg": "tisíci",
+      "n_ess_pl": "tisících",
+      "n_ess_sg": "tisíci",
+      "n_gen_pl": "tisíc",
+      "n_gen_sg": "tisíce",
+      "n_ins_pl": "tisíci",
+      "n_ins_sg": "tisícem",
+      "n_nom_pl": "tisíce",
+      "n_nom_sg": "tisíc",
+      "n_voc_pl": "tisíce",
+      "n_voc_sg": "tisíci",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "Jdu to udělat."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "toho": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "Mluvím o toho."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tu": {
+    "antonyms": [],
+    "base": "tu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "táta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "táta",
+    "inflections": {
+      "n_acc_pl": "táty",
+      "n_acc_sg": "tátu",
+      "n_dat_pl": "tátům",
+      "n_dat_sg": "tátovi",
+      "n_ess_pl": "tátech",
+      "n_ess_sg": "tátovi",
+      "n_gen_pl": "tátů",
+      "n_gen_sg": "táty",
+      "n_ins_pl": "táty",
+      "n_ins_sg": "tátou",
+      "n_nom_pl": "tátové",
+      "n_nom_sg": "táta",
+      "n_voc_pl": "tátové",
+      "n_voc_sg": "táto",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tím": {
+    "antonyms": [],
+    "base": "tím",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "týden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "týden",
+    "inflections": {
+      "n_acc_pl": "týdny",
+      "n_acc_sg": "týden",
+      "n_dat_pl": "týdnům",
+      "n_dat_sg": "týdnu",
+      "n_ess_pl": "týdnech",
+      "n_ess_sg": "týdnu",
+      "n_gen_pl": "týdnů",
+      "n_gen_sg": "týdne",
+      "n_ins_pl": "týdny",
+      "n_ins_sg": "týdnem",
+      "n_nom_pl": "týdny",
+      "n_nom_sg": "týden",
+      "n_voc_pl": "týdny",
+      "n_voc_sg": "týdne",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tým": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tým",
+    "inflections": {
+      "n_acc_pl": "týmy",
+      "n_acc_sg": "tým",
+      "n_dat_pl": "týmům",
+      "n_dat_sg": "týmu",
+      "n_ess_pl": "týmech",
+      "n_ess_sg": "týmu",
+      "n_gen_pl": "týmů",
+      "n_gen_sg": "týmu",
+      "n_ins_pl": "týmy",
+      "n_ins_sg": "týmem",
+      "n_nom_pl": "týmy",
+      "n_nom_sg": "tým",
+      "n_voc_pl": "týmy",
+      "n_voc_sg": "týme",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "tělo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tělo",
+    "inflections": {
+      "n_acc_pl": "těla",
+      "n_acc_sg": "tělo",
+      "n_dat_pl": "tělům",
+      "n_dat_sg": "tělu",
+      "n_ess_pl": "tělech",
+      "n_ess_sg": "tělu",
+      "n_gen_pl": "těl",
+      "n_gen_sg": "těla",
+      "n_ins_pl": "těly",
+      "n_ins_sg": "tělem",
+      "n_nom_pl": "těla",
+      "n_nom_sg": "tělo",
+      "n_voc_pl": "těla",
+      "n_voc_sg": "tělo",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "těžký": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "těžký",
+    "inflections": {
+      "adj_acc_fem_pl": "těžké",
+      "adj_acc_masc_pl": "těžké",
+      "adj_acc_neut_sg": "těžké",
+      "adj_dat_fem_sg": "těžké",
+      "adj_ess_fem_sg": "těžké",
+      "adj_gen_fem_sg": "těžké",
+      "adj_nom_fem_pl": "těžké",
+      "adj_nom_masc_pl": "těžké",
+      "adj_nom_neut_sg": "těžké",
+      "adj_voc_fem_pl": "těžké",
+      "adj_voc_masc_pl": "těžké",
+      "adj_voc_neut_sg": "těžké",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "udělat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "udělat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_1_pl": "uděláme",
+      "v_ind_fut_1_sg": "udělám",
+      "v_ind_fut_2_pl": "uděláte",
+      "v_ind_fut_2_sg": "uděláš",
+      "v_ind_fut_3_pl": "udělají",
+      "v_ind_fut_3_sg": "udělá",
+      "v_ind_pst_1_pl_fem": "udělali",
+      "v_ind_pst_1_pl_masc": "udělali",
+      "v_ind_pst_1_pl_neut": "udělali",
+      "v_ind_pst_1_sg_fem": "udělal",
+      "v_ind_pst_1_sg_masc": "udělal",
+      "v_ind_pst_1_sg_neut": "udělal",
+      "v_ind_pst_2_pl_fem": "udělali",
+      "v_ind_pst_2_pl_masc": "udělali",
+      "v_ind_pst_2_pl_neut": "udělali",
+      "v_ind_pst_2_sg_fem": "udělal",
+      "v_ind_pst_2_sg_masc": "udělal",
+      "v_ind_pst_2_sg_neut": "udělal",
+      "v_ind_pst_3_pl_fem": "udělali",
+      "v_ind_pst_3_pl_masc": "udělali",
+      "v_ind_pst_3_pl_neut": "udělali",
+      "v_ind_pst_3_sg_fem": "udělal",
+      "v_ind_pst_3_sg_masc": "udělal",
+      "v_ind_pst_3_sg_neut": "udělal"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "umřít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "umřít",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "no"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "už": {
+    "antonyms": [],
+    "base": "už",
+    "examples": [
+      "Už jsem tam byl."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "v": {
+    "antonyms": [],
+    "base": "v",
+    "examples": [
+      "Jsem v domě."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "velký": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "velký",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "velkého",
+      "adj_acc_fem_pl": "velké",
+      "adj_acc_fem_sg": "velkou",
+      "adj_acc_inan_masc_sg": "velký",
+      "adj_acc_masc_pl": "velké",
+      "adj_acc_neut_pl": "velká",
+      "adj_acc_neut_sg": "velké",
+      "adj_dat_fem_sg": "velké",
+      "adj_dat_masc_sg": "velkému",
+      "adj_dat_neut_sg": "velkému",
+      "adj_dat_pl": "velkým",
+      "adj_ess_fem_sg": "velké",
+      "adj_ess_masc_sg": "velkém",
+      "adj_ess_neut_sg": "velkým",
+      "adj_ess_pl": "velkých",
+      "adj_gen_fem_sg": "velké",
+      "adj_gen_masc_sg": "velkého",
+      "adj_gen_neut_sg": "velkého",
+      "adj_gen_pl": "velkých",
+      "adj_ins_masc_sg": "velkým",
+      "adj_ins_pl": "velkými",
+      "adj_nom_anim_masc_pl": "velcí",
+      "adj_nom_fem_pl": "velké",
+      "adj_nom_fem_sg": "velká",
+      "adj_nom_masc_pl": "velké",
+      "adj_nom_masc_sg": "velký",
+      "adj_nom_neut_pl": "velká",
+      "adj_nom_neut_sg": "velké",
+      "adj_voc_anim_masc_pl": "velcí",
+      "adj_voc_fem_pl": "velké",
+      "adj_voc_fem_sg": "velká",
+      "adj_voc_masc_pl": "velké",
+      "adj_voc_masc_sg": "velký",
+      "adj_voc_neut_pl": "velká",
+      "adj_voc_neut_sg": "velké",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "večer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "večer",
+    "inflections": {
+      "n_acc_pl": "večery",
+      "n_acc_sg": "večer",
+      "n_dat_pl": "večerům",
+      "n_dat_sg": "večeru",
+      "n_ess_pl": "večerech",
+      "n_ess_sg": "večeru",
+      "n_gen_pl": "večerů",
+      "n_gen_sg": "večera",
+      "n_ins_pl": "večery",
+      "n_ins_sg": "večerem",
+      "n_nom_pl": "večery",
+      "n_nom_sg": "večer",
+      "n_voc_pl": "večery",
+      "n_voc_sg": "večere",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "večeře": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "večeře",
+    "inflections": {
+      "n_acc_sg": "večeři",
+      "n_dat_sg": "večeři",
+      "n_ess_sg": "večeři",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "vidět": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vidět",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_2_pl": "budeme vidět",
+      "v_ind_fut_2_sg": "budu vidět",
+      "v_ind_fut_3_pl": "budete vidět",
+      "v_ind_fut_3_sg": "budeš vidět",
+      "v_ind_prs_2_pl": "vidíme",
+      "v_ind_prs_2_sg": "vidím",
+      "v_ind_prs_3_pl": "vidíte",
+      "v_ind_prs_3_sg": "vidíš",
+      "v_ind_pst_2_pl_fem": "viděli",
+      "v_ind_pst_2_pl_masc": "viděli",
+      "v_ind_pst_2_pl_neut": "viděli",
+      "v_ind_pst_2_sg_fem": "viděl",
+      "v_ind_pst_2_sg_masc": "viděl",
+      "v_ind_pst_2_sg_neut": "viděl",
+      "v_ind_pst_3_pl_fem": "viděli",
+      "v_ind_pst_3_pl_masc": "viděli",
+      "v_ind_pst_3_pl_neut": "viděli",
+      "v_ind_pst_3_sg_fem": "viděl",
+      "v_ind_pst_3_sg_masc": "viděl",
+      "v_ind_pst_3_sg_neut": "viděl"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "vlas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vlas",
+    "inflections": {
+      "n_acc_pl": "vlasy",
+      "n_ins_pl": "vlasy",
+      "n_nom_pl": "vlasy",
+      "n_voc_pl": "vlasy",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "vzít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vzít",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_pl": "vezmeme",
+      "v_ind_prs_2_sg": "vezmu",
+      "v_ind_prs_3_pl": "vezmete",
+      "v_ind_prs_3_sg": "vezmeš",
+      "v_ind_pst_2_pl_fem": "vzali",
+      "v_ind_pst_2_pl_masc": "vzali",
+      "v_ind_pst_2_pl_neut": "vzali",
+      "v_ind_pst_2_sg_fem": "vzal",
+      "v_ind_pst_2_sg_masc": "vzal",
+      "v_ind_pst_2_sg_neut": "vzal",
+      "v_ind_pst_3_pl_fem": "vzali",
+      "v_ind_pst_3_pl_masc": "vzali",
+      "v_ind_pst_3_pl_neut": "vzali",
+      "v_ind_pst_3_sg_fem": "vzal",
+      "v_ind_pst_3_sg_masc": "vzal",
+      "v_ind_pst_3_sg_neut": "vzal"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "vás": {
+    "antonyms": [],
+    "base": "vy",
+    "examples": [
+      "Vidím vás."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vést": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vést",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "vede"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "vím": {
+    "antonyms": [],
+    "base": "vím",
+    "examples": [
+      "Vím, co děláš."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "věc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "věc",
+    "inflections": {
+      "n_acc_pl": "věci",
+      "n_acc_sg": "věc",
+      "n_dat_pl": "věcem",
+      "n_dat_sg": "věci",
+      "n_ess_pl": "věcech",
+      "n_ess_sg": "věci",
+      "n_gen_pl": "věcí",
+      "n_gen_sg": "věci",
+      "n_ins_pl": "věcmi",
+      "n_ins_sg": "věcí",
+      "n_nom_pl": "věci",
+      "n_nom_sg": "věc",
+      "n_voc_pl": "věci",
+      "n_voc_sg": "věci",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "vědět": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vědět",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_1_pl": "budeme vědět",
+      "v_ind_fut_1_sg": "budu vědět",
+      "v_ind_fut_2_pl": "budete vědět",
+      "v_ind_fut_2_sg": "budeš vědět",
+      "v_ind_fut_3_pl": "budou vědět",
+      "v_ind_fut_3_sg": "bude vědět",
+      "v_ind_prs_1_pl": "víme",
+      "v_ind_prs_1_sg": "vím",
+      "v_ind_prs_2_pl": "víte",
+      "v_ind_prs_2_sg": "víš",
+      "v_ind_prs_3_pl": "vědí",
+      "v_ind_prs_3_sg": "ví",
+      "v_ind_pst_1_pl_fem": "věděli",
+      "v_ind_pst_1_pl_masc": "věděli",
+      "v_ind_pst_1_pl_neut": "věděli",
+      "v_ind_pst_1_sg_fem": "věděl",
+      "v_ind_pst_1_sg_masc": "věděl",
+      "v_ind_pst_1_sg_neut": "věděl",
+      "v_ind_pst_2_pl_fem": "věděli",
+      "v_ind_pst_2_pl_masc": "věděli",
+      "v_ind_pst_2_pl_neut": "věděli",
+      "v_ind_pst_2_sg_fem": "věděl",
+      "v_ind_pst_2_sg_masc": "věděl",
+      "v_ind_pst_2_sg_neut": "věděl",
+      "v_ind_pst_3_pl_fem": "věděli",
+      "v_ind_pst_3_pl_masc": "věděli",
+      "v_ind_pst_3_pl_neut": "věděli",
+      "v_ind_pst_3_sg_fem": "věděl",
+      "v_ind_pst_3_sg_masc": "věděl",
+      "v_ind_pst_3_sg_neut": "věděl"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "vězení": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vězení",
+    "inflections": {
+      "n_acc_pl": "vězení",
+      "n_acc_sg": "vězení",
+      "n_dat_pl": "vězením",
+      "n_dat_sg": "vězení",
+      "n_ess_pl": "vězeních",
+      "n_ess_sg": "vězení",
+      "n_gen_pl": "vězení",
+      "n_gen_sg": "vězení",
+      "n_ins_pl": "vězeními",
+      "n_ins_sg": "vězením",
+      "n_nom_pl": "vězení",
+      "n_nom_sg": "vězení",
+      "n_voc_pl": "vězení",
+      "n_voc_sg": "vězení",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "za": {
+    "antonyms": [],
+    "base": "za",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "začínat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "začínat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "začíná"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "začít": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "začít",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_2_pl": "začneme",
+      "v_ind_fut_2_sg": "začnu",
+      "v_ind_fut_3_pl": "začnete",
+      "v_ind_fut_3_sg": "začneš",
+      "v_ind_pst_2_pl_fem": "začali",
+      "v_ind_pst_2_pl_masc": "začali",
+      "v_ind_pst_2_pl_neut": "začali",
+      "v_ind_pst_2_sg_fem": "začal",
+      "v_ind_pst_2_sg_masc": "začal",
+      "v_ind_pst_2_sg_neut": "začal",
+      "v_ind_pst_3_pl_fem": "začali",
+      "v_ind_pst_3_pl_masc": "začali",
+      "v_ind_pst_3_pl_neut": "začali",
+      "v_ind_pst_3_sg_fem": "začal",
+      "v_ind_pst_3_sg_masc": "začal",
+      "v_ind_pst_3_sg_neut": "začal"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "zbraň": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zbraň",
+    "inflections": {
+      "n_acc_pl": "zbraně",
+      "n_acc_sg": "zbraň",
+      "n_dat_pl": "zbraním",
+      "n_dat_sg": "zbrani",
+      "n_ess_pl": "zbraních",
+      "n_ess_sg": "zbrani",
+      "n_gen_pl": "zbraní",
+      "n_gen_sg": "zbraně",
+      "n_ins_pl": "zbraněmi",
+      "n_ins_sg": "zbraní",
+      "n_nom_pl": "zbraně",
+      "n_nom_sg": "zbraň",
+      "n_voc_pl": "zbraně",
+      "n_voc_sg": "zbrani",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "země": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "země",
+    "inflections": {
+      "n_acc_pl": "země",
+      "n_acc_sg": "zemi",
+      "n_dat_pl": "zemím",
+      "n_dat_sg": "zemi",
+      "n_ess_pl": "zemích",
+      "n_ess_sg": "zemi",
+      "n_gen_pl": "zemí",
+      "n_gen_sg": "země",
+      "n_ins_pl": "zeměmi",
+      "n_ins_sg": "zemí",
+      "n_nom_pl": "země",
+      "n_nom_sg": "země",
+      "n_voc_pl": "země",
+      "n_voc_sg": "země",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "zlato": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zlato",
+    "inflections": {
+      "n_acc_pl": "zlata",
+      "n_acc_sg": "zlato",
+      "n_dat_pl": "zlatům",
+      "n_dat_sg": "zlatu",
+      "n_ess_pl": "zlatech",
+      "n_ess_sg": "zlatu",
+      "n_gen_pl": "zlat",
+      "n_gen_sg": "zlata",
+      "n_ins_pl": "zlaty",
+      "n_ins_sg": "zlatem",
+      "n_nom_pl": "zlata",
+      "n_nom_sg": "zlato",
+      "n_voc_pl": "zlata",
+      "n_voc_sg": "zlato",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "znát": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "znát",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "znám",
+      "v_ind_prs_2_pl": "znáte",
+      "v_ind_prs_2_sg": "znáš",
+      "v_ind_prs_2_sg_form": "znáte"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "zpráva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zpráva",
+    "inflections": {
+      "n_acc_pl": "zprávy",
+      "n_acc_sg": "zprávu",
+      "n_gen_sg": "zprávy",
+      "n_nom_pl": "zprávy",
+      "n_voc_pl": "zprávy",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "způsob": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "způsob",
+    "inflections": {
+      "n_acc_pl": "způsoby",
+      "n_acc_sg": "způsob",
+      "n_dat_pl": "způsobům",
+      "n_dat_sg": "způsobu",
+      "n_ess_pl": "způsobech",
+      "n_ess_sg": "způsobu",
+      "n_gen_pl": "způsobů",
+      "n_gen_sg": "způsobu",
+      "n_ins_pl": "způsoby",
+      "n_ins_sg": "způsobem",
+      "n_nom_pl": "způsoby",
+      "n_nom_sg": "způsob",
+      "n_voc_pl": "způsoby",
+      "n_voc_sg": "způsobe",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "úžasný": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "úžasný",
+    "inflections": {
+      "adj_acc_fem_pl": "úžasné",
+      "adj_acc_masc_pl": "úžasné",
+      "adj_acc_neut_sg": "úžasné",
+      "adj_dat_fem_sg": "úžasné",
+      "adj_ess_fem_sg": "úžasné",
+      "adj_gen_fem_sg": "úžasné",
+      "adj_nom_fem_pl": "úžasné",
+      "adj_nom_masc_pl": "úžasné",
+      "adj_nom_neut_sg": "úžasné",
+      "adj_voc_fem_pl": "úžasné",
+      "adj_voc_masc_pl": "úžasné",
+      "adj_voc_neut_sg": "úžasné",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "čas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "čas",
+    "inflections": {
+      "n_acc_pl": "časy",
+      "n_acc_sg": "čas",
+      "n_dat_pl": "časům",
+      "n_dat_sg": "času",
+      "n_ess_pl": "časech",
+      "n_ess_sg": "čase",
+      "n_gen_pl": "časů",
+      "n_gen_sg": "času",
+      "n_ins_pl": "časy",
+      "n_ins_sg": "časem",
+      "n_nom_pl": "časy",
+      "n_nom_sg": "čas",
+      "n_voc_pl": "časy",
+      "n_voc_sg": "čase",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "čekat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "čekat",
+    "inflections": {
+      "regulars": [],
+      "v_cond_prs_1_pl_fem": "čekaly bychom",
+      "v_cond_prs_1_pl_masc": "čekali bychom",
+      "v_cond_prs_1_pl_masc_anim": "čekali by",
+      "v_cond_prs_1_pl_masc_inan": "čekaly by",
+      "v_cond_prs_1_pl_neut": "čekala bychom",
+      "v_cond_prs_1_sg_fem": "čekala bych",
+      "v_cond_prs_1_sg_masc": "čekal bych",
+      "v_cond_prs_1_sg_neut": "čekalo bych",
+      "v_cond_prs_2_pl_fem": "čekaly byste",
+      "v_cond_prs_2_pl_masc": "čekali byste",
+      "v_cond_prs_2_pl_neut": "čekala byste",
+      "v_cond_prs_2_sg_fem": "čekala bys",
+      "v_cond_prs_2_sg_form_fem": "čekala byste",
+      "v_cond_prs_2_sg_form_masc": "čekal byste",
+      "v_cond_prs_2_sg_form_neut": "čekalo byste",
+      "v_cond_prs_2_sg_masc": "čekal bys",
+      "v_cond_prs_2_sg_neut": "čekalo bys",
+      "v_cond_prs_3_pl_fem": "čekaly by",
+      "v_cond_prs_3_pl_neut": "čekala by",
+      "v_cond_prs_3_sg_fem": "čekala by",
+      "v_cond_prs_3_sg_masc": "čekal by",
+      "v_cond_prs_3_sg_neut": "čekalo by",
+      "v_cond_pst_1_pl_fem": "byly bychom čekaly",
+      "v_cond_pst_1_pl_masc": "byli bychom čekali",
+      "v_cond_pst_1_pl_neut": "byla bychom čekala",
+      "v_cond_pst_1_sg_fem": "byla bych čekala",
+      "v_cond_pst_1_sg_masc": "byl bych čekal",
+      "v_cond_pst_1_sg_neut": "bylo bych čekalo",
+      "v_cond_pst_2_pl_fem": "byly byste čekaly",
+      "v_cond_pst_2_pl_masc": "byli byste čekali",
+      "v_cond_pst_2_pl_neut": "byla byste čekala",
+      "v_cond_pst_2_sg_fem": "byla bys čekala",
+      "v_cond_pst_2_sg_form_fem": "byla byste čekala",
+      "v_cond_pst_2_sg_form_masc": "byl byste čekal",
+      "v_cond_pst_2_sg_form_neut": "bylo byste čekalo",
+      "v_cond_pst_2_sg_masc": "byl bys čekal",
+      "v_cond_pst_2_sg_neut": "bylo bys čekalo",
+      "v_cond_pst_3_pl_fem": "byly by čekaly",
+      "v_cond_pst_3_pl_masc_anim": "byli by čekali",
+      "v_cond_pst_3_pl_masc_inan": "byly by čekaly",
+      "v_cond_pst_3_pl_neut": "byla by čekala",
+      "v_cond_pst_3_sg_fem": "byla by čekala",
+      "v_cond_pst_3_sg_masc": "byl by čekal",
+      "v_cond_pst_3_sg_neut": "bylo by čekalo",
+      "v_cvb": "čekání",
+      "v_cvb_prs_fem_sg": "čekajíc",
+      "v_cvb_prs_masc_sg": "čekaje",
+      "v_cvb_prs_pl": "čekajíce",
+      "v_cvb_pst_fem_sg": "čekavši",
+      "v_cvb_pst_masc_sg": "čekav",
+      "v_cvb_pst_pl": "čekavše",
+      "v_imp_1_pl": "čekejme",
+      "v_imp_2_pl": "čekejte",
+      "v_imp_2_sg": "čekej",
+      "v_imp_2_sg_form": "čekejte",
+      "v_ind_fut_1_pl": "budeme čekat",
+      "v_ind_fut_1_sg": "budu čekat",
+      "v_ind_fut_2_pl": "budete čekat",
+      "v_ind_fut_2_sg": "budeš čekat",
+      "v_ind_fut_2_sg_form": "budete čekat",
+      "v_ind_fut_3_pl": "budou čekat",
+      "v_ind_fut_3_sg": "bude čekat",
+      "v_ind_prs_1_pl": "čekáme",
+      "v_ind_prs_1_sg": "čekám",
+      "v_ind_prs_2_pl": "čekáte",
+      "v_ind_prs_2_sg": "čekáš",
+      "v_ind_prs_2_sg_form": "čekáte",
+      "v_ind_prs_3_pl": "čekají",
+      "v_ind_prs_3_sg": "čeká",
+      "v_ind_pst_1_pl_fem": "čekaly jsme",
+      "v_ind_pst_1_pl_masc": "čekali jsme",
+      "v_ind_pst_1_pl_neut": "čekala jsme",
+      "v_ind_pst_1_sg_fem": "čekala jsem",
+      "v_ind_pst_1_sg_masc": "čekal jsem",
+      "v_ind_pst_1_sg_neut": "čekalo jsem",
+      "v_ind_pst_2_pl_fem": "čekaly jste",
+      "v_ind_pst_2_pl_masc": "čekali jste",
+      "v_ind_pst_2_pl_neut": "čekala jste",
+      "v_ind_pst_2_sg_fem": "čekala jsi",
+      "v_ind_pst_2_sg_form_fem": "čekala jste",
+      "v_ind_pst_2_sg_form_masc": "čekal jste",
+      "v_ind_pst_2_sg_form_neut": "čekalo jste",
+      "v_ind_pst_2_sg_masc": "čekal jsi",
+      "v_ind_pst_2_sg_neut": "čekalo jsi",
+      "v_ind_pst_3_pl_fem": "čekaly",
+      "v_ind_pst_3_pl_masc_anim": "čekali",
+      "v_ind_pst_3_pl_masc_inan": "čekaly",
+      "v_ind_pst_3_pl_neut": "čekala",
+      "v_ind_pst_3_sg_fem": "čekala",
+      "v_ind_pst_3_sg_masc": "čekal",
+      "v_ind_pst_3_sg_neut": "čekalo",
+      "v_nfin": "čekat",
+      "v_ptcp": "čekající",
+      "v_ptcp_act_prf_anim_masc_pl": "čekali",
+      "v_ptcp_act_prf_fem_pl": "čekaly",
+      "v_ptcp_act_prf_fem_sg": "čekala",
+      "v_ptcp_act_prf_inan_masc_pl": "čekaly",
+      "v_ptcp_act_prf_masc_sg": "čekal",
+      "v_ptcp_act_prf_neut_pl": "čekala",
+      "v_ptcp_act_prf_neut_sg": "čekalo",
+      "v_ptcp_pass_anim_masc_pl": "čekáni",
+      "v_ptcp_pass_fem_pl": "čekány",
+      "v_ptcp_pass_fem_sg": "čekána",
+      "v_ptcp_pass_inan_masc_pl": "čekány",
+      "v_ptcp_pass_masc_sg": "čekán",
+      "v_ptcp_pass_neut_pl": "čekána",
+      "v_ptcp_pass_neut_sg": "čekáno"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "člověk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "člověk",
+    "inflections": {
+      "n_acc_pl": "lidi",
+      "n_acc_sg": "člověka",
+      "n_dat_pl": "lidem",
+      "n_dat_sg": "člověku",
+      "n_ess_pl": "lidech",
+      "n_ess_sg": "člověku",
+      "n_gen_pl": "lidí",
+      "n_gen_sg": "člověka",
+      "n_ins_pl": "lidmi",
+      "n_ins_sg": "člověkem",
+      "n_nom_pl": "lidé",
+      "n_nom_sg": "člověk",
+      "n_voc_pl": "lidé",
+      "n_voc_sg": "člověče",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "část": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "část",
+    "inflections": {
+      "n_acc_pl": "části",
+      "n_acc_sg": "část",
+      "n_dat_pl": "částem",
+      "n_dat_sg": "části",
+      "n_ess_pl": "částech",
+      "n_ess_sg": "části",
+      "n_gen_pl": "částí",
+      "n_gen_sg": "části",
+      "n_ins_pl": "částmi",
+      "n_ins_sg": "částí",
+      "n_nom_pl": "části",
+      "n_nom_sg": "část",
+      "n_voc_pl": "části",
+      "n_voc_sg": "části",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "číslo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "číslo",
+    "inflections": {
+      "n_acc_pl": "čísla",
+      "n_acc_sg": "číslo",
+      "n_dat_pl": "číslům",
+      "n_dat_sg": "číslu",
+      "n_ess_pl": "číslech",
+      "n_ess_sg": "čísle",
+      "n_gen_pl": "čísel",
+      "n_gen_sg": "čísla",
+      "n_ins_pl": "čísly",
+      "n_ins_sg": "číslem",
+      "n_nom_pl": "čísla",
+      "n_nom_sg": "číslo",
+      "n_voc_pl": "čísla",
+      "n_voc_sg": "číslo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "říkat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "říkat",
+    "inflections": {
+      "regulars": [],
+      "v_ind_fut_2_pl": "budeme říkat",
+      "v_ind_fut_2_sg": "budu říkat",
+      "v_ind_fut_3_pl": "budete říkat",
+      "v_ind_fut_3_sg": "budeš říkat",
+      "v_ind_prs_2_pl": "říkáme",
+      "v_ind_prs_2_sg": "říkám",
+      "v_ind_prs_3_pl": "říkáte",
+      "v_ind_prs_3_sg": "říkáš",
+      "v_ind_pst_2_pl_fem": "říkali",
+      "v_ind_pst_2_pl_masc": "říkali",
+      "v_ind_pst_2_pl_neut": "říkali",
+      "v_ind_pst_2_sg_fem": "říkal",
+      "v_ind_pst_2_sg_masc": "říkal",
+      "v_ind_pst_2_sg_neut": "říkal",
+      "v_ind_pst_3_pl_fem": "říkali",
+      "v_ind_pst_3_pl_masc": "říkali",
+      "v_ind_pst_3_pl_neut": "říkali",
+      "v_ind_pst_3_sg_fem": "říkal",
+      "v_ind_pst_3_sg_masc": "říkal",
+      "v_ind_pst_3_sg_neut": "říkal"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "šance": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "šance",
+    "inflections": {
+      "n_acc_pl": "šance",
+      "n_acc_sg": "šanci",
+      "n_dat_pl": "šancím",
+      "n_dat_sg": "šanci",
+      "n_ess_pl": "šancích",
+      "n_ess_sg": "šanci",
+      "n_gen_pl": "šancí",
+      "n_gen_sg": "šance",
+      "n_ins_pl": "šancemi",
+      "n_ins_sg": "šancí",
+      "n_nom_pl": "šance",
+      "n_nom_sg": "šance",
+      "n_voc_pl": "šance",
+      "n_voc_sg": "šance",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "škola": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "škola",
+    "inflections": {
+      "n_acc_pl": "školy",
+      "n_dat_sg": "škole",
+      "n_ess_sg": "škole",
+      "n_gen_sg": "školy",
+      "n_nom_pl": "školy",
+      "n_voc_pl": "školy",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "špatný": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "špatný",
+    "inflections": {
+      "adj_acc_anim_masc_sg": "špatného",
+      "adj_acc_fem_pl": "špatné",
+      "adj_acc_fem_sg": "špatnou",
+      "adj_acc_inan_masc_sg": "špatný",
+      "adj_acc_masc_pl": "špatné",
+      "adj_acc_neut_pl": "špatná",
+      "adj_acc_neut_sg": "špatné",
+      "adj_dat_fem_sg": "špatné",
+      "adj_dat_masc_sg": "špatnému",
+      "adj_dat_neut_sg": "špatnému",
+      "adj_dat_pl": "špatným",
+      "adj_ess_fem_sg": "špatné",
+      "adj_ess_masc_sg": "špatném",
+      "adj_ess_neut_sg": "špatným",
+      "adj_ess_pl": "špatných",
+      "adj_gen_fem_sg": "špatné",
+      "adj_gen_masc_sg": "špatného",
+      "adj_gen_neut_sg": "špatného",
+      "adj_gen_pl": "špatných",
+      "adj_ins_masc_sg": "špatným",
+      "adj_ins_pl": "špatnými",
+      "adj_nom_anim_masc_pl": "špatní",
+      "adj_nom_fem_pl": "špatné",
+      "adj_nom_fem_sg": "špatná",
+      "adj_nom_masc_pl": "špatné",
+      "adj_nom_masc_sg": "špatný",
+      "adj_nom_neut_pl": "špatná",
+      "adj_nom_neut_sg": "špatné",
+      "adj_voc_anim_masc_pl": "špatní",
+      "adj_voc_fem_pl": "špatné",
+      "adj_voc_fem_sg": "špatná",
+      "adj_voc_masc_pl": "špatné",
+      "adj_voc_masc_sg": "špatný",
+      "adj_voc_neut_pl": "špatná",
+      "adj_voc_neut_sg": "špatné",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "štěstí": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "štěstí",
+    "inflections": {
+      "n_acc_pl": "štěstí",
+      "n_acc_sg": "štěstí",
+      "n_dat_pl": "štěstím",
+      "n_dat_sg": "štěstí",
+      "n_ess_pl": "štěstích",
+      "n_ess_sg": "štěstí",
+      "n_gen_pl": "štěstí",
+      "n_gen_sg": "štěstí",
+      "n_ins_pl": "štěstími",
+      "n_ins_sg": "štěstím",
+      "n_nom_pl": "štěstí",
+      "n_nom_sg": "štěstí",
+      "n_voc_pl": "štěstí",
+      "n_voc_sg": "štěstí",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "že": {
+    "antonyms": [],
+    "base": "že",
+    "examples": [
+      "Vím, že to zvládneš."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "žena": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "žena",
+    "inflections": {
+      "n_acc_pl": "ženy",
+      "n_acc_sg": "ženu",
+      "n_dat_pl": "ženám",
+      "n_dat_sg": "ženě",
+      "n_ess_pl": "ženách",
+      "n_ess_sg": "ženě",
+      "n_gen_pl": "žen",
+      "n_gen_sg": "ženy",
+      "n_ins_pl": "ženami",
+      "n_ins_sg": "ženou",
+      "n_nom_pl": "ženy",
+      "n_nom_sg": "žena",
+      "n_voc_pl": "ženy",
+      "n_voc_sg": "ženo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "život": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "život",
+    "inflections": {
+      "n_acc_pl": "životy",
+      "n_acc_sg": "život",
+      "n_dat_pl": "životům",
+      "n_dat_sg": "životu",
+      "n_ess_pl": "životech",
+      "n_ess_sg": "životě",
+      "n_gen_pl": "životů",
+      "n_gen_sg": "života",
+      "n_ins_pl": "životy",
+      "n_ins_sg": "životem",
+      "n_nom_pl": "životy",
+      "n_nom_sg": "život",
+      "n_voc_pl": "životy",
+      "n_voc_sg": "živote",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  }
+}

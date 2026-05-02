@@ -1,0 +1,829 @@
+{
+  "_locale": "es",
+  "_version": "0.1",
+  "_license": "CC By, OpenAAC",
+  "_type": "words",
+  "yo": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "yo",
+      "comitative": "mí",
+      "accusative": "conmigo",
+      "dative": "me",
+      "masculine_singular": "mío"
+    }
+  },
+  "tú": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "tú",
+      "comitative": "ti",
+      "accusative": "contigo",
+      "dative": "te",
+      "masculine_singular": "tuyo"
+    }
+  },
+  "vos": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "vos",
+      "comitative": "vos",
+      "accusative": "con vos",
+      "dative": "te",
+      "masculine_singular": "suyo"
+    }
+  },
+  "él": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "él",
+      "comitative": "él",
+      "accusative": "con él",
+      "dative": "lo",
+      "genitive": "le",
+      "masculine_singular": "suya"
+    }
+  },
+  "ella": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "ella",
+      "comitative": "ella",
+      "accusative": "con ella",
+      "dative": "la",
+      "genitive": "le"
+    }
+  },
+  "ello": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "ello",
+      "comitative": "ello",
+      "accusative": "con ello"
+    }
+  },
+  "usted": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "usted",
+      "comitative": "uste",
+      "accusative": "con uste"
+    }
+  },
+  "sí": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "nosotros": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "nosotros",
+      "comitative": "nosotros",
+      "accusative": "con nosotros",
+      "dative": "nos",
+      "masculine_singular": "nuestro"
+    }
+  },
+  "nosotras": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "nosotras",
+      "comitative": "nosotras",
+      "accusative": "con nosotras",
+      "masculine_singular": "nuestra"
+    }
+  },
+  "vosotros": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "vosotros",
+      "comitative": "vosotros",
+      "accusative": "con vosotros",
+      "dative": "os",
+      "masculine_singular": "vuestro"
+    }
+  },
+  "vosotras": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "vosotras",
+      "comitative": "vosotras",
+      "accusative": "con vosotras",
+      "masculine_singular": "vuestra"
+    }
+  },
+  "ellos": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "ellos",
+      "comitative": "ellos",
+      "accusative": "con ellos",
+      "dative": "los",
+      "genitive": "les",
+      "masculine_singular": "suyo"
+    }
+  },
+  "ellas": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "ellas",
+      "comitative": "ellas",
+      "accusative": "con ellas",
+      "dative": "las",
+      "genitive": "les",
+      "masculine_singular": "suya"
+    }
+  },
+  "ustedes": {
+    "types": [
+      "pronoun"
+    ],
+    "inflections": {
+      "prepositional": "ustedes",
+      "comitative": "ustedes",
+      "accusative": "con ustedes"
+    }
+  },
+  "que": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "cual": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "quien": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "donde": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "como": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "cuando": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "cuyo": {
+    "types": [
+      "question"
+    ],
+    "inflections": {}
+  },
+  "el": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "el",
+      "feminine_singular": "los",
+      "feminine_plural": "la",
+      "neuter": "las",
+      "plural": "lo"
+    }
+  },
+  "un": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "un",
+      "feminine_singular": "unos",
+      "feminine_plural": "una",
+      "neuter": "unas",
+      "plural": "uno"
+    }
+  },
+  "mi": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "mi",
+      "feminine_singular": "mis",
+      "feminine_plural": "mi",
+      "neuter": "mis"
+    }
+  },
+  "tu": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "tu",
+      "feminine_singular": "tus",
+      "feminine_plural": "tu",
+      "neuter": "tus"
+    }
+  },
+  "su": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "su",
+      "feminine_singular": "sus",
+      "feminine_plural": "su",
+      "neuter": "sus"
+    }
+  },
+  "nuestro": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "nuestro",
+      "feminine_singular": "nuestros",
+      "feminine_plural": "nuestra",
+      "neuter": "nuestras"
+    }
+  },
+  "vuestro": {
+    "types": [
+      "determiner"
+    ],
+    "inflections": {
+      "masculine_plural": "vuestro",
+      "feminine_singular": "vuestros",
+      "feminine_plural": "vuestra",
+      "neuter": "vuestras"
+    }
+  },
+  "usar": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "fácil": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "malo": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "café": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "agua": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "pollo": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "pescado": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "pie": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "pierna": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "cabeza": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "brazo": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "mano": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "dedo": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "cuerpo": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "estómago": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "espalda": {
+    "types": [
+      "noun"
+    ],
+    "inflections": {}
+  },
+  "ser": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "estar": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {
+      "infinitive": "estar",
+      "gerund": "estando",
+      "past_participle": "estado",
+      "present_participle": "estando",
+      "present_1s": "estoy",
+      "present_2s": "estás",
+      "present_3s": "está",
+      "present_1p": "estamos",
+      "present_2p": "estáis",
+      "present_3p": "están"
+    }
+  },
+  "haber": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "poder": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "tener": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "hacer": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "decir": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "deber": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "ir": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "ver": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "parecer": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "dar": {
+    "types": [
+      "verb"
+    ],
+    "inflections": {}
+  },
+  "bonito": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "lindo": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "importante": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "mucho": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "difícil": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "grande": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "pequeño": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "divertido": {
+    "types": [
+      "adjective"
+    ],
+    "inflections": {}
+  },
+  "cerca": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "lejos": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "aquí": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "allí": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "allá": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "arriba": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "debajo": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "dentro": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "fuera": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "luego": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "ahora": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "antes": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "después": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "ayer": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "hoy": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "mañana": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "tarde": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "entonces": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "pronto": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "más": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "menos": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "poco": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "suficiente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "bastante": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "muy": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "demasiado": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "apenas": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "casi": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "nada": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "algo": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "bien": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "mal": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "así": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "despacio": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "deprisa": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "suavemente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "curiosamente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "claramente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "ciertamente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "también": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "desde luego": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "por supuesto": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "en efecto": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "no": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "nunca": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "jamás": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "tampoco": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "tal vez": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "acaso": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "quizá": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  },
+  "probablemente": {
+    "types": [
+      "adverb"
+    ],
+    "inflections": {}
+  }
+}

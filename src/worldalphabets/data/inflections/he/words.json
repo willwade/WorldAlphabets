@@ -1,0 +1,551 @@
+{
+  "_locale": "he",
+  "_type": "words",
+  "_version": "0.1",
+  "אותו": {
+    "antonyms": [],
+    "base": "אותו",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "אותך": {
+    "antonyms": [],
+    "base": "אותך",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "אז": {
+    "antonyms": [],
+    "base": "אז",
+    "examples": [
+      "אז אני הולך."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "אין": {
+    "antonyms": [
+      "יש"
+    ],
+    "base": "אין",
+    "examples": [
+      "אין לי זמן."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "אני": {
+    "antonyms": [],
+    "base": "אני",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "את": {
+    "antonyms": [],
+    "base": "את",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "אתה": {
+    "antonyms": [],
+    "base": "אתה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ג": {
+    "antonyms": [],
+    "base": "ג",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "דבר": {
+    "antonyms": [],
+    "base": "דבר",
+    "examples": [
+      "מה אתה אומר על הדבר הזה?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "האם": {
+    "antonyms": [],
+    "base": "האם",
+    "examples": [
+      "האם אתה בא?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "interrogative"
+    ]
+  },
+  "הוא": {
+    "antonyms": [],
+    "base": "הוא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "הם": {
+    "antonyms": [],
+    "base": "הם",
+    "examples": [
+      "הם באים מחר."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ואני": {
+    "antonyms": [],
+    "base": "ואני",
+    "examples": [
+      "ואני הולך הביתה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "זאת": {
+    "antonyms": [],
+    "base": "זאת",
+    "examples": [
+      "זאת היא."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "זה": {
+    "antonyms": [],
+    "base": "זה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "יודע": {
+    "antonyms": [],
+    "base": "יודע",
+    "examples": [
+      "אני יודע את התשובה."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "יודעת",
+          "gender": "feminine"
+        },
+        {
+          "form": "ידע",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "יותר": {
+    "antonyms": [],
+    "base": "יותר",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "יכול": {
+    "antonyms": [],
+    "base": "יכול",
+    "examples": [
+      "אני יכול לעזור לך."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "יכולה",
+          "gender": "feminine"
+        },
+        {
+          "form": "יכולתי",
+          "tense": "past"
+        }
+      ]
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "כאן": {
+    "antonyms": [],
+    "base": "כאן",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "כבר": {
+    "antonyms": [],
+    "base": "כבר",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "לא": {
+    "antonyms": [
+      "כן"
+    ],
+    "base": "לא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "לו": {
+    "antonyms": [],
+    "base": "לו",
+    "examples": [
+      "לו הייתי יודע."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "לי": {
+    "antonyms": [],
+    "base": "לי",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "לנו": {
+    "antonyms": [],
+    "base": "לנו",
+    "examples": [
+      "זה שלנו."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "לעשות": {
+    "antonyms": [
+      "להפסיק"
+    ],
+    "base": "לעשות",
+    "examples": [
+      "אני רוצה לעשות את זה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "מאוד": {
+    "antonyms": [],
+    "base": "מאוד",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb"
+    ]
+  },
+  "מה": {
+    "antonyms": [],
+    "base": "מה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "מי": {
+    "antonyms": [],
+    "base": "מי",
+    "examples": [
+      "מי אתה?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "נכון": {
+    "antonyms": [
+      "שקרי"
+    ],
+    "base": "נכון",
+    "examples": [
+      "זה נכון."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "נראה": {
+    "antonyms": [],
+    "base": "נראה",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "עוד": {
+    "antonyms": [],
+    "base": "עוד",
+    "examples": [
+      "אני רוצה עוד עוגה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "על": {
+    "antonyms": [],
+    "base": "על",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "רק": {
+    "antonyms": [],
+    "base": "רק",
+    "examples": [
+      "אני רק רוצה לעזור."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "שאתה": {
+    "antonyms": [],
+    "base": "שאתה",
+    "examples": [
+      "שאתה יודע."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "של": {
+    "antonyms": [],
+    "base": "של",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "שלא": {
+    "antonyms": [],
+    "base": "שלא",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "שלו": {
+    "antonyms": [],
+    "base": "שלו",
+    "examples": [
+      "זה הספר שלו."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "possessive pronoun"
+    ]
+  },
+  "שלנו": {
+    "antonyms": [],
+    "base": "שלנו",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "possessive pronoun"
+    ]
+  },
+  "שם": {
+    "antonyms": [],
+    "base": "שם",
+    "examples": [
+      "שם זה מקום יפה."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "תודה": {
+    "antonyms": [],
+    "base": "תודה",
+    "examples": [
+      "תודה רבה!"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  }
+}

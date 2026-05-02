@@ -1,0 +1,87 @@
+{
+  "_locale": "frr",
+  "_type": "words",
+  "_version": "0.1",
+  "gunge": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gunge",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "gung",
+      "v_ind_prs_1_sg": "gung"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "haa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "haa",
+    "inflections": {
+      "regulars": [],
+      "v_imp_pl": "haa'm",
+      "v_imp_sg": "haa",
+      "v_ind_fut_lgspec1_1_du": "skel haa",
+      "v_ind_fut_lgspec1_1_pl": "skel haa",
+      "v_ind_fut_lgspec1_1_sg": "skal haa",
+      "v_ind_fut_lgspec1_2_du": "skel haa",
+      "v_ind_fut_lgspec1_2_pl": "skel haa",
+      "v_ind_fut_lgspec1_2_sg": "skääl haa",
+      "v_ind_fut_lgspec1_3_pl": "skel haa",
+      "v_ind_fut_lgspec1_3_sg": "skal haa",
+      "v_ind_fut_lgspec2_1_du": "wel haa",
+      "v_ind_fut_lgspec2_1_pl": "wel haa",
+      "v_ind_fut_lgspec2_1_sg": "wal haa",
+      "v_ind_fut_lgspec2_2_du": "wel haa",
+      "v_ind_fut_lgspec2_2_pl": "wel haa",
+      "v_ind_fut_lgspec2_2_sg": "wääl haa",
+      "v_ind_fut_lgspec2_3_pl": "wel haa",
+      "v_ind_fut_lgspec2_3_sg": "wal haa",
+      "v_ind_prs_1_du": "haa",
+      "v_ind_prs_1_pl": "haa",
+      "v_ind_prs_1_sg": "haa",
+      "v_ind_prs_2_du": "haa",
+      "v_ind_prs_2_pl": "haa",
+      "v_ind_prs_2_sg": "heest",
+      "v_ind_prs_3_pl": "haa",
+      "v_ind_prs_3_sg": "hee",
+      "v_ind_pst_pfv_1_du": "hed",
+      "v_ind_pst_pfv_1_pl": "hed",
+      "v_ind_pst_pfv_1_sg": "hed",
+      "v_ind_pst_pfv_2_du": "hed",
+      "v_ind_pst_pfv_2_pl": "hed",
+      "v_ind_pst_pfv_2_sg": "hed",
+      "v_ind_pst_pfv_3_pl": "hed",
+      "v_ind_pst_pfv_3_sg": "hed",
+      "v_ind_pst_prf_1_du": "haa hed",
+      "v_ind_pst_prf_1_pl": "haa hed",
+      "v_ind_pst_prf_1_sg": "haa hed",
+      "v_ind_pst_prf_2_du": "haa hed",
+      "v_ind_pst_prf_2_pl": "haa hed",
+      "v_ind_pst_prf_2_sg": "heest hed",
+      "v_ind_pst_prf_3_pl": "haa hed",
+      "v_ind_pst_prf_3_sg": "hee hed",
+      "v_ind_pst_rmt_prf_1_du": "hed hed",
+      "v_ind_pst_rmt_prf_1_pl": "hed hed",
+      "v_ind_pst_rmt_prf_1_sg": "hed hed",
+      "v_ind_pst_rmt_prf_2_du": "hed hed",
+      "v_ind_pst_rmt_prf_2_pl": "hed hed",
+      "v_ind_pst_rmt_prf_2_sg": "hedst hed",
+      "v_ind_pst_rmt_prf_3_pl": "hed hed",
+      "v_ind_pst_rmt_prf_3_sg": "hed hed",
+      "v_nfin": "tu haaen",
+      "v_nfin_2": "haa",
+      "v_ptcp_pst": "hed"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  }
+}

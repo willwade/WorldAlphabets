@@ -1,0 +1,535 @@
+{
+  "_locale": "af",
+  "_type": "words",
+  "_version": "0.1",
+  "as": {
+    "antonyms": [],
+    "base": "as",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "bly": {
+    "antonyms": [],
+    "base": "bly",
+    "examples": [
+      "Ek bly hier."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "by": {
+    "antonyms": [],
+    "base": "by",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "dan": {
+    "antonyms": [],
+    "base": "dan",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "dat": {
+    "antonyms": [],
+    "base": "dat",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "die": {
+    "antonyms": [],
+    "base": "die",
+    "examples": [
+      "Die hond is groot."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "dit": {
+    "antonyms": [],
+    "base": "dit",
+    "examples": [
+      "Dit is mooi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ek": {
+    "antonyms": [],
+    "base": "ek",
+    "examples": [
+      "Ek gaan huis toe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "en": {
+    "antonyms": [],
+    "base": "en",
+    "examples": [
+      "Ek en jy gaan saam."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "goed": {
+    "antonyms": [
+      "sleg"
+    ],
+    "base": "goed",
+    "examples": [
+      "Dit is 'n goeie idee."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "het": {
+    "antonyms": [],
+    "base": "het",
+    "examples": [
+      "Ek het 'n boek."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "hoe": {
+    "antonyms": [],
+    "base": "hoe",
+    "examples": [
+      "Hoe gaan dit?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "hou": {
+    "antonyms": [],
+    "base": "hou",
+    "examples": [
+      "Ek hou van jou."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "hulle": {
+    "antonyms": [],
+    "base": "hulle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "iets": {
+    "antonyms": [],
+    "base": "iets",
+    "examples": [
+      "Ek het iets vir jou."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "is": {
+    "antonyms": [
+      "nie is"
+    ],
+    "base": "is",
+    "examples": [
+      "Hy is gelukkig."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "julle": {
+    "antonyms": [],
+    "base": "julle",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jy": {
+    "antonyms": [],
+    "base": "jy",
+    "examples": [
+      "Jy is welkom."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kom": {
+    "antonyms": [],
+    "base": "kom",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "kry": {
+    "antonyms": [],
+    "base": "kry",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "kyk": {
+    "antonyms": [],
+    "base": "kyk",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "laat": {
+    "antonyms": [],
+    "base": "laat",
+    "examples": [
+      "Laat my weet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "meer": {
+    "antonyms": [
+      "minder"
+    ],
+    "base": "meer",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "met": {
+    "antonyms": [],
+    "base": "met",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "moet": {
+    "antonyms": [],
+    "base": "moet",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "my": {
+    "antonyms": [],
+    "base": "my",
+    "examples": [
+      "My naam is Jan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "n": {
+    "antonyms": [],
+    "base": "n",
+    "examples": [
+      "Ek weet nie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "particle"
+    ]
+  },
+  "nie": {
+    "antonyms": [
+      "ja"
+    ],
+    "base": "nie",
+    "examples": [
+      "Ek is nie moeg nie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ook": {
+    "antonyms": [],
+    "base": "ook",
+    "examples": [
+      "Ek hou ook daarvan."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "s": {
+    "antonyms": [],
+    "base": "s",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "sien": {
+    "antonyms": [],
+    "base": "sien",
+    "examples": [
+      "Ek sien jou môre."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "so": {
+    "antonyms": [],
+    "base": "so",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "sou": {
+    "antonyms": [],
+    "base": "sou",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "modal verb"
+    ]
+  },
+  "u": {
+    "antonyms": [],
+    "base": "u",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "uit": {
+    "antonyms": [],
+    "base": "uit",
+    "examples": [
+      "Hy kom uit die huis."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "waarom": {
+    "antonyms": [],
+    "base": "waarom",
+    "examples": [
+      "Waarom is jy laat?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "was": {
+    "antonyms": [],
+    "base": "was",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "wie": {
+    "antonyms": [],
+    "base": "wie",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "word": {
+    "antonyms": [],
+    "base": "word",
+    "examples": [
+      "Hy word 'n dokter."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

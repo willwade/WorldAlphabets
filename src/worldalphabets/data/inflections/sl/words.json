@@ -1,0 +1,555 @@
+{
+  "_locale": "sl",
+  "_type": "words",
+  "_version": "0.1",
+  "bilo": {
+    "antonyms": [],
+    "base": "bilo",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "bomo": {
+    "antonyms": [],
+    "base": "bomo",
+    "examples": [
+      "Bomo šli na izlet."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "da": {
+    "antonyms": [
+      "ne"
+    ],
+    "base": "da",
+    "examples": [
+      "Da, to je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "do": {
+    "antonyms": [],
+    "base": "do",
+    "examples": [
+      "Pojdi do trgovine."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "in": {
+    "antonyms": [],
+    "base": "in",
+    "examples": [
+      "On je in ona."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [
+      "Ja, to je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jaz": {
+    "antonyms": [],
+    "base": "jaz",
+    "examples": [
+      "Jaz sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "On je učitelj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jih": {
+    "antonyms": [],
+    "base": "jih",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kaj": {
+    "antonyms": [],
+    "base": "kaj",
+    "examples": [
+      "Kaj delaš?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kako": {
+    "antonyms": [],
+    "base": "kako",
+    "examples": [
+      "Kako si?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ki": {
+    "antonyms": [],
+    "base": "ki",
+    "examples": [
+      "Ki je to?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "kot": {
+    "antonyms": [],
+    "base": "kot",
+    "examples": [
+      "Kot sem rekel."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "mislim": {
+    "antonyms": [],
+    "base": "mislim",
+    "examples": [
+      "Mislim, da je to dobra ideja."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "moj": {
+    "antonyms": [],
+    "base": "moj",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "mu": {
+    "antonyms": [],
+    "base": "mu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ne": {
+    "antonyms": [
+      "da"
+    ],
+    "base": "ne",
+    "examples": [
+      "Ne vem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "nekaj": {
+    "antonyms": [],
+    "base": "nekaj",
+    "examples": [
+      "Imam nekaj vprašanj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nič": {
+    "antonyms": [
+      "vse"
+    ],
+    "base": "nič",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "po": {
+    "antonyms": [],
+    "base": "po",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "prav": {
+    "antonyms": [],
+    "base": "prav",
+    "examples": [
+      "To je prav."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "redu": {
+    "antonyms": [],
+    "base": "redu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "res": {
+    "antonyms": [],
+    "base": "res",
+    "examples": [
+      "To je res."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "s": {
+    "antonyms": [],
+    "base": "s",
+    "examples": [
+      "S prijatelji."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [
+      "On se smeje."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "sem": {
+    "antonyms": [],
+    "base": "sem",
+    "examples": [
+      "Jaz sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "si": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [
+      "Ti si prijazen."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "smo": {
+    "antonyms": [],
+    "base": "smo",
+    "examples": [
+      "Mi smo srečni."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "sva": {
+    "antonyms": [],
+    "base": "sva",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "tako": {
+    "antonyms": [],
+    "base": "tako",
+    "examples": [
+      "Tako je prav."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "te": {
+    "antonyms": [],
+    "base": "te",
+    "examples": [
+      "Te vidim."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "To je dobro."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tudi": {
+    "antonyms": [],
+    "base": "tudi",
+    "examples": [
+      "Tudi jaz sem prišel."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tukaj": {
+    "antonyms": [],
+    "base": "tukaj",
+    "examples": [
+      "Sem tukaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "v": {
+    "antonyms": [],
+    "base": "v",
+    "examples": [
+      "On je v hiši."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vas": {
+    "antonyms": [],
+    "base": "vas",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vedno": {
+    "antonyms": [
+      "nikoli"
+    ],
+    "base": "vedno",
+    "examples": [
+      "Vedno sem tu zate."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "veš": {
+    "antonyms": [],
+    "base": "veš",
+    "examples": [
+      "Veš, da je to res?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "vse": {
+    "antonyms": [],
+    "base": "vse",
+    "examples": [
+      "Vse je v redu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "še": {
+    "antonyms": [],
+    "base": "še",
+    "examples": [
+      "Še vedno sem tu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  }
+}

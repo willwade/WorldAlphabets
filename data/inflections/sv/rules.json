@@ -1,0 +1,37 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "är",
+      "inflection": "present",
+      "lookback": 1,
+      "name": "verb_to_present",
+      "overrides": {}
+    },
+    {
+      "executable": "jag",
+      "inflection": "subject",
+      "lookback": 1,
+      "name": "pronoun_subject",
+      "overrides": {}
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "är",
+      "input": "är",
+      "name": "test_verb_to_present"
+    },
+    {
+      "expected": "jag",
+      "input": "jag",
+      "name": "test_pronoun_subject"
+    }
+  ],
+  "_locale": "sv",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

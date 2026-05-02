@@ -1,0 +1,541 @@
+{
+  "_locale": "cs",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "Jsem a ty jsi."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "bude": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Zítra bude slunečno."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "by": {
+    "antonyms": [],
+    "base": "by",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "particle"
+    ]
+  },
+  "bych": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Kdybych měl čas."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "být": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Musím být doma."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "co": {
+    "antonyms": [],
+    "base": "co",
+    "examples": [
+      "Co děláš?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ho": {
+    "antonyms": [],
+    "base": "ho",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jako": {
+    "antonyms": [],
+    "base": "jako",
+    "examples": [
+      "Jako vždy, přišel pozdě."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "preposition"
+    ]
+  },
+  "je": {
+    "antonyms": [],
+    "base": "je",
+    "examples": [
+      "On je tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jeho": {
+    "antonyms": [],
+    "base": "jeho",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jen": {
+    "antonyms": [],
+    "base": "jen",
+    "examples": [
+      "Jen se podívej."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jestli": {
+    "antonyms": [],
+    "base": "jestli",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "jsem": {
+    "antonyms": [],
+    "base": "jsem",
+    "examples": [
+      "Já jsem tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jsme": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Jsme tady."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "jsou": {
+    "antonyms": [],
+    "base": "být",
+    "examples": [
+      "Oni jsou šťastní."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "když": {
+    "antonyms": [],
+    "base": "když",
+    "examples": [
+      "Když prší, zůstávám doma."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "myslím": {
+    "antonyms": [],
+    "base": "myslím",
+    "examples": [
+      "Myslím, že to zvládneme."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "má": {
+    "antonyms": [],
+    "base": "mít",
+    "examples": [
+      "Ona má knihu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "máš": {
+    "antonyms": [],
+    "base": "máš",
+    "examples": [
+      "Máš pravdu."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "měl": {
+    "antonyms": [],
+    "base": "měl",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "můj": {
+    "antonyms": [],
+    "base": "můj",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "na": {
+    "antonyms": [],
+    "base": "na",
+    "examples": [
+      "Jdu na trh."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "než": {
+    "antonyms": [],
+    "base": "než",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "nic": {
+    "antonyms": [],
+    "base": "nic",
+    "examples": [
+      "Nemám nic."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "od": {
+    "antonyms": [],
+    "base": "od",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "preposition"
+    ]
+  },
+  "se": {
+    "antonyms": [],
+    "base": "se",
+    "examples": [
+      "Učím se."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "si": {
+    "antonyms": [],
+    "base": "si",
+    "examples": [
+      "Mysli na sebe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "takže": {
+    "antonyms": [],
+    "base": "takže",
+    "examples": [
+      "Bylo to těžké, takže jsem se vzdal."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ten": {
+    "antonyms": [],
+    "base": "ten",
+    "examples": [
+      "Ten stůl je nový."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "ti": {
+    "antonyms": [],
+    "base": "ti",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "Jdu to udělat."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "toho": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "Mluvím o toho."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tu": {
+    "antonyms": [],
+    "base": "tu",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tím": {
+    "antonyms": [],
+    "base": "tím",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "už": {
+    "antonyms": [],
+    "base": "už",
+    "examples": [
+      "Už jsem tam byl."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "v": {
+    "antonyms": [],
+    "base": "v",
+    "examples": [
+      "Jsem v domě."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "vás": {
+    "antonyms": [],
+    "base": "vy",
+    "examples": [
+      "Vidím vás."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "vím": {
+    "antonyms": [],
+    "base": "vím",
+    "examples": [
+      "Vím, co děláš."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "za": {
+    "antonyms": [],
+    "base": "za",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "že": {
+    "antonyms": [],
+    "base": "že",
+    "examples": [
+      "Vím, že to zvládneš."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  }
+}

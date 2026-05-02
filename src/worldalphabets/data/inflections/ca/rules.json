@@ -1,0 +1,175 @@
+{
+  "_generated_inflection_location_notes": {
+    "future": [
+      "n",
+      "s",
+      "e"
+    ],
+    "present": [
+      "n",
+      "s",
+      "e"
+    ]
+  },
+  "_generated_rule_notes": [
+    {
+      "description": "Regular verbs ending in -ar, -er, -ir follow specific patterns.",
+      "examples": [
+        "parlar -> parlo, parles, parla",
+        "comer -> como, comes, come",
+        "vivir -> vivo, vives, vive"
+      ],
+      "name": "Present tense regular verbs",
+      "pattern": "verb stem + present endings"
+    },
+    {
+      "description": "Add future endings to the infinitive form of the verb.",
+      "examples": [
+        "parlar -> parlaré, parlaràs",
+        "comer -> menjaré, menjaràs",
+        "vivir -> viuré, viuràs"
+      ],
+      "name": "Future tense formation",
+      "pattern": "infinitive + é, ás, á, emos, éis, án"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected_output": [
+        "parlo",
+        "parles",
+        "parla"
+      ],
+      "input": "parlar",
+      "name": "Test present tense conjugation"
+    },
+    {
+      "expected_output": [
+        "comeré",
+        "comeràs"
+      ],
+      "input": "comer",
+      "name": "Test future tense formation"
+    }
+  ],
+  "_locale": "ca",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "cabre_present_3sg",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "cabre"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "cabre_imperative_2sg",
+      "inflection": "v_pos_imp_2_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "cabre"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dir_conditional_1sg",
+      "inflection": "v_cond_1_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dir"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dir_conditional_2sg",
+      "inflection": "v_cond_2_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dir"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dir_ind_future_3sg",
+      "inflection": "v_ind_fut_3_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "dir"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "estar_present_1sg",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "estic"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "estar_present_2sg",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "estàs"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ser_conditional_1sg",
+      "inflection": "v_cond_1_sg",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "ser"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
+  "substitutions": {},
+  "tests": []
+}

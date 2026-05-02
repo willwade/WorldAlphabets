@@ -1,0 +1,759 @@
+{
+  "_locale": "pl",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "Ja a ty.",
+      "On jest dobry, a ona lepsza."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ale": {
+    "antonyms": [],
+    "base": "ale",
+    "examples": [
+      "Lubię kawę, ale nie herbatę.",
+      "To jest dobre, ale drogie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "być": {
+    "antonyms": [],
+    "base": "być",
+    "examples": [
+      "Chcę być szczęśliwy.",
+      "Muszę być tam."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "będzie": {
+    "antonyms": [],
+    "base": "będzie",
+    "examples": [
+      "Będzie dobrze.",
+      "To będzie trudne."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ci": {
+    "antonyms": [],
+    "base": "ci",
+    "examples": [
+      "Ci się podoba.",
+      "Daj ci znać."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "cię": {
+    "antonyms": [],
+    "base": "cię",
+    "examples": [
+      "Widzę cię.",
+      "Czekam na cię."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "co": {
+    "antonyms": [],
+    "base": "co",
+    "examples": [
+      "Co robisz?",
+      "Nie wiem, co powiedzieć."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "coś": {
+    "antonyms": [],
+    "base": "coś",
+    "examples": [
+      "Coś się stało.",
+      "Nie wiem, coś jest nie tak."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "czy": {
+    "antonyms": [],
+    "base": "czy",
+    "examples": [
+      "Czy to prawda?",
+      "Nie wiem, czy przyjdziesz."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "dla": {
+    "antonyms": [],
+    "base": "dla",
+    "examples": [
+      "To jest dla ciebie.",
+      "Zrobiłem to dla siebie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "do": {
+    "antonyms": [],
+    "base": "do",
+    "examples": [
+      "Idę do sklepu.",
+      "Przyjdź do mnie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "dobrze": {
+    "antonyms": [
+      "źle"
+    ],
+    "base": "dobrze",
+    "examples": [
+      "Czuję się dobrze.",
+      "To dobrze, że przyszedłeś."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "go": {
+    "antonyms": [],
+    "base": "go",
+    "examples": [
+      "Widzę go.",
+      "To jest jego."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [
+      "Ja i ty.",
+      "Lubię kawę i herbatę."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "ja": {
+    "antonyms": [],
+    "base": "ja",
+    "examples": [
+      "Ja to zrobiłem.",
+      "Ja jestem tutaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "jak": {
+    "antonyms": [],
+    "base": "jak",
+    "examples": [
+      "Jak się masz?",
+      "Jak to zrobić?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "jest": {
+    "antonyms": [],
+    "base": "jest",
+    "examples": [
+      "On jest lekarzem.",
+      "To jest ważne."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jestem": {
+    "antonyms": [],
+    "base": "jestem",
+    "examples": [
+      "Jestem zmęczony.",
+      "Jestem tutaj."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jesteś": {
+    "antonyms": [],
+    "base": "jesteś",
+    "examples": [
+      "Jesteś moim przyjacielem.",
+      "Gdzie jesteś?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jeśli": {
+    "antonyms": [],
+    "base": "jeśli",
+    "examples": [
+      "Jeśli chcesz, przyjdź.",
+      "Jeśli to możliwe."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "już": {
+    "antonyms": [],
+    "base": "już",
+    "examples": [
+      "Już to zrobiłem.",
+      "Nie mogę już czekać."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ma": {
+    "antonyms": [],
+    "base": "ma",
+    "examples": [
+      "Ona ma kota.",
+      "On ma dużo pracy."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "mam": {
+    "antonyms": [],
+    "base": "mam",
+    "examples": [
+      "Mam książkę.",
+      "Mam dużo pracy."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "masz": {
+    "antonyms": [],
+    "base": "masz",
+    "examples": [
+      "Masz rację.",
+      "Co masz na myśli?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "mi": {
+    "antonyms": [],
+    "base": "mi",
+    "examples": [
+      "Daj mi znać.",
+      "Mi się podoba."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "mnie": {
+    "antonyms": [],
+    "base": "mnie",
+    "examples": [
+      "Daj mi to.",
+      "Nie rozumiem mnie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "może": {
+    "antonyms": [],
+    "base": "może",
+    "examples": [
+      "Może przyjdziesz?",
+      "Może to jest dobry pomysł."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "na": {
+    "antonyms": [],
+    "base": "na",
+    "examples": [
+      "Książka jest na stole.",
+      "Idę na spacer."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "nic": {
+    "antonyms": [],
+    "base": "nic",
+    "examples": [
+      "Nie mam nic.",
+      "Nic nie rozumiem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "nie": {
+    "antonyms": [],
+    "base": "nie",
+    "examples": [
+      "Nie wiem.",
+      "Nie chcę."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "o": {
+    "antonyms": [],
+    "base": "o",
+    "examples": [
+      "Mówię o tobie.",
+      "Myślę o tym."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "od": {
+    "antonyms": [],
+    "base": "od",
+    "examples": [
+      "Jestem od Warszawy.",
+      "Dostałem to od niego."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "pan": {
+    "antonyms": [],
+    "base": "pan",
+    "examples": [
+      "Pan Kowalski jest nauczycielem.",
+      "Dzień dobry, panie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "po": {
+    "antonyms": [],
+    "base": "po",
+    "examples": [
+      "Idę po chleb.",
+      "Po drodze spotkałem go."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "się": {
+    "antonyms": [],
+    "base": "się",
+    "examples": [
+      "Muszę się uczyć.",
+      "Cieszę się."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tak": {
+    "antonyms": [
+      "nie"
+    ],
+    "base": "tak",
+    "examples": [
+      "Tak, zgadzam się.",
+      "Tak, to prawda."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tego": {
+    "antonyms": [],
+    "base": "tego",
+    "examples": [
+      "Nie rozumiem tego.",
+      "To jest ważne."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "teraz": {
+    "antonyms": [],
+    "base": "teraz",
+    "examples": [
+      "Teraz idę do domu.",
+      "Co robisz teraz?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "To jest dobre.",
+      "To jest mój dom."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tu": {
+    "antonyms": [],
+    "base": "tu",
+    "examples": [
+      "Jestem tu.",
+      "Tu jest mój dom."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "ty": {
+    "antonyms": [],
+    "base": "ty",
+    "examples": [
+      "Ty jesteś najlepszy.",
+      "Co ty robisz?"
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "tylko": {
+    "antonyms": [],
+    "base": "tylko",
+    "examples": [
+      "Tylko ty.",
+      "To jest tylko dla ciebie."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adverb"
+    ]
+  },
+  "tym": {
+    "antonyms": [],
+    "base": "tym",
+    "examples": [
+      "Zajmuję się tym.",
+      "Nie wiem, co z tym zrobić."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "w": {
+    "antonyms": [],
+    "base": "w",
+    "examples": [
+      "Jestem w domu.",
+      "Widziałem to w telewizji."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "wiem": {
+    "antonyms": [],
+    "base": "wiem",
+    "examples": [
+      "Wiem, co robić.",
+      "Nie wiem, jak to zrobić."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "więc": {
+    "antonyms": [],
+    "base": "więc",
+    "examples": [
+      "Jestem zmęczony, więc idę spać.",
+      "Nie wiem, więc pytam."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "wszystko": {
+    "antonyms": [],
+    "base": "wszystko",
+    "examples": [
+      "Wszystko jest w porządku.",
+      "Zrobiłem wszystko, co mogłem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "z": {
+    "antonyms": [],
+    "base": "z",
+    "examples": [
+      "Jestem z Polski.",
+      "Rozmawiam z nim."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "za": {
+    "antonyms": [],
+    "base": "za",
+    "examples": [
+      "Jestem za tobą.",
+      "Czekam za rogiem."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "że": {
+    "antonyms": [],
+    "base": "że",
+    "examples": [
+      "Wiem, że to prawda.",
+      "Mówiłem, że przyjdę."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "_generated_rule_notes": [
+    {
+      "description": "To form the present tense, add the prefix 'ي' to the base verb.",
+      "examples": [
+        {
+          "input": "كتب",
+          "output": "يكتب"
+        }
+      ],
+      "name": "Present Tense Formation"
+    },
+    {
+      "description": "The past tense is formed by using the base verb.",
+      "examples": [
+        {
+          "input": "كتب",
+          "output": "كتب"
+        }
+      ],
+      "name": "Past Tense Formation"
+    },
+    {
+      "description": "The imperative form is created by using the base verb without any prefixes.",
+      "examples": [
+        {
+          "input": "كتب",
+          "output": "اكتب"
+        }
+      ],
+      "name": "Imperative Formation"
+    },
+    {
+      "description": "The gerund form is created by adding 'ة' to the base verb.",
+      "examples": [
+        {
+          "input": "كتب",
+          "output": "كتابة"
+        }
+      ],
+      "name": "Gerund Formation"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": {
+        "gerund": "كتابة",
+        "imperative": "اكتب",
+        "past": "كتب",
+        "present": "يكتب"
+      },
+      "input": "كتب"
+    }
+  ],
+  "_locale": "ar",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "adj_du_fem_def_nom_rule",
+      "inflection": "adj_du_fem_def_nom",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "أجل"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_du_masc_def_nom_rule",
+      "inflection": "adj_du_masc_def_nom",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "أجل"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_sg_def_nom_rule",
+      "inflection": "n_sg_def_nom",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "بعض"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_1_sg_ipfv_ind_act_rule",
+      "inflection": "v_1_sg_ipfv_ind_act",
+      "location": "e",
+      "lookback": [
+        {
+          "optional": false,
+          "words": [
+            "أُسَوِّفُ"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
+  "substitutions": {},
+  "tests": []
+}

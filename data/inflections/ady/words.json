@@ -1,0 +1,2321 @@
+{
+  "_locale": "ady",
+  "_type": "words",
+  "_version": "0.1",
+  "адыгэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "адыгэ",
+    "inflections": {
+      "n_erg_pl_def": "адыгэхэмэ",
+      "n_erg_sg_def": "адыгэм",
+      "n_ins_pl_def": "адыгэхэмкӏэ",
+      "n_ins_pl_ndef": "адыгэхэкӏэ",
+      "n_ins_sg_def": "адыгэмкӏэ",
+      "n_ins_sg_ndef": "адыгэкӏэ",
+      "n_lgspec1_pl": "адыгэхыу",
+      "n_lgspec1_sg": "адыгэу",
+      "n_ndef_pl": "адыгэхэ",
+      "n_ndef_sg": "адыгэ",
+      "n_nom_pl": "адыгэхэр",
+      "n_nom_sg": "адыгэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "акъыл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "акъыл",
+    "inflections": {
+      "adj_erg_pl_def": "акъылэхэмэ",
+      "adj_erg_sg_def": "акъылэм",
+      "adj_ins_pl_def": "акъылэхэмкӏэ",
+      "adj_ins_pl_ndef": "акъылэхэкӏэ",
+      "adj_ins_sg_def": "акъылэмкӏэ",
+      "adj_ins_sg_ndef": "акъылэкӏэ",
+      "adj_lgspec1_pl": "акъылэхыу",
+      "adj_lgspec1_sg": "акъылыу",
+      "adj_ndef_pl": "акъылэхэ",
+      "adj_ndef_sg": "акъылэ",
+      "adj_nom_pl_def": "акъылэхэр",
+      "adj_nom_sg_def": "акъылэр",
+      "n_erg_pl_def": "акъылэхэмэ",
+      "n_erg_sg_def": "акъылэм",
+      "n_ins_pl_def": "акъылэхэмкӏэ",
+      "n_ins_pl_ndef": "акъылэхэкӏэ",
+      "n_ins_sg_def": "акъылэмкӏэ",
+      "n_ins_sg_ndef": "акъылэкӏэ",
+      "n_lgspec1_pl": "акъылэхыу",
+      "n_lgspec1_sg": "акъылыу",
+      "n_ndef_pl": "акъылэхэ",
+      "n_ndef_sg": "акъылэ",
+      "n_nom_pl": "акъылэхэр",
+      "n_nom_sg": "акъылэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "амал": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "амал",
+    "inflections": {
+      "n_erg_pl_def": "амалэхэмэ",
+      "n_erg_sg_def": "амалэм",
+      "n_ins_pl_def": "амалэхэмкӏэ",
+      "n_ins_pl_ndef": "амалэхэкӏэ",
+      "n_ins_sg_def": "амалэмкӏэ",
+      "n_ins_sg_ndef": "амалэкӏэ",
+      "n_lgspec1_pl": "амалэхыу",
+      "n_lgspec1_sg": "амалыу",
+      "n_ndef_pl": "амалэхэ",
+      "n_ndef_sg": "амалэ",
+      "n_nom_pl": "амалэхэр",
+      "n_nom_sg": "амалэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "апшъэр": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "апшъэр",
+    "inflections": {
+      "adj_ndef_sg": "апшъэрэ",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "аслъан": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "аслъан",
+    "inflections": {
+      "n_erg_pl_def": "аслъанэхэмэ",
+      "n_erg_sg_def": "аслъанэм",
+      "n_ins_pl_def": "аслъанэхэмкӏэ",
+      "n_ins_pl_ndef": "аслъанэхэкӏэ",
+      "n_ins_sg_def": "аслъанэмкӏэ",
+      "n_ins_sg_ndef": "аслъанэкӏэ",
+      "n_lgspec1_pl": "аслъанэхыу",
+      "n_lgspec1_sg": "аслъаныу",
+      "n_ndef_pl": "аслъанэхэ",
+      "n_ndef_sg": "аслъанэ",
+      "n_nom_pl": "аслъанэхэр",
+      "n_nom_sg": "аслъанэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ахъщэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ахъщэ",
+    "inflections": {
+      "n_erg_pl_def": "ахъщэхэмэ",
+      "n_erg_sg_def": "ахъщэм",
+      "n_ins_pl_def": "ахъщэхэмкӏэ",
+      "n_ins_pl_ndef": "ахъщэхэкӏэ",
+      "n_ins_sg_def": "ахъщэмкӏэ",
+      "n_ins_sg_ndef": "ахъщэкӏэ",
+      "n_lgspec1_pl": "ахъщэхыу",
+      "n_lgspec1_sg": "ахъщэу",
+      "n_ndef_pl": "ахъщэхэ",
+      "n_ndef_sg": "ахъщэ",
+      "n_nom_pl": "ахъщэхэр",
+      "n_nom_sg": "ахъщэр",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "баджэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "баджэ",
+    "inflections": {
+      "n_erg_sg_def": "баджэм",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "бжыхьэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бжыхьэ",
+    "inflections": {
+      "n_erg_sg_def": "бжыхьэм",
+      "n_nom_sg": "бжыхьэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "бзылъфыгъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бзылъфыгъэ",
+    "inflections": {
+      "n_erg_pl_def": "бзылъфыгъэхэмэ",
+      "n_erg_sg_def": "бзылъфыгъэм",
+      "n_ins_pl_def": "бзылъфыгъэхэмкӏэ",
+      "n_ins_pl_ndef": "бзылъфыгъэхэкӏэ",
+      "n_ins_sg_def": "бзылъфыгъэмкӏэ",
+      "n_ins_sg_ndef": "бзылъфыгъэкӏэ",
+      "n_lgspec1_pl": "бзылъфыгъэхыу",
+      "n_lgspec1_sg": "бзылъфыгъэу",
+      "n_ndef_pl": "бзылъфыгъэхэ",
+      "n_ndef_sg": "бзылъфыгъэ",
+      "n_nom_pl": "бзылъфыгъэхэр",
+      "n_nom_sg": "бзылъфыгъэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "бзыу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бзыу",
+    "inflections": {
+      "n_erg_pl_def": "бзыухэмэ",
+      "n_erg_sg_def": "бзыум",
+      "n_ins_pl_def": "бзыухэмкӏэ",
+      "n_ins_pl_ndef": "бзыухэкӏэ",
+      "n_ins_sg_def": "бзыумкӏэ",
+      "n_ins_sg_ndef": "бзыукӏэ",
+      "n_lgspec1_pl": "бзыухыу",
+      "n_lgspec1_sg": "бзыуу",
+      "n_ndef_pl": "бзыухэ",
+      "n_ndef_sg": "бзыу",
+      "n_nom_pl": "бзыухэр",
+      "n_nom_sg": "бзыур",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "былым": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "былым",
+    "inflections": {
+      "n_erg_pl_def": "былымхэмэ",
+      "n_erg_sg_def": "былымм",
+      "n_ins_pl_def": "былымхэмкӏэ",
+      "n_ins_pl_ndef": "былымхэкӏэ",
+      "n_ins_sg_def": "былыммкӏэ",
+      "n_ins_sg_ndef": "былымкӏэ",
+      "n_lgspec1_pl": "былымхыу",
+      "n_lgspec1_sg": "былыму",
+      "n_nom_pl": "былымхэр",
+      "n_nom_sg": "былымр",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "бэдзэры": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бэдзэры",
+    "inflections": {
+      "n_erg_sg_def": "бэдзэрым",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "бэлыдж": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бэлыдж",
+    "inflections": {
+      "n_nom_sg": "бэлыджэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "губгъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "губгъо",
+    "inflections": {
+      "n_erg_sg_def": "губгъом",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "гущыӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "гущыӏэ",
+    "inflections": {
+      "n_erg_pl_def": "гущыӏэхэмэ",
+      "n_erg_sg_def": "гущыӏэм",
+      "n_ins_pl_def": "гущыӏэхэмкӏэ",
+      "n_ins_pl_ndef": "гущыӏэхэкӏэ",
+      "n_ins_sg_def": "гущыӏэмкӏэ",
+      "n_ins_sg_ndef": "гущыӏэкӏэ",
+      "n_lgspec1_pl": "гущыӏэхыу",
+      "n_lgspec1_sg": "гущыӏэу",
+      "n_ndef_pl": "гущыӏэхэ",
+      "n_ndef_sg": "гущыӏэ",
+      "n_nom_pl": "гущыӏэхэр",
+      "n_nom_sg": "гущыӏэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "гъатхэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "гъатхэ",
+    "inflections": {
+      "n_erg_sg_def": "гъатхэм",
+      "n_nom_sg": "гъатхэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "гъогу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "гъогу",
+    "inflections": {
+      "n_erg_pl_def": "гъогуэхэмэ",
+      "n_erg_sg_def": "гъогуэм",
+      "n_ins_pl_def": "гъогуэхэмкӏэ",
+      "n_ins_pl_ndef": "гъогуэхэкӏэ",
+      "n_ins_sg_def": "гъогуэмкӏэ",
+      "n_ins_sg_ndef": "гъогуэкӏэ",
+      "n_lgspec1_pl": "гъогухыу",
+      "n_lgspec1_sg": "гъогуыу",
+      "n_ndef_pl": "гъогуэхэ",
+      "n_ndef_sg": "гъогуэ",
+      "n_nom_pl": "гъогуэхэр",
+      "n_nom_sg": "гъогуэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "гъэмафэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "гъэмафэ",
+    "inflections": {
+      "n_erg_sg_def": "гъэмафэм",
+      "n_nom_sg": "гъэмафэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "джанэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "джанэ",
+    "inflections": {
+      "n_erg_pl_def": "джанэхэмэ",
+      "n_erg_sg_def": "джанэм",
+      "n_ins_pl_def": "джанэхэмкӏэ",
+      "n_ins_pl_ndef": "джанэхэкӏэ",
+      "n_ins_sg_def": "джанэмкӏэ",
+      "n_ins_sg_ndef": "джанэкӏэ",
+      "n_lgspec1_pl": "джанэхыу",
+      "n_lgspec1_sg": "джанэу",
+      "n_ndef_pl": "джанэхэ",
+      "n_ndef_sg": "джанэ",
+      "n_nom_pl": "джанэхэр",
+      "n_nom_sg": "джанэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "дышъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дышъэ",
+    "inflections": {
+      "n_erg_pl_def": "дышъэхэмэ",
+      "n_erg_sg_def": "дышъэм",
+      "n_ins_pl_def": "дышъэхэмкӏэ",
+      "n_ins_pl_ndef": "дышъэхэкӏэ",
+      "n_ins_sg_def": "дышъэмкӏэ",
+      "n_ins_sg_ndef": "дышъэкӏэ",
+      "n_lgspec1_pl": "дышъэхыу",
+      "n_lgspec1_sg": "дышъэу",
+      "n_ndef_pl": "дышъэхэ",
+      "n_ndef_sg": "дышъэ",
+      "n_nom_pl": "дышъэхэр",
+      "n_nom_sg": "дышъэр",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "дэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дэ",
+    "inflections": {
+      "n_ndef_pl": "дэхэ",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "дэгъу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дэгъу",
+    "inflections": {
+      "adj_erg_pl_def": "дэгъухэмэ",
+      "adj_erg_sg_def": "дэгъум",
+      "adj_ins_pl_def": "дэгъухэмкӏэ",
+      "adj_ins_pl_ndef": "дэгъухэкӏэ",
+      "adj_ins_sg_def": "дэгъумкӏэ",
+      "adj_ins_sg_ndef": "дэгъукӏэ",
+      "adj_lgspec1_pl": "дэгъухыу",
+      "adj_lgspec1_sg": "дэгъуу",
+      "adj_nom_pl_def": "дэгъухэр",
+      "adj_nom_sg_def": "дэгъур",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "дэпкъы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дэпкъы",
+    "inflections": {
+      "n_erg_sg_def": "дэпкъым",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "еджакӏо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "еджакӏо",
+    "inflections": {
+      "n_nom_pl": "еджакӏохэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "еджапӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "еджапӏэ",
+    "inflections": {
+      "n_erg_sg_def": "еджапӏэм",
+      "n_nom_sg": "еджапӏэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "жъоныгъуакӏ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жъоныгъуакӏ",
+    "inflections": {
+      "n_erg_sg_def": "жъоныгъуакӏэм",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "жьыбгъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жьыбгъэ",
+    "inflections": {
+      "n_erg_pl_def": "жьыбгъэхэмэ",
+      "n_erg_sg_def": "жьыбгъэм",
+      "n_ins_pl_def": "жьыбгъэхэмкӏэ",
+      "n_ins_pl_ndef": "жьыбгъэхэкӏэ",
+      "n_ins_sg_def": "жьыбгъэмкӏэ",
+      "n_ins_sg_ndef": "жьыбгъэкӏэ",
+      "n_lgspec1_pl": "жьыбгъэхыу",
+      "n_lgspec1_sg": "жьыбгъэу",
+      "n_ndef_pl": "жьыбгъэхэ",
+      "n_ndef_sg": "жьыбгъэ",
+      "n_nom_pl": "жьыбгъэхэр",
+      "n_nom_sg": "жьыбгъэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "зао": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "зао",
+    "inflections": {
+      "n_erg_sg_def": "заом",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "илъэс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "илъэс",
+    "inflections": {
+      "n_erg_pl_def": "илъэсэхэмэ",
+      "n_erg_sg_def": "илъэсэм",
+      "n_ins_pl_def": "илъэсэхэмкӏэ",
+      "n_ins_pl_ndef": "илъэсэхэкӏэ",
+      "n_ins_sg_def": "илъэсэмкӏэ",
+      "n_ins_sg_ndef": "илъэсэкӏэ",
+      "n_lgspec1_pl": "илъэсэхыу",
+      "n_lgspec1_sg": "илъэсыу",
+      "n_ndef_pl": "илъэсэхэ",
+      "n_ndef_sg": "илъэсэ",
+      "n_nom_pl": "илъэсэхэр",
+      "n_nom_sg": "илъэсэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ины": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ины",
+    "inflections": {
+      "n_erg_pl_def": "иныхэмэ",
+      "n_erg_sg_def": "иным",
+      "n_ins_pl_def": "иныхэмкӏэ",
+      "n_ins_pl_ndef": "иныхэкӏэ",
+      "n_ins_sg_def": "инымкӏэ",
+      "n_ins_sg_ndef": "иныкӏэ",
+      "n_lgspec1_pl": "иныхыу",
+      "n_lgspec1_sg": "иныу",
+      "n_nom_pl": "иныхэр",
+      "n_nom_sg": "иныр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "къаз": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "къаз",
+    "inflections": {
+      "n_erg_pl_def": "къазэхэмэ",
+      "n_erg_sg_def": "къазэм",
+      "n_ins_pl_def": "къазэхэмкӏэ",
+      "n_ins_pl_ndef": "къазэхэкӏэ",
+      "n_ins_sg_def": "къазэмкӏэ",
+      "n_ins_sg_ndef": "къазэкӏэ",
+      "n_lgspec1_pl": "къазэхыу",
+      "n_lgspec1_sg": "къазыу",
+      "n_ndef_pl": "къазэхэ",
+      "n_ndef_sg": "къазэ",
+      "n_nom_pl": "къазэхэр",
+      "n_nom_sg": "къазэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "къалэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "къалэ",
+    "inflections": {
+      "n_erg_sg_def": "къалэм",
+      "n_lgspec1_sg": "къалэу",
+      "n_nom_sg": "къалэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "къушъхьэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "къушъхьэ",
+    "inflections": {
+      "n_erg_pl_def": "къушъхьэхэмэ",
+      "n_erg_sg_def": "къушъхьэм",
+      "n_ins_pl_def": "къушъхьэхэмкӏэ",
+      "n_ins_pl_ndef": "къушъхьэхэкӏэ",
+      "n_ins_sg_def": "къушъхьэмкӏэ",
+      "n_ins_sg_ndef": "къушъхьэкӏэ",
+      "n_lgspec1_pl": "къушъхьэхыу",
+      "n_lgspec1_sg": "къушъхьэу",
+      "n_ndef_pl": "къушъхьэхэ",
+      "n_ndef_sg": "къушъхьэ",
+      "n_nom_pl": "къушъхьэхэр",
+      "n_nom_sg": "къушъхьэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "кӏымафэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кӏымафэ",
+    "inflections": {
+      "n_erg_sg_def": "кӏымафэм",
+      "n_nom_sg": "кӏымафэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "кӏэко": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кӏэко",
+    "inflections": {
+      "adj_erg_pl_def": "кӏэкохэмэ",
+      "adj_erg_sg_def": "кӏэком",
+      "adj_ins_pl_def": "кӏэкохэмкӏэ",
+      "adj_ins_pl_ndef": "кӏэкохэкӏэ",
+      "adj_ins_sg_def": "кӏэкомкӏэ",
+      "adj_ins_sg_ndef": "кӏэкокӏэ",
+      "adj_lgspec1_pl": "кӏэкохыу",
+      "adj_lgspec1_sg": "кӏэкоу",
+      "adj_ndef_pl": "кӏэкохэ",
+      "adj_ndef_sg": "кӏэко",
+      "adj_nom_pl_def": "кӏэкохэр",
+      "adj_nom_sg_def": "кӏэкор",
+      "n_erg_pl_def": "кӏэкохэмэ",
+      "n_erg_sg_def": "кӏэком",
+      "n_ins_pl_def": "кӏэкохэмкӏэ",
+      "n_ins_pl_ndef": "кӏэкохэкӏэ",
+      "n_ins_sg_def": "кӏэкомкӏэ",
+      "n_ins_sg_ndef": "кӏэкокӏэ",
+      "n_lgspec1_pl": "кӏэкохыу",
+      "n_lgspec1_sg": "кӏэкоу",
+      "n_ndef_pl": "кӏэкохэ",
+      "n_ndef_sg": "кӏэко",
+      "n_nom_pl": "кӏэкохэр",
+      "n_nom_sg": "кӏэкор",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "кӏэлэегъадж": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кӏэлэегъадж",
+    "inflections": {
+      "n_erg_sg_def": "кӏэлэегъаджэм",
+      "n_nom_sg": "кӏэлэегъаджэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "кӏэлэеджакӏо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кӏэлэеджакӏо",
+    "inflections": {
+      "n_erg_sg_def": "кӏэлэеджакӏом",
+      "n_nom_pl": "кӏэлэеджакӏохэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "лъэпкъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лъэпкъ",
+    "inflections": {
+      "n_erg_pl_def": "лъэпкъэхэмэ",
+      "n_erg_sg_def": "лъэпкъэм",
+      "n_ins_pl_def": "лъэпкъэхэмкӏэ",
+      "n_ins_pl_ndef": "лъэпкъэхэкӏэ",
+      "n_ins_sg_def": "лъэпкъэмкӏэ",
+      "n_ins_sg_ndef": "лъэпкъэкӏэ",
+      "n_lgspec1_pl": "лъэпкъэхыу",
+      "n_lgspec1_sg": "лъэпкъыу",
+      "n_ndef_pl": "лъэпкъэхэ",
+      "n_ndef_sg": "лъэпкъэ",
+      "n_nom_pl": "лъэпкъэхэр",
+      "n_nom_sg": "лъэпкъэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "мазэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мазэ",
+    "inflections": {
+      "n_erg_sg_def": "мазэм",
+      "n_nom_sg": "мазэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "макъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "макъэ",
+    "inflections": {
+      "n_erg_pl_def": "макъэхэмэ",
+      "n_erg_sg_def": "макъэм",
+      "n_ins_pl_def": "макъэхэмкӏэ",
+      "n_ins_pl_ndef": "макъэхэкӏэ",
+      "n_ins_sg_def": "макъэмкӏэ",
+      "n_ins_sg_ndef": "макъэкӏэ",
+      "n_lgspec1_pl": "макъэхыу",
+      "n_lgspec1_sg": "макъэу",
+      "n_ndef_pl": "макъэхэ",
+      "n_ndef_sg": "макъэ",
+      "n_nom_pl": "макъэхэр",
+      "n_nom_sg": "макъэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "мафэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мафэ",
+    "inflections": {
+      "n_erg_pl_def": "мафэхэмэ",
+      "n_erg_sg_def": "мафэм",
+      "n_ins_pl_def": "мафэхэмкӏэ",
+      "n_ins_pl_ndef": "мафэхэкӏэ",
+      "n_ins_sg_def": "мафэмкӏэ",
+      "n_ins_sg_ndef": "мафэкӏэ",
+      "n_lgspec1_pl": "мафэхыу",
+      "n_lgspec1_sg": "мафэу",
+      "n_ndef_pl": "мафэхэ",
+      "n_ndef_sg": "мафэ",
+      "n_nom_pl": "мафэхэр",
+      "n_nom_sg": "мафэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "машинэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "машинэ",
+    "inflections": {
+      "n_nom_pl": "машинэхэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "мышъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мышъэ",
+    "inflections": {
+      "n_nom_sg": "мышъэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "мыӏэрыс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мыӏэрыс",
+    "inflections": {
+      "n_ndef_sg": "мыӏэрысэ",
+      "n_nom_pl": "мыӏэрысэхэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "мэз": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мэз",
+    "inflections": {
+      "n_erg_pl_def": "мэзэхэмэ",
+      "n_erg_sg_def": "мэзэм",
+      "n_ins_pl_def": "мэзэхэмкӏэ",
+      "n_ins_pl_ndef": "мэзэхэкӏэ",
+      "n_ins_sg_def": "мэзэмкӏэ",
+      "n_ins_sg_ndef": "мэзэкӏэ",
+      "n_lgspec1_pl": "мэзэхыу",
+      "n_lgspec1_sg": "мэзыу",
+      "n_ndef_pl": "мэзэхэ",
+      "n_ndef_sg": "мэзэ",
+      "n_nom_pl": "мэзэхэр",
+      "n_nom_sg": "мэзэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "мэзы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мэзы",
+    "inflections": {
+      "n_erg_sg_def": "мэзым",
+      "n_nom_sg": "мэзыр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "мэл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мэл",
+    "inflections": {
+      "n_erg_pl_def": "мэлэхэмэ",
+      "n_erg_sg_def": "мэлэм",
+      "n_ins_pl_def": "мэлэхэмкӏэ",
+      "n_ins_pl_ndef": "мэлэхэкӏэ",
+      "n_ins_sg_def": "мэлэмкӏэ",
+      "n_ins_sg_ndef": "мэлэкӏэ",
+      "n_lgspec1_pl": "мэлэхыу",
+      "n_lgspec1_sg": "мэлыу",
+      "n_ndef_pl": "мэлэхэ",
+      "n_ndef_sg": "мэлэ",
+      "n_nom_pl": "мэлэхэр",
+      "n_nom_sg": "мэлэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "мэлахъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мэлахъо",
+    "inflections": {
+      "n_erg_sg_def": "мэлахъом",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "натрыф": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "натрыф",
+    "inflections": {
+      "n_erg_pl_def": "натрыфэхэмэ",
+      "n_erg_sg_def": "натрыфэм",
+      "n_ins_pl_def": "натрыфэхэмкӏэ",
+      "n_ins_pl_ndef": "натрыфэхэкӏэ",
+      "n_ins_sg_def": "натрыфэмкӏэ",
+      "n_ins_sg_ndef": "натрыфэкӏэ",
+      "n_lgspec1_pl": "натрыфэхыу",
+      "n_lgspec1_sg": "натрыфыу",
+      "n_ndef_pl": "натрыфэхэ",
+      "n_ndef_sg": "натрыфэ",
+      "n_nom_pl": "натрыфэхэр",
+      "n_nom_sg": "натрыфэр",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ны": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ны",
+    "inflections": {
+      "n_erg_sg_def": "ным",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ныбджэгъу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ныбджэгъу",
+    "inflections": {
+      "n_erg_pl_def": "ныбджэгъуэхэмэ",
+      "n_erg_sg_def": "ныбджэгъуэм",
+      "n_ins_pl_def": "ныбджэгъуэхэмкӏэ",
+      "n_ins_pl_ndef": "ныбджэгъуэхэкӏэ",
+      "n_ins_sg_def": "ныбджэгъуэмкӏэ",
+      "n_ins_sg_ndef": "ныбджэгъуэкӏэ",
+      "n_lgspec1_pl": "ныбджэгъухыу",
+      "n_lgspec1_sg": "ныбджэгъуыу",
+      "n_ndef_pl": "ныбджэгъуэхэ",
+      "n_ndef_sg": "ныбджэгъуэ",
+      "n_nom_pl": "ныбджэгъуэхэр",
+      "n_nom_sg": "ныбджэгъуэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ныбжьыкӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ныбжьыкӏэ",
+    "inflections": {
+      "adj_erg_pl_def": "ныбжьыкӏэхэмэ",
+      "adj_erg_sg_def": "ныбжьыкӏэм",
+      "adj_ins_pl_def": "ныбжьыкӏэхэмкӏэ",
+      "adj_ins_pl_ndef": "ныбжьыкӏэхэкӏэ",
+      "adj_ins_sg_def": "ныбжьыкӏэмкӏэ",
+      "adj_ins_sg_ndef": "ныбжьыкӏэкӏэ",
+      "adj_lgspec1_pl": "ныбжьыкӏэхыу",
+      "adj_lgspec1_sg": "ныбжьыкӏэу",
+      "adj_ndef_pl": "ныбжьыкӏэхэ",
+      "adj_ndef_sg": "ныбжьыкӏэ",
+      "adj_nom_pl_def": "ныбжьыкӏэхэр",
+      "adj_nom_sg_def": "ныбжьыкӏэр",
+      "n_erg_pl_def": "ныбжьыкӏэхэмэ",
+      "n_erg_sg_def": "ныбжьыкӏэм",
+      "n_ins_pl_def": "ныбжьыкӏэхэмкӏэ",
+      "n_ins_pl_ndef": "ныбжьыкӏэхэкӏэ",
+      "n_ins_sg_def": "ныбжьыкӏэмкӏэ",
+      "n_ins_sg_ndef": "ныбжьыкӏэкӏэ",
+      "n_lgspec1_pl": "ныбжьыкӏэхыу",
+      "n_lgspec1_sg": "ныбжьыкӏэу",
+      "n_ndef_pl": "ныбжьыкӏэхэ",
+      "n_ndef_sg": "ныбжьыкӏэ",
+      "n_nom_pl": "ныбжьыкӏэхэр",
+      "n_nom_sg": "ныбжьыкӏэр",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "ныо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ныо",
+    "inflections": {
+      "n_erg_sg_def": "ныом",
+      "n_nom_sg": "ныор",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "нэнэжъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нэнэжъ",
+    "inflections": {
+      "n_erg_pl_def": "нэнэжъэхэмэ",
+      "n_erg_sg_def": "нэнэжъэм",
+      "n_ins_pl_def": "нэнэжъэхэмкӏэ",
+      "n_ins_pl_ndef": "нэнэжъэхэкӏэ",
+      "n_ins_sg_def": "нэнэжъэмкӏэ",
+      "n_ins_sg_ndef": "нэнэжъэкӏэ",
+      "n_lgspec1_pl": "нэнэжъэхыу",
+      "n_lgspec1_sg": "нэнэжъыу",
+      "n_ndef_pl": "нэнэжъэхэ",
+      "n_ndef_sg": "нэнэжъэ",
+      "n_nom_pl": "нэнэжъэхэр",
+      "n_nom_sg": "нэнэжъэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "орэд": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "орэд",
+    "inflections": {
+      "n_erg_pl_def": "орэдэхэмэ",
+      "n_erg_sg_def": "орэдэм",
+      "n_ins_pl_def": "орэдэхэмкӏэ",
+      "n_ins_pl_ndef": "орэдэхэкӏэ",
+      "n_ins_sg_def": "орэдэмкӏэ",
+      "n_ins_sg_ndef": "орэдэкӏэ",
+      "n_lgspec1_pl": "орэдэхыу",
+      "n_lgspec1_sg": "орэдыу",
+      "n_ndef_pl": "орэдэхэ",
+      "n_ndef_sg": "орэдэ",
+      "n_nom_pl": "орэдэхэр",
+      "n_nom_sg": "орэдэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ос": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ос",
+    "inflections": {
+      "n_erg_pl_def": "осэхэмэ",
+      "n_erg_sg_def": "осэм",
+      "n_ins_pl_def": "осэхэмкӏэ",
+      "n_ins_pl_ndef": "осэхэкӏэ",
+      "n_ins_sg_def": "осэмкӏэ",
+      "n_ins_sg_ndef": "осэкӏэ",
+      "n_lgspec1_pl": "осэхыу",
+      "n_lgspec1_sg": "осыу",
+      "n_ndef_pl": "осэхэ",
+      "n_ndef_sg": "осэ",
+      "n_nom_pl": "осэхэр",
+      "n_nom_sg": "осэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "осы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "осы",
+    "inflections": {
+      "n_erg_sg_def": "осым",
+      "n_nom_sg": "осыр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "псыхъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "псыхъо",
+    "inflections": {
+      "n_erg_pl_def": "псыхъохэмэ",
+      "n_erg_sg_def": "псыхъом",
+      "n_ins_pl_def": "псыхъохэмкӏэ",
+      "n_ins_pl_ndef": "псыхъохэкӏэ",
+      "n_ins_sg_def": "псыхъомкӏэ",
+      "n_ins_sg_ndef": "псыхъокӏэ",
+      "n_lgspec1_pl": "псыхъохыу",
+      "n_lgspec1_sg": "псыхъоу",
+      "n_ndef_pl": "псыхъохэ",
+      "n_ndef_sg": "псыхъо",
+      "n_nom_pl": "псыхъохэр",
+      "n_nom_sg": "псыхъор",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "псэушъхь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "псэушъхь",
+    "inflections": {
+      "n_ndef_sg": "псэушъхьэ",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "пхъэгулъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пхъэгулъ",
+    "inflections": {
+      "n_erg_pl_def": "пхъэгулъэхэмэ",
+      "n_erg_sg_def": "пхъэгулъэм",
+      "n_ins_pl_def": "пхъэгулъэхэмкӏэ",
+      "n_ins_pl_ndef": "пхъэгулъэхэкӏэ",
+      "n_ins_sg_def": "пхъэгулъэмкӏэ",
+      "n_ins_sg_ndef": "пхъэгулъэкӏэ",
+      "n_lgspec1_pl": "пхъэгулъэхыу",
+      "n_lgspec1_sg": "пхъэгулъыу",
+      "n_ndef_pl": "пхъэгулъэхэ",
+      "n_ndef_sg": "пхъэгулъэ",
+      "n_nom_pl": "пхъэгулъэхэр",
+      "n_nom_sg": "пхъэгулъэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "пцэжъые": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пцэжъые",
+    "inflections": {
+      "n_erg_pl_def": "пцэжъыехэмэ",
+      "n_erg_sg_def": "пцэжъыем",
+      "n_ins_pl_def": "пцэжъыехэмкӏэ",
+      "n_ins_pl_ndef": "пцэжъыехэкӏэ",
+      "n_ins_sg_def": "пцэжъыемкӏэ",
+      "n_ins_sg_ndef": "пцэжъыекӏэ",
+      "n_lgspec1_pl": "пцэжъыехыу",
+      "n_lgspec1_sg": "пцэжъыеу",
+      "n_ndef_pl": "пцэжъыехэ",
+      "n_ndef_sg": "пцэжъые",
+      "n_nom_pl": "пцэжъыехэр",
+      "n_nom_sg": "пцэжъыер",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "пчъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пчъэ",
+    "inflections": {
+      "n_erg_sg_def": "пчъэм",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "пчыхьэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пчыхьэ",
+    "inflections": {
+      "n_erg_sg_def": "пчыхьэм",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "пшахъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пшахъо",
+    "inflections": {
+      "n_erg_pl_def": "пшахъохэмэ",
+      "n_erg_sg_def": "пшахъом",
+      "n_ins_pl_def": "пшахъохэмкӏэ",
+      "n_ins_pl_ndef": "пшахъохэкӏэ",
+      "n_ins_sg_def": "пшахъомкӏэ",
+      "n_ins_sg_ndef": "пшахъокӏэ",
+      "n_lgspec1_pl": "пшахъохыу",
+      "n_lgspec1_sg": "пшахъоу",
+      "n_ndef_pl": "пшахъохэ",
+      "n_ndef_sg": "пшахъо",
+      "n_nom_pl": "пшахъохэр",
+      "n_nom_sg": "пшахъор",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "пшъашъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пшъашъэ",
+    "inflections": {
+      "n_erg_sg_def": "пшъашъэм",
+      "n_nom_pl": "пшъашъэхэр",
+      "n_nom_sg": "пшъашъэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "пшъэшъэжъые": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пшъэшъэжъые",
+    "inflections": {
+      "n_erg_sg_def": "пшъэшъэжъыем",
+      "n_nom_sg": "пшъэшъэжъыер",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "пшысэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пшысэ",
+    "inflections": {
+      "n_nom_pl": "пшысэхэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "сурэт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сурэт",
+    "inflections": {
+      "n_erg_pl_def": "сурэтхэмэ",
+      "n_erg_sg_def": "сурэтм",
+      "n_ins_pl_def": "сурэтхэмкӏэ",
+      "n_ins_pl_ndef": "сурэтхэкӏэ",
+      "n_ins_sg_def": "сурэтмкӏэ",
+      "n_ins_sg_ndef": "сурэткӏэ",
+      "n_lgspec1_pl": "сурэтхыу",
+      "n_lgspec1_sg": "сурэту",
+      "n_nom_pl": "сурэтхэр",
+      "n_nom_sg": "сурэтр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "сыхьат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сыхьат",
+    "inflections": {
+      "n_erg_pl_def": "сыхьатэхэмэ",
+      "n_erg_sg_def": "сыхьатэм",
+      "n_ins_pl_def": "сыхьатэхэмкӏэ",
+      "n_ins_pl_ndef": "сыхьатэхэкӏэ",
+      "n_ins_sg_def": "сыхьатэмкӏэ",
+      "n_ins_sg_ndef": "сыхьатэкӏэ",
+      "n_lgspec1_pl": "сыхьатэхыу",
+      "n_lgspec1_sg": "сыхьатыу",
+      "n_ndef_pl": "сыхьатэхэ",
+      "n_ndef_sg": "сыхьатэ",
+      "n_nom_pl": "сыхьатэхэр",
+      "n_nom_sg": "сыхьатэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "сэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сэ",
+    "inflections": {
+      "n_erg_pl_def": "сэхэмэ",
+      "n_erg_sg_def": "сэм",
+      "n_ins_pl_def": "сэхэмкӏэ",
+      "n_ins_pl_ndef": "сэхэкӏэ",
+      "n_ins_sg_def": "сэмкӏэ",
+      "n_ins_sg_ndef": "сэкӏэ",
+      "n_lgspec1_pl": "сэхыу",
+      "n_lgspec1_sg": "сэу",
+      "n_ndef_pl": "сэхэ",
+      "n_ndef_sg": "сэ",
+      "n_nom_pl": "сэхэр",
+      "n_nom_sg": "сэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "такъикъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "такъикъ",
+    "inflections": {
+      "n_erg_pl_def": "такъикъэхэмэ",
+      "n_erg_sg_def": "такъикъэм",
+      "n_ins_pl_def": "такъикъэхэмкӏэ",
+      "n_ins_pl_ndef": "такъикъэхэкӏэ",
+      "n_ins_sg_def": "такъикъэмкӏэ",
+      "n_ins_sg_ndef": "такъикъэкӏэ",
+      "n_lgspec1_pl": "такъикъэхыу",
+      "n_lgspec1_sg": "такъикъыу",
+      "n_ndef_pl": "такъикъэхэ",
+      "n_ndef_sg": "такъикъэ",
+      "n_nom_pl": "такъикъэхэр",
+      "n_nom_sg": "такъикъэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "тхылъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тхылъ",
+    "inflections": {
+      "n_erg_pl_def_def": "тхылъэхэмкӏэ",
+      "n_erg_pl_def_ndef": "тхылъэхэкӏэ",
+      "n_erg_sg_def_def": "тхылъэмкӏэ",
+      "n_erg_sg_def_ndef": "тхылъэкӏэ",
+      "n_ins_pl": "тхылъэхыу",
+      "n_ins_sg": "тхылъыу",
+      "n_lgspec1_pl": "тхылъыщэ",
+      "n_ndef_pl": "тхылъэхэр",
+      "n_ndef_sg": "тхылъэр",
+      "n_nom_pl": "тхылъэхэмэ",
+      "n_nom_sg": "тхылъэм",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "тхьапэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тхьапэ",
+    "inflections": {
+      "n_nom_pl": "тхьапэхэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "тхьаумаф": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тхьаумаф",
+    "inflections": {
+      "n_erg_sg_def": "тхьаумафэм",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "тыгъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тыгъэ",
+    "inflections": {
+      "n_erg_sg_def": "тыгъэм",
+      "n_nom_sg": "тыгъэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "тэтэжъ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тэтэжъ",
+    "inflections": {
+      "n_erg_pl_def": "тэтэжъэхэмэ",
+      "n_erg_sg_def": "тэтэжъэм",
+      "n_ins_pl_def": "тэтэжъэхэмкӏэ",
+      "n_ins_pl_ndef": "тэтэжъэхэкӏэ",
+      "n_ins_sg_def": "тэтэжъэмкӏэ",
+      "n_ins_sg_ndef": "тэтэжъэкӏэ",
+      "n_lgspec1_pl": "тэтэжъэхыу",
+      "n_lgspec1_sg": "тэтэжъыу",
+      "n_ndef_pl": "тэтэжъэхэ",
+      "n_ndef_sg": "тэтэжъэ",
+      "n_nom_pl": "тэтэжъэхэр",
+      "n_nom_sg": "тэтэжъэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "уатэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уатэ",
+    "inflections": {
+      "n_erg_pl_def": "уатэхэмэ",
+      "n_erg_sg_def": "уатэм",
+      "n_ins_pl_def": "уатэхэмкӏэ",
+      "n_ins_pl_ndef": "уатэхэкӏэ",
+      "n_ins_sg_def": "уатэмкӏэ",
+      "n_ins_sg_ndef": "уатэкӏэ",
+      "n_lgspec1_pl": "уатэхыу",
+      "n_lgspec1_sg": "уатэу",
+      "n_ndef_pl": "уатэхэ",
+      "n_ndef_sg": "уатэ",
+      "n_nom_pl": "уатэхэр",
+      "n_nom_sg": "уатэр",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "уахътэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уахътэ",
+    "inflections": {
+      "n_erg_sg_def": "уахътэм",
+      "n_nom_sg": "уахътэр",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "укӏыт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "укӏыт",
+    "inflections": {
+      "n_erg_sg_def": "укӏытэм",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "унагъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "унагъо",
+    "inflections": {
+      "n_erg_pl_def": "унагъохэмэ",
+      "n_erg_sg_def": "унагъом",
+      "n_ins_pl_def": "унагъохэмкӏэ",
+      "n_ins_pl_ndef": "унагъохэкӏэ",
+      "n_ins_sg_def": "унагъомкӏэ",
+      "n_ins_sg_ndef": "унагъокӏэ",
+      "n_lgspec1_pl": "унагъохыу",
+      "n_lgspec1_sg": "унагъоу",
+      "n_ndef_pl": "унагъохэ",
+      "n_ndef_sg": "унагъо",
+      "n_nom_pl": "унагъохэр",
+      "n_nom_sg": "унагъор",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "унэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "унэ",
+    "inflections": {
+      "n_erg_pl_def": "унэхэмэ",
+      "n_erg_sg_def": "унэм",
+      "n_ins_pl_def": "унэхэмкӏэ",
+      "n_ins_pl_ndef": "унэхэкӏэ",
+      "n_ins_sg_def": "унэмкӏэ",
+      "n_ins_sg_ndef": "унэкӏэ",
+      "n_lgspec1_pl": "унэхыу",
+      "n_lgspec1_sg": "унэу",
+      "n_ndef_pl": "унэхэ",
+      "n_ndef_sg": "унэ",
+      "n_nom_pl": "унэхэр",
+      "n_nom_sg": "унэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "урыс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "урыс",
+    "inflections": {
+      "n_erg_pl_def": "урысэхэмэ",
+      "n_erg_sg_def": "урысэм",
+      "n_ins_pl_def": "урысэхэмкӏэ",
+      "n_ins_pl_ndef": "урысэхэкӏэ",
+      "n_ins_sg_def": "урысэмкӏэ",
+      "n_ins_sg_ndef": "урысэкӏэ",
+      "n_lgspec1_pl": "урысэхыу",
+      "n_lgspec1_sg": "урысыу",
+      "n_ndef_pl": "урысэхэ",
+      "n_ndef_sg": "урысэ",
+      "n_nom_pl": "урысэхэр",
+      "n_nom_sg": "урысэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "уц": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уц",
+    "inflections": {
+      "n_erg_pl_def": "уцэхэмэ",
+      "n_erg_sg_def": "уцэм",
+      "n_ins_pl_def": "уцэхэмкӏэ",
+      "n_ins_pl_ndef": "уцэхэкӏэ",
+      "n_ins_sg_def": "уцэмкӏэ",
+      "n_ins_sg_ndef": "уцэкӏэ",
+      "n_lgspec1_pl": "уцэхыу",
+      "n_lgspec1_sg": "уцыу",
+      "n_ndef_pl": "уцэхэ",
+      "n_ndef_sg": "уцэ",
+      "n_nom_pl": "уцэхэр",
+      "n_nom_sg": "уцэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "фабэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "фабэ",
+    "inflections": {
+      "adj_erg_pl_def": "фабэхэмэ",
+      "adj_erg_sg_def": "фабэм",
+      "adj_ins_pl_def": "фабэхэмкӏэ",
+      "adj_ins_pl_ndef": "фабэхэкӏэ",
+      "adj_ins_sg_def": "фабэмкӏэ",
+      "adj_ins_sg_ndef": "фабэкӏэ",
+      "adj_lgspec1_pl": "фабэхыу",
+      "adj_lgspec1_sg": "фабэу",
+      "adj_ndef_pl": "фабэхэ",
+      "adj_ndef_sg": "фабэ",
+      "adj_nom_pl_def": "фабэхэр",
+      "adj_nom_sg_def": "фабэр",
+      "n_erg_pl_def": "фабэхэмэ",
+      "n_erg_sg_def": "фабэм",
+      "n_ins_pl_def": "фабэхэмкӏэ",
+      "n_ins_pl_ndef": "фабэхэкӏэ",
+      "n_ins_sg_def": "фабэмкӏэ",
+      "n_ins_sg_ndef": "фабэкӏэ",
+      "n_lgspec1_pl": "фабэхыу",
+      "n_lgspec1_sg": "фабэу",
+      "n_ndef_pl": "фабэхэ",
+      "n_ndef_sg": "фабэ",
+      "n_nom_pl": "фабэхэр",
+      "n_nom_sg": "фабэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "хатэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хатэ",
+    "inflections": {
+      "n_erg_sg_def": "хатэм",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "хьакӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хьакӏэ",
+    "inflections": {
+      "n_erg_sg_def": "хьакӏэм",
+      "n_lgspec1_sg": "хьакӏэу",
+      "n_nom_pl": "хьакӏэхэр",
+      "n_nom_sg": "хьакӏэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "хьэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хьэ",
+    "inflections": {
+      "n_erg_pl_def": "хьэхэмэ",
+      "n_erg_sg_def": "хьэм",
+      "n_ins_pl_def": "хьэхэмкӏэ",
+      "n_ins_pl_ndef": "хьэхэкӏэ",
+      "n_ins_sg_def": "хьэмкӏэ",
+      "n_ins_sg_ndef": "хьэкӏэ",
+      "n_lgspec1_pl": "хьэхыу",
+      "n_lgspec1_sg": "хьэу",
+      "n_ndef_pl": "хьэхэ",
+      "n_ndef_sg": "хьэ",
+      "n_nom_pl": "хьэхэр",
+      "n_nom_sg": "хьэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "хэгъэгу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хэгъэгу",
+    "inflections": {
+      "n_erg_pl_def": "хэгъэгуэхэмэ",
+      "n_erg_sg_def": "хэгъэгуэм",
+      "n_ins_pl_def": "хэгъэгуэхэмкӏэ",
+      "n_ins_pl_ndef": "хэгъэгуэхэкӏэ",
+      "n_ins_sg_def": "хэгъэгуэмкӏэ",
+      "n_ins_sg_ndef": "хэгъэгуэкӏэ",
+      "n_lgspec1_pl": "хэгъэгухыу",
+      "n_lgspec1_sg": "хэгъэгуыу",
+      "n_ndef_pl": "хэгъэгуэхэ",
+      "n_ndef_sg": "хэгъэгуэ",
+      "n_nom_pl": "хэгъэгуэхэр",
+      "n_nom_sg": "хэгъэгуэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "цуакъэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "цуакъэ",
+    "inflections": {
+      "n_nom_pl": "цуакъэхэр",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "цыгъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "цыгъо",
+    "inflections": {
+      "n_erg_pl_def": "цыгъохэмэ",
+      "n_erg_sg_def": "цыгъом",
+      "n_ins_pl_def": "цыгъохэмкӏэ",
+      "n_ins_pl_ndef": "цыгъохэкӏэ",
+      "n_ins_sg_def": "цыгъомкӏэ",
+      "n_ins_sg_ndef": "цыгъокӏэ",
+      "n_lgspec1_pl": "цыгъохыу",
+      "n_lgspec1_sg": "цыгъоу",
+      "n_ndef_pl": "цыгъохэ",
+      "n_ndef_sg": "цыгъо",
+      "n_nom_pl": "цыгъохэр",
+      "n_nom_sg": "цыгъор",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "цӏыфхэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "цӏыфхэ",
+    "inflections": {
+      "n_erg_sg_def": "цӏыфхэм",
+      "n_nom_sg": "цӏыфхэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "цӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "цӏэ",
+    "inflections": {
+      "n_erg_pl_def": "цӏэхэмэ",
+      "n_erg_sg_def": "цӏэм",
+      "n_ins_pl_def": "цӏэхэмкӏэ",
+      "n_ins_pl_ndef": "цӏэхэкӏэ",
+      "n_ins_sg_def": "цӏэмкӏэ",
+      "n_ins_sg_ndef": "цӏэкӏэ",
+      "n_lgspec1_pl": "цӏэхыу",
+      "n_lgspec1_sg": "цӏэу",
+      "n_ndef_pl": "цӏэхэ",
+      "n_ndef_sg": "цӏэ",
+      "n_nom_pl": "цӏэхэр",
+      "n_nom_sg": "цӏэр",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "чъыг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чъыг",
+    "inflections": {
+      "n_erg_pl_def": "чъыгэхэмэ",
+      "n_erg_sg_def": "чъыгэм",
+      "n_ins_pl_def": "чъыгэхэмкӏэ",
+      "n_ins_pl_ndef": "чъыгэхэкӏэ",
+      "n_ins_sg_def": "чъыгэмкӏэ",
+      "n_ins_sg_ndef": "чъыгэкӏэ",
+      "n_lgspec1_pl": "чъыгэхыу",
+      "n_lgspec1_sg": "чъыгыу",
+      "n_ndef_pl": "чъыгэхэ",
+      "n_ndef_sg": "чъыгэ",
+      "n_nom_pl": "чъыгэхэр",
+      "n_nom_sg": "чъыгэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "чъыгхатэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чъыгхатэ",
+    "inflections": {
+      "n_erg_sg_def": "чъыгхатэм",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "чъыӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чъыӏэ",
+    "inflections": {
+      "n_erg_pl_def": "чъыӏэхэмэ",
+      "n_erg_sg_def": "чъыӏэм",
+      "n_ins_pl_def": "чъыӏэхэмкӏэ",
+      "n_ins_pl_ndef": "чъыӏэхэкӏэ",
+      "n_ins_sg_def": "чъыӏэмкӏэ",
+      "n_ins_sg_ndef": "чъыӏэкӏэ",
+      "n_lgspec1_pl": "чъыӏэхыу",
+      "n_lgspec1_sg": "чъыӏэу",
+      "n_ndef_pl": "чъыӏэхэ",
+      "n_ndef_sg": "чъыӏэ",
+      "n_nom_pl": "чъыӏэхэр",
+      "n_nom_sg": "чъыӏэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "чылэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чылэ",
+    "inflections": {
+      "n_erg_pl_def": "чылэхэмэ",
+      "n_erg_sg_def": "чылэм",
+      "n_ins_pl_def": "чылэхэмкӏэ",
+      "n_ins_pl_ndef": "чылэхэкӏэ",
+      "n_ins_sg_def": "чылэмкӏэ",
+      "n_ins_sg_ndef": "чылэкӏэ",
+      "n_lgspec1_pl": "чылэхыу",
+      "n_lgspec1_sg": "чылэу",
+      "n_ndef_pl": "чылэхэ",
+      "n_ndef_sg": "чылэ",
+      "n_nom_pl": "чылэхэр",
+      "n_nom_sg": "чылэр",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "чэщ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чэщ",
+    "inflections": {
+      "n_erg_pl_def": "чэщэхэмэ",
+      "n_erg_sg_def": "чэщэм",
+      "n_ins_pl_def": "чэщэхэмкӏэ",
+      "n_ins_pl_ndef": "чэщэхэкӏэ",
+      "n_ins_sg_def": "чэщэмкӏэ",
+      "n_ins_sg_ndef": "чэщэкӏэ",
+      "n_lgspec1_pl": "чэщэхыу",
+      "n_lgspec1_sg": "чэщыу",
+      "n_ndef_pl": "чэщэхэ",
+      "n_ndef_sg": "чэщэ",
+      "n_nom_pl": "чэщэхэр",
+      "n_nom_sg": "чэщэр",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "чэщы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чэщы",
+    "inflections": {
+      "n_erg_sg_def": "чэщым",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "шхъуантӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шхъуантӏэ",
+    "inflections": {
+      "adj_erg_pl_def": "шхъуантӏэхэмэ",
+      "adj_erg_sg_def": "шхъуантӏэм",
+      "adj_ins_pl_def": "шхъуантӏэхэмкӏэ",
+      "adj_ins_pl_ndef": "шхъуантӏэхэкӏэ",
+      "adj_ins_sg_def": "шхъуантӏэмкӏэ",
+      "adj_ins_sg_ndef": "шхъуантӏэкӏэ",
+      "adj_lgspec1_pl": "шхъуантӏэхыу",
+      "adj_lgspec1_sg": "шхъуантӏэу",
+      "adj_ndef_pl": "шхъуантӏэхэ",
+      "adj_ndef_sg": "шхъуантӏэ",
+      "adj_nom_pl_def": "шхъуантӏэхэр",
+      "adj_nom_sg_def": "шхъуантӏэр",
+      "n_erg_pl_def": "шхъуантӏэхэмэ",
+      "n_erg_sg_def": "шхъуантӏэм",
+      "n_ins_pl_def": "шхъуантӏэхэмкӏэ",
+      "n_ins_pl_ndef": "шхъуантӏэхэкӏэ",
+      "n_ins_sg_def": "шхъуантӏэмкӏэ",
+      "n_ins_sg_ndef": "шхъуантӏэкӏэ",
+      "n_lgspec1_pl": "шхъуантӏэхыу",
+      "n_lgspec1_sg": "шхъуантӏэу",
+      "n_ndef_pl": "шхъуантӏэхэ",
+      "n_ndef_sg": "шхъуантӏэ",
+      "n_nom_pl": "шхъуантӏэхэр",
+      "n_nom_sg": "шхъуантӏэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "шхын": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шхын",
+    "inflections": {
+      "n_erg_pl_def": "шхынэхэмэ",
+      "n_erg_sg_def": "шхынэм",
+      "n_ins_pl_def": "шхынэхэмкӏэ",
+      "n_ins_pl_ndef": "шхынэхэкӏэ",
+      "n_ins_sg_def": "шхынэмкӏэ",
+      "n_ins_sg_ndef": "шхынэкӏэ",
+      "n_lgspec1_pl": "шхынэхыу",
+      "n_lgspec1_sg": "шхыныу",
+      "n_ndef_pl": "шхынэхэ",
+      "n_ndef_sg": "шхынэ",
+      "n_nom_pl": "шхынэхэр",
+      "n_nom_sg": "шхынэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "шыр": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шыр",
+    "inflections": {
+      "n_erg_pl_def": "шырэхэмэ",
+      "n_erg_sg_def": "шырэм",
+      "n_ins_pl_def": "шырэхэмкӏэ",
+      "n_ins_pl_ndef": "шырэхэкӏэ",
+      "n_ins_sg_def": "шырэмкӏэ",
+      "n_ins_sg_ndef": "шырэкӏэ",
+      "n_lgspec1_pl": "шырэхыу",
+      "n_lgspec1_sg": "шырыу",
+      "n_ndef_pl": "шырэхэ",
+      "n_ndef_sg": "шырэ",
+      "n_nom_pl": "шырэхэр",
+      "n_nom_sg": "шырэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "шӏуцӏэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шӏуцӏэ",
+    "inflections": {
+      "adj_erg_pl_def": "шӏуцӏэхэмэ",
+      "adj_erg_sg_def": "шӏуцӏэм",
+      "adj_ins_pl_def": "шӏуцӏэхэмкӏэ",
+      "adj_ins_pl_ndef": "шӏуцӏэхэкӏэ",
+      "adj_ins_sg_def": "шӏуцӏэмкӏэ",
+      "adj_ins_sg_ndef": "шӏуцӏэкӏэ",
+      "adj_lgspec1_pl": "шӏуцӏэхыу",
+      "adj_lgspec1_sg": "шӏуцӏэу",
+      "adj_ndef_pl": "шӏуцӏэхэ",
+      "adj_ndef_sg": "шӏуцӏэ",
+      "adj_nom_pl_def": "шӏуцӏэхэр",
+      "adj_nom_sg_def": "шӏуцӏэр",
+      "n_erg_pl_def": "шӏуцӏэхэмэ",
+      "n_erg_sg_def": "шӏуцӏэм",
+      "n_ins_pl_def": "шӏуцӏэхэмкӏэ",
+      "n_ins_pl_ndef": "шӏуцӏэхэкӏэ",
+      "n_ins_sg_def": "шӏуцӏэмкӏэ",
+      "n_ins_sg_ndef": "шӏуцӏэкӏэ",
+      "n_lgspec1_pl": "шӏуцӏэхыу",
+      "n_lgspec1_sg": "шӏуцӏэу",
+      "n_ndef_pl": "шӏуцӏэхэ",
+      "n_ndef_sg": "шӏуцӏэ",
+      "n_nom_pl": "шӏуцӏэхэр",
+      "n_nom_sg": "шӏуцӏэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "щэджагъо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "щэджагъо",
+    "inflections": {
+      "n_erg_sg_def": "щэджагъом",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ӏазэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏазэ",
+    "inflections": {
+      "adj_erg_sg_def": "ӏазэм",
+      "n_erg_sg_def": "ӏазэм",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  },
+  "ӏанэ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏанэ",
+    "inflections": {
+      "n_erg_pl_def": "ӏанэхэмэ",
+      "n_erg_sg_def": "ӏанэм",
+      "n_ins_pl_def": "ӏанэхэмкӏэ",
+      "n_ins_pl_ndef": "ӏанэхэкӏэ",
+      "n_ins_sg_def": "ӏанэмкӏэ",
+      "n_ins_sg_ndef": "ӏанэкӏэ",
+      "n_lgspec1_pl": "ӏанэхыу",
+      "n_lgspec1_sg": "ӏанэу",
+      "n_ndef_pl": "ӏанэхэ",
+      "n_ndef_sg": "ӏанэ",
+      "n_nom_pl": "ӏанэхэр",
+      "n_nom_sg": "ӏанэр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ӏоф": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏоф",
+    "inflections": {
+      "n_erg_pl_def": "ӏофэхэмэ",
+      "n_erg_sg_def": "ӏофэм",
+      "n_ins_pl_def": "ӏофэхэмкӏэ",
+      "n_ins_pl_ndef": "ӏофэхэкӏэ",
+      "n_ins_sg_def": "ӏофэмкӏэ",
+      "n_ins_sg_ndef": "ӏофэкӏэ",
+      "n_lgspec1_pl": "ӏофэхыу",
+      "n_lgspec1_sg": "ӏофыу",
+      "n_ndef_pl": "ӏофэхэ",
+      "n_ndef_sg": "ӏофэ",
+      "n_nom_pl": "ӏофэхэр",
+      "n_nom_sg": "ӏофэр",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "ӏофы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏофы",
+    "inflections": {
+      "n_erg_sg_def": "ӏофым",
+      "n_nom_sg": "ӏофыр",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ӏус": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏус",
+    "inflections": {
+      "n_erg_pl_def": "ӏусэхэмэ",
+      "n_erg_sg_def": "ӏусэм",
+      "n_ins_pl_def": "ӏусэхэмкӏэ",
+      "n_ins_pl_ndef": "ӏусэхэкӏэ",
+      "n_ins_sg_def": "ӏусэмкӏэ",
+      "n_ins_sg_ndef": "ӏусэкӏэ",
+      "n_lgspec1_pl": "ӏусэхыу",
+      "n_lgspec1_sg": "ӏусыу",
+      "n_ndef_pl": "ӏусэхэ",
+      "n_ndef_sg": "ӏусэ",
+      "n_nom_pl": "ӏусэхэр",
+      "n_nom_sg": "ӏусэр",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ӏэшӏу": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ӏэшӏу",
+    "inflections": {
+      "adj_erg_pl_def": "ӏэшӏуэхэмэ",
+      "adj_erg_sg_def": "ӏэшӏуэм",
+      "adj_ins_pl_def": "ӏэшӏуэхэмкӏэ",
+      "adj_ins_pl_ndef": "ӏэшӏуэхэкӏэ",
+      "adj_ins_sg_def": "ӏэшӏуэмкӏэ",
+      "adj_ins_sg_ndef": "ӏэшӏуэкӏэ",
+      "adj_lgspec1_pl": "ӏэшӏухыу",
+      "adj_lgspec1_sg": "ӏэшӏуыу",
+      "adj_ndef_pl": "ӏэшӏуэхэ",
+      "adj_ndef_sg": "ӏэшӏуэ",
+      "adj_nom_pl_def": "ӏэшӏуэхэр",
+      "adj_nom_sg_def": "ӏэшӏуэр",
+      "n_erg_pl_def": "ӏэшӏуэхэмэ",
+      "n_erg_sg_def": "ӏэшӏуэм",
+      "n_ins_pl_def": "ӏэшӏуэхэмкӏэ",
+      "n_ins_pl_ndef": "ӏэшӏуэхэкӏэ",
+      "n_ins_sg_def": "ӏэшӏуэмкӏэ",
+      "n_ins_sg_ndef": "ӏэшӏуэкӏэ",
+      "n_lgspec1_pl": "ӏэшӏухыу",
+      "n_lgspec1_sg": "ӏэшӏуыу",
+      "n_ndef_pl": "ӏэшӏуэхэ",
+      "n_ndef_sg": "ӏэшӏуэ",
+      "n_nom_pl": "ӏэшӏуэхэр",
+      "n_nom_sg": "ӏэшӏуэр",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective",
+      "noun"
+    ]
+  }
+}

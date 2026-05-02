@@ -1,0 +1,81 @@
+{
+  "_generated_rule_notes": [
+    {
+      "executable": "לא",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Negation",
+      "overrides": {}
+    },
+    {
+      "executable": "את",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Direct Object Marker",
+      "overrides": {}
+    },
+    {
+      "executable": "אני",
+      "inflection": "none",
+      "lookback": [],
+      "name": "First Person Singular",
+      "overrides": {}
+    },
+    {
+      "executable": "זה",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Third Person Singular Neuter",
+      "overrides": {}
+    },
+    {
+      "executable": "אתה",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Second Person Singular Masculine",
+      "overrides": {}
+    },
+    {
+      "executable": "מה",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Interrogative Pronoun",
+      "overrides": {}
+    },
+    {
+      "executable": "הוא",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Third Person Singular Masculine",
+      "overrides": {}
+    },
+    {
+      "executable": "על",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Preposition for 'on'",
+      "overrides": {}
+    },
+    {
+      "executable": "לי",
+      "inflection": "none",
+      "lookback": [],
+      "name": "First Person Singular Possessive",
+      "overrides": {}
+    },
+    {
+      "executable": "של",
+      "inflection": "none",
+      "lookback": [],
+      "name": "Preposition for 'of'",
+      "overrides": {}
+    }
+  ],
+  "_locale": "he",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

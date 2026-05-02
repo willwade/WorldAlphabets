@@ -1,0 +1,46 @@
+{
+  "_generated_rule_notes": [
+    {
+      "inflection": "present",
+      "lookback": "er",
+      "name": "verb_to_present",
+      "override": "er"
+    },
+    {
+      "inflection": "subject",
+      "lookback": "jeg",
+      "name": "pronoun_subject",
+      "override": "jeg"
+    },
+    {
+      "inflection": "object",
+      "lookback": "du",
+      "name": "pronoun_object",
+      "override": "du"
+    }
+  ],
+  "_generated_test_notes": [
+    {
+      "expected": "er",
+      "input": "er",
+      "name": "test_verb_to_present"
+    },
+    {
+      "expected": "jeg",
+      "input": "jeg",
+      "name": "test_pronoun_subject"
+    },
+    {
+      "expected": "du",
+      "input": "du",
+      "name": "test_pronoun_object"
+    }
+  ],
+  "_locale": "da",
+  "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
+  "rules": [],
+  "substitutions": {},
+  "tests": []
+}

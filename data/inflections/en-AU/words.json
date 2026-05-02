@@ -1,0 +1,580 @@
+{
+  "'m": {
+    "antonyms": [],
+    "base": "'m",
+    "examples": [
+      "I'm going to the store."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "'re": {
+    "antonyms": [],
+    "base": "'re",
+    "examples": [
+      "You're invited to the party."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "'s": {
+    "antonyms": [],
+    "base": "'s",
+    "examples": [
+      "That is John's book."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "possessive"
+    ]
+  },
+  "'t": {
+    "antonyms": [],
+    "base": "'t",
+    "examples": [
+      "I can't go."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "contraction"
+    ]
+  },
+  "_locale": "en-AU",
+  "_type": "words",
+  "_version": "0.1",
+  "a": {
+    "antonyms": [],
+    "base": "a",
+    "examples": [
+      "I saw a dog."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "about": {
+    "antonyms": [],
+    "base": "about",
+    "examples": [
+      "She talked about her plans."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition",
+      "adverb"
+    ]
+  },
+  "an": {
+    "antonyms": [],
+    "base": "an",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "article"
+    ]
+  },
+  "and": {
+    "antonyms": [],
+    "base": "and",
+    "examples": [
+      "I like apples and oranges."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "conjunction"
+    ]
+  },
+  "are": {
+    "antonyms": [
+      "are not"
+    ],
+    "base": "are",
+    "examples": [
+      "They are happy."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "at": {
+    "antonyms": [],
+    "base": "at",
+    "examples": [
+      "She is at the park."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "preposition"
+    ]
+  },
+  "back": {
+    "antonyms": [],
+    "base": "back",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adverb",
+      "noun"
+    ]
+  },
+  "be": {
+    "antonyms": [
+      "cease"
+    ],
+    "base": "be",
+    "examples": [
+      "To be or not to be."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "can": {
+    "antonyms": [
+      "cannot"
+    ],
+    "base": "can",
+    "examples": [
+      "I can help you."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "come": {
+    "antonyms": [],
+    "base": "come",
+    "examples": [
+      "Please come here."
+    ],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "comes",
+          "tense": "present"
+        },
+        {
+          "form": "came",
+          "tense": "past"
+        },
+        {
+          "form": "coming",
+          "tense": "present participle"
+        }
+      ]
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "don": {
+    "antonyms": [],
+    "base": "don",
+    "examples": [
+      "I don't know the answer."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "going": {
+    "antonyms": [],
+    "base": "go",
+    "examples": [],
+    "inflections": {
+      "regulars": [
+        {
+          "form": "going",
+          "tense": "present participle"
+        }
+      ]
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "her": {
+    "antonyms": [],
+    "base": "her",
+    "examples": [
+      "I gave her the book."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "him": {
+    "antonyms": [],
+    "base": "him",
+    "examples": [
+      "I saw him yesterday."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "his": {
+    "antonyms": [],
+    "base": "his",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "i": {
+    "antonyms": [],
+    "base": "i",
+    "examples": [
+      "I am learning."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "it": {
+    "antonyms": [],
+    "base": "it",
+    "examples": [
+      "It is raining."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "know": {
+    "antonyms": [
+      "forget"
+    ],
+    "base": "know",
+    "examples": [
+      "I know the way."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "look": {
+    "antonyms": [],
+    "base": "look",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "no": {
+    "antonyms": [
+      "yes"
+    ],
+    "base": "no",
+    "examples": [
+      "No, I don't want that."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "not": {
+    "antonyms": [],
+    "base": "not",
+    "examples": [
+      "I do not understand."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adverb"
+    ]
+  },
+  "now": {
+    "antonyms": [],
+    "base": "now",
+    "examples": [
+      "I am busy now."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb"
+    ]
+  },
+  "oh": {
+    "antonyms": [],
+    "base": "oh",
+    "examples": [
+      "Oh, I didn't know that."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "interjection"
+    ]
+  },
+  "okay": {
+    "antonyms": [],
+    "base": "okay",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "one": {
+    "antonyms": [],
+    "base": "one",
+    "examples": [
+      "One of them is missing."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun",
+      "pronoun"
+    ]
+  },
+  "that": {
+    "antonyms": [],
+    "base": "that",
+    "examples": [
+      "That is my car."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "the": {
+    "antonyms": [],
+    "base": "the",
+    "examples": [
+      "The cat is on the roof."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "article"
+    ]
+  },
+  "time": {
+    "antonyms": [],
+    "base": "time",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "to": {
+    "antonyms": [],
+    "base": "to",
+    "examples": [
+      "I am going to the park."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "preposition"
+    ]
+  },
+  "up": {
+    "antonyms": [],
+    "base": "up",
+    "examples": [
+      "He looked up at the sky."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "preposition"
+    ]
+  },
+  "us": {
+    "antonyms": [],
+    "base": "us",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "well": {
+    "antonyms": [
+      "poorly"
+    ],
+    "base": "well",
+    "examples": [
+      "She sings well."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  "when": {
+    "antonyms": [],
+    "base": "when",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "with": {
+    "antonyms": [],
+    "base": "with",
+    "examples": [
+      "I went with her."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "preposition"
+    ]
+  },
+  "yes": {
+    "antonyms": [],
+    "base": "yes",
+    "examples": [],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adverb"
+    ]
+  },
+  "you": {
+    "antonyms": [],
+    "base": "you",
+    "examples": [
+      "You are going to the store."
+    ],
+    "inflections": {
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  }
+}
