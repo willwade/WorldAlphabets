@@ -9,6 +9,7 @@ import charIndexJson from './data/char_index.json';
 import { ALPHABETS } from './dist/browser-alphabets.mjs';
 import { LAYOUTS, AVAILABLE_LAYOUTS } from './dist/browser-layouts.mjs';
 import { FREQ_RANKS } from './dist/browser-freq.mjs';
+import { INFLECTIONS, INFLECTION_INDEX } from './dist/browser-inflections.mjs';
 
 
 // Detection algorithm constants (same as Node.js version)
@@ -267,6 +268,53 @@ export async function loadFrequencyList(code) {
     .map(token => (typeof token === 'string' ? token.trim() : ''))
     .filter(Boolean);
   return { language: code, tokens, mode };
+}
+
+export async function getAvailableInflectionLocales() {
+  return Object.keys(INFLECTION_INDEX.locales || {}).sort();
+}
+
+function loadInflectionFile(locale, filename) {
+  let key = `${locale}/${filename}`;
+  let data = INFLECTIONS[key];
+  if (!data && locale.includes('-')) {
+    key = `${locale.split('-')[0]}/${filename}`;
+    data = INFLECTIONS[key];
+  }
+  if (!data) {
+    throw new Error(`Inflection data for locale "${locale}" not found.`);
+  }
+  return data;
+}
+
+export async function loadInflectionWords(locale) {
+  return loadInflectionFile(locale, 'words.json');
+}
+
+export async function loadInflectionRules(locale) {
+  return loadInflectionFile(locale, 'rules.json');
+}
+
+export async function loadInflectionData(locale) {
+  return {
+    words: await loadInflectionWords(locale),
+    rules: await loadInflectionRules(locale),
+  };
+}
+
+export async function getWordForms(locale, word) {
+  const words = await loadInflectionWords(locale);
+  const entry = words[word];
+  return entry && typeof entry === 'object' ? entry : null;
+}
+
+export async function inflectWord(locale, word, inflection) {
+  const entry = await getWordForms(locale, word);
+  if (!entry) return null;
+  if (inflection === 'base') return entry.base || word;
+  const forms = entry.inflections || {};
+  const value = forms[inflection];
+  return typeof value === 'string' ? value : null;
 }
 
 /**

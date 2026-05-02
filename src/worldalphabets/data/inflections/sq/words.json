@@ -1,0 +1,2687 @@
+{
+  "_locale": "sq",
+  "_type": "words",
+  "_version": "0.1",
+  "bashkëpunim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bashkëpunim",
+    "inflections": {
+      "n_abl_pl_def": "bashkëpunimeve",
+      "n_abl_pl_ndef": "bashkëpunimesh",
+      "n_abl_sg_def": "bashkëpunimit",
+      "n_abl_sg_ndef": "bashkëpunimi",
+      "n_acc_pl_def": "bashkëpunimet",
+      "n_acc_pl_ndef": "bashkëpunime",
+      "n_acc_sg_def": "bashkëpunimin",
+      "n_acc_sg_ndef": "bashkëpunim",
+      "n_dat_pl_def": "bashkëpunimeve",
+      "n_dat_pl_ndef": "bashkëpunimeve",
+      "n_dat_sg_def": "bashkëpunimit",
+      "n_dat_sg_ndef": "bashkëpunimi",
+      "n_gen_pl_def": "bashkëpunimeve",
+      "n_gen_pl_ndef": "bashkëpunimeve",
+      "n_gen_sg_def": "bashkëpunimit",
+      "n_gen_sg_ndef": "bashkëpunimi",
+      "n_nom_pl_def": "bashkëpunimet",
+      "n_nom_pl_ndef": "bashkëpunime",
+      "n_nom_sg_def": "bashkëpunimi",
+      "n_nom_sg_ndef": "bashkëpunim",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "besoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "besoj",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "besuakëshim",
+      "v_1_pl_adm_prf": "paskemi besuar",
+      "v_1_pl_adm_prf_pst": "paskëshim besuar",
+      "v_1_pl_adm_prs": "besuakemi",
+      "v_1_pl_cond_prf": "do të kishim besuar",
+      "v_1_pl_cond_prs": "do të besonim",
+      "v_1_pl_ind_fut": "do të besojmë",
+      "v_1_pl_ind_ipfv": "besonim",
+      "v_1_pl_ind_prf": "kemi besuar",
+      "v_1_pl_ind_prf_fut": "do të kemi besuar",
+      "v_1_pl_ind_prf_pst": "patëm besuar",
+      "v_1_pl_ind_prs": "besojmë",
+      "v_1_pl_ind_pst": "besuam",
+      "v_1_pl_opt_prf": "paçim besuar",
+      "v_1_pl_opt_prs": "besofshim",
+      "v_1_pl_sbjv_prf": "të kemi besuar",
+      "v_1_pl_sbjv_prf_pst": "të kishim besuar",
+      "v_1_pl_sbjv_prs": "të besojmë",
+      "v_1_pl_sbjv_pst": "të besonim",
+      "v_1_sg_adm_ipfv": "besuakësha",
+      "v_1_sg_adm_prf": "paskam besuar",
+      "v_1_sg_adm_prf_pst": "paskësha besuar",
+      "v_1_sg_adm_prs": "besuakam",
+      "v_1_sg_cond_prf": "do të kisha besuar",
+      "v_1_sg_cond_prs": "do të besoja",
+      "v_1_sg_ind_fut": "do të besoj",
+      "v_1_sg_ind_ipfv": "besoja",
+      "v_1_sg_ind_prf": "kam besuar",
+      "v_1_sg_ind_prf_fut": "do të kem besuar",
+      "v_1_sg_ind_prf_pst": "pata besuar",
+      "v_1_sg_ind_prs": "besoj",
+      "v_1_sg_ind_pst": "besova",
+      "v_1_sg_opt_prf": "paça besuar",
+      "v_1_sg_opt_prs": "besofsha",
+      "v_1_sg_sbjv_prf": "të kem besuar",
+      "v_1_sg_sbjv_prf_pst": "të kisha besuar",
+      "v_1_sg_sbjv_prs": "të besoj",
+      "v_1_sg_sbjv_pst": "të besoja",
+      "v_2_pl_adm_ipfv": "besuakëshit",
+      "v_2_pl_adm_prf": "paskeni besuar",
+      "v_2_pl_adm_prf_prf": "paskëshit besuar",
+      "v_2_pl_adm_prs": "besuakeni",
+      "v_2_pl_cond_prf": "do të kishit besuar",
+      "v_2_pl_cond_prs": "do të besonit",
+      "v_2_pl_imp": "besoni",
+      "v_2_pl_ind_fut": "do të besoni",
+      "v_2_pl_ind_ipfv": "besonit",
+      "v_2_pl_ind_prf": "keni besuar",
+      "v_2_pl_ind_prf_fut": "do të keni besuar",
+      "v_2_pl_ind_prf_prf": "patët besuar",
+      "v_2_pl_ind_prs": "besoni",
+      "v_2_pl_ind_pst": "besuat",
+      "v_2_pl_opt_prf": "paçit besuar",
+      "v_2_pl_opt_prs": "besofshit",
+      "v_2_pl_sbjv_prf": "të keni besuar",
+      "v_2_pl_sbjv_prf_prf": "të kishit besuar",
+      "v_2_pl_sbjv_prs": "të besoni",
+      "v_2_pl_sbjv_pst": "të besonit",
+      "v_2_sg_adm_ipfv": "besuakëshe",
+      "v_2_sg_adm_prf": "paske besuar",
+      "v_2_sg_adm_prf_pst": "paskëshe besuar",
+      "v_2_sg_adm_prs": "besuake",
+      "v_2_sg_cond_prf": "do të kishe besuar",
+      "v_2_sg_cond_prs": "do të besoje",
+      "v_2_sg_imp": "beso",
+      "v_2_sg_ind_fut": "do të besosh",
+      "v_2_sg_ind_ipfv": "besoje",
+      "v_2_sg_ind_prf": "ke besuar",
+      "v_2_sg_ind_prf_fut": "do të kesh besuar",
+      "v_2_sg_ind_prf_pst": "pate besuar",
+      "v_2_sg_ind_prs": "beson",
+      "v_2_sg_ind_pst": "besove",
+      "v_2_sg_opt_prf": "paç besuar",
+      "v_2_sg_opt_prs": "besofsh",
+      "v_2_sg_sbjv_prf": "të kesh besuar",
+      "v_2_sg_sbjv_prf_pst": "të kishe besuar",
+      "v_2_sg_sbjv_prs": "të besosh",
+      "v_2_sg_sbjv_pst": "të besoje",
+      "v_3_pl_adm_ipfv": "besuakëshin",
+      "v_3_pl_adm_prf": "paskan besuar",
+      "v_3_pl_adm_prf_pst": "paskëshin besuar",
+      "v_3_pl_adm_prs": "besuakan",
+      "v_3_pl_cond_prf": "do të kishin besuar",
+      "v_3_pl_cond_prs": "do të besonin",
+      "v_3_pl_ind_fut": "do të besojnë",
+      "v_3_pl_ind_ipfv": "besonin",
+      "v_3_pl_ind_prf": "kanë besuar",
+      "v_3_pl_ind_prf_fut": "do të kenë besuar",
+      "v_3_pl_ind_prf_pst": "patën besuar",
+      "v_3_pl_ind_prs": "besojnë",
+      "v_3_pl_ind_pst": "besuan",
+      "v_3_pl_opt_prf": "paçin besuar",
+      "v_3_pl_opt_prs": "besofshin",
+      "v_3_pl_sbjv_prf": "të kenë besuar",
+      "v_3_pl_sbjv_prf_pst": "të kishin besuar",
+      "v_3_pl_sbjv_prs": "të besojnë",
+      "v_3_pl_sbjv_pst": "të besonin",
+      "v_3_sg_adm_ipfv": "besuakësh",
+      "v_3_sg_adm_prf": "paska besuar",
+      "v_3_sg_adm_prf_pst": "paskësh besuar",
+      "v_3_sg_adm_prs": "besuaka",
+      "v_3_sg_cond_prf": "do të kishte besuar",
+      "v_3_sg_cond_prs": "do të besonte",
+      "v_3_sg_ind_fut": "do të besojë",
+      "v_3_sg_ind_ipfv": "besonte",
+      "v_3_sg_ind_prf": "ka besuar",
+      "v_3_sg_ind_prf_fut": "do të ketë besuar",
+      "v_3_sg_ind_prf_pst": "pati besuar",
+      "v_3_sg_ind_prs": "beson",
+      "v_3_sg_ind_pst": "besoi",
+      "v_3_sg_opt_prf": "pastë besuar",
+      "v_3_sg_opt_prs": "besoftë",
+      "v_3_sg_sbjv_prf": "të ketë besuar",
+      "v_3_sg_sbjv_prf_pst": "të kishte besuar",
+      "v_3_sg_sbjv_prs": "të besojë",
+      "v_3_sg_sbjv_pst": "të besonte",
+      "v_nfin": "për të besuar",
+      "v_v_ptcp": "besuar",
+      "v_v_ptcp_prs": "duke besuar",
+      "v_v_ptcp_pst": "duke pasë besuar"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "botë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "botë",
+    "inflections": {
+      "n_abl_pl_def": "botëve",
+      "n_abl_pl_ndef": "botësh",
+      "n_abl_sg_def": "botës",
+      "n_abl_sg_ndef": "bote",
+      "n_acc_pl_def": "botët",
+      "n_acc_pl_ndef": "botë",
+      "n_acc_sg_def": "botën",
+      "n_acc_sg_ndef": "botë",
+      "n_dat_pl_def": "botëve",
+      "n_dat_pl_ndef": "botëve",
+      "n_dat_sg_def": "botës",
+      "n_dat_sg_ndef": "bote",
+      "n_gen_pl_def": "botëve",
+      "n_gen_pl_ndef": "botëve",
+      "n_gen_sg_def": "botës",
+      "n_gen_sg_ndef": "bote",
+      "n_nom_pl_def": "botët",
+      "n_nom_pl_ndef": "botë",
+      "n_nom_sg_def": "bota",
+      "n_nom_sg_ndef": "botë",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "bëhem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bëhem",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_ind_prs": "bëhen",
+      "v_3_sg_ind_prs": "bëhet",
+      "v_v_ptcp": "bërë"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "bëj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bëj",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_ind_prs": "bëjmë",
+      "v_2_sg_ind_prs": "bën",
+      "v_3_pl_ind_prs": "bëjnë",
+      "v_3_pl_ind_pst": "bënë",
+      "v_3_sg_ind_ipfv": "bënte",
+      "v_3_sg_ind_prs": "bën",
+      "v_3_sg_ind_pst": "bëri",
+      "v_v_ptcp": "bërë"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "dorë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dorë",
+    "inflections": {
+      "n_abl_pl_def": "duarve",
+      "n_abl_pl_ndef": "duarsh",
+      "n_abl_sg_def": "dorës",
+      "n_abl_sg_ndef": "dore",
+      "n_acc_pl_def": "duartë",
+      "n_acc_pl_ndef": "duar",
+      "n_acc_sg_def": "dorën",
+      "n_acc_sg_ndef": "dorë",
+      "n_dat_pl_def": "duarve",
+      "n_dat_pl_ndef": "duarve",
+      "n_dat_sg_def": "dorës",
+      "n_dat_sg_ndef": "dore",
+      "n_gen_pl_def": "duarve",
+      "n_gen_pl_ndef": "duarve",
+      "n_gen_sg_def": "dorës",
+      "n_gen_sg_ndef": "dore",
+      "n_nom_pl_def": "duartë",
+      "n_nom_pl_ndef": "duar",
+      "n_nom_sg_def": "dora",
+      "n_nom_sg_ndef": "dorë",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "drejtim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drejtim",
+    "inflections": {
+      "n_abl_pl_def": "drejtimeve",
+      "n_abl_pl_ndef": "drejtimesh",
+      "n_abl_sg_def": "drejtimit",
+      "n_abl_sg_ndef": "drejtimi",
+      "n_acc_pl_def": "drejtimet",
+      "n_acc_pl_ndef": "drejtime",
+      "n_acc_sg_def": "drejtimin",
+      "n_acc_sg_ndef": "drejtim",
+      "n_dat_pl_def": "drejtimeve",
+      "n_dat_pl_ndef": "drejtimeve",
+      "n_dat_sg_def": "drejtimit",
+      "n_dat_sg_ndef": "drejtimi",
+      "n_gen_pl_def": "drejtimeve",
+      "n_gen_pl_ndef": "drejtimeve",
+      "n_gen_sg_def": "drejtimit",
+      "n_gen_sg_ndef": "drejtimi",
+      "n_nom_pl_def": "drejtimet",
+      "n_nom_pl_ndef": "drejtime",
+      "n_nom_sg_def": "drejtimi",
+      "n_nom_sg_ndef": "drejtim",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "dërgoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dërgoj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "dërguar"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "emër": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "emër",
+    "inflections": {
+      "n_abl_pl_def": "emrave",
+      "n_abl_pl_ndef": "emrash",
+      "n_abl_sg_def": "emrit",
+      "n_abl_sg_ndef": "emri",
+      "n_acc_pl_def": "emrat",
+      "n_acc_pl_ndef": "emra",
+      "n_acc_sg_def": "emrin",
+      "n_acc_sg_ndef": "emër",
+      "n_dat_pl_def": "emrave",
+      "n_dat_pl_ndef": "emrave",
+      "n_dat_sg_def": "emrit",
+      "n_dat_sg_ndef": "emri",
+      "n_gen_pl_def": "emrave",
+      "n_gen_pl_ndef": "emrave",
+      "n_gen_sg_def": "emrit",
+      "n_gen_sg_ndef": "emri",
+      "n_nom_pl_def": "emrat",
+      "n_nom_pl_ndef": "emra",
+      "n_nom_sg_def": "emri",
+      "n_nom_sg_ndef": "emër",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "farë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "farë",
+    "inflections": {
+      "n_abl_sg_ndef": "fare",
+      "n_dat_sg_ndef": "fare",
+      "n_gen_sg_ndef": "fare",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "fillim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fillim",
+    "inflections": {
+      "n_abl_pl_def": "fillimeve",
+      "n_abl_pl_ndef": "fillimesh",
+      "n_abl_sg_def": "fillimit",
+      "n_abl_sg_ndef": "fillimi",
+      "n_acc_pl_def": "fillimet",
+      "n_acc_pl_ndef": "fillime",
+      "n_acc_sg_def": "fillimin",
+      "n_acc_sg_ndef": "fillim",
+      "n_dat_pl_def": "fillimeve",
+      "n_dat_pl_ndef": "fillimeve",
+      "n_dat_sg_def": "fillimit",
+      "n_dat_sg_ndef": "fillimi",
+      "n_gen_pl_def": "fillimeve",
+      "n_gen_pl_ndef": "fillimeve",
+      "n_gen_sg_def": "fillimit",
+      "n_gen_sg_ndef": "fillimi",
+      "n_nom_pl_def": "fillimet",
+      "n_nom_pl_ndef": "fillime",
+      "n_nom_sg_def": "fillimi",
+      "n_nom_sg_ndef": "fillim",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "filloj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "filloj",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_prs": "fillon",
+      "v_3_sg_ind_prs": "fillon",
+      "v_3_sg_ind_pst": "filloi",
+      "v_v_ptcp": "filluar"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "fitore": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fitore",
+    "inflections": {
+      "n_abl_pl_def": "fitoreve",
+      "n_abl_pl_ndef": "fitoresh",
+      "n_abl_sg_def": "fitores",
+      "n_abl_sg_ndef": "fitoreje",
+      "n_acc_pl_def": "fitoret",
+      "n_acc_pl_ndef": "fitore",
+      "n_acc_sg_def": "fitoren",
+      "n_acc_sg_ndef": "fitore",
+      "n_dat_pl_def": "fitoreve",
+      "n_dat_pl_ndef": "fitoreve",
+      "n_dat_sg_def": "fitores",
+      "n_dat_sg_ndef": "fitoreje",
+      "n_gen_pl_def": "fitoreve",
+      "n_gen_pl_ndef": "fitoreve",
+      "n_gen_sg_def": "fitores",
+      "n_gen_sg_ndef": "fitoreje",
+      "n_nom_pl_def": "fitoret",
+      "n_nom_pl_ndef": "fitore",
+      "n_nom_sg_def": "fitorja",
+      "n_nom_sg_ndef": "fitore",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "fjalë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fjalë",
+    "inflections": {
+      "n_abl_pl_def": "fjalave",
+      "n_abl_pl_ndef": "fjalash",
+      "n_abl_sg_def": "fjalës",
+      "n_abl_sg_ndef": "fjale",
+      "n_acc_pl_def": "fjalat",
+      "n_acc_pl_ndef": "fjala",
+      "n_acc_sg_def": "fjalën",
+      "n_acc_sg_ndef": "fjalë",
+      "n_dat_pl_def": "fjalave",
+      "n_dat_pl_ndef": "fjalave",
+      "n_dat_sg_def": "fjalës",
+      "n_dat_sg_ndef": "fjale",
+      "n_gen_pl_def": "fjalave",
+      "n_gen_pl_ndef": "fjalave",
+      "n_gen_sg_def": "fjalës",
+      "n_gen_sg_ndef": "fjale",
+      "n_nom_pl_def": "fjalat",
+      "n_nom_pl_ndef": "fjala",
+      "n_nom_sg_def": "fjala",
+      "n_nom_sg_ndef": "fjalë",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "forcë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "forcë",
+    "inflections": {
+      "n_abl_pl_def": "forcave",
+      "n_acc_pl_def": "forcat",
+      "n_dat_pl_def": "forcave",
+      "n_dat_pl_ndef": "forcave",
+      "n_gen_pl_def": "forcave",
+      "n_gen_pl_ndef": "forcave",
+      "n_nom_pl_def": "forcat",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "gjuhë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gjuhë",
+    "inflections": {
+      "n_acc_sg_def": "gjuhën",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "hap": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hap",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "hapkëshim",
+      "v_1_pl_adm_prf": "paskemi hapur",
+      "v_1_pl_adm_prf_pst": "paskëshim hapur",
+      "v_1_pl_adm_prs": "hapkemi",
+      "v_1_pl_cond_prf": "do të kishim hapur",
+      "v_1_pl_cond_prs": "do të hapnim",
+      "v_1_pl_ind_fut": "do të hapim",
+      "v_1_pl_ind_ipfv": "hapnim",
+      "v_1_pl_ind_prf": "kemi hapur",
+      "v_1_pl_ind_prf_fut": "do të kemi hapur",
+      "v_1_pl_ind_prf_pst": "patëm hapur",
+      "v_1_pl_ind_prs": "hapim",
+      "v_1_pl_ind_pst": "hapëm",
+      "v_1_pl_opt_prf": "paçim hapur",
+      "v_1_pl_opt_prs": "hapshim",
+      "v_1_pl_sbjv_prf": "të kemi hapur",
+      "v_1_pl_sbjv_prf_pst": "të kishim hapur",
+      "v_1_pl_sbjv_prs": "të hapim",
+      "v_1_pl_sbjv_pst": "të hapnim",
+      "v_1_sg_adm_ipfv": "hapkësha",
+      "v_1_sg_adm_prf": "paskam hapur",
+      "v_1_sg_adm_prf_pst": "paskësha hapur",
+      "v_1_sg_adm_prs": "hapkam",
+      "v_1_sg_cond_prf": "do të kisha hapur",
+      "v_1_sg_cond_prs": "do të hapja",
+      "v_1_sg_ind_fut": "do të hap",
+      "v_1_sg_ind_ipfv": "hapja",
+      "v_1_sg_ind_prf": "kam hapur",
+      "v_1_sg_ind_prf_fut": "do të kem hapur",
+      "v_1_sg_ind_prf_pst": "pata hapur",
+      "v_1_sg_ind_prs": "hap",
+      "v_1_sg_ind_pst": "hapa",
+      "v_1_sg_opt_prf": "paça hapur",
+      "v_1_sg_opt_prs": "hapsha",
+      "v_1_sg_sbjv_prf": "të kem hapur",
+      "v_1_sg_sbjv_prf_pst": "të kisha hapur",
+      "v_1_sg_sbjv_prs": "të hap",
+      "v_1_sg_sbjv_pst": "të hapja",
+      "v_2_pl_adm_ipfv": "hapkëshit",
+      "v_2_pl_adm_prf": "paskeni hapur",
+      "v_2_pl_adm_prf_prf": "paskëshit hapur",
+      "v_2_pl_adm_prs": "hapkeni",
+      "v_2_pl_cond_prf": "do të kishit hapur",
+      "v_2_pl_cond_prs": "do të hapnit",
+      "v_2_pl_imp": "hapni",
+      "v_2_pl_ind_fut": "do të hapni",
+      "v_2_pl_ind_ipfv": "hapnit",
+      "v_2_pl_ind_prf": "keni hapur",
+      "v_2_pl_ind_prf_fut": "do të keni hapur",
+      "v_2_pl_ind_prf_prf": "patët hapur",
+      "v_2_pl_ind_prs": "hapni",
+      "v_2_pl_ind_pst": "hapët",
+      "v_2_pl_opt_prf": "paçit hapur",
+      "v_2_pl_opt_prs": "hapshit",
+      "v_2_pl_sbjv_prf": "të keni hapur",
+      "v_2_pl_sbjv_prf_prf": "të kishit hapur",
+      "v_2_pl_sbjv_prs": "të hapni",
+      "v_2_pl_sbjv_pst": "të hapnit",
+      "v_2_sg_adm_ipfv": "hapkëshe",
+      "v_2_sg_adm_prf": "paske hapur",
+      "v_2_sg_adm_prf_pst": "paskëshe hapur",
+      "v_2_sg_adm_prs": "hapke",
+      "v_2_sg_cond_prf": "do të kishe hapur",
+      "v_2_sg_cond_prs": "do të hapje",
+      "v_2_sg_imp": "hap",
+      "v_2_sg_ind_fut": "do të hapësh",
+      "v_2_sg_ind_ipfv": "hapje",
+      "v_2_sg_ind_prf": "ke hapur",
+      "v_2_sg_ind_prf_fut": "do të kesh hapur",
+      "v_2_sg_ind_prf_pst": "pate hapur",
+      "v_2_sg_ind_prs": "hap",
+      "v_2_sg_ind_pst": "hape",
+      "v_2_sg_opt_prf": "paç hapur",
+      "v_2_sg_opt_prs": "hapsh",
+      "v_2_sg_sbjv_prf": "të kesh hapur",
+      "v_2_sg_sbjv_prf_pst": "të kishe hapur",
+      "v_2_sg_sbjv_prs": "të hapësh",
+      "v_2_sg_sbjv_pst": "të hapje",
+      "v_3_pl_adm_ipfv": "hapkëshin",
+      "v_3_pl_adm_prf": "paskan hapur",
+      "v_3_pl_adm_prf_pst": "paskëshin hapur",
+      "v_3_pl_adm_prs": "hapkan",
+      "v_3_pl_cond_prf": "do të kishin hapur",
+      "v_3_pl_cond_prs": "do të hapnin",
+      "v_3_pl_ind_fut": "do të hapin",
+      "v_3_pl_ind_ipfv": "hapnin",
+      "v_3_pl_ind_prf": "kanë hapur",
+      "v_3_pl_ind_prf_fut": "do të kenë hapur",
+      "v_3_pl_ind_prf_pst": "patën hapur",
+      "v_3_pl_ind_prs": "hapin",
+      "v_3_pl_ind_pst": "hapën",
+      "v_3_pl_opt_prf": "paçin hapur",
+      "v_3_pl_opt_prs": "hapshin",
+      "v_3_pl_sbjv_prf": "të kenë hapur",
+      "v_3_pl_sbjv_prf_pst": "të kishin hapur",
+      "v_3_pl_sbjv_prs": "të hapin",
+      "v_3_pl_sbjv_pst": "të hapnin",
+      "v_3_sg_adm_ipfv": "hapkësh",
+      "v_3_sg_adm_prf": "paska hapur",
+      "v_3_sg_adm_prf_pst": "paskësh hapur",
+      "v_3_sg_adm_prs": "hapka",
+      "v_3_sg_cond_prf": "do të kishte hapur",
+      "v_3_sg_cond_prs": "do të hapte",
+      "v_3_sg_ind_fut": "do të hapë",
+      "v_3_sg_ind_ipfv": "hapte",
+      "v_3_sg_ind_prf": "ka hapur",
+      "v_3_sg_ind_prf_fut": "do të ketë hapur",
+      "v_3_sg_ind_prf_pst": "pati hapur",
+      "v_3_sg_ind_prs": "hap",
+      "v_3_sg_ind_pst": "hapi",
+      "v_3_sg_opt_prf": "pastë hapur",
+      "v_3_sg_opt_prs": "haptë",
+      "v_3_sg_sbjv_prf": "të ketë hapur",
+      "v_3_sg_sbjv_prf_pst": "të kishte hapur",
+      "v_3_sg_sbjv_prs": "të hapë",
+      "v_3_sg_sbjv_pst": "të hapte",
+      "v_nfin": "për të hapur",
+      "v_v_ptcp": "hapur",
+      "v_v_ptcp_prs": "duke hapur",
+      "v_v_ptcp_pst": "duke pasë hapur"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "histori": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "histori",
+    "inflections": {
+      "n_abl_pl_def": "historive",
+      "n_abl_pl_ndef": "historish",
+      "n_abl_sg_def": "historisë",
+      "n_abl_sg_ndef": "historie",
+      "n_acc_pl_def": "historitë",
+      "n_acc_pl_ndef": "histori",
+      "n_acc_sg_def": "historinë",
+      "n_acc_sg_ndef": "histori",
+      "n_dat_pl_def": "historive",
+      "n_dat_pl_ndef": "historive",
+      "n_dat_sg_def": "historisë",
+      "n_dat_sg_ndef": "historie",
+      "n_gen_pl_def": "historive",
+      "n_gen_pl_ndef": "historive",
+      "n_gen_sg_def": "historisë",
+      "n_gen_sg_ndef": "historie",
+      "n_nom_pl_def": "historitë",
+      "n_nom_pl_ndef": "histori",
+      "n_nom_sg_def": "historia",
+      "n_nom_sg_ndef": "histori",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "institucion": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "institucion",
+    "inflections": {
+      "n_abl_pl_def": "institucioneve",
+      "n_acc_pl_def": "institucionet",
+      "n_dat_pl_def": "institucioneve",
+      "n_dat_pl_ndef": "institucioneve",
+      "n_gen_pl_def": "institucioneve",
+      "n_gen_pl_ndef": "institucioneve",
+      "n_nom_pl_def": "institucionet",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "jam": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jam",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "qenkëshim",
+      "v_1_pl_adm_prf": "paskemi qenë",
+      "v_1_pl_adm_prf_pst": "paskëshim qenë",
+      "v_1_pl_adm_prs": "qenkemi",
+      "v_1_pl_cond_prf": "do të kishim qenë",
+      "v_1_pl_cond_prs": "do të ishim",
+      "v_1_pl_ind_fut": "do të jemi",
+      "v_1_pl_ind_ipfv": "ishim",
+      "v_1_pl_ind_prf": "kemi qenë",
+      "v_1_pl_ind_prf_fut": "do të kemi qenë",
+      "v_1_pl_ind_prf_pst": "patëm qenë",
+      "v_1_pl_ind_prs": "jemi",
+      "v_1_pl_ind_pst": "qemë",
+      "v_1_pl_opt_prf": "paçim qenë",
+      "v_1_pl_opt_prs": "qofshim",
+      "v_1_pl_sbjv_prf": "të kemi qenë",
+      "v_1_pl_sbjv_prf_pst": "të kishim qenë",
+      "v_1_pl_sbjv_prs": "të jemi",
+      "v_1_pl_sbjv_pst": "të ishim",
+      "v_1_sg_adm_ipfv": "qenkësha",
+      "v_1_sg_adm_prf": "paskam qenë",
+      "v_1_sg_adm_prf_pst": "paskësha qenë",
+      "v_1_sg_adm_prs": "qenkam",
+      "v_1_sg_cond_prf": "do të kisha qenë",
+      "v_1_sg_cond_prs": "do të isha",
+      "v_1_sg_ind_fut": "do të jem",
+      "v_1_sg_ind_ipfv": "isha",
+      "v_1_sg_ind_prf": "kam qenë",
+      "v_1_sg_ind_prf_fut": "do të kem qenë",
+      "v_1_sg_ind_prf_pst": "pata qenë",
+      "v_1_sg_ind_prs": "jam",
+      "v_1_sg_ind_pst": "qeshë",
+      "v_1_sg_opt_prf": "paça qenë",
+      "v_1_sg_opt_prs": "qofsha",
+      "v_1_sg_sbjv_prf": "të kem qenë",
+      "v_1_sg_sbjv_prf_pst": "të kisha qenë",
+      "v_1_sg_sbjv_prs": "të jem",
+      "v_1_sg_sbjv_pst": "të isha",
+      "v_2_pl_adm_ipfv": "qenkëshit",
+      "v_2_pl_adm_prf": "paskeni qenë",
+      "v_2_pl_adm_prf_prf": "paskëshit qenë",
+      "v_2_pl_adm_prs": "qenkeni",
+      "v_2_pl_cond_prf": "do të kishit qenë",
+      "v_2_pl_cond_prs": "do të ishit",
+      "v_2_pl_imp": "jini",
+      "v_2_pl_ind_fut": "do të jeni",
+      "v_2_pl_ind_ipfv": "ishit",
+      "v_2_pl_ind_prf": "keni qenë",
+      "v_2_pl_ind_prf_fut": "do të keni qenë",
+      "v_2_pl_ind_prf_prf": "patët qenë",
+      "v_2_pl_ind_prs": "jeni",
+      "v_2_pl_ind_pst": "qetë",
+      "v_2_pl_opt_prf": "paçit qenë",
+      "v_2_pl_opt_prs": "qofshit",
+      "v_2_pl_sbjv_prf": "të keni qenë",
+      "v_2_pl_sbjv_prf_prf": "të kishit qenë",
+      "v_2_pl_sbjv_prs": "të jeni",
+      "v_2_pl_sbjv_pst": "të ishit",
+      "v_2_sg_adm_ipfv": "qenkëshe",
+      "v_2_sg_adm_prf": "paske qenë",
+      "v_2_sg_adm_prf_pst": "paskëshe qenë",
+      "v_2_sg_adm_prs": "qenke",
+      "v_2_sg_cond_prf": "do të kishe qenë",
+      "v_2_sg_cond_prs": "do të ishe",
+      "v_2_sg_imp": "ji",
+      "v_2_sg_ind_fut": "do të jesh",
+      "v_2_sg_ind_ipfv": "ishe",
+      "v_2_sg_ind_prf": "ke qenë",
+      "v_2_sg_ind_prf_fut": "do të kesh qenë",
+      "v_2_sg_ind_prf_pst": "pate qenë",
+      "v_2_sg_ind_prs": "je",
+      "v_2_sg_ind_pst": "qe",
+      "v_2_sg_opt_prf": "paç qenë",
+      "v_2_sg_opt_prs": "qofsh",
+      "v_2_sg_sbjv_prf": "të kesh qenë",
+      "v_2_sg_sbjv_prf_pst": "të kishe qenë",
+      "v_2_sg_sbjv_prs": "të jesh",
+      "v_2_sg_sbjv_pst": "të ishe",
+      "v_3_pl_adm_ipfv": "qenkëshin",
+      "v_3_pl_adm_prf": "paskan qenë",
+      "v_3_pl_adm_prf_pst": "paskëshin qenë",
+      "v_3_pl_adm_prs": "qenkan",
+      "v_3_pl_cond_prf": "do të kishin qenë",
+      "v_3_pl_cond_prs": "do të ishin",
+      "v_3_pl_ind_fut": "do të jenë",
+      "v_3_pl_ind_ipfv": "ishin",
+      "v_3_pl_ind_prf": "kanë qenë",
+      "v_3_pl_ind_prf_fut": "do të kenë qenë",
+      "v_3_pl_ind_prf_pst": "patën qenë",
+      "v_3_pl_ind_prs": "janë",
+      "v_3_pl_ind_pst": "qenë",
+      "v_3_pl_opt_prf": "paçin qenë",
+      "v_3_pl_opt_prs": "qofshin",
+      "v_3_pl_sbjv_prf": "të kenë qenë",
+      "v_3_pl_sbjv_prf_pst": "të kishin qenë",
+      "v_3_pl_sbjv_prs": "të jenë",
+      "v_3_pl_sbjv_pst": "të ishin",
+      "v_3_sg_adm_ipfv": "qenkësh",
+      "v_3_sg_adm_prf": "paska qenë",
+      "v_3_sg_adm_prf_pst": "paskësh qenë",
+      "v_3_sg_adm_prs": "qenka",
+      "v_3_sg_cond_prf": "do të kishte qenë",
+      "v_3_sg_cond_prs": "do të ishte",
+      "v_3_sg_ind_fut": "do të jetë",
+      "v_3_sg_ind_ipfv": "ishte",
+      "v_3_sg_ind_prf": "ka qenë",
+      "v_3_sg_ind_prf_fut": "do të ketë qenë",
+      "v_3_sg_ind_prf_pst": "pati qenë",
+      "v_3_sg_ind_prs": "është",
+      "v_3_sg_ind_pst": "qe",
+      "v_3_sg_opt_prf": "pastë qenë",
+      "v_3_sg_opt_prs": "qoftë",
+      "v_3_sg_sbjv_prf": "të ketë qenë",
+      "v_3_sg_sbjv_prf_pst": "të kishte qenë",
+      "v_3_sg_sbjv_prs": "të jetë",
+      "v_3_sg_sbjv_pst": "të ishte",
+      "v_nfin": "për të qenë",
+      "v_v_ptcp": "qenë",
+      "v_v_ptcp_prs": "duke qenë",
+      "v_v_ptcp_pst": "duke pasë qenë"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "jap": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jap",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "jep",
+      "v_2_sg_ind_prs": "jep",
+      "v_2_sg_ind_pst": "dhe",
+      "v_3_pl_ind_prs": "japin",
+      "v_3_sg_ind_prs": "jep",
+      "v_3_sg_ind_pst": "dha",
+      "v_v_ptcp": "dhënë"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jetoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jetoj",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_ind_prs": "jetojnë"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "kam": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kam",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "paskëshim",
+      "v_1_pl_adm_prf": "paskemi pasur",
+      "v_1_pl_adm_prf_pst": "paskëshim pasur",
+      "v_1_pl_adm_prs": "paskemi",
+      "v_1_pl_cond_prf": "do të kishim pasur",
+      "v_1_pl_cond_prs": "do të kishim",
+      "v_1_pl_ind_fut": "do të kemi",
+      "v_1_pl_ind_ipfv": "kishim",
+      "v_1_pl_ind_prf": "kemi pasur",
+      "v_1_pl_ind_prf_fut": "do të kemi pasur",
+      "v_1_pl_ind_prf_pst": "patëm pasur",
+      "v_1_pl_ind_prs": "kemi",
+      "v_1_pl_ind_pst": "patëm",
+      "v_1_pl_opt_prf": "paçim pasur",
+      "v_1_pl_opt_prs": "paçim",
+      "v_1_pl_sbjv_prf": "të kemi pasur",
+      "v_1_pl_sbjv_prf_pst": "të kishim pasur",
+      "v_1_pl_sbjv_prs": "të kemi",
+      "v_1_pl_sbjv_pst": "të kishim",
+      "v_1_sg_adm_ipfv": "paskësha",
+      "v_1_sg_adm_prf": "paskam pasur",
+      "v_1_sg_adm_prf_pst": "paskësha pasur",
+      "v_1_sg_adm_prs": "paskam",
+      "v_1_sg_cond_prf": "do të kisha pasur",
+      "v_1_sg_cond_prs": "do të kisha",
+      "v_1_sg_ind_fut": "do të kem",
+      "v_1_sg_ind_ipfv": "kisha",
+      "v_1_sg_ind_prf": "kam pasur",
+      "v_1_sg_ind_prf_fut": "do të kem pasur",
+      "v_1_sg_ind_prf_pst": "pata pasur",
+      "v_1_sg_ind_prs": "kam",
+      "v_1_sg_ind_pst": "pata",
+      "v_1_sg_opt_prf": "paça pasur",
+      "v_1_sg_opt_prs": "paça",
+      "v_1_sg_sbjv_prf": "të kem pasur",
+      "v_1_sg_sbjv_prf_pst": "të kisha pasur",
+      "v_1_sg_sbjv_prs": "të kem",
+      "v_1_sg_sbjv_pst": "të kisha",
+      "v_2_pl_adm_ipfv": "paskëshit",
+      "v_2_pl_adm_prf": "paskeni pasur",
+      "v_2_pl_adm_prf_prf": "paskëshit pasur",
+      "v_2_pl_adm_prs": "paskeni",
+      "v_2_pl_cond_prf": "do të kishit pasur",
+      "v_2_pl_cond_prs": "do të kishit",
+      "v_2_pl_imp": "kini",
+      "v_2_pl_ind_fut": "do të keni",
+      "v_2_pl_ind_ipfv": "kishit",
+      "v_2_pl_ind_prf": "keni pasur",
+      "v_2_pl_ind_prf_fut": "do të keni pasur",
+      "v_2_pl_ind_prf_prf": "patët pasur",
+      "v_2_pl_ind_prs": "keni",
+      "v_2_pl_ind_pst": "patët",
+      "v_2_pl_opt_prf": "paçit pasur",
+      "v_2_pl_opt_prs": "paçit",
+      "v_2_pl_sbjv_prf": "të keni pasur",
+      "v_2_pl_sbjv_prf_prf": "të kishit pasur",
+      "v_2_pl_sbjv_prs": "të keni",
+      "v_2_pl_sbjv_pst": "të kishit",
+      "v_2_sg_adm_ipfv": "paskëshe",
+      "v_2_sg_adm_prf": "paske pasur",
+      "v_2_sg_adm_prf_pst": "paskëshe pasur",
+      "v_2_sg_adm_prs": "paske",
+      "v_2_sg_cond_prf": "do të kishe pasur",
+      "v_2_sg_cond_prs": "do të kishe",
+      "v_2_sg_imp": "ki",
+      "v_2_sg_ind_fut": "do të kesh",
+      "v_2_sg_ind_ipfv": "kishe",
+      "v_2_sg_ind_prf": "ke pasur",
+      "v_2_sg_ind_prf_fut": "do të kesh pasur",
+      "v_2_sg_ind_prf_pst": "pate pasur",
+      "v_2_sg_ind_prs": "ke",
+      "v_2_sg_ind_pst": "pate",
+      "v_2_sg_opt_prf": "paç pasur",
+      "v_2_sg_opt_prs": "paç",
+      "v_2_sg_sbjv_prf": "të kesh pasur",
+      "v_2_sg_sbjv_prf_pst": "të kishe pasur",
+      "v_2_sg_sbjv_prs": "të kesh",
+      "v_2_sg_sbjv_pst": "të kishe",
+      "v_3_pl_adm_ipfv": "paskëshin",
+      "v_3_pl_adm_prf": "paskan pasur",
+      "v_3_pl_adm_prf_pst": "paskëshin pasur",
+      "v_3_pl_adm_prs": "paskan",
+      "v_3_pl_cond_prf": "do të kishin pasur",
+      "v_3_pl_cond_prs": "do të kishin",
+      "v_3_pl_ind_fut": "do të kenë",
+      "v_3_pl_ind_ipfv": "kishin",
+      "v_3_pl_ind_prf": "kanë pasur",
+      "v_3_pl_ind_prf_fut": "do të kenë pasur",
+      "v_3_pl_ind_prf_pst": "patën pasur",
+      "v_3_pl_ind_prs": "kanë",
+      "v_3_pl_ind_pst": "patën",
+      "v_3_pl_opt_prf": "paçin pasur",
+      "v_3_pl_opt_prs": "paçin",
+      "v_3_pl_sbjv_prf": "të kenë pasur",
+      "v_3_pl_sbjv_prf_pst": "të kishin pasur",
+      "v_3_pl_sbjv_prs": "të kenë",
+      "v_3_pl_sbjv_pst": "të kishin",
+      "v_3_sg_adm_ipfv": "paskësh",
+      "v_3_sg_adm_prf": "paska pasur",
+      "v_3_sg_adm_prf_pst": "paskësh pasur",
+      "v_3_sg_adm_prs": "paska",
+      "v_3_sg_cond_prf": "do të kishte pasur",
+      "v_3_sg_cond_prs": "do të kishte",
+      "v_3_sg_ind_fut": "do të ketë",
+      "v_3_sg_ind_ipfv": "kishte",
+      "v_3_sg_ind_prf": "ka pasur",
+      "v_3_sg_ind_prf_fut": "do të ketë pasur",
+      "v_3_sg_ind_prf_pst": "pati pasur",
+      "v_3_sg_ind_prs": "ka",
+      "v_3_sg_ind_pst": "pati",
+      "v_3_sg_opt_prf": "pastë pasur",
+      "v_3_sg_opt_prs": "pastë",
+      "v_3_sg_sbjv_prf": "të ketë pasur",
+      "v_3_sg_sbjv_prf_pst": "të kishte pasur",
+      "v_3_sg_sbjv_prs": "të ketë",
+      "v_3_sg_sbjv_pst": "të kishte",
+      "v_nfin": "për të pasur",
+      "v_v_ptcp": "pasur",
+      "v_v_ptcp_prs": "duke pasur",
+      "v_v_ptcp_pst": "duke pasë pasur"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "krijoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "krijoj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "krijuar"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "kërkoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kërkoj",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_prs": "kërkon",
+      "v_3_pl_ind_prs": "kërkojnë",
+      "v_3_sg_ind_prs": "kërkon",
+      "v_3_sg_ind_pst": "kërkoi",
+      "v_v_ptcp": "kërkuar"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "lidh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lidh",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_ipfv": "lidhje",
+      "v_v_ptcp": "lidhur"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ligj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ligj",
+    "inflections": {
+      "n_abl_pl_def": "ligjeve",
+      "n_abl_pl_ndef": "ligjesh",
+      "n_abl_sg_def": "ligjit",
+      "n_abl_sg_ndef": "ligji",
+      "n_acc_pl_def": "ligjet",
+      "n_acc_pl_ndef": "ligje",
+      "n_acc_sg_def": "ligjin",
+      "n_acc_sg_ndef": "ligj",
+      "n_dat_pl_def": "ligjeve",
+      "n_dat_pl_ndef": "ligjeve",
+      "n_dat_sg_def": "ligjit",
+      "n_dat_sg_ndef": "ligji",
+      "n_gen_pl_def": "ligjeve",
+      "n_gen_pl_ndef": "ligjeve",
+      "n_gen_sg_def": "ligjit",
+      "n_gen_sg_ndef": "ligji",
+      "n_nom_pl_def": "ligjet",
+      "n_nom_pl_ndef": "ligje",
+      "n_nom_sg_def": "ligji",
+      "n_nom_sg_ndef": "ligj",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "luftë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "luftë",
+    "inflections": {
+      "n_abl_sg_def": "luftës",
+      "n_acc_sg_def": "luftën",
+      "n_dat_sg_def": "luftës",
+      "n_gen_sg_def": "luftës",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "lë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lë",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_ind_prs": "lënë",
+      "v_v_ptcp": "lënë"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "mendoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mendoj",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "menduakëshim",
+      "v_1_pl_adm_prf": "paskemi menduar",
+      "v_1_pl_adm_prf_pst": "paskëshim menduar",
+      "v_1_pl_adm_prs": "menduakemi",
+      "v_1_pl_cond_prf": "do të kishim menduar",
+      "v_1_pl_cond_prs": "do të mendonim",
+      "v_1_pl_ind_fut": "do të mendojmë",
+      "v_1_pl_ind_ipfv": "mendonim",
+      "v_1_pl_ind_prf": "kemi menduar",
+      "v_1_pl_ind_prf_fut": "do të kemi menduar",
+      "v_1_pl_ind_prf_pst": "patëm menduar",
+      "v_1_pl_ind_prs": "mendojmë",
+      "v_1_pl_ind_pst": "menduam",
+      "v_1_pl_opt_prf": "paçim menduar",
+      "v_1_pl_opt_prs": "mendofshim",
+      "v_1_pl_sbjv_prf": "të kemi menduar",
+      "v_1_pl_sbjv_prf_pst": "të kishim menduar",
+      "v_1_pl_sbjv_prs": "të mendojmë",
+      "v_1_pl_sbjv_pst": "të mendonim",
+      "v_1_sg_adm_ipfv": "menduakësha",
+      "v_1_sg_adm_prf": "paskam menduar",
+      "v_1_sg_adm_prf_pst": "paskësha menduar",
+      "v_1_sg_adm_prs": "menduakam",
+      "v_1_sg_cond_prf": "do të kisha menduar",
+      "v_1_sg_cond_prs": "do të mendoja",
+      "v_1_sg_ind_fut": "do të mendoj",
+      "v_1_sg_ind_ipfv": "mendoja",
+      "v_1_sg_ind_prf": "kam menduar",
+      "v_1_sg_ind_prf_fut": "do të kem menduar",
+      "v_1_sg_ind_prf_pst": "pata menduar",
+      "v_1_sg_ind_prs": "mendoj",
+      "v_1_sg_ind_pst": "mendova",
+      "v_1_sg_opt_prf": "paça menduar",
+      "v_1_sg_opt_prs": "mendofsha",
+      "v_1_sg_sbjv_prf": "të kem menduar",
+      "v_1_sg_sbjv_prf_pst": "të kisha menduar",
+      "v_1_sg_sbjv_prs": "të mendoj",
+      "v_1_sg_sbjv_pst": "të mendoja",
+      "v_2_pl_adm_ipfv": "menduakëshit",
+      "v_2_pl_adm_prf": "paskeni menduar",
+      "v_2_pl_adm_prf_prf": "paskëshit menduar",
+      "v_2_pl_adm_prs": "menduakeni",
+      "v_2_pl_cond_prf": "do të kishit menduar",
+      "v_2_pl_cond_prs": "do të mendonit",
+      "v_2_pl_imp": "mendoni",
+      "v_2_pl_ind_fut": "do të mendoni",
+      "v_2_pl_ind_ipfv": "mendonit",
+      "v_2_pl_ind_prf": "keni menduar",
+      "v_2_pl_ind_prf_fut": "do të keni menduar",
+      "v_2_pl_ind_prf_prf": "patët menduar",
+      "v_2_pl_ind_prs": "mendoni",
+      "v_2_pl_ind_pst": "menduat",
+      "v_2_pl_opt_prf": "paçit menduar",
+      "v_2_pl_opt_prs": "mendofshit",
+      "v_2_pl_sbjv_prf": "të keni menduar",
+      "v_2_pl_sbjv_prf_prf": "të kishit menduar",
+      "v_2_pl_sbjv_prs": "të mendoni",
+      "v_2_pl_sbjv_pst": "të mendonit",
+      "v_2_sg_adm_ipfv": "menduakëshe",
+      "v_2_sg_adm_prf": "paske menduar",
+      "v_2_sg_adm_prf_pst": "paskëshe menduar",
+      "v_2_sg_adm_prs": "menduake",
+      "v_2_sg_cond_prf": "do të kishe menduar",
+      "v_2_sg_cond_prs": "do të mendoje",
+      "v_2_sg_imp": "mendo",
+      "v_2_sg_ind_fut": "do të mendosh",
+      "v_2_sg_ind_ipfv": "mendoje",
+      "v_2_sg_ind_prf": "ke menduar",
+      "v_2_sg_ind_prf_fut": "do të kesh menduar",
+      "v_2_sg_ind_prf_pst": "pate menduar",
+      "v_2_sg_ind_prs": "mendon",
+      "v_2_sg_ind_pst": "mendove",
+      "v_2_sg_opt_prf": "paç menduar",
+      "v_2_sg_opt_prs": "mendofsh",
+      "v_2_sg_sbjv_prf": "të kesh menduar",
+      "v_2_sg_sbjv_prf_pst": "të kishe menduar",
+      "v_2_sg_sbjv_prs": "të mendosh",
+      "v_2_sg_sbjv_pst": "të mendoje",
+      "v_3_pl_adm_ipfv": "menduakëshin",
+      "v_3_pl_adm_prf": "paskan menduar",
+      "v_3_pl_adm_prf_pst": "paskëshin menduar",
+      "v_3_pl_adm_prs": "menduakan",
+      "v_3_pl_cond_prf": "do të kishin menduar",
+      "v_3_pl_cond_prs": "do të mendonin",
+      "v_3_pl_ind_fut": "do të mendojnë",
+      "v_3_pl_ind_ipfv": "mendonin",
+      "v_3_pl_ind_prf": "kanë menduar",
+      "v_3_pl_ind_prf_fut": "do të kenë menduar",
+      "v_3_pl_ind_prf_pst": "patën menduar",
+      "v_3_pl_ind_prs": "mendojnë",
+      "v_3_pl_ind_pst": "menduan",
+      "v_3_pl_opt_prf": "paçin menduar",
+      "v_3_pl_opt_prs": "mendofshin",
+      "v_3_pl_sbjv_prf": "të kenë menduar",
+      "v_3_pl_sbjv_prf_pst": "të kishin menduar",
+      "v_3_pl_sbjv_prs": "të mendojnë",
+      "v_3_pl_sbjv_pst": "të mendonin",
+      "v_3_sg_adm_ipfv": "menduakësh",
+      "v_3_sg_adm_prf": "paska menduar",
+      "v_3_sg_adm_prf_pst": "paskësh menduar",
+      "v_3_sg_adm_prs": "menduaka",
+      "v_3_sg_cond_prf": "do të kishte menduar",
+      "v_3_sg_cond_prs": "do të mendonte",
+      "v_3_sg_ind_fut": "do të mendojë",
+      "v_3_sg_ind_ipfv": "mendonte",
+      "v_3_sg_ind_prf": "ka menduar",
+      "v_3_sg_ind_prf_fut": "do të ketë menduar",
+      "v_3_sg_ind_prf_pst": "pati menduar",
+      "v_3_sg_ind_prs": "mendon",
+      "v_3_sg_ind_pst": "mendoi",
+      "v_3_sg_opt_prf": "pastë menduar",
+      "v_3_sg_opt_prs": "mendoftë",
+      "v_3_sg_sbjv_prf": "të ketë menduar",
+      "v_3_sg_sbjv_prf_pst": "të kishte menduar",
+      "v_3_sg_sbjv_prs": "të mendojë",
+      "v_3_sg_sbjv_pst": "të mendonte",
+      "v_nfin": "për të menduar",
+      "v_v_ptcp": "menduar",
+      "v_v_ptcp_prs": "duke menduar",
+      "v_v_ptcp_pst": "duke pasë menduar"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "muaj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muaj",
+    "inflections": {
+      "n_abl_pl_def": "muajve",
+      "n_abl_pl_ndef": "muajsh",
+      "n_abl_sg_def": "muajit",
+      "n_abl_sg_ndef": "muaji",
+      "n_acc_pl_def": "muajt",
+      "n_acc_pl_ndef": "muaj",
+      "n_acc_sg_def": "muajin",
+      "n_acc_sg_ndef": "muaj",
+      "n_dat_pl_def": "muajve",
+      "n_dat_pl_ndef": "muajve",
+      "n_dat_sg_def": "muajit",
+      "n_dat_sg_ndef": "muaji",
+      "n_gen_pl_def": "muajve",
+      "n_gen_pl_ndef": "muajve",
+      "n_gen_sg_def": "muajit",
+      "n_gen_sg_ndef": "muaji",
+      "n_nom_pl_def": "muajt",
+      "n_nom_pl_ndef": "muaj",
+      "n_nom_sg_def": "muaji",
+      "n_nom_sg_ndef": "muaj",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mënyrë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mënyrë",
+    "inflections": {
+      "n_abl_pl_def": "mënyrave",
+      "n_abl_pl_ndef": "mënyrash",
+      "n_abl_sg_def": "mënyrës",
+      "n_abl_sg_ndef": "mënyre",
+      "n_acc_pl_def": "mënyrat",
+      "n_acc_pl_ndef": "mënyra",
+      "n_acc_sg_def": "mënyrën",
+      "n_acc_sg_ndef": "mënyrë",
+      "n_dat_pl_def": "mënyrave",
+      "n_dat_pl_ndef": "mënyrave",
+      "n_dat_sg_def": "mënyrës",
+      "n_dat_sg_ndef": "mënyre",
+      "n_gen_pl_def": "mënyrave",
+      "n_gen_pl_ndef": "mënyrave",
+      "n_gen_sg_def": "mënyrës",
+      "n_gen_sg_ndef": "mënyre",
+      "n_nom_pl_def": "mënyrat",
+      "n_nom_pl_ndef": "mënyra",
+      "n_nom_sg_def": "mënyra",
+      "n_nom_sg_ndef": "mënyrë",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "mësohem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mësohem",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_ind_prs": "mësohet"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ndaj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ndaj",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "ndakëshim",
+      "v_1_pl_adm_prf": "paskemi ndarë",
+      "v_1_pl_adm_prf_pst": "paskëshim ndarë",
+      "v_1_pl_adm_prs": "ndakemi",
+      "v_1_pl_cond_prf": "do të kishim ndarë",
+      "v_1_pl_cond_prs": "do të ndanim",
+      "v_1_pl_ind_fut": "do të ndajmë",
+      "v_1_pl_ind_ipfv": "ndanim",
+      "v_1_pl_ind_prf": "kemi ndarë",
+      "v_1_pl_ind_prf_fut": "do të kemi ndarë",
+      "v_1_pl_ind_prf_pst": "patëm ndarë",
+      "v_1_pl_ind_prs": "ndajmë",
+      "v_1_pl_ind_pst": "ndamë",
+      "v_1_pl_opt_prf": "paçim ndarë",
+      "v_1_pl_opt_prs": "ndafshim",
+      "v_1_pl_sbjv_prf": "të kemi ndarë",
+      "v_1_pl_sbjv_prf_pst": "të kishim ndarë",
+      "v_1_pl_sbjv_prs": "të ndajmë",
+      "v_1_pl_sbjv_pst": "të ndanim",
+      "v_1_sg_adm_ipfv": "ndakësha",
+      "v_1_sg_adm_prf": "paskam ndarë",
+      "v_1_sg_adm_prf_pst": "paskësha ndarë",
+      "v_1_sg_adm_prs": "ndakam",
+      "v_1_sg_cond_prf": "do të kisha ndarë",
+      "v_1_sg_cond_prs": "do të ndaja",
+      "v_1_sg_ind_fut": "do të ndaj",
+      "v_1_sg_ind_ipfv": "ndaja",
+      "v_1_sg_ind_prf": "kam ndarë",
+      "v_1_sg_ind_prf_fut": "do të kem ndarë",
+      "v_1_sg_ind_prf_pst": "pata ndarë",
+      "v_1_sg_ind_prs": "ndaj",
+      "v_1_sg_ind_pst": "ndava",
+      "v_1_sg_opt_prf": "paça ndarë",
+      "v_1_sg_opt_prs": "ndafsha",
+      "v_1_sg_sbjv_prf": "të kem ndarë",
+      "v_1_sg_sbjv_prf_pst": "të kisha ndarë",
+      "v_1_sg_sbjv_prs": "të ndaj",
+      "v_1_sg_sbjv_pst": "të ndaja",
+      "v_2_pl_adm_ipfv": "ndakëshit",
+      "v_2_pl_adm_prf": "paskeni ndarë",
+      "v_2_pl_adm_prf_prf": "paskëshit ndarë",
+      "v_2_pl_adm_prs": "ndakeni",
+      "v_2_pl_cond_prf": "do të kishit ndarë",
+      "v_2_pl_cond_prs": "do të ndanit",
+      "v_2_pl_imp": "ndani",
+      "v_2_pl_ind_fut": "do të ndani",
+      "v_2_pl_ind_ipfv": "ndanit",
+      "v_2_pl_ind_prf": "keni ndarë",
+      "v_2_pl_ind_prf_fut": "do të keni ndarë",
+      "v_2_pl_ind_prf_prf": "patët ndarë",
+      "v_2_pl_ind_prs": "ndani",
+      "v_2_pl_ind_pst": "ndatë",
+      "v_2_pl_opt_prf": "paçit ndarë",
+      "v_2_pl_opt_prs": "ndafshit",
+      "v_2_pl_sbjv_prf": "të keni ndarë",
+      "v_2_pl_sbjv_prf_prf": "të kishit ndarë",
+      "v_2_pl_sbjv_prs": "të ndani",
+      "v_2_pl_sbjv_pst": "të ndanit",
+      "v_2_sg_adm_ipfv": "ndakëshe",
+      "v_2_sg_adm_prf": "paske ndarë",
+      "v_2_sg_adm_prf_pst": "paskëshe ndarë",
+      "v_2_sg_adm_prs": "ndake",
+      "v_2_sg_cond_prf": "do të kishe ndarë",
+      "v_2_sg_cond_prs": "do të ndaje",
+      "v_2_sg_imp": "ndaj",
+      "v_2_sg_ind_fut": "do të ndash",
+      "v_2_sg_ind_ipfv": "ndaje",
+      "v_2_sg_ind_prf": "ke ndarë",
+      "v_2_sg_ind_prf_fut": "do të kesh ndarë",
+      "v_2_sg_ind_prf_pst": "pate ndarë",
+      "v_2_sg_ind_prs": "ndan",
+      "v_2_sg_ind_pst": "ndave",
+      "v_2_sg_opt_prf": "paç ndarë",
+      "v_2_sg_opt_prs": "ndafsh",
+      "v_2_sg_sbjv_prf": "të kesh ndarë",
+      "v_2_sg_sbjv_prf_pst": "të kishe ndarë",
+      "v_2_sg_sbjv_prs": "të ndash",
+      "v_2_sg_sbjv_pst": "të ndaje",
+      "v_3_pl_adm_ipfv": "ndakëshin",
+      "v_3_pl_adm_prf": "paskan ndarë",
+      "v_3_pl_adm_prf_pst": "paskëshin ndarë",
+      "v_3_pl_adm_prs": "ndakan",
+      "v_3_pl_cond_prf": "do të kishin ndarë",
+      "v_3_pl_cond_prs": "do të ndanin",
+      "v_3_pl_ind_fut": "do të ndajnë",
+      "v_3_pl_ind_ipfv": "ndanin",
+      "v_3_pl_ind_prf": "kanë ndarë",
+      "v_3_pl_ind_prf_fut": "do të kenë ndarë",
+      "v_3_pl_ind_prf_pst": "patën ndarë",
+      "v_3_pl_ind_prs": "ndajnë",
+      "v_3_pl_ind_pst": "ndanë",
+      "v_3_pl_opt_prf": "paçin ndarë",
+      "v_3_pl_opt_prs": "ndafshin",
+      "v_3_pl_sbjv_prf": "të kenë ndarë",
+      "v_3_pl_sbjv_prf_pst": "të kishin ndarë",
+      "v_3_pl_sbjv_prs": "të ndajnë",
+      "v_3_pl_sbjv_pst": "të ndanin",
+      "v_3_sg_adm_ipfv": "ndakësh",
+      "v_3_sg_adm_prf": "paska ndarë",
+      "v_3_sg_adm_prf_pst": "paskësh ndarë",
+      "v_3_sg_adm_prs": "ndaka",
+      "v_3_sg_cond_prf": "do të kishte ndarë",
+      "v_3_sg_cond_prs": "do të ndante",
+      "v_3_sg_ind_fut": "do të ndajë",
+      "v_3_sg_ind_ipfv": "ndante",
+      "v_3_sg_ind_prf": "ka ndarë",
+      "v_3_sg_ind_prf_fut": "do të ketë ndarë",
+      "v_3_sg_ind_prf_pst": "pati ndarë",
+      "v_3_sg_ind_prs": "ndan",
+      "v_3_sg_ind_pst": "ndau",
+      "v_3_sg_opt_prf": "pastë ndarë",
+      "v_3_sg_opt_prs": "ndaftë",
+      "v_3_sg_sbjv_prf": "të ketë ndarë",
+      "v_3_sg_sbjv_prf_pst": "të kishte ndarë",
+      "v_3_sg_sbjv_prs": "të ndajë",
+      "v_3_sg_sbjv_pst": "të ndante",
+      "v_nfin": "për të ndarë",
+      "v_v_ptcp": "ndarë",
+      "v_v_ptcp_prs": "duke ndarë",
+      "v_v_ptcp_pst": "duke pasë ndarë"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ndryshim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ndryshim",
+    "inflections": {
+      "n_acc_pl_ndef": "ndryshime",
+      "n_nom_pl_ndef": "ndryshime",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ndryshohem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ndryshohem",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "ndryshuar"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ndryshoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ndryshoj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "ndryshuar"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ngre": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ngre",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "ngritur"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ngrihem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ngrihem",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "ngritur"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "njeri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "njeri",
+    "inflections": {
+      "n_abl_pl_def": "njerëzve",
+      "n_abl_pl_ndef": "njerëzish",
+      "n_abl_sg_def": "njeriut",
+      "n_abl_sg_ndef": "njeriu",
+      "n_acc_pl_def": "njerëzit",
+      "n_acc_pl_ndef": "njerëz",
+      "n_acc_sg_def": "njeriun",
+      "n_acc_sg_ndef": "njeri",
+      "n_dat_pl_def": "njerëzve",
+      "n_dat_pl_ndef": "njerëzve",
+      "n_dat_sg_def": "njeriut",
+      "n_dat_sg_ndef": "njeriu",
+      "n_gen_pl_def": "njerëzve",
+      "n_gen_pl_ndef": "njerëzve",
+      "n_gen_sg_def": "njeriut",
+      "n_gen_sg_ndef": "njeriu",
+      "n_nom_pl_def": "njerëzit",
+      "n_nom_pl_ndef": "njerëz",
+      "n_nom_sg_def": "njeriu",
+      "n_nom_sg_ndef": "njeri",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "numër": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "numër",
+    "inflections": {
+      "n_abl_pl_def": "numrave",
+      "n_abl_pl_ndef": "numrash",
+      "n_abl_sg_def": "numrit",
+      "n_abl_sg_ndef": "numri",
+      "n_acc_pl_def": "numrat",
+      "n_acc_pl_ndef": "numra",
+      "n_acc_sg_def": "numrin",
+      "n_acc_sg_ndef": "numër",
+      "n_dat_pl_def": "numrave",
+      "n_dat_pl_ndef": "numrave",
+      "n_dat_sg_def": "numrit",
+      "n_dat_sg_ndef": "numri",
+      "n_gen_pl_def": "numrave",
+      "n_gen_pl_ndef": "numrave",
+      "n_gen_sg_def": "numrit",
+      "n_gen_sg_ndef": "numri",
+      "n_nom_pl_def": "numrat",
+      "n_nom_pl_ndef": "numra",
+      "n_nom_sg_def": "numri",
+      "n_nom_sg_ndef": "numër",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "organizoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "organizoj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "organizuar"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "pavarësi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pavarësi",
+    "inflections": {
+      "n_abl_sg_def": "pavarësisë",
+      "n_dat_sg_def": "pavarësisë",
+      "n_gen_sg_def": "pavarësisë",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "pranoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pranoj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "pranuar"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "pyetje": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pyetje",
+    "inflections": {
+      "n_abl_sg_def": "pyetjes",
+      "n_abl_sg_ndef": "pyetjeje",
+      "n_acc_sg_def": "pyetjen",
+      "n_acc_sg_ndef": "pyetje",
+      "n_dat_sg_def": "pyetjes",
+      "n_dat_sg_ndef": "pyetjeje",
+      "n_gen_sg_def": "pyetjes",
+      "n_gen_sg_ndef": "pyetjeje",
+      "n_nom_sg_ndef": "pyetje",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "përdor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "përdor",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "përdorur"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "qen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qen",
+    "inflections": {
+      "n_acc_pl_ndef": "qene",
+      "n_nom_pl_ndef": "qene",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "qendër": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qendër",
+    "inflections": {
+      "n_abl_pl_def": "qendrave",
+      "n_abl_pl_ndef": "qendrash",
+      "n_abl_sg_def": "qendrës",
+      "n_abl_sg_ndef": "qendre",
+      "n_acc_pl_def": "qendrat",
+      "n_acc_pl_ndef": "qendra",
+      "n_acc_sg_def": "qendrën",
+      "n_acc_sg_ndef": "qendër",
+      "n_dat_pl_def": "qendrave",
+      "n_dat_pl_ndef": "qendrave",
+      "n_dat_sg_def": "qendrës",
+      "n_dat_sg_ndef": "qendre",
+      "n_gen_pl_def": "qendrave",
+      "n_gen_pl_ndef": "qendrave",
+      "n_gen_sg_def": "qendrës",
+      "n_gen_sg_ndef": "qendre",
+      "n_nom_pl_def": "qendrat",
+      "n_nom_pl_ndef": "qendra",
+      "n_nom_sg_def": "qendra",
+      "n_nom_sg_ndef": "qendër",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "qeveri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qeveri",
+    "inflections": {
+      "n_abl_pl_def": "qeverive",
+      "n_abl_pl_ndef": "qeverish",
+      "n_abl_sg_def": "qeverisë",
+      "n_abl_sg_ndef": "qeverie",
+      "n_acc_pl_def": "qeveritë",
+      "n_acc_pl_ndef": "qeveri",
+      "n_acc_sg_def": "qeverinë",
+      "n_acc_sg_ndef": "qeveri",
+      "n_dat_pl_def": "qeverive",
+      "n_dat_pl_ndef": "qeverive",
+      "n_dat_sg_def": "qeverisë",
+      "n_dat_sg_ndef": "qeverie",
+      "n_gen_pl_def": "qeverive",
+      "n_gen_pl_ndef": "qeverive",
+      "n_gen_sg_def": "qeverisë",
+      "n_gen_sg_ndef": "qeverie",
+      "n_nom_pl_def": "qeveritë",
+      "n_nom_pl_ndef": "qeveri",
+      "n_nom_sg_def": "qeveria",
+      "n_nom_sg_ndef": "qeveri",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "qytet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qytet",
+    "inflections": {
+      "n_abl_pl_def": "qyteteve",
+      "n_abl_pl_ndef": "qytetesh",
+      "n_abl_sg_def": "qytetit",
+      "n_abl_sg_ndef": "qyteti",
+      "n_acc_pl_def": "qytetet",
+      "n_acc_pl_ndef": "qytete",
+      "n_acc_sg_def": "qytetin",
+      "n_acc_sg_ndef": "qytet",
+      "n_dat_pl_def": "qyteteve",
+      "n_dat_pl_ndef": "qyteteve",
+      "n_dat_sg_def": "qytetit",
+      "n_dat_sg_ndef": "qyteti",
+      "n_gen_pl_def": "qyteteve",
+      "n_gen_pl_ndef": "qyteteve",
+      "n_gen_sg_def": "qytetit",
+      "n_gen_sg_ndef": "qyteti",
+      "n_nom_pl_def": "qytetet",
+      "n_nom_pl_ndef": "qytete",
+      "n_nom_sg_def": "qyteti",
+      "n_nom_sg_ndef": "qytet",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "rajon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rajon",
+    "inflections": {
+      "n_abl_pl_def": "rajoneve",
+      "n_abl_pl_ndef": "rajonesh",
+      "n_abl_sg_def": "rajonit",
+      "n_abl_sg_ndef": "rajoni",
+      "n_acc_pl_def": "rajonet",
+      "n_acc_pl_ndef": "rajone",
+      "n_acc_sg_def": "rajonin",
+      "n_acc_sg_ndef": "rajon",
+      "n_dat_pl_def": "rajoneve",
+      "n_dat_pl_ndef": "rajoneve",
+      "n_dat_sg_def": "rajonit",
+      "n_dat_sg_ndef": "rajoni",
+      "n_gen_pl_def": "rajoneve",
+      "n_gen_pl_ndef": "rajoneve",
+      "n_gen_sg_def": "rajonit",
+      "n_gen_sg_ndef": "rajoni",
+      "n_nom_pl_def": "rajonet",
+      "n_nom_pl_ndef": "rajone",
+      "n_nom_sg_def": "rajoni",
+      "n_nom_sg_ndef": "rajon",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "rreth": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rreth",
+    "inflections": {
+      "n_abl_pl_def": "rrathëve",
+      "n_abl_pl_ndef": "rrathësh",
+      "n_abl_sg_def": "rrethit",
+      "n_abl_sg_ndef": "rrethi",
+      "n_acc_pl_def": "rrathët",
+      "n_acc_pl_ndef": "rrathë",
+      "n_acc_sg_def": "rrethin",
+      "n_acc_sg_ndef": "rreth",
+      "n_dat_pl_def": "rrathëve",
+      "n_dat_pl_ndef": "rrathëve",
+      "n_dat_sg_def": "rrethit",
+      "n_dat_sg_ndef": "rrethi",
+      "n_gen_pl_def": "rrathëve",
+      "n_gen_pl_ndef": "rrathëve",
+      "n_gen_sg_def": "rrethit",
+      "n_gen_sg_ndef": "rrethi",
+      "n_nom_pl_def": "rrathët",
+      "n_nom_pl_ndef": "rrathë",
+      "n_nom_sg_def": "rrethi",
+      "n_nom_sg_ndef": "rreth",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "rrugë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rrugë",
+    "inflections": {
+      "n_abl_pl_def": "rrugëve",
+      "n_abl_pl_ndef": "rrugësh",
+      "n_abl_sg_def": "rrugës",
+      "n_abl_sg_ndef": "rruge",
+      "n_acc_pl_def": "rrugët",
+      "n_acc_pl_ndef": "rrugë",
+      "n_acc_sg_def": "rrugën",
+      "n_acc_sg_ndef": "rrugë",
+      "n_dat_pl_def": "rrugëve",
+      "n_dat_pl_ndef": "rrugëve",
+      "n_dat_sg_def": "rrugës",
+      "n_dat_sg_ndef": "rruge",
+      "n_gen_pl_def": "rrugëve",
+      "n_gen_pl_ndef": "rrugëve",
+      "n_gen_sg_def": "rrugës",
+      "n_gen_sg_ndef": "rruge",
+      "n_nom_pl_def": "rrugët",
+      "n_nom_pl_ndef": "rrugë",
+      "n_nom_sg_def": "rruga",
+      "n_nom_sg_ndef": "rrugë",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "shembull": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shembull",
+    "inflections": {
+      "n_abl_pl_def": "shembujve",
+      "n_abl_pl_ndef": "shembujsh",
+      "n_abl_sg_def": "shembullit",
+      "n_abl_sg_ndef": "shembulli",
+      "n_acc_pl_def": "shembujt",
+      "n_acc_pl_ndef": "shembuj",
+      "n_acc_sg_def": "shembullin",
+      "n_acc_sg_ndef": "shembull",
+      "n_dat_pl_def": "shembujve",
+      "n_dat_pl_ndef": "shembujve",
+      "n_dat_sg_def": "shembullit",
+      "n_dat_sg_ndef": "shembulli",
+      "n_gen_pl_def": "shembujve",
+      "n_gen_pl_ndef": "shembujve",
+      "n_gen_sg_def": "shembullit",
+      "n_gen_sg_ndef": "shembulli",
+      "n_nom_pl_def": "shembujt",
+      "n_nom_pl_ndef": "shembuj",
+      "n_nom_sg_def": "shembulli",
+      "n_nom_sg_ndef": "shembull",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "shkak": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shkak",
+    "inflections": {
+      "n_abl_pl_def": "shkaqeve",
+      "n_abl_pl_ndef": "shkaqesh",
+      "n_abl_sg_def": "shkakut",
+      "n_abl_sg_ndef": "shkaku",
+      "n_acc_pl_def": "shkaqet",
+      "n_acc_pl_ndef": "shkaqe",
+      "n_acc_sg_def": "shkakun",
+      "n_acc_sg_ndef": "shkak",
+      "n_dat_pl_def": "shkaqeve",
+      "n_dat_pl_ndef": "shkaqeve",
+      "n_dat_sg_def": "shkakut",
+      "n_dat_sg_ndef": "shkaku",
+      "n_gen_pl_def": "shkaqeve",
+      "n_gen_pl_ndef": "shkaqeve",
+      "n_gen_sg_def": "shkakut",
+      "n_gen_sg_ndef": "shkaku",
+      "n_nom_pl_def": "shkaqet",
+      "n_nom_pl_ndef": "shkaqe",
+      "n_nom_sg_def": "shkaku",
+      "n_nom_sg_ndef": "shkak",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "shoh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shoh",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_ind_pst": "pa",
+      "v_v_ptcp": "parë"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "shpall": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shpall",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "shpallur"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "shqiptar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shqiptar",
+    "inflections": {
+      "n_abl_pl_def": "shqiptarëve",
+      "n_abl_pl_ndef": "shqiptarësh",
+      "n_abl_sg_def": "shqiptarit",
+      "n_abl_sg_ndef": "shqiptari",
+      "n_acc_pl_def": "shqiptarët",
+      "n_acc_pl_ndef": "shqiptarë",
+      "n_acc_sg_def": "shqiptarin",
+      "n_acc_sg_ndef": "shqiptar",
+      "n_dat_pl_def": "shqiptarëve",
+      "n_dat_pl_ndef": "shqiptarëve",
+      "n_dat_sg_def": "shqiptarit",
+      "n_dat_sg_ndef": "shqiptari",
+      "n_gen_pl_def": "shqiptarëve",
+      "n_gen_pl_ndef": "shqiptarëve",
+      "n_gen_sg_def": "shqiptarit",
+      "n_gen_sg_ndef": "shqiptari",
+      "n_nom_pl_def": "shqiptarët",
+      "n_nom_pl_ndef": "shqiptarë",
+      "n_nom_sg_def": "shqiptari",
+      "n_nom_sg_ndef": "shqiptar",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "shtet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shtet",
+    "inflections": {
+      "n_abl_pl_def": "shteteve",
+      "n_abl_pl_ndef": "shtetesh",
+      "n_abl_sg_def": "shtetit",
+      "n_abl_sg_ndef": "shteti",
+      "n_acc_pl_def": "shtetet",
+      "n_acc_pl_ndef": "shtete",
+      "n_acc_sg_def": "shtetin",
+      "n_acc_sg_ndef": "shtet",
+      "n_dat_pl_def": "shteteve",
+      "n_dat_pl_ndef": "shteteve",
+      "n_dat_sg_def": "shtetit",
+      "n_dat_sg_ndef": "shteti",
+      "n_gen_pl_def": "shteteve",
+      "n_gen_pl_ndef": "shteteve",
+      "n_gen_sg_def": "shtetit",
+      "n_gen_sg_ndef": "shteti",
+      "n_nom_pl_def": "shtetet",
+      "n_nom_pl_ndef": "shtete",
+      "n_nom_sg_def": "shteti",
+      "n_nom_sg_ndef": "shtet",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "shtyp": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shtyp",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "shtypkëshim",
+      "v_1_pl_adm_prf": "paskemi shtypur",
+      "v_1_pl_adm_prf_pst": "paskëshim shtypur",
+      "v_1_pl_adm_prs": "shtypkemi",
+      "v_1_pl_cond_prf": "do të kishim shtypur",
+      "v_1_pl_cond_prs": "do të shtypnim",
+      "v_1_pl_ind_fut": "do të shtypim",
+      "v_1_pl_ind_ipfv": "shtypnim",
+      "v_1_pl_ind_prf": "kemi shtypur",
+      "v_1_pl_ind_prf_fut": "do të kemi shtypur",
+      "v_1_pl_ind_prf_pst": "patëm shtypur",
+      "v_1_pl_ind_prs": "shtypim",
+      "v_1_pl_ind_pst": "shtypëm",
+      "v_1_pl_opt_prf": "paçim shtypur",
+      "v_1_pl_opt_prs": "shtypshim",
+      "v_1_pl_sbjv_prf": "të kemi shtypur",
+      "v_1_pl_sbjv_prf_pst": "të kishim shtypur",
+      "v_1_pl_sbjv_prs": "të shtypim",
+      "v_1_pl_sbjv_pst": "të shtypnim",
+      "v_1_sg_adm_ipfv": "shtypkësha",
+      "v_1_sg_adm_prf": "paskam shtypur",
+      "v_1_sg_adm_prf_pst": "paskësha shtypur",
+      "v_1_sg_adm_prs": "shtypkam",
+      "v_1_sg_cond_prf": "do të kisha shtypur",
+      "v_1_sg_cond_prs": "do të shtypja",
+      "v_1_sg_ind_fut": "do të shtyp",
+      "v_1_sg_ind_ipfv": "shtypja",
+      "v_1_sg_ind_prf": "kam shtypur",
+      "v_1_sg_ind_prf_fut": "do të kem shtypur",
+      "v_1_sg_ind_prf_pst": "pata shtypur",
+      "v_1_sg_ind_prs": "shtyp",
+      "v_1_sg_ind_pst": "shtypa",
+      "v_1_sg_opt_prf": "paça shtypur",
+      "v_1_sg_opt_prs": "shtypsha",
+      "v_1_sg_sbjv_prf": "të kem shtypur",
+      "v_1_sg_sbjv_prf_pst": "të kisha shtypur",
+      "v_1_sg_sbjv_prs": "të shtyp",
+      "v_1_sg_sbjv_pst": "të shtypja",
+      "v_2_pl_adm_ipfv": "shtypkëshit",
+      "v_2_pl_adm_prf": "paskeni shtypur",
+      "v_2_pl_adm_prf_prf": "paskëshit shtypur",
+      "v_2_pl_adm_prs": "shtypkeni",
+      "v_2_pl_cond_prf": "do të kishit shtypur",
+      "v_2_pl_cond_prs": "do të shtypnit",
+      "v_2_pl_imp": "shtypni",
+      "v_2_pl_ind_fut": "do të shtypni",
+      "v_2_pl_ind_ipfv": "shtypnit",
+      "v_2_pl_ind_prf": "keni shtypur",
+      "v_2_pl_ind_prf_fut": "do të keni shtypur",
+      "v_2_pl_ind_prf_prf": "patët shtypur",
+      "v_2_pl_ind_prs": "shtypni",
+      "v_2_pl_ind_pst": "shtypët",
+      "v_2_pl_opt_prf": "paçit shtypur",
+      "v_2_pl_opt_prs": "shtypshit",
+      "v_2_pl_sbjv_prf": "të keni shtypur",
+      "v_2_pl_sbjv_prf_prf": "të kishit shtypur",
+      "v_2_pl_sbjv_prs": "të shtypni",
+      "v_2_pl_sbjv_pst": "të shtypnit",
+      "v_2_sg_adm_ipfv": "shtypkëshe",
+      "v_2_sg_adm_prf": "paske shtypur",
+      "v_2_sg_adm_prf_pst": "paskëshe shtypur",
+      "v_2_sg_adm_prs": "shtypke",
+      "v_2_sg_cond_prf": "do të kishe shtypur",
+      "v_2_sg_cond_prs": "do të shtypje",
+      "v_2_sg_imp": "shtyp",
+      "v_2_sg_ind_fut": "do të shtypësh",
+      "v_2_sg_ind_ipfv": "shtypje",
+      "v_2_sg_ind_prf": "ke shtypur",
+      "v_2_sg_ind_prf_fut": "do të kesh shtypur",
+      "v_2_sg_ind_prf_pst": "pate shtypur",
+      "v_2_sg_ind_prs": "shtyp",
+      "v_2_sg_ind_pst": "shtype",
+      "v_2_sg_opt_prf": "paç shtypur",
+      "v_2_sg_opt_prs": "shtypsh",
+      "v_2_sg_sbjv_prf": "të kesh shtypur",
+      "v_2_sg_sbjv_prf_pst": "të kishe shtypur",
+      "v_2_sg_sbjv_prs": "të shtypësh",
+      "v_2_sg_sbjv_pst": "të shtypje",
+      "v_3_pl_adm_ipfv": "shtypkëshin",
+      "v_3_pl_adm_prf": "paskan shtypur",
+      "v_3_pl_adm_prf_pst": "paskëshin shtypur",
+      "v_3_pl_adm_prs": "shtypkan",
+      "v_3_pl_cond_prf": "do të kishin shtypur",
+      "v_3_pl_cond_prs": "do të shtypnin",
+      "v_3_pl_ind_fut": "do të shtypin",
+      "v_3_pl_ind_ipfv": "shtypnin",
+      "v_3_pl_ind_prf": "kanë shtypur",
+      "v_3_pl_ind_prf_fut": "do të kenë shtypur",
+      "v_3_pl_ind_prf_pst": "patën shtypur",
+      "v_3_pl_ind_prs": "shtypin",
+      "v_3_pl_ind_pst": "shtypën",
+      "v_3_pl_opt_prf": "paçin shtypur",
+      "v_3_pl_opt_prs": "shtypshin",
+      "v_3_pl_sbjv_prf": "të kenë shtypur",
+      "v_3_pl_sbjv_prf_pst": "të kishin shtypur",
+      "v_3_pl_sbjv_prs": "të shtypin",
+      "v_3_pl_sbjv_pst": "të shtypnin",
+      "v_3_sg_adm_ipfv": "shtypkësh",
+      "v_3_sg_adm_prf": "paska shtypur",
+      "v_3_sg_adm_prf_pst": "paskësh shtypur",
+      "v_3_sg_adm_prs": "shtypka",
+      "v_3_sg_cond_prf": "do të kishte shtypur",
+      "v_3_sg_cond_prs": "do të shtypte",
+      "v_3_sg_ind_fut": "do të shtypë",
+      "v_3_sg_ind_ipfv": "shtypte",
+      "v_3_sg_ind_prf": "ka shtypur",
+      "v_3_sg_ind_prf_fut": "do të ketë shtypur",
+      "v_3_sg_ind_prf_pst": "pati shtypur",
+      "v_3_sg_ind_prs": "shtyp",
+      "v_3_sg_ind_pst": "shtypi",
+      "v_3_sg_opt_prf": "pastë shtypur",
+      "v_3_sg_opt_prs": "shtyptë",
+      "v_3_sg_sbjv_prf": "të ketë shtypur",
+      "v_3_sg_sbjv_prf_pst": "të kishte shtypur",
+      "v_3_sg_sbjv_prs": "të shtypë",
+      "v_3_sg_sbjv_pst": "të shtypte",
+      "v_nfin": "për të shtypur",
+      "v_v_ptcp": "shtypur",
+      "v_v_ptcp_prs": "duke shtypur",
+      "v_v_ptcp_pst": "duke pasë shtypur"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "shtëpi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shtëpi",
+    "inflections": {
+      "n_abl_pl_def": "shtëpive",
+      "n_abl_pl_ndef": "shtëpish",
+      "n_abl_sg_def": "shtëpisë",
+      "n_abl_sg_ndef": "shtëpie",
+      "n_acc_pl_def": "shtëpitë",
+      "n_acc_pl_ndef": "shtëpi",
+      "n_acc_sg_def": "shtëpinë",
+      "n_acc_sg_ndef": "shtëpi",
+      "n_dat_pl_def": "shtëpive",
+      "n_dat_pl_ndef": "shtëpive",
+      "n_dat_sg_def": "shtëpisë",
+      "n_dat_sg_ndef": "shtëpie",
+      "n_gen_pl_def": "shtëpive",
+      "n_gen_pl_ndef": "shtëpive",
+      "n_gen_sg_def": "shtëpisë",
+      "n_gen_sg_ndef": "shtëpie",
+      "n_nom_pl_def": "shtëpitë",
+      "n_nom_pl_ndef": "shtëpi",
+      "n_nom_sg_def": "shtëpia",
+      "n_nom_sg_ndef": "shtëpi",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "sistem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sistem",
+    "inflections": {
+      "n_abl_sg_def": "sistemit",
+      "n_acc_sg_def": "sistemin",
+      "n_dat_sg_def": "sistemit",
+      "n_gen_sg_def": "sistemit",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "takoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "takoj",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_prs": "takon",
+      "v_3_sg_ind_prs": "takon"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "thaj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "thaj",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_ind_pst": "thanë"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "them": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "them",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "thënkëshim",
+      "v_1_pl_adm_prf": "paskemi thënë",
+      "v_1_pl_adm_prf_pst": "paskëshim thënë",
+      "v_1_pl_adm_prs": "thënkemi",
+      "v_1_pl_cond_prf": "do të kishim thënë",
+      "v_1_pl_cond_prs": "do të thoshim",
+      "v_1_pl_ind_fut": "do të themi",
+      "v_1_pl_ind_ipfv": "thoshim",
+      "v_1_pl_ind_prf": "kemi thënë",
+      "v_1_pl_ind_prf_fut": "do të kemi thënë",
+      "v_1_pl_ind_prf_pst": "patëm thënë",
+      "v_1_pl_ind_prs": "themi",
+      "v_1_pl_ind_pst": "thamë",
+      "v_1_pl_opt_prf": "paçim thënë",
+      "v_1_pl_opt_prs": "thënçim",
+      "v_1_pl_sbjv_prf": "të kemi thënë",
+      "v_1_pl_sbjv_prf_pst": "të kishim thënë",
+      "v_1_pl_sbjv_prs": "të themi",
+      "v_1_pl_sbjv_pst": "të thoshim",
+      "v_1_sg_adm_ipfv": "thënkësha",
+      "v_1_sg_adm_prf": "paskam thënë",
+      "v_1_sg_adm_prf_pst": "paskësha thënë",
+      "v_1_sg_adm_prs": "thënkam",
+      "v_1_sg_cond_prf": "do të kisha thënë",
+      "v_1_sg_cond_prs": "do të thosha",
+      "v_1_sg_ind_fut": "do të them",
+      "v_1_sg_ind_ipfv": "thosha",
+      "v_1_sg_ind_prf": "kam thënë",
+      "v_1_sg_ind_prf_fut": "do të kem thënë",
+      "v_1_sg_ind_prf_pst": "pata thënë",
+      "v_1_sg_ind_prs": "them",
+      "v_1_sg_ind_pst": "thashë",
+      "v_1_sg_opt_prf": "paça thënë",
+      "v_1_sg_opt_prs": "thënça",
+      "v_1_sg_sbjv_prf": "të kem thënë",
+      "v_1_sg_sbjv_prf_pst": "të kisha thënë",
+      "v_1_sg_sbjv_prs": "të them",
+      "v_1_sg_sbjv_pst": "të thosha",
+      "v_2_pl_adm_ipfv": "thënkëshit",
+      "v_2_pl_adm_prf": "paskeni thënë",
+      "v_2_pl_adm_prf_prf": "paskëshit thënë",
+      "v_2_pl_adm_prs": "thënkeni",
+      "v_2_pl_cond_prf": "do të kishit thënë",
+      "v_2_pl_cond_prs": "do të thoshit",
+      "v_2_pl_imp": "thoni",
+      "v_2_pl_ind_fut": "do të thoni",
+      "v_2_pl_ind_ipfv": "thoshit",
+      "v_2_pl_ind_prf": "keni thënë",
+      "v_2_pl_ind_prf_fut": "do të keni thënë",
+      "v_2_pl_ind_prf_prf": "patët thënë",
+      "v_2_pl_ind_prs": "thoni",
+      "v_2_pl_ind_pst": "thatë",
+      "v_2_pl_opt_prf": "paçit thënë",
+      "v_2_pl_opt_prs": "thënçit",
+      "v_2_pl_sbjv_prf": "të keni thënë",
+      "v_2_pl_sbjv_prf_prf": "të kishit thënë",
+      "v_2_pl_sbjv_prs": "të thoni",
+      "v_2_pl_sbjv_pst": "të thoshit",
+      "v_2_sg_adm_ipfv": "thënkëshe",
+      "v_2_sg_adm_prf": "paske thënë",
+      "v_2_sg_adm_prf_pst": "paskëshe thënë",
+      "v_2_sg_adm_prs": "thënke",
+      "v_2_sg_cond_prf": "do të kishe thënë",
+      "v_2_sg_cond_prs": "do të thoshe",
+      "v_2_sg_imp": "thuaj",
+      "v_2_sg_ind_fut": "do të thuash",
+      "v_2_sg_ind_ipfv": "thoshe",
+      "v_2_sg_ind_prf": "ke thënë",
+      "v_2_sg_ind_prf_fut": "do të kesh thënë",
+      "v_2_sg_ind_prf_pst": "pate thënë",
+      "v_2_sg_ind_prs": "thua",
+      "v_2_sg_ind_pst": "the",
+      "v_2_sg_opt_prf": "paç thënë",
+      "v_2_sg_opt_prs": "thënç",
+      "v_2_sg_sbjv_prf": "të kesh thënë",
+      "v_2_sg_sbjv_prf_pst": "të kishe thënë",
+      "v_2_sg_sbjv_prs": "të thuash",
+      "v_2_sg_sbjv_pst": "të thoshe",
+      "v_3_pl_adm_ipfv": "thënkëshin",
+      "v_3_pl_adm_prf": "paskan thënë",
+      "v_3_pl_adm_prf_pst": "paskëshin thënë",
+      "v_3_pl_adm_prs": "thënkan",
+      "v_3_pl_cond_prf": "do të kishin thënë",
+      "v_3_pl_cond_prs": "do të thoshin",
+      "v_3_pl_ind_fut": "do të thonë",
+      "v_3_pl_ind_ipfv": "thoshin",
+      "v_3_pl_ind_prf": "kanë thënë",
+      "v_3_pl_ind_prf_fut": "do të kenë thënë",
+      "v_3_pl_ind_prf_pst": "patën thënë",
+      "v_3_pl_ind_prs": "thonë",
+      "v_3_pl_ind_pst": "thanë",
+      "v_3_pl_opt_prf": "paçin thënë",
+      "v_3_pl_opt_prs": "thënçin",
+      "v_3_pl_sbjv_prf": "të kenë thënë",
+      "v_3_pl_sbjv_prf_pst": "të kishin thënë",
+      "v_3_pl_sbjv_prs": "të thonë",
+      "v_3_pl_sbjv_pst": "të thoshin",
+      "v_3_sg_adm_ipfv": "thënkësh",
+      "v_3_sg_adm_prf": "paska thënë",
+      "v_3_sg_adm_prf_pst": "paskësh thënë",
+      "v_3_sg_adm_prs": "thënka",
+      "v_3_sg_cond_prf": "do të kishte thënë",
+      "v_3_sg_cond_prs": "do të thoshte",
+      "v_3_sg_ind_fut": "do të thotë",
+      "v_3_sg_ind_ipfv": "thoshte",
+      "v_3_sg_ind_prf": "ka thënë",
+      "v_3_sg_ind_prf_fut": "do të ketë thënë",
+      "v_3_sg_ind_prf_pst": "pati thënë",
+      "v_3_sg_ind_prs": "thotë",
+      "v_3_sg_ind_pst": "tha",
+      "v_3_sg_opt_prf": "pastë thënë",
+      "v_3_sg_opt_prs": "thëntë",
+      "v_3_sg_sbjv_prf": "të ketë thënë",
+      "v_3_sg_sbjv_prf_pst": "të kishte thënë",
+      "v_3_sg_sbjv_prs": "të thotë",
+      "v_3_sg_sbjv_pst": "të thoshte",
+      "v_nfin": "për të thënë",
+      "v_v_ptcp": "thënë",
+      "v_v_ptcp_prs": "duke thënë",
+      "v_v_ptcp_pst": "duke pasë thënë"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ujë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ujë",
+    "inflections": {
+      "n_abl_pl_def": "ujërave",
+      "n_abl_pl_ndef": "ujërash",
+      "n_abl_sg_def": "ujit",
+      "n_abl_sg_ndef": "uji",
+      "n_acc_pl_def": "ujërat",
+      "n_acc_pl_ndef": "ujëra",
+      "n_acc_sg_def": "ujin",
+      "n_acc_sg_ndef": "ujë",
+      "n_dat_pl_def": "ujërave",
+      "n_dat_pl_ndef": "ujërave",
+      "n_dat_sg_def": "ujit",
+      "n_dat_sg_ndef": "uji",
+      "n_gen_pl_def": "ujërave",
+      "n_gen_pl_ndef": "ujërave",
+      "n_gen_sg_def": "ujit",
+      "n_gen_sg_ndef": "uji",
+      "n_nom_pl_def": "ujërat",
+      "n_nom_pl_ndef": "ujëra",
+      "n_nom_sg_def": "uji",
+      "n_nom_sg_ndef": "ujë",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "vazhdoj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vazhdoj",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_prs": "vazhdon",
+      "v_3_pl_ind_prs": "vazhdojnë",
+      "v_3_sg_ind_prs": "vazhdon"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "vendos": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vendos",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_adm_ipfv": "vendoskëshim",
+      "v_1_pl_adm_prf": "paskemi vendosur",
+      "v_1_pl_adm_prf_pst": "paskëshim vendosur",
+      "v_1_pl_adm_prs": "vendoskemi",
+      "v_1_pl_cond_prf": "do të kishim vendosur",
+      "v_1_pl_cond_prs": "do të vendosnim",
+      "v_1_pl_ind_fut": "do të vendosim",
+      "v_1_pl_ind_ipfv": "vendosnim",
+      "v_1_pl_ind_prf": "kemi vendosur",
+      "v_1_pl_ind_prf_fut": "do të kemi vendosur",
+      "v_1_pl_ind_prf_pst": "patëm vendosur",
+      "v_1_pl_ind_prs": "vendosim",
+      "v_1_pl_ind_pst": "vendosëm",
+      "v_1_pl_opt_prf": "paçim vendosur",
+      "v_1_pl_opt_prs": "vendosshim",
+      "v_1_pl_sbjv_prf": "të kemi vendosur",
+      "v_1_pl_sbjv_prf_pst": "të kishim vendosur",
+      "v_1_pl_sbjv_prs": "të vendosim",
+      "v_1_pl_sbjv_pst": "të vendosnim",
+      "v_1_sg_adm_ipfv": "vendoskësha",
+      "v_1_sg_adm_prf": "paskam vendosur",
+      "v_1_sg_adm_prf_pst": "paskësha vendosur",
+      "v_1_sg_adm_prs": "vendoskam",
+      "v_1_sg_cond_prf": "do të kisha vendosur",
+      "v_1_sg_cond_prs": "do të vendosja",
+      "v_1_sg_ind_fut": "do të vendos",
+      "v_1_sg_ind_ipfv": "vendosja",
+      "v_1_sg_ind_prf": "kam vendosur",
+      "v_1_sg_ind_prf_fut": "do të kem vendosur",
+      "v_1_sg_ind_prf_pst": "pata vendosur",
+      "v_1_sg_ind_prs": "vendos",
+      "v_1_sg_ind_pst": "vendosa",
+      "v_1_sg_opt_prf": "paça vendosur",
+      "v_1_sg_opt_prs": "vendossha",
+      "v_1_sg_sbjv_prf": "të kem vendosur",
+      "v_1_sg_sbjv_prf_pst": "të kisha vendosur",
+      "v_1_sg_sbjv_prs": "të vendos",
+      "v_1_sg_sbjv_pst": "të vendosja",
+      "v_2_pl_adm_ipfv": "vendoskëshit",
+      "v_2_pl_adm_prf": "paskeni vendosur",
+      "v_2_pl_adm_prf_prf": "paskëshit vendosur",
+      "v_2_pl_adm_prs": "vendoskeni",
+      "v_2_pl_cond_prf": "do të kishit vendosur",
+      "v_2_pl_cond_prs": "do të vendosnit",
+      "v_2_pl_imp": "vendosni",
+      "v_2_pl_ind_fut": "do të vendosni",
+      "v_2_pl_ind_ipfv": "vendosnit",
+      "v_2_pl_ind_prf": "keni vendosur",
+      "v_2_pl_ind_prf_fut": "do të keni vendosur",
+      "v_2_pl_ind_prf_prf": "patët vendosur",
+      "v_2_pl_ind_prs": "vendosni",
+      "v_2_pl_ind_pst": "vendosët",
+      "v_2_pl_opt_prf": "paçit vendosur",
+      "v_2_pl_opt_prs": "vendosshit",
+      "v_2_pl_sbjv_prf": "të keni vendosur",
+      "v_2_pl_sbjv_prf_prf": "të kishit vendosur",
+      "v_2_pl_sbjv_prs": "të vendosni",
+      "v_2_pl_sbjv_pst": "të vendosnit",
+      "v_2_sg_adm_ipfv": "vendoskëshe",
+      "v_2_sg_adm_prf": "paske vendosur",
+      "v_2_sg_adm_prf_pst": "paskëshe vendosur",
+      "v_2_sg_adm_prs": "vendoske",
+      "v_2_sg_cond_prf": "do të kishe vendosur",
+      "v_2_sg_cond_prs": "do të vendosje",
+      "v_2_sg_imp": "vendos",
+      "v_2_sg_ind_fut": "do të vendosësh",
+      "v_2_sg_ind_ipfv": "vendosje",
+      "v_2_sg_ind_prf": "ke vendosur",
+      "v_2_sg_ind_prf_fut": "do të kesh vendosur",
+      "v_2_sg_ind_prf_pst": "pate vendosur",
+      "v_2_sg_ind_prs": "vendos",
+      "v_2_sg_ind_pst": "vendose",
+      "v_2_sg_opt_prf": "paç vendosur",
+      "v_2_sg_opt_prs": "vendossh",
+      "v_2_sg_sbjv_prf": "të kesh vendosur",
+      "v_2_sg_sbjv_prf_pst": "të kishe vendosur",
+      "v_2_sg_sbjv_prs": "të vendosësh",
+      "v_2_sg_sbjv_pst": "të vendosje",
+      "v_3_pl_adm_ipfv": "vendoskëshin",
+      "v_3_pl_adm_prf": "paskan vendosur",
+      "v_3_pl_adm_prf_pst": "paskëshin vendosur",
+      "v_3_pl_adm_prs": "vendoskan",
+      "v_3_pl_cond_prf": "do të kishin vendosur",
+      "v_3_pl_cond_prs": "do të vendosnin",
+      "v_3_pl_ind_fut": "do të vendosin",
+      "v_3_pl_ind_ipfv": "vendosnin",
+      "v_3_pl_ind_prf": "kanë vendosur",
+      "v_3_pl_ind_prf_fut": "do të kenë vendosur",
+      "v_3_pl_ind_prf_pst": "patën vendosur",
+      "v_3_pl_ind_prs": "vendosin",
+      "v_3_pl_ind_pst": "vendosën",
+      "v_3_pl_opt_prf": "paçin vendosur",
+      "v_3_pl_opt_prs": "vendosshin",
+      "v_3_pl_sbjv_prf": "të kenë vendosur",
+      "v_3_pl_sbjv_prf_pst": "të kishin vendosur",
+      "v_3_pl_sbjv_prs": "të vendosin",
+      "v_3_pl_sbjv_pst": "të vendosnin",
+      "v_3_sg_adm_ipfv": "vendoskësh",
+      "v_3_sg_adm_prf": "paska vendosur",
+      "v_3_sg_adm_prf_pst": "paskësh vendosur",
+      "v_3_sg_adm_prs": "vendoska",
+      "v_3_sg_cond_prf": "do të kishte vendosur",
+      "v_3_sg_cond_prs": "do të vendoste",
+      "v_3_sg_ind_fut": "do të vendosë",
+      "v_3_sg_ind_ipfv": "vendoste",
+      "v_3_sg_ind_prf": "ka vendosur",
+      "v_3_sg_ind_prf_fut": "do të ketë vendosur",
+      "v_3_sg_ind_prf_pst": "pati vendosur",
+      "v_3_sg_ind_prs": "vendos",
+      "v_3_sg_ind_pst": "vendosi",
+      "v_3_sg_opt_prf": "pastë vendosur",
+      "v_3_sg_opt_prs": "vendostë",
+      "v_3_sg_sbjv_prf": "të ketë vendosur",
+      "v_3_sg_sbjv_prf_pst": "të kishte vendosur",
+      "v_3_sg_sbjv_prs": "të vendosë",
+      "v_3_sg_sbjv_pst": "të vendoste",
+      "v_nfin": "për të vendosur",
+      "v_v_ptcp": "vendosur",
+      "v_v_ptcp_prs": "duke vendosur",
+      "v_v_ptcp_pst": "duke pasë vendosur"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "vij": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vij",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_prs": "vjen",
+      "v_3_pl_ind_prs": "vijnë",
+      "v_3_sg_ind_prs": "vjen",
+      "v_3_sg_ind_pst": "erdhi",
+      "v_v_ptcp": "ardhur"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "vë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vë",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_ind_prs": "vënë",
+      "v_v_ptcp": "vënë"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "zgjedh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zgjedh",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_ind_ipfv": "zgjedhje",
+      "v_v_ptcp": "zgjedhur"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "zhvillim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zhvillim",
+    "inflections": {
+      "n_acc_sg_def": "zhvillimin",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "zhvillohem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zhvillohem",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_ind_prs": "zhvillohet",
+      "v_v_ptcp": "zhvilluar"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "zhvilloj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zhvilloj",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp": "zhvilluar"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "zonë": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zonë",
+    "inflections": {
+      "n_acc_sg_def": "zonën",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  }
+}

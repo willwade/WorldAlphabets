@@ -1,0 +1,233 @@
+{
+  "_locale": "dsb",
+  "_type": "words",
+  "_version": "0.1",
+  "bratš": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bratš",
+    "inflections": {
+      "n_acc_sg": "bratša",
+      "n_gen_sg": "bratša",
+      "n_nom_du": "bratša",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "carny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "carny",
+    "inflections": {
+      "adj_nom_fem_sg": "carna",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "cerkwja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cerkwja",
+    "inflections": {
+      "n_acc_du": "cerkwi",
+      "n_acc_pl": "cerkwje",
+      "n_acc_sg": "cerkwju",
+      "n_dat_du": "cerkwjoma",
+      "n_dat_pl": "cerkwjam",
+      "n_dat_sg": "cerkwi",
+      "n_ess_du": "cerkwjoma",
+      "n_ess_pl": "cerkwjach",
+      "n_ess_sg": "cerkwi",
+      "n_gen_du": "cerkwjowu",
+      "n_gen_pl": "cerkwjow",
+      "n_gen_sg": "cerkwje",
+      "n_ins_du": "cerkwjoma",
+      "n_ins_pl": "cerkwjami",
+      "n_ins_sg": "cerkwju",
+      "n_nom_du": "cerkwi",
+      "n_nom_pl": "cerkwje",
+      "n_nom_sg": "cerkwja",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "dobry": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dobry",
+    "inflections": {
+      "adj_acc_du_anim": "dobreju",
+      "adj_acc_du_inan": "dobrej",
+      "adj_acc_fem_sg": "dobru",
+      "adj_acc_masc_sg_anim": "dobrego",
+      "adj_acc_masc_sg_inan": "dobry",
+      "adj_acc_neut_sg": "dobre",
+      "adj_acc_pl_anim": "dobrych",
+      "adj_acc_pl_inan": "dobre",
+      "adj_dat_du": "dobryma",
+      "adj_dat_fem_sg": "dobrej",
+      "adj_dat_masc_sg": "dobremu",
+      "adj_dat_neut_sg": "dobremu",
+      "adj_dat_pl": "dobrym",
+      "adj_ess_du": "dobryma",
+      "adj_ess_fem_sg": "dobrej",
+      "adj_ess_masc_sg": "dobrem",
+      "adj_ess_neut_sg": "dobrem",
+      "adj_ess_pl": "dobrych",
+      "adj_gen_du": "dobreju",
+      "adj_gen_fem_sg": "dobreje",
+      "adj_gen_masc_sg": "dobrego",
+      "adj_gen_neut_sg": "dobrego",
+      "adj_gen_pl": "dobrych",
+      "adj_ins_du": "dobryma",
+      "adj_ins_fem_sg": "dobreju",
+      "adj_ins_masc_sg": "dobrym",
+      "adj_ins_neut_sg": "dobrym",
+      "adj_ins_pl": "dobrymi",
+      "adj_nom_du": "dobrej",
+      "adj_nom_fem_sg": "dobra",
+      "adj_nom_masc_sg": "dobry",
+      "adj_nom_neut_sg": "dobre",
+      "adj_nom_pl": "dobre",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kócka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kócka",
+    "inflections": {
+      "n_acc_du": "kócce",
+      "n_acc_pl": "kócki",
+      "n_acc_sg": "kócku",
+      "n_dat_du": "kóckoma",
+      "n_dat_pl": "kóckam",
+      "n_dat_sg": "kócce",
+      "n_ess_du": "kóckoma",
+      "n_ess_pl": "kóckach",
+      "n_ess_sg": "kócce",
+      "n_gen_du": "kóckowu",
+      "n_gen_pl": "kóckow",
+      "n_gen_sg": "kócki",
+      "n_ins_du": "kóckoma",
+      "n_ins_pl": "kóckami",
+      "n_ins_sg": "kócku",
+      "n_nom_du": "kócce",
+      "n_nom_pl": "kócki",
+      "n_nom_sg": "kócka",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "kóń": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kóń",
+    "inflections": {
+      "n_acc_pl": "kónje",
+      "n_nom_pl": "kónje",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "mama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mama",
+    "inflections": {
+      "n_acc_pl": "mamy",
+      "n_gen_sg": "mamy",
+      "n_nom_pl": "mamy",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "nimski": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nimski",
+    "inflections": {
+      "adj_nom_fem_sg": "nimska",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sotša": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sotša",
+    "inflections": {
+      "n_acc_sg": "sotšu",
+      "n_ins_sg": "sotšu",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "witaś": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "witaś",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "witajśo"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "šula": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "šula",
+    "inflections": {
+      "n_acc_pl": "šule",
+      "n_gen_sg": "šule",
+      "n_nom_pl": "šule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  }
+}

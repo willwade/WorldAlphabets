@@ -1,0 +1,1705 @@
+{
+  "_locale": "ko",
+  "_type": "words",
+  "_version": "0.1",
+  "가다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "가다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "가서",
+      "v_cvb_nfin_conj": "가고",
+      "v_decl_fin_prs_infm_pol": "가요",
+      "v_decl_fin_pst_infm": "갔어",
+      "v_imp_fin_1_pl_form": "가자",
+      "v_imp_fin_1_pl_infm_pol": "가요",
+      "v_imp_fin_2_infm_pol": "가요",
+      "v_int_fin_prs_infm_pol": "가요",
+      "v_int_fin_pst_infm": "갔어",
+      "v_int_infm_fin": "가지"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "가르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "가르다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "가를"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "가맣다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "가맣다",
+    "inflections": {
+      "adj_ptcp_nfin_prs": "가만",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "가지다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "가지다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "가져",
+      "v_decl_fin_prs_infm": "가져",
+      "v_imp_fin_1_pl_infm": "가져",
+      "v_imp_fin_2_infm": "가져",
+      "v_int_fin_prs_infm": "가져",
+      "v_ptcp_fut": "가질"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "같다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "같다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "같아",
+      "adj_decl_fin_prs_infm": "같아",
+      "adj_int_fin_prs_infm": "같아",
+      "adj_ptcp_nfin_prs": "같은",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "고하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "고하다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "고한"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "곱다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "곱다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "고와",
+      "adj_decl_fin_prs_infm": "고와",
+      "adj_int_fin_prs_infm": "고와",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "그러다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "그러다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "그래",
+      "v_decl_fin_prs_infm": "그래",
+      "v_imp_fin_1_pl_infm": "그래",
+      "v_imp_fin_2_infm": "그래",
+      "v_int_fin_prs_infm": "그래",
+      "v_msdr_prs": "그럼",
+      "v_ptcp_fut": "그럴",
+      "v_ptcp_pst": "그런"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "그르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "그르다",
+    "inflections": {
+      "adj_ptcp_nfin_fut": "그를",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "기다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "기다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin": "기지만",
+      "v_cvb_nfin_2": "기는데",
+      "v_cvb_nfin_3": "기더니",
+      "v_cvb_nfin_caus": "겨",
+      "v_cvb_nfin_caus_2": "겨서",
+      "v_cvb_nfin_caus_3": "기어서",
+      "v_cvb_nfin_caus_4": "기니",
+      "v_cvb_nfin_caus_5": "기니까",
+      "v_cvb_nfin_caus_elev": "기셔",
+      "v_cvb_nfin_caus_elev_2": "기셔서",
+      "v_cvb_nfin_caus_elev_3": "기시니",
+      "v_cvb_nfin_caus_elev_4": "기시니까",
+      "v_cvb_nfin_cond": "기면",
+      "v_cvb_nfin_cond_2": "겨야",
+      "v_cvb_nfin_cond_3": "기어야",
+      "v_cvb_nfin_cond_elev": "기시면",
+      "v_cvb_nfin_cond_elev_2": "기셔야",
+      "v_cvb_nfin_conj": "기고",
+      "v_cvb_nfin_conj_elev": "기시고",
+      "v_cvb_nfin_elev": "기시지만",
+      "v_cvb_nfin_elev_2": "기시는데",
+      "v_cvb_nfin_elev_3": "기시더니",
+      "v_cvb_nfin_purp": "기려고",
+      "v_cvb_nfin_purp_elev": "기시려고",
+      "v_decl_fin_fut_form": "기겠다",
+      "v_decl_fin_fut_form_elev": "기시겠다",
+      "v_decl_fin_fut_form_pol": "기겠습니다",
+      "v_decl_fin_fut_form_pol_elev": "기시겠습니다",
+      "v_decl_fin_fut_infm": "기겠어",
+      "v_decl_fin_fut_infm_elev": "기시겠어",
+      "v_decl_fin_fut_infm_pol": "기겠어요",
+      "v_decl_fin_fut_infm_pol_elev": "기시겠어요",
+      "v_decl_fin_prs_form": "긴다",
+      "v_decl_fin_prs_form_elev": "기신다",
+      "v_decl_fin_prs_form_pol": "깁니다",
+      "v_decl_fin_prs_form_pol_elev": "기십니다",
+      "v_decl_fin_prs_infm": "겨",
+      "v_decl_fin_prs_infm_elev": "기셔",
+      "v_decl_fin_prs_infm_pol": "겨요",
+      "v_decl_fin_prs_infm_pol_2": "기어요",
+      "v_decl_fin_prs_infm_pol_elev": "기세요",
+      "v_decl_fin_prs_infm_pol_elev_2": "기셔요",
+      "v_decl_fin_pst_form": "겼다",
+      "v_decl_fin_pst_form_elev": "기셨다",
+      "v_decl_fin_pst_form_pol": "겼습니다",
+      "v_decl_fin_pst_form_pol_elev": "기셨습니다",
+      "v_decl_fin_pst_infm": "겼어",
+      "v_decl_fin_pst_infm_elev": "기셨어",
+      "v_decl_fin_pst_infm_pol": "겼어요",
+      "v_decl_fin_pst_infm_pol_elev": "기셨어요",
+      "v_imp_fin_1_pl_form": "기자",
+      "v_imp_fin_1_pl_form_pol": "깁시다",
+      "v_imp_fin_1_pl_infm": "겨",
+      "v_imp_fin_1_pl_infm_pol": "겨요",
+      "v_imp_fin_1_pl_infm_pol_2": "기어요",
+      "v_imp_fin_2_form": "겨라",
+      "v_imp_fin_2_form_2": "기어라",
+      "v_imp_fin_2_form_elev": "기시라",
+      "v_imp_fin_2_form_pol": "깁시오",
+      "v_imp_fin_2_form_pol_elev": "기십시오",
+      "v_imp_fin_2_infm": "겨",
+      "v_imp_fin_2_infm_elev": "기셔",
+      "v_imp_fin_2_infm_pol": "겨요",
+      "v_imp_fin_2_infm_pol_2": "기어요",
+      "v_imp_fin_2_infm_pol_elev": "기세요",
+      "v_int_fin_prs_form": "기느냐",
+      "v_int_fin_prs_form_elev": "기시느냐",
+      "v_int_fin_prs_form_pol": "깁니까",
+      "v_int_fin_prs_form_pol_elev": "기십니까",
+      "v_int_fin_prs_infm": "겨",
+      "v_int_fin_prs_infm_elev": "기셔",
+      "v_int_fin_prs_infm_pol": "겨요",
+      "v_int_fin_prs_infm_pol_2": "기어요",
+      "v_int_fin_prs_infm_pol_elev": "기세요",
+      "v_int_fin_prs_infm_pol_elev_2": "기셔요",
+      "v_int_fin_pst_form": "겼느냐",
+      "v_int_fin_pst_form_elev": "기셨느냐",
+      "v_int_fin_pst_form_pol": "겼습니까",
+      "v_int_fin_pst_form_pol_elev": "기셨습니까",
+      "v_int_fin_pst_infm": "겼어",
+      "v_int_fin_pst_infm_elev": "기셨어",
+      "v_int_fin_pst_infm_pol": "겼어요",
+      "v_int_fin_pst_infm_pol_elev": "기셨어요",
+      "v_msdr_prs": "김",
+      "v_msdr_prs_2": "기기",
+      "v_msdr_prs_elev": "기심",
+      "v_msdr_prs_elev_2": "기시기",
+      "v_msdr_pst": "겼음",
+      "v_msdr_pst_2": "기었음",
+      "v_msdr_pst_3": "겼기",
+      "v_msdr_pst_4": "기었기",
+      "v_msdr_pst_elev": "기셨음",
+      "v_msdr_pst_elev_2": "기셨기",
+      "v_ptcp_fut": "길",
+      "v_ptcp_fut_elev": "기실",
+      "v_ptcp_prs": "기는",
+      "v_ptcp_prs_elev": "기시는",
+      "v_ptcp_pst": "긴",
+      "v_ptcp_pst_elev": "기신"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "기르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "기르다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "기를"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "까다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "까다",
+    "inflections": {
+      "regulars": [],
+      "v_decl_fin_prs_infm_pol": "까요",
+      "v_imp_fin_1_pl_infm_pol": "까요",
+      "v_imp_fin_2_infm_pol": "까요",
+      "v_int_fin_prs_infm_pol": "까요"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "나": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "나",
+    "inflections": {
+      "pro_gen": "나의",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "나가다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "나가다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "나가",
+      "v_decl_fin_prs_infm": "나가",
+      "v_imp_fin_1_pl_infm": "나가",
+      "v_imp_fin_2_infm": "나가",
+      "v_int_fin_prs_infm": "나가"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "나다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "나다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "나서",
+      "v_cvb_nfin_cond": "나면",
+      "v_decl_fin_prs_infm_pol": "나요",
+      "v_imp_fin_1_pl_infm_pol": "나요",
+      "v_imp_fin_2_infm_pol": "나요",
+      "v_int_fin_prs_infm_pol": "나요",
+      "v_ptcp_prs": "나는"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "나르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "나르다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "나를"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "날다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "날다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_prs": "나는"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "남다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "남다",
+    "inflections": {
+      "regulars": [],
+      "v_imp_fin_1_pl_form": "남자"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "노랗다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "노랗다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "노래",
+      "adj_decl_fin_prs_infm": "노래",
+      "adj_int_fin_prs_infm": "노래",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "누": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "누",
+    "inflections": {
+      "n_nom": "누가",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "누구": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "누구",
+    "inflections": {
+      "pro_nom": "누가",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "pronoun"
+    ]
+  },
+  "늘다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "늘다",
+    "inflections": {
+      "regulars": [],
+      "v_decl_fin_prs_form": "는다"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "다르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "다르다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "달라",
+      "adj_decl_fin_prs_infm": "달라",
+      "adj_int_fin_prs_infm": "달라",
+      "adj_ptcp_nfin_prs": "다른",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "대하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "대하다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "대해",
+      "v_decl_fin_prs_infm": "대해",
+      "v_imp_fin_1_pl_infm": "대해",
+      "v_imp_fin_2_infm": "대해",
+      "v_int_fin_prs_infm": "대해",
+      "v_ptcp_pst": "대한"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "돌다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "돌다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "돌아",
+      "v_decl_fin_prs_infm": "돌아",
+      "v_imp_fin_1_pl_infm": "돌아",
+      "v_imp_fin_2_infm": "돌아",
+      "v_int_fin_prs_infm": "돌아"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "돕다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "돕다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "도와",
+      "v_decl_fin_prs_infm": "도와",
+      "v_imp_fin_1_pl_infm": "도와",
+      "v_imp_fin_2_infm": "도와",
+      "v_int_fin_prs_infm": "도와",
+      "v_msdr_prs": "도움"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "듣다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "듣다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "들어",
+      "v_decl_fin_prs_infm": "들어",
+      "v_imp_fin_1_pl_infm": "들어",
+      "v_imp_fin_2_infm": "들어",
+      "v_int_fin_prs_infm": "들어",
+      "v_ptcp_fut": "들을",
+      "v_ptcp_pst": "들은"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "따다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "따다",
+    "inflections": {
+      "regulars": [],
+      "v_imp_fin_2_form": "따라"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "떨다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "떨다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "떨어",
+      "v_decl_fin_prs_infm": "떨어",
+      "v_imp_fin_1_pl_infm": "떨어",
+      "v_imp_fin_2_infm": "떨어",
+      "v_int_fin_prs_infm": "떨어"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "만나다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "만나다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "만나",
+      "v_decl_fin_prs_infm": "만나",
+      "v_imp_fin_1_pl_infm": "만나",
+      "v_imp_fin_2_infm": "만나",
+      "v_int_fin_prs_infm": "만나"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "만들다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "만들다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "만들"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "만하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "만하다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "만해",
+      "adj_decl_fin_prs_infm": "만해",
+      "adj_int_fin_prs_infm": "만해",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "많다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "많다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "많아",
+      "adj_decl_fin_prs_infm": "많아",
+      "adj_int_fin_prs_infm": "많아",
+      "adj_ptcp_nfin_prs": "많은",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "말하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "말하다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "말해",
+      "v_decl_fin_prs_infm": "말해",
+      "v_imp_fin_1_pl_infm": "말해",
+      "v_imp_fin_2_infm": "말해",
+      "v_int_fin_prs_infm": "말해"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "맞다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "맞다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "맞아",
+      "v_decl_fin_prs_infm": "맞아",
+      "v_imp_fin_1_pl_infm": "맞아",
+      "v_imp_fin_2_infm": "맞아",
+      "v_int_fin_prs_infm": "맞아"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "먹다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "먹다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "먹을"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "멀다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "멀다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "머니",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "모르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "모르다",
+    "inflections": {
+      "form": "몰라",
+      "regulars": [],
+      "v_decl_fin_prs_infm": "몰라",
+      "v_imp_fin_1_pl_infm": "몰라",
+      "v_int_fin_prs_infm": "몰라"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "못하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "못하다",
+    "inflections": {
+      "form": "못해",
+      "regulars": [],
+      "v_decl_fin_prs_infm": "못해",
+      "v_imp_fin_1_pl_infm": "못해",
+      "v_int_fin_prs_infm": "못해"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "믿다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "믿다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "믿어",
+      "v_decl_fin_prs_infm": "믿어",
+      "v_imp_fin_1_pl_infm": "믿어",
+      "v_imp_fin_2_infm": "믿어",
+      "v_int_fin_prs_infm": "믿어"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "버리다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "버리다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "버려",
+      "v_decl_fin_prs_infm": "버려",
+      "v_imp_fin_1_pl_infm": "버려",
+      "v_imp_fin_2_infm": "버려",
+      "v_int_fin_prs_infm": "버려"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "보내다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "보내다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "보내",
+      "v_decl_fin_prs_infm": "보내",
+      "v_imp_fin_1_pl_infm": "보내",
+      "v_imp_fin_2_infm": "보내",
+      "v_int_fin_prs_infm": "보내"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "보다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "보다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin": "보지만",
+      "v_cvb_nfin_2": "보는데",
+      "v_cvb_nfin_3": "보더니",
+      "v_cvb_nfin_caus": "봐",
+      "v_cvb_nfin_caus_2": "봐서",
+      "v_cvb_nfin_caus_3": "보아서",
+      "v_cvb_nfin_caus_4": "보니",
+      "v_cvb_nfin_caus_5": "보니까",
+      "v_cvb_nfin_caus_elev": "보셔",
+      "v_cvb_nfin_caus_elev_2": "보셔서",
+      "v_cvb_nfin_caus_elev_3": "보시니",
+      "v_cvb_nfin_caus_elev_4": "보시니까",
+      "v_cvb_nfin_cond": "보면",
+      "v_cvb_nfin_cond_2": "봐야",
+      "v_cvb_nfin_cond_3": "보아야",
+      "v_cvb_nfin_cond_elev": "보시면",
+      "v_cvb_nfin_cond_elev_2": "보셔야",
+      "v_cvb_nfin_conj": "보고",
+      "v_cvb_nfin_conj_elev": "보시고",
+      "v_cvb_nfin_elev": "보시지만",
+      "v_cvb_nfin_elev_2": "보시는데",
+      "v_cvb_nfin_elev_3": "보시더니",
+      "v_cvb_nfin_purp": "보려고",
+      "v_cvb_nfin_purp_elev": "보시려고",
+      "v_decl_fin_fut_form": "보겠다",
+      "v_decl_fin_fut_form_elev": "보시겠다",
+      "v_decl_fin_fut_form_pol": "보겠습니다",
+      "v_decl_fin_fut_form_pol_elev": "보시겠습니다",
+      "v_decl_fin_fut_infm": "보겠어",
+      "v_decl_fin_fut_infm_elev": "보시겠어",
+      "v_decl_fin_fut_infm_pol": "보겠어요",
+      "v_decl_fin_fut_infm_pol_elev": "보시겠어요",
+      "v_decl_fin_prs_form": "본다",
+      "v_decl_fin_prs_form_elev": "보신다",
+      "v_decl_fin_prs_form_pol": "봅니다",
+      "v_decl_fin_prs_form_pol_elev": "보십니다",
+      "v_decl_fin_prs_infm": "봐",
+      "v_decl_fin_prs_infm_elev": "보셔",
+      "v_decl_fin_prs_infm_pol": "봐요",
+      "v_decl_fin_prs_infm_pol_2": "보아요",
+      "v_decl_fin_prs_infm_pol_elev": "보세요",
+      "v_decl_fin_prs_infm_pol_elev_2": "보셔요",
+      "v_decl_fin_pst_form": "봤다",
+      "v_decl_fin_pst_form_elev": "보셨다",
+      "v_decl_fin_pst_form_pol": "봤습니다",
+      "v_decl_fin_pst_form_pol_elev": "보셨습니다",
+      "v_decl_fin_pst_infm": "봤어",
+      "v_decl_fin_pst_infm_elev": "보셨어",
+      "v_decl_fin_pst_infm_pol": "봤어요",
+      "v_decl_fin_pst_infm_pol_elev": "보셨어요",
+      "v_imp_fin_1_pl_form": "보자",
+      "v_imp_fin_1_pl_form_pol": "봅시다",
+      "v_imp_fin_1_pl_infm": "봐",
+      "v_imp_fin_1_pl_infm_pol": "봐요",
+      "v_imp_fin_1_pl_infm_pol_2": "보아요",
+      "v_imp_fin_2_form": "봐라",
+      "v_imp_fin_2_form_2": "보아라",
+      "v_imp_fin_2_form_elev": "보시라",
+      "v_imp_fin_2_form_pol": "봅시오",
+      "v_imp_fin_2_form_pol_elev": "보십시오",
+      "v_imp_fin_2_infm": "봐",
+      "v_imp_fin_2_infm_elev": "보셔",
+      "v_imp_fin_2_infm_pol": "봐요",
+      "v_imp_fin_2_infm_pol_2": "보아요",
+      "v_imp_fin_2_infm_pol_elev": "보세요",
+      "v_int_fin_prs_form": "보느냐",
+      "v_int_fin_prs_form_elev": "보시느냐",
+      "v_int_fin_prs_form_pol": "봅니까",
+      "v_int_fin_prs_form_pol_elev": "보십니까",
+      "v_int_fin_prs_infm": "봐",
+      "v_int_fin_prs_infm_elev": "보셔",
+      "v_int_fin_prs_infm_pol": "봐요",
+      "v_int_fin_prs_infm_pol_2": "보아요",
+      "v_int_fin_prs_infm_pol_elev": "보세요",
+      "v_int_fin_prs_infm_pol_elev_2": "보셔요",
+      "v_int_fin_pst_form": "봤느냐",
+      "v_int_fin_pst_form_elev": "보셨느냐",
+      "v_int_fin_pst_form_pol": "봤습니까",
+      "v_int_fin_pst_form_pol_elev": "보셨습니까",
+      "v_int_fin_pst_infm": "봤어",
+      "v_int_fin_pst_infm_elev": "보셨어",
+      "v_int_fin_pst_infm_pol": "봤어요",
+      "v_int_fin_pst_infm_pol_elev": "보셨어요",
+      "v_msdr_prs": "봄",
+      "v_msdr_prs_2": "보기",
+      "v_msdr_prs_elev": "보심",
+      "v_msdr_prs_elev_2": "보시기",
+      "v_msdr_pst": "봤음",
+      "v_msdr_pst_2": "보았음",
+      "v_msdr_pst_3": "봤기",
+      "v_msdr_pst_4": "보았기",
+      "v_msdr_pst_elev": "보셨음",
+      "v_msdr_pst_elev_2": "보셨기",
+      "v_ptcp_fut": "볼",
+      "v_ptcp_fut_elev": "보실",
+      "v_ptcp_prs": "보는",
+      "v_ptcp_prs_elev": "보시는",
+      "v_ptcp_pst": "본",
+      "v_ptcp_pst_elev": "보신"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "보이다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "보이다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "보여",
+      "v_decl_fin_prs_infm": "보여",
+      "v_imp_fin_1_pl_infm": "보여",
+      "v_imp_fin_2_infm": "보여",
+      "v_int_fin_prs_infm": "보여"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "사다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "사다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut_elev": "사실"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "살다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "살다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut_elev": "사실"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "숨다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "숨다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "숨을"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "신다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "신다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "신을",
+      "v_ptcp_pst": "신은"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "싣다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "싣다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "실을",
+      "v_ptcp_pst": "실은"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "싫다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "싫다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "싫어",
+      "adj_decl_fin_prs_infm": "싫어",
+      "adj_int_fin_prs_infm": "싫어",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "심하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "심하다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "심해",
+      "adj_decl_fin_prs_infm": "심해",
+      "adj_int_fin_prs_infm": "심해",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "싶다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "싶다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "싶어",
+      "adj_decl_fin_prs_infm": "싶어",
+      "adj_int_fin_prs_infm": "싶어",
+      "adj_ptcp_nfin_prs": "싶은",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "아기": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "아기",
+    "inflections": {
+      "n_voc": "아가",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "안되다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "안되다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "안돼",
+      "adj_decl_fin_prs_infm": "안돼",
+      "adj_int_fin_prs_infm": "안돼",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "앉다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "앉다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "앉아",
+      "v_decl_fin_prs_infm": "앉아",
+      "v_imp_fin_1_pl_infm": "앉아",
+      "v_imp_fin_2_infm": "앉아",
+      "v_int_fin_prs_infm": "앉아"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "알다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "알다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "알아",
+      "v_cvb_nfin_caus_2": "아니",
+      "v_cvb_nfin_conj": "알고",
+      "v_decl_fin_prs_infm": "알아",
+      "v_imp_fin_1_pl_infm": "알아",
+      "v_imp_fin_2_infm": "알아",
+      "v_int_fin_prs_infm": "알아",
+      "v_ptcp_prs": "아는"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "어떻다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "어떻다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "어때",
+      "adj_decl_fin_prs_infm": "어때",
+      "adj_int_fin_prs_infm": "어때",
+      "adj_ptcp_nfin_prs": "어떤",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "없다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "없다",
+    "inflections": {
+      "adj_cvb_nfin": "없지만",
+      "adj_cvb_nfin_2": "없는데",
+      "adj_cvb_nfin_3": "없더니",
+      "adj_cvb_nfin_caus": "없어",
+      "adj_cvb_nfin_caus_2": "없어서",
+      "adj_cvb_nfin_caus_3": "없으니",
+      "adj_cvb_nfin_caus_4": "없으니까",
+      "adj_cvb_nfin_caus_elev": "없으셔",
+      "adj_cvb_nfin_caus_elev_2": "없으셔서",
+      "adj_cvb_nfin_caus_elev_3": "없으시니",
+      "adj_cvb_nfin_caus_elev_4": "없으시니까",
+      "adj_cvb_nfin_cond": "없으면",
+      "adj_cvb_nfin_cond_2": "없어야",
+      "adj_cvb_nfin_cond_elev": "없으시면",
+      "adj_cvb_nfin_cond_elev_2": "없으셔야",
+      "adj_cvb_nfin_conj": "없고",
+      "adj_cvb_nfin_conj_elev": "없으시고",
+      "adj_cvb_nfin_elev": "없으시지만",
+      "adj_cvb_nfin_elev_2": "없으신데",
+      "adj_cvb_nfin_elev_3": "없으시더니",
+      "adj_decl_fin_fut_form": "없겠다",
+      "adj_decl_fin_fut_form_elev": "없으시겠다",
+      "adj_decl_fin_fut_form_pol": "없겠습니다",
+      "adj_decl_fin_fut_form_pol_elev": "없으시겠습니다",
+      "adj_decl_fin_fut_infm": "없겠어",
+      "adj_decl_fin_fut_infm_pol": "없겠어요",
+      "adj_decl_fin_prs_form": "없다",
+      "adj_decl_fin_prs_form_elev": "없으시다",
+      "adj_decl_fin_prs_form_pol": "없습니다",
+      "adj_decl_fin_prs_form_pol_elev": "없으십니다",
+      "adj_decl_fin_prs_infm": "없어",
+      "adj_decl_fin_prs_infm_pol": "없어요",
+      "adj_decl_fin_pst_form": "없었다",
+      "adj_decl_fin_pst_form_elev": "없으셨다",
+      "adj_decl_fin_pst_form_pol": "없었습니다",
+      "adj_decl_fin_pst_form_pol_elev": "없으셨습니다",
+      "adj_decl_fin_pst_infm": "없었어",
+      "adj_decl_fin_pst_infm_pol": "없었어요",
+      "adj_fin_fut_infm_elev": "없으시겠어",
+      "adj_fin_fut_infm_pol_elev": "없으시겠어요",
+      "adj_fin_prs_infm_elev": "없으셔",
+      "adj_fin_prs_infm_pol_elev": "없으세요",
+      "adj_fin_prs_infm_pol_elev_2": "없으셔요",
+      "adj_fin_pst_infm_elev": "없으셨어",
+      "adj_fin_pst_infm_pol_elev": "없으셨어요",
+      "adj_int_fin_prs_form": "없느냐",
+      "adj_int_fin_prs_form_elev": "없으시냐",
+      "adj_int_fin_prs_form_pol": "없습니까",
+      "adj_int_fin_prs_form_pol_elev": "없으십니까",
+      "adj_int_fin_prs_infm": "없어",
+      "adj_int_fin_prs_infm_pol": "없어요",
+      "adj_int_fin_pst_form": "없었느냐",
+      "adj_int_fin_pst_form_elev": "없으셨냐",
+      "adj_int_fin_pst_form_pol": "없었습니까",
+      "adj_int_fin_pst_form_pol_elev": "없으셨습니까",
+      "adj_int_fin_pst_infm": "없었어",
+      "adj_int_fin_pst_infm_pol": "없었어요",
+      "adj_msdr_nfin_prs": "없음",
+      "adj_msdr_nfin_prs_2": "없기",
+      "adj_msdr_nfin_prs_elev": "없으심",
+      "adj_msdr_nfin_prs_elev_2": "없으시기",
+      "adj_msdr_nfin_pst": "없었음",
+      "adj_msdr_nfin_pst_2": "없었기",
+      "adj_msdr_nfin_pst_elev": "없으셨음",
+      "adj_msdr_nfin_pst_elev_2": "없으셨기",
+      "adj_ptcp_nfin_fut": "없을",
+      "adj_ptcp_nfin_fut_elev": "없으실",
+      "adj_ptcp_nfin_prs": "없는",
+      "adj_ptcp_nfin_prs_elev": "없으신",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "여기다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "여기다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "여긴"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "오다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "오다",
+    "inflections": {
+      "regulars": [],
+      "v_decl_fin_pst_infm": "왔어",
+      "v_int_fin_pst_infm": "왔어",
+      "v_ptcp_prs": "오는"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "오래다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "오래다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "오래",
+      "adj_decl_fin_prs_infm": "오래",
+      "adj_int_fin_prs_infm": "오래",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "요하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "요하다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "요해",
+      "v_decl_fin_prs_infm": "요해",
+      "v_imp_fin_1_pl_infm": "요해",
+      "v_imp_fin_2_infm": "요해",
+      "v_int_fin_prs_infm": "요해",
+      "v_ptcp_pst": "요한"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "위하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "위하다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "위해",
+      "v_decl_fin_prs_infm": "위해",
+      "v_imp_fin_1_pl_infm": "위해",
+      "v_imp_fin_2_infm": "위해",
+      "v_int_fin_prs_infm": "위해"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "이다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "이다",
+    "inflections": {
+      "adj_cvb_nfin": "이지만",
+      "adj_cvb_nfin_2": "인데",
+      "adj_cvb_nfin_3": "이더니",
+      "adj_cvb_nfin_caus": "이에",
+      "adj_cvb_nfin_caus_2": "이어서",
+      "adj_cvb_nfin_caus_3": "이니",
+      "adj_cvb_nfin_caus_4": "이니까",
+      "adj_cvb_nfin_caus_elev": "이셔",
+      "adj_cvb_nfin_caus_elev_2": "이셔서",
+      "adj_cvb_nfin_caus_elev_3": "이시니",
+      "adj_cvb_nfin_caus_elev_4": "이시니까",
+      "adj_cvb_nfin_cond": "이면",
+      "adj_cvb_nfin_cond_2": "이어야",
+      "adj_cvb_nfin_cond_elev": "이시면",
+      "adj_cvb_nfin_cond_elev_2": "이셔야",
+      "adj_cvb_nfin_conj": "이고",
+      "adj_cvb_nfin_conj_elev": "이시고",
+      "adj_cvb_nfin_elev": "이시지만",
+      "adj_cvb_nfin_elev_2": "이신데",
+      "adj_cvb_nfin_elev_3": "이시더니",
+      "adj_decl_fin_fut_form": "이겠다",
+      "adj_decl_fin_fut_form_elev": "이시겠다",
+      "adj_decl_fin_fut_form_pol": "이겠습니다",
+      "adj_decl_fin_fut_form_pol_elev": "이시겠습니다",
+      "adj_decl_fin_fut_infm": "이겠어",
+      "adj_decl_fin_fut_infm_pol": "이겠어요",
+      "adj_decl_fin_prs_form": "이다",
+      "adj_decl_fin_prs_form_elev": "이시다",
+      "adj_decl_fin_prs_form_pol": "입니다",
+      "adj_decl_fin_prs_form_pol_elev": "이십니다",
+      "adj_decl_fin_prs_infm": "이야",
+      "adj_decl_fin_prs_infm_pol": "이에요",
+      "adj_decl_fin_prs_infm_pol_2": "예요",
+      "adj_decl_fin_pst_form": "이었다",
+      "adj_decl_fin_pst_form_2": "였다",
+      "adj_decl_fin_pst_form_elev": "이셨다",
+      "adj_decl_fin_pst_form_pol": "이었습니다",
+      "adj_decl_fin_pst_form_pol_2": "였습니다",
+      "adj_decl_fin_pst_form_pol_elev": "이셨습니다",
+      "adj_decl_fin_pst_infm": "이었어",
+      "adj_decl_fin_pst_infm_2": "였어",
+      "adj_decl_fin_pst_infm_pol": "이었어요",
+      "adj_decl_fin_pst_infm_pol_2": "였어요",
+      "adj_fin_fut_infm_elev": "이시겠어",
+      "adj_fin_fut_infm_pol_elev": "이시겠어요",
+      "adj_fin_prs_infm_elev": "이셔",
+      "adj_fin_prs_infm_pol_elev": "이세요",
+      "adj_fin_prs_infm_pol_elev_2": "이셔요",
+      "adj_fin_pst_infm_elev": "이셨어",
+      "adj_fin_pst_infm_pol_elev": "이셨어요",
+      "adj_int_fin_prs_form": "이냐",
+      "adj_int_fin_prs_form_elev": "이시냐",
+      "adj_int_fin_prs_form_pol": "입니까",
+      "adj_int_fin_prs_form_pol_elev": "이십니까",
+      "adj_int_fin_prs_infm": "이야",
+      "adj_int_fin_prs_infm_pol": "이에요",
+      "adj_int_fin_prs_infm_pol_2": "예요",
+      "adj_int_fin_pst_form": "이었느냐",
+      "adj_int_fin_pst_form_2": "였느냐",
+      "adj_int_fin_pst_form_elev": "이셨냐",
+      "adj_int_fin_pst_form_pol": "이었습니까",
+      "adj_int_fin_pst_form_pol_2": "였습니까",
+      "adj_int_fin_pst_form_pol_elev": "이셨습니까",
+      "adj_int_fin_pst_infm": "이었어",
+      "adj_int_fin_pst_infm_2": "였어",
+      "adj_int_fin_pst_infm_pol": "이었어요",
+      "adj_int_fin_pst_infm_pol_2": "였어요",
+      "adj_msdr_nfin_prs": "임",
+      "adj_msdr_nfin_prs_2": "이기",
+      "adj_msdr_nfin_prs_elev": "이심",
+      "adj_msdr_nfin_prs_elev_2": "이시기",
+      "adj_msdr_nfin_pst": "이었음",
+      "adj_msdr_nfin_pst_2": "였음",
+      "adj_msdr_nfin_pst_3": "이었기",
+      "adj_msdr_nfin_pst_4": "였기",
+      "adj_msdr_nfin_pst_elev": "이셨음",
+      "adj_msdr_nfin_pst_elev_2": "이셨기",
+      "adj_ptcp_nfin_fut": "일",
+      "adj_ptcp_nfin_fut_elev": "이실",
+      "adj_ptcp_nfin_prs": "인",
+      "adj_ptcp_nfin_prs_elev": "이신",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "이러다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "이러다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "이런"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "잇다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "잇다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "이어",
+      "v_decl_fin_prs_infm": "이어",
+      "v_imp_fin_1_pl_infm": "이어",
+      "v_imp_fin_2_infm": "이어",
+      "v_int_fin_prs_infm": "이어"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "있다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "있다",
+    "inflections": {
+      "adj_cvb_nfin": "있지만",
+      "adj_cvb_nfin_2": "있는데",
+      "adj_cvb_nfin_3": "있더니",
+      "adj_cvb_nfin_caus": "있어",
+      "adj_cvb_nfin_caus_2": "있어서",
+      "adj_cvb_nfin_caus_3": "있으니",
+      "adj_cvb_nfin_caus_4": "있으니까",
+      "adj_cvb_nfin_cond": "있으면",
+      "adj_cvb_nfin_cond_2": "있어야",
+      "adj_cvb_nfin_conj": "있고",
+      "adj_decl_fin_fut_form": "있겠다",
+      "adj_decl_fin_fut_form_pol": "있겠습니다",
+      "adj_decl_fin_fut_infm": "있겠어",
+      "adj_decl_fin_fut_infm_pol": "있겠어요",
+      "adj_decl_fin_prs_form": "있다",
+      "adj_decl_fin_prs_form_pol": "있습니다",
+      "adj_decl_fin_prs_infm": "있어",
+      "adj_decl_fin_prs_infm_pol": "있어요",
+      "adj_decl_fin_pst_form": "있었다",
+      "adj_decl_fin_pst_form_pol": "있었습니다",
+      "adj_decl_fin_pst_infm": "있었어",
+      "adj_decl_fin_pst_infm_pol": "있었어요",
+      "adj_int_fin_prs_form": "있느냐",
+      "adj_int_fin_prs_form_pol": "있습니까",
+      "adj_int_fin_prs_infm": "있어",
+      "adj_int_fin_prs_infm_pol": "있어요",
+      "adj_int_fin_pst_form": "있었느냐",
+      "adj_int_fin_pst_form_pol": "있었습니까",
+      "adj_int_fin_pst_infm": "있었어",
+      "adj_int_fin_pst_infm_pol": "있었어요",
+      "adj_msdr_nfin_prs": "있음",
+      "adj_msdr_nfin_prs_2": "있기",
+      "adj_msdr_nfin_pst": "있었음",
+      "adj_msdr_nfin_pst_2": "있었기",
+      "adj_ptcp_nfin_fut": "있을",
+      "adj_ptcp_nfin_prs": "있는",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "자다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "자다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_conj": "자고",
+      "v_msdr_prs": "자기",
+      "v_ptcp_prs": "자는"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "자르다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "자르다",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_fut": "자를"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "자시다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "자시다",
+    "inflections": {
+      "regulars": [],
+      "v_msdr_pst": "자신"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "잘다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "잘다",
+    "inflections": {
+      "adj_ptcp_nfin_prs_elev": "자신",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "졸다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "졸다",
+    "inflections": {
+      "regulars": [],
+      "v_msdr_prs_elev": "조심"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "좋다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "좋다",
+    "inflections": {
+      "adj_cvb_nfin_caus": "좋아",
+      "adj_decl_fin_prs_infm": "좋아",
+      "adj_int_fin_prs_infm": "좋아",
+      "adj_ptcp_nfin_prs": "좋은",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective",
+      "word"
+    ]
+  },
+  "주다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "주다",
+    "inflections": {
+      "regulars": [],
+      "v_decl_fin_prs_infm_pol": "줘요",
+      "v_imp_fin_1_pl_infm_pol": "줘요",
+      "v_imp_fin_2_infm_pol": "줘요",
+      "v_int_fin_prs_infm_pol": "줘요"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "지나다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "지나다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "지나",
+      "v_decl_fin_prs_infm": "지나",
+      "v_imp_fin_1_pl_infm": "지나",
+      "v_imp_fin_2_infm": "지나",
+      "v_int_fin_prs_infm": "지나"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "짓다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "짓다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "지어",
+      "v_decl_fin_prs_infm": "지어",
+      "v_imp_fin_1_pl_infm": "지어",
+      "v_imp_fin_2_infm": "지어",
+      "v_int_fin_prs_infm": "지어"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "찾다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "찾다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "찾아",
+      "v_decl_fin_prs_infm": "찾아",
+      "v_imp_fin_1_pl_infm": "찾아",
+      "v_imp_fin_2_infm": "찾아",
+      "v_int_fin_prs_infm": "찾아"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "하다": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "하다",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_nfin_caus": "해서",
+      "v_cvb_nfin_cond": "하면",
+      "v_cvb_nfin_cond_2": "해야",
+      "v_cvb_nfin_conj": "하고",
+      "v_decl_fin_prs_form": "한다",
+      "v_decl_fin_prs_infm_pol": "해요",
+      "v_decl_fin_pst_form": "했다",
+      "v_decl_fin_pst_infm": "했어",
+      "v_imp_fin_1_pl_form": "하자",
+      "v_imp_fin_1_pl_infm_pol": "해요",
+      "v_imp_fin_2_infm_pol": "해요",
+      "v_int_fin_prs_infm_pol": "해요",
+      "v_int_fin_pst_infm": "했어",
+      "v_ptcp_prs": "하는"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  }
+}

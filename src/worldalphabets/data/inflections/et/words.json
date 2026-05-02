@@ -1,0 +1,4022 @@
+{
+  "_locale": "et",
+  "_type": "words",
+  "_version": "0.1",
+  "aasta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aasta",
+    "inflections": {
+      "n_acc_pl": "aastad",
+      "n_acc_sg": "aasta",
+      "n_at_abl_pl": "aastatelt",
+      "n_at_abl_sg": "aastalt",
+      "n_at_all_pl": "aastatele",
+      "n_at_all_sg": "aastale",
+      "n_at_ess_pl": "aastatel",
+      "n_at_ess_sg": "aastal",
+      "n_com_pl": "aastatega",
+      "n_com_sg": "aastaga",
+      "n_frml_pl": "aastatena",
+      "n_frml_sg": "aastana",
+      "n_gen_pl": "aastate",
+      "n_gen_sg": "aasta",
+      "n_in_abl_pl": "aastatest",
+      "n_in_abl_sg": "aastast",
+      "n_in_all_pl": "aastatesse",
+      "n_in_all_sg": "aastasse",
+      "n_in_ess_pl": "aastates",
+      "n_in_ess_sg": "aastas",
+      "n_nom_pl": "aastad",
+      "n_nom_sg": "aasta",
+      "n_priv_pl": "aastateta",
+      "n_priv_sg": "aastata",
+      "n_prt_pl": "aastaid",
+      "n_prt_sg": "aastat",
+      "n_term_pl": "aastateni",
+      "n_term_sg": "aastani",
+      "n_trans_pl": "aastateks",
+      "n_trans_sg": "aastaks",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "abi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "abi",
+    "inflections": {
+      "n_acc_pl": "abid",
+      "n_acc_sg": "abi",
+      "n_at_abl_pl": "abidelt",
+      "n_at_abl_sg": "abilt",
+      "n_at_all_pl": "abidele",
+      "n_at_all_sg": "abile",
+      "n_at_ess_pl": "abidel",
+      "n_at_ess_sg": "abil",
+      "n_com_pl": "abidega",
+      "n_com_sg": "abiga",
+      "n_frml_pl": "abidena",
+      "n_frml_sg": "abina",
+      "n_gen_pl": "abide",
+      "n_gen_sg": "abi",
+      "n_in_abl_pl": "abidest",
+      "n_in_abl_sg": "abist",
+      "n_in_all_pl": "abidesse",
+      "n_in_all_sg": "appiabisse",
+      "n_in_ess_pl": "abides",
+      "n_in_ess_sg": "abis",
+      "n_nom_pl": "abid",
+      "n_nom_sg": "abi",
+      "n_priv_pl": "abideta",
+      "n_priv_sg": "abita",
+      "n_prt_pl": "abisid",
+      "n_prt_sg": "abi",
+      "n_term_pl": "abideni",
+      "n_term_sg": "abini",
+      "n_trans_pl": "abideks",
+      "n_trans_sg": "abiks",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "aitama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aitama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "aidake",
+      "v_act_prs_pos_imp_2_sg": "aita",
+      "v_act_prs_pos_ind_3_sg": "aitab"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ajama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ajama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_cond_3_sg": "ajaks",
+      "v_act_prs_pos_imp_2_sg": "aja",
+      "v_act_prs_pos_ind_2_sg": "ajad"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "algama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "algama",
+    "inflections": {
+      "regulars": [],
+      "v_pass_pst_pos_ind": "alati"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "andma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "andma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "andke",
+      "v_act_prs_pos_imp_2_sg": "anna",
+      "v_act_prs_pos_ind_1_sg": "annan",
+      "v_act_prs_pos_ind_3_sg": "annab",
+      "v_act_pst_pos_ind_3_sg": "andis"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "armastama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "armastama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "armastan"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "arvama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "arvama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "arva",
+      "v_act_prs_pos_ind_1_sg": "arvan",
+      "v_act_prs_pos_ind_2_pl": "arvate",
+      "v_act_prs_pos_ind_2_sg": "arvad",
+      "v_act_prs_pos_ind_3_sg": "arvab",
+      "v_act_pst_pos_ind_1_sg": "arvasin"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ase": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ase",
+    "inflections": {
+      "n_at_ess_sg": "asemel",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "doktor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doktor",
+    "inflections": {
+      "n_acc_pl": "doktorid",
+      "n_acc_sg": "doktori",
+      "n_at_abl_pl": "doktoritelt",
+      "n_at_abl_sg": "doktorilt",
+      "n_at_all_pl": "doktoritele",
+      "n_at_all_sg": "doktorile",
+      "n_at_ess_pl": "doktoritel",
+      "n_at_ess_sg": "doktoril",
+      "n_com_pl": "doktoritega",
+      "n_com_sg": "doktoriga",
+      "n_frml_pl": "doktoritena",
+      "n_frml_sg": "doktorina",
+      "n_gen_pl": "doktorite",
+      "n_gen_sg": "doktori",
+      "n_in_abl_pl": "doktoritest",
+      "n_in_abl_sg": "doktorist",
+      "n_in_all_pl": "doktoritesse",
+      "n_in_all_sg": "doktorisse",
+      "n_in_ess_pl": "doktorites",
+      "n_in_ess_sg": "doktoris",
+      "n_nom_pl": "doktorid",
+      "n_nom_sg": "doktor",
+      "n_priv_pl": "doktoriteta",
+      "n_priv_sg": "doktorita",
+      "n_prt_pl": "doktoreid",
+      "n_prt_sg": "doktorit",
+      "n_term_pl": "doktoriteni",
+      "n_term_sg": "doktorini",
+      "n_trans_pl": "doktoriteks",
+      "n_trans_sg": "doktoriks",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "elama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "elama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_3_sg": "elab"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "elu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "elu",
+    "inflections": {
+      "n_acc_pl": "elud",
+      "n_acc_sg": "elu",
+      "n_at_abl_pl": "eludelt",
+      "n_at_abl_sg": "elult",
+      "n_at_all_pl": "eludele",
+      "n_at_all_sg": "elule",
+      "n_at_ess_pl": "eludel",
+      "n_at_ess_sg": "elul",
+      "n_com_pl": "eludega",
+      "n_com_sg": "eluga",
+      "n_frml_pl": "eludena",
+      "n_frml_sg": "eluna",
+      "n_gen_pl": "elude",
+      "n_gen_sg": "elu",
+      "n_in_abl_pl": "eludest",
+      "n_in_abl_sg": "elust",
+      "n_in_all_pl": "eludesse",
+      "n_in_all_sg": "elluelusse",
+      "n_in_ess_pl": "eludes",
+      "n_in_ess_sg": "elus",
+      "n_nom_pl": "elud",
+      "n_nom_sg": "elu",
+      "n_priv_pl": "eludeta",
+      "n_priv_sg": "eluta",
+      "n_prt_pl": "elusid",
+      "n_prt_sg": "elu",
+      "n_term_pl": "eludeni",
+      "n_term_sg": "eluni",
+      "n_trans_pl": "eludeks",
+      "n_trans_sg": "eluks",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "hakkama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hakkama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem hakakem",
+      "v_act_prs_neg_imp_2_pl": "ärge hakake",
+      "v_act_prs_neg_imp_2_sg": "ära hakka",
+      "v_act_prs_neg_imp_3_pl": "ärgu hakaku",
+      "v_act_prs_neg_imp_3_sg": "ärgu hakaku",
+      "v_act_prs_neg_ind": "ei hakka",
+      "v_act_prs_neg_quot": "ei hakkavat",
+      "v_act_prs_pos_cond_1_pl": "hakkaksime",
+      "v_act_prs_pos_cond_1_sg": "hakkaksin",
+      "v_act_prs_pos_cond_2_pl": "hakkaksite",
+      "v_act_prs_pos_cond_2_sg": "hakkaksid",
+      "v_act_prs_pos_cond_3_pl": "hakkaksid",
+      "v_act_prs_pos_cond_3_sg": "hakkaks",
+      "v_act_prs_pos_imp_1_pl": "hakakem",
+      "v_act_prs_pos_imp_2_pl": "hakake",
+      "v_act_prs_pos_imp_2_sg": "hakka",
+      "v_act_prs_pos_imp_3_pl": "hakaku",
+      "v_act_prs_pos_imp_3_sg": "hakaku",
+      "v_act_prs_pos_ind_1_pl": "hakkame",
+      "v_act_prs_pos_ind_1_sg": "hakkan",
+      "v_act_prs_pos_ind_2_pl": "hakkate",
+      "v_act_prs_pos_ind_2_sg": "hakkad",
+      "v_act_prs_pos_ind_3_pl": "hakkavad",
+      "v_act_prs_pos_ind_3_sg": "hakkab",
+      "v_act_prs_pos_quot": "hakkavat",
+      "v_act_prs_prf_neg_cond": "ei oleks hakanud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu hakanud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu hakanud",
+      "v_act_prs_prf_neg_quot": "ei olevat hakanud",
+      "v_act_prs_prf_pos_cond": "oleksin hakanud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime hakanud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime hakanud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei hakkaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin hakanud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite hakanud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite hakanud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid hakanud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid hakanud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli hakanud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid hakanud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks hakanud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli hakanud",
+      "v_act_prs_prf_pos_imp_pl": "olgu hakanud",
+      "v_act_prs_prf_pos_imp_sg": "olgu hakanud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme hakanud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen hakanud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete hakanud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled hakanud",
+      "v_act_prs_prf_pos_ind_3_pl": "on hakanud",
+      "v_act_prs_prf_pos_ind_3_sg": "on hakanud",
+      "v_act_prs_prf_pos_quot": "olevat hakanud",
+      "v_act_pst_neg_ind": "ei hakanud",
+      "v_act_pst_neg_ind_2": "ei ole hakanud",
+      "v_act_pst_pos_ind_1_pl": "hakkasime",
+      "v_act_pst_pos_ind_1_sg": "hakkasin",
+      "v_act_pst_pos_ind_2_pl": "hakkasite",
+      "v_act_pst_pos_ind_2_sg": "hakkasid",
+      "v_act_pst_pos_ind_3_pl": "hakkasid",
+      "v_act_pst_pos_ind_3_sg": "hakkas",
+      "v_act_pst_prf_neg_ind": "ei olnud hakanud",
+      "v_nfin": "hakkama",
+      "v_pass_prs_neg_cond": "ei hakataks",
+      "v_pass_prs_neg_imp": "ärgu hakatagu",
+      "v_pass_prs_neg_ind": "ei hakata",
+      "v_pass_prs_neg_quot": "ei hakatavat",
+      "v_pass_prs_pos_cond": "hakataks",
+      "v_pass_prs_pos_imp": "hakatagu",
+      "v_pass_prs_pos_ind": "hakatakse",
+      "v_pass_prs_pos_quot": "hakatavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks hakatud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu hakatud",
+      "v_pass_prs_prf_neg_ind": "ei ole hakatud",
+      "v_pass_prs_prf_neg_quot": "ei olevat hakatud",
+      "v_pass_prs_prf_pos_cond": "oleks hakatud",
+      "v_pass_prs_prf_pos_imp": "olgu hakatud",
+      "v_pass_prs_prf_pos_ind": "on hakatud",
+      "v_pass_prs_prf_pos_quot": "olevat hakatud",
+      "v_pass_pst_neg_ind": "ei hakatud",
+      "v_pass_pst_pos_ind": "hakati",
+      "v_pass_pst_prf_neg_ind": "ei olnud hakatud",
+      "v_pass_pst_prf_pos_ind": "oli hakatud",
+      "v_ptcp_act_prs": "hakkav",
+      "v_ptcp_act_pst": "hakanud",
+      "v_ptcp_pass_prs": "hakatav",
+      "v_ptcp_pass_pst": "hakatud"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "helistama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "helistama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "helista",
+      "v_act_prs_pos_ind_1_sg": "helistan"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "hoidma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hoidma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "hoidke",
+      "v_act_prs_pos_imp_2_sg": "hoia"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "hommik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hommik",
+    "inflections": {
+      "n_at_ess_sg": "hommikul",
+      "n_in_abl_sg": "hommikust",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "idee": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "idee",
+    "inflections": {
+      "n_acc_pl": "ideed",
+      "n_acc_sg": "idee",
+      "n_at_abl_pl": "ideedelt",
+      "n_at_abl_sg": "ideelt",
+      "n_at_all_pl": "ideedele",
+      "n_at_all_sg": "ideele",
+      "n_at_ess_pl": "ideedel",
+      "n_at_ess_sg": "ideel",
+      "n_com_pl": "ideedega",
+      "n_com_sg": "ideega",
+      "n_frml_pl": "ideedena",
+      "n_frml_sg": "ideena",
+      "n_gen_pl": "ideede",
+      "n_gen_sg": "idee",
+      "n_in_abl_pl": "ideedest",
+      "n_in_abl_sg": "ideest",
+      "n_in_all_pl": "ideedesse",
+      "n_in_all_sg": "ideesse",
+      "n_in_ess_pl": "ideedes",
+      "n_in_ess_sg": "idees",
+      "n_nom_pl": "ideed",
+      "n_nom_sg": "idee",
+      "n_priv_pl": "ideedeta",
+      "n_priv_sg": "ideeta",
+      "n_prt_pl": "ideid",
+      "n_prt_sg": "ideed",
+      "n_term_pl": "ideedeni",
+      "n_term_sg": "ideeni",
+      "n_trans_pl": "ideedeks",
+      "n_trans_sg": "ideeks",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ilu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ilu",
+    "inflections": {
+      "n_in_ess_sg": "ilus",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "inimene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "inimene",
+    "inflections": {
+      "n_acc_pl": "inimesed",
+      "n_acc_sg": "inimese",
+      "n_at_abl_pl": "inimestelt",
+      "n_at_abl_sg": "inimeselt",
+      "n_at_all_pl": "inimestele",
+      "n_at_all_sg": "inimesele",
+      "n_at_ess_pl": "inimestel",
+      "n_at_ess_sg": "inimesel",
+      "n_com_pl": "inimestega",
+      "n_com_sg": "inimesega",
+      "n_frml_pl": "inimestena",
+      "n_frml_sg": "inimesena",
+      "n_gen_pl": "inimeste",
+      "n_gen_sg": "inimese",
+      "n_in_abl_pl": "inimestest",
+      "n_in_abl_sg": "inimesest",
+      "n_in_all_pl": "inimestesse",
+      "n_in_all_sg": "inimesse",
+      "n_in_ess_pl": "inimestes",
+      "n_in_ess_sg": "inimeses",
+      "n_nom_pl": "inimesed",
+      "n_nom_sg": "inimene",
+      "n_priv_pl": "inimesteta",
+      "n_priv_sg": "inimeseta",
+      "n_prt_pl": "inimesi",
+      "n_prt_sg": "inimest",
+      "n_term_pl": "inimesteni",
+      "n_term_sg": "inimeseni",
+      "n_trans_pl": "inimesteks",
+      "n_trans_sg": "inimeseks",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "isa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "isa",
+    "inflections": {
+      "n_acc_pl": "isad",
+      "n_acc_sg": "isa",
+      "n_at_abl_pl": "isadelt",
+      "n_at_abl_sg": "isalt",
+      "n_at_all_pl": "isadele",
+      "n_at_all_sg": "isale",
+      "n_at_ess_pl": "isadel",
+      "n_at_ess_sg": "isal",
+      "n_com_pl": "isadega",
+      "n_com_sg": "isaga",
+      "n_frml_pl": "isadena",
+      "n_frml_sg": "isana",
+      "n_gen_pl": "isade",
+      "n_gen_sg": "isa",
+      "n_in_abl_pl": "isadest",
+      "n_in_abl_sg": "isast",
+      "n_in_all_pl": "isadesse",
+      "n_in_all_sg": "issaisasse",
+      "n_in_ess_pl": "isades",
+      "n_in_ess_sg": "isas",
+      "n_nom_pl": "isad",
+      "n_nom_sg": "isa",
+      "n_priv_pl": "isadeta",
+      "n_priv_sg": "isata",
+      "n_prt_pl": "isasid",
+      "n_prt_sg": "isa",
+      "n_term_pl": "isadeni",
+      "n_term_sg": "isani",
+      "n_trans_pl": "isadeks",
+      "n_trans_sg": "isaks",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "istuma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "istuma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "istu"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "jumal": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jumal",
+    "inflections": {
+      "n_acc_pl": "jumalad",
+      "n_acc_sg": "jumala",
+      "n_at_abl_pl": "jumalatelt",
+      "n_at_abl_sg": "jumalalt",
+      "n_at_all_pl": "jumalatele",
+      "n_at_all_sg": "jumalale",
+      "n_at_ess_pl": "jumalatel",
+      "n_at_ess_sg": "jumalal",
+      "n_com_pl": "jumalatega",
+      "n_com_sg": "jumalaga",
+      "n_frml_pl": "jumalatena",
+      "n_frml_sg": "jumalana",
+      "n_gen_pl": "jumalate",
+      "n_gen_sg": "jumala",
+      "n_in_abl_pl": "jumalatest",
+      "n_in_abl_sg": "jumalast",
+      "n_in_all_pl": "jumalatesse",
+      "n_in_all_sg": "jumalasse",
+      "n_in_ess_pl": "jumalates",
+      "n_in_ess_sg": "jumalas",
+      "n_nom_pl": "jumalad",
+      "n_nom_sg": "jumal",
+      "n_priv_pl": "jumalateta",
+      "n_priv_sg": "jumalata",
+      "n_prt_pl": "jumalaid",
+      "n_prt_sg": "jumalat",
+      "n_term_pl": "jumalateni",
+      "n_term_sg": "jumalani",
+      "n_trans_pl": "jumalateks",
+      "n_trans_sg": "jumalaks",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "jätma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jätma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "jätke",
+      "v_act_prs_pos_imp_2_sg": "jäta"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "jääma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jääma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "jää",
+      "v_act_prs_pos_ind_1_sg": "jään",
+      "v_act_prs_pos_ind_2_sg": "jääd",
+      "v_act_prs_pos_ind_3_sg": "jääb",
+      "v_act_pst_pos_ind_3_sg": "jäi",
+      "v_ptcp_act_pst": "jäänud"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "kaasa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kaasa",
+    "inflections": {
+      "n_acc_pl": "kaasad",
+      "n_acc_sg": "kaasa",
+      "n_at_abl_pl": "kaasadelt",
+      "n_at_abl_sg": "kaasalt",
+      "n_at_all_pl": "kaasadele",
+      "n_at_all_sg": "kaasale",
+      "n_at_ess_pl": "kaasadel",
+      "n_at_ess_sg": "kaasal",
+      "n_com_pl": "kaasadega",
+      "n_com_sg": "kaasaga",
+      "n_frml_pl": "kaasadena",
+      "n_frml_sg": "kaasana",
+      "n_gen_pl": "kaasade",
+      "n_gen_sg": "kaasa",
+      "n_in_abl_pl": "kaasadest",
+      "n_in_abl_sg": "kaasast",
+      "n_in_all_pl": "kaasadesse",
+      "n_in_all_sg": "kaasa",
+      "n_in_ess_pl": "kaasades",
+      "n_in_ess_sg": "kaasas",
+      "n_nom_pl": "kaasad",
+      "n_nom_sg": "kaasa",
+      "n_priv_pl": "kaasadeta",
+      "n_priv_sg": "kaasata",
+      "n_prt_pl": "kaasasid",
+      "n_prt_sg": "kaasat",
+      "n_term_pl": "kaasadeni",
+      "n_term_sg": "kaasani",
+      "n_trans_pl": "kaasadeks",
+      "n_trans_sg": "kaasaks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kahju": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kahju",
+    "inflections": {
+      "n_acc_pl": "kahjud",
+      "n_acc_sg": "kahju",
+      "n_at_abl_pl": "kahjudelt",
+      "n_at_abl_sg": "kahjult",
+      "n_at_all_pl": "kahjudele",
+      "n_at_all_sg": "kahjule",
+      "n_at_ess_pl": "kahjudel",
+      "n_at_ess_sg": "kahjul",
+      "n_com_pl": "kahjudega",
+      "n_com_sg": "kahjuga",
+      "n_frml_pl": "kahjudena",
+      "n_frml_sg": "kahjuna",
+      "n_gen_pl": "kahjude",
+      "n_gen_sg": "kahju",
+      "n_in_abl_pl": "kahjudest",
+      "n_in_abl_sg": "kahjust",
+      "n_in_all_pl": "kahjudesse",
+      "n_in_all_sg": "kahju",
+      "n_in_ess_pl": "kahjudes",
+      "n_in_ess_sg": "kahjus",
+      "n_nom_pl": "kahjud",
+      "n_nom_sg": "kahju",
+      "n_priv_pl": "kahjudeta",
+      "n_priv_sg": "kahjuta",
+      "n_prt_pl": "kahjusid",
+      "n_prt_sg": "kahjut",
+      "n_term_pl": "kahjudeni",
+      "n_term_sg": "kahjuni",
+      "n_trans_pl": "kahjudeks",
+      "n_trans_sg": "kahjuks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kallis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kallis",
+    "inflections": {
+      "n_acc_pl": "kallid",
+      "n_acc_sg": "kalli",
+      "n_at_abl_pl": "kallitelt",
+      "n_at_abl_sg": "kallilt",
+      "n_at_all_pl": "kallitele",
+      "n_at_all_sg": "kallile",
+      "n_at_ess_pl": "kallitel",
+      "n_at_ess_sg": "kallil",
+      "n_com_pl": "kallitega",
+      "n_com_sg": "kalliga",
+      "n_frml_pl": "kallitena",
+      "n_frml_sg": "kallina",
+      "n_gen_pl": "kallite",
+      "n_gen_sg": "kalli",
+      "n_in_abl_pl": "kallitest",
+      "n_in_abl_sg": "kallist",
+      "n_in_all_pl": "kallitesse",
+      "n_in_all_sg": "kallisse",
+      "n_in_ess_pl": "kallites",
+      "n_in_ess_sg": "kallis",
+      "n_nom_pl": "kallid",
+      "n_nom_sg": "kallis",
+      "n_priv_pl": "kalliteta",
+      "n_priv_sg": "kallita",
+      "n_prt_pl": "kalleid",
+      "n_prt_sg": "kallist",
+      "n_term_pl": "kalliteni",
+      "n_term_sg": "kallini",
+      "n_trans_pl": "kalliteks",
+      "n_trans_sg": "kalliks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kapten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kapten",
+    "inflections": {
+      "n_acc_pl": "kaptenid",
+      "n_acc_sg": "kapteni",
+      "n_at_abl_pl": "kaptenitelt",
+      "n_at_abl_sg": "kaptenilt",
+      "n_at_all_pl": "kaptenitele",
+      "n_at_all_sg": "kaptenile",
+      "n_at_ess_pl": "kaptenitel",
+      "n_at_ess_sg": "kaptenil",
+      "n_com_pl": "kaptenitega",
+      "n_com_sg": "kapteniga",
+      "n_frml_pl": "kaptenitena",
+      "n_frml_sg": "kaptenina",
+      "n_gen_pl": "kaptenite",
+      "n_gen_sg": "kapteni",
+      "n_in_abl_pl": "kaptenitest",
+      "n_in_abl_sg": "kaptenist",
+      "n_in_all_pl": "kaptenitesse",
+      "n_in_all_sg": "kaptenisse",
+      "n_in_ess_pl": "kaptenites",
+      "n_in_ess_sg": "kaptenis",
+      "n_nom_pl": "kaptenid",
+      "n_nom_sg": "kapten",
+      "n_priv_pl": "kapteniteta",
+      "n_priv_sg": "kaptenita",
+      "n_prt_pl": "kapteneid",
+      "n_prt_sg": "kaptenit",
+      "n_term_pl": "kapteniteni",
+      "n_term_sg": "kaptenini",
+      "n_trans_pl": "kapteniteks",
+      "n_trans_sg": "kapteniks",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "keha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "keha",
+    "inflections": {
+      "n_acc_pl": "kehad",
+      "n_acc_sg": "keha",
+      "n_at_abl_pl": "kehadelt",
+      "n_at_abl_sg": "kehalt",
+      "n_at_all_pl": "kehadele",
+      "n_at_all_sg": "kehale",
+      "n_at_ess_pl": "kehadel",
+      "n_at_ess_sg": "kehal",
+      "n_com_pl": "kehadega",
+      "n_com_sg": "kehaga",
+      "n_frml_pl": "kehadena",
+      "n_frml_sg": "kehana",
+      "n_gen_pl": "kehade",
+      "n_gen_sg": "keha",
+      "n_in_abl_pl": "kehadest",
+      "n_in_abl_sg": "kehast",
+      "n_in_all_pl": "kehadesse",
+      "n_in_all_sg": "kehha",
+      "n_in_ess_pl": "kehades",
+      "n_in_ess_sg": "kehas",
+      "n_nom_pl": "kehad",
+      "n_nom_sg": "keha",
+      "n_priv_pl": "kehadeta",
+      "n_priv_sg": "kehata",
+      "n_prt_pl": "kehi",
+      "n_prt_sg": "keha",
+      "n_term_pl": "kehadeni",
+      "n_term_sg": "kehani",
+      "n_trans_pl": "kehadeks",
+      "n_trans_sg": "kehaks",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kindel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kindel",
+    "inflections": {
+      "n_acc_pl": "kindlad",
+      "n_acc_sg": "kindla",
+      "n_at_abl_pl": "kindlatelt",
+      "n_at_abl_sg": "kindlalt",
+      "n_at_all_pl": "kindlatele",
+      "n_at_all_sg": "kindlale",
+      "n_at_ess_pl": "kindlatel",
+      "n_at_ess_sg": "kindlal",
+      "n_com_pl": "kindlatega",
+      "n_com_sg": "kindlaga",
+      "n_frml_pl": "kindlatena",
+      "n_frml_sg": "kindlana",
+      "n_gen_pl": "kindlate",
+      "n_gen_sg": "kindla",
+      "n_in_abl_pl": "kindlatest",
+      "n_in_abl_sg": "kindlast",
+      "n_in_all_pl": "kindlatesse",
+      "n_in_all_sg": "kindlasse",
+      "n_in_ess_pl": "kindlates",
+      "n_in_ess_sg": "kindlas",
+      "n_nom_pl": "kindlad",
+      "n_nom_sg": "kindel",
+      "n_priv_pl": "kindlateta",
+      "n_priv_sg": "kindlata",
+      "n_prt_pl": "kindlaid",
+      "n_prt_sg": "kindlat",
+      "n_term_pl": "kindlateni",
+      "n_term_sg": "kindlani",
+      "n_trans_pl": "kindlateks",
+      "n_trans_sg": "kindlaks",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "kohtama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kohtama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "kohta"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "kolonel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kolonel",
+    "inflections": {
+      "n_acc_pl": "kolonelid",
+      "n_acc_sg": "koloneli",
+      "n_at_abl_pl": "koloneldelt",
+      "n_at_abl_sg": "kolonelilt",
+      "n_at_all_pl": "koloneldele",
+      "n_at_all_sg": "kolonelile",
+      "n_at_ess_pl": "koloneldel",
+      "n_at_ess_sg": "kolonelil",
+      "n_com_pl": "koloneldega",
+      "n_com_sg": "koloneliga",
+      "n_frml_pl": "koloneldena",
+      "n_frml_sg": "kolonelina",
+      "n_gen_pl": "kolonelde",
+      "n_gen_sg": "koloneli",
+      "n_in_abl_pl": "koloneldest",
+      "n_in_abl_sg": "kolonelist",
+      "n_in_all_pl": "koloneldesse",
+      "n_in_all_sg": "koloneli",
+      "n_in_ess_pl": "koloneldes",
+      "n_in_ess_sg": "kolonelis",
+      "n_nom_pl": "kolonelid",
+      "n_nom_sg": "kolonel",
+      "n_priv_pl": "koloneldeta",
+      "n_priv_sg": "kolonelita",
+      "n_prt_pl": "kolonele",
+      "n_prt_sg": "koloneli",
+      "n_term_pl": "koloneldeni",
+      "n_term_sg": "kolonelini",
+      "n_trans_pl": "koloneldeks",
+      "n_trans_sg": "koloneliks",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kurat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kurat",
+    "inflections": {
+      "n_acc_pl": "kuradid",
+      "n_acc_sg": "kuradi",
+      "n_at_abl_pl": "kuraditelt",
+      "n_at_abl_sg": "kuradilt",
+      "n_at_all_pl": "kuraditele",
+      "n_at_all_sg": "kuradile",
+      "n_at_ess_pl": "kuraditel",
+      "n_at_ess_sg": "kuradil",
+      "n_com_pl": "kuraditega",
+      "n_com_sg": "kuradiga",
+      "n_frml_pl": "kuraditena",
+      "n_frml_sg": "kuradina",
+      "n_gen_pl": "kuradite",
+      "n_gen_sg": "kuradi",
+      "n_in_abl_pl": "kuraditest",
+      "n_in_abl_sg": "kuradist",
+      "n_in_all_pl": "kuraditesse",
+      "n_in_all_sg": "kuradisse",
+      "n_in_ess_pl": "kuradites",
+      "n_in_ess_sg": "kuradis",
+      "n_nom_pl": "kuradid",
+      "n_nom_sg": "kurat",
+      "n_priv_pl": "kuraditeta",
+      "n_priv_sg": "kuradita",
+      "n_prt_pl": "kuradeid",
+      "n_prt_sg": "kuradit",
+      "n_term_pl": "kuraditeni",
+      "n_term_sg": "kuradini",
+      "n_trans_pl": "kuraditeks",
+      "n_trans_sg": "kuradiks",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "kuulma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kuulma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "kuule",
+      "v_act_prs_pos_ind_2_sg": "kuuled",
+      "v_act_pst_pos_ind_1_sg": "kuulsin",
+      "v_act_pst_pos_ind_2_sg": "kuulsid",
+      "v_act_pst_pos_ind_3_pl": "kuulsid",
+      "v_ptcp_act_pst": "kuulnud"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "käima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "käima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "käi",
+      "v_act_prs_pos_ind_3_sg": "käib",
+      "v_ptcp_act_pst": "käinud"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "käsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "käsi",
+    "inflections": {
+      "n_acc_pl": "käed",
+      "n_acc_sg": "käe",
+      "n_at_abl_pl": "käteltkäsilt",
+      "n_at_abl_sg": "käelt",
+      "n_at_all_pl": "kätelekäsile",
+      "n_at_all_sg": "käele",
+      "n_at_ess_pl": "kätelkäsil",
+      "n_at_ess_sg": "käel",
+      "n_com_pl": "kätega",
+      "n_com_sg": "käega",
+      "n_frml_pl": "kätena",
+      "n_frml_sg": "käena",
+      "n_gen_pl": "käte",
+      "n_gen_sg": "käe",
+      "n_in_abl_pl": "kätestkäsist",
+      "n_in_abl_sg": "käest",
+      "n_in_all_pl": "kätessekäsisse",
+      "n_in_all_sg": "kättekäesse",
+      "n_in_ess_pl": "käteskäsis",
+      "n_in_ess_sg": "käes",
+      "n_nom_pl": "käed",
+      "n_nom_sg": "käsi",
+      "n_priv_pl": "käteta",
+      "n_priv_sg": "käeta",
+      "n_prt_pl": "käsi",
+      "n_prt_sg": "kätt",
+      "n_term_pl": "käteni",
+      "n_term_sg": "käeni",
+      "n_trans_pl": "kätekskäsiks",
+      "n_trans_sg": "käeks",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "käskima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "käskima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "käsi"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "küsimus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "küsimus",
+    "inflections": {
+      "n_acc_pl": "küsimused",
+      "n_acc_sg": "küsimuse",
+      "n_at_abl_pl": "küsimustelt",
+      "n_at_abl_sg": "küsimuselt",
+      "n_at_all_pl": "küsimustele",
+      "n_at_all_sg": "küsimusele",
+      "n_at_ess_pl": "küsimustel",
+      "n_at_ess_sg": "küsimusel",
+      "n_com_pl": "küsimustega",
+      "n_com_sg": "küsimusega",
+      "n_frml_pl": "küsimustena",
+      "n_frml_sg": "küsimusena",
+      "n_gen_pl": "küsimuste",
+      "n_gen_sg": "küsimuse",
+      "n_in_abl_pl": "küsimustest",
+      "n_in_abl_sg": "küsimusest",
+      "n_in_all_pl": "küsimustesse",
+      "n_in_all_sg": "küsimusse",
+      "n_in_ess_pl": "küsimustes",
+      "n_in_ess_sg": "küsimuses",
+      "n_nom_pl": "küsimused",
+      "n_nom_sg": "küsimus",
+      "n_priv_pl": "küsimusteta",
+      "n_priv_sg": "küsimuseta",
+      "n_prt_pl": "küsimusi",
+      "n_prt_sg": "küsimust",
+      "n_term_pl": "küsimusteni",
+      "n_term_sg": "küsimuseni",
+      "n_trans_pl": "küsimusteks",
+      "n_trans_sg": "küsimuseks",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "lahkuma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lahkuma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "lahku"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "leidma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leidma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem leidkem",
+      "v_act_prs_neg_imp_2_pl": "ärge leidke",
+      "v_act_prs_neg_imp_2_sg": "ära leia",
+      "v_act_prs_neg_imp_3_pl": "ärgu leidku",
+      "v_act_prs_neg_imp_3_sg": "ärgu leidku",
+      "v_act_prs_neg_ind": "ei leia",
+      "v_act_prs_neg_quot": "ei leidvat",
+      "v_act_prs_pos_cond_1_pl": "leiaksime",
+      "v_act_prs_pos_cond_1_sg": "leiaksin",
+      "v_act_prs_pos_cond_2_pl": "leiaksite",
+      "v_act_prs_pos_cond_2_sg": "leiaksid",
+      "v_act_prs_pos_cond_3_pl": "leiaksid",
+      "v_act_prs_pos_cond_3_sg": "leiaks",
+      "v_act_prs_pos_imp_1_pl": "leidkem",
+      "v_act_prs_pos_imp_2_pl": "leidke",
+      "v_act_prs_pos_imp_2_sg": "leia",
+      "v_act_prs_pos_imp_3_pl": "leidku",
+      "v_act_prs_pos_imp_3_sg": "leidku",
+      "v_act_prs_pos_ind_1_pl": "leiame",
+      "v_act_prs_pos_ind_1_sg": "leian",
+      "v_act_prs_pos_ind_2_pl": "leiate",
+      "v_act_prs_pos_ind_2_sg": "leiad",
+      "v_act_prs_pos_ind_3_pl": "leiavad",
+      "v_act_prs_pos_ind_3_sg": "leiab",
+      "v_act_prs_pos_quot": "leidvat",
+      "v_act_prs_prf_neg_cond": "ei oleks leidnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu leidnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu leidnud",
+      "v_act_prs_prf_neg_quot": "ei olevat leidnud",
+      "v_act_prs_prf_pos_cond": "oleksin leidnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime leidnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime leidnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei leiaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin leidnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite leidnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite leidnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid leidnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid leidnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli leidnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid leidnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks leidnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli leidnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu leidnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu leidnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme leidnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen leidnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete leidnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled leidnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on leidnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on leidnud",
+      "v_act_prs_prf_pos_quot": "olevat leidnud",
+      "v_act_pst_neg_ind": "ei leidnud",
+      "v_act_pst_neg_ind_2": "ei ole leidnud",
+      "v_act_pst_pos_ind_1_pl": "leidsime",
+      "v_act_pst_pos_ind_1_sg": "leidsin",
+      "v_act_pst_pos_ind_2_pl": "leidsite",
+      "v_act_pst_pos_ind_2_sg": "leidsid",
+      "v_act_pst_pos_ind_3_pl": "leidsid",
+      "v_act_pst_pos_ind_3_sg": "leidis",
+      "v_act_pst_prf_neg_ind": "ei olnud leidnud",
+      "v_nfin": "leidma",
+      "v_pass_prs_neg_cond": "ei leietaks",
+      "v_pass_prs_neg_imp": "ärgu leietagu",
+      "v_pass_prs_neg_ind": "ei leieta",
+      "v_pass_prs_neg_quot": "ei leietavat",
+      "v_pass_prs_pos_cond": "leietaks",
+      "v_pass_prs_pos_imp": "leietagu",
+      "v_pass_prs_pos_ind": "leietakse",
+      "v_pass_prs_pos_quot": "leietavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks leietud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu leietud",
+      "v_pass_prs_prf_neg_ind": "ei ole leietud",
+      "v_pass_prs_prf_neg_quot": "ei olevat leietud",
+      "v_pass_prs_prf_pos_cond": "oleks leietud",
+      "v_pass_prs_prf_pos_imp": "olgu leietud",
+      "v_pass_prs_prf_pos_ind": "on leietud",
+      "v_pass_prs_prf_pos_quot": "olevat leietud",
+      "v_pass_pst_neg_ind": "ei leietud",
+      "v_pass_pst_pos_ind": "leieti",
+      "v_pass_pst_prf_neg_ind": "ei olnud leietud",
+      "v_pass_pst_prf_pos_ind": "oli leietud",
+      "v_ptcp_act_prs": "leidev",
+      "v_ptcp_act_pst": "leidnud",
+      "v_ptcp_pass_prs": "leietav",
+      "v_ptcp_pass_pst": "leietud"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "lootma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lootma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "loodan"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "lõbu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lõbu",
+    "inflections": {
+      "n_in_ess_sg": "lõbus",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "lõpetama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lõpetama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "lõpeta"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "maa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maa",
+    "inflections": {
+      "n_acc_pl": "maad",
+      "n_acc_sg": "maa",
+      "n_at_abl_pl": "maadeltmailt",
+      "n_at_abl_sg": "maalt",
+      "n_at_all_pl": "maadelemaile",
+      "n_at_all_sg": "maale",
+      "n_at_ess_pl": "maadelmail",
+      "n_at_ess_sg": "maal",
+      "n_com_pl": "maadega",
+      "n_com_sg": "maaga",
+      "n_frml_pl": "maadena",
+      "n_frml_sg": "maana",
+      "n_gen_pl": "maade",
+      "n_gen_sg": "maa",
+      "n_in_abl_pl": "maadestmaist",
+      "n_in_abl_sg": "maast",
+      "n_in_all_pl": "maadessemaisse",
+      "n_in_all_sg": "maassemaha",
+      "n_in_ess_pl": "maadesmais",
+      "n_in_ess_sg": "maas",
+      "n_nom_pl": "maad",
+      "n_nom_sg": "maa",
+      "n_priv_pl": "maadeta",
+      "n_priv_sg": "maata",
+      "n_prt_pl": "maidmaasid",
+      "n_prt_sg": "maad",
+      "n_term_pl": "maadeni",
+      "n_term_sg": "maani",
+      "n_trans_pl": "maadeksmaiks",
+      "n_trans_sg": "maaks",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "magama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "magama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem magagem",
+      "v_act_prs_neg_imp_2_pl": "ärge magage",
+      "v_act_prs_neg_imp_2_sg": "ära maga",
+      "v_act_prs_neg_imp_3_pl": "ärgu magagu",
+      "v_act_prs_neg_imp_3_sg": "ärgu magagu",
+      "v_act_prs_neg_ind": "ei maga",
+      "v_act_prs_neg_quot": "ei magavat",
+      "v_act_prs_pos_cond_1_pl": "magaksime",
+      "v_act_prs_pos_cond_1_sg": "magaksin",
+      "v_act_prs_pos_cond_2_pl": "magaksite",
+      "v_act_prs_pos_cond_2_sg": "magaksid",
+      "v_act_prs_pos_cond_3_pl": "magaksid",
+      "v_act_prs_pos_cond_3_sg": "magaks",
+      "v_act_prs_pos_imp_1_pl": "magagem",
+      "v_act_prs_pos_imp_2_pl": "magage",
+      "v_act_prs_pos_imp_2_sg": "maga",
+      "v_act_prs_pos_imp_3_pl": "magagu",
+      "v_act_prs_pos_imp_3_sg": "magagu",
+      "v_act_prs_pos_ind_1_pl": "magame",
+      "v_act_prs_pos_ind_1_sg": "magan",
+      "v_act_prs_pos_ind_2_pl": "magate",
+      "v_act_prs_pos_ind_2_sg": "magad",
+      "v_act_prs_pos_ind_3_pl": "magavad",
+      "v_act_prs_pos_ind_3_sg": "magab",
+      "v_act_prs_pos_quot": "magavat",
+      "v_act_prs_prf_neg_cond": "ei oleks maganud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu maganud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu maganud",
+      "v_act_prs_prf_neg_quot": "ei olevat maganud",
+      "v_act_prs_prf_pos_cond": "oleksin maganud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime maganud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime maganud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei magaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin maganud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite maganud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite maganud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid maganud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid maganud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli maganud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid maganud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks maganud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli maganud",
+      "v_act_prs_prf_pos_imp_pl": "olgu maganud",
+      "v_act_prs_prf_pos_imp_sg": "olgu maganud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme maganud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen maganud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete maganud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled maganud",
+      "v_act_prs_prf_pos_ind_3_pl": "on maganud",
+      "v_act_prs_prf_pos_ind_3_sg": "on maganud",
+      "v_act_prs_prf_pos_quot": "olevat maganud",
+      "v_act_pst_neg_ind": "ei maganud",
+      "v_act_pst_neg_ind_2": "ei ole maganud",
+      "v_act_pst_pos_ind_1_pl": "magasime",
+      "v_act_pst_pos_ind_1_sg": "magasin",
+      "v_act_pst_pos_ind_2_pl": "magasite",
+      "v_act_pst_pos_ind_2_sg": "magasid",
+      "v_act_pst_pos_ind_3_pl": "magasid",
+      "v_act_pst_pos_ind_3_sg": "magas",
+      "v_act_pst_prf_neg_ind": "ei olnud maganud",
+      "v_nfin": "magama",
+      "v_pass_prs_neg_cond": "ei magataks",
+      "v_pass_prs_neg_imp": "ärgu magatagu",
+      "v_pass_prs_neg_ind": "ei magata",
+      "v_pass_prs_neg_quot": "ei magatavat",
+      "v_pass_prs_pos_cond": "magataks",
+      "v_pass_prs_pos_imp": "magatagu",
+      "v_pass_prs_pos_ind": "magatakse",
+      "v_pass_prs_pos_quot": "magatavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks magatud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu magatud",
+      "v_pass_prs_prf_neg_ind": "ei ole magatud",
+      "v_pass_prs_prf_neg_quot": "ei olevat magatud",
+      "v_pass_prs_prf_pos_cond": "oleks magatud",
+      "v_pass_prs_prf_pos_imp": "olgu magatud",
+      "v_pass_prs_prf_pos_ind": "on magatud",
+      "v_pass_prs_prf_pos_quot": "olevat magatud",
+      "v_pass_pst_neg_ind": "ei magatud",
+      "v_pass_pst_pos_ind": "magati",
+      "v_pass_pst_prf_neg_ind": "ei olnud magatud",
+      "v_pass_pst_prf_pos_ind": "oli magatud",
+      "v_ptcp_act_prs": "magav",
+      "v_ptcp_act_pst": "maganud",
+      "v_ptcp_pass_prs": "magatav",
+      "v_ptcp_pass_pst": "magatud"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "maja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maja",
+    "inflections": {
+      "n_acc_pl": "majad",
+      "n_acc_sg": "maja",
+      "n_at_abl_pl": "majadelt",
+      "n_at_abl_sg": "majalt",
+      "n_at_all_pl": "majadele",
+      "n_at_all_sg": "majale",
+      "n_at_ess_pl": "majadel",
+      "n_at_ess_sg": "majal",
+      "n_com_pl": "majadega",
+      "n_com_sg": "majaga",
+      "n_frml_pl": "majadena",
+      "n_frml_sg": "majana",
+      "n_gen_pl": "majade",
+      "n_gen_sg": "maja",
+      "n_in_abl_pl": "majadest",
+      "n_in_abl_sg": "majast",
+      "n_in_all_pl": "majadesse",
+      "n_in_all_sg": "majja",
+      "n_in_ess_pl": "majades",
+      "n_in_ess_sg": "majas",
+      "n_nom_pl": "majad",
+      "n_nom_sg": "maja",
+      "n_priv_pl": "majadeta",
+      "n_priv_sg": "majata",
+      "n_prt_pl": "maju",
+      "n_prt_sg": "maja",
+      "n_term_pl": "majadeni",
+      "n_term_sg": "majani",
+      "n_trans_pl": "majadeks",
+      "n_trans_sg": "majaks",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "meeldima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "meeldima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "meeldi",
+      "v_act_prs_pos_ind_3_pl": "meeldivad",
+      "v_act_prs_pos_ind_3_sg": "meeldib",
+      "v_ptcp_act_prs": "meeldiv"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "mesi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mesi",
+    "inflections": {
+      "n_at_ess_sg": "meel",
+      "n_in_abl_sg": "meest",
+      "n_in_ess_sg": "mees",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "minema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem mingem",
+      "v_act_prs_neg_imp_2_pl": "ärge minge",
+      "v_act_prs_neg_imp_2_sg": "ära mine",
+      "v_act_prs_neg_imp_3_pl": "ärgu mingu",
+      "v_act_prs_neg_imp_3_sg": "ärgu mingu",
+      "v_act_prs_neg_ind": "ei lähe",
+      "v_act_prs_neg_quot": "ei minevat",
+      "v_act_prs_pos_cond_1_pl": "läheksime",
+      "v_act_prs_pos_cond_1_sg": "läheksin",
+      "v_act_prs_pos_cond_2_pl": "läheksite",
+      "v_act_prs_pos_cond_2_sg": "läheksid",
+      "v_act_prs_pos_cond_3_pl": "läheksid",
+      "v_act_prs_pos_cond_3_sg": "läheks",
+      "v_act_prs_pos_imp_1_pl": "mingem",
+      "v_act_prs_pos_imp_2_pl": "minge",
+      "v_act_prs_pos_imp_2_sg": "mine",
+      "v_act_prs_pos_imp_3_pl": "mingu",
+      "v_act_prs_pos_imp_3_sg": "mingu",
+      "v_act_prs_pos_ind_1_pl": "läheme",
+      "v_act_prs_pos_ind_1_sg": "lähen",
+      "v_act_prs_pos_ind_2_pl": "lähete",
+      "v_act_prs_pos_ind_2_sg": "lähed",
+      "v_act_prs_pos_ind_3_pl": "lähevad",
+      "v_act_prs_pos_ind_3_sg": "läheb",
+      "v_act_prs_pos_quot": "minevat",
+      "v_act_prs_prf_neg_cond": "ei oleks läinud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu läinud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu läinud",
+      "v_act_prs_prf_neg_quot": "ei olevat läinud",
+      "v_act_prs_prf_pos_cond": "oleksin läinud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime läinud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime läinud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei läheks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin läinud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite läinud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite läinud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid läinud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid läinud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli läinud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid läinud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks läinud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli läinud",
+      "v_act_prs_prf_pos_imp_pl": "olgu läinud",
+      "v_act_prs_prf_pos_imp_sg": "olgu läinud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme läinud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen läinud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete läinud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled läinud",
+      "v_act_prs_prf_pos_ind_3_pl": "on läinud",
+      "v_act_prs_prf_pos_ind_3_sg": "on läinud",
+      "v_act_prs_prf_pos_quot": "olevat läinud",
+      "v_act_pst_neg_ind": "ei läinud",
+      "v_act_pst_neg_ind_2": "ei ole läinud",
+      "v_act_pst_pos_ind_1_pl": "läksime",
+      "v_act_pst_pos_ind_1_sg": "läksin",
+      "v_act_pst_pos_ind_2_pl": "läksite",
+      "v_act_pst_pos_ind_2_sg": "läksid",
+      "v_act_pst_pos_ind_3_pl": "läksid",
+      "v_act_pst_pos_ind_3_sg": "läks",
+      "v_act_pst_prf_neg_ind": "ei olnud läinud",
+      "v_nfin": "minema",
+      "v_pass_prs_neg_cond": "ei mindaks",
+      "v_pass_prs_neg_imp": "ärgu mindagu",
+      "v_pass_prs_neg_ind": "ei minda",
+      "v_pass_prs_neg_quot": "ei mindavat",
+      "v_pass_prs_pos_cond": "mindaks",
+      "v_pass_prs_pos_imp": "mindagu",
+      "v_pass_prs_pos_ind": "minnakse",
+      "v_pass_prs_pos_quot": "mindavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks mindud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu mindud",
+      "v_pass_prs_prf_neg_ind": "ei ole mindud",
+      "v_pass_prs_prf_neg_quot": "ei olevat mindud",
+      "v_pass_prs_prf_pos_cond": "oleks mindud",
+      "v_pass_prs_prf_pos_imp": "olgu mindud",
+      "v_pass_prs_prf_pos_ind": "on mindud",
+      "v_pass_prs_prf_pos_quot": "olevat mindud",
+      "v_pass_pst_neg_ind": "ei mindud",
+      "v_pass_pst_pos_ind": "mindi",
+      "v_pass_pst_prf_neg_ind": "ei olnud mindud",
+      "v_pass_pst_prf_pos_ind": "oli mindud",
+      "v_ptcp_act_prs": "minev",
+      "v_ptcp_act_pst": "läinud",
+      "v_ptcp_pass_prs": "mindav",
+      "v_ptcp_pass_pst": "mindud"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "muretsema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muretsema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "muretse"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "mõistma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mõistma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "mõista",
+      "v_act_prs_pos_ind_1_sg": "mõistan",
+      "v_act_prs_pos_ind_2_sg": "mõistad"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "mõte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mõte",
+    "inflections": {
+      "n_acc_pl": "mõtted",
+      "n_acc_sg": "mõtte",
+      "n_at_abl_pl": "mõtetelt",
+      "n_at_abl_sg": "mõttelt",
+      "n_at_all_pl": "mõtetele",
+      "n_at_all_sg": "mõttele",
+      "n_at_ess_pl": "mõtetel",
+      "n_at_ess_sg": "mõttel",
+      "n_com_pl": "mõtetega",
+      "n_com_sg": "mõttega",
+      "n_frml_pl": "mõtetena",
+      "n_frml_sg": "mõttena",
+      "n_gen_pl": "mõtete",
+      "n_gen_sg": "mõtte",
+      "n_in_abl_pl": "mõtetest",
+      "n_in_abl_sg": "mõttest",
+      "n_in_all_pl": "mõtetesse",
+      "n_in_all_sg": "mõttesse",
+      "n_in_ess_pl": "mõtetes",
+      "n_in_ess_sg": "mõttes",
+      "n_nom_pl": "mõtted",
+      "n_nom_sg": "mõte",
+      "n_priv_pl": "mõteteta",
+      "n_priv_sg": "mõtteta",
+      "n_prt_pl": "mõtteid",
+      "n_prt_sg": "mõtet",
+      "n_term_pl": "mõteteni",
+      "n_term_sg": "mõtteni",
+      "n_trans_pl": "mõteteks",
+      "n_trans_sg": "mõtteks",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "number": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "number",
+    "inflections": {
+      "n_acc_pl": "numbrid",
+      "n_acc_sg": "numbri",
+      "n_at_abl_pl": "numbritelt",
+      "n_at_abl_sg": "numbrilt",
+      "n_at_all_pl": "numbritele",
+      "n_at_all_sg": "numbrile",
+      "n_at_ess_pl": "numbritel",
+      "n_at_ess_sg": "numbril",
+      "n_com_pl": "numbritega",
+      "n_com_sg": "numbriga",
+      "n_frml_pl": "numbritena",
+      "n_frml_sg": "numbrina",
+      "n_gen_pl": "numbrite",
+      "n_gen_sg": "numbri",
+      "n_in_abl_pl": "numbritest",
+      "n_in_abl_sg": "numbrist",
+      "n_in_all_pl": "numbritesse",
+      "n_in_all_sg": "numbrisse",
+      "n_in_ess_pl": "numbrites",
+      "n_in_ess_sg": "numbris",
+      "n_nom_pl": "numbrid",
+      "n_nom_sg": "number",
+      "n_priv_pl": "numbriteta",
+      "n_priv_sg": "numbrita",
+      "n_prt_pl": "numbreid",
+      "n_prt_sg": "numbrit",
+      "n_term_pl": "numbriteni",
+      "n_term_sg": "numbrini",
+      "n_trans_pl": "numbriteks",
+      "n_trans_sg": "numbriks",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "nägema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nägema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem nähkem",
+      "v_act_prs_neg_imp_2_pl": "ärge nähke",
+      "v_act_prs_neg_imp_2_sg": "ära näe",
+      "v_act_prs_neg_imp_3_pl": "ärgu nähku",
+      "v_act_prs_neg_imp_3_sg": "ärgu nähku",
+      "v_act_prs_neg_ind": "ei näe",
+      "v_act_prs_neg_quot": "ei nägevat",
+      "v_act_prs_pos_cond_1_pl": "näeksime",
+      "v_act_prs_pos_cond_1_sg": "näeksin",
+      "v_act_prs_pos_cond_2_pl": "näeksite",
+      "v_act_prs_pos_cond_2_sg": "näeksid",
+      "v_act_prs_pos_cond_3_pl": "näeksid",
+      "v_act_prs_pos_cond_3_sg": "näeks",
+      "v_act_prs_pos_imp_1_pl": "nähkem",
+      "v_act_prs_pos_imp_2_pl": "nähke",
+      "v_act_prs_pos_imp_2_sg": "näe",
+      "v_act_prs_pos_imp_3_pl": "nähku",
+      "v_act_prs_pos_imp_3_sg": "nähku",
+      "v_act_prs_pos_ind_1_pl": "näeme",
+      "v_act_prs_pos_ind_1_sg": "näen",
+      "v_act_prs_pos_ind_2_pl": "näete",
+      "v_act_prs_pos_ind_2_sg": "näed",
+      "v_act_prs_pos_ind_3_pl": "näevad",
+      "v_act_prs_pos_ind_3_sg": "näeb",
+      "v_act_prs_pos_quot": "nägevat",
+      "v_act_prs_prf_neg_cond": "ei oleks näinud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu näinud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu näinud",
+      "v_act_prs_prf_neg_quot": "ei olevat näinud",
+      "v_act_prs_prf_pos_cond": "oleksin näinud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime näinud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime näinud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei näeks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin näinud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite näinud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite näinud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid näinud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid näinud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli näinud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid näinud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks näinud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli näinud",
+      "v_act_prs_prf_pos_imp_pl": "olgu näinud",
+      "v_act_prs_prf_pos_imp_sg": "olgu näinud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme näinud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen näinud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete näinud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled näinud",
+      "v_act_prs_prf_pos_ind_3_pl": "on näinud",
+      "v_act_prs_prf_pos_ind_3_sg": "on näinud",
+      "v_act_prs_prf_pos_quot": "olevat näinud",
+      "v_act_pst_neg_ind": "ei näinud",
+      "v_act_pst_neg_ind_2": "ei ole näinud",
+      "v_act_pst_pos_ind_1_pl": "nägime",
+      "v_act_pst_pos_ind_1_sg": "nägin",
+      "v_act_pst_pos_ind_2_pl": "nägite",
+      "v_act_pst_pos_ind_2_sg": "nägid",
+      "v_act_pst_pos_ind_3_pl": "nägid",
+      "v_act_pst_pos_ind_3_sg": "nägi",
+      "v_act_pst_prf_neg_ind": "ei olnud näinud",
+      "v_nfin": "nägema",
+      "v_pass_prs_neg_cond": "ei nähtaks",
+      "v_pass_prs_neg_imp": "ärgu nähtagu",
+      "v_pass_prs_neg_ind": "ei nähta",
+      "v_pass_prs_neg_quot": "ei nähtavat",
+      "v_pass_prs_pos_cond": "nähtaks",
+      "v_pass_prs_pos_imp": "nähtagu",
+      "v_pass_prs_pos_ind": "nähakse",
+      "v_pass_prs_pos_quot": "nähtavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks nähtud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu nähtud",
+      "v_pass_prs_prf_neg_ind": "ei ole nähtud",
+      "v_pass_prs_prf_neg_quot": "ei olevat nähtud",
+      "v_pass_prs_prf_pos_cond": "oleks nähtud",
+      "v_pass_prs_prf_pos_imp": "olgu nähtud",
+      "v_pass_prs_prf_pos_ind": "on nähtud",
+      "v_pass_prs_prf_pos_quot": "olevat nähtud",
+      "v_pass_pst_neg_ind": "ei nähtud",
+      "v_pass_pst_pos_ind": "nähti",
+      "v_pass_pst_prf_neg_ind": "ei olnud nähtud",
+      "v_pass_pst_prf_pos_ind": "oli nähtud",
+      "v_ptcp_act_prs": "nägev",
+      "v_ptcp_act_pst": "näinud",
+      "v_ptcp_pass_prs": "nähtav",
+      "v_ptcp_pass_pst": "nähtud"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "nägu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nägu",
+    "inflections": {
+      "n_acc_pl": "näod",
+      "n_acc_sg": "näo",
+      "n_at_abl_pl": "nägudelt",
+      "n_at_abl_sg": "näolt",
+      "n_at_all_pl": "nägudele",
+      "n_at_all_sg": "näole",
+      "n_at_ess_pl": "nägudel",
+      "n_at_ess_sg": "näol",
+      "n_com_pl": "nägudega",
+      "n_com_sg": "näoga",
+      "n_frml_pl": "nägudena",
+      "n_frml_sg": "näona",
+      "n_gen_pl": "nägude",
+      "n_gen_sg": "näo",
+      "n_in_abl_pl": "nägudest",
+      "n_in_abl_sg": "näost",
+      "n_in_all_pl": "nägudesse",
+      "n_in_all_sg": "näkkunäosse",
+      "n_in_ess_pl": "nägudes",
+      "n_in_ess_sg": "näos",
+      "n_nom_pl": "näod",
+      "n_nom_sg": "nägu",
+      "n_priv_pl": "nägudeta",
+      "n_priv_sg": "näota",
+      "n_prt_pl": "nägusid",
+      "n_prt_sg": "nägu",
+      "n_term_pl": "nägudeni",
+      "n_term_sg": "näoni",
+      "n_trans_pl": "nägudeks",
+      "n_trans_sg": "näoks",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "olema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "olema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem olgem",
+      "v_act_prs_neg_imp_2_pl": "ärge olge",
+      "v_act_prs_neg_imp_2_sg": "ära ole",
+      "v_act_prs_neg_imp_3_pl": "ärgu olgu",
+      "v_act_prs_neg_imp_3_sg": "ärgu olgu",
+      "v_act_prs_neg_ind": "ei ole",
+      "v_act_prs_neg_quot": "ei olevat",
+      "v_act_prs_pos_cond_1_pl": "oleksime",
+      "v_act_prs_pos_cond_1_sg": "oleksin",
+      "v_act_prs_pos_cond_2_pl": "oleksite",
+      "v_act_prs_pos_cond_2_sg": "oleksid",
+      "v_act_prs_pos_cond_3_pl": "oleksid",
+      "v_act_prs_pos_cond_3_sg": "oleks",
+      "v_act_prs_pos_imp_1_pl": "olgem",
+      "v_act_prs_pos_imp_2_pl": "olge",
+      "v_act_prs_pos_imp_2_sg": "ole",
+      "v_act_prs_pos_imp_3_pl": "olgu",
+      "v_act_prs_pos_imp_3_sg": "olgu",
+      "v_act_prs_pos_ind_1_pl": "oleme",
+      "v_act_prs_pos_ind_1_sg": "olen",
+      "v_act_prs_pos_ind_2_pl": "olete",
+      "v_act_prs_pos_ind_2_sg": "oled",
+      "v_act_prs_pos_ind_3_pl": "on",
+      "v_act_prs_pos_ind_3_sg": "on",
+      "v_act_prs_pos_quot": "olevat",
+      "v_act_prs_prf_neg_cond": "ei oleks olnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu olnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu olnud",
+      "v_act_prs_prf_neg_quot": "ei olevat olnud",
+      "v_act_prs_prf_pos_cond": "oleksin olnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime olnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime olnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei oleks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin olnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite olnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite olnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid olnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid olnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli olnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid olnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks olnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli olnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu olnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu olnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme olnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen olnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete olnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled olnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on olnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on olnud",
+      "v_act_prs_prf_pos_quot": "olevat olnud",
+      "v_act_pst_neg_ind": "ei olnud",
+      "v_act_pst_neg_ind_2": "ei ole olnud",
+      "v_act_pst_pos_ind_1_pl": "olime",
+      "v_act_pst_pos_ind_1_sg": "olin",
+      "v_act_pst_pos_ind_2_pl": "olite",
+      "v_act_pst_pos_ind_2_sg": "olid",
+      "v_act_pst_pos_ind_3_pl": "olid",
+      "v_act_pst_pos_ind_3_sg": "oli",
+      "v_act_pst_prf_neg_ind": "ei olnud",
+      "v_nfin": "olema",
+      "v_pass_prs_neg_cond": "ei oldaks",
+      "v_pass_prs_neg_imp": "ärgu oldagu",
+      "v_pass_prs_neg_ind": "ei olda",
+      "v_pass_prs_neg_quot": "ei oldavat",
+      "v_pass_prs_pos_cond": "oldaks",
+      "v_pass_prs_pos_imp": "oldagu",
+      "v_pass_prs_pos_ind": "ollakse",
+      "v_pass_prs_pos_quot": "oldavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks oldud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu oldud",
+      "v_pass_prs_prf_neg_ind": "ei ole oldud",
+      "v_pass_prs_prf_neg_quot": "ei olevat oldud",
+      "v_pass_prs_prf_pos_cond": "oleks oldud",
+      "v_pass_prs_prf_pos_imp": "olgu oldud",
+      "v_pass_prs_prf_pos_ind": "on oldud",
+      "v_pass_prs_prf_pos_quot": "olevat oldud",
+      "v_pass_pst_neg_ind": "ei oldud",
+      "v_pass_pst_pos_ind": "oldi",
+      "v_pass_pst_prf_neg_ind": "ei olnud oldud",
+      "v_pass_pst_prf_pos_ind": "oli oldud",
+      "v_ptcp_act_prs": "olev",
+      "v_ptcp_act_pst": "olnud",
+      "v_ptcp_pass_prs": "oldav",
+      "v_ptcp_pass_pst": "oldud"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "olev": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "olev",
+    "inflections": {
+      "n_prt_sg": "olevat",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "oluline": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oluline",
+    "inflections": {
+      "n_acc_pl": "olulised",
+      "n_acc_sg": "olulise",
+      "n_at_abl_pl": "olulistelt",
+      "n_at_abl_sg": "oluliselt",
+      "n_at_all_pl": "olulistele",
+      "n_at_all_sg": "olulisele",
+      "n_at_ess_pl": "olulistel",
+      "n_at_ess_sg": "olulisel",
+      "n_com_pl": "olulistega",
+      "n_com_sg": "olulisega",
+      "n_frml_pl": "olulistena",
+      "n_frml_sg": "olulisena",
+      "n_gen_pl": "oluliste",
+      "n_gen_sg": "olulise",
+      "n_in_abl_pl": "olulistest",
+      "n_in_abl_sg": "olulisest",
+      "n_in_all_pl": "olulistesse",
+      "n_in_all_sg": "olulisse",
+      "n_in_ess_pl": "olulistes",
+      "n_in_ess_sg": "olulises",
+      "n_nom_pl": "olulised",
+      "n_nom_sg": "oluline",
+      "n_priv_pl": "olulisteta",
+      "n_priv_sg": "oluliseta",
+      "n_prt_pl": "olulisi",
+      "n_prt_sg": "olulist",
+      "n_term_pl": "olulisteni",
+      "n_term_sg": "oluliseni",
+      "n_trans_pl": "olulisteks",
+      "n_trans_sg": "oluliseks",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "omama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "omama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "oma"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ootama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ootama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "oodake",
+      "v_act_prs_pos_imp_2_sg": "oota",
+      "v_act_prs_pos_ind_1_sg": "ootan",
+      "v_act_prs_pos_ind_3_sg": "ootab"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "oskama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oskama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "oska"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ostma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ostma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "osta"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "otsima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "otsima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem otsigem",
+      "v_act_prs_neg_imp_2_pl": "ärge otsige",
+      "v_act_prs_neg_imp_2_sg": "ära otsi",
+      "v_act_prs_neg_imp_3_pl": "ärgu otsigu",
+      "v_act_prs_neg_imp_3_sg": "ärgu otsigu",
+      "v_act_prs_neg_ind": "ei otsi",
+      "v_act_prs_neg_quot": "ei otsivat",
+      "v_act_prs_pos_cond_1_pl": "otsiksime",
+      "v_act_prs_pos_cond_1_sg": "otsiksin",
+      "v_act_prs_pos_cond_2_pl": "otsiksite",
+      "v_act_prs_pos_cond_2_sg": "otsiksid",
+      "v_act_prs_pos_cond_3_pl": "otsiksid",
+      "v_act_prs_pos_cond_3_sg": "otsiks",
+      "v_act_prs_pos_imp_1_pl": "otsigem",
+      "v_act_prs_pos_imp_2_pl": "otsige",
+      "v_act_prs_pos_imp_2_sg": "otsi",
+      "v_act_prs_pos_imp_3_pl": "otsigu",
+      "v_act_prs_pos_imp_3_sg": "otsigu",
+      "v_act_prs_pos_ind_1_pl": "otsime",
+      "v_act_prs_pos_ind_1_sg": "otsin",
+      "v_act_prs_pos_ind_2_pl": "otsite",
+      "v_act_prs_pos_ind_2_sg": "otsid",
+      "v_act_prs_pos_ind_3_pl": "otsivad",
+      "v_act_prs_pos_ind_3_sg": "otsib",
+      "v_act_prs_pos_quot": "otsivat",
+      "v_act_prs_prf_neg_cond": "ei oleks otsinud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu otsinud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu otsinud",
+      "v_act_prs_prf_neg_quot": "ei olevat otsinud",
+      "v_act_prs_prf_pos_cond": "oleksin otsinud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime otsinud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime otsinud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei otsiks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin otsinud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite otsinud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite otsinud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid otsinud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid otsinud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli otsinud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid otsinud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks otsinud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli otsinud",
+      "v_act_prs_prf_pos_imp_pl": "olgu otsinud",
+      "v_act_prs_prf_pos_imp_sg": "olgu otsinud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme otsinud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen otsinud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete otsinud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled otsinud",
+      "v_act_prs_prf_pos_ind_3_pl": "on otsinud",
+      "v_act_prs_prf_pos_ind_3_sg": "on otsinud",
+      "v_act_prs_prf_pos_quot": "olevat otsinud",
+      "v_act_pst_neg_ind": "ei otsinud",
+      "v_act_pst_neg_ind_2": "ei ole otsinud",
+      "v_act_pst_pos_ind_1_pl": "otsisime",
+      "v_act_pst_pos_ind_1_sg": "otsisin",
+      "v_act_pst_pos_ind_2_pl": "otsisite",
+      "v_act_pst_pos_ind_2_sg": "otsisid",
+      "v_act_pst_pos_ind_3_pl": "otsisid",
+      "v_act_pst_pos_ind_3_sg": "otsis",
+      "v_act_pst_prf_neg_ind": "ei olnud otsinud",
+      "v_nfin": "otsima",
+      "v_pass_prs_neg_cond": "ei otsitaks",
+      "v_pass_prs_neg_imp": "ärgu otsitagu",
+      "v_pass_prs_neg_ind": "ei otsita",
+      "v_pass_prs_neg_quot": "ei otsitavat",
+      "v_pass_prs_pos_cond": "otsitaks",
+      "v_pass_prs_pos_imp": "otsitagu",
+      "v_pass_prs_pos_ind": "otsitakse",
+      "v_pass_prs_pos_quot": "otsitavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks otsitud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu otsitud",
+      "v_pass_prs_prf_neg_ind": "ei ole otsitud",
+      "v_pass_prs_prf_neg_quot": "ei olevat otsitud",
+      "v_pass_prs_prf_pos_cond": "oleks otsitud",
+      "v_pass_prs_prf_pos_imp": "olgu otsitud",
+      "v_pass_prs_prf_pos_ind": "on otsitud",
+      "v_pass_prs_prf_pos_quot": "olevat otsitud",
+      "v_pass_pst_neg_ind": "ei otsitud",
+      "v_pass_pst_pos_ind": "otsiti",
+      "v_pass_pst_prf_neg_ind": "ei olnud otsitud",
+      "v_pass_pst_prf_pos_ind": "oli otsitud",
+      "v_ptcp_act_prs": "otsiv",
+      "v_ptcp_act_pst": "otsinud",
+      "v_ptcp_pass_prs": "otsitav",
+      "v_ptcp_pass_pst": "otsitud"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "paluma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "paluma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "palun"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "panema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "panema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_pl": "pange",
+      "v_act_prs_pos_imp_2_sg": "pane",
+      "v_act_prs_pos_ind_1_sg": "panen",
+      "v_act_prs_pos_ind_3_sg": "paneb",
+      "v_act_pst_pos_ind_3_sg": "pani"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "pere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pere",
+    "inflections": {
+      "n_acc_pl": "pered",
+      "n_acc_sg": "pere",
+      "n_at_abl_pl": "peredelt",
+      "n_at_abl_sg": "perelt",
+      "n_at_all_pl": "peredele",
+      "n_at_all_sg": "perele",
+      "n_at_ess_pl": "peredel",
+      "n_at_ess_sg": "perel",
+      "n_com_pl": "peredega",
+      "n_com_sg": "perega",
+      "n_frml_pl": "peredena",
+      "n_frml_sg": "perena",
+      "n_gen_pl": "perede",
+      "n_gen_sg": "pere",
+      "n_in_abl_pl": "peredest",
+      "n_in_abl_sg": "perest",
+      "n_in_all_pl": "peredesse",
+      "n_in_all_sg": "perre",
+      "n_in_ess_pl": "peredes",
+      "n_in_ess_sg": "peres",
+      "n_nom_pl": "pered",
+      "n_nom_sg": "pere",
+      "n_priv_pl": "peredeta",
+      "n_priv_sg": "pereta",
+      "n_prt_pl": "peresid",
+      "n_prt_sg": "peret",
+      "n_term_pl": "peredeni",
+      "n_term_sg": "pereni",
+      "n_trans_pl": "peredeks",
+      "n_trans_sg": "pereks",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "politsei": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "politsei",
+    "inflections": {
+      "n_acc_pl": "politseid",
+      "n_acc_sg": "politsei",
+      "n_at_abl_pl": "politseidelt",
+      "n_at_abl_sg": "politseilt",
+      "n_at_all_pl": "politseidele",
+      "n_at_all_sg": "politseile",
+      "n_at_ess_pl": "politseidel",
+      "n_at_ess_sg": "politseil",
+      "n_com_pl": "politseidega",
+      "n_com_sg": "politseiga",
+      "n_frml_pl": "politseidena",
+      "n_frml_sg": "politseina",
+      "n_gen_pl": "politseide",
+      "n_gen_sg": "politsei",
+      "n_in_abl_pl": "politseidest",
+      "n_in_abl_sg": "politseist",
+      "n_in_all_pl": "politseidesse",
+      "n_in_all_sg": "politseisse",
+      "n_in_ess_pl": "politseides",
+      "n_in_ess_sg": "politseis",
+      "n_nom_pl": "politseid",
+      "n_nom_sg": "politsei",
+      "n_priv_pl": "politseideta",
+      "n_priv_sg": "politseita",
+      "n_prt_pl": "politseisid",
+      "n_prt_sg": "politseid",
+      "n_term_pl": "politseideni",
+      "n_term_sg": "politseini",
+      "n_trans_pl": "politseideks",
+      "n_trans_sg": "politseiks",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "rääkima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rääkima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem rääkigem",
+      "v_act_prs_neg_imp_2_pl": "ärge rääkige",
+      "v_act_prs_neg_imp_2_sg": "ära räägi",
+      "v_act_prs_neg_imp_3_pl": "ärgu rääkigu",
+      "v_act_prs_neg_imp_3_sg": "ärgu rääkigu",
+      "v_act_prs_neg_ind": "ei räägi",
+      "v_act_prs_neg_quot": "ei rääkivat",
+      "v_act_prs_pos_cond_1_pl": "räägiksime",
+      "v_act_prs_pos_cond_1_sg": "räägiksin",
+      "v_act_prs_pos_cond_2_pl": "räägiksite",
+      "v_act_prs_pos_cond_2_sg": "räägiksid",
+      "v_act_prs_pos_cond_3_pl": "räägiksid",
+      "v_act_prs_pos_cond_3_sg": "räägiks",
+      "v_act_prs_pos_imp_1_pl": "rääkigem",
+      "v_act_prs_pos_imp_2_pl": "rääkige",
+      "v_act_prs_pos_imp_2_sg": "räägi",
+      "v_act_prs_pos_imp_3_pl": "rääkigu",
+      "v_act_prs_pos_imp_3_sg": "rääkigu",
+      "v_act_prs_pos_ind_1_pl": "räägime",
+      "v_act_prs_pos_ind_1_sg": "räägin",
+      "v_act_prs_pos_ind_2_pl": "räägite",
+      "v_act_prs_pos_ind_2_sg": "räägid",
+      "v_act_prs_pos_ind_3_pl": "räägivad",
+      "v_act_prs_pos_ind_3_sg": "räägib",
+      "v_act_prs_pos_quot": "rääkivat",
+      "v_act_prs_prf_neg_cond": "ei oleks rääkinud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu rääkinud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu rääkinud",
+      "v_act_prs_prf_neg_quot": "ei olevat rääkinud",
+      "v_act_prs_prf_pos_cond": "oleksin rääkinud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime rääkinud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime rääkinud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei räägiks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin rääkinud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite rääkinud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite rääkinud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid rääkinud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid rääkinud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli rääkinud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid rääkinud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks rääkinud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli rääkinud",
+      "v_act_prs_prf_pos_imp_pl": "olgu rääkinud",
+      "v_act_prs_prf_pos_imp_sg": "olgu rääkinud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme rääkinud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen rääkinud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete rääkinud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled rääkinud",
+      "v_act_prs_prf_pos_ind_3_pl": "on rääkinud",
+      "v_act_prs_prf_pos_ind_3_sg": "on rääkinud",
+      "v_act_prs_prf_pos_quot": "olevat rääkinud",
+      "v_act_pst_neg_ind": "ei rääkinud",
+      "v_act_pst_neg_ind_2": "ei ole rääkinud",
+      "v_act_pst_pos_ind_1_pl": "rääkisime",
+      "v_act_pst_pos_ind_1_sg": "rääkisin",
+      "v_act_pst_pos_ind_2_pl": "rääkisite",
+      "v_act_pst_pos_ind_2_sg": "rääkisid",
+      "v_act_pst_pos_ind_3_pl": "rääkisid",
+      "v_act_pst_pos_ind_3_sg": "rääkis",
+      "v_act_pst_prf_neg_ind": "ei olnud rääkinud",
+      "v_nfin": "rääkima",
+      "v_pass_prs_neg_cond": "ei räägitaks",
+      "v_pass_prs_neg_imp": "ärgu räägitagu",
+      "v_pass_prs_neg_ind": "ei räägita",
+      "v_pass_prs_neg_quot": "ei räägitavat",
+      "v_pass_prs_pos_cond": "räägitaks",
+      "v_pass_prs_pos_imp": "räägitagu",
+      "v_pass_prs_pos_ind": "räägitakse",
+      "v_pass_prs_pos_quot": "räägitavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks räägitud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu räägitud",
+      "v_pass_prs_prf_neg_ind": "ei ole räägitud",
+      "v_pass_prs_prf_neg_quot": "ei olevat räägitud",
+      "v_pass_prs_prf_pos_cond": "oleks räägitud",
+      "v_pass_prs_prf_pos_imp": "olgu räägitud",
+      "v_pass_prs_prf_pos_ind": "on räägitud",
+      "v_pass_prs_prf_pos_quot": "olevat räägitud",
+      "v_pass_pst_neg_ind": "ei räägitud",
+      "v_pass_pst_pos_ind": "räägiti",
+      "v_pass_pst_prf_neg_ind": "ei olnud räägitud",
+      "v_pass_pst_prf_pos_ind": "oli räägitud",
+      "v_ptcp_act_prs": "rääkiv",
+      "v_ptcp_act_pst": "rääkinud",
+      "v_ptcp_pass_prs": "räägitav",
+      "v_ptcp_pass_pst": "räägitud"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "saama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem saagem",
+      "v_act_prs_neg_imp_2_pl": "ärge saage",
+      "v_act_prs_neg_imp_2_sg": "ära saa",
+      "v_act_prs_neg_imp_3_pl": "ärgu saagu",
+      "v_act_prs_neg_imp_3_sg": "ärgu saagu",
+      "v_act_prs_neg_ind": "ei saa",
+      "v_act_prs_neg_quot": "ei saavat",
+      "v_act_prs_pos_cond_1_pl": "saaksime",
+      "v_act_prs_pos_cond_1_sg": "saaksin",
+      "v_act_prs_pos_cond_2_pl": "saaksite",
+      "v_act_prs_pos_cond_2_sg": "saaksid",
+      "v_act_prs_pos_cond_3_pl": "saaksid",
+      "v_act_prs_pos_cond_3_sg": "saaks",
+      "v_act_prs_pos_imp_1_pl": "saagem",
+      "v_act_prs_pos_imp_2_pl": "saage",
+      "v_act_prs_pos_imp_2_sg": "saa",
+      "v_act_prs_pos_imp_3_pl": "saagu",
+      "v_act_prs_pos_imp_3_sg": "saagu",
+      "v_act_prs_pos_ind_1_pl": "saame",
+      "v_act_prs_pos_ind_1_sg": "saan",
+      "v_act_prs_pos_ind_2_pl": "saate",
+      "v_act_prs_pos_ind_2_sg": "saad",
+      "v_act_prs_pos_ind_3_pl": "saavad",
+      "v_act_prs_pos_ind_3_sg": "saab",
+      "v_act_prs_pos_quot": "saavat",
+      "v_act_prs_prf_neg_cond": "ei oleks saanud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu saanud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu saanud",
+      "v_act_prs_prf_neg_quot": "ei olevat saanud",
+      "v_act_prs_prf_pos_cond": "oleksin saanud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime saanud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime saanud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei saaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin saanud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite saanud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite saanud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid saanud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid saanud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli saanud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid saanud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks saanud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli saanud",
+      "v_act_prs_prf_pos_imp_pl": "olgu saanud",
+      "v_act_prs_prf_pos_imp_sg": "olgu saanud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme saanud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen saanud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete saanud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled saanud",
+      "v_act_prs_prf_pos_ind_3_pl": "on saanud",
+      "v_act_prs_prf_pos_ind_3_sg": "on saanud",
+      "v_act_prs_prf_pos_quot": "olevat saanud",
+      "v_act_pst_neg_ind": "ei saanud",
+      "v_act_pst_neg_ind_2": "ei ole saanud",
+      "v_act_pst_pos_ind_1_pl": "saime",
+      "v_act_pst_pos_ind_1_sg": "sain",
+      "v_act_pst_pos_ind_2_pl": "saite",
+      "v_act_pst_pos_ind_2_sg": "said",
+      "v_act_pst_pos_ind_3_pl": "said",
+      "v_act_pst_pos_ind_3_sg": "sai",
+      "v_act_pst_prf_neg_ind": "ei olnud saanud",
+      "v_nfin": "saama",
+      "v_pass_prs_neg_cond": "ei saadaks",
+      "v_pass_prs_neg_imp": "ärgu saadagu",
+      "v_pass_prs_neg_ind": "ei saada",
+      "v_pass_prs_neg_quot": "ei saadavat",
+      "v_pass_prs_pos_cond": "saadaks",
+      "v_pass_prs_pos_imp": "saadagu",
+      "v_pass_prs_pos_ind": "saadakse",
+      "v_pass_prs_pos_quot": "saadavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks saadud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu saadud",
+      "v_pass_prs_prf_neg_ind": "ei ole saadud",
+      "v_pass_prs_prf_neg_quot": "ei olevat saadud",
+      "v_pass_prs_prf_pos_cond": "oleks saadud",
+      "v_pass_prs_prf_pos_imp": "olgu saadud",
+      "v_pass_prs_prf_pos_ind": "on saadud",
+      "v_pass_prs_prf_pos_quot": "olevat saadud",
+      "v_pass_pst_neg_ind": "ei saadud",
+      "v_pass_pst_pos_ind": "saadi",
+      "v_pass_pst_prf_neg_ind": "ei olnud saadud",
+      "v_pass_pst_prf_pos_ind": "oli saadud",
+      "v_ptcp_act_prs": "saav",
+      "v_ptcp_act_pst": "saanud",
+      "v_ptcp_pass_prs": "saadav",
+      "v_ptcp_pass_pst": "saadud"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "saatma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saatma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "saada",
+      "v_act_pst_pos_ind_3_sg": "saatis"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "saav": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saav",
+    "inflections": {
+      "n_acc_pl": "saavad",
+      "n_nom_pl": "saavad",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "siduma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "siduma",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pass_pst": "seotud"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "soovima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "soovima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "soovin",
+      "v_act_prs_pos_ind_2_pl": "soovite",
+      "v_act_prs_pos_ind_2_sg": "soovid"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "surema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "surema",
+    "inflections": {
+      "regulars": [],
+      "v_act_pst_pos_ind_3_sg": "suri",
+      "v_ptcp_act_pst": "surnud"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "surmama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "surmama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "surma"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "suu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "suu",
+    "inflections": {
+      "n_acc_pl": "suud",
+      "n_acc_sg": "suu",
+      "n_at_abl_pl": "suudeltsuilt",
+      "n_at_abl_sg": "suult",
+      "n_at_all_pl": "suudelesuile",
+      "n_at_all_sg": "suule",
+      "n_at_ess_pl": "suudelsuil",
+      "n_at_ess_sg": "suul",
+      "n_com_pl": "suudega",
+      "n_com_sg": "suuga",
+      "n_frml_pl": "suudena",
+      "n_frml_sg": "suuna",
+      "n_gen_pl": "suude",
+      "n_gen_sg": "suu",
+      "n_in_abl_pl": "suudestsuist",
+      "n_in_abl_sg": "suust",
+      "n_in_all_pl": "suudessesuisse",
+      "n_in_all_sg": "suussesuhu",
+      "n_in_ess_pl": "suudessuis",
+      "n_in_ess_sg": "suus",
+      "n_nom_pl": "suud",
+      "n_nom_sg": "suu",
+      "n_priv_pl": "suudeta",
+      "n_priv_sg": "suuta",
+      "n_prt_pl": "suidsuusid",
+      "n_prt_sg": "suud",
+      "n_term_pl": "suudeni",
+      "n_term_sg": "suuni",
+      "n_trans_pl": "suudekssuiks",
+      "n_trans_sg": "suuks",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "suur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "suur",
+    "inflections": {
+      "n_acc_pl": "suured",
+      "n_acc_sg": "suure",
+      "n_at_abl_pl": "suurtelt",
+      "n_at_abl_sg": "suurelt",
+      "n_at_all_pl": "suurtele",
+      "n_at_all_sg": "suurele",
+      "n_at_ess_pl": "suurtel",
+      "n_at_ess_sg": "suurel",
+      "n_com_pl": "suurtega",
+      "n_com_sg": "suurega",
+      "n_frml_pl": "suurtena",
+      "n_frml_sg": "suurena",
+      "n_gen_pl": "suurte",
+      "n_gen_sg": "suure",
+      "n_in_abl_pl": "suurtest",
+      "n_in_abl_sg": "suurest",
+      "n_in_all_pl": "suurtesse",
+      "n_in_all_sg": "suurde",
+      "n_in_ess_pl": "suurtes",
+      "n_in_ess_sg": "suures",
+      "n_nom_pl": "suured",
+      "n_nom_sg": "suur",
+      "n_priv_pl": "suurteta",
+      "n_priv_sg": "suureta",
+      "n_prt_pl": "suuri",
+      "n_prt_sg": "suurt",
+      "n_term_pl": "suurteni",
+      "n_term_sg": "suureni",
+      "n_trans_pl": "suurteks",
+      "n_trans_sg": "suureks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "sõda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sõda",
+    "inflections": {
+      "n_acc_pl": "sõjad",
+      "n_acc_sg": "sõja",
+      "n_at_abl_pl": "sõdadeltsõjult",
+      "n_at_abl_sg": "sõjalt",
+      "n_at_all_pl": "sõdadelesõjule",
+      "n_at_all_sg": "sõjale",
+      "n_at_ess_pl": "sõdadelsõjul",
+      "n_at_ess_sg": "sõjal",
+      "n_com_pl": "sõdadega",
+      "n_com_sg": "sõjaga",
+      "n_frml_pl": "sõdadena",
+      "n_frml_sg": "sõjana",
+      "n_gen_pl": "sõdade",
+      "n_gen_sg": "sõja",
+      "n_in_abl_pl": "sõdadestsõjust",
+      "n_in_abl_sg": "sõjast",
+      "n_in_all_pl": "sõdadessesõjusse",
+      "n_in_all_sg": "sõttasõjasse",
+      "n_in_ess_pl": "sõdadessõjus",
+      "n_in_ess_sg": "sõjas",
+      "n_nom_pl": "sõjad",
+      "n_nom_sg": "sõda",
+      "n_priv_pl": "sõdadeta",
+      "n_priv_sg": "sõjata",
+      "n_prt_pl": "sõdu",
+      "n_prt_sg": "sõda",
+      "n_term_pl": "sõdadeni",
+      "n_term_sg": "sõjani",
+      "n_trans_pl": "sõdadekssõjuks",
+      "n_trans_sg": "sõjaks",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "sõna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sõna",
+    "inflections": {
+      "n_acc_pl": "sõnad",
+      "n_acc_sg": "sõna",
+      "n_at_abl_pl": "sõnadelt",
+      "n_at_abl_sg": "sõnalt",
+      "n_at_all_pl": "sõnadele",
+      "n_at_all_sg": "sõnale",
+      "n_at_ess_pl": "sõnadel",
+      "n_at_ess_sg": "sõnal",
+      "n_com_pl": "sõnadega",
+      "n_com_sg": "sõnaga",
+      "n_frml_pl": "sõnadena",
+      "n_frml_sg": "sõnana",
+      "n_gen_pl": "sõnade",
+      "n_gen_sg": "sõna",
+      "n_in_abl_pl": "sõnadest",
+      "n_in_abl_sg": "sõnast",
+      "n_in_all_pl": "sõnadesse",
+      "n_in_all_sg": "sõnna",
+      "n_in_ess_pl": "sõnades",
+      "n_in_ess_sg": "sõnas",
+      "n_nom_pl": "sõnad",
+      "n_nom_sg": "sõna",
+      "n_priv_pl": "sõnadeta",
+      "n_priv_sg": "sõnata",
+      "n_prt_pl": "sõnu",
+      "n_prt_sg": "sõna",
+      "n_term_pl": "sõnadeni",
+      "n_term_sg": "sõnani",
+      "n_trans_pl": "sõnadeks",
+      "n_trans_sg": "sõnaks",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tahtma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tahtma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_cond_1_sg": "tahaksin",
+      "v_act_prs_pos_cond_3_sg": "tahaks",
+      "v_act_prs_pos_imp_2_sg": "taha",
+      "v_act_prs_pos_ind_1_pl": "tahame",
+      "v_act_prs_pos_ind_1_sg": "tahan",
+      "v_act_prs_pos_ind_2_pl": "tahate",
+      "v_act_prs_pos_ind_2_sg": "tahad",
+      "v_act_prs_pos_ind_3_pl": "tahavad",
+      "v_act_prs_pos_ind_3_sg": "tahab",
+      "v_act_pst_pos_ind_1_sg": "tahtsin",
+      "v_act_pst_pos_ind_2_sg": "tahtsid",
+      "v_act_pst_pos_ind_3_pl": "tahtsid",
+      "v_act_pst_pos_ind_3_sg": "tahtis",
+      "v_ptcp_act_pst": "tahtnud"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tapma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tapma",
+    "inflections": {
+      "regulars": [],
+      "v_act_pst_pos_ind_2_sg": "tapsid",
+      "v_act_pst_pos_ind_3_pl": "tapsid",
+      "v_act_pst_pos_ind_3_sg": "tappis"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "teadma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "teadma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem teadkem",
+      "v_act_prs_neg_imp_2_pl": "ärge teadke",
+      "v_act_prs_neg_imp_2_sg": "ära tea",
+      "v_act_prs_neg_imp_3_pl": "ärgu teadku",
+      "v_act_prs_neg_imp_3_sg": "ärgu teadku",
+      "v_act_prs_neg_ind": "ei tea",
+      "v_act_prs_neg_quot": "ei teadvat",
+      "v_act_prs_pos_cond_1_pl": "teaksime",
+      "v_act_prs_pos_cond_1_sg": "teaksin",
+      "v_act_prs_pos_cond_2_pl": "teaksite",
+      "v_act_prs_pos_cond_2_sg": "teaksid",
+      "v_act_prs_pos_cond_3_pl": "teaksid",
+      "v_act_prs_pos_cond_3_sg": "teaks",
+      "v_act_prs_pos_imp_1_pl": "teadkem",
+      "v_act_prs_pos_imp_2_pl": "teadke",
+      "v_act_prs_pos_imp_2_sg": "tea",
+      "v_act_prs_pos_imp_3_pl": "teadku",
+      "v_act_prs_pos_imp_3_sg": "teadku",
+      "v_act_prs_pos_ind_1_pl": "teame",
+      "v_act_prs_pos_ind_1_sg": "tean",
+      "v_act_prs_pos_ind_2_pl": "teate",
+      "v_act_prs_pos_ind_2_sg": "tead",
+      "v_act_prs_pos_ind_3_pl": "teavad",
+      "v_act_prs_pos_ind_3_sg": "teab",
+      "v_act_prs_pos_quot": "teadvat",
+      "v_act_prs_prf_neg_cond": "ei oleks teadnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu teadnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu teadnud",
+      "v_act_prs_prf_neg_quot": "ei olevat teadnud",
+      "v_act_prs_prf_pos_cond": "oleksin teadnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime teadnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime teadnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei teaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin teadnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite teadnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite teadnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid teadnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid teadnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli teadnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid teadnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks teadnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli teadnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu teadnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu teadnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme teadnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen teadnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete teadnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled teadnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on teadnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on teadnud",
+      "v_act_prs_prf_pos_quot": "olevat teadnud",
+      "v_act_pst_neg_ind": "ei teadnud",
+      "v_act_pst_neg_ind_2": "ei ole teadnud",
+      "v_act_pst_pos_ind_1_pl": "teadsime",
+      "v_act_pst_pos_ind_1_sg": "teadsin",
+      "v_act_pst_pos_ind_2_pl": "teadsite",
+      "v_act_pst_pos_ind_2_sg": "teadsid",
+      "v_act_pst_pos_ind_3_pl": "teadsid",
+      "v_act_pst_pos_ind_3_sg": "teadis",
+      "v_act_pst_prf_neg_ind": "ei olnud teadnud",
+      "v_nfin": "teadma",
+      "v_pass_prs_neg_cond": "ei teataks",
+      "v_pass_prs_neg_imp": "ärgu teatagu",
+      "v_pass_prs_neg_ind": "ei teata",
+      "v_pass_prs_neg_quot": "ei teatavat",
+      "v_pass_prs_pos_cond": "teataks",
+      "v_pass_prs_pos_imp": "teatagu",
+      "v_pass_prs_pos_ind": "teatakse",
+      "v_pass_prs_pos_quot": "teatavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks teatud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu teatud",
+      "v_pass_prs_prf_neg_ind": "ei ole teatud",
+      "v_pass_prs_prf_neg_quot": "ei olevat teatud",
+      "v_pass_prs_prf_pos_cond": "oleks teatud",
+      "v_pass_prs_prf_pos_imp": "olgu teatud",
+      "v_pass_prs_prf_pos_ind": "on teatud",
+      "v_pass_prs_prf_pos_quot": "olevat teatud",
+      "v_pass_pst_neg_ind": "ei teatud",
+      "v_pass_pst_pos_ind": "teati",
+      "v_pass_pst_prf_neg_ind": "ei olnud teatud",
+      "v_pass_pst_prf_pos_ind": "oli teatud",
+      "v_ptcp_act_prs": "teadev",
+      "v_ptcp_act_pst": "teadnud",
+      "v_ptcp_pass_prs": "teatav",
+      "v_ptcp_pass_pst": "teatud"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tegelik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tegelik",
+    "inflections": {
+      "n_at_abl_sg": "tegelikult",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "tegema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tegema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem tehkem",
+      "v_act_prs_neg_imp_2_pl": "ärge tehke",
+      "v_act_prs_neg_imp_2_sg": "ära tee",
+      "v_act_prs_neg_imp_3_pl": "ärgu tehku",
+      "v_act_prs_neg_imp_3_sg": "ärgu tehku",
+      "v_act_prs_neg_ind": "ei tee",
+      "v_act_prs_neg_quot": "ei tegevat",
+      "v_act_prs_pos_cond_1_pl": "teeksime",
+      "v_act_prs_pos_cond_1_sg": "teeksin",
+      "v_act_prs_pos_cond_2_pl": "teeksite",
+      "v_act_prs_pos_cond_2_sg": "teeksid",
+      "v_act_prs_pos_cond_3_pl": "teeksid",
+      "v_act_prs_pos_cond_3_sg": "teeks",
+      "v_act_prs_pos_imp_1_pl": "tehkem",
+      "v_act_prs_pos_imp_2_pl": "tehke",
+      "v_act_prs_pos_imp_2_sg": "tee",
+      "v_act_prs_pos_imp_3_pl": "tehku",
+      "v_act_prs_pos_imp_3_sg": "tehku",
+      "v_act_prs_pos_ind_1_pl": "teeme",
+      "v_act_prs_pos_ind_1_sg": "teen",
+      "v_act_prs_pos_ind_2_pl": "teete",
+      "v_act_prs_pos_ind_2_sg": "teed",
+      "v_act_prs_pos_ind_3_pl": "teevad",
+      "v_act_prs_pos_ind_3_sg": "teeb",
+      "v_act_prs_pos_quot": "tegevat",
+      "v_act_prs_prf_neg_cond": "ei oleks teinud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu teinud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu teinud",
+      "v_act_prs_prf_neg_quot": "ei olevat teinud",
+      "v_act_prs_prf_pos_cond": "oleksin teinud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime teinud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime teinud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei teeks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin teinud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite teinud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite teinud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid teinud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid teinud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli teinud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid teinud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks teinud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli teinud",
+      "v_act_prs_prf_pos_imp_pl": "olgu teinud",
+      "v_act_prs_prf_pos_imp_sg": "olgu teinud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme teinud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen teinud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete teinud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled teinud",
+      "v_act_prs_prf_pos_ind_3_pl": "on teinud",
+      "v_act_prs_prf_pos_ind_3_sg": "on teinud",
+      "v_act_prs_prf_pos_quot": "olevat teinud",
+      "v_act_pst_neg_ind": "ei teinud",
+      "v_act_pst_neg_ind_2": "ei ole teinud",
+      "v_act_pst_pos_ind_1_pl": "tegime",
+      "v_act_pst_pos_ind_1_sg": "tegin",
+      "v_act_pst_pos_ind_2_pl": "tegite",
+      "v_act_pst_pos_ind_2_sg": "tegid",
+      "v_act_pst_pos_ind_3_pl": "tegid",
+      "v_act_pst_pos_ind_3_sg": "tegi",
+      "v_act_pst_prf_neg_ind": "ei olnud teinud",
+      "v_nfin": "tegema",
+      "v_pass_prs_neg_cond": "ei tehtaks",
+      "v_pass_prs_neg_imp": "ärgu tehtagu",
+      "v_pass_prs_neg_ind": "ei tehta",
+      "v_pass_prs_neg_quot": "ei tehtavat",
+      "v_pass_prs_pos_cond": "tehtaks",
+      "v_pass_prs_pos_imp": "tehtagu",
+      "v_pass_prs_pos_ind": "tehakse",
+      "v_pass_prs_pos_quot": "tehtavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks tehtud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu tehtud",
+      "v_pass_prs_prf_neg_ind": "ei ole tehtud",
+      "v_pass_prs_prf_neg_quot": "ei olevat tehtud",
+      "v_pass_prs_prf_pos_cond": "oleks tehtud",
+      "v_pass_prs_prf_pos_imp": "olgu tehtud",
+      "v_pass_prs_prf_pos_ind": "on tehtud",
+      "v_pass_prs_prf_pos_quot": "olevat tehtud",
+      "v_pass_pst_neg_ind": "ei tehtud",
+      "v_pass_pst_pos_ind": "tehti",
+      "v_pass_pst_prf_neg_ind": "ei olnud tehtud",
+      "v_pass_pst_prf_pos_ind": "oli tehtud",
+      "v_ptcp_act_prs": "tegev",
+      "v_ptcp_act_pst": "teinud",
+      "v_ptcp_pass_prs": "tehtav",
+      "v_ptcp_pass_pst": "tehtud"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tooma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tooma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "too",
+      "v_act_prs_pos_ind_1_sg": "toon"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tulema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tulema",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem tulgem",
+      "v_act_prs_neg_imp_2_pl": "ärge tulge",
+      "v_act_prs_neg_imp_2_sg": "ära tule",
+      "v_act_prs_neg_imp_3_pl": "ärgu tulgu",
+      "v_act_prs_neg_imp_3_sg": "ärgu tulgu",
+      "v_act_prs_neg_ind": "ei tule",
+      "v_act_prs_neg_quot": "ei tulevat",
+      "v_act_prs_pos_cond_1_pl": "tuleksime",
+      "v_act_prs_pos_cond_1_sg": "tuleksin",
+      "v_act_prs_pos_cond_2_pl": "tuleksite",
+      "v_act_prs_pos_cond_2_sg": "tuleksid",
+      "v_act_prs_pos_cond_3_pl": "tuleksid",
+      "v_act_prs_pos_cond_3_sg": "tuleks",
+      "v_act_prs_pos_imp_1_pl": "tulgem",
+      "v_act_prs_pos_imp_2_pl": "tulge",
+      "v_act_prs_pos_imp_2_sg": "tule",
+      "v_act_prs_pos_imp_3_pl": "tulgu",
+      "v_act_prs_pos_imp_3_sg": "tulgu",
+      "v_act_prs_pos_ind_1_pl": "tuleme",
+      "v_act_prs_pos_ind_1_sg": "tulen",
+      "v_act_prs_pos_ind_2_pl": "tulete",
+      "v_act_prs_pos_ind_2_sg": "tuled",
+      "v_act_prs_pos_ind_3_pl": "tulevad",
+      "v_act_prs_pos_ind_3_sg": "tuleb",
+      "v_act_prs_pos_quot": "tulevat",
+      "v_act_prs_prf_neg_cond": "ei oleks tulnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu tulnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu tulnud",
+      "v_act_prs_prf_neg_quot": "ei olevat tulnud",
+      "v_act_prs_prf_pos_cond": "oleksin tulnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime tulnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime tulnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei tuleks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin tulnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite tulnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite tulnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid tulnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid tulnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli tulnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid tulnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks tulnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli tulnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu tulnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu tulnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme tulnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen tulnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete tulnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled tulnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on tulnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on tulnud",
+      "v_act_prs_prf_pos_quot": "olevat tulnud",
+      "v_act_pst_neg_ind": "ei tulnud",
+      "v_act_pst_neg_ind_2": "ei ole tulnud",
+      "v_act_pst_pos_ind_1_pl": "tulime",
+      "v_act_pst_pos_ind_1_sg": "tulin",
+      "v_act_pst_pos_ind_2_pl": "tulite",
+      "v_act_pst_pos_ind_2_sg": "tulid",
+      "v_act_pst_pos_ind_3_pl": "tulid",
+      "v_act_pst_pos_ind_3_sg": "tuli",
+      "v_act_pst_prf_neg_ind": "ei olnud tulnud",
+      "v_nfin": "tulema",
+      "v_pass_prs_neg_cond": "ei tuldaks",
+      "v_pass_prs_neg_imp": "ärgu tuldagu",
+      "v_pass_prs_neg_ind": "ei tulda",
+      "v_pass_prs_neg_quot": "ei tuldavat",
+      "v_pass_prs_pos_cond": "tuldaks",
+      "v_pass_prs_pos_imp": "tuldagu",
+      "v_pass_prs_pos_ind": "tullakse",
+      "v_pass_prs_pos_quot": "tuldavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks tuldud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu tuldud",
+      "v_pass_prs_prf_neg_ind": "ei ole tuldud",
+      "v_pass_prs_prf_neg_quot": "ei olevat tuldud",
+      "v_pass_prs_prf_pos_cond": "oleks tuldud",
+      "v_pass_prs_prf_pos_imp": "olgu tuldud",
+      "v_pass_prs_prf_pos_ind": "on tuldud",
+      "v_pass_prs_prf_pos_quot": "olevat tuldud",
+      "v_pass_pst_neg_ind": "ei tuldud",
+      "v_pass_pst_pos_ind": "tuldi",
+      "v_pass_pst_prf_neg_ind": "ei olnud tuldud",
+      "v_pass_pst_prf_pos_ind": "oli tuldud",
+      "v_ptcp_act_prs": "tulev",
+      "v_ptcp_act_pst": "tulnud",
+      "v_ptcp_pass_prs": "tuldav",
+      "v_ptcp_pass_pst": "tuldud"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tundma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tundma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem tundkem",
+      "v_act_prs_neg_imp_2_pl": "ärge tundke",
+      "v_act_prs_neg_imp_2_sg": "ära tunne",
+      "v_act_prs_neg_imp_3_pl": "ärgu tundku",
+      "v_act_prs_neg_imp_3_sg": "ärgu tundku",
+      "v_act_prs_neg_ind": "ei tunne",
+      "v_act_prs_neg_quot": "ei tundvat",
+      "v_act_prs_pos_cond_1_pl": "tunneksime",
+      "v_act_prs_pos_cond_1_sg": "tunneksin",
+      "v_act_prs_pos_cond_2_pl": "tunneksite",
+      "v_act_prs_pos_cond_2_sg": "tunneksid",
+      "v_act_prs_pos_cond_3_pl": "tunneksid",
+      "v_act_prs_pos_cond_3_sg": "tunneks",
+      "v_act_prs_pos_imp_1_pl": "tundkem",
+      "v_act_prs_pos_imp_2_pl": "tundke",
+      "v_act_prs_pos_imp_2_sg": "tunne",
+      "v_act_prs_pos_imp_3_pl": "tundku",
+      "v_act_prs_pos_imp_3_sg": "tundku",
+      "v_act_prs_pos_ind_1_pl": "tunneme",
+      "v_act_prs_pos_ind_1_sg": "tunnen",
+      "v_act_prs_pos_ind_2_pl": "tunnete",
+      "v_act_prs_pos_ind_2_sg": "tunned",
+      "v_act_prs_pos_ind_3_pl": "tunnevad",
+      "v_act_prs_pos_ind_3_sg": "tunneb",
+      "v_act_prs_pos_quot": "tundvat",
+      "v_act_prs_prf_neg_cond": "ei oleks tundnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu tundnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu tundnud",
+      "v_act_prs_prf_neg_quot": "ei olevat tundnud",
+      "v_act_prs_prf_pos_cond": "oleksin tundnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime tundnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime tundnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei tunneks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin tundnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite tundnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite tundnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid tundnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid tundnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli tundnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid tundnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks tundnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli tundnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu tundnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu tundnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme tundnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen tundnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete tundnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled tundnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on tundnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on tundnud",
+      "v_act_prs_prf_pos_quot": "olevat tundnud",
+      "v_act_pst_neg_ind": "ei tundnud",
+      "v_act_pst_neg_ind_2": "ei ole tundnud",
+      "v_act_pst_pos_ind_1_pl": "tundsime",
+      "v_act_pst_pos_ind_1_sg": "tundsin",
+      "v_act_pst_pos_ind_2_pl": "tundsite",
+      "v_act_pst_pos_ind_2_sg": "tundsid",
+      "v_act_pst_pos_ind_3_pl": "tundsid",
+      "v_act_pst_pos_ind_3_sg": "tundis",
+      "v_act_pst_prf_neg_ind": "ei olnud tundnud",
+      "v_nfin": "tundma",
+      "v_pass_prs_neg_cond": "ei tunnetaks",
+      "v_pass_prs_neg_imp": "ärgu tunnetagu",
+      "v_pass_prs_neg_ind": "ei tunneta",
+      "v_pass_prs_neg_quot": "ei tunnetavat",
+      "v_pass_prs_pos_cond": "tunnetaks",
+      "v_pass_prs_pos_imp": "tunnetagu",
+      "v_pass_prs_pos_ind": "tunnetakse",
+      "v_pass_prs_pos_quot": "tunnetavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks tunnetud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu tunnetud",
+      "v_pass_prs_prf_neg_ind": "ei ole tunnetud",
+      "v_pass_prs_prf_neg_quot": "ei olevat tunnetud",
+      "v_pass_prs_prf_pos_cond": "oleks tunnetud",
+      "v_pass_prs_prf_pos_imp": "olgu tunnetud",
+      "v_pass_prs_prf_pos_ind": "on tunnetud",
+      "v_pass_prs_prf_pos_quot": "olevat tunnetud",
+      "v_pass_pst_neg_ind": "ei tunnetud",
+      "v_pass_pst_pos_ind": "tunneti",
+      "v_pass_pst_prf_neg_ind": "ei olnud tunnetud",
+      "v_pass_pst_prf_pos_ind": "oli tunnetud",
+      "v_ptcp_act_prs": "tundev",
+      "v_ptcp_act_pst": "tundnud",
+      "v_ptcp_pass_prs": "tunnetav",
+      "v_ptcp_pass_pst": "tunnetud"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tähendama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tähendama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_3_sg": "tähendab"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "täi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "täi",
+    "inflections": {
+      "n_in_ess_sg": "täis",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tänama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tänama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "täna",
+      "v_act_prs_pos_ind_1_sg": "tänan"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "tõsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tõsi",
+    "inflections": {
+      "n_acc_pl": "tõed",
+      "n_acc_sg": "tõe",
+      "n_at_abl_pl": "tõtelttõsilt",
+      "n_at_abl_sg": "tõelt",
+      "n_at_all_pl": "tõteletõsile",
+      "n_at_all_sg": "tõele",
+      "n_at_ess_pl": "tõteltõsil",
+      "n_at_ess_sg": "tõel",
+      "n_com_pl": "tõtega",
+      "n_com_sg": "tõega",
+      "n_frml_pl": "tõtena",
+      "n_frml_sg": "tõena",
+      "n_gen_pl": "tõte",
+      "n_gen_sg": "tõe",
+      "n_in_abl_pl": "tõtesttõsist",
+      "n_in_abl_sg": "tõest",
+      "n_in_all_pl": "tõtessetõsisse",
+      "n_in_all_sg": "tõttetõesse",
+      "n_in_ess_pl": "tõtestõsis",
+      "n_in_ess_sg": "tões",
+      "n_nom_pl": "tõed",
+      "n_nom_sg": "tõsi",
+      "n_priv_pl": "tõteta",
+      "n_priv_sg": "tõeta",
+      "n_prt_pl": "tõsi",
+      "n_prt_sg": "tõtt",
+      "n_term_pl": "tõteni",
+      "n_term_sg": "tõeni",
+      "n_trans_pl": "tõtekstõsiks",
+      "n_trans_sg": "tõeks",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "töö": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "töö",
+    "inflections": {
+      "n_acc_pl": "tööd",
+      "n_acc_sg": "töö",
+      "n_at_abl_pl": "töödelttöilt",
+      "n_at_abl_sg": "töölt",
+      "n_at_all_pl": "töödeletöile",
+      "n_at_all_sg": "tööle",
+      "n_at_ess_pl": "töödeltöil",
+      "n_at_ess_sg": "tööl",
+      "n_com_pl": "töödega",
+      "n_com_sg": "tööga",
+      "n_frml_pl": "töödena",
+      "n_frml_sg": "tööna",
+      "n_gen_pl": "tööde",
+      "n_gen_sg": "töö",
+      "n_in_abl_pl": "töödesttöist",
+      "n_in_abl_sg": "tööst",
+      "n_in_all_pl": "töödessetöisse",
+      "n_in_all_sg": "töösse",
+      "n_in_ess_pl": "töödestöis",
+      "n_in_ess_sg": "töös",
+      "n_nom_pl": "tööd",
+      "n_nom_sg": "töö",
+      "n_priv_pl": "töödeta",
+      "n_priv_sg": "tööta",
+      "n_prt_pl": "töidtöösid",
+      "n_prt_sg": "tööd",
+      "n_term_pl": "töödeni",
+      "n_term_sg": "tööni",
+      "n_trans_pl": "töödekstöiks",
+      "n_trans_sg": "tööks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "tüdruk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tüdruk",
+    "inflections": {
+      "n_acc_pl": "tüdrukud",
+      "n_acc_sg": "tüdruku",
+      "n_at_abl_pl": "tüdrukutelt",
+      "n_at_abl_sg": "tüdrukult",
+      "n_at_all_pl": "tüdrukutele",
+      "n_at_all_sg": "tüdrukule",
+      "n_at_ess_pl": "tüdrukutel",
+      "n_at_ess_sg": "tüdrukul",
+      "n_com_pl": "tüdrukutega",
+      "n_com_sg": "tüdrukuga",
+      "n_frml_pl": "tüdrukutena",
+      "n_frml_sg": "tüdrukuna",
+      "n_gen_pl": "tüdrukute",
+      "n_gen_sg": "tüdruku",
+      "n_in_abl_pl": "tüdrukutest",
+      "n_in_abl_sg": "tüdrukust",
+      "n_in_all_pl": "tüdrukutesse",
+      "n_in_all_sg": "tüdrukusse",
+      "n_in_ess_pl": "tüdrukutes",
+      "n_in_ess_sg": "tüdrukus",
+      "n_nom_pl": "tüdrukud",
+      "n_nom_sg": "tüdruk",
+      "n_priv_pl": "tüdrukuteta",
+      "n_priv_sg": "tüdrukuta",
+      "n_prt_pl": "tüdrukuid",
+      "n_prt_sg": "tüdrukut",
+      "n_term_pl": "tüdrukuteni",
+      "n_term_sg": "tüdrukuni",
+      "n_trans_pl": "tüdrukuteks",
+      "n_trans_sg": "tüdrukuks",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "tütar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tütar",
+    "inflections": {
+      "n_acc_pl": "tütred",
+      "n_acc_sg": "tütre",
+      "n_at_abl_pl": "tütardelt",
+      "n_at_abl_sg": "tütrelt",
+      "n_at_all_pl": "tütardele",
+      "n_at_all_sg": "tütrele",
+      "n_at_ess_pl": "tütardel",
+      "n_at_ess_sg": "tütrel",
+      "n_com_pl": "tütardega",
+      "n_com_sg": "tütrega",
+      "n_frml_pl": "tütardena",
+      "n_frml_sg": "tütrena",
+      "n_gen_pl": "tütarde",
+      "n_gen_sg": "tütre",
+      "n_in_abl_pl": "tütardest",
+      "n_in_abl_sg": "tütrest",
+      "n_in_all_pl": "tütardesse",
+      "n_in_all_sg": "tütresse",
+      "n_in_ess_pl": "tütardes",
+      "n_in_ess_sg": "tütres",
+      "n_nom_pl": "tütred",
+      "n_nom_sg": "tütar",
+      "n_priv_pl": "tütardeta",
+      "n_priv_sg": "tütreta",
+      "n_prt_pl": "tütreid",
+      "n_prt_sg": "tütart",
+      "n_term_pl": "tütardeni",
+      "n_term_sg": "tütreni",
+      "n_trans_pl": "tütardeks",
+      "n_trans_sg": "tütreks",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "unustama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "unustama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_imp_2_sg": "unusta"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "uus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uus",
+    "inflections": {
+      "n_acc_pl": "uued",
+      "n_acc_sg": "uue",
+      "n_at_abl_pl": "uuteltuusilt",
+      "n_at_abl_sg": "uuelt",
+      "n_at_all_pl": "uuteleuusile",
+      "n_at_all_sg": "uuele",
+      "n_at_ess_pl": "uuteluusil",
+      "n_at_ess_sg": "uuel",
+      "n_com_pl": "uutega",
+      "n_com_sg": "uuega",
+      "n_frml_pl": "uutena",
+      "n_frml_sg": "uuena",
+      "n_gen_pl": "uute",
+      "n_gen_sg": "uue",
+      "n_in_abl_pl": "uutestuusist",
+      "n_in_abl_sg": "uuest",
+      "n_in_all_pl": "uutesseuusisse",
+      "n_in_all_sg": "uudeuuesse",
+      "n_in_ess_pl": "uutesuusis",
+      "n_in_ess_sg": "uues",
+      "n_nom_pl": "uued",
+      "n_nom_sg": "uus",
+      "n_priv_pl": "uuteta",
+      "n_priv_sg": "uueta",
+      "n_prt_pl": "uusi",
+      "n_prt_sg": "uut",
+      "n_term_pl": "uuteni",
+      "n_term_sg": "uueni",
+      "n_trans_pl": "uuteksuusiks",
+      "n_trans_sg": "uueks",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "vaatama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaatama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem vaadakem",
+      "v_act_prs_neg_imp_2_pl": "ärge vaadake",
+      "v_act_prs_neg_imp_2_sg": "ära vaata",
+      "v_act_prs_neg_imp_3_pl": "ärgu vaadaku",
+      "v_act_prs_neg_imp_3_sg": "ärgu vaadaku",
+      "v_act_prs_neg_ind": "ei vaata",
+      "v_act_prs_neg_quot": "ei vaatavat",
+      "v_act_prs_pos_cond_1_pl": "vaataksime",
+      "v_act_prs_pos_cond_1_sg": "vaataksin",
+      "v_act_prs_pos_cond_2_pl": "vaataksite",
+      "v_act_prs_pos_cond_2_sg": "vaataksid",
+      "v_act_prs_pos_cond_3_pl": "vaataksid",
+      "v_act_prs_pos_cond_3_sg": "vaataks",
+      "v_act_prs_pos_imp_1_pl": "vaadakem",
+      "v_act_prs_pos_imp_2_pl": "vaadake",
+      "v_act_prs_pos_imp_2_sg": "vaata",
+      "v_act_prs_pos_imp_3_pl": "vaadaku",
+      "v_act_prs_pos_imp_3_sg": "vaadaku",
+      "v_act_prs_pos_ind_1_pl": "vaatame",
+      "v_act_prs_pos_ind_1_sg": "vaatan",
+      "v_act_prs_pos_ind_2_pl": "vaatate",
+      "v_act_prs_pos_ind_2_sg": "vaatad",
+      "v_act_prs_pos_ind_3_pl": "vaatavad",
+      "v_act_prs_pos_ind_3_sg": "vaatab",
+      "v_act_prs_pos_quot": "vaatavat",
+      "v_act_prs_prf_neg_cond": "ei oleks vaadanud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu vaadanud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu vaadanud",
+      "v_act_prs_prf_neg_quot": "ei olevat vaadanud",
+      "v_act_prs_prf_pos_cond": "oleksin vaadanud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime vaadanud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime vaadanud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei vaataks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin vaadanud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite vaadanud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite vaadanud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid vaadanud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid vaadanud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli vaadanud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid vaadanud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks vaadanud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli vaadanud",
+      "v_act_prs_prf_pos_imp_pl": "olgu vaadanud",
+      "v_act_prs_prf_pos_imp_sg": "olgu vaadanud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme vaadanud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen vaadanud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete vaadanud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled vaadanud",
+      "v_act_prs_prf_pos_ind_3_pl": "on vaadanud",
+      "v_act_prs_prf_pos_ind_3_sg": "on vaadanud",
+      "v_act_prs_prf_pos_quot": "olevat vaadanud",
+      "v_act_pst_neg_ind": "ei vaadanud",
+      "v_act_pst_neg_ind_2": "ei ole vaadanud",
+      "v_act_pst_pos_ind_1_pl": "vaatasime",
+      "v_act_pst_pos_ind_1_sg": "vaatasin",
+      "v_act_pst_pos_ind_2_pl": "vaatasite",
+      "v_act_pst_pos_ind_2_sg": "vaatasid",
+      "v_act_pst_pos_ind_3_pl": "vaatasid",
+      "v_act_pst_pos_ind_3_sg": "vaatas",
+      "v_act_pst_prf_neg_ind": "ei olnud vaadanud",
+      "v_nfin": "vaatama",
+      "v_pass_prs_neg_cond": "ei vaadataks",
+      "v_pass_prs_neg_imp": "ärgu vaadatagu",
+      "v_pass_prs_neg_ind": "ei vaadata",
+      "v_pass_prs_neg_quot": "ei vaadatavat",
+      "v_pass_prs_pos_cond": "vaadataks",
+      "v_pass_prs_pos_imp": "vaadatagu",
+      "v_pass_prs_pos_ind": "vaadatakse",
+      "v_pass_prs_pos_quot": "vaadatavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks vaadatud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu vaadatud",
+      "v_pass_prs_prf_neg_ind": "ei ole vaadatud",
+      "v_pass_prs_prf_neg_quot": "ei olevat vaadatud",
+      "v_pass_prs_prf_pos_cond": "oleks vaadatud",
+      "v_pass_prs_prf_pos_imp": "olgu vaadatud",
+      "v_pass_prs_prf_pos_ind": "on vaadatud",
+      "v_pass_prs_prf_pos_quot": "olevat vaadatud",
+      "v_pass_pst_neg_ind": "ei vaadatud",
+      "v_pass_pst_pos_ind": "vaadati",
+      "v_pass_pst_prf_neg_ind": "ei olnud vaadatud",
+      "v_pass_pst_prf_pos_ind": "oli vaadatud",
+      "v_ptcp_act_prs": "vaatav",
+      "v_ptcp_act_pst": "vaadanud",
+      "v_ptcp_pass_prs": "vaadatav",
+      "v_ptcp_pass_pst": "vaadatud"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vaba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaba",
+    "inflections": {
+      "n_acc_pl": "vabad",
+      "n_acc_sg": "vaba",
+      "n_at_abl_pl": "vabadelt",
+      "n_at_abl_sg": "vabalt",
+      "n_at_all_pl": "vabadele",
+      "n_at_all_sg": "vabale",
+      "n_at_ess_pl": "vabadel",
+      "n_at_ess_sg": "vabal",
+      "n_com_pl": "vabadega",
+      "n_com_sg": "vabaga",
+      "n_frml_pl": "vabadena",
+      "n_frml_sg": "vabana",
+      "n_gen_pl": "vabade",
+      "n_gen_sg": "vaba",
+      "n_in_abl_pl": "vabadest",
+      "n_in_abl_sg": "vabast",
+      "n_in_all_pl": "vabadesse",
+      "n_in_all_sg": "vappavabasse",
+      "n_in_ess_pl": "vabades",
+      "n_in_ess_sg": "vabas",
+      "n_nom_pl": "vabad",
+      "n_nom_sg": "vaba",
+      "n_priv_pl": "vabadeta",
+      "n_priv_sg": "vabata",
+      "n_prt_pl": "vabu",
+      "n_prt_sg": "vaba",
+      "n_term_pl": "vabadeni",
+      "n_term_sg": "vabani",
+      "n_trans_pl": "vabadeks",
+      "n_trans_sg": "vabaks",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "vesi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vesi",
+    "inflections": {
+      "n_at_ess_sg": "veel",
+      "n_prt_sg": "vett",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "vihkama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vihkama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "vihkan"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "võima": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "võima",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_cond_2_sg": "võiksid",
+      "v_act_prs_pos_cond_3_pl": "võiksid",
+      "v_act_prs_pos_cond_3_sg": "võiks",
+      "v_act_prs_pos_imp_2_sg": "või",
+      "v_act_prs_pos_ind_1_pl": "võime",
+      "v_act_prs_pos_ind_1_sg": "võin",
+      "v_act_prs_pos_ind_2_pl": "võite",
+      "v_act_prs_pos_ind_2_sg": "võid",
+      "v_act_prs_pos_ind_3_pl": "võivad",
+      "v_act_prs_pos_ind_3_sg": "võib",
+      "v_act_pst_pos_ind_3_sg": "võis",
+      "v_ptcp_act_pst": "võinud"
+    },
+    "priority": 10,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "võimalus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "võimalus",
+    "inflections": {
+      "n_acc_pl": "võimalussed",
+      "n_acc_sg": "võimalusse",
+      "n_at_abl_pl": "võimalusstelt",
+      "n_at_abl_sg": "võimalusselt",
+      "n_at_all_pl": "võimalusstele",
+      "n_at_all_sg": "võimalussele",
+      "n_at_ess_pl": "võimalusstel",
+      "n_at_ess_sg": "võimalussel",
+      "n_com_pl": "võimalusstega",
+      "n_com_sg": "võimalussega",
+      "n_frml_pl": "võimalusstena",
+      "n_frml_sg": "võimalussena",
+      "n_gen_pl": "võimalusste",
+      "n_gen_sg": "võimalusse",
+      "n_in_abl_pl": "võimalusstest",
+      "n_in_abl_sg": "võimalussest",
+      "n_in_all_pl": "võimalusstesse",
+      "n_in_all_sg": "võimalussse",
+      "n_in_ess_pl": "võimalusstes",
+      "n_in_ess_sg": "võimalusses",
+      "n_nom_pl": "võimalussed",
+      "n_nom_sg": "võimalus",
+      "n_priv_pl": "võimalussteta",
+      "n_priv_sg": "võimalusseta",
+      "n_prt_pl": "võimalussi",
+      "n_prt_sg": "võimalusst",
+      "n_term_pl": "võimalussteni",
+      "n_term_sg": "võimalusseni",
+      "n_trans_pl": "võimalussteks",
+      "n_trans_sg": "võimalusseks",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "võtma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "võtma",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_neg_imp_1_pl": "ärgem võtkem",
+      "v_act_prs_neg_imp_2_pl": "ärge võtke",
+      "v_act_prs_neg_imp_2_sg": "ära võta",
+      "v_act_prs_neg_imp_3_pl": "ärgu võtku",
+      "v_act_prs_neg_imp_3_sg": "ärgu võtku",
+      "v_act_prs_neg_ind": "ei võta",
+      "v_act_prs_neg_quot": "ei võtvat",
+      "v_act_prs_pos_cond_1_pl": "võtaksime",
+      "v_act_prs_pos_cond_1_sg": "võtaksin",
+      "v_act_prs_pos_cond_2_pl": "võtaksite",
+      "v_act_prs_pos_cond_2_sg": "võtaksid",
+      "v_act_prs_pos_cond_3_pl": "võtaksid",
+      "v_act_prs_pos_cond_3_sg": "võtaks",
+      "v_act_prs_pos_imp_1_pl": "võtkem",
+      "v_act_prs_pos_imp_2_pl": "võtke",
+      "v_act_prs_pos_imp_2_sg": "võta",
+      "v_act_prs_pos_imp_3_pl": "võtku",
+      "v_act_prs_pos_imp_3_sg": "võtku",
+      "v_act_prs_pos_ind_1_pl": "võtame",
+      "v_act_prs_pos_ind_1_sg": "võtan",
+      "v_act_prs_pos_ind_2_pl": "võtate",
+      "v_act_prs_pos_ind_2_sg": "võtad",
+      "v_act_prs_pos_ind_3_pl": "võtavad",
+      "v_act_prs_pos_ind_3_sg": "võtab",
+      "v_act_prs_pos_quot": "võtvat",
+      "v_act_prs_prf_neg_cond": "ei oleks võtnud",
+      "v_act_prs_prf_neg_imp_pl": "ärgu olgu võtnud",
+      "v_act_prs_prf_neg_imp_sg": "ärgu olgu võtnud",
+      "v_act_prs_prf_neg_quot": "ei olevat võtnud",
+      "v_act_prs_prf_pos_cond": "oleksin võtnud",
+      "v_act_prs_prf_pos_cond_1_pl": "olime võtnud",
+      "v_act_prs_prf_pos_cond_1_pl_2": "oleksime võtnud",
+      "v_act_prs_prf_pos_cond_1_sg": "ei võtaks",
+      "v_act_prs_prf_pos_cond_1_sg_2": "olin võtnud",
+      "v_act_prs_prf_pos_cond_2_pl": "olite võtnud",
+      "v_act_prs_prf_pos_cond_2_pl_2": "oleksite võtnud",
+      "v_act_prs_prf_pos_cond_2_sg": "oleksid võtnud",
+      "v_act_prs_prf_pos_cond_2_sg_2": "olid võtnud",
+      "v_act_prs_prf_pos_cond_3_pl": "oli võtnud",
+      "v_act_prs_prf_pos_cond_3_pl_2": "oleksid võtnud",
+      "v_act_prs_prf_pos_cond_3_sg": "oleks võtnud",
+      "v_act_prs_prf_pos_cond_3_sg_2": "oli võtnud",
+      "v_act_prs_prf_pos_imp_pl": "olgu võtnud",
+      "v_act_prs_prf_pos_imp_sg": "olgu võtnud",
+      "v_act_prs_prf_pos_ind_1_pl": "oleme võtnud",
+      "v_act_prs_prf_pos_ind_1_sg": "olen võtnud",
+      "v_act_prs_prf_pos_ind_2_pl": "olete võtnud",
+      "v_act_prs_prf_pos_ind_2_sg": "oled võtnud",
+      "v_act_prs_prf_pos_ind_3_pl": "on võtnud",
+      "v_act_prs_prf_pos_ind_3_sg": "on võtnud",
+      "v_act_prs_prf_pos_quot": "olevat võtnud",
+      "v_act_pst_neg_ind": "ei võtnud",
+      "v_act_pst_neg_ind_2": "ei ole võtnud",
+      "v_act_pst_pos_ind_1_pl": "võtsime",
+      "v_act_pst_pos_ind_1_sg": "võtsin",
+      "v_act_pst_pos_ind_2_pl": "võtsite",
+      "v_act_pst_pos_ind_2_sg": "võtsid",
+      "v_act_pst_pos_ind_3_pl": "võtsid",
+      "v_act_pst_pos_ind_3_sg": "võttis",
+      "v_act_pst_prf_neg_ind": "ei olnud võtnud",
+      "v_nfin": "võtma",
+      "v_pass_prs_neg_cond": "ei võtetaks",
+      "v_pass_prs_neg_imp": "ärgu võtetagu",
+      "v_pass_prs_neg_ind": "ei võteta",
+      "v_pass_prs_neg_quot": "ei võtetavat",
+      "v_pass_prs_pos_cond": "võtetaks",
+      "v_pass_prs_pos_imp": "võtetagu",
+      "v_pass_prs_pos_ind": "võtetakse",
+      "v_pass_prs_pos_quot": "võtetavat",
+      "v_pass_prs_prf_neg_cond": "ei oleks võtetud",
+      "v_pass_prs_prf_neg_imp": "ärgu olgu võtetud",
+      "v_pass_prs_prf_neg_ind": "ei ole võtetud",
+      "v_pass_prs_prf_neg_quot": "ei olevat võtetud",
+      "v_pass_prs_prf_pos_cond": "oleks võtetud",
+      "v_pass_prs_prf_pos_imp": "olgu võtetud",
+      "v_pass_prs_prf_pos_ind": "on võtetud",
+      "v_pass_prs_prf_pos_quot": "olevat võtetud",
+      "v_pass_pst_neg_ind": "ei võtetud",
+      "v_pass_pst_pos_ind": "võteti",
+      "v_pass_pst_prf_neg_ind": "ei olnud võtetud",
+      "v_pass_pst_prf_pos_ind": "oli võtetud",
+      "v_ptcp_act_prs": "võttev",
+      "v_ptcp_act_pst": "võtnud",
+      "v_ptcp_pass_prs": "võtetav",
+      "v_ptcp_pass_pst": "võtetud"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "õhtu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "õhtu",
+    "inflections": {
+      "n_acc_pl": "õhtud",
+      "n_acc_sg": "õhtu",
+      "n_at_abl_pl": "õhtutelt",
+      "n_at_abl_sg": "õhtult",
+      "n_at_all_pl": "õhtutele",
+      "n_at_all_sg": "õhtule",
+      "n_at_ess_pl": "õhtutel",
+      "n_at_ess_sg": "õhtul",
+      "n_com_pl": "õhtutega",
+      "n_com_sg": "õhtuga",
+      "n_frml_pl": "õhtutena",
+      "n_frml_sg": "õhtuna",
+      "n_gen_pl": "õhtute",
+      "n_gen_sg": "õhtu",
+      "n_in_abl_pl": "õhtutest",
+      "n_in_abl_sg": "õhtust",
+      "n_in_all_pl": "õhtutesse",
+      "n_in_all_sg": "õhtusse",
+      "n_in_ess_pl": "õhtutes",
+      "n_in_ess_sg": "õhtus",
+      "n_nom_pl": "õhtud",
+      "n_nom_sg": "õhtu",
+      "n_priv_pl": "õhtuteta",
+      "n_priv_sg": "õhtuta",
+      "n_prt_pl": "õhtuid",
+      "n_prt_sg": "õhtut",
+      "n_term_pl": "õhtuteni",
+      "n_term_sg": "õhtuni",
+      "n_trans_pl": "õhtuteks",
+      "n_trans_sg": "õhtuks",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "õigus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "õigus",
+    "inflections": {
+      "n_acc_pl": "õigused",
+      "n_acc_sg": "õiguse",
+      "n_at_abl_pl": "õigustelt",
+      "n_at_abl_sg": "õiguselt",
+      "n_at_all_pl": "õigustele",
+      "n_at_all_sg": "õigusele",
+      "n_at_ess_pl": "õigustel",
+      "n_at_ess_sg": "õigusel",
+      "n_com_pl": "õigustega",
+      "n_com_sg": "õigusega",
+      "n_frml_pl": "õigustena",
+      "n_frml_sg": "õigusena",
+      "n_gen_pl": "õiguste",
+      "n_gen_sg": "õiguse",
+      "n_in_abl_pl": "õigustest",
+      "n_in_abl_sg": "õigusest",
+      "n_in_all_pl": "õigustesse",
+      "n_in_all_sg": "õigusse",
+      "n_in_ess_pl": "õigustes",
+      "n_in_ess_sg": "õiguses",
+      "n_nom_pl": "õigused",
+      "n_nom_sg": "õigus",
+      "n_priv_pl": "õigusteta",
+      "n_priv_sg": "õiguseta",
+      "n_prt_pl": "õigusi",
+      "n_prt_sg": "õigust",
+      "n_term_pl": "õigusteni",
+      "n_term_sg": "õiguseni",
+      "n_trans_pl": "õigusteks",
+      "n_trans_sg": "õiguseks",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "õnnelik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "õnnelik",
+    "inflections": {
+      "n_acc_pl": "õnnelikud",
+      "n_acc_sg": "õnneliku",
+      "n_at_abl_pl": "õnnelikelt",
+      "n_at_abl_sg": "õnnelikult",
+      "n_at_all_pl": "õnnelikele",
+      "n_at_all_sg": "õnnelikule",
+      "n_at_ess_pl": "õnnelikel",
+      "n_at_ess_sg": "õnnelikul",
+      "n_com_pl": "õnnelikega",
+      "n_com_sg": "õnnelikuga",
+      "n_frml_pl": "õnnelikena",
+      "n_frml_sg": "õnnelikuna",
+      "n_gen_pl": "õnnelike",
+      "n_gen_sg": "õnneliku",
+      "n_in_abl_pl": "õnnelikest",
+      "n_in_abl_sg": "õnnelikust",
+      "n_in_all_pl": "õnnelikesse",
+      "n_in_all_sg": "õnnelikku",
+      "n_in_ess_pl": "õnnelikes",
+      "n_in_ess_sg": "õnnelikus",
+      "n_nom_pl": "õnnelikud",
+      "n_nom_sg": "õnnelik",
+      "n_priv_pl": "õnneliketa",
+      "n_priv_sg": "õnnelikuta",
+      "n_prt_pl": "õnnelikke",
+      "n_prt_sg": "õnnelikku",
+      "n_term_pl": "õnnelikeni",
+      "n_term_sg": "õnnelikuni",
+      "n_trans_pl": "õnnelikeks",
+      "n_trans_sg": "õnnelikuks",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "üritama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "üritama",
+    "inflections": {
+      "regulars": [],
+      "v_act_prs_pos_ind_1_sg": "üritan"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

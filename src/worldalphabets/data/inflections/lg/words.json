@@ -1,0 +1,551 @@
+{
+  "_locale": "lg",
+  "_type": "words",
+  "_version": "0.1",
+  "ba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ba",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut_immed": "naaba",
+      "v_1_fut_rmt": "ndiba",
+      "v_1_prs": "ndi",
+      "v_1_pst_rct": "nabadde",
+      "v_1_pst_rmt": "nali",
+      "v_2_fut_immed": "onooba",
+      "v_2_fut_rmt": "oliba",
+      "v_2_prs": "oli",
+      "v_2_pst_rct": "wabadde",
+      "v_2_pst_rmt": "wali",
+      "v_3_fut_immed": "anaaba",
+      "v_3_fut_rmt": "aliba",
+      "v_3_prs": "ali",
+      "v_3_pst_rct": "yabadde",
+      "v_3_pst_rmt": "yali",
+      "v_inten_1_fut": "sinnaba",
+      "v_inten_2_fut": "tonnaba",
+      "v_inten_3_fut": "tannaba",
+      "v_inten_pl_1_fut": "tetunnaba",
+      "v_inten_pl_2_fut": "temunnaba",
+      "v_inten_pl_3_fut": "tebannaba",
+      "v_nfin": "ba",
+      "v_pl_1_fut_immed": "tunaaba",
+      "v_pl_1_fut_rmt": "tuliba",
+      "v_pl_1_prs": "tuli",
+      "v_pl_1_pst_rct": "tubadde",
+      "v_pl_1_pst_rct_2": "twabadde",
+      "v_pl_1_pst_rmt": "twali",
+      "v_pl_2_fut_immed": "munaaba",
+      "v_pl_2_fut_rmt": "muliba",
+      "v_pl_2_prs": "muli",
+      "v_pl_2_pst_rct": "mubadde",
+      "v_pl_2_pst_rct_2": "mwabadde",
+      "v_pl_2_pst_rmt": "mwali",
+      "v_pl_3_fut_immed": "banaaba",
+      "v_pl_3_fut_rmt": "baliba",
+      "v_pl_3_prs": "bali",
+      "v_pl_3_pst_rct": "babadde",
+      "v_pl_3_pst_rct_2": "baabadde",
+      "v_pl_3_pst_rmt": "baali",
+      "v_prog_1_prs": "nkyali",
+      "v_prog_1_pst": "naakaba",
+      "v_prog_2_prs": "okyali",
+      "v_prog_2_pst": "waakaba",
+      "v_prog_3_prs": "akyali",
+      "v_prog_3_pst": "yaakaba",
+      "v_prog_pl_1_prs": "tukyali",
+      "v_prog_pl_1_pst": "twakaba",
+      "v_prog_pl_2_prs": "mukyali",
+      "v_prog_pl_2_pst": "mwakaba",
+      "v_prog_pl_3_prs": "bakyali",
+      "v_prog_pl_3_pst": "baakaba",
+      "v_sg_1_pst_rct": "mbadde",
+      "v_sg_2_pst_rct": "obadde",
+      "v_sg_3_pst_rct": "abadde"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ba ne": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ba ne",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs": "olina",
+      "v_3_prs": "alina",
+      "v_3_pst_rmt": "yalina",
+      "v_pl_1_prs": "tulina",
+      "v_pl_3_prs": "balina"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "beera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beera",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "mbeera",
+      "v_3_prs": "abeera",
+      "v_3_pst_rct": "yabadde",
+      "v_pl_3_prs": "babeera",
+      "v_pl_3_pst_rct": "babadde",
+      "v_pl_3_pst_rct_2": "baabadde",
+      "v_sg_1_pst_rct": "mbadde",
+      "v_sg_3_pst_rct": "abadde"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ffa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ffa",
+    "inflections": {
+      "regulars": [],
+      "v_3_pst_rmt": "yafa"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "funa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "funa",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "nfuna",
+      "v_pl_3_prs": "bafuna"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "gamba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gamba",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs": "agamba",
+      "v_3_pst_rct": "yagambye",
+      "v_pl_3_prs": "bagamba",
+      "v_sg_3_pst_rct": "agambye"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "genda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "genda",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs": "agenda",
+      "v_3_pst_rmt": "yagenda",
+      "v_pl_1_prs": "tugenda",
+      "v_pl_3_prs": "bagenda",
+      "v_sg_3_pst_rct": "agenze"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "gwa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gwa",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut_immed": "naagwa",
+      "v_1_fut_rmt": "ndigwa",
+      "v_1_prs": "ngwa",
+      "v_1_pst_rct": "nagudde",
+      "v_1_pst_rmt": "nagwa",
+      "v_2_fut_immed": "onoogwa",
+      "v_2_fut_rmt": "oligwa",
+      "v_2_prs": "ogwa",
+      "v_2_pst_rct": "wagudde",
+      "v_2_pst_rmt": "wagwa",
+      "v_3_fut_immed": "anaagwa",
+      "v_3_fut_rmt": "aligwa",
+      "v_3_prs": "agwa",
+      "v_3_pst_rct": "yagudde",
+      "v_3_pst_rmt": "yagwa",
+      "v_inten_1_fut": "sinnagwa",
+      "v_inten_2_fut": "tonnagwa",
+      "v_inten_3_fut": "tannagwa",
+      "v_inten_pl_1_fut": "tetunnagwa",
+      "v_inten_pl_2_fut": "temunnagwa",
+      "v_inten_pl_3_fut": "tebannagwa",
+      "v_nfin": "gwa",
+      "v_pl_1_fut_immed": "tunaagwa",
+      "v_pl_1_fut_rmt": "tuligwa",
+      "v_pl_1_prs": "tugwa",
+      "v_pl_1_pst_rct": "tugudde",
+      "v_pl_1_pst_rct_2": "twagudde",
+      "v_pl_1_pst_rmt": "twagwa",
+      "v_pl_2_fut_immed": "munaagwa",
+      "v_pl_2_fut_rmt": "muligwa",
+      "v_pl_2_prs": "mugwa",
+      "v_pl_2_pst_rct": "mugudde",
+      "v_pl_2_pst_rct_2": "mwagudde",
+      "v_pl_2_pst_rmt": "mwagwa",
+      "v_pl_3_fut_immed": "banaagwa",
+      "v_pl_3_fut_rmt": "baligwa",
+      "v_pl_3_prs": "bagwa",
+      "v_pl_3_pst_rct": "bagudde",
+      "v_pl_3_pst_rct_2": "baagudde",
+      "v_pl_3_pst_rmt": "baagwa",
+      "v_prog_1_prs": "nkyagwa",
+      "v_prog_1_pst": "naakagwa",
+      "v_prog_2_prs": "okyagwa",
+      "v_prog_2_pst": "waakagwa",
+      "v_prog_3_prs": "akyagwa",
+      "v_prog_3_pst": "yaakagwa",
+      "v_prog_pl_1_prs": "tukyagwa",
+      "v_prog_pl_1_pst": "twakagwa",
+      "v_prog_pl_2_prs": "mukyagwa",
+      "v_prog_pl_2_pst": "mwakagwa",
+      "v_prog_pl_3_prs": "bakyagwa",
+      "v_prog_pl_3_pst": "baakagwa",
+      "v_sg_1_pst_rct": "ngudde",
+      "v_sg_2_pst_rct": "ogudde",
+      "v_sg_3_pst_rct": "agudde"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "jja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jja",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs": "ojja",
+      "v_3_prs": "ajja",
+      "v_3_pst_rmt": "yajja",
+      "v_pl_3_prs": "bajja",
+      "v_pl_3_pst_rct": "bazze",
+      "v_pl_3_pst_rmt": "bajja",
+      "v_sg_3_pst_rct": "azze"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "kola": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kola",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "nkola",
+      "v_3_prs": "akola",
+      "v_3_pst_rmt": "yakola",
+      "v_pl_3_prs": "bakola"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "kozesa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kozesa",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "bakozesa"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "laba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laba",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "ndaba"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "lowooza": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lowooza",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "ndowooza",
+      "v_pl_3_prs": "balowooza"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "lya": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lya",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut_immed": "naalya",
+      "v_1_fut_rmt": "ndirya",
+      "v_1_prs": "ndya",
+      "v_1_pst_rct": "nalidde",
+      "v_1_pst_rmt": "nalya",
+      "v_2_fut_immed": "onoolya",
+      "v_2_fut_rmt": "olirya",
+      "v_2_prs": "olya",
+      "v_2_pst_rct": "walidde",
+      "v_2_pst_rmt": "walya",
+      "v_3_fut_immed": "anaalya",
+      "v_3_fut_rmt": "alirya",
+      "v_3_prs": "alya",
+      "v_3_pst_rct": "yalidde",
+      "v_3_pst_rmt": "yalya",
+      "v_inten_1_fut": "sinnalya",
+      "v_inten_2_fut": "tonnalya",
+      "v_inten_3_fut": "tannalya",
+      "v_inten_pl_1_fut": "tetunnalya",
+      "v_inten_pl_2_fut": "temunnalya",
+      "v_inten_pl_3_fut": "tebannalya",
+      "v_nfin": "lya",
+      "v_pl_1_fut_immed": "tunaalya",
+      "v_pl_1_fut_rmt": "tulirya",
+      "v_pl_1_prs": "tulya",
+      "v_pl_1_pst_rct": "tulidde",
+      "v_pl_1_pst_rct_2": "twalidde",
+      "v_pl_1_pst_rmt": "twalya",
+      "v_pl_2_fut_immed": "munaalya",
+      "v_pl_2_fut_rmt": "mulirya",
+      "v_pl_2_prs": "mulya",
+      "v_pl_2_pst_rct": "mulidde",
+      "v_pl_2_pst_rct_2": "mwalidde",
+      "v_pl_2_pst_rmt": "mwalya",
+      "v_pl_3_fut_immed": "banaalya",
+      "v_pl_3_fut_rmt": "balirya",
+      "v_pl_3_prs": "balya",
+      "v_pl_3_pst_rct": "balidde",
+      "v_pl_3_pst_rct_2": "baalidde",
+      "v_pl_3_pst_rmt": "baalya",
+      "v_prog_1_prs": "nkyalya",
+      "v_prog_1_pst": "naakalya",
+      "v_prog_2_prs": "okyalya",
+      "v_prog_2_pst": "waakalya",
+      "v_prog_3_prs": "akyalya",
+      "v_prog_3_pst": "yaakalya",
+      "v_prog_pl_1_prs": "tukyalya",
+      "v_prog_pl_1_pst": "twakalya",
+      "v_prog_pl_2_prs": "mukyalya",
+      "v_prog_pl_2_pst": "mwakalya",
+      "v_prog_pl_3_prs": "bakyalya",
+      "v_prog_pl_3_pst": "baakalya",
+      "v_sg_1_pst_rct": "ndidde",
+      "v_sg_2_pst_rct": "olidde",
+      "v_sg_3_pst_rct": "alidde"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "mala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mala",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_pst_rct": "bamaze",
+      "v_sg_3_pst_rct": "amaze"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "manya": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "manya",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs": "amanyi",
+      "v_pl_3_prs": "bamanyi"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "sobola": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sobola",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs": "osobola",
+      "v_3_prs": "asobola",
+      "v_pl_3_prs": "basobola"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "tandika": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tandika",
+    "inflections": {
+      "regulars": [],
+      "v_3_pst_rmt": "yatandika",
+      "v_pl_3_prs": "batandika",
+      "v_pl_3_pst_rct": "batandise"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "wa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wa",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut_immed": "naawa",
+      "v_1_fut_rmt": "ndiwa",
+      "v_1_prs": "mpa",
+      "v_1_pst_rct": "nawadde",
+      "v_1_pst_rmt": "nawa",
+      "v_2_fut_immed": "onoowa",
+      "v_2_fut_rmt": "oliwa",
+      "v_2_prs": "owa",
+      "v_2_pst_rct": "wawadde",
+      "v_2_pst_rmt": "wawa",
+      "v_3_fut_immed": "anaawa",
+      "v_3_fut_rmt": "aliwa",
+      "v_3_prs": "awa",
+      "v_3_pst_rct": "yawadde",
+      "v_3_pst_rmt": "yawa",
+      "v_inten_1_fut": "sinnawa",
+      "v_inten_2_fut": "tonnawa",
+      "v_inten_3_fut": "tannawa",
+      "v_inten_pl_1_fut": "tetunnawa",
+      "v_inten_pl_2_fut": "temunnawa",
+      "v_inten_pl_3_fut": "tebannawa",
+      "v_nfin": "wa",
+      "v_pl_1_fut_immed": "tunaawa",
+      "v_pl_1_fut_rmt": "tuliwa",
+      "v_pl_1_prs": "tuwa",
+      "v_pl_1_pst_rct": "tuwadde",
+      "v_pl_1_pst_rct_2": "twawadde",
+      "v_pl_1_pst_rmt": "twawa",
+      "v_pl_2_fut_immed": "munaawa",
+      "v_pl_2_fut_rmt": "muliwa",
+      "v_pl_2_prs": "muwa",
+      "v_pl_2_pst_rct": "muwadde",
+      "v_pl_2_pst_rct_2": "mwawadde",
+      "v_pl_2_pst_rmt": "mwawa",
+      "v_pl_3_fut_immed": "banaawa",
+      "v_pl_3_fut_rmt": "baliwa",
+      "v_pl_3_prs": "bawa",
+      "v_pl_3_pst_rct": "bawadde",
+      "v_pl_3_pst_rct_2": "baawadde",
+      "v_pl_3_pst_rmt": "baawa",
+      "v_prog_1_prs": "nkyawa",
+      "v_prog_1_pst": "naakawa",
+      "v_prog_2_prs": "okyawa",
+      "v_prog_2_pst": "waakawa",
+      "v_prog_3_prs": "akyawa",
+      "v_prog_3_pst": "yaakawa",
+      "v_prog_pl_1_prs": "tukyawa",
+      "v_prog_pl_1_pst": "twakawa",
+      "v_prog_pl_2_prs": "mukyawa",
+      "v_prog_pl_2_pst": "mwakawa",
+      "v_prog_pl_3_prs": "bakyawa",
+      "v_prog_pl_3_pst": "baakawa",
+      "v_sg_1_pst_rct": "mpadde",
+      "v_sg_2_pst_rct": "owadde",
+      "v_sg_3_pst_rct": "awadde"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "yaagala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yaagala",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "njagala",
+      "v_3_prs": "ayagala"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "yita": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yita",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "bayita"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  }
+}

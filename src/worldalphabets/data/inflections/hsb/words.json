@@ -1,0 +1,103 @@
+{
+  "_locale": "hsb",
+  "_type": "words",
+  "_version": "0.1",
+  "hić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hić",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "dźi"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "kraj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kraj",
+    "inflections": {
+      "n_loc_sg": "kraju",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "spać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "spi"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "swójba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "swójba",
+    "inflections": {
+      "n_gen_pl": "swójbow",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "wažny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wažny",
+    "inflections": {
+      "adj_dat_pl": "wažnym",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wulki": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wulki",
+    "inflections": {
+      "adj_nom_fem_sg": "wulka",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wón": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wón",
+    "inflections": {
+      "adj_gen_fem_sg": "jeje",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  }
+}

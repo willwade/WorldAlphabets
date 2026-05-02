@@ -139,6 +139,29 @@ uv run python scripts/report_inflections.py --expected-limit 100 --min-coverage 
 This catches cases where a generated file is structurally valid but only contains
 one or two useful entries.
 
+### 3b. High-Frequency Gap Fill
+
+After deterministic imports, use a gap-fill batch for missing top-frequency
+tokens. This is much more targeted than asking an LLM to generate a full locale.
+
+```bash
+uv run python scripts/build_inflection_gap_words.py \
+  --top-n 100 \
+  --max-missing-per-locale 100 \
+  --chunk-size 25
+
+uv run --with requests python scripts/inflections_batch.py submit \
+  --batch-file data/sources/inflections/batches/<gap-batch>.jsonl
+
+uv run python scripts/ingest_inflections.py \
+  --input <downloaded-output.jsonl> \
+  --merge-existing \
+  --allow-errors
+```
+
+Use `--merge-existing`; gap batches should add missing words, not replace
+deterministic provider data.
+
 ### 4. Tests-First LLM Pass
 
 For locales without a curated test suite, generate tests before generating or

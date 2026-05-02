@@ -136,6 +136,29 @@ The WorldAlphabets data collection pipeline is a unified Python-based system tha
 **Inputs**: TTS provider APIs
 **Outputs**: `data/tts_index.json` - Available voices by language
 
+### Inflection Data Generation
+
+Inflection data is built separately from the core alphabet pipeline because it
+uses asynchronous LLM batch generation and human review. Published data lives in
+`data/inflections/`, while generation manifests, batch JSONL files, raw results,
+and validation reports live under `data/sources/inflections/`.
+
+Key scripts:
+
+```bash
+uv run python scripts/inflections_manifest.py
+uv run python scripts/build_inflections.py
+uv run python scripts/import_inflection_sources.py --help
+uv run python scripts/ingest_inflections.py
+uv run python scripts/validate_inflections.py
+uv run python scripts/inflections_batch.py submit
+uv run python scripts/inflections_batch.py status
+uv run python scripts/inflections_batch.py download
+```
+
+The manifest prioritizes the initial PRD language list, then includes every
+other language with an available `data/freq/top1000/*.txt` token list.
+
 ### Stage 8: Audio Generation
 **Function**: `build_audio()`
 **Purpose**: Generate audio files using TTS engines

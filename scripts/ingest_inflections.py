@@ -236,13 +236,32 @@ def write_locale(
     words: dict[str, Any],
     rules: dict[str, Any],
     overwrite: bool,
+    merge_existing: bool = False,
 ) -> bool:
     """Write one locale's words/rules files. Return True when written."""
 
     locale_dir = data_dir / locale
     words_path = locale_dir / "words.json"
     rules_path = locale_dir / "rules.json"
-    if not overwrite and (words_path.exists() or rules_path.exists()):
+    if merge_existing:
+        existing_words = {}
+        existing_rules = {}
+        if words_path.exists():
+            loaded_words = json.loads(words_path.read_text(encoding="utf-8"))
+            if isinstance(loaded_words, dict):
+                existing_words = loaded_words
+        if rules_path.exists():
+            loaded_rules = json.loads(rules_path.read_text(encoding="utf-8"))
+            if isinstance(loaded_rules, dict):
+                existing_rules = loaded_rules
+        for word, entry in words.items():
+            if word.startswith("_"):
+                existing_words.setdefault(word, entry)
+            elif word not in existing_words:
+                existing_words[word] = entry
+        words = existing_words or words
+        rules = merge_rules(existing_rules, rules) if existing_rules else rules
+    elif not overwrite and (words_path.exists() or rules_path.exists()):
         return False
     locale_dir.mkdir(parents=True, exist_ok=True)
     words_path.write_text(
@@ -335,7 +354,12 @@ def merge_payload(
     collected[locale] = (existing_words, merge_rules(existing_rules, rules))
 
 
-def ingest_file(input_file: Path, data_dir: Path, overwrite: bool) -> IngestReport:
+def ingest_file(
+    input_file: Path,
+    data_dir: Path,
+    overwrite: bool,
+    merge_existing: bool = False,
+) -> IngestReport:
     """Ingest a batch output JSONL file."""
 
     report = IngestReport()
@@ -353,7 +377,7 @@ def ingest_file(input_file: Path, data_dir: Path, overwrite: bool) -> IngestRepo
         except Exception as exc:
             report.errors.append(f"line {line_no}: {exc}")
     for locale, (words, rules) in sorted(collected.items()):
-        if write_locale(data_dir, locale, words, rules, overwrite):
+        if write_locale(data_dir, locale, words, rules, overwrite, merge_existing):
             report.written.append(locale)
         else:
             report.skipped.append(locale)
@@ -368,6 +392,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--data-dir", type=Path, default=DEFAULT_DATA_DIR)
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument(
+        "--merge-existing",
+        action="store_true",
+        help="Merge generated entries into existing locale files instead of replacing them",
+    )
+    parser.add_argument(
         "--allow-errors",
         action="store_true",
         help="Write valid locales even when some result lines fail",
@@ -380,7 +409,12 @@ def main() -> None:
 
     args = parse_args()
     input_file = args.input or latest_result_file()
-    report = ingest_file(input_file, args.data_dir, overwrite=args.overwrite)
+    report = ingest_file(
+        input_file,
+        args.data_dir,
+        overwrite=args.overwrite,
+        merge_existing=args.merge_existing,
+    )
     print(f"Ingested {input_file}")
     print(f"Written: {len(report.written)}")
     if report.skipped:

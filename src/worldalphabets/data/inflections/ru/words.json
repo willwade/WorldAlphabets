@@ -2,6 +2,180 @@
   "_locale": "ru",
   "_type": "words",
   "_version": "0.1",
+  "абсолютный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "абсолютный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "абсолютно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "агент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "агент",
+    "inflections": {
+      "n_acc_sg": "агента",
+      "n_dat_pl": "агентам",
+      "n_dat_sg": "агенту",
+      "n_ess_pl": "агентах",
+      "n_ess_sg": "агенте",
+      "n_gen_pl": "агентов",
+      "n_gen_sg": "агента",
+      "n_ins_pl": "агентами",
+      "n_ins_sg": "агентом",
+      "n_nom_pl": "агенты",
+      "n_nom_sg": "агент",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ах": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ах",
+    "inflections": {
+      "n_acc_pl": "ахи",
+      "n_acc_sg": "ах",
+      "n_dat_pl": "ахам",
+      "n_dat_sg": "аху",
+      "n_ess_pl": "ахах",
+      "n_ess_sg": "ахе",
+      "n_gen_pl": "ахов",
+      "n_gen_sg": "аха",
+      "n_ins_pl": "ахами",
+      "n_ins_sg": "ахом",
+      "n_nom_pl": "ахи",
+      "n_nom_sg": "ах",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "блин": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "блин",
+    "inflections": {
+      "n_acc_sg": "блин",
+      "n_dat_pl": "блинам",
+      "n_dat_sg": "блину",
+      "n_ess_pl": "блинах",
+      "n_ess_sg": "блине",
+      "n_gen_pl": "блинов",
+      "n_gen_sg": "блина",
+      "n_ins_pl": "блинами",
+      "n_ins_sg": "блином",
+      "n_nom_pl": "блины",
+      "n_nom_sg": "блин",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "боль": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "боль",
+    "inflections": {
+      "n_acc_sg": "боль",
+      "n_dat_pl": "болям",
+      "n_dat_sg": "боли",
+      "n_ess_pl": "болях",
+      "n_ess_sg": "боли",
+      "n_gen_pl": "болей",
+      "n_gen_sg": "боли",
+      "n_ins_pl": "болями",
+      "n_ins_sg": "болью",
+      "n_nom_pl": "боли",
+      "n_nom_sg": "боль",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "больший": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "больший",
+    "inflections": {
+      "adj_nom_fem_sg": "большая",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "босс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "босс",
+    "inflections": {
+      "n_acc_pl": "боссов",
+      "n_acc_sg": "босса",
+      "n_dat_pl": "боссам",
+      "n_dat_sg": "боссу",
+      "n_ess_pl": "боссах",
+      "n_ess_sg": "боссе",
+      "n_gen_pl": "боссов",
+      "n_gen_sg": "босса",
+      "n_ins_pl": "боссами",
+      "n_ins_sg": "боссом",
+      "n_nom_pl": "боссы",
+      "n_nom_sg": "босс",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "брат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "брат",
+    "inflections": {
+      "n_acc_sg": "брата",
+      "n_dat_pl": "братьям",
+      "n_dat_sg": "брату",
+      "n_ess_pl": "братьях",
+      "n_ess_sg": "брате",
+      "n_gen_pl": "братьев",
+      "n_gen_sg": "брата",
+      "n_ins_pl": "братьями",
+      "n_ins_sg": "братом",
+      "n_nom_pl": "братья",
+      "n_nom_sg": "брат",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
   "будет": {
     "antonyms": [],
     "base": "будет",
@@ -44,6 +218,38 @@
       "verb"
     ]
   },
+  "быль": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "быль",
+    "inflections": {
+      "n_acc_pl": "были",
+      "n_dat_sg": "были",
+      "n_ess_sg": "были",
+      "n_gen_sg": "были",
+      "n_nom_pl": "были",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "быстрый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "быстрый",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "быстро",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
   "быть": {
     "antonyms": [],
     "base": "быть",
@@ -72,6 +278,20 @@
       "preposition"
     ]
   },
+  "важный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "важный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "важно",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
   "вам": {
     "antonyms": [],
     "base": "вам",
@@ -84,6 +304,248 @@
     "priority": 5,
     "types": [
       "pronoun"
+    ]
+  },
+  "верить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "верить",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "верю"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "вернуть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вернуть",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "вернув",
+      "v_fut_1_pl": "вернем",
+      "v_fut_1_sg": "верну",
+      "v_fut_2_pl": "вернете",
+      "v_fut_2_sg": "вернешь",
+      "v_fut_3_pl": "вернут",
+      "v_fut_3_sg": "вернет",
+      "v_imp_2_pl": "верните",
+      "v_imp_2_sg": "верни",
+      "v_nfin": "вернуть",
+      "v_pst_pl": "вернули",
+      "v_pst_sg_fem": "вернула",
+      "v_pst_sg_masc": "вернул",
+      "v_pst_sg_neut": "вернуло",
+      "v_ptcp_act_pst": "вернувший",
+      "v_ptcp_pass_pst": "возвращённый"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "верный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "верный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "верно",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "весить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "весить",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "весь"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "весть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "весть",
+    "inflections": {
+      "n_dat_sg": "вести",
+      "n_ess_sg": "вести",
+      "n_gen_sg": "вести",
+      "n_nom_pl": "вести",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "вещий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вещий",
+    "inflections": {
+      "adj_pl_lgspec1": "вещи",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "вещь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вещь",
+    "inflections": {
+      "n_acc_sg": "вещь",
+      "n_dat_pl": "вещам",
+      "n_dat_sg": "вещи",
+      "n_ess_pl": "вещах",
+      "n_ess_sg": "вещи",
+      "n_gen_pl": "вещей",
+      "n_gen_sg": "вещи",
+      "n_ins_pl": "вещами",
+      "n_ins_sg": "вещью",
+      "n_nom_pl": "вещи",
+      "n_nom_sg": "вещь",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "вино": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вино",
+    "inflections": {
+      "n_gen_sg": "вина",
+      "n_nom_pl": "вина",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "внимание": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "внимание",
+    "inflections": {
+      "n_acc_sg": "внимание",
+      "n_dat_pl": "вниманиям",
+      "n_dat_sg": "вниманию",
+      "n_ess_pl": "вниманиях",
+      "n_ess_sg": "внимании",
+      "n_gen_pl": "вниманий",
+      "n_gen_sg": "внимания",
+      "n_ins_pl": "вниманиями",
+      "n_ins_sg": "вниманием",
+      "n_nom_pl": "внимания",
+      "n_nom_sg": "внимание",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "возможность": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "возможность",
+    "inflections": {
+      "n_acc_sg": "возможность",
+      "n_dat_pl": "возможностям",
+      "n_dat_sg": "возможности",
+      "n_ess_pl": "возможностях",
+      "n_ess_sg": "возможности",
+      "n_gen_pl": "возможностей",
+      "n_gen_sg": "возможности",
+      "n_ins_pl": "возможностями",
+      "n_ins_sg": "возможностью",
+      "n_nom_pl": "возможности",
+      "n_nom_sg": "возможность",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "возможный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "возможный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "возможно",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "вона": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вона",
+    "inflections": {
+      "n_gen_pl": "вон",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "вопрос": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вопрос",
+    "inflections": {
+      "n_acc_sg": "вопрос",
+      "n_dat_pl": "вопросам",
+      "n_dat_sg": "вопросу",
+      "n_ess_pl": "вопросах",
+      "n_ess_sg": "вопросе",
+      "n_gen_pl": "вопросов",
+      "n_gen_sg": "вопроса",
+      "n_ins_pl": "вопросами",
+      "n_ins_sg": "вопросом",
+      "n_nom_pl": "вопросы",
+      "n_nom_sg": "вопрос",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
     ]
   },
   "вот": {
@@ -100,6 +562,399 @@
       "particle"
     ]
   },
+  "встретиться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "встретиться",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "встретившись",
+      "v_fut_1_pl": "встретимся",
+      "v_fut_1_sg": "встречусь",
+      "v_fut_2_pl": "встретитесь",
+      "v_fut_2_sg": "встретишься",
+      "v_fut_3_pl": "встретятся",
+      "v_fut_3_sg": "встретится",
+      "v_imp_2_pl": "встретьтесь",
+      "v_imp_2_sg": "встреться",
+      "v_nfin": "встретиться",
+      "v_pst_pl": "встретились",
+      "v_pst_sg_fem": "встретилась",
+      "v_pst_sg_masc": "встретился",
+      "v_pst_sg_neut": "встретилось",
+      "v_ptcp_act_pst": "встретившийся"
+    },
+    "priority": 1,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "выбор": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "выбор",
+    "inflections": {
+      "n_acc_sg": "выбор",
+      "n_dat_pl": "выборам",
+      "n_dat_sg": "выбору",
+      "n_ess_pl": "выборах",
+      "n_ess_sg": "выборе",
+      "n_gen_pl": "выборов",
+      "n_gen_sg": "выбора",
+      "n_ins_pl": "выборами",
+      "n_ins_sg": "выбором",
+      "n_nom_pl": "выборы",
+      "n_nom_sg": "выбор",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "господин": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "господин",
+    "inflections": {
+      "n_acc_sg": "господина",
+      "n_dat_pl": "господам",
+      "n_dat_sg": "господину",
+      "n_ess_pl": "господах",
+      "n_ess_sg": "господине",
+      "n_gen_pl": "господ",
+      "n_gen_sg": "господина",
+      "n_ins_pl": "господами",
+      "n_ins_sg": "господином",
+      "n_nom_pl": "господа",
+      "n_nom_sg": "господин",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "гот": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "гот",
+    "inflections": {
+      "n_acc_pl": "готов",
+      "n_gen_pl": "готов",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "готовый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "готовый",
+    "inflections": {
+      "adj_fem_sg_lgspec1": "готова",
+      "adj_masc_sg_lgspec1": "готов",
+      "adj_pl_lgspec1": "готовы",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "далёкий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "далёкий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "далеко",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "дама": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дама",
+    "inflections": {
+      "n_gen_pl": "дам",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "девочка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "девочка",
+    "inflections": {
+      "n_acc_sg": "девочку",
+      "n_dat_pl": "девочкам",
+      "n_dat_sg": "девочке",
+      "n_ess_pl": "девочках",
+      "n_ess_sg": "девочке",
+      "n_gen_pl": "девочек",
+      "n_gen_sg": "девочки",
+      "n_ins_pl": "девочками",
+      "n_ins_sg": "девочкой",
+      "n_nom_pl": "девочки",
+      "n_nom_sg": "девочка",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "девушка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "девушка",
+    "inflections": {
+      "n_acc_sg": "девушку",
+      "n_dat_pl": "девушкам",
+      "n_dat_sg": "девушке",
+      "n_ess_pl": "девушках",
+      "n_ess_sg": "девушке",
+      "n_gen_pl": "девушек",
+      "n_gen_sg": "девушки",
+      "n_ins_pl": "девушками",
+      "n_ins_sg": "девушкой",
+      "n_nom_pl": "девушки",
+      "n_nom_sg": "девушка",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "действительный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "действительный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "действительно",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "делать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "делать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "делая",
+      "v_cvb_pst": "делав",
+      "v_fut_1_pl": "будем делать",
+      "v_fut_1_sg": "буду делать",
+      "v_fut_2_pl": "будете делать",
+      "v_fut_2_sg": "будешь делать",
+      "v_fut_3_pl": "будут делать",
+      "v_fut_3_sg": "будет делать",
+      "v_imp_2_pl": "делайте",
+      "v_imp_2_sg": "делай",
+      "v_nfin": "делать",
+      "v_prs_1_pl": "делаем",
+      "v_prs_1_sg": "делаю",
+      "v_prs_2_pl": "делаете",
+      "v_prs_2_sg": "делаешь",
+      "v_prs_3_pl": "делают",
+      "v_prs_3_sg": "делает",
+      "v_pst_pl": "делали",
+      "v_pst_sg_fem": "делала",
+      "v_pst_sg_masc": "делал",
+      "v_pst_sg_neut": "делало",
+      "v_ptcp_act_prs": "делающий",
+      "v_ptcp_act_pst": "делавший",
+      "v_ptcp_pass_prs": "делаемый",
+      "v_ptcp_pass_pst": "деланный"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "деньга": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "деньга",
+    "inflections": {
+      "n_acc_pl": "деньги",
+      "n_gen_sg": "деньги",
+      "n_nom_pl": "деньги",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "держать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "держать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "держа",
+      "v_cvb_pst": "держав",
+      "v_fut_1_pl": "будем держать",
+      "v_fut_1_sg": "буду держать",
+      "v_fut_2_pl": "будете держать",
+      "v_fut_2_sg": "будешь держать",
+      "v_fut_3_pl": "будут держать",
+      "v_fut_3_sg": "будет держать",
+      "v_imp_2_pl": "держите",
+      "v_imp_2_sg": "держи",
+      "v_nfin": "держать",
+      "v_prs_1_pl": "держим",
+      "v_prs_1_sg": "держу",
+      "v_prs_2_pl": "держите",
+      "v_prs_2_sg": "держишь",
+      "v_prs_3_pl": "держат",
+      "v_prs_3_sg": "держит",
+      "v_pst_pl": "держали",
+      "v_pst_sg_fem": "держала",
+      "v_pst_sg_masc": "держал",
+      "v_pst_sg_neut": "держало",
+      "v_ptcp_act_prs": "держащий",
+      "v_ptcp_act_pst": "державший",
+      "v_ptcp_pass_prs": "держимый",
+      "v_ptcp_pass_pst": "держанный"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "дерьмо": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дерьмо",
+    "inflections": {
+      "n_acc_sg": "дерьмо",
+      "n_dat_sg": "дерьму",
+      "n_ess_sg": "дерьме",
+      "n_gen_sg": "дерьма",
+      "n_ins_sg": "дерьмом",
+      "n_nom_sg": "дерьмо",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "детектив": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "детектив",
+    "inflections": {
+      "n_acc_anim_pl": "детективов",
+      "n_acc_anim_sg": "детектива",
+      "n_acc_inan_pl": "детективы",
+      "n_acc_inan_sg": "детектив",
+      "n_dat_pl": "детективам",
+      "n_dat_sg": "детективу",
+      "n_ess_pl": "детективах",
+      "n_ess_sg": "детективе",
+      "n_gen_pl": "детективов",
+      "n_gen_sg": "детектива",
+      "n_ins_pl": "детективами",
+      "n_ins_sg": "детективом",
+      "n_nom_pl": "детективы",
+      "n_nom_sg": "детектив",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "детка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "детка",
+    "inflections": {
+      "n_acc_pl": "деток",
+      "n_acc_sg": "детку",
+      "n_dat_pl": "деткам",
+      "n_dat_sg": "детке",
+      "n_ess_pl": "детках",
+      "n_ess_sg": "детке",
+      "n_gen_pl": "деток",
+      "n_gen_sg": "детки",
+      "n_ins_pl": "детками",
+      "n_ins_sg": "деткой",
+      "n_nom_pl": "детки",
+      "n_nom_sg": "детка",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "дитя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дитя",
+    "inflections": {
+      "n_acc_pl": "детей",
+      "n_gen_pl": "детей",
+      "n_nom_pl": "дети",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "длить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "длить",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "для"
+    },
+    "priority": 10,
+    "types": [
+      "word"
+    ]
+  },
   "до": {
     "antonyms": [],
     "base": "до",
@@ -110,6 +965,171 @@
     "priority": 2,
     "types": [
       "preposition"
+    ]
+  },
+  "довольный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "довольный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "довольно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "доктор": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "доктор",
+    "inflections": {
+      "n_acc_pl": "докторов",
+      "n_acc_sg": "доктора",
+      "n_dat_pl": "докторам",
+      "n_dat_sg": "доктору",
+      "n_ess_pl": "докторах",
+      "n_ess_sg": "докторе",
+      "n_gen_pl": "докторов",
+      "n_gen_sg": "доктора",
+      "n_ins_pl": "докторами",
+      "n_ins_sg": "доктором",
+      "n_nom_pl": "доктора",
+      "n_nom_sg": "доктор",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "долгий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "долгий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "долго",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "должный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "должный",
+    "inflections": {
+      "adj_fem_sg_lgspec1": "должна",
+      "adj_masc_sg_lgspec1": "должен",
+      "adj_neut_sg_lgspec1": "должно",
+      "adj_pl_lgspec1": "должны",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "доллар": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "доллар",
+    "inflections": {
+      "n_gen_pl": "долларов",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "достаточный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "достаточный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "достаточно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "дочь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дочь",
+    "inflections": {
+      "n_acc_sg": "дочь",
+      "n_dat_pl": "дочерям",
+      "n_dat_sg": "дочери",
+      "n_ess_pl": "дочерях",
+      "n_ess_sg": "дочери",
+      "n_gen_pl": "дочерей",
+      "n_gen_sg": "дочери",
+      "n_ins_pl": "дочерьми",
+      "n_ins_sg": "дочерью",
+      "n_nom_pl": "дочери",
+      "n_nom_sg": "дочь",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "единственный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "единственный",
+    "inflections": {
+      "adj_acc_anim_pl": "единственных",
+      "adj_acc_fem_sg": "единственную",
+      "adj_acc_inan_pl": "единственные",
+      "adj_acc_neut_sg": "единственное",
+      "adj_anim_acc_masc_sg": "единственного",
+      "adj_dat_fem_sg": "единственной",
+      "adj_dat_masc_sg": "единственному",
+      "adj_dat_neut_sg": "единственному",
+      "adj_dat_pl": "единственным",
+      "adj_ess_fem_sg": "единственной",
+      "adj_ess_masc_sg": "единственном",
+      "adj_ess_neut_sg": "единственном",
+      "adj_ess_pl": "единственных",
+      "adj_fem_sg_lgspec1": "единственна",
+      "adj_gen_fem_sg": "единственной",
+      "adj_gen_masc_sg": "единственного",
+      "adj_gen_neut_sg": "единственного",
+      "adj_gen_pl": "единственных",
+      "adj_inan_acc_masc_sg": "единственный",
+      "adj_ins_fem_sg": "единственной",
+      "adj_ins_masc_sg": "единственным",
+      "adj_ins_neut_sg": "единственным",
+      "adj_ins_pl": "единственными",
+      "adj_masc_sg_lgspec1": "единственен",
+      "adj_neut_sg_lgspec1": "единственно",
+      "adj_nom_fem_sg": "единственная",
+      "adj_nom_masc_sg": "единственный",
+      "adj_nom_neut_sg": "единственное",
+      "adj_nom_pl": "единственные",
+      "adj_pl_lgspec1": "единственны",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
     ]
   },
   "ее": {
@@ -152,6 +1172,56 @@
       "verb"
     ]
   },
+  "жалить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жалить",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "жаль"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ждать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ждать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "ждав",
+      "v_fut_1_pl": "будем ждать",
+      "v_fut_1_sg": "буду ждать",
+      "v_fut_2_pl": "будете ждать",
+      "v_fut_2_sg": "будешь ждать",
+      "v_fut_3_pl": "будут ждать",
+      "v_fut_3_sg": "будет ждать",
+      "v_imp_2_pl": "ждите",
+      "v_imp_2_sg": "жди",
+      "v_nfin": "ждать",
+      "v_prs_1_pl": "ждём",
+      "v_prs_1_sg": "жду",
+      "v_prs_2_pl": "ждёте",
+      "v_prs_2_sg": "ждёшь",
+      "v_prs_3_pl": "ждут",
+      "v_prs_3_sg": "ждёт",
+      "v_pst_pl": "ждали",
+      "v_pst_sg_fem": "ждала",
+      "v_pst_sg_masc": "ждал",
+      "v_pst_sg_neut": "ждало",
+      "v_ptcp_act_prs": "ждущий",
+      "v_ptcp_act_pst": "ждавший"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "же": {
     "antonyms": [],
     "base": "же",
@@ -162,6 +1232,91 @@
     "priority": 7,
     "types": [
       "particle"
+    ]
+  },
+  "жена": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жена",
+    "inflections": {
+      "n_acc_sg": "жену",
+      "n_dat_pl": "жёнам",
+      "n_dat_sg": "жене",
+      "n_ess_pl": "жёнах",
+      "n_ess_sg": "жене",
+      "n_gen_pl": "жён",
+      "n_gen_sg": "жены",
+      "n_ins_pl": "жёнами",
+      "n_ins_sg": "женой",
+      "n_nom_pl": "жёны",
+      "n_nom_sg": "жена",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "жизнь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жизнь",
+    "inflections": {
+      "n_acc_sg": "жизнь",
+      "n_dat_pl": "жизням",
+      "n_dat_sg": "жизни",
+      "n_ess_pl": "жизнях",
+      "n_ess_sg": "жизни",
+      "n_gen_pl": "жизней",
+      "n_gen_sg": "жизни",
+      "n_ins_pl": "жизнями",
+      "n_ins_sg": "жизнью",
+      "n_nom_pl": "жизни",
+      "n_nom_sg": "жизнь",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "жить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жить",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "живя",
+      "v_cvb_pst": "жив",
+      "v_fut_1_pl": "будем жить",
+      "v_fut_1_sg": "буду жить",
+      "v_fut_2_pl": "будете жить",
+      "v_fut_2_sg": "будешь жить",
+      "v_fut_3_pl": "будут жить",
+      "v_fut_3_sg": "будет жить",
+      "v_imp_2_pl": "живите",
+      "v_imp_2_sg": "живи",
+      "v_nfin": "жить",
+      "v_prs_1_pl": "живём",
+      "v_prs_1_sg": "живу",
+      "v_prs_2_pl": "живёте",
+      "v_prs_2_sg": "живёшь",
+      "v_prs_3_pl": "живут",
+      "v_prs_3_sg": "живёт",
+      "v_pst_pl": "жили",
+      "v_pst_sg_fem": "жила",
+      "v_pst_sg_masc": "жил",
+      "v_pst_sg_neut": "жило",
+      "v_ptcp_act_prs": "живущий",
+      "v_ptcp_act_pst": "живший"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
     ]
   },
   "за": {
@@ -178,6 +1333,48 @@
       "preposition"
     ]
   },
+  "замечательный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "замечательный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "замечательно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "заткнуться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "заткнуться",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "заткнись"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "здоровый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "здоровый",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "здорово",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
   "знаешь": {
     "antonyms": [],
     "base": "знать",
@@ -188,6 +1385,20 @@
       "regulars": []
     },
     "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "значить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "значить",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "значит"
+    },
+    "priority": 9,
     "types": [
       "verb"
     ]
@@ -206,6 +1417,196 @@
       "conjunction"
     ]
   },
+  "играть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "играть",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "играя",
+      "v_cvb_pst": "играв",
+      "v_fut_1_pl": "будем играть",
+      "v_fut_1_sg": "буду играть",
+      "v_fut_2_pl": "будете играть",
+      "v_fut_2_sg": "будешь играть",
+      "v_fut_3_pl": "будут играть",
+      "v_fut_3_sg": "будет играть",
+      "v_imp_2_pl": "играйте",
+      "v_imp_2_sg": "играй",
+      "v_nfin": "играть",
+      "v_prs_1_pl": "играем",
+      "v_prs_1_sg": "играю",
+      "v_prs_2_pl": "играете",
+      "v_prs_2_sg": "играешь",
+      "v_prs_3_pl": "играют",
+      "v_prs_3_sg": "играет",
+      "v_pst_pl": "играли",
+      "v_pst_sg_fem": "играла",
+      "v_pst_sg_masc": "играл",
+      "v_pst_sg_neut": "играло",
+      "v_ptcp_act_prs": "играющий",
+      "v_ptcp_act_pst": "игравший",
+      "v_ptcp_pass_prs": "играемый",
+      "v_ptcp_pass_pst": "игранный"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "идея": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "идея",
+    "inflections": {
+      "n_acc_sg": "идею",
+      "n_dat_pl": "идеям",
+      "n_dat_sg": "идее",
+      "n_ess_pl": "идеях",
+      "n_ess_sg": "идее",
+      "n_gen_pl": "идей",
+      "n_gen_sg": "идеи",
+      "n_ins_pl": "идеями",
+      "n_ins_sg": "идеей",
+      "n_nom_pl": "идеи",
+      "n_nom_sg": "идея",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "идти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "идти",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "идя",
+      "v_cvb_pst": "шедши",
+      "v_fut_1_pl": "будем идти",
+      "v_fut_1_sg": "буду идти",
+      "v_fut_2_pl": "будете идти",
+      "v_fut_2_sg": "будешь идти",
+      "v_fut_3_pl": "будут идти",
+      "v_fut_3_sg": "будет идти",
+      "v_imp_2_pl": "идите",
+      "v_imp_2_sg": "иди",
+      "v_nfin": "идти",
+      "v_prs_1_pl": "идём",
+      "v_prs_1_sg": "иду",
+      "v_prs_2_pl": "идёте",
+      "v_prs_2_sg": "идёшь",
+      "v_prs_3_pl": "идут",
+      "v_prs_3_sg": "идёт",
+      "v_pst_pl": "шли",
+      "v_pst_sg_fem": "шла",
+      "v_pst_sg_masc": "шёл",
+      "v_pst_sg_neut": "шло",
+      "v_ptcp_act_prs": "идущий",
+      "v_ptcp_act_pst": "шедший"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "известный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "известный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "известно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "интересный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "интересный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "интересно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "искать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "искать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "ища",
+      "v_cvb_pst": "искав",
+      "v_fut_1_pl": "будем искать",
+      "v_fut_1_sg": "буду искать",
+      "v_fut_2_pl": "будете искать",
+      "v_fut_2_sg": "будешь искать",
+      "v_fut_3_pl": "будут искать",
+      "v_fut_3_sg": "будет искать",
+      "v_imp_2_pl": "ищите",
+      "v_imp_2_sg": "ищи",
+      "v_nfin": "искать",
+      "v_prs_1_pl": "ищем",
+      "v_prs_1_sg": "ищу",
+      "v_prs_2_pl": "ищете",
+      "v_prs_2_sg": "ищешь",
+      "v_prs_3_pl": "ищут",
+      "v_prs_3_sg": "ищет",
+      "v_pst_pl": "искали",
+      "v_pst_sg_fem": "искала",
+      "v_pst_sg_masc": "искал",
+      "v_pst_sg_neut": "искало",
+      "v_ptcp_act_prs": "ищущий",
+      "v_ptcp_act_pst": "искавший",
+      "v_ptcp_pass_pst": "исканный"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "история": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "история",
+    "inflections": {
+      "n_acc_sg": "историю",
+      "n_dat_pl": "историям",
+      "n_dat_sg": "истории",
+      "n_ess_pl": "историях",
+      "n_ess_sg": "истории",
+      "n_gen_pl": "историй",
+      "n_gen_sg": "истории",
+      "n_ins_pl": "историями",
+      "n_ins_sg": "историей",
+      "n_nom_pl": "истории",
+      "n_nom_sg": "история",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
   "их": {
     "antonyms": [],
     "base": "их",
@@ -218,6 +1619,107 @@
     "priority": 5,
     "types": [
       "pronoun"
+    ]
+  },
+  "капитан": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "капитан",
+    "inflections": {
+      "n_acc_pl": "капитанов",
+      "n_acc_sg": "капитана",
+      "n_dat_pl": "капитанам",
+      "n_dat_sg": "капитану",
+      "n_ess_pl": "капитанах",
+      "n_ess_sg": "капитане",
+      "n_gen_pl": "капитанов",
+      "n_gen_sg": "капитана",
+      "n_ins_pl": "капитанами",
+      "n_ins_sg": "капитаном",
+      "n_nom_pl": "капитаны",
+      "n_nom_sg": "капитан",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "клясться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "клясться",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "клянусь"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "компания": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "компания",
+    "inflections": {
+      "n_dat_sg": "компании",
+      "n_ess_sg": "компании",
+      "n_gen_sg": "компании",
+      "n_nom_pl": "компании",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "конечный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "конечный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "конечно",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "крайний": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "крайний",
+    "inflections": {
+      "adj_dat_fem_sg": "крайней",
+      "adj_ess_fem_sg": "крайней",
+      "adj_gen_fem_sg": "крайней",
+      "adj_ins_fem_sg": "крайней",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "крутой": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "крутой",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "круто",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
     ]
   },
   "кто": {
@@ -234,6 +1736,50 @@
       "pronoun"
     ]
   },
+  "кузькина мать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кузькина мать",
+    "inflections": {
+      "n_acc_sg": "мать",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "купить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "купить",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "купив",
+      "v_fut_1_pl": "купим",
+      "v_fut_1_sg": "куплю",
+      "v_fut_2_pl": "купите",
+      "v_fut_2_sg": "купишь",
+      "v_fut_3_pl": "купят",
+      "v_fut_3_sg": "купит",
+      "v_imp_2_pl": "купите",
+      "v_imp_2_sg": "купи",
+      "v_nfin": "купить",
+      "v_pst_pl": "купили",
+      "v_pst_sg_fem": "купила",
+      "v_pst_sg_masc": "купил",
+      "v_pst_sg_neut": "купило",
+      "v_ptcp_act_pst": "купивший",
+      "v_ptcp_pass_pst": "купленный"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "ладно": {
     "antonyms": [],
     "base": "ладно",
@@ -246,6 +1792,435 @@
     "priority": 3,
     "types": [
       "adverb"
+    ]
+  },
+  "ладный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ладный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "ладно",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "лучший": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лучший",
+    "inflections": {
+      "adj_acc_anim_pl": "лучших",
+      "adj_acc_fem_sg": "лучшую",
+      "adj_acc_inan_pl": "лучшие",
+      "adj_acc_neut_sg": "лучшее",
+      "adj_anim_acc_masc_sg": "лучшего",
+      "adj_dat_fem_sg": "лучшей",
+      "adj_dat_masc_sg": "лучшему",
+      "adj_dat_neut_sg": "лучшему",
+      "adj_dat_pl": "лучшим",
+      "adj_ess_fem_sg": "лучшей",
+      "adj_ess_masc_sg": "лучшем",
+      "adj_ess_neut_sg": "лучшем",
+      "adj_ess_pl": "лучших",
+      "adj_gen_fem_sg": "лучшей",
+      "adj_gen_masc_sg": "лучшего",
+      "adj_gen_neut_sg": "лучшего",
+      "adj_gen_pl": "лучших",
+      "adj_inan_acc_masc_sg": "лучший",
+      "adj_ins_fem_sg": "лучшей",
+      "adj_ins_masc_sg": "лучшим",
+      "adj_ins_neut_sg": "лучшим",
+      "adj_ins_pl": "лучшими",
+      "adj_nom_fem_sg": "лучшая",
+      "adj_nom_masc_sg": "лучший",
+      "adj_nom_neut_sg": "лучшее",
+      "adj_nom_pl": "лучшие",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "лёгкий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "лёгкий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "легко",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "маленький": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "маленький",
+    "inflections": {
+      "adj_acc_anim_pl": "маленьких",
+      "adj_acc_fem_sg": "маленькую",
+      "adj_acc_inan_pl": "маленькие",
+      "adj_acc_neut_sg": "маленькое",
+      "adj_anim_acc_masc_sg": "маленького",
+      "adj_dat_fem_sg": "маленькой",
+      "adj_dat_masc_sg": "маленькому",
+      "adj_dat_neut_sg": "маленькому",
+      "adj_dat_pl": "маленьким",
+      "adj_ess_fem_sg": "маленькой",
+      "adj_ess_masc_sg": "маленьком",
+      "adj_ess_neut_sg": "маленьком",
+      "adj_ess_pl": "маленьких",
+      "adj_fem_sg_lgspec1": "мала",
+      "adj_gen_fem_sg": "маленькой",
+      "adj_gen_masc_sg": "маленького",
+      "adj_gen_neut_sg": "маленького",
+      "adj_gen_pl": "маленьких",
+      "adj_inan_acc_masc_sg": "маленький",
+      "adj_ins_fem_sg": "маленькой",
+      "adj_ins_masc_sg": "маленьким",
+      "adj_ins_neut_sg": "маленьким",
+      "adj_ins_pl": "маленькими",
+      "adj_masc_sg_lgspec1": "мал",
+      "adj_neut_sg_lgspec1": "мало",
+      "adj_nom_fem_sg": "маленькая",
+      "adj_nom_masc_sg": "маленький",
+      "adj_nom_neut_sg": "маленькое",
+      "adj_nom_pl": "маленькие",
+      "adj_pl_lgspec1": "малы",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "малыш": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "малыш",
+    "inflections": {
+      "n_acc_sg": "малыша",
+      "n_dat_pl": "малышам",
+      "n_dat_sg": "малышу",
+      "n_ess_pl": "малышах",
+      "n_ess_sg": "малыше",
+      "n_gen_pl": "малышей",
+      "n_gen_sg": "малыша",
+      "n_ins_pl": "малышами",
+      "n_ins_sg": "малышом",
+      "n_nom_pl": "малыши",
+      "n_nom_sg": "малыш",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "мальчик": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мальчик",
+    "inflections": {
+      "n_acc_sg": "мальчика",
+      "n_dat_pl": "мальчикам",
+      "n_dat_sg": "мальчику",
+      "n_ess_pl": "мальчиках",
+      "n_ess_sg": "мальчике",
+      "n_gen_pl": "мальчиков",
+      "n_gen_sg": "мальчика",
+      "n_ins_pl": "мальчиками",
+      "n_ins_sg": "мальчиком",
+      "n_nom_pl": "мальчики",
+      "n_nom_sg": "мальчик",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "материть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "материть",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "матери"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "матерь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "матерь",
+    "inflections": {
+      "n_dat_sg": "матери",
+      "n_ess_sg": "матери",
+      "n_gen_sg": "матери",
+      "n_nom_pl": "матери",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "мати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мати",
+    "inflections": {
+      "n_dat_sg": "матери",
+      "n_ess_sg": "матери",
+      "n_gen_sg": "матери",
+      "n_nom_pl": "матери",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "мать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мать",
+    "inflections": {
+      "n_acc_sg": "мать",
+      "n_dat_pl": "матерям",
+      "n_dat_sg": "матери",
+      "n_ess_pl": "матерях",
+      "n_ess_sg": "матери",
+      "n_gen_pl": "матерей",
+      "n_gen_sg": "матери",
+      "n_ins_pl": "матерями",
+      "n_ins_sg": "матерью",
+      "n_nom_pl": "матери",
+      "n_nom_sg": "мать",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "машина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "машина",
+    "inflections": {
+      "n_acc_sg": "машину",
+      "n_dat_pl": "машинам",
+      "n_dat_sg": "машине",
+      "n_ess_pl": "машинах",
+      "n_ess_sg": "машине",
+      "n_gen_pl": "машин",
+      "n_gen_sg": "машины",
+      "n_ins_pl": "машинами",
+      "n_ins_sg": "машиной",
+      "n_nom_pl": "машины",
+      "n_nom_sg": "машина",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "мера": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мера",
+    "inflections": {
+      "n_acc_anim_sg": "мере",
+      "n_ess_sg": "мере",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "место": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "место",
+    "inflections": {
+      "n_acc_sg": "место",
+      "n_dat_pl": "местам",
+      "n_dat_sg": "месту",
+      "n_ess_pl": "местах",
+      "n_ess_sg": "месте",
+      "n_gen_pl": "мест",
+      "n_gen_sg": "места",
+      "n_ins_pl": "местами",
+      "n_ins_sg": "местом",
+      "n_nom_pl": "места",
+      "n_nom_sg": "место",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "месяц": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "месяц",
+    "inflections": {
+      "n_gen_pl": "месяцев",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "милая": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "милая",
+    "inflections": {
+      "n_acc_pl": "милых",
+      "n_acc_sg": "милую",
+      "n_dat_pl": "милым",
+      "n_dat_sg": "милой",
+      "n_ess_pl": "милых",
+      "n_ess_sg": "милой",
+      "n_gen_pl": "милых",
+      "n_gen_sg": "милой",
+      "n_ins_pl": "милыми",
+      "n_ins_sg": "милой",
+      "n_nom_pl": "милые",
+      "n_nom_sg": "милая",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "минута": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "минута",
+    "inflections": {
+      "n_acc_sg": "минуту",
+      "n_gen_pl": "минут",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "минутка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "минутка",
+    "inflections": {
+      "n_acc_sg": "минутку",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "минуть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "минуть",
+    "inflections": {
+      "regulars": [],
+      "v_fut_3_pl": "минут"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "миро": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "миро",
+    "inflections": {
+      "n_ess_sg": "мире",
+      "n_gen_sg": "мира",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "мистер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мистер",
+    "inflections": {
+      "n_acc_pl": "мистеров",
+      "n_acc_sg": "мистера",
+      "n_dat_pl": "мистерам",
+      "n_dat_sg": "мистеру",
+      "n_ess_pl": "мистерах",
+      "n_ess_sg": "мистере",
+      "n_gen_pl": "мистеров",
+      "n_gen_sg": "мистера",
+      "n_ins_pl": "мистерами",
+      "n_ins_sg": "мистером",
+      "n_nom_pl": "мистеры",
+      "n_nom_sg": "мистер",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "многий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "многий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "много",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
     ]
   },
   "может": {
@@ -276,6 +2251,73 @@
       "pronoun"
     ]
   },
+  "момент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "момент",
+    "inflections": {
+      "n_acc_sg": "момент",
+      "n_dat_pl": "моментам",
+      "n_dat_sg": "моменту",
+      "n_ess_pl": "моментах",
+      "n_ess_sg": "моменте",
+      "n_gen_pl": "моментов",
+      "n_gen_sg": "момента",
+      "n_ins_pl": "моментами",
+      "n_ins_sg": "моментом",
+      "n_nom_pl": "моменты",
+      "n_nom_sg": "момент",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "мужик": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мужик",
+    "inflections": {
+      "n_acc_pl": "мужиков",
+      "n_acc_sg": "мужика",
+      "n_dat_pl": "мужикам",
+      "n_dat_sg": "мужику",
+      "n_ess_pl": "мужиках",
+      "n_ess_sg": "мужике",
+      "n_gen_pl": "мужиков",
+      "n_gen_sg": "мужика",
+      "n_ins_pl": "мужиками",
+      "n_ins_sg": "мужиком",
+      "n_nom_pl": "мужики",
+      "n_nom_sg": "мужик",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "мыть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мыть",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "моя",
+      "v_imp_2_sg": "мой",
+      "v_prs_1_pl": "моем",
+      "v_prs_1_sg": "мою"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "на": {
     "antonyms": [],
     "base": "на",
@@ -304,6 +2346,59 @@
       "pronoun"
     ]
   },
+  "наслать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "наслать",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "нашли"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "настоящий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "настоящий",
+    "inflections": {
+      "adj_acc_anim_pl": "настоящих",
+      "adj_acc_fem_sg": "настоящую",
+      "adj_acc_inan_pl": "настоящие",
+      "adj_acc_neut_sg": "настоящее",
+      "adj_anim_acc_masc_sg": "настоящего",
+      "adj_dat_fem_sg": "настоящей",
+      "adj_dat_masc_sg": "настоящему",
+      "adj_dat_neut_sg": "настоящему",
+      "adj_dat_pl": "настоящим",
+      "adj_ess_fem_sg": "настоящей",
+      "adj_ess_masc_sg": "настоящем",
+      "adj_ess_neut_sg": "настоящем",
+      "adj_ess_pl": "настоящих",
+      "adj_gen_fem_sg": "настоящей",
+      "adj_gen_masc_sg": "настоящего",
+      "adj_gen_neut_sg": "настоящего",
+      "adj_gen_pl": "настоящих",
+      "adj_inan_acc_masc_sg": "настоящий",
+      "adj_ins_fem_sg": "настоящей",
+      "adj_ins_masc_sg": "настоящим",
+      "adj_ins_neut_sg": "настоящим",
+      "adj_ins_pl": "настоящими",
+      "adj_nom_fem_sg": "настоящая",
+      "adj_nom_masc_sg": "настоящий",
+      "adj_nom_neut_sg": "настоящее",
+      "adj_nom_pl": "настоящие",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
   "не": {
     "antonyms": [],
     "base": "не",
@@ -318,6 +2413,258 @@
       "particle"
     ]
   },
+  "невозможный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "невозможный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "невозможно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "неделя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "неделя",
+    "inflections": {
+      "n_acc_sg": "неделю",
+      "n_dat_sg": "неделе",
+      "n_ess_sg": "неделе",
+      "n_gen_sg": "недели",
+      "n_nom_pl": "недели",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "некоторый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "некоторый",
+    "inflections": {
+      "adj_acc_inan_pl": "некоторые",
+      "adj_nom_pl": "некоторые",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "немедленный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "немедленный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "немедленно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "немногий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "немногий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "немного",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "немой": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "немой",
+    "inflections": {
+      "adj_masc_sg_lgspec1": "нем",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "неплохой": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "неплохой",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "неплохо",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "новости": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "новости",
+    "inflections": {
+      "n_acc_sg": "новости",
+      "n_dat_sg": "новостям",
+      "n_ess_sg": "новостях",
+      "n_gen_sg": "новостей",
+      "n_ins_sg": "новостями",
+      "n_nom_sg": "новости",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "новость": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "новость",
+    "inflections": {
+      "n_dat_sg": "новости",
+      "n_ess_sg": "новости",
+      "n_gen_sg": "новости",
+      "n_nom_pl": "новости",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "новый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "новый",
+    "inflections": {
+      "adj_acc_anim_pl": "новых",
+      "adj_acc_fem_sg": "новую",
+      "adj_acc_inan_pl": "новые",
+      "adj_acc_neut_sg": "новое",
+      "adj_anim_acc_masc_sg": "нового",
+      "adj_dat_fem_sg": "новой",
+      "adj_dat_masc_sg": "новому",
+      "adj_dat_neut_sg": "новому",
+      "adj_dat_pl": "новым",
+      "adj_ess_fem_sg": "новой",
+      "adj_ess_masc_sg": "новом",
+      "adj_ess_neut_sg": "новом",
+      "adj_ess_pl": "новых",
+      "adj_fem_sg_lgspec1": "нова",
+      "adj_gen_fem_sg": "новой",
+      "adj_gen_masc_sg": "нового",
+      "adj_gen_neut_sg": "нового",
+      "adj_gen_pl": "новых",
+      "adj_inan_acc_masc_sg": "новый",
+      "adj_ins_fem_sg": "новой",
+      "adj_ins_masc_sg": "новым",
+      "adj_ins_neut_sg": "новым",
+      "adj_ins_pl": "новыми",
+      "adj_masc_sg_lgspec1": "нов",
+      "adj_neut_sg_lgspec1": "ново",
+      "adj_nom_fem_sg": "новая",
+      "adj_nom_masc_sg": "новый",
+      "adj_nom_neut_sg": "новое",
+      "adj_nom_pl": "новые",
+      "adj_pl_lgspec1": "новы",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "нога": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нога",
+    "inflections": {
+      "n_gen_sg": "ноги",
+      "n_nom_pl": "ноги",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "номер": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "номер",
+    "inflections": {
+      "n_acc_sg": "номер",
+      "n_dat_pl": "номерам",
+      "n_dat_sg": "номеру",
+      "n_ess_pl": "номерах",
+      "n_ess_sg": "номере",
+      "n_gen_pl": "номеров",
+      "n_gen_sg": "номера",
+      "n_ins_pl": "номерами",
+      "n_ins_sg": "номером",
+      "n_nom_pl": "номера",
+      "n_nom_sg": "номер",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "нормальный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нормальный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "нормально",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "нужный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нужный",
+    "inflections": {
+      "adj_fem_sg_lgspec1": "нужна",
+      "adj_masc_sg_lgspec1": "нужен",
+      "adj_neut_sg_lgspec1": "нужно",
+      "adj_pl_lgspec1": "нужны",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
   "о": {
     "antonyms": [],
     "base": "о",
@@ -330,6 +2677,48 @@
     "priority": 8,
     "types": [
       "preposition"
+    ]
+  },
+  "обратный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "обратный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "обратно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "обычный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "обычный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "обычно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "обязательный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "обязательный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "обязательно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
     ]
   },
   "он": {
@@ -358,6 +2747,44 @@
       "pronoun"
     ]
   },
+  "оружие": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "оружие",
+    "inflections": {
+      "n_acc_sg": "оружие",
+      "n_dat_pl": "оружиям",
+      "n_dat_sg": "оружию",
+      "n_ess_pl": "оружиях",
+      "n_ess_sg": "оружии",
+      "n_gen_pl": "оружий",
+      "n_gen_sg": "оружия",
+      "n_ins_pl": "оружиями",
+      "n_ins_sg": "оружием",
+      "n_nom_pl": "оружия",
+      "n_nom_sg": "оружие",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "особенный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "особенный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "особенно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
   "от": {
     "antonyms": [],
     "base": "от",
@@ -372,6 +2799,74 @@
       "preposition"
     ]
   },
+  "ответ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ответ",
+    "inflections": {
+      "n_acc_sg": "ответ",
+      "n_dat_pl": "ответам",
+      "n_dat_sg": "ответу",
+      "n_ess_pl": "ответах",
+      "n_ess_sg": "ответе",
+      "n_gen_pl": "ответов",
+      "n_gen_sg": "ответа",
+      "n_ins_pl": "ответами",
+      "n_ins_sg": "ответом",
+      "n_nom_pl": "ответы",
+      "n_nom_sg": "ответ",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "отличный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "отличный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "отлично",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "отношение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "отношение",
+    "inflections": {
+      "n_acc_pl": "отношения",
+      "n_gen_sg": "отношения",
+      "n_nom_pl": "отношения",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "очевидный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "очевидный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "очевидно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
   "п": {
     "antonyms": [],
     "base": "п",
@@ -384,6 +2879,387 @@
       "preposition"
     ]
   },
+  "парень": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "парень",
+    "inflections": {
+      "n_acc_sg": "парня",
+      "n_dat_pl": "парням",
+      "n_dat_sg": "парню",
+      "n_ess_pl": "парнях",
+      "n_ess_sg": "парне",
+      "n_gen_pl": "парней",
+      "n_gen_sg": "парня",
+      "n_ins_pl": "парнями",
+      "n_ins_sg": "парнем",
+      "n_nom_pl": "парни",
+      "n_nom_sg": "парень",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "перевод": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "перевод",
+    "inflections": {
+      "n_acc_sg": "перевод",
+      "n_dat_pl": "переводам",
+      "n_dat_sg": "переводу",
+      "n_ess_pl": "переводах",
+      "n_ess_sg": "переводе",
+      "n_gen_pl": "переводов",
+      "n_gen_sg": "перевода",
+      "n_ins_pl": "переводами",
+      "n_ins_sg": "переводом",
+      "n_nom_pl": "переводы",
+      "n_nom_sg": "перевод",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "переводчик": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "переводчик",
+    "inflections": {
+      "n_nom_pl": "переводчики",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "перед": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "перед",
+    "inflections": {
+      "n_acc_sg": "перед",
+      "n_dat_pl": "передам",
+      "n_dat_sg": "переду",
+      "n_ess_pl": "передах",
+      "n_ess_sg": "переде",
+      "n_gen_pl": "передов",
+      "n_gen_sg": "переда",
+      "n_ins_pl": "передами",
+      "n_ins_sg": "передом",
+      "n_nom_pl": "переда",
+      "n_nom_sg": "перед",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "переть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "переть",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "при"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "пистолет": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пистолет",
+    "inflections": {
+      "n_acc_pl": "пистолеты",
+      "n_acc_sg": "пистолет",
+      "n_dat_pl": "пистолетам",
+      "n_dat_sg": "пистолету",
+      "n_ess_pl": "пистолетах",
+      "n_ess_sg": "пистолете",
+      "n_gen_pl": "пистолетов",
+      "n_gen_sg": "пистолета",
+      "n_ins_pl": "пистолетами",
+      "n_ins_sg": "пистолетом",
+      "n_nom_pl": "пистолеты",
+      "n_nom_sg": "пистолет",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "погодить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "погодить",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "погоди"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "подарок": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "подарок",
+    "inflections": {
+      "n_acc_sg": "подарок",
+      "n_dat_pl": "подаркам",
+      "n_dat_sg": "подарку",
+      "n_ess_pl": "подарках",
+      "n_ess_sg": "подарке",
+      "n_gen_pl": "подарков",
+      "n_gen_sg": "подарка",
+      "n_ins_pl": "подарками",
+      "n_ins_sg": "подарком",
+      "n_nom_pl": "подарки",
+      "n_nom_sg": "подарок",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "пожаловать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пожаловать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "пожаловав",
+      "v_fut_1_pl": "пожалуем",
+      "v_fut_1_sg": "пожалую",
+      "v_fut_2_pl": "пожалуете",
+      "v_fut_2_sg": "пожалуешь",
+      "v_fut_3_pl": "пожалуют",
+      "v_fut_3_sg": "пожалует",
+      "v_imp_2_pl": "пожалуйте",
+      "v_imp_2_sg": "пожалуй",
+      "v_nfin": "пожаловать",
+      "v_pst_pl": "пожаловали",
+      "v_pst_sg_fem": "пожаловала",
+      "v_pst_sg_masc": "пожаловал",
+      "v_pst_sg_neut": "пожаловало",
+      "v_ptcp_act_pst": "пожаловавший"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "полиция": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "полиция",
+    "inflections": {
+      "n_acc_pl": "полиции",
+      "n_acc_sg": "полицию",
+      "n_dat_pl": "полициям",
+      "n_dat_sg": "полиции",
+      "n_ess_pl": "полициях",
+      "n_ess_sg": "полиции",
+      "n_gen_pl": "полиций",
+      "n_gen_sg": "полиции",
+      "n_ins_pl": "полициями",
+      "n_ins_sg": "полицией",
+      "n_nom_pl": "полиции",
+      "n_nom_sg": "полиция",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "получить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "получить",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "получив",
+      "v_fut_1_pl": "получим",
+      "v_fut_1_sg": "получу",
+      "v_fut_2_pl": "получите",
+      "v_fut_2_sg": "получишь",
+      "v_fut_3_pl": "получат",
+      "v_fut_3_sg": "получит",
+      "v_imp_2_pl": "получите",
+      "v_imp_2_sg": "получи",
+      "v_nfin": "получить",
+      "v_pst_pl": "получили",
+      "v_pst_sg_fem": "получила",
+      "v_pst_sg_masc": "получил",
+      "v_pst_sg_neut": "получило",
+      "v_ptcp_act_pst": "получивший",
+      "v_ptcp_pass_pst": "полученный"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "получиться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "получиться",
+    "inflections": {
+      "regulars": [],
+      "v_fut_3_sg": "получится"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "полый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "полый",
+    "inflections": {
+      "adj_masc_sg_lgspec1": "пол",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "помощь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "помощь",
+    "inflections": {
+      "n_acc_sg": "помощь",
+      "n_dat_pl": "помощам",
+      "n_dat_sg": "помощи",
+      "n_ess_pl": "помощах",
+      "n_ess_sg": "помощи",
+      "n_gen_pl": "помощей",
+      "n_gen_sg": "помощи",
+      "n_ins_pl": "помощами",
+      "n_ins_sg": "помощью",
+      "n_nom_pl": "помощи",
+      "n_nom_sg": "помощь",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "понятие": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "понятие",
+    "inflections": {
+      "n_gen_sg": "понятия",
+      "n_nom_pl": "понятия",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "понятный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "понятный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "понятно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "последний": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "последний",
+    "inflections": {
+      "adj_acc_anim_pl": "последних",
+      "adj_acc_fem_sg": "последнюю",
+      "adj_acc_inan_pl": "последние",
+      "adj_acc_neut_sg": "последнее",
+      "adj_anim_acc_masc_sg": "последнего",
+      "adj_dat_fem_sg": "последней",
+      "adj_dat_masc_sg": "последнему",
+      "adj_dat_neut_sg": "последнему",
+      "adj_dat_pl": "последним",
+      "adj_ess_fem_sg": "последней",
+      "adj_ess_masc_sg": "последнем",
+      "adj_ess_neut_sg": "последнем",
+      "adj_ess_pl": "последних",
+      "adj_gen_fem_sg": "последней",
+      "adj_gen_masc_sg": "последнего",
+      "adj_gen_neut_sg": "последнего",
+      "adj_gen_pl": "последних",
+      "adj_inan_acc_masc_sg": "последний",
+      "adj_ins_fem_sg": "последней",
+      "adj_ins_masc_sg": "последним",
+      "adj_ins_neut_sg": "последним",
+      "adj_ins_pl": "последними",
+      "adj_nom_fem_sg": "последняя",
+      "adj_nom_masc_sg": "последний",
+      "adj_nom_neut_sg": "последнее",
+      "adj_nom_pl": "последние",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "постоянный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "постоянный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "постоянно",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
   "потому": {
     "antonyms": [],
     "base": "потому",
@@ -394,6 +3270,20 @@
     "priority": 2,
     "types": [
       "conjunction"
+    ]
+  },
+  "похожий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "похожий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "похоже",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
     ]
   },
   "почему": {
@@ -410,6 +3300,301 @@
       "adverb"
     ]
   },
+  "почтить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "почтить",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "почти"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "правда": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "правда",
+    "inflections": {
+      "n_acc_sg": "правду",
+      "n_dat_pl": "правдам",
+      "n_dat_sg": "правде",
+      "n_ess_pl": "правдах",
+      "n_ess_sg": "правде",
+      "n_gen_pl": "правд",
+      "n_gen_sg": "правды",
+      "n_ins_pl": "правдами",
+      "n_ins_sg": "правдой",
+      "n_nom_pl": "правды",
+      "n_nom_sg": "правда",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "правильный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "правильный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "правильно",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "право": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "право",
+    "inflections": {
+      "n_acc_sg": "право",
+      "n_dat_pl": "правам",
+      "n_dat_sg": "праву",
+      "n_ess_pl": "правах",
+      "n_ess_sg": "праве",
+      "n_gen_pl": "прав",
+      "n_gen_sg": "права",
+      "n_ins_pl": "правами",
+      "n_ins_sg": "правом",
+      "n_nom_pl": "права",
+      "n_nom_sg": "право",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "правый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "правый",
+    "inflections": {
+      "adj_fem_sg_lgspec1": "права",
+      "adj_masc_sg_lgspec1": "прав",
+      "adj_neut_sg_lgspec1": "право",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "предложение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "предложение",
+    "inflections": {
+      "n_acc_sg": "предложение",
+      "n_dat_pl": "предложениям",
+      "n_dat_sg": "предложению",
+      "n_ess_pl": "предложениях",
+      "n_ess_sg": "предложении",
+      "n_gen_pl": "предложений",
+      "n_gen_sg": "предложения",
+      "n_ins_pl": "предложениями",
+      "n_ins_sg": "предложением",
+      "n_nom_pl": "предложения",
+      "n_nom_sg": "предложение",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "президент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "президент",
+    "inflections": {
+      "n_acc_sg": "президента",
+      "n_dat_pl": "президентам",
+      "n_dat_sg": "президенту",
+      "n_ess_pl": "президентах",
+      "n_ess_sg": "президенте",
+      "n_gen_pl": "президентов",
+      "n_gen_sg": "президента",
+      "n_ins_pl": "президентами",
+      "n_ins_sg": "президентом",
+      "n_nom_pl": "президенты",
+      "n_nom_sg": "президент",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "прекрасный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прекрасный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "прекрасно",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "привет": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "привет",
+    "inflections": {
+      "n_acc_sg": "привет",
+      "n_dat_pl": "приветам",
+      "n_dat_sg": "привету",
+      "n_ess_pl": "приветах",
+      "n_ess_sg": "привете",
+      "n_gen_pl": "приветов",
+      "n_gen_sg": "привета",
+      "n_ins_pl": "приветами",
+      "n_ins_sg": "приветом",
+      "n_nom_pl": "приветы",
+      "n_nom_sg": "привет",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "прийтись": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прийтись",
+    "inflections": {
+      "regulars": [],
+      "v_fut_3_sg": "придется",
+      "v_pst_sg_neut": "пришлось"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "причина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "причина",
+    "inflections": {
+      "n_acc_sg": "причину",
+      "n_dat_pl": "причинам",
+      "n_dat_sg": "причине",
+      "n_ess_pl": "причинах",
+      "n_ess_sg": "причине",
+      "n_gen_pl": "причин",
+      "n_gen_sg": "причины",
+      "n_ins_pl": "причинами",
+      "n_ins_sg": "причиной",
+      "n_nom_pl": "причины",
+      "n_nom_sg": "причина",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "приятель": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "приятель",
+    "inflections": {
+      "n_acc_sg": "приятеля",
+      "n_dat_pl": "приятелям",
+      "n_dat_sg": "приятелю",
+      "n_ess_pl": "приятелях",
+      "n_ess_sg": "приятеле",
+      "n_gen_pl": "приятелей",
+      "n_gen_sg": "приятеля",
+      "n_ins_pl": "приятелями",
+      "n_ins_sg": "приятелем",
+      "n_nom_pl": "приятели",
+      "n_nom_sg": "приятель",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "приятный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "приятный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "приятно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "проблема": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "проблема",
+    "inflections": {
+      "n_acc_sg": "проблему",
+      "n_dat_pl": "проблемам",
+      "n_dat_sg": "проблеме",
+      "n_ess_pl": "проблемах",
+      "n_ess_sg": "проблеме",
+      "n_gen_pl": "проблем",
+      "n_gen_sg": "проблемы",
+      "n_ins_pl": "проблемами",
+      "n_ins_sg": "проблемой",
+      "n_nom_pl": "проблемы",
+      "n_nom_sg": "проблема",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "простить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "простить",
+    "inflections": {
+      "regulars": [],
+      "v_fut_2_pl": "простите",
+      "v_imp_2_pl": "простите",
+      "v_imp_2_sg": "прости"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
   "просто": {
     "antonyms": [],
     "base": "просто",
@@ -420,6 +3605,221 @@
     "priority": 7,
     "types": [
       "adverb"
+    ]
+  },
+  "прошлое": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прошлое",
+    "inflections": {
+      "n_ess_sg": "прошлом",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "прошлый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прошлый",
+    "inflections": {
+      "adj_dat_fem_sg": "прошлой",
+      "adj_ess_fem_sg": "прошлой",
+      "adj_ess_masc_sg": "прошлом",
+      "adj_ess_neut_sg": "прошлом",
+      "adj_gen_fem_sg": "прошлой",
+      "adj_ins_fem_sg": "прошлой",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "прощение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прощение",
+    "inflections": {
+      "n_gen_sg": "прощения",
+      "n_nom_pl": "прощения",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "пятить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пятить",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "пять"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "работа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "работа",
+    "inflections": {
+      "n_acc_sg": "работу",
+      "n_dat_pl": "работам",
+      "n_dat_sg": "работе",
+      "n_ess_pl": "работах",
+      "n_ess_sg": "работе",
+      "n_gen_pl": "работ",
+      "n_gen_sg": "работы",
+      "n_ins_pl": "работами",
+      "n_ins_sg": "работой",
+      "n_nom_pl": "работы",
+      "n_nom_sg": "работа",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "работать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "работать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "работая",
+      "v_cvb_pst": "работав",
+      "v_fut_1_pl": "будем работать",
+      "v_fut_1_sg": "буду работать",
+      "v_fut_2_pl": "будете работать",
+      "v_fut_2_sg": "будешь работать",
+      "v_fut_3_pl": "будут работать",
+      "v_fut_3_sg": "будет работать",
+      "v_imp_2_pl": "работайте",
+      "v_imp_2_sg": "работай",
+      "v_nfin": "работать",
+      "v_prs_1_pl": "работаем",
+      "v_prs_1_sg": "работаю",
+      "v_prs_2_pl": "работаете",
+      "v_prs_2_sg": "работаешь",
+      "v_prs_3_pl": "работают",
+      "v_prs_3_sg": "работает",
+      "v_pst_pl": "работали",
+      "v_pst_sg_fem": "работала",
+      "v_pst_sg_masc": "работал",
+      "v_pst_sg_neut": "работало",
+      "v_ptcp_act_prs": "работающий",
+      "v_ptcp_act_pst": "работавший"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "равный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "равный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "равно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "рада": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рада",
+    "inflections": {
+      "n_acc_pl": "рады",
+      "n_acc_sg": "раду",
+      "n_dat_pl": "радам",
+      "n_dat_sg": "раде",
+      "n_ess_pl": "радах",
+      "n_ess_sg": "раде",
+      "n_gen_pl": "рад",
+      "n_gen_sg": "рады",
+      "n_ins_pl": "радами",
+      "n_ins_sg": "радой",
+      "n_nom_pl": "рады",
+      "n_nom_sg": "рада",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "решение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "решение",
+    "inflections": {
+      "n_acc_sg": "решение",
+      "n_dat_pl": "решениям",
+      "n_dat_sg": "решению",
+      "n_ess_pl": "решениях",
+      "n_ess_sg": "решении",
+      "n_gen_pl": "решений",
+      "n_gen_sg": "решения",
+      "n_ins_pl": "решениями",
+      "n_ins_sg": "решением",
+      "n_nom_pl": "решения",
+      "n_nom_sg": "решение",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "родитель": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "родитель",
+    "inflections": {
+      "n_nom_pl": "родители",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "рождение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рождение",
+    "inflections": {
+      "n_gen_sg": "рождения",
+      "n_nom_pl": "рождения",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
     ]
   },
   "с": {
@@ -436,6 +3836,460 @@
       "preposition"
     ]
   },
+  "свидание": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "свидание",
+    "inflections": {
+      "n_gen_sg": "свидания",
+      "n_nom_pl": "свидания",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "связь": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "связь",
+    "inflections": {
+      "n_dat_sg": "связи",
+      "n_ess_sg": "связи",
+      "n_gen_sg": "связи",
+      "n_nom_pl": "связи",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "секунда": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "секунда",
+    "inflections": {
+      "n_acc_sg": "секунду",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "серьёзный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "серьёзный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "серьёзно",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сестра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сестра",
+    "inflections": {
+      "n_acc_sg": "сестру",
+      "n_dat_pl": "сёстрам",
+      "n_dat_sg": "сестре",
+      "n_ess_pl": "сёстрах",
+      "n_ess_sg": "сестре",
+      "n_gen_pl": "сестёр",
+      "n_gen_sg": "сестры",
+      "n_ins_pl": "сёстрами",
+      "n_ins_sg": "сестрой",
+      "n_nom_pl": "сёстры",
+      "n_nom_sg": "сестра",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "сильный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сильный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "сильно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сказать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сказать",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "сказав",
+      "v_fut_1_pl": "скажем",
+      "v_fut_1_sg": "скажу",
+      "v_fut_2_pl": "скажете",
+      "v_fut_2_sg": "скажешь",
+      "v_fut_3_pl": "скажут",
+      "v_fut_3_sg": "скажет",
+      "v_imp_2_pl": "скажите",
+      "v_imp_2_sg": "скажи",
+      "v_nfin": "сказать",
+      "v_pst_pl": "сказали",
+      "v_pst_sg_fem": "сказала",
+      "v_pst_sg_masc": "сказал",
+      "v_pst_sg_neut": "сказало",
+      "v_ptcp_act_pst": "сказавший",
+      "v_ptcp_pass_pst": "сказанный"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "скорый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "скорый",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "скоро",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "следующий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "следующий",
+    "inflections": {
+      "adj_acc_anim_pl": "следующих",
+      "adj_acc_fem_sg": "следующую",
+      "adj_acc_inan_pl": "следующие",
+      "adj_acc_neut_sg": "следующее",
+      "adj_anim_acc_masc_sg": "следующего",
+      "adj_dat_fem_sg": "следующей",
+      "adj_dat_masc_sg": "следующему",
+      "adj_dat_neut_sg": "следующему",
+      "adj_dat_pl": "следующим",
+      "adj_ess_fem_sg": "следующей",
+      "adj_ess_masc_sg": "следующем",
+      "adj_ess_neut_sg": "следующем",
+      "adj_ess_pl": "следующих",
+      "adj_gen_fem_sg": "следующей",
+      "adj_gen_masc_sg": "следующего",
+      "adj_gen_neut_sg": "следующего",
+      "adj_gen_pl": "следующих",
+      "adj_inan_acc_masc_sg": "следующий",
+      "adj_ins_fem_sg": "следующей",
+      "adj_ins_masc_sg": "следующим",
+      "adj_ins_neut_sg": "следующим",
+      "adj_ins_pl": "следующими",
+      "adj_nom_fem_sg": "следующая",
+      "adj_nom_masc_sg": "следующий",
+      "adj_nom_neut_sg": "следующее",
+      "adj_nom_pl": "следующие",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сложный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сложный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "сложно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "слушать": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "слушать",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_pl": "слушайте",
+      "v_imp_2_sg": "слушай"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "смешной": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "смешной",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "смешно",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "смотреть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "смотреть",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "смотря",
+      "v_cvb_pst": "смотрев",
+      "v_fut_1_pl": "будем смотреть",
+      "v_fut_1_sg": "буду смотреть",
+      "v_fut_2_pl": "будете смотреть",
+      "v_fut_2_sg": "будешь смотреть",
+      "v_fut_3_pl": "будут смотреть",
+      "v_fut_3_sg": "будет смотреть",
+      "v_imp_2_pl": "смотрите",
+      "v_imp_2_sg": "смотри",
+      "v_nfin": "смотреть",
+      "v_prs_1_pl": "смотрим",
+      "v_prs_1_sg": "смотрю",
+      "v_prs_2_pl": "смотрите",
+      "v_prs_2_sg": "смотришь",
+      "v_prs_3_pl": "смотрят",
+      "v_prs_3_sg": "смотрит",
+      "v_pst_pl": "смотрели",
+      "v_pst_sg_fem": "смотрела",
+      "v_pst_sg_masc": "смотрел",
+      "v_pst_sg_neut": "смотрело",
+      "v_ptcp_act_prs": "смотрящий",
+      "v_ptcp_act_pst": "смотревший"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "смысл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "смысл",
+    "inflections": {
+      "n_ess_sg": "смысле",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "совершенный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "совершенный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "совершенно",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сообщение": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сообщение",
+    "inflections": {
+      "n_acc_sg": "сообщение",
+      "n_dat_pl": "сообщениям",
+      "n_dat_sg": "сообщению",
+      "n_ess_pl": "сообщениях",
+      "n_ess_sg": "сообщении",
+      "n_gen_pl": "сообщений",
+      "n_gen_sg": "сообщения",
+      "n_ins_pl": "сообщениями",
+      "n_ins_sg": "сообщением",
+      "n_nom_pl": "сообщения",
+      "n_nom_sg": "сообщение",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "спокойный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "спокойный",
+    "inflections": {
+      "adj_dat_fem_sg": "спокойной",
+      "adj_ess_fem_sg": "спокойной",
+      "adj_gen_fem_sg": "спокойной",
+      "adj_ins_fem_sg": "спокойной",
+      "adj_neut_sg_lgspec1": "спокойно",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "способ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "способ",
+    "inflections": {
+      "n_acc_sg": "способ",
+      "n_dat_pl": "способам",
+      "n_dat_sg": "способу",
+      "n_ess_pl": "способах",
+      "n_ess_sg": "способе",
+      "n_gen_pl": "способов",
+      "n_gen_sg": "способа",
+      "n_ins_pl": "способами",
+      "n_ins_sg": "способом",
+      "n_nom_pl": "способы",
+      "n_nom_sg": "способ",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "спросить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "спросить",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "спросив",
+      "v_fut_1_pl": "спросим",
+      "v_fut_1_sg": "спрошу",
+      "v_fut_2_pl": "спросите",
+      "v_fut_2_sg": "спросишь",
+      "v_fut_3_pl": "спросят",
+      "v_fut_3_sg": "спросит",
+      "v_imp_2_pl": "спросите",
+      "v_imp_2_sg": "спроси",
+      "v_nfin": "спросить",
+      "v_pst_pl": "спросили",
+      "v_pst_sg_fem": "спросила",
+      "v_pst_sg_masc": "спросил",
+      "v_pst_sg_neut": "спросило",
+      "v_ptcp_act_pst": "спросивший",
+      "v_ptcp_pass_pst": "спрошенный"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "сторона": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сторона",
+    "inflections": {
+      "n_gen_sg": "стороны",
+      "n_nom_pl": "стороны",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "странный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "странный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "странно",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "сэр": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сэр",
+    "inflections": {
+      "n_acc_pl": "сэров",
+      "n_acc_sg": "сэра",
+      "n_dat_pl": "сэрам",
+      "n_dat_sg": "сэру",
+      "n_ess_pl": "сэрах",
+      "n_ess_sg": "сэре",
+      "n_gen_pl": "сэров",
+      "n_gen_sg": "сэра",
+      "n_ins_pl": "сэрами",
+      "n_ins_sg": "сэром",
+      "n_nom_pl": "сэры",
+      "n_nom_sg": "сэр",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "така": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "така",
+    "inflections": {
+      "n_gen_pl": "так",
+      "n_ins_sg": "такой",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
   "тебе": {
     "antonyms": [],
     "base": "тебе",
@@ -450,6 +4304,68 @@
       "pronoun"
     ]
   },
+  "телефон": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "телефон",
+    "inflections": {
+      "n_acc_sg": "телефон",
+      "n_dat_pl": "телефонам",
+      "n_dat_sg": "телефону",
+      "n_ess_pl": "телефонах",
+      "n_ess_sg": "телефоне",
+      "n_gen_pl": "телефонов",
+      "n_gen_sg": "телефона",
+      "n_ins_pl": "телефонами",
+      "n_ins_sg": "телефоном",
+      "n_nom_pl": "телефоны",
+      "n_nom_sg": "телефон",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "тело": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тело",
+    "inflections": {
+      "n_acc_sg": "тело",
+      "n_dat_pl": "телам",
+      "n_dat_sg": "телу",
+      "n_ess_pl": "телах",
+      "n_ess_sg": "теле",
+      "n_gen_pl": "тел",
+      "n_gen_sg": "тела",
+      "n_ins_pl": "телами",
+      "n_ins_sg": "телом",
+      "n_nom_pl": "тела",
+      "n_nom_sg": "тело",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "тема": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тема",
+    "inflections": {
+      "n_gen_pl": "тем",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
   "теперь": {
     "antonyms": [],
     "base": "теперь",
@@ -460,6 +4376,102 @@
     "priority": 2,
     "types": [
       "adverb"
+    ]
+  },
+  "тереть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тереть",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "три"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "тип": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тип",
+    "inflections": {
+      "n_acc_anim_sg": "типа",
+      "n_gen_sg": "типа",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "тихий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тихий",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "тихо",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "том": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "том",
+    "inflections": {
+      "n_acc_pl": "тома",
+      "n_acc_sg": "том",
+      "n_dat_pl": "томам",
+      "n_dat_sg": "тому",
+      "n_ess_pl": "томах",
+      "n_ess_sg": "томе",
+      "n_gen_pl": "томов",
+      "n_gen_sg": "тома",
+      "n_ins_pl": "томами",
+      "n_ins_sg": "томом",
+      "n_nom_pl": "тома",
+      "n_nom_sg": "том",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "точный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "точный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "точно",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "трудный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "трудный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "трудно",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
     ]
   },
   "ты": {
@@ -474,6 +4486,321 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "тяжёлый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тяжёлый",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "тяжело",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "убийство": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "убийство",
+    "inflections": {
+      "n_acc_sg": "убийство",
+      "n_dat_pl": "убийствам",
+      "n_dat_sg": "убийству",
+      "n_ess_pl": "убийствах",
+      "n_ess_sg": "убийстве",
+      "n_gen_pl": "убийств",
+      "n_gen_sg": "убийства",
+      "n_ins_pl": "убийствами",
+      "n_ins_sg": "убийством",
+      "n_nom_pl": "убийства",
+      "n_nom_sg": "убийство",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "убийца": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "убийца",
+    "inflections": {
+      "n_acc_sg": "убийцу",
+      "n_dat_pl": "убийцам",
+      "n_dat_sg": "убийце",
+      "n_ess_pl": "убийцах",
+      "n_ess_sg": "убийце",
+      "n_gen_pl": "убийц",
+      "n_gen_sg": "убийцы",
+      "n_ins_pl": "убийцами",
+      "n_ins_sg": "убийцей",
+      "n_nom_pl": "убийцы",
+      "n_nom_sg": "убийца",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "уверенный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "уверенный",
+    "inflections": {
+      "adj_fem_sg_lgspec1": "уверена",
+      "adj_masc_sg_lgspec1": "уверен",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "увидеться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "увидеться",
+    "inflections": {
+      "regulars": [],
+      "v_fut_1_pl": "увидимся"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "угодный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "угодный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "угодно",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "удача": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "удача",
+    "inflections": {
+      "n_acc_pl": "удачи",
+      "n_gen_sg": "удачи",
+      "n_nom_pl": "удачи",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ужасный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ужасный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "ужасно",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ужин": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ужин",
+    "inflections": {
+      "n_acc_sg": "ужин",
+      "n_dat_pl": "ужинам",
+      "n_dat_sg": "ужину",
+      "n_ess_pl": "ужинах",
+      "n_ess_sg": "ужине",
+      "n_gen_pl": "ужинов",
+      "n_gen_sg": "ужина",
+      "n_ins_pl": "ужинами",
+      "n_ins_sg": "ужином",
+      "n_nom_pl": "ужины",
+      "n_nom_sg": "ужин",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ум": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ум",
+    "inflections": {
+      "n_gen_sg": "ума",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "успокоиться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "успокоиться",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "успокойся"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "утро": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "утро",
+    "inflections": {
+      "n_acc_sg": "утро",
+      "n_dat_pl": "утрам",
+      "n_dat_sg": "утру",
+      "n_ess_pl": "утрах",
+      "n_ess_sg": "утре",
+      "n_gen_pl": "утер",
+      "n_gen_sg": "утра",
+      "n_ins_pl": "утрами",
+      "n_ins_sg": "утром",
+      "n_nom_pl": "утра",
+      "n_nom_sg": "утро",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "фильм": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "фильм",
+    "inflections": {
+      "n_acc_sg": "фильм",
+      "n_dat_pl": "фильмам",
+      "n_dat_sg": "фильму",
+      "n_ess_pl": "фильмах",
+      "n_ess_sg": "фильме",
+      "n_gen_pl": "фильмов",
+      "n_gen_sg": "фильма",
+      "n_ins_pl": "фильмами",
+      "n_ins_sg": "фильмом",
+      "n_nom_pl": "фильмы",
+      "n_nom_sg": "фильм",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "хватить": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хватить",
+    "inflections": {
+      "regulars": [],
+      "v_fut_3_sg": "хватит"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "хотеться": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хотеться",
+    "inflections": {
+      "regulars": [],
+      "v_pst_sg_neut": "хотелось"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "частый": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "частый",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "часто",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "часть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "часть",
+    "inflections": {
+      "n_acc_sg": "часть",
+      "n_dat_pl": "частям",
+      "n_dat_sg": "части",
+      "n_ess_pl": "частях",
+      "n_ess_sg": "части",
+      "n_gen_pl": "частей",
+      "n_gen_sg": "части",
+      "n_ins_pl": "частями",
+      "n_ins_sg": "частью",
+      "n_nom_pl": "части",
+      "n_nom_sg": "часть",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "честный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "честный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "честно",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
     ]
   },
   "что": {
@@ -501,6 +4828,79 @@
     "priority": 7,
     "types": [
       "conjunction"
+    ]
+  },
+  "чувак": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чувак",
+    "inflections": {
+      "n_acc_pl": "чуваков",
+      "n_acc_sg": "чувака",
+      "n_dat_pl": "чувакам",
+      "n_dat_sg": "чуваку",
+      "n_ess_pl": "чуваках",
+      "n_ess_sg": "чуваке",
+      "n_gen_pl": "чуваков",
+      "n_gen_sg": "чувака",
+      "n_ins_pl": "чуваками",
+      "n_ins_sg": "чуваком",
+      "n_nom_pl": "чуваки",
+      "n_nom_sg": "чувак",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "чёрт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чёрт",
+    "inflections": {
+      "n_acc_sg": "чёрта",
+      "n_dat_pl": "чертям",
+      "n_dat_sg": "чёрту",
+      "n_ess_pl": "чертях",
+      "n_ess_sg": "чёрте",
+      "n_gen_pl": "чертей",
+      "n_gen_sg": "чёрта",
+      "n_ins_pl": "чертями",
+      "n_ins_sg": "чёртом",
+      "n_nom_pl": "черти",
+      "n_nom_sg": "чёрт",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "шанс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шанс",
+    "inflections": {
+      "n_acc_sg": "шанс",
+      "n_dat_pl": "шансам",
+      "n_dat_sg": "шансу",
+      "n_ess_pl": "шансах",
+      "n_ess_sg": "шансе",
+      "n_gen_pl": "шансов",
+      "n_gen_sg": "шанса",
+      "n_ins_pl": "шансами",
+      "n_ins_sg": "шансом",
+      "n_nom_pl": "шансы",
+      "n_nom_sg": "шанс",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
     ]
   },
   "это": {
@@ -541,6 +4941,20 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "ясный": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ясный",
+    "inflections": {
+      "adj_neut_sg_lgspec1": "ясно",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
     ]
   }
 }

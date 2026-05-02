@@ -1,0 +1,140 @@
+{
+  "_locale": "mg",
+  "_type": "words",
+  "_version": "0.1",
+  "ahazo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ahazo",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "mahazo",
+      "v_pst": "nahazo"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "anana": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "anana",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "manana",
+      "v_pst": "nanana"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "andeha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "andeha",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "mandeha"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "anoratra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "anoratra",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "manoratra"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "iankina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iankina",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "miankina"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "iaraka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iaraka",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "miaraka"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ipetraka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ipetraka",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "mipetraka",
+      "v_pst": "nipetraka"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "miasa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miasa",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "hmiasa",
+      "v_nfin": "miasa",
+      "v_prs": "mmiasa",
+      "v_pst": "nmiasa"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "tonga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tonga",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "htonga",
+      "v_nfin": "tonga",
+      "v_prs": "mtonga",
+      "v_pst": "ntonga"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  }
+}

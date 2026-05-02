@@ -2,13 +2,43 @@
   "_type": "inflection_index",
   "_version": "0.1",
   "locales": {
+    "ady": {
+      "words": "ady/words.json",
+      "rules": "ady/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 109,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "af": {
       "words": "af/words.json",
       "rules": "af/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 855,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ak": {
+      "words": "ak/words.json",
+      "rules": "ak/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 30,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "am": {
+      "words": "am/words.json",
+      "rules": "am/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 349,
       "rule_count": 0,
       "test_count": 0
     },
@@ -22,6 +52,96 @@
       "rule_count": 4,
       "test_count": 0
     },
+    "arn": {
+      "words": "arn/words.json",
+      "rules": "arn/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "as": {
+      "words": "as/words.json",
+      "rules": "as/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 124,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ast": {
+      "words": "ast/words.json",
+      "rules": "ast/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 10,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ay": {
+      "words": "ay/words.json",
+      "rules": "ay/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 99,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ba": {
+      "words": "ba/words.json",
+      "rules": "ba/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 79,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "bg": {
+      "words": "bg/words.json",
+      "rules": "bg/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 167,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "bn": {
+      "words": "bn/words.json",
+      "rules": "bn/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 48,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "bo": {
+      "words": "bo/words.json",
+      "rules": "bo/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 13,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "br": {
+      "words": "br/words.json",
+      "rules": "br/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 28,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "ca": {
       "words": "ca/words.json",
       "rules": "ca/rules.json",
@@ -32,13 +152,23 @@
       "rule_count": 8,
       "test_count": 0
     },
+    "ceb": {
+      "words": "ceb/words.json",
+      "rules": "ceb/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "cs": {
       "words": "cs/words.json",
       "rules": "cs/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 216,
       "rule_count": 0,
       "test_count": 0
     },
@@ -48,7 +178,7 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 50,
+      "word_count": 52,
       "rule_count": 0,
       "test_count": 0
     },
@@ -58,7 +188,7 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 35,
+      "word_count": 213,
       "rule_count": 0,
       "test_count": 0
     },
@@ -68,7 +198,27 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 326,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "dsb": {
+      "words": "dsb/words.json",
+      "rules": "dsb/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 11,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "el": {
+      "words": "el/words.json",
+      "rules": "el/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 301,
       "rule_count": 0,
       "test_count": 0
     },
@@ -78,7 +228,7 @@
       "tests": "en/tests.csv",
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 3878,
+      "word_count": 4215,
       "rule_count": 62,
       "test_count": 195
     },
@@ -138,7 +288,7 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 116,
+      "word_count": 747,
       "rule_count": 1,
       "test_count": 0
     },
@@ -152,13 +302,33 @@
       "rule_count": 0,
       "test_count": 0
     },
+    "et": {
+      "words": "et/words.json",
+      "rules": "et/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 107,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "eu": {
       "words": "eu/words.json",
       "rules": "eu/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 59,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "fa": {
+      "words": "fa/words.json",
+      "rules": "fa/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 21,
       "rule_count": 0,
       "test_count": 0
     },
@@ -178,7 +348,7 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 36,
+      "word_count": 64,
       "rule_count": 0,
       "test_count": 0
     },
@@ -188,7 +358,7 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 279,
       "rule_count": 0,
       "test_count": 0
     },
@@ -202,13 +372,93 @@
       "rule_count": 8,
       "test_count": 0
     },
+    "frr": {
+      "words": "frr/words.json",
+      "rules": "frr/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 2,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "fur": {
+      "words": "fur/words.json",
+      "rules": "fur/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 4,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ga": {
+      "words": "ga/words.json",
+      "rules": "ga/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 8,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "gaa": {
+      "words": "gaa/words.json",
+      "rules": "gaa/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 5,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "gd": {
+      "words": "gd/words.json",
+      "rules": "gd/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "gsw": {
+      "words": "gsw/words.json",
+      "rules": "gsw/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 2,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "gu": {
+      "words": "gu/words.json",
+      "rules": "gu/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "he": {
       "words": "he/words.json",
       "rules": "he/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 263,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "hi": {
+      "words": "hi/words.json",
+      "rules": "hi/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 52,
       "rule_count": 0,
       "test_count": 0
     },
@@ -222,13 +472,233 @@
       "rule_count": 0,
       "test_count": 0
     },
+    "hsb": {
+      "words": "hsb/words.json",
+      "rules": "hsb/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 7,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "hu": {
+      "words": "hu/words.json",
+      "rules": "hu/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 375,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "hy": {
+      "words": "hy/words.json",
+      "rules": "hy/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 197,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "id": {
+      "words": "id/words.json",
+      "rules": "id/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 484,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "is": {
+      "words": "is/words.json",
+      "rules": "is/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 147,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "it": {
+      "words": "it/words.json",
+      "rules": "it/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 217,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ja": {
+      "words": "ja/words.json",
+      "rules": "ja/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 14,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ka": {
+      "words": "ka/words.json",
+      "rules": "ka/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 1,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "kk": {
+      "words": "kk/words.json",
+      "rules": "kk/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 6,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "kn": {
+      "words": "kn/words.json",
+      "rules": "kn/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 58,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ko": {
+      "words": "ko/words.json",
+      "rules": "ko/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 78,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ky": {
+      "words": "ky/words.json",
+      "rules": "ky/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 2,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "la": {
+      "words": "la/words.json",
+      "rules": "la/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 12,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "lg": {
+      "words": "lg/words.json",
+      "rules": "lg/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 21,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "lld": {
+      "words": "lld/words.json",
+      "rules": "lld/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 8,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ln": {
+      "words": "ln/words.json",
+      "rules": "ln/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 28,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "lt": {
+      "words": "lt/words.json",
+      "rules": "lt/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 89,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "lv": {
+      "words": "lv/words.json",
+      "rules": "lv/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 267,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "mg": {
+      "words": "mg/words.json",
+      "rules": "mg/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 9,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "mk": {
+      "words": "mk/words.json",
+      "rules": "mk/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 280,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "mt": {
+      "words": "mt/words.json",
+      "rules": "mt/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 4,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "nds": {
+      "words": "nds/words.json",
+      "rules": "nds/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 13,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "nl": {
       "words": "nl/words.json",
       "rules": "nl/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 266,
       "rule_count": 0,
       "test_count": 0
     },
@@ -242,13 +712,43 @@
       "rule_count": 0,
       "test_count": 0
     },
+    "nn": {
+      "words": "nn/words.json",
+      "rules": "nn/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 25,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "no": {
       "words": "no/words.json",
       "rules": "no/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 55,
+      "word_count": 540,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "oc": {
+      "words": "oc/words.json",
+      "rules": "oc/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 26,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "om": {
+      "words": "om/words.json",
+      "rules": "om/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 12,
       "rule_count": 0,
       "test_count": 0
     },
@@ -258,7 +758,17 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 50,
+      "word_count": 283,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ps": {
+      "words": "ps/words.json",
+      "rules": "ps/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 2,
       "rule_count": 0,
       "test_count": 0
     },
@@ -282,13 +792,53 @@
       "rule_count": 6,
       "test_count": 0
     },
+    "qu": {
+      "words": "qu/words.json",
+      "rules": "qu/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 100,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ro": {
+      "words": "ro/words.json",
+      "rules": "ro/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 221,
+      "rule_count": 0,
+      "test_count": 0
+    },
     "ru": {
       "words": "ru/words.json",
       "rules": "ru/rules.json",
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 262,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "sah": {
+      "words": "sah/words.json",
+      "rules": "sah/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 20,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "sdh": {
+      "words": "sdh/words.json",
+      "rules": "sdh/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
       "rule_count": 0,
       "test_count": 0
     },
@@ -308,7 +858,37 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 142,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "sn": {
+      "words": "sn/words.json",
+      "rules": "sn/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 15,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "sq": {
+      "words": "sq/words.json",
+      "rules": "sq/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 75,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "st": {
+      "words": "st/words.json",
+      "rules": "st/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 14,
       "rule_count": 0,
       "test_count": 0
     },
@@ -318,7 +898,77 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 40,
+      "word_count": 452,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "te": {
+      "words": "te/words.json",
+      "rules": "te/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 16,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "tg": {
+      "words": "tg/words.json",
+      "rules": "tg/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 17,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "tk": {
+      "words": "tk/words.json",
+      "rules": "tk/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 8,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "tr": {
+      "words": "tr/words.json",
+      "rules": "tr/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 200,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "tt": {
+      "words": "tt/words.json",
+      "rules": "tt/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "tyv": {
+      "words": "tyv/words.json",
+      "rules": "tyv/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 18,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ug": {
+      "words": "ug/words.json",
+      "rules": "ug/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
       "rule_count": 0,
       "test_count": 0
     },
@@ -328,7 +978,47 @@
       "tests": null,
       "base_locale": null,
       "priority_batch": null,
-      "word_count": 34,
+      "word_count": 122,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "ur": {
+      "words": "ur/words.json",
+      "rules": "ur/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 41,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "uz": {
+      "words": "uz/words.json",
+      "rules": "uz/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 0,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "vec": {
+      "words": "vec/words.json",
+      "rules": "vec/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 8,
+      "rule_count": 0,
+      "test_count": 0
+    },
+    "zu": {
+      "words": "zu/words.json",
+      "rules": "zu/rules.json",
+      "tests": null,
+      "base_locale": null,
+      "priority_batch": null,
+      "word_count": 97,
       "rule_count": 0,
       "test_count": 0
     }

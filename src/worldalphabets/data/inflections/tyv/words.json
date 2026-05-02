@@ -1,0 +1,672 @@
+{
+  "_locale": "tyv",
+  "_type": "words",
+  "_version": "0.1",
+  "азыра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "азыра",
+    "inflections": {
+      "regulars": [],
+      "v_npst_neg_3_sg": "азыравас"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ал": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ал",
+    "inflections": {
+      "regulars": [],
+      "v_pst_lgspec1_1_sg": "алдым"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "алд": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "алд",
+    "inflections": {
+      "n_nom_sg_pss1s": "алдым",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "алды": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "алды",
+    "inflections": {
+      "n_nom_sg_pss1s": "алдым",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "бис": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бис",
+    "inflections": {
+      "n_abl_pl": "бистерден",
+      "n_abl_pl_pss1p": "бистеривистен",
+      "n_abl_pl_pss1s": "бистеримден",
+      "n_abl_pl_pss2p": "бистериңерден",
+      "n_abl_pl_pss2s": "бистериңден",
+      "n_abl_pl_pss3s_pss3p": "бистеринден",
+      "n_abl_sg": "бистен",
+      "n_abl_sg_pss1p": "бизивистен",
+      "n_abl_sg_pss1s": "бизимден",
+      "n_abl_sg_pss2p": "бизиңерден",
+      "n_abl_sg_pss2s": "бизиңден",
+      "n_abl_sg_pss3s_pss3p": "бизинден",
+      "n_acc_pl_pss1p": "бистеривисти",
+      "n_acc_pl_pss1s": "бистеримни",
+      "n_acc_pl_pss2p": "бистериңерни",
+      "n_acc_pl_pss2s": "бистериңни",
+      "n_acc_pl_pss3s_pss3p": "бистерин",
+      "n_acc_sg_pss1p": "бизивисти",
+      "n_acc_sg_pss1s": "бизимни",
+      "n_acc_sg_pss2p": "бизиңерни",
+      "n_acc_sg_pss2s": "бизиңни",
+      "n_acc_sg_pss3s_pss3p": "бизин",
+      "n_all_pl": "бистерже",
+      "n_all_pl_pss1p": "бистеривисче",
+      "n_all_pl_pss1s": "бистеримче",
+      "n_all_pl_pss2p": "бистериңерже",
+      "n_all_pl_pss2s": "бистериңче",
+      "n_all_pl_pss3s_pss3p": "бистеринче",
+      "n_all_sg": "бисче",
+      "n_all_sg_pss1p": "бизивисче",
+      "n_all_sg_pss1s": "бизимче",
+      "n_all_sg_pss2p": "бизиңерже",
+      "n_all_sg_pss2s": "бизиңче",
+      "n_all_sg_pss3s_pss3p": "бизинче",
+      "n_dat_pl": "бистерге",
+      "n_dat_pl_pss1p": "бистеривиске",
+      "n_dat_pl_pss1s": "бистеримге",
+      "n_dat_pl_pss2p": "бистериңерге",
+      "n_dat_pl_pss2s": "бистериңге",
+      "n_dat_pl_pss3s_pss3p": "бистеринге",
+      "n_dat_sg": "биске",
+      "n_dat_sg_pss1p": "бизивиске",
+      "n_dat_sg_pss1s": "бизимге",
+      "n_dat_sg_pss2p": "бизиңерге",
+      "n_dat_sg_pss2s": "бизиңге",
+      "n_dat_sg_pss3s_pss3p": "бизинге",
+      "n_def_acc_pl": "бистерни",
+      "n_def_acc_sg": "бисти",
+      "n_def_gen_pl": "бистерниң",
+      "n_def_gen_sg": "бистиң",
+      "n_gen_pl_pss1p": "бистеривистиң",
+      "n_gen_pl_pss1s": "бистеримниң",
+      "n_gen_pl_pss2p": "бистериңерниң",
+      "n_gen_pl_pss2s": "бистериңниң",
+      "n_gen_pl_pss3s_pss3p": "бистериниң",
+      "n_gen_sg_pss1p": "бизивистиң",
+      "n_gen_sg_pss1s": "бизимниң",
+      "n_gen_sg_pss2p": "бизиңерниң",
+      "n_gen_sg_pss2s": "бизиңниң",
+      "n_gen_sg_pss3s_pss3p": "бизиниң",
+      "n_loc_pl": "бистерде",
+      "n_loc_pl_pss1p": "бистеривисте",
+      "n_loc_pl_pss1s": "бистеримде",
+      "n_loc_pl_pss2p": "бистериңерде",
+      "n_loc_pl_pss2s": "бистериңде",
+      "n_loc_pl_pss3s_pss3p": "бистеринде",
+      "n_loc_sg": "бисте",
+      "n_loc_sg_pss1p": "бизивисте",
+      "n_loc_sg_pss1s": "бизимде",
+      "n_loc_sg_pss2p": "бизиңерде",
+      "n_loc_sg_pss2s": "бизиңде",
+      "n_loc_sg_pss3s_pss3p": "бизинде",
+      "n_nom_pl": "бистер",
+      "n_nom_pl_pss1p": "бистеривис",
+      "n_nom_pl_pss1s": "бистерим",
+      "n_nom_pl_pss2p": "бистериңер",
+      "n_nom_pl_pss2s": "бистериң",
+      "n_nom_pl_pss3s_pss3p": "бистери",
+      "n_nom_sg": "бис",
+      "n_nom_sg_pss1p": "бизивис",
+      "n_nom_sg_pss1s": "бизим",
+      "n_nom_sg_pss2p": "бизиңер",
+      "n_nom_sg_pss2s": "бизиң",
+      "n_nom_sg_pss3s_pss3p": "бизи",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "интернет": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "интернет",
+    "inflections": {
+      "n_abl_sg": "интернеттен",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "көргүс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "көргүс",
+    "inflections": {
+      "regulars": [],
+      "v_npst_3_sg": "көргүзер"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "машина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "машина",
+    "inflections": {
+      "n_acc_sg_pss1s": "машинамны",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ном": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ном",
+    "inflections": {
+      "n_def_acc_sg": "номну",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "студент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "студент",
+    "inflections": {
+      "n_abl_pl": "студентилерден",
+      "n_abl_pl_pss1p": "студентилеривистен",
+      "n_abl_pl_pss1s": "студентилеримден",
+      "n_abl_pl_pss2p": "студентилериңерден",
+      "n_abl_pl_pss2s": "студентилериңден",
+      "n_abl_pl_pss3s_pss3p": "студентилеринден",
+      "n_abl_sg": "студентиден",
+      "n_abl_sg_pss1p": "студентивистен",
+      "n_abl_sg_pss1s": "студентимден",
+      "n_abl_sg_pss2p": "студентиңерден",
+      "n_abl_sg_pss2s": "студентиңден",
+      "n_abl_sg_pss3s_pss3p": "студентизинден",
+      "n_acc_pl_pss1p": "студентилеривисти",
+      "n_acc_pl_pss1s": "студентилеримни",
+      "n_acc_pl_pss2p": "студентилериңерни",
+      "n_acc_pl_pss2s": "студентилериңни",
+      "n_acc_pl_pss3s_pss3p": "студентилерин",
+      "n_acc_sg_pss1p": "студентивисти",
+      "n_acc_sg_pss1s": "студентимни",
+      "n_acc_sg_pss2p": "студентиңерни",
+      "n_acc_sg_pss2s": "студентиңни",
+      "n_acc_sg_pss3s_pss3p": "студентизин",
+      "n_all_pl": "студентилерже",
+      "n_all_pl_pss1p": "студентилеривисче",
+      "n_all_pl_pss1s": "студентилеримче",
+      "n_all_pl_pss2p": "студентилериңерже",
+      "n_all_pl_pss2s": "студентилериңче",
+      "n_all_pl_pss3s_pss3p": "студентилеринче",
+      "n_all_sg": "студентиже",
+      "n_all_sg_pss1p": "студентивисче",
+      "n_all_sg_pss1s": "студентимче",
+      "n_all_sg_pss2p": "студентиңерже",
+      "n_all_sg_pss2s": "студентиңче",
+      "n_all_sg_pss3s_pss3p": "студентизинче",
+      "n_dat_pl": "студентилерге",
+      "n_dat_pl_pss1p": "студентилеривиске",
+      "n_dat_pl_pss1s": "студентилеримге",
+      "n_dat_pl_pss2p": "студентилериңерге",
+      "n_dat_pl_pss2s": "студентилериңге",
+      "n_dat_pl_pss3s_pss3p": "студентилеринге",
+      "n_dat_sg": "студентиге",
+      "n_dat_sg_pss1p": "студентивиске",
+      "n_dat_sg_pss1s": "студентимге",
+      "n_dat_sg_pss2p": "студентиңерге",
+      "n_dat_sg_pss2s": "студентиңге",
+      "n_dat_sg_pss3s_pss3p": "студентизинге",
+      "n_def_acc_pl": "студентилерни",
+      "n_def_acc_sg": "студентини",
+      "n_def_gen_pl": "студентилерниң",
+      "n_def_gen_sg": "студентиниң",
+      "n_gen_pl_pss1p": "студентилеривистиң",
+      "n_gen_pl_pss1s": "студентилеримниң",
+      "n_gen_pl_pss2p": "студентилериңерниң",
+      "n_gen_pl_pss2s": "студентилериңниң",
+      "n_gen_pl_pss3s_pss3p": "студентилериниң",
+      "n_gen_sg_pss1p": "студентивистиң",
+      "n_gen_sg_pss1s": "студентимниң",
+      "n_gen_sg_pss2p": "студентиңерниң",
+      "n_gen_sg_pss2s": "студентиңниң",
+      "n_gen_sg_pss3s_pss3p": "студентизиниң",
+      "n_loc_pl": "студентилерде",
+      "n_loc_pl_pss1p": "студентилеривисте",
+      "n_loc_pl_pss1s": "студентилеримде",
+      "n_loc_pl_pss2p": "студентилериңерде",
+      "n_loc_pl_pss2s": "студентилериңде",
+      "n_loc_pl_pss3s_pss3p": "студентилеринде",
+      "n_loc_sg": "студентиде",
+      "n_loc_sg_pss1p": "студентивисте",
+      "n_loc_sg_pss1s": "студентимде",
+      "n_loc_sg_pss2p": "студентиңерде",
+      "n_loc_sg_pss2s": "студентиңде",
+      "n_loc_sg_pss3s_pss3p": "студентизинде",
+      "n_nom_pl": "студентилер",
+      "n_nom_pl_pss1p": "студентилеривис",
+      "n_nom_pl_pss1s": "студентилерим",
+      "n_nom_pl_pss2p": "студентилериңер",
+      "n_nom_pl_pss2s": "студентилериң",
+      "n_nom_pl_pss3s_pss3p": "студентилери",
+      "n_nom_sg": "студент",
+      "n_nom_sg_pss1p": "студентивис",
+      "n_nom_sg_pss1s": "студентим",
+      "n_nom_sg_pss2p": "студентиңер",
+      "n_nom_sg_pss2s": "студентиң",
+      "n_nom_sg_pss3s_pss3p": "студентизи",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "сцена": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сцена",
+    "inflections": {
+      "n_dat_sg": "сценага",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "танцычы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "танцычы",
+    "inflections": {
+      "n_abl_pl": "танцычылардан",
+      "n_abl_pl_pss1p": "танцычыларывыстан",
+      "n_abl_pl_pss1s": "танцычыларымдан",
+      "n_abl_pl_pss2p": "танцычыларыңардан",
+      "n_abl_pl_pss2s": "танцычыларыңдан",
+      "n_abl_pl_pss3s_pss3p": "танцычыларындан",
+      "n_abl_sg": "танцычыдан",
+      "n_abl_sg_pss1p": "танцычывыстан",
+      "n_abl_sg_pss1s": "танцычымдан",
+      "n_abl_sg_pss2p": "танцычыңардан",
+      "n_abl_sg_pss2s": "танцычыңдан",
+      "n_abl_sg_pss3s_pss3p": "танцычызындан",
+      "n_acc_pl_pss1p": "танцычыларывысты",
+      "n_acc_pl_pss1s": "танцычыларымны",
+      "n_acc_pl_pss2p": "танцычыларыңарны",
+      "n_acc_pl_pss2s": "танцычыларыңны",
+      "n_acc_pl_pss3s_pss3p": "танцычыларын",
+      "n_acc_sg_pss1p": "танцычывысты",
+      "n_acc_sg_pss1s": "танцычымны",
+      "n_acc_sg_pss2p": "танцычыңарны",
+      "n_acc_sg_pss2s": "танцычыңны",
+      "n_acc_sg_pss3s_pss3p": "танцычызын",
+      "n_all_pl": "танцычыларже",
+      "n_all_pl_pss1p": "танцычыларывысче",
+      "n_all_pl_pss1s": "танцычыларымче",
+      "n_all_pl_pss2p": "танцычыларыңарже",
+      "n_all_pl_pss2s": "танцычыларыңче",
+      "n_all_pl_pss3s_pss3p": "танцычыларынче",
+      "n_all_sg": "танцычыже",
+      "n_all_sg_pss1p": "танцычывысче",
+      "n_all_sg_pss1s": "танцычымче",
+      "n_all_sg_pss2p": "танцычыңарже",
+      "n_all_sg_pss2s": "танцычыңче",
+      "n_all_sg_pss3s_pss3p": "танцычызынче",
+      "n_dat_pl": "танцычыларга",
+      "n_dat_pl_pss1p": "танцычыларывыска",
+      "n_dat_pl_pss1s": "танцычыларымга",
+      "n_dat_pl_pss2p": "танцычыларыңарга",
+      "n_dat_pl_pss2s": "танцычыларыңга",
+      "n_dat_pl_pss3s_pss3p": "танцычыларынга",
+      "n_dat_sg": "танцычыга",
+      "n_dat_sg_pss1p": "танцычывыска",
+      "n_dat_sg_pss1s": "танцычымга",
+      "n_dat_sg_pss2p": "танцычыңарга",
+      "n_dat_sg_pss2s": "танцычыңга",
+      "n_dat_sg_pss3s_pss3p": "танцычызынга",
+      "n_def_acc_pl": "танцычыларны",
+      "n_def_acc_sg": "танцычыны",
+      "n_def_gen_pl": "танцычыларның",
+      "n_def_gen_sg": "танцычының",
+      "n_gen_pl_pss1p": "танцычыларывыстың",
+      "n_gen_pl_pss1s": "танцычыларымның",
+      "n_gen_pl_pss2p": "танцычыларыңарның",
+      "n_gen_pl_pss2s": "танцычыларыңның",
+      "n_gen_pl_pss3s_pss3p": "танцычыларының",
+      "n_gen_sg_pss1p": "танцычывыстың",
+      "n_gen_sg_pss1s": "танцычымның",
+      "n_gen_sg_pss2p": "танцычыңарның",
+      "n_gen_sg_pss2s": "танцычыңның",
+      "n_gen_sg_pss3s_pss3p": "танцычызының",
+      "n_loc_pl": "танцычыларда",
+      "n_loc_pl_pss1p": "танцычыларывыста",
+      "n_loc_pl_pss1s": "танцычыларымда",
+      "n_loc_pl_pss2p": "танцычыларыңарда",
+      "n_loc_pl_pss2s": "танцычыларыңда",
+      "n_loc_pl_pss3s_pss3p": "танцычыларында",
+      "n_loc_sg": "танцычыда",
+      "n_loc_sg_pss1p": "танцычывыста",
+      "n_loc_sg_pss1s": "танцычымда",
+      "n_loc_sg_pss2p": "танцычыңарда",
+      "n_loc_sg_pss2s": "танцычыңда",
+      "n_loc_sg_pss3s_pss3p": "танцычызында",
+      "n_nom_pl": "танцычылар",
+      "n_nom_pl_pss1p": "танцычыларывыс",
+      "n_nom_pl_pss1s": "танцычыларым",
+      "n_nom_pl_pss2p": "танцычыларыңар",
+      "n_nom_pl_pss2s": "танцычыларың",
+      "n_nom_pl_pss3s_pss3p": "танцычылары",
+      "n_nom_sg": "танцычы",
+      "n_nom_sg_pss1p": "танцычывыс",
+      "n_nom_sg_pss1s": "танцычым",
+      "n_nom_sg_pss2p": "танцычыңар",
+      "n_nom_sg_pss2s": "танцычың",
+      "n_nom_sg_pss3s_pss3p": "танцычызы",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "херээжен": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "херээжен",
+    "inflections": {
+      "n_dat_sg": "херээженге",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "хөл": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хөл",
+    "inflections": {
+      "n_abl_pl": "хөлдерден",
+      "n_abl_pl_pss1p": "хөлдеривистен",
+      "n_abl_pl_pss1s": "хөлдеримден",
+      "n_abl_pl_pss2p": "хөлдериңерден",
+      "n_abl_pl_pss2s": "хөлдериңден",
+      "n_abl_pl_pss3s_pss3p": "хөлдеринден",
+      "n_abl_sg": "хөлден",
+      "n_abl_sg_pss1p": "хөлүвүстен",
+      "n_abl_sg_pss1s": "хөлүмден",
+      "n_abl_sg_pss2p": "хөлүңерден",
+      "n_abl_sg_pss2s": "хөлүңден",
+      "n_abl_sg_pss3s_pss3p": "хөлүнден",
+      "n_acc_pl_pss1p": "хөлдеривисти",
+      "n_acc_pl_pss1s": "хөлдеримни",
+      "n_acc_pl_pss2p": "хөлдериңерни",
+      "n_acc_pl_pss2s": "хөлдериңни",
+      "n_acc_pl_pss3s_pss3p": "хөлдерин",
+      "n_acc_sg_pss1p": "хөлүвүстү",
+      "n_acc_sg_pss1s": "хөлүмнү",
+      "n_acc_sg_pss2p": "хөлүңерни",
+      "n_acc_sg_pss2s": "хөлүңнү",
+      "n_acc_sg_pss3s_pss3p": "хөлүн",
+      "n_all_pl": "хөлдерже",
+      "n_all_pl_pss1p": "хөлдеривисче",
+      "n_all_pl_pss1s": "хөлдеримче",
+      "n_all_pl_pss2p": "хөлдериңерже",
+      "n_all_pl_pss2s": "хөлдериңче",
+      "n_all_pl_pss3s_pss3p": "хөлдеринче",
+      "n_all_sg": "хөлче",
+      "n_all_sg_pss1p": "хөлүвүсче",
+      "n_all_sg_pss1s": "хөлүмче",
+      "n_all_sg_pss2p": "хөлүңерже",
+      "n_all_sg_pss2s": "хөлүңче",
+      "n_all_sg_pss3s_pss3p": "хөлүнче",
+      "n_dat_pl": "хөлдерге",
+      "n_dat_pl_pss1p": "хөлдеривиске",
+      "n_dat_pl_pss1s": "хөлдеримге",
+      "n_dat_pl_pss2p": "хөлдериңерге",
+      "n_dat_pl_pss2s": "хөлдериңге",
+      "n_dat_pl_pss3s_pss3p": "хөлдеринге",
+      "n_dat_sg": "хөлге",
+      "n_dat_sg_pss1p": "хөлүвүске",
+      "n_dat_sg_pss1s": "хөлүмге",
+      "n_dat_sg_pss2p": "хөлүңерге",
+      "n_dat_sg_pss2s": "хөлүңге",
+      "n_dat_sg_pss3s_pss3p": "хөлүнге",
+      "n_def_acc_pl": "хөлдерни",
+      "n_def_acc_sg": "хөлдү",
+      "n_def_gen_pl": "хөлдерниң",
+      "n_def_gen_sg": "хөлдүң",
+      "n_gen_pl_pss1p": "хөлдеривистиң",
+      "n_gen_pl_pss1s": "хөлдеримниң",
+      "n_gen_pl_pss2p": "хөлдериңерниң",
+      "n_gen_pl_pss2s": "хөлдериңниң",
+      "n_gen_pl_pss3s_pss3p": "хөлдериниң",
+      "n_gen_sg_pss1p": "хөлүвүстүң",
+      "n_gen_sg_pss1s": "хөлүмнүң",
+      "n_gen_sg_pss2p": "хөлүңерниң",
+      "n_gen_sg_pss2s": "хөлүңнүң",
+      "n_gen_sg_pss3s_pss3p": "хөлүнүң",
+      "n_loc_pl": "хөлдерде",
+      "n_loc_pl_pss1p": "хөлдеривисте",
+      "n_loc_pl_pss1s": "хөлдеримде",
+      "n_loc_pl_pss2p": "хөлдериңерде",
+      "n_loc_pl_pss2s": "хөлдериңде",
+      "n_loc_pl_pss3s_pss3p": "хөлдеринде",
+      "n_loc_sg": "хөлде",
+      "n_loc_sg_pss1p": "хөлүвүсте",
+      "n_loc_sg_pss1s": "хөлүмде",
+      "n_loc_sg_pss2p": "хөлүңерде",
+      "n_loc_sg_pss2s": "хөлүңде",
+      "n_loc_sg_pss3s_pss3p": "хөлүнде",
+      "n_nom_pl": "хөлдер",
+      "n_nom_pl_pss1p": "хөлдеривис",
+      "n_nom_pl_pss1s": "хөлдерим",
+      "n_nom_pl_pss2p": "хөлдериңер",
+      "n_nom_pl_pss2s": "хөлдериң",
+      "n_nom_pl_pss3s_pss3p": "хөлдери",
+      "n_nom_sg": "хөл",
+      "n_nom_sg_pss1p": "хөлүвүс",
+      "n_nom_sg_pss1s": "хөлүм",
+      "n_nom_sg_pss2p": "хөлүңер",
+      "n_nom_sg_pss2s": "хөлүң",
+      "n_nom_sg_pss3s_pss3p": "хөлү",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "чаа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чаа",
+    "inflections": {
+      "n_abl_pl": "чаалардан",
+      "n_abl_pl_pss1p": "чааларывыстан",
+      "n_abl_pl_pss1s": "чааларымдан",
+      "n_abl_pl_pss2p": "чааларыңардан",
+      "n_abl_pl_pss2s": "чааларыңдан",
+      "n_abl_pl_pss3s_pss3p": "чааларындан",
+      "n_abl_sg": "чаадан",
+      "n_abl_sg_pss1p": "чаавыстан",
+      "n_abl_sg_pss1s": "чаамдан",
+      "n_abl_sg_pss2p": "чааңардан",
+      "n_abl_sg_pss2s": "чааңдан",
+      "n_abl_sg_pss3s_pss3p": "чаазындан",
+      "n_acc_pl_pss1p": "чааларывысты",
+      "n_acc_pl_pss1s": "чааларымны",
+      "n_acc_pl_pss2p": "чааларыңарны",
+      "n_acc_pl_pss2s": "чааларыңны",
+      "n_acc_pl_pss3s_pss3p": "чааларын",
+      "n_acc_sg_pss1p": "чаавысты",
+      "n_acc_sg_pss1s": "чаамны",
+      "n_acc_sg_pss2p": "чааңарны",
+      "n_acc_sg_pss2s": "чааңны",
+      "n_acc_sg_pss3s_pss3p": "чаазын",
+      "n_all_pl": "чааларже",
+      "n_all_pl_pss1p": "чааларывысче",
+      "n_all_pl_pss1s": "чааларымче",
+      "n_all_pl_pss2p": "чааларыңарже",
+      "n_all_pl_pss2s": "чааларыңче",
+      "n_all_pl_pss3s_pss3p": "чааларынче",
+      "n_all_sg": "чааже",
+      "n_all_sg_pss1p": "чаавысче",
+      "n_all_sg_pss1s": "чаамче",
+      "n_all_sg_pss2p": "чааңарже",
+      "n_all_sg_pss2s": "чааңче",
+      "n_all_sg_pss3s_pss3p": "чаазынче",
+      "n_dat_pl": "чааларга",
+      "n_dat_pl_pss1p": "чааларывыска",
+      "n_dat_pl_pss1s": "чааларымга",
+      "n_dat_pl_pss2p": "чааларыңарга",
+      "n_dat_pl_pss2s": "чааларыңга",
+      "n_dat_pl_pss3s_pss3p": "чааларынга",
+      "n_dat_sg": "чаага",
+      "n_dat_sg_pss1p": "чаавыска",
+      "n_dat_sg_pss1s": "чаамга",
+      "n_dat_sg_pss2p": "чааңарга",
+      "n_dat_sg_pss2s": "чааңга",
+      "n_dat_sg_pss3s_pss3p": "чаазынга",
+      "n_def_acc_pl": "чааларны",
+      "n_def_acc_sg": "чааны",
+      "n_def_gen_pl": "чааларның",
+      "n_def_gen_sg": "чааның",
+      "n_gen_pl_pss1p": "чааларывыстың",
+      "n_gen_pl_pss1s": "чааларымның",
+      "n_gen_pl_pss2p": "чааларыңарның",
+      "n_gen_pl_pss2s": "чааларыңның",
+      "n_gen_pl_pss3s_pss3p": "чааларының",
+      "n_gen_sg_pss1p": "чаавыстың",
+      "n_gen_sg_pss1s": "чаамның",
+      "n_gen_sg_pss2p": "чааңарның",
+      "n_gen_sg_pss2s": "чааңның",
+      "n_gen_sg_pss3s_pss3p": "чаазының",
+      "n_loc_pl": "чааларда",
+      "n_loc_pl_pss1p": "чааларывыста",
+      "n_loc_pl_pss1s": "чааларымда",
+      "n_loc_pl_pss2p": "чааларыңарда",
+      "n_loc_pl_pss2s": "чааларыңда",
+      "n_loc_pl_pss3s_pss3p": "чааларында",
+      "n_loc_sg": "чаада",
+      "n_loc_sg_pss1p": "чаавыста",
+      "n_loc_sg_pss1s": "чаамда",
+      "n_loc_sg_pss2p": "чааңарда",
+      "n_loc_sg_pss2s": "чааңда",
+      "n_loc_sg_pss3s_pss3p": "чаазында",
+      "n_nom_pl": "чаалар",
+      "n_nom_pl_pss1p": "чааларывыс",
+      "n_nom_pl_pss1s": "чааларым",
+      "n_nom_pl_pss2p": "чааларыңар",
+      "n_nom_pl_pss2s": "чааларың",
+      "n_nom_pl_pss3s_pss3p": "чаалары",
+      "n_nom_sg": "чаа",
+      "n_nom_sg_pss1p": "чаавыс",
+      "n_nom_sg_pss1s": "чаам",
+      "n_nom_sg_pss2p": "чааңар",
+      "n_nom_sg_pss2s": "чааң",
+      "n_nom_sg_pss3s_pss3p": "чаазы",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "чаг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чаг",
+    "inflections": {
+      "n_nom_sg_pss3s_pss3p": "чаа",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "чору": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чору",
+    "inflections": {
+      "regulars": [],
+      "v_pst_lgspec2_3_sg": "чораан"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ынакшы": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ынакшы",
+    "inflections": {
+      "regulars": [],
+      "v_pst_lgspec2_3_sg": "ынакшаан"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "_locale": "om",
+  "_type": "words",
+  "_version": "0.1",
+  "bara": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bara",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni barattii",
+      "v_fem_sg_3_prs": "barachaa jirtii",
+      "v_fem_sg_3_pst": "barattee",
+      "v_masc_sg_3_fut": "ni barataa",
+      "v_masc_sg_3_prs": "barachaa jiraa",
+      "v_masc_sg_3_pst": "baratee",
+      "v_nfin": "barachuu",
+      "v_pl_1_fut": "ni barannaa",
+      "v_pl_1_prs": "barachaa jiraa",
+      "v_pl_1_pst": "baranee",
+      "v_pl_2_fut": "ni barattuu",
+      "v_pl_2_prs": "barachaa jirtuu",
+      "v_pl_2_pst": "barattanii",
+      "v_pl_3_fut": "ni baratanii",
+      "v_pl_3_prs": "barachaa jiranii",
+      "v_pl_3_pst": "baratanii",
+      "v_sg_1_fut": "ni baradhaa",
+      "v_sg_1_prs": "barachaa jiraa",
+      "v_sg_1_pst": "baradhee",
+      "v_sg_2_fut": "ni barattaa",
+      "v_sg_2_prs": "barachaa jirtaa",
+      "v_sg_2_pst": "barattee"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "barsiis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "barsiis",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "barsiisuu"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "dhaaba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dhaaba",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni dhaabattii",
+      "v_fem_sg_3_prs": "dhaabaaa jirtii",
+      "v_fem_sg_3_pst": "dhaabattee",
+      "v_masc_sg_3_fut": "ni dhaabataa",
+      "v_masc_sg_3_prs": "dhaabaaa jiraa",
+      "v_masc_sg_3_pst": "dhaabatee",
+      "v_nfin": "dhaabachuu",
+      "v_pl_1_fut": "ni dhaabannaa",
+      "v_pl_1_prs": "dhaabaaa jiraa",
+      "v_pl_1_pst": "dhaabanee",
+      "v_pl_2_fut": "ni dhaabattuu",
+      "v_pl_2_prs": "dhaabaaa jirtuu",
+      "v_pl_2_pst": "dhaabattanii",
+      "v_pl_3_fut": "ni dhaabatanii",
+      "v_pl_3_prs": "dhaabaaa jiranii",
+      "v_pl_3_pst": "dhaabatanii",
+      "v_sg_1_fut": "ni dhaabadhaa",
+      "v_sg_1_prs": "dhaabaaa jiraa",
+      "v_sg_1_pst": "dhaabadhee",
+      "v_sg_2_fut": "ni dhaabattaa",
+      "v_sg_2_prs": "dhaabaaa jirtaa",
+      "v_sg_2_pst": "dhaabattee"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "dhuf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dhuf",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "dhufuu"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ergaa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ergaa",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni ergaattii",
+      "v_fem_sg_3_prs": "ergaaaa jirtii",
+      "v_fem_sg_3_pst": "ergaattee",
+      "v_masc_sg_3_fut": "ni ergaataa",
+      "v_masc_sg_3_prs": "ergaaaa jiraa",
+      "v_masc_sg_3_pst": "ergaatee",
+      "v_nfin": "ergaa",
+      "v_pl_1_fut": "ni ergaannaa",
+      "v_pl_1_prs": "ergaaaa jiraa",
+      "v_pl_1_pst": "ergaanee",
+      "v_pl_2_fut": "ni ergaattuu",
+      "v_pl_2_prs": "ergaaaa jirtuu",
+      "v_pl_2_pst": "ergaattanii",
+      "v_pl_3_fut": "ni ergaatanii",
+      "v_pl_3_prs": "ergaaaa jiranii",
+      "v_pl_3_pst": "ergaatanii",
+      "v_sg_1_fut": "ni ergaadhaa",
+      "v_sg_1_prs": "ergaaaa jiraa",
+      "v_sg_1_pst": "ergaadhee",
+      "v_sg_2_fut": "ni ergaattaa",
+      "v_sg_2_prs": "ergaaaa jirtaa",
+      "v_sg_2_pst": "ergaattee"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "gaafa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gaafa",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni gaafattii",
+      "v_fem_sg_3_prs": "gaafachaa jirtii",
+      "v_fem_sg_3_pst": "gaafattee",
+      "v_masc_sg_3_fut": "ni gaafataa",
+      "v_masc_sg_3_prs": "gaafachaa jiraa",
+      "v_masc_sg_3_pst": "gaafatee",
+      "v_nfin": "gaafachuu",
+      "v_pl_1_fut": "ni gaafannaa",
+      "v_pl_1_prs": "gaafachaa jiraa",
+      "v_pl_1_pst": "gaafanee",
+      "v_pl_2_fut": "ni gaafattuu",
+      "v_pl_2_prs": "gaafachaa jirtuu",
+      "v_pl_2_pst": "gaafattanii",
+      "v_pl_3_fut": "ni gaafatanii",
+      "v_pl_3_prs": "gaafachaa jiranii",
+      "v_pl_3_pst": "gaafatanii",
+      "v_sg_1_fut": "ni gaafadhaa",
+      "v_sg_1_prs": "gaafachaa jiraa",
+      "v_sg_1_pst": "gaafadhee",
+      "v_sg_2_fut": "ni gaafattaa",
+      "v_sg_2_prs": "gaafachaa jirtaa",
+      "v_sg_2_pst": "gaafattee"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "guddina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "guddina",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni guddinattii",
+      "v_fem_sg_3_prs": "guddinaaa jirtii",
+      "v_fem_sg_3_pst": "guddinattee",
+      "v_masc_sg_3_fut": "ni guddinataa",
+      "v_masc_sg_3_prs": "guddinaaa jiraa",
+      "v_masc_sg_3_pst": "guddinatee",
+      "v_nfin": "guddina",
+      "v_pl_1_fut": "ni guddinannaa",
+      "v_pl_1_prs": "guddinaaa jiraa",
+      "v_pl_1_pst": "guddinanee",
+      "v_pl_2_fut": "ni guddinattuu",
+      "v_pl_2_prs": "guddinaaa jirtuu",
+      "v_pl_2_pst": "guddinattanii",
+      "v_pl_3_fut": "ni guddinatanii",
+      "v_pl_3_prs": "guddinaaa jiranii",
+      "v_pl_3_pst": "guddinatanii",
+      "v_sg_1_fut": "ni guddinadhaa",
+      "v_sg_1_prs": "guddinaaa jiraa",
+      "v_sg_1_pst": "guddinadhee",
+      "v_sg_2_fut": "ni guddinattaa",
+      "v_sg_2_prs": "guddinaaa jirtaa",
+      "v_sg_2_pst": "guddinattee"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "jalqaba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jalqaba",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni jalqabattii",
+      "v_fem_sg_3_prs": "jalqabaaa jirtii",
+      "v_fem_sg_3_pst": "jalqabattee",
+      "v_masc_sg_3_fut": "ni jalqabataa",
+      "v_masc_sg_3_prs": "jalqabaaa jiraa",
+      "v_masc_sg_3_pst": "jalqabatee",
+      "v_nfin": "jalqaba",
+      "v_pl_1_fut": "ni jalqabannaa",
+      "v_pl_1_prs": "jalqabaaa jiraa",
+      "v_pl_1_pst": "jalqabanee",
+      "v_pl_2_fut": "ni jalqabattuu",
+      "v_pl_2_prs": "jalqabaaa jirtuu",
+      "v_pl_2_pst": "jalqabattanii",
+      "v_pl_3_fut": "ni jalqabatanii",
+      "v_pl_3_prs": "jalqabaaa jiranii",
+      "v_pl_3_pst": "jalqabatanii",
+      "v_sg_1_fut": "ni jalqabadhaa",
+      "v_sg_1_prs": "jalqabaaa jiraa",
+      "v_sg_1_pst": "jalqabadhee",
+      "v_sg_2_fut": "ni jalqabattaa",
+      "v_sg_2_prs": "jalqabaaa jirtaa",
+      "v_sg_2_pst": "jalqabattee"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "jedh": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jedh",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "jedhuu"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "qabu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "qabu",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni qabuttii",
+      "v_fem_sg_3_prs": "qabuaa jirtii",
+      "v_fem_sg_3_pst": "qabuttee",
+      "v_masc_sg_3_fut": "ni qabutaa",
+      "v_masc_sg_3_prs": "qabuaa jiraa",
+      "v_masc_sg_3_pst": "qabutee",
+      "v_nfin": "qabu",
+      "v_pl_1_fut": "ni qabunnaa",
+      "v_pl_1_prs": "qabuaa jiraa",
+      "v_pl_1_pst": "qabunee",
+      "v_pl_2_fut": "ni qabuttuu",
+      "v_pl_2_prs": "qabuaa jirtuu",
+      "v_pl_2_pst": "qabuttanii",
+      "v_pl_3_fut": "ni qabutanii",
+      "v_pl_3_prs": "qabuaa jiranii",
+      "v_pl_3_pst": "qabutanii",
+      "v_sg_1_fut": "ni qabudhaa",
+      "v_sg_1_prs": "qabuaa jiraa",
+      "v_sg_1_pst": "qabudhee",
+      "v_sg_2_fut": "ni qabuttaa",
+      "v_sg_2_prs": "qabuaa jirtaa",
+      "v_sg_2_pst": "qabuttee"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ta'": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ta'",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "ta'uu"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "yaada": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yaada",
+    "inflections": {
+      "regulars": [],
+      "v_fem_sg_3_fut": "ni yaadattii",
+      "v_fem_sg_3_prs": "yaadaaa jirtii",
+      "v_fem_sg_3_prs_2": "yaadachaa jirtii",
+      "v_fem_sg_3_pst": "yaadattee",
+      "v_masc_sg_3_fut": "ni yaadataa",
+      "v_masc_sg_3_prs": "yaadaaa jiraa",
+      "v_masc_sg_3_prs_2": "yaadachaa jiraa",
+      "v_masc_sg_3_pst": "yaadatee",
+      "v_nfin": "yaada",
+      "v_nfin_2": "yaadachuu",
+      "v_pl_1_fut": "ni yaadannaa",
+      "v_pl_1_prs": "yaadaaa jiraa",
+      "v_pl_1_prs_2": "yaadachaa jiraa",
+      "v_pl_1_pst": "yaadanee",
+      "v_pl_2_fut": "ni yaadattuu",
+      "v_pl_2_prs": "yaadaaa jirtuu",
+      "v_pl_2_prs_2": "yaadachaa jirtuu",
+      "v_pl_2_pst": "yaadattanii",
+      "v_pl_3_fut": "ni yaadatanii",
+      "v_pl_3_prs": "yaadaaa jiranii",
+      "v_pl_3_prs_2": "yaadachaa jiranii",
+      "v_pl_3_pst": "yaadatanii",
+      "v_sg_1_fut": "ni yaadadhaa",
+      "v_sg_1_prs": "yaadaaa jiraa",
+      "v_sg_1_prs_2": "yaadachaa jiraa",
+      "v_sg_1_pst": "yaadadhee",
+      "v_sg_2_fut": "ni yaadattaa",
+      "v_sg_2_prs": "yaadaaa jirtaa",
+      "v_sg_2_prs_2": "yaadachaa jirtaa",
+      "v_sg_2_pst": "yaadattee"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  }
+}

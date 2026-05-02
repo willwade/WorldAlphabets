@@ -1,0 +1,239 @@
+{
+  "_locale": "vec",
+  "_type": "words",
+  "_version": "0.1",
+  "aver": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aver",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg_lgspec2": "ga",
+      "v_ind_prs_3_pl_lgspec1": "ga",
+      "v_ind_prs_3_sg_lgspec1": "ga"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "canbiar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "canbiar",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "canbià"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "dir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dir",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "de",
+      "v_ind_prs_3_sg": "de"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "justar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "justar",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs_lgspec2": "justa",
+      "v_2_sg_imp": "justa",
+      "v_3_pl_imp_lgspec1": "justa",
+      "v_3_pl_sbjv_prs_lgspec2": "justa",
+      "v_3_sg_imp_lgspec1": "justa",
+      "v_3_sg_sbjv_prs_lgspec2": "justa",
+      "v_ind_prs_3_pl": "justa",
+      "v_ind_prs_3_sg": "justa"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "star": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "star",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs_lgspec2": "sta",
+      "v_2_sg_imp": "sta",
+      "v_2_sg_sbjv_prs": "sti",
+      "v_3_pl_imp_lgspec1": "sta",
+      "v_3_pl_sbjv_prs_lgspec2": "sta",
+      "v_3_sg_imp_lgspec1": "sta",
+      "v_3_sg_sbjv_prs_lgspec2": "sta",
+      "v_ind_prs_2_sg": "sti",
+      "v_ind_prs_3_pl": "sta",
+      "v_ind_prs_3_sg": "sta"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "vardar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vardar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "vardarìsimo",
+      "v_1_pl_imp": "vardémo",
+      "v_1_pl_ind_fut": "vardarémo",
+      "v_1_pl_sbjv_prs_lgspec1": "vardémo",
+      "v_1_pl_sbjv_prs_lgspec2": "vardone",
+      "v_1_pl_sbjv_pst_ipfv": "vardàsimo",
+      "v_1_sg_cond": "vardarìa",
+      "v_1_sg_ind_fut": "vardarò",
+      "v_1_sg_sbjv_prs_lgspec1": "varde",
+      "v_1_sg_sbjv_prs_lgspec2": "varda",
+      "v_1_sg_sbjv_pst_ipfv": "vardase",
+      "v_2_pl_cond": "vardarisi",
+      "v_2_pl_imp": "vardé",
+      "v_2_pl_ind_fut": "vardarè",
+      "v_2_pl_sbjv_prs": "vardé",
+      "v_2_pl_sbjv_pst_ipfv": "vardasi",
+      "v_2_sg_cond": "vardarisi",
+      "v_2_sg_imp": "varda",
+      "v_2_sg_ind_fut": "vardarè",
+      "v_2_sg_sbjv_prs": "vardi",
+      "v_2_sg_sbjv_pst_ipfv": "vardasi",
+      "v_3_pl_cond": "vardarìa",
+      "v_3_pl_imp_lgspec1": "varda",
+      "v_3_pl_imp_lgspec2": "varde",
+      "v_3_pl_ind_fut": "vardarà",
+      "v_3_pl_sbjv_prs_lgspec1": "varde",
+      "v_3_pl_sbjv_prs_lgspec2": "varda",
+      "v_3_pl_sbjv_pst_ipfv": "vardase",
+      "v_3_sg_cond": "vardarìa",
+      "v_3_sg_imp_lgspec1": "varda",
+      "v_3_sg_imp_lgspec2": "varde",
+      "v_3_sg_ind_fut": "vardarà",
+      "v_3_sg_sbjv_prs_lgspec1": "varde",
+      "v_3_sg_sbjv_prs_lgspec2": "varda",
+      "v_3_sg_sbjv_pst_ipfv": "vardase",
+      "v_cvb_prs": "vardando",
+      "v_ind_prs_1_pl_lgspec1": "vardémo",
+      "v_ind_prs_1_pl_lgspec2": "vardòn",
+      "v_ind_prs_1_sg": "vardo",
+      "v_ind_prs_2_pl": "vardé",
+      "v_ind_prs_2_sg": "vardi",
+      "v_ind_prs_3_pl": "varda",
+      "v_ind_prs_3_sg": "varda",
+      "v_ind_pst_1_pl_ipfv": "vardàvimo",
+      "v_ind_pst_1_sg_ipfv": "vardava",
+      "v_ind_pst_2_pl_ipfv": "vardavi",
+      "v_ind_pst_2_sg_ipfv": "vardavi",
+      "v_ind_pst_3_pl_ipfv": "vardava",
+      "v_ind_pst_3_sg_ipfv": "vardava",
+      "v_nfin": "vardar",
+      "v_ptcp_pst": "vardà"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "védar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "védar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "védarìsimo",
+      "v_1_pl_imp": "védémo",
+      "v_1_pl_ind_fut": "védarémo",
+      "v_1_pl_sbjv_prs": "védémo",
+      "v_1_pl_sbjv_pst_ipfv": "védésimo",
+      "v_1_sg_cond": "védarìa",
+      "v_1_sg_ind_fut": "védarò",
+      "v_1_sg_sbjv_prs": "véda",
+      "v_1_sg_sbjv_pst_ipfv": "védése",
+      "v_2_pl_cond": "védarisi",
+      "v_2_pl_imp": "védì",
+      "v_2_pl_ind_fut": "védarè",
+      "v_2_pl_sbjv_prs": "védì",
+      "v_2_pl_sbjv_pst_ipfv": "védisi",
+      "v_2_sg_cond": "védarisi",
+      "v_2_sg_imp": "védi",
+      "v_2_sg_ind_fut": "védarè",
+      "v_2_sg_sbjv_prs": "vidi",
+      "v_2_sg_sbjv_pst_ipfv": "védisi",
+      "v_3_pl_cond": "védarìa",
+      "v_3_pl_imp": "véda",
+      "v_3_pl_ind_fut": "védarà",
+      "v_3_pl_sbjv_prs": "véda",
+      "v_3_pl_sbjv_pst_ipfv": "védése",
+      "v_3_sg_cond": "védarìa",
+      "v_3_sg_imp": "véda",
+      "v_3_sg_ind_fut": "védarà",
+      "v_3_sg_sbjv_prs": "véda",
+      "v_3_sg_sbjv_pst_ipfv": "védése",
+      "v_cvb_prs": "védéndo",
+      "v_ind_prs_1_pl": "védémo",
+      "v_ind_prs_1_sg": "védo",
+      "v_ind_prs_2_pl": "védì",
+      "v_ind_prs_2_sg": "vidi",
+      "v_ind_prs_3_pl": "véde",
+      "v_ind_prs_3_sg": "véde",
+      "v_ind_pst_1_pl_ipfv": "védévimo",
+      "v_ind_pst_1_sg_ipfv": "védéa",
+      "v_ind_pst_2_pl_ipfv": "védivi",
+      "v_ind_pst_2_sg_ipfv": "védivi",
+      "v_ind_pst_3_pl_ipfv": "védéa",
+      "v_ind_pst_3_sg_ipfv": "védéa",
+      "v_nfin": "védar",
+      "v_ptcp_pst_lgspec1": "visto",
+      "v_ptcp_pst_lgspec2": "vedù",
+      "v_ptcp_pst_lgspec3": "vedùo",
+      "v_ptcp_pst_lgspec4": "vedesto"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "èser": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "èser",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "sì",
+      "v_2_pl_sbjv_prs": "sì",
+      "v_2_sg_sbjv_prs": "sì",
+      "v_ind_prs_1_pl": "semo",
+      "v_ind_prs_2_pl": "sì",
+      "v_ind_prs_2_sg": "sì"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

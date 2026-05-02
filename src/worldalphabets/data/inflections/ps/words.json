@@ -1,0 +1,45 @@
+{
+  "_locale": "ps",
+  "_type": "words",
+  "_version": "0.1",
+  "تلل": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "تلل",
+    "inflections": {
+      "regulars": [],
+      "v_ipfv_pst_2_sg_lgspec1": "تلې",
+      "v_ipfv_pst_3_pl_fem_lgspec1": "تلې"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ښه": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ښه",
+    "inflections": {
+      "adj_nom_fem_pl": "ښې",
+      "adj_nom_fem_sg": "ښه",
+      "adj_nom_masc_pl": "ښۀ",
+      "adj_nom_masc_sg": "ښۀ",
+      "adj_non_nom_fem_pl": "ښو",
+      "adj_non_nom_fem_sg": "ښې",
+      "adj_non_nom_masc_pl": "ښو",
+      "adj_non_nom_masc_sg": "ښۀ",
+      "adj_voc_fem_pl": "ښو",
+      "adj_voc_fem_sg": "ښې",
+      "adj_voc_masc_pl": "ښو",
+      "adj_voc_masc_sg": "ښۀ",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  }
+}

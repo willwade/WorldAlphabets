@@ -1,0 +1,4974 @@
+{
+  "_locale": "it",
+  "_type": "words",
+  "_version": "0.1",
+  "acquare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "acquare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "acqua",
+      "v_pos_imp_2_sg": "acqua"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "addossare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "addossare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "addosso"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "agire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "agire",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_prs": "agente"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "aiutare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aiutare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "aiuteremmo",
+      "v_cond_1_sg": "aiuterei",
+      "v_cond_2_pl": "aiutereste",
+      "v_cond_2_sg": "aiuteresti",
+      "v_cond_3_pl": "aiuterebbero",
+      "v_cond_3_sg": "aiuterebbe",
+      "v_cvb_prs": "aiutando",
+      "v_ind_fut_1_pl": "aiuteremo",
+      "v_ind_fut_1_sg": "aiuterò",
+      "v_ind_fut_2_pl": "aiuterete",
+      "v_ind_fut_2_sg": "aiuterai",
+      "v_ind_fut_3_pl": "aiuteranno",
+      "v_ind_fut_3_sg": "aiuterà",
+      "v_ind_prs_1_pl": "aiutiamo",
+      "v_ind_prs_1_sg": "aiuto",
+      "v_ind_prs_2_pl": "aiutate",
+      "v_ind_prs_2_sg": "aiuti",
+      "v_ind_prs_3_pl": "aiutano",
+      "v_ind_prs_3_sg": "aiuta",
+      "v_ind_pst_1_pl_ipfv": "aiutavamo",
+      "v_ind_pst_1_pl_pfv": "aiutammo",
+      "v_ind_pst_1_sg_ipfv": "aiutavo",
+      "v_ind_pst_1_sg_pfv": "aiutai",
+      "v_ind_pst_2_pl_ipfv": "aiutavate",
+      "v_ind_pst_2_pl_pfv": "aiutaste",
+      "v_ind_pst_2_sg_ipfv": "aiutavi",
+      "v_ind_pst_2_sg_pfv": "aiutasti",
+      "v_ind_pst_3_pl_ipfv": "aiutavano",
+      "v_ind_pst_3_pl_pfv": "aiutarono",
+      "v_ind_pst_3_sg_ipfv": "aiutava",
+      "v_ind_pst_3_sg_pfv": "aiutò",
+      "v_nfin": "aiutare",
+      "v_pos_imp_1_pl": "aiutiamo",
+      "v_pos_imp_2_pl": "aiutate",
+      "v_pos_imp_2_sg": "aiuta",
+      "v_pos_imp_3_pl": "aiutino",
+      "v_pos_imp_3_sg": "aiuti",
+      "v_ptcp_prs": "aiutante",
+      "v_ptcp_pst": "aiutato",
+      "v_sbjv_prs_1_pl": "aiutiamo",
+      "v_sbjv_prs_1_sg": "aiuti",
+      "v_sbjv_prs_2_pl": "aiutiate",
+      "v_sbjv_prs_2_sg": "aiuti",
+      "v_sbjv_prs_3_pl": "aiutino",
+      "v_sbjv_prs_3_sg": "aiuti",
+      "v_sbjv_pst_1_pl": "aiutassimo",
+      "v_sbjv_pst_1_sg": "aiutassi",
+      "v_sbjv_pst_2_pl": "aiutaste",
+      "v_sbjv_pst_2_sg": "aiutassi",
+      "v_sbjv_pst_3_pl": "aiutassero",
+      "v_sbjv_pst_3_sg": "aiutasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "amare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "amare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "amo"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "ancorare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ancorare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "ancora",
+      "v_pos_imp_2_sg": "ancora"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "andare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "andare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "andremmo",
+      "v_cond_1_sg": "andrei",
+      "v_cond_2_pl": "andreste",
+      "v_cond_2_sg": "andresti",
+      "v_cond_3_pl": "andrebbero",
+      "v_cond_3_sg": "andrebbe",
+      "v_cvb_prs": "andando",
+      "v_ind_fut_1_pl": "andremo",
+      "v_ind_fut_1_sg": "andrò",
+      "v_ind_fut_2_pl": "andrete",
+      "v_ind_fut_2_sg": "andrai",
+      "v_ind_fut_3_pl": "andranno",
+      "v_ind_fut_3_sg": "andrà",
+      "v_ind_prs_1_pl": "andiamo",
+      "v_ind_prs_1_sg": "vado",
+      "v_ind_prs_2_pl": "andate",
+      "v_ind_prs_2_sg": "vai",
+      "v_ind_prs_3_pl": "vanno",
+      "v_ind_prs_3_sg": "va",
+      "v_ind_pst_1_pl_ipfv": "andavamo",
+      "v_ind_pst_1_pl_pfv": "andammo",
+      "v_ind_pst_1_sg_ipfv": "andavo",
+      "v_ind_pst_1_sg_pfv": "andai",
+      "v_ind_pst_2_pl_ipfv": "andavate",
+      "v_ind_pst_2_pl_pfv": "andaste",
+      "v_ind_pst_2_sg_ipfv": "andavi",
+      "v_ind_pst_2_sg_pfv": "andasti",
+      "v_ind_pst_3_pl_ipfv": "andavano",
+      "v_ind_pst_3_pl_pfv": "andarono",
+      "v_ind_pst_3_sg_ipfv": "andava",
+      "v_ind_pst_3_sg_pfv": "andò",
+      "v_nfin": "andare",
+      "v_pos_imp_1_pl": "andiamo",
+      "v_pos_imp_2_pl": "andate",
+      "v_pos_imp_2_sg": "va",
+      "v_pos_imp_3_pl": "vadano",
+      "v_pos_imp_3_sg": "vada",
+      "v_ptcp_prs": "andante",
+      "v_ptcp_pst": "andato",
+      "v_sbjv_prs_1_pl": "andiamo",
+      "v_sbjv_prs_1_sg": "vada",
+      "v_sbjv_prs_2_pl": "andiate",
+      "v_sbjv_prs_2_sg": "vada",
+      "v_sbjv_prs_3_pl": "vadano",
+      "v_sbjv_prs_3_sg": "vada",
+      "v_sbjv_pst_1_pl": "andassimo",
+      "v_sbjv_pst_1_sg": "andassi",
+      "v_sbjv_pst_2_pl": "andaste",
+      "v_sbjv_pst_2_sg": "andassi",
+      "v_sbjv_pst_3_pl": "andassero",
+      "v_sbjv_pst_3_sg": "andasse"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "andarsene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "andarsene",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "vattene",
+      "v_ptcp_pst": "andato"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "arrivare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "arrivare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "arriveremmo",
+      "v_cond_1_sg": "arriverei",
+      "v_cond_2_pl": "arrivereste",
+      "v_cond_2_sg": "arriveresti",
+      "v_cond_3_pl": "arriverebbero",
+      "v_cond_3_sg": "arriverebbe",
+      "v_cvb_prs": "arrivando",
+      "v_ind_fut_1_pl": "arriveremo",
+      "v_ind_fut_1_sg": "arriverò",
+      "v_ind_fut_2_pl": "arriverete",
+      "v_ind_fut_2_sg": "arriverai",
+      "v_ind_fut_3_pl": "arriveranno",
+      "v_ind_fut_3_sg": "arriverà",
+      "v_ind_prs_1_pl": "arriviamo",
+      "v_ind_prs_1_sg": "arrivo",
+      "v_ind_prs_2_pl": "arrivate",
+      "v_ind_prs_2_sg": "arrivi",
+      "v_ind_prs_3_pl": "arrivano",
+      "v_ind_prs_3_sg": "arriva",
+      "v_ind_pst_1_pl_ipfv": "arrivavamo",
+      "v_ind_pst_1_pl_pfv": "arrivammo",
+      "v_ind_pst_1_sg_ipfv": "arrivavo",
+      "v_ind_pst_1_sg_pfv": "arrivai",
+      "v_ind_pst_2_pl_ipfv": "arrivavate",
+      "v_ind_pst_2_pl_pfv": "arrivaste",
+      "v_ind_pst_2_sg_ipfv": "arrivavi",
+      "v_ind_pst_2_sg_pfv": "arrivasti",
+      "v_ind_pst_3_pl_ipfv": "arrivavano",
+      "v_ind_pst_3_pl_pfv": "arrivarono",
+      "v_ind_pst_3_sg_ipfv": "arrivava",
+      "v_ind_pst_3_sg_pfv": "arrivò",
+      "v_nfin": "arrivare",
+      "v_pos_imp_1_pl": "arriviamo",
+      "v_pos_imp_2_pl": "arrivate",
+      "v_pos_imp_2_sg": "arriva",
+      "v_pos_imp_3_pl": "arrivino",
+      "v_pos_imp_3_sg": "arrivi",
+      "v_ptcp_prs": "arrivante",
+      "v_ptcp_pst": "arrivato",
+      "v_sbjv_prs_1_pl": "arriviamo",
+      "v_sbjv_prs_1_sg": "arrivi",
+      "v_sbjv_prs_2_pl": "arriviate",
+      "v_sbjv_prs_2_sg": "arrivi",
+      "v_sbjv_prs_3_pl": "arrivino",
+      "v_sbjv_prs_3_sg": "arrivi",
+      "v_sbjv_pst_1_pl": "arrivassimo",
+      "v_sbjv_pst_1_sg": "arrivassi",
+      "v_sbjv_pst_2_pl": "arrivaste",
+      "v_sbjv_pst_2_sg": "arrivassi",
+      "v_sbjv_pst_3_pl": "arrivassero",
+      "v_sbjv_pst_3_sg": "arrivasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "aspettare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aspettare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "aspetteremmo",
+      "v_cond_1_sg": "aspetterei",
+      "v_cond_2_pl": "aspettereste",
+      "v_cond_2_sg": "aspetteresti",
+      "v_cond_3_pl": "aspetterebbero",
+      "v_cond_3_sg": "aspetterebbe",
+      "v_cvb_prs": "aspettando",
+      "v_ind_fut_1_pl": "aspetteremo",
+      "v_ind_fut_1_sg": "aspetterò",
+      "v_ind_fut_2_pl": "aspetterete",
+      "v_ind_fut_2_sg": "aspetterai",
+      "v_ind_fut_3_pl": "aspetteranno",
+      "v_ind_fut_3_sg": "aspetterà",
+      "v_ind_prs_1_pl": "aspettiamo",
+      "v_ind_prs_1_sg": "aspetto",
+      "v_ind_prs_2_pl": "aspettate",
+      "v_ind_prs_2_sg": "aspetti",
+      "v_ind_prs_3_pl": "aspettano",
+      "v_ind_prs_3_sg": "aspetta",
+      "v_ind_pst_1_pl_ipfv": "aspettavamo",
+      "v_ind_pst_1_pl_pfv": "aspettammo",
+      "v_ind_pst_1_sg_ipfv": "aspettavo",
+      "v_ind_pst_1_sg_pfv": "aspettai",
+      "v_ind_pst_2_pl_ipfv": "aspettavate",
+      "v_ind_pst_2_pl_pfv": "aspettaste",
+      "v_ind_pst_2_sg_ipfv": "aspettavi",
+      "v_ind_pst_2_sg_pfv": "aspettasti",
+      "v_ind_pst_3_pl_ipfv": "aspettavano",
+      "v_ind_pst_3_pl_pfv": "aspettarono",
+      "v_ind_pst_3_sg_ipfv": "aspettava",
+      "v_ind_pst_3_sg_pfv": "aspettò",
+      "v_nfin": "aspettare",
+      "v_pos_imp_1_pl": "aspettiamo",
+      "v_pos_imp_2_pl": "aspettate",
+      "v_pos_imp_2_sg": "aspetta",
+      "v_pos_imp_3_pl": "aspettino",
+      "v_pos_imp_3_sg": "aspetti",
+      "v_ptcp_prs": "aspettante",
+      "v_ptcp_pst": "aspettato",
+      "v_sbjv_prs_1_pl": "aspettiamo",
+      "v_sbjv_prs_1_sg": "aspetti",
+      "v_sbjv_prs_2_pl": "aspettiate",
+      "v_sbjv_prs_2_sg": "aspetti",
+      "v_sbjv_prs_3_pl": "aspettino",
+      "v_sbjv_prs_3_sg": "aspetti",
+      "v_sbjv_pst_1_pl": "aspettassimo",
+      "v_sbjv_pst_1_sg": "aspettassi",
+      "v_sbjv_pst_2_pl": "aspettaste",
+      "v_sbjv_pst_2_sg": "aspettassi",
+      "v_sbjv_pst_3_pl": "aspettassero",
+      "v_sbjv_pst_3_sg": "aspettasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "assassinare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "assassinare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "assassino"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "attentare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "attentare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "attento"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "bagnare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bagnare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "bagno"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "bastare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bastare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "basta",
+      "v_pos_imp_2_sg": "basta"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "bere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "berremmo",
+      "v_cond_1_sg": "berrei",
+      "v_cond_2_pl": "berreste",
+      "v_cond_2_sg": "berresti",
+      "v_cond_3_pl": "berrebbero",
+      "v_cond_3_sg": "berrebbe",
+      "v_cvb_prs": "bevendo",
+      "v_ind_fut_1_pl": "berremo",
+      "v_ind_fut_1_sg": "berrò",
+      "v_ind_fut_2_pl": "berrete",
+      "v_ind_fut_2_sg": "berrai",
+      "v_ind_fut_3_pl": "berranno",
+      "v_ind_fut_3_sg": "berrà",
+      "v_ind_prs_1_pl": "beviamo",
+      "v_ind_prs_1_sg": "bevo",
+      "v_ind_prs_2_pl": "bevete",
+      "v_ind_prs_2_sg": "bevi",
+      "v_ind_prs_3_pl": "bevono",
+      "v_ind_prs_3_sg": "beve",
+      "v_ind_pst_1_pl_ipfv": "bevevamo",
+      "v_ind_pst_1_pl_pfv": "bevemmo",
+      "v_ind_pst_1_sg_ipfv": "bevevo",
+      "v_ind_pst_1_sg_pfv": "bevei",
+      "v_ind_pst_2_pl_ipfv": "bevevate",
+      "v_ind_pst_2_pl_pfv": "beveste",
+      "v_ind_pst_2_sg_ipfv": "bevevi",
+      "v_ind_pst_2_sg_pfv": "bevesti",
+      "v_ind_pst_3_pl_ipfv": "bevevano",
+      "v_ind_pst_3_pl_pfv": "bevvero",
+      "v_ind_pst_3_sg_ipfv": "beveva",
+      "v_ind_pst_3_sg_pfv": "bevve",
+      "v_nfin": "bere",
+      "v_pos_imp_1_pl": "beviamo",
+      "v_pos_imp_2_pl": "bevete",
+      "v_pos_imp_2_sg": "bevi",
+      "v_pos_imp_3_pl": "bevano",
+      "v_pos_imp_3_sg": "beva",
+      "v_ptcp_prs": "bevente",
+      "v_ptcp_pst": "bevuto",
+      "v_sbjv_prs_1_pl": "beviamo",
+      "v_sbjv_prs_1_sg": "beva",
+      "v_sbjv_prs_2_pl": "beviate",
+      "v_sbjv_prs_2_sg": "beva",
+      "v_sbjv_prs_3_pl": "bevano",
+      "v_sbjv_prs_3_sg": "beva",
+      "v_sbjv_pst_1_pl": "bevessimo",
+      "v_sbjv_pst_1_sg": "bevessi",
+      "v_sbjv_pst_2_pl": "beveste",
+      "v_sbjv_pst_2_sg": "bevessi",
+      "v_sbjv_pst_3_pl": "bevessero",
+      "v_sbjv_pst_3_sg": "bevesse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "bisognare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bisognare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "bisogna"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "bravare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bravare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "bravo",
+      "v_ind_prs_3_sg": "brava",
+      "v_pos_imp_2_sg": "brava"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "bruttare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bruttare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "brutto"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "cambiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cambiare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "cambieremmo",
+      "v_cond_1_sg": "cambierei",
+      "v_cond_2_pl": "cambiereste",
+      "v_cond_2_sg": "cambieresti",
+      "v_cond_3_pl": "cambierebbero",
+      "v_cond_3_sg": "cambierebbe",
+      "v_cvb_prs": "cambiando",
+      "v_ind_fut_1_pl": "cambieremo",
+      "v_ind_fut_1_sg": "cambierò",
+      "v_ind_fut_2_pl": "cambierete",
+      "v_ind_fut_2_sg": "cambierai",
+      "v_ind_fut_3_pl": "cambieranno",
+      "v_ind_fut_3_sg": "cambierà",
+      "v_ind_prs_1_pl": "cambiamo",
+      "v_ind_prs_1_sg": "cambio",
+      "v_ind_prs_2_pl": "cambiate",
+      "v_ind_prs_2_sg": "cambi",
+      "v_ind_prs_3_pl": "cambiano",
+      "v_ind_prs_3_sg": "cambia",
+      "v_ind_pst_1_pl_ipfv": "cambiavamo",
+      "v_ind_pst_1_pl_pfv": "cambiammo",
+      "v_ind_pst_1_sg_ipfv": "cambiavo",
+      "v_ind_pst_1_sg_pfv": "cambiai",
+      "v_ind_pst_2_pl_ipfv": "cambiavate",
+      "v_ind_pst_2_pl_pfv": "cambiaste",
+      "v_ind_pst_2_sg_ipfv": "cambiavi",
+      "v_ind_pst_2_sg_pfv": "cambiasti",
+      "v_ind_pst_3_pl_ipfv": "cambiavano",
+      "v_ind_pst_3_pl_pfv": "cambiarono",
+      "v_ind_pst_3_sg_ipfv": "cambiava",
+      "v_ind_pst_3_sg_pfv": "cambiò",
+      "v_nfin": "cambiare",
+      "v_pos_imp_1_pl": "cambiamo",
+      "v_pos_imp_2_pl": "cambiate",
+      "v_pos_imp_2_sg": "cambia",
+      "v_pos_imp_3_pl": "cambino",
+      "v_pos_imp_3_sg": "cambi",
+      "v_ptcp_prs": "cambiante",
+      "v_ptcp_pst": "cambiato",
+      "v_sbjv_prs_1_pl": "cambiamo",
+      "v_sbjv_prs_1_sg": "cambi",
+      "v_sbjv_prs_2_pl": "cambiate",
+      "v_sbjv_prs_2_sg": "cambi",
+      "v_sbjv_prs_3_pl": "cambino",
+      "v_sbjv_prs_3_sg": "cambi",
+      "v_sbjv_pst_1_pl": "cambiassimo",
+      "v_sbjv_pst_1_sg": "cambiassi",
+      "v_sbjv_pst_2_pl": "cambiaste",
+      "v_sbjv_pst_2_sg": "cambiassi",
+      "v_sbjv_pst_3_pl": "cambiassero",
+      "v_sbjv_pst_3_sg": "cambiasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "cambiarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cambiarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "cambiato"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "camerare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "camerare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "camera",
+      "v_pos_imp_2_sg": "camera"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "campare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "campare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "campo"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "capirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "capirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "capito"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "capitanare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "capitanare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "capitano"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "capitare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "capitare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "capito",
+      "v_ind_prs_3_pl": "capitano"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "cariare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cariare",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_3_pl": "carino",
+      "v_sbjv_prs_3_pl": "carino"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "causare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "causare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "causa",
+      "v_pos_imp_2_sg": "causa"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "cazzare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cazzare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "cazzo"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "cenare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cenare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "cena",
+      "v_pos_imp_2_sg": "cena"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "centrare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "centrare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "centro"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "cercare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cercare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "cercheremmo",
+      "v_cond_1_sg": "cercherei",
+      "v_cond_2_pl": "cerchereste",
+      "v_cond_2_sg": "cercheresti",
+      "v_cond_3_pl": "cercherebbero",
+      "v_cond_3_sg": "cercherebbe",
+      "v_cvb_prs": "cercando",
+      "v_ind_fut_1_pl": "cercheremo",
+      "v_ind_fut_1_sg": "cercherò",
+      "v_ind_fut_2_pl": "cercherete",
+      "v_ind_fut_2_sg": "cercherai",
+      "v_ind_fut_3_pl": "cercheranno",
+      "v_ind_fut_3_sg": "cercherà",
+      "v_ind_prs_1_pl": "cerchiamo",
+      "v_ind_prs_1_sg": "cerco",
+      "v_ind_prs_2_pl": "cercate",
+      "v_ind_prs_2_sg": "cerchi",
+      "v_ind_prs_3_pl": "cercano",
+      "v_ind_prs_3_sg": "cerca",
+      "v_ind_pst_1_pl_ipfv": "cercavamo",
+      "v_ind_pst_1_pl_pfv": "cercammo",
+      "v_ind_pst_1_sg_ipfv": "cercavo",
+      "v_ind_pst_1_sg_pfv": "cercai",
+      "v_ind_pst_2_pl_ipfv": "cercavate",
+      "v_ind_pst_2_pl_pfv": "cercaste",
+      "v_ind_pst_2_sg_ipfv": "cercavi",
+      "v_ind_pst_2_sg_pfv": "cercasti",
+      "v_ind_pst_3_pl_ipfv": "cercavano",
+      "v_ind_pst_3_pl_pfv": "cercarono",
+      "v_ind_pst_3_sg_ipfv": "cercava",
+      "v_ind_pst_3_sg_pfv": "cercò",
+      "v_nfin": "cercare",
+      "v_pos_imp_1_pl": "cerchiamo",
+      "v_pos_imp_2_pl": "cercate",
+      "v_pos_imp_2_sg": "cerca",
+      "v_pos_imp_3_pl": "cerchino",
+      "v_pos_imp_3_sg": "cerchi",
+      "v_ptcp_prs": "cercante",
+      "v_ptcp_pst": "cercato",
+      "v_sbjv_prs_1_pl": "cerchiamo",
+      "v_sbjv_prs_1_sg": "cerchi",
+      "v_sbjv_prs_2_pl": "cerchiate",
+      "v_sbjv_prs_2_sg": "cerchi",
+      "v_sbjv_prs_3_pl": "cerchino",
+      "v_sbjv_prs_3_sg": "cerchi",
+      "v_sbjv_pst_1_pl": "cercassimo",
+      "v_sbjv_pst_1_sg": "cercassi",
+      "v_sbjv_pst_2_pl": "cercaste",
+      "v_sbjv_pst_2_sg": "cercassi",
+      "v_sbjv_pst_3_pl": "cercassero",
+      "v_sbjv_pst_3_sg": "cercasse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "cercarsela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cercarsela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "cercato"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "cercarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cercarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "cercato"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "chiamarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chiamarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "chiamato"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "chiedersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chiedersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "chiesto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "chiudere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chiudere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "chiuso"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "chiudersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chiudersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "chiuso"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "cibare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cibare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "cibo"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "consigliare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "consigliare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "consiglio"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "continuare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "continuare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "continua",
+      "v_pos_imp_2_sg": "continua"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "contrare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "contrare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "contro"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "controllare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "controllare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "controlleremmo",
+      "v_cond_1_sg": "controllerei",
+      "v_cond_2_pl": "controllereste",
+      "v_cond_2_sg": "controlleresti",
+      "v_cond_3_pl": "controllerebbero",
+      "v_cond_3_sg": "controllerebbe",
+      "v_cvb_prs": "controllando",
+      "v_ind_fut_1_pl": "controlleremo",
+      "v_ind_fut_1_sg": "controllerò",
+      "v_ind_fut_2_pl": "controllerete",
+      "v_ind_fut_2_sg": "controllerai",
+      "v_ind_fut_3_pl": "controlleranno",
+      "v_ind_fut_3_sg": "controllerà",
+      "v_ind_prs_1_pl": "controlliamo",
+      "v_ind_prs_1_sg": "controllo",
+      "v_ind_prs_2_pl": "controllate",
+      "v_ind_prs_2_sg": "controlli",
+      "v_ind_prs_3_pl": "controllano",
+      "v_ind_prs_3_sg": "controlla",
+      "v_ind_pst_1_pl_ipfv": "controllavamo",
+      "v_ind_pst_1_pl_pfv": "controllammo",
+      "v_ind_pst_1_sg_ipfv": "controllavo",
+      "v_ind_pst_1_sg_pfv": "controllai",
+      "v_ind_pst_2_pl_ipfv": "controllavate",
+      "v_ind_pst_2_pl_pfv": "controllaste",
+      "v_ind_pst_2_sg_ipfv": "controllavi",
+      "v_ind_pst_2_sg_pfv": "controllasti",
+      "v_ind_pst_3_pl_ipfv": "controllavano",
+      "v_ind_pst_3_pl_pfv": "controllarono",
+      "v_ind_pst_3_sg_ipfv": "controllava",
+      "v_ind_pst_3_sg_pfv": "controllò",
+      "v_nfin": "controllare",
+      "v_pos_imp_1_pl": "controlliamo",
+      "v_pos_imp_2_pl": "controllate",
+      "v_pos_imp_2_sg": "controlla",
+      "v_pos_imp_3_pl": "controllino",
+      "v_pos_imp_3_sg": "controlli",
+      "v_ptcp_prs": "controllante",
+      "v_ptcp_pst": "controllato",
+      "v_sbjv_prs_1_pl": "controlliamo",
+      "v_sbjv_prs_1_sg": "controlli",
+      "v_sbjv_prs_2_pl": "controlliate",
+      "v_sbjv_prs_2_sg": "controlli",
+      "v_sbjv_prs_3_pl": "controllino",
+      "v_sbjv_prs_3_sg": "controlli",
+      "v_sbjv_pst_1_pl": "controllassimo",
+      "v_sbjv_pst_1_sg": "controllassi",
+      "v_sbjv_pst_2_pl": "controllaste",
+      "v_sbjv_pst_2_sg": "controllassi",
+      "v_sbjv_pst_3_pl": "controllassero",
+      "v_sbjv_pst_3_sg": "controllasse"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "cosare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cosare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "cosi",
+      "v_ind_prs_3_sg": "cosa",
+      "v_pos_imp_2_sg": "cosa",
+      "v_pos_imp_3_sg": "cosi",
+      "v_sbjv_prs_1_sg": "cosi",
+      "v_sbjv_prs_2_sg": "cosi",
+      "v_sbjv_prs_3_sg": "cosi"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "credere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "credere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "crederemmo",
+      "v_cond_1_sg": "crederei",
+      "v_cond_2_pl": "credereste",
+      "v_cond_2_sg": "crederesti",
+      "v_cond_3_pl": "crederebbero",
+      "v_cond_3_sg": "crederebbe",
+      "v_cvb_prs": "credendo",
+      "v_ind_fut_1_pl": "crederemo",
+      "v_ind_fut_1_sg": "crederò",
+      "v_ind_fut_2_pl": "crederete",
+      "v_ind_fut_2_sg": "crederai",
+      "v_ind_fut_3_pl": "crederanno",
+      "v_ind_fut_3_sg": "crederà",
+      "v_ind_prs_1_pl": "crediamo",
+      "v_ind_prs_1_sg": "credo",
+      "v_ind_prs_2_pl": "credete",
+      "v_ind_prs_2_sg": "credi",
+      "v_ind_prs_3_pl": "credono",
+      "v_ind_prs_3_sg": "crede",
+      "v_ind_pst_1_pl_ipfv": "credevamo",
+      "v_ind_pst_1_pl_pfv": "credemmo",
+      "v_ind_pst_1_sg_ipfv": "credevo",
+      "v_ind_pst_1_sg_pfv": "credei",
+      "v_ind_pst_2_pl_ipfv": "credevate",
+      "v_ind_pst_2_pl_pfv": "credeste",
+      "v_ind_pst_2_sg_ipfv": "credevi",
+      "v_ind_pst_2_sg_pfv": "credesti",
+      "v_ind_pst_3_pl_ipfv": "credevano",
+      "v_ind_pst_3_pl_pfv": "credettero",
+      "v_ind_pst_3_sg_ipfv": "credeva",
+      "v_ind_pst_3_sg_pfv": "credette",
+      "v_nfin": "credere",
+      "v_pos_imp_1_pl": "crediamo",
+      "v_pos_imp_2_pl": "credete",
+      "v_pos_imp_2_sg": "credi",
+      "v_pos_imp_3_pl": "credano",
+      "v_pos_imp_3_sg": "creda",
+      "v_ptcp_prs": "credente",
+      "v_ptcp_pst": "creduto",
+      "v_sbjv_prs_1_pl": "crediamo",
+      "v_sbjv_prs_1_sg": "creda",
+      "v_sbjv_prs_2_pl": "crediate",
+      "v_sbjv_prs_2_sg": "creda",
+      "v_sbjv_prs_3_pl": "credano",
+      "v_sbjv_prs_3_sg": "creda",
+      "v_sbjv_pst_1_pl": "credessimo",
+      "v_sbjv_pst_1_sg": "credessi",
+      "v_sbjv_pst_2_pl": "credeste",
+      "v_sbjv_pst_2_sg": "credessi",
+      "v_sbjv_pst_3_pl": "credessero",
+      "v_sbjv_pst_3_sg": "credesse"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "curare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "curare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "cura",
+      "v_pos_imp_2_sg": "cura"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "dare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "daremmo",
+      "v_cond_1_sg": "darei",
+      "v_cond_2_pl": "dareste",
+      "v_cond_2_sg": "daresti",
+      "v_cond_3_pl": "darebbero",
+      "v_cond_3_sg": "darebbe",
+      "v_cvb_prs": "dando",
+      "v_ind_fut_1_pl": "daremo",
+      "v_ind_fut_1_sg": "darò",
+      "v_ind_fut_2_pl": "darete",
+      "v_ind_fut_2_sg": "darai",
+      "v_ind_fut_3_pl": "daranno",
+      "v_ind_fut_3_sg": "darà",
+      "v_ind_prs_1_pl": "diamo",
+      "v_ind_prs_1_sg": "do",
+      "v_ind_prs_2_pl": "date",
+      "v_ind_prs_2_sg": "dai",
+      "v_ind_prs_3_pl": "danno",
+      "v_ind_prs_3_sg": "dà",
+      "v_ind_pst_1_pl_ipfv": "davamo",
+      "v_ind_pst_1_pl_pfv": "demmo",
+      "v_ind_pst_1_sg_ipfv": "davo",
+      "v_ind_pst_1_sg_pfv": "diedi",
+      "v_ind_pst_2_pl_ipfv": "davate",
+      "v_ind_pst_2_pl_pfv": "deste",
+      "v_ind_pst_2_sg_ipfv": "davi",
+      "v_ind_pst_2_sg_pfv": "desti",
+      "v_ind_pst_3_pl_ipfv": "davano",
+      "v_ind_pst_3_pl_pfv": "diedero",
+      "v_ind_pst_3_sg_ipfv": "dava",
+      "v_ind_pst_3_sg_pfv": "diede",
+      "v_nfin": "dare",
+      "v_pos_imp_1_pl": "diamo",
+      "v_pos_imp_2_pl": "date",
+      "v_pos_imp_2_sg": "dà",
+      "v_pos_imp_3_pl": "diano",
+      "v_pos_imp_3_sg": "dia",
+      "v_ptcp_prs": "dante",
+      "v_ptcp_pst": "dato",
+      "v_sbjv_prs_1_pl": "diamo",
+      "v_sbjv_prs_1_sg": "dia",
+      "v_sbjv_prs_2_pl": "diate",
+      "v_sbjv_prs_2_sg": "dia",
+      "v_sbjv_prs_3_pl": "diano",
+      "v_sbjv_prs_3_sg": "dia",
+      "v_sbjv_pst_1_pl": "dessimo",
+      "v_sbjv_pst_1_sg": "dessi",
+      "v_sbjv_pst_2_pl": "deste",
+      "v_sbjv_pst_2_sg": "dessi",
+      "v_sbjv_pst_3_pl": "dessero",
+      "v_sbjv_pst_3_sg": "desse"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "darsela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darsela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "dato"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "darsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "dato"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "datare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "datare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "dato"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "decidere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "decidere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "deciso"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "decidersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "decidersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "deciso"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "dettare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dettare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "detto"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "deviare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "deviare",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_3_sg": "devi"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "dimenticarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dimenticarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "dimenticato"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "dire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dire",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "diremmo",
+      "v_cond_1_sg": "direi",
+      "v_cond_2_pl": "direste",
+      "v_cond_2_sg": "diresti",
+      "v_cond_3_pl": "direbbero",
+      "v_cond_3_sg": "direbbe",
+      "v_cvb_prs": "dicendo",
+      "v_ind_fut_1_pl": "diremo",
+      "v_ind_fut_1_sg": "dirò",
+      "v_ind_fut_2_pl": "direte",
+      "v_ind_fut_2_sg": "dirai",
+      "v_ind_fut_3_pl": "diranno",
+      "v_ind_fut_3_sg": "dirà",
+      "v_ind_prs_1_pl": "diciamo",
+      "v_ind_prs_1_sg": "dico",
+      "v_ind_prs_2_pl": "dite",
+      "v_ind_prs_2_sg": "dici",
+      "v_ind_prs_3_pl": "dicono",
+      "v_ind_prs_3_sg": "dice",
+      "v_ind_pst_1_pl_ipfv": "dicevamo",
+      "v_ind_pst_1_pl_pfv": "dicemmo",
+      "v_ind_pst_1_sg_ipfv": "dicevo",
+      "v_ind_pst_1_sg_pfv": "dissi",
+      "v_ind_pst_2_pl_ipfv": "dicevate",
+      "v_ind_pst_2_pl_pfv": "diceste",
+      "v_ind_pst_2_sg_ipfv": "dicevi",
+      "v_ind_pst_2_sg_pfv": "dicesti",
+      "v_ind_pst_3_pl_ipfv": "dicevano",
+      "v_ind_pst_3_pl_pfv": "dissero",
+      "v_ind_pst_3_sg_ipfv": "diceva",
+      "v_ind_pst_3_sg_pfv": "disse",
+      "v_nfin": "dire",
+      "v_pos_imp_1_pl": "diciamo",
+      "v_pos_imp_2_pl": "dite",
+      "v_pos_imp_2_sg": "dì",
+      "v_pos_imp_3_pl": "dicano",
+      "v_pos_imp_3_sg": "dica",
+      "v_ptcp_prs": "dicente",
+      "v_ptcp_pst": "detto",
+      "v_sbjv_prs_1_pl": "diciamo",
+      "v_sbjv_prs_1_sg": "dica",
+      "v_sbjv_prs_2_pl": "diciate",
+      "v_sbjv_prs_2_sg": "dica",
+      "v_sbjv_prs_3_pl": "dicano",
+      "v_sbjv_prs_3_sg": "dica",
+      "v_sbjv_pst_1_pl": "dicessimo",
+      "v_sbjv_pst_1_sg": "dicessi",
+      "v_sbjv_pst_2_pl": "diceste",
+      "v_sbjv_pst_2_sg": "dicessi",
+      "v_sbjv_pst_3_pl": "dicessero",
+      "v_sbjv_pst_3_sg": "dicesse"
+    },
+    "priority": 9,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "dirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "detto"
+    },
+    "priority": 10,
+    "types": [
+      "word"
+    ]
+  },
+  "dispiacere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dispiacere",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "dispiace"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "diventare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "diventare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "diventeremmo",
+      "v_cond_1_sg": "diventerei",
+      "v_cond_2_pl": "diventereste",
+      "v_cond_2_sg": "diventeresti",
+      "v_cond_3_pl": "diventerebbero",
+      "v_cond_3_sg": "diventerebbe",
+      "v_cvb_prs": "diventando",
+      "v_ind_fut_1_pl": "diventeremo",
+      "v_ind_fut_1_sg": "diventerò",
+      "v_ind_fut_2_pl": "diventerete",
+      "v_ind_fut_2_sg": "diventerai",
+      "v_ind_fut_3_pl": "diventeranno",
+      "v_ind_fut_3_sg": "diventerà",
+      "v_ind_prs_1_pl": "diventiamo",
+      "v_ind_prs_1_sg": "divento",
+      "v_ind_prs_2_pl": "diventate",
+      "v_ind_prs_2_sg": "diventi",
+      "v_ind_prs_3_pl": "diventano",
+      "v_ind_prs_3_sg": "diventa",
+      "v_ind_pst_1_pl_ipfv": "diventavamo",
+      "v_ind_pst_1_pl_pfv": "diventammo",
+      "v_ind_pst_1_sg_ipfv": "diventavo",
+      "v_ind_pst_1_sg_pfv": "diventai",
+      "v_ind_pst_2_pl_ipfv": "diventavate",
+      "v_ind_pst_2_pl_pfv": "diventaste",
+      "v_ind_pst_2_sg_ipfv": "diventavi",
+      "v_ind_pst_2_sg_pfv": "diventasti",
+      "v_ind_pst_3_pl_ipfv": "diventavano",
+      "v_ind_pst_3_pl_pfv": "diventarono",
+      "v_ind_pst_3_sg_ipfv": "diventava",
+      "v_ind_pst_3_sg_pfv": "diventò",
+      "v_nfin": "diventare",
+      "v_pos_imp_1_pl": "diventiamo",
+      "v_pos_imp_2_pl": "diventate",
+      "v_pos_imp_2_sg": "diventa",
+      "v_pos_imp_3_pl": "diventino",
+      "v_pos_imp_3_sg": "diventi",
+      "v_ptcp_prs": "diventante",
+      "v_ptcp_pst": "diventato",
+      "v_sbjv_prs_1_pl": "diventiamo",
+      "v_sbjv_prs_1_sg": "diventi",
+      "v_sbjv_prs_2_pl": "diventiate",
+      "v_sbjv_prs_2_sg": "diventi",
+      "v_sbjv_prs_3_pl": "diventino",
+      "v_sbjv_prs_3_sg": "diventi",
+      "v_sbjv_pst_1_pl": "diventassimo",
+      "v_sbjv_pst_1_sg": "diventassi",
+      "v_sbjv_pst_2_pl": "diventaste",
+      "v_sbjv_pst_2_sg": "diventassi",
+      "v_sbjv_pst_3_pl": "diventassero",
+      "v_sbjv_pst_3_sg": "diventasse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "divertire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "divertire",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_prs": "divertente"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "dopare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dopare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "dopo"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "dovere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dovere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "dovremmo",
+      "v_cond_1_sg": "dovrei",
+      "v_cond_2_sg": "dovresti",
+      "v_cond_3_sg": "dovrebbe",
+      "v_ind_prs_1_pl": "dobbiamo",
+      "v_ind_prs_1_sg": "devo",
+      "v_ind_prs_2_pl": "dovete",
+      "v_ind_prs_2_sg": "devi",
+      "v_ind_prs_3_pl": "devono",
+      "v_ind_prs_3_sg": "deve",
+      "v_ind_pst_1_sg_ipfv": "dovevo",
+      "v_ind_pst_3_sg_ipfv": "doveva",
+      "v_ptcp_pst": "dovuto",
+      "v_sbjv_prs_1_pl": "dobbiamo"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "durare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "durare",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_prs": "durante"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "esigere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "esigere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "esatto"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "esserci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "esserci",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "ci saremmo",
+      "v_cond_1_sg": "ci sarei",
+      "v_cond_2_pl": "ci sareste",
+      "v_cond_2_sg": "ci saresti",
+      "v_cond_3_pl": "ci sarebbero",
+      "v_cond_3_sg": "ci sarebbe",
+      "v_cvb_prs": "essendoci",
+      "v_ind_fut_1_pl": "ci saremo",
+      "v_ind_fut_1_sg": "ci sarò",
+      "v_ind_fut_2_pl": "ci sarete",
+      "v_ind_fut_2_sg": "ci sarai",
+      "v_ind_fut_3_pl": "ci saranno",
+      "v_ind_fut_3_sg": "ci sarà",
+      "v_ind_prs_1_pl": "ci siamo",
+      "v_ind_prs_1_sg": "ci sono",
+      "v_ind_prs_2_pl": "ci siete",
+      "v_ind_prs_2_sg": "ci sei",
+      "v_ind_prs_3_pl": "ci sono",
+      "v_ind_prs_3_sg": "c'è",
+      "v_ind_pst_1_pl_ipfv": "c'eravamo",
+      "v_ind_pst_1_pl_pfv": "ci fummo",
+      "v_ind_pst_1_sg_ipfv": "c'ero",
+      "v_ind_pst_1_sg_pfv": "ci fui",
+      "v_ind_pst_2_pl_ipfv": "c'eravate",
+      "v_ind_pst_2_pl_pfv": "ci foste",
+      "v_ind_pst_2_sg_ipfv": "c'eri",
+      "v_ind_pst_2_sg_pfv": "ci fosti",
+      "v_ind_pst_3_pl_ipfv": "c'erano",
+      "v_ind_pst_3_pl_pfv": "ci furono",
+      "v_ind_pst_3_sg_ipfv": "c'era",
+      "v_ind_pst_3_sg_pfv": "ci fu",
+      "v_nfin": "esserci",
+      "v_pos_imp_1_pl": "siamoci",
+      "v_pos_imp_2_pl": "siateci",
+      "v_pos_imp_2_sg": "siici",
+      "v_pos_imp_3_pl": "ci siano",
+      "v_pos_imp_3_sg": "ci sia",
+      "v_ptcp_prs": "essenteci",
+      "v_ptcp_pst": "stato",
+      "v_sbjv_prs_1_pl": "ci siamo",
+      "v_sbjv_prs_1_sg": "ci sia",
+      "v_sbjv_prs_2_pl": "ci siate",
+      "v_sbjv_prs_2_sg": "ci sia",
+      "v_sbjv_prs_3_pl": "ci siano",
+      "v_sbjv_prs_3_sg": "ci sia",
+      "v_sbjv_pst_1_pl": "ci fossimo",
+      "v_sbjv_pst_1_sg": "ci fossi",
+      "v_sbjv_pst_2_pl": "ci foste",
+      "v_sbjv_pst_2_sg": "ci fossi",
+      "v_sbjv_pst_3_pl": "ci fossero",
+      "v_sbjv_pst_3_sg": "ci fosse"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "fallare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fallare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "fallo"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "fantasticare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fantasticare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "fantastico"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "farcela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "farcela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "fatta"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "fare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "faremmo",
+      "v_cond_1_sg": "farei",
+      "v_cond_2_pl": "fareste",
+      "v_cond_2_sg": "faresti",
+      "v_cond_3_pl": "farebbero",
+      "v_cond_3_sg": "farebbe",
+      "v_cvb_prs": "facendo",
+      "v_ind_fut_1_pl": "faremo",
+      "v_ind_fut_1_sg": "farò",
+      "v_ind_fut_2_pl": "farete",
+      "v_ind_fut_2_sg": "farai",
+      "v_ind_fut_3_pl": "faranno",
+      "v_ind_fut_3_sg": "farà",
+      "v_ind_prs_1_pl": "facciamo",
+      "v_ind_prs_1_sg": "faccio",
+      "v_ind_prs_2_pl": "fate",
+      "v_ind_prs_2_sg": "fai",
+      "v_ind_prs_3_pl": "fanno",
+      "v_ind_prs_3_sg": "fa",
+      "v_ind_pst_1_pl_ipfv": "facevamo",
+      "v_ind_pst_1_pl_pfv": "facemmo",
+      "v_ind_pst_1_sg_ipfv": "facevo",
+      "v_ind_pst_1_sg_pfv": "feci",
+      "v_ind_pst_2_pl_ipfv": "facevate",
+      "v_ind_pst_2_pl_pfv": "faceste",
+      "v_ind_pst_2_sg_ipfv": "facevi",
+      "v_ind_pst_2_sg_pfv": "facesti",
+      "v_ind_pst_3_pl_ipfv": "facevano",
+      "v_ind_pst_3_pl_pfv": "fecero",
+      "v_ind_pst_3_sg_ipfv": "faceva",
+      "v_ind_pst_3_sg_pfv": "fece",
+      "v_nfin": "fare",
+      "v_pos_imp_1_pl": "facciamo",
+      "v_pos_imp_2_pl": "fate",
+      "v_pos_imp_2_sg": "fa",
+      "v_pos_imp_3_pl": "facciano",
+      "v_pos_imp_3_sg": "faccia",
+      "v_ptcp_prs": "facente",
+      "v_ptcp_pst": "fatto",
+      "v_sbjv_prs_1_pl": "facciamo",
+      "v_sbjv_prs_1_sg": "faccia",
+      "v_sbjv_prs_2_pl": "facciate",
+      "v_sbjv_prs_2_sg": "faccia",
+      "v_sbjv_prs_3_pl": "facciano",
+      "v_sbjv_prs_3_sg": "faccia",
+      "v_sbjv_pst_1_pl": "facessimo",
+      "v_sbjv_pst_1_sg": "facessi",
+      "v_sbjv_pst_2_pl": "faceste",
+      "v_sbjv_pst_2_sg": "facessi",
+      "v_sbjv_pst_3_pl": "facessero",
+      "v_sbjv_pst_3_sg": "facesse"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "farsela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "farsela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "fatta"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "farsene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "farsene",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "fatto"
+    },
+    "priority": 10,
+    "types": [
+      "word"
+    ]
+  },
+  "farsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "farsi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "fatti",
+      "v_ptcp_pst": "fatto"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "fermare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fermare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "fermo"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "figliare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "figliare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "figlio",
+      "v_ind_prs_2_sg": "figli",
+      "v_ind_prs_3_sg": "figlia",
+      "v_pos_imp_2_sg": "figlia",
+      "v_pos_imp_3_sg": "figli",
+      "v_sbjv_prs_1_sg": "figli",
+      "v_sbjv_prs_2_sg": "figli",
+      "v_sbjv_prs_3_sg": "figli"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "finirla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "finirla",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "finita"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "fondare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fondare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "fondo"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "fondere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fondere",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "fondo"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "forzare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "forzare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "forza",
+      "v_pos_imp_2_sg": "forza"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "frettare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frettare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "fretta",
+      "v_pos_imp_2_sg": "fretta"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "funzionare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "funzionare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "funziona",
+      "v_pos_imp_2_sg": "funziona"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "giocare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "giocare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "giocheremmo",
+      "v_cond_1_sg": "giocherei",
+      "v_cond_2_pl": "giochereste",
+      "v_cond_2_sg": "giocheresti",
+      "v_cond_3_pl": "giocherebbero",
+      "v_cond_3_sg": "giocherebbe",
+      "v_cvb_prs": "giocando",
+      "v_ind_fut_1_pl": "giocheremo",
+      "v_ind_fut_1_sg": "giocherò",
+      "v_ind_fut_2_pl": "giocherete",
+      "v_ind_fut_2_sg": "giocherai",
+      "v_ind_fut_3_pl": "giocheranno",
+      "v_ind_fut_3_sg": "giocherà",
+      "v_ind_prs_1_pl": "giochiamo",
+      "v_ind_prs_1_sg": "gioco",
+      "v_ind_prs_2_pl": "giocate",
+      "v_ind_prs_2_sg": "giochi",
+      "v_ind_prs_3_pl": "giocano",
+      "v_ind_prs_3_sg": "gioca",
+      "v_ind_pst_1_pl_ipfv": "giocavamo",
+      "v_ind_pst_1_pl_pfv": "giocammo",
+      "v_ind_pst_1_sg_ipfv": "giocavo",
+      "v_ind_pst_1_sg_pfv": "giocai",
+      "v_ind_pst_2_pl_ipfv": "giocavate",
+      "v_ind_pst_2_pl_pfv": "giocaste",
+      "v_ind_pst_2_sg_ipfv": "giocavi",
+      "v_ind_pst_2_sg_pfv": "giocasti",
+      "v_ind_pst_3_pl_ipfv": "giocavano",
+      "v_ind_pst_3_pl_pfv": "giocarono",
+      "v_ind_pst_3_sg_ipfv": "giocava",
+      "v_ind_pst_3_sg_pfv": "giocò",
+      "v_nfin": "giocare",
+      "v_pos_imp_1_pl": "giochiamo",
+      "v_pos_imp_2_pl": "giocate",
+      "v_pos_imp_2_sg": "gioca",
+      "v_pos_imp_3_pl": "giochino",
+      "v_pos_imp_3_sg": "giochi",
+      "v_ptcp_prs": "giocante",
+      "v_ptcp_pst": "giocato",
+      "v_sbjv_prs_1_pl": "giochiamo",
+      "v_sbjv_prs_1_sg": "giochi",
+      "v_sbjv_prs_2_pl": "giochiate",
+      "v_sbjv_prs_2_sg": "giochi",
+      "v_sbjv_prs_3_pl": "giochino",
+      "v_sbjv_prs_3_sg": "giochi",
+      "v_sbjv_pst_1_pl": "giocassimo",
+      "v_sbjv_pst_1_sg": "giocassi",
+      "v_sbjv_pst_2_pl": "giocaste",
+      "v_sbjv_pst_2_sg": "giocassi",
+      "v_sbjv_pst_3_pl": "giocassero",
+      "v_sbjv_pst_3_sg": "giocasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "girare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "girare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "giro"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "guardare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "guardare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "guarderemmo",
+      "v_cond_1_sg": "guarderei",
+      "v_cond_2_pl": "guardereste",
+      "v_cond_2_sg": "guarderesti",
+      "v_cond_3_pl": "guarderebbero",
+      "v_cond_3_sg": "guarderebbe",
+      "v_cvb_prs": "guardando",
+      "v_ind_fut_1_pl": "guarderemo",
+      "v_ind_fut_1_sg": "guarderò",
+      "v_ind_fut_2_pl": "guarderete",
+      "v_ind_fut_2_sg": "guarderai",
+      "v_ind_fut_3_pl": "guarderanno",
+      "v_ind_fut_3_sg": "guarderà",
+      "v_ind_prs_1_pl": "guardiamo",
+      "v_ind_prs_1_sg": "guardo",
+      "v_ind_prs_2_pl": "guardate",
+      "v_ind_prs_2_sg": "guardi",
+      "v_ind_prs_3_pl": "guardano",
+      "v_ind_prs_3_sg": "guarda",
+      "v_ind_pst_1_pl_ipfv": "guardavamo",
+      "v_ind_pst_1_pl_pfv": "guardammo",
+      "v_ind_pst_1_sg_ipfv": "guardavo",
+      "v_ind_pst_1_sg_pfv": "guardai",
+      "v_ind_pst_2_pl_ipfv": "guardavate",
+      "v_ind_pst_2_pl_pfv": "guardaste",
+      "v_ind_pst_2_sg_ipfv": "guardavi",
+      "v_ind_pst_2_sg_pfv": "guardasti",
+      "v_ind_pst_3_pl_ipfv": "guardavano",
+      "v_ind_pst_3_pl_pfv": "guardarono",
+      "v_ind_pst_3_sg_ipfv": "guardava",
+      "v_ind_pst_3_sg_pfv": "guardò",
+      "v_nfin": "guardare",
+      "v_pos_imp_1_pl": "guardiamo",
+      "v_pos_imp_2_pl": "guardate",
+      "v_pos_imp_2_sg": "guarda",
+      "v_pos_imp_3_pl": "guardino",
+      "v_pos_imp_3_sg": "guardi",
+      "v_ptcp_prs": "guardante",
+      "v_ptcp_pst": "guardato",
+      "v_sbjv_prs_1_pl": "guardiamo",
+      "v_sbjv_prs_1_sg": "guardi",
+      "v_sbjv_prs_2_pl": "guardiate",
+      "v_sbjv_prs_2_sg": "guardi",
+      "v_sbjv_prs_3_pl": "guardino",
+      "v_sbjv_prs_3_sg": "guardi",
+      "v_sbjv_pst_1_pl": "guardassimo",
+      "v_sbjv_pst_1_sg": "guardassi",
+      "v_sbjv_pst_2_pl": "guardaste",
+      "v_sbjv_pst_2_sg": "guardassi",
+      "v_sbjv_pst_3_pl": "guardassero",
+      "v_sbjv_pst_3_sg": "guardasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ideare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ideare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "idea",
+      "v_pos_imp_2_sg": "idea"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "immaginare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "immaginare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "immagino"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "importare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "importare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "importa",
+      "v_pos_imp_2_sg": "importa",
+      "v_ptcp_prs": "importante"
+    },
+    "priority": 6,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "incidere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "incidere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_prs": "incidente"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "iniziare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iniziare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "inizio",
+      "v_ptcp_pst": "iniziato"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "iniziarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iniziarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "iniziato"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "interessare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "interessare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "interessa",
+      "v_pos_imp_2_sg": "interessa",
+      "v_ptcp_prs": "interessante"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "lasciare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lasciare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "lasceremmo",
+      "v_cond_1_sg": "lascerei",
+      "v_cond_2_pl": "lascereste",
+      "v_cond_2_sg": "lasceresti",
+      "v_cond_3_pl": "lascerebbero",
+      "v_cond_3_sg": "lascerebbe",
+      "v_cvb_prs": "lasciando",
+      "v_ind_fut_1_pl": "lasceremo",
+      "v_ind_fut_1_sg": "lascerò",
+      "v_ind_fut_2_pl": "lascerete",
+      "v_ind_fut_2_sg": "lascerai",
+      "v_ind_fut_3_pl": "lasceranno",
+      "v_ind_fut_3_sg": "lascerà",
+      "v_ind_prs_1_pl": "lasciamo",
+      "v_ind_prs_1_sg": "lascio",
+      "v_ind_prs_2_pl": "lasciate",
+      "v_ind_prs_2_sg": "lasci",
+      "v_ind_prs_3_pl": "lasciano",
+      "v_ind_prs_3_sg": "lascia",
+      "v_ind_pst_1_pl_ipfv": "lasciavamo",
+      "v_ind_pst_1_pl_pfv": "lasciammo",
+      "v_ind_pst_1_sg_ipfv": "lasciavo",
+      "v_ind_pst_1_sg_pfv": "lasciai",
+      "v_ind_pst_2_pl_ipfv": "lasciavate",
+      "v_ind_pst_2_pl_pfv": "lasciaste",
+      "v_ind_pst_2_sg_ipfv": "lasciavi",
+      "v_ind_pst_2_sg_pfv": "lasciasti",
+      "v_ind_pst_3_pl_ipfv": "lasciavano",
+      "v_ind_pst_3_pl_pfv": "lasciarono",
+      "v_ind_pst_3_sg_ipfv": "lasciava",
+      "v_ind_pst_3_sg_pfv": "lasciò",
+      "v_nfin": "lasciare",
+      "v_pos_imp_1_pl": "lasciamo",
+      "v_pos_imp_2_pl": "lasciate",
+      "v_pos_imp_2_sg": "lascia",
+      "v_pos_imp_3_pl": "lascino",
+      "v_pos_imp_3_sg": "lasci",
+      "v_ptcp_prs": "lasciante",
+      "v_ptcp_pst": "lasciato",
+      "v_sbjv_prs_1_pl": "lasciamo",
+      "v_sbjv_prs_1_sg": "lasci",
+      "v_sbjv_prs_2_pl": "lasciate",
+      "v_sbjv_prs_2_sg": "lasci",
+      "v_sbjv_prs_3_pl": "lascino",
+      "v_sbjv_prs_3_sg": "lasci",
+      "v_sbjv_pst_1_pl": "lasciassimo",
+      "v_sbjv_pst_1_sg": "lasciassi",
+      "v_sbjv_pst_2_pl": "lasciaste",
+      "v_sbjv_pst_2_sg": "lasciassi",
+      "v_sbjv_pst_3_pl": "lasciassero",
+      "v_sbjv_pst_3_sg": "lasciasse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "lasciarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lasciarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "lasciato"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "lavorare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lavorare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "lavoreremmo",
+      "v_cond_1_sg": "lavorerei",
+      "v_cond_2_pl": "lavorereste",
+      "v_cond_2_sg": "lavoreresti",
+      "v_cond_3_pl": "lavorerebbero",
+      "v_cond_3_sg": "lavorerebbe",
+      "v_cvb_prs": "lavorando",
+      "v_ind_fut_1_pl": "lavoreremo",
+      "v_ind_fut_1_sg": "lavorerò",
+      "v_ind_fut_2_pl": "lavorerete",
+      "v_ind_fut_2_sg": "lavorerai",
+      "v_ind_fut_3_pl": "lavoreranno",
+      "v_ind_fut_3_sg": "lavorerà",
+      "v_ind_prs_1_pl": "lavoriamo",
+      "v_ind_prs_1_sg": "lavoro",
+      "v_ind_prs_2_pl": "lavorate",
+      "v_ind_prs_2_sg": "lavori",
+      "v_ind_prs_3_pl": "lavorano",
+      "v_ind_prs_3_sg": "lavora",
+      "v_ind_pst_1_pl_ipfv": "lavoravamo",
+      "v_ind_pst_1_pl_pfv": "lavorammo",
+      "v_ind_pst_1_sg_ipfv": "lavoravo",
+      "v_ind_pst_1_sg_pfv": "lavorai",
+      "v_ind_pst_2_pl_ipfv": "lavoravate",
+      "v_ind_pst_2_pl_pfv": "lavoraste",
+      "v_ind_pst_2_sg_ipfv": "lavoravi",
+      "v_ind_pst_2_sg_pfv": "lavorasti",
+      "v_ind_pst_3_pl_ipfv": "lavoravano",
+      "v_ind_pst_3_pl_pfv": "lavorarono",
+      "v_ind_pst_3_sg_ipfv": "lavorava",
+      "v_ind_pst_3_sg_pfv": "lavorò",
+      "v_nfin": "lavorare",
+      "v_pos_imp_1_pl": "lavoriamo",
+      "v_pos_imp_2_pl": "lavorate",
+      "v_pos_imp_2_sg": "lavora",
+      "v_pos_imp_3_pl": "lavorino",
+      "v_pos_imp_3_sg": "lavori",
+      "v_ptcp_prs": "lavorante",
+      "v_ptcp_pst": "lavorato",
+      "v_sbjv_prs_1_pl": "lavoriamo",
+      "v_sbjv_prs_1_sg": "lavori",
+      "v_sbjv_prs_2_pl": "lavoriate",
+      "v_sbjv_prs_2_sg": "lavori",
+      "v_sbjv_prs_3_pl": "lavorino",
+      "v_sbjv_prs_3_sg": "lavori",
+      "v_sbjv_pst_1_pl": "lavorassimo",
+      "v_sbjv_pst_1_sg": "lavorassi",
+      "v_sbjv_pst_2_pl": "lavoraste",
+      "v_sbjv_pst_2_sg": "lavorassi",
+      "v_sbjv_pst_3_pl": "lavorassero",
+      "v_sbjv_pst_3_sg": "lavorasse"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "leggersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leggersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "letto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "liberare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "liberare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "libero"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "listare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "listare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "lista",
+      "v_pos_imp_2_sg": "lista"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "macchinare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "macchinare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "macchina",
+      "v_pos_imp_2_sg": "macchina"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "mancare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mancare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "manca",
+      "v_pos_imp_2_sg": "manca"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "mandare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mandare",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "mandato"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "mandarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mandarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "mandato"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "maritare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "maritare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "marito"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "medicare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "medicare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "medico"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "menare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "menare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "meno"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "messaggiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "messaggiare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "messaggio"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "metterci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "metterci",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "messo"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "mettere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mettere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "metteremmo",
+      "v_cond_1_sg": "metterei",
+      "v_cond_2_pl": "mettereste",
+      "v_cond_2_sg": "metteresti",
+      "v_cond_3_pl": "metterebbero",
+      "v_cond_3_sg": "metterebbe",
+      "v_cvb_prs": "mettendo",
+      "v_ind_fut_1_pl": "metteremo",
+      "v_ind_fut_1_sg": "metterò",
+      "v_ind_fut_2_pl": "metterete",
+      "v_ind_fut_2_sg": "metterai",
+      "v_ind_fut_3_pl": "metteranno",
+      "v_ind_fut_3_sg": "metterà",
+      "v_ind_prs_1_pl": "mettiamo",
+      "v_ind_prs_1_sg": "metto",
+      "v_ind_prs_2_pl": "mettete",
+      "v_ind_prs_2_sg": "metti",
+      "v_ind_prs_3_pl": "mettono",
+      "v_ind_prs_3_sg": "mette",
+      "v_ind_pst_1_pl_ipfv": "mettevamo",
+      "v_ind_pst_1_pl_pfv": "mettemmo",
+      "v_ind_pst_1_sg_ipfv": "mettevo",
+      "v_ind_pst_1_sg_pfv": "misi",
+      "v_ind_pst_2_pl_ipfv": "mettevate",
+      "v_ind_pst_2_pl_pfv": "metteste",
+      "v_ind_pst_2_sg_ipfv": "mettevi",
+      "v_ind_pst_2_sg_pfv": "mettesti",
+      "v_ind_pst_3_pl_ipfv": "mettevano",
+      "v_ind_pst_3_pl_pfv": "misero",
+      "v_ind_pst_3_sg_ipfv": "metteva",
+      "v_ind_pst_3_sg_pfv": "mise",
+      "v_nfin": "mettere",
+      "v_pos_imp_1_pl": "mettiamo",
+      "v_pos_imp_2_pl": "mettete",
+      "v_pos_imp_2_sg": "metti",
+      "v_pos_imp_3_pl": "mettano",
+      "v_pos_imp_3_sg": "metta",
+      "v_ptcp_prs": "mettente",
+      "v_ptcp_pst": "messo",
+      "v_sbjv_prs_1_pl": "mettiamo",
+      "v_sbjv_prs_1_sg": "metta",
+      "v_sbjv_prs_2_pl": "mettiate",
+      "v_sbjv_prs_2_sg": "metta",
+      "v_sbjv_prs_3_pl": "mettano",
+      "v_sbjv_prs_3_sg": "metta",
+      "v_sbjv_pst_1_pl": "mettessimo",
+      "v_sbjv_pst_1_sg": "mettessi",
+      "v_sbjv_pst_2_pl": "metteste",
+      "v_sbjv_pst_2_sg": "mettessi",
+      "v_sbjv_pst_3_pl": "mettessero",
+      "v_sbjv_pst_3_sg": "mettesse"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "mettersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mettersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "messo"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "migliorare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "migliorare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "migliori",
+      "v_pos_imp_3_sg": "migliori",
+      "v_sbjv_prs_1_sg": "migliori",
+      "v_sbjv_prs_2_sg": "migliori",
+      "v_sbjv_prs_3_sg": "migliori"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "morire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "morire",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "moriremmo",
+      "v_cond_1_sg": "morirei",
+      "v_cond_2_pl": "morireste",
+      "v_cond_2_sg": "moriresti",
+      "v_cond_3_pl": "morirebbero",
+      "v_cond_3_sg": "morirebbe",
+      "v_cvb_prs": "morendo",
+      "v_ind_fut_1_pl": "moriremo",
+      "v_ind_fut_1_sg": "morirò",
+      "v_ind_fut_2_pl": "morirete",
+      "v_ind_fut_2_sg": "morirai",
+      "v_ind_fut_3_pl": "moriranno",
+      "v_ind_fut_3_sg": "morirà",
+      "v_ind_prs_1_pl": "moriamo",
+      "v_ind_prs_1_sg": "muoio",
+      "v_ind_prs_2_pl": "morite",
+      "v_ind_prs_2_sg": "muori",
+      "v_ind_prs_3_pl": "muoiono",
+      "v_ind_prs_3_sg": "muore",
+      "v_ind_pst_1_pl_ipfv": "morivamo",
+      "v_ind_pst_1_pl_pfv": "morimmo",
+      "v_ind_pst_1_sg_ipfv": "morivo",
+      "v_ind_pst_1_sg_pfv": "morii",
+      "v_ind_pst_2_pl_ipfv": "morivate",
+      "v_ind_pst_2_pl_pfv": "moriste",
+      "v_ind_pst_2_sg_ipfv": "morivi",
+      "v_ind_pst_2_sg_pfv": "moristi",
+      "v_ind_pst_3_pl_ipfv": "morivano",
+      "v_ind_pst_3_pl_pfv": "morirono",
+      "v_ind_pst_3_sg_ipfv": "moriva",
+      "v_ind_pst_3_sg_pfv": "morì",
+      "v_nfin": "morire",
+      "v_pos_imp_1_pl": "moriamo",
+      "v_pos_imp_2_pl": "morite",
+      "v_pos_imp_2_sg": "muori",
+      "v_pos_imp_3_pl": "muoiano",
+      "v_pos_imp_3_sg": "muoia",
+      "v_ptcp_prs": "morente",
+      "v_ptcp_pst": "morto",
+      "v_sbjv_prs_1_pl": "moriamo",
+      "v_sbjv_prs_1_sg": "muoia",
+      "v_sbjv_prs_2_pl": "moriate",
+      "v_sbjv_prs_2_sg": "muoia",
+      "v_sbjv_prs_3_pl": "muoiano",
+      "v_sbjv_prs_3_sg": "muoia",
+      "v_sbjv_pst_1_pl": "morissimo",
+      "v_sbjv_pst_1_sg": "morissi",
+      "v_sbjv_pst_2_pl": "moriste",
+      "v_sbjv_pst_2_sg": "morissi",
+      "v_sbjv_pst_3_pl": "morissero",
+      "v_sbjv_pst_3_sg": "morisse"
+    },
+    "priority": 5,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "morirsene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "morirsene",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "morto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "morirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "morirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "morto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "motivare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "motivare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "motivo"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "musicare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "musicare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "musica",
+      "v_pos_imp_2_sg": "musica"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "noiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noiare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "noi",
+      "v_pos_imp_3_sg": "noi",
+      "v_sbjv_prs_1_sg": "noi",
+      "v_sbjv_prs_2_sg": "noi",
+      "v_sbjv_prs_3_sg": "noi"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "numerare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "numerare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "numero"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "odiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "odiare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "odio"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ormare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ormare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg_pfv": "ormai"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "ottimare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ottimare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ottimo"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "pagare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pagare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "pagheremmo",
+      "v_cond_1_sg": "pagherei",
+      "v_cond_2_pl": "paghereste",
+      "v_cond_2_sg": "pagheresti",
+      "v_cond_3_pl": "pagherebbero",
+      "v_cond_3_sg": "pagherebbe",
+      "v_cvb_prs": "pagando",
+      "v_ind_fut_1_pl": "pagheremo",
+      "v_ind_fut_1_sg": "pagherò",
+      "v_ind_fut_2_pl": "pagherete",
+      "v_ind_fut_2_sg": "pagherai",
+      "v_ind_fut_3_pl": "pagheranno",
+      "v_ind_fut_3_sg": "pagherà",
+      "v_ind_prs_1_pl": "paghiamo",
+      "v_ind_prs_1_sg": "pago",
+      "v_ind_prs_2_pl": "pagate",
+      "v_ind_prs_2_sg": "paghi",
+      "v_ind_prs_3_pl": "pagano",
+      "v_ind_prs_3_sg": "paga",
+      "v_ind_pst_1_pl_ipfv": "pagavamo",
+      "v_ind_pst_1_pl_pfv": "pagammo",
+      "v_ind_pst_1_sg_ipfv": "pagavo",
+      "v_ind_pst_1_sg_pfv": "pagai",
+      "v_ind_pst_2_pl_ipfv": "pagavate",
+      "v_ind_pst_2_pl_pfv": "pagaste",
+      "v_ind_pst_2_sg_ipfv": "pagavi",
+      "v_ind_pst_2_sg_pfv": "pagasti",
+      "v_ind_pst_3_pl_ipfv": "pagavano",
+      "v_ind_pst_3_pl_pfv": "pagarono",
+      "v_ind_pst_3_sg_ipfv": "pagava",
+      "v_ind_pst_3_sg_pfv": "pagò",
+      "v_nfin": "pagare",
+      "v_pos_imp_1_pl": "paghiamo",
+      "v_pos_imp_2_pl": "pagate",
+      "v_pos_imp_2_sg": "paga",
+      "v_pos_imp_3_pl": "paghino",
+      "v_pos_imp_3_sg": "paghi",
+      "v_ptcp_prs": "pagante",
+      "v_ptcp_pst": "pagato",
+      "v_sbjv_prs_1_pl": "paghiamo",
+      "v_sbjv_prs_1_sg": "paghi",
+      "v_sbjv_prs_2_pl": "paghiate",
+      "v_sbjv_prs_2_sg": "paghi",
+      "v_sbjv_prs_3_pl": "paghino",
+      "v_sbjv_prs_3_sg": "paghi",
+      "v_sbjv_pst_1_pl": "pagassimo",
+      "v_sbjv_pst_1_sg": "pagassi",
+      "v_sbjv_pst_2_pl": "pagaste",
+      "v_sbjv_pst_2_sg": "pagassi",
+      "v_sbjv_pst_3_pl": "pagassero",
+      "v_sbjv_pst_3_sg": "pagasse"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "parere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parere",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "paio",
+      "v_ind_prs_3_sg": "pare"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "parlarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parlarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "parlato"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "partire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "partire",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "parte"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "passare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "passare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "passeremmo",
+      "v_cond_1_sg": "passerei",
+      "v_cond_2_pl": "passereste",
+      "v_cond_2_sg": "passeresti",
+      "v_cond_3_pl": "passerebbero",
+      "v_cond_3_sg": "passerebbe",
+      "v_cvb_prs": "passando",
+      "v_ind_fut_1_pl": "passeremo",
+      "v_ind_fut_1_sg": "passerò",
+      "v_ind_fut_2_pl": "passerete",
+      "v_ind_fut_2_sg": "passerai",
+      "v_ind_fut_3_pl": "passeranno",
+      "v_ind_fut_3_sg": "passerà",
+      "v_ind_prs_1_pl": "passiamo",
+      "v_ind_prs_1_sg": "passo",
+      "v_ind_prs_2_pl": "passate",
+      "v_ind_prs_2_sg": "passi",
+      "v_ind_prs_3_pl": "passano",
+      "v_ind_prs_3_sg": "passa",
+      "v_ind_pst_1_pl_ipfv": "passavamo",
+      "v_ind_pst_1_pl_pfv": "passammo",
+      "v_ind_pst_1_sg_ipfv": "passavo",
+      "v_ind_pst_1_sg_pfv": "passai",
+      "v_ind_pst_2_pl_ipfv": "passavate",
+      "v_ind_pst_2_pl_pfv": "passaste",
+      "v_ind_pst_2_sg_ipfv": "passavi",
+      "v_ind_pst_2_sg_pfv": "passasti",
+      "v_ind_pst_3_pl_ipfv": "passavano",
+      "v_ind_pst_3_pl_pfv": "passarono",
+      "v_ind_pst_3_sg_ipfv": "passava",
+      "v_ind_pst_3_sg_pfv": "passò",
+      "v_nfin": "passare",
+      "v_pos_imp_1_pl": "passiamo",
+      "v_pos_imp_2_pl": "passate",
+      "v_pos_imp_2_sg": "passa",
+      "v_pos_imp_3_pl": "passino",
+      "v_pos_imp_3_sg": "passi",
+      "v_ptcp_prs": "passante",
+      "v_ptcp_pst": "passato",
+      "v_sbjv_prs_1_pl": "passiamo",
+      "v_sbjv_prs_1_sg": "passi",
+      "v_sbjv_prs_2_pl": "passiate",
+      "v_sbjv_prs_2_sg": "passi",
+      "v_sbjv_prs_3_pl": "passino",
+      "v_sbjv_prs_3_sg": "passi",
+      "v_sbjv_pst_1_pl": "passassimo",
+      "v_sbjv_pst_1_sg": "passassi",
+      "v_sbjv_pst_2_pl": "passaste",
+      "v_sbjv_pst_2_sg": "passassi",
+      "v_sbjv_pst_3_pl": "passassero",
+      "v_sbjv_pst_3_sg": "passasse"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "passarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "passarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "passato"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "pensare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pensare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "penseremmo",
+      "v_cond_1_sg": "penserei",
+      "v_cond_2_pl": "pensereste",
+      "v_cond_2_sg": "penseresti",
+      "v_cond_3_pl": "penserebbero",
+      "v_cond_3_sg": "penserebbe",
+      "v_cvb_prs": "pensando",
+      "v_ind_fut_1_pl": "penseremo",
+      "v_ind_fut_1_sg": "penserò",
+      "v_ind_fut_2_pl": "penserete",
+      "v_ind_fut_2_sg": "penserai",
+      "v_ind_fut_3_pl": "penseranno",
+      "v_ind_fut_3_sg": "penserà",
+      "v_ind_prs_1_pl": "pensiamo",
+      "v_ind_prs_1_sg": "penso",
+      "v_ind_prs_2_pl": "pensate",
+      "v_ind_prs_2_sg": "pensi",
+      "v_ind_prs_3_pl": "pensano",
+      "v_ind_prs_3_sg": "pensa",
+      "v_ind_pst_1_pl_ipfv": "pensavamo",
+      "v_ind_pst_1_pl_pfv": "pensammo",
+      "v_ind_pst_1_sg_ipfv": "pensavo",
+      "v_ind_pst_1_sg_pfv": "pensai",
+      "v_ind_pst_2_pl_ipfv": "pensavate",
+      "v_ind_pst_2_pl_pfv": "pensaste",
+      "v_ind_pst_2_sg_ipfv": "pensavi",
+      "v_ind_pst_2_sg_pfv": "pensasti",
+      "v_ind_pst_3_pl_ipfv": "pensavano",
+      "v_ind_pst_3_pl_pfv": "pensarono",
+      "v_ind_pst_3_sg_ipfv": "pensava",
+      "v_ind_pst_3_sg_pfv": "pensò",
+      "v_nfin": "pensare",
+      "v_pos_imp_1_pl": "pensiamo",
+      "v_pos_imp_2_pl": "pensate",
+      "v_pos_imp_2_sg": "pensa",
+      "v_pos_imp_3_pl": "pensino",
+      "v_pos_imp_3_sg": "pensi",
+      "v_ptcp_prs": "pensante",
+      "v_ptcp_pst": "pensato",
+      "v_sbjv_prs_1_pl": "pensiamo",
+      "v_sbjv_prs_1_sg": "pensi",
+      "v_sbjv_prs_2_pl": "pensiate",
+      "v_sbjv_prs_2_sg": "pensi",
+      "v_sbjv_prs_3_pl": "pensino",
+      "v_sbjv_prs_3_sg": "pensi",
+      "v_sbjv_pst_1_pl": "pensassimo",
+      "v_sbjv_pst_1_sg": "pensassi",
+      "v_sbjv_pst_2_pl": "pensaste",
+      "v_sbjv_pst_2_sg": "pensassi",
+      "v_sbjv_pst_3_pl": "pensassero",
+      "v_sbjv_pst_3_sg": "pensasse"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pensarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pensarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "pensato"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "perdere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "perdere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "perderemmo",
+      "v_cond_1_sg": "perderei",
+      "v_cond_2_pl": "perdereste",
+      "v_cond_2_sg": "perderesti",
+      "v_cond_3_pl": "perderebbero",
+      "v_cond_3_sg": "perderebbe",
+      "v_cvb_prs": "perdendo",
+      "v_ind_fut_1_pl": "perderemo",
+      "v_ind_fut_1_sg": "perderò",
+      "v_ind_fut_2_pl": "perderete",
+      "v_ind_fut_2_sg": "perderai",
+      "v_ind_fut_3_pl": "perderanno",
+      "v_ind_fut_3_sg": "perderà",
+      "v_ind_prs_1_pl": "perdiamo",
+      "v_ind_prs_1_sg": "perdo",
+      "v_ind_prs_2_pl": "perdete",
+      "v_ind_prs_2_sg": "perdi",
+      "v_ind_prs_3_pl": "perdono",
+      "v_ind_prs_3_sg": "perde",
+      "v_ind_pst_1_pl_ipfv": "perdevamo",
+      "v_ind_pst_1_pl_pfv": "perdemmo",
+      "v_ind_pst_1_sg_ipfv": "perdevo",
+      "v_ind_pst_1_sg_pfv": "persi",
+      "v_ind_pst_2_pl_ipfv": "perdevate",
+      "v_ind_pst_2_pl_pfv": "perdeste",
+      "v_ind_pst_2_sg_ipfv": "perdevi",
+      "v_ind_pst_2_sg_pfv": "perdesti",
+      "v_ind_pst_3_pl_ipfv": "perdevano",
+      "v_ind_pst_3_pl_pfv": "persero",
+      "v_ind_pst_3_sg_ipfv": "perdeva",
+      "v_ind_pst_3_sg_pfv": "perse",
+      "v_nfin": "perdere",
+      "v_pos_imp_1_pl": "perdiamo",
+      "v_pos_imp_2_pl": "perdete",
+      "v_pos_imp_2_sg": "perdi",
+      "v_pos_imp_3_pl": "perdano",
+      "v_pos_imp_3_sg": "perda",
+      "v_ptcp_prs": "perdente",
+      "v_ptcp_pst": "perso",
+      "v_sbjv_prs_1_pl": "perdiamo",
+      "v_sbjv_prs_1_sg": "perda",
+      "v_sbjv_prs_2_pl": "perdiate",
+      "v_sbjv_prs_2_sg": "perda",
+      "v_sbjv_prs_3_pl": "perdano",
+      "v_sbjv_prs_3_sg": "perda",
+      "v_sbjv_pst_1_pl": "perdessimo",
+      "v_sbjv_pst_1_sg": "perdessi",
+      "v_sbjv_pst_2_pl": "perdeste",
+      "v_sbjv_pst_2_sg": "perdessi",
+      "v_sbjv_pst_3_pl": "perdessero",
+      "v_sbjv_pst_3_sg": "perdesse"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "perdersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "perdersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "perso"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "permettere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "permettere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "permesso"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "permettersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "permettersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "permesso"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "porgere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "porgere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "porto"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "porre": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "porre",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "posto"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "porsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "porsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "posto"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "portare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "portare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "porteremmo",
+      "v_cond_1_sg": "porterei",
+      "v_cond_2_pl": "portereste",
+      "v_cond_2_sg": "porteresti",
+      "v_cond_3_pl": "porterebbero",
+      "v_cond_3_sg": "porterebbe",
+      "v_cvb_prs": "portando",
+      "v_ind_fut_1_pl": "porteremo",
+      "v_ind_fut_1_sg": "porterò",
+      "v_ind_fut_2_pl": "porterete",
+      "v_ind_fut_2_sg": "porterai",
+      "v_ind_fut_3_pl": "porteranno",
+      "v_ind_fut_3_sg": "porterà",
+      "v_ind_prs_1_pl": "portiamo",
+      "v_ind_prs_1_sg": "porto",
+      "v_ind_prs_2_pl": "portate",
+      "v_ind_prs_2_sg": "porti",
+      "v_ind_prs_3_pl": "portano",
+      "v_ind_prs_3_sg": "porta",
+      "v_ind_pst_1_pl_ipfv": "portavamo",
+      "v_ind_pst_1_pl_pfv": "portammo",
+      "v_ind_pst_1_sg_ipfv": "portavo",
+      "v_ind_pst_1_sg_pfv": "portai",
+      "v_ind_pst_2_pl_ipfv": "portavate",
+      "v_ind_pst_2_pl_pfv": "portaste",
+      "v_ind_pst_2_sg_ipfv": "portavi",
+      "v_ind_pst_2_sg_pfv": "portasti",
+      "v_ind_pst_3_pl_ipfv": "portavano",
+      "v_ind_pst_3_pl_pfv": "portarono",
+      "v_ind_pst_3_sg_ipfv": "portava",
+      "v_ind_pst_3_sg_pfv": "portò",
+      "v_nfin": "portare",
+      "v_pos_imp_1_pl": "portiamo",
+      "v_pos_imp_2_pl": "portate",
+      "v_pos_imp_2_sg": "porta",
+      "v_pos_imp_3_pl": "portino",
+      "v_pos_imp_3_sg": "porti",
+      "v_ptcp_prs": "portante",
+      "v_ptcp_pst": "portato",
+      "v_sbjv_prs_1_pl": "portiamo",
+      "v_sbjv_prs_1_sg": "porti",
+      "v_sbjv_prs_2_pl": "portiate",
+      "v_sbjv_prs_2_sg": "porti",
+      "v_sbjv_prs_3_pl": "portino",
+      "v_sbjv_prs_3_sg": "porti",
+      "v_sbjv_pst_1_pl": "portassimo",
+      "v_sbjv_pst_1_sg": "portassi",
+      "v_sbjv_pst_2_pl": "portaste",
+      "v_sbjv_pst_2_sg": "portassi",
+      "v_sbjv_pst_3_pl": "portassero",
+      "v_sbjv_pst_3_sg": "portasse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "portarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "portarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "portato"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "postare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "postare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "posto"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "potersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "potersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "potuto"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "pregare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pregare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "prego"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "prenderci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prenderci",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "preso"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "prenderle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prenderle",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "preso"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "prendersela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prendersela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "presa"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "prendersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prendersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "preso"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "presapere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "presapere",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "preso",
+      "v_ind_prs_3_sg": "presa"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "prestare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prestare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "presto"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "programmare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "programmare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "programma",
+      "v_pos_imp_2_sg": "programma"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "provare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "provare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "proveremmo",
+      "v_cond_1_sg": "proverei",
+      "v_cond_2_pl": "provereste",
+      "v_cond_2_sg": "proveresti",
+      "v_cond_3_pl": "proverebbero",
+      "v_cond_3_sg": "proverebbe",
+      "v_cvb_prs": "provando",
+      "v_ind_fut_1_pl": "proveremo",
+      "v_ind_fut_1_sg": "proverò",
+      "v_ind_fut_2_pl": "proverete",
+      "v_ind_fut_2_sg": "proverai",
+      "v_ind_fut_3_pl": "proveranno",
+      "v_ind_fut_3_sg": "proverà",
+      "v_ind_prs_1_pl": "proviamo",
+      "v_ind_prs_1_sg": "provo",
+      "v_ind_prs_2_pl": "provate",
+      "v_ind_prs_2_sg": "provi",
+      "v_ind_prs_3_pl": "provano",
+      "v_ind_prs_3_sg": "prova",
+      "v_ind_pst_1_pl_ipfv": "provavamo",
+      "v_ind_pst_1_pl_pfv": "provammo",
+      "v_ind_pst_1_sg_ipfv": "provavo",
+      "v_ind_pst_1_sg_pfv": "provai",
+      "v_ind_pst_2_pl_ipfv": "provavate",
+      "v_ind_pst_2_pl_pfv": "provaste",
+      "v_ind_pst_2_sg_ipfv": "provavi",
+      "v_ind_pst_2_sg_pfv": "provasti",
+      "v_ind_pst_3_pl_ipfv": "provavano",
+      "v_ind_pst_3_pl_pfv": "provarono",
+      "v_ind_pst_3_sg_ipfv": "provava",
+      "v_ind_pst_3_sg_pfv": "provò",
+      "v_nfin": "provare",
+      "v_pos_imp_1_pl": "proviamo",
+      "v_pos_imp_2_pl": "provate",
+      "v_pos_imp_2_sg": "prova",
+      "v_pos_imp_3_pl": "provino",
+      "v_pos_imp_3_sg": "provi",
+      "v_ptcp_prs": "provante",
+      "v_ptcp_pst": "provato",
+      "v_sbjv_prs_1_pl": "proviamo",
+      "v_sbjv_prs_1_sg": "provi",
+      "v_sbjv_prs_2_pl": "proviate",
+      "v_sbjv_prs_2_sg": "provi",
+      "v_sbjv_prs_3_pl": "provino",
+      "v_sbjv_prs_3_sg": "provi",
+      "v_sbjv_pst_1_pl": "provassimo",
+      "v_sbjv_pst_1_sg": "provassi",
+      "v_sbjv_pst_2_pl": "provaste",
+      "v_sbjv_pst_2_sg": "provassi",
+      "v_sbjv_pst_3_pl": "provassero",
+      "v_sbjv_pst_3_sg": "provasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "provarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "provarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "provato"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "pungere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pungere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "punto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "pungersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pungersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "punto"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "puntare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "puntare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "punto"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "rapportare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rapportare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "rapporto"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "restare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "restare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "resteremmo",
+      "v_cond_1_sg": "resterei",
+      "v_cond_2_pl": "restereste",
+      "v_cond_2_sg": "resteresti",
+      "v_cond_3_pl": "resterebbero",
+      "v_cond_3_sg": "resterebbe",
+      "v_cvb_prs": "restando",
+      "v_ind_fut_1_pl": "resteremo",
+      "v_ind_fut_1_sg": "resterò",
+      "v_ind_fut_2_pl": "resterete",
+      "v_ind_fut_2_sg": "resterai",
+      "v_ind_fut_3_pl": "resteranno",
+      "v_ind_fut_3_sg": "resterà",
+      "v_ind_prs_1_pl": "restiamo",
+      "v_ind_prs_1_sg": "resto",
+      "v_ind_prs_2_pl": "restate",
+      "v_ind_prs_2_sg": "resti",
+      "v_ind_prs_3_pl": "restano",
+      "v_ind_prs_3_sg": "resta",
+      "v_ind_pst_1_pl_ipfv": "restavamo",
+      "v_ind_pst_1_pl_pfv": "restammo",
+      "v_ind_pst_1_sg_ipfv": "restavo",
+      "v_ind_pst_1_sg_pfv": "restai",
+      "v_ind_pst_2_pl_ipfv": "restavate",
+      "v_ind_pst_2_pl_pfv": "restaste",
+      "v_ind_pst_2_sg_ipfv": "restavi",
+      "v_ind_pst_2_sg_pfv": "restasti",
+      "v_ind_pst_3_pl_ipfv": "restavano",
+      "v_ind_pst_3_pl_pfv": "restarono",
+      "v_ind_pst_3_sg_ipfv": "restava",
+      "v_ind_pst_3_sg_pfv": "restò",
+      "v_nfin": "restare",
+      "v_pos_imp_1_pl": "restiamo",
+      "v_pos_imp_2_pl": "restate",
+      "v_pos_imp_2_sg": "resta",
+      "v_pos_imp_3_pl": "restino",
+      "v_pos_imp_3_sg": "resti",
+      "v_ptcp_prs": "restante",
+      "v_ptcp_pst": "restato",
+      "v_sbjv_prs_1_pl": "restiamo",
+      "v_sbjv_prs_1_sg": "resti",
+      "v_sbjv_prs_2_pl": "restiate",
+      "v_sbjv_prs_2_sg": "resti",
+      "v_sbjv_prs_3_pl": "restino",
+      "v_sbjv_prs_3_sg": "resti",
+      "v_sbjv_pst_1_pl": "restassimo",
+      "v_sbjv_pst_1_sg": "restassi",
+      "v_sbjv_pst_2_pl": "restaste",
+      "v_sbjv_pst_2_sg": "restassi",
+      "v_sbjv_pst_3_pl": "restassero",
+      "v_sbjv_pst_3_sg": "restasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ricevere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ricevere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "ricevuto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "ricordare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ricordare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ricordo",
+      "v_ind_prs_2_sg": "ricordi",
+      "v_ind_prs_3_sg": "ricorda",
+      "v_pos_imp_2_sg": "ricorda",
+      "v_pos_imp_3_sg": "ricordi",
+      "v_sbjv_prs_1_sg": "ricordi",
+      "v_sbjv_prs_2_sg": "ricordi",
+      "v_sbjv_prs_3_sg": "ricordi"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "riescire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "riescire",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "riesco",
+      "v_ind_prs_2_sg": "riesci",
+      "v_pos_imp_2_sg": "riesci"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "riguardare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "riguardare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "riguardo"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "rimanere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rimanere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "rimarremmo",
+      "v_cond_1_sg": "rimarrei",
+      "v_cond_2_pl": "rimarreste",
+      "v_cond_2_sg": "rimarresti",
+      "v_cond_3_pl": "rimarrebbero",
+      "v_cond_3_sg": "rimarrebbe",
+      "v_cvb_prs": "rimanendo",
+      "v_ind_fut_1_pl": "rimarremo",
+      "v_ind_fut_1_sg": "rimarrò",
+      "v_ind_fut_2_pl": "rimarrete",
+      "v_ind_fut_2_sg": "rimarrai",
+      "v_ind_fut_3_pl": "rimarranno",
+      "v_ind_fut_3_sg": "rimarrà",
+      "v_ind_prs_1_pl": "rimaniamo",
+      "v_ind_prs_1_sg": "rimango",
+      "v_ind_prs_2_pl": "rimanete",
+      "v_ind_prs_2_sg": "rimani",
+      "v_ind_prs_3_pl": "rimangono",
+      "v_ind_prs_3_sg": "rimane",
+      "v_ind_pst_1_pl_ipfv": "rimanevamo",
+      "v_ind_pst_1_pl_pfv": "rimanemmo",
+      "v_ind_pst_1_sg_ipfv": "rimanevo",
+      "v_ind_pst_1_sg_pfv": "rimasi",
+      "v_ind_pst_2_pl_ipfv": "rimanevate",
+      "v_ind_pst_2_pl_pfv": "rimaneste",
+      "v_ind_pst_2_sg_ipfv": "rimanevi",
+      "v_ind_pst_2_sg_pfv": "rimanesti",
+      "v_ind_pst_3_pl_ipfv": "rimanevano",
+      "v_ind_pst_3_pl_pfv": "rimasero",
+      "v_ind_pst_3_sg_ipfv": "rimaneva",
+      "v_ind_pst_3_sg_pfv": "rimase",
+      "v_nfin": "rimanere",
+      "v_pos_imp_1_pl": "rimaniamo",
+      "v_pos_imp_2_pl": "rimanete",
+      "v_pos_imp_2_sg": "rimani",
+      "v_pos_imp_3_pl": "rimangano",
+      "v_pos_imp_3_sg": "rimanga",
+      "v_ptcp_prs": "rimanente",
+      "v_ptcp_pst": "rimasto",
+      "v_sbjv_prs_1_pl": "rimaniamo",
+      "v_sbjv_prs_1_sg": "rimanga",
+      "v_sbjv_prs_2_pl": "rimaniate",
+      "v_sbjv_prs_2_sg": "rimanga",
+      "v_sbjv_prs_3_pl": "rimangano",
+      "v_sbjv_prs_3_sg": "rimanga",
+      "v_sbjv_pst_1_pl": "rimanessimo",
+      "v_sbjv_pst_1_sg": "rimanessi",
+      "v_sbjv_pst_2_pl": "rimaneste",
+      "v_sbjv_pst_2_sg": "rimanessi",
+      "v_sbjv_pst_3_pl": "rimanessero",
+      "v_sbjv_pst_3_sg": "rimanesse"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "rispettare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rispettare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "rispetto"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ritardare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ritardare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ritardo"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "riuscire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "riuscire",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "riesco",
+      "v_ind_prs_2_sg": "riesci",
+      "v_pos_imp_2_sg": "riesci"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "sapere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sapere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "sapremmo",
+      "v_cond_1_sg": "saprei",
+      "v_cond_2_pl": "sapreste",
+      "v_cond_2_sg": "sapresti",
+      "v_cond_3_pl": "saprebbero",
+      "v_cond_3_sg": "saprebbe",
+      "v_cvb_prs": "sapendo",
+      "v_ind_fut_1_pl": "sapremo",
+      "v_ind_fut_1_sg": "saprò",
+      "v_ind_fut_2_pl": "saprete",
+      "v_ind_fut_2_sg": "saprai",
+      "v_ind_fut_3_pl": "sapranno",
+      "v_ind_fut_3_sg": "saprà",
+      "v_ind_prs_1_pl": "sappiamo",
+      "v_ind_prs_1_sg": "so",
+      "v_ind_prs_2_pl": "sapete",
+      "v_ind_prs_2_sg": "sai",
+      "v_ind_prs_3_pl": "sanno",
+      "v_ind_prs_3_sg": "sa",
+      "v_ind_pst_1_pl_ipfv": "sapevamo",
+      "v_ind_pst_1_pl_pfv": "sapemmo",
+      "v_ind_pst_1_sg_ipfv": "sapevo",
+      "v_ind_pst_1_sg_pfv": "seppi",
+      "v_ind_pst_2_pl_ipfv": "sapevate",
+      "v_ind_pst_2_pl_pfv": "sapeste",
+      "v_ind_pst_2_sg_ipfv": "sapevi",
+      "v_ind_pst_2_sg_pfv": "sapesti",
+      "v_ind_pst_3_pl_ipfv": "sapevano",
+      "v_ind_pst_3_pl_pfv": "seppero",
+      "v_ind_pst_3_sg_ipfv": "sapeva",
+      "v_ind_pst_3_sg_pfv": "seppe",
+      "v_nfin": "sapere",
+      "v_pos_imp_1_pl": "sappiamo",
+      "v_pos_imp_2_pl": "sapete",
+      "v_pos_imp_2_sg": "sappi",
+      "v_pos_imp_3_pl": "sappiano",
+      "v_pos_imp_3_sg": "sappia",
+      "v_ptcp_prs": "sapiente",
+      "v_ptcp_pst": "saputo",
+      "v_sbjv_prs_1_pl": "sappiamo",
+      "v_sbjv_prs_1_sg": "sappia",
+      "v_sbjv_prs_2_pl": "sappiate",
+      "v_sbjv_prs_2_sg": "sappia",
+      "v_sbjv_prs_3_pl": "sappiano",
+      "v_sbjv_prs_3_sg": "sappia",
+      "v_sbjv_pst_1_pl": "sapessimo",
+      "v_sbjv_pst_1_sg": "sapessi",
+      "v_sbjv_pst_2_pl": "sapeste",
+      "v_sbjv_pst_2_sg": "sapessi",
+      "v_sbjv_pst_3_pl": "sapessero",
+      "v_sbjv_pst_3_sg": "sapesse"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sapersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sapersi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_1_pl": "sappiamo",
+      "v_ptcp_pst": "saputo"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sbagliare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sbagliare",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sbagliato"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "sbagliarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sbagliarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sbagliato"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "schifare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schifare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "schifo"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "scoprire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scoprire",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "scoperto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "scoprirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scoprirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "scoperto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "scrivere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scrivere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "scritto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "scriversi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scriversi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "scritto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "scusare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scusare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_pl": "scusate",
+      "v_ind_prs_2_sg": "scusi",
+      "v_ind_prs_3_sg": "scusa",
+      "v_pos_imp_2_pl": "scusate",
+      "v_pos_imp_2_sg": "scusa",
+      "v_pos_imp_3_sg": "scusi",
+      "v_sbjv_prs_1_sg": "scusi",
+      "v_sbjv_prs_2_sg": "scusi",
+      "v_sbjv_prs_3_sg": "scusi"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "secondare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "secondare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "secondo"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "segretare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "segretare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "segreto"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "sembrare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sembrare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "sembri",
+      "v_ind_prs_3_sg": "sembra",
+      "v_ind_pst_3_sg_ipfv": "sembrava",
+      "v_pos_imp_2_sg": "sembra",
+      "v_pos_imp_3_sg": "sembri",
+      "v_sbjv_prs_1_sg": "sembri",
+      "v_sbjv_prs_2_sg": "sembri",
+      "v_sbjv_prs_3_sg": "sembri"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "sentirci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sentirci",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sentito"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "sentirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sentirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sentito"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "servire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "servire",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "servono",
+      "v_ind_prs_3_sg": "serve"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "significare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "significare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "significa",
+      "v_pos_imp_2_sg": "significa"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "sistemare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sistemare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "sistema",
+      "v_pos_imp_2_sg": "sistema"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "smetterla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smetterla",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "smettila"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "solere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "solere",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "solito"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "sonare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sonare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "sono"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "sparare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sparare",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sparato"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "spararsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spararsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "sparato"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "sperare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sperare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "spero"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "squadrare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "squadrare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "squadra",
+      "v_pos_imp_2_sg": "squadra"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "stare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "staremmo",
+      "v_cond_1_sg": "starei",
+      "v_cond_2_pl": "stareste",
+      "v_cond_2_sg": "staresti",
+      "v_cond_3_pl": "starebbero",
+      "v_cond_3_sg": "starebbe",
+      "v_cvb_prs": "stando",
+      "v_ind_fut_1_pl": "staremo",
+      "v_ind_fut_1_sg": "starò",
+      "v_ind_fut_2_pl": "starete",
+      "v_ind_fut_2_sg": "starai",
+      "v_ind_fut_3_pl": "staranno",
+      "v_ind_fut_3_sg": "starà",
+      "v_ind_prs_1_pl": "stiamo",
+      "v_ind_prs_1_sg": "sto",
+      "v_ind_prs_2_pl": "state",
+      "v_ind_prs_2_sg": "stai",
+      "v_ind_prs_3_pl": "stanno",
+      "v_ind_prs_3_sg": "sta",
+      "v_ind_pst_1_pl_ipfv": "stavamo",
+      "v_ind_pst_1_pl_pfv": "stemmo",
+      "v_ind_pst_1_sg_ipfv": "stavo",
+      "v_ind_pst_1_sg_pfv": "stetti",
+      "v_ind_pst_2_pl_ipfv": "stavate",
+      "v_ind_pst_2_pl_pfv": "steste",
+      "v_ind_pst_2_sg_ipfv": "stavi",
+      "v_ind_pst_2_sg_pfv": "stesti",
+      "v_ind_pst_3_pl_ipfv": "stavano",
+      "v_ind_pst_3_pl_pfv": "stettero",
+      "v_ind_pst_3_sg_ipfv": "stava",
+      "v_ind_pst_3_sg_pfv": "stette",
+      "v_nfin": "stare",
+      "v_pos_imp_1_pl": "stiamo",
+      "v_pos_imp_2_pl": "state",
+      "v_pos_imp_2_sg": "sta",
+      "v_pos_imp_3_pl": "stiano",
+      "v_pos_imp_3_sg": "stia",
+      "v_ptcp_prs": "stante",
+      "v_ptcp_pst": "stato",
+      "v_sbjv_prs_1_pl": "stiamo",
+      "v_sbjv_prs_1_sg": "stia",
+      "v_sbjv_prs_2_pl": "stiate",
+      "v_sbjv_prs_2_sg": "stia",
+      "v_sbjv_prs_3_pl": "stiano",
+      "v_sbjv_prs_3_sg": "stia",
+      "v_sbjv_pst_1_pl": "stessimo",
+      "v_sbjv_pst_1_sg": "stessi",
+      "v_sbjv_pst_2_pl": "steste",
+      "v_sbjv_pst_2_sg": "stessi",
+      "v_sbjv_pst_3_pl": "stessero",
+      "v_sbjv_pst_3_sg": "stesse"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "starsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "starsi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "stati",
+      "v_ptcp_pst": "stato"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "subire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "subire",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "subito"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "subirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "subirsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "subito"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "succedere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "succedere",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "succedendo",
+      "v_ind_prs_3_sg": "succede",
+      "v_ptcp_pst": "successo"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "succedersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "succedersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "successo"
+    },
+    "priority": 8,
+    "types": [
+      "word"
+    ]
+  },
+  "tardare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tardare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "tardi",
+      "v_pos_imp_3_sg": "tardi",
+      "v_sbjv_prs_1_sg": "tardi",
+      "v_sbjv_prs_2_sg": "tardi",
+      "v_sbjv_prs_3_sg": "tardi"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "telefonare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefonare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "telefono"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "testare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "testare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "testa",
+      "v_pos_imp_2_sg": "testa"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "tornare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tornare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "torneremmo",
+      "v_cond_1_sg": "tornerei",
+      "v_cond_2_pl": "tornereste",
+      "v_cond_2_sg": "torneresti",
+      "v_cond_3_pl": "tornerebbero",
+      "v_cond_3_sg": "tornerebbe",
+      "v_cvb_prs": "tornando",
+      "v_ind_fut_1_pl": "torneremo",
+      "v_ind_fut_1_sg": "tornerò",
+      "v_ind_fut_2_pl": "tornerete",
+      "v_ind_fut_2_sg": "tornerai",
+      "v_ind_fut_3_pl": "torneranno",
+      "v_ind_fut_3_sg": "tornerà",
+      "v_ind_prs_1_pl": "torniamo",
+      "v_ind_prs_1_sg": "torno",
+      "v_ind_prs_2_pl": "tornate",
+      "v_ind_prs_2_sg": "torni",
+      "v_ind_prs_3_pl": "tornano",
+      "v_ind_prs_3_sg": "torna",
+      "v_ind_pst_1_pl_ipfv": "tornavamo",
+      "v_ind_pst_1_pl_pfv": "tornammo",
+      "v_ind_pst_1_sg_ipfv": "tornavo",
+      "v_ind_pst_1_sg_pfv": "tornai",
+      "v_ind_pst_2_pl_ipfv": "tornavate",
+      "v_ind_pst_2_pl_pfv": "tornaste",
+      "v_ind_pst_2_sg_ipfv": "tornavi",
+      "v_ind_pst_2_sg_pfv": "tornasti",
+      "v_ind_pst_3_pl_ipfv": "tornavano",
+      "v_ind_pst_3_pl_pfv": "tornarono",
+      "v_ind_pst_3_sg_ipfv": "tornava",
+      "v_ind_pst_3_sg_pfv": "tornò",
+      "v_nfin": "tornare",
+      "v_pos_imp_1_pl": "torniamo",
+      "v_pos_imp_2_pl": "tornate",
+      "v_pos_imp_2_sg": "torna",
+      "v_pos_imp_3_pl": "tornino",
+      "v_pos_imp_3_sg": "torni",
+      "v_ptcp_prs": "tornante",
+      "v_ptcp_pst": "tornato",
+      "v_sbjv_prs_1_pl": "torniamo",
+      "v_sbjv_prs_1_sg": "torni",
+      "v_sbjv_prs_2_pl": "torniate",
+      "v_sbjv_prs_2_sg": "torni",
+      "v_sbjv_prs_3_pl": "tornino",
+      "v_sbjv_prs_3_sg": "torni",
+      "v_sbjv_pst_1_pl": "tornassimo",
+      "v_sbjv_pst_1_sg": "tornassi",
+      "v_sbjv_pst_2_pl": "tornaste",
+      "v_sbjv_pst_2_sg": "tornassi",
+      "v_sbjv_pst_3_pl": "tornassero",
+      "v_sbjv_pst_3_sg": "tornasse"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "tornarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tornarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "tornato"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "uccidere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uccidere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "uccideremmo",
+      "v_cond_1_sg": "ucciderei",
+      "v_cond_2_pl": "uccidereste",
+      "v_cond_2_sg": "uccideresti",
+      "v_cond_3_pl": "ucciderebbero",
+      "v_cond_3_sg": "ucciderebbe",
+      "v_cvb_prs": "uccidendo",
+      "v_ind_fut_1_pl": "uccideremo",
+      "v_ind_fut_1_sg": "ucciderò",
+      "v_ind_fut_2_pl": "ucciderete",
+      "v_ind_fut_2_sg": "ucciderai",
+      "v_ind_fut_3_pl": "uccideranno",
+      "v_ind_fut_3_sg": "ucciderà",
+      "v_ind_prs_1_pl": "uccidiamo",
+      "v_ind_prs_1_sg": "uccido",
+      "v_ind_prs_2_pl": "uccidete",
+      "v_ind_prs_2_sg": "uccidi",
+      "v_ind_prs_3_pl": "uccidono",
+      "v_ind_prs_3_sg": "uccide",
+      "v_ind_pst_1_pl_ipfv": "uccidevamo",
+      "v_ind_pst_1_pl_pfv": "uccidemmo",
+      "v_ind_pst_1_sg_ipfv": "uccidevo",
+      "v_ind_pst_1_sg_pfv": "uccisi",
+      "v_ind_pst_2_pl_ipfv": "uccidevate",
+      "v_ind_pst_2_pl_pfv": "uccideste",
+      "v_ind_pst_2_sg_ipfv": "uccidevi",
+      "v_ind_pst_2_sg_pfv": "uccidesti",
+      "v_ind_pst_3_pl_ipfv": "uccidevano",
+      "v_ind_pst_3_pl_pfv": "uccisero",
+      "v_ind_pst_3_sg_ipfv": "uccideva",
+      "v_ind_pst_3_sg_pfv": "uccise",
+      "v_nfin": "uccidere",
+      "v_pos_imp_1_pl": "uccidiamo",
+      "v_pos_imp_2_pl": "uccidete",
+      "v_pos_imp_2_sg": "uccidi",
+      "v_pos_imp_3_pl": "uccidano",
+      "v_pos_imp_3_sg": "uccida",
+      "v_ptcp_prs": "uccidente",
+      "v_ptcp_pst": "ucciso",
+      "v_sbjv_prs_1_pl": "uccidiamo",
+      "v_sbjv_prs_1_sg": "uccida",
+      "v_sbjv_prs_2_pl": "uccidiate",
+      "v_sbjv_prs_2_sg": "uccida",
+      "v_sbjv_prs_3_pl": "uccidano",
+      "v_sbjv_prs_3_sg": "uccida",
+      "v_sbjv_pst_1_pl": "uccidessimo",
+      "v_sbjv_pst_1_sg": "uccidessi",
+      "v_sbjv_pst_2_pl": "uccideste",
+      "v_sbjv_pst_2_sg": "uccidessi",
+      "v_sbjv_pst_3_pl": "uccidessero",
+      "v_sbjv_pst_3_sg": "uccidesse"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "uccidersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uccidersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "ucciso"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "ufficiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ufficiare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ufficio"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ultimare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ultimare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ultimo",
+      "v_ind_prs_3_sg": "ultima",
+      "v_pos_imp_2_sg": "ultima"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "usare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "usare",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "useremmo",
+      "v_cond_1_sg": "userei",
+      "v_cond_2_pl": "usereste",
+      "v_cond_2_sg": "useresti",
+      "v_cond_3_pl": "userebbero",
+      "v_cond_3_sg": "userebbe",
+      "v_cvb_prs": "usando",
+      "v_ind_fut_1_pl": "useremo",
+      "v_ind_fut_1_sg": "userò",
+      "v_ind_fut_2_pl": "userete",
+      "v_ind_fut_2_sg": "userai",
+      "v_ind_fut_3_pl": "useranno",
+      "v_ind_fut_3_sg": "userà",
+      "v_ind_prs_1_pl": "usiamo",
+      "v_ind_prs_1_sg": "uso",
+      "v_ind_prs_2_pl": "usate",
+      "v_ind_prs_2_sg": "usi",
+      "v_ind_prs_3_pl": "usano",
+      "v_ind_prs_3_sg": "usa",
+      "v_ind_pst_1_pl_ipfv": "usavamo",
+      "v_ind_pst_1_pl_pfv": "usammo",
+      "v_ind_pst_1_sg_ipfv": "usavo",
+      "v_ind_pst_1_sg_pfv": "usai",
+      "v_ind_pst_2_pl_ipfv": "usavate",
+      "v_ind_pst_2_pl_pfv": "usaste",
+      "v_ind_pst_2_sg_ipfv": "usavi",
+      "v_ind_pst_2_sg_pfv": "usasti",
+      "v_ind_pst_3_pl_ipfv": "usavano",
+      "v_ind_pst_3_pl_pfv": "usarono",
+      "v_ind_pst_3_sg_ipfv": "usava",
+      "v_ind_pst_3_sg_pfv": "usò",
+      "v_nfin": "usare",
+      "v_pos_imp_1_pl": "usiamo",
+      "v_pos_imp_2_pl": "usate",
+      "v_pos_imp_2_sg": "usa",
+      "v_pos_imp_3_pl": "usino",
+      "v_pos_imp_3_sg": "usi",
+      "v_ptcp_prs": "usante",
+      "v_ptcp_pst": "usato",
+      "v_sbjv_prs_1_pl": "usiamo",
+      "v_sbjv_prs_1_sg": "usi",
+      "v_sbjv_prs_2_pl": "usiate",
+      "v_sbjv_prs_2_sg": "usi",
+      "v_sbjv_prs_3_pl": "usino",
+      "v_sbjv_prs_3_sg": "usi",
+      "v_sbjv_pst_1_pl": "usassimo",
+      "v_sbjv_pst_1_sg": "usassi",
+      "v_sbjv_pst_2_pl": "usaste",
+      "v_sbjv_pst_2_sg": "usassi",
+      "v_sbjv_pst_3_pl": "usassero",
+      "v_sbjv_pst_3_sg": "usasse"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "usarsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "usarsi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "usato"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "vederci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vederci",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "visto"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "vedere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vedere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "vedremmo",
+      "v_cond_1_sg": "vedrei",
+      "v_cond_2_pl": "vedreste",
+      "v_cond_2_sg": "vedresti",
+      "v_cond_3_pl": "vedrebbero",
+      "v_cond_3_sg": "vedrebbe",
+      "v_cvb_prs": "vedendo",
+      "v_ind_fut_1_pl": "vedremo",
+      "v_ind_fut_1_sg": "vedrò",
+      "v_ind_fut_2_pl": "vedrete",
+      "v_ind_fut_2_sg": "vedrai",
+      "v_ind_fut_3_pl": "vedranno",
+      "v_ind_fut_3_sg": "vedrà",
+      "v_ind_prs_1_pl": "vediamo",
+      "v_ind_prs_1_sg": "vedo",
+      "v_ind_prs_2_pl": "vedete",
+      "v_ind_prs_2_sg": "vedi",
+      "v_ind_prs_3_pl": "vedono",
+      "v_ind_prs_3_sg": "vede",
+      "v_ind_pst_1_pl_ipfv": "vedevamo",
+      "v_ind_pst_1_pl_pfv": "vedemmo",
+      "v_ind_pst_1_sg_ipfv": "vedevo",
+      "v_ind_pst_1_sg_pfv": "vidi",
+      "v_ind_pst_2_pl_ipfv": "vedevate",
+      "v_ind_pst_2_pl_pfv": "vedeste",
+      "v_ind_pst_2_sg_ipfv": "vedevi",
+      "v_ind_pst_2_sg_pfv": "vedesti",
+      "v_ind_pst_3_pl_ipfv": "vedevano",
+      "v_ind_pst_3_pl_pfv": "videro",
+      "v_ind_pst_3_sg_ipfv": "vedeva",
+      "v_ind_pst_3_sg_pfv": "vide",
+      "v_nfin": "vedere",
+      "v_pos_imp_1_pl": "vediamo",
+      "v_pos_imp_2_pl": "vedete",
+      "v_pos_imp_2_sg": "vedi",
+      "v_pos_imp_3_pl": "vedano",
+      "v_pos_imp_3_sg": "veda",
+      "v_ptcp_prs": "vedente",
+      "v_ptcp_pst": "visto",
+      "v_sbjv_prs_1_pl": "vediamo",
+      "v_sbjv_prs_1_sg": "veda",
+      "v_sbjv_prs_2_pl": "vediate",
+      "v_sbjv_prs_2_sg": "veda",
+      "v_sbjv_prs_3_pl": "vedano",
+      "v_sbjv_prs_3_sg": "veda",
+      "v_sbjv_pst_1_pl": "vedessimo",
+      "v_sbjv_pst_1_sg": "vedessi",
+      "v_sbjv_pst_2_pl": "vedeste",
+      "v_sbjv_pst_2_sg": "vedessi",
+      "v_sbjv_pst_3_pl": "vedessero",
+      "v_sbjv_pst_3_sg": "vedesse"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vedersela": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vedersela",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "vista"
+    },
+    "priority": 5,
+    "types": [
+      "word"
+    ]
+  },
+  "vedersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vedersi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "visto"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "venire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venire",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "verremmo",
+      "v_cond_1_sg": "verrei",
+      "v_cond_2_pl": "verreste",
+      "v_cond_2_sg": "verresti",
+      "v_cond_3_pl": "verrebbero",
+      "v_cond_3_sg": "verrebbe",
+      "v_cvb_prs": "venendo",
+      "v_ind_fut_1_pl": "verremo",
+      "v_ind_fut_1_sg": "verrò",
+      "v_ind_fut_2_pl": "verrete",
+      "v_ind_fut_2_sg": "verrai",
+      "v_ind_fut_3_pl": "verranno",
+      "v_ind_fut_3_sg": "verrà",
+      "v_ind_prs_1_pl": "veniamo",
+      "v_ind_prs_1_sg": "vengo",
+      "v_ind_prs_2_pl": "venite",
+      "v_ind_prs_2_sg": "vieni",
+      "v_ind_prs_3_pl": "vengono",
+      "v_ind_prs_3_sg": "viene",
+      "v_ind_pst_1_pl_ipfv": "venivamo",
+      "v_ind_pst_1_pl_pfv": "venimmo",
+      "v_ind_pst_1_sg_ipfv": "venivo",
+      "v_ind_pst_1_sg_pfv": "venni",
+      "v_ind_pst_2_pl_ipfv": "venivate",
+      "v_ind_pst_2_pl_pfv": "veniste",
+      "v_ind_pst_2_sg_ipfv": "venivi",
+      "v_ind_pst_2_sg_pfv": "venisti",
+      "v_ind_pst_3_pl_ipfv": "venivano",
+      "v_ind_pst_3_pl_pfv": "vennero",
+      "v_ind_pst_3_sg_ipfv": "veniva",
+      "v_ind_pst_3_sg_pfv": "venne",
+      "v_nfin": "venire",
+      "v_pos_imp_1_pl": "veniamo",
+      "v_pos_imp_2_pl": "venite",
+      "v_pos_imp_2_sg": "vieni",
+      "v_pos_imp_3_pl": "vengano",
+      "v_pos_imp_3_sg": "venga",
+      "v_ptcp_prs": "venente",
+      "v_ptcp_pst": "venuto",
+      "v_sbjv_prs_1_pl": "veniamo",
+      "v_sbjv_prs_1_sg": "venga",
+      "v_sbjv_prs_2_pl": "veniate",
+      "v_sbjv_prs_2_sg": "venga",
+      "v_sbjv_prs_3_pl": "vengano",
+      "v_sbjv_prs_3_sg": "venga",
+      "v_sbjv_pst_1_pl": "venissimo",
+      "v_sbjv_pst_1_sg": "venissi",
+      "v_sbjv_pst_2_pl": "veniste",
+      "v_sbjv_pst_2_sg": "venissi",
+      "v_sbjv_pst_3_pl": "venissero",
+      "v_sbjv_pst_3_sg": "venisse"
+    },
+    "priority": 7,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "venirsene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venirsene",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "vieni",
+      "v_ptcp_pst": "venuto"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "venirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venirsi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "vieni",
+      "v_ptcp_pst": "venuto"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "vestirsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vestirsi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_2_sg": "vestiti"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "viaggiare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viaggiare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "viaggio"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "vicinare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vicinare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "vicino"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "vistare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vistare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "visto",
+      "v_ind_prs_3_sg": "vista",
+      "v_pos_imp_2_sg": "vista"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "volercene": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volercene",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "vogliono",
+      "v_ind_prs_3_sg": "vuole",
+      "v_ind_pst_3_sg_ipfv": "voleva",
+      "v_ptcp_pst": "voluto",
+      "v_sbjv_prs_3_sg": "voglia"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "volerci": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volerci",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "voluto"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "volere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volere",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_sg": "vorrei",
+      "v_ind_prs_1_pl": "vogliamo",
+      "v_ind_prs_1_sg": "voglio",
+      "v_ind_prs_2_pl": "volete",
+      "v_ind_prs_2_sg": "vuoi",
+      "v_ind_prs_3_pl": "vogliono",
+      "v_ind_prs_3_sg": "vuole",
+      "v_ind_pst_1_sg_ipfv": "volevo",
+      "v_ind_pst_2_sg_ipfv": "volevi",
+      "v_ind_pst_3_sg_ipfv": "voleva",
+      "v_pos_imp_1_pl": "vogliamo",
+      "v_pos_imp_3_sg": "voglia",
+      "v_ptcp_pst": "voluto",
+      "v_sbjv_prs_1_pl": "vogliamo",
+      "v_sbjv_prs_1_sg": "voglia",
+      "v_sbjv_prs_2_sg": "voglia",
+      "v_sbjv_prs_3_sg": "voglia"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "volersi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volersi",
+    "inflections": {
+      "regulars": [],
+      "v_pos_imp_1_pl": "vogliamo",
+      "v_pos_imp_2_sg": "vuoi",
+      "v_ptcp_pst": "voluto"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "voltare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "voltare",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "volta",
+      "v_pos_imp_2_sg": "volta"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  }
+}

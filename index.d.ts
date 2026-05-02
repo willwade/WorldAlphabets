@@ -12,6 +12,36 @@ export interface FrequencyList {
   mode: 'word' | 'bigram';
 }
 
+export type InflectionWordEntry = Record<string, unknown> & {
+  types: string[];
+  base?: string;
+  priority?: number;
+  antonyms?: string[];
+  examples?: unknown[];
+  inflections: Record<string, unknown>;
+};
+
+export type InflectionWords = Record<string, unknown | InflectionWordEntry> & {
+  _type: 'words';
+  _locale: string;
+  _version: string;
+};
+
+export type InflectionRules = Record<string, unknown> & {
+  _type: 'rules';
+  _locale: string;
+  _version: string;
+  rules: unknown[];
+  tests?: unknown[];
+  substitutions?: Record<string, unknown>;
+  inflection_locations?: Record<string, unknown>;
+};
+
+export interface InflectionData {
+  words: InflectionWords;
+  rules: InflectionRules;
+}
+
 export function loadAlphabet(code: string, script?: string): Promise<Alphabet>;
 export function getUppercase(code: string, script?: string): Promise<string[]>;
 export function getLowercase(code: string, script?: string): Promise<string[]>;
@@ -19,6 +49,19 @@ export function getFrequency(code: string, script?: string): Promise<Record<stri
 export function getDigits(code: string, script?: string): Promise<string[]>;
 export function getAvailableCodes(): Promise<string[]>;
 export function loadFrequencyList(code: string): Promise<FrequencyList>;
+export function getAvailableInflectionLocales(): Promise<string[]>;
+export function loadInflectionWords(locale: string): Promise<InflectionWords>;
+export function loadInflectionRules(locale: string): Promise<InflectionRules>;
+export function loadInflectionData(locale: string): Promise<InflectionData>;
+export function getWordForms(
+  locale: string,
+  word: string
+): Promise<InflectionWordEntry | null>;
+export function inflectWord(
+  locale: string,
+  word: string,
+  inflection: string
+): Promise<string | null>;
 export interface IndexEntry {
   language: string;
   'language-name': string;

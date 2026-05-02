@@ -218,6 +218,30 @@ hasDiacritics('é');      // true
 Use `characters_with_diacritics`/`charactersWithDiacritics` to extract letters
 with diacritic marks from a list.
 
+### Inflection Data
+
+WorldAlphabets includes infrastructure for neutral word-form and inflection-rule
+datasets. Generated data is published under `data/inflections/` and can be
+loaded from Python and Node.js once locale packs are available.
+
+Python:
+
+```python
+from worldalphabets import get_available_inflection_locales
+
+locales = get_available_inflection_locales()
+```
+
+Node.js:
+
+```javascript
+const { getAvailableInflectionLocales } = require('worldalphabets');
+
+const locales = await getAvailableInflectionLocales();
+```
+
+Generation infrastructure is documented in `docs/INFLECTIONS_PLAN.md`.
+
 Use `get_diacritic_variants`/`getDiacriticVariants` to list base letters and
 their diacritic forms for a given language.
 

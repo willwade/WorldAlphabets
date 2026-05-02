@@ -1,0 +1,1008 @@
+{
+  "_locale": "oc",
+  "_type": "words",
+  "_version": "0.1",
+  "amassar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "amassar",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "amassa",
+      "v_ind_prs_3_sg": "amassa"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "anar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "anar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "anariam",
+      "v_1_pl_imp": "anem",
+      "v_1_pl_ind_fut": "anarem",
+      "v_1_pl_sbjv_prs": "anem",
+      "v_1_pl_sbjv_pst_ipfv": "anèssem",
+      "v_1_sg_cond": "anariái",
+      "v_1_sg_ind_fut": "anarai",
+      "v_1_sg_sbjv_prs": "ane",
+      "v_1_sg_sbjv_pst_ipfv": "anèssi",
+      "v_2_pl_cond": "anariatz",
+      "v_2_pl_imp": "anatz",
+      "v_2_pl_ind_fut": "anaretz",
+      "v_2_pl_sbjv_prs": "anetz",
+      "v_2_pl_sbjv_pst_ipfv": "anèssetz",
+      "v_2_sg_cond": "anariás",
+      "v_2_sg_imp": "vai",
+      "v_2_sg_ind_fut": "anaràs",
+      "v_2_sg_sbjv_prs": "anes",
+      "v_2_sg_sbjv_pst_ipfv": "anèsses",
+      "v_3_pl_cond": "anarián",
+      "v_3_pl_ind_fut": "anaràn",
+      "v_3_pl_sbjv_prs": "anen",
+      "v_3_pl_sbjv_pst_ipfv": "anèsson",
+      "v_3_sg_cond": "anariá",
+      "v_3_sg_ind_fut": "anarà",
+      "v_3_sg_sbjv_prs": "ane",
+      "v_3_sg_sbjv_pst_ipfv": "anèsse",
+      "v_ind_prs_1_pl": "anèm",
+      "v_ind_prs_1_sg": "vau",
+      "v_ind_prs_2_pl": "anètz",
+      "v_ind_prs_2_sg": "vas",
+      "v_ind_prs_3_pl": "van",
+      "v_ind_prs_3_sg": "va",
+      "v_ind_pst_1_pl_ipfv": "anàvem",
+      "v_ind_pst_1_pl_pfv": "anèrem",
+      "v_ind_pst_1_sg_ipfv": "anavi",
+      "v_ind_pst_1_sg_pfv": "anèri",
+      "v_ind_pst_2_pl_ipfv": "anàvetz",
+      "v_ind_pst_2_pl_pfv": "anèretz",
+      "v_ind_pst_2_sg_ipfv": "anavas",
+      "v_ind_pst_2_sg_pfv": "anères",
+      "v_ind_pst_3_pl_ipfv": "anavan",
+      "v_ind_pst_3_pl_pfv": "anèron",
+      "v_ind_pst_3_sg_ipfv": "anava",
+      "v_ind_pst_3_sg_pfv": "anèt",
+      "v_nfin": "anar",
+      "v_ptcp_prs": "anant",
+      "v_ptcp_pst": "anat"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "aver": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aver",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "auriam",
+      "v_1_pl_imp": "ajam",
+      "v_1_pl_ind_fut": "aurem",
+      "v_1_pl_sbjv_prs": "ajam",
+      "v_1_pl_sbjv_pst_ipfv": "aguèssem",
+      "v_1_sg_cond": "auriái",
+      "v_1_sg_ind_fut": "aurai",
+      "v_1_sg_sbjv_prs": "aja",
+      "v_1_sg_sbjv_pst_ipfv": "aguèsse",
+      "v_2_pl_cond": "auriatz",
+      "v_2_pl_imp": "ajatz",
+      "v_2_pl_ind_fut": "auretz",
+      "v_2_pl_sbjv_prs": "ajatz",
+      "v_2_pl_sbjv_pst_ipfv": "aguèssetz",
+      "v_2_sg_cond": "auriás",
+      "v_2_sg_imp": "aja",
+      "v_2_sg_ind_fut": "auràs",
+      "v_2_sg_sbjv_prs": "ajas",
+      "v_2_sg_sbjv_pst_ipfv": "aguèsses",
+      "v_3_pl_cond": "aurián",
+      "v_3_pl_ind_fut": "auràn",
+      "v_3_pl_sbjv_prs": "ajan",
+      "v_3_pl_sbjv_pst_ipfv": "aguèsson",
+      "v_3_sg_cond": "auriá",
+      "v_3_sg_ind_fut": "aurà",
+      "v_3_sg_sbjv_prs": "aja",
+      "v_3_sg_sbjv_pst_ipfv": "aguèsse",
+      "v_ind_prs_1_pl": "avèm",
+      "v_ind_prs_1_sg": "ai",
+      "v_ind_prs_2_pl": "avètz",
+      "v_ind_prs_2_sg": "as",
+      "v_ind_prs_3_pl": "an",
+      "v_ind_prs_3_sg": "a",
+      "v_ind_pst_1_pl_ipfv": "aviam",
+      "v_ind_pst_1_pl_pfv": "aguèrem",
+      "v_ind_pst_1_sg_ipfv": "aviái",
+      "v_ind_pst_1_sg_pfv": "aguèri",
+      "v_ind_pst_2_pl_ipfv": "aviatz",
+      "v_ind_pst_2_pl_pfv": "aguèretz",
+      "v_ind_pst_2_sg_ipfv": "aviás",
+      "v_ind_pst_2_sg_pfv": "aguères",
+      "v_ind_pst_3_pl_ipfv": "avián",
+      "v_ind_pst_3_pl_pfv": "aguèron",
+      "v_ind_pst_3_sg_ipfv": "aviá",
+      "v_ind_pst_3_sg_pfv": "aguèt",
+      "v_nfin": "aver",
+      "v_ptcp_prs": "avent",
+      "v_ptcp_pst": "agut"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "caler": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "caler",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "cal"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "costar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "costar",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "costat"
+    },
+    "priority": 9,
+    "types": [
+      "word"
+    ]
+  },
+  "crear": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "crear",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "creariam",
+      "v_1_pl_imp": "creem",
+      "v_1_pl_ind_fut": "crearem",
+      "v_1_pl_sbjv_prs": "creem",
+      "v_1_pl_sbjv_pst_ipfv": "creèssem",
+      "v_1_sg_cond": "creariái",
+      "v_1_sg_ind_fut": "crearai",
+      "v_1_sg_sbjv_prs": "cree",
+      "v_1_sg_sbjv_pst_ipfv": "creèssi",
+      "v_2_pl_cond": "creariatz",
+      "v_2_pl_imp": "creatz",
+      "v_2_pl_ind_fut": "crearetz",
+      "v_2_pl_sbjv_prs": "creetz",
+      "v_2_pl_sbjv_pst_ipfv": "creèssetz",
+      "v_2_sg_cond": "creariás",
+      "v_2_sg_imp": "crea",
+      "v_2_sg_ind_fut": "crearàs",
+      "v_2_sg_sbjv_prs": "crees",
+      "v_2_sg_sbjv_pst_ipfv": "creèsses",
+      "v_3_pl_cond": "crearián",
+      "v_3_pl_ind_fut": "crearàn",
+      "v_3_pl_sbjv_prs": "creen",
+      "v_3_pl_sbjv_pst_ipfv": "creèsson",
+      "v_3_sg_cond": "creariá",
+      "v_3_sg_ind_fut": "crearà",
+      "v_3_sg_sbjv_prs": "cree",
+      "v_3_sg_sbjv_pst_ipfv": "creèsse",
+      "v_cvb_prs": "creant",
+      "v_ind_prs_1_pl": "cream",
+      "v_ind_prs_1_sg": "crei",
+      "v_ind_prs_2_pl": "creatz",
+      "v_ind_prs_2_sg": "creas",
+      "v_ind_prs_3_pl": "crean",
+      "v_ind_prs_3_sg": "crea",
+      "v_ind_pst_1_pl_ipfv": "creàvem",
+      "v_ind_pst_1_pl_pfv": "creèrem",
+      "v_ind_pst_1_sg_ipfv": "creavi",
+      "v_ind_pst_1_sg_pfv": "creèri",
+      "v_ind_pst_2_pl_ipfv": "creàvetz",
+      "v_ind_pst_2_pl_pfv": "creèretz",
+      "v_ind_pst_2_sg_ipfv": "creavas",
+      "v_ind_pst_2_sg_pfv": "creères",
+      "v_ind_pst_3_pl_ipfv": "creavan",
+      "v_ind_pst_3_pl_pfv": "creèron",
+      "v_ind_pst_3_sg_ipfv": "creava",
+      "v_ind_pst_3_sg_pfv": "creèt",
+      "v_nfin": "crear",
+      "v_ptcp_pst": "creat"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "decidir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "decidir",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_sg_pfv": "decidiguèt"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "demorar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "demorar",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_sg_pfv": "demorèt"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "deure": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "deure",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "deu",
+      "v_ind_prs_3_sg": "deu",
+      "v_ind_pst_3_sg_pfv": "deguèt"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "dever": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dever",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "deu",
+      "v_ind_prs_3_sg": "deu",
+      "v_ind_pst_3_sg_pfv": "deguèt"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "dintrar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dintrar",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs": "dintre",
+      "v_3_sg_sbjv_prs": "dintre"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "dire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dire",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "diriam",
+      "v_1_pl_imp": "digam",
+      "v_1_pl_ind_fut": "direm",
+      "v_1_pl_sbjv_prs": "digam",
+      "v_1_pl_sbjv_pst_ipfv": "diguèssem",
+      "v_1_sg_cond": "diriái",
+      "v_1_sg_ind_fut": "dirai",
+      "v_1_sg_sbjv_prs": "diga",
+      "v_1_sg_sbjv_pst_ipfv": "diguèsse",
+      "v_2_pl_cond": "diriatz",
+      "v_2_pl_imp": "digatz",
+      "v_2_pl_ind_fut": "diretz",
+      "v_2_pl_sbjv_prs": "digatz",
+      "v_2_pl_sbjv_pst_ipfv": "diguèssetz",
+      "v_2_sg_cond": "diriás",
+      "v_2_sg_imp": "diga",
+      "v_2_sg_ind_fut": "diràs",
+      "v_2_sg_sbjv_prs": "digas",
+      "v_2_sg_sbjv_pst_ipfv": "diguèsses",
+      "v_3_pl_cond": "dirián",
+      "v_3_pl_ind_fut": "diràn",
+      "v_3_pl_sbjv_prs": "digan",
+      "v_3_pl_sbjv_pst_ipfv": "diguèsson",
+      "v_3_sg_cond": "diriá",
+      "v_3_sg_ind_fut": "dirà",
+      "v_3_sg_sbjv_prs": "diga",
+      "v_3_sg_sbjv_pst_ipfv": "diguèsse",
+      "v_ind_prs_1_pl": "disèm",
+      "v_ind_prs_1_sg": "disi",
+      "v_ind_prs_2_pl": "disètz",
+      "v_ind_prs_2_sg": "dises",
+      "v_ind_prs_3_pl": "dison",
+      "v_ind_prs_3_sg": "ditz",
+      "v_ind_pst_1_pl_ipfv": "disiam",
+      "v_ind_pst_1_pl_pfv": "diguèrem",
+      "v_ind_pst_1_sg_ipfv": "disiái",
+      "v_ind_pst_1_sg_pfv": "diguèri",
+      "v_ind_pst_2_pl_ipfv": "disiatz",
+      "v_ind_pst_2_pl_pfv": "diguèretz",
+      "v_ind_pst_2_sg_ipfv": "disiás",
+      "v_ind_pst_2_sg_pfv": "diguères",
+      "v_ind_pst_3_pl_ipfv": "disián",
+      "v_ind_pst_3_pl_pfv": "diguèron",
+      "v_ind_pst_3_sg_ipfv": "disiá",
+      "v_ind_pst_3_sg_pfv": "diguèt",
+      "v_nfin": "dire",
+      "v_ptcp_prs": "disent",
+      "v_ptcp_pst": "dich"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "faire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "faire",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "fariam",
+      "v_1_pl_imp": "fagam",
+      "v_1_pl_ind_fut": "farem",
+      "v_1_pl_sbjv_prs": "fagam",
+      "v_1_pl_sbjv_pst_ipfv": "faguèssem",
+      "v_1_sg_cond": "fariái",
+      "v_1_sg_ind_fut": "farai",
+      "v_1_sg_sbjv_prs": "faga",
+      "v_1_sg_sbjv_pst_ipfv": "faguèsse",
+      "v_2_pl_cond": "fariatz",
+      "v_2_pl_imp": "fasètz",
+      "v_2_pl_ind_fut": "faretz",
+      "v_2_pl_sbjv_prs": "fagatz",
+      "v_2_pl_sbjv_pst_ipfv": "faguèssetz",
+      "v_2_sg_cond": "fariás",
+      "v_2_sg_imp": "fai",
+      "v_2_sg_ind_fut": "faràs",
+      "v_2_sg_sbjv_prs": "fagas",
+      "v_2_sg_sbjv_pst_ipfv": "faguèsses",
+      "v_3_pl_cond": "farián",
+      "v_3_pl_ind_fut": "faràn",
+      "v_3_pl_sbjv_prs": "fagan",
+      "v_3_pl_sbjv_pst_ipfv": "faguèsson",
+      "v_3_sg_cond": "fariá",
+      "v_3_sg_ind_fut": "farà",
+      "v_3_sg_sbjv_prs": "faga",
+      "v_3_sg_sbjv_pst_ipfv": "faguèsse",
+      "v_ind_prs_1_pl": "fasèm",
+      "v_ind_prs_1_sg": "fau",
+      "v_ind_prs_2_pl": "fasètz",
+      "v_ind_prs_2_sg": "fas",
+      "v_ind_prs_3_pl": "fan",
+      "v_ind_prs_3_sg": "fa",
+      "v_ind_pst_1_pl_ipfv": "fasiam",
+      "v_ind_pst_1_pl_pfv": "faguèrem",
+      "v_ind_pst_1_sg_ipfv": "fasiái",
+      "v_ind_pst_1_sg_pfv": "faguèri",
+      "v_ind_pst_2_pl_ipfv": "fasiatz",
+      "v_ind_pst_2_pl_pfv": "faguèretz",
+      "v_ind_pst_2_sg_ipfv": "fasiás",
+      "v_ind_pst_2_sg_pfv": "faguères",
+      "v_ind_pst_3_pl_ipfv": "fasián",
+      "v_ind_pst_3_pl_pfv": "faguèron",
+      "v_ind_pst_3_sg_ipfv": "fasiá",
+      "v_ind_pst_3_sg_pfv": "faguèt",
+      "v_nfin": "faire",
+      "v_ptcp_prs": "fasent",
+      "v_ptcp_pst": "fach"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "fer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fer",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "fan",
+      "v_ind_prs_3_sg": "fa",
+      "v_ind_pst_3_sg_pfv": "faguèt",
+      "v_nfin": "faire",
+      "v_ptcp_pst": "fach"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "menar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "menar",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "mena",
+      "v_ind_prs_3_sg": "mena"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "parlar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parlar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "parlariam",
+      "v_1_pl_imp": "parlem",
+      "v_1_pl_ind_fut": "parlarem",
+      "v_1_pl_sbjv_prs": "parlem",
+      "v_1_pl_sbjv_pst_ipfv": "parlèssem",
+      "v_1_sg_cond": "parlariái",
+      "v_1_sg_ind_fut": "parlarai",
+      "v_1_sg_sbjv_prs": "parle",
+      "v_1_sg_sbjv_pst_ipfv": "parlèssi",
+      "v_2_pl_cond": "parlariatz",
+      "v_2_pl_imp": "parlatz",
+      "v_2_pl_ind_fut": "parlaretz",
+      "v_2_pl_sbjv_prs": "parletz",
+      "v_2_pl_sbjv_pst_ipfv": "parlèssetz",
+      "v_2_sg_cond": "parlariás",
+      "v_2_sg_imp": "parla",
+      "v_2_sg_ind_fut": "parlaràs",
+      "v_2_sg_sbjv_prs": "parles",
+      "v_2_sg_sbjv_pst_ipfv": "parlèsses",
+      "v_3_pl_cond": "parlarián",
+      "v_3_pl_ind_fut": "parlaràn",
+      "v_3_pl_sbjv_prs": "parlen",
+      "v_3_pl_sbjv_pst_ipfv": "parlèsson",
+      "v_3_sg_cond": "parlariá",
+      "v_3_sg_ind_fut": "parlarà",
+      "v_3_sg_sbjv_prs": "parle",
+      "v_3_sg_sbjv_pst_ipfv": "parlèsse",
+      "v_cvb_prs": "parlant",
+      "v_ind_prs_1_pl": "parlam",
+      "v_ind_prs_1_sg": "parli",
+      "v_ind_prs_2_pl": "parlatz",
+      "v_ind_prs_2_sg": "parlas",
+      "v_ind_prs_3_pl": "parlan",
+      "v_ind_prs_3_sg": "parla",
+      "v_ind_pst_1_pl_ipfv": "parlàvem",
+      "v_ind_pst_1_pl_pfv": "parlèrem",
+      "v_ind_pst_1_sg_ipfv": "parlavi",
+      "v_ind_pst_1_sg_pfv": "parlèri",
+      "v_ind_pst_2_pl_ipfv": "parlàvetz",
+      "v_ind_pst_2_pl_pfv": "parlèretz",
+      "v_ind_pst_2_sg_ipfv": "parlavas",
+      "v_ind_pst_2_sg_pfv": "parlères",
+      "v_ind_pst_3_pl_ipfv": "parlavan",
+      "v_ind_pst_3_pl_pfv": "parlèron",
+      "v_ind_pst_3_sg_ipfv": "parlava",
+      "v_ind_pst_3_sg_pfv": "parlèt",
+      "v_nfin": "parlar",
+      "v_ptcp_pst": "parlat"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "passar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "passar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "passariam",
+      "v_1_pl_imp": "passem",
+      "v_1_pl_ind_fut": "passarem",
+      "v_1_pl_sbjv_prs": "passem",
+      "v_1_pl_sbjv_pst_ipfv": "passèssem",
+      "v_1_sg_cond": "passariái",
+      "v_1_sg_ind_fut": "passarai",
+      "v_1_sg_sbjv_prs": "passe",
+      "v_1_sg_sbjv_pst_ipfv": "passèssi",
+      "v_2_pl_cond": "passariatz",
+      "v_2_pl_imp": "passatz",
+      "v_2_pl_ind_fut": "passaretz",
+      "v_2_pl_sbjv_prs": "passetz",
+      "v_2_pl_sbjv_pst_ipfv": "passèssetz",
+      "v_2_sg_cond": "passariás",
+      "v_2_sg_imp": "passa",
+      "v_2_sg_ind_fut": "passaràs",
+      "v_2_sg_sbjv_prs": "passes",
+      "v_2_sg_sbjv_pst_ipfv": "passèsses",
+      "v_3_pl_cond": "passarián",
+      "v_3_pl_ind_fut": "passaràn",
+      "v_3_pl_sbjv_prs": "passen",
+      "v_3_pl_sbjv_pst_ipfv": "passèsson",
+      "v_3_sg_cond": "passariá",
+      "v_3_sg_ind_fut": "passarà",
+      "v_3_sg_sbjv_prs": "passe",
+      "v_3_sg_sbjv_pst_ipfv": "passèsse",
+      "v_cvb_prs": "passant",
+      "v_ind_prs_1_pl": "passam",
+      "v_ind_prs_1_sg": "passi",
+      "v_ind_prs_2_pl": "passatz",
+      "v_ind_prs_2_sg": "passas",
+      "v_ind_prs_3_pl": "passan",
+      "v_ind_prs_3_sg": "passa",
+      "v_ind_pst_1_pl_ipfv": "passàvem",
+      "v_ind_pst_1_pl_pfv": "passèrem",
+      "v_ind_pst_1_sg_ipfv": "passavi",
+      "v_ind_pst_1_sg_pfv": "passèri",
+      "v_ind_pst_2_pl_ipfv": "passàvetz",
+      "v_ind_pst_2_pl_pfv": "passèretz",
+      "v_ind_pst_2_sg_ipfv": "passavas",
+      "v_ind_pst_2_sg_pfv": "passères",
+      "v_ind_pst_3_pl_ipfv": "passavan",
+      "v_ind_pst_3_pl_pfv": "passèron",
+      "v_ind_pst_3_sg_ipfv": "passava",
+      "v_ind_pst_3_sg_pfv": "passèt",
+      "v_nfin": "passar",
+      "v_ptcp_pst": "passat"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "poder": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "poder",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "poiriam",
+      "v_1_pl_imp": "poscam",
+      "v_1_pl_ind_fut": "poirem",
+      "v_1_pl_sbjv_prs": "poscam",
+      "v_1_pl_sbjv_pst_ipfv": "poguèssem",
+      "v_1_sg_cond": "poiriái",
+      "v_1_sg_ind_fut": "poirai",
+      "v_1_sg_sbjv_prs": "pòsca",
+      "v_1_sg_sbjv_pst_ipfv": "poguèsse",
+      "v_2_pl_cond": "poiriatz",
+      "v_2_pl_imp": "poscatz",
+      "v_2_pl_ind_fut": "poiretz",
+      "v_2_pl_sbjv_prs": "poscatz",
+      "v_2_pl_sbjv_pst_ipfv": "poguèssetz",
+      "v_2_sg_cond": "poiriás",
+      "v_2_sg_imp": "pòsca",
+      "v_2_sg_ind_fut": "poiràs",
+      "v_2_sg_sbjv_prs": "pòscas",
+      "v_2_sg_sbjv_pst_ipfv": "poguèsses",
+      "v_3_pl_cond": "poirián",
+      "v_3_pl_ind_fut": "poiràn",
+      "v_3_pl_sbjv_prs": "pòscan",
+      "v_3_pl_sbjv_pst_ipfv": "poguèsson",
+      "v_3_sg_cond": "poiriá",
+      "v_3_sg_ind_fut": "poirà",
+      "v_3_sg_sbjv_prs": "pòsca",
+      "v_3_sg_sbjv_pst_ipfv": "poguèsse",
+      "v_ind_prs_1_pl": "podèm",
+      "v_ind_prs_1_sg": "pòdi",
+      "v_ind_prs_2_pl": "podètz",
+      "v_ind_prs_2_sg": "pòdes",
+      "v_ind_prs_3_pl": "pòdon",
+      "v_ind_prs_3_sg": "pòt",
+      "v_ind_pst_1_pl_ipfv": "podiam",
+      "v_ind_pst_1_pl_pfv": "poguèrem",
+      "v_ind_pst_1_sg_ipfv": "podiái",
+      "v_ind_pst_1_sg_pfv": "poguèri",
+      "v_ind_pst_2_pl_ipfv": "podiatz",
+      "v_ind_pst_2_pl_pfv": "poguèretz",
+      "v_ind_pst_2_sg_ipfv": "podiás",
+      "v_ind_pst_2_sg_pfv": "poguères",
+      "v_ind_pst_3_pl_ipfv": "podián",
+      "v_ind_pst_3_pl_pfv": "poguèron",
+      "v_ind_pst_3_sg_ipfv": "podiá",
+      "v_ind_pst_3_sg_pfv": "poguèt",
+      "v_nfin": "poder",
+      "v_ptcp_prs": "podent",
+      "v_ptcp_pst": "pogut"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "saber": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saber",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "saupriam",
+      "v_1_pl_imp": "sapiam",
+      "v_1_pl_ind_fut": "sauprem",
+      "v_1_pl_sbjv_prs": "sapiam",
+      "v_1_pl_sbjv_pst_ipfv": "saupèssem",
+      "v_1_sg_cond": "saupriái",
+      "v_1_sg_ind_fut": "sauprai",
+      "v_1_sg_sbjv_prs": "sàpia",
+      "v_1_sg_sbjv_pst_ipfv": "saupèsse",
+      "v_2_pl_cond": "saupriatz",
+      "v_2_pl_imp": "sabètz",
+      "v_2_pl_ind_fut": "saupretz",
+      "v_2_pl_sbjv_prs": "sapiatz",
+      "v_2_pl_sbjv_pst_ipfv": "saupèssetz",
+      "v_2_sg_cond": "saupriás",
+      "v_2_sg_imp": "sap",
+      "v_2_sg_ind_fut": "saupràs",
+      "v_2_sg_sbjv_prs": "sàpias",
+      "v_2_sg_sbjv_pst_ipfv": "saupèsses",
+      "v_3_pl_cond": "sauprián",
+      "v_3_pl_ind_fut": "saupràn",
+      "v_3_pl_sbjv_prs": "sàpian",
+      "v_3_pl_sbjv_pst_ipfv": "saupèsson",
+      "v_3_sg_cond": "saupriá",
+      "v_3_sg_ind_fut": "sauprà",
+      "v_3_sg_sbjv_prs": "sàpia",
+      "v_3_sg_sbjv_pst_ipfv": "saupèsse",
+      "v_ind_prs_1_pl": "sabèm",
+      "v_ind_prs_1_sg_lgspec1": "sabi",
+      "v_ind_prs_1_sg_lgspec2": "sai",
+      "v_ind_prs_2_pl": "sabètz",
+      "v_ind_prs_2_sg_lgspec1": "sabes",
+      "v_ind_prs_2_sg_lgspec2": "sas",
+      "v_ind_prs_3_pl": "sabon",
+      "v_ind_prs_3_sg": "sap",
+      "v_ind_pst_1_pl_ipfv": "sabiam",
+      "v_ind_pst_1_pl_pfv": "saupèrem",
+      "v_ind_pst_1_sg_ipfv": "sabiái",
+      "v_ind_pst_1_sg_pfv": "saupèri",
+      "v_ind_pst_2_pl_ipfv": "sabiatz",
+      "v_ind_pst_2_pl_pfv": "saupèretz",
+      "v_ind_pst_2_sg_ipfv": "sabiás",
+      "v_ind_pst_2_sg_pfv": "saupères",
+      "v_ind_pst_3_pl_ipfv": "sabián",
+      "v_ind_pst_3_pl_pfv": "saupèron",
+      "v_ind_pst_3_sg_ipfv": "sabiá",
+      "v_ind_pst_3_sg_pfv": "saupèt",
+      "v_nfin": "saber",
+      "v_ptcp_prs": "sabent",
+      "v_ptcp_pst": "sauput"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "salar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "salar",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "sala",
+      "v_ind_prs_3_sg": "sala"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "veire": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veire",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "veiriam",
+      "v_1_pl_imp": "vejam",
+      "v_1_pl_ind_fut": "veirem",
+      "v_1_pl_sbjv_prs": "vejam",
+      "v_1_pl_sbjv_pst_ipfv": "vegèssem",
+      "v_1_sg_cond": "veiriái",
+      "v_1_sg_ind_fut": "veirai",
+      "v_1_sg_sbjv_prs": "veja",
+      "v_1_sg_sbjv_pst_ipfv": "vegèsse",
+      "v_2_pl_cond": "veiriatz",
+      "v_2_pl_imp": "vejatz",
+      "v_2_pl_ind_fut": "veiretz",
+      "v_2_pl_sbjv_prs": "vejatz",
+      "v_2_pl_sbjv_pst_ipfv": "vegèssetz",
+      "v_2_sg_cond": "veiriás",
+      "v_2_sg_imp": "veja",
+      "v_2_sg_ind_fut": "veiràs",
+      "v_2_sg_sbjv_prs": "vejas",
+      "v_2_sg_sbjv_pst_ipfv": "vegèsses",
+      "v_3_pl_cond": "veirián",
+      "v_3_pl_ind_fut": "veiràn",
+      "v_3_pl_sbjv_prs": "vejan",
+      "v_3_pl_sbjv_pst_ipfv": "vegèsson",
+      "v_3_sg_cond": "veiriá",
+      "v_3_sg_ind_fut": "veirà",
+      "v_3_sg_sbjv_prs": "veja",
+      "v_3_sg_sbjv_pst_ipfv": "vegèsse",
+      "v_ind_prs_1_pl": "vesèm",
+      "v_ind_prs_1_sg": "vesi",
+      "v_ind_prs_2_pl": "vesètz",
+      "v_ind_prs_2_sg": "veses",
+      "v_ind_prs_3_pl": "veson",
+      "v_ind_prs_3_sg": "vei",
+      "v_ind_pst_1_pl_ipfv": "vesiam",
+      "v_ind_pst_1_pl_pfv": "vegèrem",
+      "v_ind_pst_1_sg_ipfv": "vesiái",
+      "v_ind_pst_1_sg_pfv": "vegèri",
+      "v_ind_pst_2_pl_ipfv": "vesiatz",
+      "v_ind_pst_2_pl_pfv": "vegèretz",
+      "v_ind_pst_2_sg_ipfv": "vesiás",
+      "v_ind_pst_2_sg_pfv": "vegères",
+      "v_ind_pst_3_pl_ipfv": "vesián",
+      "v_ind_pst_3_pl_pfv": "vegèron",
+      "v_ind_pst_3_sg_ipfv": "vesiá",
+      "v_ind_pst_3_sg_pfv": "vegèt",
+      "v_nfin": "veire",
+      "v_ptcp_prs": "vesent",
+      "v_ptcp_pst": "vist"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "venir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venir",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "vendriam",
+      "v_1_pl_imp": "vengam",
+      "v_1_pl_ind_fut": "vendrem",
+      "v_1_pl_sbjv_prs": "vengam",
+      "v_1_pl_sbjv_pst_ipfv": "venguèssem",
+      "v_1_sg_cond": "vendriái",
+      "v_1_sg_ind_fut": "vendrai",
+      "v_1_sg_sbjv_prs": "venga",
+      "v_1_sg_sbjv_pst_ipfv": "venguèsse",
+      "v_2_pl_cond": "vendriatz",
+      "v_2_pl_imp": "venètz",
+      "v_2_pl_ind_fut": "vendretz",
+      "v_2_pl_sbjv_prs": "vengatz",
+      "v_2_pl_sbjv_pst_ipfv": "venguèssetz",
+      "v_2_sg_cond": "vendriás",
+      "v_2_sg_imp": "vèni",
+      "v_2_sg_ind_fut": "vendràs",
+      "v_2_sg_sbjv_prs": "vengas",
+      "v_2_sg_sbjv_pst_ipfv": "venguèsses",
+      "v_3_pl_cond": "vendrián",
+      "v_3_pl_ind_fut": "vendràn",
+      "v_3_pl_sbjv_prs": "vengan",
+      "v_3_pl_sbjv_pst_ipfv": "venguèsson",
+      "v_3_sg_cond": "vendriá",
+      "v_3_sg_ind_fut": "vendrà",
+      "v_3_sg_sbjv_prs": "venga",
+      "v_3_sg_sbjv_pst_ipfv": "venguèsse",
+      "v_ind_prs_1_pl": "venèm",
+      "v_ind_prs_1_sg": "veni",
+      "v_ind_prs_2_pl": "venètz",
+      "v_ind_prs_2_sg": "venes",
+      "v_ind_prs_3_pl": "venon",
+      "v_ind_prs_3_sg": "ven",
+      "v_ind_pst_1_pl_ipfv": "veniam",
+      "v_ind_pst_1_pl_pfv": "venguèrem",
+      "v_ind_pst_1_sg_ipfv": "veniái",
+      "v_ind_pst_1_sg_pfv": "venguèri",
+      "v_ind_pst_2_pl_ipfv": "veniatz",
+      "v_ind_pst_2_pl_pfv": "venguèretz",
+      "v_ind_pst_2_sg_ipfv": "veniás",
+      "v_ind_pst_2_sg_pfv": "venguères",
+      "v_ind_pst_3_pl_ipfv": "venián",
+      "v_ind_pst_3_pl_pfv": "venguèron",
+      "v_ind_pst_3_sg_ipfv": "veniá",
+      "v_ind_pst_3_sg_pfv": "venguèt",
+      "v_nfin": "venir",
+      "v_ptcp_prs": "venent",
+      "v_ptcp_pst": "vengut"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "viure": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viure",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "viuriam",
+      "v_1_pl_imp": "viscam",
+      "v_1_pl_ind_fut": "viurem",
+      "v_1_pl_sbjv_prs": "viscam",
+      "v_1_pl_sbjv_pst_ipfv": "visquèssem",
+      "v_1_sg_cond": "viuriái",
+      "v_1_sg_ind_fut": "viurai",
+      "v_1_sg_sbjv_prs": "visca",
+      "v_1_sg_sbjv_pst_ipfv": "visquèsse",
+      "v_2_pl_cond": "viuriatz",
+      "v_2_pl_imp": "vivètz",
+      "v_2_pl_ind_fut": "viuretz",
+      "v_2_pl_sbjv_prs": "viscatz",
+      "v_2_pl_sbjv_pst_ipfv": "visquèssetz",
+      "v_2_sg_cond": "viuriás",
+      "v_2_sg_imp": "viu",
+      "v_2_sg_ind_fut": "viuràs",
+      "v_2_sg_sbjv_prs": "viscas",
+      "v_2_sg_sbjv_pst_ipfv": "visquèsses",
+      "v_3_pl_cond": "viurián",
+      "v_3_pl_ind_fut": "viuràn",
+      "v_3_pl_sbjv_prs": "viscan",
+      "v_3_pl_sbjv_pst_ipfv": "visquèssen",
+      "v_3_sg_cond": "viuriá",
+      "v_3_sg_ind_fut": "viurà",
+      "v_3_sg_sbjv_prs": "visca",
+      "v_3_sg_sbjv_pst_ipfv": "visquèsse",
+      "v_ind_prs_1_pl": "vivèm",
+      "v_ind_prs_1_sg": "vivi",
+      "v_ind_prs_2_pl": "vivètz",
+      "v_ind_prs_2_sg": "vives",
+      "v_ind_prs_3_pl": "vivon",
+      "v_ind_prs_3_sg": "viu",
+      "v_ind_pst_1_pl_ipfv": "viviam",
+      "v_ind_pst_1_pl_pfv": "visquèrem",
+      "v_ind_pst_1_sg_ipfv": "viviái",
+      "v_ind_pst_1_sg_pfv": "visquèri",
+      "v_ind_pst_2_pl_ipfv": "viviatz",
+      "v_ind_pst_2_pl_pfv": "visquèretz",
+      "v_ind_pst_2_sg_ipfv": "viviás",
+      "v_ind_pst_2_sg_pfv": "visquères",
+      "v_ind_pst_3_pl_ipfv": "vivián",
+      "v_ind_pst_3_pl_pfv": "visquèron",
+      "v_ind_pst_3_sg_ipfv": "viviá",
+      "v_ind_pst_3_sg_pfv": "visquèt",
+      "v_nfin": "viure",
+      "v_ptcp_prs": "vivent",
+      "v_ptcp_pst": "viscut"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "voler": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "voler",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "vòl"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "véser": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "véser",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "vist"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "èsser": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "èsser",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_cond": "seriam",
+      "v_1_pl_imp": "siam",
+      "v_1_pl_ind_fut": "serem",
+      "v_1_pl_sbjv_prs": "siam",
+      "v_1_pl_sbjv_pst_ipfv": "foguèssem",
+      "v_1_sg_cond": "seriái",
+      "v_1_sg_ind_fut": "serai",
+      "v_1_sg_sbjv_prs": "siá",
+      "v_1_sg_sbjv_pst_ipfv": "foguèsse",
+      "v_2_pl_cond": "seriatz",
+      "v_2_pl_imp": "siatz",
+      "v_2_pl_ind_fut": "seretz",
+      "v_2_pl_sbjv_prs": "siatz",
+      "v_2_pl_sbjv_pst_ipfv": "foguèssetz",
+      "v_2_sg_cond": "seriás",
+      "v_2_sg_imp": "siá",
+      "v_2_sg_ind_fut": "seràs",
+      "v_2_sg_sbjv_prs": "siás",
+      "v_2_sg_sbjv_pst_ipfv": "foguèsses",
+      "v_3_pl_cond": "serián",
+      "v_3_pl_ind_fut": "seràn",
+      "v_3_pl_sbjv_prs": "sián",
+      "v_3_pl_sbjv_pst_ipfv": "foguèssen",
+      "v_3_sg_cond": "seriá",
+      "v_3_sg_ind_fut": "serà",
+      "v_3_sg_sbjv_prs": "siá",
+      "v_3_sg_sbjv_pst_ipfv": "foguèsse",
+      "v_ind_prs_1_pl": "sèm",
+      "v_ind_prs_1_sg": "soi",
+      "v_ind_prs_2_pl": "sètz",
+      "v_ind_prs_2_sg": "èssiás",
+      "v_ind_prs_3_pl": "son",
+      "v_ind_prs_3_sg": "es",
+      "v_ind_pst_1_pl_ipfv": "èrem",
+      "v_ind_pst_1_pl_pfv": "foguèrem",
+      "v_ind_pst_1_sg_ipfv": "èri",
+      "v_ind_pst_1_sg_pfv": "foguèri",
+      "v_ind_pst_2_pl_ipfv": "èretz",
+      "v_ind_pst_2_pl_pfv": "foguèretz",
+      "v_ind_pst_2_sg_ipfv": "èras",
+      "v_ind_pst_2_sg_pfv": "foguères",
+      "v_ind_pst_3_pl_ipfv": "èran",
+      "v_ind_pst_3_pl_pfv": "foguèron",
+      "v_ind_pst_3_sg_ipfv": "èra",
+      "v_ind_pst_3_sg_pfv": "foguèt",
+      "v_nfin": "èsser",
+      "v_ptcp_prs": "essent",
+      "v_ptcp_pst": "estat"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  }
+}

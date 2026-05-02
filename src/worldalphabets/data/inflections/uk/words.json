@@ -16,6 +16,138 @@
       "conjunction"
     ]
   },
+  "батько": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "батько",
+    "inflections": {
+      "n_acc_pl": "батьків",
+      "n_acc_sg": "батька",
+      "n_dat_pl": "батькам",
+      "n_dat_sg": "батькові",
+      "n_ess_pl": "батьках",
+      "n_ess_sg": "батькові",
+      "n_gen_pl": "батьків",
+      "n_gen_sg": "батька",
+      "n_ins_pl": "батьками",
+      "n_ins_sg": "батьком",
+      "n_nom_pl": "батьки",
+      "n_nom_sg": "батько",
+      "n_voc_pl": "батьки",
+      "n_voc_sg": "батьку",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "бачити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бачити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "бачачи",
+      "v_cvb_pst": "бачивши",
+      "v_fut_1_pl": "будемо бачити",
+      "v_fut_1_sg": "буду бачити",
+      "v_fut_2_pl": "будете бачити",
+      "v_fut_2_sg": "будеш бачити",
+      "v_fut_3_pl": "будуть бачити",
+      "v_fut_3_sg": "буде бачити",
+      "v_imp_1_pl": "бачмо",
+      "v_imp_2_pl": "бачте",
+      "v_imp_2_sg": "бач",
+      "v_nfin": "бачити",
+      "v_prs_1_pl": "бачимо",
+      "v_prs_1_sg": "бачу",
+      "v_prs_2_pl": "бачите",
+      "v_prs_2_sg": "бачеш",
+      "v_prs_3_pl": "бачать",
+      "v_prs_3_sg": "бачить",
+      "v_pst_fem_sg": "бачила",
+      "v_pst_masc_sg": "бачив",
+      "v_pst_neut_sg": "бачило",
+      "v_pst_pl": "бачили",
+      "v_ptcp_pass_pst": "бачений"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "бог": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бог",
+    "inflections": {
+      "n_acc_pl": "богів",
+      "n_acc_sg": "бога",
+      "n_dat_pl": "богам",
+      "n_dat_sg": "богові",
+      "n_ess_pl": "богах",
+      "n_ess_sg": "богові",
+      "n_gen_pl": "богів",
+      "n_gen_sg": "бога",
+      "n_ins_pl": "богами",
+      "n_ins_sg": "богом",
+      "n_nom_pl": "боги",
+      "n_nom_sg": "бог",
+      "n_voc_pl": "боги",
+      "n_voc_sg": "боже",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "брат": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "брат",
+    "inflections": {
+      "n_acc_pl": "братів",
+      "n_acc_sg": "брата",
+      "n_dat_pl": "братам",
+      "n_dat_sg": "братові",
+      "n_ess_pl": "братах",
+      "n_ess_sg": "братові",
+      "n_gen_pl": "братів",
+      "n_gen_sg": "брата",
+      "n_ins_pl": "братами",
+      "n_ins_sg": "братом",
+      "n_nom_pl": "брати",
+      "n_nom_sg": "брат",
+      "n_voc_pl": "брати",
+      "n_voc_sg": "брате",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "бувати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бувати",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "бувай"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
   "буде": {
     "antonyms": [],
     "base": "буде",
@@ -28,6 +160,70 @@
     "priority": 10,
     "types": [
       "verb"
+    ]
+  },
+  "будинок": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "будинок",
+    "inflections": {
+      "n_acc_pl": "будинки",
+      "n_acc_sg": "будинок",
+      "n_dat_pl": "будинкам",
+      "n_dat_sg": "будинку",
+      "n_ess_pl": "будинках",
+      "n_ess_sg": "будинку",
+      "n_gen_pl": "будинків",
+      "n_gen_sg": "будинку",
+      "n_ins_pl": "будинками",
+      "n_ins_sg": "будинком",
+      "n_nom_pl": "будинки",
+      "n_nom_sg": "будинок",
+      "n_voc_pl": "будинки",
+      "n_voc_sg": "будинку",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "бути": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "бути",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "будучи",
+      "v_cvb_pst": "бувши",
+      "v_fut_1_pl": "будемо",
+      "v_fut_1_sg": "буду",
+      "v_fut_2_pl": "будете",
+      "v_fut_2_sg": "будеш",
+      "v_fut_3_pl": "будуть",
+      "v_fut_3_sg": "буде",
+      "v_imp_1_pl": "будьмо",
+      "v_imp_2_pl": "будьте",
+      "v_imp_2_sg": "будь",
+      "v_nfin": "бути",
+      "v_prs_1_pl": "єсьмо",
+      "v_prs_1_sg": "єсьми",
+      "v_prs_2_pl": "єсьте",
+      "v_prs_2_sg": "єси",
+      "v_prs_3_pl": "суть",
+      "v_prs_3_sg": "є",
+      "v_pst_fem_sg": "була",
+      "v_pst_masc_sg": "був",
+      "v_pst_neut_sg": "було",
+      "v_pst_pl": "були",
+      "v_ptcp_pass_pst": "бувший"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
     ]
   },
   "в": {
@@ -44,6 +240,45 @@
       "preposition"
     ]
   },
+  "великий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "великий",
+    "inflections": {
+      "adj_anim_acc_pl": "великих",
+      "adj_dat_pl": "великим",
+      "adj_ess_pl": "великих",
+      "adj_fem_acc_sg": "велику",
+      "adj_fem_dat_sg": "великій",
+      "adj_fem_ess_sg": "великій",
+      "adj_fem_gen_sg": "великої",
+      "adj_fem_ins_sg": "великою",
+      "adj_fem_nom_sg": "велика",
+      "adj_gen_pl": "великих",
+      "adj_inan_acc_pl": "великі",
+      "adj_ins_pl": "великими",
+      "adj_masc_anim_acc_sg": "великого",
+      "adj_masc_dat_sg": "великому",
+      "adj_masc_ess_sg": "великому",
+      "adj_masc_gen_sg": "великого",
+      "adj_masc_inan_acc_sg": "великий",
+      "adj_masc_ins_sg": "великим",
+      "adj_masc_nom_sg": "великий",
+      "adj_neut_acc_sg": "велике",
+      "adj_neut_dat_sg": "великому",
+      "adj_neut_ess_sg": "великому",
+      "adj_neut_gen_sg": "великого",
+      "adj_neut_ins_sg": "великим",
+      "adj_neut_nom_sg": "велике",
+      "adj_nom_pl": "великі",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
   "вже": {
     "antonyms": [],
     "base": "вже",
@@ -58,6 +293,37 @@
       "adverb"
     ]
   },
+  "взяти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "взяти",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "взявши",
+      "v_fut_1_pl": "візьмемо",
+      "v_fut_1_sg": "візьму",
+      "v_fut_2_pl": "візьмете",
+      "v_fut_2_sg": "візьмеш",
+      "v_fut_3_pl": "візьмуть",
+      "v_fut_3_sg": "візьме",
+      "v_imp_1_pl": "візьмімо",
+      "v_imp_2_pl": "візьміть",
+      "v_imp_2_sg": "візьми",
+      "v_nfin": "взяти",
+      "v_pst_fem_sg": "взяла",
+      "v_pst_masc_sg": "взяв",
+      "v_pst_neut_sg": "взяло",
+      "v_pst_pl": "взяли",
+      "v_ptcp_act_pst": "взявший",
+      "v_ptcp_pass_pst": "взятий"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "ви": {
     "antonyms": [],
     "base": "ви",
@@ -70,6 +336,23 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "вино": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "вино",
+    "inflections": {
+      "n_acc_pl": "вина",
+      "n_gen_sg": "вина",
+      "n_nom_pl": "вина",
+      "n_voc_pl": "вина",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
     ]
   },
   "все": {
@@ -100,6 +383,90 @@
       "pronoun"
     ]
   },
+  "говорити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "говорити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "говорячи",
+      "v_cvb_pst": "говоривши",
+      "v_fut_1_pl": "будемо говорити",
+      "v_fut_1_sg": "буду говорити",
+      "v_fut_2_pl": "будете говорити",
+      "v_fut_2_sg": "будеш говорити",
+      "v_fut_3_pl": "будуть говорити",
+      "v_fut_3_sg": "буде говорити",
+      "v_imp_1_pl": "говорімо",
+      "v_imp_2_pl": "говоріть",
+      "v_imp_2_sg": "говори",
+      "v_nfin": "говорити",
+      "v_prs_1_pl": "говоримо",
+      "v_prs_1_sg": "говорю",
+      "v_prs_2_pl": "говорите",
+      "v_prs_2_sg": "говориш",
+      "v_prs_3_pl": "говорять",
+      "v_prs_3_sg": "говорить",
+      "v_pst_fem_sg": "говорила",
+      "v_pst_masc_sg": "говорив",
+      "v_pst_neut_sg": "говорило",
+      "v_pst_pl": "говорили",
+      "v_ptcp_pass_pst": "говорений"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "дата": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дата",
+    "inflections": {
+      "n_acc_pl": "дати",
+      "n_gen_sg": "дати",
+      "n_nom_pl": "дати",
+      "n_voc_pl": "дати",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "дати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дати",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "давши",
+      "v_fut_1_pl": "дамо",
+      "v_fut_1_sg": "дам",
+      "v_fut_2_pl": "дасте",
+      "v_fut_2_sg": "даси",
+      "v_fut_3_pl": "дадуть",
+      "v_fut_3_sg": "дасть",
+      "v_imp_1_pl": "даймо",
+      "v_imp_2_pl": "дайте",
+      "v_imp_2_sg": "дай",
+      "v_nfin": "дати",
+      "v_pst_fem_sg": "дала",
+      "v_pst_masc_sg": "дав",
+      "v_pst_neut_sg": "дало",
+      "v_pst_pl": "дали",
+      "v_ptcp_pass_pst": "даний"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "два": {
     "antonyms": [],
     "base": "два",
@@ -115,15 +482,59 @@
     ]
   },
   "день": {
+    "_sources": [
+      "unimorph"
+    ],
     "antonyms": [],
     "base": "день",
     "examples": [
       "Сьогодні гарний день."
     ],
     "inflections": {
+      "n_acc_pl": "дні",
+      "n_acc_sg": "день",
+      "n_dat_pl": "дням",
+      "n_dat_sg": "дню",
+      "n_ess_pl": "днях",
+      "n_ess_sg": "дні",
+      "n_gen_pl": "днів",
+      "n_gen_sg": "дня",
+      "n_ins_pl": "днями",
+      "n_ins_sg": "днем",
+      "n_nom_pl": "дні",
+      "n_nom_sg": "день",
+      "n_voc_pl": "дні",
+      "n_voc_sg": "дню",
       "regulars": []
     },
-    "priority": 6,
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "дитина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дитина",
+    "inflections": {
+      "n_acc_pl": "дітей",
+      "n_acc_sg": "дитину",
+      "n_dat_pl": "дітям",
+      "n_dat_sg": "дитині",
+      "n_ess_pl": "дітях",
+      "n_ess_sg": "дитині",
+      "n_gen_pl": "дітей",
+      "n_gen_sg": "дитини",
+      "n_ins_pl": "дітьми",
+      "n_ins_sg": "дитиною",
+      "n_nom_pl": "діти",
+      "n_nom_sg": "дитина",
+      "n_voc_pl": "діти",
+      "n_voc_sg": "дитино",
+      "regulars": []
+    },
+    "priority": 2,
     "types": [
       "noun"
     ]
@@ -140,6 +551,233 @@
     "priority": 10,
     "types": [
       "preposition"
+    ]
+  },
+  "добрий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "добрий",
+    "inflections": {
+      "adj_anim_acc_pl": "добрих",
+      "adj_dat_pl": "добрим",
+      "adj_ess_pl": "добрих",
+      "adj_fem_acc_sg": "добру",
+      "adj_fem_dat_sg": "добрій",
+      "adj_fem_ess_sg": "добрій",
+      "adj_fem_gen_sg": "доброї",
+      "adj_fem_ins_sg": "доброю",
+      "adj_fem_nom_sg": "добра",
+      "adj_gen_pl": "добрих",
+      "adj_inan_acc_pl": "добрі",
+      "adj_ins_pl": "добрими",
+      "adj_masc_anim_acc_sg": "доброго",
+      "adj_masc_dat_sg": "доброму",
+      "adj_masc_ess_sg": "доброму",
+      "adj_masc_gen_sg": "доброго",
+      "adj_masc_inan_acc_sg": "добрий",
+      "adj_masc_ins_sg": "добрим",
+      "adj_masc_nom_sg": "добрий",
+      "adj_neut_acc_sg": "добре",
+      "adj_neut_dat_sg": "доброму",
+      "adj_neut_ess_sg": "доброму",
+      "adj_neut_gen_sg": "доброго",
+      "adj_neut_ins_sg": "добрим",
+      "adj_neut_nom_sg": "добре",
+      "adj_nom_pl": "добрі",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "друг": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "друг",
+    "inflections": {
+      "n_acc_pl": "друзів",
+      "n_acc_sg": "друга",
+      "n_dat_pl": "друзям",
+      "n_dat_sg": "другові",
+      "n_ess_pl": "друзях",
+      "n_ess_sg": "другові",
+      "n_gen_pl": "друзів",
+      "n_gen_sg": "друга",
+      "n_ins_pl": "друзями",
+      "n_ins_sg": "другом",
+      "n_nom_pl": "друзі",
+      "n_nom_sg": "друг",
+      "n_voc_pl": "друзі",
+      "n_voc_sg": "друже",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "дружина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "дружина",
+    "inflections": {
+      "n_acc_pl": "дружин",
+      "n_acc_sg": "дружину",
+      "n_dat_pl": "дружинам",
+      "n_dat_sg": "дружині",
+      "n_ess_pl": "дружинах",
+      "n_ess_sg": "дружині",
+      "n_gen_pl": "дружин",
+      "n_gen_sg": "дружини",
+      "n_ins_pl": "дружинами",
+      "n_ins_sg": "дружиною",
+      "n_nom_pl": "дружини",
+      "n_nom_sg": "дружина",
+      "n_voc_pl": "дружини",
+      "n_voc_sg": "дружино",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "думати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "думати",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "думаю",
+      "v_prs_2_sg": "думаєш",
+      "v_pst_fem_sg": "думала",
+      "v_pst_masc_sg": "думав"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "жаль": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жаль",
+    "inflections": {
+      "n_acc_pl": "жалі",
+      "n_acc_sg": "жаль",
+      "n_dat_pl": "жалям",
+      "n_dat_sg": "жалю",
+      "n_ess_pl": "жалях",
+      "n_ess_sg": "жалі",
+      "n_gen_pl": "жалів",
+      "n_gen_sg": "жалю",
+      "n_ins_pl": "жалями",
+      "n_ins_sg": "жалем",
+      "n_nom_pl": "жалі",
+      "n_nom_sg": "жаль",
+      "n_voc_pl": "жалі",
+      "n_voc_sg": "жалю",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "жити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "живучи",
+      "v_cvb_pst": "живши",
+      "v_fut_1_pl": "будемо жити",
+      "v_fut_1_sg": "буду жити",
+      "v_fut_2_pl": "будете жити",
+      "v_fut_2_sg": "будеш жити",
+      "v_fut_3_pl": "будуть жити",
+      "v_fut_3_sg": "буде жити",
+      "v_imp_1_pl": "живімо",
+      "v_imp_2_pl": "живіть",
+      "v_imp_2_sg": "живи",
+      "v_nfin": "жити",
+      "v_prs_1_pl": "живемо",
+      "v_prs_1_sg": "живу",
+      "v_prs_2_pl": "живете",
+      "v_prs_2_sg": "живеш",
+      "v_prs_3_pl": "живуть",
+      "v_prs_3_sg": "живе",
+      "v_pst_fem_sg": "жила",
+      "v_pst_masc_sg": "жив",
+      "v_pst_neut_sg": "жило",
+      "v_pst_pl": "жили"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "життя": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "життя",
+    "inflections": {
+      "n_acc_pl": "життя",
+      "n_acc_sg": "життя",
+      "n_dat_pl": "життям",
+      "n_dat_sg": "життю",
+      "n_ess_pl": "життях",
+      "n_ess_sg": "житті",
+      "n_gen_pl": "життів",
+      "n_gen_sg": "життя",
+      "n_ins_pl": "життями",
+      "n_ins_sg": "життям",
+      "n_nom_pl": "життя",
+      "n_nom_sg": "життя",
+      "n_voc_pl": "життя",
+      "n_voc_sg": "життя",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "жінка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "жінка",
+    "inflections": {
+      "n_acc_pl": "жінок",
+      "n_acc_sg": "жінку",
+      "n_dat_pl": "жінкам",
+      "n_dat_sg": "жінці",
+      "n_ess_pl": "жінках",
+      "n_ess_sg": "жінці",
+      "n_gen_pl": "жінок",
+      "n_gen_sg": "жінки",
+      "n_ins_pl": "жінками",
+      "n_ins_sg": "жінкою",
+      "n_nom_pl": "жінки",
+      "n_nom_sg": "жінка",
+      "n_voc_pl": "жінки",
+      "n_voc_sg": "жінко",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
     ]
   },
   "з": {
@@ -170,6 +808,123 @@
       "preposition"
     ]
   },
+  "земля": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "земля",
+    "inflections": {
+      "n_acc_pl": "землі",
+      "n_acc_sg": "землю",
+      "n_dat_sg": "землі",
+      "n_ess_sg": "землі",
+      "n_gen_sg": "землі",
+      "n_nom_pl": "землі",
+      "n_voc_pl": "землі",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "зробити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "зробити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "зробивши",
+      "v_fut_1_pl": "зробимо",
+      "v_fut_1_sg": "зроблю",
+      "v_fut_2_pl": "зробите",
+      "v_fut_2_sg": "зробиш",
+      "v_fut_3_pl": "зроблять",
+      "v_fut_3_sg": "зробить",
+      "v_imp_1_pl": "зробімо",
+      "v_imp_2_pl": "зробіть",
+      "v_imp_2_sg": "зроби",
+      "v_nfin": "зробити",
+      "v_pst_fem_sg": "зробила",
+      "v_pst_masc_sg": "зробив",
+      "v_pst_neut_sg": "зробило",
+      "v_pst_pl": "зробили",
+      "v_ptcp_act_pst": "зробивший",
+      "v_ptcp_pass_pst": "зроблений"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "йога": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "йога",
+    "inflections": {
+      "n_voc_sg": "його",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "йти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "йти",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "йдучи",
+      "v_fut_1_pl": "будемо йти",
+      "v_fut_1_sg": "буду йти",
+      "v_fut_2_pl": "будете йти",
+      "v_fut_2_sg": "будеш іти",
+      "v_fut_3_pl": "будуть іти",
+      "v_fut_3_sg": "буде йти",
+      "v_imp_1_pl": "йдімо",
+      "v_imp_2_pl": "йдіть",
+      "v_imp_2_sg": "йди",
+      "v_nfin": "йти",
+      "v_prs_1_pl": "йдемо",
+      "v_prs_1_sg": "йду",
+      "v_prs_2_pl": "йдете",
+      "v_prs_2_sg": "йдеш",
+      "v_prs_3_pl": "йдуть",
+      "v_prs_3_sg": "йде",
+      "v_pst_fem_sg": "йшла",
+      "v_pst_masc_sg": "йшов",
+      "v_pst_neut_sg": "йшло",
+      "v_pst_pl": "йшли"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "казати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "казати",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "кажу",
+      "v_prs_3_pl": "кажуть",
+      "v_prs_3_sg": "каже",
+      "v_pst_masc_sg": "казав"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
   "коли": {
     "antonyms": [],
     "base": "коли",
@@ -184,16 +939,197 @@
       "adverb"
     ]
   },
+  "король": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "король",
+    "inflections": {
+      "n_acc_pl": "королів",
+      "n_acc_sg": "короля",
+      "n_dat_pl": "королям",
+      "n_dat_sg": "королеві",
+      "n_ess_pl": "королях",
+      "n_ess_sg": "королеві",
+      "n_gen_pl": "королів",
+      "n_gen_sg": "короля",
+      "n_ins_pl": "королями",
+      "n_ins_sg": "королем",
+      "n_nom_pl": "королі",
+      "n_nom_sg": "король",
+      "n_voc_pl": "королі",
+      "n_voc_sg": "королю",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "курва": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "курва",
+    "inflections": {
+      "n_acc_pl": "курви",
+      "n_acc_sg": "курву",
+      "n_dat_pl": "курвам",
+      "n_dat_sg": "курві",
+      "n_ess_pl": "курвах",
+      "n_ess_sg": "курві",
+      "n_gen_pl": "курв",
+      "n_gen_sg": "курви",
+      "n_ins_pl": "курвами",
+      "n_ins_sg": "курвою",
+      "n_nom_pl": "курви",
+      "n_nom_sg": "курва",
+      "n_voc_pl": "курви",
+      "n_voc_sg": "курво",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "кінець": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "кінець",
+    "inflections": {
+      "n_acc_pl": "кінці",
+      "n_acc_sg": "кінець",
+      "n_dat_pl": "кінцям",
+      "n_dat_sg": "кінцю",
+      "n_ess_pl": "кінцях",
+      "n_ess_sg": "кінці",
+      "n_gen_pl": "кінців",
+      "n_gen_sg": "кінця",
+      "n_ins_pl": "кінцями",
+      "n_ins_sg": "кінцем",
+      "n_nom_pl": "кінці",
+      "n_nom_sg": "кінець",
+      "n_voc_pl": "кінці",
+      "n_voc_sg": "кінцю",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "любити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "любити",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "люблю",
+      "v_prs_3_sg": "любить"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
   "людина": {
+    "_sources": [
+      "unimorph"
+    ],
     "antonyms": [],
     "base": "людина",
     "examples": [
       "Ця людина добра."
     ],
     "inflections": {
+      "n_acc_pl": "людей",
+      "n_acc_sg": "людину",
+      "n_dat_pl": "людям",
+      "n_dat_sg": "людині",
+      "n_ess_pl": "людях",
+      "n_ess_sg": "людині",
+      "n_gen_pl": "людей",
+      "n_gen_sg": "людини",
+      "n_ins_pl": "людьми",
+      "n_ins_sg": "людиною",
+      "n_nom_pl": "люди",
+      "n_nom_sg": "людина",
+      "n_voc_pl": "люди",
+      "n_voc_sg": "людино",
       "regulars": []
     },
-    "priority": 2,
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "мавпа": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мавпа",
+    "inflections": {
+      "n_voc_sg": "мав",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "мама": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мама",
+    "inflections": {
+      "n_acc_pl": "мам",
+      "n_acc_sg": "маму",
+      "n_dat_pl": "мамам",
+      "n_dat_sg": "мамі",
+      "n_ess_pl": "мамах",
+      "n_ess_sg": "мамі",
+      "n_gen_pl": "мам",
+      "n_gen_sg": "мами",
+      "n_ins_pl": "мамами",
+      "n_ins_sg": "мамою",
+      "n_nom_pl": "мами",
+      "n_nom_sg": "мама",
+      "n_voc_pl": "мами",
+      "n_voc_sg": "мамо",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "машина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "машина",
+    "inflections": {
+      "n_acc_pl": "машини",
+      "n_acc_sg": "машину",
+      "n_dat_pl": "машинам",
+      "n_dat_sg": "машині",
+      "n_ess_pl": "машинах",
+      "n_ess_sg": "машині",
+      "n_gen_pl": "машин",
+      "n_gen_sg": "машини",
+      "n_ins_pl": "машинами",
+      "n_ins_sg": "машиною",
+      "n_nom_pl": "машини",
+      "n_nom_sg": "машина",
+      "n_voc_pl": "машини",
+      "n_voc_sg": "машино",
+      "regulars": []
+    },
+    "priority": 3,
     "types": [
       "noun"
     ]
@@ -240,6 +1176,28 @@
       "pronoun"
     ]
   },
+  "могти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "могти",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_pl": "можемо",
+      "v_prs_1_sg": "можу",
+      "v_prs_2_pl": "можете",
+      "v_prs_2_sg": "можеш",
+      "v_prs_3_pl": "можуть",
+      "v_prs_3_sg": "може",
+      "v_pst_fem_sg": "могла",
+      "v_pst_masc_sg": "міг",
+      "v_pst_pl": "могли"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
   "може": {
     "antonyms": [],
     "base": "може",
@@ -266,6 +1224,101 @@
     "priority": 10,
     "types": [
       "verb"
+    ]
+  },
+  "момент": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "момент",
+    "inflections": {
+      "n_acc_pl": "моменти",
+      "n_acc_sg": "момент",
+      "n_dat_pl": "моментам",
+      "n_dat_sg": "моменту",
+      "n_ess_pl": "моментах",
+      "n_ess_sg": "моменті",
+      "n_gen_pl": "моментів",
+      "n_gen_sg": "моменту",
+      "n_ins_pl": "моментами",
+      "n_ins_sg": "моментом",
+      "n_nom_pl": "моменти",
+      "n_nom_sg": "момент",
+      "n_voc_pl": "моменти",
+      "n_voc_sg": "моменте",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "мусити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "мусити",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "мушу"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "місто": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "місто",
+    "inflections": {
+      "n_acc_pl": "міста",
+      "n_acc_sg": "місто",
+      "n_dat_pl": "містам",
+      "n_dat_sg": "місту",
+      "n_ess_pl": "містах",
+      "n_ess_sg": "місті",
+      "n_gen_pl": "міст",
+      "n_gen_sg": "міста",
+      "n_ins_pl": "містами",
+      "n_ins_sg": "містом",
+      "n_nom_pl": "міста",
+      "n_nom_sg": "місто",
+      "n_voc_pl": "міста",
+      "n_voc_sg": "місто",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "місце": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "місце",
+    "inflections": {
+      "n_acc_pl": "місця",
+      "n_acc_sg": "місце",
+      "n_dat_pl": "місцям",
+      "n_dat_sg": "місцю",
+      "n_ess_pl": "місцях",
+      "n_ess_sg": "місці",
+      "n_gen_pl": "місць",
+      "n_gen_sg": "місця",
+      "n_ins_pl": "місцями",
+      "n_ins_sg": "місцем",
+      "n_nom_pl": "місця",
+      "n_nom_sg": "місце",
+      "n_voc_pl": "місця",
+      "n_voc_sg": "місце",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
     ]
   },
   "на": {
@@ -296,6 +1349,62 @@
       "adverb"
     ]
   },
+  "новий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "новий",
+    "inflections": {
+      "adj_anim_acc_pl": "нових",
+      "adj_dat_pl": "новим",
+      "adj_ess_pl": "нових",
+      "adj_fem_acc_sg": "нову",
+      "adj_fem_dat_sg": "новій",
+      "adj_fem_ess_sg": "новій",
+      "adj_fem_gen_sg": "нової",
+      "adj_fem_ins_sg": "новою",
+      "adj_fem_nom_sg": "нова",
+      "adj_gen_pl": "нових",
+      "adj_inan_acc_pl": "нові",
+      "adj_ins_pl": "новими",
+      "adj_masc_anim_acc_sg": "нового",
+      "adj_masc_dat_sg": "новому",
+      "adj_masc_ess_sg": "новому",
+      "adj_masc_gen_sg": "нового",
+      "adj_masc_inan_acc_sg": "новий",
+      "adj_masc_ins_sg": "новим",
+      "adj_masc_nom_sg": "новий",
+      "adj_neut_acc_sg": "нове",
+      "adj_neut_dat_sg": "новому",
+      "adj_neut_ess_sg": "новому",
+      "adj_neut_gen_sg": "нового",
+      "adj_neut_ins_sg": "новим",
+      "adj_neut_nom_sg": "нове",
+      "adj_nom_pl": "нові",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "нога": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "нога",
+    "inflections": {
+      "n_acc_pl": "ноги",
+      "n_gen_sg": "ноги",
+      "n_nom_pl": "ноги",
+      "n_voc_pl": "ноги",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
   "ні": {
     "antonyms": [],
     "base": "ні",
@@ -310,6 +1419,60 @@
       "adverb"
     ]
   },
+  "ніж": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ніж",
+    "inflections": {
+      "n_acc_pl": "ножі",
+      "n_acc_sg": "ніж",
+      "n_dat_pl": "ножам",
+      "n_dat_sg": "ножу",
+      "n_ess_pl": "ножах",
+      "n_ess_sg": "ножі",
+      "n_gen_pl": "ножів",
+      "n_gen_sg": "ножа",
+      "n_ins_pl": "ножами",
+      "n_ins_sg": "ножем",
+      "n_nom_pl": "ножі",
+      "n_nom_sg": "ніж",
+      "n_voc_pl": "ножі",
+      "n_voc_sg": "ноже",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ніч": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ніч",
+    "inflections": {
+      "n_acc_pl": "ночі",
+      "n_acc_sg": "ніч",
+      "n_dat_pl": "ночам",
+      "n_dat_sg": "ночі",
+      "n_ess_pl": "ночах",
+      "n_ess_sg": "ночі",
+      "n_gen_pl": "ночей",
+      "n_gen_sg": "ночі",
+      "n_ins_pl": "ночами",
+      "n_ins_sg": "ніччю",
+      "n_nom_pl": "ночі",
+      "n_nom_sg": "ніч",
+      "n_voc_pl": "ночі",
+      "n_voc_sg": "ноче",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
   "он": {
     "antonyms": [],
     "base": "он",
@@ -322,6 +1485,704 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "отець": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "отець",
+    "inflections": {
+      "n_voc_sg": "отче",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "пан": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "пан",
+    "inflections": {
+      "n_acc_pl": "панів",
+      "n_acc_sg": "пана",
+      "n_dat_pl": "панам",
+      "n_dat_sg": "панові",
+      "n_ess_pl": "панах",
+      "n_ess_sg": "панові",
+      "n_gen_pl": "панів",
+      "n_gen_sg": "пана",
+      "n_ins_pl": "панами",
+      "n_ins_sg": "паном",
+      "n_nom_pl": "пани",
+      "n_nom_sg": "пан",
+      "n_voc_pl": "пани",
+      "n_voc_sg": "пане",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "питання": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "питання",
+    "inflections": {
+      "n_acc_pl": "питання",
+      "n_acc_sg": "питання",
+      "n_dat_pl": "питанням",
+      "n_dat_sg": "питанню",
+      "n_ess_pl": "питаннях",
+      "n_ess_sg": "питанні",
+      "n_gen_pl": "питань",
+      "n_gen_sg": "питання",
+      "n_ins_pl": "питаннями",
+      "n_ins_sg": "питанням",
+      "n_nom_pl": "питання",
+      "n_nom_sg": "питання",
+      "n_voc_pl": "питання",
+      "n_voc_sg": "питання",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "план": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "план",
+    "inflections": {
+      "n_acc_pl": "плани",
+      "n_acc_sg": "план",
+      "n_dat_pl": "планам",
+      "n_dat_sg": "плану",
+      "n_ess_pl": "планах",
+      "n_ess_sg": "плані",
+      "n_gen_pl": "планів",
+      "n_gen_sg": "плану",
+      "n_ins_pl": "планами",
+      "n_ins_sg": "планом",
+      "n_nom_pl": "плани",
+      "n_nom_sg": "план",
+      "n_voc_pl": "плани",
+      "n_voc_sg": "плане",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "побачити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "побачити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "побачивши",
+      "v_fut_1_pl": "побачимо",
+      "v_fut_1_sg": "побачу",
+      "v_fut_2_pl": "побачите",
+      "v_fut_2_sg": "побачиш",
+      "v_fut_3_pl": "побачать",
+      "v_fut_3_sg": "побачить",
+      "v_imp_1_pl": "побачмо",
+      "v_imp_2_pl": "побачте",
+      "v_imp_2_sg": "побач",
+      "v_nfin": "побачити",
+      "v_pst_fem_sg": "побачила",
+      "v_pst_masc_sg": "побачив",
+      "v_pst_neut_sg": "побачило",
+      "v_pst_pl": "побачили",
+      "v_ptcp_act_pst": "побачивший",
+      "v_ptcp_pass_pst": "побачений"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "порядок": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "порядок",
+    "inflections": {
+      "n_dat_sg": "порядку",
+      "n_ess_sg": "порядку",
+      "n_gen_sg": "порядку",
+      "n_voc_sg": "порядку",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "правда": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "правда",
+    "inflections": {
+      "n_acc_pl": "правди",
+      "n_acc_sg": "правду",
+      "n_dat_pl": "правдам",
+      "n_dat_sg": "правді",
+      "n_ess_pl": "правдах",
+      "n_ess_sg": "правді",
+      "n_gen_pl": "правд",
+      "n_gen_sg": "правди",
+      "n_ins_pl": "правдами",
+      "n_ins_sg": "правдою",
+      "n_nom_pl": "правди",
+      "n_nom_sg": "правда",
+      "n_voc_pl": "правди",
+      "n_voc_sg": "правдо",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "привіт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "привіт",
+    "inflections": {
+      "n_acc_pl": "привіти",
+      "n_acc_sg": "привіт",
+      "n_dat_pl": "привітам",
+      "n_dat_sg": "привіту",
+      "n_ess_pl": "привітах",
+      "n_ess_sg": "привіті",
+      "n_gen_pl": "привітів",
+      "n_gen_sg": "привіту",
+      "n_ins_pl": "привітами",
+      "n_ins_sg": "привітом",
+      "n_nom_pl": "привіти",
+      "n_nom_sg": "привіт",
+      "n_voc_pl": "привіти",
+      "n_voc_sg": "привіте",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "прийти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "прийти",
+    "inflections": {
+      "regulars": [],
+      "v_pst_masc_sg": "прийшов",
+      "v_pst_pl": "прийшли"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "проблема": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "проблема",
+    "inflections": {
+      "n_acc_pl": "проблеми",
+      "n_acc_sg": "проблему",
+      "n_dat_pl": "проблемам",
+      "n_dat_sg": "проблемі",
+      "n_ess_pl": "проблемах",
+      "n_ess_sg": "проблемі",
+      "n_gen_pl": "проблем",
+      "n_gen_sg": "проблеми",
+      "n_ins_pl": "проблемами",
+      "n_ins_sg": "проблемою",
+      "n_nom_pl": "проблеми",
+      "n_nom_sg": "проблема",
+      "n_voc_pl": "проблеми",
+      "n_voc_sg": "проблемо",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "просити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "просити",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "прошу"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "піти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "піти",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "пішовши",
+      "v_fut_1_pl": "підемо",
+      "v_fut_1_sg": "піду",
+      "v_fut_2_pl": "підете",
+      "v_fut_2_sg": "підеш",
+      "v_fut_3_pl": "підуть",
+      "v_fut_3_sg": "піде",
+      "v_imp_1_pl": "підімо",
+      "v_imp_2_pl": "підіть",
+      "v_imp_2_sg": "піди",
+      "v_nfin": "піти",
+      "v_pst_fem_sg": "пішла",
+      "v_pst_masc_sg": "пішов",
+      "v_pst_neut_sg": "пішло",
+      "v_pst_pl": "пішли"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "рада": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рада",
+    "inflections": {
+      "n_acc_pl": "ради",
+      "n_acc_sg": "раду",
+      "n_dat_pl": "радам",
+      "n_dat_sg": "раді",
+      "n_ess_pl": "радах",
+      "n_ess_sg": "раді",
+      "n_gen_pl": "рад",
+      "n_gen_sg": "ради",
+      "n_ins_pl": "радами",
+      "n_ins_sg": "радою",
+      "n_nom_pl": "ради",
+      "n_nom_sg": "рада",
+      "n_voc_pl": "ради",
+      "n_voc_sg": "радо",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "раз": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "раз",
+    "inflections": {
+      "n_acc_pl": "рази",
+      "n_acc_sg": "раз",
+      "n_dat_pl": "разам",
+      "n_dat_sg": "разу",
+      "n_ess_pl": "разах",
+      "n_ess_sg": "разі",
+      "n_gen_pl": "разів",
+      "n_gen_sg": "разу",
+      "n_ins_pl": "разами",
+      "n_ins_sg": "разом",
+      "n_nom_pl": "рази",
+      "n_nom_sg": "раз",
+      "n_voc_pl": "рази",
+      "n_voc_sg": "разе",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "робити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "робити",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "роблячи",
+      "v_cvb_pst": "робивши",
+      "v_fut_1_pl": "будемо робити",
+      "v_fut_1_sg": "буду робити",
+      "v_fut_2_pl": "будете робити",
+      "v_fut_2_sg": "будеш робити",
+      "v_fut_3_pl": "будуть робити",
+      "v_fut_3_sg": "буде робити",
+      "v_imp_1_pl": "робімо",
+      "v_imp_2_pl": "робіть",
+      "v_imp_2_sg": "роби",
+      "v_nfin": "робити",
+      "v_prs_1_pl": "робимо",
+      "v_prs_1_sg": "роблю",
+      "v_prs_2_pl": "робите",
+      "v_prs_2_sg": "робиш",
+      "v_prs_3_pl": "роблять",
+      "v_prs_3_sg": "робить",
+      "v_pst_fem_sg": "робила",
+      "v_pst_masc_sg": "робив",
+      "v_pst_neut_sg": "робило",
+      "v_pst_pl": "робили",
+      "v_ptcp_act_prs": "роблячий",
+      "v_ptcp_act_pst": "робивший",
+      "v_ptcp_pass_pst": "роблений"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "робот": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "робот",
+    "inflections": {
+      "n_acc_sg": "робота",
+      "n_gen_sg": "робота",
+      "n_nom_pl": "роботи",
+      "n_voc_pl": "роботи",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "робота": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "робота",
+    "inflections": {
+      "n_acc_pl": "роботи",
+      "n_acc_sg": "роботу",
+      "n_dat_pl": "роботам",
+      "n_dat_sg": "роботі",
+      "n_ess_pl": "роботах",
+      "n_ess_sg": "роботі",
+      "n_gen_pl": "робіт",
+      "n_gen_sg": "роботи",
+      "n_ins_pl": "роботами",
+      "n_ins_sg": "роботою",
+      "n_nom_pl": "роботи",
+      "n_nom_sg": "робота",
+      "n_voc_pl": "роботи",
+      "n_voc_sg": "робото",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "розуміти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "розуміти",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "розумію",
+      "v_prs_2_pl": "розумієте",
+      "v_prs_2_sg": "розумієш"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "рука": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рука",
+    "inflections": {
+      "n_acc_pl": "руки",
+      "n_acc_sg": "руку",
+      "n_gen_sg": "руки",
+      "n_nom_pl": "руки",
+      "n_voc_pl": "руки",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "рік": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "рік",
+    "inflections": {
+      "n_acc_pl": "роки",
+      "n_acc_sg": "рік",
+      "n_dat_pl": "рокам",
+      "n_dat_sg": "рокові",
+      "n_ess_pl": "роках",
+      "n_ess_sg": "році",
+      "n_gen_pl": "років",
+      "n_gen_sg": "року",
+      "n_ins_pl": "роками",
+      "n_ins_sg": "роком",
+      "n_nom_pl": "роки",
+      "n_nom_sg": "рік",
+      "n_voc_pl": "роки",
+      "n_voc_sg": "року",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ріка": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ріка",
+    "inflections": {
+      "n_gen_pl": "рік",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "серце": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "серце",
+    "inflections": {
+      "n_acc_pl": "серця",
+      "n_acc_sg": "серце",
+      "n_dat_pl": "серцям",
+      "n_dat_sg": "серцю",
+      "n_ess_pl": "серцях",
+      "n_ess_sg": "серці",
+      "n_gen_pl": "сердець",
+      "n_gen_sg": "серця",
+      "n_ins_pl": "серцями",
+      "n_ins_sg": "серцем",
+      "n_nom_pl": "серця",
+      "n_nom_sg": "серце",
+      "n_voc_pl": "серця",
+      "n_voc_sg": "серце",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "сестра": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сестра",
+    "inflections": {
+      "n_acc_pl": "сестер",
+      "n_acc_sg": "сестру",
+      "n_dat_pl": "сестрам",
+      "n_dat_sg": "сестрі",
+      "n_ess_pl": "сестрах",
+      "n_ess_sg": "сестрі",
+      "n_gen_pl": "сестер",
+      "n_gen_sg": "сестри",
+      "n_ins_pl": "сестрами",
+      "n_ins_sg": "сестрою",
+      "n_nom_pl": "сестри",
+      "n_nom_sg": "сестра",
+      "n_voc_pl": "сестри",
+      "n_voc_sg": "сестро",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "син": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "син",
+    "inflections": {
+      "n_acc_pl": "синів",
+      "n_acc_sg": "сина",
+      "n_dat_pl": "синам",
+      "n_dat_sg": "синові",
+      "n_ess_pl": "синах",
+      "n_ess_sg": "синові",
+      "n_gen_pl": "синів",
+      "n_gen_sg": "сина",
+      "n_ins_pl": "синами",
+      "n_ins_sg": "сином",
+      "n_nom_pl": "сини",
+      "n_nom_sg": "син",
+      "n_voc_pl": "сини",
+      "n_voc_sg": "сину",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "сказати": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "сказати",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_pst": "сказавши",
+      "v_fut_1_pl": "скажемо",
+      "v_fut_1_sg": "скажу",
+      "v_fut_2_pl": "скажете",
+      "v_fut_2_sg": "скажеш",
+      "v_fut_3_pl": "скажуть",
+      "v_fut_3_sg": "скаже",
+      "v_imp_1_pl": "скажімо",
+      "v_imp_2_pl": "скажіть",
+      "v_imp_2_sg": "скажи",
+      "v_nfin": "сказати",
+      "v_pst_fem_sg": "сказала",
+      "v_pst_masc_sg": "сказав",
+      "v_pst_neut_sg": "сказало",
+      "v_pst_pl": "сказали",
+      "v_ptcp_pass_pst": "сказаний"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "слово": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "слово",
+    "inflections": {
+      "n_acc_pl": "слова",
+      "n_acc_sg": "слово",
+      "n_dat_pl": "словам",
+      "n_dat_sg": "слову",
+      "n_ess_pl": "словах",
+      "n_ess_sg": "слові",
+      "n_gen_pl": "слів",
+      "n_gen_sg": "слова",
+      "n_ins_pl": "словами",
+      "n_ins_sg": "словом",
+      "n_nom_pl": "слова",
+      "n_nom_sg": "слово",
+      "n_voc_pl": "слова",
+      "n_voc_sg": "слово",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "смерть": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "смерть",
+    "inflections": {
+      "n_acc_pl": "смерті",
+      "n_acc_sg": "смерть",
+      "n_dat_pl": "смертям",
+      "n_dat_sg": "смерті",
+      "n_ess_pl": "смертях",
+      "n_ess_sg": "смерті",
+      "n_gen_pl": "смертей",
+      "n_gen_sg": "смерті",
+      "n_ins_pl": "смертями",
+      "n_ins_sg": "смертю",
+      "n_nom_pl": "смерті",
+      "n_nom_sg": "смерть",
+      "n_voc_pl": "смерті",
+      "n_voc_sg": "смерте",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "старий": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "старий",
+    "inflections": {
+      "adj_anim_acc_pl": "старих",
+      "adj_dat_pl": "старим",
+      "adj_ess_pl": "старих",
+      "adj_fem_acc_sg": "стару",
+      "adj_fem_dat_sg": "старій",
+      "adj_fem_ess_sg": "старій",
+      "adj_fem_gen_sg": "старої",
+      "adj_fem_ins_sg": "старою",
+      "adj_fem_nom_sg": "стара",
+      "adj_gen_pl": "старих",
+      "adj_inan_acc_pl": "старі",
+      "adj_ins_pl": "старими",
+      "adj_masc_anim_acc_sg": "старого",
+      "adj_masc_dat_sg": "старому",
+      "adj_masc_ess_sg": "старому",
+      "adj_masc_gen_sg": "старого",
+      "adj_masc_inan_acc_sg": "старий",
+      "adj_masc_ins_sg": "старим",
+      "adj_masc_nom_sg": "старий",
+      "adj_neut_acc_sg": "старе",
+      "adj_neut_dat_sg": "старому",
+      "adj_neut_ess_sg": "старому",
+      "adj_neut_gen_sg": "старого",
+      "adj_neut_ins_sg": "старим",
+      "adj_neut_nom_sg": "старе",
+      "adj_nom_pl": "старі",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
     ]
   },
   "так": {
@@ -352,6 +2213,33 @@
       "adverb"
     ]
   },
+  "тато": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тато",
+    "inflections": {
+      "n_acc_pl": "тат",
+      "n_acc_sg": "тата",
+      "n_dat_pl": "татам",
+      "n_dat_sg": "татові",
+      "n_ess_pl": "татах",
+      "n_ess_sg": "татові",
+      "n_gen_pl": "тат",
+      "n_gen_sg": "тата",
+      "n_ins_pl": "татами",
+      "n_ins_sg": "татом",
+      "n_nom_pl": "тати",
+      "n_nom_sg": "тато",
+      "n_voc_pl": "тати",
+      "n_voc_sg": "тато",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
   "тебе": {
     "antonyms": [],
     "base": "тебе",
@@ -364,6 +2252,20 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "тема": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "тема",
+    "inflections": {
+      "n_gen_pl": "тем",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
     ]
   },
   "ти": {
@@ -380,6 +2282,60 @@
       "pronoun"
     ]
   },
+  "том": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "том",
+    "inflections": {
+      "n_acc_pl": "томи",
+      "n_acc_sg": "том",
+      "n_dat_pl": "томам",
+      "n_dat_sg": "тому",
+      "n_ess_pl": "томах",
+      "n_ess_sg": "томі",
+      "n_gen_pl": "томів",
+      "n_gen_sg": "тому",
+      "n_ins_pl": "томами",
+      "n_ins_sg": "томом",
+      "n_nom_pl": "томи",
+      "n_nom_sg": "том",
+      "n_voc_pl": "томи",
+      "n_voc_sg": "томе",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "треба": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "треба",
+    "inflections": {
+      "n_acc_pl": "треби",
+      "n_acc_sg": "требу",
+      "n_dat_pl": "требам",
+      "n_dat_sg": "требі",
+      "n_ess_pl": "требах",
+      "n_ess_sg": "требі",
+      "n_gen_pl": "треб",
+      "n_gen_sg": "треби",
+      "n_ins_pl": "требами",
+      "n_ins_sg": "требою",
+      "n_nom_pl": "треби",
+      "n_nom_sg": "треба",
+      "n_voc_pl": "треби",
+      "n_voc_sg": "требо",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
   "у": {
     "antonyms": [],
     "base": "у",
@@ -392,6 +2348,95 @@
     "priority": 10,
     "types": [
       "preposition"
+    ]
+  },
+  "узяти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "узяти",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "візьми"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "хвилина": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хвилина",
+    "inflections": {
+      "n_gen_pl": "хвилин",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "хлопець": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хлопець",
+    "inflections": {
+      "n_acc_pl": "хлопців",
+      "n_acc_sg": "хлопця",
+      "n_dat_pl": "хлопцям",
+      "n_dat_sg": "хлопцеві",
+      "n_ess_pl": "хлопцях",
+      "n_ess_sg": "хлопцеві",
+      "n_gen_pl": "хлопців",
+      "n_gen_sg": "хлопця",
+      "n_ins_pl": "хлопцями",
+      "n_ins_sg": "хлопцем",
+      "n_nom_pl": "хлопці",
+      "n_nom_sg": "хлопець",
+      "n_voc_pl": "хлопці",
+      "n_voc_sg": "хлопче",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ходити": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ходити",
+    "inflections": {
+      "regulars": [],
+      "v_imp_1_pl": "ходімо"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "хотіти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "хотіти",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "хочу",
+      "v_prs_2_pl": "хочете",
+      "v_prs_2_sg": "хочеш",
+      "v_prs_3_pl": "хочуть",
+      "v_prs_3_sg": "хоче",
+      "v_pst_fem_sg": "хотіла",
+      "v_pst_masc_sg": "хотів"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
     ]
   },
   "хочу": {
@@ -420,6 +2465,114 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "час": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "час",
+    "inflections": {
+      "n_acc_pl": "часи",
+      "n_acc_sg": "час",
+      "n_dat_pl": "часам",
+      "n_dat_sg": "часу",
+      "n_ess_pl": "часах",
+      "n_ess_sg": "часі",
+      "n_gen_pl": "часів",
+      "n_gen_sg": "часу",
+      "n_ins_pl": "часами",
+      "n_ins_sg": "часом",
+      "n_nom_pl": "часи",
+      "n_nom_sg": "час",
+      "n_voc_pl": "часи",
+      "n_voc_sg": "часе",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "чоловік": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чоловік",
+    "inflections": {
+      "n_acc_pl": "чоловіків",
+      "n_acc_sg": "чоловіка",
+      "n_dat_pl": "чоловікам",
+      "n_dat_sg": "чоловікові",
+      "n_ess_pl": "чоловіках",
+      "n_ess_sg": "чоловікові",
+      "n_gen_pl": "чоловіків",
+      "n_gen_sg": "чоловіка",
+      "n_ins_pl": "чоловіками",
+      "n_ins_sg": "чоловіком",
+      "n_nom_pl": "чоловіки",
+      "n_nom_sg": "чоловік",
+      "n_voc_pl": "чоловіки",
+      "n_voc_sg": "чоловіче",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "чорт": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "чорт",
+    "inflections": {
+      "n_acc_pl": "чортів",
+      "n_acc_sg": "чорта",
+      "n_dat_pl": "чортам",
+      "n_dat_sg": "чортові",
+      "n_ess_pl": "чортах",
+      "n_ess_sg": "чортові",
+      "n_gen_pl": "чортів",
+      "n_gen_sg": "чорта",
+      "n_ins_pl": "чортами",
+      "n_ins_sg": "чортом",
+      "n_nom_pl": "чорти",
+      "n_nom_sg": "чорт",
+      "n_voc_pl": "чорти",
+      "n_voc_sg": "чорте",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "шанс": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "шанс",
+    "inflections": {
+      "n_acc_pl": "шанси",
+      "n_acc_sg": "шанс",
+      "n_dat_pl": "шансам",
+      "n_dat_sg": "шансу",
+      "n_ess_pl": "шансах",
+      "n_ess_sg": "шансі",
+      "n_gen_pl": "шансів",
+      "n_gen_sg": "шансу",
+      "n_ins_pl": "шансами",
+      "n_ins_sg": "шансом",
+      "n_nom_pl": "шанси",
+      "n_nom_sg": "шанс",
+      "n_voc_pl": "шанси",
+      "n_voc_sg": "шансе",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
     ]
   },
   "що": {
@@ -476,6 +2629,100 @@
     "priority": 10,
     "types": [
       "conjunction"
+    ]
+  },
+  "ідея": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ідея",
+    "inflections": {
+      "n_acc_pl": "ідеї",
+      "n_acc_sg": "ідею",
+      "n_dat_pl": "ідеям",
+      "n_dat_sg": "ідеї",
+      "n_ess_pl": "ідеях",
+      "n_ess_sg": "ідеї",
+      "n_gen_pl": "ідей",
+      "n_gen_sg": "ідеї",
+      "n_ins_pl": "ідеями",
+      "n_ins_sg": "ідеєю",
+      "n_nom_pl": "ідеї",
+      "n_nom_sg": "ідея",
+      "n_voc_pl": "ідеї",
+      "n_voc_sg": "ідеє",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "інший": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "інший",
+    "inflections": {
+      "adj_anim_acc_pl": "інших",
+      "adj_dat_pl": "іншим",
+      "adj_ess_pl": "інших",
+      "adj_fem_acc_sg": "іншу",
+      "adj_fem_dat_sg": "іншій",
+      "adj_fem_ess_sg": "іншій",
+      "adj_fem_gen_sg": "іншої",
+      "adj_fem_ins_sg": "іншою",
+      "adj_fem_nom_sg": "інша",
+      "adj_gen_pl": "інших",
+      "adj_inan_acc_pl": "інші",
+      "adj_ins_pl": "іншими",
+      "adj_masc_anim_acc_sg": "іншого",
+      "adj_masc_dat_sg": "іншому",
+      "adj_masc_ess_sg": "іншому",
+      "adj_masc_gen_sg": "іншого",
+      "adj_masc_inan_acc_sg": "інший",
+      "adj_masc_ins_sg": "іншим",
+      "adj_masc_nom_sg": "інший",
+      "adj_neut_acc_sg": "інше",
+      "adj_neut_dat_sg": "іншому",
+      "adj_neut_ess_sg": "іншому",
+      "adj_neut_gen_sg": "іншого",
+      "adj_neut_ins_sg": "іншим",
+      "adj_neut_nom_sg": "інше",
+      "adj_nom_pl": "інші",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "іти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "іти",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "іди"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "їсти": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "їсти",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "їм"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
     ]
   }
 }

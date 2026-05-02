@@ -1,0 +1,158 @@
+{
+  "_locale": "ast",
+  "_type": "words",
+  "_version": "0.1",
+  "amasuñar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "amasuñar",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_sbjv_prs_lgspec1": "en",
+      "v_ind_prs_3_pl": "en"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "comer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "comer",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "como"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "escoyer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "escoyer",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_2_sg_pfv_lgspec3": "esti"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "esgatuñar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "esgatuñar",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_sbjv_prs_lgspec1": "en",
+      "v_ind_prs_3_pl": "en"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "otru": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "otru",
+    "inflections": {
+      "adj_pl_fem": "otres",
+      "adj_pl_masc": "otros",
+      "adj_sg_fem": "otra",
+      "adj_sg_masc": "otru",
+      "adj_sg_neut": "otro",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "parar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parar",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "para",
+      "v_ind_prs_3_sg": "para"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "parir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parir",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_ind_fut": "para",
+      "v_2_sg_ind_fut": "para"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ser": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ser",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "ye"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "xeitu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "xeitu",
+    "inflections": {
+      "adj_pl_fem": "xeites",
+      "adj_pl_masc": "xeitos",
+      "adj_sg_fem": "xeita",
+      "adj_sg_masc": "xeitu",
+      "adj_sg_neut": "xeito",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "xugar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "xugar",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_sbjv_prs": "xuguemos",
+      "v_ind_pst_1_pl_pfv": "xuguemos"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

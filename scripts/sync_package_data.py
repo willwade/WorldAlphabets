@@ -60,6 +60,27 @@ def sync_frequency_data(source_dir: Path, target_dir: Path) -> int:
     return freq_files
 
 
+def sync_inflection_data(source_dir: Path, target_dir: Path) -> int:
+    """Sync inflection data from source to target directory."""
+    source_inflections = source_dir / "inflections"
+    target_inflections = target_dir / "inflections"
+
+    if not source_inflections.exists():
+        print(f"Warning: Source inflections directory {source_inflections} does not exist")
+        return 0
+
+    if target_inflections.exists():
+        shutil.rmtree(target_inflections)
+
+    shutil.copytree(source_inflections, target_inflections)
+    inflection_files = len(list(target_inflections.rglob("*.json")))
+    print(
+        f"Copied inflection data directory with {inflection_files} files "
+        f"from {source_inflections} to {target_inflections}"
+    )
+    return inflection_files
+
+
 def sync_index_file(source_dir: Path, target_dir: Path) -> bool:
     """Sync index.json file."""
     source_index = source_dir / "index.json"
@@ -165,6 +186,9 @@ def main() -> None:
 
     # Sync frequency data
     total_files += sync_frequency_data(source_dir, target_dir)
+
+    # Sync inflection data
+    total_files += sync_inflection_data(source_dir, target_dir)
 
     # Sync index file
     if sync_index_file(source_dir, target_dir):

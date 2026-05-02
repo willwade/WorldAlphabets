@@ -1,0 +1,134 @@
+{
+  "_locale": "lld",
+  "_type": "words",
+  "_version": "0.1",
+  "avei": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "avei",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs_lgspec1": "ae",
+      "v_3_pl_sbjv_prs_lgspec1": "ae",
+      "v_3_sg_sbjv_prs_lgspec1": "ae",
+      "v_ind_prs_1_sg": "é"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ester": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ester",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_sbjv_prs": "son",
+      "v_ind_prs_1_pl": "son",
+      "v_ind_prs_1_sg": "son",
+      "v_ind_prs_3_pl": "é",
+      "v_ind_prs_3_sg": "é"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "fé": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fé",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "fej",
+      "v_ind_prs_3_sg": "fej"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "morir": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "morir",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_sbjv_prs": "mueres",
+      "v_ind_prs_2_sg": "mueres"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "rejoner": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rejoner",
+    "inflections": {
+      "regulars": [],
+      "v_nfin_lgspec2": "rejoné",
+      "v_ptcp_pst": "rejoné"
+    },
+    "priority": 8,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "savei": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "savei",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_nfin": "sà",
+      "v_ind_prs_3_pl": "sà",
+      "v_ind_prs_3_sg": "sà"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "scriver": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scriver",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs": "scrive",
+      "v_3_pl_sbjv_prs": "scrive",
+      "v_3_sg_sbjv_prs": "scrive",
+      "v_ind_prs_1_sg": "scrive",
+      "v_nfin_lgspec2": "scrive"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "volei": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "volei",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "vuel"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

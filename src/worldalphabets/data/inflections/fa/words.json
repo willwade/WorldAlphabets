@@ -1,0 +1,490 @@
+{
+  "_locale": "fa",
+  "_type": "words",
+  "_version": "0.1",
+  "باختن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "باختن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv": "بازم",
+      "v_1_sg_pfv_col": "بازم",
+      "v_2_sg_pfv": "بازی",
+      "v_2_sg_pfv_col": "بازی"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "بخشیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "بخشیدن",
+    "inflections": {
+      "regulars": [],
+      "v_2_pl_imp": "ببخشید",
+      "v_2_pl_sbjv_prs": "ببخشید"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "بریدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "بریدن",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_pfv": "بریم",
+      "v_1_pl_pfv_col": "بریم",
+      "v_1_sg_pfv": "برم",
+      "v_1_sg_pfv_col": "برم",
+      "v_2_sg_imp": "ببر",
+      "v_2_sg_imp_col": "ببر",
+      "v_2_sg_pfv": "بری",
+      "v_2_sg_pfv_col": "بری",
+      "v_3_sg_pfv_col": "بره",
+      "v_v_ptcp_prs": "برنده",
+      "v_v_ptcp_prs_col": "برنده"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "بستن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "بستن",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_prs_prf_col": "بسته",
+      "v_v_ptcp_pst": "بسته",
+      "v_v_ptcp_pst_col": "بسته"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "خواستن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "خواستن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv_col": "خوام",
+      "v_1_sg_prs_ipfv_col": "میخوام",
+      "v_1_sg_pst": "خواستم",
+      "v_1_sg_pst_col": "خواستم",
+      "v_2_sg_prs_ipfv_col": "میخوای",
+      "v_3_sg_pfv": "خواهد",
+      "v_3_sg_pfv_col": "خواد",
+      "v_3_sg_pst": "خواست",
+      "v_3_sg_pst_col": "خواست"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "خواندن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "خواندن",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pfv_col": "خونه"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "خوردن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "خوردن",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_prs_prf_col": "خورده",
+      "v_v_ptcp_pst": "خورده",
+      "v_v_ptcp_pst_col": "خورده"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "دمیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "دمیدن",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "بدم",
+      "v_2_sg_imp_col": "بدم"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "دیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "دیدن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_sbjv_prs": "ببینم",
+      "v_1_sg_sbjv_prs_col": "ببینم",
+      "v_2_sg_imp": "ببین",
+      "v_2_sg_imp_col": "ببین"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "زدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "زدن",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut": "خواهیم زد",
+      "v_1_pl_pfv": "زنیم",
+      "v_1_pl_pfv_col": "زنیم",
+      "v_1_pl_prs_ipfv": "میزنیم",
+      "v_1_pl_prs_ipfv_col": "میزنیم",
+      "v_1_pl_prs_prf": "زدهایم",
+      "v_1_pl_prs_prf_col": "زدهایم",
+      "v_1_pl_prs_prog": "داریم میزنیم",
+      "v_1_pl_prs_prog_col": "داریم میزنیم",
+      "v_1_pl_pst": "زدیم",
+      "v_1_pl_pst_col": "زدیم",
+      "v_1_pl_pst_ipfv": "میزدیم",
+      "v_1_pl_pst_ipfv_col": "میزدیم",
+      "v_1_pl_pst_prf": "زده بودیم",
+      "v_1_pl_pst_prf_col": "زده بودیم",
+      "v_1_pl_pst_prog": "داشتیم میزدیم",
+      "v_1_pl_pst_prog_col": "داشتیم میزدیم",
+      "v_1_pl_sbjv_prs": "بزنیم",
+      "v_1_pl_sbjv_prs_col": "بزنیم",
+      "v_1_pl_sbjv_pst": "زده باشیم",
+      "v_1_pl_sbjv_pst_col": "زده باشیم",
+      "v_1_sg_fut": "خواهم زد",
+      "v_1_sg_pfv": "زنم",
+      "v_1_sg_pfv_col": "زنم",
+      "v_1_sg_prs_ipfv": "میزنم",
+      "v_1_sg_prs_ipfv_col": "میزنم",
+      "v_1_sg_prs_prf": "زدهام",
+      "v_1_sg_prs_prf_col": "زدهام",
+      "v_1_sg_prs_prog": "دارم میزنم",
+      "v_1_sg_prs_prog_col": "دارم میزنم",
+      "v_1_sg_pst": "زدم",
+      "v_1_sg_pst_col": "زدم",
+      "v_1_sg_pst_ipfv": "میزدم",
+      "v_1_sg_pst_ipfv_col": "میزدم",
+      "v_1_sg_pst_prf": "زده بودم",
+      "v_1_sg_pst_prf_col": "زده بودم",
+      "v_1_sg_pst_prog": "داشتم میزدم",
+      "v_1_sg_pst_prog_col": "داشتم میزدم",
+      "v_1_sg_sbjv_prs": "بزنم",
+      "v_1_sg_sbjv_prs_col": "بزنم",
+      "v_1_sg_sbjv_pst": "زده باشم",
+      "v_1_sg_sbjv_pst_col": "زده باشم",
+      "v_2_pl_fut": "خواهید زد",
+      "v_2_pl_imp": "بزنید",
+      "v_2_pl_imp_col": "بزنین",
+      "v_2_pl_pfv": "زنید",
+      "v_2_pl_pfv_col": "زنین",
+      "v_2_pl_prs_ipfv": "میزنید",
+      "v_2_pl_prs_ipfv_col": "میزنین",
+      "v_2_pl_prs_prf": "زدهاید",
+      "v_2_pl_prs_prf_col": "زدهاین",
+      "v_2_pl_prs_prog": "دارید میزنید",
+      "v_2_pl_prs_prog_col": "دارین میزنین",
+      "v_2_pl_pst": "زدید",
+      "v_2_pl_pst_col": "زدین",
+      "v_2_pl_pst_ipfv": "میزدید",
+      "v_2_pl_pst_ipfv_col": "میزدین",
+      "v_2_pl_pst_prf": "زده بودید",
+      "v_2_pl_pst_prf_col": "زده بودین",
+      "v_2_pl_pst_prog": "داشتید میزدید",
+      "v_2_pl_pst_prog_col": "داشتین میزدین",
+      "v_2_pl_sbjv_prs": "بزنید",
+      "v_2_pl_sbjv_prs_col": "بزنین",
+      "v_2_pl_sbjv_pst": "زده باشید",
+      "v_2_pl_sbjv_pst_col": "زده باشین",
+      "v_2_sg_fut": "خواهی زد",
+      "v_2_sg_imp": "بزن",
+      "v_2_sg_imp_col": "بزن",
+      "v_2_sg_pfv": "زنی",
+      "v_2_sg_pfv_col": "زنی",
+      "v_2_sg_prs_ipfv": "میزنی",
+      "v_2_sg_prs_ipfv_col": "میزنی",
+      "v_2_sg_prs_prf": "زدهای",
+      "v_2_sg_prs_prf_col": "زدهای",
+      "v_2_sg_prs_prog": "داری میزنی",
+      "v_2_sg_prs_prog_col": "داری میزنی",
+      "v_2_sg_pst": "زدی",
+      "v_2_sg_pst_col": "زدی",
+      "v_2_sg_pst_ipfv": "میزدی",
+      "v_2_sg_pst_ipfv_col": "میزدی",
+      "v_2_sg_pst_prf": "زده بودی",
+      "v_2_sg_pst_prf_col": "زده بودی",
+      "v_2_sg_pst_prog": "داشتی میزدی",
+      "v_2_sg_pst_prog_col": "داشتی میزدی",
+      "v_2_sg_sbjv_prs": "بزنی",
+      "v_2_sg_sbjv_prs_col": "بزنی",
+      "v_2_sg_sbjv_pst": "زده باشی",
+      "v_2_sg_sbjv_pst_col": "زده باشی",
+      "v_3_pl_fut": "خواهند زد",
+      "v_3_pl_pfv": "زنند",
+      "v_3_pl_pfv_col": "زنن",
+      "v_3_pl_prs_ipfv": "میزنند",
+      "v_3_pl_prs_ipfv_col": "میزنن",
+      "v_3_pl_prs_prf": "زدهاند",
+      "v_3_pl_prs_prf_col": "زدهان",
+      "v_3_pl_prs_prog": "دارند میزنند",
+      "v_3_pl_prs_prog_col": "دارن میزنن",
+      "v_3_pl_pst": "زدند",
+      "v_3_pl_pst_col": "زدن",
+      "v_3_pl_pst_ipfv": "میزدند",
+      "v_3_pl_pst_ipfv_col": "میزدن",
+      "v_3_pl_pst_prf": "زده بودند",
+      "v_3_pl_pst_prf_col": "زده بودن",
+      "v_3_pl_pst_prog": "داشتند میزدند",
+      "v_3_pl_pst_prog_col": "داشتن میزدن",
+      "v_3_pl_sbjv_prs": "بزنند",
+      "v_3_pl_sbjv_prs_col": "بزنن",
+      "v_3_pl_sbjv_pst": "زده باشند",
+      "v_3_pl_sbjv_pst_col": "زده باشن",
+      "v_3_sg_fut": "خواهد زد",
+      "v_3_sg_pfv": "زند",
+      "v_3_sg_pfv_col": "زنه",
+      "v_3_sg_prs_ipfv": "میزند",
+      "v_3_sg_prs_ipfv_col": "میزنه",
+      "v_3_sg_prs_prf": "زده است",
+      "v_3_sg_prs_prf_col": "زده",
+      "v_3_sg_prs_prog": "دارد میزند",
+      "v_3_sg_prs_prog_col": "داره میزنه",
+      "v_3_sg_pst": "زد",
+      "v_3_sg_pst_col": "زد",
+      "v_3_sg_pst_ipfv": "میزد",
+      "v_3_sg_pst_ipfv_col": "میزد",
+      "v_3_sg_pst_prf": "زده بود",
+      "v_3_sg_pst_prf_col": "زده بود",
+      "v_3_sg_pst_prog": "داشت میزد",
+      "v_3_sg_pst_prog_col": "داشت میزد",
+      "v_3_sg_sbjv_prs": "بزند",
+      "v_3_sg_sbjv_prs_col": "بزنه",
+      "v_3_sg_sbjv_pst": "زده باشد",
+      "v_3_sg_sbjv_pst_col": "زده باشه",
+      "v_nfin": "زدن",
+      "v_nfin_col": "زدن",
+      "v_v_ptcp_prs": "زننده",
+      "v_v_ptcp_prs_col": "زننده",
+      "v_v_ptcp_pst": "زده",
+      "v_v_ptcp_pst_col": "زده"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "سریدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "سریدن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv": "سرم",
+      "v_1_sg_pfv_col": "سرم"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "صبر کردن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "صبر کردن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv": "م",
+      "v_1_sg_pfv_col": "م",
+      "v_2_pl_imp_col": "بین",
+      "v_2_pl_sbjv_prs_col": "بین",
+      "v_2_sg_sbjv_prs": "بی",
+      "v_2_sg_sbjv_prs_col": "بی",
+      "v_3_sg_pst": "صبر",
+      "v_3_sg_pst_col": "صبر",
+      "v_3_sg_sbjv_prs": "بد",
+      "v_3_sg_sbjv_prs_col": "به"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ماندن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ماندن",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_col": "بمون",
+      "v_3_sg_prs_prf_col": "مونده",
+      "v_v_ptcp_pst_col": "مونده"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "مانستن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "مانستن",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_col": "بمون"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "مردن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "مردن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst": "مردم",
+      "v_1_sg_pst_col": "مردم",
+      "v_3_sg_prs_prf_col": "مرده",
+      "v_3_sg_pst": "مرد",
+      "v_3_sg_pst_col": "مرد",
+      "v_v_ptcp_pst": "مرده",
+      "v_v_ptcp_pst_col": "مرده"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "نامیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "نامیدن",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_pfv_col": "نامه"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "نوشتن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "نوشتن",
+    "inflections": {
+      "regulars": [],
+      "v_3_sg_prs_prf_col": "نوشته",
+      "v_v_ptcp_pst": "نوشته",
+      "v_v_ptcp_pst_col": "نوشته"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "چشیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "چشیدن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv": "چشم",
+      "v_1_sg_pfv_col": "چشم"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "کاشتن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "کاشتن",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pfv": "کارم",
+      "v_1_sg_pfv_col": "کارم",
+      "v_2_sg_pfv": "کاری",
+      "v_2_sg_pfv_col": "کاری"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "کشیدن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "کشیدن",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "بکش",
+      "v_2_sg_imp_col": "بکش",
+      "v_3_sg_sbjv_prs_col": "بکشه"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "گذاشتن": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "گذاشتن",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp_col": "بذار"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  }
+}

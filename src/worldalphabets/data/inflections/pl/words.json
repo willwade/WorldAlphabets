@@ -17,6 +17,20 @@
       "conjunction"
     ]
   },
+  "alba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "alba",
+    "inflections": {
+      "n_voc_sg": "albo",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
   "ale": {
     "antonyms": [],
     "base": "ale",
@@ -30,6 +44,120 @@
     "priority": 10,
     "types": [
       "conjunction"
+    ]
+  },
+  "beza": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beza",
+    "inflections": {
+      "n_gen_pl": "bez",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "boja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "boja",
+    "inflections": {
+      "n_acc_sg": "boję",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "boży": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "boży",
+    "inflections": {
+      "adj_acc_pl": "boże",
+      "adj_neut_acc_sg": "boże",
+      "adj_neut_nom_sg": "boże",
+      "adj_nom_pl": "boże",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "brat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "brat",
+    "inflections": {
+      "n_acc_pl": "braci",
+      "n_acc_sg": "brata",
+      "n_dat_pl": "braciom",
+      "n_dat_sg": "bratu",
+      "n_ess_pl": "braciach",
+      "n_ess_sg": "bracie",
+      "n_gen_pl": "braci",
+      "n_gen_sg": "brata",
+      "n_ins_pl": "braćmi",
+      "n_ins_sg": "bratem",
+      "n_nom_pl": "bracia",
+      "n_nom_sg": "brat",
+      "n_voc_pl": "bracia",
+      "n_voc_sg": "bracie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "bronić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bronić",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "broń",
+      "v_prs_3_sg": "broni"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "broń": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "broń",
+    "inflections": {
+      "n_acc_pl": "bronie",
+      "n_acc_sg": "broń",
+      "n_dat_pl": "broniom",
+      "n_dat_sg": "broni",
+      "n_ess_pl": "broniach",
+      "n_ess_sg": "broni",
+      "n_gen_pl": "broni",
+      "n_gen_sg": "broni",
+      "n_ins_pl": "broniami",
+      "n_ins_sg": "bronią",
+      "n_nom_pl": "bronie",
+      "n_nom_sg": "broń",
+      "n_voc_pl": "bronie",
+      "n_voc_sg": "broni",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
     ]
   },
   "być": {
@@ -47,6 +175,33 @@
       "verb"
     ]
   },
+  "była": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "była",
+    "inflections": {
+      "n_acc_pl": "byłe",
+      "n_acc_sg": "byłą",
+      "n_dat_pl": "byłym",
+      "n_dat_sg": "byłej",
+      "n_ess_pl": "byłych",
+      "n_ess_sg": "byłej",
+      "n_gen_pl": "byłych",
+      "n_gen_sg": "byłej",
+      "n_ins_pl": "byłymi",
+      "n_ins_sg": "byłą",
+      "n_nom_pl": "byłe",
+      "n_nom_sg": "była",
+      "n_voc_pl": "byłe",
+      "n_voc_sg": "była",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
   "będzie": {
     "antonyms": [],
     "base": "będzie",
@@ -62,6 +217,169 @@
       "verb"
     ]
   },
+  "błąd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "błąd",
+    "inflections": {
+      "n_acc_pl": "błędy",
+      "n_acc_sg": "błąd",
+      "n_dat_pl": "błędom",
+      "n_dat_sg": "błędowi",
+      "n_ess_pl": "błędach",
+      "n_ess_sg": "błędzie",
+      "n_gen_pl": "błędów",
+      "n_gen_sg": "błędu",
+      "n_ins_pl": "błędami",
+      "n_ins_sg": "błędem",
+      "n_nom_pl": "błędy",
+      "n_nom_sg": "błąd",
+      "n_voc_pl": "błędy",
+      "n_voc_sg": "błędzie",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "cały": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cały",
+    "inflections": {
+      "adj_acc_pl": "całe",
+      "adj_dat_pl": "całym",
+      "adj_ess_pl": "całych",
+      "adj_fem_acc_sg": "całą",
+      "adj_fem_dat_sg": "całej",
+      "adj_fem_ess_sg": "całej",
+      "adj_fem_gen_sg": "całej",
+      "adj_fem_ins_sg": "całą",
+      "adj_fem_nom_sg": "cała",
+      "adj_gen_pl": "całych",
+      "adj_ins_pl": "całymi",
+      "adj_masc_anim_acc_sg": "całego",
+      "adj_masc_dat_sg": "całemu",
+      "adj_masc_ess_sg": "całym",
+      "adj_masc_gen_sg": "całego",
+      "adj_masc_hum_acc_pl": "całych",
+      "adj_masc_hum_acc_sg": "całego",
+      "adj_masc_hum_nom_pl": "cali",
+      "adj_masc_inan_acc_sg": "cały",
+      "adj_masc_ins_sg": "całym",
+      "adj_masc_nom_sg": "cały",
+      "adj_neut_acc_sg": "całe",
+      "adj_neut_dat_sg": "całemu",
+      "adj_neut_ess_sg": "całym",
+      "adj_neut_gen_sg": "całego",
+      "adj_neut_ins_sg": "całym",
+      "adj_neut_nom_sg": "całe",
+      "adj_nom_pl": "całe",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "chcieć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chcieć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_sg_fem": "chciałabym",
+      "v_cond_1_sg_masc": "chciałbym",
+      "v_prs_1_pl": "chcemy",
+      "v_prs_1_sg": "chcę",
+      "v_prs_2_pl": "chcecie",
+      "v_prs_2_sg": "chcesz",
+      "v_prs_3_pl": "chcą",
+      "v_prs_3_sg": "chce",
+      "v_pst_1_sg_fem": "chciałam",
+      "v_pst_1_sg_masc": "chciałem",
+      "v_pst_2_sg_masc": "chciałeś",
+      "v_pst_3_sg_fem": "chciała",
+      "v_pst_3_sg_masc": "chciał"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "chwila": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chwila",
+    "inflections": {
+      "n_acc_pl": "chwile",
+      "n_acc_sg": "chwilę",
+      "n_dat_pl": "chwilom",
+      "n_dat_sg": "chwili",
+      "n_ess_pl": "chwilach",
+      "n_ess_sg": "chwili",
+      "n_gen_pl": "chwil",
+      "n_gen_sg": "chwili",
+      "n_ins_pl": "chwilami",
+      "n_ins_sg": "chwilą",
+      "n_nom_pl": "chwile",
+      "n_nom_sg": "chwila",
+      "n_voc_pl": "chwile",
+      "n_voc_sg": "chwilo",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "chłopak": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chłopak",
+    "inflections": {
+      "n_acc_pl": "chłopaków",
+      "n_acc_sg": "chłopaka",
+      "n_dat_pl": "chłopakom",
+      "n_dat_sg": "chłopakowi",
+      "n_ess_pl": "chłopakach",
+      "n_ess_sg": "chłopaku",
+      "n_gen_pl": "chłopaków",
+      "n_gen_sg": "chłopaka",
+      "n_ins_pl": "chłopakami",
+      "n_ins_sg": "chłopakiem",
+      "n_nom_pl": "chłopacy",
+      "n_nom_sg": "chłopak",
+      "n_voc_pl": "chłopacy",
+      "n_voc_sg": "chłopaku",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "chłopiec": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chłopiec",
+    "inflections": {
+      "n_nom_pl": "chłopcy",
+      "n_voc_pl": "chłopcy",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "ci": {
     "antonyms": [],
     "base": "ci",
@@ -75,6 +393,49 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "ciało": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ciało",
+    "inflections": {
+      "n_acc_pl": "ciała",
+      "n_acc_sg": "ciało",
+      "n_dat_pl": "ciałom",
+      "n_dat_sg": "ciału",
+      "n_ess_pl": "ciałach",
+      "n_ess_sg": "ciele",
+      "n_gen_pl": "ciał",
+      "n_gen_sg": "ciała",
+      "n_ins_pl": "ciałami",
+      "n_ins_sg": "ciałem",
+      "n_nom_pl": "ciała",
+      "n_nom_sg": "ciało",
+      "n_voc_pl": "ciała",
+      "n_voc_sg": "ciało",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ciąg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ciąg",
+    "inflections": {
+      "n_ess_sg": "ciągu",
+      "n_gen_sg": "ciągu",
+      "n_voc_sg": "ciągu",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
     ]
   },
   "cię": {
@@ -122,6 +483,95 @@
       "pronoun"
     ]
   },
+  "czekać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "czekać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "czekałybyśmy",
+      "v_cond_1_pl_masc_hum": "czekalibyśmy",
+      "v_cond_1_sg_fem": "czekałabym",
+      "v_cond_1_sg_masc": "czekałbym",
+      "v_cond_2_pl": "czekałybyście",
+      "v_cond_2_pl_masc_hum": "czekalibyście",
+      "v_cond_2_sg_fem": "czekałabyś",
+      "v_cond_2_sg_masc": "czekałbyś",
+      "v_cond_3_pl": "czekałyby",
+      "v_cond_3_pl_masc_hum": "czekaliby",
+      "v_cond_3_sg_fem": "czekałaby",
+      "v_cond_3_sg_masc": "czekałby",
+      "v_cond_3_sg_neut": "czekałoby",
+      "v_cvb": "czekając",
+      "v_fut_1_pl": "będziemy czekały",
+      "v_fut_1_pl_masc_hum": "będziemy czekali",
+      "v_fut_1_sg_fem": "będę czekała",
+      "v_fut_1_sg_masc": "będę czekał",
+      "v_fut_2_pl": "będziecie czekały",
+      "v_fut_2_pl_masc_hum": "będziecie czekali",
+      "v_fut_2_sg_fem": "będziesz czekała",
+      "v_fut_2_sg_masc": "będziesz czekał",
+      "v_fut_3_pl": "będą czekały",
+      "v_fut_3_pl_masc_hum": "będą czekali",
+      "v_fut_3_sg_fem": "będzie czekała",
+      "v_fut_3_sg_masc": "będzie czekał",
+      "v_fut_3_sg_neut": "będzie czekało",
+      "v_imp_1_pl": "czekajmy",
+      "v_imp_2_pl": "czekajcie",
+      "v_imp_2_sg": "czekaj",
+      "v_imp_3_pl": "niech czekają",
+      "v_imp_3_sg": "niech czeka",
+      "v_msdr": "czekanie",
+      "v_nfin": "czekać",
+      "v_prs_1_pl": "czekamy",
+      "v_prs_1_sg": "czekam",
+      "v_prs_2_pl": "czekacie",
+      "v_prs_2_sg": "czekasz",
+      "v_prs_3_pl": "czekają",
+      "v_prs_3_sg": "czeka",
+      "v_pst_1_pl": "czekałyśmy",
+      "v_pst_1_pl_masc_hum": "czekaliśmy",
+      "v_pst_1_sg_fem": "czekałam",
+      "v_pst_1_sg_masc": "czekałem",
+      "v_pst_2_pl": "czekałyście",
+      "v_pst_2_pl_masc_hum": "czekaliście",
+      "v_pst_2_sg_fem": "czekałaś",
+      "v_pst_2_sg_masc": "czekałeś",
+      "v_pst_3_pl": "czekały",
+      "v_pst_3_pl_masc_hum": "czekali",
+      "v_pst_3_sg_fem": "czekała",
+      "v_pst_3_sg_masc": "czekał",
+      "v_pst_3_sg_neut": "czekało",
+      "v_ptcp_pst_act_pl": "czekające",
+      "v_ptcp_pst_act_pl_masc_hum": "czekający",
+      "v_ptcp_pst_act_sg_fem": "czekająca",
+      "v_ptcp_pst_act_sg_masc": "czekający",
+      "v_ptcp_pst_act_sg_neut": "czekające",
+      "v_ptcp_pst_pass": "czekano"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "czuć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "czuć",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "czuję",
+      "v_prs_2_sg": "czujesz",
+      "v_prs_3_sg": "czuje"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
   "czy": {
     "antonyms": [],
     "base": "czy",
@@ -135,6 +585,177 @@
     "priority": 10,
     "types": [
       "conjunction"
+    ]
+  },
+  "część": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "część",
+    "inflections": {
+      "n_acc_pl": "części",
+      "n_acc_sg": "część",
+      "n_dat_pl": "częściom",
+      "n_dat_sg": "części",
+      "n_ess_pl": "częściach",
+      "n_ess_sg": "części",
+      "n_gen_pl": "części",
+      "n_gen_sg": "części",
+      "n_ins_pl": "częściami",
+      "n_ins_sg": "częścią",
+      "n_nom_pl": "części",
+      "n_nom_sg": "część",
+      "n_voc_pl": "części",
+      "n_voc_sg": "części",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "człowiek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "człowiek",
+    "inflections": {
+      "n_acc_pl": "ludzi",
+      "n_acc_sg": "człowieka",
+      "n_dat_pl": "ludziom",
+      "n_dat_sg": "człowiekowi",
+      "n_ess_pl": "ludziach",
+      "n_ess_sg": "człowieku",
+      "n_gen_pl": "ludzi",
+      "n_gen_sg": "człowieka",
+      "n_ins_pl": "ludźmi",
+      "n_ins_sg": "człowiekiem",
+      "n_nom_pl": "ludzie",
+      "n_nom_sg": "człowiek",
+      "n_voc_pl": "ludzie",
+      "n_voc_sg": "człowiecze",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "córka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "córka",
+    "inflections": {
+      "n_acc_pl": "córki",
+      "n_acc_sg": "córkę",
+      "n_dat_pl": "córkom",
+      "n_dat_sg": "córce",
+      "n_ess_pl": "córkach",
+      "n_ess_sg": "córce",
+      "n_gen_pl": "córek",
+      "n_gen_sg": "córki",
+      "n_ins_pl": "córkami",
+      "n_ins_sg": "córką",
+      "n_nom_pl": "córki",
+      "n_nom_sg": "córka",
+      "n_voc_pl": "córki",
+      "n_voc_sg": "córko",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "dawać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dawać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "dawaj"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "dać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "dałybyśmy",
+      "v_cond_1_pl_masc_hum": "dalibyśmy",
+      "v_cond_1_sg_fem": "dałabym",
+      "v_cond_1_sg_masc": "dałbym",
+      "v_cond_2_pl": "dałybyście",
+      "v_cond_2_pl_masc_hum": "dalibyście",
+      "v_cond_2_sg_fem": "dałabyś",
+      "v_cond_2_sg_masc": "dałbyś",
+      "v_cond_3_pl": "dałyby",
+      "v_cond_3_pl_masc_hum": "daliby",
+      "v_cond_3_sg_fem": "dałaby",
+      "v_cond_3_sg_masc": "dałby",
+      "v_cond_3_sg_neut": "dałoby",
+      "v_cvb_pst": "dawszy",
+      "v_fut_1_pl": "damy",
+      "v_fut_1_sg": "dam",
+      "v_fut_2_pl": "dacie",
+      "v_fut_2_sg": "dasz",
+      "v_fut_3_pl": "dadzą",
+      "v_fut_3_sg": "da",
+      "v_imp_1_pl": "dajmy",
+      "v_imp_1_sg": "niech dam",
+      "v_imp_2_pl": "dajcie",
+      "v_imp_2_sg": "daj",
+      "v_imp_3_pl": "niech dadzą",
+      "v_imp_3_sg": "niech da",
+      "v_msdr": "danie",
+      "v_nfin": "dać",
+      "v_pst_1_pl": "dałyśmy",
+      "v_pst_1_pl_masc_hum": "daliśmy",
+      "v_pst_1_sg_fem": "dałam",
+      "v_pst_1_sg_masc": "dałem",
+      "v_pst_2_pl": "dałyście",
+      "v_pst_2_pl_masc_hum": "daliście",
+      "v_pst_2_sg_fem": "dałaś",
+      "v_pst_2_sg_masc": "dałeś",
+      "v_pst_3_pl": "dały",
+      "v_pst_3_pl_masc_hum": "dali",
+      "v_pst_3_sg_fem": "dała",
+      "v_pst_3_sg_masc": "dał",
+      "v_pst_3_sg_neut": "dało",
+      "v_ptcp_pst_pass": "dano",
+      "v_ptcp_pst_pass_pl": "dane",
+      "v_ptcp_pst_pass_pl_masc_hum": "dani",
+      "v_ptcp_pst_pass_sg_fem": "dana",
+      "v_ptcp_pst_pass_sg_masc": "dany",
+      "v_ptcp_pst_pass_sg_neut": "dane"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "diabeł": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "diabeł",
+    "inflections": {
+      "n_acc_sg": "diabła",
+      "n_gen_sg": "diabła",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
     ]
   },
   "dla": {
@@ -167,6 +788,64 @@
       "preposition"
     ]
   },
+  "dobro": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dobro",
+    "inflections": {
+      "n_acc_pl": "dobra",
+      "n_gen_sg": "dobra",
+      "n_nom_pl": "dobra",
+      "n_voc_pl": "dobra",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "dobry": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dobry",
+    "inflections": {
+      "adj_acc_pl": "dobre",
+      "adj_dat_pl": "dobrym",
+      "adj_ess_pl": "dobrych",
+      "adj_fem_acc_sg": "dobrą",
+      "adj_fem_dat_sg": "dobrej",
+      "adj_fem_ess_sg": "dobrej",
+      "adj_fem_gen_sg": "dobrej",
+      "adj_fem_ins_sg": "dobrą",
+      "adj_fem_nom_sg": "dobra",
+      "adj_gen_pl": "dobrych",
+      "adj_ins_pl": "dobrymi",
+      "adj_masc_anim_acc_sg": "dobrego",
+      "adj_masc_dat_sg": "dobremu",
+      "adj_masc_ess_sg": "dobrym",
+      "adj_masc_gen_sg": "dobrego",
+      "adj_masc_hum_acc_pl": "dobrych",
+      "adj_masc_hum_acc_sg": "dobrego",
+      "adj_masc_hum_nom_pl": "dobrzy",
+      "adj_masc_inan_acc_sg": "dobry",
+      "adj_masc_ins_sg": "dobrym",
+      "adj_masc_nom_sg": "dobry",
+      "adj_neut_acc_sg": "dobre",
+      "adj_neut_dat_sg": "dobremu",
+      "adj_neut_ess_sg": "dobrym",
+      "adj_neut_gen_sg": "dobrego",
+      "adj_neut_ins_sg": "dobrym",
+      "adj_neut_nom_sg": "dobre",
+      "adj_nom_pl": "dobre",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
   "dobrze": {
     "antonyms": [
       "źle"
@@ -184,6 +863,382 @@
       "adverb"
     ]
   },
+  "doktor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doktor",
+    "inflections": {
+      "n_acc_pl": "doktorów",
+      "n_acc_sg": "doktora",
+      "n_dat_pl": "doktorom",
+      "n_dat_sg": "doktorowi",
+      "n_ess_pl": "doktorach",
+      "n_ess_sg": "doktorze",
+      "n_gen_pl": "doktorów",
+      "n_gen_sg": "doktora",
+      "n_ins_pl": "doktorami",
+      "n_ins_sg": "doktorem",
+      "n_nom_pl": "doktorzy",
+      "n_nom_sg": "doktor",
+      "n_voc_pl": "doktorzy",
+      "n_voc_sg": "doktorze",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dolar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dolar",
+    "inflections": {
+      "n_gen_pl": "dolarów",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "dom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dom",
+    "inflections": {
+      "n_acc_pl": "domy",
+      "n_acc_sg": "dom",
+      "n_dat_pl": "domom",
+      "n_dat_sg": "domowi",
+      "n_ess_pl": "domach",
+      "n_ess_sg": "domu",
+      "n_gen_pl": "domów",
+      "n_gen_sg": "domu",
+      "n_ins_pl": "domami",
+      "n_ins_sg": "domem",
+      "n_nom_pl": "domy",
+      "n_nom_sg": "dom",
+      "n_voc_pl": "domy",
+      "n_voc_sg": "domu",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dostawać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dostawać",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "dostać"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "dowiedzieć się": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dowiedzieć się",
+    "inflections": {
+      "regulars": [],
+      "v_nfin": "dowiedzieć"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "droga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "droga",
+    "inflections": {
+      "n_acc_pl": "drogi",
+      "n_acc_sg": "drogę",
+      "n_dat_pl": "drogom",
+      "n_dat_sg": "drodze",
+      "n_ess_pl": "drogach",
+      "n_ess_sg": "drodze",
+      "n_gen_pl": "dróg",
+      "n_gen_sg": "drogi",
+      "n_ins_pl": "drogami",
+      "n_ins_sg": "drogą",
+      "n_nom_pl": "drogi",
+      "n_nom_sg": "droga",
+      "n_voc_pl": "drogi",
+      "n_voc_sg": "drogo",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "drogi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drogi",
+    "inflections": {
+      "adj_acc_pl": "drogie",
+      "adj_dat_pl": "drogim",
+      "adj_ess_pl": "drogich",
+      "adj_fem_acc_sg": "drogą",
+      "adj_fem_dat_sg": "drogiej",
+      "adj_fem_ess_sg": "drogiej",
+      "adj_fem_gen_sg": "drogiej",
+      "adj_fem_ins_sg": "drogą",
+      "adj_fem_nom_sg": "droga",
+      "adj_gen_pl": "drogich",
+      "adj_ins_pl": "drogimi",
+      "adj_masc_anim_acc_sg": "drogiego",
+      "adj_masc_dat_sg": "drogiemu",
+      "adj_masc_ess_sg": "drogim",
+      "adj_masc_gen_sg": "drogiego",
+      "adj_masc_hum_acc_pl": "drogich",
+      "adj_masc_hum_acc_sg": "drogiego",
+      "adj_masc_hum_nom_pl": "drodzy",
+      "adj_masc_inan_acc_sg": "drogi",
+      "adj_masc_ins_sg": "drogim",
+      "adj_masc_nom_sg": "drogi",
+      "adj_neut_acc_sg": "drogie",
+      "adj_neut_dat_sg": "drogiemu",
+      "adj_neut_ess_sg": "drogim",
+      "adj_neut_gen_sg": "drogiego",
+      "adj_neut_ins_sg": "drogim",
+      "adj_neut_nom_sg": "drogie",
+      "adj_nom_pl": "drogie",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dziać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dziać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "dzieje",
+      "v_pst_3_sg_fem": "działa"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "działać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "działać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "działa"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "działo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "działo",
+    "inflections": {
+      "n_acc_pl": "działa",
+      "n_gen_sg": "działa",
+      "n_nom_pl": "działa",
+      "n_voc_pl": "działa",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dziecko": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dziecko",
+    "inflections": {
+      "n_acc_pl": "dzieci",
+      "n_acc_sg": "dziecko",
+      "n_dat_pl": "dzieciom",
+      "n_dat_sg": "dziecku",
+      "n_ess_pl": "dzieciach",
+      "n_ess_sg": "dziecku",
+      "n_gen_pl": "dzieci",
+      "n_gen_sg": "dziecka",
+      "n_ins_pl": "dziećmi",
+      "n_ins_sg": "dzieckiem",
+      "n_nom_pl": "dzieci",
+      "n_nom_sg": "dziecko",
+      "n_voc_pl": "dzieci",
+      "n_voc_sg": "dziecko",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dziewczyna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dziewczyna",
+    "inflections": {
+      "n_acc_pl": "dziewczyny",
+      "n_acc_sg": "dziewczynę",
+      "n_dat_pl": "dziewczynom",
+      "n_dat_sg": "dziewczynie",
+      "n_ess_pl": "dziewczynach",
+      "n_ess_sg": "dziewczynie",
+      "n_gen_pl": "dziewczyn",
+      "n_gen_sg": "dziewczyny",
+      "n_ins_pl": "dziewczynami",
+      "n_ins_sg": "dziewczyną",
+      "n_nom_pl": "dziewczyny",
+      "n_nom_sg": "dziewczyna",
+      "n_voc_pl": "dziewczyny",
+      "n_voc_sg": "dziewczyno",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "dzień": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dzień",
+    "inflections": {
+      "n_acc_pl": "dni",
+      "n_acc_sg": "dzień",
+      "n_dat_pl": "dniom",
+      "n_dat_sg": "dniowi",
+      "n_ess_pl": "dniach",
+      "n_ess_sg": "dniu",
+      "n_gen_pl": "dni",
+      "n_gen_sg": "dnia",
+      "n_ins_pl": "dniami",
+      "n_ins_sg": "dniem",
+      "n_nom_pl": "dni",
+      "n_nom_sg": "dzień",
+      "n_voc_pl": "dni",
+      "n_voc_sg": "dniu",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "dziwny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dziwny",
+    "inflections": {
+      "adj_acc_pl": "dziwne",
+      "adj_neut_acc_sg": "dziwne",
+      "adj_neut_nom_sg": "dziwne",
+      "adj_nom_pl": "dziwne",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dziękować": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dziękować",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "dziękuję"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "facet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "facet",
+    "inflections": {
+      "n_acc_pl": "facetów",
+      "n_acc_sg": "faceta",
+      "n_dat_pl": "facetom",
+      "n_dat_sg": "facetowi",
+      "n_ess_pl": "facetach",
+      "n_ess_sg": "facecie",
+      "n_gen_pl": "facetów",
+      "n_gen_sg": "faceta",
+      "n_ins_pl": "facetami",
+      "n_ins_sg": "facetem",
+      "n_nom_pl": "faceci",
+      "n_nom_sg": "facet",
+      "n_voc_pl": "faceci",
+      "n_voc_sg": "facecie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "frank": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frank",
+    "inflections": {
+      "n_acc_pl": "franki",
+      "n_acc_sg": "franka",
+      "n_dat_pl": "frankom",
+      "n_dat_sg": "frankowi",
+      "n_ess_pl": "frankach",
+      "n_ess_sg": "franku",
+      "n_gen_pl": "franków",
+      "n_gen_sg": "franka",
+      "n_ins_pl": "frankami",
+      "n_ins_sg": "frankiem",
+      "n_nom_pl": "franki",
+      "n_nom_sg": "frank",
+      "n_voc_pl": "franki",
+      "n_voc_sg": "franku",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "go": {
     "antonyms": [],
     "base": "go",
@@ -199,6 +1254,294 @@
       "pronoun"
     ]
   },
+  "godzina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "godzina",
+    "inflections": {
+      "n_acc_pl": "godziny",
+      "n_acc_sg": "godzinę",
+      "n_gen_pl": "godzin",
+      "n_gen_sg": "godziny",
+      "n_nom_pl": "godziny",
+      "n_voc_pl": "godziny",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "gotowy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gotowy",
+    "inflections": {
+      "adj_acc_pl": "gotowe",
+      "adj_dat_pl": "gotowym",
+      "adj_ess_pl": "gotowych",
+      "adj_fem_acc_sg": "gotową",
+      "adj_fem_dat_sg": "gotowej",
+      "adj_fem_ess_sg": "gotowej",
+      "adj_fem_gen_sg": "gotowej",
+      "adj_fem_ins_sg": "gotową",
+      "adj_fem_nom_sg": "gotowa",
+      "adj_gen_pl": "gotowych",
+      "adj_ins_pl": "gotowymi",
+      "adj_masc_anim_acc_sg": "gotowego",
+      "adj_masc_dat_sg": "gotowemu",
+      "adj_masc_ess_sg": "gotowym",
+      "adj_masc_gen_sg": "gotowego",
+      "adj_masc_hum_acc_pl": "gotowych",
+      "adj_masc_hum_acc_sg": "gotowego",
+      "adj_masc_hum_nom_pl": "gotowi",
+      "adj_masc_inan_acc_sg": "gotowy",
+      "adj_masc_ins_sg": "gotowym",
+      "adj_masc_nom_sg": "gotowy",
+      "adj_neut_acc_sg": "gotowe",
+      "adj_neut_dat_sg": "gotowemu",
+      "adj_neut_ess_sg": "gotowym",
+      "adj_neut_gen_sg": "gotowego",
+      "adj_neut_ins_sg": "gotowym",
+      "adj_neut_nom_sg": "gotowe",
+      "adj_nom_pl": "gotowe",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gość": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gość",
+    "inflections": {
+      "n_acc_pl": "gości",
+      "n_acc_sg": "gościa",
+      "n_dat_pl": "gościom",
+      "n_dat_sg": "gościowi",
+      "n_ess_pl": "gościach",
+      "n_ess_sg": "gościu",
+      "n_gen_pl": "gości",
+      "n_gen_sg": "gościa",
+      "n_ins_pl": "gośćmi",
+      "n_ins_sg": "gościem",
+      "n_nom_pl": "goście",
+      "n_nom_sg": "gość",
+      "n_voc_pl": "goście",
+      "n_voc_sg": "gościu",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "gra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gra",
+    "inflections": {
+      "n_acc_pl": "gry",
+      "n_acc_sg": "grę",
+      "n_dat_pl": "grom",
+      "n_dat_sg": "grze",
+      "n_ess_pl": "grach",
+      "n_ess_sg": "grze",
+      "n_gen_pl": "gier",
+      "n_gen_sg": "gry",
+      "n_ins_pl": "grami",
+      "n_ins_sg": "grą",
+      "n_nom_pl": "gry",
+      "n_nom_sg": "gra",
+      "n_voc_pl": "gry",
+      "n_voc_sg": "gro",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "góra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "góra",
+    "inflections": {
+      "n_acc_pl": "góry",
+      "n_acc_sg": "górę",
+      "n_gen_sg": "góry",
+      "n_nom_pl": "góry",
+      "n_voc_pl": "góry",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "gówno": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gówno",
+    "inflections": {
+      "n_acc_pl": "gówna",
+      "n_acc_sg": "gówno",
+      "n_dat_pl": "gównom",
+      "n_dat_sg": "gównu",
+      "n_ess_pl": "gównach",
+      "n_ess_sg": "gównie",
+      "n_gen_pl": "gówien",
+      "n_gen_sg": "gówna",
+      "n_ins_pl": "gównami",
+      "n_ins_sg": "gównem",
+      "n_nom_pl": "gówna",
+      "n_nom_sg": "gówno",
+      "n_voc_pl": "gówna",
+      "n_voc_sg": "gówno",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "głos": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "głos",
+    "inflections": {
+      "n_acc_pl": "głosy",
+      "n_acc_sg": "głos",
+      "n_dat_pl": "głosom",
+      "n_dat_sg": "głosowi",
+      "n_ess_pl": "głosach",
+      "n_ess_sg": "głosie",
+      "n_gen_pl": "głosów",
+      "n_gen_sg": "głosu",
+      "n_ins_pl": "głosami",
+      "n_ins_sg": "głosem",
+      "n_nom_pl": "głosy",
+      "n_nom_sg": "głos",
+      "n_voc_pl": "głosy",
+      "n_voc_sg": "głosie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "głowa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "głowa",
+    "inflections": {
+      "n_acc_pl": "głowy",
+      "n_acc_sg": "głowę",
+      "n_dat_sg": "głowie",
+      "n_ess_sg": "głowie",
+      "n_gen_sg": "głowy",
+      "n_nom_pl": "głowy",
+      "n_voc_pl": "głowy",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "głupi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "głupi",
+    "inflections": {
+      "adj_acc_pl": "głupie",
+      "adj_dat_pl": "głupim",
+      "adj_ess_pl": "głupich",
+      "adj_fem_acc_sg": "głupią",
+      "adj_fem_dat_sg": "głupiej",
+      "adj_fem_ess_sg": "głupiej",
+      "adj_fem_gen_sg": "głupiej",
+      "adj_fem_ins_sg": "głupią",
+      "adj_fem_nom_sg": "głupia",
+      "adj_gen_pl": "głupich",
+      "adj_ins_pl": "głupimi",
+      "adj_masc_anim_acc_sg": "głupiego",
+      "adj_masc_dat_sg": "głupiemu",
+      "adj_masc_ess_sg": "głupim",
+      "adj_masc_gen_sg": "głupiego",
+      "adj_masc_hum_acc_pl": "głupich",
+      "adj_masc_hum_acc_sg": "głupiego",
+      "adj_masc_hum_nom_pl": "głupi",
+      "adj_masc_inan_acc_sg": "głupi",
+      "adj_masc_ins_sg": "głupim",
+      "adj_masc_nom_sg": "głupi",
+      "adj_neut_acc_sg": "głupie",
+      "adj_neut_dat_sg": "głupiemu",
+      "adj_neut_ess_sg": "głupim",
+      "adj_neut_gen_sg": "głupiego",
+      "adj_neut_ins_sg": "głupim",
+      "adj_neut_nom_sg": "głupie",
+      "adj_nom_pl": "głupie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hala": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hala",
+    "inflections": {
+      "n_voc_sg": "halo",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "historia": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "historia",
+    "inflections": {
+      "n_acc_pl": "historie",
+      "n_acc_sg": "historię",
+      "n_dat_pl": "historiom",
+      "n_dat_sg": "historii",
+      "n_ess_pl": "historiach",
+      "n_ess_sg": "historii",
+      "n_gen_pl": "historii",
+      "n_gen_sg": "historii",
+      "n_ins_pl": "historiami",
+      "n_ins_sg": "historią",
+      "n_nom_pl": "historie",
+      "n_nom_sg": "historia",
+      "n_voc_pl": "historie",
+      "n_voc_sg": "historio",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "i": {
     "antonyms": [],
     "base": "i",
@@ -212,6 +1555,48 @@
     "priority": 10,
     "types": [
       "conjunction"
+    ]
+  },
+  "imię": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "imię",
+    "inflections": {
+      "n_acc_pl": "imiona",
+      "n_acc_sg": "imię",
+      "n_dat_pl": "imionom",
+      "n_dat_sg": "imieniu",
+      "n_ess_pl": "imionach",
+      "n_ess_sg": "imieniu",
+      "n_gen_pl": "imion",
+      "n_gen_sg": "imienia",
+      "n_ins_pl": "imionami",
+      "n_ins_sg": "imieniem",
+      "n_nom_pl": "imiona",
+      "n_nom_sg": "imię",
+      "n_voc_pl": "imiona",
+      "n_voc_sg": "imię",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ił": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ił",
+    "inflections": {
+      "n_ess_sg": "ile",
+      "n_voc_sg": "ile",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
     ]
   },
   "ja": {
@@ -242,6 +1627,23 @@
     "priority": 10,
     "types": [
       "adverb"
+    ]
+  },
+  "jasny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jasny",
+    "inflections": {
+      "adj_acc_pl": "jasne",
+      "adj_neut_acc_sg": "jasne",
+      "adj_neut_nom_sg": "jasne",
+      "adj_nom_pl": "jasne",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
     ]
   },
   "jest": {
@@ -319,6 +1721,285 @@
       "adverb"
     ]
   },
+  "kapitan": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kapitan",
+    "inflections": {
+      "n_ess_sg": "kapitanie",
+      "n_voc_sg": "kapitanie",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "kobieta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kobieta",
+    "inflections": {
+      "n_acc_pl": "kobiety",
+      "n_acc_sg": "kobietę",
+      "n_dat_pl": "kobietom",
+      "n_dat_sg": "kobiecie",
+      "n_ess_pl": "kobietach",
+      "n_ess_sg": "kobiecie",
+      "n_gen_pl": "kobiet",
+      "n_gen_sg": "kobiety",
+      "n_ins_pl": "kobietami",
+      "n_ins_sg": "kobietą",
+      "n_nom_pl": "kobiety",
+      "n_nom_sg": "kobieta",
+      "n_voc_pl": "kobiety",
+      "n_voc_sg": "kobieto",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "kochanie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kochanie",
+    "inflections": {
+      "n_acc_pl": "kochania",
+      "n_acc_sg": "kochanie",
+      "n_dat_pl": "kochaniom",
+      "n_dat_sg": "kochaniu",
+      "n_ess_pl": "kochaniach",
+      "n_ess_sg": "kochaniu",
+      "n_gen_pl": "kochań",
+      "n_gen_sg": "kochania",
+      "n_ins_pl": "kochaniami",
+      "n_ins_sg": "kochaniem",
+      "n_nom_pl": "kochania",
+      "n_nom_sg": "kochanie",
+      "n_voc_pl": "kochania",
+      "n_voc_sg": "kochanie",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "kochać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kochać",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "kochanie",
+      "v_prs_1_sg": "kocham"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "kraj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kraj",
+    "inflections": {
+      "n_ess_sg": "kraju",
+      "n_gen_sg": "kraju",
+      "n_voc_sg": "kraju",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "kupić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kupić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "kupiłybyśmy",
+      "v_cond_1_pl_masc_hum": "kupilibyśmy",
+      "v_cond_1_sg_fem": "kupiłabym",
+      "v_cond_1_sg_masc": "kupiłbym",
+      "v_cond_2_pl": "kupiłybyście",
+      "v_cond_2_pl_masc_hum": "kupilibyście",
+      "v_cond_2_sg_fem": "kupiłabyś",
+      "v_cond_2_sg_masc": "kupiłbyś",
+      "v_cond_3_pl": "kupiłyby",
+      "v_cond_3_pl_masc_hum": "kupiliby",
+      "v_cond_3_sg_fem": "kupiłaby",
+      "v_cond_3_sg_masc": "kupiłby",
+      "v_cond_3_sg_neut": "kupiłoby",
+      "v_cvb_pst": "kupiwszy",
+      "v_fut_1_pl": "kupimy",
+      "v_fut_1_sg": "kupię",
+      "v_fut_2_pl": "kupicie",
+      "v_fut_2_sg": "kupisz",
+      "v_fut_3_pl": "kupią",
+      "v_fut_3_sg": "kupi",
+      "v_imp_1_pl": "kupmy",
+      "v_imp_1_sg": "niech kupię",
+      "v_imp_2_pl": "kupcie",
+      "v_imp_2_sg": "kup",
+      "v_imp_3_pl": "niech kupią",
+      "v_imp_3_sg": "niech kupi",
+      "v_msdr": "kupienie",
+      "v_nfin": "kupić",
+      "v_pst_1_pl": "kupiłyśmy",
+      "v_pst_1_pl_masc_hum": "kupiliśmy",
+      "v_pst_1_sg_fem": "kupiłam",
+      "v_pst_1_sg_masc": "kupiłem",
+      "v_pst_2_pl": "kupiłyście",
+      "v_pst_2_pl_masc_hum": "kupiliście",
+      "v_pst_2_sg_fem": "kupiłaś",
+      "v_pst_2_sg_masc": "kupiłeś",
+      "v_pst_3_pl": "kupiły",
+      "v_pst_3_pl_masc_hum": "kupili",
+      "v_pst_3_sg_fem": "kupiła",
+      "v_pst_3_sg_masc": "kupił",
+      "v_pst_3_sg_neut": "kupiło",
+      "v_ptcp_pst_pass": "kupiono",
+      "v_ptcp_pst_pass_pl": "kupione",
+      "v_ptcp_pst_pass_pl_masc_hum": "kupieni",
+      "v_ptcp_pst_pass_sg_fem": "kupiona",
+      "v_ptcp_pst_pass_sg_masc": "kupiony",
+      "v_ptcp_pst_pass_sg_neut": "kupione"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "kurwa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kurwa",
+    "inflections": {
+      "n_acc_pl": "kurwy",
+      "n_acc_sg": "kurwę",
+      "n_dat_pl": "kurwom",
+      "n_dat_sg": "kurwie",
+      "n_ess_pl": "kurwach",
+      "n_ess_sg": "kurwie",
+      "n_gen_pl": "kurew",
+      "n_gen_sg": "kurwy",
+      "n_ins_pl": "kurwami",
+      "n_ins_sg": "kurwą",
+      "n_nom_pl": "kurwy",
+      "n_nom_sg": "kurwa",
+      "n_voc_pl": "kurwy",
+      "n_voc_sg": "kurwo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "kłopot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kłopot",
+    "inflections": {
+      "n_acc_pl": "kłopoty",
+      "n_nom_pl": "kłopoty",
+      "n_voc_pl": "kłopoty",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "latać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "latać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "lata"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "leczyć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "leczyć",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "lecz"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "lubić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lubić",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "lub",
+      "v_prs_1_sg": "lubię",
+      "v_prs_2_sg": "lubisz",
+      "v_prs_3_sg": "lubi"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "luby": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "luby",
+    "inflections": {
+      "adj_masc_hum_nom_pl": "lubi",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "lud": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lud",
+    "inflections": {
+      "n_ess_sg": "ludzie",
+      "n_voc_sg": "ludzie",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
   "ma": {
     "antonyms": [],
     "base": "ma",
@@ -349,6 +2030,47 @@
       "verb"
     ]
   },
+  "mama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mama",
+    "inflections": {
+      "n_acc_pl": "mamy",
+      "n_acc_sg": "mamę",
+      "n_dat_pl": "mamom",
+      "n_dat_sg": "mamie",
+      "n_ess_pl": "mamach",
+      "n_ess_sg": "mamie",
+      "n_gen_pl": "mam",
+      "n_gen_sg": "mamy",
+      "n_ins_pl": "mamami",
+      "n_ins_sg": "mamą",
+      "n_nom_pl": "mamy",
+      "n_nom_sg": "mama",
+      "n_voc_pl": "mamy",
+      "n_voc_sg": "mamo",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "martwić się": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "martwić się",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "martw"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
   "masz": {
     "antonyms": [],
     "base": "masz",
@@ -362,6 +2084,74 @@
     "priority": 10,
     "types": [
       "verb"
+    ]
+  },
+  "matka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "matka",
+    "inflections": {
+      "n_acc_pl": "matki",
+      "n_acc_sg": "matkę",
+      "n_dat_pl": "matkom",
+      "n_dat_sg": "matce",
+      "n_ess_pl": "matkach",
+      "n_ess_sg": "matce",
+      "n_gen_pl": "matek",
+      "n_gen_sg": "matki",
+      "n_ins_pl": "matkami",
+      "n_ins_sg": "matką",
+      "n_nom_pl": "matki",
+      "n_nom_sg": "matka",
+      "n_voc_pl": "matki",
+      "n_voc_sg": "matko",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "mały": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mały",
+    "inflections": {
+      "adj_acc_pl": "małe",
+      "adj_dat_pl": "małym",
+      "adj_ess_pl": "małych",
+      "adj_fem_acc_sg": "małą",
+      "adj_fem_dat_sg": "małej",
+      "adj_fem_ess_sg": "małej",
+      "adj_fem_gen_sg": "małej",
+      "adj_fem_ins_sg": "małą",
+      "adj_fem_nom_sg": "mała",
+      "adj_gen_pl": "małych",
+      "adj_ins_pl": "małymi",
+      "adj_masc_anim_acc_sg": "małego",
+      "adj_masc_dat_sg": "małemu",
+      "adj_masc_ess_sg": "małym",
+      "adj_masc_gen_sg": "małego",
+      "adj_masc_hum_acc_pl": "małych",
+      "adj_masc_hum_acc_sg": "małego",
+      "adj_masc_hum_nom_pl": "mali",
+      "adj_masc_inan_acc_sg": "mały",
+      "adj_masc_ins_sg": "małym",
+      "adj_masc_nom_sg": "mały",
+      "adj_neut_acc_sg": "małe",
+      "adj_neut_dat_sg": "małemu",
+      "adj_neut_ess_sg": "małym",
+      "adj_neut_gen_sg": "małego",
+      "adj_neut_ins_sg": "małym",
+      "adj_neut_nom_sg": "małe",
+      "adj_nom_pl": "małe",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
     ]
   },
   "mi": {
@@ -379,6 +2169,142 @@
       "pronoun"
     ]
   },
+  "miasto": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miasto",
+    "inflections": {
+      "n_acc_pl": "miasta",
+      "n_acc_sg": "miasto",
+      "n_dat_pl": "miastom",
+      "n_dat_sg": "miastu",
+      "n_ess_pl": "miastach",
+      "n_ess_sg": "mieście",
+      "n_gen_pl": "miast",
+      "n_gen_sg": "miasta",
+      "n_ins_pl": "miastami",
+      "n_ins_sg": "miastem",
+      "n_nom_pl": "miasta",
+      "n_nom_sg": "miasto",
+      "n_voc_pl": "miasta",
+      "n_voc_sg": "miasto",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "miał": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miał",
+    "inflections": {
+      "n_acc_pl": "miały",
+      "n_acc_sg": "miał",
+      "n_dat_pl": "miałom",
+      "n_dat_sg": "miałowi",
+      "n_ess_pl": "miałach",
+      "n_ess_sg": "miale",
+      "n_gen_pl": "miałów",
+      "n_gen_sg": "miału",
+      "n_ins_pl": "miałami",
+      "n_ins_sg": "miałem",
+      "n_nom_pl": "miały",
+      "n_nom_sg": "miał",
+      "n_voc_pl": "miały",
+      "n_voc_sg": "miale",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "miejsce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miejsce",
+    "inflections": {
+      "n_acc_pl": "miejsca",
+      "n_acc_sg": "miejsce",
+      "n_dat_pl": "miejscom",
+      "n_dat_sg": "miejscu",
+      "n_ess_pl": "miejscach",
+      "n_ess_sg": "miejscu",
+      "n_gen_pl": "miejsc",
+      "n_gen_sg": "miejsca",
+      "n_ins_pl": "miejscami",
+      "n_ins_sg": "miejscem",
+      "n_nom_pl": "miejsca",
+      "n_nom_sg": "miejsce",
+      "n_voc_pl": "miejsca",
+      "n_voc_sg": "miejsce",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "miesiąc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miesiąc",
+    "inflections": {
+      "n_gen_pl": "miesięcy",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "minuta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minuta",
+    "inflections": {
+      "n_gen_pl": "minut",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "miłość": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miłość",
+    "inflections": {
+      "n_acc_pl": "miłości",
+      "n_acc_sg": "miłość",
+      "n_dat_pl": "miłościom",
+      "n_dat_sg": "miłości",
+      "n_ess_pl": "miłościach",
+      "n_ess_sg": "miłości",
+      "n_gen_pl": "miłości",
+      "n_gen_sg": "miłości",
+      "n_ins_pl": "miłościami",
+      "n_ins_sg": "miłością",
+      "n_nom_pl": "miłości",
+      "n_nom_sg": "miłość",
+      "n_voc_pl": "miłości",
+      "n_voc_sg": "miłości",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
   "mnie": {
     "antonyms": [],
     "base": "mnie",
@@ -392,6 +2318,47 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "moment": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moment",
+    "inflections": {
+      "n_acc_pl": "momenty",
+      "n_acc_sg": "moment",
+      "n_dat_pl": "momentom",
+      "n_dat_sg": "momentowi",
+      "n_ess_pl": "momentach",
+      "n_ess_sg": "momencie",
+      "n_gen_pl": "momentów",
+      "n_gen_sg": "momentu",
+      "n_ins_pl": "momentami",
+      "n_ins_sg": "momentem",
+      "n_nom_pl": "momenty",
+      "n_nom_sg": "moment",
+      "n_voc_pl": "momenty",
+      "n_voc_sg": "momencie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "mowa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mowa",
+    "inflections": {
+      "n_gen_pl": "mów",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
     ]
   },
   "może": {
@@ -409,6 +2376,98 @@
       "adverb"
     ]
   },
+  "możliwy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "możliwy",
+    "inflections": {
+      "adj_acc_pl": "możliwe",
+      "adj_neut_acc_sg": "możliwe",
+      "adj_neut_nom_sg": "możliwe",
+      "adj_nom_pl": "możliwe",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "myśl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "myśl",
+    "inflections": {
+      "n_acc_pl": "myśli",
+      "n_dat_sg": "myśli",
+      "n_ess_sg": "myśli",
+      "n_gen_pl": "myśli",
+      "n_gen_sg": "myśli",
+      "n_nom_pl": "myśli",
+      "n_voc_pl": "myśli",
+      "n_voc_sg": "myśli",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mąż": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mąż",
+    "inflections": {
+      "n_acc_pl": "mężów",
+      "n_acc_sg": "męża",
+      "n_dat_pl": "mężom",
+      "n_dat_sg": "mężowi",
+      "n_ess_pl": "mężach",
+      "n_ess_sg": "mężu",
+      "n_gen_pl": "mężów",
+      "n_gen_sg": "męża",
+      "n_ins_pl": "mężami",
+      "n_ins_sg": "mężem",
+      "n_nom_pl": "mężowie",
+      "n_nom_sg": "mąż",
+      "n_voc_pl": "mężowie",
+      "n_voc_sg": "mężu",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "mężczyzna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mężczyzna",
+    "inflections": {
+      "n_acc_pl": "mężczyzn",
+      "n_acc_sg": "mężczyznę",
+      "n_dat_pl": "mężczyznom",
+      "n_dat_sg": "mężczyźnie",
+      "n_ess_pl": "mężczyznach",
+      "n_ess_sg": "mężczyźnie",
+      "n_gen_pl": "mężczyzn",
+      "n_gen_sg": "mężczyzny",
+      "n_ins_pl": "mężczyznami",
+      "n_ins_sg": "mężczyzną",
+      "n_nom_pl": "mężczyźni",
+      "n_nom_sg": "mężczyzna",
+      "n_voc_pl": "mężczyźni",
+      "n_voc_sg": "mężczyzno",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "na": {
     "antonyms": [],
     "base": "na",
@@ -422,6 +2481,117 @@
     "priority": 10,
     "types": [
       "preposition"
+    ]
+  },
+  "nadzieja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nadzieja",
+    "inflections": {
+      "n_acc_sg": "nadzieję",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "najlepszy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "najlepszy",
+    "inflections": {
+      "adj_acc_pl": "najlepsze",
+      "adj_dat_pl": "najlepszym",
+      "adj_ess_pl": "najlepszych",
+      "adj_fem_acc_sg": "najlepszą",
+      "adj_fem_dat_sg": "najlepszej",
+      "adj_fem_ess_sg": "najlepszej",
+      "adj_fem_gen_sg": "najlepszej",
+      "adj_fem_ins_sg": "najlepszą",
+      "adj_fem_nom_sg": "najlepsza",
+      "adj_gen_pl": "najlepszych",
+      "adj_ins_pl": "najlepszymi",
+      "adj_masc_anim_acc_sg": "najlepszego",
+      "adj_masc_dat_sg": "najlepszemu",
+      "adj_masc_ess_sg": "najlepszym",
+      "adj_masc_gen_sg": "najlepszego",
+      "adj_masc_hum_acc_pl": "najlepszych",
+      "adj_masc_hum_acc_sg": "najlepszego",
+      "adj_masc_hum_nom_pl": "najlepsi",
+      "adj_masc_inan_acc_sg": "najlepszy",
+      "adj_masc_ins_sg": "najlepszym",
+      "adj_masc_nom_sg": "najlepszy",
+      "adj_neut_acc_sg": "najlepsze",
+      "adj_neut_dat_sg": "najlepszemu",
+      "adj_neut_ess_sg": "najlepszym",
+      "adj_neut_gen_sg": "najlepszego",
+      "adj_neut_ins_sg": "najlepszym",
+      "adj_neut_nom_sg": "najlepsze",
+      "adj_nom_pl": "najlepsze",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "należeć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "należeć",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "należy"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "nazwisko": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nazwisko",
+    "inflections": {
+      "n_acc_pl": "nazwiska",
+      "n_acc_sg": "nazwisko",
+      "n_dat_pl": "nazwiskom",
+      "n_dat_sg": "nazwisku",
+      "n_ess_pl": "nazwiskach",
+      "n_ess_sg": "nazwisku",
+      "n_gen_pl": "nazwisek",
+      "n_gen_sg": "nazwiska",
+      "n_ins_pl": "nazwiskami",
+      "n_ins_sg": "nazwiskiem",
+      "n_nom_pl": "nazwiska",
+      "n_nom_sg": "nazwisko",
+      "n_voc_pl": "nazwiska",
+      "n_voc_sg": "nazwisko",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "nazywać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nazywać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "nazywam",
+      "v_prs_3_sg": "nazywa"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
     ]
   },
   "nic": {
@@ -454,6 +2624,227 @@
       "adverb"
     ]
   },
+  "nieważny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nieważny",
+    "inflections": {
+      "adj_acc_pl": "nieważne",
+      "adj_neut_acc_sg": "nieważne",
+      "adj_neut_nom_sg": "nieważne",
+      "adj_nom_pl": "nieważne",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "niż": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "niż",
+    "inflections": {
+      "n_acc_pl": "niże",
+      "n_acc_sg": "niż",
+      "n_dat_pl": "niżom",
+      "n_dat_sg": "niżowi",
+      "n_ess_pl": "niżach",
+      "n_ess_sg": "niżu",
+      "n_gen_pl": "niżów",
+      "n_gen_sg": "niżu",
+      "n_ins_pl": "niżami",
+      "n_ins_sg": "niżem",
+      "n_nom_pl": "niże",
+      "n_nom_sg": "niż",
+      "n_voc_pl": "niże",
+      "n_voc_sg": "niżu",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "noc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noc",
+    "inflections": {
+      "n_acc_pl": "noce",
+      "n_acc_sg": "noc",
+      "n_dat_pl": "nocom",
+      "n_dat_sg": "nocy",
+      "n_ess_pl": "nocach",
+      "n_ess_sg": "nocy",
+      "n_gen_pl": "nocy",
+      "n_gen_sg": "nocy",
+      "n_ins_pl": "nocami",
+      "n_ins_sg": "nocą",
+      "n_nom_pl": "noce",
+      "n_nom_sg": "noc",
+      "n_voc_pl": "noce",
+      "n_voc_sg": "nocy",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "nowa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nowa",
+    "inflections": {
+      "adj_acc_pl": "nowe",
+      "adj_dat_pl": "nowym",
+      "adj_ess_pl": "nowych",
+      "adj_fem_acc_sg": "nową",
+      "adj_fem_dat_sg": "nowej",
+      "adj_fem_ess_sg": "nowej",
+      "adj_fem_gen_sg": "nowej",
+      "adj_fem_ins_sg": "nową",
+      "adj_fem_nom_sg": "nowa",
+      "adj_gen_pl": "nowych",
+      "adj_ins_pl": "nowymi",
+      "adj_masc_anim_acc_sg": "nowego",
+      "adj_masc_dat_sg": "nowemu",
+      "adj_masc_ess_sg": "nowym",
+      "adj_masc_gen_sg": "nowego",
+      "adj_masc_hum_acc_pl": "nowych",
+      "adj_masc_hum_acc_sg": "nowego",
+      "adj_masc_hum_nom_pl": "nowi",
+      "adj_masc_inan_acc_sg": "nowy",
+      "adj_masc_ins_sg": "nowym",
+      "adj_masc_nom_sg": "nowy",
+      "adj_neut_acc_sg": "nowe",
+      "adj_neut_dat_sg": "nowemu",
+      "adj_neut_ess_sg": "nowym",
+      "adj_neut_gen_sg": "nowego",
+      "adj_neut_ins_sg": "nowym",
+      "adj_neut_nom_sg": "nowe",
+      "adj_nom_pl": "nowe",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nowe": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nowe",
+    "inflections": {
+      "adj_acc_pl": "nowe",
+      "adj_dat_pl": "nowym",
+      "adj_ess_pl": "nowych",
+      "adj_fem_acc_sg": "nową",
+      "adj_fem_dat_sg": "nowej",
+      "adj_fem_ess_sg": "nowej",
+      "adj_fem_gen_sg": "nowej",
+      "adj_fem_ins_sg": "nową",
+      "adj_fem_nom_sg": "nowa",
+      "adj_gen_pl": "nowych",
+      "adj_ins_pl": "nowymi",
+      "adj_masc_anim_acc_sg": "nowego",
+      "adj_masc_dat_sg": "nowemu",
+      "adj_masc_ess_sg": "nowym",
+      "adj_masc_gen_sg": "nowego",
+      "adj_masc_hum_acc_pl": "nowych",
+      "adj_masc_hum_acc_sg": "nowego",
+      "adj_masc_hum_nom_pl": "nowi",
+      "adj_masc_inan_acc_sg": "nowy",
+      "adj_masc_ins_sg": "nowym",
+      "adj_masc_nom_sg": "nowy",
+      "adj_neut_acc_sg": "nowe",
+      "adj_neut_dat_sg": "nowemu",
+      "adj_neut_ess_sg": "nowym",
+      "adj_neut_gen_sg": "nowego",
+      "adj_neut_ins_sg": "nowym",
+      "adj_neut_nom_sg": "nowe",
+      "adj_nom_pl": "nowe",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nowy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nowy",
+    "inflections": {
+      "adj_acc_pl": "nowe",
+      "adj_dat_pl": "nowym",
+      "adj_ess_pl": "nowych",
+      "adj_fem_acc_sg": "nową",
+      "adj_fem_dat_sg": "nowej",
+      "adj_fem_ess_sg": "nowej",
+      "adj_fem_gen_sg": "nowej",
+      "adj_fem_ins_sg": "nową",
+      "adj_fem_nom_sg": "nowa",
+      "adj_gen_pl": "nowych",
+      "adj_ins_pl": "nowymi",
+      "adj_masc_anim_acc_sg": "nowego",
+      "adj_masc_dat_sg": "nowemu",
+      "adj_masc_ess_sg": "nowym",
+      "adj_masc_gen_sg": "nowego",
+      "adj_masc_hum_acc_pl": "nowych",
+      "adj_masc_hum_acc_sg": "nowego",
+      "adj_masc_hum_nom_pl": "nowi",
+      "adj_masc_inan_acc_sg": "nowy",
+      "adj_masc_ins_sg": "nowym",
+      "adj_masc_nom_sg": "nowy",
+      "adj_neut_acc_sg": "nowe",
+      "adj_neut_dat_sg": "nowemu",
+      "adj_neut_ess_sg": "nowym",
+      "adj_neut_gen_sg": "nowego",
+      "adj_neut_ins_sg": "nowym",
+      "adj_neut_nom_sg": "nowe",
+      "adj_nom_pl": "nowe",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "numer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "numer",
+    "inflections": {
+      "n_acc_pl": "numery",
+      "n_acc_sg": "numer",
+      "n_dat_pl": "numerom",
+      "n_dat_sg": "numerowi",
+      "n_ess_pl": "numerach",
+      "n_ess_sg": "numerze",
+      "n_gen_pl": "numerów",
+      "n_gen_sg": "numeru",
+      "n_ins_pl": "numerami",
+      "n_ins_sg": "numerem",
+      "n_nom_pl": "numery",
+      "n_nom_sg": "numer",
+      "n_voc_pl": "numery",
+      "n_voc_sg": "numerze",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
   "o": {
     "antonyms": [],
     "base": "o",
@@ -467,6 +2858,36 @@
     "priority": 10,
     "types": [
       "preposition"
+    ]
+  },
+  "obiecywać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "obiecywać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "obiecuję"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "obój": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "obój",
+    "inflections": {
+      "n_acc_pl": "oboje",
+      "n_nom_pl": "oboje",
+      "n_voc_pl": "oboje",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
     ]
   },
   "od": {
@@ -484,7 +2905,125 @@
       "preposition"
     ]
   },
+  "ojciec": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ojciec",
+    "inflections": {
+      "n_acc_pl": "ojców",
+      "n_acc_sg": "ojca",
+      "n_dat_pl": "ojcom",
+      "n_dat_sg": "ojcu",
+      "n_ess_pl": "ojcach",
+      "n_ess_sg": "ojcu",
+      "n_gen_pl": "ojców",
+      "n_gen_sg": "ojca",
+      "n_ins_pl": "ojcami",
+      "n_ins_sg": "ojcem",
+      "n_nom_pl": "ojcowie",
+      "n_nom_sg": "ojciec",
+      "n_voc_pl": "ojcowie",
+      "n_voc_sg": "ojcze",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "okazja": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "okazja",
+    "inflections": {
+      "n_dat_sg": "okazji",
+      "n_ess_sg": "okazji",
+      "n_gen_pl": "okazji",
+      "n_gen_sg": "okazji",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "osoba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "osoba",
+    "inflections": {
+      "n_gen_pl": "osób",
+      "n_ins_sg": "osobą",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "ostatni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ostatni",
+    "inflections": {
+      "adj_acc_pl": "ostatnie",
+      "adj_dat_pl": "ostatnim",
+      "adj_ess_pl": "ostatnich",
+      "adj_fem_acc_sg": "ostatnią",
+      "adj_fem_dat_sg": "ostatniej",
+      "adj_fem_ess_sg": "ostatniej",
+      "adj_fem_gen_sg": "ostatniej",
+      "adj_fem_ins_sg": "ostatnią",
+      "adj_fem_nom_sg": "ostatnia",
+      "adj_gen_pl": "ostatnich",
+      "adj_ins_pl": "ostatnimi",
+      "adj_masc_anim_acc_sg": "ostatniego",
+      "adj_masc_dat_sg": "ostatniemu",
+      "adj_masc_ess_sg": "ostatnim",
+      "adj_masc_gen_sg": "ostatniego",
+      "adj_masc_hum_acc_pl": "ostatnich",
+      "adj_masc_hum_acc_sg": "ostatniego",
+      "adj_masc_hum_nom_pl": "ostatni",
+      "adj_masc_inan_acc_sg": "ostatni",
+      "adj_masc_ins_sg": "ostatnim",
+      "adj_masc_nom_sg": "ostatni",
+      "adj_neut_acc_sg": "ostatnie",
+      "adj_neut_dat_sg": "ostatniemu",
+      "adj_neut_ess_sg": "ostatnim",
+      "adj_neut_gen_sg": "ostatniego",
+      "adj_neut_ins_sg": "ostatnim",
+      "adj_neut_nom_sg": "ostatnie",
+      "adj_nom_pl": "ostatnie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "pamiętać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pamiętać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "pamiętam",
+      "v_prs_2_sg": "pamiętasz"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
   "pan": {
+    "_sources": [
+      "unimorph"
+    ],
     "antonyms": [],
     "base": "pan",
     "examples": [
@@ -492,9 +3031,181 @@
       "Dzień dobry, panie."
     ],
     "inflections": {
+      "n_acc_pl": "panów",
+      "n_acc_sg": "pana",
+      "n_dat_pl": "panom",
+      "n_dat_sg": "panu",
+      "n_ess_pl": "panach",
+      "n_ess_sg": "panu",
+      "n_gen_pl": "panów",
+      "n_gen_sg": "pana",
+      "n_ins_pl": "panami",
+      "n_ins_sg": "panem",
+      "n_nom_pl": "panowie",
+      "n_nom_sg": "pan",
+      "n_voc_pl": "panowie",
+      "n_voc_sg": "panie",
       "regulars": []
     },
     "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "pani": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pani",
+    "inflections": {
+      "n_acc_pl": "panie",
+      "n_acc_sg": "panią",
+      "n_dat_pl": "paniom",
+      "n_dat_sg": "pani",
+      "n_ess_pl": "paniach",
+      "n_ess_sg": "pani",
+      "n_gen_pl": "pań",
+      "n_gen_sg": "pani",
+      "n_ins_pl": "paniami",
+      "n_ins_sg": "panią",
+      "n_nom_pl": "panie",
+      "n_nom_sg": "pani",
+      "n_voc_pl": "panie",
+      "n_voc_sg": "pani",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "panna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "panna",
+    "inflections": {
+      "n_voc_sg": "panno",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pewny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pewny",
+    "inflections": {
+      "adj_fem_nom_sg": "pewna",
+      "adj_masc_anim_acc_sg": "pewnego",
+      "adj_masc_gen_sg": "pewnego",
+      "adj_masc_hum_acc_sg": "pewnego",
+      "adj_neut_gen_sg": "pewnego",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "pieniądz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pieniądz",
+    "inflections": {
+      "n_acc_pl": "pieniądze",
+      "n_gen_pl": "pieniędzy",
+      "n_nom_pl": "pieniądze",
+      "n_voc_pl": "pieniądze",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "pierwszy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pierwszy",
+    "inflections": {
+      "adj_acc_pl": "pierwsze",
+      "adj_dat_pl": "pierwszym",
+      "adj_ess_pl": "pierwszych",
+      "adj_fem_acc_sg": "pierwszą",
+      "adj_fem_dat_sg": "pierwszej",
+      "adj_fem_ess_sg": "pierwszej",
+      "adj_fem_gen_sg": "pierwszej",
+      "adj_fem_ins_sg": "pierwszą",
+      "adj_fem_nom_sg": "pierwsza",
+      "adj_gen_pl": "pierwszych",
+      "adj_ins_pl": "pierwszymi",
+      "adj_masc_anim_acc_sg": "pierwszego",
+      "adj_masc_dat_sg": "pierwszemu",
+      "adj_masc_ess_sg": "pierwszym",
+      "adj_masc_gen_sg": "pierwszego",
+      "adj_masc_hum_acc_pl": "pierwszych",
+      "adj_masc_hum_acc_sg": "pierwszego",
+      "adj_masc_hum_nom_pl": "pierwsi",
+      "adj_masc_inan_acc_sg": "pierwszy",
+      "adj_masc_ins_sg": "pierwszym",
+      "adj_masc_nom_sg": "pierwszy",
+      "adj_neut_acc_sg": "pierwsze",
+      "adj_neut_dat_sg": "pierwszemu",
+      "adj_neut_ess_sg": "pierwszym",
+      "adj_neut_gen_sg": "pierwszego",
+      "adj_neut_ins_sg": "pierwszym",
+      "adj_neut_nom_sg": "pierwsze",
+      "adj_nom_pl": "pierwsze",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "piękny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "piękny",
+    "inflections": {
+      "adj_fem_nom_sg": "piękna",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "plan": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plan",
+    "inflections": {
+      "n_acc_pl": "plany",
+      "n_acc_sg": "plan",
+      "n_dat_pl": "planom",
+      "n_dat_sg": "planowi",
+      "n_ess_pl": "planach",
+      "n_ess_sg": "planie",
+      "n_gen_pl": "planów",
+      "n_gen_sg": "planu",
+      "n_ins_pl": "planami",
+      "n_ins_sg": "planem",
+      "n_nom_pl": "plany",
+      "n_nom_sg": "plan",
+      "n_voc_pl": "plany",
+      "n_voc_sg": "planie",
+      "regulars": []
+    },
+    "priority": 5,
     "types": [
       "noun"
     ]
@@ -514,6 +3225,1155 @@
       "preposition"
     ]
   },
+  "poczekać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "poczekać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "poczekaj"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "początek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "początek",
+    "inflections": {
+      "n_ess_sg": "początku",
+      "n_gen_sg": "początku",
+      "n_voc_sg": "początku",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "pogadać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pogadać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "pogadałybyśmy",
+      "v_cond_1_pl_masc_hum": "pogadalibyśmy",
+      "v_cond_1_sg_fem": "pogadałabym",
+      "v_cond_1_sg_masc": "pogadałbym",
+      "v_cond_2_pl": "pogadałybyście",
+      "v_cond_2_pl_masc_hum": "pogadalibyście",
+      "v_cond_2_sg_fem": "pogadałabyś",
+      "v_cond_2_sg_masc": "pogadałbyś",
+      "v_cond_3_pl": "pogadałyby",
+      "v_cond_3_pl_masc_hum": "pogadaliby",
+      "v_cond_3_sg_fem": "pogadałaby",
+      "v_cond_3_sg_masc": "pogadałby",
+      "v_cond_3_sg_neut": "pogadałoby",
+      "v_cvb_pst": "pogadawszy",
+      "v_fut_1_pl": "pogadamy",
+      "v_fut_1_sg": "pogadam",
+      "v_fut_2_pl": "pogadacie",
+      "v_fut_2_sg": "pogadasz",
+      "v_fut_3_pl": "pogadają",
+      "v_fut_3_sg": "pogada",
+      "v_imp_1_pl": "pogadajmy",
+      "v_imp_1_sg": "niech pogadam",
+      "v_imp_2_pl": "pogadajcie",
+      "v_imp_2_sg": "pogadaj",
+      "v_imp_3_pl": "niech pogadają",
+      "v_imp_3_sg": "niech pogada",
+      "v_msdr": "pogadanie",
+      "v_nfin": "pogadać",
+      "v_pst_1_pl": "pogadałyśmy",
+      "v_pst_1_pl_masc_hum": "pogadaliśmy",
+      "v_pst_1_sg_fem": "pogadałam",
+      "v_pst_1_sg_masc": "pogadałem",
+      "v_pst_2_pl": "pogadałyście",
+      "v_pst_2_pl_masc_hum": "pogadaliście",
+      "v_pst_2_sg_fem": "pogadałaś",
+      "v_pst_2_sg_masc": "pogadałeś",
+      "v_pst_3_pl": "pogadały",
+      "v_pst_3_pl_masc_hum": "pogadali",
+      "v_pst_3_sg_fem": "pogadała",
+      "v_pst_3_sg_masc": "pogadał",
+      "v_pst_3_sg_neut": "pogadało",
+      "v_ptcp_pst_pass": "pogadano"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pojęcie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pojęcie",
+    "inflections": {
+      "n_acc_pl": "pojęcia",
+      "n_gen_sg": "pojęcia",
+      "n_nom_pl": "pojęcia",
+      "n_voc_pl": "pojęcia",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "pokazać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pokazać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "pokazałybyśmy",
+      "v_cond_1_pl_masc_hum": "pokazalibyśmy",
+      "v_cond_1_sg_fem": "pokazałabym",
+      "v_cond_1_sg_masc": "pokazałbym",
+      "v_cond_2_pl": "pokazałybyście",
+      "v_cond_2_pl_masc_hum": "pokazalibyście",
+      "v_cond_2_sg_fem": "pokazałabyś",
+      "v_cond_2_sg_masc": "pokazałbyś",
+      "v_cond_3_pl": "pokazałyby",
+      "v_cond_3_pl_masc_hum": "pokazaliby",
+      "v_cond_3_sg_fem": "pokazałaby",
+      "v_cond_3_sg_masc": "pokazałby",
+      "v_cond_3_sg_neut": "pokazałoby",
+      "v_cvb_pst": "pokazawszy",
+      "v_fut_1_pl": "pokażemy",
+      "v_fut_1_sg": "pokażę",
+      "v_fut_2_pl": "pokażecie",
+      "v_fut_2_sg": "pokażesz",
+      "v_fut_3_pl": "pokażą",
+      "v_fut_3_sg": "pokaże",
+      "v_imp_1_pl": "pokażmy",
+      "v_imp_1_sg": "niech pokażę",
+      "v_imp_2_pl": "pokażcie",
+      "v_imp_2_sg": "pokaż",
+      "v_imp_3_pl": "niech pokażą",
+      "v_imp_3_sg": "niech pokaże",
+      "v_msdr": "pokazanie",
+      "v_nfin": "pokazać",
+      "v_pst_1_pl": "pokazałyśmy",
+      "v_pst_1_pl_masc_hum": "pokazaliśmy",
+      "v_pst_1_sg_fem": "pokazałam",
+      "v_pst_1_sg_masc": "pokazałem",
+      "v_pst_2_pl": "pokazałyście",
+      "v_pst_2_pl_masc_hum": "pokazaliście",
+      "v_pst_2_sg_fem": "pokazałaś",
+      "v_pst_2_sg_masc": "pokazałeś",
+      "v_pst_3_pl": "pokazały",
+      "v_pst_3_pl_masc_hum": "pokazali",
+      "v_pst_3_sg_fem": "pokazała",
+      "v_pst_3_sg_masc": "pokazał",
+      "v_pst_3_sg_neut": "pokazało",
+      "v_ptcp_pst_pass": "pokazano",
+      "v_ptcp_pst_pass_pl": "pokazane",
+      "v_ptcp_pst_pass_pl_masc_hum": "pokazani",
+      "v_ptcp_pst_pass_sg_fem": "pokazana",
+      "v_ptcp_pst_pass_sg_masc": "pokazany",
+      "v_ptcp_pst_pass_sg_neut": "pokazane"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pokój": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pokój",
+    "inflections": {
+      "n_acc_pl": "pokoje",
+      "n_acc_sg": "pokój",
+      "n_dat_pl": "pokojom",
+      "n_dat_sg": "pokojowi",
+      "n_ess_pl": "pokojach",
+      "n_ess_sg": "pokoju",
+      "n_gen_pl": "pokojów",
+      "n_gen_sg": "pokoju",
+      "n_ins_pl": "pokojami",
+      "n_ins_sg": "pokojem",
+      "n_nom_pl": "pokoje",
+      "n_nom_sg": "pokój",
+      "n_voc_pl": "pokoje",
+      "n_voc_sg": "pokoju",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pomoc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pomoc",
+    "inflections": {
+      "n_acc_pl": "pomoce",
+      "n_acc_sg": "pomoc",
+      "n_dat_pl": "pomocom",
+      "n_dat_sg": "pomocy",
+      "n_ess_pl": "pomocach",
+      "n_ess_sg": "pomocy",
+      "n_gen_pl": "pomocy",
+      "n_gen_sg": "pomocy",
+      "n_ins_pl": "pomocami",
+      "n_ins_sg": "pomocą",
+      "n_nom_pl": "pomoce",
+      "n_nom_sg": "pomoc",
+      "n_voc_pl": "pomoce",
+      "n_voc_sg": "pomocy",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pomysł": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pomysł",
+    "inflections": {
+      "n_acc_pl": "pomysły",
+      "n_acc_sg": "pomysł",
+      "n_dat_pl": "pomysłom",
+      "n_dat_sg": "pomysłowi",
+      "n_ess_pl": "pomysłach",
+      "n_ess_sg": "pomyśle",
+      "n_gen_pl": "pomysłów",
+      "n_gen_sg": "pomysłu",
+      "n_ins_pl": "pomysłami",
+      "n_ins_sg": "pomysłem",
+      "n_nom_pl": "pomysły",
+      "n_nom_sg": "pomysł",
+      "n_voc_pl": "pomysły",
+      "n_voc_sg": "pomyśle",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "porozmawiać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "porozmawiać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "porozmawiałybyśmy",
+      "v_cond_1_pl_masc_hum": "porozmawialibyśmy",
+      "v_cond_1_sg_fem": "porozmawiałabym",
+      "v_cond_1_sg_masc": "porozmawiałbym",
+      "v_cond_2_pl": "porozmawiałybyście",
+      "v_cond_2_pl_masc_hum": "porozmawialibyście",
+      "v_cond_2_sg_fem": "porozmawiałabyś",
+      "v_cond_2_sg_masc": "porozmawiałbyś",
+      "v_cond_3_pl": "porozmawiałyby",
+      "v_cond_3_pl_masc_hum": "porozmawialiby",
+      "v_cond_3_sg_fem": "porozmawiałaby",
+      "v_cond_3_sg_masc": "porozmawiałby",
+      "v_cond_3_sg_neut": "porozmawiałoby",
+      "v_cvb_pst": "porozmawiawszy",
+      "v_fut_1_pl": "porozmawiamy",
+      "v_fut_1_sg": "porozmawiam",
+      "v_fut_2_pl": "porozmawiacie",
+      "v_fut_2_sg": "porozmawiasz",
+      "v_fut_3_pl": "porozmawiają",
+      "v_fut_3_sg": "porozmawia",
+      "v_imp_1_pl": "porozmawiajmy",
+      "v_imp_1_sg": "niech porozmawiam",
+      "v_imp_2_pl": "porozmawiajcie",
+      "v_imp_2_sg": "porozmawiaj",
+      "v_imp_3_pl": "niech porozmawiają",
+      "v_imp_3_sg": "niech porozmawia",
+      "v_msdr": "porozmawianie",
+      "v_nfin": "porozmawiać",
+      "v_pst_1_pl": "porozmawiałyśmy",
+      "v_pst_1_pl_masc_hum": "porozmawialiśmy",
+      "v_pst_1_sg_fem": "porozmawiałam",
+      "v_pst_1_sg_masc": "porozmawiałem",
+      "v_pst_2_pl": "porozmawiałyście",
+      "v_pst_2_pl_masc_hum": "porozmawialiście",
+      "v_pst_2_sg_fem": "porozmawiałaś",
+      "v_pst_2_sg_masc": "porozmawiałeś",
+      "v_pst_3_pl": "porozmawiały",
+      "v_pst_3_pl_masc_hum": "porozmawiali",
+      "v_pst_3_sg_fem": "porozmawiała",
+      "v_pst_3_sg_masc": "porozmawiał",
+      "v_pst_3_sg_neut": "porozmawiało",
+      "v_ptcp_pst_pass": "porozmawiano"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "porządek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "porządek",
+    "inflections": {
+      "n_ess_sg": "porządku",
+      "n_gen_sg": "porządku",
+      "n_voc_sg": "porządku",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "posłuchać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "posłuchać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "posłuchaj"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "pot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pot",
+    "inflections": {
+      "n_ins_sg": "potem",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "potrzebować": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "potrzebować",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_pl": "potrzebujemy",
+      "v_prs_1_sg": "potrzebuję",
+      "v_prs_2_sg": "potrzebujesz",
+      "v_prs_3_sg": "potrzebuje"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "powrót": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "powrót",
+    "inflections": {
+      "n_ins_sg": "powrotem",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "poznać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "poznać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "poznałybyśmy",
+      "v_cond_1_pl_masc_hum": "poznalibyśmy",
+      "v_cond_1_sg_fem": "poznałabym",
+      "v_cond_1_sg_masc": "poznałbym",
+      "v_cond_2_pl": "poznałybyście",
+      "v_cond_2_pl_masc_hum": "poznalibyście",
+      "v_cond_2_sg_fem": "poznałabyś",
+      "v_cond_2_sg_masc": "poznałbyś",
+      "v_cond_3_pl": "poznałyby",
+      "v_cond_3_pl_masc_hum": "poznaliby",
+      "v_cond_3_sg_fem": "poznałaby",
+      "v_cond_3_sg_masc": "poznałby",
+      "v_cond_3_sg_neut": "poznałoby",
+      "v_cvb_pst": "poznawszy",
+      "v_fut_1_pl": "poznamy",
+      "v_fut_1_sg": "poznam",
+      "v_fut_2_pl": "poznacie",
+      "v_fut_2_sg": "poznasz",
+      "v_fut_3_pl": "poznają",
+      "v_fut_3_sg": "pozna",
+      "v_imp_1_pl": "poznajmy",
+      "v_imp_1_sg": "niech poznam",
+      "v_imp_2_pl": "poznajcie",
+      "v_imp_2_sg": "poznaj",
+      "v_imp_3_pl": "niech poznają",
+      "v_imp_3_sg": "niech pozna",
+      "v_msdr": "poznanie",
+      "v_nfin": "poznać",
+      "v_pst_1_pl": "poznałyśmy",
+      "v_pst_1_pl_masc_hum": "poznaliśmy",
+      "v_pst_1_sg_fem": "poznałam",
+      "v_pst_1_sg_masc": "poznałem",
+      "v_pst_2_pl": "poznałyście",
+      "v_pst_2_pl_masc_hum": "poznaliście",
+      "v_pst_2_sg_fem": "poznałaś",
+      "v_pst_2_sg_masc": "poznałeś",
+      "v_pst_3_pl": "poznały",
+      "v_pst_3_pl_masc_hum": "poznali",
+      "v_pst_3_sg_fem": "poznała",
+      "v_pst_3_sg_masc": "poznał",
+      "v_pst_3_sg_neut": "poznało",
+      "v_ptcp_pst_pass": "poznano",
+      "v_ptcp_pst_pass_pl": "poznane",
+      "v_ptcp_pst_pass_pl_masc_hum": "poznani",
+      "v_ptcp_pst_pass_sg_fem": "poznana",
+      "v_ptcp_pst_pass_sg_masc": "poznany",
+      "v_ptcp_pst_pass_sg_neut": "poznane"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "praca": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "praca",
+    "inflections": {
+      "n_acc_pl": "prace",
+      "n_acc_sg": "pracę",
+      "n_dat_pl": "pracom",
+      "n_dat_sg": "pracy",
+      "n_ess_pl": "pracach",
+      "n_ess_sg": "pracy",
+      "n_gen_pl": "prac",
+      "n_gen_sg": "pracy",
+      "n_ins_pl": "pracami",
+      "n_ins_sg": "pracą",
+      "n_nom_pl": "prace",
+      "n_nom_sg": "praca",
+      "n_voc_pl": "prace",
+      "n_voc_sg": "praco",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "prawdziwy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prawdziwy",
+    "inflections": {
+      "adj_acc_pl": "prawdziwe",
+      "adj_neut_acc_sg": "prawdziwe",
+      "adj_neut_nom_sg": "prawdziwe",
+      "adj_nom_pl": "prawdziwe",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "prawo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prawo",
+    "inflections": {
+      "n_acc_pl": "prawa",
+      "n_acc_sg": "prawo",
+      "n_dat_pl": "prawom",
+      "n_dat_sg": "prawu",
+      "n_ess_pl": "prawach",
+      "n_ess_sg": "prawie",
+      "n_gen_pl": "praw",
+      "n_gen_sg": "prawa",
+      "n_ins_pl": "prawami",
+      "n_ins_sg": "prawem",
+      "n_nom_pl": "prawa",
+      "n_nom_sg": "prawo",
+      "n_voc_pl": "prawa",
+      "n_voc_sg": "prawo",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "prawy": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prawy",
+    "inflections": {
+      "adj_fem_nom_sg": "prawa",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "problem": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "problem",
+    "inflections": {
+      "n_acc_pl": "problemy",
+      "n_acc_sg": "problem",
+      "n_dat_pl": "problemom",
+      "n_dat_sg": "problemowi",
+      "n_ess_pl": "problemach",
+      "n_ess_sg": "problemie",
+      "n_gen_pl": "problemów",
+      "n_gen_sg": "problemu",
+      "n_ins_pl": "problemami",
+      "n_ins_sg": "problemem",
+      "n_nom_pl": "problemy",
+      "n_nom_sg": "problem",
+      "n_voc_pl": "problemy",
+      "n_voc_sg": "problemie",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "przepraszać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "przepraszać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "przepraszam"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "przyjaciel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "przyjaciel",
+    "inflections": {
+      "n_acc_pl": "przyjaciół",
+      "n_acc_sg": "przyjaciela",
+      "n_dat_pl": "przyjaciołom",
+      "n_dat_sg": "przyjacielowi",
+      "n_ess_pl": "przyjaciołach",
+      "n_ess_sg": "przyjacielu",
+      "n_gen_pl": "przyjaciół",
+      "n_gen_sg": "przyjaciela",
+      "n_ins_pl": "przyjaciółmi",
+      "n_ins_sg": "przyjacielem",
+      "n_nom_pl": "przyjaciele",
+      "n_nom_sg": "przyjaciel",
+      "n_voc_pl": "przyjaciele",
+      "n_voc_sg": "przyjacielu",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "przykład": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "przykład",
+    "inflections": {
+      "n_acc_pl": "przykłady",
+      "n_acc_sg": "przykład",
+      "n_dat_pl": "przykładom",
+      "n_dat_sg": "przykładowi",
+      "n_ess_pl": "przykładach",
+      "n_ess_sg": "przykładzie",
+      "n_gen_pl": "przykładów",
+      "n_gen_sg": "przykładu",
+      "n_ins_pl": "przykładami",
+      "n_ins_sg": "przykładem",
+      "n_nom_pl": "przykłady",
+      "n_nom_sg": "przykład",
+      "n_voc_pl": "przykłady",
+      "n_voc_sg": "przykładzie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pytanie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pytanie",
+    "inflections": {
+      "n_acc_pl": "pytania",
+      "n_acc_sg": "pytanie",
+      "n_dat_pl": "pytaniom",
+      "n_dat_sg": "pytaniu",
+      "n_ess_pl": "pytaniach",
+      "n_ess_sg": "pytaniu",
+      "n_gen_pl": "pytań",
+      "n_gen_sg": "pytania",
+      "n_ins_pl": "pytaniami",
+      "n_ins_sg": "pytaniem",
+      "n_nom_pl": "pytania",
+      "n_nom_sg": "pytanie",
+      "n_voc_pl": "pytania",
+      "n_voc_sg": "pytanie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "pytać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pytać",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "pytanie"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "rada": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rada",
+    "inflections": {
+      "n_acc_pl": "rady",
+      "n_acc_sg": "radę",
+      "n_gen_sg": "rady",
+      "n_nom_pl": "rady",
+      "n_voc_pl": "rady",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "rana": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rana",
+    "inflections": {
+      "n_acc_pl": "rany",
+      "n_gen_sg": "rany",
+      "n_nom_pl": "rany",
+      "n_voc_pl": "rany",
+      "n_voc_sg": "rano",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "rano": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rano",
+    "inflections": {
+      "n_acc_pl": "rana",
+      "n_acc_sg": "rano",
+      "n_dat_pl": "ranom",
+      "n_dat_sg": "ranu",
+      "n_ess_pl": "ranach",
+      "n_ess_sg": "ranie",
+      "n_gen_pl": "ran",
+      "n_gen_sg": "rana",
+      "n_ins_pl": "ranami",
+      "n_ins_sg": "ranem",
+      "n_nom_pl": "rana",
+      "n_nom_sg": "rano",
+      "n_voc_pl": "rana",
+      "n_voc_sg": "rano",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "raz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "raz",
+    "inflections": {
+      "n_acc_pl": "razy",
+      "n_acc_sg": "raz",
+      "n_dat_pl": "razom",
+      "n_dat_sg": "razowi",
+      "n_ess_pl": "razach",
+      "n_ess_sg": "razie",
+      "n_gen_pl": "razów",
+      "n_gen_sg": "razu",
+      "n_ins_pl": "razami",
+      "n_ins_sg": "razem",
+      "n_nom_pl": "razy",
+      "n_nom_sg": "raz",
+      "n_voc_pl": "razy",
+      "n_voc_sg": "razie",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "robić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "robić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "robiłybyśmy",
+      "v_cond_1_pl_masc_hum": "robilibyśmy",
+      "v_cond_1_sg_fem": "robiłabym",
+      "v_cond_1_sg_masc": "robiłbym",
+      "v_cond_2_pl": "robiłybyście",
+      "v_cond_2_pl_masc_hum": "robilibyście",
+      "v_cond_2_sg_fem": "robiłabyś",
+      "v_cond_2_sg_masc": "robiłbyś",
+      "v_cond_3_pl": "robiłyby",
+      "v_cond_3_pl_masc_hum": "robiliby",
+      "v_cond_3_sg_fem": "robiłaby",
+      "v_cond_3_sg_masc": "robiłby",
+      "v_cond_3_sg_neut": "robiłoby",
+      "v_cvb": "robiąc",
+      "v_fut_1_pl": "będziemy robiły",
+      "v_fut_1_pl_masc_hum": "będziemy robili",
+      "v_fut_1_sg_fem": "będę robiła",
+      "v_fut_1_sg_masc": "będę robił",
+      "v_fut_2_pl": "będziecie robiły",
+      "v_fut_2_pl_masc_hum": "będziecie robili",
+      "v_fut_2_sg_fem": "będziesz robiła",
+      "v_fut_2_sg_masc": "będziesz robił",
+      "v_fut_3_pl": "będą robiły",
+      "v_fut_3_pl_masc_hum": "będą robili",
+      "v_fut_3_sg_fem": "będzie robiła",
+      "v_fut_3_sg_masc": "będzie robił",
+      "v_fut_3_sg_neut": "będzie robiło",
+      "v_imp_1_pl": "róbmy",
+      "v_imp_2_pl": "róbcie",
+      "v_imp_2_sg": "rób",
+      "v_imp_3_pl": "niech robią",
+      "v_imp_3_sg": "niech robi",
+      "v_msdr": "robienie",
+      "v_nfin": "robić",
+      "v_prs_1_pl": "robimy",
+      "v_prs_1_sg": "robię",
+      "v_prs_2_pl": "robicie",
+      "v_prs_2_sg": "robisz",
+      "v_prs_3_pl": "robią",
+      "v_prs_3_sg": "robi",
+      "v_pst_1_pl": "robiłyśmy",
+      "v_pst_1_pl_masc_hum": "robiliśmy",
+      "v_pst_1_sg_fem": "robiłam",
+      "v_pst_1_sg_masc": "robiłem",
+      "v_pst_2_pl": "robiłyście",
+      "v_pst_2_pl_masc_hum": "robiliście",
+      "v_pst_2_sg_fem": "robiłaś",
+      "v_pst_2_sg_masc": "robiłeś",
+      "v_pst_3_pl": "robiły",
+      "v_pst_3_pl_masc_hum": "robili",
+      "v_pst_3_sg_fem": "robiła",
+      "v_pst_3_sg_masc": "robił",
+      "v_pst_3_sg_neut": "robiło",
+      "v_ptcp_pst_act_pl": "robiące",
+      "v_ptcp_pst_act_pl_masc_hum": "robiący",
+      "v_ptcp_pst_act_sg_fem": "robiąca",
+      "v_ptcp_pst_act_sg_masc": "robiący",
+      "v_ptcp_pst_act_sg_neut": "robiące",
+      "v_ptcp_pst_pass": "robiono",
+      "v_ptcp_pst_pass_pl": "robione",
+      "v_ptcp_pst_pass_pl_masc_hum": "robieni",
+      "v_ptcp_pst_pass_sg_fem": "robiona",
+      "v_ptcp_pst_pass_sg_masc": "robiony",
+      "v_ptcp_pst_pass_sg_neut": "robione"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "robot": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "robot",
+    "inflections": {
+      "n_acc_pl": "roboty",
+      "n_acc_sg": "robota",
+      "n_gen_sg": "robota",
+      "n_nom_pl": "roboty",
+      "n_voc_pl": "roboty",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "robota": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "robota",
+    "inflections": {
+      "n_acc_pl": "roboty",
+      "n_acc_sg": "robotę",
+      "n_dat_pl": "robotom",
+      "n_dat_sg": "robocie",
+      "n_ess_pl": "robotach",
+      "n_ess_sg": "robocie",
+      "n_gen_pl": "robót",
+      "n_gen_sg": "roboty",
+      "n_ins_pl": "robotami",
+      "n_ins_sg": "robotą",
+      "n_nom_pl": "roboty",
+      "n_nom_sg": "robota",
+      "n_voc_pl": "roboty",
+      "n_voc_sg": "roboto",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "rodzic": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rodzic",
+    "inflections": {
+      "n_nom_pl": "rodzice",
+      "n_voc_pl": "rodzice",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "rodzina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rodzina",
+    "inflections": {
+      "n_acc_pl": "rodziny",
+      "n_acc_sg": "rodzinę",
+      "n_dat_pl": "rodzinom",
+      "n_dat_sg": "rodzinie",
+      "n_ess_pl": "rodzinach",
+      "n_ess_sg": "rodzinie",
+      "n_gen_pl": "rodzin",
+      "n_gen_sg": "rodziny",
+      "n_ins_pl": "rodzinami",
+      "n_ins_sg": "rodziną",
+      "n_nom_pl": "rodziny",
+      "n_nom_sg": "rodzina",
+      "n_voc_pl": "rodziny",
+      "n_voc_sg": "rodzino",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "rozmawiać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rozmawiać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "rozmawiałybyśmy",
+      "v_cond_1_pl_masc_hum": "rozmawialibyśmy",
+      "v_cond_1_sg_fem": "rozmawiałabym",
+      "v_cond_1_sg_masc": "rozmawiałbym",
+      "v_cond_2_pl": "rozmawiałybyście",
+      "v_cond_2_pl_masc_hum": "rozmawialibyście",
+      "v_cond_2_sg_fem": "rozmawiałabyś",
+      "v_cond_2_sg_masc": "rozmawiałbyś",
+      "v_cond_3_pl": "rozmawiałyby",
+      "v_cond_3_pl_masc_hum": "rozmawialiby",
+      "v_cond_3_sg_fem": "rozmawiałaby",
+      "v_cond_3_sg_masc": "rozmawiałby",
+      "v_cond_3_sg_neut": "rozmawiałoby",
+      "v_cvb": "rozmawiając",
+      "v_fut_1_pl": "będziemy rozmawiały",
+      "v_fut_1_pl_masc_hum": "będziemy rozmawiali",
+      "v_fut_1_sg_fem": "będę rozmawiała",
+      "v_fut_1_sg_masc": "będę rozmawiał",
+      "v_fut_2_pl": "będziecie rozmawiały",
+      "v_fut_2_pl_masc_hum": "będziecie rozmawiali",
+      "v_fut_2_sg_fem": "będziesz rozmawiała",
+      "v_fut_2_sg_masc": "będziesz rozmawiał",
+      "v_fut_3_pl": "będą rozmawiały",
+      "v_fut_3_pl_masc_hum": "będą rozmawiali",
+      "v_fut_3_sg_fem": "będzie rozmawiała",
+      "v_fut_3_sg_masc": "będzie rozmawiał",
+      "v_fut_3_sg_neut": "będzie rozmawiało",
+      "v_imp_1_pl": "rozmawiajmy",
+      "v_imp_2_pl": "rozmawiajcie",
+      "v_imp_2_sg": "rozmawiaj",
+      "v_imp_3_pl": "niech rozmawiają",
+      "v_imp_3_sg": "niech rozmawia",
+      "v_msdr": "rozmawianie",
+      "v_nfin": "rozmawiać",
+      "v_prs_1_pl": "rozmawiamy",
+      "v_prs_1_sg": "rozmawiam",
+      "v_prs_2_pl": "rozmawiacie",
+      "v_prs_2_sg": "rozmawiasz",
+      "v_prs_3_pl": "rozmawiają",
+      "v_prs_3_sg": "rozmawia",
+      "v_pst_1_pl": "rozmawiałyśmy",
+      "v_pst_1_pl_masc_hum": "rozmawialiśmy",
+      "v_pst_1_sg_fem": "rozmawiałam",
+      "v_pst_1_sg_masc": "rozmawiałem",
+      "v_pst_2_pl": "rozmawiałyście",
+      "v_pst_2_pl_masc_hum": "rozmawialiście",
+      "v_pst_2_sg_fem": "rozmawiałaś",
+      "v_pst_2_sg_masc": "rozmawiałeś",
+      "v_pst_3_pl": "rozmawiały",
+      "v_pst_3_pl_masc_hum": "rozmawiali",
+      "v_pst_3_sg_fem": "rozmawiała",
+      "v_pst_3_sg_masc": "rozmawiał",
+      "v_pst_3_sg_neut": "rozmawiało",
+      "v_ptcp_pst_act_pl": "rozmawiające",
+      "v_ptcp_pst_act_pl_masc_hum": "rozmawiający",
+      "v_ptcp_pst_act_sg_fem": "rozmawiająca",
+      "v_ptcp_pst_act_sg_masc": "rozmawiający",
+      "v_ptcp_pst_act_sg_neut": "rozmawiające",
+      "v_ptcp_pst_pass": "rozmawiano"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ruszać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ruszać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "ruszaj"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "rzecz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rzecz",
+    "inflections": {
+      "n_acc_pl": "rzeczy",
+      "n_acc_sg": "rzecz",
+      "n_dat_pl": "rzeczom",
+      "n_dat_sg": "rzeczy",
+      "n_ess_pl": "rzeczach",
+      "n_ess_sg": "rzeczy",
+      "n_gen_pl": "rzeczy",
+      "n_gen_sg": "rzeczy",
+      "n_ins_pl": "rzeczami",
+      "n_ins_sg": "rzeczą",
+      "n_nom_pl": "rzeczy",
+      "n_nom_sg": "rzecz",
+      "n_voc_pl": "rzeczy",
+      "n_voc_sg": "rzeczy",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "sam": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sam",
+    "inflections": {
+      "adj_acc_pl": "same",
+      "adj_dat_pl": "samym",
+      "adj_ess_pl": "samych",
+      "adj_fem_acc_sg": "samą",
+      "adj_fem_dat_sg": "samej",
+      "adj_fem_ess_sg": "samej",
+      "adj_fem_gen_sg": "samej",
+      "adj_fem_ins_sg": "samą",
+      "adj_fem_nom_sg": "sama",
+      "adj_gen_pl": "samych",
+      "adj_ins_pl": "samymi",
+      "adj_masc_anim_acc_sg": "samego",
+      "adj_masc_dat_sg": "samemu",
+      "adj_masc_ess_sg": "samym",
+      "adj_masc_gen_sg": "samego",
+      "adj_masc_hum_acc_pl": "samych",
+      "adj_masc_hum_acc_sg": "samego",
+      "adj_masc_hum_nom_pl": "sami",
+      "adj_masc_inan_acc_sg": "sam",
+      "adj_masc_ins_sg": "samym",
+      "adj_masc_nom_sg": "sam",
+      "adj_neut_acc_sg": "samo",
+      "adj_neut_dat_sg": "samemu",
+      "adj_neut_ess_sg": "samym",
+      "adj_neut_gen_sg": "samego",
+      "adj_neut_ins_sg": "samym",
+      "adj_neut_nom_sg": "samo",
+      "adj_nom_pl": "same",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "samochód": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "samochód",
+    "inflections": {
+      "n_acc_pl": "samochody",
+      "n_acc_sg": "samochód",
+      "n_dat_pl": "samochodom",
+      "n_dat_sg": "samochodowi",
+      "n_ess_pl": "samochodach",
+      "n_ess_sg": "samochodzie",
+      "n_gen_pl": "samochodów",
+      "n_gen_sg": "samochodu",
+      "n_ins_pl": "samochodami",
+      "n_ins_sg": "samochodem",
+      "n_nom_pl": "samochody",
+      "n_nom_sg": "samochód",
+      "n_voc_pl": "samochody",
+      "n_voc_sg": "samochodzie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "serce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "serce",
+    "inflections": {
+      "n_acc_pl": "serca",
+      "n_acc_sg": "serce",
+      "n_dat_pl": "sercom",
+      "n_dat_sg": "sercu",
+      "n_ess_pl": "sercach",
+      "n_ess_sg": "sercu",
+      "n_gen_pl": "serc",
+      "n_gen_sg": "serca",
+      "n_ins_pl": "sercami",
+      "n_ins_sg": "sercem",
+      "n_nom_pl": "serca",
+      "n_nom_sg": "serce",
+      "n_voc_pl": "serca",
+      "n_voc_sg": "serce",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "siostra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "siostra",
+    "inflections": {
+      "n_acc_pl": "siostry",
+      "n_acc_sg": "siostrę",
+      "n_dat_pl": "siostrom",
+      "n_dat_sg": "siostrze",
+      "n_ess_pl": "siostrach",
+      "n_ess_sg": "siostrze",
+      "n_gen_pl": "sióstr",
+      "n_gen_sg": "siostry",
+      "n_ins_pl": "siostrami",
+      "n_ins_sg": "siostrą",
+      "n_nom_pl": "siostry",
+      "n_nom_sg": "siostra",
+      "n_voc_pl": "siostry",
+      "n_voc_sg": "siostro",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
   "się": {
     "antonyms": [],
     "base": "się",
@@ -527,6 +4387,554 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "skarb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skarb",
+    "inflections": {
+      "n_ess_sg": "skarbie",
+      "n_voc_sg": "skarbie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "spać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "spałybyśmy",
+      "v_cond_1_pl_masc_hum": "spalibyśmy",
+      "v_cond_1_sg_fem": "spałabym",
+      "v_cond_1_sg_masc": "spałbym",
+      "v_cond_2_pl": "spałybyście",
+      "v_cond_2_pl_masc_hum": "spalibyście",
+      "v_cond_2_sg_fem": "spałabyś",
+      "v_cond_2_sg_masc": "spałbyś",
+      "v_cond_3_pl": "spałyby",
+      "v_cond_3_pl_masc_hum": "spaliby",
+      "v_cond_3_sg_fem": "spałaby",
+      "v_cond_3_sg_masc": "spałby",
+      "v_cond_3_sg_neut": "spałoby",
+      "v_cvb": "śpiąc",
+      "v_fut_1_pl": "będziemy spały",
+      "v_fut_1_pl_masc_hum": "będziemy spali",
+      "v_fut_1_sg_fem": "będę spała",
+      "v_fut_1_sg_masc": "będę spał",
+      "v_fut_2_pl": "będziecie spały",
+      "v_fut_2_pl_masc_hum": "będziecie spali",
+      "v_fut_2_sg_fem": "będziesz spała",
+      "v_fut_2_sg_masc": "będziesz spał",
+      "v_fut_3_pl": "będą spały",
+      "v_fut_3_pl_masc_hum": "będą spali",
+      "v_fut_3_sg_fem": "będzie spała",
+      "v_fut_3_sg_masc": "będzie spał",
+      "v_fut_3_sg_neut": "będzie spało",
+      "v_imp_1_pl": "śpijmy",
+      "v_imp_2_pl": "śpijcie",
+      "v_imp_2_sg": "śpij",
+      "v_imp_3_pl": "niech śpią",
+      "v_imp_3_sg": "niech śpi",
+      "v_msdr": "spanie",
+      "v_nfin": "spać",
+      "v_prs_1_pl": "śpimy",
+      "v_prs_1_sg": "śpię",
+      "v_prs_2_pl": "śpicie",
+      "v_prs_2_sg": "śpisz",
+      "v_prs_3_pl": "śpią",
+      "v_prs_3_sg": "śpi",
+      "v_pst_1_pl": "spałyśmy",
+      "v_pst_1_pl_masc_hum": "spaliśmy",
+      "v_pst_1_sg_fem": "spałam",
+      "v_pst_1_sg_masc": "spałem",
+      "v_pst_2_pl": "spałyście",
+      "v_pst_2_pl_masc_hum": "spaliście",
+      "v_pst_2_sg_fem": "spałaś",
+      "v_pst_2_sg_masc": "spałeś",
+      "v_pst_3_pl": "spały",
+      "v_pst_3_pl_masc_hum": "spali",
+      "v_pst_3_sg_fem": "spała",
+      "v_pst_3_sg_masc": "spał",
+      "v_pst_3_sg_neut": "spało",
+      "v_ptcp_pst_act_pl": "śpiące",
+      "v_ptcp_pst_act_pl_masc_hum": "śpiący",
+      "v_ptcp_pst_act_sg_fem": "śpiąca",
+      "v_ptcp_pst_act_sg_masc": "śpiący",
+      "v_ptcp_pst_act_sg_neut": "śpiące",
+      "v_ptcp_pst_pass": "spano"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sposób": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sposób",
+    "inflections": {
+      "n_acc_pl": "sposoby",
+      "n_acc_sg": "sposób",
+      "n_dat_pl": "sposobom",
+      "n_dat_sg": "sposobowi",
+      "n_ess_pl": "sposobach",
+      "n_ess_sg": "sposobie",
+      "n_gen_pl": "sposobów",
+      "n_gen_sg": "sposobu",
+      "n_ins_pl": "sposobami",
+      "n_ins_sg": "sposobem",
+      "n_nom_pl": "sposoby",
+      "n_nom_sg": "sposób",
+      "n_voc_pl": "sposoby",
+      "n_voc_sg": "sposobie",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "spotkanie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spotkanie",
+    "inflections": {
+      "n_acc_pl": "spotkania",
+      "n_acc_sg": "spotkanie",
+      "n_dat_pl": "spotkaniom",
+      "n_dat_sg": "spotkaniu",
+      "n_ess_pl": "spotkaniach",
+      "n_ess_sg": "spotkaniu",
+      "n_gen_pl": "spotkań",
+      "n_gen_sg": "spotkania",
+      "n_ins_pl": "spotkaniami",
+      "n_ins_sg": "spotkaniem",
+      "n_nom_pl": "spotkania",
+      "n_nom_sg": "spotkanie",
+      "n_voc_pl": "spotkania",
+      "n_voc_sg": "spotkanie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "spotkać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spotkać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "spotkałybyśmy",
+      "v_cond_1_pl_masc_hum": "spotkalibyśmy",
+      "v_cond_1_sg_fem": "spotkałabym",
+      "v_cond_1_sg_masc": "spotkałbym",
+      "v_cond_2_pl": "spotkałybyście",
+      "v_cond_2_pl_masc_hum": "spotkalibyście",
+      "v_cond_2_sg_fem": "spotkałabyś",
+      "v_cond_2_sg_masc": "spotkałbyś",
+      "v_cond_3_pl": "spotkałyby",
+      "v_cond_3_pl_masc_hum": "spotkaliby",
+      "v_cond_3_sg_fem": "spotkałaby",
+      "v_cond_3_sg_masc": "spotkałby",
+      "v_cond_3_sg_neut": "spotkałoby",
+      "v_cvb_pst": "spotkawszy",
+      "v_fut_1_pl": "spotkamy",
+      "v_fut_1_sg": "spotkam",
+      "v_fut_2_pl": "spotkacie",
+      "v_fut_2_sg": "spotkasz",
+      "v_fut_3_pl": "spotkają",
+      "v_fut_3_sg": "spotka",
+      "v_imp_1_pl": "spotkajmy",
+      "v_imp_1_sg": "niech spotkam",
+      "v_imp_2_pl": "spotkajcie",
+      "v_imp_2_sg": "spotkaj",
+      "v_imp_3_pl": "niech spotkają",
+      "v_imp_3_sg": "niech spotka",
+      "v_msdr": "spotkanie",
+      "v_nfin": "spotkać",
+      "v_pst_1_pl": "spotkałyśmy",
+      "v_pst_1_pl_masc_hum": "spotkaliśmy",
+      "v_pst_1_sg_fem": "spotkałam",
+      "v_pst_1_sg_masc": "spotkałem",
+      "v_pst_2_pl": "spotkałyście",
+      "v_pst_2_pl_masc_hum": "spotkaliście",
+      "v_pst_2_sg_fem": "spotkałaś",
+      "v_pst_2_sg_masc": "spotkałeś",
+      "v_pst_3_pl": "spotkały",
+      "v_pst_3_pl_masc_hum": "spotkali",
+      "v_pst_3_sg_fem": "spotkała",
+      "v_pst_3_sg_masc": "spotkał",
+      "v_pst_3_sg_neut": "spotkało",
+      "v_ptcp_pst_pass": "spotkano",
+      "v_ptcp_pst_pass_pl": "spotkane",
+      "v_ptcp_pst_pass_pl_masc_hum": "spotkani",
+      "v_ptcp_pst_pass_sg_fem": "spotkana",
+      "v_ptcp_pst_pass_sg_masc": "spotkany",
+      "v_ptcp_pst_pass_sg_neut": "spotkane"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sprawa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sprawa",
+    "inflections": {
+      "n_acc_pl": "sprawy",
+      "n_acc_sg": "sprawę",
+      "n_dat_pl": "sprawom",
+      "n_dat_sg": "sprawie",
+      "n_ess_pl": "sprawach",
+      "n_ess_sg": "sprawie",
+      "n_gen_pl": "spraw",
+      "n_gen_sg": "sprawy",
+      "n_ins_pl": "sprawami",
+      "n_ins_sg": "sprawą",
+      "n_nom_pl": "sprawy",
+      "n_nom_sg": "sprawa",
+      "n_voc_pl": "sprawy",
+      "n_voc_sg": "sprawo",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "sprawdzić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sprawdzić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "sprawdziłybyśmy",
+      "v_cond_1_pl_masc_hum": "sprawdzilibyśmy",
+      "v_cond_1_sg_fem": "sprawdziłabym",
+      "v_cond_1_sg_masc": "sprawdziłbym",
+      "v_cond_2_pl": "sprawdziłybyście",
+      "v_cond_2_pl_masc_hum": "sprawdzilibyście",
+      "v_cond_2_sg_fem": "sprawdziłabyś",
+      "v_cond_2_sg_masc": "sprawdziłbyś",
+      "v_cond_3_pl": "sprawdziłyby",
+      "v_cond_3_pl_masc_hum": "sprawdziliby",
+      "v_cond_3_sg_fem": "sprawdziłaby",
+      "v_cond_3_sg_masc": "sprawdziłby",
+      "v_cond_3_sg_neut": "sprawdziłoby",
+      "v_cvb_pst": "sprawdziwszy",
+      "v_fut_1_pl": "sprawdzimy",
+      "v_fut_1_sg": "sprawdzę",
+      "v_fut_2_pl": "sprawdzicie",
+      "v_fut_2_sg": "sprawdzisz",
+      "v_fut_3_pl": "sprawdzą",
+      "v_fut_3_sg": "sprawdzi",
+      "v_imp_1_pl": "sprawdźmy",
+      "v_imp_1_sg": "niech sprawdzę",
+      "v_imp_2_pl": "sprawdźcie",
+      "v_imp_2_sg": "sprawdź",
+      "v_imp_3_pl": "niech sprawdzą",
+      "v_imp_3_sg": "niech sprawdzi",
+      "v_msdr": "sprawdzenie",
+      "v_nfin": "sprawdzić",
+      "v_pst_1_pl": "sprawdziłyśmy",
+      "v_pst_1_pl_masc_hum": "sprawdziliśmy",
+      "v_pst_1_sg_fem": "sprawdziłam",
+      "v_pst_1_sg_masc": "sprawdziłem",
+      "v_pst_2_pl": "sprawdziłyście",
+      "v_pst_2_pl_masc_hum": "sprawdziliście",
+      "v_pst_2_sg_fem": "sprawdziłaś",
+      "v_pst_2_sg_masc": "sprawdziłeś",
+      "v_pst_3_pl": "sprawdziły",
+      "v_pst_3_pl_masc_hum": "sprawdzili",
+      "v_pst_3_sg_fem": "sprawdziła",
+      "v_pst_3_sg_masc": "sprawdził",
+      "v_pst_3_sg_neut": "sprawdziło",
+      "v_ptcp_pst_pass": "sprawdzono",
+      "v_ptcp_pst_pass_pl": "sprawdzone",
+      "v_ptcp_pst_pass_pl_masc_hum": "sprawdzeni",
+      "v_ptcp_pst_pass_sg_fem": "sprawdzona",
+      "v_ptcp_pst_pass_sg_masc": "sprawdzony",
+      "v_ptcp_pst_pass_sg_neut": "sprawdzone"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "spróbować": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spróbować",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "spróbowałybyśmy",
+      "v_cond_1_pl_masc_hum": "spróbowalibyśmy",
+      "v_cond_1_sg_fem": "spróbowałabym",
+      "v_cond_1_sg_masc": "spróbowałbym",
+      "v_cond_2_pl": "spróbowałybyście",
+      "v_cond_2_pl_masc_hum": "spróbowalibyście",
+      "v_cond_2_sg_fem": "spróbowałabyś",
+      "v_cond_2_sg_masc": "spróbowałbyś",
+      "v_cond_3_pl": "spróbowałyby",
+      "v_cond_3_pl_masc_hum": "spróbowaliby",
+      "v_cond_3_sg_fem": "spróbowałaby",
+      "v_cond_3_sg_masc": "spróbowałby",
+      "v_cond_3_sg_neut": "spróbowałoby",
+      "v_cvb_pst": "spróbowawszy",
+      "v_fut_1_pl": "spróbujemy",
+      "v_fut_1_sg": "spróbuję",
+      "v_fut_2_pl": "spróbujecie",
+      "v_fut_2_sg": "spróbujesz",
+      "v_fut_3_pl": "spróbują",
+      "v_fut_3_sg": "spróbuje",
+      "v_imp_1_pl": "spróbujmy",
+      "v_imp_1_sg": "niech spróbuję",
+      "v_imp_2_pl": "spróbujcie",
+      "v_imp_2_sg": "spróbuj",
+      "v_imp_3_pl": "niech spróbują",
+      "v_imp_3_sg": "niech spróbuje",
+      "v_msdr": "spróbowanie",
+      "v_nfin": "spróbować",
+      "v_pst_1_pl": "spróbowałyśmy",
+      "v_pst_1_pl_masc_hum": "spróbowaliśmy",
+      "v_pst_1_sg_fem": "spróbowałam",
+      "v_pst_1_sg_masc": "spróbowałem",
+      "v_pst_2_pl": "spróbowałyście",
+      "v_pst_2_pl_masc_hum": "spróbowaliście",
+      "v_pst_2_sg_fem": "spróbowałaś",
+      "v_pst_2_sg_masc": "spróbowałeś",
+      "v_pst_3_pl": "spróbowały",
+      "v_pst_3_pl_masc_hum": "spróbowali",
+      "v_pst_3_sg_fem": "spróbowała",
+      "v_pst_3_sg_masc": "spróbował",
+      "v_pst_3_sg_neut": "spróbowało",
+      "v_ptcp_pst_pass": "spróbowano",
+      "v_ptcp_pst_pass_pl": "spróbowane",
+      "v_ptcp_pst_pass_pl_masc_hum": "spróbowani",
+      "v_ptcp_pst_pass_sg_fem": "spróbowana",
+      "v_ptcp_pst_pass_sg_masc": "spróbowany",
+      "v_ptcp_pst_pass_sg_neut": "spróbowane"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "stan": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stan",
+    "inflections": {
+      "n_ess_sg": "stanie",
+      "n_voc_sg": "stanie",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "stary": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stary",
+    "inflections": {
+      "adj_acc_pl": "stare",
+      "adj_dat_pl": "starym",
+      "adj_ess_pl": "starych",
+      "adj_fem_acc_sg": "starą",
+      "adj_fem_dat_sg": "starej",
+      "adj_fem_ess_sg": "starej",
+      "adj_fem_gen_sg": "starej",
+      "adj_fem_ins_sg": "starą",
+      "adj_fem_nom_sg": "stara",
+      "adj_gen_pl": "starych",
+      "adj_ins_pl": "starymi",
+      "adj_masc_anim_acc_sg": "starego",
+      "adj_masc_dat_sg": "staremu",
+      "adj_masc_ess_sg": "starym",
+      "adj_masc_gen_sg": "starego",
+      "adj_masc_hum_acc_pl": "starych",
+      "adj_masc_hum_acc_sg": "starego",
+      "adj_masc_hum_nom_pl": "starzy",
+      "adj_masc_inan_acc_sg": "stary",
+      "adj_masc_ins_sg": "starym",
+      "adj_masc_nom_sg": "stary",
+      "adj_neut_acc_sg": "stare",
+      "adj_neut_dat_sg": "staremu",
+      "adj_neut_ess_sg": "starym",
+      "adj_neut_gen_sg": "starego",
+      "adj_neut_ins_sg": "starym",
+      "adj_neut_nom_sg": "stare",
+      "adj_nom_pl": "stare",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "strona": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "strona",
+    "inflections": {
+      "n_acc_pl": "strony",
+      "n_acc_sg": "stronę",
+      "n_dat_sg": "stronie",
+      "n_ess_sg": "stronie",
+      "n_gen_sg": "strony",
+      "n_nom_pl": "strony",
+      "n_voc_pl": "strony",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "syn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "syn",
+    "inflections": {
+      "n_acc_pl": "synów",
+      "n_acc_sg": "syna",
+      "n_dat_pl": "synom",
+      "n_dat_sg": "synowi",
+      "n_ess_pl": "synach",
+      "n_ess_sg": "synu",
+      "n_gen_pl": "synów",
+      "n_gen_sg": "syna",
+      "n_ins_pl": "synami",
+      "n_ins_sg": "synem",
+      "n_nom_pl": "synowie",
+      "n_nom_sg": "syn",
+      "n_voc_pl": "synowie",
+      "n_voc_sg": "synu",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "szansa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "szansa",
+    "inflections": {
+      "n_acc_sg": "szansę",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "szef": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "szef",
+    "inflections": {
+      "n_ess_sg": "szefie",
+      "n_voc_sg": "szefie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "szkoła": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "szkoła",
+    "inflections": {
+      "n_acc_pl": "szkoły",
+      "n_dat_sg": "szkole",
+      "n_ess_sg": "szkole",
+      "n_gen_sg": "szkoły",
+      "n_nom_pl": "szkoły",
+      "n_voc_pl": "szkoły",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "sądzić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sądzić",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "sądzę",
+      "v_prs_2_sg": "sądzisz"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "słuchać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "słuchać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "słuchaj",
+      "v_prs_1_sg": "słucham"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "słyszeć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "słyszeć",
+    "inflections": {
+      "regulars": [],
+      "v_prs_2_sg": "słyszysz",
+      "v_pst_1_sg_masc": "słyszałem"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
     ]
   },
   "tak": {
@@ -546,6 +4954,74 @@
       "adverb"
     ]
   },
+  "tama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tama",
+    "inflections": {
+      "n_gen_pl": "tam",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "tata": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tata",
+    "inflections": {
+      "n_acc_pl": "tatów",
+      "n_acc_sg": "tatę",
+      "n_dat_pl": "tatom",
+      "n_dat_sg": "tacie",
+      "n_ess_pl": "tatach",
+      "n_ess_sg": "tacie",
+      "n_gen_pl": "tatów",
+      "n_gen_sg": "taty",
+      "n_ins_pl": "tatami",
+      "n_ins_sg": "tatą",
+      "n_nom_pl": "tatowie",
+      "n_nom_sg": "tata",
+      "n_voc_pl": "tatowie",
+      "n_voc_sg": "tato",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tato": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tato",
+    "inflections": {
+      "n_acc_pl": "tatów",
+      "n_acc_sg": "tatę",
+      "n_dat_pl": "tatom",
+      "n_dat_sg": "tacie",
+      "n_ess_pl": "tatach",
+      "n_ess_sg": "tacie",
+      "n_gen_pl": "tatów",
+      "n_gen_sg": "taty",
+      "n_ins_pl": "tatami",
+      "n_ins_sg": "tatą",
+      "n_nom_pl": "tatowie",
+      "n_nom_sg": "tato",
+      "n_voc_pl": "tatowie",
+      "n_voc_sg": "tato",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
   "tego": {
     "antonyms": [],
     "base": "tego",
@@ -559,6 +5035,60 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "telefon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefon",
+    "inflections": {
+      "n_acc_pl": "telefony",
+      "n_acc_sg": "telefon",
+      "n_dat_pl": "telefonom",
+      "n_dat_sg": "telefonowi",
+      "n_ess_pl": "telefonach",
+      "n_ess_sg": "telefonie",
+      "n_gen_pl": "telefonów",
+      "n_gen_sg": "telefonu",
+      "n_ins_pl": "telefonami",
+      "n_ins_sg": "telefonem",
+      "n_nom_pl": "telefony",
+      "n_nom_sg": "telefon",
+      "n_voc_pl": "telefony",
+      "n_voc_sg": "telefonie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "temat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "temat",
+    "inflections": {
+      "n_acc_pl": "tematy",
+      "n_acc_sg": "temat",
+      "n_dat_pl": "tematom",
+      "n_dat_sg": "tematowi",
+      "n_ess_pl": "tematach",
+      "n_ess_sg": "temacie",
+      "n_gen_pl": "tematów",
+      "n_gen_sg": "tematu",
+      "n_ins_pl": "tematami",
+      "n_ins_sg": "tematem",
+      "n_nom_pl": "tematy",
+      "n_nom_sg": "temat",
+      "n_voc_pl": "tematy",
+      "n_voc_sg": "temacie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
     ]
   },
   "teraz": {
@@ -591,6 +5121,111 @@
       "pronoun"
     ]
   },
+  "tom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tom",
+    "inflections": {
+      "n_acc_pl": "tomy",
+      "n_acc_sg": "tom",
+      "n_dat_pl": "tomom",
+      "n_dat_sg": "tomowi",
+      "n_ess_pl": "tomach",
+      "n_ess_sg": "tomie",
+      "n_gen_pl": "tomów",
+      "n_gen_sg": "tomu",
+      "n_ins_pl": "tomami",
+      "n_ins_sg": "tomem",
+      "n_nom_pl": "tomy",
+      "n_nom_sg": "tom",
+      "n_voc_pl": "tomy",
+      "n_voc_sg": "tomie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "trzymać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trzymać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "trzymałybyśmy",
+      "v_cond_1_pl_masc_hum": "trzymalibyśmy",
+      "v_cond_1_sg_fem": "trzymałabym",
+      "v_cond_1_sg_masc": "trzymałbym",
+      "v_cond_2_pl": "trzymałybyście",
+      "v_cond_2_pl_masc_hum": "trzymalibyście",
+      "v_cond_2_sg_fem": "trzymałabyś",
+      "v_cond_2_sg_masc": "trzymałbyś",
+      "v_cond_3_pl": "trzymałyby",
+      "v_cond_3_pl_masc_hum": "trzymaliby",
+      "v_cond_3_sg_fem": "trzymałaby",
+      "v_cond_3_sg_masc": "trzymałby",
+      "v_cond_3_sg_neut": "trzymałoby",
+      "v_cvb": "trzymając",
+      "v_fut_1_pl": "będziemy trzymały",
+      "v_fut_1_pl_masc_hum": "będziemy trzymali",
+      "v_fut_1_sg_fem": "będę trzymała",
+      "v_fut_1_sg_masc": "będę trzymał",
+      "v_fut_2_pl": "będziecie trzymały",
+      "v_fut_2_pl_masc_hum": "będziecie trzymali",
+      "v_fut_2_sg_fem": "będziesz trzymała",
+      "v_fut_2_sg_masc": "będziesz trzymał",
+      "v_fut_3_pl": "będą trzymały",
+      "v_fut_3_pl_masc_hum": "będą trzymali",
+      "v_fut_3_sg_fem": "będzie trzymała",
+      "v_fut_3_sg_masc": "będzie trzymał",
+      "v_fut_3_sg_neut": "będzie trzymało",
+      "v_imp_1_pl": "trzymajmy",
+      "v_imp_2_pl": "trzymajcie",
+      "v_imp_2_sg": "trzymaj",
+      "v_imp_3_pl": "niech trzymają",
+      "v_imp_3_sg": "niech trzyma",
+      "v_msdr": "trzymanie",
+      "v_nfin": "trzymać",
+      "v_prs_1_pl": "trzymamy",
+      "v_prs_1_sg": "trzymam",
+      "v_prs_2_pl": "trzymacie",
+      "v_prs_2_sg": "trzymasz",
+      "v_prs_3_pl": "trzymają",
+      "v_prs_3_sg": "trzyma",
+      "v_pst_1_pl": "trzymałyśmy",
+      "v_pst_1_pl_masc_hum": "trzymaliśmy",
+      "v_pst_1_sg_fem": "trzymałam",
+      "v_pst_1_sg_masc": "trzymałem",
+      "v_pst_2_pl": "trzymałyście",
+      "v_pst_2_pl_masc_hum": "trzymaliście",
+      "v_pst_2_sg_fem": "trzymałaś",
+      "v_pst_2_sg_masc": "trzymałeś",
+      "v_pst_3_pl": "trzymały",
+      "v_pst_3_pl_masc_hum": "trzymali",
+      "v_pst_3_sg_fem": "trzymała",
+      "v_pst_3_sg_masc": "trzymał",
+      "v_pst_3_sg_neut": "trzymało",
+      "v_ptcp_pst_act_pl": "trzymające",
+      "v_ptcp_pst_act_pl_masc_hum": "trzymający",
+      "v_ptcp_pst_act_sg_fem": "trzymająca",
+      "v_ptcp_pst_act_sg_masc": "trzymający",
+      "v_ptcp_pst_act_sg_neut": "trzymające",
+      "v_ptcp_pst_pass": "trzymano",
+      "v_ptcp_pst_pass_pl": "trzymane",
+      "v_ptcp_pst_pass_pl_masc_hum": "trzymani",
+      "v_ptcp_pst_pass_sg_fem": "trzymana",
+      "v_ptcp_pst_pass_sg_masc": "trzymany",
+      "v_ptcp_pst_pass_sg_neut": "trzymane"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
   "tu": {
     "antonyms": [],
     "base": "tu",
@@ -606,6 +5241,33 @@
       "adverb"
     ]
   },
+  "twarz": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "twarz",
+    "inflections": {
+      "n_acc_pl": "twarze",
+      "n_acc_sg": "twarz",
+      "n_dat_pl": "twarzom",
+      "n_dat_sg": "twarzy",
+      "n_ess_pl": "twarzach",
+      "n_ess_sg": "twarzy",
+      "n_gen_pl": "twarzy",
+      "n_gen_sg": "twarzy",
+      "n_ins_pl": "twarzami",
+      "n_ins_sg": "twarzą",
+      "n_nom_pl": "twarze",
+      "n_nom_sg": "twarz",
+      "n_voc_pl": "twarze",
+      "n_voc_sg": "twarzy",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
   "ty": {
     "antonyms": [],
     "base": "ty",
@@ -619,6 +5281,33 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "tydzień": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tydzień",
+    "inflections": {
+      "n_acc_pl": "tygodnie",
+      "n_acc_sg": "tydzień",
+      "n_dat_pl": "tygodniom",
+      "n_dat_sg": "tygodniowi",
+      "n_ess_pl": "tygodniach",
+      "n_ess_sg": "tygodniu",
+      "n_gen_pl": "tygodni",
+      "n_gen_sg": "tygodnia",
+      "n_ins_pl": "tygodniami",
+      "n_ins_sg": "tygodniem",
+      "n_nom_pl": "tygodnie",
+      "n_nom_sg": "tydzień",
+      "n_voc_pl": "tygodnie",
+      "n_voc_sg": "tygodniu",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
     ]
   },
   "tylko": {
@@ -651,6 +5340,109 @@
       "pronoun"
     ]
   },
+  "tył": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tył",
+    "inflections": {
+      "n_ess_sg": "tyle",
+      "n_voc_sg": "tyle",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "tłumaczenie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tłumaczenie",
+    "inflections": {
+      "n_acc_pl": "tłumaczenia",
+      "n_acc_sg": "tłumaczenie",
+      "n_dat_pl": "tłumaczeniom",
+      "n_dat_sg": "tłumaczeniu",
+      "n_ess_pl": "tłumaczeniach",
+      "n_ess_sg": "tłumaczeniu",
+      "n_gen_pl": "tłumaczeń",
+      "n_gen_sg": "tłumaczenia",
+      "n_ins_pl": "tłumaczeniami",
+      "n_ins_sg": "tłumaczeniem",
+      "n_nom_pl": "tłumaczenia",
+      "n_nom_sg": "tłumaczenie",
+      "n_voc_pl": "tłumaczenia",
+      "n_voc_sg": "tłumaczenie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tłumaczyć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tłumaczyć",
+    "inflections": {
+      "regulars": [],
+      "v_msdr": "tłumaczenie"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "udo": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "udo",
+    "inflections": {
+      "n_acc_pl": "uda",
+      "n_gen_sg": "uda",
+      "n_nom_pl": "uda",
+      "n_voc_pl": "uda",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "uwaga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uwaga",
+    "inflections": {
+      "n_acc_sg": "uwagę",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "uważać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uważać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "uważaj",
+      "v_prs_1_sg": "uważam",
+      "v_prs_2_sg": "uważasz"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
   "w": {
     "antonyms": [],
     "base": "w",
@@ -664,6 +5456,293 @@
     "priority": 10,
     "types": [
       "preposition"
+    ]
+  },
+  "wacha": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wacha",
+    "inflections": {
+      "n_dat_sg": "wasze",
+      "n_ess_sg": "wasze",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ważny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ważny",
+    "inflections": {
+      "adj_acc_pl": "ważne",
+      "adj_neut_acc_sg": "ważne",
+      "adj_neut_nom_sg": "ważne",
+      "adj_nom_pl": "ważne",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wejście": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wejście",
+    "inflections": {
+      "n_gen_pl": "wejść",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "wiadomości": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wiadomości",
+    "inflections": {
+      "n_acc_sg": "wiadomości",
+      "n_dat_sg": "wiadomościom",
+      "n_ess_sg": "wiadomościach",
+      "n_gen_sg": "wiadomości",
+      "n_ins_sg": "wiadomościami",
+      "n_nom_sg": "wiadomości",
+      "n_voc_sg": "wiadomości",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "wiadomość": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wiadomość",
+    "inflections": {
+      "n_acc_pl": "wiadomości",
+      "n_acc_sg": "wiadomość",
+      "n_dat_pl": "wiadomościom",
+      "n_dat_sg": "wiadomości",
+      "n_ess_pl": "wiadomościach",
+      "n_ess_sg": "wiadomości",
+      "n_gen_pl": "wiadomości",
+      "n_gen_sg": "wiadomości",
+      "n_ins_pl": "wiadomościami",
+      "n_ins_sg": "wiadomością",
+      "n_nom_pl": "wiadomości",
+      "n_nom_sg": "wiadomość",
+      "n_voc_pl": "wiadomości",
+      "n_voc_sg": "wiadomości",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "widzenie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "widzenie",
+    "inflections": {
+      "n_acc_pl": "widzenia",
+      "n_gen_sg": "widzenia",
+      "n_nom_pl": "widzenia",
+      "n_voc_pl": "widzenia",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "widzieć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "widzieć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "widziałybyśmy",
+      "v_cond_1_pl_masc_hum": "widzielibyśmy",
+      "v_cond_1_sg_fem": "widziałabym",
+      "v_cond_1_sg_masc": "widziałbym",
+      "v_cond_2_pl": "widziałybyście",
+      "v_cond_2_pl_masc_hum": "widzielibyście",
+      "v_cond_2_sg_fem": "widziałabyś",
+      "v_cond_2_sg_masc": "widziałbyś",
+      "v_cond_3_pl": "widziałyby",
+      "v_cond_3_pl_masc_hum": "widzieliby",
+      "v_cond_3_sg_fem": "widziałaby",
+      "v_cond_3_sg_masc": "widziałby",
+      "v_cond_3_sg_neut": "widziałoby",
+      "v_cvb": "widząc",
+      "v_fut_1_pl": "będziemy widziały",
+      "v_fut_1_pl_masc_hum": "będziemy widzieli",
+      "v_fut_1_sg_fem": "będę widziała",
+      "v_fut_1_sg_masc": "będę widział",
+      "v_fut_2_pl": "będziecie widziały",
+      "v_fut_2_pl_masc_hum": "będziecie widzieli",
+      "v_fut_2_sg_fem": "będziesz widziała",
+      "v_fut_2_sg_masc": "będziesz widział",
+      "v_fut_3_pl": "będą widziały",
+      "v_fut_3_pl_masc_hum": "będą widzieli",
+      "v_fut_3_sg_fem": "będzie widziała",
+      "v_fut_3_sg_masc": "będzie widział",
+      "v_fut_3_sg_neut": "będzie widziało",
+      "v_imp_1_pl": "widźmy",
+      "v_imp_2_pl": "widźcie",
+      "v_imp_2_sg": "widź",
+      "v_imp_3_pl": "niech widzą",
+      "v_imp_3_sg": "niech widzi",
+      "v_msdr": "widzenie",
+      "v_nfin": "widzieć",
+      "v_prs_1_pl": "widzimy",
+      "v_prs_1_sg": "widzę",
+      "v_prs_2_pl": "widzicie",
+      "v_prs_2_sg": "widzisz",
+      "v_prs_3_pl": "widzą",
+      "v_prs_3_sg": "widzi",
+      "v_pst_1_pl": "widziałyśmy",
+      "v_pst_1_pl_masc_hum": "widzieliśmy",
+      "v_pst_1_sg_fem": "widziałam",
+      "v_pst_1_sg_masc": "widziałem",
+      "v_pst_2_pl": "widziałyście",
+      "v_pst_2_pl_masc_hum": "widzieliście",
+      "v_pst_2_sg_fem": "widziałaś",
+      "v_pst_2_sg_masc": "widziałeś",
+      "v_pst_3_pl": "widziały",
+      "v_pst_3_pl_masc_hum": "widzieli",
+      "v_pst_3_sg_fem": "widziała",
+      "v_pst_3_sg_masc": "widział",
+      "v_pst_3_sg_neut": "widziało",
+      "v_ptcp_pst_act_pl": "widzące",
+      "v_ptcp_pst_act_pl_masc_hum": "widzący",
+      "v_ptcp_pst_act_sg_fem": "widząca",
+      "v_ptcp_pst_act_sg_masc": "widzący",
+      "v_ptcp_pst_act_sg_neut": "widzące",
+      "v_ptcp_pst_pass": "widziano",
+      "v_ptcp_pst_pass_pl": "widziane",
+      "v_ptcp_pst_pass_pl_masc_hum": "widziani",
+      "v_ptcp_pst_pass_sg_fem": "widziana",
+      "v_ptcp_pst_pass_sg_masc": "widziany",
+      "v_ptcp_pst_pass_sg_neut": "widziane"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "wieczór": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wieczór",
+    "inflections": {
+      "n_acc_pl": "wieczory",
+      "n_acc_sg": "wieczór",
+      "n_dat_pl": "wieczorom",
+      "n_dat_sg": "wieczorowi",
+      "n_ess_pl": "wieczorach",
+      "n_ess_sg": "wieczorze",
+      "n_gen_pl": "wieczorów",
+      "n_gen_sg": "wieczoru",
+      "n_ins_pl": "wieczorami",
+      "n_ins_sg": "wieczorem",
+      "n_nom_pl": "wieczory",
+      "n_nom_sg": "wieczór",
+      "n_voc_pl": "wieczory",
+      "n_voc_sg": "wieczorze",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "wiek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wiek",
+    "inflections": {
+      "n_ess_sg": "wieku",
+      "n_gen_sg": "wieku",
+      "n_voc_sg": "wieku",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "wieko": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wieko",
+    "inflections": {
+      "n_dat_sg": "wieku",
+      "n_ess_sg": "wieku",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "wielki": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wielki",
+    "inflections": {
+      "adj_acc_pl": "wielkie",
+      "adj_dat_pl": "wielkim",
+      "adj_ess_pl": "wielkich",
+      "adj_fem_acc_sg": "wielką",
+      "adj_fem_dat_sg": "wielkiej",
+      "adj_fem_ess_sg": "wielkiej",
+      "adj_fem_gen_sg": "wielkiej",
+      "adj_fem_ins_sg": "wielką",
+      "adj_fem_nom_sg": "wielka",
+      "adj_gen_pl": "wielkich",
+      "adj_ins_pl": "wielkimi",
+      "adj_masc_anim_acc_sg": "wielkiego",
+      "adj_masc_dat_sg": "wielkiemu",
+      "adj_masc_ess_sg": "wielkim",
+      "adj_masc_gen_sg": "wielkiego",
+      "adj_masc_hum_acc_pl": "wielkich",
+      "adj_masc_hum_acc_sg": "wielkiego",
+      "adj_masc_hum_nom_pl": "wielcy",
+      "adj_masc_inan_acc_sg": "wielki",
+      "adj_masc_ins_sg": "wielkim",
+      "adj_masc_nom_sg": "wielki",
+      "adj_neut_acc_sg": "wielkie",
+      "adj_neut_dat_sg": "wielkiemu",
+      "adj_neut_ess_sg": "wielkim",
+      "adj_neut_gen_sg": "wielkiego",
+      "adj_neut_ins_sg": "wielkim",
+      "adj_neut_nom_sg": "wielkie",
+      "adj_nom_pl": "wielkie",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
     ]
   },
   "wiem": {
@@ -681,6 +5760,37 @@
       "verb"
     ]
   },
+  "wierzyć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wierzyć",
+    "inflections": {
+      "regulars": [],
+      "v_prs_1_sg": "wierzę"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "wino": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wino",
+    "inflections": {
+      "n_acc_pl": "wina",
+      "n_gen_sg": "wina",
+      "n_nom_pl": "wina",
+      "n_voc_pl": "wina",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
   "więc": {
     "antonyms": [],
     "base": "więc",
@@ -696,6 +5806,94 @@
       "conjunction"
     ]
   },
+  "większość": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "większość",
+    "inflections": {
+      "n_acc_pl": "większości",
+      "n_acc_sg": "większość",
+      "n_dat_pl": "większościom",
+      "n_dat_sg": "większości",
+      "n_ess_pl": "większościach",
+      "n_ess_sg": "większości",
+      "n_gen_pl": "większości",
+      "n_gen_sg": "większości",
+      "n_ins_pl": "większościami",
+      "n_ins_sg": "większością",
+      "n_nom_pl": "większości",
+      "n_nom_sg": "większość",
+      "n_voc_pl": "większości",
+      "n_voc_sg": "większości",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "wracać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wracać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "wracaj"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "wspólny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wspólny",
+    "inflections": {
+      "adj_masc_anim_acc_sg": "wspólnego",
+      "adj_masc_gen_sg": "wspólnego",
+      "adj_masc_hum_acc_sg": "wspólnego",
+      "adj_neut_gen_sg": "wspólnego",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "wszystek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wszystek",
+    "inflections": {
+      "adj_acc_pl": "wszystkie",
+      "adj_dat_pl": "wszystkim",
+      "adj_ess_pl": "wszystkich",
+      "adj_gen_pl": "wszystkich",
+      "adj_masc_anim_acc_sg": "wszystkiego",
+      "adj_masc_ess_sg": "wszystkim",
+      "adj_masc_gen_sg": "wszystkiego",
+      "adj_masc_hum_acc_pl": "wszystkich",
+      "adj_masc_hum_acc_sg": "wszystkiego",
+      "adj_masc_hum_nom_pl": "wszyscy",
+      "adj_masc_ins_sg": "wszystkim",
+      "adj_neut_acc_sg": "wszystko",
+      "adj_neut_ess_sg": "wszystkim",
+      "adj_neut_gen_sg": "wszystkiego",
+      "adj_neut_ins_sg": "wszystkim",
+      "adj_neut_nom_sg": "wszystko",
+      "adj_nom_pl": "wszystkie",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
   "wszystko": {
     "antonyms": [],
     "base": "wszystko",
@@ -709,6 +5907,123 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "wyglądać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wyglądać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_2_sg": "wyglądasz",
+      "v_prs_3_sg": "wygląda"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "wyjście": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wyjście",
+    "inflections": {
+      "n_gen_pl": "wyjść",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "wypadek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wypadek",
+    "inflections": {
+      "n_acc_pl": "wypadki",
+      "n_acc_sg": "wypadek",
+      "n_dat_pl": "wypadkom",
+      "n_dat_sg": "wypadkowi",
+      "n_ess_pl": "wypadkach",
+      "n_ess_sg": "wypadku",
+      "n_gen_pl": "wypadków",
+      "n_gen_sg": "wypadku",
+      "n_ins_pl": "wypadkami",
+      "n_ins_sg": "wypadkiem",
+      "n_nom_pl": "wypadki",
+      "n_nom_sg": "wypadek",
+      "n_voc_pl": "wypadki",
+      "n_voc_sg": "wypadku",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "wziąć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "wziąć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "wzięłybyśmy",
+      "v_cond_1_pl_masc_hum": "wzięlibyśmy",
+      "v_cond_1_sg_fem": "wzięłabym",
+      "v_cond_1_sg_masc": "wziąłbym",
+      "v_cond_2_pl": "wzięłybyście",
+      "v_cond_2_pl_masc_hum": "wzięlibyście",
+      "v_cond_2_sg_fem": "wzięłabyś",
+      "v_cond_2_sg_masc": "wziąłbyś",
+      "v_cond_3_pl": "wzięłyby",
+      "v_cond_3_pl_masc_hum": "wzięliby",
+      "v_cond_3_sg_fem": "wzięłaby",
+      "v_cond_3_sg_masc": "wziąłby",
+      "v_cond_3_sg_neut": "wzięłoby",
+      "v_cvb_pst": "wziąwszy",
+      "v_fut_1_pl": "weźmiemy",
+      "v_fut_1_sg": "wezmę",
+      "v_fut_2_pl": "weźmiecie",
+      "v_fut_2_sg": "weźmiesz",
+      "v_fut_3_pl": "wezmą",
+      "v_fut_3_sg": "weźmie",
+      "v_imp_1_pl": "weźmy",
+      "v_imp_1_sg": "niech wezmę",
+      "v_imp_2_pl": "weźcie",
+      "v_imp_2_sg": "weź",
+      "v_imp_3_pl": "niech wezmą",
+      "v_imp_3_sg": "niech weźmie",
+      "v_msdr": "wzięcie",
+      "v_nfin": "wziąć",
+      "v_pst_1_pl": "wzięłyśmy",
+      "v_pst_1_pl_masc_hum": "wzięliśmy",
+      "v_pst_1_sg_fem": "wzięłam",
+      "v_pst_1_sg_masc": "wziąłem",
+      "v_pst_2_pl": "wzięłyście",
+      "v_pst_2_pl_masc_hum": "wzięliście",
+      "v_pst_2_sg_fem": "wzięłaś",
+      "v_pst_2_sg_masc": "wziąłeś",
+      "v_pst_3_pl": "wzięły",
+      "v_pst_3_pl_masc_hum": "wzięli",
+      "v_pst_3_sg_fem": "wzięła",
+      "v_pst_3_sg_masc": "wziął",
+      "v_pst_3_sg_neut": "wzięło",
+      "v_ptcp_pst_pass": "wzięto",
+      "v_ptcp_pst_pass_pl": "wzięte",
+      "v_ptcp_pst_pass_pl_masc_hum": "wzięci",
+      "v_ptcp_pst_pass_sg_fem": "wzięta",
+      "v_ptcp_pst_pass_sg_masc": "wzięty",
+      "v_ptcp_pst_pass_sg_neut": "wzięte"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
     ]
   },
   "z": {
@@ -741,6 +6056,906 @@
       "preposition"
     ]
   },
+  "zabawny": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zabawny",
+    "inflections": {
+      "adj_acc_pl": "zabawne",
+      "adj_neut_acc_sg": "zabawne",
+      "adj_neut_nom_sg": "zabawne",
+      "adj_nom_pl": "zabawne",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "zabić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zabić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zabiłybyśmy",
+      "v_cond_1_pl_masc_hum": "zabilibyśmy",
+      "v_cond_1_sg_fem": "zabiłabym",
+      "v_cond_1_sg_masc": "zabiłbym",
+      "v_cond_2_pl": "zabiłybyście",
+      "v_cond_2_pl_masc_hum": "zabilibyście",
+      "v_cond_2_sg_fem": "zabiłabyś",
+      "v_cond_2_sg_masc": "zabiłbyś",
+      "v_cond_3_pl": "zabiłyby",
+      "v_cond_3_pl_masc_hum": "zabiliby",
+      "v_cond_3_sg_fem": "zabiłaby",
+      "v_cond_3_sg_masc": "zabiłby",
+      "v_cond_3_sg_neut": "zabiłoby",
+      "v_cvb_pst": "zabiwszy",
+      "v_fut_1_pl": "zabijemy",
+      "v_fut_1_sg": "zabiję",
+      "v_fut_2_pl": "zabijecie",
+      "v_fut_2_sg": "zabijesz",
+      "v_fut_3_pl": "zabiją",
+      "v_fut_3_sg": "zabije",
+      "v_imp_1_pl": "zabijmy",
+      "v_imp_1_sg": "niech zabiję",
+      "v_imp_2_pl": "zabijcie",
+      "v_imp_2_sg": "zabij",
+      "v_imp_3_pl": "niech zabiją",
+      "v_imp_3_sg": "niech zabije",
+      "v_msdr": "zabicie",
+      "v_nfin": "zabić",
+      "v_pst_1_pl": "zabiłyśmy",
+      "v_pst_1_pl_masc_hum": "zabiliśmy",
+      "v_pst_1_sg_fem": "zabiłam",
+      "v_pst_1_sg_masc": "zabiłem",
+      "v_pst_2_pl": "zabiłyście",
+      "v_pst_2_pl_masc_hum": "zabiliście",
+      "v_pst_2_sg_fem": "zabiłaś",
+      "v_pst_2_sg_masc": "zabiłeś",
+      "v_pst_3_pl": "zabiły",
+      "v_pst_3_pl_masc_hum": "zabili",
+      "v_pst_3_sg_fem": "zabiła",
+      "v_pst_3_sg_masc": "zabił",
+      "v_pst_3_sg_neut": "zabiło",
+      "v_ptcp_pst_pass": "zabito",
+      "v_ptcp_pst_pass_pl": "zabite",
+      "v_ptcp_pst_pass_pl_masc_hum": "zabici",
+      "v_ptcp_pst_pass_sg_fem": "zabita",
+      "v_ptcp_pst_pass_sg_masc": "zabity",
+      "v_ptcp_pst_pass_sg_neut": "zabite"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zabrać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zabrać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zabrałybyśmy",
+      "v_cond_1_pl_masc_hum": "zabralibyśmy",
+      "v_cond_1_sg_fem": "zabrałabym",
+      "v_cond_1_sg_masc": "zabrałbym",
+      "v_cond_2_pl": "zabrałybyście",
+      "v_cond_2_pl_masc_hum": "zabralibyście",
+      "v_cond_2_sg_fem": "zabrałabyś",
+      "v_cond_2_sg_masc": "zabrałbyś",
+      "v_cond_3_pl": "zabrałyby",
+      "v_cond_3_pl_masc_hum": "zabraliby",
+      "v_cond_3_sg_fem": "zabrałaby",
+      "v_cond_3_sg_masc": "zabrałby",
+      "v_cond_3_sg_neut": "zabrałoby",
+      "v_cvb_pst": "zabrawszy",
+      "v_fut_1_pl": "zabierzemy",
+      "v_fut_1_sg": "zabiorę",
+      "v_fut_2_pl": "zabierzecie",
+      "v_fut_2_sg": "zabierzesz",
+      "v_fut_3_pl": "zabiorą",
+      "v_fut_3_sg": "zabierze",
+      "v_imp_1_pl": "zabierzmy",
+      "v_imp_1_sg": "niech zabiorę",
+      "v_imp_2_pl": "zabierzcie",
+      "v_imp_2_sg": "zabierz",
+      "v_imp_3_pl": "niech zabiorą",
+      "v_imp_3_sg": "niech zabierze",
+      "v_msdr": "zabranie",
+      "v_nfin": "zabrać",
+      "v_pst_1_pl": "zabrałyśmy",
+      "v_pst_1_pl_masc_hum": "zabraliśmy",
+      "v_pst_1_sg_fem": "zabrałam",
+      "v_pst_1_sg_masc": "zabrałem",
+      "v_pst_2_pl": "zabrałyście",
+      "v_pst_2_pl_masc_hum": "zabraliście",
+      "v_pst_2_sg_fem": "zabrałaś",
+      "v_pst_2_sg_masc": "zabrałeś",
+      "v_pst_3_pl": "zabrały",
+      "v_pst_3_pl_masc_hum": "zabrali",
+      "v_pst_3_sg_fem": "zabrała",
+      "v_pst_3_sg_masc": "zabrał",
+      "v_pst_3_sg_neut": "zabrało",
+      "v_ptcp_pst_pass": "zabrano",
+      "v_ptcp_pst_pass_pl": "zabrane",
+      "v_ptcp_pst_pass_pl_masc_hum": "zabrani",
+      "v_ptcp_pst_pass_sg_fem": "zabrana",
+      "v_ptcp_pst_pass_sg_masc": "zabrany",
+      "v_ptcp_pst_pass_sg_neut": "zabrane"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zaczekać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zaczekać",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "zaczekaj"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "zaczynać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zaczynać",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "zaczyna"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "zacząć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zacząć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zaczęłybyśmy",
+      "v_cond_1_pl_masc_hum": "zaczęlibyśmy",
+      "v_cond_1_sg_fem": "zaczęłabym",
+      "v_cond_1_sg_masc": "zacząłbym",
+      "v_cond_2_pl": "zaczęłybyście",
+      "v_cond_2_pl_masc_hum": "zaczęlibyście",
+      "v_cond_2_sg_fem": "zaczęłabyś",
+      "v_cond_2_sg_masc": "zacząłbyś",
+      "v_cond_3_pl": "zaczęłyby",
+      "v_cond_3_pl_masc_hum": "zaczęliby",
+      "v_cond_3_sg_fem": "zaczęłaby",
+      "v_cond_3_sg_masc": "zacząłby",
+      "v_cond_3_sg_neut": "zaczęłoby",
+      "v_cvb_pst": "zacząwszy",
+      "v_fut_1_pl": "zaczniemy",
+      "v_fut_1_sg": "zacznę",
+      "v_fut_2_pl": "zaczniecie",
+      "v_fut_2_sg": "zaczniesz",
+      "v_fut_3_pl": "zaczną",
+      "v_fut_3_sg": "zacznie",
+      "v_imp_1_pl": "zacznijmy",
+      "v_imp_1_sg": "niech zacznę",
+      "v_imp_2_pl": "zacznijcie",
+      "v_imp_2_sg": "zacznij",
+      "v_imp_3_pl": "niech zaczną",
+      "v_imp_3_sg": "niech zacznie",
+      "v_msdr": "zaczęcie",
+      "v_nfin": "zacząć",
+      "v_pst_1_pl": "zaczęłyśmy",
+      "v_pst_1_pl_masc_hum": "zaczęliśmy",
+      "v_pst_1_sg_fem": "zaczęłam",
+      "v_pst_1_sg_masc": "zacząłem",
+      "v_pst_2_pl": "zaczęłyście",
+      "v_pst_2_pl_masc_hum": "zaczęliście",
+      "v_pst_2_sg_fem": "zaczęłaś",
+      "v_pst_2_sg_masc": "zacząłeś",
+      "v_pst_3_pl": "zaczęły",
+      "v_pst_3_pl_masc_hum": "zaczęli",
+      "v_pst_3_sg_fem": "zaczęła",
+      "v_pst_3_sg_masc": "zaczął",
+      "v_pst_3_sg_neut": "zaczęło",
+      "v_ptcp_pst_pass": "zaczęto",
+      "v_ptcp_pst_pass_pl": "zaczęte",
+      "v_ptcp_pst_pass_pl_masc_hum": "zaczęci",
+      "v_ptcp_pst_pass_sg_fem": "zaczęta",
+      "v_ptcp_pst_pass_sg_masc": "zaczęty",
+      "v_ptcp_pst_pass_sg_neut": "zaczęte"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zadzwonić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zadzwonić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zadzwoniłybyśmy",
+      "v_cond_1_pl_masc_hum": "zadzwonilibyśmy",
+      "v_cond_1_sg_fem": "zadzwoniłabym",
+      "v_cond_1_sg_masc": "zadzwoniłbym",
+      "v_cond_2_pl": "zadzwoniłybyście",
+      "v_cond_2_pl_masc_hum": "zadzwonilibyście",
+      "v_cond_2_sg_fem": "zadzwoniłabyś",
+      "v_cond_2_sg_masc": "zadzwoniłbyś",
+      "v_cond_3_pl": "zadzwoniłyby",
+      "v_cond_3_pl_masc_hum": "zadzwoniliby",
+      "v_cond_3_sg_fem": "zadzwoniłaby",
+      "v_cond_3_sg_masc": "zadzwoniłby",
+      "v_cond_3_sg_neut": "zadzwoniłoby",
+      "v_cvb_pst": "zadzwoniwszy",
+      "v_fut_1_pl": "zadzwonimy",
+      "v_fut_1_sg": "zadzwonię",
+      "v_fut_2_pl": "zadzwonicie",
+      "v_fut_2_sg": "zadzwonisz",
+      "v_fut_3_pl": "zadzwonią",
+      "v_fut_3_sg": "zadzwoni",
+      "v_imp_1_pl": "zadzwońmy",
+      "v_imp_1_sg": "niech zadzwonię",
+      "v_imp_2_pl": "zadzwońcie",
+      "v_imp_2_sg": "zadzwoń",
+      "v_imp_3_pl": "niech zadzwonią",
+      "v_imp_3_sg": "niech zadzwoni",
+      "v_msdr": "zadzwonienie",
+      "v_nfin": "zadzwonić",
+      "v_pst_1_pl": "zadzwoniłyśmy",
+      "v_pst_1_pl_masc_hum": "zadzwoniliśmy",
+      "v_pst_1_sg_fem": "zadzwoniłam",
+      "v_pst_1_sg_masc": "zadzwoniłem",
+      "v_pst_2_pl": "zadzwoniłyście",
+      "v_pst_2_pl_masc_hum": "zadzwoniliście",
+      "v_pst_2_sg_fem": "zadzwoniłaś",
+      "v_pst_2_sg_masc": "zadzwoniłeś",
+      "v_pst_3_pl": "zadzwoniły",
+      "v_pst_3_pl_masc_hum": "zadzwonili",
+      "v_pst_3_sg_fem": "zadzwoniła",
+      "v_pst_3_sg_masc": "zadzwonił",
+      "v_pst_3_sg_neut": "zadzwoniło",
+      "v_ptcp_pst_pass": "zadzwoniono"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zamknąć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zamknąć",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "zamknij"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "zapomnieć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zapomnieć",
+    "inflections": {
+      "regulars": [],
+      "v_imp_2_sg": "zapomnij"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "zatrzymać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zatrzymać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zatrzymałybyśmy",
+      "v_cond_1_pl_masc_hum": "zatrzymalibyśmy",
+      "v_cond_1_sg_fem": "zatrzymałabym",
+      "v_cond_1_sg_masc": "zatrzymałbym",
+      "v_cond_2_pl": "zatrzymałybyście",
+      "v_cond_2_pl_masc_hum": "zatrzymalibyście",
+      "v_cond_2_sg_fem": "zatrzymałabyś",
+      "v_cond_2_sg_masc": "zatrzymałbyś",
+      "v_cond_3_pl": "zatrzymałyby",
+      "v_cond_3_pl_masc_hum": "zatrzymaliby",
+      "v_cond_3_sg_fem": "zatrzymałaby",
+      "v_cond_3_sg_masc": "zatrzymałby",
+      "v_cond_3_sg_neut": "zatrzymałoby",
+      "v_cvb_pst": "zatrzymawszy",
+      "v_fut_1_pl": "zatrzymamy",
+      "v_fut_1_sg": "zatrzymam",
+      "v_fut_2_pl": "zatrzymacie",
+      "v_fut_2_sg": "zatrzymasz",
+      "v_fut_3_pl": "zatrzymają",
+      "v_fut_3_sg": "zatrzyma",
+      "v_imp_1_pl": "zatrzymajmy",
+      "v_imp_1_sg": "niech zatrzymam",
+      "v_imp_2_pl": "zatrzymajcie",
+      "v_imp_2_sg": "zatrzymaj",
+      "v_imp_3_pl": "niech zatrzymają",
+      "v_imp_3_sg": "niech zatrzyma",
+      "v_msdr": "zatrzymanie",
+      "v_nfin": "zatrzymać",
+      "v_pst_1_pl": "zatrzymałyśmy",
+      "v_pst_1_pl_masc_hum": "zatrzymaliśmy",
+      "v_pst_1_sg_fem": "zatrzymałam",
+      "v_pst_1_sg_masc": "zatrzymałem",
+      "v_pst_2_pl": "zatrzymałyście",
+      "v_pst_2_pl_masc_hum": "zatrzymaliście",
+      "v_pst_2_sg_fem": "zatrzymałaś",
+      "v_pst_2_sg_masc": "zatrzymałeś",
+      "v_pst_3_pl": "zatrzymały",
+      "v_pst_3_pl_masc_hum": "zatrzymali",
+      "v_pst_3_sg_fem": "zatrzymała",
+      "v_pst_3_sg_masc": "zatrzymał",
+      "v_pst_3_sg_neut": "zatrzymało",
+      "v_ptcp_pst_pass": "zatrzymano",
+      "v_ptcp_pst_pass_pl": "zatrzymane",
+      "v_ptcp_pst_pass_pl_masc_hum": "zatrzymani",
+      "v_ptcp_pst_pass_sg_fem": "zatrzymana",
+      "v_ptcp_pst_pass_sg_masc": "zatrzymany",
+      "v_ptcp_pst_pass_sg_neut": "zatrzymane"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zdjęcia": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zdjęcia",
+    "inflections": {
+      "n_acc_sg": "zdjęcia",
+      "n_dat_sg": "zdjęciom",
+      "n_ess_sg": "zdjęciach",
+      "n_gen_sg": "zdjęć",
+      "n_ins_sg": "zdjęciami",
+      "n_nom_sg": "zdjęcia",
+      "n_voc_sg": "zdjęcia",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "zdjęcie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zdjęcie",
+    "inflections": {
+      "n_acc_pl": "zdjęcia",
+      "n_acc_sg": "zdjęcie",
+      "n_dat_pl": "zdjęciom",
+      "n_dat_sg": "zdjęciu",
+      "n_ess_pl": "zdjęciach",
+      "n_ess_sg": "zdjęciu",
+      "n_gen_pl": "zdjęć",
+      "n_gen_sg": "zdjęcia",
+      "n_ins_pl": "zdjęciami",
+      "n_ins_sg": "zdjęciem",
+      "n_nom_pl": "zdjęcia",
+      "n_nom_sg": "zdjęcie",
+      "n_voc_pl": "zdjęcia",
+      "n_voc_sg": "zdjęcie",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ziemia": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ziemia",
+    "inflections": {
+      "n_dat_sg": "ziemi",
+      "n_ess_sg": "ziemi",
+      "n_gen_sg": "ziemi",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "zmienić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zmienić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zmieniłybyśmy",
+      "v_cond_1_pl_masc_hum": "zmienilibyśmy",
+      "v_cond_1_sg_fem": "zmieniłabym",
+      "v_cond_1_sg_masc": "zmieniłbym",
+      "v_cond_2_pl": "zmieniłybyście",
+      "v_cond_2_pl_masc_hum": "zmienilibyście",
+      "v_cond_2_sg_fem": "zmieniłabyś",
+      "v_cond_2_sg_masc": "zmieniłbyś",
+      "v_cond_3_pl": "zmieniłyby",
+      "v_cond_3_pl_masc_hum": "zmieniliby",
+      "v_cond_3_sg_fem": "zmieniłaby",
+      "v_cond_3_sg_masc": "zmieniłby",
+      "v_cond_3_sg_neut": "zmieniłoby",
+      "v_cvb_pst": "zmieniwszy",
+      "v_fut_1_pl": "zmienimy",
+      "v_fut_1_sg": "zmienię",
+      "v_fut_2_pl": "zmienicie",
+      "v_fut_2_sg": "zmienisz",
+      "v_fut_3_pl": "zmienią",
+      "v_fut_3_sg": "zmieni",
+      "v_imp_1_pl": "zmieńmy",
+      "v_imp_1_sg": "niech zmienię",
+      "v_imp_2_pl": "zmieńcie",
+      "v_imp_2_sg": "zmień",
+      "v_imp_3_pl": "niech zmienią",
+      "v_imp_3_sg": "niech zmieni",
+      "v_msdr": "zmienienie",
+      "v_nfin": "zmienić",
+      "v_pst_1_pl": "zmieniłyśmy",
+      "v_pst_1_pl_masc_hum": "zmieniliśmy",
+      "v_pst_1_sg_fem": "zmieniłam",
+      "v_pst_1_sg_masc": "zmieniłem",
+      "v_pst_2_pl": "zmieniłyście",
+      "v_pst_2_pl_masc_hum": "zmieniliście",
+      "v_pst_2_sg_fem": "zmieniłaś",
+      "v_pst_2_sg_masc": "zmieniłeś",
+      "v_pst_3_pl": "zmieniły",
+      "v_pst_3_pl_masc_hum": "zmienili",
+      "v_pst_3_sg_fem": "zmieniła",
+      "v_pst_3_sg_masc": "zmienił",
+      "v_pst_3_sg_neut": "zmieniło",
+      "v_ptcp_pst_pass": "zmieniono",
+      "v_ptcp_pst_pass_pl": "zmienione",
+      "v_ptcp_pst_pass_pl_masc_hum": "zmienieni",
+      "v_ptcp_pst_pass_sg_fem": "zmieniona",
+      "v_ptcp_pst_pass_sg_masc": "zmieniony",
+      "v_ptcp_pst_pass_sg_neut": "zmienione"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "znaczyć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "znaczyć",
+    "inflections": {
+      "regulars": [],
+      "v_prs_3_sg": "znaczy"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "znaleźć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "znaleźć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "znalazłybyśmy",
+      "v_cond_1_pl_masc_hum": "znaleźlibyśmy",
+      "v_cond_1_sg_fem": "znalazłabym",
+      "v_cond_1_sg_masc": "znalazłbym",
+      "v_cond_2_pl": "znalazłybyście",
+      "v_cond_2_pl_masc_hum": "znaleźlibyście",
+      "v_cond_2_sg_fem": "znalazłabyś",
+      "v_cond_2_sg_masc": "znalazłbyś",
+      "v_cond_3_pl": "znalazłyby",
+      "v_cond_3_pl_masc_hum": "znaleźliby",
+      "v_cond_3_sg_fem": "znalazłaby",
+      "v_cond_3_sg_masc": "znalazłby",
+      "v_cond_3_sg_neut": "znalazłoby",
+      "v_cvb_pst": "znalazłszy",
+      "v_fut_1_pl": "znajdziemy",
+      "v_fut_1_sg": "znajdę",
+      "v_fut_2_pl": "znajdziecie",
+      "v_fut_2_sg": "znajdziesz",
+      "v_fut_3_pl": "znajdą",
+      "v_fut_3_sg": "znajdzie",
+      "v_imp_1_pl": "znajdźmy",
+      "v_imp_1_sg": "niech znajdę",
+      "v_imp_2_pl": "znajdźcie",
+      "v_imp_2_sg": "znajdź",
+      "v_imp_3_pl": "niech znajdą",
+      "v_imp_3_sg": "niech znajdzie",
+      "v_msdr": "znalezienie",
+      "v_nfin": "znaleźć",
+      "v_pst_1_pl": "znalazłyśmy",
+      "v_pst_1_pl_masc_hum": "znaleźliśmy",
+      "v_pst_1_sg_fem": "znalazłam",
+      "v_pst_1_sg_masc": "znalazłem",
+      "v_pst_2_pl": "znalazłyście",
+      "v_pst_2_pl_masc_hum": "znaleźliście",
+      "v_pst_2_sg_fem": "znalazłaś",
+      "v_pst_2_sg_masc": "znalazłeś",
+      "v_pst_3_pl": "znalazły",
+      "v_pst_3_pl_masc_hum": "znaleźli",
+      "v_pst_3_sg_fem": "znalazła",
+      "v_pst_3_sg_masc": "znalazł",
+      "v_pst_3_sg_neut": "znalazło",
+      "v_ptcp_pst_pass": "znaleziono",
+      "v_ptcp_pst_pass_pl": "znalezione",
+      "v_ptcp_pst_pass_pl_masc_hum": "znalezieni",
+      "v_ptcp_pst_pass_sg_fem": "znaleziona",
+      "v_ptcp_pst_pass_sg_masc": "znaleziony",
+      "v_ptcp_pst_pass_sg_neut": "znalezione"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "znać": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "znać",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "znałybyśmy",
+      "v_cond_1_pl_masc_hum": "znalibyśmy",
+      "v_cond_1_sg_fem": "znałabym",
+      "v_cond_1_sg_masc": "znałbym",
+      "v_cond_2_pl": "znałybyście",
+      "v_cond_2_pl_masc_hum": "znalibyście",
+      "v_cond_2_sg_fem": "znałabyś",
+      "v_cond_2_sg_masc": "znałbyś",
+      "v_cond_3_pl": "znałyby",
+      "v_cond_3_pl_masc_hum": "znaliby",
+      "v_cond_3_sg_fem": "znałaby",
+      "v_cond_3_sg_masc": "znałby",
+      "v_cond_3_sg_neut": "znałoby",
+      "v_cvb": "znając",
+      "v_fut_1_pl": "będziemy znały",
+      "v_fut_1_pl_masc_hum": "będziemy znali",
+      "v_fut_1_sg_fem": "będę znała",
+      "v_fut_1_sg_masc": "będę znał",
+      "v_fut_2_pl": "będziecie znały",
+      "v_fut_2_pl_masc_hum": "będziecie znali",
+      "v_fut_2_sg_fem": "będziesz znała",
+      "v_fut_2_sg_masc": "będziesz znał",
+      "v_fut_3_pl": "będą znały",
+      "v_fut_3_pl_masc_hum": "będą znali",
+      "v_fut_3_sg_fem": "będzie znała",
+      "v_fut_3_sg_masc": "będzie znał",
+      "v_fut_3_sg_neut": "będzie znało",
+      "v_imp_1_pl": "znajmy",
+      "v_imp_2_pl": "znajcie",
+      "v_imp_2_sg": "znaj",
+      "v_imp_3_pl": "niech znają",
+      "v_imp_3_sg": "niech zna",
+      "v_msdr": "znanie",
+      "v_nfin": "znać",
+      "v_prs_1_pl": "znamy",
+      "v_prs_1_sg": "znam",
+      "v_prs_2_pl": "znacie",
+      "v_prs_2_sg": "znasz",
+      "v_prs_3_pl": "znają",
+      "v_prs_3_sg": "zna",
+      "v_pst_1_pl": "znałyśmy",
+      "v_pst_1_pl_masc_hum": "znaliśmy",
+      "v_pst_1_sg_fem": "znałam",
+      "v_pst_1_sg_masc": "znałem",
+      "v_pst_2_pl": "znałyście",
+      "v_pst_2_pl_masc_hum": "znaliście",
+      "v_pst_2_sg_fem": "znałaś",
+      "v_pst_2_sg_masc": "znałeś",
+      "v_pst_3_pl": "znały",
+      "v_pst_3_pl_masc_hum": "znali",
+      "v_pst_3_sg_fem": "znała",
+      "v_pst_3_sg_masc": "znał",
+      "v_pst_3_sg_neut": "znało",
+      "v_ptcp_pst_act_pl": "znające",
+      "v_ptcp_pst_act_pl_masc_hum": "znający",
+      "v_ptcp_pst_act_sg_fem": "znająca",
+      "v_ptcp_pst_act_sg_masc": "znający",
+      "v_ptcp_pst_act_sg_neut": "znające",
+      "v_ptcp_pst_pass": "znano",
+      "v_ptcp_pst_pass_pl": "znane",
+      "v_ptcp_pst_pass_pl_masc_hum": "znani",
+      "v_ptcp_pst_pass_sg_fem": "znana",
+      "v_ptcp_pst_pass_sg_masc": "znany",
+      "v_ptcp_pst_pass_sg_neut": "znane"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zostawić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zostawić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zostawiłybyśmy",
+      "v_cond_1_pl_masc_hum": "zostawilibyśmy",
+      "v_cond_1_sg_fem": "zostawiłabym",
+      "v_cond_1_sg_masc": "zostawiłbym",
+      "v_cond_2_pl": "zostawiłybyście",
+      "v_cond_2_pl_masc_hum": "zostawilibyście",
+      "v_cond_2_sg_fem": "zostawiłabyś",
+      "v_cond_2_sg_masc": "zostawiłbyś",
+      "v_cond_3_pl": "zostawiłyby",
+      "v_cond_3_pl_masc_hum": "zostawiliby",
+      "v_cond_3_sg_fem": "zostawiłaby",
+      "v_cond_3_sg_masc": "zostawiłby",
+      "v_cond_3_sg_neut": "zostawiłoby",
+      "v_cvb_pst": "zostawiwszy",
+      "v_fut_1_pl": "zostawimy",
+      "v_fut_1_sg": "zostawię",
+      "v_fut_2_pl": "zostawicie",
+      "v_fut_2_sg": "zostawisz",
+      "v_fut_3_pl": "zostawią",
+      "v_fut_3_sg": "zostawi",
+      "v_imp_1_pl": "zostawmy",
+      "v_imp_1_sg": "niech zostawię",
+      "v_imp_2_pl": "zostawcie",
+      "v_imp_2_sg": "zostaw",
+      "v_imp_3_pl": "niech zostawią",
+      "v_imp_3_sg": "niech zostawi",
+      "v_msdr": "zostawienie",
+      "v_nfin": "zostawić",
+      "v_pst_1_pl": "zostawiłyśmy",
+      "v_pst_1_pl_masc_hum": "zostawiliśmy",
+      "v_pst_1_sg_fem": "zostawiłam",
+      "v_pst_1_sg_masc": "zostawiłem",
+      "v_pst_2_pl": "zostawiłyście",
+      "v_pst_2_pl_masc_hum": "zostawiliście",
+      "v_pst_2_sg_fem": "zostawiłaś",
+      "v_pst_2_sg_masc": "zostawiłeś",
+      "v_pst_3_pl": "zostawiły",
+      "v_pst_3_pl_masc_hum": "zostawili",
+      "v_pst_3_sg_fem": "zostawiła",
+      "v_pst_3_sg_masc": "zostawił",
+      "v_pst_3_sg_neut": "zostawiło",
+      "v_ptcp_pst_pass": "zostawiono",
+      "v_ptcp_pst_pass_pl": "zostawione",
+      "v_ptcp_pst_pass_pl_masc_hum": "zostawieni",
+      "v_ptcp_pst_pass_sg_fem": "zostawiona",
+      "v_ptcp_pst_pass_sg_masc": "zostawiony",
+      "v_ptcp_pst_pass_sg_neut": "zostawione"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zrobić": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zrobić",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "zrobiłybyśmy",
+      "v_cond_1_pl_masc_hum": "zrobilibyśmy",
+      "v_cond_1_sg_fem": "zrobiłabym",
+      "v_cond_1_sg_masc": "zrobiłbym",
+      "v_cond_2_pl": "zrobiłybyście",
+      "v_cond_2_pl_masc_hum": "zrobilibyście",
+      "v_cond_2_sg_fem": "zrobiłabyś",
+      "v_cond_2_sg_masc": "zrobiłbyś",
+      "v_cond_3_pl": "zrobiłyby",
+      "v_cond_3_pl_masc_hum": "zrobiliby",
+      "v_cond_3_sg_fem": "zrobiłaby",
+      "v_cond_3_sg_masc": "zrobiłby",
+      "v_cond_3_sg_neut": "zrobiłoby",
+      "v_cvb_pst": "zrobiwszy",
+      "v_fut_1_pl": "zrobimy",
+      "v_fut_1_sg": "zrobię",
+      "v_fut_2_pl": "zrobicie",
+      "v_fut_2_sg": "zrobisz",
+      "v_fut_3_pl": "zrobią",
+      "v_fut_3_sg": "zrobi",
+      "v_imp_1_pl": "zróbmy",
+      "v_imp_1_sg": "niech zrobię",
+      "v_imp_2_pl": "zróbcie",
+      "v_imp_2_sg": "zrób",
+      "v_imp_3_pl": "niech zrobią",
+      "v_imp_3_sg": "niech zrobi",
+      "v_msdr": "zrobienie",
+      "v_nfin": "zrobić",
+      "v_pst_1_pl": "zrobiłyśmy",
+      "v_pst_1_pl_masc_hum": "zrobiliśmy",
+      "v_pst_1_sg_fem": "zrobiłam",
+      "v_pst_1_sg_masc": "zrobiłem",
+      "v_pst_2_pl": "zrobiłyście",
+      "v_pst_2_pl_masc_hum": "zrobiliście",
+      "v_pst_2_sg_fem": "zrobiłaś",
+      "v_pst_2_sg_masc": "zrobiłeś",
+      "v_pst_3_pl": "zrobiły",
+      "v_pst_3_pl_masc_hum": "zrobili",
+      "v_pst_3_sg_fem": "zrobiła",
+      "v_pst_3_sg_masc": "zrobił",
+      "v_pst_3_sg_neut": "zrobiło",
+      "v_ptcp_pst_pass": "zrobiono",
+      "v_ptcp_pst_pass_pl": "zrobione",
+      "v_ptcp_pst_pass_pl_masc_hum": "zrobieni",
+      "v_ptcp_pst_pass_sg_fem": "zrobiona",
+      "v_ptcp_pst_pass_sg_masc": "zrobiony",
+      "v_ptcp_pst_pass_sg_neut": "zrobione"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "zło": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zło",
+    "inflections": {
+      "n_acc_pl": "zła",
+      "n_gen_sg": "zła",
+      "n_nom_pl": "zła",
+      "n_voc_pl": "zła",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "zły": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zły",
+    "inflections": {
+      "adj_acc_pl": "złe",
+      "adj_dat_pl": "złym",
+      "adj_ess_pl": "złych",
+      "adj_fem_acc_sg": "złą",
+      "adj_fem_dat_sg": "złej",
+      "adj_fem_ess_sg": "złej",
+      "adj_fem_gen_sg": "złej",
+      "adj_fem_ins_sg": "złą",
+      "adj_fem_nom_sg": "zła",
+      "adj_gen_pl": "złych",
+      "adj_ins_pl": "złymi",
+      "adj_masc_anim_acc_sg": "złego",
+      "adj_masc_dat_sg": "złemu",
+      "adj_masc_ess_sg": "złym",
+      "adj_masc_gen_sg": "złego",
+      "adj_masc_hum_acc_pl": "złych",
+      "adj_masc_hum_acc_sg": "złego",
+      "adj_masc_hum_nom_pl": "źli",
+      "adj_masc_inan_acc_sg": "zły",
+      "adj_masc_ins_sg": "złym",
+      "adj_masc_nom_sg": "zły",
+      "adj_neut_acc_sg": "złe",
+      "adj_neut_dat_sg": "złemu",
+      "adj_neut_ess_sg": "złym",
+      "adj_neut_gen_sg": "złego",
+      "adj_neut_ins_sg": "złym",
+      "adj_neut_nom_sg": "złe",
+      "adj_nom_pl": "złe",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "śmierć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "śmierć",
+    "inflections": {
+      "n_acc_pl": "śmierci",
+      "n_acc_sg": "śmierć",
+      "n_dat_pl": "śmierciom",
+      "n_dat_sg": "śmierci",
+      "n_ess_pl": "śmierciach",
+      "n_ess_sg": "śmierci",
+      "n_gen_pl": "śmierci",
+      "n_gen_sg": "śmierci",
+      "n_ins_pl": "śmierciami",
+      "n_ins_sg": "śmiercią",
+      "n_nom_pl": "śmierci",
+      "n_nom_sg": "śmierć",
+      "n_voc_pl": "śmierci",
+      "n_voc_sg": "śmierci",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "środek": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "środek",
+    "inflections": {
+      "n_ess_sg": "środku",
+      "n_gen_sg": "środka",
+      "n_voc_sg": "środku",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "świat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "świat",
+    "inflections": {
+      "n_acc_pl": "światy",
+      "n_acc_sg": "świat",
+      "n_dat_pl": "światom",
+      "n_dat_sg": "światu",
+      "n_ess_pl": "światach",
+      "n_ess_sg": "świecie",
+      "n_gen_pl": "światów",
+      "n_gen_sg": "świata",
+      "n_ins_pl": "światami",
+      "n_ins_sg": "światem",
+      "n_nom_pl": "światy",
+      "n_nom_sg": "świat",
+      "n_voc_pl": "światy",
+      "n_voc_sg": "świecie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
   "że": {
     "antonyms": [],
     "base": "że",
@@ -754,6 +6969,106 @@
     "priority": 10,
     "types": [
       "conjunction"
+    ]
+  },
+  "życie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "życie",
+    "inflections": {
+      "n_acc_pl": "życia",
+      "n_acc_sg": "życie",
+      "n_dat_pl": "życiom",
+      "n_dat_sg": "życiu",
+      "n_ess_pl": "życiach",
+      "n_ess_sg": "życiu",
+      "n_gen_pl": "żyć",
+      "n_gen_sg": "życia",
+      "n_ins_pl": "życiami",
+      "n_ins_sg": "życiem",
+      "n_nom_pl": "życia",
+      "n_nom_sg": "życie",
+      "n_voc_pl": "życia",
+      "n_voc_sg": "życie",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "żyć": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "żyć",
+    "inflections": {
+      "regulars": [],
+      "v_cond_1_pl": "żyłybyśmy",
+      "v_cond_1_pl_masc_hum": "żylibyśmy",
+      "v_cond_1_sg_fem": "żyłabym",
+      "v_cond_1_sg_masc": "żyłbym",
+      "v_cond_2_pl": "żyłybyście",
+      "v_cond_2_pl_masc_hum": "żylibyście",
+      "v_cond_2_sg_fem": "żyłabyś",
+      "v_cond_2_sg_masc": "żyłbyś",
+      "v_cond_3_pl": "żyłyby",
+      "v_cond_3_pl_masc_hum": "żyliby",
+      "v_cond_3_sg_fem": "żyłaby",
+      "v_cond_3_sg_masc": "żyłby",
+      "v_cond_3_sg_neut": "żyłoby",
+      "v_cvb": "żyjąc",
+      "v_fut_1_pl": "będziemy żyły",
+      "v_fut_1_pl_masc_hum": "będziemy żyli",
+      "v_fut_1_sg_fem": "będę żyła",
+      "v_fut_1_sg_masc": "będę żył",
+      "v_fut_2_pl": "będziecie żyły",
+      "v_fut_2_pl_masc_hum": "będziecie żyli",
+      "v_fut_2_sg_fem": "będziesz żyła",
+      "v_fut_2_sg_masc": "będziesz żył",
+      "v_fut_3_pl": "będą żyły",
+      "v_fut_3_pl_masc_hum": "będą żyli",
+      "v_fut_3_sg_fem": "będzie żyła",
+      "v_fut_3_sg_masc": "będzie żył",
+      "v_fut_3_sg_neut": "będzie żyło",
+      "v_imp_1_pl": "żyjmy",
+      "v_imp_2_pl": "żyjcie",
+      "v_imp_2_sg": "żyj",
+      "v_imp_3_pl": "niech żyją",
+      "v_imp_3_sg": "niech żyje",
+      "v_msdr": "życie",
+      "v_nfin": "żyć",
+      "v_prs_1_pl": "żyjemy",
+      "v_prs_1_sg": "żyję",
+      "v_prs_2_pl": "żyjecie",
+      "v_prs_2_sg": "żyjesz",
+      "v_prs_3_pl": "żyją",
+      "v_prs_3_sg": "żyje",
+      "v_pst_1_pl": "żyłyśmy",
+      "v_pst_1_pl_masc_hum": "żyliśmy",
+      "v_pst_1_sg_fem": "żyłam",
+      "v_pst_1_sg_masc": "żyłem",
+      "v_pst_2_pl": "żyłyście",
+      "v_pst_2_pl_masc_hum": "żyliście",
+      "v_pst_2_sg_fem": "żyłaś",
+      "v_pst_2_sg_masc": "żyłeś",
+      "v_pst_3_pl": "żyły",
+      "v_pst_3_pl_masc_hum": "żyli",
+      "v_pst_3_sg_fem": "żyła",
+      "v_pst_3_sg_masc": "żył",
+      "v_pst_3_sg_neut": "żyło",
+      "v_ptcp_pst_act_pl": "żyjące",
+      "v_ptcp_pst_act_pl_masc_hum": "żyjący",
+      "v_ptcp_pst_act_sg_fem": "żyjąca",
+      "v_ptcp_pst_act_sg_masc": "żyjący",
+      "v_ptcp_pst_act_sg_neut": "żyjące",
+      "v_ptcp_pst_pass": "żyto"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
     ]
   }
 }

@@ -3,6 +3,7 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
 const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
+const INFLECTION_DIR = path.join(__dirname, 'data', 'inflections');
 
 /**
  * Loads the alphabet data for a given language code and script.
@@ -126,6 +127,80 @@ async function loadFrequencyList(code) {
   }
 
   return { language: code, tokens, mode };
+}
+
+async function loadInflectionIndex() {
+  const filePath = path.join(INFLECTION_DIR, 'index.json');
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return { _type: 'inflection_index', _version: '0.1', locales: {} };
+    }
+    throw error;
+  }
+}
+
+async function getAvailableInflectionLocales() {
+  const index = await loadInflectionIndex();
+  const locales = index.locales || {};
+  return Object.keys(locales).sort();
+}
+
+async function loadInflectionFile(locale, filename) {
+  let filePath = path.join(INFLECTION_DIR, locale, filename);
+  let fallbackPath = null;
+  if (locale.includes('-')) {
+    fallbackPath = path.join(INFLECTION_DIR, locale.split('-')[0], filename);
+  }
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    if (error.code === 'ENOENT' && fallbackPath) {
+      try {
+        const content = await fs.readFile(fallbackPath, 'utf8');
+        return JSON.parse(content);
+      } catch (fallbackError) {
+        if (fallbackError.code !== 'ENOENT') throw fallbackError;
+      }
+    }
+    if (error.code === 'ENOENT') {
+      throw new Error(`Inflection data for locale "${locale}" not found.`);
+    }
+    throw error;
+  }
+}
+
+async function loadInflectionWords(locale) {
+  return loadInflectionFile(locale, 'words.json');
+}
+
+async function loadInflectionRules(locale) {
+  return loadInflectionFile(locale, 'rules.json');
+}
+
+async function loadInflectionData(locale) {
+  return {
+    words: await loadInflectionWords(locale),
+    rules: await loadInflectionRules(locale),
+  };
+}
+
+async function getWordForms(locale, word) {
+  const words = await loadInflectionWords(locale);
+  const entry = words[word];
+  return entry && typeof entry === 'object' ? entry : null;
+}
+
+async function inflectWord(locale, word, inflection) {
+  const entry = await getWordForms(locale, word);
+  if (!entry) return null;
+  if (inflection === 'base') return entry.base || word;
+  const forms = entry.inflections || {};
+  const value = forms[inflection];
+  return typeof value === 'string' ? value : null;
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
@@ -513,6 +588,12 @@ module.exports = {
   getDigits,
   getAvailableCodes,
   loadFrequencyList,
+  getAvailableInflectionLocales,
+  loadInflectionWords,
+  loadInflectionRules,
+  loadInflectionData,
+  getWordForms,
+  inflectWord,
   getIndexData,
   getLanguage,
   getScripts,

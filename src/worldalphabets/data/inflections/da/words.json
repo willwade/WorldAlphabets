@@ -2,6 +2,48 @@
   "_locale": "da",
   "_type": "words",
   "_version": "0.1",
+  "aftale": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aftale",
+    "inflections": {
+      "n_def_nom_pl": "aftalerne",
+      "n_def_nom_pl_2": "aftalernes",
+      "n_def_nom_sg": "aftalen",
+      "n_def_nom_sg_2": "aftalens",
+      "n_indf_gen_pl": "aftalers",
+      "n_indf_gen_sg": "aftales",
+      "n_indf_nom_pl": "aftaler",
+      "n_indf_nom_sg": "aftale",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "aften": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aften",
+    "inflections": {
+      "n_def_nom_pl": "aftenerne",
+      "n_def_nom_pl_2": "aftenernes",
+      "n_def_nom_sg": "aftenen",
+      "n_def_nom_sg_2": "aftenens",
+      "n_indf_gen_pl": "afteners",
+      "n_indf_gen_sg": "aftens",
+      "n_indf_nom_pl": "aftener",
+      "n_indf_nom_sg": "aften",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
   "alle": {
     "antonyms": [],
     "base": "alle",
@@ -13,6 +55,62 @@
     "types": [
       "pronoun",
       "adjective"
+    ]
+  },
+  "alting": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "alting",
+    "inflections": {
+      "n_def_nom_pl": "altingene",
+      "n_def_nom_pl_2": "altingenes",
+      "n_def_nom_sg": "altinget",
+      "n_def_nom_sg_2": "altingets",
+      "n_indf_gen_pl": "altings",
+      "n_indf_gen_sg": "altings",
+      "n_indf_nom_pl": "alting",
+      "n_indf_nom_sg": "alting",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "and": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "and",
+    "inflections": {
+      "n_def_nom_sg": "anden",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "angreb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "angreb",
+    "inflections": {
+      "n_def_nom_pl": "angrebene",
+      "n_def_nom_pl_2": "angrebenes",
+      "n_def_nom_sg": "angrebet",
+      "n_def_nom_sg_2": "angrebets",
+      "n_indf_gen_pl": "angrebs",
+      "n_indf_gen_sg": "angrebs",
+      "n_indf_nom_pl": "angreb",
+      "n_indf_nom_sg": "angreb",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
     ]
   },
   "at": {
@@ -29,6 +127,118 @@
       "preposition"
     ]
   },
+  "ben": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ben",
+    "inflections": {
+      "n_def_nom_pl": "benene",
+      "n_def_nom_pl_2": "benenes",
+      "n_def_nom_sg": "benet",
+      "n_def_nom_sg_2": "benets",
+      "n_indf_gen_pl": "bens",
+      "n_indf_gen_sg": "bens",
+      "n_indf_nom_pl": "ben",
+      "n_indf_nom_sg": "ben",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "besked": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "besked",
+    "inflections": {
+      "n_def_nom_pl": "beskederne",
+      "n_def_nom_pl_2": "beskedernes",
+      "n_def_nom_sg": "beskeden",
+      "n_def_nom_sg_2": "beskedens",
+      "n_indf_gen_pl": "beskeders",
+      "n_indf_gen_sg": "beskeds",
+      "n_indf_nom_pl": "beskeder",
+      "n_indf_nom_sg": "besked",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "bevis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bevis",
+    "inflections": {
+      "n_indf_nom_pl": "beviser",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "bil": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bil",
+    "inflections": {
+      "n_def_nom_pl": "bilerne",
+      "n_def_nom_pl_2": "bilernes",
+      "n_def_nom_sg": "bilen",
+      "n_def_nom_sg_2": "bilens",
+      "n_indf_gen_pl": "bilers",
+      "n_indf_gen_sg": "bils",
+      "n_indf_nom_pl": "biler",
+      "n_indf_nom_sg": "bil",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "bror": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bror",
+    "inflections": {
+      "n_def_nom_pl": "brødrene",
+      "n_def_nom_pl_2": "brødrenes",
+      "n_def_nom_sg": "broren",
+      "n_def_nom_sg_2": "brorens",
+      "n_indf_gen_pl": "brødres",
+      "n_indf_gen_sg": "brors",
+      "n_indf_nom_pl": "brødre",
+      "n_indf_nom_sg": "bror",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "båd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "båd",
+    "inflections": {
+      "n_indf_nom_pl": "både",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "da": {
     "antonyms": [],
     "base": "da",
@@ -41,6 +251,62 @@
     "priority": 3,
     "types": [
       "adverb"
+    ]
+  },
+  "dag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dag",
+    "inflections": {
+      "n_def_nom_pl": "dagene",
+      "n_def_nom_pl_2": "dagenes",
+      "n_def_nom_sg": "dagen",
+      "n_def_nom_sg_2": "dagens",
+      "n_indf_gen_pl": "dages",
+      "n_indf_gen_sg": "dags",
+      "n_indf_nom_pl": "dage",
+      "n_indf_nom_sg": "dag",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "datter": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "datter",
+    "inflections": {
+      "n_def_nom_pl": "døtrene",
+      "n_def_nom_pl_2": "døtrenes",
+      "n_def_nom_sg": "datteren",
+      "n_def_nom_sg_2": "datterens",
+      "n_indf_gen_pl": "døtres",
+      "n_indf_gen_sg": "datters",
+      "n_indf_nom_pl": "døtre",
+      "n_indf_nom_sg": "datter",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "dejlig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dejlig",
+    "inflections": {
+      "adj_indf_neut_sg": "dejligt",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
     ]
   },
   "dem": {
@@ -69,6 +335,44 @@
       "pronoun"
     ]
   },
+  "direkte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "direkte",
+    "inflections": {
+      "adj_def": "direkte",
+      "adj_indf_masc_fem_sg": "direkte",
+      "adj_indf_neut_sg": "direkte",
+      "adj_indf_pl": "direkte",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "drink": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drink",
+    "inflections": {
+      "n_def_nom_pl": "drinksene",
+      "n_def_nom_pl_2": "drinksenes",
+      "n_def_nom_sg": "drinken",
+      "n_def_nom_sg_2": "drinkens",
+      "n_indf_gen_pl": "drinks'",
+      "n_indf_gen_sg": "drinks",
+      "n_indf_nom_pl": "drinks",
+      "n_indf_nom_sg": "drink",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
   "du": {
     "antonyms": [],
     "base": "du",
@@ -81,6 +385,126 @@
     "priority": 10,
     "types": [
       "pronoun"
+    ]
+  },
+  "dum": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dum",
+    "inflections": {
+      "adj_def": "dumme",
+      "adj_def_cmpr": "dummere",
+      "adj_def_sprl": "dummeste",
+      "adj_indf_masc_fem_sg": "dum",
+      "adj_indf_masc_fem_sg_cmpr": "dummere",
+      "adj_indf_masc_fem_sg_sprl": "dummest",
+      "adj_indf_neut_sg": "dumt",
+      "adj_indf_neut_sg_cmpr": "dummere",
+      "adj_indf_neut_sg_sprl": "dummest",
+      "adj_indf_pl": "dumme",
+      "adj_indf_pl_cmpr": "dummere",
+      "adj_indf_pl_sprl": "dummest",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dyr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dyr",
+    "inflections": {
+      "adj_def": "dyre",
+      "adj_def_cmpr": "dyrere",
+      "adj_def_sprl": "dyreste",
+      "adj_indf_masc_fem_sg": "dyr",
+      "adj_indf_masc_fem_sg_cmpr": "dyrere",
+      "adj_indf_masc_fem_sg_sprl": "dyrest",
+      "adj_indf_neut_sg": "dyrt",
+      "adj_indf_neut_sg_cmpr": "dyrere",
+      "adj_indf_neut_sg_sprl": "dyrest",
+      "adj_indf_pl": "dyre",
+      "adj_indf_pl_cmpr": "dyrere",
+      "adj_indf_pl_sprl": "dyrest",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "død": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "død",
+    "inflections": {
+      "adj_def": "døde",
+      "adj_indf_masc_fem_sg": "død",
+      "adj_indf_neut_sg": "dødt",
+      "adj_indf_pl": "døde",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "egentlig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "egentlig",
+    "inflections": {
+      "adj_def": "egentlige",
+      "adj_indf_masc_fem_sg": "egentlig",
+      "adj_indf_neut_sg": "egentligt",
+      "adj_indf_pl": "egentlige",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "egn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "egn",
+    "inflections": {
+      "n_indf_nom_pl": "egne",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "elske": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "elske",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "elsk",
+      "v_act_ind_prs": "elsker",
+      "v_act_ind_pst": "elskede",
+      "v_act_nfin": "elske",
+      "v_pass_ind_prs": "elskes",
+      "v_pass_ind_pst": "elskedes",
+      "v_ptcp_act_prs": "elskende",
+      "v_ptcp_pass_pst": "elsket"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
     ]
   },
   "en": {
@@ -125,6 +549,276 @@
       "article"
     ]
   },
+  "faktisk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "faktisk",
+    "inflections": {
+      "adj_def": "faktiske",
+      "adj_indf_masc_fem_sg": "faktisk",
+      "adj_indf_neut_sg": "faktisk",
+      "adj_indf_pl": "faktiske",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "familie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "familie",
+    "inflections": {
+      "n_def_nom_pl": "familierne",
+      "n_def_nom_pl_2": "familiernes",
+      "n_def_nom_sg": "familien",
+      "n_def_nom_sg_2": "familiens",
+      "n_indf_gen_pl": "familiers",
+      "n_indf_gen_sg": "families",
+      "n_indf_nom_pl": "familier",
+      "n_indf_nom_sg": "familie",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "fange": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fange",
+    "inflections": {
+      "n_def_nom_pl": "fangerne",
+      "n_def_nom_pl_2": "fangernes",
+      "n_def_nom_sg": "fangen",
+      "n_def_nom_sg_2": "fangens",
+      "n_indf_gen_pl": "fangers",
+      "n_indf_gen_sg": "fanges",
+      "n_indf_nom_pl": "fanger",
+      "n_indf_nom_sg": "fange",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "fantastisk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fantastisk",
+    "inflections": {
+      "adj_def": "fantastiske",
+      "adj_indf_masc_fem_sg": "fantastisk",
+      "adj_indf_neut_sg": "fantastisk",
+      "adj_indf_pl": "fantastiske",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "far": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "far",
+    "inflections": {
+      "n_def_nom_pl": "fædrene",
+      "n_def_nom_pl_2": "fædrenes",
+      "n_def_nom_sg": "faren",
+      "n_def_nom_sg_2": "farens",
+      "n_indf_gen_pl": "fædres",
+      "n_indf_gen_sg": "fars",
+      "n_indf_nom_pl": "fædre",
+      "n_indf_nom_sg": "far",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "fast": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fast",
+    "inflections": {
+      "adj_def": "faste",
+      "adj_indf_masc_fem_sg": "fast",
+      "adj_indf_neut_sg": "fast",
+      "adj_indf_pl": "faste",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "fedt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fedt",
+    "inflections": {
+      "n_def_nom_pl": "fedterne",
+      "n_def_nom_pl_2": "fedternes",
+      "n_def_nom_sg": "fedtet",
+      "n_def_nom_sg_2": "fedtets",
+      "n_indf_gen_pl": "fedters",
+      "n_indf_gen_sg": "fedts",
+      "n_indf_nom_pl": "fedter",
+      "n_indf_nom_sg": "fedt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "fejl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fejl",
+    "inflections": {
+      "n_def_nom_pl": "fejlene",
+      "n_def_nom_pl_2": "fejlenes",
+      "n_def_nom_sg": "fejlen",
+      "n_def_nom_sg_2": "fejlens",
+      "n_indf_gen_pl": "fejls",
+      "n_indf_gen_sg": "fejls",
+      "n_indf_nom_pl": "fejl",
+      "n_indf_nom_sg": "fejl",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "fest": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fest",
+    "inflections": {
+      "n_def_nom_pl": "festerne",
+      "n_def_nom_pl_2": "festernes",
+      "n_def_nom_sg": "festen",
+      "n_def_nom_sg_2": "festens",
+      "n_indf_gen_pl": "festers",
+      "n_indf_gen_sg": "fests",
+      "n_indf_nom_pl": "fester",
+      "n_indf_nom_sg": "fest",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "film": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "film",
+    "inflections": {
+      "n_def_nom_pl": "filmene",
+      "n_def_nom_pl_2": "filmenes",
+      "n_def_nom_sg": "filmen",
+      "n_def_nom_sg_2": "filmens",
+      "n_indf_gen_pl": "films",
+      "n_indf_gen_sg": "films",
+      "n_indf_nom_pl": "film",
+      "n_indf_nom_sg": "film",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "fin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fin",
+    "inflections": {
+      "adj_def": "fine",
+      "adj_def_cmpr": "finere",
+      "adj_def_sprl": "fineste",
+      "adj_indf_masc_fem_sg": "fin",
+      "adj_indf_masc_fem_sg_cmpr": "finere",
+      "adj_indf_masc_fem_sg_sprl": "finest",
+      "adj_indf_neut_sg": "fint",
+      "adj_indf_neut_sg_cmpr": "finere",
+      "adj_indf_neut_sg_sprl": "finest",
+      "adj_indf_pl": "fine",
+      "adj_indf_pl_cmpr": "finere",
+      "adj_indf_pl_sprl": "finest",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "forklare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "forklare",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "forklar",
+      "v_act_ind_prs": "forklarer",
+      "v_act_ind_pst": "forklarede",
+      "v_act_nfin": "forklare",
+      "v_pass_ind_prs": "forklares",
+      "v_pass_ind_pst": "forklaredes",
+      "v_ptcp_act_prs": "forklarende",
+      "v_ptcp_pass_pst": "forklaret"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "forsigtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "forsigtig",
+    "inflections": {
+      "adj_def": "forsigtige",
+      "adj_def_cmpr": "forsigtigere",
+      "adj_def_sprl": "forsigtigste",
+      "adj_indf_masc_fem_sg": "forsigtig",
+      "adj_indf_masc_fem_sg_cmpr": "forsigtigere",
+      "adj_indf_masc_fem_sg_sprl": "forsigtigst",
+      "adj_indf_neut_sg": "forsigtigt",
+      "adj_indf_neut_sg_cmpr": "forsigtigere",
+      "adj_indf_neut_sg_sprl": "forsigtigst",
+      "adj_indf_pl": "forsigtige",
+      "adj_indf_pl_cmpr": "forsigtigere",
+      "adj_indf_pl_sprl": "forsigtigst",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
   "fra": {
     "antonyms": [],
     "base": "fra",
@@ -135,6 +829,41 @@
     "priority": 5,
     "types": [
       "preposition"
+    ]
+  },
+  "frue": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frue",
+    "inflections": {
+      "n_def_nom_pl": "fruerne",
+      "n_def_nom_pl_2": "fruernes",
+      "n_def_nom_sg": "fruen",
+      "n_def_nom_sg_2": "fruens",
+      "n_indf_gen_pl": "fruers",
+      "n_indf_gen_sg": "frues",
+      "n_indf_nom_pl": "fruer",
+      "n_indf_nom_sg": "frue",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "fund": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fund",
+    "inflections": {
+      "n_def_nom_sg": "fundet",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
     ]
   },
   "få": {
@@ -151,6 +880,71 @@
       "verb"
     ]
   },
+  "færdig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "færdig",
+    "inflections": {
+      "adj_def": "færdige",
+      "adj_indf_masc_fem_sg": "færdig",
+      "adj_indf_neut_sg": "færdigt",
+      "adj_indf_pl": "færdige",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "følelse": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "følelse",
+    "inflections": {
+      "n_indf_nom_pl": "følelser",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "gift": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gift",
+    "inflections": {
+      "adj_def": "gifte",
+      "adj_indf_masc_fem_sg": "gift",
+      "adj_indf_neut_sg": "gift",
+      "adj_indf_pl": "gifte",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "givet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "givet",
+    "inflections": {
+      "adj_def": "givne",
+      "adj_indf_masc_fem_sg": "givet",
+      "adj_indf_neut_sg": "givet",
+      "adj_indf_pl": "givne",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
   "godt": {
     "antonyms": [],
     "base": "godt",
@@ -162,6 +956,20 @@
     "types": [
       "adjective",
       "adverb"
+    ]
+  },
+  "grunde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "grunde",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "grund"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
     ]
   },
   "gå": {
@@ -190,6 +998,58 @@
       "verb"
     ]
   },
+  "hade": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hade",
+    "inflections": {
+      "regulars": [],
+      "v_act_ind_prs": "hader"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "halv": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "halv",
+    "inflections": {
+      "adj_def": "halve",
+      "adj_indf_masc_fem_sg": "halv",
+      "adj_indf_neut_sg": "halvt",
+      "adj_indf_pl": "halve",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "handler": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "handler",
+    "inflections": {
+      "n_def_nom_pl": "handlerne",
+      "n_def_nom_pl_2": "handlernes",
+      "n_def_nom_sg": "handleren",
+      "n_def_nom_sg_2": "handlerens",
+      "n_indf_gen_pl": "handleres",
+      "n_indf_gen_sg": "handlers",
+      "n_indf_nom_pl": "handlere",
+      "n_indf_nom_sg": "handler",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
   "har": {
     "antonyms": [],
     "base": "har",
@@ -204,6 +1064,27 @@
       "verb"
     ]
   },
+  "hav": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hav",
+    "inflections": {
+      "n_def_nom_pl": "havene",
+      "n_def_nom_pl_2": "havenes",
+      "n_def_nom_sg": "havet",
+      "n_def_nom_sg_2": "havets",
+      "n_indf_gen_pl": "haves",
+      "n_indf_gen_sg": "havs",
+      "n_indf_nom_pl": "have",
+      "n_indf_nom_sg": "hav",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
   "have": {
     "antonyms": [],
     "base": "have",
@@ -214,6 +1095,31 @@
     "priority": 5,
     "types": [
       "verb"
+    ]
+  },
+  "heldig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "heldig",
+    "inflections": {
+      "adj_def": "heldige",
+      "adj_def_cmpr": "heldigere",
+      "adj_def_sprl": "heldigste",
+      "adj_indf_masc_fem_sg": "heldig",
+      "adj_indf_masc_fem_sg_cmpr": "heldigere",
+      "adj_indf_masc_fem_sg_sprl": "heldigst",
+      "adj_indf_neut_sg": "heldigt",
+      "adj_indf_neut_sg_cmpr": "heldigere",
+      "adj_indf_neut_sg_sprl": "heldigst",
+      "adj_indf_pl": "heldige",
+      "adj_indf_pl_cmpr": "heldigere",
+      "adj_indf_pl_sprl": "heldigst",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
     ]
   },
   "her": {
@@ -230,6 +1136,155 @@
       "adverb"
     ]
   },
+  "herre": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "herre",
+    "inflections": {
+      "n_def_nom_pl": "herrerne",
+      "n_def_nom_pl_2": "herrernes",
+      "n_def_nom_sg": "herren",
+      "n_def_nom_sg_2": "herrens",
+      "n_indf_gen_pl": "herrers",
+      "n_indf_gen_sg": "herres",
+      "n_indf_nom_pl": "herrer",
+      "n_indf_nom_sg": "herre",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "historie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "historie",
+    "inflections": {
+      "n_def_nom_pl": "historierne",
+      "n_def_nom_pl_2": "historiernes",
+      "n_def_nom_sg": "historien",
+      "n_def_nom_sg_2": "historiens",
+      "n_indf_gen_pl": "historiers",
+      "n_indf_gen_sg": "histories",
+      "n_indf_nom_pl": "historier",
+      "n_indf_nom_sg": "historie",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "hjerte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hjerte",
+    "inflections": {
+      "n_def_nom_pl": "hjerterne",
+      "n_def_nom_pl_2": "hjerternes",
+      "n_def_nom_sg": "hjertet",
+      "n_def_nom_sg_2": "hjertets",
+      "n_indf_gen_pl": "hjerters",
+      "n_indf_gen_sg": "hjertes",
+      "n_indf_nom_pl": "hjerter",
+      "n_indf_nom_sg": "hjerte",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "hospital": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hospital",
+    "inflections": {
+      "n_def_nom_sg": "hospitalet",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "hurtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hurtig",
+    "inflections": {
+      "adj_indf_neut_sg": "hurtigt",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "hus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hus",
+    "inflections": {
+      "n_def_nom_pl": "husene",
+      "n_def_nom_pl_2": "husenes",
+      "n_def_nom_sg": "huset",
+      "n_def_nom_sg_2": "husets",
+      "n_indf_gen_pl": "huses",
+      "n_indf_gen_sg": "hus'",
+      "n_indf_nom_pl": "huse",
+      "n_indf_nom_sg": "hus",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "huske": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "huske",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "husk",
+      "v_act_ind_prs": "husker",
+      "v_act_ind_pst": "huskede",
+      "v_act_nfin": "huske",
+      "v_pass_ind_prs": "huskes",
+      "v_pass_ind_pst": "huskedes",
+      "v_ptcp_act_prs": "huskende",
+      "v_ptcp_pass_pst": "husket"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "hvid": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hvid",
+    "inflections": {
+      "adj_def": "hvide",
+      "adj_indf_pl": "hvide",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
   "hvorfor": {
     "antonyms": [],
     "base": "hvorfor",
@@ -240,6 +1295,62 @@
     "priority": 5,
     "types": [
       "adverb"
+    ]
+  },
+  "hånd": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hånd",
+    "inflections": {
+      "n_def_nom_pl": "hænderne",
+      "n_def_nom_pl_2": "hændernes",
+      "n_def_nom_sg": "hånden",
+      "n_def_nom_sg_2": "håndens",
+      "n_indf_gen_pl": "hænders",
+      "n_indf_gen_sg": "hånds",
+      "n_indf_nom_pl": "hænder",
+      "n_indf_nom_sg": "hånd",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "hår": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hår",
+    "inflections": {
+      "n_def_nom_pl": "hårene",
+      "n_def_nom_pl_2": "hårenes",
+      "n_def_nom_sg": "håret",
+      "n_def_nom_sg_2": "hårets",
+      "n_indf_gen_pl": "hårs",
+      "n_indf_gen_sg": "hårs",
+      "n_indf_nom_pl": "hår",
+      "n_indf_nom_sg": "hår",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "hård": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "hård",
+    "inflections": {
+      "adj_indf_neut_sg": "hårdt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
     ]
   },
   "i": {
@@ -286,18 +1397,55 @@
       "pronoun"
     ]
   },
+  "interessant": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "interessant",
+    "inflections": {
+      "adj_def": "interessante",
+      "adj_def_cmpr": "interessantere",
+      "adj_def_sprl": "interessanteste",
+      "adj_indf_masc_fem_sg": "interessant",
+      "adj_indf_masc_fem_sg_cmpr": "interessantere",
+      "adj_indf_masc_fem_sg_sprl": "interessantest",
+      "adj_indf_neut_sg": "interessant",
+      "adj_indf_neut_sg_cmpr": "interessantere",
+      "adj_indf_neut_sg_sprl": "interessantest",
+      "adj_indf_pl": "interessante",
+      "adj_indf_pl_cmpr": "interessantere",
+      "adj_indf_pl_sprl": "interessantest",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
   "ja": {
+    "_sources": [
+      "unimorph"
+    ],
     "antonyms": [],
     "base": "ja",
     "examples": [
       "Ja, jeg er klar."
     ],
     "inflections": {
+      "n_def_nom_pl": "jaerne",
+      "n_def_nom_pl_2": "jaernes",
+      "n_def_nom_sg": "jaet",
+      "n_def_nom_sg_2": "jaets",
+      "n_indf_gen_pl": "jaers",
+      "n_indf_gen_sg": "jas",
+      "n_indf_nom_pl": "jaer",
+      "n_indf_nom_sg": "ja",
       "regulars": []
     },
-    "priority": 7,
+    "priority": 10,
     "types": [
-      "adverb"
+      "adverb",
+      "noun"
     ]
   },
   "jeg": {
@@ -314,6 +1462,473 @@
       "pronoun"
     ]
   },
+  "kaptajn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kaptajn",
+    "inflections": {
+      "n_def_nom_pl": "kaptajnerne",
+      "n_def_nom_pl_2": "kaptajnernes",
+      "n_def_nom_sg": "kaptajnen",
+      "n_def_nom_sg_2": "kaptajnens",
+      "n_indf_gen_pl": "kaptajners",
+      "n_indf_gen_sg": "kaptajns",
+      "n_indf_nom_pl": "kaptajner",
+      "n_indf_nom_sg": "kaptajn",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "klare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klare",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "klar",
+      "v_act_ind_prs": "klarer",
+      "v_act_ind_pst": "klarede",
+      "v_act_nfin": "klare",
+      "v_pass_ind_prs": "klares",
+      "v_pass_ind_pst": "klaredes",
+      "v_ptcp_act_prs": "klarende",
+      "v_ptcp_pass_pst": "klaret"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "kontakt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kontakt",
+    "inflections": {
+      "n_def_nom_pl": "kontakterne",
+      "n_def_nom_pl_2": "kontakternes",
+      "n_def_nom_sg": "kontakten",
+      "n_def_nom_sg_2": "kontaktens",
+      "n_indf_gen_pl": "kontakters",
+      "n_indf_gen_sg": "kontakts",
+      "n_indf_nom_pl": "kontakter",
+      "n_indf_nom_sg": "kontakt",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "kontor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kontor",
+    "inflections": {
+      "n_def_nom_pl": "kontorerne",
+      "n_def_nom_pl_2": "kontorernes",
+      "n_def_nom_sg": "kontoret",
+      "n_def_nom_sg_2": "kontorets",
+      "n_indf_gen_pl": "kontorers",
+      "n_indf_gen_sg": "kontors",
+      "n_indf_nom_pl": "kontorer",
+      "n_indf_nom_sg": "kontor",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "kort": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kort",
+    "inflections": {
+      "adj_def": "korte",
+      "adj_def_cmpr": "kortere",
+      "adj_def_sprl": "korteste",
+      "adj_indf_masc_fem_sg": "kort",
+      "adj_indf_masc_fem_sg_cmpr": "kortere",
+      "adj_indf_masc_fem_sg_sprl": "kortest",
+      "adj_indf_neut_sg": "kort",
+      "adj_indf_neut_sg_cmpr": "kortere",
+      "adj_indf_neut_sg_sprl": "kortest",
+      "adj_indf_pl": "korte",
+      "adj_indf_pl_cmpr": "kortere",
+      "adj_indf_pl_sprl": "kortest",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "krop": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "krop",
+    "inflections": {
+      "n_def_nom_pl": "kroppene",
+      "n_def_nom_pl_2": "kroppenes",
+      "n_def_nom_sg": "kroppen",
+      "n_def_nom_sg_2": "kroppens",
+      "n_indf_gen_pl": "kroppes",
+      "n_indf_gen_sg": "krops",
+      "n_indf_nom_pl": "kroppe",
+      "n_indf_nom_sg": "krop",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kvinde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kvinde",
+    "inflections": {
+      "n_def_nom_pl": "kvinderne",
+      "n_def_nom_pl_2": "kvindernes",
+      "n_def_nom_sg": "kvinden",
+      "n_def_nom_sg_2": "kvindens",
+      "n_indf_gen_pl": "kvinders",
+      "n_indf_gen_sg": "kvindes",
+      "n_indf_nom_pl": "kvinder",
+      "n_indf_nom_sg": "kvinde",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "kæft": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kæft",
+    "inflections": {
+      "n_def_nom_pl": "kæfterne",
+      "n_def_nom_pl_2": "kæfternes",
+      "n_def_nom_sg": "kæften",
+      "n_def_nom_sg_2": "kæftens",
+      "n_indf_gen_pl": "kæfters",
+      "n_indf_gen_sg": "kæfts",
+      "n_indf_nom_pl": "kæfter",
+      "n_indf_nom_sg": "kæft",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "kær": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kær",
+    "inflections": {
+      "adj_def": "kære",
+      "adj_def_sprl": "kæreste",
+      "adj_indf_pl": "kære",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kører": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kører",
+    "inflections": {
+      "n_def_nom_pl": "kørerne",
+      "n_def_nom_pl_2": "kørernes",
+      "n_def_nom_sg": "køreren",
+      "n_def_nom_sg_2": "kørerens",
+      "n_indf_gen_pl": "køreres",
+      "n_indf_gen_sg": "kørers",
+      "n_indf_nom_pl": "kørere",
+      "n_indf_nom_sg": "kører",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "lad": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lad",
+    "inflections": {
+      "adj_def": "lade",
+      "adj_def_cmpr": "ladere",
+      "adj_def_sprl": "ladeste",
+      "adj_indf_masc_fem_sg": "lad",
+      "adj_indf_masc_fem_sg_cmpr": "ladere",
+      "adj_indf_masc_fem_sg_sprl": "ladest",
+      "adj_indf_neut_sg": "ladt",
+      "adj_indf_neut_sg_cmpr": "ladere",
+      "adj_indf_neut_sg_sprl": "ladest",
+      "adj_indf_pl": "lade",
+      "adj_indf_pl_cmpr": "ladere",
+      "adj_indf_pl_sprl": "ladest",
+      "n_def_nom_pl": "ladene",
+      "n_def_nom_pl_2": "ladenes",
+      "n_def_nom_sg": "ladet",
+      "n_def_nom_sg_2": "ladets",
+      "n_indf_gen_pl": "lads",
+      "n_indf_gen_sg": "lads",
+      "n_indf_nom_pl": "lad",
+      "n_indf_nom_sg": "lad",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun",
+      "adjective"
+    ]
+  },
+  "lav": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lav",
+    "inflections": {
+      "adj_def": "lave",
+      "adj_indf_pl": "lave",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "led": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "led",
+    "inflections": {
+      "adj_def": "lede",
+      "adj_indf_pl": "lede",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "lejlighed": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lejlighed",
+    "inflections": {
+      "n_def_nom_pl": "lejlighederne",
+      "n_def_nom_pl_2": "lejlighedernes",
+      "n_def_nom_sg": "lejligheden",
+      "n_def_nom_sg_2": "lejlighedens",
+      "n_indf_gen_pl": "lejligheders",
+      "n_indf_gen_sg": "lejligheds",
+      "n_indf_nom_pl": "lejligheder",
+      "n_indf_nom_sg": "lejlighed",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "let": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "let",
+    "inflections": {
+      "adj_def": "lette",
+      "adj_def_cmpr": "lettere",
+      "adj_def_sprl": "letteste",
+      "adj_indf_masc_fem_sg": "let",
+      "adj_indf_masc_fem_sg_cmpr": "lettere",
+      "adj_indf_masc_fem_sg_sprl": "lettest",
+      "adj_indf_neut_sg": "let",
+      "adj_indf_neut_sg_cmpr": "lettere",
+      "adj_indf_neut_sg_sprl": "lettest",
+      "adj_indf_pl": "lette",
+      "adj_indf_pl_cmpr": "lettere",
+      "adj_indf_pl_sprl": "lettest",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "liv": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "liv",
+    "inflections": {
+      "n_def_nom_pl": "livene",
+      "n_def_nom_pl_2": "livenes",
+      "n_def_nom_sg": "livet",
+      "n_def_nom_sg_2": "livets",
+      "n_indf_gen_pl": "livs",
+      "n_indf_gen_sg": "livs",
+      "n_indf_nom_pl": "liv",
+      "n_indf_nom_sg": "liv",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "lort": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lort",
+    "inflections": {
+      "n_def_nom_pl": "lortene",
+      "n_def_nom_pl_2": "lortenes",
+      "n_def_nom_sg": "lorten",
+      "n_def_nom_sg_2": "lortens",
+      "n_indf_gen_pl": "lortes",
+      "n_indf_gen_sg": "lorts",
+      "n_indf_nom_pl": "lorte",
+      "n_indf_nom_sg": "lort",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "lys": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lys",
+    "inflections": {
+      "adj_def": "lyse",
+      "adj_def_cmpr": "lysere",
+      "adj_def_sprl": "lyseste",
+      "adj_indf_masc_fem_sg": "lys",
+      "adj_indf_masc_fem_sg_cmpr": "lysere",
+      "adj_indf_masc_fem_sg_sprl": "lysest",
+      "adj_indf_neut_sg": "lyst",
+      "adj_indf_neut_sg_cmpr": "lysere",
+      "adj_indf_neut_sg_sprl": "lysest",
+      "adj_indf_pl": "lyse",
+      "adj_indf_pl_cmpr": "lysere",
+      "adj_indf_pl_sprl": "lysest",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "læg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "læg",
+    "inflections": {
+      "adj_def": "læge",
+      "adj_indf_masc_fem_sg": "læg",
+      "adj_indf_neut_sg": "lægt",
+      "adj_indf_pl": "læge",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "lærer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lærer",
+    "inflections": {
+      "n_def_nom_pl": "lærerne",
+      "n_def_nom_pl_2": "lærernes",
+      "n_def_nom_sg": "læreren",
+      "n_def_nom_sg_2": "lærerens",
+      "n_indf_gen_pl": "læreres",
+      "n_indf_gen_sg": "lærers",
+      "n_indf_nom_pl": "lærere",
+      "n_indf_nom_sg": "lærer",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "løb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "løb",
+    "inflections": {
+      "n_def_nom_pl": "løbene",
+      "n_def_nom_pl_2": "løbenes",
+      "n_def_nom_sg": "løbet",
+      "n_def_nom_sg_2": "løbets",
+      "n_indf_gen_pl": "løbs",
+      "n_indf_gen_sg": "løbs",
+      "n_indf_nom_pl": "løb",
+      "n_indf_nom_sg": "løb",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "løgn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "løgn",
+    "inflections": {
+      "n_def_nom_pl": "løgnene",
+      "n_def_nom_pl_2": "løgnenes",
+      "n_def_nom_sg": "løgnen",
+      "n_def_nom_sg_2": "løgnens",
+      "n_indf_gen_pl": "løgnes",
+      "n_indf_gen_sg": "løgns",
+      "n_indf_nom_pl": "løgne",
+      "n_indf_nom_sg": "løgn",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
   "man": {
     "antonyms": [],
     "base": "man",
@@ -326,6 +1941,41 @@
     "priority": 3,
     "types": [
       "pronoun"
+    ]
+  },
+  "mangel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mangel",
+    "inflections": {
+      "n_indf_nom_pl": "mangler",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "masse": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "masse",
+    "inflections": {
+      "n_def_nom_pl": "masserne",
+      "n_def_nom_pl_2": "massernes",
+      "n_def_nom_sg": "massen",
+      "n_def_nom_sg_2": "massens",
+      "n_indf_gen_pl": "massers",
+      "n_indf_gen_sg": "masses",
+      "n_indf_nom_pl": "masser",
+      "n_indf_nom_sg": "masse",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
     ]
   },
   "men": {
@@ -342,6 +1992,245 @@
       "conjunction"
     ]
   },
+  "menneske": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "menneske",
+    "inflections": {
+      "n_def_nom_pl": "menneskerne",
+      "n_def_nom_pl_2": "menneskernes",
+      "n_def_nom_sg": "mennesket",
+      "n_def_nom_sg_2": "menneskets",
+      "n_indf_gen_pl": "menneskers",
+      "n_indf_gen_sg": "menneskes",
+      "n_indf_nom_pl": "mennesker",
+      "n_indf_nom_sg": "menneske",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "middag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "middag",
+    "inflections": {
+      "n_def_nom_pl": "middagene",
+      "n_def_nom_pl_2": "middagenes",
+      "n_def_nom_sg": "middagen",
+      "n_def_nom_sg_2": "middagens",
+      "n_indf_gen_pl": "middages",
+      "n_indf_gen_sg": "middags",
+      "n_indf_nom_pl": "middage",
+      "n_indf_nom_sg": "middag",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "miste": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "miste",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "mist",
+      "v_act_ind_prs": "mister",
+      "v_act_ind_pst": "mistede",
+      "v_act_nfin": "miste",
+      "v_pass_ind_prs": "mistes",
+      "v_pass_ind_pst": "mistedes",
+      "v_ptcp_act_prs": "mistende",
+      "v_ptcp_pass_pst": "mistet"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "mord": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mord",
+    "inflections": {
+      "n_def_nom_pl": "mordene",
+      "n_def_nom_pl_2": "mordenes",
+      "n_def_nom_sg": "mordet",
+      "n_def_nom_sg_2": "mordets",
+      "n_indf_gen_pl": "mords",
+      "n_indf_gen_sg": "mords",
+      "n_indf_nom_pl": "mord",
+      "n_indf_nom_sg": "mord",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "mulig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mulig",
+    "inflections": {
+      "adj_indf_neut_sg": "muligt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mund": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mund",
+    "inflections": {
+      "n_def_nom_pl": "mundene",
+      "n_def_nom_pl_2": "mundenes",
+      "n_def_nom_sg": "munden",
+      "n_def_nom_sg_2": "mundens",
+      "n_indf_gen_pl": "mundes",
+      "n_indf_gen_sg": "munds",
+      "n_indf_nom_pl": "munde",
+      "n_indf_nom_sg": "mund",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "måde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "måde",
+    "inflections": {
+      "n_def_nom_pl": "måderne",
+      "n_def_nom_pl_2": "mådernes",
+      "n_def_nom_sg": "måden",
+      "n_def_nom_sg_2": "mådens",
+      "n_indf_gen_pl": "måders",
+      "n_indf_gen_sg": "mådes",
+      "n_indf_nom_pl": "måder",
+      "n_indf_nom_sg": "måde",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "mål": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mål",
+    "inflections": {
+      "n_def_nom_pl": "målene",
+      "n_def_nom_pl_2": "målenes",
+      "n_def_nom_sg": "målet",
+      "n_def_nom_sg_2": "målets",
+      "n_indf_gen_pl": "måls",
+      "n_indf_gen_sg": "måls",
+      "n_indf_nom_pl": "mål",
+      "n_indf_nom_sg": "mål",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "måned": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "måned",
+    "inflections": {
+      "n_indf_nom_pl": "måneder",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "møde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "møde",
+    "inflections": {
+      "n_def_nom_pl": "møderne",
+      "n_def_nom_pl_2": "mødernes",
+      "n_def_nom_sg": "mødet",
+      "n_def_nom_sg_2": "mødets",
+      "n_indf_gen_pl": "møders",
+      "n_indf_gen_sg": "mødes",
+      "n_indf_nom_pl": "møder",
+      "n_indf_nom_sg": "møde",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "nat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nat",
+    "inflections": {
+      "n_def_nom_pl": "nætterne",
+      "n_def_nom_pl_2": "nætternes",
+      "n_def_nom_sg": "natten",
+      "n_def_nom_sg_2": "nattens",
+      "n_indf_gen_pl": "nætters",
+      "n_indf_gen_sg": "nats",
+      "n_indf_nom_pl": "nætter",
+      "n_indf_nom_sg": "nat",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "navn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "navn",
+    "inflections": {
+      "n_def_nom_pl": "navnene",
+      "n_def_nom_pl_2": "navnenes",
+      "n_def_nom_sg": "navnet",
+      "n_def_nom_sg_2": "navnets",
+      "n_indf_gen_pl": "navnes",
+      "n_indf_gen_sg": "navns",
+      "n_indf_nom_pl": "navne",
+      "n_indf_nom_sg": "navn",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
   "nu": {
     "antonyms": [],
     "base": "nu",
@@ -354,6 +2243,23 @@
     "priority": 7,
     "types": [
       "adverb"
+    ]
+  },
+  "næste": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "næste",
+    "inflections": {
+      "adj_def": "næste",
+      "adj_indf_masc_fem_sg": "næste",
+      "adj_indf_neut_sg": "næste",
+      "adj_indf_pl": "næste",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
     ]
   },
   "og": {
@@ -397,6 +2303,374 @@
       "preposition"
     ]
   },
+  "onkel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "onkel",
+    "inflections": {
+      "n_def_nom_pl": "onklerne",
+      "n_def_nom_pl_2": "onklernes",
+      "n_def_nom_sg": "onklen",
+      "n_def_nom_sg_2": "onklens",
+      "n_indf_gen_pl": "onklers",
+      "n_indf_gen_sg": "onkels",
+      "n_indf_nom_pl": "onkler",
+      "n_indf_nom_sg": "onkel",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "person": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "person",
+    "inflections": {
+      "n_def_nom_pl": "personerne",
+      "n_def_nom_pl_2": "personernes",
+      "n_def_nom_sg": "personen",
+      "n_def_nom_sg_2": "personens",
+      "n_indf_gen_pl": "personers",
+      "n_indf_gen_sg": "persons",
+      "n_indf_nom_pl": "personer",
+      "n_indf_nom_sg": "person",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pige": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pige",
+    "inflections": {
+      "n_def_nom_pl": "pigerne",
+      "n_def_nom_pl_2": "pigernes",
+      "n_def_nom_sg": "pigen",
+      "n_def_nom_sg_2": "pigens",
+      "n_indf_gen_pl": "pigers",
+      "n_indf_gen_sg": "piges",
+      "n_indf_nom_pl": "piger",
+      "n_indf_nom_sg": "pige",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "pistol": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pistol",
+    "inflections": {
+      "n_def_nom_pl": "pistolerne",
+      "n_def_nom_pl_2": "pistolernes",
+      "n_def_nom_sg": "pistolen",
+      "n_def_nom_sg_2": "pistolens",
+      "n_indf_gen_pl": "pistolers",
+      "n_indf_gen_sg": "pistols",
+      "n_indf_nom_pl": "pistoler",
+      "n_indf_nom_sg": "pistol",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "plads": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plads",
+    "inflections": {
+      "n_def_nom_pl": "pladserne",
+      "n_def_nom_pl_2": "pladsernes",
+      "n_def_nom_sg": "pladsen",
+      "n_def_nom_sg_2": "pladsens",
+      "n_indf_gen_pl": "pladsers",
+      "n_indf_gen_sg": "plads'",
+      "n_indf_nom_pl": "pladser",
+      "n_indf_nom_sg": "plads",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "pludselig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pludselig",
+    "inflections": {
+      "adj_def": "pludselige",
+      "adj_indf_masc_fem_sg": "pludselig",
+      "adj_indf_neut_sg": "pludseligt",
+      "adj_indf_pl": "pludselige",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "præsident": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "præsident",
+    "inflections": {
+      "n_def_nom_pl": "præsidenterne",
+      "n_def_nom_pl_2": "præsidenternes",
+      "n_def_nom_sg": "præsidenten",
+      "n_def_nom_sg_2": "præsidentens",
+      "n_indf_gen_pl": "præsidenters",
+      "n_indf_gen_sg": "præsidents",
+      "n_indf_nom_pl": "præsidenter",
+      "n_indf_nom_sg": "præsident",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "prøve": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prøve",
+    "inflections": {
+      "n_def_nom_pl": "prøverne",
+      "n_def_nom_pl_2": "prøvernes",
+      "n_def_nom_sg": "prøven",
+      "n_def_nom_sg_2": "prøvens",
+      "n_indf_gen_pl": "prøvers",
+      "n_indf_gen_sg": "prøves",
+      "n_indf_nom_pl": "prøver",
+      "n_indf_nom_sg": "prøve",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "pæn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pæn",
+    "inflections": {
+      "adj_indf_neut_sg": "pænt",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "rar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rar",
+    "inflections": {
+      "adj_indf_neut_sg": "rart",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ren": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ren",
+    "inflections": {
+      "adj_indf_neut_sg": "rent",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "rigtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rigtig",
+    "inflections": {
+      "adj_def": "rigtige",
+      "adj_def_cmpr": "rigtigere",
+      "adj_def_sprl": "rigtigste",
+      "adj_indf_masc_fem_sg": "rigtig",
+      "adj_indf_masc_fem_sg_cmpr": "rigtigere",
+      "adj_indf_masc_fem_sg_sprl": "rigtigst",
+      "adj_indf_neut_sg": "rigtigt",
+      "adj_indf_neut_sg_cmpr": "rigtigere",
+      "adj_indf_neut_sg_sprl": "rigtigst",
+      "adj_indf_pl": "rigtige",
+      "adj_indf_pl_cmpr": "rigtigere",
+      "adj_indf_pl_sprl": "rigtigst",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ringe": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ringe",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "ring",
+      "v_act_ind_prs": "ringer",
+      "v_act_ind_pst": "ringede",
+      "v_act_nfin": "ringe",
+      "v_pass_ind_prs": "ringes",
+      "v_pass_ind_pst": "ringedes",
+      "v_ptcp_act_prs": "ringende",
+      "v_ptcp_pass_pst": "ringet"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "rund": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rund",
+    "inflections": {
+      "adj_indf_neut_sg": "rundt",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "røvhul": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "røvhul",
+    "inflections": {
+      "n_def_nom_pl": "røvhullerne",
+      "n_def_nom_pl_2": "røvhullernes",
+      "n_def_nom_sg": "røvhullet",
+      "n_def_nom_sg_2": "røvhullets",
+      "n_indf_gen_pl": "røvhullers",
+      "n_indf_gen_sg": "røvhuls",
+      "n_indf_nom_pl": "røvhuller",
+      "n_indf_nom_sg": "røvhul",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "sag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sag",
+    "inflections": {
+      "n_def_nom_pl": "sagerne",
+      "n_def_nom_pl_2": "sagernes",
+      "n_def_nom_sg": "sagen",
+      "n_def_nom_sg_2": "sagens",
+      "n_indf_gen_pl": "sagers",
+      "n_indf_gen_sg": "sags",
+      "n_indf_nom_pl": "sager",
+      "n_indf_nom_sg": "sag",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "samme": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "samme",
+    "inflections": {
+      "adj_def": "samme",
+      "adj_indf_masc_fem_sg": "samme",
+      "adj_indf_neut_sg": "samme",
+      "adj_indf_pl": "samme",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sand": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sand",
+    "inflections": {
+      "adj_indf_neut_sg": "sandt",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sandhed": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sandhed",
+    "inflections": {
+      "n_def_nom_sg": "sandheden",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "savne": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "savne",
+    "inflections": {
+      "regulars": [],
+      "v_act_ind_prs": "savner"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
   "se": {
     "antonyms": [],
     "base": "se",
@@ -407,6 +2681,133 @@
     "priority": 5,
     "types": [
       "verb"
+    ]
+  },
+  "sen": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sen",
+    "inflections": {
+      "adj_def_cmpr": "senere",
+      "adj_indf_masc_fem_sg_cmpr": "senere",
+      "adj_indf_neut_sg": "sent",
+      "adj_indf_neut_sg_cmpr": "senere",
+      "adj_indf_pl_cmpr": "senere",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "seng": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "seng",
+    "inflections": {
+      "n_def_nom_pl": "sengene",
+      "n_def_nom_pl_2": "sengenes",
+      "n_def_nom_sg": "sengen",
+      "n_def_nom_sg_2": "sengens",
+      "n_indf_gen_pl": "senges",
+      "n_indf_gen_sg": "sengs",
+      "n_indf_nom_pl": "senge",
+      "n_indf_nom_sg": "seng",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "sidste": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sidste",
+    "inflections": {
+      "adj_def": "sidste",
+      "adj_indf_masc_fem_sg": "sidste",
+      "adj_indf_neut_sg": "sidste",
+      "adj_indf_pl": "sidste",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sikker": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sikker",
+    "inflections": {
+      "adj_def": "sikre",
+      "adj_def_cmpr": "sikrere",
+      "adj_def_sprl": "sikreste",
+      "adj_indf_masc_fem_sg": "sikker",
+      "adj_indf_masc_fem_sg_cmpr": "sikrere",
+      "adj_indf_masc_fem_sg_sprl": "sikrest",
+      "adj_indf_neut_sg": "sikkert",
+      "adj_indf_neut_sg_cmpr": "sikrere",
+      "adj_indf_neut_sg_sprl": "sikrest",
+      "adj_indf_pl": "sikre",
+      "adj_indf_pl_cmpr": "sikrere",
+      "adj_indf_pl_sprl": "sikrest",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sikkerhed": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sikkerhed",
+    "inflections": {
+      "n_def_nom_pl": "sikkerhederne",
+      "n_def_nom_pl_2": "sikkerhedernes",
+      "n_def_nom_sg": "sikkerheden",
+      "n_def_nom_sg_2": "sikkerhedens",
+      "n_indf_gen_pl": "sikkerheders",
+      "n_indf_gen_sg": "sikkerheds",
+      "n_indf_nom_pl": "sikkerheder",
+      "n_indf_nom_sg": "sikkerhed",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "sjov": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sjov",
+    "inflections": {
+      "adj_def": "sjove",
+      "adj_def_cmpr": "sjovere",
+      "adj_def_sprl": "sjoveste",
+      "adj_indf_masc_fem_sg": "sjov",
+      "adj_indf_masc_fem_sg_cmpr": "sjovere",
+      "adj_indf_masc_fem_sg_sprl": "sjovest",
+      "adj_indf_neut_sg": "sjovt",
+      "adj_indf_neut_sg_cmpr": "sjovere",
+      "adj_indf_neut_sg_sprl": "sjovest",
+      "adj_indf_pl": "sjove",
+      "adj_indf_pl_cmpr": "sjovere",
+      "adj_indf_pl_sprl": "sjovest",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
     ]
   },
   "skal": {
@@ -421,6 +2822,853 @@
     "priority": 8,
     "types": [
       "verb"
+    ]
+  },
+  "skidt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skidt",
+    "inflections": {
+      "adj_def": "skidte",
+      "adj_indf_masc_fem_sg": "skidt",
+      "adj_indf_neut_sg": "skidt",
+      "adj_indf_pl": "skidte",
+      "n_def_nom_pl": "skidtene",
+      "n_def_nom_pl_2": "skidtenes",
+      "n_def_nom_sg": "skidtet",
+      "n_def_nom_sg_2": "skidtets",
+      "n_indf_gen_pl": "skidts",
+      "n_indf_gen_sg": "skidts",
+      "n_indf_nom_pl": "skidt",
+      "n_indf_nom_sg": "skidt",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun",
+      "adjective"
+    ]
+  },
+  "skåle": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skåle",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "skål"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "skør": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skør",
+    "inflections": {
+      "adj_def": "skøre",
+      "adj_def_cmpr": "skørere",
+      "adj_def_sprl": "skøreste",
+      "adj_indf_masc_fem_sg": "skør",
+      "adj_indf_masc_fem_sg_cmpr": "skørere",
+      "adj_indf_masc_fem_sg_sprl": "skørest",
+      "adj_indf_neut_sg": "skørt",
+      "adj_indf_neut_sg_cmpr": "skørere",
+      "adj_indf_neut_sg_sprl": "skørest",
+      "adj_indf_pl": "skøre",
+      "adj_indf_pl_cmpr": "skørere",
+      "adj_indf_pl_sprl": "skørest",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "slap": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "slap",
+    "inflections": {
+      "adj_def": "slappe",
+      "adj_def_cmpr": "slappere",
+      "adj_def_sprl": "slappeste",
+      "adj_indf_masc_fem_sg": "slap",
+      "adj_indf_masc_fem_sg_cmpr": "slappere",
+      "adj_indf_masc_fem_sg_sprl": "slappest",
+      "adj_indf_neut_sg": "slapt",
+      "adj_indf_neut_sg_cmpr": "slappere",
+      "adj_indf_neut_sg_sprl": "slappest",
+      "adj_indf_pl": "slappe",
+      "adj_indf_pl_cmpr": "slappere",
+      "adj_indf_pl_sprl": "slappest",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "smuk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "smuk",
+    "inflections": {
+      "adj_def": "smukke",
+      "adj_def_cmpr": "smukkere",
+      "adj_def_sprl": "smukkeste",
+      "adj_indf_masc_fem_sg": "smuk",
+      "adj_indf_masc_fem_sg_cmpr": "smukkere",
+      "adj_indf_masc_fem_sg_sprl": "smukkest",
+      "adj_indf_neut_sg": "smukt",
+      "adj_indf_neut_sg_cmpr": "smukkere",
+      "adj_indf_neut_sg_sprl": "smukkest",
+      "adj_indf_pl": "smukke",
+      "adj_indf_pl_cmpr": "smukkere",
+      "adj_indf_pl_sprl": "smukkest",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sort": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sort",
+    "inflections": {
+      "adj_def": "sorte",
+      "adj_def_cmpr": "sortere",
+      "adj_def_sprl": "sorteste",
+      "adj_indf_masc_fem_sg": "sort",
+      "adj_indf_masc_fem_sg_cmpr": "sortere",
+      "adj_indf_masc_fem_sg_sprl": "sortest",
+      "adj_indf_neut_sg": "sort",
+      "adj_indf_neut_sg_cmpr": "sortere",
+      "adj_indf_neut_sg_sprl": "sortest",
+      "adj_indf_pl": "sorte",
+      "adj_indf_pl_cmpr": "sortere",
+      "adj_indf_pl_sprl": "sortest",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "spor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spor",
+    "inflections": {
+      "n_def_nom_pl": "sporene",
+      "n_def_nom_pl_2": "sporenes",
+      "n_def_nom_sg": "sporet",
+      "n_def_nom_sg_2": "sporets",
+      "n_indf_gen_pl": "spors",
+      "n_indf_gen_sg": "spors",
+      "n_indf_nom_pl": "spor",
+      "n_indf_nom_sg": "spor",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "spørgsmål": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spørgsmål",
+    "inflections": {
+      "n_def_nom_pl": "spørgsmålene",
+      "n_def_nom_pl_2": "spørgsmålenes",
+      "n_def_nom_sg": "spørgsmålet",
+      "n_def_nom_sg_2": "spørgsmålets",
+      "n_indf_gen_pl": "spørgsmåls",
+      "n_indf_gen_sg": "spørgsmåls",
+      "n_indf_nom_pl": "spørgsmål",
+      "n_indf_nom_sg": "spørgsmål",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "stadig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stadig",
+    "inflections": {
+      "adj_def": "stadige",
+      "adj_indf_masc_fem_sg": "stadig",
+      "adj_indf_neut_sg": "stadigt",
+      "adj_indf_pl": "stadige",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "start": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "start",
+    "inflections": {
+      "n_indf_nom_pl": "starter",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "starter": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "starter",
+    "inflections": {
+      "n_def_nom_pl": "starterne",
+      "n_def_nom_pl_2": "starternes",
+      "n_def_nom_sg": "starteren",
+      "n_def_nom_sg_2": "starterens",
+      "n_indf_gen_pl": "starteres",
+      "n_indf_gen_sg": "starters",
+      "n_indf_nom_pl": "startere",
+      "n_indf_nom_sg": "starter",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "stol": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stol",
+    "inflections": {
+      "n_indf_nom_pl": "stole",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "styr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "styr",
+    "inflections": {
+      "n_def_nom_pl": "styrene",
+      "n_def_nom_pl_2": "styrenes",
+      "n_def_nom_sg": "styret",
+      "n_def_nom_sg_2": "styrets",
+      "n_indf_gen_pl": "styrs",
+      "n_indf_gen_sg": "styrs",
+      "n_indf_nom_pl": "styr",
+      "n_indf_nom_sg": "styr",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "stærk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "stærk",
+    "inflections": {
+      "adj_def": "stærke",
+      "adj_def_cmpr": "stærkere",
+      "adj_def_sprl": "stærkeste",
+      "adj_indf_masc_fem_sg": "stærk",
+      "adj_indf_masc_fem_sg_cmpr": "stærkere",
+      "adj_indf_masc_fem_sg_sprl": "stærkest",
+      "adj_indf_neut_sg": "stærkt",
+      "adj_indf_neut_sg_cmpr": "stærkere",
+      "adj_indf_neut_sg_sprl": "stærkest",
+      "adj_indf_pl": "stærke",
+      "adj_indf_pl_cmpr": "stærkere",
+      "adj_indf_pl_sprl": "stærkest",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sulten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sulten",
+    "inflections": {
+      "adj_def": "sultne",
+      "adj_indf_masc_fem_sg": "sulten",
+      "adj_indf_neut_sg": "sultent",
+      "adj_indf_pl": "sultne",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "svar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svar",
+    "inflections": {
+      "adj_def": "svare",
+      "adj_def_cmpr": "svarere",
+      "adj_def_sprl": "svareste",
+      "adj_indf_masc_fem_sg": "svar",
+      "adj_indf_masc_fem_sg_cmpr": "svarere",
+      "adj_indf_masc_fem_sg_sprl": "svarest",
+      "adj_indf_neut_sg": "svart",
+      "adj_indf_neut_sg_cmpr": "svarere",
+      "adj_indf_neut_sg_sprl": "svarest",
+      "adj_indf_pl": "svare",
+      "adj_indf_pl_cmpr": "svarere",
+      "adj_indf_pl_sprl": "svarest",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "svare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svare",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "svar"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "svin": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svin",
+    "inflections": {
+      "n_def_nom_pl": "svinene",
+      "n_def_nom_pl_2": "svinenes",
+      "n_def_nom_sg": "svinet",
+      "n_def_nom_sg_2": "svinets",
+      "n_indf_gen_pl": "svins",
+      "n_indf_gen_sg": "svins",
+      "n_indf_nom_pl": "svin",
+      "n_indf_nom_sg": "svin",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "syg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "syg",
+    "inflections": {
+      "adj_def": "syge",
+      "adj_def_cmpr": "sygere",
+      "adj_def_sprl": "sygeste",
+      "adj_indf_masc_fem_sg": "syg",
+      "adj_indf_masc_fem_sg_cmpr": "sygere",
+      "adj_indf_masc_fem_sg_sprl": "sygest",
+      "adj_indf_neut_sg": "sygt",
+      "adj_indf_neut_sg_cmpr": "sygere",
+      "adj_indf_neut_sg_sprl": "sygest",
+      "adj_indf_pl": "syge",
+      "adj_indf_pl_cmpr": "sygere",
+      "adj_indf_pl_sprl": "sygest",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sådan": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sådan",
+    "inflections": {
+      "adj_def": "sådanne",
+      "adj_indf_masc_fem_sg": "sådan",
+      "adj_indf_neut_sg": "sådant",
+      "adj_indf_pl": "sådanne",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sød": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sød",
+    "inflections": {
+      "adj_def": "søde",
+      "adj_def_cmpr": "sødere",
+      "adj_def_sprl": "sødeste",
+      "adj_indf_masc_fem_sg": "sød",
+      "adj_indf_masc_fem_sg_cmpr": "sødere",
+      "adj_indf_masc_fem_sg_sprl": "sødest",
+      "adj_indf_neut_sg": "sødt",
+      "adj_indf_neut_sg_cmpr": "sødere",
+      "adj_indf_neut_sg_sprl": "sødest",
+      "adj_indf_pl": "søde",
+      "adj_indf_pl_cmpr": "sødere",
+      "adj_indf_pl_sprl": "sødest",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "søn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "søn",
+    "inflections": {
+      "n_def_nom_pl": "sønnerne",
+      "n_def_nom_pl_2": "sønnernes",
+      "n_def_nom_sg": "sønnen",
+      "n_def_nom_sg_2": "sønnens",
+      "n_indf_gen_pl": "sønners",
+      "n_indf_gen_sg": "søns",
+      "n_indf_nom_pl": "sønner",
+      "n_indf_nom_sg": "søn",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "søster": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "søster",
+    "inflections": {
+      "n_def_nom_pl": "søstrene",
+      "n_def_nom_pl_2": "søstrenes",
+      "n_def_nom_sg": "søsteren",
+      "n_def_nom_sg_2": "søsterens",
+      "n_indf_gen_pl": "søstres",
+      "n_indf_gen_sg": "søsters",
+      "n_indf_nom_pl": "søstre",
+      "n_indf_nom_sg": "søster",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "tagetage": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tagetage",
+    "inflections": {
+      "n_def_nom_pl": "tage",
+      "n_def_nom_sg": "tage",
+      "n_indf_gen_pl": "tage",
+      "n_indf_gen_sg": "tage",
+      "n_indf_nom_pl": "tage",
+      "n_indf_nom_sg": "tage",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "tale": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tale",
+    "inflections": {
+      "n_def_nom_pl": "talerne",
+      "n_def_nom_pl_2": "talernes",
+      "n_def_nom_sg": "talen",
+      "n_def_nom_sg_2": "talens",
+      "n_indf_gen_pl": "talers",
+      "n_indf_gen_sg": "tales",
+      "n_indf_nom_pl": "taler",
+      "n_indf_nom_sg": "tale",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "telefon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefon",
+    "inflections": {
+      "n_def_nom_pl": "telefonerne",
+      "n_def_nom_pl_2": "telefonernes",
+      "n_def_nom_sg": "telefonen",
+      "n_def_nom_sg_2": "telefonens",
+      "n_indf_gen_pl": "telefoners",
+      "n_indf_gen_sg": "telefons",
+      "n_indf_nom_pl": "telefoner",
+      "n_indf_nom_sg": "telefon",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "tid": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tid",
+    "inflections": {
+      "n_def_nom_pl": "tiderne",
+      "n_def_nom_pl_2": "tidernes",
+      "n_def_nom_sg": "tiden",
+      "n_def_nom_sg_2": "tidens",
+      "n_indf_gen_pl": "tiders",
+      "n_indf_gen_sg": "tids",
+      "n_indf_nom_pl": "tider",
+      "n_indf_nom_sg": "tid",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "tidspunkt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tidspunkt",
+    "inflections": {
+      "n_def_nom_pl": "tidspunkterne",
+      "n_def_nom_pl_2": "tidspunkternes",
+      "n_def_nom_sg": "tidspunktet",
+      "n_def_nom_sg_2": "tidspunktets",
+      "n_indf_gen_pl": "tidspunkters",
+      "n_indf_gen_sg": "tidspunkts",
+      "n_indf_nom_pl": "tidspunkter",
+      "n_indf_nom_sg": "tidspunkt",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "time": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "time",
+    "inflections": {
+      "n_def_nom_pl": "timerne",
+      "n_def_nom_pl_2": "timernes",
+      "n_def_nom_sg": "timen",
+      "n_def_nom_sg_2": "timens",
+      "n_indf_gen_pl": "timers",
+      "n_indf_gen_sg": "times",
+      "n_indf_nom_pl": "timer",
+      "n_indf_nom_sg": "time",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tjeneste": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tjeneste",
+    "inflections": {
+      "n_def_nom_pl": "tjenesterne",
+      "n_def_nom_pl_2": "tjenesternes",
+      "n_def_nom_sg": "tjenesten",
+      "n_def_nom_sg_2": "tjenestens",
+      "n_indf_gen_pl": "tjenesters",
+      "n_indf_gen_sg": "tjenestes",
+      "n_indf_nom_pl": "tjenester",
+      "n_indf_nom_sg": "tjeneste",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "travl": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "travl",
+    "inflections": {
+      "adj_indf_neut_sg": "travlt",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "træt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "træt",
+    "inflections": {
+      "adj_def": "trætte",
+      "adj_def_cmpr": "trættere",
+      "adj_def_sprl": "trætteste",
+      "adj_indf_masc_fem_sg": "træt",
+      "adj_indf_masc_fem_sg_cmpr": "trættere",
+      "adj_indf_masc_fem_sg_sprl": "trættest",
+      "adj_indf_neut_sg": "træt",
+      "adj_indf_neut_sg_cmpr": "trættere",
+      "adj_indf_neut_sg_sprl": "trættest",
+      "adj_indf_pl": "trætte",
+      "adj_indf_pl_cmpr": "trættere",
+      "adj_indf_pl_sprl": "trættest",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "tur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tur",
+    "inflections": {
+      "n_def_nom_pl": "turene",
+      "n_def_nom_pl_2": "turenes",
+      "n_def_nom_sg": "turen",
+      "n_def_nom_sg_2": "turens",
+      "n_indf_gen_pl": "tures",
+      "n_indf_gen_sg": "turs",
+      "n_indf_nom_pl": "ture",
+      "n_indf_nom_sg": "tur",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "tæt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tæt",
+    "inflections": {
+      "adj_def": "tætte",
+      "adj_def_cmpr": "tættere",
+      "adj_def_sprl": "tætteste",
+      "adj_indf_masc_fem_sg": "tæt",
+      "adj_indf_masc_fem_sg_cmpr": "tættere",
+      "adj_indf_masc_fem_sg_sprl": "tættest",
+      "adj_indf_neut_sg": "tæt",
+      "adj_indf_neut_sg_cmpr": "tættere",
+      "adj_indf_neut_sg_sprl": "tættest",
+      "adj_indf_pl": "tætte",
+      "adj_indf_pl_cmpr": "tættere",
+      "adj_indf_pl_sprl": "tættest",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "tøj": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tøj",
+    "inflections": {
+      "n_def_nom_pl": "tøjerne",
+      "n_def_nom_pl_2": "tøjernes",
+      "n_def_nom_sg": "tøjet",
+      "n_def_nom_sg_2": "tøjets",
+      "n_indf_gen_pl": "tøjers",
+      "n_indf_gen_sg": "tøjs",
+      "n_indf_nom_pl": "tøjer",
+      "n_indf_nom_sg": "tøj",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "tør": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tør",
+    "inflections": {
+      "adj_def": "tørre",
+      "adj_def_cmpr": "tørrere",
+      "adj_def_sprl": "tørreste",
+      "adj_indf_masc_fem_sg": "tør",
+      "adj_indf_masc_fem_sg_cmpr": "tørrere",
+      "adj_indf_masc_fem_sg_sprl": "tørrest",
+      "adj_indf_neut_sg": "tørt",
+      "adj_indf_neut_sg_cmpr": "tørrere",
+      "adj_indf_neut_sg_sprl": "tørrest",
+      "adj_indf_pl": "tørre",
+      "adj_indf_pl_cmpr": "tørrere",
+      "adj_indf_pl_sprl": "tørrest",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "uge": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uge",
+    "inflections": {
+      "n_def_nom_pl": "ugerne",
+      "n_def_nom_pl_2": "ugernes",
+      "n_def_nom_sg": "ugen",
+      "n_def_nom_sg_2": "ugens",
+      "n_indf_gen_pl": "ugers",
+      "n_indf_gen_sg": "uges",
+      "n_indf_nom_pl": "uger",
+      "n_indf_nom_sg": "uge",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "underlig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "underlig",
+    "inflections": {
+      "adj_indf_neut_sg": "underligt",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "unge": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "unge",
+    "inflections": {
+      "n_def_nom_pl": "ungerne",
+      "n_def_nom_pl_2": "ungernes",
+      "n_def_nom_sg": "ungen",
+      "n_def_nom_sg_2": "ungens",
+      "n_indf_gen_pl": "ungers",
+      "n_indf_gen_sg": "unges",
+      "n_indf_nom_pl": "unger",
+      "n_indf_nom_sg": "unge",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "utrolig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "utrolig",
+    "inflections": {
+      "adj_indf_neut_sg": "utroligt",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "valg": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "valg",
+    "inflections": {
+      "n_def_nom_pl": "valgene",
+      "n_def_nom_pl_2": "valgenes",
+      "n_def_nom_sg": "valget",
+      "n_def_nom_sg_2": "valgets",
+      "n_indf_gen_pl": "valgs",
+      "n_indf_gen_sg": "valgs",
+      "n_indf_nom_pl": "valg",
+      "n_indf_nom_sg": "valg",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
     ]
   },
   "var": {
@@ -451,6 +3699,95 @@
       "preposition"
     ]
   },
+  "vejr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vejr",
+    "inflections": {
+      "n_def_nom_sg": "vejret",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "ven": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ven",
+    "inflections": {
+      "n_def_nom_pl": "vennerne",
+      "n_def_nom_pl_2": "vennernes",
+      "n_def_nom_sg": "vennen",
+      "n_def_nom_sg_2": "vennens",
+      "n_indf_gen_pl": "venners",
+      "n_indf_gen_sg": "vens",
+      "n_indf_nom_pl": "venner",
+      "n_indf_nom_sg": "ven",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "verden": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "verden",
+    "inflections": {
+      "n_def_nom_pl": "verdenerne",
+      "n_def_nom_pl_2": "verdenernes",
+      "n_def_nom_sg": "verden",
+      "n_def_nom_sg_2": "verdens",
+      "n_indf_gen_pl": "verdeners",
+      "n_indf_gen_sg": "verdens",
+      "n_indf_nom_pl": "verdener",
+      "n_indf_nom_sg": "verden",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "vid": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vid",
+    "inflections": {
+      "adj_def": "vide",
+      "adj_def_cmpr": "videre",
+      "adj_indf_masc_fem_sg_cmpr": "videre",
+      "adj_indf_neut_sg_cmpr": "videre",
+      "adj_indf_pl": "vide",
+      "adj_indf_pl_cmpr": "videre",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vigtig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vigtig",
+    "inflections": {
+      "adj_indf_neut_sg": "vigtigt",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
   "vil": {
     "antonyms": [],
     "base": "vil",
@@ -465,6 +3802,31 @@
       "verb"
     ]
   },
+  "vild": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vild",
+    "inflections": {
+      "adj_def": "vilde",
+      "adj_def_cmpr": "vildere",
+      "adj_def_sprl": "vildeste",
+      "adj_indf_masc_fem_sg": "vild",
+      "adj_indf_masc_fem_sg_cmpr": "vildere",
+      "adj_indf_masc_fem_sg_sprl": "vildest",
+      "adj_indf_neut_sg": "vildt",
+      "adj_indf_neut_sg_cmpr": "vildere",
+      "adj_indf_neut_sg_sprl": "vildest",
+      "adj_indf_pl": "vilde",
+      "adj_indf_pl_cmpr": "vildere",
+      "adj_indf_pl_sprl": "vildest",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
   "ville": {
     "antonyms": [],
     "base": "ville",
@@ -475,6 +3837,193 @@
     "priority": 5,
     "types": [
       "verb"
+    ]
+  },
+  "vind": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vind",
+    "inflections": {
+      "adj_def": "vinde",
+      "adj_indf_pl": "vinde",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "vise": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vise",
+    "inflections": {
+      "n_def_nom_pl": "viserne",
+      "n_def_nom_pl_2": "visernes",
+      "n_def_nom_sg": "visen",
+      "n_def_nom_sg_2": "visens",
+      "n_indf_gen_pl": "visers",
+      "n_indf_gen_sg": "vises",
+      "n_indf_nom_pl": "viser",
+      "n_indf_nom_sg": "vise",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "viser": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viser",
+    "inflections": {
+      "n_def_nom_pl": "viserne",
+      "n_def_nom_pl_2": "visernes",
+      "n_def_nom_sg": "viseren",
+      "n_def_nom_sg_2": "viserens",
+      "n_indf_gen_pl": "viseres",
+      "n_indf_gen_sg": "visers",
+      "n_indf_nom_pl": "visere",
+      "n_indf_nom_sg": "viser",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "vred": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vred",
+    "inflections": {
+      "adj_def": "vrede",
+      "adj_def_cmpr": "vredere",
+      "adj_def_sprl": "vredeste",
+      "adj_indf_masc_fem_sg": "vred",
+      "adj_indf_masc_fem_sg_cmpr": "vredere",
+      "adj_indf_masc_fem_sg_sprl": "vredest",
+      "adj_indf_neut_sg": "vredt",
+      "adj_indf_neut_sg_cmpr": "vredere",
+      "adj_indf_neut_sg_sprl": "vredest",
+      "adj_indf_pl": "vrede",
+      "adj_indf_pl_cmpr": "vredere",
+      "adj_indf_pl_sprl": "vredest",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "værelse": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "værelse",
+    "inflections": {
+      "n_def_nom_pl": "værelserne",
+      "n_def_nom_pl_2": "værelsernes",
+      "n_def_nom_sg": "værelset",
+      "n_def_nom_sg_2": "værelsets",
+      "n_indf_gen_pl": "værelsers",
+      "n_indf_gen_sg": "værelses",
+      "n_indf_nom_pl": "værelser",
+      "n_indf_nom_sg": "værelse",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "år": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "år",
+    "inflections": {
+      "n_def_nom_pl": "årene",
+      "n_def_nom_pl_2": "årenes",
+      "n_def_nom_sg": "året",
+      "n_def_nom_sg_2": "årets",
+      "n_indf_gen_pl": "års",
+      "n_indf_gen_sg": "års",
+      "n_indf_nom_pl": "år",
+      "n_indf_nom_sg": "år",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "ægte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ægte",
+    "inflections": {
+      "adj_def": "ægte",
+      "adj_indf_masc_fem_sg": "ægte",
+      "adj_indf_neut_sg": "ægte",
+      "adj_indf_pl": "ægte",
+      "regulars": [],
+      "v_act_imp": "ægt",
+      "v_act_ind_prs": "ægter",
+      "v_act_ind_pst": "ægtede",
+      "v_act_nfin": "ægte",
+      "v_pass_ind_prs": "ægtes",
+      "v_pass_ind_pst": "ægtedes",
+      "v_ptcp_act_prs": "ægtende",
+      "v_ptcp_pass_pst": "ægtet"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word",
+      "adjective"
+    ]
+  },
+  "ændre": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ændre",
+    "inflections": {
+      "regulars": [],
+      "v_act_imp": "ændr",
+      "v_act_ind_prs": "ændrer",
+      "v_act_ind_pst": "ændrede",
+      "v_act_nfin": "ændre",
+      "v_pass_ind_prs": "ændres",
+      "v_pass_ind_pst": "ændredes",
+      "v_ptcp_act_prs": "ændrende",
+      "v_ptcp_pass_pst": "ændret"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ærlig": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ærlig",
+    "inflections": {
+      "adj_indf_neut_sg": "ærligt",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
     ]
   }
 }

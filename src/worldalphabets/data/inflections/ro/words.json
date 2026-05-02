@@ -1,0 +1,5909 @@
+{
+  "_locale": "ro",
+  "_type": "words",
+  "_version": "0.1",
+  "ac": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ac",
+    "inflections": {
+      "n_nom_acc_pl_def": "acele",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "acord": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "acord",
+    "inflections": {
+      "n_gen_dat_pl_def": "acordului",
+      "n_gen_dat_pl_def_2": "acordurilor",
+      "n_gen_dat_sg_indf": "unor acorduri",
+      "n_gen_dat_sg_indf_2": "unui acord",
+      "n_nom_acc_pl_def": "acordul",
+      "n_nom_acc_pl_def_2": "acordurile",
+      "n_nom_acc_sg_indf": "un acord",
+      "n_nom_acc_sg_indf_2": "niște acorduri",
+      "n_voc_pl": "acordurilor",
+      "n_voc_sg": "acordule",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "adevăr": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "adevăr",
+    "inflections": {
+      "n_nom_acc_pl_def": "adevărul",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "adevărat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "adevărat",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "adevăraților",
+      "adj_dat_gen_fem_sg_indf": "adevărați",
+      "adj_dat_gen_masc_sg_def": "adevăratului",
+      "adj_dat_gen_masc_sg_indf": "adevărat",
+      "adj_dat_gen_neut_sg_def": "adevăratei",
+      "adj_dat_gen_neut_sg_indf": "adevărate",
+      "adj_dat_gen_pl_def": "adevăratelor",
+      "adj_dat_gen_pl_indf": "adevărate",
+      "adj_nom_acc_fem_sg_def": "adevărații",
+      "adj_nom_acc_fem_sg_indf": "adevărați",
+      "adj_nom_acc_masc_sg_def": "adevăratul",
+      "adj_nom_acc_masc_sg_indf": "adevărat",
+      "adj_nom_acc_neut_sg_def": "adevărata",
+      "adj_nom_acc_neut_sg_indf": "adevărată",
+      "adj_nom_acc_pl_def": "adevăratele",
+      "adj_nom_acc_pl_indf": "adevărate",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "aduce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aduce",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "aducând",
+      "v_ind_prs_1_pl": "aducem",
+      "v_ind_prs_1_sg": "aduc",
+      "v_ind_prs_2_pl": "aduceți",
+      "v_ind_prs_2_sg": "aduci",
+      "v_ind_prs_3_pl": "aduc",
+      "v_ind_prs_3_sg": "aduce",
+      "v_ind_pst_1_pl_ipfv": "aduceam",
+      "v_ind_pst_1_pl_pfv": "aduserăm",
+      "v_ind_pst_1_pl_prf": "aduseserăm",
+      "v_ind_pst_1_sg_ipfv": "aduceam",
+      "v_ind_pst_1_sg_pfv": "adusei",
+      "v_ind_pst_1_sg_prf": "adusesem",
+      "v_ind_pst_2_pl_ipfv": "aduceați",
+      "v_ind_pst_2_pl_pfv": "aduserăți",
+      "v_ind_pst_2_pl_prf": "aduseserăți",
+      "v_ind_pst_2_sg_ipfv": "aduceai",
+      "v_ind_pst_2_sg_pfv": "aduseși",
+      "v_ind_pst_2_sg_prf": "aduseseși",
+      "v_ind_pst_3_pl_ipfv": "aduceau",
+      "v_ind_pst_3_pl_pfv": "aduseră",
+      "v_ind_pst_3_pl_prf": "aduseseră",
+      "v_ind_pst_3_sg_ipfv": "aducea",
+      "v_ind_pst_3_sg_pfv": "aduse",
+      "v_ind_pst_3_sg_prf": "adusese",
+      "v_neg_imp_2_sg": "nu aduce",
+      "v_neg_imp_3_pl": "nu aduceți",
+      "v_nfin": "a aduce",
+      "v_pos_imp_2_sg": "adu",
+      "v_pos_imp_3_pl": "aduceți",
+      "v_ptcp_pst": "adus",
+      "v_sbjv_prs_1_pl": "să aducem",
+      "v_sbjv_prs_1_sg": "să aduc",
+      "v_sbjv_prs_2_pl": "să aduceți",
+      "v_sbjv_prs_2_sg": "să aduci",
+      "v_sbjv_prs_3_pl": "să aducă",
+      "v_sbjv_prs_3_sg": "să aducă"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "aer": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aer",
+    "inflections": {
+      "n_gen_dat_pl_def": "aerului",
+      "n_gen_dat_pl_def_2": "aerelor",
+      "n_gen_dat_sg_indf": "unor aere",
+      "n_gen_dat_sg_indf_2": "unui aer",
+      "n_nom_acc_pl_def": "aerul",
+      "n_nom_acc_pl_def_2": "aerele",
+      "n_nom_acc_sg_indf": "un aer",
+      "n_nom_acc_sg_indf_2": "niște aere",
+      "n_voc_pl": "aerelor",
+      "n_voc_sg": "aerule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "afla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "afla",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "aflând",
+      "v_ind_prs_1_pl": "aflăm",
+      "v_ind_prs_1_sg": "aflu",
+      "v_ind_prs_2_pl": "aflați",
+      "v_ind_prs_2_sg": "afli",
+      "v_ind_prs_3_pl": "află",
+      "v_ind_prs_3_sg": "află",
+      "v_ind_pst_1_pl_ipfv": "aflam",
+      "v_ind_pst_1_pl_pfv": "aflarăm",
+      "v_ind_pst_1_pl_prf": "aflaserăm",
+      "v_ind_pst_1_sg_ipfv": "aflam",
+      "v_ind_pst_1_sg_pfv": "aflai",
+      "v_ind_pst_1_sg_prf": "aflasem",
+      "v_ind_pst_2_pl_ipfv": "aflați",
+      "v_ind_pst_2_pl_pfv": "aflarăți",
+      "v_ind_pst_2_pl_prf": "aflaserăți",
+      "v_ind_pst_2_sg_ipfv": "aflai",
+      "v_ind_pst_2_sg_pfv": "aflași",
+      "v_ind_pst_2_sg_prf": "aflaseși",
+      "v_ind_pst_3_pl_ipfv": "aflau",
+      "v_ind_pst_3_pl_pfv": "aflară",
+      "v_ind_pst_3_pl_prf": "aflaseră",
+      "v_ind_pst_3_sg_ipfv": "afla",
+      "v_ind_pst_3_sg_pfv": "află",
+      "v_ind_pst_3_sg_prf": "aflase",
+      "v_neg_imp_2_sg": "nu afla",
+      "v_neg_imp_3_pl": "nu aflați",
+      "v_nfin": "a afla",
+      "v_pos_imp_2_sg": "află",
+      "v_pos_imp_3_pl": "aflați",
+      "v_ptcp_pst": "aflat",
+      "v_sbjv_prs_1_pl": "să aflăm",
+      "v_sbjv_prs_1_sg": "să aflu",
+      "v_sbjv_prs_2_pl": "să aflați",
+      "v_sbjv_prs_2_sg": "să afli",
+      "v_sbjv_prs_3_pl": "să afle",
+      "v_sbjv_prs_3_sg": "să afle"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "agent": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "agent",
+    "inflections": {
+      "n_gen_dat_pl_def": "agentului",
+      "n_gen_dat_pl_def_2": "agenților",
+      "n_gen_dat_sg_indf": "unor agenți",
+      "n_gen_dat_sg_indf_2": "unui agent",
+      "n_nom_acc_pl_def": "agentul",
+      "n_nom_acc_pl_def_2": "agenții",
+      "n_nom_acc_sg_indf": "un agent",
+      "n_nom_acc_sg_indf_2": "niște agenți",
+      "n_voc_pl": "agenților",
+      "n_voc_sg": "agentule",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ajuta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ajuta",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "ajutând",
+      "v_ind_prs_1_pl": "ajutăm",
+      "v_ind_prs_1_sg": "ajut",
+      "v_ind_prs_2_pl": "ajutați",
+      "v_ind_prs_2_sg": "ajuți",
+      "v_ind_prs_3_pl": "ajută",
+      "v_ind_prs_3_sg": "ajută",
+      "v_ind_pst_1_pl_ipfv": "ajutam",
+      "v_ind_pst_1_pl_pfv": "ajutarăm",
+      "v_ind_pst_1_pl_prf": "ajutaserăm",
+      "v_ind_pst_1_sg_ipfv": "ajutam",
+      "v_ind_pst_1_sg_pfv": "ajutai",
+      "v_ind_pst_1_sg_prf": "ajutasem",
+      "v_ind_pst_2_pl_ipfv": "ajutați",
+      "v_ind_pst_2_pl_pfv": "ajutarăți",
+      "v_ind_pst_2_pl_prf": "ajutaserăți",
+      "v_ind_pst_2_sg_ipfv": "ajutai",
+      "v_ind_pst_2_sg_pfv": "ajutași",
+      "v_ind_pst_2_sg_prf": "ajutaseși",
+      "v_ind_pst_3_pl_ipfv": "ajutau",
+      "v_ind_pst_3_pl_pfv": "ajutară",
+      "v_ind_pst_3_pl_prf": "ajutaseră",
+      "v_ind_pst_3_sg_ipfv": "ajuta",
+      "v_ind_pst_3_sg_pfv": "ajută",
+      "v_ind_pst_3_sg_prf": "ajutase",
+      "v_neg_imp_2_sg": "nu ajuta",
+      "v_neg_imp_3_pl": "nu ajutați",
+      "v_nfin": "a ajuta",
+      "v_pos_imp_2_sg": "ajută",
+      "v_pos_imp_3_pl": "ajutați",
+      "v_ptcp_pst": "ajutat",
+      "v_sbjv_prs_1_pl": "să ajutăm",
+      "v_sbjv_prs_1_sg": "să ajut",
+      "v_sbjv_prs_2_pl": "să ajutați",
+      "v_sbjv_prs_2_sg": "să ajuți",
+      "v_sbjv_prs_3_pl": "să ajute",
+      "v_sbjv_prs_3_sg": "să ajute"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "alege": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "alege",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "ales"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "alt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "alt",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "alților",
+      "adj_dat_gen_fem_sg_indf": "alți",
+      "adj_dat_gen_masc_sg_def": "altului",
+      "adj_dat_gen_masc_sg_indf": "alt",
+      "adj_dat_gen_neut_sg_def": "altei",
+      "adj_dat_gen_neut_sg_indf": "alte",
+      "adj_dat_gen_pl_def": "altelor",
+      "adj_dat_gen_pl_indf": "alte",
+      "adj_nom_acc_fem_sg_def": "alții",
+      "adj_nom_acc_fem_sg_indf": "alți",
+      "adj_nom_acc_masc_sg_def": "altul",
+      "adj_nom_acc_masc_sg_indf": "alt",
+      "adj_nom_acc_neut_sg_def": "alta",
+      "adj_nom_acc_neut_sg_indf": "altă",
+      "adj_nom_acc_pl_def": "altele",
+      "adj_nom_acc_pl_indf": "alte",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "aminti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "aminti",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "amintesc",
+      "v_ind_prs_3_pl": "amintesc"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "an": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "an",
+    "inflections": {
+      "n_gen_dat_pl_def": "anului",
+      "n_gen_dat_pl_def_2": "anilor",
+      "n_gen_dat_sg_indf": "unor ani",
+      "n_gen_dat_sg_indf_2": "unui an",
+      "n_nom_acc_pl_def": "anul",
+      "n_nom_acc_pl_def_2": "anii",
+      "n_nom_acc_sg_indf": "un an",
+      "n_nom_acc_sg_indf_2": "niște ani",
+      "n_voc_pl": "anilor",
+      "n_voc_sg": "anule",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "apă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "apă",
+    "inflections": {
+      "n_gen_dat_pl_def": "apei",
+      "n_gen_dat_pl_def_2": "apelor",
+      "n_gen_dat_sg_indf": "unor ape",
+      "n_gen_dat_sg_indf_2": "unei ape",
+      "n_nom_acc_pl_def": "apa",
+      "n_nom_acc_pl_def_2": "apele",
+      "n_nom_acc_sg_indf": "o apă",
+      "n_nom_acc_sg_indf_2": "niște ape",
+      "n_voc_pl": "apelor",
+      "n_voc_sg": "apă",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ara": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ara",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "ar"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "armă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "armă",
+    "inflections": {
+      "n_nom_acc_pl_def": "arma",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "arăta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "arăta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "arăt",
+      "v_ind_prs_3_pl": "arată",
+      "v_ind_prs_3_sg": "arată",
+      "v_pos_imp_2_sg": "arată"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "asculta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "asculta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "ascultă",
+      "v_ind_prs_3_sg": "ascultă",
+      "v_ind_pst_3_sg_pfv": "ascultă",
+      "v_pos_imp_2_sg": "ascultă"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "auzi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "auzi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "auzind",
+      "v_ind_prs_1_pl": "auzim",
+      "v_ind_prs_1_sg": "aud",
+      "v_ind_prs_2_pl": "auziți",
+      "v_ind_prs_2_sg": "auzi",
+      "v_ind_prs_3_pl": "aud",
+      "v_ind_prs_3_sg": "aude",
+      "v_ind_pst_1_pl_ipfv": "auzeam",
+      "v_ind_pst_1_pl_pfv": "auzirăm",
+      "v_ind_pst_1_pl_prf": "auziserăm",
+      "v_ind_pst_1_sg_ipfv": "auzeam",
+      "v_ind_pst_1_sg_pfv": "auzii",
+      "v_ind_pst_1_sg_prf": "auzisem",
+      "v_ind_pst_2_pl_ipfv": "auzeați",
+      "v_ind_pst_2_pl_pfv": "auzirăți",
+      "v_ind_pst_2_pl_prf": "auziserăți",
+      "v_ind_pst_2_sg_ipfv": "auzeai",
+      "v_ind_pst_2_sg_pfv": "auziși",
+      "v_ind_pst_2_sg_prf": "auziseși",
+      "v_ind_pst_3_pl_ipfv": "auzeau",
+      "v_ind_pst_3_pl_pfv": "auziră",
+      "v_ind_pst_3_pl_prf": "auziseră",
+      "v_ind_pst_3_sg_ipfv": "auzea",
+      "v_ind_pst_3_sg_pfv": "auzi",
+      "v_ind_pst_3_sg_prf": "auzise",
+      "v_neg_imp_2_sg": "nu auzi",
+      "v_neg_imp_3_pl": "nu auziți",
+      "v_nfin": "a auzi",
+      "v_pos_imp_2_sg": "aude",
+      "v_pos_imp_3_pl": "auziți",
+      "v_ptcp_pst": "auzit",
+      "v_sbjv_prs_1_pl": "să auzim",
+      "v_sbjv_prs_1_sg": "să aud",
+      "v_sbjv_prs_2_pl": "să auziți",
+      "v_sbjv_prs_2_sg": "să auzi",
+      "v_sbjv_prs_3_pl": "să audă",
+      "v_sbjv_prs_3_sg": "să audă"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "avut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "avut",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "avuturilor",
+      "adj_dat_gen_masc_sg_def": "avutule",
+      "adj_dat_gen_masc_sg_indf": "avutului",
+      "adj_dat_gen_neut_sg_def": "avuturilor",
+      "adj_dat_gen_neut_sg_indf": "unor avuturi",
+      "adj_nom_acc_fem_sg_def": "niște avuturi",
+      "adj_nom_acc_fem_sg_indf": "definite articulation",
+      "adj_nom_acc_masc_sg_def": "un avut",
+      "adj_nom_acc_masc_sg_indf": "definite articulation",
+      "adj_nom_acc_neut_sg_def": "avutul",
+      "adj_nom_acc_neut_sg_indf": "indefinite articulation",
+      "adj_nom_acc_pl_def": "avuturile",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ban": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ban",
+    "inflections": {
+      "n_nom_acc_pl_def": "banii",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "bine": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bine",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "bine",
+      "adj_dat_gen_masc_sg_indf": "bine",
+      "adj_dat_gen_neut_sg_indf": "bine",
+      "adj_dat_gen_pl_indf": "bine",
+      "adj_nom_acc_fem_sg_indf": "bine",
+      "adj_nom_acc_masc_sg_indf": "bine",
+      "adj_nom_acc_neut_sg_indf": "bine",
+      "adj_nom_acc_pl_indf": "bine",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "bucura": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bucura",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "bucur"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "băiat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "băiat",
+    "inflections": {
+      "n_gen_dat_pl_def": "băiatului",
+      "n_gen_dat_pl_def_2": "băieților",
+      "n_gen_dat_sg_indf": "unor băieți",
+      "n_gen_dat_sg_indf_2": "unui băiat",
+      "n_nom_acc_pl_def": "băiatul",
+      "n_nom_acc_pl_def_2": "băieții",
+      "n_nom_acc_sg_indf": "un băiat",
+      "n_nom_acc_sg_indf_2": "niște băieți",
+      "n_voc_pl": "băieților",
+      "n_voc_sg": "băiatule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "bărbat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bărbat",
+    "inflections": {
+      "n_gen_dat_pl_def": "bărbatului",
+      "n_gen_dat_pl_def_2": "bărbaților",
+      "n_gen_dat_sg_indf": "unor bărbați",
+      "n_gen_dat_sg_indf_2": "unui bărbat",
+      "n_nom_acc_pl_def": "bărbatul",
+      "n_nom_acc_pl_def_2": "bărbații",
+      "n_nom_acc_sg_indf": "un bărbat",
+      "n_nom_acc_sg_indf_2": "niște bărbați",
+      "n_voc_pl": "bărbaților",
+      "n_voc_sg": "bărbatule",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "cafea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cafea",
+    "inflections": {
+      "n_gen_dat_pl_def": "cafelei",
+      "n_gen_dat_pl_def_2": "cafelelor",
+      "n_gen_dat_sg_indf": "unor cafele",
+      "n_gen_dat_sg_indf_2": "unei cafele",
+      "n_nom_acc_pl_def": "cafeaua",
+      "n_nom_acc_pl_def_2": "cafelele",
+      "n_nom_acc_sg_indf": "o cafea",
+      "n_nom_acc_sg_indf_2": "niște cafele",
+      "n_voc_pl": "cafelelor",
+      "n_voc_sg": "cafea",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "casă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "casă",
+    "inflections": {
+      "n_gen_dat_pl_def": "casei",
+      "n_gen_dat_pl_def_2": "caselor",
+      "n_gen_dat_sg_indf": "unor case",
+      "n_gen_dat_sg_indf_2": "unei case",
+      "n_nom_acc_pl_def": "casa",
+      "n_nom_acc_pl_def_2": "casele",
+      "n_nom_acc_sg_indf": "o casă",
+      "n_nom_acc_sg_indf_2": "niște case",
+      "n_voc_pl": "caselor",
+      "n_voc_sg": "casă",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "cat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cat",
+    "inflections": {
+      "n_gen_dat_pl_def": "catului",
+      "n_gen_dat_pl_def_2": "catelor",
+      "n_gen_dat_sg_indf": "unor cate",
+      "n_gen_dat_sg_indf_2": "unui cat",
+      "n_nom_acc_pl_def": "catul",
+      "n_nom_acc_pl_def_2": "catele",
+      "n_nom_acc_sg_indf": "un cat",
+      "n_nom_acc_sg_indf_2": "niște cate",
+      "n_voc_pl": "catelor",
+      "n_voc_sg": "catule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "cere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cere",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "cer",
+      "v_ind_prs_3_pl": "cer",
+      "v_ptcp_pst": "cerut"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "chema": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "chema",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_pl": "cheamă",
+      "v_ind_prs_3_sg": "cheamă",
+      "v_pos_imp_2_sg": "cheamă"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "citi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "citi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "citit"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "ciudat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ciudat",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "ciudaților",
+      "adj_dat_gen_fem_sg_indf": "ciudați",
+      "adj_dat_gen_masc_sg_def": "ciudatului",
+      "adj_dat_gen_masc_sg_indf": "ciudat",
+      "adj_dat_gen_neut_sg_def": "ciudatei",
+      "adj_dat_gen_neut_sg_indf": "ciudate",
+      "adj_dat_gen_pl_def": "ciudatelor",
+      "adj_dat_gen_pl_indf": "ciudate",
+      "adj_nom_acc_fem_sg_def": "ciudații",
+      "adj_nom_acc_fem_sg_indf": "ciudați",
+      "adj_nom_acc_masc_sg_def": "ciudatul",
+      "adj_nom_acc_masc_sg_indf": "ciudat",
+      "adj_nom_acc_neut_sg_def": "ciudata",
+      "adj_nom_acc_neut_sg_indf": "ciudată",
+      "adj_nom_acc_pl_def": "ciudatele",
+      "adj_nom_acc_pl_indf": "ciudate",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "clar": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "clar",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "clarilor",
+      "adj_dat_gen_fem_sg_indf": "clari",
+      "adj_dat_gen_masc_sg_def": "clarului",
+      "adj_dat_gen_masc_sg_indf": "clar",
+      "adj_dat_gen_neut_sg_def": "clarei",
+      "adj_dat_gen_neut_sg_indf": "clare",
+      "adj_dat_gen_pl_def": "clarelor",
+      "adj_dat_gen_pl_indf": "clare",
+      "adj_nom_acc_fem_sg_def": "clarii",
+      "adj_nom_acc_fem_sg_indf": "clari",
+      "adj_nom_acc_masc_sg_def": "clarul",
+      "adj_nom_acc_masc_sg_indf": "clar",
+      "adj_nom_acc_neut_sg_def": "clara",
+      "adj_nom_acc_neut_sg_indf": "clară",
+      "adj_nom_acc_pl_def": "clarele",
+      "adj_nom_acc_pl_indf": "clare",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "clipă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "clipă",
+    "inflections": {
+      "n_gen_dat_pl_def": "clipei",
+      "n_gen_dat_pl_def_2": "clipelor",
+      "n_gen_dat_sg_indf": "unor clipe",
+      "n_gen_dat_sg_indf_2": "unei clipe",
+      "n_nom_acc_pl_def": "clipa",
+      "n_nom_acc_pl_def_2": "clipele",
+      "n_nom_acc_sg_indf": "o clipă",
+      "n_nom_acc_sg_indf_2": "niște clipe",
+      "n_voc_pl": "clipelor",
+      "n_voc_sg": "clipă",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "complet": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "complet",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "compleților",
+      "adj_dat_gen_fem_sg_indf": "compleți",
+      "adj_dat_gen_masc_sg_def": "completului",
+      "adj_dat_gen_masc_sg_indf": "complet",
+      "adj_dat_gen_neut_sg_def": "completei",
+      "adj_dat_gen_neut_sg_indf": "complete",
+      "adj_dat_gen_pl_def": "completelor",
+      "adj_dat_gen_pl_indf": "complete",
+      "adj_nom_acc_fem_sg_def": "compleții",
+      "adj_nom_acc_fem_sg_indf": "compleți",
+      "adj_nom_acc_masc_sg_def": "completul",
+      "adj_nom_acc_masc_sg_indf": "complet",
+      "adj_nom_acc_neut_sg_def": "completa",
+      "adj_nom_acc_neut_sg_indf": "completă",
+      "adj_nom_acc_pl_def": "completele",
+      "adj_nom_acc_pl_indf": "complete",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "continuu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "continuu",
+    "inflections": {
+      "adj_nom_acc_neut_sg_indf": "continuă",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "copil": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "copil",
+    "inflections": {
+      "n_gen_dat_pl_def": "copilului",
+      "n_gen_dat_pl_def_2": "copiilor",
+      "n_gen_dat_sg_indf": "unor copii",
+      "n_gen_dat_sg_indf_2": "unui copil",
+      "n_nom_acc_pl_def": "copilul",
+      "n_nom_acc_pl_def_2": "copiii",
+      "n_nom_acc_sg_indf": "un copil",
+      "n_nom_acc_sg_indf_2": "niște copii",
+      "n_voc_pl": "copiilor",
+      "n_voc_sg": "copilule",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "crede": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "crede",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "crezând",
+      "v_ind_prs_1_pl": "credem",
+      "v_ind_prs_1_sg": "cred",
+      "v_ind_prs_2_pl": "credeți",
+      "v_ind_prs_2_sg": "crezi",
+      "v_ind_prs_3_pl": "cred",
+      "v_ind_prs_3_sg": "crede",
+      "v_ind_pst_1_pl_ipfv": "credeam",
+      "v_ind_pst_1_pl_pfv": "crezurăm",
+      "v_ind_pst_1_pl_prf": "crezuserăm",
+      "v_ind_pst_1_sg_ipfv": "credeam",
+      "v_ind_pst_1_sg_pfv": "crezui",
+      "v_ind_pst_1_sg_prf": "crezusem",
+      "v_ind_pst_2_pl_ipfv": "credeați",
+      "v_ind_pst_2_pl_pfv": "crezurăți",
+      "v_ind_pst_2_pl_prf": "crezuserăți",
+      "v_ind_pst_2_sg_ipfv": "credeai",
+      "v_ind_pst_2_sg_pfv": "crezuși",
+      "v_ind_pst_2_sg_prf": "crezuseși",
+      "v_ind_pst_3_pl_ipfv": "credeau",
+      "v_ind_pst_3_pl_pfv": "crezură",
+      "v_ind_pst_3_pl_prf": "crezuseră",
+      "v_ind_pst_3_sg_ipfv": "credea",
+      "v_ind_pst_3_sg_pfv": "crezu",
+      "v_ind_pst_3_sg_prf": "crezuse",
+      "v_neg_imp_2_sg": "nu crede",
+      "v_neg_imp_3_pl": "nu credeți",
+      "v_nfin": "a crede",
+      "v_pos_imp_2_sg": "crede",
+      "v_pos_imp_3_pl": "credeți",
+      "v_ptcp_pst": "crezut",
+      "v_sbjv_prs_1_pl": "să credem",
+      "v_sbjv_prs_1_sg": "să cred",
+      "v_sbjv_prs_2_pl": "să credeți",
+      "v_sbjv_prs_2_sg": "să crezi",
+      "v_sbjv_prs_3_pl": "să creadă",
+      "v_sbjv_prs_3_sg": "să creadă"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "cunoaște": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cunoaște",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "cunosc",
+      "v_ind_prs_3_pl": "cunosc",
+      "v_ptcp_pst": "cunoscut"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "cunoscut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "cunoscut",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "cunoscuților",
+      "adj_dat_gen_fem_sg_indf": "cunoscuți",
+      "adj_dat_gen_masc_sg_def": "cunoscutului",
+      "adj_dat_gen_masc_sg_indf": "cunoscut",
+      "adj_dat_gen_neut_sg_def": "cunoscutei",
+      "adj_dat_gen_neut_sg_indf": "cunoscute",
+      "adj_dat_gen_pl_def": "cunoscutelor",
+      "adj_dat_gen_pl_indf": "cunoscute",
+      "adj_nom_acc_fem_sg_def": "cunoscuții",
+      "adj_nom_acc_fem_sg_indf": "cunoscuți",
+      "adj_nom_acc_masc_sg_def": "cunoscutul",
+      "adj_nom_acc_masc_sg_indf": "cunoscut",
+      "adj_nom_acc_neut_sg_def": "cunoscuta",
+      "adj_nom_acc_neut_sg_indf": "cunoscută",
+      "adj_nom_acc_pl_def": "cunoscutele",
+      "adj_nom_acc_pl_indf": "cunoscute",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "căuta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "căuta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "caut",
+      "v_ind_prs_3_pl": "caută",
+      "v_ind_prs_3_sg": "caută",
+      "v_pos_imp_2_sg": "caută"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "deschide": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "deschide",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "deschizând",
+      "v_ind_prs_1_pl": "deschidem",
+      "v_ind_prs_1_sg": "deschid",
+      "v_ind_prs_2_pl": "deschideți",
+      "v_ind_prs_2_sg": "deschizi",
+      "v_ind_prs_3_pl": "deschid",
+      "v_ind_prs_3_sg": "deschide",
+      "v_ind_pst_1_pl_ipfv": "deschideam",
+      "v_ind_pst_1_pl_pfv": "deschiserăm",
+      "v_ind_pst_1_pl_prf": "deschiseserăm",
+      "v_ind_pst_1_sg_ipfv": "deschideam",
+      "v_ind_pst_1_sg_pfv": "deschisei",
+      "v_ind_pst_1_sg_prf": "deschisesem",
+      "v_ind_pst_2_pl_ipfv": "deschideați",
+      "v_ind_pst_2_pl_pfv": "deschiserăți",
+      "v_ind_pst_2_pl_prf": "deschiseserăți",
+      "v_ind_pst_2_sg_ipfv": "deschideai",
+      "v_ind_pst_2_sg_pfv": "deschiseși",
+      "v_ind_pst_2_sg_prf": "deschiseseși",
+      "v_ind_pst_3_pl_ipfv": "deschideau",
+      "v_ind_pst_3_pl_pfv": "deschiseră",
+      "v_ind_pst_3_pl_prf": "deschiseseră",
+      "v_ind_pst_3_sg_ipfv": "deschidea",
+      "v_ind_pst_3_sg_pfv": "deschise",
+      "v_ind_pst_3_sg_prf": "deschisese",
+      "v_neg_imp_2_sg": "nu deschide",
+      "v_neg_imp_3_pl": "nu deschideți",
+      "v_nfin": "a deschide",
+      "v_pos_imp_2_sg": "deschide",
+      "v_pos_imp_3_pl": "deschideți",
+      "v_ptcp_pst": "deschis",
+      "v_sbjv_prs_1_pl": "să deschidem",
+      "v_sbjv_prs_1_sg": "să deschid",
+      "v_sbjv_prs_2_pl": "să deschideți",
+      "v_sbjv_prs_2_sg": "să deschizi",
+      "v_sbjv_prs_3_pl": "să deschidă",
+      "v_sbjv_prs_3_sg": "să deschidă"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "deveni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "deveni",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "devenit"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "dispărea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dispărea",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "dispărut"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "doamnă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doamnă",
+    "inflections": {
+      "n_gen_dat_pl_def": "doamnei",
+      "n_gen_dat_pl_def_2": "doamnelor",
+      "n_gen_dat_sg_indf": "unor doamne",
+      "n_gen_dat_sg_indf_2": "unei doamne",
+      "n_nom_acc_pl_def": "doamna",
+      "n_nom_acc_pl_def_2": "doamnele",
+      "n_nom_acc_sg_indf": "o doamnă",
+      "n_nom_acc_sg_indf_2": "niște doamne",
+      "n_voc_pl": "doamnelor",
+      "n_voc_sg": "doamnă",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "doctor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "doctor",
+    "inflections": {
+      "n_gen_dat_pl_def": "doctorului",
+      "n_gen_dat_pl_def_2": "doctorilor",
+      "n_gen_dat_sg_indf": "unor doctori",
+      "n_gen_dat_sg_indf_2": "unui doctor",
+      "n_nom_acc_pl_def": "doctorul",
+      "n_nom_acc_pl_def_2": "doctorii",
+      "n_nom_acc_sg_indf": "un doctor",
+      "n_nom_acc_sg_indf_2": "niște doctori",
+      "n_voc_pl": "doctorilor",
+      "n_voc_sg": "doctorule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "domn": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "domn",
+    "inflections": {
+      "n_gen_dat_pl_def": "domnului",
+      "n_gen_dat_pl_def_2": "domnilor",
+      "n_nom_acc_pl_def": "domnul",
+      "n_voc_pl": "domnilor",
+      "n_voc_sg": "domnule",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "dor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dor",
+    "inflections": {
+      "n_gen_dat_pl_def": "dorului",
+      "n_gen_dat_pl_def_2": "dorurilor",
+      "n_gen_dat_sg_indf": "unor doruri",
+      "n_gen_dat_sg_indf_2": "unui dor",
+      "n_nom_acc_pl_def": "dorul",
+      "n_nom_acc_pl_def_2": "dorurile",
+      "n_nom_acc_sg_indf": "un dor",
+      "n_nom_acc_sg_indf_2": "niște doruri",
+      "n_voc_pl": "dorurilor",
+      "n_voc_sg": "dorule",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "dori": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dori",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "dorind",
+      "v_ind_prs_1_pl": "dorim",
+      "v_ind_prs_1_sg": "doresc",
+      "v_ind_prs_2_pl": "doriți",
+      "v_ind_prs_2_sg": "dorești",
+      "v_ind_prs_3_pl": "doresc",
+      "v_ind_prs_3_sg": "dorește",
+      "v_ind_pst_1_pl_ipfv": "doream",
+      "v_ind_pst_1_pl_pfv": "dorirăm",
+      "v_ind_pst_1_pl_prf": "doriserăm",
+      "v_ind_pst_1_sg_ipfv": "doream",
+      "v_ind_pst_1_sg_pfv": "dorii",
+      "v_ind_pst_1_sg_prf": "dorisem",
+      "v_ind_pst_2_pl_ipfv": "doreați",
+      "v_ind_pst_2_pl_pfv": "dorirăți",
+      "v_ind_pst_2_pl_prf": "doriserăți",
+      "v_ind_pst_2_sg_ipfv": "doreai",
+      "v_ind_pst_2_sg_pfv": "doriși",
+      "v_ind_pst_2_sg_prf": "doriseși",
+      "v_ind_pst_3_pl_ipfv": "doreau",
+      "v_ind_pst_3_pl_pfv": "doriră",
+      "v_ind_pst_3_pl_prf": "doriseră",
+      "v_ind_pst_3_sg_ipfv": "dorea",
+      "v_ind_pst_3_sg_pfv": "dori",
+      "v_ind_pst_3_sg_prf": "dorise",
+      "v_neg_imp_2_sg": "nu dori",
+      "v_neg_imp_3_pl": "nu doriți",
+      "v_nfin": "a dori",
+      "v_pos_imp_2_sg": "dorește",
+      "v_pos_imp_3_pl": "doriți",
+      "v_ptcp_pst": "dorit",
+      "v_sbjv_prs_1_pl": "să dorim",
+      "v_sbjv_prs_1_sg": "să doresc",
+      "v_sbjv_prs_2_pl": "să doriți",
+      "v_sbjv_prs_2_sg": "să dorești",
+      "v_sbjv_prs_3_pl": "să dorească",
+      "v_sbjv_prs_3_sg": "să dorească"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "drag": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drag",
+    "inflections": {
+      "adj_nom_acc_neut_sg_def": "draga",
+      "adj_nom_acc_neut_sg_indf": "dragă",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dragoste": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dragoste",
+    "inflections": {
+      "n_gen_dat_pl_def": "dragostei",
+      "n_gen_dat_pl_def_2": "dragostelor",
+      "n_gen_dat_sg_indf": "unor dragoste",
+      "n_gen_dat_sg_indf_2": "unei dragoste",
+      "n_nom_acc_pl_def": "dragostea",
+      "n_nom_acc_pl_def_2": "dragostele",
+      "n_nom_acc_sg_indf": "o dragoste",
+      "n_nom_acc_sg_indf_2": "niște dragoste",
+      "n_voc_pl": "dragostelor",
+      "n_voc_sg": "dragoste",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "drept": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drept",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "drepturilor",
+      "adj_dat_gen_masc_sg_def": "dreptule",
+      "adj_dat_gen_masc_sg_indf": "dreptului",
+      "adj_dat_gen_neut_sg_def": "drepturilor",
+      "adj_dat_gen_neut_sg_indf": "unor drepturi",
+      "adj_nom_acc_fem_sg_def": "niște drepturi",
+      "adj_nom_acc_fem_sg_indf": "definite articulation",
+      "adj_nom_acc_masc_sg_def": "un drept",
+      "adj_nom_acc_masc_sg_indf": "definite articulation",
+      "adj_nom_acc_neut_sg_def": "dreptul",
+      "adj_nom_acc_neut_sg_indf": "indefinite articulation",
+      "adj_nom_acc_pl_def": "drepturile",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "drum": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "drum",
+    "inflections": {
+      "n_gen_dat_pl_def": "drumului",
+      "n_gen_dat_pl_def_2": "drumurilor",
+      "n_gen_dat_sg_indf": "unor drumuri",
+      "n_gen_dat_sg_indf_2": "unui drum",
+      "n_nom_acc_pl_def": "drumul",
+      "n_nom_acc_pl_def_2": "drumurile",
+      "n_nom_acc_sg_indf": "un drum",
+      "n_nom_acc_sg_indf_2": "niște drumuri",
+      "n_voc_pl": "drumurilor",
+      "n_voc_sg": "drumule",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "dumnezeu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dumnezeu",
+    "inflections": {
+      "n_gen_dat_pl_def": "dumnezeului",
+      "n_gen_dat_pl_def_2": "dumnezeilor",
+      "n_gen_dat_sg_indf": "unor dumnezei",
+      "n_gen_dat_sg_indf_2": "unui dumnezeu",
+      "n_nom_acc_pl_def": "dumnezeul",
+      "n_nom_acc_pl_def_2": "dumnezeii",
+      "n_nom_acc_sg_indf": "un dumnezeu",
+      "n_nom_acc_sg_indf_2": "niște dumnezei",
+      "n_voc_pl": "dumnezeilor",
+      "n_voc_sg": "dumnezeule",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "eră": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eră",
+    "inflections": {
+      "n_nom_acc_pl_def": "era",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "exista": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "exista",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "existând",
+      "v_ind_prs_1_pl": "existăm",
+      "v_ind_prs_1_sg": "exist",
+      "v_ind_prs_2_pl": "existați",
+      "v_ind_prs_2_sg": "exiști",
+      "v_ind_prs_3_pl": "există",
+      "v_ind_prs_3_sg": "există",
+      "v_ind_pst_1_pl_ipfv": "existam",
+      "v_ind_pst_1_pl_pfv": "existarăm",
+      "v_ind_pst_1_pl_prf": "existaserăm",
+      "v_ind_pst_1_sg_ipfv": "existam",
+      "v_ind_pst_1_sg_pfv": "existai",
+      "v_ind_pst_1_sg_prf": "existasem",
+      "v_ind_pst_2_pl_ipfv": "existați",
+      "v_ind_pst_2_pl_pfv": "existarăți",
+      "v_ind_pst_2_pl_prf": "existaserăți",
+      "v_ind_pst_2_sg_ipfv": "existai",
+      "v_ind_pst_2_sg_pfv": "existași",
+      "v_ind_pst_2_sg_prf": "existaseși",
+      "v_ind_pst_3_pl_ipfv": "existau",
+      "v_ind_pst_3_pl_pfv": "existară",
+      "v_ind_pst_3_pl_prf": "existaseră",
+      "v_ind_pst_3_sg_ipfv": "exista",
+      "v_ind_pst_3_sg_pfv": "există",
+      "v_ind_pst_3_sg_prf": "existase",
+      "v_neg_imp_2_sg": "nu exista",
+      "v_neg_imp_3_pl": "nu existați",
+      "v_nfin": "a exista",
+      "v_pos_imp_2_sg": "există",
+      "v_pos_imp_3_pl": "existați",
+      "v_ptcp_pst": "existat",
+      "v_sbjv_prs_1_pl": "să existăm",
+      "v_sbjv_prs_1_sg": "să exist",
+      "v_sbjv_prs_2_pl": "să existați",
+      "v_sbjv_prs_2_sg": "să exiști",
+      "v_sbjv_prs_3_pl": "să existe",
+      "v_sbjv_prs_3_sg": "să existe"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "face": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "face",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "făcând",
+      "v_ind_prs_1_pl": "facem",
+      "v_ind_prs_1_sg": "fac",
+      "v_ind_prs_2_pl": "faceți",
+      "v_ind_prs_2_sg": "faci",
+      "v_ind_prs_3_pl": "fac",
+      "v_ind_prs_3_sg": "face",
+      "v_ind_pst_1_pl_ipfv": "făceam",
+      "v_ind_pst_1_pl_pfv": "făcurăm",
+      "v_ind_pst_1_pl_prf": "făcuserăm",
+      "v_ind_pst_1_sg_ipfv": "făceam",
+      "v_ind_pst_1_sg_pfv": "făcui",
+      "v_ind_pst_1_sg_prf": "făcusem",
+      "v_ind_pst_2_pl_ipfv": "făceați",
+      "v_ind_pst_2_pl_pfv": "făcurăți",
+      "v_ind_pst_2_pl_prf": "făcuserăți",
+      "v_ind_pst_2_sg_ipfv": "făceai",
+      "v_ind_pst_2_sg_pfv": "făcuși",
+      "v_ind_pst_2_sg_prf": "făcuseși",
+      "v_ind_pst_3_pl_ipfv": "făceau",
+      "v_ind_pst_3_pl_pfv": "făcură",
+      "v_ind_pst_3_pl_prf": "făcuseră",
+      "v_ind_pst_3_sg_ipfv": "făcea",
+      "v_ind_pst_3_sg_pfv": "făcu",
+      "v_ind_pst_3_sg_prf": "făcuse",
+      "v_neg_imp_2_sg": "nu face",
+      "v_neg_imp_3_pl": "nu faceți",
+      "v_nfin": "a face",
+      "v_pos_imp_2_sg": "fă",
+      "v_pos_imp_3_pl": "faceți",
+      "v_ptcp_pst": "făcut",
+      "v_sbjv_prs_1_pl": "să facem",
+      "v_sbjv_prs_1_sg": "să fac",
+      "v_sbjv_prs_2_pl": "să faceți",
+      "v_sbjv_prs_2_sg": "să faci",
+      "v_sbjv_prs_3_pl": "să facă",
+      "v_sbjv_prs_3_sg": "să facă"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "familie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "familie",
+    "inflections": {
+      "n_gen_dat_pl_def": "familiei",
+      "n_gen_dat_pl_def_2": "familiilor",
+      "n_gen_dat_sg_indf": "unor familii",
+      "n_gen_dat_sg_indf_2": "unei familii",
+      "n_nom_acc_pl_def": "familia",
+      "n_nom_acc_pl_def_2": "familiile",
+      "n_nom_acc_sg_indf": "o familie",
+      "n_nom_acc_sg_indf_2": "niște familii",
+      "n_voc_pl": "familiilor",
+      "n_voc_sg": "familie",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "fapt": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fapt",
+    "inflections": {
+      "n_gen_dat_pl_def": "faptului",
+      "n_gen_dat_pl_def_2": "faptelor",
+      "n_gen_dat_sg_indf": "unor fapte",
+      "n_gen_dat_sg_indf_2": "unui fapt",
+      "n_nom_acc_pl_def": "faptul",
+      "n_nom_acc_pl_def_2": "faptele",
+      "n_nom_acc_sg_indf": "un fapt",
+      "n_nom_acc_sg_indf_2": "niște fapte",
+      "n_voc_pl": "faptelor",
+      "n_voc_sg": "faptule",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "fată": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fată",
+    "inflections": {
+      "n_gen_dat_pl_def": "fetei",
+      "n_gen_dat_pl_def_2": "fetelor",
+      "n_gen_dat_sg_indf": "unor fete",
+      "n_gen_dat_sg_indf_2": "unei fete",
+      "n_nom_acc_pl_def": "fata",
+      "n_nom_acc_pl_def_2": "fetele",
+      "n_nom_acc_sg_indf": "o fată",
+      "n_nom_acc_sg_indf_2": "niște fete",
+      "n_voc_pl": "fetelor",
+      "n_voc_sg": "fată",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "fel": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fel",
+    "inflections": {
+      "n_gen_dat_pl_def": "felului",
+      "n_gen_dat_pl_def_2": "felurilor",
+      "n_gen_dat_sg_indf": "unor feluri",
+      "n_gen_dat_sg_indf_2": "unui fel",
+      "n_nom_acc_pl_def": "felul",
+      "n_nom_acc_pl_def_2": "felurile",
+      "n_nom_acc_sg_indf": "un fel",
+      "n_nom_acc_sg_indf_2": "niște feluri",
+      "n_voc_pl": "felurilor",
+      "n_voc_sg": "felule",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "femeie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "femeie",
+    "inflections": {
+      "n_gen_dat_pl_def": "femeii",
+      "n_gen_dat_pl_def_2": "femeilor",
+      "n_gen_dat_sg_indf": "unor femei",
+      "n_gen_dat_sg_indf_2": "unei femei",
+      "n_nom_acc_pl_def": "femeia",
+      "n_nom_acc_pl_def_2": "femeile",
+      "n_nom_acc_sg_indf": "o femeie",
+      "n_nom_acc_sg_indf_2": "niște femei",
+      "n_voc_pl": "femeilor",
+      "n_voc_sg": "femeie",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "ferici": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ferici",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "fericit"
+    },
+    "priority": 4,
+    "types": [
+      "word"
+    ]
+  },
+  "fericit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fericit",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "fericiților",
+      "adj_dat_gen_fem_sg_indf": "fericiți",
+      "adj_dat_gen_masc_sg_def": "fericitului",
+      "adj_dat_gen_masc_sg_indf": "fericit",
+      "adj_dat_gen_neut_sg_def": "fericitei",
+      "adj_dat_gen_neut_sg_indf": "fericite",
+      "adj_dat_gen_pl_def": "fericitelor",
+      "adj_dat_gen_pl_indf": "fericite",
+      "adj_nom_acc_fem_sg_def": "fericiții",
+      "adj_nom_acc_fem_sg_indf": "fericiți",
+      "adj_nom_acc_masc_sg_def": "fericitul",
+      "adj_nom_acc_masc_sg_indf": "fericit",
+      "adj_nom_acc_neut_sg_def": "fericita",
+      "adj_nom_acc_neut_sg_indf": "fericită",
+      "adj_nom_acc_pl_def": "fericitele",
+      "adj_nom_acc_pl_indf": "fericite",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "fi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "fiind",
+      "v_ind_prs_1_pl": "suntem",
+      "v_ind_prs_1_sg": "sunt",
+      "v_ind_prs_2_pl": "sunteți",
+      "v_ind_prs_2_sg": "ești",
+      "v_ind_prs_3_pl": "sunt",
+      "v_ind_prs_3_sg": "este",
+      "v_ind_pst_1_pl_ipfv": "eram",
+      "v_ind_pst_1_pl_pfv": "fuserăm",
+      "v_ind_pst_1_pl_prf": "fuseserăm",
+      "v_ind_pst_1_sg_ipfv": "eram",
+      "v_ind_pst_1_sg_pfv": "fusei",
+      "v_ind_pst_1_sg_prf": "fusesem",
+      "v_ind_pst_2_pl_ipfv": "erați",
+      "v_ind_pst_2_pl_pfv": "fuserăți",
+      "v_ind_pst_2_pl_prf": "fuseserăți",
+      "v_ind_pst_2_sg_ipfv": "erai",
+      "v_ind_pst_2_sg_pfv": "fuseși",
+      "v_ind_pst_2_sg_prf": "fuseseși",
+      "v_ind_pst_3_pl_ipfv": "erau",
+      "v_ind_pst_3_pl_pfv": "fuseră",
+      "v_ind_pst_3_pl_prf": "fuseseră",
+      "v_ind_pst_3_sg_ipfv": "era",
+      "v_ind_pst_3_sg_pfv": "fuse",
+      "v_ind_pst_3_sg_prf": "fusese",
+      "v_neg_imp_2_sg": "nu fi",
+      "v_neg_imp_3_pl": "nu fiți",
+      "v_nfin": "a fi",
+      "v_pos_imp_2_sg": "fii",
+      "v_pos_imp_3_pl": "fiți",
+      "v_ptcp_pst": "fost",
+      "v_sbjv_prs_1_pl": "să fim",
+      "v_sbjv_prs_1_sg": "să fiu",
+      "v_sbjv_prs_2_pl": "să fiți",
+      "v_sbjv_prs_2_sg": "să fii",
+      "v_sbjv_prs_3_pl": "să fie",
+      "v_sbjv_prs_3_sg": "să fie"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "fiică": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fiică",
+    "inflections": {
+      "n_nom_acc_pl_def": "fiica",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "film": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "film",
+    "inflections": {
+      "n_gen_dat_pl_def": "filmului",
+      "n_gen_dat_pl_def_2": "filmelor",
+      "n_gen_dat_sg_indf": "unor filme",
+      "n_gen_dat_sg_indf_2": "unui film",
+      "n_nom_acc_pl_def": "filmul",
+      "n_nom_acc_pl_def_2": "filmele",
+      "n_nom_acc_sg_indf": "un film",
+      "n_nom_acc_sg_indf_2": "niște filme",
+      "n_voc_pl": "filmelor",
+      "n_voc_sg": "filmule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "foame": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "foame",
+    "inflections": {
+      "n_gen_dat_pl_def": "foamei",
+      "n_gen_dat_sg_indf": "foame",
+      "n_nom_acc_pl_def": "foamea",
+      "n_nom_acc_sg_indf": "foame",
+      "n_voc_sg": "foame",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "foc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "foc",
+    "inflections": {
+      "n_gen_dat_pl_def": "focului",
+      "n_gen_dat_pl_def_2": "focurilor",
+      "n_gen_dat_sg_indf": "unor focuri",
+      "n_gen_dat_sg_indf_2": "unui foc",
+      "n_nom_acc_pl_def": "focul",
+      "n_nom_acc_pl_def_2": "focurile",
+      "n_nom_acc_sg_indf": "un foc",
+      "n_nom_acc_sg_indf_2": "niște focuri",
+      "n_voc_pl": "focurilor",
+      "n_voc_sg": "focule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "folosi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "folosi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "folosind",
+      "v_ind_prs_1_pl": "folosim",
+      "v_ind_prs_1_sg": "folosesc",
+      "v_ind_prs_2_pl": "folosiți",
+      "v_ind_prs_2_sg": "folosești",
+      "v_ind_prs_3_pl": "folosesc",
+      "v_ind_prs_3_sg": "folosește",
+      "v_ind_pst_1_pl_ipfv": "foloseam",
+      "v_ind_pst_1_pl_pfv": "folosirăm",
+      "v_ind_pst_1_pl_prf": "folosiserăm",
+      "v_ind_pst_1_sg_ipfv": "foloseam",
+      "v_ind_pst_1_sg_pfv": "folosii",
+      "v_ind_pst_1_sg_prf": "folosisem",
+      "v_ind_pst_2_pl_ipfv": "foloseați",
+      "v_ind_pst_2_pl_pfv": "folosirăți",
+      "v_ind_pst_2_pl_prf": "folosiserăți",
+      "v_ind_pst_2_sg_ipfv": "foloseai",
+      "v_ind_pst_2_sg_pfv": "folosiși",
+      "v_ind_pst_2_sg_prf": "folosiseși",
+      "v_ind_pst_3_pl_ipfv": "foloseau",
+      "v_ind_pst_3_pl_pfv": "folosiră",
+      "v_ind_pst_3_pl_prf": "folosiseră",
+      "v_ind_pst_3_sg_ipfv": "folosea",
+      "v_ind_pst_3_sg_pfv": "folosi",
+      "v_ind_pst_3_sg_prf": "folosise",
+      "v_neg_imp_2_sg": "nu folosi",
+      "v_neg_imp_3_pl": "nu folosiți",
+      "v_nfin": "a folosi",
+      "v_pos_imp_2_sg": "folosește",
+      "v_pos_imp_3_pl": "folosiți",
+      "v_ptcp_pst": "folosit",
+      "v_sbjv_prs_1_pl": "să folosim",
+      "v_sbjv_prs_1_sg": "să folosesc",
+      "v_sbjv_prs_2_pl": "să folosiți",
+      "v_sbjv_prs_2_sg": "să folosești",
+      "v_sbjv_prs_3_pl": "să folosească",
+      "v_sbjv_prs_3_sg": "să folosească"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "frică": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "frică",
+    "inflections": {
+      "n_gen_dat_pl_def": "fricii",
+      "n_gen_dat_pl_def_2": "fricilor",
+      "n_gen_dat_sg_indf": "unor frici",
+      "n_gen_dat_sg_indf_2": "unei frici",
+      "n_nom_acc_pl_def": "frica",
+      "n_nom_acc_pl_def_2": "fricile",
+      "n_nom_acc_sg_indf": "o frică",
+      "n_nom_acc_sg_indf_2": "niște frici",
+      "n_voc_pl": "fricilor",
+      "n_voc_sg": "frică",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "fugi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fugi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "fugind",
+      "v_ind_prs_1_pl": "fugim",
+      "v_ind_prs_1_sg": "fug",
+      "v_ind_prs_2_pl": "fugiți",
+      "v_ind_prs_2_sg": "fugi",
+      "v_ind_prs_3_pl": "fug",
+      "v_ind_prs_3_sg": "fuge",
+      "v_ind_pst_1_pl_ipfv": "fugeam",
+      "v_ind_pst_1_pl_pfv": "fugirăm",
+      "v_ind_pst_1_pl_prf": "fugiserăm",
+      "v_ind_pst_1_sg_ipfv": "fugeam",
+      "v_ind_pst_1_sg_pfv": "fugii",
+      "v_ind_pst_1_sg_prf": "fugisem",
+      "v_ind_pst_2_pl_ipfv": "fugeați",
+      "v_ind_pst_2_pl_pfv": "fugirăți",
+      "v_ind_pst_2_pl_prf": "fugiserăți",
+      "v_ind_pst_2_sg_ipfv": "fugeai",
+      "v_ind_pst_2_sg_pfv": "fugiși",
+      "v_ind_pst_2_sg_prf": "fugiseși",
+      "v_ind_pst_3_pl_ipfv": "fugeau",
+      "v_ind_pst_3_pl_pfv": "fugiră",
+      "v_ind_pst_3_pl_prf": "fugiseră",
+      "v_ind_pst_3_sg_ipfv": "fugea",
+      "v_ind_pst_3_sg_pfv": "fugi",
+      "v_ind_pst_3_sg_prf": "fugise",
+      "v_neg_imp_2_sg": "nu fugi",
+      "v_neg_imp_3_pl": "nu fugiți",
+      "v_nfin": "a fugi",
+      "v_pos_imp_2_sg": "fugi",
+      "v_pos_imp_3_pl": "fugiți",
+      "v_ptcp_pst": "fugit",
+      "v_sbjv_prs_1_pl": "să fugim",
+      "v_sbjv_prs_1_sg": "să fug",
+      "v_sbjv_prs_2_pl": "să fugiți",
+      "v_sbjv_prs_2_sg": "să fugi",
+      "v_sbjv_prs_3_pl": "să fugă",
+      "v_sbjv_prs_3_sg": "să fugă"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "fura": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fura",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "furat"
+    },
+    "priority": 2,
+    "types": [
+      "word"
+    ]
+  },
+  "gata": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gata",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "gata",
+      "adj_dat_gen_masc_sg_indf": "gata",
+      "adj_dat_gen_neut_sg_indf": "gata",
+      "adj_dat_gen_pl_indf": "gata",
+      "adj_nom_acc_fem_sg_indf": "gata",
+      "adj_nom_acc_masc_sg_indf": "gata",
+      "adj_nom_acc_neut_sg_indf": "gata",
+      "adj_nom_acc_pl_indf": "gata",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "greu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "greu",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "greilor",
+      "adj_dat_gen_fem_sg_indf": "grei",
+      "adj_dat_gen_masc_sg_def": "greului",
+      "adj_dat_gen_masc_sg_indf": "greu",
+      "adj_dat_gen_neut_sg_def": "grelei",
+      "adj_dat_gen_neut_sg_indf": "grele",
+      "adj_dat_gen_pl_def": "grelelor",
+      "adj_dat_gen_pl_indf": "grele",
+      "adj_nom_acc_fem_sg_def": "greii",
+      "adj_nom_acc_fem_sg_indf": "grei",
+      "adj_nom_acc_masc_sg_def": "greul",
+      "adj_nom_acc_masc_sg_indf": "greu",
+      "adj_nom_acc_neut_sg_def": "greaua",
+      "adj_nom_acc_neut_sg_indf": "grea",
+      "adj_nom_acc_pl_def": "grelele",
+      "adj_nom_acc_pl_indf": "grele",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "gură": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gură",
+    "inflections": {
+      "n_nom_acc_pl_def": "gura",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "gând": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gând",
+    "inflections": {
+      "n_gen_dat_pl_def": "gândului",
+      "n_gen_dat_pl_def_2": "gândurilor",
+      "n_gen_dat_sg_indf": "unor gânduri",
+      "n_gen_dat_sg_indf_2": "unui gând",
+      "n_nom_acc_pl_def": "gândul",
+      "n_nom_acc_pl_def_2": "gândurile",
+      "n_nom_acc_sg_indf": "un gând",
+      "n_nom_acc_sg_indf_2": "niște gânduri",
+      "n_voc_pl": "gândurilor",
+      "n_voc_sg": "gândule",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "gândi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gândi",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "gândesc",
+      "v_ind_prs_3_pl": "gândesc",
+      "v_ind_pst_1_pl_ipfv": "gândeam",
+      "v_ind_pst_1_sg_ipfv": "gândeam",
+      "v_ptcp_pst": "gândit"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "găsi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "găsi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "găsind",
+      "v_ind_prs_1_pl": "găsim",
+      "v_ind_prs_1_sg": "găsesc",
+      "v_ind_prs_2_pl": "găsiți",
+      "v_ind_prs_2_sg": "găsești",
+      "v_ind_prs_3_pl": "găsesc",
+      "v_ind_prs_3_sg": "găsește",
+      "v_ind_pst_1_pl_ipfv": "găseam",
+      "v_ind_pst_1_pl_pfv": "găsirăm",
+      "v_ind_pst_1_pl_prf": "găsiserăm",
+      "v_ind_pst_1_sg_ipfv": "găseam",
+      "v_ind_pst_1_sg_pfv": "găsii",
+      "v_ind_pst_1_sg_prf": "găsisem",
+      "v_ind_pst_2_pl_ipfv": "găseați",
+      "v_ind_pst_2_pl_pfv": "găsirăți",
+      "v_ind_pst_2_pl_prf": "găsiserăți",
+      "v_ind_pst_2_sg_ipfv": "găseai",
+      "v_ind_pst_2_sg_pfv": "găsiși",
+      "v_ind_pst_2_sg_prf": "găsiseși",
+      "v_ind_pst_3_pl_ipfv": "găseau",
+      "v_ind_pst_3_pl_pfv": "găsiră",
+      "v_ind_pst_3_pl_prf": "găsiseră",
+      "v_ind_pst_3_sg_ipfv": "găsea",
+      "v_ind_pst_3_sg_pfv": "găsi",
+      "v_ind_pst_3_sg_prf": "găsise",
+      "v_neg_imp_2_sg": "nu găsi",
+      "v_neg_imp_3_pl": "nu găsiți",
+      "v_nfin": "a găsi",
+      "v_pos_imp_2_sg": "găsește",
+      "v_pos_imp_3_pl": "găsiți",
+      "v_ptcp_pst": "găsit",
+      "v_sbjv_prs_1_pl": "să găsim",
+      "v_sbjv_prs_1_sg": "să găsesc",
+      "v_sbjv_prs_2_pl": "să găsiți",
+      "v_sbjv_prs_2_sg": "să găsești",
+      "v_sbjv_prs_3_pl": "să găsească",
+      "v_sbjv_prs_3_sg": "să găsească"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "idee": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "idee",
+    "inflections": {
+      "n_gen_dat_pl_def": "ideii",
+      "n_gen_dat_pl_def_2": "ideilor",
+      "n_gen_dat_sg_indf": "unor idei",
+      "n_gen_dat_sg_indf_2": "unei idei",
+      "n_nom_acc_pl_def": "ideea",
+      "n_nom_acc_pl_def_2": "ideile",
+      "n_nom_acc_sg_indf": "o idee",
+      "n_nom_acc_sg_indf_2": "niște idei",
+      "n_voc_pl": "ideilor",
+      "n_voc_sg": "idee",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "important": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "important",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "importanților",
+      "adj_dat_gen_fem_sg_indf": "importanți",
+      "adj_dat_gen_masc_sg_def": "importantului",
+      "adj_dat_gen_masc_sg_indf": "important",
+      "adj_dat_gen_neut_sg_def": "importantei",
+      "adj_dat_gen_neut_sg_indf": "importante",
+      "adj_dat_gen_pl_def": "importantelor",
+      "adj_dat_gen_pl_indf": "importante",
+      "adj_nom_acc_fem_sg_def": "importanții",
+      "adj_nom_acc_fem_sg_indf": "importanți",
+      "adj_nom_acc_masc_sg_def": "importantul",
+      "adj_nom_acc_masc_sg_indf": "important",
+      "adj_nom_acc_neut_sg_def": "importanta",
+      "adj_nom_acc_neut_sg_indf": "importantă",
+      "adj_nom_acc_pl_def": "importantele",
+      "adj_nom_acc_pl_indf": "importante",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "in": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "in",
+    "inflections": {
+      "n_gen_dat_pl_def": "inului",
+      "n_gen_dat_pl_def_2": "inurilor",
+      "n_gen_dat_sg_indf": "unor inuri",
+      "n_gen_dat_sg_indf_2": "unui in",
+      "n_nom_acc_pl_def": "inul",
+      "n_nom_acc_pl_def_2": "inurile",
+      "n_nom_acc_sg_indf": "un in",
+      "n_nom_acc_sg_indf_2": "niște inuri",
+      "n_voc_pl": "inurilor",
+      "n_voc_sg": "inule",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "inimă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "inimă",
+    "inflections": {
+      "n_nom_acc_pl_def": "inima",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "intra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "intra",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "intrând",
+      "v_ind_prs_1_pl": "intrăm",
+      "v_ind_prs_1_sg": "intru",
+      "v_ind_prs_2_pl": "intrați",
+      "v_ind_prs_2_sg": "intri",
+      "v_ind_prs_3_pl": "intră",
+      "v_ind_prs_3_sg": "intră",
+      "v_ind_pst_1_pl_ipfv": "intram",
+      "v_ind_pst_1_pl_pfv": "intrarăm",
+      "v_ind_pst_1_pl_prf": "intraserăm",
+      "v_ind_pst_1_sg_ipfv": "intram",
+      "v_ind_pst_1_sg_pfv": "intrai",
+      "v_ind_pst_1_sg_prf": "intrasem",
+      "v_ind_pst_2_pl_ipfv": "intrați",
+      "v_ind_pst_2_pl_pfv": "intrarăți",
+      "v_ind_pst_2_pl_prf": "intraserăți",
+      "v_ind_pst_2_sg_ipfv": "intrai",
+      "v_ind_pst_2_sg_pfv": "intrași",
+      "v_ind_pst_2_sg_prf": "intraseși",
+      "v_ind_pst_3_pl_ipfv": "intrau",
+      "v_ind_pst_3_pl_pfv": "intrară",
+      "v_ind_pst_3_pl_prf": "intraseră",
+      "v_ind_pst_3_sg_ipfv": "intra",
+      "v_ind_pst_3_sg_pfv": "intră",
+      "v_ind_pst_3_sg_prf": "intrase",
+      "v_neg_imp_2_sg": "nu intra",
+      "v_neg_imp_3_pl": "nu intrați",
+      "v_nfin": "a intra",
+      "v_pos_imp_2_sg": "intră",
+      "v_pos_imp_3_pl": "intrați",
+      "v_ptcp_pst": "intrat",
+      "v_sbjv_prs_1_pl": "să intrăm",
+      "v_sbjv_prs_1_sg": "să intru",
+      "v_sbjv_prs_2_pl": "să intrați",
+      "v_sbjv_prs_2_sg": "să intri",
+      "v_sbjv_prs_3_pl": "să intre",
+      "v_sbjv_prs_3_sg": "să intre"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "iubi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iubi",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "iubesc",
+      "v_ind_prs_3_pl": "iubesc"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "joc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "joc",
+    "inflections": {
+      "n_gen_dat_pl_def": "jocului",
+      "n_gen_dat_pl_def_2": "jocurilor",
+      "n_gen_dat_sg_indf": "unor jocuri",
+      "n_gen_dat_sg_indf_2": "unui joc",
+      "n_nom_acc_pl_def": "jocul",
+      "n_nom_acc_pl_def_2": "jocurile",
+      "n_nom_acc_sg_indf": "un joc",
+      "n_nom_acc_sg_indf_2": "niște jocuri",
+      "n_voc_pl": "jocurilor",
+      "n_voc_sg": "jocule",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "jos": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jos",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "joșilor",
+      "adj_dat_gen_fem_sg_indf": "joși",
+      "adj_dat_gen_masc_sg_def": "josului",
+      "adj_dat_gen_masc_sg_indf": "jos",
+      "adj_dat_gen_neut_sg_def": "joasei",
+      "adj_dat_gen_neut_sg_indf": "joase",
+      "adj_dat_gen_pl_def": "joaselor",
+      "adj_dat_gen_pl_indf": "joase",
+      "adj_nom_acc_fem_sg_def": "joșii",
+      "adj_nom_acc_fem_sg_indf": "joși",
+      "adj_nom_acc_masc_sg_def": "josul",
+      "adj_nom_acc_masc_sg_indf": "jos",
+      "adj_nom_acc_neut_sg_def": "joasa",
+      "adj_nom_acc_neut_sg_indf": "joasă",
+      "adj_nom_acc_pl_def": "joasele",
+      "adj_nom_acc_pl_indf": "joase",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "juca": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "juca",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "joc"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "jura": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "jura",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "jur"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "legătură": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "legătură",
+    "inflections": {
+      "n_gen_dat_pl_def": "legăturii",
+      "n_gen_dat_pl_def_2": "legăturilor",
+      "n_gen_dat_sg_indf": "unor legături",
+      "n_gen_dat_sg_indf_2": "unei legături",
+      "n_nom_acc_pl_def": "legătura",
+      "n_nom_acc_pl_def_2": "legăturile",
+      "n_nom_acc_sg_indf": "o legătură",
+      "n_nom_acc_sg_indf_2": "niște legături",
+      "n_voc_pl": "legăturilor",
+      "n_voc_sg": "legătură",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "loc": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "loc",
+    "inflections": {
+      "n_gen_dat_pl_def": "locului",
+      "n_gen_dat_pl_def_2": "locurilor",
+      "n_gen_dat_sg_indf": "unor locuri",
+      "n_gen_dat_sg_indf_2": "unui loc",
+      "n_nom_acc_pl_def": "locul",
+      "n_nom_acc_pl_def_2": "locurile",
+      "n_nom_acc_sg_indf": "un loc",
+      "n_nom_acc_sg_indf_2": "niște locuri",
+      "n_voc_pl": "locurilor",
+      "n_voc_sg": "locule",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "lovi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lovi",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "lovit"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "lua": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lua",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "luând",
+      "v_ind_prs_1_pl": "luăm",
+      "v_ind_prs_1_sg": "iau",
+      "v_ind_prs_2_pl": "luați",
+      "v_ind_prs_2_sg": "iei",
+      "v_ind_prs_3_pl": "iau",
+      "v_ind_prs_3_sg": "ia",
+      "v_ind_pst_1_pl_ipfv": "luam",
+      "v_ind_pst_1_pl_pfv": "luarăm",
+      "v_ind_pst_1_pl_prf": "luaserăm",
+      "v_ind_pst_1_sg_ipfv": "luam",
+      "v_ind_pst_1_sg_pfv": "luai",
+      "v_ind_pst_1_sg_prf": "luasem",
+      "v_ind_pst_2_pl_ipfv": "luați",
+      "v_ind_pst_2_pl_pfv": "luarăți",
+      "v_ind_pst_2_pl_prf": "luaserăți",
+      "v_ind_pst_2_sg_ipfv": "luai",
+      "v_ind_pst_2_sg_pfv": "luași",
+      "v_ind_pst_2_sg_prf": "luaseși",
+      "v_ind_pst_3_pl_ipfv": "luau",
+      "v_ind_pst_3_pl_pfv": "luară",
+      "v_ind_pst_3_pl_prf": "luaseră",
+      "v_ind_pst_3_sg_ipfv": "lua",
+      "v_ind_pst_3_sg_pfv": "luă",
+      "v_ind_pst_3_sg_prf": "luase",
+      "v_neg_imp_2_sg": "nu lua",
+      "v_neg_imp_3_pl": "nu luați",
+      "v_nfin": "a lua",
+      "v_pos_imp_2_sg": "ia",
+      "v_pos_imp_3_pl": "luați",
+      "v_ptcp_pst": "luat",
+      "v_sbjv_prs_1_pl": "să luăm",
+      "v_sbjv_prs_1_sg": "să iau",
+      "v_sbjv_prs_2_pl": "să luați",
+      "v_sbjv_prs_2_sg": "să iei",
+      "v_sbjv_prs_3_pl": "să ia",
+      "v_sbjv_prs_3_sg": "să ia"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "lucra": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lucra",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "lucrez",
+      "v_ind_prs_3_pl": "lucrează",
+      "v_ind_prs_3_sg": "lucrează",
+      "v_pos_imp_2_sg": "lucrează",
+      "v_ptcp_pst": "lucrat"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "lucru": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lucru",
+    "inflections": {
+      "n_gen_dat_pl_def": "lucrului",
+      "n_gen_dat_pl_def_2": "lucrurilor",
+      "n_gen_dat_sg_indf": "unor lucruri",
+      "n_gen_dat_sg_indf_2": "unui lucru",
+      "n_nom_acc_pl_def": "lucrul",
+      "n_nom_acc_pl_def_2": "lucrurile",
+      "n_nom_acc_sg_indf": "un lucru",
+      "n_nom_acc_sg_indf_2": "niște lucruri",
+      "n_voc_pl": "lucrurilor",
+      "n_voc_sg": "lucrule",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "lume": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lume",
+    "inflections": {
+      "n_gen_dat_pl_def": "lumii",
+      "n_gen_dat_pl_def_2": "lumilor",
+      "n_gen_dat_sg_indf": "unor lumi",
+      "n_gen_dat_sg_indf_2": "unei lumi",
+      "n_nom_acc_pl_def": "lumea",
+      "n_nom_acc_pl_def_2": "lumile",
+      "n_nom_acc_sg_indf": "o lume",
+      "n_nom_acc_sg_indf_2": "niște lumi",
+      "n_voc_pl": "lumilor",
+      "n_voc_sg": "lume",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "lupta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lupta",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "luptând",
+      "v_ind_prs_1_pl": "luptăm",
+      "v_ind_prs_1_sg": "lupt",
+      "v_ind_prs_2_pl": "luptați",
+      "v_ind_prs_2_sg": "lupți",
+      "v_ind_prs_3_pl": "luptă",
+      "v_ind_prs_3_sg": "luptă",
+      "v_ind_pst_1_pl_ipfv": "luptam",
+      "v_ind_pst_1_pl_pfv": "luptarăm",
+      "v_ind_pst_1_pl_prf": "luptaserăm",
+      "v_ind_pst_1_sg_ipfv": "luptam",
+      "v_ind_pst_1_sg_pfv": "luptai",
+      "v_ind_pst_1_sg_prf": "luptasem",
+      "v_ind_pst_2_pl_ipfv": "luptați",
+      "v_ind_pst_2_pl_pfv": "luptarăți",
+      "v_ind_pst_2_pl_prf": "luptaserăți",
+      "v_ind_pst_2_sg_ipfv": "luptai",
+      "v_ind_pst_2_sg_pfv": "luptași",
+      "v_ind_pst_2_sg_prf": "luptaseși",
+      "v_ind_pst_3_pl_ipfv": "luptau",
+      "v_ind_pst_3_pl_pfv": "luptară",
+      "v_ind_pst_3_pl_prf": "luptaseră",
+      "v_ind_pst_3_sg_ipfv": "lupta",
+      "v_ind_pst_3_sg_pfv": "luptă",
+      "v_ind_pst_3_sg_prf": "luptase",
+      "v_neg_imp_2_sg": "nu lupta",
+      "v_neg_imp_3_pl": "nu luptați",
+      "v_nfin": "a lupta",
+      "v_pos_imp_2_sg": "luptă",
+      "v_pos_imp_3_pl": "luptați",
+      "v_ptcp_pst": "luptat",
+      "v_sbjv_prs_1_pl": "să luptăm",
+      "v_sbjv_prs_1_sg": "să lupt",
+      "v_sbjv_prs_2_pl": "să luptați",
+      "v_sbjv_prs_2_sg": "să lupți",
+      "v_sbjv_prs_3_pl": "să lupte",
+      "v_sbjv_prs_3_sg": "să lupte"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "luptă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "luptă",
+    "inflections": {
+      "n_gen_dat_pl_def": "luptei",
+      "n_gen_dat_pl_def_2": "luptelor",
+      "n_gen_dat_sg_indf": "unor lupte",
+      "n_gen_dat_sg_indf_2": "unei lupte",
+      "n_nom_acc_pl_def": "lupta",
+      "n_nom_acc_pl_def_2": "luptele",
+      "n_nom_acc_sg_indf": "o luptă",
+      "n_nom_acc_sg_indf_2": "niște lupte",
+      "n_voc_pl": "luptelor",
+      "n_voc_sg": "luptă",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "lăsa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lăsa",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "lăsând",
+      "v_ind_prs_1_pl": "lăsăm",
+      "v_ind_prs_1_sg": "las",
+      "v_ind_prs_2_pl": "lăsați",
+      "v_ind_prs_2_sg": "lași",
+      "v_ind_prs_3_pl": "las",
+      "v_ind_prs_3_sg": "lasă",
+      "v_ind_pst_1_pl_ipfv": "lăsam",
+      "v_ind_pst_1_pl_pfv": "lăsarăm",
+      "v_ind_pst_1_pl_prf": "lăsaserăm",
+      "v_ind_pst_1_sg_ipfv": "lăsam",
+      "v_ind_pst_1_sg_pfv": "lăsai",
+      "v_ind_pst_1_sg_prf": "lăsasem",
+      "v_ind_pst_2_pl_ipfv": "lăsați",
+      "v_ind_pst_2_pl_pfv": "lăsarăți",
+      "v_ind_pst_2_pl_prf": "lăsaserăți",
+      "v_ind_pst_2_sg_ipfv": "lăsai",
+      "v_ind_pst_2_sg_pfv": "lăsași",
+      "v_ind_pst_2_sg_prf": "lăsaseși",
+      "v_ind_pst_3_pl_ipfv": "lăsau",
+      "v_ind_pst_3_pl_pfv": "lăsară",
+      "v_ind_pst_3_pl_prf": "lăsaseră",
+      "v_ind_pst_3_sg_ipfv": "lăsa",
+      "v_ind_pst_3_sg_pfv": "lăsă",
+      "v_ind_pst_3_sg_prf": "lăsase",
+      "v_neg_imp_2_sg": "nu lăsa",
+      "v_neg_imp_3_pl": "nu lăsați",
+      "v_nfin": "a lăsa",
+      "v_pos_imp_2_sg": "lasă",
+      "v_pos_imp_3_pl": "lăsați",
+      "v_ptcp_pst": "lăsat",
+      "v_sbjv_prs_1_pl": "să lăsăm",
+      "v_sbjv_prs_1_sg": "să las",
+      "v_sbjv_prs_2_pl": "să lăsați",
+      "v_sbjv_prs_2_sg": "să lași",
+      "v_sbjv_prs_3_pl": "să lase",
+      "v_sbjv_prs_3_sg": "să lase"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "lăsat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lăsat",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "lăsaților",
+      "adj_dat_gen_fem_sg_indf": "lăsați",
+      "adj_dat_gen_masc_sg_def": "lăsatului",
+      "adj_dat_gen_masc_sg_indf": "lăsat",
+      "adj_dat_gen_neut_sg_def": "lăsatei",
+      "adj_dat_gen_neut_sg_indf": "lăsate",
+      "adj_dat_gen_pl_def": "lăsatelor",
+      "adj_dat_gen_pl_indf": "lăsate",
+      "adj_nom_acc_fem_sg_def": "lăsații",
+      "adj_nom_acc_fem_sg_indf": "lăsați",
+      "adj_nom_acc_masc_sg_def": "lăsatul",
+      "adj_nom_acc_masc_sg_indf": "lăsat",
+      "adj_nom_acc_neut_sg_def": "lăsata",
+      "adj_nom_acc_neut_sg_indf": "lăsată",
+      "adj_nom_acc_pl_def": "lăsatele",
+      "adj_nom_acc_pl_indf": "lăsate",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mamă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mamă",
+    "inflections": {
+      "n_gen_dat_pl_def": "mamei",
+      "n_gen_dat_pl_def_2": "mamelor",
+      "n_gen_dat_sg_indf": "unor mame",
+      "n_gen_dat_sg_indf_2": "unei mame",
+      "n_nom_acc_pl_def": "mama",
+      "n_nom_acc_pl_def_2": "mamele",
+      "n_nom_acc_sg_indf": "o mamă",
+      "n_nom_acc_sg_indf_2": "niște mame",
+      "n_voc_pl": "mamelor",
+      "n_voc_sg": "mamă",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "merge": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "merge",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "mergând",
+      "v_ind_prs_1_pl": "mergem",
+      "v_ind_prs_1_sg": "merg",
+      "v_ind_prs_2_pl": "mergeți",
+      "v_ind_prs_2_sg": "mergi",
+      "v_ind_prs_3_pl": "merg",
+      "v_ind_prs_3_sg": "merge",
+      "v_ind_pst_1_pl_ipfv": "mergeam",
+      "v_ind_pst_1_pl_pfv": "merserăm",
+      "v_ind_pst_1_pl_prf": "merseserăm",
+      "v_ind_pst_1_sg_ipfv": "mergeam",
+      "v_ind_pst_1_sg_pfv": "mersei",
+      "v_ind_pst_1_sg_prf": "mersesem",
+      "v_ind_pst_2_pl_ipfv": "mergeați",
+      "v_ind_pst_2_pl_pfv": "merserăți",
+      "v_ind_pst_2_pl_prf": "merseserăți",
+      "v_ind_pst_2_sg_ipfv": "mergeai",
+      "v_ind_pst_2_sg_pfv": "merseși",
+      "v_ind_pst_2_sg_prf": "merseseși",
+      "v_ind_pst_3_pl_ipfv": "mergeau",
+      "v_ind_pst_3_pl_pfv": "merseră",
+      "v_ind_pst_3_pl_prf": "merseseră",
+      "v_ind_pst_3_sg_ipfv": "mergea",
+      "v_ind_pst_3_sg_pfv": "merse",
+      "v_ind_pst_3_sg_prf": "mersese",
+      "v_neg_imp_2_sg": "nu merge",
+      "v_neg_imp_3_pl": "nu mergeți",
+      "v_nfin": "a merge",
+      "v_pos_imp_2_sg": "merge",
+      "v_pos_imp_3_pl": "mergeți",
+      "v_ptcp_pst": "mers",
+      "v_sbjv_prs_1_pl": "să mergem",
+      "v_sbjv_prs_1_sg": "să merg",
+      "v_sbjv_prs_2_pl": "să mergeți",
+      "v_sbjv_prs_2_sg": "să mergi",
+      "v_sbjv_prs_3_pl": "să meargă",
+      "v_sbjv_prs_3_sg": "să meargă"
+    },
+    "priority": 8,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "mic": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mic",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "micilor",
+      "adj_dat_gen_fem_sg_indf": "mici",
+      "adj_dat_gen_masc_sg_def": "micului",
+      "adj_dat_gen_masc_sg_indf": "mic",
+      "adj_dat_gen_neut_sg_def": "micii",
+      "adj_dat_gen_neut_sg_indf": "mici",
+      "adj_dat_gen_pl_def": "micilor",
+      "adj_dat_gen_pl_indf": "mici",
+      "adj_nom_acc_fem_sg_def": "micii",
+      "adj_nom_acc_fem_sg_indf": "mici",
+      "adj_nom_acc_masc_sg_def": "micul",
+      "adj_nom_acc_masc_sg_indf": "mic",
+      "adj_nom_acc_neut_sg_def": "mica",
+      "adj_nom_acc_neut_sg_indf": "mică",
+      "adj_nom_acc_pl_def": "micile",
+      "adj_nom_acc_pl_indf": "mici",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "minuna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minuna",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "minunat"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "minți": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "minți",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "minte",
+      "v_pos_imp_2_sg": "minte"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "moarte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moarte",
+    "inflections": {
+      "n_gen_dat_pl_def": "morții",
+      "n_gen_dat_pl_def_2": "morților",
+      "n_gen_dat_sg_indf": "unor morți",
+      "n_gen_dat_sg_indf_2": "unei morți",
+      "n_nom_acc_pl_def": "moartea",
+      "n_nom_acc_pl_def_2": "morțile",
+      "n_nom_acc_sg_indf": "o moarte",
+      "n_nom_acc_sg_indf_2": "niște morți",
+      "n_voc_pl": "morților",
+      "n_voc_sg": "moarte",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "moment": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moment",
+    "inflections": {
+      "n_gen_dat_pl_def": "momentului",
+      "n_gen_dat_pl_def_2": "momentelor",
+      "n_gen_dat_sg_indf": "unor momente",
+      "n_gen_dat_sg_indf_2": "unui moment",
+      "n_nom_acc_pl_def": "momentul",
+      "n_nom_acc_pl_def_2": "momentele",
+      "n_nom_acc_sg_indf": "un moment",
+      "n_nom_acc_sg_indf_2": "niște momente",
+      "n_voc_pl": "momentelor",
+      "n_voc_sg": "momentule",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "mort": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mort",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "morților",
+      "adj_dat_gen_fem_sg_indf": "morți",
+      "adj_dat_gen_masc_sg_def": "mortului",
+      "adj_dat_gen_masc_sg_indf": "mort",
+      "adj_dat_gen_neut_sg_def": "moartei",
+      "adj_dat_gen_neut_sg_indf": "moarte",
+      "adj_dat_gen_pl_def": "moartelor",
+      "adj_dat_gen_pl_indf": "moarte",
+      "adj_nom_acc_fem_sg_def": "morții",
+      "adj_nom_acc_fem_sg_indf": "morți",
+      "adj_nom_acc_masc_sg_def": "mortul",
+      "adj_nom_acc_masc_sg_indf": "mort",
+      "adj_nom_acc_neut_sg_def": "moarta",
+      "adj_nom_acc_neut_sg_indf": "moartă",
+      "adj_nom_acc_pl_def": "moartele",
+      "adj_nom_acc_pl_indf": "moarte",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "motiv": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "motiv",
+    "inflections": {
+      "n_gen_dat_pl_def": "motivului",
+      "n_gen_dat_pl_def_2": "motivelor",
+      "n_gen_dat_sg_indf": "unor motive",
+      "n_gen_dat_sg_indf_2": "unui motiv",
+      "n_nom_acc_pl_def": "motivul",
+      "n_nom_acc_pl_def_2": "motivele",
+      "n_nom_acc_sg_indf": "un motiv",
+      "n_nom_acc_sg_indf_2": "niște motive",
+      "n_voc_pl": "motivelor",
+      "n_voc_sg": "motivule",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "mulțumi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mulțumi",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "mulțumesc",
+      "v_ind_prs_3_pl": "mulțumesc"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "muncă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muncă",
+    "inflections": {
+      "n_gen_dat_pl_def": "muncii",
+      "n_gen_dat_pl_def_2": "muncilor",
+      "n_gen_dat_sg_indf": "unor munci",
+      "n_gen_dat_sg_indf_2": "unei munci",
+      "n_nom_acc_pl_def": "munca",
+      "n_nom_acc_pl_def_2": "muncile",
+      "n_nom_acc_sg_indf": "o muncă",
+      "n_nom_acc_sg_indf_2": "niște munci",
+      "n_voc_pl": "muncilor",
+      "n_voc_sg": "muncă",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "muri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "muri",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "murind",
+      "v_ind_prs_1_pl": "murim",
+      "v_ind_prs_1_sg": "mor",
+      "v_ind_prs_2_pl": "muriți",
+      "v_ind_prs_2_sg": "mori",
+      "v_ind_prs_3_pl": "mor",
+      "v_ind_prs_3_sg": "moare",
+      "v_ind_pst_1_pl_ipfv": "muream",
+      "v_ind_pst_1_pl_pfv": "murirăm",
+      "v_ind_pst_1_pl_prf": "muriserăm",
+      "v_ind_pst_1_sg_ipfv": "muream",
+      "v_ind_pst_1_sg_pfv": "murii",
+      "v_ind_pst_1_sg_prf": "murisem",
+      "v_ind_pst_2_pl_ipfv": "mureați",
+      "v_ind_pst_2_pl_pfv": "murirăți",
+      "v_ind_pst_2_pl_prf": "muriserăți",
+      "v_ind_pst_2_sg_ipfv": "mureai",
+      "v_ind_pst_2_sg_pfv": "muriși",
+      "v_ind_pst_2_sg_prf": "muriseși",
+      "v_ind_pst_3_pl_ipfv": "mureau",
+      "v_ind_pst_3_pl_pfv": "muriră",
+      "v_ind_pst_3_pl_prf": "muriseră",
+      "v_ind_pst_3_sg_ipfv": "murea",
+      "v_ind_pst_3_sg_pfv": "muri",
+      "v_ind_pst_3_sg_prf": "murise",
+      "v_neg_imp_2_sg": "nu muri",
+      "v_neg_imp_3_pl": "nu muriți",
+      "v_nfin": "a muri",
+      "v_pos_imp_2_sg": "mori",
+      "v_pos_imp_3_pl": "muriți",
+      "v_ptcp_pst": "murit",
+      "v_sbjv_prs_1_pl": "să murim",
+      "v_sbjv_prs_1_sg": "să mor",
+      "v_sbjv_prs_2_pl": "să muriți",
+      "v_sbjv_prs_2_sg": "să mori",
+      "v_sbjv_prs_3_pl": "să moară",
+      "v_sbjv_prs_3_sg": "să moară"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "mână": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mână",
+    "inflections": {
+      "n_gen_dat_pl_def": "mâinii",
+      "n_gen_dat_pl_def_2": "mâinilor",
+      "n_gen_dat_sg_indf": "unor mâini",
+      "n_gen_dat_sg_indf_2": "unei mâini",
+      "n_nom_acc_pl_def": "mâna",
+      "n_nom_acc_pl_def_2": "mâinile",
+      "n_nom_acc_sg_indf": "o mână",
+      "n_nom_acc_sg_indf_2": "niște mâini",
+      "n_voc_pl": "mâinilor",
+      "n_voc_sg": "mână",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "noapte": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "noapte",
+    "inflections": {
+      "n_gen_dat_pl_def": "nopții",
+      "n_gen_dat_pl_def_2": "nopților",
+      "n_gen_dat_sg_indf": "unor nopți",
+      "n_gen_dat_sg_indf_2": "unei nopți",
+      "n_nom_acc_pl_def": "noaptea",
+      "n_nom_acc_pl_def_2": "nopțile",
+      "n_nom_acc_sg_indf": "o noapte",
+      "n_nom_acc_sg_indf_2": "niște nopți",
+      "n_voc_pl": "nopților",
+      "n_voc_sg": "noapte",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "nou": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nou",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "noilor",
+      "adj_dat_gen_fem_sg_indf": "noi",
+      "adj_dat_gen_masc_sg_def": "noului",
+      "adj_dat_gen_masc_sg_indf": "nou",
+      "adj_dat_gen_neut_sg_def": "noii",
+      "adj_dat_gen_neut_sg_indf": "noi",
+      "adj_dat_gen_pl_def": "noilor",
+      "adj_dat_gen_pl_indf": "noi",
+      "adj_nom_acc_fem_sg_def": "noii",
+      "adj_nom_acc_fem_sg_indf": "noi",
+      "adj_nom_acc_masc_sg_def": "noul",
+      "adj_nom_acc_masc_sg_indf": "nou",
+      "adj_nom_acc_neut_sg_def": "noua",
+      "adj_nom_acc_neut_sg_indf": "nouă",
+      "adj_nom_acc_pl_def": "noile",
+      "adj_nom_acc_pl_indf": "noi",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "nume": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nume",
+    "inflections": {
+      "n_gen_dat_pl_def": "numelui",
+      "n_gen_dat_pl_def_2": "numelor",
+      "n_gen_dat_sg_indf": "unor nume",
+      "n_gen_dat_sg_indf_2": "unui nume",
+      "n_nom_acc_pl_def": "numele",
+      "n_nom_acc_sg_indf": "un nume",
+      "n_nom_acc_sg_indf_2": "niște nume",
+      "n_voc_pl": "numelor",
+      "n_voc_sg": "nume",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "omor": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "omor",
+    "inflections": {
+      "n_gen_dat_pl_def": "omorului",
+      "n_gen_dat_pl_def_2": "omorurilor",
+      "n_gen_dat_sg_indf": "unor omoruri",
+      "n_gen_dat_sg_indf_2": "unui omor",
+      "n_nom_acc_pl_def": "omorul",
+      "n_nom_acc_pl_def_2": "omorurile",
+      "n_nom_acc_sg_indf": "un omor",
+      "n_nom_acc_sg_indf_2": "niște omoruri",
+      "n_voc_pl": "omorurilor",
+      "n_voc_sg": "omorule",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "omorî": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "omorî",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "omor",
+      "v_ptcp_pst": "omorât"
+    },
+    "priority": 2,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "opri": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "opri",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "oprind",
+      "v_ind_prs_1_pl": "oprim",
+      "v_ind_prs_1_sg": "opresc",
+      "v_ind_prs_2_pl": "opriți",
+      "v_ind_prs_2_sg": "oprești",
+      "v_ind_prs_3_pl": "opresc",
+      "v_ind_prs_3_sg": "oprește",
+      "v_ind_pst_1_pl_ipfv": "opream",
+      "v_ind_pst_1_pl_pfv": "oprirăm",
+      "v_ind_pst_1_pl_prf": "opriserăm",
+      "v_ind_pst_1_sg_ipfv": "opream",
+      "v_ind_pst_1_sg_pfv": "oprii",
+      "v_ind_pst_1_sg_prf": "oprisem",
+      "v_ind_pst_2_pl_ipfv": "opreați",
+      "v_ind_pst_2_pl_pfv": "oprirăți",
+      "v_ind_pst_2_pl_prf": "opriserăți",
+      "v_ind_pst_2_sg_ipfv": "opreai",
+      "v_ind_pst_2_sg_pfv": "opriși",
+      "v_ind_pst_2_sg_prf": "opriseși",
+      "v_ind_pst_3_pl_ipfv": "opreau",
+      "v_ind_pst_3_pl_pfv": "opriră",
+      "v_ind_pst_3_pl_prf": "opriseră",
+      "v_ind_pst_3_sg_ipfv": "oprea",
+      "v_ind_pst_3_sg_pfv": "opri",
+      "v_ind_pst_3_sg_prf": "oprise",
+      "v_neg_imp_2_sg": "nu opri",
+      "v_neg_imp_3_pl": "nu opriți",
+      "v_nfin": "a opri",
+      "v_pos_imp_2_sg": "oprește",
+      "v_pos_imp_3_pl": "opriți",
+      "v_ptcp_pst": "oprit",
+      "v_sbjv_prs_1_pl": "să oprim",
+      "v_sbjv_prs_1_sg": "să opresc",
+      "v_sbjv_prs_2_pl": "să opriți",
+      "v_sbjv_prs_2_sg": "să oprești",
+      "v_sbjv_prs_3_pl": "să oprească",
+      "v_sbjv_prs_3_sg": "să oprească"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "oră": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "oră",
+    "inflections": {
+      "n_gen_dat_pl_def": "orei",
+      "n_gen_dat_pl_def_2": "orelor",
+      "n_gen_dat_sg_indf": "unor ore",
+      "n_gen_dat_sg_indf_2": "unei ore",
+      "n_nom_acc_pl_def": "ora",
+      "n_nom_acc_pl_def_2": "orele",
+      "n_nom_acc_sg_indf": "o oră",
+      "n_nom_acc_sg_indf_2": "niște ore",
+      "n_voc_pl": "orelor",
+      "n_voc_sg": "oră",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pace": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pace",
+    "inflections": {
+      "n_gen_dat_pl_def": "păcii",
+      "n_gen_dat_sg_indf": "păci",
+      "n_nom_acc_pl_def": "pacea",
+      "n_nom_acc_sg_indf": "pace",
+      "n_voc_sg": "pace",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "parca": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "parca",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_sg_pfv": "parcă"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "pasa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pasa",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_sg_pfv": "pasă"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "pat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pat",
+    "inflections": {
+      "n_gen_dat_pl_def": "patului",
+      "n_gen_dat_pl_def_2": "paturilor",
+      "n_gen_dat_sg_indf": "unor paturi",
+      "n_gen_dat_sg_indf_2": "unui pat",
+      "n_nom_acc_pl_def": "patul",
+      "n_nom_acc_pl_def_2": "paturile",
+      "n_nom_acc_sg_indf": "un pat",
+      "n_nom_acc_sg_indf_2": "niște paturi",
+      "n_voc_pl": "paturilor",
+      "n_voc_sg": "patule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "perfect": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "perfect",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "perfecților",
+      "adj_dat_gen_fem_sg_indf": "perfecți",
+      "adj_dat_gen_masc_sg_def": "perfectului",
+      "adj_dat_gen_masc_sg_indf": "perfect",
+      "adj_dat_gen_neut_sg_def": "perfectei",
+      "adj_dat_gen_neut_sg_indf": "perfecte",
+      "adj_dat_gen_pl_def": "perfectelor",
+      "adj_dat_gen_pl_indf": "perfecte",
+      "adj_nom_acc_fem_sg_def": "perfecții",
+      "adj_nom_acc_fem_sg_indf": "perfecți",
+      "adj_nom_acc_masc_sg_def": "perfectul",
+      "adj_nom_acc_masc_sg_indf": "perfect",
+      "adj_nom_acc_neut_sg_def": "perfecta",
+      "adj_nom_acc_neut_sg_indf": "perfectă",
+      "adj_nom_acc_pl_def": "perfectele",
+      "adj_nom_acc_pl_indf": "perfecte",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "persoană": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "persoană",
+    "inflections": {
+      "n_gen_dat_pl_def": "persoanei",
+      "n_gen_dat_pl_def_2": "persoanelor",
+      "n_gen_dat_sg_indf": "unor persoane",
+      "n_gen_dat_sg_indf_2": "unei persoane",
+      "n_nom_acc_pl_def": "persoana",
+      "n_nom_acc_pl_def_2": "persoanele",
+      "n_nom_acc_sg_indf": "o persoană",
+      "n_nom_acc_sg_indf_2": "niște persoane",
+      "n_voc_pl": "persoanelor",
+      "n_voc_sg": "persoană",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pica": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pica",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "pic"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "pierde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pierde",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "pierzând",
+      "v_ind_prs_1_pl": "pierdem",
+      "v_ind_prs_1_sg": "pierd",
+      "v_ind_prs_2_pl": "pierdeți",
+      "v_ind_prs_2_sg": "pierzi",
+      "v_ind_prs_3_pl": "pierd",
+      "v_ind_prs_3_sg": "pierde",
+      "v_ind_pst_1_pl_ipfv": "pierdeam",
+      "v_ind_pst_1_pl_pfv": "pierdurăm",
+      "v_ind_pst_1_pl_prf": "pierduserăm",
+      "v_ind_pst_1_sg_ipfv": "pierdeam",
+      "v_ind_pst_1_sg_pfv": "pierdui",
+      "v_ind_pst_1_sg_prf": "pierdusem",
+      "v_ind_pst_2_pl_ipfv": "pierdeați",
+      "v_ind_pst_2_pl_pfv": "pierdurăți",
+      "v_ind_pst_2_pl_prf": "pierduserăți",
+      "v_ind_pst_2_sg_ipfv": "pierdeai",
+      "v_ind_pst_2_sg_pfv": "pierduși",
+      "v_ind_pst_2_sg_prf": "pierduseși",
+      "v_ind_pst_3_pl_ipfv": "pierdeau",
+      "v_ind_pst_3_pl_pfv": "pierdură",
+      "v_ind_pst_3_pl_prf": "pierduseră",
+      "v_ind_pst_3_sg_ipfv": "pierdea",
+      "v_ind_pst_3_sg_pfv": "pierdu",
+      "v_ind_pst_3_sg_prf": "pierduse",
+      "v_neg_imp_2_sg": "nu pierde",
+      "v_neg_imp_3_pl": "nu pierdeți",
+      "v_nfin": "a pierde",
+      "v_pos_imp_2_sg": "pierde",
+      "v_pos_imp_3_pl": "pierdeți",
+      "v_ptcp_pst": "pierdut",
+      "v_sbjv_prs_1_pl": "să pierdem",
+      "v_sbjv_prs_1_sg": "să pierd",
+      "v_sbjv_prs_2_pl": "să pierdeți",
+      "v_sbjv_prs_2_sg": "să pierzi",
+      "v_sbjv_prs_3_pl": "să piardă",
+      "v_sbjv_prs_3_sg": "să piardă"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "pleca": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pleca",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "plecând",
+      "v_ind_prs_1_pl": "plecăm",
+      "v_ind_prs_1_sg": "plec",
+      "v_ind_prs_2_pl": "plecați",
+      "v_ind_prs_2_sg": "pleci",
+      "v_ind_prs_3_pl": "pleacă",
+      "v_ind_prs_3_sg": "pleacă",
+      "v_ind_pst_1_pl_ipfv": "plecam",
+      "v_ind_pst_1_pl_pfv": "plecarăm",
+      "v_ind_pst_1_pl_prf": "plecaserăm",
+      "v_ind_pst_1_sg_ipfv": "plecam",
+      "v_ind_pst_1_sg_pfv": "plecai",
+      "v_ind_pst_1_sg_prf": "plecasem",
+      "v_ind_pst_2_pl_ipfv": "plecați",
+      "v_ind_pst_2_pl_pfv": "plecarăți",
+      "v_ind_pst_2_pl_prf": "plecaserăți",
+      "v_ind_pst_2_sg_ipfv": "plecai",
+      "v_ind_pst_2_sg_pfv": "plecași",
+      "v_ind_pst_2_sg_prf": "plecaseși",
+      "v_ind_pst_3_pl_ipfv": "plecau",
+      "v_ind_pst_3_pl_pfv": "plecară",
+      "v_ind_pst_3_pl_prf": "plecaseră",
+      "v_ind_pst_3_sg_ipfv": "pleca",
+      "v_ind_pst_3_sg_pfv": "plecă",
+      "v_ind_pst_3_sg_prf": "plecase",
+      "v_neg_imp_2_sg": "nu pleca",
+      "v_neg_imp_3_pl": "nu plecați",
+      "v_nfin": "a pleca",
+      "v_pos_imp_2_sg": "pleacă",
+      "v_pos_imp_3_pl": "plecați",
+      "v_ptcp_pst": "plecat",
+      "v_sbjv_prs_1_pl": "să plecăm",
+      "v_sbjv_prs_1_sg": "să plec",
+      "v_sbjv_prs_2_pl": "să plecați",
+      "v_sbjv_prs_2_sg": "să pleci",
+      "v_sbjv_prs_3_pl": "să plece",
+      "v_sbjv_prs_3_sg": "să plece"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "plăcea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plăcea",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "plăcând",
+      "v_ind_prs_1_pl": "plăcem",
+      "v_ind_prs_1_sg": "plac",
+      "v_ind_prs_2_pl": "plăceți",
+      "v_ind_prs_2_sg": "placi",
+      "v_ind_prs_3_pl": "plac",
+      "v_ind_prs_3_sg": "place",
+      "v_ind_pst_1_pl_ipfv": "plăceam",
+      "v_ind_pst_1_pl_pfv": "plăcurăm",
+      "v_ind_pst_1_pl_prf": "plăcuserăm",
+      "v_ind_pst_1_sg_ipfv": "plăceam",
+      "v_ind_pst_1_sg_pfv": "plăcui",
+      "v_ind_pst_1_sg_prf": "plăcusem",
+      "v_ind_pst_2_pl_ipfv": "plăceați",
+      "v_ind_pst_2_pl_pfv": "plăcurăți",
+      "v_ind_pst_2_pl_prf": "plăcuserăți",
+      "v_ind_pst_2_sg_ipfv": "plăceai",
+      "v_ind_pst_2_sg_pfv": "plăcuși",
+      "v_ind_pst_2_sg_prf": "plăcuseși",
+      "v_ind_pst_3_pl_ipfv": "plăceau",
+      "v_ind_pst_3_pl_pfv": "plăcură",
+      "v_ind_pst_3_pl_prf": "plăcuseră",
+      "v_ind_pst_3_sg_ipfv": "plăcea",
+      "v_ind_pst_3_sg_pfv": "plăcu",
+      "v_ind_pst_3_sg_prf": "plăcuse",
+      "v_neg_imp_2_sg": "nu plăcea",
+      "v_neg_imp_3_pl": "nu plăceți",
+      "v_nfin": "a plăcea",
+      "v_pos_imp_2_sg": "place",
+      "v_pos_imp_3_pl": "plăceți",
+      "v_ptcp_pst": "plăcut",
+      "v_sbjv_prs_1_pl": "să plăcem",
+      "v_sbjv_prs_1_sg": "să plac",
+      "v_sbjv_prs_2_pl": "să plăceți",
+      "v_sbjv_prs_2_sg": "să placi",
+      "v_sbjv_prs_3_pl": "să placă",
+      "v_sbjv_prs_3_sg": "să placă"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "plăcere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plăcere",
+    "inflections": {
+      "n_gen_dat_pl_def": "plăcerii",
+      "n_gen_dat_pl_def_2": "plăcerilor",
+      "n_gen_dat_sg_indf": "unor plăceri",
+      "n_gen_dat_sg_indf_2": "unei plăceri",
+      "n_nom_acc_pl_def": "plăcerea",
+      "n_nom_acc_pl_def_2": "plăcerile",
+      "n_nom_acc_sg_indf": "o plăcere",
+      "n_nom_acc_sg_indf_2": "niște plăceri",
+      "n_voc_pl": "plăcerilor",
+      "n_voc_sg": "plăcere",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "plăcut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plăcut",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "plăcuților",
+      "adj_dat_gen_fem_sg_indf": "plăcuți",
+      "adj_dat_gen_masc_sg_def": "plăcutului",
+      "adj_dat_gen_masc_sg_indf": "plăcut",
+      "adj_dat_gen_neut_sg_def": "plăcutei",
+      "adj_dat_gen_neut_sg_indf": "plăcute",
+      "adj_dat_gen_pl_def": "plăcutelor",
+      "adj_dat_gen_pl_indf": "plăcute",
+      "adj_nom_acc_fem_sg_def": "plăcuții",
+      "adj_nom_acc_fem_sg_indf": "plăcuți",
+      "adj_nom_acc_masc_sg_def": "plăcutul",
+      "adj_nom_acc_masc_sg_indf": "plăcut",
+      "adj_nom_acc_neut_sg_def": "plăcuta",
+      "adj_nom_acc_neut_sg_indf": "plăcută",
+      "adj_nom_acc_pl_def": "plăcutele",
+      "adj_nom_acc_pl_indf": "plăcute",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "pofti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pofti",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_pl": "poftim"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "posibil": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "posibil",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "posibilelor",
+      "adj_dat_gen_masc_sg_def": "posibilule",
+      "adj_dat_gen_masc_sg_indf": "posibilului",
+      "adj_dat_gen_neut_sg_def": "posibilelor",
+      "adj_dat_gen_neut_sg_indf": "unor posibile",
+      "adj_nom_acc_fem_sg_def": "niște posibile",
+      "adj_nom_acc_fem_sg_indf": "definite articulation",
+      "adj_nom_acc_masc_sg_def": "un posibil",
+      "adj_nom_acc_masc_sg_indf": "definite articulation",
+      "adj_nom_acc_neut_sg_def": "posibilul",
+      "adj_nom_acc_neut_sg_indf": "indefinite articulation",
+      "adj_nom_acc_pl_def": "posibilele",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "pregăti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pregăti",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "pregătit"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "presupune": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "presupune",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "presupun",
+      "v_ind_prs_3_pl": "presupun"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "prieten": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prieten",
+    "inflections": {
+      "n_gen_dat_pl_def": "prietenului",
+      "n_gen_dat_pl_def_2": "prietenilor",
+      "n_gen_dat_sg_indf": "unor prieteni",
+      "n_gen_dat_sg_indf_2": "unui prieten",
+      "n_nom_acc_pl_def": "prietenul",
+      "n_nom_acc_pl_def_2": "prietenii",
+      "n_nom_acc_sg_indf": "un prieten",
+      "n_nom_acc_sg_indf_2": "niște prieteni",
+      "n_voc_pl": "prietenilor",
+      "n_voc_sg": "prietene",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "prietenă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prietenă",
+    "inflections": {
+      "n_nom_acc_pl_def": "prietena",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "prim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prim",
+    "inflections": {
+      "adj_nom_acc_masc_sg_def": "primul",
+      "adj_nom_acc_neut_sg_def": "prima",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "prinde": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prinde",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "prins"
+    },
+    "priority": 6,
+    "types": [
+      "word"
+    ]
+  },
+  "prins": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prins",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "prinșilor",
+      "adj_dat_gen_fem_sg_indf": "prinși",
+      "adj_dat_gen_masc_sg_def": "prinsului",
+      "adj_dat_gen_masc_sg_indf": "prins",
+      "adj_dat_gen_neut_sg_def": "prinsei",
+      "adj_dat_gen_neut_sg_indf": "prinse",
+      "adj_dat_gen_pl_def": "prinselor",
+      "adj_dat_gen_pl_indf": "prinse",
+      "adj_nom_acc_fem_sg_def": "prinșii",
+      "adj_nom_acc_fem_sg_indf": "prinși",
+      "adj_nom_acc_masc_sg_def": "prinsul",
+      "adj_nom_acc_masc_sg_indf": "prins",
+      "adj_nom_acc_neut_sg_def": "prinsa",
+      "adj_nom_acc_neut_sg_indf": "prinsă",
+      "adj_nom_acc_pl_def": "prinsele",
+      "adj_nom_acc_pl_indf": "prinse",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "problemă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "problemă",
+    "inflections": {
+      "n_gen_dat_pl_def": "problemei",
+      "n_gen_dat_pl_def_2": "problemelor",
+      "n_gen_dat_sg_indf": "unor probleme",
+      "n_gen_dat_sg_indf_2": "unei probleme",
+      "n_nom_acc_pl_def": "problema",
+      "n_nom_acc_pl_def_2": "problemele",
+      "n_nom_acc_sg_indf": "o problemă",
+      "n_nom_acc_sg_indf_2": "niște probleme",
+      "n_voc_pl": "problemelor",
+      "n_voc_sg": "problemă",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "prost": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "prost",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "proștilor",
+      "adj_dat_gen_masc_sg_def": "prostule",
+      "adj_dat_gen_masc_sg_indf": "prostului",
+      "adj_dat_gen_neut_sg_def": "proștilor",
+      "adj_dat_gen_neut_sg_indf": "unor proști",
+      "adj_nom_acc_fem_sg_def": "niște proști",
+      "adj_nom_acc_fem_sg_indf": "definite articulation",
+      "adj_nom_acc_masc_sg_def": "un prost",
+      "adj_nom_acc_masc_sg_indf": "definite articulation",
+      "adj_nom_acc_neut_sg_def": "prostul",
+      "adj_nom_acc_neut_sg_indf": "indefinite articulation",
+      "adj_nom_acc_pl_def": "proștii",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "putea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "putea",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "putând",
+      "v_ind_prs_1_pl": "putem",
+      "v_ind_prs_1_sg": "pot",
+      "v_ind_prs_2_pl": "puteți",
+      "v_ind_prs_2_sg": "poți",
+      "v_ind_prs_3_pl": "pot",
+      "v_ind_prs_3_sg": "poate",
+      "v_ind_pst_1_pl_ipfv": "puteam",
+      "v_ind_pst_1_pl_pfv": "puturăm",
+      "v_ind_pst_1_pl_prf": "putuserăm",
+      "v_ind_pst_1_sg_ipfv": "puteam",
+      "v_ind_pst_1_sg_pfv": "putui",
+      "v_ind_pst_1_sg_prf": "putusem",
+      "v_ind_pst_2_pl_ipfv": "puteați",
+      "v_ind_pst_2_pl_pfv": "puturăți",
+      "v_ind_pst_2_pl_prf": "putuserăți",
+      "v_ind_pst_2_sg_ipfv": "puteai",
+      "v_ind_pst_2_sg_pfv": "putuși",
+      "v_ind_pst_2_sg_prf": "putuseși",
+      "v_ind_pst_3_pl_ipfv": "puteau",
+      "v_ind_pst_3_pl_pfv": "putură",
+      "v_ind_pst_3_pl_prf": "putuseră",
+      "v_ind_pst_3_sg_ipfv": "putea",
+      "v_ind_pst_3_sg_pfv": "putu",
+      "v_ind_pst_3_sg_prf": "putuse",
+      "v_neg_imp_2_sg": "nu putea",
+      "v_neg_imp_3_pl": "nu puteți",
+      "v_nfin": "a putea",
+      "v_pos_imp_2_sg": "poate",
+      "v_pos_imp_3_pl": "puteți",
+      "v_ptcp_pst": "putut",
+      "v_sbjv_prs_1_pl": "să putem",
+      "v_sbjv_prs_1_sg": "să pot",
+      "v_sbjv_prs_2_pl": "să puteți",
+      "v_sbjv_prs_2_sg": "să poți",
+      "v_sbjv_prs_3_pl": "să poată",
+      "v_sbjv_prs_3_sg": "să poată"
+    },
+    "priority": 10,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "putere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "putere",
+    "inflections": {
+      "n_nom_acc_pl_def": "puterea",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "puternic": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "puternic",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "puternicilor",
+      "adj_dat_gen_fem_sg_indf": "puternici",
+      "adj_dat_gen_masc_sg_def": "puternicului",
+      "adj_dat_gen_masc_sg_indf": "puternic",
+      "adj_dat_gen_neut_sg_def": "puternicei",
+      "adj_dat_gen_neut_sg_indf": "puternice",
+      "adj_dat_gen_pl_def": "puternicelor",
+      "adj_dat_gen_pl_indf": "puternice",
+      "adj_nom_acc_fem_sg_def": "puternicii",
+      "adj_nom_acc_fem_sg_indf": "puternici",
+      "adj_nom_acc_masc_sg_def": "puternicul",
+      "adj_nom_acc_masc_sg_indf": "puternic",
+      "adj_nom_acc_neut_sg_def": "puternica",
+      "adj_nom_acc_neut_sg_indf": "puternică",
+      "adj_nom_acc_pl_def": "puternicele",
+      "adj_nom_acc_pl_indf": "puternice",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "părea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "părea",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_3_sg": "pare"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "repede": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "repede",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "repezilor",
+      "adj_dat_gen_fem_sg_indf": "repezi",
+      "adj_dat_gen_masc_sg_def": "repedelui",
+      "adj_dat_gen_masc_sg_indf": "repede",
+      "adj_dat_gen_neut_sg_def": "repezii",
+      "adj_dat_gen_neut_sg_indf": "repezi",
+      "adj_dat_gen_pl_def": "repezilor",
+      "adj_dat_gen_pl_indf": "repezi",
+      "adj_nom_acc_fem_sg_def": "repezii",
+      "adj_nom_acc_fem_sg_indf": "repezi",
+      "adj_nom_acc_masc_sg_def": "repedele",
+      "adj_nom_acc_masc_sg_indf": "repede",
+      "adj_nom_acc_neut_sg_def": "repedea",
+      "adj_nom_acc_neut_sg_indf": "repede",
+      "adj_nom_acc_pl_def": "repezile",
+      "adj_nom_acc_pl_indf": "repezi",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "rest": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rest",
+    "inflections": {
+      "n_nom_acc_pl_def": "restul",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ruga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ruga",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "rog"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "rând": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rând",
+    "inflections": {
+      "n_gen_dat_pl_def": "rândului",
+      "n_gen_dat_pl_def_2": "rândurilor",
+      "n_gen_dat_sg_indf": "unor rânduri",
+      "n_gen_dat_sg_indf_2": "unui rând",
+      "n_nom_acc_pl_def": "rândul",
+      "n_nom_acc_pl_def_2": "rândurile",
+      "n_nom_acc_sg_indf": "un rând",
+      "n_nom_acc_sg_indf_2": "niște rânduri",
+      "n_voc_pl": "rândurilor",
+      "n_voc_sg": "rândule",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "rămas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rămas",
+    "inflections": {
+      "n_gen_dat_pl_def": "rămasului",
+      "n_gen_dat_pl_def_2": "rămasurilor",
+      "n_gen_dat_sg_indf": "unor rămasuri",
+      "n_gen_dat_sg_indf_2": "unui rămas",
+      "n_nom_acc_pl_def": "rămasul",
+      "n_nom_acc_pl_def_2": "rămasurile",
+      "n_nom_acc_sg_indf": "un rămas",
+      "n_nom_acc_sg_indf_2": "niște rămasuri",
+      "n_voc_pl": "rămasurilor",
+      "n_voc_sg": "rămasule",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "rămâne": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rămâne",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "rămânând",
+      "v_ind_prs_1_pl": "rămânem",
+      "v_ind_prs_1_sg": "rămân",
+      "v_ind_prs_2_pl": "rămâneți",
+      "v_ind_prs_2_sg": "rămâi",
+      "v_ind_prs_3_pl": "rămân",
+      "v_ind_prs_3_sg": "rămâne",
+      "v_ind_pst_1_pl_ipfv": "rămâneam",
+      "v_ind_pst_1_pl_pfv": "rămaserăm",
+      "v_ind_pst_1_pl_prf": "rămăseserăm",
+      "v_ind_pst_1_sg_ipfv": "rămâneam",
+      "v_ind_pst_1_sg_pfv": "rămăsei",
+      "v_ind_pst_1_sg_prf": "rămăsesem",
+      "v_ind_pst_2_pl_ipfv": "rămâneați",
+      "v_ind_pst_2_pl_pfv": "rămaserăți",
+      "v_ind_pst_2_pl_prf": "rămăseserăți",
+      "v_ind_pst_2_sg_ipfv": "rămâneai",
+      "v_ind_pst_2_sg_pfv": "rămăseși",
+      "v_ind_pst_2_sg_prf": "rămăseseși",
+      "v_ind_pst_3_pl_ipfv": "rămâneau",
+      "v_ind_pst_3_pl_pfv": "rămaseră",
+      "v_ind_pst_3_pl_prf": "rămăseseră",
+      "v_ind_pst_3_sg_ipfv": "rămânea",
+      "v_ind_pst_3_sg_pfv": "rămase",
+      "v_ind_pst_3_sg_prf": "rămăsese",
+      "v_neg_imp_2_sg": "nu rămâne",
+      "v_neg_imp_3_pl": "nu rămâneți",
+      "v_nfin": "a rămâne",
+      "v_pos_imp_2_sg": "rămâi",
+      "v_pos_imp_3_pl": "rămâneți",
+      "v_ptcp_pst": "rămas",
+      "v_sbjv_prs_1_pl": "să rămânem",
+      "v_sbjv_prs_1_sg": "să rămân",
+      "v_sbjv_prs_2_pl": "să rămâneți",
+      "v_sbjv_prs_2_sg": "să rămâi",
+      "v_sbjv_prs_3_pl": "să rămână",
+      "v_sbjv_prs_3_sg": "să rămână"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "rău": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rău",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "relelor",
+      "adj_dat_gen_masc_sg_def": "răuule",
+      "adj_dat_gen_masc_sg_indf": "răuului",
+      "adj_dat_gen_neut_sg_def": "relelor",
+      "adj_dat_gen_neut_sg_indf": "unor rele",
+      "adj_nom_acc_fem_sg_def": "niște rele",
+      "adj_nom_acc_fem_sg_indf": "definite articulation",
+      "adj_nom_acc_masc_sg_def": "un rău",
+      "adj_nom_acc_masc_sg_indf": "definite articulation",
+      "adj_nom_acc_neut_sg_def": "răuul",
+      "adj_nom_acc_neut_sg_indf": "indefinite articulation",
+      "adj_nom_acc_pl_def": "relele",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "război": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "război",
+    "inflections": {
+      "n_gen_dat_pl_def": "războiului",
+      "n_gen_dat_pl_def_2": "războaielor",
+      "n_gen_dat_sg_indf": "unor războaie",
+      "n_gen_dat_sg_indf_2": "unui război",
+      "n_nom_acc_pl_def": "războiul",
+      "n_nom_acc_pl_def_2": "războaiele",
+      "n_nom_acc_sg_indf": "un război",
+      "n_nom_acc_sg_indf_2": "niște războaie",
+      "n_voc_pl": "războaielor",
+      "n_voc_sg": "războiule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "salut": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "salut",
+    "inflections": {
+      "n_gen_dat_pl_def": "salutului",
+      "n_gen_dat_pl_def_2": "saluturilor",
+      "n_gen_dat_sg_indf": "unor saluturi",
+      "n_gen_dat_sg_indf_2": "unui salut",
+      "n_nom_acc_pl_def": "salutul",
+      "n_nom_acc_pl_def_2": "saluturile",
+      "n_nom_acc_sg_indf": "un salut",
+      "n_nom_acc_sg_indf_2": "niște saluturi",
+      "n_voc_pl": "saluturilor",
+      "n_voc_sg": "salutule",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "saluta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saluta",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "salut"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "salva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "salva",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "salvat"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "schimb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schimb",
+    "inflections": {
+      "n_gen_dat_pl_def": "schimbului",
+      "n_gen_dat_pl_def_2": "schimburilor",
+      "n_gen_dat_sg_indf": "unor schimburi",
+      "n_gen_dat_sg_indf_2": "unui schimb",
+      "n_nom_acc_pl_def": "schimbul",
+      "n_nom_acc_pl_def_2": "schimburile",
+      "n_nom_acc_sg_indf": "un schimb",
+      "n_nom_acc_sg_indf_2": "niște schimburi",
+      "n_voc_pl": "schimburilor",
+      "n_voc_sg": "schimbule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "schimba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "schimba",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "schimbând",
+      "v_ind_prs_1_pl": "schimbăm",
+      "v_ind_prs_1_sg": "schimb",
+      "v_ind_prs_2_pl": "schimbați",
+      "v_ind_prs_2_sg": "schimbi",
+      "v_ind_prs_3_pl": "schimbă",
+      "v_ind_prs_3_sg": "schimbă",
+      "v_ind_pst_1_pl_ipfv": "schimbam",
+      "v_ind_pst_1_pl_pfv": "schimbarăm",
+      "v_ind_pst_1_pl_prf": "schimbaserăm",
+      "v_ind_pst_1_sg_ipfv": "schimbam",
+      "v_ind_pst_1_sg_pfv": "schimbai",
+      "v_ind_pst_1_sg_prf": "schimbasem",
+      "v_ind_pst_2_pl_ipfv": "schimbați",
+      "v_ind_pst_2_pl_pfv": "schimbarăți",
+      "v_ind_pst_2_pl_prf": "schimbaserăți",
+      "v_ind_pst_2_sg_ipfv": "schimbai",
+      "v_ind_pst_2_sg_pfv": "schimbași",
+      "v_ind_pst_2_sg_prf": "schimbaseși",
+      "v_ind_pst_3_pl_ipfv": "schimbau",
+      "v_ind_pst_3_pl_pfv": "schimbară",
+      "v_ind_pst_3_pl_prf": "schimbaseră",
+      "v_ind_pst_3_sg_ipfv": "schimba",
+      "v_ind_pst_3_sg_pfv": "schimbă",
+      "v_ind_pst_3_sg_prf": "schimbase",
+      "v_neg_imp_2_sg": "nu schimba",
+      "v_neg_imp_3_pl": "nu schimbați",
+      "v_nfin": "a schimba",
+      "v_pos_imp_2_sg": "schimbă",
+      "v_pos_imp_3_pl": "schimbați",
+      "v_ptcp_pst": "schimbat",
+      "v_sbjv_prs_1_pl": "să schimbăm",
+      "v_sbjv_prs_1_sg": "să schimb",
+      "v_sbjv_prs_2_pl": "să schimbați",
+      "v_sbjv_prs_2_sg": "să schimbi",
+      "v_sbjv_prs_3_pl": "să schimbe",
+      "v_sbjv_prs_3_sg": "să schimbe"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "scrie": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "scrie",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "scriind",
+      "v_ind_prs_1_pl": "scriem",
+      "v_ind_prs_1_sg": "scriu",
+      "v_ind_prs_2_pl": "scrieți",
+      "v_ind_prs_2_sg": "scrii",
+      "v_ind_prs_3_pl": "scriu",
+      "v_ind_prs_3_sg": "scrie",
+      "v_ind_pst_1_pl_ipfv": "scriam",
+      "v_ind_pst_1_pl_pfv": "scriserăm",
+      "v_ind_pst_1_pl_prf": "scriseserăm",
+      "v_ind_pst_1_sg_ipfv": "scriam",
+      "v_ind_pst_1_sg_pfv": "scrisei",
+      "v_ind_pst_1_sg_prf": "scrisesem",
+      "v_ind_pst_2_pl_ipfv": "scriați",
+      "v_ind_pst_2_pl_pfv": "scriserăți",
+      "v_ind_pst_2_pl_prf": "scriseserăți",
+      "v_ind_pst_2_sg_ipfv": "scriai",
+      "v_ind_pst_2_sg_pfv": "scriseși",
+      "v_ind_pst_2_sg_prf": "scriseseși",
+      "v_ind_pst_3_pl_ipfv": "scriau",
+      "v_ind_pst_3_pl_pfv": "scriseră",
+      "v_ind_pst_3_pl_prf": "scriseseră",
+      "v_ind_pst_3_sg_ipfv": "scria",
+      "v_ind_pst_3_sg_pfv": "scrise",
+      "v_ind_pst_3_sg_prf": "scrisese",
+      "v_neg_imp_2_sg": "nu scrie",
+      "v_neg_imp_3_pl": "nu scrieți",
+      "v_nfin": "a scrie",
+      "v_pos_imp_2_sg": "scrie",
+      "v_pos_imp_3_pl": "scrieți",
+      "v_ptcp_pst": "scris",
+      "v_sbjv_prs_1_pl": "să scriem",
+      "v_sbjv_prs_1_sg": "să scriu",
+      "v_sbjv_prs_2_pl": "să scrieți",
+      "v_sbjv_prs_2_sg": "să scrii",
+      "v_sbjv_prs_3_pl": "să scrie",
+      "v_sbjv_prs_3_sg": "să scrie"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "seară": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "seară",
+    "inflections": {
+      "n_gen_dat_pl_def": "serii",
+      "n_gen_dat_pl_def_2": "serilor",
+      "n_gen_dat_sg_indf": "unor seri",
+      "n_gen_dat_sg_indf_2": "unei seri",
+      "n_nom_acc_pl_def": "seara",
+      "n_nom_acc_pl_def_2": "serile",
+      "n_nom_acc_sg_indf": "o seară",
+      "n_nom_acc_sg_indf_2": "niște seri",
+      "n_voc_pl": "serilor",
+      "n_voc_sg": "seară",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "secret": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "secret",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "secreților",
+      "adj_dat_gen_fem_sg_indf": "secreți",
+      "adj_dat_gen_masc_sg_def": "secretului",
+      "adj_dat_gen_masc_sg_indf": "secret",
+      "adj_dat_gen_neut_sg_def": "secretei",
+      "adj_dat_gen_neut_sg_indf": "secrete",
+      "adj_dat_gen_pl_def": "secretelor",
+      "adj_dat_gen_pl_indf": "secrete",
+      "adj_nom_acc_fem_sg_def": "secreții",
+      "adj_nom_acc_fem_sg_indf": "secreți",
+      "adj_nom_acc_masc_sg_def": "secretul",
+      "adj_nom_acc_masc_sg_indf": "secret",
+      "adj_nom_acc_neut_sg_def": "secreta",
+      "adj_nom_acc_neut_sg_indf": "secretă",
+      "adj_nom_acc_pl_def": "secretele",
+      "adj_nom_acc_pl_indf": "secrete",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "serios": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "serios",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "serioșilor",
+      "adj_dat_gen_fem_sg_indf": "serioși",
+      "adj_dat_gen_masc_sg_def": "seriosului",
+      "adj_dat_gen_masc_sg_indf": "serios",
+      "adj_dat_gen_neut_sg_def": "serioasei",
+      "adj_dat_gen_neut_sg_indf": "serioase",
+      "adj_dat_gen_pl_def": "serioaselor",
+      "adj_dat_gen_pl_indf": "serioase",
+      "adj_nom_acc_fem_sg_def": "serioșii",
+      "adj_nom_acc_fem_sg_indf": "serioși",
+      "adj_nom_acc_masc_sg_def": "seriosul",
+      "adj_nom_acc_masc_sg_indf": "serios",
+      "adj_nom_acc_neut_sg_def": "serioasa",
+      "adj_nom_acc_neut_sg_indf": "serioasă",
+      "adj_nom_acc_pl_def": "serioasele",
+      "adj_nom_acc_pl_indf": "serioase",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sigur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sigur",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "sigurilor",
+      "adj_dat_gen_fem_sg_indf": "siguri",
+      "adj_dat_gen_masc_sg_def": "sigurului",
+      "adj_dat_gen_masc_sg_indf": "sigur",
+      "adj_dat_gen_neut_sg_def": "sigurei",
+      "adj_dat_gen_neut_sg_indf": "sigure",
+      "adj_dat_gen_pl_def": "sigurelor",
+      "adj_dat_gen_pl_indf": "sigure",
+      "adj_nom_acc_fem_sg_def": "sigurii",
+      "adj_nom_acc_fem_sg_indf": "siguri",
+      "adj_nom_acc_masc_sg_def": "sigurul",
+      "adj_nom_acc_masc_sg_indf": "sigur",
+      "adj_nom_acc_neut_sg_def": "sigura",
+      "adj_nom_acc_neut_sg_indf": "sigură",
+      "adj_nom_acc_pl_def": "sigurele",
+      "adj_nom_acc_pl_indf": "sigure",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "simplu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "simplu",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "simplilor",
+      "adj_dat_gen_fem_sg_indf": "simpli",
+      "adj_dat_gen_masc_sg_def": "simplului",
+      "adj_dat_gen_masc_sg_indf": "simplu",
+      "adj_dat_gen_neut_sg_def": "simplei",
+      "adj_dat_gen_neut_sg_indf": "simple",
+      "adj_dat_gen_pl_def": "simplelor",
+      "adj_dat_gen_pl_indf": "simple",
+      "adj_nom_acc_fem_sg_def": "simplii",
+      "adj_nom_acc_fem_sg_indf": "simpli",
+      "adj_nom_acc_masc_sg_def": "simplul",
+      "adj_nom_acc_masc_sg_indf": "simplu",
+      "adj_nom_acc_neut_sg_def": "simpla",
+      "adj_nom_acc_neut_sg_indf": "simplă",
+      "adj_nom_acc_pl_def": "simplele",
+      "adj_nom_acc_pl_indf": "simple",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "simți": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "simți",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "simt",
+      "v_ind_prs_3_pl": "simt",
+      "v_ind_prs_3_sg": "simte",
+      "v_pos_imp_2_sg": "simte"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "singur": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "singur",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "singurilor",
+      "adj_dat_gen_fem_sg_indf": "singuri",
+      "adj_dat_gen_masc_sg_def": "singurului",
+      "adj_dat_gen_masc_sg_indf": "singur",
+      "adj_dat_gen_neut_sg_def": "singurei",
+      "adj_dat_gen_neut_sg_indf": "singure",
+      "adj_dat_gen_pl_def": "singurelor",
+      "adj_dat_gen_pl_indf": "singure",
+      "adj_nom_acc_fem_sg_def": "singurii",
+      "adj_nom_acc_fem_sg_indf": "singuri",
+      "adj_nom_acc_masc_sg_def": "singurul",
+      "adj_nom_acc_masc_sg_indf": "singur",
+      "adj_nom_acc_neut_sg_def": "singura",
+      "adj_nom_acc_neut_sg_indf": "singură",
+      "adj_nom_acc_pl_def": "singurele",
+      "adj_nom_acc_pl_indf": "singure",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "soră": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "soră",
+    "inflections": {
+      "n_nom_acc_pl_def": "sora",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "spate": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spate",
+    "inflections": {
+      "n_gen_dat_pl_def": "spatelui",
+      "n_gen_dat_pl_def_2": "spatelor",
+      "n_gen_dat_sg_indf": "unor spate",
+      "n_gen_dat_sg_indf_2": "unui spate",
+      "n_nom_acc_pl_def": "spatele",
+      "n_nom_acc_sg_indf": "un spate",
+      "n_nom_acc_sg_indf_2": "niște spate",
+      "n_voc_pl": "spatelor",
+      "n_voc_sg": "spate",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "spera": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spera",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "sper"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "speria": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "speria",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "speriat"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "speriat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "speriat",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "speriaților",
+      "adj_dat_gen_fem_sg_indf": "speriați",
+      "adj_dat_gen_masc_sg_def": "speriatului",
+      "adj_dat_gen_masc_sg_indf": "speriat",
+      "adj_dat_gen_neut_sg_def": "speriatei",
+      "adj_dat_gen_neut_sg_indf": "speriate",
+      "adj_dat_gen_pl_def": "speriatelor",
+      "adj_dat_gen_pl_indf": "speriate",
+      "adj_nom_acc_fem_sg_def": "speriații",
+      "adj_nom_acc_fem_sg_indf": "speriați",
+      "adj_nom_acc_masc_sg_def": "speriatul",
+      "adj_nom_acc_masc_sg_indf": "speriat",
+      "adj_nom_acc_neut_sg_def": "speriata",
+      "adj_nom_acc_neut_sg_indf": "speriată",
+      "adj_nom_acc_pl_def": "speriatele",
+      "adj_nom_acc_pl_indf": "speriate",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "spital": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spital",
+    "inflections": {
+      "n_gen_dat_pl_def": "spitalului",
+      "n_gen_dat_pl_def_2": "spitalelor",
+      "n_gen_dat_sg_indf": "unor spitale",
+      "n_gen_dat_sg_indf_2": "unui spital",
+      "n_nom_acc_pl_def": "spitalul",
+      "n_nom_acc_pl_def_2": "spitalele",
+      "n_nom_acc_sg_indf": "un spital",
+      "n_nom_acc_sg_indf_2": "niște spitale",
+      "n_voc_pl": "spitalelor",
+      "n_voc_sg": "spitalule",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "spune": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "spune",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "spunând",
+      "v_ind_prs_1_pl": "spunem",
+      "v_ind_prs_1_sg": "spun",
+      "v_ind_prs_2_pl": "spuneți",
+      "v_ind_prs_2_sg": "spui",
+      "v_ind_prs_3_pl": "spun",
+      "v_ind_prs_3_sg": "spune",
+      "v_ind_pst_1_pl_ipfv": "spuneam",
+      "v_ind_pst_1_pl_pfv": "spuserăm",
+      "v_ind_pst_1_pl_prf": "spuseserăm",
+      "v_ind_pst_1_sg_ipfv": "spuneam",
+      "v_ind_pst_1_sg_pfv": "spusei",
+      "v_ind_pst_1_sg_prf": "spusesem",
+      "v_ind_pst_2_pl_ipfv": "spuneați",
+      "v_ind_pst_2_pl_pfv": "spuserăți",
+      "v_ind_pst_2_pl_prf": "spuseserăți",
+      "v_ind_pst_2_sg_ipfv": "spuneai",
+      "v_ind_pst_2_sg_pfv": "spuseși",
+      "v_ind_pst_2_sg_prf": "spuseseși",
+      "v_ind_pst_3_pl_ipfv": "spuneau",
+      "v_ind_pst_3_pl_pfv": "spuseră",
+      "v_ind_pst_3_pl_prf": "spuseseră",
+      "v_ind_pst_3_sg_ipfv": "spunea",
+      "v_ind_pst_3_sg_pfv": "spuse",
+      "v_ind_pst_3_sg_prf": "spusese",
+      "v_neg_imp_2_sg": "nu spune",
+      "v_neg_imp_3_pl": "nu spuneți",
+      "v_nfin": "a spune",
+      "v_pos_imp_2_sg": "spune",
+      "v_pos_imp_3_pl": "spuneți",
+      "v_ptcp_pst": "spus",
+      "v_sbjv_prs_1_pl": "să spunem",
+      "v_sbjv_prs_1_sg": "să spun",
+      "v_sbjv_prs_2_pl": "să spuneți",
+      "v_sbjv_prs_2_sg": "să spui",
+      "v_sbjv_prs_3_pl": "să spună",
+      "v_sbjv_prs_3_sg": "să spună"
+    },
+    "priority": 9,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sta",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "stând",
+      "v_ind_prs_1_pl": "stăm",
+      "v_ind_prs_1_sg": "stau",
+      "v_ind_prs_2_pl": "stați",
+      "v_ind_prs_2_sg": "stai",
+      "v_ind_prs_3_pl": "stau",
+      "v_ind_prs_3_sg": "stă",
+      "v_ind_pst_1_pl_ipfv": "stăteam",
+      "v_ind_pst_1_pl_pfv": "stăturăm",
+      "v_ind_pst_1_pl_prf": "stătuserăm",
+      "v_ind_pst_1_sg_ipfv": "stăteam",
+      "v_ind_pst_1_sg_pfv": "stătui",
+      "v_ind_pst_1_sg_prf": "stătusem",
+      "v_ind_pst_2_pl_ipfv": "stăteați",
+      "v_ind_pst_2_pl_pfv": "stăturăți",
+      "v_ind_pst_2_pl_prf": "stătuserăți",
+      "v_ind_pst_2_sg_ipfv": "stăteai",
+      "v_ind_pst_2_sg_pfv": "stătuși",
+      "v_ind_pst_2_sg_prf": "stătuseși",
+      "v_ind_pst_3_pl_ipfv": "stăteau",
+      "v_ind_pst_3_pl_pfv": "stătură",
+      "v_ind_pst_3_pl_prf": "stătuseră",
+      "v_ind_pst_3_sg_ipfv": "stătea",
+      "v_ind_pst_3_sg_pfv": "stătu",
+      "v_ind_pst_3_sg_prf": "stătuse",
+      "v_neg_imp_2_sg": "nu sta",
+      "v_neg_imp_3_pl": "nu stați",
+      "v_nfin": "a sta",
+      "v_pos_imp_2_sg": "stai",
+      "v_pos_imp_3_pl": "stați",
+      "v_ptcp_pst": "stat",
+      "v_sbjv_prs_1_pl": "să stăm",
+      "v_sbjv_prs_1_sg": "să stau",
+      "v_sbjv_prs_2_pl": "să stați",
+      "v_sbjv_prs_2_sg": "să stai",
+      "v_sbjv_prs_3_pl": "să stea",
+      "v_sbjv_prs_3_sg": "să stea"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "suna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "suna",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "sunând",
+      "v_ind_prs_1_pl": "sunăm",
+      "v_ind_prs_1_sg": "sun",
+      "v_ind_prs_2_pl": "sunați",
+      "v_ind_prs_2_sg": "suni",
+      "v_ind_prs_3_pl": "sună",
+      "v_ind_prs_3_sg": "sună",
+      "v_ind_pst_1_pl_ipfv": "sunam",
+      "v_ind_pst_1_pl_pfv": "sunarăm",
+      "v_ind_pst_1_pl_prf": "sunaserăm",
+      "v_ind_pst_1_sg_ipfv": "sunam",
+      "v_ind_pst_1_sg_pfv": "sunai",
+      "v_ind_pst_1_sg_prf": "sunasem",
+      "v_ind_pst_2_pl_ipfv": "sunați",
+      "v_ind_pst_2_pl_pfv": "sunarăți",
+      "v_ind_pst_2_pl_prf": "sunaserăți",
+      "v_ind_pst_2_sg_ipfv": "sunai",
+      "v_ind_pst_2_sg_pfv": "sunași",
+      "v_ind_pst_2_sg_prf": "sunaseși",
+      "v_ind_pst_3_pl_ipfv": "sunau",
+      "v_ind_pst_3_pl_pfv": "sunară",
+      "v_ind_pst_3_pl_prf": "sunaseră",
+      "v_ind_pst_3_sg_ipfv": "suna",
+      "v_ind_pst_3_sg_pfv": "sună",
+      "v_ind_pst_3_sg_prf": "sunase",
+      "v_neg_imp_2_sg": "nu suna",
+      "v_neg_imp_3_pl": "nu sunați",
+      "v_nfin": "a suna",
+      "v_pos_imp_2_sg": "sună",
+      "v_pos_imp_3_pl": "sunați",
+      "v_ptcp_pst": "sunat",
+      "v_sbjv_prs_1_pl": "să sunăm",
+      "v_sbjv_prs_1_sg": "să sun",
+      "v_sbjv_prs_2_pl": "să sunați",
+      "v_sbjv_prs_2_sg": "să suni",
+      "v_sbjv_prs_3_pl": "să sune",
+      "v_sbjv_prs_3_sg": "să sune"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "sânge": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sânge",
+    "inflections": {
+      "n_gen_dat_pl_def": "sângelui",
+      "n_gen_dat_pl_def_2": "sângiurilor",
+      "n_gen_dat_sg_indf": "unor sângiuri",
+      "n_gen_dat_sg_indf_2": "unui sânge",
+      "n_nom_acc_pl_def": "sângele",
+      "n_nom_acc_pl_def_2": "sângiurile",
+      "n_nom_acc_sg_indf": "un sânge",
+      "n_nom_acc_sg_indf_2": "niște sângiuri",
+      "n_voc_pl": "sângiurilor",
+      "n_voc_sg": "sânge",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "săptămână": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "săptămână",
+    "inflections": {
+      "n_gen_dat_pl_def": "săptămânii",
+      "n_gen_dat_pl_def_2": "săptămânilor",
+      "n_gen_dat_sg_indf": "unor săptămâni",
+      "n_gen_dat_sg_indf_2": "unei săptămâni",
+      "n_nom_acc_pl_def": "săptămâna",
+      "n_nom_acc_pl_def_2": "săptămânile",
+      "n_nom_acc_sg_indf": "o săptămână",
+      "n_nom_acc_sg_indf_2": "niște săptămâni",
+      "n_voc_pl": "săptămânilor",
+      "n_voc_sg": "săptămână",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "tare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tare",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "tarilor",
+      "adj_dat_gen_fem_sg_indf": "tari",
+      "adj_dat_gen_masc_sg_def": "tarelui",
+      "adj_dat_gen_masc_sg_indf": "tare",
+      "adj_dat_gen_neut_sg_def": "tarii",
+      "adj_dat_gen_neut_sg_indf": "tari",
+      "adj_dat_gen_pl_def": "tarilor",
+      "adj_dat_gen_pl_indf": "tari",
+      "adj_nom_acc_fem_sg_def": "tarii",
+      "adj_nom_acc_fem_sg_indf": "tari",
+      "adj_nom_acc_masc_sg_def": "tarele",
+      "adj_nom_acc_masc_sg_indf": "tare",
+      "adj_nom_acc_neut_sg_def": "tarea",
+      "adj_nom_acc_neut_sg_indf": "tare",
+      "adj_nom_acc_pl_def": "tarile",
+      "adj_nom_acc_pl_indf": "tari",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "tată": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tată",
+    "inflections": {
+      "n_gen_dat_pl_def": "tatălui",
+      "n_gen_dat_pl_def_2": "taților",
+      "n_gen_dat_sg_indf": "unor tați",
+      "n_gen_dat_sg_indf_2": "unui tată",
+      "n_nom_acc_pl_def": "tatăl",
+      "n_nom_acc_pl_def_2": "tații",
+      "n_nom_acc_sg_indf": "un tată",
+      "n_nom_acc_sg_indf_2": "niște tați",
+      "n_voc_pl": "taților",
+      "n_voc_sg": "tată",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "telefon": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "telefon",
+    "inflections": {
+      "n_gen_dat_pl_def": "telefonului",
+      "n_gen_dat_pl_def_2": "telefoanelor",
+      "n_gen_dat_sg_indf": "unor telefoane",
+      "n_gen_dat_sg_indf_2": "unui telefon",
+      "n_nom_acc_pl_def": "telefonul",
+      "n_nom_acc_pl_def_2": "telefoanele",
+      "n_nom_acc_sg_indf": "un telefon",
+      "n_nom_acc_sg_indf_2": "niște telefoane",
+      "n_voc_pl": "telefoanelor",
+      "n_voc_sg": "telefonule",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "termina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "termina",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "terminat"
+    },
+    "priority": 7,
+    "types": [
+      "word"
+    ]
+  },
+  "timp": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "timp",
+    "inflections": {
+      "n_gen_dat_pl_def": "timpului",
+      "n_gen_dat_pl_def_2": "timpurilor",
+      "n_gen_dat_sg_indf": "unor timpuri",
+      "n_gen_dat_sg_indf_2": "unui timp",
+      "n_nom_acc_pl_def": "timpul",
+      "n_nom_acc_pl_def_2": "timpurile",
+      "n_nom_acc_sg_indf": "un timp",
+      "n_nom_acc_sg_indf_2": "niște timpuri",
+      "n_voc_pl": "timpurilor",
+      "n_voc_sg": "timpule",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "tină": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tină",
+    "inflections": {
+      "n_gen_dat_sg_indf": "tine",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "traducere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "traducere",
+    "inflections": {
+      "n_nom_acc_pl_def": "traducerea",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "trage": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trage",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "tragând",
+      "v_ind_prs_1_pl": "tragem",
+      "v_ind_prs_1_sg": "trag",
+      "v_ind_prs_2_pl": "trageți",
+      "v_ind_prs_2_sg": "tragi",
+      "v_ind_prs_3_pl": "trag",
+      "v_ind_prs_3_sg": "trage",
+      "v_ind_pst_1_pl_ipfv": "trageam",
+      "v_ind_pst_1_pl_pfv": "traserăm",
+      "v_ind_pst_1_pl_prf": "traseserăm",
+      "v_ind_pst_1_sg_ipfv": "trageam",
+      "v_ind_pst_1_sg_pfv": "trasei",
+      "v_ind_pst_1_sg_prf": "trasesem",
+      "v_ind_pst_2_pl_ipfv": "trageați",
+      "v_ind_pst_2_pl_pfv": "traserăți",
+      "v_ind_pst_2_pl_prf": "traseserăți",
+      "v_ind_pst_2_sg_ipfv": "trageai",
+      "v_ind_pst_2_sg_pfv": "traseși",
+      "v_ind_pst_2_sg_prf": "traseseși",
+      "v_ind_pst_3_pl_ipfv": "trageau",
+      "v_ind_pst_3_pl_pfv": "traseră",
+      "v_ind_pst_3_pl_prf": "traseseră",
+      "v_ind_pst_3_sg_ipfv": "tragea",
+      "v_ind_pst_3_sg_pfv": "trase",
+      "v_ind_pst_3_sg_prf": "trasese",
+      "v_neg_imp_2_sg": "nu trage",
+      "v_neg_imp_3_pl": "nu trageți",
+      "v_nfin": "a trage",
+      "v_pos_imp_2_sg": "trage",
+      "v_pos_imp_3_pl": "trageți",
+      "v_ptcp_pst": "tras",
+      "v_sbjv_prs_1_pl": "să tragem",
+      "v_sbjv_prs_1_sg": "să trag",
+      "v_sbjv_prs_2_pl": "să trageți",
+      "v_sbjv_prs_2_sg": "să tragi",
+      "v_sbjv_prs_3_pl": "să tragă",
+      "v_sbjv_prs_3_sg": "să tragă"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "treabă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "treabă",
+    "inflections": {
+      "n_gen_dat_pl_def": "trebii",
+      "n_gen_dat_pl_def_2": "treburilor",
+      "n_gen_dat_sg_indf": "unor treburi",
+      "n_gen_dat_sg_indf_2": "unei trebi",
+      "n_nom_acc_pl_def": "treaba",
+      "n_nom_acc_pl_def_2": "treburile",
+      "n_nom_acc_sg_indf": "o treabă",
+      "n_nom_acc_sg_indf_2": "niște treburi",
+      "n_voc_pl": "treburilor",
+      "n_voc_sg": "treabă",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "trece": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trece",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "trecând",
+      "v_ind_prs_1_pl": "trecem",
+      "v_ind_prs_1_sg": "trec",
+      "v_ind_prs_2_pl": "treceți",
+      "v_ind_prs_2_sg": "treci",
+      "v_ind_prs_3_pl": "trec",
+      "v_ind_prs_3_sg": "trece",
+      "v_ind_pst_1_pl_ipfv": "treceam",
+      "v_ind_pst_1_pl_pfv": "trecurăm",
+      "v_ind_pst_1_pl_prf": "trecuserăm",
+      "v_ind_pst_1_sg_ipfv": "treceam",
+      "v_ind_pst_1_sg_pfv": "trecui",
+      "v_ind_pst_1_sg_prf": "trecusem",
+      "v_ind_pst_2_pl_ipfv": "treceați",
+      "v_ind_pst_2_pl_pfv": "trecurăți",
+      "v_ind_pst_2_pl_prf": "trecuserăți",
+      "v_ind_pst_2_sg_ipfv": "treceai",
+      "v_ind_pst_2_sg_pfv": "trecuși",
+      "v_ind_pst_2_sg_prf": "trecuseși",
+      "v_ind_pst_3_pl_ipfv": "treceau",
+      "v_ind_pst_3_pl_pfv": "trecură",
+      "v_ind_pst_3_pl_prf": "trecuseră",
+      "v_ind_pst_3_sg_ipfv": "trecea",
+      "v_ind_pst_3_sg_pfv": "trecu",
+      "v_ind_pst_3_sg_prf": "trecuse",
+      "v_neg_imp_2_sg": "nu trece",
+      "v_neg_imp_3_pl": "nu treceți",
+      "v_nfin": "a trece",
+      "v_pos_imp_2_sg": "trece",
+      "v_pos_imp_3_pl": "treceți",
+      "v_ptcp_pst": "trecut",
+      "v_sbjv_prs_1_pl": "să trecem",
+      "v_sbjv_prs_1_sg": "să trec",
+      "v_sbjv_prs_2_pl": "să treceți",
+      "v_sbjv_prs_2_sg": "să treci",
+      "v_sbjv_prs_3_pl": "să treacă",
+      "v_sbjv_prs_3_sg": "să treacă"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "trimite": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "trimite",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "trimițând",
+      "v_ind_prs_1_pl": "trimitem",
+      "v_ind_prs_1_sg": "trimit",
+      "v_ind_prs_2_pl": "trimiteți",
+      "v_ind_prs_2_sg": "trimiți",
+      "v_ind_prs_3_pl": "trimit",
+      "v_ind_prs_3_sg": "trimite",
+      "v_ind_pst_1_pl_ipfv": "trimiteam",
+      "v_ind_pst_1_pl_pfv": "trimiserăm",
+      "v_ind_pst_1_pl_prf": "trimiseserăm",
+      "v_ind_pst_1_sg_ipfv": "trimiteam",
+      "v_ind_pst_1_sg_pfv": "trimisei",
+      "v_ind_pst_1_sg_prf": "trimisesem",
+      "v_ind_pst_2_pl_ipfv": "trimiteați",
+      "v_ind_pst_2_pl_pfv": "trimiserăți",
+      "v_ind_pst_2_pl_prf": "trimiseserăți",
+      "v_ind_pst_2_sg_ipfv": "trimiteai",
+      "v_ind_pst_2_sg_pfv": "trimiseși",
+      "v_ind_pst_2_sg_prf": "trimiseseși",
+      "v_ind_pst_3_pl_ipfv": "trimiteau",
+      "v_ind_pst_3_pl_pfv": "trimiseră",
+      "v_ind_pst_3_pl_prf": "trimiseseră",
+      "v_ind_pst_3_sg_ipfv": "trimitea",
+      "v_ind_pst_3_sg_pfv": "trimise",
+      "v_ind_pst_3_sg_prf": "trimisese",
+      "v_neg_imp_2_sg": "nu trimite",
+      "v_neg_imp_3_pl": "nu trimiteți",
+      "v_nfin": "a trimite",
+      "v_pos_imp_2_sg": "trimite",
+      "v_pos_imp_3_pl": "trimiteți",
+      "v_ptcp_pst": "trimis",
+      "v_sbjv_prs_1_pl": "să trimitem",
+      "v_sbjv_prs_1_sg": "să trimit",
+      "v_sbjv_prs_2_pl": "să trimiteți",
+      "v_sbjv_prs_2_sg": "să trimiți",
+      "v_sbjv_prs_3_pl": "să trimită",
+      "v_sbjv_prs_3_sg": "să trimită"
+    },
+    "priority": 1,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "târziu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "târziu",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "târziilor",
+      "adj_dat_gen_fem_sg_indf": "târzii",
+      "adj_dat_gen_masc_sg_def": "târziului",
+      "adj_dat_gen_masc_sg_indf": "târziu",
+      "adj_dat_gen_neut_sg_def": "târziei",
+      "adj_dat_gen_neut_sg_indf": "târzii",
+      "adj_dat_gen_pl_def": "târziilor",
+      "adj_dat_gen_pl_indf": "târzii",
+      "adj_nom_acc_fem_sg_def": "târziii",
+      "adj_nom_acc_fem_sg_indf": "târzii",
+      "adj_nom_acc_masc_sg_def": "târziul",
+      "adj_nom_acc_masc_sg_indf": "târziu",
+      "adj_nom_acc_neut_sg_def": "târzia",
+      "adj_nom_acc_neut_sg_indf": "târzie",
+      "adj_nom_acc_pl_def": "târziile",
+      "adj_nom_acc_pl_indf": "târzii",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "tăcea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tăcea",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_2_sg": "taci",
+      "v_pos_imp_2_sg": "taci"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ucide": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ucide",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "ucigând",
+      "v_ind_prs_1_pl": "ucidem",
+      "v_ind_prs_1_sg": "ucid",
+      "v_ind_prs_2_pl": "ucideți",
+      "v_ind_prs_2_sg": "ucizi",
+      "v_ind_prs_3_pl": "ucid",
+      "v_ind_prs_3_sg": "ucide",
+      "v_ind_pst_1_pl_ipfv": "ucideam",
+      "v_ind_pst_1_pl_pfv": "uciserăm",
+      "v_ind_pst_1_pl_prf": "uciseserăm",
+      "v_ind_pst_1_sg_ipfv": "ucideam",
+      "v_ind_pst_1_sg_pfv": "ucisei",
+      "v_ind_pst_1_sg_prf": "ucisesem",
+      "v_ind_pst_2_pl_ipfv": "ucideați",
+      "v_ind_pst_2_pl_pfv": "uciserăți",
+      "v_ind_pst_2_pl_prf": "uciseserăți",
+      "v_ind_pst_2_sg_ipfv": "ucideai",
+      "v_ind_pst_2_sg_pfv": "uciseși",
+      "v_ind_pst_2_sg_prf": "uciseseși",
+      "v_ind_pst_3_pl_ipfv": "ucideau",
+      "v_ind_pst_3_pl_pfv": "uciseră",
+      "v_ind_pst_3_pl_prf": "uciseseră",
+      "v_ind_pst_3_sg_ipfv": "ucidea",
+      "v_ind_pst_3_sg_pfv": "ucise",
+      "v_ind_pst_3_sg_prf": "ucisese",
+      "v_neg_imp_2_sg": "nu ucide",
+      "v_neg_imp_3_pl": "nu ucideți",
+      "v_nfin": "a ucide",
+      "v_pos_imp_2_sg": "ucide",
+      "v_pos_imp_3_pl": "ucideți",
+      "v_ptcp_pst": "ucis",
+      "v_sbjv_prs_1_pl": "să ucidem",
+      "v_sbjv_prs_1_sg": "să ucid",
+      "v_sbjv_prs_2_pl": "să ucideți",
+      "v_sbjv_prs_2_sg": "să ucizi",
+      "v_sbjv_prs_3_pl": "să ucidă",
+      "v_sbjv_prs_3_sg": "să ucidă"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ucis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ucis",
+    "inflections": {
+      "n_gen_dat_pl_def": "ucisului",
+      "n_gen_dat_pl_def_2": "uciselor",
+      "n_gen_dat_sg_indf": "unor ucise",
+      "n_gen_dat_sg_indf_2": "unui ucis",
+      "n_nom_acc_pl_def": "ucisul",
+      "n_nom_acc_pl_def_2": "ucisele",
+      "n_nom_acc_sg_indf": "un ucis",
+      "n_nom_acc_sg_indf_2": "niște ucise",
+      "n_voc_pl": "uciselor",
+      "n_voc_sg": "ucisule",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "uita": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uita",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "uitând",
+      "v_ind_prs_1_pl": "uităm",
+      "v_ind_prs_1_sg": "uit",
+      "v_ind_prs_2_pl": "uitați",
+      "v_ind_prs_2_sg": "uiți",
+      "v_ind_prs_3_pl": "uită",
+      "v_ind_prs_3_sg": "uită",
+      "v_ind_pst_1_pl_ipfv": "uitam",
+      "v_ind_pst_1_pl_pfv": "uitarăm",
+      "v_ind_pst_1_pl_prf": "uitaserăm",
+      "v_ind_pst_1_sg_ipfv": "uitam",
+      "v_ind_pst_1_sg_pfv": "uitai",
+      "v_ind_pst_1_sg_prf": "uitasem",
+      "v_ind_pst_2_pl_ipfv": "uitați",
+      "v_ind_pst_2_pl_pfv": "uitarăți",
+      "v_ind_pst_2_pl_prf": "uitaserăți",
+      "v_ind_pst_2_sg_ipfv": "uitai",
+      "v_ind_pst_2_sg_pfv": "uitași",
+      "v_ind_pst_2_sg_prf": "uitaseși",
+      "v_ind_pst_3_pl_ipfv": "uitau",
+      "v_ind_pst_3_pl_pfv": "uitară",
+      "v_ind_pst_3_pl_prf": "uitaseră",
+      "v_ind_pst_3_sg_ipfv": "uita",
+      "v_ind_pst_3_sg_pfv": "uită",
+      "v_ind_pst_3_sg_prf": "uitase",
+      "v_neg_imp_2_sg": "nu uita",
+      "v_neg_imp_3_pl": "nu uitați",
+      "v_nfin": "a uita",
+      "v_pos_imp_2_sg": "uită",
+      "v_pos_imp_3_pl": "uitați",
+      "v_ptcp_pst": "uitat",
+      "v_sbjv_prs_1_pl": "să uităm",
+      "v_sbjv_prs_1_sg": "să uit",
+      "v_sbjv_prs_2_pl": "să uitați",
+      "v_sbjv_prs_2_sg": "să uiți",
+      "v_sbjv_prs_3_pl": "să uite",
+      "v_sbjv_prs_3_sg": "să uite"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ultim": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ultim",
+    "inflections": {
+      "adj_nom_acc_masc_sg_def": "ultimul",
+      "adj_nom_acc_neut_sg_def": "ultima",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "uni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "uni",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_1_sg_pfv": "unii"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "urma": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "urma",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "urmând",
+      "v_ind_prs_1_pl": "urmăm",
+      "v_ind_prs_1_sg": "urmez",
+      "v_ind_prs_2_pl": "urmați",
+      "v_ind_prs_2_sg": "urmezi",
+      "v_ind_prs_3_pl": "urmează",
+      "v_ind_prs_3_sg": "urmează",
+      "v_ind_pst_1_pl_ipfv": "urmam",
+      "v_ind_pst_1_pl_pfv": "urmarăm",
+      "v_ind_pst_1_pl_prf": "urmaserăm",
+      "v_ind_pst_1_sg_ipfv": "urmam",
+      "v_ind_pst_1_sg_pfv": "urmai",
+      "v_ind_pst_1_sg_prf": "urmasem",
+      "v_ind_pst_2_pl_ipfv": "urmați",
+      "v_ind_pst_2_pl_pfv": "urmarăți",
+      "v_ind_pst_2_pl_prf": "urmaserăți",
+      "v_ind_pst_2_sg_ipfv": "urmai",
+      "v_ind_pst_2_sg_pfv": "urmași",
+      "v_ind_pst_2_sg_prf": "urmaseși",
+      "v_ind_pst_3_pl_ipfv": "urmau",
+      "v_ind_pst_3_pl_pfv": "urmară",
+      "v_ind_pst_3_pl_prf": "urmaseră",
+      "v_ind_pst_3_sg_ipfv": "urma",
+      "v_ind_pst_3_sg_pfv": "urmă",
+      "v_ind_pst_3_sg_prf": "urmase",
+      "v_neg_imp_2_sg": "nu urma",
+      "v_neg_imp_3_pl": "nu urmați",
+      "v_nfin": "a urma",
+      "v_pos_imp_2_sg": "urmează",
+      "v_pos_imp_3_pl": "urmați",
+      "v_ptcp_pst": "urmat",
+      "v_sbjv_prs_1_pl": "să urmăm",
+      "v_sbjv_prs_1_sg": "să urmez",
+      "v_sbjv_prs_2_pl": "să urmați",
+      "v_sbjv_prs_2_sg": "să urmezi",
+      "v_sbjv_prs_3_pl": "să urmeze",
+      "v_sbjv_prs_3_sg": "să urmeze"
+    },
+    "priority": 4,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "urî": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "urî",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "urăsc",
+      "v_ind_prs_3_pl": "urăsc"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "vad": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vad",
+    "inflections": {
+      "n_gen_dat_pl_def": "vadului",
+      "n_gen_dat_pl_def_2": "vadurilor",
+      "n_gen_dat_sg_indf": "unor vaduri",
+      "n_gen_dat_sg_indf_2": "unui vad",
+      "n_nom_acc_pl_def": "vadul",
+      "n_nom_acc_pl_def_2": "vadurile",
+      "n_nom_acc_sg_indf": "un vad",
+      "n_nom_acc_sg_indf_2": "niște vaduri",
+      "n_voc_pl": "vadurilor",
+      "n_voc_sg": "vadule",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "vedea": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vedea",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "văzând",
+      "v_ind_prs_1_pl": "vedem",
+      "v_ind_prs_1_sg": "văd",
+      "v_ind_prs_2_pl": "vedeți",
+      "v_ind_prs_2_sg": "vezi",
+      "v_ind_prs_3_pl": "văd",
+      "v_ind_prs_3_sg": "vede",
+      "v_ind_pst_1_pl_ipfv": "vedeam",
+      "v_ind_pst_1_pl_pfv": "văzurăm",
+      "v_ind_pst_1_pl_prf": "văzuserăm",
+      "v_ind_pst_1_sg_ipfv": "vedeam",
+      "v_ind_pst_1_sg_pfv": "văzui",
+      "v_ind_pst_1_sg_prf": "văzusem",
+      "v_ind_pst_2_pl_ipfv": "vedeați",
+      "v_ind_pst_2_pl_pfv": "văzurăți",
+      "v_ind_pst_2_pl_prf": "văzuserăți",
+      "v_ind_pst_2_sg_ipfv": "vedeai",
+      "v_ind_pst_2_sg_pfv": "văzuși",
+      "v_ind_pst_2_sg_prf": "văzuseși",
+      "v_ind_pst_3_pl_ipfv": "vedeau",
+      "v_ind_pst_3_pl_pfv": "văzură",
+      "v_ind_pst_3_pl_prf": "văzuseră",
+      "v_ind_pst_3_sg_ipfv": "vedea",
+      "v_ind_pst_3_sg_pfv": "văzu",
+      "v_ind_pst_3_sg_prf": "văzuse",
+      "v_neg_imp_2_sg": "nu vedea",
+      "v_neg_imp_3_pl": "nu vedeți",
+      "v_nfin": "a vedea",
+      "v_pos_imp_2_sg": "vezi",
+      "v_pos_imp_3_pl": "vedeți",
+      "v_ptcp_pst": "văzut",
+      "v_sbjv_prs_1_pl": "să vedem",
+      "v_sbjv_prs_1_sg": "să văd",
+      "v_sbjv_prs_2_pl": "să vedeți",
+      "v_sbjv_prs_2_sg": "să vezi",
+      "v_sbjv_prs_3_pl": "să vadă",
+      "v_sbjv_prs_3_sg": "să vadă"
+    },
+    "priority": 7,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "veni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "veni",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "venind",
+      "v_ind_prs_1_pl": "venim",
+      "v_ind_prs_1_sg": "vin",
+      "v_ind_prs_2_pl": "veniți",
+      "v_ind_prs_2_sg": "vii",
+      "v_ind_prs_3_pl": "vin",
+      "v_ind_prs_3_sg": "vine",
+      "v_ind_pst_1_pl_ipfv": "veneam",
+      "v_ind_pst_1_pl_pfv": "venirăm",
+      "v_ind_pst_1_pl_prf": "veniserăm",
+      "v_ind_pst_1_sg_ipfv": "veneam",
+      "v_ind_pst_1_sg_pfv": "venii",
+      "v_ind_pst_1_sg_prf": "venisem",
+      "v_ind_pst_2_pl_ipfv": "veneați",
+      "v_ind_pst_2_pl_pfv": "venirăți",
+      "v_ind_pst_2_pl_prf": "veniserăți",
+      "v_ind_pst_2_sg_ipfv": "veneai",
+      "v_ind_pst_2_sg_pfv": "veniși",
+      "v_ind_pst_2_sg_prf": "veniseși",
+      "v_ind_pst_3_pl_ipfv": "veneau",
+      "v_ind_pst_3_pl_pfv": "veniră",
+      "v_ind_pst_3_pl_prf": "veniseră",
+      "v_ind_pst_3_sg_ipfv": "venea",
+      "v_ind_pst_3_sg_pfv": "veni",
+      "v_ind_pst_3_sg_prf": "venise",
+      "v_neg_imp_2_sg": "nu veni",
+      "v_neg_imp_3_pl": "nu veniți",
+      "v_nfin": "a veni",
+      "v_pos_imp_2_sg": "vino",
+      "v_pos_imp_3_pl": "veniți",
+      "v_ptcp_pst": "venit",
+      "v_sbjv_prs_1_pl": "să venim",
+      "v_sbjv_prs_1_sg": "să vin",
+      "v_sbjv_prs_2_pl": "să veniți",
+      "v_sbjv_prs_2_sg": "să vii",
+      "v_sbjv_prs_3_pl": "să vină",
+      "v_sbjv_prs_3_sg": "să vină"
+    },
+    "priority": 6,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "venit": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "venit",
+    "inflections": {
+      "n_gen_dat_pl_def": "venitului",
+      "n_gen_dat_pl_def_2": "veniturilor",
+      "n_gen_dat_sg_indf": "unor venituri",
+      "n_gen_dat_sg_indf_2": "unui venit",
+      "n_nom_acc_pl_def": "venitul",
+      "n_nom_acc_pl_def_2": "veniturile",
+      "n_nom_acc_sg_indf": "un venit",
+      "n_nom_acc_sg_indf_2": "niște venituri",
+      "n_voc_pl": "veniturilor",
+      "n_voc_sg": "venitule",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "viu": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "viu",
+    "inflections": {
+      "adj_dat_gen_fem_sg_indf": "vii",
+      "adj_dat_gen_neut_sg_indf": "vii",
+      "adj_dat_gen_pl_indf": "vii",
+      "adj_nom_acc_fem_sg_indf": "vii",
+      "adj_nom_acc_pl_indf": "vii",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "voame": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "voame",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "vom",
+      "v_ind_prs_3_pl": "vom"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "vorbi": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vorbi",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "vorbind",
+      "v_ind_prs_1_pl": "vorbim",
+      "v_ind_prs_1_sg": "vorbesc",
+      "v_ind_prs_2_pl": "vorbiți",
+      "v_ind_prs_2_sg": "vorbești",
+      "v_ind_prs_3_pl": "vorbesc",
+      "v_ind_prs_3_sg": "vorbește",
+      "v_ind_pst_1_pl_ipfv": "vorbeam",
+      "v_ind_pst_1_pl_pfv": "vorbirăm",
+      "v_ind_pst_1_pl_prf": "vorbiserăm",
+      "v_ind_pst_1_sg_ipfv": "vorbeam",
+      "v_ind_pst_1_sg_pfv": "vorbii",
+      "v_ind_pst_1_sg_prf": "vorbisem",
+      "v_ind_pst_2_pl_ipfv": "vorbeați",
+      "v_ind_pst_2_pl_pfv": "vorbirăți",
+      "v_ind_pst_2_pl_prf": "vorbiserăți",
+      "v_ind_pst_2_sg_ipfv": "vorbeai",
+      "v_ind_pst_2_sg_pfv": "vorbiși",
+      "v_ind_pst_2_sg_prf": "vorbiseși",
+      "v_ind_pst_3_pl_ipfv": "vorbeau",
+      "v_ind_pst_3_pl_pfv": "vorbiră",
+      "v_ind_pst_3_pl_prf": "vorbiseră",
+      "v_ind_pst_3_sg_ipfv": "vorbea",
+      "v_ind_pst_3_sg_pfv": "vorbi",
+      "v_ind_pst_3_sg_prf": "vorbise",
+      "v_neg_imp_2_sg": "nu vorbi",
+      "v_neg_imp_3_pl": "nu vorbiți",
+      "v_nfin": "a vorbi",
+      "v_pos_imp_2_sg": "vorbește",
+      "v_pos_imp_3_pl": "vorbiți",
+      "v_ptcp_pst": "vorbit",
+      "v_sbjv_prs_1_pl": "să vorbim",
+      "v_sbjv_prs_1_sg": "să vorbesc",
+      "v_sbjv_prs_2_pl": "să vorbiți",
+      "v_sbjv_prs_2_sg": "să vorbești",
+      "v_sbjv_prs_3_pl": "să vorbească",
+      "v_sbjv_prs_3_sg": "să vorbească"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "vorbă": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vorbă",
+    "inflections": {
+      "n_nom_acc_pl_def": "vorba",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "zice": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zice",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "zicând",
+      "v_ind_prs_1_pl": "zicem",
+      "v_ind_prs_1_sg": "zic",
+      "v_ind_prs_2_pl": "ziceți",
+      "v_ind_prs_2_sg": "zici",
+      "v_ind_prs_3_pl": "zic",
+      "v_ind_prs_3_sg": "zice",
+      "v_ind_pst_1_pl_ipfv": "ziceam",
+      "v_ind_pst_1_pl_pfv": "ziserăm",
+      "v_ind_pst_1_pl_prf": "ziseserăm",
+      "v_ind_pst_1_sg_ipfv": "ziceam",
+      "v_ind_pst_1_sg_pfv": "zisei",
+      "v_ind_pst_1_sg_prf": "zisesem",
+      "v_ind_pst_2_pl_ipfv": "ziceați",
+      "v_ind_pst_2_pl_pfv": "ziserăți",
+      "v_ind_pst_2_pl_prf": "ziseserăți",
+      "v_ind_pst_2_sg_ipfv": "ziceai",
+      "v_ind_pst_2_sg_pfv": "ziseși",
+      "v_ind_pst_2_sg_prf": "ziseseși",
+      "v_ind_pst_3_pl_ipfv": "ziceau",
+      "v_ind_pst_3_pl_pfv": "ziseră",
+      "v_ind_pst_3_pl_prf": "ziseseră",
+      "v_ind_pst_3_sg_ipfv": "zicea",
+      "v_ind_pst_3_sg_pfv": "zise",
+      "v_ind_pst_3_sg_prf": "zisese",
+      "v_neg_imp_2_sg": "nu zice",
+      "v_neg_imp_3_pl": "nu ziceți",
+      "v_nfin": "a zice",
+      "v_pos_imp_2_sg": "zi",
+      "v_pos_imp_3_pl": "ziceți",
+      "v_ptcp_pst": "zis",
+      "v_sbjv_prs_1_pl": "să zicem",
+      "v_sbjv_prs_1_sg": "să zic",
+      "v_sbjv_prs_2_pl": "să ziceți",
+      "v_sbjv_prs_2_sg": "să zici",
+      "v_sbjv_prs_3_pl": "să zică",
+      "v_sbjv_prs_3_sg": "să zică"
+    },
+    "priority": 3,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "împreuna": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "împreuna",
+    "inflections": {
+      "regulars": [],
+      "v_ind_pst_3_sg_pfv": "împreună"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "începe": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "începe",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "începând",
+      "v_ind_prs_1_pl": "începem",
+      "v_ind_prs_1_sg": "încep",
+      "v_ind_prs_2_pl": "începeți",
+      "v_ind_prs_2_sg": "începi",
+      "v_ind_prs_3_pl": "încep",
+      "v_ind_prs_3_sg": "începe",
+      "v_ind_pst_1_pl_ipfv": "începeam",
+      "v_ind_pst_1_pl_pfv": "începurăm",
+      "v_ind_pst_1_pl_prf": "începuserăm",
+      "v_ind_pst_1_sg_ipfv": "începeam",
+      "v_ind_pst_1_sg_pfv": "începui",
+      "v_ind_pst_1_sg_prf": "începusem",
+      "v_ind_pst_2_pl_ipfv": "începeați",
+      "v_ind_pst_2_pl_pfv": "începurăți",
+      "v_ind_pst_2_pl_prf": "începuserăți",
+      "v_ind_pst_2_sg_ipfv": "începeai",
+      "v_ind_pst_2_sg_pfv": "începuși",
+      "v_ind_pst_2_sg_prf": "începuseși",
+      "v_ind_pst_3_pl_ipfv": "începeau",
+      "v_ind_pst_3_pl_pfv": "începură",
+      "v_ind_pst_3_pl_prf": "începuseră",
+      "v_ind_pst_3_sg_ipfv": "începea",
+      "v_ind_pst_3_sg_pfv": "începu",
+      "v_ind_pst_3_sg_prf": "începuse",
+      "v_neg_imp_2_sg": "nu începe",
+      "v_neg_imp_3_pl": "nu începeți",
+      "v_nfin": "a începe",
+      "v_pos_imp_2_sg": "începe",
+      "v_pos_imp_3_pl": "începeți",
+      "v_ptcp_pst": "început",
+      "v_sbjv_prs_1_pl": "să începem",
+      "v_sbjv_prs_1_sg": "să încep",
+      "v_sbjv_prs_2_pl": "să începeți",
+      "v_sbjv_prs_2_sg": "să începi",
+      "v_sbjv_prs_3_pl": "să înceapă",
+      "v_sbjv_prs_3_sg": "să înceapă"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "încerca": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "încerca",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "încercând",
+      "v_ind_prs_1_pl": "încercăm",
+      "v_ind_prs_1_sg": "încerc",
+      "v_ind_prs_2_pl": "încercați",
+      "v_ind_prs_2_sg": "încerci",
+      "v_ind_prs_3_pl": "încearcă",
+      "v_ind_prs_3_sg": "încearcă",
+      "v_ind_pst_1_pl_ipfv": "încercam",
+      "v_ind_pst_1_pl_pfv": "încercarăm",
+      "v_ind_pst_1_pl_prf": "încercaserăm",
+      "v_ind_pst_1_sg_ipfv": "încercam",
+      "v_ind_pst_1_sg_pfv": "încercai",
+      "v_ind_pst_1_sg_prf": "încercasem",
+      "v_ind_pst_2_pl_ipfv": "încercați",
+      "v_ind_pst_2_pl_pfv": "încercarăți",
+      "v_ind_pst_2_pl_prf": "încercaserăți",
+      "v_ind_pst_2_sg_ipfv": "încercai",
+      "v_ind_pst_2_sg_pfv": "încercași",
+      "v_ind_pst_2_sg_prf": "încercaseși",
+      "v_ind_pst_3_pl_ipfv": "încercau",
+      "v_ind_pst_3_pl_pfv": "încercară",
+      "v_ind_pst_3_pl_prf": "încercaseră",
+      "v_ind_pst_3_sg_ipfv": "încerca",
+      "v_ind_pst_3_sg_pfv": "încercă",
+      "v_ind_pst_3_sg_prf": "încercase",
+      "v_neg_imp_2_sg": "nu încerca",
+      "v_neg_imp_3_pl": "nu încercați",
+      "v_nfin": "a încerca",
+      "v_pos_imp_2_sg": "încearcă",
+      "v_pos_imp_3_pl": "încercați",
+      "v_ptcp_pst": "încercat",
+      "v_sbjv_prs_1_pl": "să încercăm",
+      "v_sbjv_prs_1_sg": "să încerc",
+      "v_sbjv_prs_2_pl": "să încercați",
+      "v_sbjv_prs_2_sg": "să încerci",
+      "v_sbjv_prs_3_pl": "să încerce",
+      "v_sbjv_prs_3_sg": "să încerce"
+    },
+    "priority": 2,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "închide": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "închide",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "închis"
+    },
+    "priority": 1,
+    "types": [
+      "word"
+    ]
+  },
+  "închis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "închis",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "închișilor",
+      "adj_dat_gen_fem_sg_indf": "închiși",
+      "adj_dat_gen_masc_sg_def": "închisului",
+      "adj_dat_gen_masc_sg_indf": "închis",
+      "adj_dat_gen_neut_sg_def": "închisei",
+      "adj_dat_gen_neut_sg_indf": "închise",
+      "adj_dat_gen_pl_def": "închiselor",
+      "adj_dat_gen_pl_indf": "închise",
+      "adj_nom_acc_fem_sg_def": "închișii",
+      "adj_nom_acc_fem_sg_indf": "închiși",
+      "adj_nom_acc_masc_sg_def": "închisul",
+      "adj_nom_acc_masc_sg_indf": "închis",
+      "adj_nom_acc_neut_sg_def": "închisa",
+      "adj_nom_acc_neut_sg_indf": "închisă",
+      "adj_nom_acc_pl_def": "închisele",
+      "adj_nom_acc_pl_indf": "închise",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "încredere": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "încredere",
+    "inflections": {
+      "n_gen_dat_pl_def": "încrederii",
+      "n_gen_dat_sg_indf": "încrederi",
+      "n_nom_acc_pl_def": "încrederea",
+      "n_nom_acc_sg_indf": "încredere",
+      "n_voc_sg": "încredere",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "întoarce": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întoarce",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "întorcând",
+      "v_ind_prs_1_pl": "întoarcem",
+      "v_ind_prs_1_sg": "întorc",
+      "v_ind_prs_2_pl": "întoarceți",
+      "v_ind_prs_2_sg": "întorci",
+      "v_ind_prs_3_pl": "întorc",
+      "v_ind_prs_3_sg": "întoarce",
+      "v_ind_pst_1_pl_ipfv": "întorceam",
+      "v_ind_pst_1_pl_pfv": "întoarserăm",
+      "v_ind_pst_1_pl_prf": "întorseserăm",
+      "v_ind_pst_1_sg_ipfv": "întorceam",
+      "v_ind_pst_1_sg_pfv": "întorsei",
+      "v_ind_pst_1_sg_prf": "întorsesem",
+      "v_ind_pst_2_pl_ipfv": "întorceați",
+      "v_ind_pst_2_pl_pfv": "întoarserăți",
+      "v_ind_pst_2_pl_prf": "întorseserăți",
+      "v_ind_pst_2_sg_ipfv": "întorceai",
+      "v_ind_pst_2_sg_pfv": "întorseși",
+      "v_ind_pst_2_sg_prf": "întorseseși",
+      "v_ind_pst_3_pl_ipfv": "întorceau",
+      "v_ind_pst_3_pl_pfv": "întoarseră",
+      "v_ind_pst_3_pl_prf": "întorseseră",
+      "v_ind_pst_3_sg_ipfv": "întorcea",
+      "v_ind_pst_3_sg_pfv": "întoarse",
+      "v_ind_pst_3_sg_prf": "întorsese",
+      "v_neg_imp_2_sg": "nu întoarce",
+      "v_neg_imp_3_pl": "nu întoarceți",
+      "v_nfin": "a întoarce",
+      "v_pos_imp_2_sg": "întoarce",
+      "v_pos_imp_3_pl": "întoarceți",
+      "v_ptcp_pst": "întors",
+      "v_sbjv_prs_1_pl": "să întoarcem",
+      "v_sbjv_prs_1_sg": "să întorc",
+      "v_sbjv_prs_2_pl": "să întoarceți",
+      "v_sbjv_prs_2_sg": "să întorci",
+      "v_sbjv_prs_3_pl": "să întoarcă",
+      "v_sbjv_prs_3_sg": "să întoarcă"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "întors": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întors",
+    "inflections": {
+      "adj_dat_gen_fem_sg_def": "întorșilor",
+      "adj_dat_gen_fem_sg_indf": "întorși",
+      "adj_dat_gen_masc_sg_def": "întorsului",
+      "adj_dat_gen_masc_sg_indf": "întors",
+      "adj_dat_gen_neut_sg_def": "întoarsei",
+      "adj_dat_gen_neut_sg_indf": "întoarse",
+      "adj_dat_gen_pl_def": "întoarselor",
+      "adj_dat_gen_pl_indf": "întoarse",
+      "adj_nom_acc_fem_sg_def": "întorșii",
+      "adj_nom_acc_fem_sg_indf": "întorși",
+      "adj_nom_acc_masc_sg_def": "întorsul",
+      "adj_nom_acc_masc_sg_indf": "întors",
+      "adj_nom_acc_neut_sg_def": "întoarsa",
+      "adj_nom_acc_neut_sg_indf": "întoarsă",
+      "adj_nom_acc_pl_def": "întoarsele",
+      "adj_nom_acc_pl_indf": "întoarse",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "întreba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întreba",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "întreb",
+      "v_ptcp_pst": "întrebat"
+    },
+    "priority": 4,
+    "types": [
+      "word",
+      "verb"
+    ]
+  },
+  "întrebare": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întrebare",
+    "inflections": {
+      "n_gen_dat_pl_def": "întrebării",
+      "n_gen_dat_pl_def_2": "întrebărilor",
+      "n_gen_dat_sg_indf": "unor întrebări",
+      "n_gen_dat_sg_indf_2": "unei întrebări",
+      "n_nom_acc_pl_def": "întrebarea",
+      "n_nom_acc_pl_def_2": "întrebările",
+      "n_nom_acc_sg_indf": "o întrebare",
+      "n_nom_acc_sg_indf_2": "niște întrebări",
+      "n_voc_pl": "întrebărilor",
+      "n_voc_sg": "întrebare",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "întâlni": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întâlni",
+    "inflections": {
+      "regulars": [],
+      "v_ptcp_pst": "întâlnit"
+    },
+    "priority": 3,
+    "types": [
+      "word"
+    ]
+  },
+  "întâmpla": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "întâmpla",
+    "inflections": {
+      "regulars": [],
+      "v_cvb_prs": "întâmplând",
+      "v_ind_prs_1_pl": "întâmplăm",
+      "v_ind_prs_1_sg": "întâmplu",
+      "v_ind_prs_2_pl": "întâmplați",
+      "v_ind_prs_2_sg": "întâmpli",
+      "v_ind_prs_3_pl": "întâmplă",
+      "v_ind_prs_3_sg": "întâmplă",
+      "v_ind_pst_1_pl_ipfv": "întâmplam",
+      "v_ind_pst_1_pl_pfv": "întâmplarăm",
+      "v_ind_pst_1_pl_prf": "întâmplaserăm",
+      "v_ind_pst_1_sg_ipfv": "întâmplam",
+      "v_ind_pst_1_sg_pfv": "întâmplai",
+      "v_ind_pst_1_sg_prf": "întâmplasem",
+      "v_ind_pst_2_pl_ipfv": "întâmplați",
+      "v_ind_pst_2_pl_pfv": "întâmplarăți",
+      "v_ind_pst_2_pl_prf": "întâmplaserăți",
+      "v_ind_pst_2_sg_ipfv": "întâmplai",
+      "v_ind_pst_2_sg_pfv": "întâmplași",
+      "v_ind_pst_2_sg_prf": "întâmplaseși",
+      "v_ind_pst_3_pl_ipfv": "întâmplau",
+      "v_ind_pst_3_pl_pfv": "întâmplară",
+      "v_ind_pst_3_pl_prf": "întâmplaseră",
+      "v_ind_pst_3_sg_ipfv": "întâmpla",
+      "v_ind_pst_3_sg_pfv": "întâmplă",
+      "v_ind_pst_3_sg_prf": "întâmplase",
+      "v_neg_imp_2_sg": "nu întâmpla",
+      "v_neg_imp_3_pl": "nu întâmplați",
+      "v_nfin": "a întâmpla",
+      "v_pos_imp_2_sg": "întâmplă",
+      "v_pos_imp_3_pl": "întâmplați",
+      "v_ptcp_pst": "întâmplat",
+      "v_sbjv_prs_1_pl": "să întâmplăm",
+      "v_sbjv_prs_1_sg": "să întâmplu",
+      "v_sbjv_prs_2_pl": "să întâmplați",
+      "v_sbjv_prs_2_sg": "să întâmpli",
+      "v_sbjv_prs_3_pl": "să întâmple",
+      "v_sbjv_prs_3_sg": "să întâmple"
+    },
+    "priority": 5,
+    "types": [
+      "verb",
+      "word"
+    ]
+  },
+  "ști": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ști",
+    "inflections": {
+      "regulars": [],
+      "v_ind_prs_1_sg": "știu",
+      "v_ind_prs_2_sg": "știi",
+      "v_ind_prs_3_pl": "știu",
+      "v_ind_pst_3_sg_pfv": "știu"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  }
+}

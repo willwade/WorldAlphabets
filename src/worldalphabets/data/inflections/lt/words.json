@@ -1,0 +1,2932 @@
+{
+  "_locale": "lt",
+  "_type": "words",
+  "_version": "0.1",
+  "ateiti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ateiti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst_ind": "atėjau",
+      "v_2_sg_imp": "ateik",
+      "v_3_pl_fut_ind": "ateis",
+      "v_3_pl_prs_ind": "ateina",
+      "v_3_pl_pst_ind": "atėjo",
+      "v_3_sg_fut_ind": "ateis",
+      "v_3_sg_prs_ind": "ateina",
+      "v_3_sg_pst_ind": "atėjo"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "atidaryti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "atidaryti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "atidaryk"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "baigti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "baigti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "baik"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "bijoti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bijoti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "bijau"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "brolis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "brolis",
+    "inflections": {
+      "n_acc_pl": "brólius",
+      "n_acc_sg": "brólį",
+      "n_dat_pl": "bróliams",
+      "n_dat_sg": "bróliui",
+      "n_gen_pl": "brólių",
+      "n_gen_sg": "brólio",
+      "n_inst_pl": "bróliais",
+      "n_inst_sg": "bróliu",
+      "n_loc_pl": "bróliuose",
+      "n_loc_sg": "brólyje",
+      "n_nom_pl": "bróliai",
+      "n_nom_sg": "brólis",
+      "n_voc_pl": "bróliai",
+      "n_voc_sg": "bróli",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "būdas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "būdas",
+    "inflections": {
+      "n_acc_pl": "būdùs",
+      "n_acc_sg": "bū̃dą",
+      "n_dat_pl": "bū̃dams",
+      "n_dat_sg": "bū̃dui",
+      "n_gen_pl": "bū̃dų",
+      "n_gen_sg": "bū̃do",
+      "n_inst_pl": "bū̃dais",
+      "n_inst_sg": "būdù",
+      "n_loc_pl": "bū̃duose",
+      "n_loc_sg": "būdè",
+      "n_nom_pl": "bū̃dai",
+      "n_nom_sg": "bū̃das",
+      "n_voc_pl": "bū̃dai",
+      "n_voc_sg": "bū̃de",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "būti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "būti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "būsime",
+      "v_1_pl_imp": "būkime",
+      "v_1_pl_prs_ind": "esame",
+      "v_1_pl_pst_freq_ind": "būdavome",
+      "v_1_pl_pst_ind": "buvome",
+      "v_1_pl_sbjv": "būtumėme",
+      "v_1_sg_fut_ind": "būsiu",
+      "v_1_sg_prs_ind": "esu",
+      "v_1_sg_pst_freq_ind": "būdavau",
+      "v_1_sg_pst_ind": "buvau",
+      "v_1_sg_sbjv": "būčiau",
+      "v_2_pl_fut_ind": "būsite",
+      "v_2_pl_imp": "būkite",
+      "v_2_pl_prs_ind": "esate",
+      "v_2_pl_pst_freq_ind": "būdavote",
+      "v_2_pl_pst_ind": "buvote",
+      "v_2_pl_sbjv": "būtumėte",
+      "v_2_sg_fut_ind": "būsi",
+      "v_2_sg_imp": "būk",
+      "v_2_sg_prs_ind": "esi",
+      "v_2_sg_pst_freq_ind": "būdavai",
+      "v_2_sg_pst_ind": "buvai",
+      "v_2_sg_sbjv": "būtum",
+      "v_3_pl_fut_ind": "bus",
+      "v_3_pl_imp": "tebūna",
+      "v_3_pl_prs_ind": "yra",
+      "v_3_pl_pst_freq_ind": "būdavo",
+      "v_3_pl_pst_ind": "buvo",
+      "v_3_pl_sbjv": "būtų",
+      "v_3_sg_fut_ind": "bus",
+      "v_3_sg_imp": "tebūna",
+      "v_3_sg_prs_ind": "yra",
+      "v_3_sg_pst_freq_ind": "būdavo",
+      "v_3_sg_pst_ind": "buvo",
+      "v_3_sg_sbjv": "būtų",
+      "v_v_ptcp_adv_fut_act": "būsiant",
+      "v_v_ptcp_adv_lgspec2_act": "būdamas",
+      "v_v_ptcp_adv_prs_act": "esant",
+      "v_v_ptcp_adv_pst_act": "buvus",
+      "v_v_ptcp_adv_pst_freq_act": "būdavus",
+      "v_v_ptcp_fut_act": "būsiąs",
+      "v_v_ptcp_fut_pass": "būsimas",
+      "v_v_ptcp_lgspec1_pass": "būtinas",
+      "v_v_ptcp_lgspec3": "būte",
+      "v_v_ptcp_prs_act": "esąs",
+      "v_v_ptcp_prs_pass": "esamas",
+      "v_v_ptcp_pst_act": "buvęs",
+      "v_v_ptcp_pst_freq_act": "būdavęs",
+      "v_v_ptcp_pst_pass": "būtas"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "daktaras": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "daktaras",
+    "inflections": {
+      "n_acc_pl": "daktarus",
+      "n_acc_sg": "daktarą",
+      "n_dat_pl": "daktarams",
+      "n_dat_sg": "daktarui",
+      "n_gen_pl": "daktarų",
+      "n_gen_sg": "daktaro",
+      "n_inst_pl": "daktarais",
+      "n_inst_sg": "daktaru",
+      "n_loc_pl": "daktaruose",
+      "n_loc_sg": "daktare",
+      "n_nom_pl": "daktarai",
+      "n_nom_sg": "daktaras",
+      "n_voc_pl": "daktarai",
+      "n_voc_sg": "daktare",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "dalykas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dalykas",
+    "inflections": {
+      "n_acc_pl": "dalykùs",
+      "n_acc_sg": "dalỹką",
+      "n_dat_pl": "dalỹkams",
+      "n_dat_sg": "dalỹkui",
+      "n_gen_pl": "dalỹkų",
+      "n_gen_sg": "dalỹko",
+      "n_inst_pl": "dalỹkais",
+      "n_inst_sg": "dalykù",
+      "n_loc_pl": "dalỹkuose",
+      "n_loc_sg": "dalykè",
+      "n_nom_pl": "dalỹkai",
+      "n_nom_sg": "dalỹkas",
+      "n_voc_pl": "dalỹkai",
+      "n_voc_sg": "dalỹke",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "darbas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "darbas",
+    "inflections": {
+      "n_acc_pl": "dárbus",
+      "n_acc_sg": "dárbą",
+      "n_dat_pl": "darbáms",
+      "n_dat_sg": "dárbui",
+      "n_gen_pl": "darbų̃",
+      "n_gen_sg": "dárbo",
+      "n_inst_pl": "darbaĩs",
+      "n_inst_sg": "dárbu",
+      "n_loc_pl": "darbuosè",
+      "n_loc_sg": "darbè",
+      "n_nom_pl": "darbaĩ",
+      "n_nom_sg": "dárbas",
+      "n_voc_pl": "darbaĩ",
+      "n_voc_sg": "dárbe",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "daryti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "daryti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "darysime",
+      "v_1_pl_imp": "darykime",
+      "v_1_pl_prs_ind": "darome",
+      "v_1_pl_pst_freq_ind": "darydavome",
+      "v_1_pl_pst_ind": "darėme",
+      "v_1_pl_sbjv": "darytumėme",
+      "v_1_sg_fut_ind": "darysiu",
+      "v_1_sg_prs_ind": "darau",
+      "v_1_sg_pst_freq_ind": "darydavau",
+      "v_1_sg_pst_ind": "dariau",
+      "v_1_sg_sbjv": "daryčiau",
+      "v_2_pl_fut_ind": "darysite",
+      "v_2_pl_imp": "darykite",
+      "v_2_pl_prs_ind": "darote",
+      "v_2_pl_pst_freq_ind": "darydavote",
+      "v_2_pl_pst_ind": "darėte",
+      "v_2_pl_sbjv": "darytumėte",
+      "v_2_sg_fut_ind": "darysi",
+      "v_2_sg_imp": "daryk",
+      "v_2_sg_prs_ind": "darai",
+      "v_2_sg_pst_freq_ind": "darydavai",
+      "v_2_sg_pst_ind": "darei",
+      "v_2_sg_sbjv": "darytum",
+      "v_3_pl_fut_ind": "darys",
+      "v_3_pl_imp": "tedaro",
+      "v_3_pl_prs_ind": "daro",
+      "v_3_pl_pst_freq_ind": "darydavo",
+      "v_3_pl_pst_ind": "darė",
+      "v_3_pl_sbjv": "darytų",
+      "v_3_sg_fut_ind": "darys",
+      "v_3_sg_imp": "tedaro",
+      "v_3_sg_prs_ind": "daro",
+      "v_3_sg_pst_freq_ind": "darydavo",
+      "v_3_sg_pst_ind": "darė",
+      "v_3_sg_sbjv": "darytų",
+      "v_v_ptcp_adv_fut_act": "darysiant",
+      "v_v_ptcp_adv_lgspec2_act": "darydamas",
+      "v_v_ptcp_adv_prs_act": "darant",
+      "v_v_ptcp_adv_pst_act": "darius",
+      "v_v_ptcp_adv_pst_freq_act": "darydavus",
+      "v_v_ptcp_fut_act": "darysiąs",
+      "v_v_ptcp_fut_pass": "darysimas",
+      "v_v_ptcp_lgspec1_pass": "darytinas",
+      "v_v_ptcp_lgspec3": "daryte",
+      "v_v_ptcp_prs_act": "darąs",
+      "v_v_ptcp_prs_pass": "daromas",
+      "v_v_ptcp_pst_act": "daręs",
+      "v_v_ptcp_pst_freq_act": "darydavęs",
+      "v_v_ptcp_pst_pass": "darytas"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "didelis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "didelis",
+    "inflections": {
+      "adj_acc_pl_fem_pos": "dideles",
+      "adj_acc_pl_masc_pos": "didelius",
+      "adj_acc_sg_fem_pos": "didelę",
+      "adj_acc_sg_masc_pos": "didelį",
+      "adj_dat_pl_fem_pos": "didelėms",
+      "adj_dat_pl_masc_pos": "dideliems",
+      "adj_dat_sg_fem_pos": "didelei",
+      "adj_dat_sg_masc_pos": "dideliam",
+      "adj_gen_pl_fem_pos": "didelių",
+      "adj_gen_pl_masc_pos": "didelių",
+      "adj_gen_sg_fem_pos": "didelės",
+      "adj_gen_sg_masc_pos": "didelio",
+      "adj_inst_pl_fem_pos": "didelėmis",
+      "adj_inst_pl_masc_pos": "dideliais",
+      "adj_inst_sg_fem_pos": "didele",
+      "adj_inst_sg_masc_pos": "dideliu",
+      "adj_loc_pl_fem_pos": "didelėse",
+      "adj_loc_pl_masc_pos": "dideliuose",
+      "adj_loc_sg_fem_pos": "didelėje",
+      "adj_loc_sg_masc_pos": "dideliame",
+      "adj_nom_pl_fem_pos": "didelės",
+      "adj_nom_pl_masc_pos": "dideli",
+      "adj_nom_sg_fem_pos": "didelė",
+      "adj_nom_sg_masc_pos": "didelis",
+      "adj_voc_pl_fem_pos": "didelės",
+      "adj_voc_pl_masc_pos": "dideli",
+      "adj_voc_sg_fem_pos": "didele",
+      "adj_voc_sg_masc_pos": "dideli",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "dievas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dievas",
+    "inflections": {
+      "n_acc_pl": "dievùs",
+      "n_acc_sg": "diẽvą",
+      "n_dat_pl": "dieváms",
+      "n_dat_sg": "diẽvui",
+      "n_gen_pl": "dievų̃",
+      "n_gen_sg": "diẽvo",
+      "n_inst_pl": "dievaĩs",
+      "n_inst_sg": "dievù",
+      "n_loc_pl": "dievuosè",
+      "n_loc_sg": "dievè",
+      "n_nom_pl": "dievaĩ",
+      "n_nom_sg": "diẽvas",
+      "n_voc_pl": "dievaĩ",
+      "n_voc_sg": "diẽve",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "dirbti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dirbti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "dirbsime",
+      "v_1_pl_imp": "dirbkime",
+      "v_1_pl_prs_ind": "dirbame",
+      "v_1_pl_pst_freq_ind": "dirbdavome",
+      "v_1_pl_pst_ind": "dirbome",
+      "v_1_pl_sbjv": "dirbtumėme",
+      "v_1_sg_fut_ind": "dirbsiu",
+      "v_1_sg_prs_ind": "dirbu",
+      "v_1_sg_pst_freq_ind": "dirbdavau",
+      "v_1_sg_pst_ind": "dirbau",
+      "v_1_sg_sbjv": "dirbčiau",
+      "v_2_pl_fut_ind": "dirbsite",
+      "v_2_pl_imp": "dirbkite",
+      "v_2_pl_prs_ind": "dirbate",
+      "v_2_pl_pst_freq_ind": "dirbdavote",
+      "v_2_pl_pst_ind": "dirbote",
+      "v_2_pl_sbjv": "dirbtumėte",
+      "v_2_sg_fut_ind": "dirbsi",
+      "v_2_sg_imp": "dirbk",
+      "v_2_sg_prs_ind": "dirbi",
+      "v_2_sg_pst_freq_ind": "dirbdavai",
+      "v_2_sg_pst_ind": "dirbai",
+      "v_2_sg_sbjv": "dirbtum",
+      "v_3_pl_fut_ind": "dirbs",
+      "v_3_pl_imp": "tedirba",
+      "v_3_pl_prs_ind": "dirba",
+      "v_3_pl_pst_freq_ind": "dirbdavo",
+      "v_3_pl_pst_ind": "dirbo",
+      "v_3_pl_sbjv": "dirbtų",
+      "v_3_sg_fut_ind": "dirbs",
+      "v_3_sg_imp": "tedirba",
+      "v_3_sg_prs_ind": "dirba",
+      "v_3_sg_pst_freq_ind": "dirbdavo",
+      "v_3_sg_pst_ind": "dirbo",
+      "v_3_sg_sbjv": "dirbtų",
+      "v_v_ptcp_adv_fut_act": "dirbsiant",
+      "v_v_ptcp_adv_lgspec2_act": "dirbdamas",
+      "v_v_ptcp_adv_prs_act": "dirbant",
+      "v_v_ptcp_adv_pst_act": "dirbus",
+      "v_v_ptcp_adv_pst_freq_act": "dirbdavus",
+      "v_v_ptcp_fut_act": "dirbsiąs",
+      "v_v_ptcp_fut_pass": "dirbsimas",
+      "v_v_ptcp_lgspec1_pass": "dirbtinas",
+      "v_v_ptcp_lgspec3": "dirbte",
+      "v_v_ptcp_prs_act": "dirbąs",
+      "v_v_ptcp_prs_pass": "dirbamas",
+      "v_v_ptcp_pst_act": "dirbęs",
+      "v_v_ptcp_pst_freq_act": "dirbdavęs",
+      "v_v_ptcp_pst_pass": "dirbtas"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "draugas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "draugas",
+    "inflections": {
+      "n_acc_pl": "draugùs",
+      "n_acc_sg": "draũgą",
+      "n_dat_pl": "draugáms",
+      "n_dat_sg": "draũgui",
+      "n_gen_pl": "draugų̃",
+      "n_gen_sg": "draũgo",
+      "n_inst_pl": "draugaĩs",
+      "n_inst_sg": "draugù",
+      "n_loc_pl": "drauguosè",
+      "n_loc_sg": "draugè",
+      "n_nom_pl": "draugaĩ",
+      "n_nom_sg": "draũgas",
+      "n_voc_pl": "draugaĩ",
+      "n_voc_sg": "draũge",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "duoti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "duoti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "duosime",
+      "v_1_pl_imp": "duokime",
+      "v_1_pl_prs_ind": "duodame",
+      "v_1_pl_pst_freq_ind": "duodavome",
+      "v_1_pl_pst_ind": "davėme",
+      "v_1_pl_sbjv": "duotumėme",
+      "v_1_sg_fut_ind": "duosiu",
+      "v_1_sg_prs_ind": "duodu",
+      "v_1_sg_pst_freq_ind": "duodavau",
+      "v_1_sg_pst_ind": "daviau",
+      "v_1_sg_sbjv": "duočiau",
+      "v_2_pl_fut_ind": "duosite",
+      "v_2_pl_imp": "duokite",
+      "v_2_pl_prs_ind": "duodate",
+      "v_2_pl_pst_freq_ind": "duodavote",
+      "v_2_pl_pst_ind": "davėte",
+      "v_2_pl_sbjv": "duotumėte",
+      "v_2_sg_fut_ind": "duosi",
+      "v_2_sg_imp": "duok",
+      "v_2_sg_prs_ind": "duodi",
+      "v_2_sg_pst_freq_ind": "duodavai",
+      "v_2_sg_pst_ind": "davei",
+      "v_2_sg_sbjv": "duotum",
+      "v_3_pl_fut_ind": "duos",
+      "v_3_pl_imp": "teduoda",
+      "v_3_pl_prs_ind": "duoda",
+      "v_3_pl_pst_freq_ind": "duodavo",
+      "v_3_pl_pst_ind": "davė",
+      "v_3_pl_sbjv": "duotų",
+      "v_3_sg_fut_ind": "duos",
+      "v_3_sg_imp": "teduoda",
+      "v_3_sg_prs_ind": "duoda",
+      "v_3_sg_pst_freq_ind": "duodavo",
+      "v_3_sg_pst_ind": "davė",
+      "v_3_sg_sbjv": "duotų",
+      "v_v_ptcp_adv_fut_act": "duosiant",
+      "v_v_ptcp_adv_lgspec2_act": "duodamas",
+      "v_v_ptcp_adv_prs_act": "duodant",
+      "v_v_ptcp_adv_pst_act": "davus",
+      "v_v_ptcp_adv_pst_freq_act": "duodavus",
+      "v_v_ptcp_fut_act": "duosiąs",
+      "v_v_ptcp_fut_pass": "duosimas",
+      "v_v_ptcp_lgspec1_pass": "duotinas",
+      "v_v_ptcp_lgspec3": "duote",
+      "v_v_ptcp_prs_act": "duodąs",
+      "v_v_ptcp_prs_pass": "duodamas",
+      "v_v_ptcp_pst_act": "davęs",
+      "v_v_ptcp_pst_freq_act": "duodavęs",
+      "v_v_ptcp_pst_pass": "duotas"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "dėkoti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dėkoti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "dėkoju"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "eiti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "eiti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "eisime",
+      "v_1_pl_imp": "eikime",
+      "v_1_pl_prs_ind": "einame",
+      "v_1_pl_pst_freq_ind": "eidavome",
+      "v_1_pl_pst_ind": "ėjome",
+      "v_1_pl_sbjv": "eitumėme",
+      "v_1_sg_fut_ind": "eisiu",
+      "v_1_sg_prs_ind": "einu",
+      "v_1_sg_pst_freq_ind": "eidavau",
+      "v_1_sg_pst_ind": "ėjau",
+      "v_1_sg_sbjv": "eičiau",
+      "v_2_pl_fut_ind": "eisite",
+      "v_2_pl_imp": "eikite",
+      "v_2_pl_prs_ind": "einate",
+      "v_2_pl_pst_freq_ind": "eidavote",
+      "v_2_pl_pst_ind": "ėjote",
+      "v_2_pl_sbjv": "eitumėte",
+      "v_2_sg_fut_ind": "eisi",
+      "v_2_sg_imp": "eik",
+      "v_2_sg_prs_ind": "eini",
+      "v_2_sg_pst_freq_ind": "eidavai",
+      "v_2_sg_pst_ind": "ėjai",
+      "v_2_sg_sbjv": "eitum",
+      "v_3_pl_fut_ind": "eis",
+      "v_3_pl_imp": "teeina",
+      "v_3_pl_prs_ind": "eina",
+      "v_3_pl_pst_freq_ind": "eidavo",
+      "v_3_pl_pst_ind": "ėjo",
+      "v_3_pl_sbjv": "eitų",
+      "v_3_sg_fut_ind": "eis",
+      "v_3_sg_imp": "teeina",
+      "v_3_sg_prs_ind": "eina",
+      "v_3_sg_pst_freq_ind": "eidavo",
+      "v_3_sg_pst_ind": "ėjo",
+      "v_3_sg_sbjv": "eitų",
+      "v_v_ptcp_adv_fut_act": "eisiant",
+      "v_v_ptcp_adv_lgspec2_act": "eidamas",
+      "v_v_ptcp_adv_prs_act": "einant",
+      "v_v_ptcp_adv_pst_act": "ėjus",
+      "v_v_ptcp_adv_pst_freq_act": "eidavus",
+      "v_v_ptcp_fut_act": "eisiąs",
+      "v_v_ptcp_fut_pass": "eisimas",
+      "v_v_ptcp_lgspec1_pass": "eitinas",
+      "v_v_ptcp_lgspec3": "eite",
+      "v_v_ptcp_prs_act": "einąs",
+      "v_v_ptcp_prs_pass": "einamas",
+      "v_v_ptcp_pst_act": "ėjęs",
+      "v_v_ptcp_pst_freq_act": "eidavęs",
+      "v_v_ptcp_pst_pass": "eitas"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "galva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "galva",
+    "inflections": {
+      "n_acc_pl": "gálvas",
+      "n_acc_sg": "gálvą",
+      "n_dat_pl": "galvóms",
+      "n_dat_sg": "gálvai",
+      "n_gen_pl": "galvų̃",
+      "n_gen_sg": "galvõs",
+      "n_inst_pl": "galvomìs",
+      "n_inst_sg": "gálva",
+      "n_loc_pl": "galvosè",
+      "n_loc_sg": "galvojè",
+      "n_nom_pl": "gálvos",
+      "n_nom_sg": "galvà",
+      "n_voc_pl": "gálvos",
+      "n_voc_sg": "gálva",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "galėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "galėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_prs_ind": "galime",
+      "v_1_sg_prs_ind": "galiu",
+      "v_1_sg_sbjv": "galėčiau",
+      "v_2_pl_prs_ind": "galite",
+      "v_2_sg_fut_ind": "galėsi",
+      "v_2_sg_prs_ind": "gali",
+      "v_2_sg_pst_ind": "galėjai",
+      "v_2_sg_sbjv": "galėtum",
+      "v_3_pl_prs_ind": "gali",
+      "v_3_pl_pst_ind": "galėjo",
+      "v_3_pl_sbjv": "galėtų",
+      "v_3_sg_prs_ind": "gali",
+      "v_3_sg_pst_ind": "galėjo",
+      "v_3_sg_sbjv": "galėtų"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "gauti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gauti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "gausime",
+      "v_1_pl_imp": "gaukime",
+      "v_1_pl_prs_ind": "gauname",
+      "v_1_pl_pst_freq_ind": "gaudavome",
+      "v_1_pl_pst_ind": "gavome",
+      "v_1_pl_sbjv": "gautumėme",
+      "v_1_sg_fut_ind": "gausiu",
+      "v_1_sg_prs_ind": "gaunu",
+      "v_1_sg_pst_freq_ind": "gaudavau",
+      "v_1_sg_pst_ind": "gavau",
+      "v_1_sg_sbjv": "gaučiau",
+      "v_2_pl_fut_ind": "gausite",
+      "v_2_pl_imp": "gaukite",
+      "v_2_pl_prs_ind": "gaunate",
+      "v_2_pl_pst_freq_ind": "gaudavote",
+      "v_2_pl_pst_ind": "gavote",
+      "v_2_pl_sbjv": "gautumėte",
+      "v_2_sg_fut_ind": "gausi",
+      "v_2_sg_imp": "gauk",
+      "v_2_sg_prs_ind": "gauni",
+      "v_2_sg_pst_freq_ind": "gaudavai",
+      "v_2_sg_pst_ind": "gavai",
+      "v_2_sg_sbjv": "gautum",
+      "v_3_pl_fut_ind": "gaus",
+      "v_3_pl_imp": "tegauna",
+      "v_3_pl_prs_ind": "gauna",
+      "v_3_pl_pst_freq_ind": "gaudavo",
+      "v_3_pl_pst_ind": "gavo",
+      "v_3_pl_sbjv": "gautų",
+      "v_3_sg_fut_ind": "gaus",
+      "v_3_sg_imp": "tegauna",
+      "v_3_sg_prs_ind": "gauna",
+      "v_3_sg_pst_freq_ind": "gaudavo",
+      "v_3_sg_pst_ind": "gavo",
+      "v_3_sg_sbjv": "gautų",
+      "v_v_ptcp_adv_fut_act": "gausiant",
+      "v_v_ptcp_adv_lgspec2_act": "gaudamas",
+      "v_v_ptcp_adv_prs_act": "gaunant",
+      "v_v_ptcp_adv_pst_act": "gavus",
+      "v_v_ptcp_adv_pst_freq_act": "gaudavus",
+      "v_v_ptcp_fut_act": "gausiąs",
+      "v_v_ptcp_fut_pass": "gausimas",
+      "v_v_ptcp_lgspec1_pass": "gautinas",
+      "v_v_ptcp_lgspec3": "gaute",
+      "v_v_ptcp_prs_act": "gaunąs",
+      "v_v_ptcp_prs_pass": "gaunamas",
+      "v_v_ptcp_pst_act": "gavęs",
+      "v_v_ptcp_pst_freq_act": "gaudavęs",
+      "v_v_ptcp_pst_pass": "gautas"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "geras": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "geras",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "geresnes",
+      "adj_acc_pl_fem_pos": "geras",
+      "adj_acc_pl_fem_sprl": "geriausias",
+      "adj_acc_pl_masc_cmpr": "geresnius",
+      "adj_acc_pl_masc_pos": "gerus",
+      "adj_acc_pl_masc_sprl": "geriausius",
+      "adj_acc_sg_fem_cmpr": "geresnę",
+      "adj_acc_sg_fem_pos": "gerą",
+      "adj_acc_sg_fem_sprl": "geriausią",
+      "adj_acc_sg_masc_cmpr": "geresnį",
+      "adj_acc_sg_masc_pos": "gerą",
+      "adj_acc_sg_masc_sprl": "geriausią",
+      "adj_dat_pl_fem_cmpr": "geresnėms",
+      "adj_dat_pl_fem_pos": "geroms",
+      "adj_dat_pl_fem_sprl": "geriausioms",
+      "adj_dat_pl_masc_cmpr": "geresniems",
+      "adj_dat_pl_masc_pos": "geriems",
+      "adj_dat_pl_masc_sprl": "geriausiems",
+      "adj_dat_sg_fem_cmpr": "geresnei",
+      "adj_dat_sg_fem_pos": "gerai",
+      "adj_dat_sg_fem_sprl": "geriausiai",
+      "adj_dat_sg_masc_cmpr": "geresniam",
+      "adj_dat_sg_masc_pos": "geram",
+      "adj_dat_sg_masc_sprl": "geriausiam",
+      "adj_gen_pl_fem_cmpr": "geresnių",
+      "adj_gen_pl_fem_pos": "gerų",
+      "adj_gen_pl_fem_sprl": "geriausių",
+      "adj_gen_pl_masc_cmpr": "geresnių",
+      "adj_gen_pl_masc_pos": "gerų",
+      "adj_gen_pl_masc_sprl": "geriausių",
+      "adj_gen_sg_fem_cmpr": "geresnės",
+      "adj_gen_sg_fem_pos": "geros",
+      "adj_gen_sg_fem_sprl": "geriausios",
+      "adj_gen_sg_masc_cmpr": "geresnio",
+      "adj_gen_sg_masc_pos": "gero",
+      "adj_gen_sg_masc_sprl": "geriausio",
+      "adj_inst_pl_fem_cmpr": "geresnėmis",
+      "adj_inst_pl_fem_pos": "geromis",
+      "adj_inst_pl_fem_sprl": "geriausiomis",
+      "adj_inst_pl_masc_cmpr": "geresniais",
+      "adj_inst_pl_masc_pos": "gerais",
+      "adj_inst_pl_masc_sprl": "geriausiais",
+      "adj_inst_sg_fem_cmpr": "geresne",
+      "adj_inst_sg_fem_pos": "gera",
+      "adj_inst_sg_fem_sprl": "geriausia",
+      "adj_inst_sg_masc_cmpr": "geresniu",
+      "adj_inst_sg_masc_pos": "geru",
+      "adj_inst_sg_masc_sprl": "geriausiu",
+      "adj_loc_pl_fem_cmpr": "geresnėse",
+      "adj_loc_pl_fem_pos": "gerose",
+      "adj_loc_pl_fem_sprl": "geriausiose",
+      "adj_loc_pl_masc_cmpr": "geresniuose",
+      "adj_loc_pl_masc_pos": "geruose",
+      "adj_loc_pl_masc_sprl": "geriausiuose",
+      "adj_loc_sg_fem_cmpr": "geresnėje",
+      "adj_loc_sg_fem_pos": "geroje",
+      "adj_loc_sg_fem_sprl": "geriausioje",
+      "adj_loc_sg_masc_cmpr": "geresniame",
+      "adj_loc_sg_masc_pos": "gerame",
+      "adj_loc_sg_masc_sprl": "geriausiame",
+      "adj_nom_pl_fem_cmpr": "geresnės",
+      "adj_nom_pl_fem_pos": "geros",
+      "adj_nom_pl_fem_sprl": "geriausios",
+      "adj_nom_pl_masc_cmpr": "geresni",
+      "adj_nom_pl_masc_pos": "geri",
+      "adj_nom_pl_masc_sprl": "geriausi",
+      "adj_nom_sg_fem_cmpr": "geresnė",
+      "adj_nom_sg_fem_pos": "gera",
+      "adj_nom_sg_fem_sprl": "geriausia",
+      "adj_nom_sg_masc_cmpr": "geresnis",
+      "adj_nom_sg_masc_pos": "geras",
+      "adj_nom_sg_masc_sprl": "geriausias",
+      "adj_voc_pl_fem_pos": "geros",
+      "adj_voc_pl_masc_pos": "geri",
+      "adj_voc_sg_fem_pos": "gera",
+      "adj_voc_sg_masc_pos": "geras",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "girdėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "girdėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_pst_ind": "girdėjau",
+      "v_2_sg_prs_ind": "girdi",
+      "v_2_sg_pst_ind": "girdėjai",
+      "v_3_pl_prs_ind": "girdi",
+      "v_3_sg_prs_ind": "girdi"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "gražus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gražus",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "gražesnes",
+      "adj_acc_pl_fem_pos": "gražias",
+      "adj_acc_pl_fem_sprl": "gražiausias",
+      "adj_acc_pl_masc_cmpr": "gražesnius",
+      "adj_acc_pl_masc_pos": "gražius",
+      "adj_acc_pl_masc_sprl": "gražiausius",
+      "adj_acc_sg_fem_cmpr": "gražesnę",
+      "adj_acc_sg_fem_pos": "gražią",
+      "adj_acc_sg_fem_sprl": "gražiausią",
+      "adj_acc_sg_masc_cmpr": "gražesnį",
+      "adj_acc_sg_masc_pos": "gražų",
+      "adj_acc_sg_masc_sprl": "gražiausią",
+      "adj_dat_pl_fem_cmpr": "gražesnėms",
+      "adj_dat_pl_fem_pos": "gražioms",
+      "adj_dat_pl_fem_sprl": "gražiausioms",
+      "adj_dat_pl_masc_cmpr": "gražesniems",
+      "adj_dat_pl_masc_pos": "gražiems",
+      "adj_dat_pl_masc_sprl": "gražiausiems",
+      "adj_dat_sg_fem_cmpr": "gražesnei",
+      "adj_dat_sg_fem_pos": "gražiai",
+      "adj_dat_sg_fem_sprl": "gražiausiai",
+      "adj_dat_sg_masc_cmpr": "gražesniam",
+      "adj_dat_sg_masc_pos": "gražiam",
+      "adj_dat_sg_masc_sprl": "gražiausiam",
+      "adj_gen_pl_fem_cmpr": "gražesnių",
+      "adj_gen_pl_fem_pos": "gražių",
+      "adj_gen_pl_fem_sprl": "gražiausių",
+      "adj_gen_pl_masc_cmpr": "gražesnių",
+      "adj_gen_pl_masc_pos": "gražių",
+      "adj_gen_pl_masc_sprl": "gražiausių",
+      "adj_gen_sg_fem_cmpr": "gražesnės",
+      "adj_gen_sg_fem_pos": "gražios",
+      "adj_gen_sg_fem_sprl": "gražiausios",
+      "adj_gen_sg_masc_cmpr": "gražesnio",
+      "adj_gen_sg_masc_pos": "gražaus",
+      "adj_gen_sg_masc_sprl": "gražiausio",
+      "adj_inst_pl_fem_cmpr": "gražesnėmis",
+      "adj_inst_pl_fem_pos": "gražiomis",
+      "adj_inst_pl_fem_sprl": "gražiausiomis",
+      "adj_inst_pl_masc_cmpr": "gražesniais",
+      "adj_inst_pl_masc_pos": "gražiais",
+      "adj_inst_pl_masc_sprl": "gražiausiais",
+      "adj_inst_sg_fem_cmpr": "gražesne",
+      "adj_inst_sg_fem_pos": "gražia",
+      "adj_inst_sg_fem_sprl": "gražiausia",
+      "adj_inst_sg_masc_cmpr": "gražesniu",
+      "adj_inst_sg_masc_pos": "gražiu",
+      "adj_inst_sg_masc_sprl": "gražiausiu",
+      "adj_loc_pl_fem_cmpr": "gražesnėse",
+      "adj_loc_pl_fem_pos": "gražiose",
+      "adj_loc_pl_fem_sprl": "gražiausiose",
+      "adj_loc_pl_masc_cmpr": "gražesniuose",
+      "adj_loc_pl_masc_pos": "gražiuose",
+      "adj_loc_pl_masc_sprl": "gražiausiuose",
+      "adj_loc_sg_fem_cmpr": "gražesnėje",
+      "adj_loc_sg_fem_pos": "gražioje",
+      "adj_loc_sg_fem_sprl": "gražiausioje",
+      "adj_loc_sg_masc_cmpr": "gražesniame",
+      "adj_loc_sg_masc_pos": "gražiame",
+      "adj_loc_sg_masc_sprl": "gražiausiame",
+      "adj_nom_pl_fem_cmpr": "gražesnės",
+      "adj_nom_pl_fem_pos": "gražios",
+      "adj_nom_pl_fem_sprl": "gražiausios",
+      "adj_nom_pl_masc_cmpr": "gražesni",
+      "adj_nom_pl_masc_pos": "gražūs",
+      "adj_nom_pl_masc_sprl": "gražiausi",
+      "adj_nom_sg_fem_cmpr": "gražesnė",
+      "adj_nom_sg_fem_pos": "graži",
+      "adj_nom_sg_fem_sprl": "gražiausia",
+      "adj_nom_sg_masc_cmpr": "gražesnis",
+      "adj_nom_sg_masc_pos": "gražus",
+      "adj_nom_sg_masc_sprl": "gražiausias",
+      "adj_voc_pl_fem_pos": "gražios",
+      "adj_voc_pl_masc_pos": "gražūs",
+      "adj_voc_sg_fem_pos": "graži",
+      "adj_voc_sg_masc_pos": "gražus",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "greitas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "greitas",
+    "inflections": {
+      "adj_dat_sg_fem_pos": "greitai",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "adjective"
+    ]
+  },
+  "istorija": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "istorija",
+    "inflections": {
+      "n_acc_pl": "istòrijas",
+      "n_acc_sg": "istòriją",
+      "n_dat_pl": "istòrijoms",
+      "n_dat_sg": "istòrijai",
+      "n_gen_pl": "istòrijų",
+      "n_gen_sg": "istòrijos",
+      "n_inst_pl": "istòrijomis",
+      "n_inst_sg": "istòrija",
+      "n_loc_pl": "istòrijose",
+      "n_loc_sg": "istòrijoje",
+      "n_nom_pl": "istòrijos",
+      "n_nom_sg": "istòrija",
+      "n_voc_pl": "istòrijos",
+      "n_voc_sg": "istòrija",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "joti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "joti",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_fut_ind": "jos",
+      "v_3_sg_fut_ind": "jos"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "kalbus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kalbus",
+    "inflections": {
+      "adj_nom_sg_fem_pos": "kalbi",
+      "adj_voc_sg_fem_pos": "kalbi",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kalbėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kalbėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "kalbėsime",
+      "v_1_pl_imp": "kalbėkime",
+      "v_1_pl_prs_ind": "kalbame",
+      "v_1_pl_pst_freq_ind": "kalbėdavome",
+      "v_1_pl_pst_ind": "kalbėjome",
+      "v_1_pl_sbjv": "kalbėtumėme",
+      "v_1_sg_fut_ind": "kalbėsiu",
+      "v_1_sg_prs_ind": "kalbu",
+      "v_1_sg_pst_freq_ind": "kalbėdavau",
+      "v_1_sg_pst_ind": "kalbėjau",
+      "v_1_sg_sbjv": "kalbėčiau",
+      "v_2_pl_fut_ind": "kalbėsite",
+      "v_2_pl_imp": "kalbėkite",
+      "v_2_pl_prs_ind": "kalbate",
+      "v_2_pl_pst_freq_ind": "kalbėdavote",
+      "v_2_pl_pst_ind": "kalbėjote",
+      "v_2_pl_sbjv": "kalbėtumėte",
+      "v_2_sg_fut_ind": "kalbėsi",
+      "v_2_sg_imp": "kalbėk",
+      "v_2_sg_prs_ind": "kalbi",
+      "v_2_sg_pst_freq_ind": "kalbėdavai",
+      "v_2_sg_pst_ind": "kalbėjai",
+      "v_2_sg_sbjv": "kalbėtum",
+      "v_3_pl_fut_ind": "kalbės",
+      "v_3_pl_imp": "tekalba",
+      "v_3_pl_prs_ind": "kalba",
+      "v_3_pl_pst_freq_ind": "kalbėdavo",
+      "v_3_pl_pst_ind": "kalbėjo",
+      "v_3_pl_sbjv": "kalbėtų",
+      "v_3_sg_fut_ind": "kalbės",
+      "v_3_sg_imp": "tekalba",
+      "v_3_sg_prs_ind": "kalba",
+      "v_3_sg_pst_freq_ind": "kalbėdavo",
+      "v_3_sg_pst_ind": "kalbėjo",
+      "v_3_sg_sbjv": "kalbėtų",
+      "v_v_ptcp_adv_fut_act": "kalbėsiant",
+      "v_v_ptcp_adv_lgspec2_act": "kalbėdamas",
+      "v_v_ptcp_adv_prs_act": "kalbant",
+      "v_v_ptcp_adv_pst_act": "kalbėjus",
+      "v_v_ptcp_adv_pst_freq_act": "kalbėdavus",
+      "v_v_ptcp_fut_act": "kalbėsiąs",
+      "v_v_ptcp_fut_pass": "kalbėsimas",
+      "v_v_ptcp_lgspec1_pass": "kalbėtinas",
+      "v_v_ptcp_lgspec3": "kalbėte",
+      "v_v_ptcp_prs_act": "kalbąs",
+      "v_v_ptcp_prs_pass": "kalbamas",
+      "v_v_ptcp_pst_act": "kalbėjęs",
+      "v_v_ptcp_pst_freq_act": "kalbėdavęs",
+      "v_v_ptcp_pst_pass": "kalbėtas"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "karas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "karas",
+    "inflections": {
+      "n_acc_pl": "karus",
+      "n_acc_sg": "karą",
+      "n_dat_pl": "karams",
+      "n_dat_sg": "karui",
+      "n_gen_pl": "karų",
+      "n_gen_sg": "karo",
+      "n_inst_pl": "karais",
+      "n_inst_sg": "karu",
+      "n_loc_pl": "karuose",
+      "n_loc_sg": "kare",
+      "n_nom_pl": "karai",
+      "n_nom_sg": "karas",
+      "n_voc_pl": "karai",
+      "n_voc_sg": "kare",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "kartus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kartus",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "kartesnes",
+      "adj_acc_pl_fem_pos": "karčias",
+      "adj_acc_pl_fem_sprl": "karčiausias",
+      "adj_acc_pl_masc_cmpr": "kartesnius",
+      "adj_acc_pl_masc_pos": "karčius",
+      "adj_acc_pl_masc_sprl": "karčiausius",
+      "adj_acc_sg_fem_cmpr": "kartesnę",
+      "adj_acc_sg_fem_pos": "karčią",
+      "adj_acc_sg_fem_sprl": "karčiausią",
+      "adj_acc_sg_masc_cmpr": "kartesnį",
+      "adj_acc_sg_masc_pos": "kartų",
+      "adj_acc_sg_masc_sprl": "karčiausią",
+      "adj_dat_pl_fem_cmpr": "kartesnėms",
+      "adj_dat_pl_fem_pos": "karčioms",
+      "adj_dat_pl_fem_sprl": "karčiausioms",
+      "adj_dat_pl_masc_cmpr": "kartesniems",
+      "adj_dat_pl_masc_pos": "kartiems",
+      "adj_dat_pl_masc_sprl": "karčiausiems",
+      "adj_dat_sg_fem_cmpr": "kartesnei",
+      "adj_dat_sg_fem_pos": "karčiai",
+      "adj_dat_sg_fem_sprl": "karčiausiai",
+      "adj_dat_sg_masc_cmpr": "kartesniam",
+      "adj_dat_sg_masc_pos": "karčiam",
+      "adj_dat_sg_masc_sprl": "karčiausiam",
+      "adj_gen_pl_fem_cmpr": "kartesnių",
+      "adj_gen_pl_fem_pos": "karčių",
+      "adj_gen_pl_fem_sprl": "karčiausių",
+      "adj_gen_pl_masc_cmpr": "kartesnių",
+      "adj_gen_pl_masc_pos": "karčių",
+      "adj_gen_pl_masc_sprl": "karčiausių",
+      "adj_gen_sg_fem_cmpr": "kartesnės",
+      "adj_gen_sg_fem_pos": "karčios",
+      "adj_gen_sg_fem_sprl": "karčiausios",
+      "adj_gen_sg_masc_cmpr": "kartesnio",
+      "adj_gen_sg_masc_pos": "kartaus",
+      "adj_gen_sg_masc_sprl": "karčiausio",
+      "adj_inst_pl_fem_cmpr": "kartesnėmis",
+      "adj_inst_pl_fem_pos": "karčiomis",
+      "adj_inst_pl_fem_sprl": "karčiausiomis",
+      "adj_inst_pl_masc_cmpr": "kartesniais",
+      "adj_inst_pl_masc_pos": "karčiais",
+      "adj_inst_pl_masc_sprl": "karčiausiais",
+      "adj_inst_sg_fem_cmpr": "kartesne",
+      "adj_inst_sg_fem_pos": "karčia",
+      "adj_inst_sg_fem_sprl": "karčiausia",
+      "adj_inst_sg_masc_cmpr": "kartesniu",
+      "adj_inst_sg_masc_pos": "karčiu",
+      "adj_inst_sg_masc_sprl": "karčiausiu",
+      "adj_loc_pl_fem_cmpr": "kartesnėse",
+      "adj_loc_pl_fem_pos": "karčiose",
+      "adj_loc_pl_fem_sprl": "karčiausiose",
+      "adj_loc_pl_masc_cmpr": "kartesniuose",
+      "adj_loc_pl_masc_pos": "karčiuose",
+      "adj_loc_pl_masc_sprl": "karčiausiuose",
+      "adj_loc_sg_fem_cmpr": "kartesnėje",
+      "adj_loc_sg_fem_pos": "karčioje",
+      "adj_loc_sg_fem_sprl": "karčiausioje",
+      "adj_loc_sg_masc_cmpr": "kartesniame",
+      "adj_loc_sg_masc_pos": "karčiame",
+      "adj_loc_sg_masc_sprl": "karčiausiame",
+      "adj_nom_pl_fem_cmpr": "kartesnės",
+      "adj_nom_pl_fem_pos": "karčios",
+      "adj_nom_pl_fem_sprl": "karčiausios",
+      "adj_nom_pl_masc_cmpr": "kartesni",
+      "adj_nom_pl_masc_pos": "kartūs",
+      "adj_nom_pl_masc_sprl": "karčiausi",
+      "adj_nom_sg_fem_cmpr": "kartesnė",
+      "adj_nom_sg_fem_pos": "karti",
+      "adj_nom_sg_fem_sprl": "karčiausia",
+      "adj_nom_sg_masc_cmpr": "kartesnis",
+      "adj_nom_sg_masc_pos": "kartus",
+      "adj_nom_sg_masc_sprl": "karčiausias",
+      "adj_voc_pl_fem_pos": "karčios",
+      "adj_voc_pl_masc_pos": "kartūs",
+      "adj_voc_sg_fem_pos": "karti",
+      "adj_voc_sg_masc_pos": "kartus",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "adjective"
+    ]
+  },
+  "keistas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "keistas",
+    "inflections": {
+      "adj_inst_sg_fem_pos": "keista",
+      "adj_nom_sg_fem_pos": "keista",
+      "adj_voc_sg_fem_pos": "keista",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "kelias": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kelias",
+    "inflections": {
+      "n_acc_pl": "kelius",
+      "n_acc_sg": "kelią",
+      "n_dat_pl": "keliams",
+      "n_dat_sg": "keliui",
+      "n_gen_pl": "kelių",
+      "n_gen_sg": "kelio",
+      "n_inst_pl": "keliais",
+      "n_inst_sg": "keliu",
+      "n_loc_pl": "keliuose",
+      "n_loc_sg": "kelyje",
+      "n_nom_pl": "keliai",
+      "n_nom_sg": "kelias",
+      "n_voc_pl": "keliai",
+      "n_voc_sg": "keliau",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "kelis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kelis",
+    "inflections": {
+      "n_acc_pl": "keliùs",
+      "n_acc_sg": "kẽlį",
+      "n_dat_pl": "kẽliams",
+      "n_dat_sg": "kẽliui",
+      "n_gen_pl": "kẽlių",
+      "n_gen_sg": "kẽlio",
+      "n_inst_pl": "kẽliais",
+      "n_inst_sg": "keliù",
+      "n_loc_pl": "kẽliuose",
+      "n_loc_sg": "kẽlyje",
+      "n_nom_pl": "kẽliai",
+      "n_nom_sg": "kẽlis",
+      "n_voc_pl": "kẽliai",
+      "n_voc_sg": "kẽli",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "klausti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klausti",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_fut_pass": "klausimas"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "klausyti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "klausyti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "klausau",
+      "v_2_sg_imp": "klausyk"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "kraujas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kraujas",
+    "inflections": {
+      "n_gen_sg": "kraujo",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "kurti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kurti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_prs_ind": "kuri"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "labas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "labas",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "labesnes",
+      "adj_acc_pl_fem_pos": "labas",
+      "adj_acc_pl_fem_sprl": "labiausias",
+      "adj_acc_pl_masc_cmpr": "labesnius",
+      "adj_acc_pl_masc_pos": "labus",
+      "adj_acc_pl_masc_sprl": "labiausius",
+      "adj_acc_sg_fem_cmpr": "labesnę",
+      "adj_acc_sg_fem_pos": "labą",
+      "adj_acc_sg_fem_sprl": "labiausią",
+      "adj_acc_sg_masc_cmpr": "labesnį",
+      "adj_acc_sg_masc_pos": "labą",
+      "adj_acc_sg_masc_sprl": "labiausią",
+      "adj_dat_pl_fem_cmpr": "labesnėms",
+      "adj_dat_pl_fem_pos": "laboms",
+      "adj_dat_pl_fem_sprl": "labiausioms",
+      "adj_dat_pl_masc_cmpr": "labesniems",
+      "adj_dat_pl_masc_pos": "labiems",
+      "adj_dat_pl_masc_sprl": "labiausiems",
+      "adj_dat_sg_fem_cmpr": "labesnei",
+      "adj_dat_sg_fem_pos": "labai",
+      "adj_dat_sg_fem_sprl": "labiausiai",
+      "adj_dat_sg_masc_cmpr": "labesniam",
+      "adj_dat_sg_masc_pos": "labam",
+      "adj_dat_sg_masc_sprl": "labiausiam",
+      "adj_gen_pl_fem_cmpr": "labesnių",
+      "adj_gen_pl_fem_pos": "labų",
+      "adj_gen_pl_fem_sprl": "labiausių",
+      "adj_gen_pl_masc_cmpr": "labesnių",
+      "adj_gen_pl_masc_pos": "labų",
+      "adj_gen_pl_masc_sprl": "labiausių",
+      "adj_gen_sg_fem_cmpr": "labesnės",
+      "adj_gen_sg_fem_pos": "labos",
+      "adj_gen_sg_fem_sprl": "labiausios",
+      "adj_gen_sg_masc_cmpr": "labesnio",
+      "adj_gen_sg_masc_pos": "labo",
+      "adj_gen_sg_masc_sprl": "labiausio",
+      "adj_inst_pl_fem_cmpr": "labesnėmis",
+      "adj_inst_pl_fem_pos": "labomis",
+      "adj_inst_pl_fem_sprl": "labiausiomis",
+      "adj_inst_pl_masc_cmpr": "labesniais",
+      "adj_inst_pl_masc_pos": "labais",
+      "adj_inst_pl_masc_sprl": "labiausiais",
+      "adj_inst_sg_fem_cmpr": "labesne",
+      "adj_inst_sg_fem_pos": "laba",
+      "adj_inst_sg_fem_sprl": "labiausia",
+      "adj_inst_sg_masc_cmpr": "labesniu",
+      "adj_inst_sg_masc_pos": "labu",
+      "adj_inst_sg_masc_sprl": "labiausiu",
+      "adj_loc_pl_fem_cmpr": "labesnėse",
+      "adj_loc_pl_fem_pos": "labose",
+      "adj_loc_pl_fem_sprl": "labiausiose",
+      "adj_loc_pl_masc_cmpr": "labesniuose",
+      "adj_loc_pl_masc_pos": "labuose",
+      "adj_loc_pl_masc_sprl": "labiausiuose",
+      "adj_loc_sg_fem_cmpr": "labesnėje",
+      "adj_loc_sg_fem_pos": "laboje",
+      "adj_loc_sg_fem_sprl": "labiausioje",
+      "adj_loc_sg_masc_cmpr": "labesniame",
+      "adj_loc_sg_masc_pos": "labame",
+      "adj_loc_sg_masc_sprl": "labiausiame",
+      "adj_nom_pl_fem_cmpr": "labesnės",
+      "adj_nom_pl_fem_pos": "labos",
+      "adj_nom_pl_fem_sprl": "labiausios",
+      "adj_nom_pl_masc_cmpr": "labesni",
+      "adj_nom_pl_masc_pos": "labi",
+      "adj_nom_pl_masc_sprl": "labiausi",
+      "adj_nom_sg_fem_cmpr": "labesnė",
+      "adj_nom_sg_fem_pos": "laba",
+      "adj_nom_sg_fem_sprl": "labiausia",
+      "adj_nom_sg_masc_cmpr": "labesnis",
+      "adj_nom_sg_masc_pos": "labas",
+      "adj_nom_sg_masc_sprl": "labiausias",
+      "adj_voc_pl_fem_pos": "labos",
+      "adj_voc_pl_masc_pos": "labi",
+      "adj_voc_sg_fem_pos": "laba",
+      "adj_voc_sg_masc_pos": "labas",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "adjective"
+    ]
+  },
+  "laivas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laivas",
+    "inflections": {
+      "n_acc_pl": "laivus",
+      "n_acc_sg": "laivą",
+      "n_dat_pl": "laivams",
+      "n_dat_sg": "laivui",
+      "n_gen_pl": "laivų",
+      "n_gen_sg": "laivo",
+      "n_inst_pl": "laivais",
+      "n_inst_sg": "laivu",
+      "n_loc_pl": "laivuose",
+      "n_loc_sg": "laive",
+      "n_nom_pl": "laivai",
+      "n_nom_sg": "laivas",
+      "n_voc_pl": "laivai",
+      "n_voc_sg": "laive",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "laukti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "laukti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "lauk",
+      "v_3_pl_prs_ind": "laukia",
+      "v_3_sg_prs_ind": "laukia"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "mama": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mama",
+    "inflections": {
+      "n_acc_pl": "mamas",
+      "n_acc_sg": "mamą",
+      "n_dat_pl": "mamoms",
+      "n_dat_sg": "mamai",
+      "n_gen_pl": "mamų",
+      "n_gen_sg": "mamos",
+      "n_inst_pl": "mamomis",
+      "n_inst_sg": "mama",
+      "n_loc_pl": "mamose",
+      "n_loc_sg": "mamoje",
+      "n_nom_pl": "mamos",
+      "n_nom_sg": "mama",
+      "n_voc_pl": "mamos",
+      "n_voc_sg": "mama",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "mažas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mažas",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "mažesnes",
+      "adj_acc_pl_fem_pos": "mažas",
+      "adj_acc_pl_fem_sprl": "mažiausias",
+      "adj_acc_pl_masc_cmpr": "mažesnius",
+      "adj_acc_pl_masc_pos": "mažus",
+      "adj_acc_pl_masc_sprl": "mažiausius",
+      "adj_acc_sg_fem_cmpr": "mažesnę",
+      "adj_acc_sg_fem_pos": "mažą",
+      "adj_acc_sg_fem_sprl": "mažiausią",
+      "adj_acc_sg_masc_cmpr": "mažesnį",
+      "adj_acc_sg_masc_pos": "mažą",
+      "adj_acc_sg_masc_sprl": "mažiausią",
+      "adj_dat_pl_fem_cmpr": "mažesnėms",
+      "adj_dat_pl_fem_pos": "mažoms",
+      "adj_dat_pl_fem_sprl": "mažiausioms",
+      "adj_dat_pl_masc_cmpr": "mažesniems",
+      "adj_dat_pl_masc_pos": "mažiems",
+      "adj_dat_pl_masc_sprl": "mažiausiems",
+      "adj_dat_sg_fem_cmpr": "mažesnei",
+      "adj_dat_sg_fem_pos": "mažai",
+      "adj_dat_sg_fem_sprl": "mažiausiai",
+      "adj_dat_sg_masc_cmpr": "mažesniam",
+      "adj_dat_sg_masc_pos": "mažam",
+      "adj_dat_sg_masc_sprl": "mažiausiam",
+      "adj_gen_pl_fem_cmpr": "mažesnių",
+      "adj_gen_pl_fem_pos": "mažų",
+      "adj_gen_pl_fem_sprl": "mažiausių",
+      "adj_gen_pl_masc_cmpr": "mažesnių",
+      "adj_gen_pl_masc_pos": "mažų",
+      "adj_gen_pl_masc_sprl": "mažiausių",
+      "adj_gen_sg_fem_cmpr": "mažesnės",
+      "adj_gen_sg_fem_pos": "mažos",
+      "adj_gen_sg_fem_sprl": "mažiausios",
+      "adj_gen_sg_masc_cmpr": "mažesnio",
+      "adj_gen_sg_masc_pos": "mažo",
+      "adj_gen_sg_masc_sprl": "mažiausio",
+      "adj_inst_pl_fem_cmpr": "mažesnėmis",
+      "adj_inst_pl_fem_pos": "mažomis",
+      "adj_inst_pl_fem_sprl": "mažiausiomis",
+      "adj_inst_pl_masc_cmpr": "mažesniais",
+      "adj_inst_pl_masc_pos": "mažais",
+      "adj_inst_pl_masc_sprl": "mažiausiais",
+      "adj_inst_sg_fem_cmpr": "mažesne",
+      "adj_inst_sg_fem_pos": "maža",
+      "adj_inst_sg_fem_sprl": "mažiausia",
+      "adj_inst_sg_masc_cmpr": "mažesniu",
+      "adj_inst_sg_masc_pos": "mažu",
+      "adj_inst_sg_masc_sprl": "mažiausiu",
+      "adj_loc_pl_fem_cmpr": "mažesnėse",
+      "adj_loc_pl_fem_pos": "mažose",
+      "adj_loc_pl_fem_sprl": "mažiausiose",
+      "adj_loc_pl_masc_cmpr": "mažesniuose",
+      "adj_loc_pl_masc_pos": "mažuose",
+      "adj_loc_pl_masc_sprl": "mažiausiuose",
+      "adj_loc_sg_fem_cmpr": "mažesnėje",
+      "adj_loc_sg_fem_pos": "mažoje",
+      "adj_loc_sg_fem_sprl": "mažiausioje",
+      "adj_loc_sg_masc_cmpr": "mažesniame",
+      "adj_loc_sg_masc_pos": "mažame",
+      "adj_loc_sg_masc_sprl": "mažiausiame",
+      "adj_nom_pl_fem_cmpr": "mažesnės",
+      "adj_nom_pl_fem_pos": "mažos",
+      "adj_nom_pl_fem_sprl": "mažiausios",
+      "adj_nom_pl_masc_cmpr": "mažesni",
+      "adj_nom_pl_masc_pos": "maži",
+      "adj_nom_pl_masc_sprl": "mažiausi",
+      "adj_nom_sg_fem_cmpr": "mažesnė",
+      "adj_nom_sg_fem_pos": "maža",
+      "adj_nom_sg_fem_sprl": "mažiausia",
+      "adj_nom_sg_masc_cmpr": "mažesnis",
+      "adj_nom_sg_masc_pos": "mažas",
+      "adj_nom_sg_masc_sprl": "mažiausias",
+      "adj_voc_pl_fem_pos": "mažos",
+      "adj_voc_pl_masc_pos": "maži",
+      "adj_voc_sg_fem_pos": "maža",
+      "adj_voc_sg_masc_pos": "mažas",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "adjective"
+    ]
+  },
+  "meilė": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "meilė",
+    "inflections": {
+      "n_acc_pl": "méiles",
+      "n_acc_sg": "méilę",
+      "n_dat_pl": "méilėms",
+      "n_dat_sg": "méilei",
+      "n_gen_pl": "méilių",
+      "n_gen_sg": "méilės",
+      "n_inst_pl": "méilėmis",
+      "n_inst_sg": "méile",
+      "n_loc_pl": "méilėse",
+      "n_loc_sg": "méilėje",
+      "n_nom_pl": "méilės",
+      "n_nom_sg": "méilė",
+      "n_voc_pl": "méilės",
+      "n_voc_sg": "méile",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "mergina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mergina",
+    "inflections": {
+      "n_acc_pl": "merginas",
+      "n_acc_sg": "merginą",
+      "n_dat_pl": "merginoms",
+      "n_dat_sg": "merginai",
+      "n_gen_pl": "merginų",
+      "n_gen_sg": "merginos",
+      "n_inst_pl": "merginomis",
+      "n_inst_sg": "mergina",
+      "n_loc_pl": "merginose",
+      "n_loc_sg": "merginoje",
+      "n_nom_pl": "merginos",
+      "n_nom_sg": "mergina",
+      "n_voc_pl": "merginos",
+      "n_voc_sg": "mergina",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "metai": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "metai",
+    "inflections": {
+      "n_acc_sg": "metus",
+      "n_dat_sg": "metams",
+      "n_gen_sg": "metų",
+      "n_inst_sg": "metais",
+      "n_loc_sg": "metuose",
+      "n_nom_sg": "metai",
+      "n_voc_sg": "metai",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "mielas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mielas",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "mielesnes",
+      "adj_acc_pl_fem_pos": "mielas",
+      "adj_acc_pl_fem_sprl": "mieliausias",
+      "adj_acc_pl_masc_cmpr": "mielesnius",
+      "adj_acc_pl_masc_pos": "mielus",
+      "adj_acc_pl_masc_sprl": "mieliausius",
+      "adj_acc_sg_fem_cmpr": "mielesnę",
+      "adj_acc_sg_fem_pos": "mielą",
+      "adj_acc_sg_fem_sprl": "mieliausią",
+      "adj_acc_sg_masc_cmpr": "mielesnį",
+      "adj_acc_sg_masc_pos": "mielą",
+      "adj_acc_sg_masc_sprl": "mieliausią",
+      "adj_dat_pl_fem_cmpr": "mielesnėms",
+      "adj_dat_pl_fem_pos": "mieloms",
+      "adj_dat_pl_fem_sprl": "mieliausioms",
+      "adj_dat_pl_masc_cmpr": "mielesniems",
+      "adj_dat_pl_masc_pos": "mieliems",
+      "adj_dat_pl_masc_sprl": "mieliausiems",
+      "adj_dat_sg_fem_cmpr": "mielesnei",
+      "adj_dat_sg_fem_pos": "mielai",
+      "adj_dat_sg_fem_sprl": "mieliausiai",
+      "adj_dat_sg_masc_cmpr": "mielesniam",
+      "adj_dat_sg_masc_pos": "mielam",
+      "adj_dat_sg_masc_sprl": "mieliausiam",
+      "adj_gen_pl_fem_cmpr": "mielesnių",
+      "adj_gen_pl_fem_pos": "mielų",
+      "adj_gen_pl_fem_sprl": "mieliausių",
+      "adj_gen_pl_masc_cmpr": "mielesnių",
+      "adj_gen_pl_masc_pos": "mielų",
+      "adj_gen_pl_masc_sprl": "mieliausių",
+      "adj_gen_sg_fem_cmpr": "mielesnės",
+      "adj_gen_sg_fem_pos": "mielos",
+      "adj_gen_sg_fem_sprl": "mieliausios",
+      "adj_gen_sg_masc_cmpr": "mielesnio",
+      "adj_gen_sg_masc_pos": "mielo",
+      "adj_gen_sg_masc_sprl": "mieliausio",
+      "adj_inst_pl_fem_cmpr": "mielesnėmis",
+      "adj_inst_pl_fem_pos": "mielomis",
+      "adj_inst_pl_fem_sprl": "mieliausiomis",
+      "adj_inst_pl_masc_cmpr": "mielesniais",
+      "adj_inst_pl_masc_pos": "mielais",
+      "adj_inst_pl_masc_sprl": "mieliausiais",
+      "adj_inst_sg_fem_cmpr": "mielesne",
+      "adj_inst_sg_fem_pos": "miela",
+      "adj_inst_sg_fem_sprl": "mieliausia",
+      "adj_inst_sg_masc_cmpr": "mielesniu",
+      "adj_inst_sg_masc_pos": "mielu",
+      "adj_inst_sg_masc_sprl": "mieliausiu",
+      "adj_loc_pl_fem_cmpr": "mielesnėse",
+      "adj_loc_pl_fem_pos": "mielose",
+      "adj_loc_pl_fem_sprl": "mieliausiose",
+      "adj_loc_pl_masc_cmpr": "mielesniuose",
+      "adj_loc_pl_masc_pos": "mieluose",
+      "adj_loc_pl_masc_sprl": "mieliausiuose",
+      "adj_loc_sg_fem_cmpr": "mielesnėje",
+      "adj_loc_sg_fem_pos": "mieloje",
+      "adj_loc_sg_fem_sprl": "mieliausioje",
+      "adj_loc_sg_masc_cmpr": "mielesniame",
+      "adj_loc_sg_masc_pos": "mielame",
+      "adj_loc_sg_masc_sprl": "mieliausiame",
+      "adj_nom_pl_fem_cmpr": "mielesnės",
+      "adj_nom_pl_fem_pos": "mielos",
+      "adj_nom_pl_fem_sprl": "mieliausios",
+      "adj_nom_pl_masc_cmpr": "mielesni",
+      "adj_nom_pl_masc_pos": "mieli",
+      "adj_nom_pl_masc_sprl": "mieliausi",
+      "adj_nom_sg_fem_cmpr": "mielesnė",
+      "adj_nom_sg_fem_pos": "miela",
+      "adj_nom_sg_fem_sprl": "mieliausia",
+      "adj_nom_sg_masc_cmpr": "mielesnis",
+      "adj_nom_sg_masc_pos": "mielas",
+      "adj_nom_sg_masc_sprl": "mieliausias",
+      "adj_voc_pl_fem_pos": "mielos",
+      "adj_voc_pl_masc_pos": "mieli",
+      "adj_voc_sg_fem_pos": "miela",
+      "adj_voc_sg_masc_pos": "mielas",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "adjective"
+    ]
+  },
+  "mirtis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mirtis",
+    "inflections": {
+      "n_acc_pl": "mirtis",
+      "n_acc_sg": "mirtį",
+      "n_dat_pl": "mirtims",
+      "n_dat_sg": "mirčiai",
+      "n_gen_pl": "mirčių",
+      "n_gen_sg": "mirties",
+      "n_inst_pl": "mirtimis",
+      "n_inst_sg": "mirtimi",
+      "n_loc_pl": "mirtyse",
+      "n_loc_sg": "mirtyje",
+      "n_nom_pl": "mirtys",
+      "n_nom_sg": "mirtis",
+      "n_voc_pl": "mirtys",
+      "n_voc_sg": "mirtie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "moteris": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "moteris",
+    "inflections": {
+      "n_acc_pl": "móteris",
+      "n_acc_sg": "móterį",
+      "n_dat_pl": "móterims",
+      "n_dat_sg": "móteriai",
+      "n_gen_pl": "móters",
+      "n_gen_sg": "móteries",
+      "n_inst_pl": "móterimis",
+      "n_inst_sg": "móterimi",
+      "n_loc_pl": "móteryse",
+      "n_loc_sg": "móteryje",
+      "n_nom_pl": "móterys",
+      "n_nom_sg": "móteris",
+      "n_voc_pl": "móterys",
+      "n_voc_sg": "móterie",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "motina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "motina",
+    "inflections": {
+      "n_acc_pl": "motinas",
+      "n_acc_sg": "motiną",
+      "n_dat_pl": "motinoms",
+      "n_dat_sg": "motinai",
+      "n_gen_pl": "motinų",
+      "n_gen_sg": "motinos",
+      "n_inst_pl": "motinomis",
+      "n_inst_sg": "motina",
+      "n_loc_pl": "motinose",
+      "n_loc_sg": "motinoje",
+      "n_nom_pl": "motinos",
+      "n_nom_sg": "motina",
+      "n_voc_pl": "motinos",
+      "n_voc_sg": "motina",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "mylėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "mylėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "myliu",
+      "v_2_sg_prs_ind": "myli",
+      "v_3_pl_prs_ind": "myli",
+      "v_3_sg_prs_ind": "myli"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "naktis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "naktis",
+    "inflections": {
+      "n_acc_sg": "naktį",
+      "n_gen_sg": "nakties",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "nekęsti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nekęsti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "nekenčiu"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "nesąmonė": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "nesąmonė",
+    "inflections": {
+      "n_acc_pl": "nesą́mones",
+      "n_acc_sg": "nesą́monę",
+      "n_dat_pl": "nesą́monėms",
+      "n_dat_sg": "nesą́monei",
+      "n_gen_pl": "nesą́monių",
+      "n_gen_sg": "nesą́monės",
+      "n_inst_pl": "nesą́monėmis",
+      "n_inst_sg": "nesą́mone",
+      "n_loc_pl": "nesą́monėse",
+      "n_loc_sg": "nesą́monėje",
+      "n_nom_pl": "nesą́monės",
+      "n_nom_sg": "nesą́monė",
+      "n_voc_pl": "nesą́monės",
+      "n_voc_sg": "nesą́mone",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "norėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "norėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "noriu",
+      "v_1_sg_pst_ind": "norėjau",
+      "v_1_sg_sbjv": "norėčiau",
+      "v_2_pl_prs_ind": "norite",
+      "v_2_sg_prs_ind": "nori",
+      "v_2_sg_pst_ind": "norėjai",
+      "v_2_sg_sbjv": "norėtum",
+      "v_3_pl_prs_ind": "nori",
+      "v_3_pl_pst_ind": "norėjo",
+      "v_3_sg_prs_ind": "nori",
+      "v_3_sg_pst_ind": "norėjo"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "pabaiga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pabaiga",
+    "inflections": {
+      "n_acc_pl": "pãbaigas",
+      "n_acc_sg": "pãbaigą",
+      "n_dat_pl": "pabaigóms",
+      "n_dat_sg": "pãbaigai",
+      "n_gen_pl": "pabaigų̃",
+      "n_gen_sg": "pabaigõs",
+      "n_inst_pl": "pabaigomìs",
+      "n_inst_sg": "pãbaiga",
+      "n_loc_pl": "pabaigosè",
+      "n_loc_sg": "pabaigojè",
+      "n_nom_pl": "pãbaigos",
+      "n_nom_sg": "pabaigà",
+      "n_voc_pl": "pãbaigos",
+      "n_voc_sg": "pãbaiga",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "pagalba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pagalba",
+    "inflections": {
+      "n_gen_sg": "pagalbos",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "palaukti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "palaukti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "palauk"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "pasakyti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pasakyti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "pasakysime",
+      "v_1_pl_imp": "pasakykime",
+      "v_1_pl_prs_ind": "pasakome",
+      "v_1_pl_pst_freq_ind": "pasakydavome",
+      "v_1_pl_pst_ind": "pasakėme",
+      "v_1_pl_sbjv": "pasakytumėme",
+      "v_1_sg_fut_ind": "pasakysiu",
+      "v_1_sg_prs_ind": "pasakau",
+      "v_1_sg_pst_freq_ind": "pasakydavau",
+      "v_1_sg_pst_ind": "pasakiau",
+      "v_1_sg_sbjv": "pasakyčiau",
+      "v_2_pl_fut_ind": "pasakysite",
+      "v_2_pl_imp": "pasakykite",
+      "v_2_pl_prs_ind": "pasakote",
+      "v_2_pl_pst_freq_ind": "pasakydavote",
+      "v_2_pl_pst_ind": "pasakėte",
+      "v_2_pl_sbjv": "pasakytumėte",
+      "v_2_sg_fut_ind": "pasakysi",
+      "v_2_sg_imp": "pasakyk",
+      "v_2_sg_prs_ind": "pasakai",
+      "v_2_sg_pst_freq_ind": "pasakydavai",
+      "v_2_sg_pst_ind": "pasakei",
+      "v_2_sg_sbjv": "pasakytum",
+      "v_3_pl_fut_ind": "pasakys",
+      "v_3_pl_imp": "tepasako",
+      "v_3_pl_prs_ind": "pasako",
+      "v_3_pl_pst_freq_ind": "pasakydavo",
+      "v_3_pl_pst_ind": "pasakė",
+      "v_3_pl_sbjv": "pasakytų",
+      "v_3_sg_fut_ind": "pasakys",
+      "v_3_sg_imp": "tepasako",
+      "v_3_sg_prs_ind": "pasako",
+      "v_3_sg_pst_freq_ind": "pasakydavo",
+      "v_3_sg_pst_ind": "pasakė",
+      "v_3_sg_sbjv": "pasakytų",
+      "v_v_ptcp_adv_fut_act": "pasakysiant",
+      "v_v_ptcp_adv_lgspec2_act": "pasakydamas",
+      "v_v_ptcp_adv_prs_act": "pasakant",
+      "v_v_ptcp_adv_pst_act": "pasakius",
+      "v_v_ptcp_adv_pst_freq_act": "pasakydavus",
+      "v_v_ptcp_fut_act": "pasakysiąs",
+      "v_v_ptcp_fut_pass": "pasakysimas",
+      "v_v_ptcp_lgspec1_pass": "pasakytinas",
+      "v_v_ptcp_lgspec3": "pasakyte",
+      "v_v_ptcp_prs_act": "pasakąs",
+      "v_v_ptcp_prs_pass": "pasakomas",
+      "v_v_ptcp_pst_act": "pasakęs",
+      "v_v_ptcp_pst_freq_act": "pasakydavęs",
+      "v_v_ptcp_pst_pass": "pasakytas"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "pasaulis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pasaulis",
+    "inflections": {
+      "n_acc_pl": "pasáulius",
+      "n_acc_sg": "pasáulį",
+      "n_dat_pl": "pasáuliams",
+      "n_dat_sg": "pasáuliui",
+      "n_gen_pl": "pasáulių",
+      "n_gen_sg": "pasáulio",
+      "n_inst_pl": "pasáuliais",
+      "n_inst_sg": "pasáuliu",
+      "n_loc_pl": "pasáuliuose",
+      "n_loc_sg": "pasáulyje",
+      "n_nom_pl": "pasáuliai",
+      "n_nom_sg": "pasáulis",
+      "n_voc_pl": "pasáuliai",
+      "n_voc_sg": "pasáuli",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "pati": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pati",
+    "inflections": {
+      "n_acc_pl": "pačias",
+      "n_acc_sg": "pačią",
+      "n_dat_pl": "pačioms",
+      "n_dat_sg": "pačiai",
+      "n_gen_pl": "pačių",
+      "n_gen_sg": "pačios",
+      "n_inst_pl": "pačiomis",
+      "n_inst_sg": "pačia",
+      "n_loc_pl": "pačiose",
+      "n_loc_sg": "pačioje",
+      "n_nom_pl": "pačios",
+      "n_nom_sg": "pati",
+      "n_voc_pl": "pačios",
+      "n_voc_sg": "pati",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "patikti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "patikti",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_prs_ind": "patinka",
+      "v_3_pl_pst_ind": "patiko",
+      "v_3_sg_prs_ind": "patinka",
+      "v_3_sg_pst_ind": "patiko"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "pradėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pradėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "pradėsime",
+      "v_1_pl_imp": "pradėkime",
+      "v_1_pl_prs_ind": "pradedame",
+      "v_1_pl_pst_freq_ind": "pradėdavome",
+      "v_1_pl_pst_ind": "pradėjome",
+      "v_1_pl_sbjv": "pradėtumėme",
+      "v_1_sg_fut_ind": "pradėsiu",
+      "v_1_sg_prs_ind": "pradedu",
+      "v_1_sg_pst_freq_ind": "pradėdavau",
+      "v_1_sg_pst_ind": "pradėjau",
+      "v_1_sg_sbjv": "pradėčiau",
+      "v_2_pl_fut_ind": "pradėsite",
+      "v_2_pl_imp": "pradėkite",
+      "v_2_pl_prs_ind": "pradedate",
+      "v_2_pl_pst_freq_ind": "pradėdavote",
+      "v_2_pl_pst_ind": "pradėjote",
+      "v_2_pl_sbjv": "pradėtumėte",
+      "v_2_sg_fut_ind": "pradėsi",
+      "v_2_sg_imp": "pradėk",
+      "v_2_sg_prs_ind": "pradedi",
+      "v_2_sg_pst_freq_ind": "pradėdavai",
+      "v_2_sg_pst_ind": "pradėjai",
+      "v_2_sg_sbjv": "pradėtum",
+      "v_3_pl_fut_ind": "pradės",
+      "v_3_pl_imp": "tepradeda",
+      "v_3_pl_prs_ind": "pradeda",
+      "v_3_pl_pst_freq_ind": "pradėdavo",
+      "v_3_pl_pst_ind": "pradėjo",
+      "v_3_pl_sbjv": "pradėtų",
+      "v_3_sg_fut_ind": "pradės",
+      "v_3_sg_imp": "tepradeda",
+      "v_3_sg_prs_ind": "pradeda",
+      "v_3_sg_pst_freq_ind": "pradėdavo",
+      "v_3_sg_pst_ind": "pradėjo",
+      "v_3_sg_sbjv": "pradėtų",
+      "v_v_ptcp_adv_fut_act": "pradėsiant",
+      "v_v_ptcp_adv_lgspec2_act": "pradėdamas",
+      "v_v_ptcp_adv_prs_act": "pradedant",
+      "v_v_ptcp_adv_pst_act": "pradėjus",
+      "v_v_ptcp_adv_pst_freq_act": "pradėdavus",
+      "v_v_ptcp_fut_act": "pradėsiąs",
+      "v_v_ptcp_fut_pass": "pradėsimas",
+      "v_v_ptcp_lgspec1_pass": "pradėtinas",
+      "v_v_ptcp_lgspec3": "pradėte",
+      "v_v_ptcp_prs_act": "pradedąs",
+      "v_v_ptcp_prs_pass": "pradedamas",
+      "v_v_ptcp_pst_act": "pradėjęs",
+      "v_v_ptcp_pst_freq_act": "pradėdavęs",
+      "v_v_ptcp_pst_pass": "pradėtas"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ramus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ramus",
+    "inflections": {
+      "adj_dat_sg_fem_pos": "ramiai",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "adjective"
+    ]
+  },
+  "ranka": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ranka",
+    "inflections": {
+      "n_acc_pl": "rankàs",
+      "n_acc_sg": "rañką",
+      "n_dat_pl": "rañkoms",
+      "n_dat_sg": "rañkai",
+      "n_gen_pl": "rañkų",
+      "n_gen_sg": "rañkos",
+      "n_inst_pl": "rañkomis",
+      "n_inst_sg": "rankà",
+      "n_loc_pl": "rañkose",
+      "n_loc_sg": "rañkoje",
+      "n_nom_pl": "rañkos",
+      "n_nom_sg": "rankà",
+      "n_voc_pl": "rañkos",
+      "n_voc_sg": "rañka",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "rytas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "rytas",
+    "inflections": {
+      "n_acc_pl": "rýtus",
+      "n_acc_sg": "rýtą",
+      "n_dat_pl": "rytáms",
+      "n_dat_sg": "rýtui",
+      "n_gen_pl": "rytų̃",
+      "n_gen_sg": "rýto",
+      "n_inst_pl": "rytaĩs",
+      "n_inst_sg": "rýtu",
+      "n_loc_pl": "rytuosè",
+      "n_loc_sg": "rytè",
+      "n_nom_pl": "rytaĩ",
+      "n_nom_sg": "rýtas",
+      "n_voc_pl": "rytaĩ",
+      "n_voc_sg": "rýte",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "sakyti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sakyti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "sakysime",
+      "v_1_pl_imp": "sakykime",
+      "v_1_pl_prs_ind": "sakome",
+      "v_1_pl_pst_freq_ind": "sakydavome",
+      "v_1_pl_pst_ind": "sakėme",
+      "v_1_pl_sbjv": "sakytumėme",
+      "v_1_sg_fut_ind": "sakysiu",
+      "v_1_sg_prs_ind": "sakau",
+      "v_1_sg_pst_freq_ind": "sakydavau",
+      "v_1_sg_pst_ind": "sakiau",
+      "v_1_sg_sbjv": "sakyčiau",
+      "v_2_pl_fut_ind": "sakysite",
+      "v_2_pl_imp": "sakykite",
+      "v_2_pl_prs_ind": "sakote",
+      "v_2_pl_pst_freq_ind": "sakydavote",
+      "v_2_pl_pst_ind": "sakėte",
+      "v_2_pl_sbjv": "sakytumėte",
+      "v_2_sg_fut_ind": "sakysi",
+      "v_2_sg_imp": "sakyk",
+      "v_2_sg_prs_ind": "sakai",
+      "v_2_sg_pst_freq_ind": "sakydavai",
+      "v_2_sg_pst_ind": "sakei",
+      "v_2_sg_sbjv": "sakytum",
+      "v_3_pl_fut_ind": "sakys",
+      "v_3_pl_imp": "tesako",
+      "v_3_pl_prs_ind": "sako",
+      "v_3_pl_pst_freq_ind": "sakydavo",
+      "v_3_pl_pst_ind": "sakė",
+      "v_3_pl_sbjv": "sakytų",
+      "v_3_sg_fut_ind": "sakys",
+      "v_3_sg_imp": "tesako",
+      "v_3_sg_prs_ind": "sako",
+      "v_3_sg_pst_freq_ind": "sakydavo",
+      "v_3_sg_pst_ind": "sakė",
+      "v_3_sg_sbjv": "sakytų",
+      "v_v_ptcp_adv_fut_act": "sakysiant",
+      "v_v_ptcp_adv_lgspec2_act": "sakydamas",
+      "v_v_ptcp_adv_prs_act": "sakant",
+      "v_v_ptcp_adv_pst_act": "sakius",
+      "v_v_ptcp_adv_pst_freq_act": "sakydavus",
+      "v_v_ptcp_fut_act": "sakysiąs",
+      "v_v_ptcp_fut_pass": "sakysimas",
+      "v_v_ptcp_lgspec1_pass": "sakytinas",
+      "v_v_ptcp_lgspec3": "sakyte",
+      "v_v_ptcp_prs_act": "sakąs",
+      "v_v_ptcp_prs_pass": "sakomas",
+      "v_v_ptcp_pst_act": "sakęs",
+      "v_v_ptcp_pst_freq_act": "sakydavęs",
+      "v_v_ptcp_pst_pass": "sakytas"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "senas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "senas",
+    "inflections": {
+      "adj_acc_pl_fem_cmpr": "senesnes",
+      "adj_acc_pl_fem_pos": "senas",
+      "adj_acc_pl_fem_sprl": "seniausias",
+      "adj_acc_pl_masc_cmpr": "senesnius",
+      "adj_acc_pl_masc_pos": "senus",
+      "adj_acc_pl_masc_sprl": "seniausius",
+      "adj_acc_sg_fem_cmpr": "senesnę",
+      "adj_acc_sg_fem_pos": "seną",
+      "adj_acc_sg_fem_sprl": "seniausią",
+      "adj_acc_sg_masc_cmpr": "senesnį",
+      "adj_acc_sg_masc_pos": "seną",
+      "adj_acc_sg_masc_sprl": "seniausią",
+      "adj_dat_pl_fem_cmpr": "senesnėms",
+      "adj_dat_pl_fem_pos": "senoms",
+      "adj_dat_pl_fem_sprl": "seniausioms",
+      "adj_dat_pl_masc_cmpr": "senesniems",
+      "adj_dat_pl_masc_pos": "seniems",
+      "adj_dat_pl_masc_sprl": "seniausiems",
+      "adj_dat_sg_fem_cmpr": "senesnei",
+      "adj_dat_sg_fem_pos": "senai",
+      "adj_dat_sg_fem_sprl": "seniausiai",
+      "adj_dat_sg_masc_cmpr": "senesniam",
+      "adj_dat_sg_masc_pos": "senam",
+      "adj_dat_sg_masc_sprl": "seniausiam",
+      "adj_gen_pl_fem_cmpr": "senesnių",
+      "adj_gen_pl_fem_pos": "senų",
+      "adj_gen_pl_fem_sprl": "seniausių",
+      "adj_gen_pl_masc_cmpr": "senesnių",
+      "adj_gen_pl_masc_pos": "senų",
+      "adj_gen_pl_masc_sprl": "seniausių",
+      "adj_gen_sg_fem_cmpr": "senesnės",
+      "adj_gen_sg_fem_pos": "senos",
+      "adj_gen_sg_fem_sprl": "seniausios",
+      "adj_gen_sg_masc_cmpr": "senesnio",
+      "adj_gen_sg_masc_pos": "seno",
+      "adj_gen_sg_masc_sprl": "seniausio",
+      "adj_inst_pl_fem_cmpr": "senesnėmis",
+      "adj_inst_pl_fem_pos": "senomis",
+      "adj_inst_pl_fem_sprl": "seniausiomis",
+      "adj_inst_pl_masc_cmpr": "senesniais",
+      "adj_inst_pl_masc_pos": "senais",
+      "adj_inst_pl_masc_sprl": "seniausiais",
+      "adj_inst_sg_fem_cmpr": "senesne",
+      "adj_inst_sg_fem_pos": "sena",
+      "adj_inst_sg_fem_sprl": "seniausia",
+      "adj_inst_sg_masc_cmpr": "senesniu",
+      "adj_inst_sg_masc_pos": "senu",
+      "adj_inst_sg_masc_sprl": "seniausiu",
+      "adj_loc_pl_fem_cmpr": "senesnėse",
+      "adj_loc_pl_fem_pos": "senose",
+      "adj_loc_pl_fem_sprl": "seniausiose",
+      "adj_loc_pl_masc_cmpr": "senesniuose",
+      "adj_loc_pl_masc_pos": "senuose",
+      "adj_loc_pl_masc_sprl": "seniausiuose",
+      "adj_loc_sg_fem_cmpr": "senesnėje",
+      "adj_loc_sg_fem_pos": "senoje",
+      "adj_loc_sg_fem_sprl": "seniausioje",
+      "adj_loc_sg_masc_cmpr": "senesniame",
+      "adj_loc_sg_masc_pos": "sename",
+      "adj_loc_sg_masc_sprl": "seniausiame",
+      "adj_nom_pl_fem_cmpr": "senesnės",
+      "adj_nom_pl_fem_pos": "senos",
+      "adj_nom_pl_fem_sprl": "seniausios",
+      "adj_nom_pl_masc_cmpr": "senesni",
+      "adj_nom_pl_masc_pos": "seni",
+      "adj_nom_pl_masc_sprl": "seniausi",
+      "adj_nom_sg_fem_cmpr": "senesnė",
+      "adj_nom_sg_fem_pos": "sena",
+      "adj_nom_sg_fem_sprl": "seniausia",
+      "adj_nom_sg_masc_cmpr": "senesnis",
+      "adj_nom_sg_masc_pos": "senas",
+      "adj_nom_sg_masc_sprl": "seniausias",
+      "adj_voc_pl_fem_pos": "senos",
+      "adj_voc_pl_masc_pos": "seni",
+      "adj_voc_sg_fem_pos": "sena",
+      "adj_voc_sg_masc_pos": "senas",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "skirtumas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "skirtumas",
+    "inflections": {
+      "n_acc_pl": "skìrtumus",
+      "n_acc_sg": "skìrtumą",
+      "n_dat_pl": "skìrtumams",
+      "n_dat_sg": "skìrtumui",
+      "n_gen_pl": "skìrtumų",
+      "n_gen_sg": "skìrtumo",
+      "n_inst_pl": "skìrtumais",
+      "n_inst_sg": "skìrtumu",
+      "n_loc_pl": "skìrtumuose",
+      "n_loc_sg": "skìrtume",
+      "n_nom_pl": "skìrtumai",
+      "n_nom_sg": "skìrtumas",
+      "n_voc_pl": "skìrtumai",
+      "n_voc_sg": "skìrtume",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "suprasti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "suprasti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "suprasime",
+      "v_1_pl_imp": "supraskime",
+      "v_1_pl_prs_ind": "suprantame",
+      "v_1_pl_pst_freq_ind": "suprasdavome",
+      "v_1_pl_pst_ind": "supratome",
+      "v_1_pl_sbjv": "suprastumėme",
+      "v_1_sg_fut_ind": "suprasiu",
+      "v_1_sg_prs_ind": "suprantu",
+      "v_1_sg_pst_freq_ind": "suprasdavau",
+      "v_1_sg_pst_ind": "supratau",
+      "v_1_sg_sbjv": "suprasčiau",
+      "v_2_pl_fut_ind": "suprasite",
+      "v_2_pl_imp": "supraskite",
+      "v_2_pl_prs_ind": "suprantate",
+      "v_2_pl_pst_freq_ind": "suprasdavote",
+      "v_2_pl_pst_ind": "supratote",
+      "v_2_pl_sbjv": "suprastumėte",
+      "v_2_sg_fut_ind": "suprasi",
+      "v_2_sg_imp": "suprask",
+      "v_2_sg_prs_ind": "supranti",
+      "v_2_sg_pst_freq_ind": "suprasdavai",
+      "v_2_sg_pst_ind": "supratai",
+      "v_2_sg_sbjv": "suprastum",
+      "v_3_pl_fut_ind": "supras",
+      "v_3_pl_imp": "tesupranta",
+      "v_3_pl_prs_ind": "supranta",
+      "v_3_pl_pst_freq_ind": "suprasdavo",
+      "v_3_pl_pst_ind": "suprato",
+      "v_3_pl_sbjv": "suprastų",
+      "v_3_sg_fut_ind": "supras",
+      "v_3_sg_imp": "tesupranta",
+      "v_3_sg_prs_ind": "supranta",
+      "v_3_sg_pst_freq_ind": "suprasdavo",
+      "v_3_sg_pst_ind": "suprato",
+      "v_3_sg_sbjv": "suprastų",
+      "v_v_ptcp_adv_fut_act": "suprasiant",
+      "v_v_ptcp_adv_lgspec2_act": "suprasdamas",
+      "v_v_ptcp_adv_prs_act": "suprantant",
+      "v_v_ptcp_adv_pst_act": "supratus",
+      "v_v_ptcp_adv_pst_freq_act": "suprasdavus",
+      "v_v_ptcp_fut_act": "suprasiąs",
+      "v_v_ptcp_fut_pass": "suprasimas",
+      "v_v_ptcp_lgspec1_pass": "suprastinas",
+      "v_v_ptcp_lgspec3": "supraste",
+      "v_v_ptcp_prs_act": "suprantąs",
+      "v_v_ptcp_prs_pass": "suprantamas",
+      "v_v_ptcp_pst_act": "supratęs",
+      "v_v_ptcp_pst_freq_act": "suprasdavęs",
+      "v_v_ptcp_pst_pass": "suprastas"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "svarbus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "svarbus",
+    "inflections": {
+      "adj_inst_sg_fem_sprl": "svarbiausia",
+      "adj_nom_sg_fem_sprl": "svarbiausia",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "adjective"
+    ]
+  },
+  "sveikinti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sveikinti",
+    "inflections": {
+      "regulars": [],
+      "v_1_sg_prs_ind": "sveikinu"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "sūnus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "sūnus",
+    "inflections": {
+      "n_acc_pl": "sū́nus",
+      "n_acc_sg": "sū́nų",
+      "n_dat_pl": "sūnùms",
+      "n_dat_sg": "sū́nui",
+      "n_gen_pl": "sūnų̃",
+      "n_gen_sg": "sūnaũs",
+      "n_inst_pl": "sūnumìs",
+      "n_inst_sg": "sūnumì",
+      "n_loc_pl": "sūnuosè",
+      "n_loc_sg": "sūnujè",
+      "n_nom_pl": "sū́nūs",
+      "n_nom_sg": "sūnùs",
+      "n_voc_pl": "sū́nūs",
+      "n_voc_sg": "sūnaũ",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "tarti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tarti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_fut_ind": "tarsi"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "tekti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tekti",
+    "inflections": {
+      "regulars": [],
+      "v_3_pl_fut_ind": "teks",
+      "v_3_sg_fut_ind": "teks"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "turėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "turėti",
+    "inflections": {
+      "regulars": [],
+      "v_1_pl_fut_ind": "turėsime",
+      "v_1_pl_imp": "turėkime",
+      "v_1_pl_prs_ind": "turime",
+      "v_1_pl_pst_freq_ind": "turėdavome",
+      "v_1_pl_pst_ind": "turėjome",
+      "v_1_pl_sbjv": "turėtumėme",
+      "v_1_sg_fut_ind": "turėsiu",
+      "v_1_sg_prs_ind": "turiu",
+      "v_1_sg_pst_freq_ind": "turėdavau",
+      "v_1_sg_pst_ind": "turėjau",
+      "v_1_sg_sbjv": "turėčiau",
+      "v_2_pl_fut_ind": "turėsite",
+      "v_2_pl_imp": "turėkite",
+      "v_2_pl_prs_ind": "turite",
+      "v_2_pl_pst_freq_ind": "turėdavote",
+      "v_2_pl_pst_ind": "turėjote",
+      "v_2_pl_sbjv": "turėtumėte",
+      "v_2_sg_fut_ind": "turėsi",
+      "v_2_sg_imp": "turėk",
+      "v_2_sg_prs_ind": "turi",
+      "v_2_sg_pst_freq_ind": "turėdavai",
+      "v_2_sg_pst_ind": "turėjai",
+      "v_2_sg_sbjv": "turėtum",
+      "v_3_pl_fut_ind": "turės",
+      "v_3_pl_imp": "teturi",
+      "v_3_pl_prs_ind": "turi",
+      "v_3_pl_pst_freq_ind": "turėdavo",
+      "v_3_pl_pst_ind": "turėjo",
+      "v_3_pl_sbjv": "turėtų",
+      "v_3_sg_fut_ind": "turės",
+      "v_3_sg_imp": "teturi",
+      "v_3_sg_prs_ind": "turi",
+      "v_3_sg_pst_freq_ind": "turėdavo",
+      "v_3_sg_pst_ind": "turėjo",
+      "v_3_sg_sbjv": "turėtų",
+      "v_v_ptcp_adv_fut_act": "turėsiant",
+      "v_v_ptcp_adv_lgspec2_act": "turėdamas",
+      "v_v_ptcp_adv_prs_act": "turint",
+      "v_v_ptcp_adv_pst_act": "turėjus",
+      "v_v_ptcp_adv_pst_freq_act": "turėdavus",
+      "v_v_ptcp_fut_act": "turėsiąs",
+      "v_v_ptcp_fut_pass": "turėsimas",
+      "v_v_ptcp_lgspec1_pass": "turėtinas",
+      "v_v_ptcp_lgspec3": "turėte",
+      "v_v_ptcp_prs_act": "turįs",
+      "v_v_ptcp_prs_pass": "turimas",
+      "v_v_ptcp_pst_act": "turėjęs",
+      "v_v_ptcp_pst_freq_act": "turėdavęs",
+      "v_v_ptcp_pst_pass": "turėtas"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "tėvas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tėvas",
+    "inflections": {
+      "n_acc_pl": "tė́vus",
+      "n_acc_sg": "tė́vą",
+      "n_dat_pl": "tėváms",
+      "n_dat_sg": "tė́vui",
+      "n_gen_pl": "tėvų̃",
+      "n_gen_sg": "tė́vo",
+      "n_inst_pl": "tėvaĩs",
+      "n_inst_sg": "tė́vu",
+      "n_loc_pl": "tėvuosè",
+      "n_loc_sg": "tėvè",
+      "n_nom_pl": "tėvaĩ",
+      "n_nom_sg": "tė́vas",
+      "n_voc_pl": "tėvaĩ",
+      "n_voc_sg": "tė́ve",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "vaikas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaikas",
+    "inflections": {
+      "n_acc_pl": "vaikùs",
+      "n_acc_sg": "vaĩką",
+      "n_dat_pl": "vaikáms",
+      "n_dat_sg": "vaĩkui",
+      "n_gen_pl": "vaikų̃",
+      "n_gen_sg": "vaĩko",
+      "n_inst_pl": "vaikaĩs",
+      "n_inst_sg": "vaikù",
+      "n_loc_pl": "vaikuosè",
+      "n_loc_sg": "vaikè",
+      "n_nom_pl": "vaikaĩ",
+      "n_nom_sg": "vaĩkas",
+      "n_voc_pl": "vaikaĩ",
+      "n_voc_sg": "vaĩke",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "vaikinas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vaikinas",
+    "inflections": {
+      "n_acc_pl": "vaikinùs",
+      "n_acc_sg": "vaikìną",
+      "n_dat_pl": "vaikìnams",
+      "n_dat_sg": "vaikìnui",
+      "n_gen_pl": "vaikìnų",
+      "n_gen_sg": "vaikìno",
+      "n_inst_pl": "vaikìnais",
+      "n_inst_sg": "vaikinù",
+      "n_loc_pl": "vaikìnuose",
+      "n_loc_sg": "vaikinè",
+      "n_nom_pl": "vaikìnai",
+      "n_nom_sg": "vaikìnas",
+      "n_voc_pl": "vaikìnai",
+      "n_voc_sg": "vaikìne",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "vakaras": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vakaras",
+    "inflections": {
+      "n_acc_pl": "vãkarus",
+      "n_acc_sg": "vãkarą",
+      "n_dat_pl": "vakaráms",
+      "n_dat_sg": "vãkarui",
+      "n_gen_pl": "vakarų̃",
+      "n_gen_sg": "vãkaro",
+      "n_inst_pl": "vakaraĩs",
+      "n_inst_sg": "vãkaru",
+      "n_loc_pl": "vakaruosè",
+      "n_loc_sg": "vakarè",
+      "n_nom_pl": "vakaraĩ",
+      "n_nom_sg": "vãkaras",
+      "n_voc_pl": "vakaraĩ",
+      "n_voc_sg": "vãkare",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "vardas": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vardas",
+    "inflections": {
+      "n_acc_pl": "vardùs",
+      "n_acc_sg": "var̃dą",
+      "n_dat_pl": "vardáms",
+      "n_dat_sg": "var̃dui",
+      "n_gen_pl": "vardų̃",
+      "n_gen_sg": "var̃do",
+      "n_inst_pl": "vardaĩs",
+      "n_inst_sg": "vardù",
+      "n_loc_pl": "varduosè",
+      "n_loc_sg": "vardè",
+      "n_nom_pl": "vardaĩ",
+      "n_nom_sg": "var̃das",
+      "n_voc_pl": "vardaĩ",
+      "n_voc_sg": "var̃de",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "varyti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "varyti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "varyk"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "vieta": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vieta",
+    "inflections": {
+      "n_acc_pl": "vietàs",
+      "n_acc_sg": "viẽtą",
+      "n_dat_pl": "viẽtoms",
+      "n_dat_sg": "viẽtai",
+      "n_gen_pl": "viẽtų",
+      "n_gen_sg": "viẽtos",
+      "n_inst_pl": "viẽtomis",
+      "n_inst_sg": "vietà",
+      "n_loc_pl": "viẽtose",
+      "n_loc_sg": "viẽtoje",
+      "n_nom_pl": "viẽtos",
+      "n_nom_sg": "vietà",
+      "n_voc_pl": "viẽtos",
+      "n_voc_sg": "viẽta",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "vyras": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vyras",
+    "inflections": {
+      "n_acc_pl": "výrus",
+      "n_acc_sg": "výrą",
+      "n_dat_pl": "výrams",
+      "n_dat_sg": "výrui",
+      "n_gen_pl": "výrų",
+      "n_gen_sg": "výro",
+      "n_inst_pl": "výrais",
+      "n_inst_sg": "výru",
+      "n_loc_pl": "výruose",
+      "n_loc_sg": "výre",
+      "n_nom_pl": "výrai",
+      "n_nom_sg": "výras",
+      "n_voc_pl": "výrai",
+      "n_voc_sg": "výre",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "širdis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "širdis",
+    "inflections": {
+      "n_acc_pl": "širdis",
+      "n_acc_sg": "širdį",
+      "n_dat_pl": "širdims",
+      "n_dat_sg": "širžiai",
+      "n_gen_pl": "širžių",
+      "n_gen_sg": "širdies",
+      "n_inst_pl": "širdimis",
+      "n_inst_sg": "širdimi",
+      "n_loc_pl": "širdyse",
+      "n_loc_sg": "širdyje",
+      "n_nom_pl": "širdys",
+      "n_nom_sg": "širdis",
+      "n_voc_pl": "širdys",
+      "n_voc_sg": "širdie",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "žiūrėti": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "žiūrėti",
+    "inflections": {
+      "regulars": [],
+      "v_2_sg_imp": "žiūrėk",
+      "v_2_sg_prs_ind": "žiūri",
+      "v_3_pl_prs_ind": "žiūri",
+      "v_3_sg_prs_ind": "žiūri"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "žmogus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "žmogus",
+    "inflections": {
+      "n_acc_pl": "žmónes",
+      "n_acc_sg": "žmõgų",
+      "n_dat_pl": "žmonė́ms",
+      "n_dat_sg": "žmõgui",
+      "n_gen_pl": "žmonių̃",
+      "n_gen_sg": "žmogaũs",
+      "n_inst_pl": "žmonėmìs",
+      "n_inst_sg": "žmogumì",
+      "n_loc_pl": "žmonėsè",
+      "n_loc_sg": "žmogujè",
+      "n_nom_pl": "žmónės",
+      "n_nom_sg": "žmogùs",
+      "n_voc_pl": "žmónės",
+      "n_voc_sg": "žmogaũ",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "žmona": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "žmona",
+    "inflections": {
+      "n_acc_pl": "žmõnas",
+      "n_acc_sg": "žmõną",
+      "n_dat_pl": "žmonóms",
+      "n_dat_sg": "žmõnai",
+      "n_gen_pl": "žmonų̃",
+      "n_gen_sg": "žmonõs",
+      "n_inst_pl": "žmonomìs",
+      "n_inst_sg": "žmõna",
+      "n_loc_pl": "žmonosè",
+      "n_loc_sg": "žmonojè",
+      "n_nom_pl": "žmõnos",
+      "n_nom_sg": "žmonà",
+      "n_voc_pl": "žmõnos",
+      "n_voc_sg": "žmõna",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "žodis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "žodis",
+    "inflections": {
+      "n_acc_pl": "žodžiùs",
+      "n_acc_sg": "žõdį",
+      "n_dat_pl": "žõdžiams",
+      "n_dat_sg": "žõdžiui",
+      "n_gen_pl": "žõdžių",
+      "n_gen_sg": "žõdžio",
+      "n_inst_pl": "žõdžiais",
+      "n_inst_sg": "žodžiù",
+      "n_loc_pl": "žõdžiuose",
+      "n_loc_sg": "žõdyje",
+      "n_nom_pl": "žõdžiai",
+      "n_nom_sg": "žõdis",
+      "n_voc_pl": "žõdžiai",
+      "n_voc_sg": "žõdi",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  }
+}

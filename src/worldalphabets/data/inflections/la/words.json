@@ -1,0 +1,273 @@
+{
+  "_locale": "la",
+  "_type": "words",
+  "_version": "0.1",
+  "discipula": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "discipula",
+    "inflections": {
+      "n_abl_pl": "discipulīs",
+      "n_abl_sg": "discipulā",
+      "n_acc_pl": "discipulās",
+      "n_acc_sg": "discipulam",
+      "n_dat_pl": "discipulīs",
+      "n_dat_sg": "discipulae",
+      "n_gen_pl": "discipulārum",
+      "n_gen_sg": "discipulae",
+      "n_nom_pl": "discipulae",
+      "n_nom_sg": "discipula",
+      "n_voc_pl": "discipulae",
+      "n_voc_sg": "discipula",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  },
+  "dux": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "dux",
+    "inflections": {
+      "n_masc_fem_abl_pl": "ducibus",
+      "n_masc_fem_abl_sg": "duce",
+      "n_masc_fem_acc_pl": "ducēs",
+      "n_masc_fem_acc_sg": "ducem",
+      "n_masc_fem_dat_pl": "ducibus",
+      "n_masc_fem_dat_sg": "ducī",
+      "n_masc_fem_gen_pl": "ducum",
+      "n_masc_fem_gen_sg": "ducis",
+      "n_masc_fem_nom_pl": "ducēs",
+      "n_masc_fem_nom_sg": "dux",
+      "n_masc_fem_voc_pl": "ducēs",
+      "n_masc_fem_voc_sg": "dux",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "foemina": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "foemina",
+    "inflections": {
+      "n_abl_pl": "foeminīs",
+      "n_abl_sg": "foeminā",
+      "n_acc_pl": "foeminās",
+      "n_acc_sg": "foeminam",
+      "n_dat_pl": "foeminīs",
+      "n_dat_sg": "foeminae",
+      "n_gen_pl": "foeminārum",
+      "n_gen_sg": "foeminae",
+      "n_nom_pl": "foeminae",
+      "n_nom_sg": "foemina",
+      "n_voc_pl": "foeminae",
+      "n_voc_sg": "foemina",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "fors": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fors",
+    "inflections": {
+      "n_abl_sg": "forte",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "fortis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fortis",
+    "inflections": {
+      "adj_acc_neut_sg": "forte",
+      "adj_nom_neut_sg": "forte",
+      "adj_voc_neut_sg": "forte",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "adjective"
+    ]
+  },
+  "homō": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "homō",
+    "inflections": {
+      "n_acc_sg": "hominem",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "pellicula": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pellicula",
+    "inflections": {
+      "n_acc_sg": "pelliculam",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "plēnus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "plēnus",
+    "inflections": {
+      "adj_abl_fem_sg": "plēnā",
+      "adj_abl_masc_fem_neut_pl": "plēnīs",
+      "adj_abl_masc_sg": "plēnō",
+      "adj_abl_neut_sg": "plēnō",
+      "adj_acc_fem_pl": "plēnās",
+      "adj_acc_fem_sg": "plēnam",
+      "adj_acc_masc_pl": "plēnōs",
+      "adj_acc_masc_sg": "plēnum",
+      "adj_acc_neut_pl": "plēna",
+      "adj_acc_neut_sg": "plēnum",
+      "adj_dat_masc_fem_neut_pl": "plēnīs",
+      "adj_dat_masc_sg": "plēnō",
+      "adj_dat_neut_sg": "plēnō",
+      "adj_gen_dat_fem_sg": "plēnae",
+      "adj_gen_fem_pl": "plēnārum",
+      "adj_gen_masc_pl": "plēnōrum",
+      "adj_gen_masc_sg": "plēnī",
+      "adj_gen_neut_pl": "plēnōrum",
+      "adj_gen_neut_sg": "plēnī",
+      "adj_nom_fem_pl": "plēnae",
+      "adj_nom_fem_sg": "plēna",
+      "adj_nom_masc_pl": "plēnī",
+      "adj_nom_masc_sg": "plēnus",
+      "adj_nom_neut_pl": "plēna",
+      "adj_nom_neut_sg": "plēnum",
+      "adj_voc_fem_pl": "plēnae",
+      "adj_voc_fem_sg": "plēna",
+      "adj_voc_masc_pl": "plēnī",
+      "adj_voc_masc_sg": "plēne",
+      "adj_voc_neut_pl": "plēna",
+      "adj_voc_neut_sg": "plēnum",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "adjective"
+    ]
+  },
+  "potentia": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "potentia",
+    "inflections": {
+      "n_abl_pl": "potentiīs",
+      "n_abl_sg": "potentiā",
+      "n_acc_pl": "potentiās",
+      "n_acc_sg": "potentiam",
+      "n_dat_pl": "potentiīs",
+      "n_dat_sg": "potentiae",
+      "n_gen_pl": "potentiārum",
+      "n_gen_sg": "potentiae",
+      "n_nom_pl": "potentiae",
+      "n_nom_sg": "potentia",
+      "n_voc_pl": "potentiae",
+      "n_voc_sg": "potentia",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "potēns": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "potēns",
+    "inflections": {
+      "adj_acc_neut_pl": "potentia",
+      "adj_nom_neut_pl": "potentia",
+      "adj_voc_neut_pl": "potentia",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "adjective"
+    ]
+  },
+  "saccus": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "saccus",
+    "inflections": {
+      "n_abl_pl": "saccīs",
+      "n_abl_sg": "saccō",
+      "n_acc_pl": "saccōs",
+      "n_acc_sg": "saccum",
+      "n_dat_pl": "saccīs",
+      "n_dat_sg": "saccō",
+      "n_gen_pl": "saccōrum",
+      "n_gen_sg": "saccī",
+      "n_nom_pl": "saccī",
+      "n_nom_sg": "saccus",
+      "n_voc_pl": "saccī",
+      "n_voc_sg": "sacce",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "soror": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "soror",
+    "inflections": {
+      "n_abl_pl": "sorōribus",
+      "n_abl_sg": "sorōre",
+      "n_acc_pl": "sorōrēs",
+      "n_acc_sg": "sorōrem",
+      "n_dat_pl": "sorōribus",
+      "n_dat_sg": "sorōrī",
+      "n_gen_pl": "sorōrum",
+      "n_gen_sg": "sorōris",
+      "n_nom_pl": "sorōrēs",
+      "n_nom_sg": "soror",
+      "n_voc_pl": "sorōrēs",
+      "n_voc_sg": "soror",
+      "regulars": []
+    },
+    "priority": 10,
+    "types": [
+      "noun"
+    ]
+  }
+}

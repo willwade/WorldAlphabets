@@ -1,0 +1,321 @@
+{
+  "_locale": "sn",
+  "_type": "words",
+  "_version": "0.1",
+  "enda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "enda",
+    "inflections": {
+      "regulars": [],
+      "v_sg_3_hod": "aenda",
+      "v_sg_3_pst": "akaenda"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "gara": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gara",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "vanogara",
+      "v_sg_3_prs": "anogara"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "gona": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "gona",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "vanogona",
+      "v_sg_2_prs": "unogona",
+      "v_sg_3_prs": "anogona"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ida": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ida",
+    "inflections": {
+      "regulars": [],
+      "v_pl_1_prs": "tinoda",
+      "v_pl_3_prs": "vanoda",
+      "v_sg_1_prs": "ndinoda",
+      "v_sg_3_prs": "anoda"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "ifa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ifa",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_pst": "vakafa",
+      "v_sg_3_hod": "afa",
+      "v_sg_3_pst": "akafa"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "imba": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "imba",
+    "inflections": {
+      "regulars": [],
+      "v_pl_1_fut": "tichaimba",
+      "v_pl_1_hod": "taimba",
+      "v_pl_1_prs": "tinoimba",
+      "v_pl_1_pst": "takaimba",
+      "v_pl_2_fut": "muchaimba",
+      "v_pl_2_hod": "maimba",
+      "v_pl_2_prs": "munoimba",
+      "v_pl_2_pst": "makaimba",
+      "v_pl_3_fut": "vachaimba",
+      "v_pl_3_hod": "vaimba",
+      "v_pl_3_prs": "vanoimba",
+      "v_pl_3_pst": "vakaimba",
+      "v_prog_pl_1_prs": "tirikuimba",
+      "v_prog_pl_2_prs": "murikuimba",
+      "v_prog_pl_3_prs": "varikuimba",
+      "v_prog_sg_1_prs": "ndirikuimba",
+      "v_prog_sg_2_prs": "urikuimba",
+      "v_prog_sg_3_prs": "arikuimba",
+      "v_sg_1_fut": "ndichaimba",
+      "v_sg_1_hod": "ndaimba",
+      "v_sg_1_prs": "ndinoimba",
+      "v_sg_1_pst": "ndakaimba",
+      "v_sg_2_fut": "uchaimba",
+      "v_sg_2_hod": "waimba",
+      "v_sg_2_prs": "unoimba",
+      "v_sg_2_pst": "wakaimba",
+      "v_sg_3_fut": "achaimba",
+      "v_sg_3_hod": "aimba",
+      "v_sg_3_prs": "anoimba",
+      "v_sg_3_pst": "akaimba"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "ipa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ipa",
+    "inflections": {
+      "regulars": [],
+      "v_sg_3_hod": "apa",
+      "v_sg_3_pst": "akapa"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "ita": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ita",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "vanoita",
+      "v_pl_3_pst": "vakaita",
+      "v_sg_3_prs": "anoita",
+      "v_sg_3_pst": "akaita"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "iva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "iva",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_hod": "vava",
+      "v_pl_3_prs": "vanova",
+      "v_sg_1_hod": "ndava",
+      "v_sg_3_hod": "ava",
+      "v_sg_3_prs": "anova"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "kuitika": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kuitika",
+    "inflections": {
+      "regulars": [],
+      "v_pl_1_fut": "zvichaitika",
+      "v_pl_1_hod": "zvaitika",
+      "v_pl_1_prs": "zvirikuitika",
+      "v_pl_1_pst": "zvakaitika",
+      "v_pl_2_fut": "zvichaitika",
+      "v_pl_2_hod": "zvaitika",
+      "v_pl_2_prs": "zvirikuitika",
+      "v_pl_2_pst": "zvakaitika",
+      "v_pl_3_fut": "zvichaitika",
+      "v_pl_3_hod": "zvaitika",
+      "v_pl_3_prs": "zvirikuitika",
+      "v_pl_3_pst": "zvakaitika",
+      "v_prog_pl_1_prs": "zvirikuitika",
+      "v_prog_pl_2_prs": "zvirikuitika",
+      "v_prog_pl_3_prs": "zvirikuitika",
+      "v_prog_sg_1_prs": "zvirikuitika",
+      "v_prog_sg_2_prs": "zvirikuitika",
+      "v_prog_sg_3_prs": "zvirikuitika",
+      "v_sg_1_fut": "zvichaitika",
+      "v_sg_1_hod": "zvaitika",
+      "v_sg_1_prs": "zvirikuitika",
+      "v_sg_1_pst": "zvakaitika",
+      "v_sg_2_fut": "zvichaitika",
+      "v_sg_2_hod": "zvaitika",
+      "v_sg_2_prs": "zvirikuitika",
+      "v_sg_2_pst": "zvakaitika",
+      "v_sg_3_fut": "zvichaitika",
+      "v_sg_3_hod": "zvaitika",
+      "v_sg_3_prs": "zvirikuitika",
+      "v_sg_3_pst": "zvakaitika"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kuva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kuva",
+    "inflections": {
+      "regulars": [],
+      "v_pl_1_fut": "tichakuva",
+      "v_pl_1_hod": "takuva",
+      "v_pl_1_prs": "tinokuva",
+      "v_pl_1_pst": "takakuva",
+      "v_pl_2_fut": "muchakuva",
+      "v_pl_2_hod": "makuva",
+      "v_pl_2_prs": "munokuva",
+      "v_pl_2_pst": "makakuva",
+      "v_pl_3_fut": "vachakuva",
+      "v_pl_3_hod": "vakuva",
+      "v_pl_3_prs": "vanokuva",
+      "v_pl_3_pst": "vakakuva",
+      "v_prog_pl_1_prs": "tirikukuva",
+      "v_prog_pl_2_prs": "murikukuva",
+      "v_prog_pl_3_prs": "varikukuva",
+      "v_prog_sg_1_prs": "ndirikukuva",
+      "v_prog_sg_2_prs": "urikukuva",
+      "v_prog_sg_3_prs": "arikukuva",
+      "v_sg_1_fut": "ndichakuva",
+      "v_sg_1_hod": "ndakuva",
+      "v_sg_1_prs": "ndinokuva",
+      "v_sg_1_pst": "ndakakuva",
+      "v_sg_2_fut": "uchakuva",
+      "v_sg_2_hod": "wakuva",
+      "v_sg_2_prs": "unokuva",
+      "v_sg_2_pst": "wakakuva",
+      "v_sg_3_fut": "achakuva",
+      "v_sg_3_hod": "akuva",
+      "v_sg_3_prs": "anokuva",
+      "v_sg_3_pst": "akakuva"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "kwanisa": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kwanisa",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "vanokwanisa",
+      "v_sg_3_prs": "anokwanisa"
+    },
+    "priority": 2,
+    "types": [
+      "verb"
+    ]
+  },
+  "shanda": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "shanda",
+    "inflections": {
+      "regulars": [],
+      "v_sg_3_prs": "anoshanda"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "tanga": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tanga",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_pst": "vakatanga",
+      "v_sg_3_pst": "akatanga"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ziva": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ziva",
+    "inflections": {
+      "regulars": [],
+      "v_pl_3_prs": "vanoziva"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  }
+}

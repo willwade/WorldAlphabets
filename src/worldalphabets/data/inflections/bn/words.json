@@ -1,0 +1,1361 @@
+{
+  "_locale": "bn",
+  "_type": "words",
+  "_version": "0.1",
+  "অভিযোগ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "অভিযোগ",
+    "inflections": {
+      "n_acc_ndef": "অভিযোগ",
+      "n_acc_pl_def": "অভিযোগগুলা",
+      "n_acc_sg_def": "অভিযোগটা",
+      "n_gen_ndef": "অভিযোগের",
+      "n_gen_pl_def": "অভিযোগগুলার",
+      "n_gen_sg_def": "অভিযোগটার",
+      "n_loc_ndef": "অভিযোগে",
+      "n_loc_pl_def": "অভিযোগগুলাতে",
+      "n_loc_sg_def": "অভিযোগটাতে",
+      "n_nom_ndef": "অভিযোগ",
+      "n_nom_pl_def": "অভিযোগগুলা",
+      "n_nom_sg_def": "অভিযোগটা",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "আসা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "আসা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "আসবো",
+      "v_1_prs": "আসি",
+      "v_1_prs_prf": "এসেছি",
+      "v_1_prs_prog": "আসছি",
+      "v_1_pst": "আসলাম",
+      "v_1_pst_hab": "আসতাম",
+      "v_1_pst_prf": "এসেছিলাম",
+      "v_1_pst_prog": "আসছিলাম",
+      "v_2_fut_lgspec1": "আসবি",
+      "v_2_fut_pol": "আসবে",
+      "v_2_prs_lgspec1": "আসিস",
+      "v_2_prs_pol": "আসে",
+      "v_2_prs_prf_lgspec1": "এসেছিস",
+      "v_2_prs_prf_pol": "এসেছে",
+      "v_2_prs_prog_lgspec1": "আসছিস",
+      "v_2_prs_prog_pol": "আসছে",
+      "v_2_pst_hab_lgspec1": "আসতিস",
+      "v_2_pst_hab_pol": "আসতো",
+      "v_2_pst_lgspec1": "আসলি",
+      "v_2_pst_pol": "আসলো",
+      "v_2_pst_prf_lgspec1": "এসেছিলি",
+      "v_2_pst_prf_pol": "এসেছিলো",
+      "v_2_pst_prog_lgspec1": "আসছিলি",
+      "v_2_pst_prog_pol": "আসছিলো",
+      "v_3_fut_infm": "আসবে",
+      "v_3_fut_pol": "আসবেন",
+      "v_3_prs_infm": "আসো",
+      "v_3_prs_pol": "আসেন",
+      "v_3_prs_prf_infm": "এসেছো",
+      "v_3_prs_prf_pol": "এসেছেন",
+      "v_3_prs_prog_infm": "আসছো",
+      "v_3_prs_prog_pol": "আসছেন",
+      "v_3_pst_hab_infm": "আসতে",
+      "v_3_pst_hab_pol": "আসতেন",
+      "v_3_pst_infm": "আসলে",
+      "v_3_pst_pol": "আসলেন",
+      "v_3_pst_prf_infm": "এসেছিলে",
+      "v_3_pst_prf_pol": "এসেছিলেন",
+      "v_3_pst_prog_infm": "আসছিলে",
+      "v_3_pst_prog_pol": "আসছিলেন",
+      "v_v_msdr": "আসা",
+      "v_v_nfin": "আসতে",
+      "v_v_ptcp_cond": "আসলে",
+      "v_v_ptcp_hab": "এসে",
+      "v_v_ptcp_prf": "এসে",
+      "v_v_ptcp_prog": "আসতে"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "উপজেলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "উপজেলা",
+    "inflections": {
+      "n_acc_ndef": "উপজেলা",
+      "n_acc_pl_def": "উপজেলাগুলা",
+      "n_acc_sg_def": "উপজেলাটা",
+      "n_gen_ndef": "উপজেলার",
+      "n_gen_pl_def": "উপজেলাগুলার",
+      "n_gen_sg_def": "উপজেলাটার",
+      "n_loc_ndef": "উপজেলাতে",
+      "n_loc_pl_def": "উপজেলাগুলাতে",
+      "n_loc_sg_def": "উপজেলাটাতে",
+      "n_nom_ndef": "উপজেলা",
+      "n_nom_pl_def": "উপজেলাগুলা",
+      "n_nom_sg_def": "উপজেলাটা",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "এলাকা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "এলাকা",
+    "inflections": {
+      "n_acc_ndef": "এলাকা",
+      "n_acc_pl_def": "এলাকাগুলা",
+      "n_acc_sg_def": "এলাকাটা",
+      "n_gen_ndef": "এলাকার",
+      "n_gen_pl_def": "এলাকাগুলার",
+      "n_gen_sg_def": "এলাকাটার",
+      "n_loc_ndef": "এলাকাতে",
+      "n_loc_pl_def": "এলাকাগুলাতে",
+      "n_loc_sg_def": "এলাকাটাতে",
+      "n_nom_ndef": "এলাকা",
+      "n_nom_pl_def": "এলাকাগুলা",
+      "n_nom_sg_def": "এলাকাটা",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ওঠা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ওঠা",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_hab": "উঠে",
+      "v_v_ptcp_prf": "উঠে"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "করা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "করা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "করবো",
+      "v_1_prs": "করি",
+      "v_1_prs_prf": "করেছি",
+      "v_1_prs_prog": "করছি",
+      "v_1_pst": "করলাম",
+      "v_1_pst_hab": "করতাম",
+      "v_1_pst_prf": "করেছিলাম",
+      "v_1_pst_prog": "করছিলাম",
+      "v_2_fut_lgspec1": "করবি",
+      "v_2_fut_pol": "করবে",
+      "v_2_prs_lgspec1": "করিস",
+      "v_2_prs_pol": "করে",
+      "v_2_prs_prf_lgspec1": "করেছিস",
+      "v_2_prs_prf_pol": "করেছে",
+      "v_2_prs_prog_lgspec1": "করছিস",
+      "v_2_prs_prog_pol": "করছে",
+      "v_2_pst_hab_lgspec1": "করতিস",
+      "v_2_pst_hab_pol": "করতো",
+      "v_2_pst_lgspec1": "করলি",
+      "v_2_pst_pol": "করলো",
+      "v_2_pst_prf_lgspec1": "করেছিলি",
+      "v_2_pst_prf_pol": "করেছিলো",
+      "v_2_pst_prog_lgspec1": "করছিলি",
+      "v_2_pst_prog_pol": "করছিলো",
+      "v_3_fut_infm": "করবে",
+      "v_3_fut_pol": "করবেন",
+      "v_3_prs_infm": "করো",
+      "v_3_prs_pol": "করেন",
+      "v_3_prs_prf_infm": "করেছো",
+      "v_3_prs_prf_pol": "করেছেন",
+      "v_3_prs_prog_infm": "করছো",
+      "v_3_prs_prog_pol": "করছেন",
+      "v_3_pst_hab_infm": "করতে",
+      "v_3_pst_hab_pol": "করতেন",
+      "v_3_pst_infm": "করলে",
+      "v_3_pst_pol": "করলেন",
+      "v_3_pst_prf_infm": "করেছিলে",
+      "v_3_pst_prf_pol": "করেছিলেন",
+      "v_3_pst_prog_infm": "করছিলে",
+      "v_3_pst_prog_pol": "করছিলেন",
+      "v_v_msdr": "করা",
+      "v_v_nfin": "করতে",
+      "v_v_ptcp_cond": "করলে",
+      "v_v_ptcp_hab": "করে",
+      "v_v_ptcp_prf": "করে",
+      "v_v_ptcp_prog": "করতে"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "কাটা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "কাটা",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_hab": "কেটে",
+      "v_v_ptcp_prf": "কেটে"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "কারণ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "কারণ",
+    "inflections": {
+      "n_acc_ndef": "কারণ",
+      "n_acc_pl_def": "কারণগুলা",
+      "n_acc_sg_def": "কারণটা",
+      "n_gen_ndef": "কারণের",
+      "n_gen_pl_def": "কারণগুলার",
+      "n_gen_sg_def": "কারণটার",
+      "n_loc_ndef": "কারণে",
+      "n_loc_pl_def": "কারণগুলাতে",
+      "n_loc_sg_def": "কারণটাতে",
+      "n_nom_ndef": "কারণ",
+      "n_nom_pl_def": "কারণগুলা",
+      "n_nom_sg_def": "কারণটা",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "খাওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "খাওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs_pol": "খান",
+      "v_3_pst_hab_infm": "খেতে",
+      "v_v_nfin": "খেতে",
+      "v_v_ptcp_prog": "খেতে"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "খোঁজা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "খোঁজা",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_hab": "খুঁজে",
+      "v_v_ptcp_prf": "খুঁজে"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "খোলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "খোলা",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_hab": "খুলে",
+      "v_v_ptcp_prf": "খুলে"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "গাওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "গাওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs_pol": "গান",
+      "v_3_pst_infm": "গেলে",
+      "v_v_ptcp_cond": "গেলে"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "গেলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "গেলা",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs_pol": "গেলে"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "ঘটনা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ঘটনা",
+    "inflections": {
+      "n_acc_ndef": "ঘটনা",
+      "n_acc_pl_def": "ঘটনাগুলা",
+      "n_acc_sg_def": "ঘটনাটা",
+      "n_gen_ndef": "ঘটনার",
+      "n_gen_pl_def": "ঘটনাগুলার",
+      "n_gen_sg_def": "ঘটনাটার",
+      "n_loc_ndef": "ঘটনাতে",
+      "n_loc_pl_def": "ঘটনাগুলাতে",
+      "n_loc_sg_def": "ঘটনাটাতে",
+      "n_nom_ndef": "ঘটনা",
+      "n_nom_pl_def": "ঘটনাগুলা",
+      "n_nom_sg_def": "ঘটনাটা",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ঘর": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ঘর",
+    "inflections": {
+      "n_gen_ndef": "ঘরের",
+      "n_loc_ndef": "ঘরে",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "চাওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "চাওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "চাই",
+      "v_3_prs_pol": "চান"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "চোখ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "চোখ",
+    "inflections": {
+      "n_acc_ndef": "চোখ",
+      "n_acc_pl_def": "চোখগুলা",
+      "n_acc_sg_def": "চোখটা",
+      "n_gen_ndef": "চোখের",
+      "n_gen_pl_def": "চোখগুলার",
+      "n_gen_sg_def": "চোখটার",
+      "n_loc_ndef": "চোখে",
+      "n_loc_pl_def": "চোখগুলাতে",
+      "n_loc_sg_def": "চোখটাতে",
+      "n_nom_ndef": "চোখ",
+      "n_nom_pl_def": "চোখগুলা",
+      "n_nom_sg_def": "চোখটা",
+      "regulars": []
+    },
+    "priority": 1,
+    "types": [
+      "noun"
+    ]
+  },
+  "ছাত্র": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ছাত্র",
+    "inflections": {
+      "n_acc_ndef": "ছাত্র",
+      "n_acc_pl_def": "ছাত্রদেরকে",
+      "n_acc_sg_def": "ছাত্রটাকে",
+      "n_gen_ndef": "ছাত্রের",
+      "n_gen_pl_def": "ছাত্রদের",
+      "n_gen_sg_def": "ছাত্রটার",
+      "n_nom_ndef": "ছাত্র",
+      "n_nom_pl_def": "ছাত্ররা",
+      "n_nom_sg_def": "ছাত্রটা",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "ছেলে": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ছেলে",
+    "inflections": {
+      "n_acc_ndef": "ছেলে",
+      "n_acc_pl_def": "ছেলেদেরকে",
+      "n_acc_sg_def": "ছেলেটাকে",
+      "n_gen_ndef": "ছেলের",
+      "n_gen_pl_def": "ছেলেদের",
+      "n_gen_sg_def": "ছেলেটার",
+      "n_nom_ndef": "ছেলে",
+      "n_nom_pl_def": "ছেলেরা",
+      "n_nom_sg_def": "ছেলেটা",
+      "regulars": []
+    },
+    "priority": 6,
+    "types": [
+      "noun"
+    ]
+  },
+  "জন্ম": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "জন্ম",
+    "inflections": {
+      "n_acc_ndef": "জন্ম",
+      "n_acc_pl_def": "জন্মগুলা",
+      "n_acc_sg_def": "জন্মটা",
+      "n_gen_ndef": "জন্মের",
+      "n_gen_pl_def": "জন্মগুলার",
+      "n_gen_sg_def": "জন্মটার",
+      "n_loc_ndef": "জন্মে",
+      "n_loc_pl_def": "জন্মগুলাতে",
+      "n_loc_sg_def": "জন্মটাতে",
+      "n_nom_ndef": "জন্ম",
+      "n_nom_pl_def": "জন্মগুলা",
+      "n_nom_sg_def": "জন্মটা",
+      "regulars": []
+    },
+    "priority": 2,
+    "types": [
+      "noun"
+    ]
+  },
+  "জানা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "জানা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "জানবো",
+      "v_1_prs": "জানি",
+      "v_1_prs_prf": "জেনেছি",
+      "v_1_prs_prog": "জানছি",
+      "v_1_pst": "জানলাম",
+      "v_1_pst_hab": "জানতাম",
+      "v_1_pst_prf": "জেনেছিলাম",
+      "v_1_pst_prog": "জানছিলাম",
+      "v_2_fut_lgspec1": "জানবি",
+      "v_2_fut_pol": "জানবে",
+      "v_2_prs_lgspec1": "জানিস",
+      "v_2_prs_pol": "জানে",
+      "v_2_prs_prf_lgspec1": "জেনেছিস",
+      "v_2_prs_prf_pol": "জেনেছে",
+      "v_2_prs_prog_lgspec1": "জানছিস",
+      "v_2_prs_prog_pol": "জানছে",
+      "v_2_pst_hab_lgspec1": "জানতিস",
+      "v_2_pst_hab_pol": "জানতো",
+      "v_2_pst_lgspec1": "জানলি",
+      "v_2_pst_pol": "জানলো",
+      "v_2_pst_prf_lgspec1": "জেনেছিলি",
+      "v_2_pst_prf_pol": "জেনেছিলো",
+      "v_2_pst_prog_lgspec1": "জানছিলি",
+      "v_2_pst_prog_pol": "জানছিলো",
+      "v_3_fut_infm": "জানবে",
+      "v_3_fut_pol": "জানবেন",
+      "v_3_prs_infm": "জানো",
+      "v_3_prs_pol": "জানেন",
+      "v_3_prs_prf_infm": "জেনেছো",
+      "v_3_prs_prf_pol": "জেনেছেন",
+      "v_3_prs_prog_infm": "জানছো",
+      "v_3_prs_prog_pol": "জানছেন",
+      "v_3_pst_hab_infm": "জানতে",
+      "v_3_pst_hab_pol": "জানতেন",
+      "v_3_pst_infm": "জানলে",
+      "v_3_pst_pol": "জানলেন",
+      "v_3_pst_prf_infm": "জেনেছিলে",
+      "v_3_pst_prf_pol": "জেনেছিলেন",
+      "v_3_pst_prog_infm": "জানছিলে",
+      "v_3_pst_prog_pol": "জানছিলেন",
+      "v_v_msdr": "জানা",
+      "v_v_nfin": "জানতে",
+      "v_v_ptcp_cond": "জানলে",
+      "v_v_ptcp_hab": "জেনে",
+      "v_v_ptcp_prf": "জেনে",
+      "v_v_ptcp_prog": "জানতে"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "জেলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "জেলা",
+    "inflections": {
+      "n_acc_ndef": "জেলা",
+      "n_acc_pl_def": "জেলাগুলা",
+      "n_acc_sg_def": "জেলাটা",
+      "n_gen_ndef": "জেলার",
+      "n_gen_pl_def": "জেলাগুলার",
+      "n_gen_sg_def": "জেলাটার",
+      "n_loc_ndef": "জেলাতে",
+      "n_loc_pl_def": "জেলাগুলাতে",
+      "n_loc_sg_def": "জেলাটাতে",
+      "n_nom_ndef": "জেলা",
+      "n_nom_pl_def": "জেলাগুলা",
+      "n_nom_sg_def": "জেলাটা",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "দেওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "দেওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs_pol": "দেন",
+      "v_3_pst_hab_infm": "দিতে",
+      "v_3_pst_infm": "দিলে",
+      "v_v_ptcp_cond": "দিলে",
+      "v_v_ptcp_hab": "দিয়ে",
+      "v_v_ptcp_prf": "দিয়ে"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "দেখা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "দেখা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "দেখবো",
+      "v_1_prs": "দেখি",
+      "v_1_prs_prf": "দেখেছি",
+      "v_1_prs_prog": "দেখছি",
+      "v_1_pst": "দেখলাম",
+      "v_1_pst_hab": "দেখতাম",
+      "v_1_pst_prf": "দেখেছিলাম",
+      "v_1_pst_prog": "দেখছিলাম",
+      "v_2_fut_lgspec1": "দেখবি",
+      "v_2_fut_pol": "দেখবে",
+      "v_2_prs_lgspec1": "দেখিস",
+      "v_2_prs_pol": "দেখে",
+      "v_2_prs_prf_lgspec1": "দেখেছিস",
+      "v_2_prs_prf_pol": "দেখেছে",
+      "v_2_prs_prog_lgspec1": "দেখছিস",
+      "v_2_prs_prog_pol": "দেখছে",
+      "v_2_pst_hab_lgspec1": "দেখতিস",
+      "v_2_pst_hab_pol": "দেখতো",
+      "v_2_pst_lgspec1": "দেখলি",
+      "v_2_pst_pol": "দেখলো",
+      "v_2_pst_prf_lgspec1": "দেখেছিলি",
+      "v_2_pst_prf_pol": "দেখেছিলো",
+      "v_2_pst_prog_lgspec1": "দেখছিলি",
+      "v_2_pst_prog_pol": "দেখছিলো",
+      "v_3_fut_infm": "দেখবে",
+      "v_3_fut_pol": "দেখবেন",
+      "v_3_prs_infm": "দেখো",
+      "v_3_prs_pol": "দেখেন",
+      "v_3_prs_prf_infm": "দেখেছো",
+      "v_3_prs_prf_pol": "দেখেছেন",
+      "v_3_prs_prog_infm": "দেখছো",
+      "v_3_prs_prog_pol": "দেখছেন",
+      "v_3_pst_hab_infm": "দেখতে",
+      "v_3_pst_hab_pol": "দেখতেন",
+      "v_3_pst_infm": "দেখলে",
+      "v_3_pst_pol": "দেখলেন",
+      "v_3_pst_prf_infm": "দেখেছিলে",
+      "v_3_pst_prf_pol": "দেখেছিলেন",
+      "v_3_pst_prog_infm": "দেখছিলে",
+      "v_3_pst_prog_pol": "দেখছিলেন",
+      "v_v_msdr": "দেখা",
+      "v_v_nfin": "দেখতে",
+      "v_v_ptcp_cond": "দেখলে",
+      "v_v_ptcp_hab": "দেখে",
+      "v_v_ptcp_prf": "দেখে",
+      "v_v_ptcp_prog": "দেখতে"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "দেশ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "দেশ",
+    "inflections": {
+      "n_acc_ndef": "দেশ",
+      "n_acc_pl_def": "দেশগুলা",
+      "n_acc_sg_def": "দেশটা",
+      "n_gen_ndef": "দেশের",
+      "n_gen_pl_def": "দেশগুলার",
+      "n_gen_sg_def": "দেশটার",
+      "n_loc_ndef": "দেশে",
+      "n_loc_pl_def": "দেশগুলাতে",
+      "n_loc_sg_def": "দেশটাতে",
+      "n_nom_ndef": "দেশ",
+      "n_nom_pl_def": "দেশগুলা",
+      "n_nom_sg_def": "দেশটা",
+      "regulars": []
+    },
+    "priority": 8,
+    "types": [
+      "noun"
+    ]
+  },
+  "ধরা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ধরা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "ধরবো",
+      "v_1_prs": "ধরি",
+      "v_1_prs_prf": "ধরেছি",
+      "v_1_prs_prog": "ধরছি",
+      "v_1_pst": "ধরলাম",
+      "v_1_pst_hab": "ধরতাম",
+      "v_1_pst_prf": "ধরেছিলাম",
+      "v_1_pst_prog": "ধরছিলাম",
+      "v_2_fut_lgspec1": "ধরবি",
+      "v_2_fut_pol": "ধরবে",
+      "v_2_prs_lgspec1": "ধরিস",
+      "v_2_prs_pol": "ধরে",
+      "v_2_prs_prf_lgspec1": "ধরেছিস",
+      "v_2_prs_prf_pol": "ধরেছে",
+      "v_2_prs_prog_lgspec1": "ধরছিস",
+      "v_2_prs_prog_pol": "ধরছে",
+      "v_2_pst_hab_lgspec1": "ধরতিস",
+      "v_2_pst_hab_pol": "ধরতো",
+      "v_2_pst_lgspec1": "ধরলি",
+      "v_2_pst_pol": "ধরলো",
+      "v_2_pst_prf_lgspec1": "ধরেছিলি",
+      "v_2_pst_prf_pol": "ধরেছিলো",
+      "v_2_pst_prog_lgspec1": "ধরছিলি",
+      "v_2_pst_prog_pol": "ধরছিলো",
+      "v_3_fut_infm": "ধরবে",
+      "v_3_fut_pol": "ধরবেন",
+      "v_3_prs_infm": "ধরো",
+      "v_3_prs_pol": "ধরেন",
+      "v_3_prs_prf_infm": "ধরেছো",
+      "v_3_prs_prf_pol": "ধরেছেন",
+      "v_3_prs_prog_infm": "ধরছো",
+      "v_3_prs_prog_pol": "ধরছেন",
+      "v_3_pst_hab_infm": "ধরতে",
+      "v_3_pst_hab_pol": "ধরতেন",
+      "v_3_pst_infm": "ধরলে",
+      "v_3_pst_pol": "ধরলেন",
+      "v_3_pst_prf_infm": "ধরেছিলে",
+      "v_3_pst_prf_pol": "ধরেছিলেন",
+      "v_3_pst_prog_infm": "ধরছিলে",
+      "v_3_pst_prog_pol": "ধরছিলেন",
+      "v_v_msdr": "ধরা",
+      "v_v_nfin": "ধরতে",
+      "v_v_ptcp_cond": "ধরলে",
+      "v_v_ptcp_hab": "ধরে",
+      "v_v_ptcp_prf": "ধরে",
+      "v_v_ptcp_prog": "ধরতে"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "নাম": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "নাম",
+    "inflections": {
+      "n_acc_ndef": "নাম",
+      "n_acc_pl_def": "নামগুলা",
+      "n_acc_sg_def": "নামটা",
+      "n_gen_ndef": "নামের",
+      "n_gen_pl_def": "নামগুলার",
+      "n_gen_sg_def": "নামটার",
+      "n_loc_ndef": "নামে",
+      "n_loc_pl_def": "নামগুলাতে",
+      "n_loc_sg_def": "নামটাতে",
+      "n_nom_ndef": "নাম",
+      "n_nom_pl_def": "নামগুলা",
+      "n_nom_sg_def": "নামটা",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "নেওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "নেওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_1_prs": "নেই",
+      "v_3_pst_hab_infm": "নিতে",
+      "v_v_ptcp_hab": "নিয়ে",
+      "v_v_ptcp_prf": "নিয়ে"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "পরা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "পরা",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs_pol": "পরে",
+      "v_v_ptcp_hab": "পরে",
+      "v_v_ptcp_prf": "পরে"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "পাওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "পাওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_3_prs_pol": "পান",
+      "v_3_pst_hab_infm": "পেতে",
+      "v_v_nfin": "পেতে",
+      "v_v_ptcp_prog": "পেতে"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "পাঠানো": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "পাঠানো",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "পাঠাবো",
+      "v_1_prs": "পাঠাই",
+      "v_1_prs_prf": "পাঠিয়েছি",
+      "v_1_prs_prog": "পাঠাচ্ছি",
+      "v_1_pst": "পাঠালাম",
+      "v_1_pst_hab": "পাঠাতাম",
+      "v_1_pst_prf": "পাঠিয়েছিলাম",
+      "v_1_pst_prog": "পাঠাচ্ছিলাম",
+      "v_2_fut_lgspec1": "পাঠাবি",
+      "v_2_fut_pol": "পাঠাবে",
+      "v_2_prs_lgspec1": "পাঠাস",
+      "v_2_prs_pol": "পাঠায়",
+      "v_2_prs_prf_lgspec1": "পাঠিয়েছিস",
+      "v_2_prs_prf_pol": "পাঠিয়েছে",
+      "v_2_prs_prog_lgspec1": "পাঠাচ্ছিস",
+      "v_2_prs_prog_pol": "পাঠাচ্ছে",
+      "v_2_pst_hab_lgspec1": "পাঠাতিস",
+      "v_2_pst_hab_pol": "পাঠাতো",
+      "v_2_pst_lgspec1": "পাঠালি",
+      "v_2_pst_pol": "পাঠালো",
+      "v_2_pst_prf_lgspec1": "পাঠিয়েছিলি",
+      "v_2_pst_prf_pol": "পাঠিয়েছিলো",
+      "v_2_pst_prog_lgspec1": "পাঠাচ্ছিলি",
+      "v_2_pst_prog_pol": "পাঠাচ্ছিলো",
+      "v_3_fut_infm": "পাঠাবে",
+      "v_3_fut_pol": "পাঠাবেন",
+      "v_3_prs_infm": "পাঠাও",
+      "v_3_prs_pol": "পাঠান",
+      "v_3_prs_prf_infm": "পাঠিয়েছো",
+      "v_3_prs_prf_pol": "পাঠিয়েছেন",
+      "v_3_prs_prog_infm": "পাঠাচ্ছো",
+      "v_3_prs_prog_pol": "পাঠাচ্ছেন",
+      "v_3_pst_hab_infm": "পাঠাতে",
+      "v_3_pst_hab_pol": "পাঠাতেন",
+      "v_3_pst_infm": "পাঠালে",
+      "v_3_pst_pol": "পাঠালেন",
+      "v_3_pst_prf_infm": "পাঠিয়েছিলে",
+      "v_3_pst_prf_pol": "পাঠিয়েছিলেন",
+      "v_3_pst_prog_infm": "পাঠাচ্ছিলে",
+      "v_3_pst_prog_pol": "পাঠাচ্ছিলেন",
+      "v_v_msdr": "পাঠানো",
+      "v_v_nfin": "পাঠাতে",
+      "v_v_ptcp_cond": "পাঠালে",
+      "v_v_ptcp_hab": "পাঠায়",
+      "v_v_ptcp_prf": "পাঠায়",
+      "v_v_ptcp_prog": "পাঠাতে"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "ফেলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ফেলা",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs_pol": "ফেলে",
+      "v_v_ptcp_hab": "ফেলে",
+      "v_v_ptcp_prf": "ফেলে"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "বলা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "বলা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "বলবো",
+      "v_1_prs": "বলি",
+      "v_1_prs_prf": "বলেছি",
+      "v_1_prs_prog": "বলছি",
+      "v_1_pst": "বল্লাম",
+      "v_1_pst_hab": "বলতাম",
+      "v_1_pst_prf": "বলেছিলাম",
+      "v_1_pst_prog": "বলছিলাম",
+      "v_2_fut_lgspec1": "বলবি",
+      "v_2_fut_pol": "বলবে",
+      "v_2_prs_lgspec1": "বলিস",
+      "v_2_prs_pol": "বলে",
+      "v_2_prs_prf_lgspec1": "বলেছিস",
+      "v_2_prs_prf_pol": "বলেছে",
+      "v_2_prs_prog_lgspec1": "বলছিস",
+      "v_2_prs_prog_pol": "বলছে",
+      "v_2_pst_hab_lgspec1": "বলতিস",
+      "v_2_pst_hab_pol": "বলতো",
+      "v_2_pst_lgspec1": "বল্লি",
+      "v_2_pst_pol": "বল্লো",
+      "v_2_pst_prf_lgspec1": "বলেছিলি",
+      "v_2_pst_prf_pol": "বলেছিলো",
+      "v_2_pst_prog_lgspec1": "বলছিলি",
+      "v_2_pst_prog_pol": "বলছিলো",
+      "v_3_fut_infm": "বলবে",
+      "v_3_fut_pol": "বলবেন",
+      "v_3_prs_infm": "বলো",
+      "v_3_prs_pol": "বলেন",
+      "v_3_prs_prf_infm": "বলেছো",
+      "v_3_prs_prf_pol": "বলেছেন",
+      "v_3_prs_prog_infm": "বলছো",
+      "v_3_prs_prog_pol": "বলছেন",
+      "v_3_pst_hab_infm": "বলতে",
+      "v_3_pst_hab_pol": "বলতেন",
+      "v_3_pst_infm": "বল্লে",
+      "v_3_pst_pol": "বল্লেন",
+      "v_3_pst_prf_infm": "বলেছিলে",
+      "v_3_pst_prf_pol": "বলেছিলেন",
+      "v_3_pst_prog_infm": "বলছিলে",
+      "v_3_pst_prog_pol": "বলছিলেন",
+      "v_v_msdr": "বলা",
+      "v_v_nfin": "বলতে",
+      "v_v_ptcp_cond": "বল্লে",
+      "v_v_ptcp_hab": "বলে",
+      "v_v_ptcp_prf": "বলে",
+      "v_v_ptcp_prog": "বলতে"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "বসা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "বসা",
+    "inflections": {
+      "regulars": [],
+      "v_2_prs_pol": "বসে",
+      "v_v_ptcp_hab": "বসে",
+      "v_v_ptcp_prf": "বসে"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "বিভাগ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "বিভাগ",
+    "inflections": {
+      "n_acc_ndef": "বিভাগ",
+      "n_acc_pl_def": "বিভাগগুলা",
+      "n_acc_sg_def": "বিভাগটা",
+      "n_gen_ndef": "বিভাগের",
+      "n_gen_pl_def": "বিভাগগুলার",
+      "n_gen_sg_def": "বিভাগটার",
+      "n_loc_ndef": "বিভাগে",
+      "n_loc_pl_def": "বিভাগগুলাতে",
+      "n_loc_sg_def": "বিভাগটাতে",
+      "n_nom_ndef": "বিভাগ",
+      "n_nom_pl_def": "বিভাগগুলা",
+      "n_nom_sg_def": "বিভাগটা",
+      "regulars": []
+    },
+    "priority": 3,
+    "types": [
+      "noun"
+    ]
+  },
+  "বোঝা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "বোঝা",
+    "inflections": {
+      "regulars": [],
+      "v_3_pst_hab_infm": "বুঝতে",
+      "v_v_nfin": "বুঝতে",
+      "v_v_ptcp_prog": "বুঝতে"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "ব্যক্তি": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ব্যক্তি",
+    "inflections": {
+      "n_acc_ndef": "ব্যক্তি",
+      "n_acc_pl_def": "ব্যক্তিদেরকে",
+      "n_acc_sg_def": "ব্যক্তিটাকে",
+      "n_gen_ndef": "ব্যক্তির",
+      "n_gen_pl_def": "ব্যক্তিদের",
+      "n_gen_sg_def": "ব্যক্তিটার",
+      "n_nom_ndef": "ব্যক্তি",
+      "n_nom_pl_def": "ব্যক্তিরা",
+      "n_nom_sg_def": "ব্যক্তিটা",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "ভাঙা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ভাঙা",
+    "inflections": {
+      "regulars": [],
+      "v_v_ptcp_hab": "ভেঙে",
+      "v_v_ptcp_prf": "ভেঙে"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "ভাষা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ভাষা",
+    "inflections": {
+      "n_acc_ndef": "ভাষা",
+      "n_acc_pl_def": "ভাষাগুলা",
+      "n_acc_sg_def": "ভাষাটা",
+      "n_gen_ndef": "ভাষার",
+      "n_gen_pl_def": "ভাষাগুলার",
+      "n_gen_sg_def": "ভাষাটার",
+      "n_loc_ndef": "ভাষাতে",
+      "n_loc_pl_def": "ভাষাগুলাতে",
+      "n_loc_sg_def": "ভাষাটাতে",
+      "n_nom_ndef": "ভাষা",
+      "n_nom_pl_def": "ভাষাগুলা",
+      "n_nom_sg_def": "ভাষাটা",
+      "regulars": []
+    },
+    "priority": 7,
+    "types": [
+      "noun"
+    ]
+  },
+  "মানুষ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "মানুষ",
+    "inflections": {
+      "n_acc_ndef": "মানুষ",
+      "n_acc_pl_def": "মানুষদেরকে",
+      "n_acc_sg_def": "মানুষটাকে",
+      "n_gen_ndef": "মানুষের",
+      "n_gen_pl_def": "মানুষদের",
+      "n_gen_sg_def": "মানুষটার",
+      "n_nom_ndef": "মানুষ",
+      "n_nom_pl_def": "মানুষেরা",
+      "n_nom_sg_def": "মানুষটা",
+      "regulars": []
+    },
+    "priority": 9,
+    "types": [
+      "noun"
+    ]
+  },
+  "মারা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "মারা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "মারবো",
+      "v_1_prs": "মারি",
+      "v_1_prs_prf": "মেরেছি",
+      "v_1_prs_prog": "মারছি",
+      "v_1_pst": "মারলাম",
+      "v_1_pst_hab": "মারতাম",
+      "v_1_pst_prf": "মেরেছিলাম",
+      "v_1_pst_prog": "মারছিলাম",
+      "v_2_fut_lgspec1": "মারবি",
+      "v_2_fut_pol": "মারবে",
+      "v_2_prs_lgspec1": "মারিস",
+      "v_2_prs_pol": "মারে",
+      "v_2_prs_prf_lgspec1": "মেরেছিস",
+      "v_2_prs_prf_pol": "মেরেছে",
+      "v_2_prs_prog_lgspec1": "মারছিস",
+      "v_2_prs_prog_pol": "মারছে",
+      "v_2_pst_hab_lgspec1": "মারতিস",
+      "v_2_pst_hab_pol": "মারতো",
+      "v_2_pst_lgspec1": "মারলি",
+      "v_2_pst_pol": "মারলো",
+      "v_2_pst_prf_lgspec1": "মেরেছিলি",
+      "v_2_pst_prf_pol": "মেরেছিলো",
+      "v_2_pst_prog_lgspec1": "মারছিলি",
+      "v_2_pst_prog_pol": "মারছিলো",
+      "v_3_fut_infm": "মারবে",
+      "v_3_fut_pol": "মারবেন",
+      "v_3_prs_infm": "মারো",
+      "v_3_prs_pol": "মারেন",
+      "v_3_prs_prf_infm": "মেরেছো",
+      "v_3_prs_prf_pol": "মেরেছেন",
+      "v_3_prs_prog_infm": "মারছো",
+      "v_3_prs_prog_pol": "মারছেন",
+      "v_3_pst_hab_infm": "মারতে",
+      "v_3_pst_hab_pol": "মারতেন",
+      "v_3_pst_infm": "মারলে",
+      "v_3_pst_pol": "মারলেন",
+      "v_3_pst_prf_infm": "মেরেছিলে",
+      "v_3_pst_prf_pol": "মেরেছিলেন",
+      "v_3_pst_prog_infm": "মারছিলে",
+      "v_3_pst_prog_pol": "মারছিলেন",
+      "v_v_msdr": "মারা",
+      "v_v_nfin": "মারতে",
+      "v_v_ptcp_cond": "মারলে",
+      "v_v_ptcp_hab": "মেরে",
+      "v_v_ptcp_prf": "মেরে",
+      "v_v_ptcp_prog": "মারতে"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "মুখ": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "মুখ",
+    "inflections": {
+      "n_acc_ndef": "মুখ",
+      "n_acc_pl_def": "মুখগুলা",
+      "n_acc_sg_def": "মুখটা",
+      "n_gen_ndef": "মুখের",
+      "n_gen_pl_def": "মুখগুলার",
+      "n_gen_sg_def": "মুখটার",
+      "n_loc_ndef": "মুখে",
+      "n_loc_pl_def": "মুখগুলাতে",
+      "n_loc_sg_def": "মুখটাতে",
+      "n_nom_ndef": "মুখ",
+      "n_nom_pl_def": "মুখগুলা",
+      "n_nom_sg_def": "মুখটা",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "যাওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "যাওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_2_fut_pol": "যাবে",
+      "v_2_prs_prog_pol": "যাচ্ছে",
+      "v_3_fut_infm": "যাবে",
+      "v_3_prs_pol": "যান",
+      "v_3_pst_hab_infm": "যেতে",
+      "v_3_pst_infm": "গেলে",
+      "v_v_nfin": "যেতে",
+      "v_v_ptcp_cond": "গেলে",
+      "v_v_ptcp_prog": "যেতে"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "রাখা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "রাখা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "রাখবো",
+      "v_1_prs": "রাখি",
+      "v_1_prs_prf": "রেখেছি",
+      "v_1_prs_prog": "রাখছি",
+      "v_1_pst": "রাখলাম",
+      "v_1_pst_hab": "রাখতাম",
+      "v_1_pst_prf": "রেখেছিলাম",
+      "v_1_pst_prog": "রাখছিলাম",
+      "v_2_fut_lgspec1": "রাখবি",
+      "v_2_fut_pol": "রাখবে",
+      "v_2_prs_lgspec1": "রাখিস",
+      "v_2_prs_pol": "রাখে",
+      "v_2_prs_prf_lgspec1": "রেখেছিস",
+      "v_2_prs_prf_pol": "রেখেছে",
+      "v_2_prs_prog_lgspec1": "রাখছিস",
+      "v_2_prs_prog_pol": "রাখছে",
+      "v_2_pst_hab_lgspec1": "রাখতিস",
+      "v_2_pst_hab_pol": "রাখতো",
+      "v_2_pst_lgspec1": "রাখলি",
+      "v_2_pst_pol": "রাখলো",
+      "v_2_pst_prf_lgspec1": "রেখেছিলি",
+      "v_2_pst_prf_pol": "রেখেছিলো",
+      "v_2_pst_prog_lgspec1": "রাখছিলি",
+      "v_2_pst_prog_pol": "রাখছিলো",
+      "v_3_fut_infm": "রাখবে",
+      "v_3_fut_pol": "রাখবেন",
+      "v_3_prs_infm": "রাখো",
+      "v_3_prs_pol": "রাখেন",
+      "v_3_prs_prf_infm": "রেখেছো",
+      "v_3_prs_prf_pol": "রেখেছেন",
+      "v_3_prs_prog_infm": "রাখছো",
+      "v_3_prs_prog_pol": "রাখছেন",
+      "v_3_pst_hab_infm": "রাখতে",
+      "v_3_pst_hab_pol": "রাখতেন",
+      "v_3_pst_infm": "রাখলে",
+      "v_3_pst_pol": "রাখলেন",
+      "v_3_pst_prf_infm": "রেখেছিলে",
+      "v_3_pst_prf_pol": "রেখেছিলেন",
+      "v_3_pst_prog_infm": "রাখছিলে",
+      "v_3_pst_prog_pol": "রাখছিলেন",
+      "v_v_msdr": "রাখা",
+      "v_v_nfin": "রাখতে",
+      "v_v_ptcp_cond": "রাখলে",
+      "v_v_ptcp_hab": "রেখে",
+      "v_v_ptcp_prf": "রেখে",
+      "v_v_ptcp_prog": "রাখতে"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "লেখা": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "লেখা",
+    "inflections": {
+      "regulars": [],
+      "v_1_fut": "লিখবো",
+      "v_1_prs": "লিখি",
+      "v_1_prs_prf": "লিখেছি",
+      "v_1_prs_prog": "লিখছি",
+      "v_1_pst": "লিখলাম",
+      "v_1_pst_hab": "লিখতাম",
+      "v_1_pst_prf": "লিখেছিলাম",
+      "v_1_pst_prog": "লিখছিলাম",
+      "v_2_fut_lgspec1": "লিখবি",
+      "v_2_fut_pol": "লিখবে",
+      "v_2_prs_lgspec1": "লিখিস",
+      "v_2_prs_pol": "লেখে",
+      "v_2_prs_prf_lgspec1": "লিখেছিস",
+      "v_2_prs_prf_pol": "লিখেছে",
+      "v_2_prs_prog_lgspec1": "লিখছিস",
+      "v_2_prs_prog_pol": "লিখছে",
+      "v_2_pst_hab_lgspec1": "লিখতিস",
+      "v_2_pst_hab_pol": "লিখতো",
+      "v_2_pst_lgspec1": "লিখলি",
+      "v_2_pst_pol": "লিখলো",
+      "v_2_pst_prf_lgspec1": "লিখেছিলি",
+      "v_2_pst_prf_pol": "লিখেছিলো",
+      "v_2_pst_prog_lgspec1": "লিখছিলি",
+      "v_2_pst_prog_pol": "লিখছিলো",
+      "v_3_fut_infm": "লিখবে",
+      "v_3_fut_pol": "লিখবেন",
+      "v_3_prs_infm": "লেখো",
+      "v_3_prs_pol": "লেখেন",
+      "v_3_prs_prf_infm": "লিখেছো",
+      "v_3_prs_prf_pol": "লিখেছেন",
+      "v_3_prs_prog_infm": "লিখছো",
+      "v_3_prs_prog_pol": "লিখছেন",
+      "v_3_pst_hab_infm": "লিখতে",
+      "v_3_pst_hab_pol": "লিখতেন",
+      "v_3_pst_infm": "লিখলে",
+      "v_3_pst_pol": "লিখলেন",
+      "v_3_pst_prf_infm": "লিখেছিলে",
+      "v_3_pst_prf_pol": "লিখেছিলেন",
+      "v_3_pst_prog_infm": "লিখছিলে",
+      "v_3_pst_prog_pol": "লিখছিলেন",
+      "v_v_msdr": "লেখা",
+      "v_v_nfin": "লিখতে",
+      "v_v_ptcp_cond": "লিখলে",
+      "v_v_ptcp_hab": "লিখে",
+      "v_v_ptcp_prf": "লিখে",
+      "v_v_ptcp_prog": "লিখতে"
+    },
+    "priority": 4,
+    "types": [
+      "verb"
+    ]
+  },
+  "শহর": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "শহর",
+    "inflections": {
+      "n_gen_ndef": "শহরের",
+      "n_loc_ndef": "শহরে",
+      "regulars": []
+    },
+    "priority": 4,
+    "types": [
+      "noun"
+    ]
+  },
+  "শিশু": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "শিশু",
+    "inflections": {
+      "n_acc_ndef": "শিশু",
+      "n_acc_pl_def": "শিশুদেরকে",
+      "n_acc_sg_def": "শিশুটাকে",
+      "n_gen_ndef": "শিশুর",
+      "n_gen_pl_def": "শিশুদের",
+      "n_gen_sg_def": "শিশুটার",
+      "n_nom_ndef": "শিশু",
+      "n_nom_pl_def": "শিশুরা",
+      "n_nom_sg_def": "শিশুটা",
+      "regulars": []
+    },
+    "priority": 5,
+    "types": [
+      "noun"
+    ]
+  },
+  "হওয়া": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "হওয়া",
+    "inflections": {
+      "regulars": [],
+      "v_2_fut_pol": "হবে",
+      "v_2_prs_prog_pol": "হচ্ছে",
+      "v_2_pst_pol": "হলো",
+      "v_3_fut_infm": "হবে",
+      "v_3_prs_pol": "হন",
+      "v_3_pst_hab_infm": "হতে",
+      "v_3_pst_infm": "হলে",
+      "v_v_nfin": "হতে",
+      "v_v_ptcp_cond": "হলে",
+      "v_v_ptcp_hab": "হয়ে",
+      "v_v_ptcp_prf": "হয়ে",
+      "v_v_ptcp_prog": "হতে"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

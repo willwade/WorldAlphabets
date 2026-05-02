@@ -30,6 +30,7 @@ async function main() {
   code = code.replace("import { ALPHABETS } from './dist/browser-alphabets.mjs';", "import { ALPHABETS } from './browser-alphabets.mjs';");
   code = code.replace("import { LAYOUTS, AVAILABLE_LAYOUTS } from './dist/browser-layouts.mjs';", "import { LAYOUTS, AVAILABLE_LAYOUTS } from './browser-layouts.mjs';");
   code = code.replace("import { FREQ_RANKS } from './dist/browser-freq.mjs';", "import { FREQ_RANKS } from './browser-freq.mjs';");
+  code = code.replace("import { INFLECTIONS, INFLECTION_INDEX } from './dist/browser-inflections.mjs';", "import { INFLECTIONS, INFLECTION_INDEX } from './browser-inflections.mjs';");
 
   await fsp.writeFile(OUT, code);
   console.log(`\u2705 Wrote ${OUT}`);

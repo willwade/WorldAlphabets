@@ -1,0 +1,423 @@
+{
+  "_locale": "ln",
+  "_type": "words",
+  "_version": "0.1",
+  "band": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "band",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kobanda",
+      "v_nfin": "kobanda"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "bebis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bebis",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kobebisa",
+      "v_nfin": "kobebisa"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "beng": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "beng",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kobenga",
+      "v_nfin": "kobenga"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "bom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bom",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koboma",
+      "v_nfin": "koboma"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "bongis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "bongis",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kobongisa",
+      "v_nfin": "kobongisa"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "fand": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "fand",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kofanda",
+      "v_nfin": "kofanda"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kang": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kang",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kokanga"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "kat": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kat",
+    "inflections": {
+      "regulars": [],
+      "v_prs": "kati"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "kom": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kom",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kokoma",
+      "v_nfin": "kokoma"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "kuf": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "kuf",
+    "inflections": {
+      "regulars": [],
+      "v_pst": "kufaki"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "li": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "li",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kolia",
+      "v_nfin": "kolia"
+    },
+    "priority": 1,
+    "types": [
+      "verb"
+    ]
+  },
+  "ling": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "ling",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kolinga",
+      "v_nfin": "kolinga"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "lob": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "lob",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koloba",
+      "v_nfin": "koloba"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "luk": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "luk",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koluka",
+      "v_nfin": "koluka"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "pes": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "pes",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kopesa",
+      "v_nfin": "kopesa"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  },
+  "salis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "salis",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kosalisa",
+      "v_nfin": "kosalisa"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "somb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "somb",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kosomba",
+      "v_nfin": "kosomba"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "tal": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tal",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kotala",
+      "v_nfin": "kotala"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "tang": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tang",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kotanga",
+      "v_nfin": "kotanga"
+    },
+    "priority": 8,
+    "types": [
+      "verb"
+    ]
+  },
+  "tik": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tik",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kotika",
+      "v_nfin": "kotika"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "tong": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "tong",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kotonga",
+      "v_nfin": "kotonga"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "vand": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "vand",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kovanda",
+      "v_nfin": "kovanda"
+    },
+    "priority": 6,
+    "types": [
+      "verb"
+    ]
+  },
+  "yamb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yamb",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koyamba",
+      "v_nfin": "koyamba"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "yeb": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yeb",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koyeba",
+      "v_nfin": "koyeba"
+    },
+    "priority": 9,
+    "types": [
+      "verb"
+    ]
+  },
+  "yebis": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yebis",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koyebisa",
+      "v_nfin": "koyebisa"
+    },
+    "priority": 3,
+    "types": [
+      "verb"
+    ]
+  },
+  "yekol": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yekol",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koyekola",
+      "v_nfin": "koyekola"
+    },
+    "priority": 5,
+    "types": [
+      "verb"
+    ]
+  },
+  "yok": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "yok",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "koyoka",
+      "v_nfin": "koyoka"
+    },
+    "priority": 7,
+    "types": [
+      "verb"
+    ]
+  },
+  "zal": {
+    "_sources": [
+      "unimorph"
+    ],
+    "base": "zal",
+    "inflections": {
+      "regulars": [],
+      "v_fut": "kozala",
+      "v_nfin": "kozala",
+      "v_prs": "zali"
+    },
+    "priority": 10,
+    "types": [
+      "verb"
+    ]
+  }
+}

@@ -4,7 +4,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from importlib.resources import files
-from typing import Dict, List, Optional, Literal
+import json
+from typing import Any, Dict, List, Optional, Literal
 
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import (
@@ -26,6 +27,7 @@ from .detect import detect_languages
 from .detect.optimized import optimized_detect_languages, detect_languages_with_progress
 
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
+INFLECTION_DIR = files("worldalphabets") / "data" / "inflections"
 
 
 @dataclass
@@ -91,6 +93,91 @@ def load_frequency_list(code: str) -> FrequencyList:
     return FrequencyList(language=code, tokens=tokens, mode=mode)
 
 
+def _load_inflection_index() -> Dict[str, Any]:
+    """Load the inflection dataset index."""
+
+    path = INFLECTION_DIR / "index.json"
+    if not path.is_file():
+        return {"_type": "inflection_index", "_version": "0.1", "locales": {}}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError("Inflection index must contain a JSON object")
+    return data
+
+
+def get_available_inflection_locales() -> List[str]:
+    """Return sorted locales with available inflection datasets."""
+
+    index = _load_inflection_index()
+    locales = index.get("locales", {})
+    if not isinstance(locales, dict):
+        return []
+    return sorted(str(locale) for locale in locales)
+
+
+def _load_inflection_file(locale: str, filename: str) -> Dict[str, Any]:
+    """Load an inflection JSON file for a locale."""
+
+    path = INFLECTION_DIR / locale / filename
+    requested_locale = locale
+    if not path.is_file() and "-" in locale:
+        locale = locale.split("-", 1)[0]
+        path = INFLECTION_DIR / locale / filename
+    if not path.is_file():
+        raise FileNotFoundError(
+            f"Inflection data for locale '{requested_locale}' not found"
+        )
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a JSON object")
+    return data
+
+
+def load_inflection_words(locale: str) -> Dict[str, Any]:
+    """Return word-form data for ``locale``."""
+
+    return _load_inflection_file(locale, "words.json")
+
+
+def load_inflection_rules(locale: str) -> Dict[str, Any]:
+    """Return inflection rule data for ``locale``."""
+
+    return _load_inflection_file(locale, "rules.json")
+
+
+def load_inflection_data(locale: str) -> Dict[str, Dict[str, Any]]:
+    """Return both word-form and rule data for ``locale``."""
+
+    return {
+        "words": load_inflection_words(locale),
+        "rules": load_inflection_rules(locale),
+    }
+
+
+def get_word_forms(locale: str, word: str) -> Optional[Dict[str, Any]]:
+    """Return the word-form entry for ``word`` in ``locale`` if present."""
+
+    words = load_inflection_words(locale)
+    entry = words.get(word)
+    return entry if isinstance(entry, dict) else None
+
+
+def inflect_word(locale: str, word: str, inflection: str) -> Optional[str]:
+    """Return an explicit inflected form for ``word`` if one is available."""
+
+    entry = get_word_forms(locale, word)
+    if entry is None:
+        return None
+    if inflection == "base":
+        base = entry.get("base")
+        return base if isinstance(base, str) else word
+    forms = entry.get("inflections")
+    if not isinstance(forms, dict):
+        return None
+    value = forms.get(inflection)
+    return value if isinstance(value, str) else None
+
+
 def get_diacritic_variants(
     code: str, script: str | None = None
 ) -> Dict[str, List[str]]:
@@ -119,6 +206,12 @@ __all__ = [
     "get_available_codes",
     "load_frequency_list",
     "FrequencyList",
+    "get_available_inflection_locales",
+    "load_inflection_words",
+    "load_inflection_rules",
+    "load_inflection_data",
+    "get_word_forms",
+    "inflect_word",
     "get_index_data",
     "get_language",
     "get_scripts",
