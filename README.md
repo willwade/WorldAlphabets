@@ -7,12 +7,40 @@
   [![PyPI version](https://img.shields.io/pypi/v/worldalphabets.svg)](https://pypi.org/project/worldalphabets/)
   [![GitHub release](https://img.shields.io/github/v/release/willwade/WorldAlphabets)](https://github.com/willwade/WorldAlphabets/releases/latest)
   [![C Library](https://img.shields.io/badge/C_Library-Download-blue)](https://github.com/willwade/WorldAlphabets/releases/latest)
+  [![Swift Package Manager](https://img.shields.io/badge/Swift-SPM-orange.svg)](https://swift.org/package-manager/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
-A tool to access alphabets of the world with Python, Node.js, and C interfaces.
+A tool to access alphabets of the world with Python, Node.js, C, and Swift interfaces.
 
 ## Usage
+
+### Swift
+
+You can add `WorldAlphabets` to your Swift project using Swift Package Manager. Add the following to your `Package.swift` dependencies:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/willwade/WorldAlphabets.git", from: "1.0.0")
+]
+```
+
+To load the data in Swift:
+
+```swift
+import WorldAlphabets
+
+// Get available codes
+let codes = WorldAlphabets.getAvailableCodes()
+
+// Load alphabet
+if let alphabet = WorldAlphabets.loadAlphabet(code: "en") {
+    print(alphabet.uppercase)
+}
+
+// Detect language
+let detected = WorldAlphabets.detectLanguages(text: "Hello World")
+```
 
 ### Python
 
