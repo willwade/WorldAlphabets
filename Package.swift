@@ -25,7 +25,11 @@ let package = Package(
                 "src",
                 "generated"
             ],
-            publicHeadersPath: "include"
+            publicHeadersPath: "include",
+            cSettings: [
+                .headerSearchPath("generated"),
+                .headerSearchPath("include")
+            ]
         ),
         .target(
             name: "WorldAlphabets",
