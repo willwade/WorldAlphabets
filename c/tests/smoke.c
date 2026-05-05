@@ -145,7 +145,7 @@ int main(void) {
         printf("OK (%s: %zu entries)\n", table->locale, table->entry_count);
 
         if (table->entry_count > 0) {
-            const wa_inflection_entry *first = &table->entries[0];
+            const wa_inflection_entry *first = table->entries[0];
             printf("  wa_get_inflected_form... ");
             const char *base = wa_get_inflected_form(first, "base");
             assert(base != NULL);
