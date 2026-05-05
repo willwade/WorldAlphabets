@@ -1,41 +1,19 @@
 {
-  "generated_at": "2025-09-15T22:54:52.601974+00:00",
-  "source": "Unified 5-Priority Pipeline (Leipzig + HermitDave + Tatoeba + Alphabet + Simia)",
-  "successful": 6,
-  "failed": 19,
+  "generated_at": "2025-11-11T12:33:40.388Z",
+  "source": "Unified 6-Priority Pipeline (Leipzig + HermitDave + CommonVoice + Tatoeba + Alphabet + Simia)",
+  "successful": 203,
+  "failed": 0,
   "languages": [
-    "twq",
-    "tyv",
-    "tzm",
-    "ug",
-    "uz",
-    "vai",
-    "ve",
-    "vi",
-    "vmw",
-    "vo",
-    "vun",
-    "wa",
-    "wae",
-    "wbp",
-    "wo",
-    "xh",
-    "xnr",
-    "xog",
-    "yav",
-    "yi",
-    "yo",
-    "yrl",
-    "za",
-    "zra",
-    "zu"
+    "ady",
+    "ttj",
+    "tob"
   ],
   "sources_used": {
-    "Leipzig": 0,
-    "HermitDave": 1,
-    "Tatoeba": 5,
+    "Leipzig": 77,
+    "HermitDave": 48,
+    "CommonVoice": 3,
+    "Tatoeba": 73,
     "Alphabet": 0,
-    "Simia": 0,
-    "Existing": 0
+    "Simia": 2
   }
 }
