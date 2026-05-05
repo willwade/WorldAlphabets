@@ -168,7 +168,9 @@ public struct WorldAlphabets {
                     }
                 }
 
-                resultsArray = wa_detect_languages(textCStr, cStrings, cStrings.count, nil, 0, topK)
+                resultsArray = cStrings.withUnsafeMutableBufferPointer { buffer in
+                    wa_detect_languages(textCStr, buffer.baseAddress, cStrings.count, nil, 0, topK)
+                }
 
                 // Free the duplicated C strings
                 for ptr in cStrings {
