@@ -13,6 +13,7 @@ extern const wa_alphabet WA_ALPHABETS[];
 extern const wa_frequency_list WA_FREQUENCY_LISTS[];
 extern const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[];
 extern const char *WA_LAYOUT_IDS[];
-#define WA_INFLECTION_TABLES_COUNT 1u
+#define WA_INFLECTION_TABLES_COUNT 4u
 extern const char *WA_INFLECTION_LOCALE_CODES[];
 extern const wa_inflection_table WA_INFLECTION_TABLES[];
+extern const wa_rules_table WA_RULES_TABLES[];

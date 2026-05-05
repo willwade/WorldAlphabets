@@ -110,6 +110,41 @@ typedef struct {
 } wa_inflection_table;
 
 typedef struct {
+    const char **words;
+    size_t word_count;
+    const char *match_type;
+    int optional;
+    int condense;
+} wa_lookback_check;
+
+typedef struct {
+    const char *key;
+    const char *value;
+} wa_rule_override;
+
+typedef struct {
+    const char *id;
+    const char *type;
+    const char *inflection;
+    const wa_lookback_check *lookback;
+    size_t lookback_count;
+    const wa_rule_override *overrides;
+    size_t override_count;
+} wa_inflection_rule;
+
+typedef struct {
+    const char *locale;
+    const wa_inflection_rule *rules;
+    size_t rule_count;
+} wa_rules_table;
+
+typedef struct {
+    const char *replacement;
+    const char *rule_id;
+    const char *rule_type;
+} wa_lookup_result;
+
+typedef struct {
     const wa_keyboard_layout *layout;
     const wa_keyboard_layer *layer;
     const wa_keyboard_mapping *mapping;
@@ -160,7 +195,14 @@ const wa_inflection_table *wa_load_inflection_table(const char *locale);
 const wa_inflection_entry *wa_find_inflection_entry(
     const wa_inflection_table *table, const char *word);
 const char *wa_get_inflected_form(const wa_inflection_entry *entry,
-                                  const char *inflection_key);
+                                   const char *inflection_key);
+
+// Inflection rules + lookup
+const wa_rules_table *wa_load_rules_table(const char *locale);
+wa_lookup_result wa_lookup_word(const wa_inflection_table *words,
+                                 const wa_rules_table *rules,
+                                 const char *word,
+                                 const char *prior_words);
 
 #ifdef __cplusplus
 }

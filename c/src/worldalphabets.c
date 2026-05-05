@@ -651,7 +651,7 @@ const wa_inflection_entry *wa_find_inflection_entry(
 }
 
 const char *wa_get_inflected_form(const wa_inflection_entry *entry,
-                                  const char *inflection_key) {
+                                   const char *inflection_key) {
     if (entry == NULL || inflection_key == NULL) return NULL;
     if (wa_streq(inflection_key, "base")) {
         return entry->base ? entry->base : entry->word;
@@ -662,4 +662,188 @@ const char *wa_get_inflected_form(const wa_inflection_entry *entry,
         }
     }
     return NULL;
+}
+
+const wa_rules_table *wa_load_rules_table(const char *locale) {
+    for (size_t i = 0; i < WA_INFLECTION_TABLES_COUNT; i++) {
+        if (wa_streq(WA_RULES_TABLES[i].locale, locale)) {
+            return &WA_RULES_TABLES[i];
+        }
+    }
+    return NULL;
+}
+
+static int wa_ci_contains(const char **list, size_t count, const char *word) {
+    if (word == NULL) return 0;
+    for (size_t i = 0; i < count; i++) {
+        if (list[i] && wa_streq(list[i], word)) return 1;
+    }
+    return 0;
+}
+
+static int wa_entry_has_type(const wa_inflection_entry *entry,
+                              const char *type) {
+    if (entry == NULL || type == NULL) return 0;
+    for (size_t i = 0; i < entry->type_count; i++) {
+        if (wa_streq(entry->types[i], type)) return 1;
+    }
+    return 0;
+}
+
+static int wa_item_matches(const wa_lookback_check *check,
+                            const wa_inflection_entry *entry,
+                            const char *word) {
+    if (check == NULL) return 0;
+    int matching = 1;
+    if (check->words != NULL && check->word_count > 0) {
+        matching = wa_ci_contains(check->words, check->word_count, word);
+    } else if (check->match_type != NULL) {
+        matching = wa_entry_has_type(entry, check->match_type);
+    }
+    return matching;
+}
+
+static int wa_matches_rule(const wa_inflection_rule *rule,
+                            const wa_inflection_entry **history,
+                            size_t history_len) {
+    if (rule == NULL || rule->lookback == NULL) return 0;
+    size_t lookback_count = rule->lookback_count;
+    if (lookback_count == 0) return 1;
+
+    long hidx = (long)history_len - 1;
+    for (long li = (long)lookback_count - 1; li >= 0; li--) {
+        const wa_lookback_check *check = &rule->lookback[li];
+        const wa_lookback_check *pre_check =
+            (li > 0) ? &rule->lookback[li - 1] : NULL;
+
+        if (hidx < 0) {
+            if (!check->optional) return 0;
+            continue;
+        }
+
+        const wa_inflection_entry *item = history[hidx];
+        const char *word = item ? item->word : NULL;
+        int matching = wa_item_matches(check, item, word);
+
+        if (matching && check->optional && pre_check) {
+            int pre_matching = wa_item_matches(pre_check, item, word);
+            int pre_optional = pre_check->optional;
+            if (pre_matching && !pre_optional) matching = 0;
+        }
+
+        if (matching) {
+            hidx--;
+        } else if (!check->optional) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+#define WA_MAX_MATCHING_RULES 32
+
+wa_lookup_result wa_lookup_word(const wa_inflection_table *words_table,
+                                 const wa_rules_table *rules_table,
+                                 const char *word,
+                                 const char *prior_words) {
+    wa_lookup_result result = {NULL, NULL, NULL};
+    if (word == NULL || words_table == NULL) return result;
+
+    const wa_inflection_entry *entry = wa_find_inflection_entry(words_table, word);
+    if (entry == NULL) {
+        result.replacement = word;
+        return result;
+    }
+
+    if (rules_table == NULL || rules_table->rule_count == 0 ||
+        prior_words == NULL || prior_words[0] == '\0') {
+        result.replacement = word;
+        return result;
+    }
+
+    // Tokenize prior_words into history entries
+    #define WA_MAX_PRIOR 32
+    const wa_inflection_entry *history[WA_MAX_PRIOR];
+    size_t history_len = 0;
+    {
+        char buf[1024];
+        size_t plen = strlen(prior_words);
+        if (plen >= sizeof(buf)) plen = sizeof(buf) - 1;
+        memcpy(buf, prior_words, plen);
+        buf[plen] = '\0';
+        char *tok = strtok(buf, " \t");
+        while (tok && history_len < WA_MAX_PRIOR) {
+            history[history_len] = wa_find_inflection_entry(words_table, tok);
+            history_len++;
+            tok = strtok(NULL, " \t");
+        }
+    }
+
+    // Find matching rules
+    const wa_inflection_rule *matching[WA_MAX_MATCHING_RULES];
+    size_t match_count = 0;
+    char found_types[64] = {0};
+    size_t found_type_count = 0;
+
+    for (size_t ri = 0; ri < rules_table->rule_count; ri++) {
+        const wa_inflection_rule *rule = &rules_table->rules[ri];
+        if (rule->type == NULL) continue;
+
+        int is_override = wa_streq(rule->type, "override");
+        int type_seen = 0;
+        for (size_t ti = 0; ti < found_type_count; ti++) {
+            if (wa_streq(rule->type, &found_types[ti * 2])) {
+                type_seen = 1;
+                break;
+            }
+        }
+        if (type_seen && !is_override) continue;
+
+        if (wa_matches_rule(rule, history, history_len)) {
+            if (match_count < WA_MAX_MATCHING_RULES) {
+                matching[match_count++] = rule;
+            }
+            if (!is_override && found_type_count < 32) {
+                strncpy(&found_types[found_type_count * 2], rule->type, 2);
+                found_types[found_type_count * 2 + 1] = '\0';
+                found_type_count++;
+            }
+        }
+    }
+
+    // Build inflection map from matching rules
+    const char *override_word = NULL;
+    const char *override_rule_id = NULL;
+    const wa_inflection_rule *type_rule = NULL;
+
+    for (size_t mi = 0; mi < match_count; mi++) {
+        const wa_inflection_rule *rule = matching[mi];
+        if (wa_streq(rule->type, "override") && rule->overrides) {
+            if (!override_word) {
+                for (size_t oi = 0; oi < rule->override_count; oi++) {
+                    if (wa_streq(rule->overrides[oi].key, word)) {
+                        override_word = rule->overrides[oi].value;
+                        override_rule_id = rule->id;
+                        break;
+                    }
+                }
+            }
+        } else if (!type_rule) {
+            type_rule = rule;
+        }
+    }
+
+    if (override_word && override_word[0]) {
+        result.replacement = override_word;
+        result.rule_id = override_rule_id;
+    } else if (type_rule && type_rule->inflection) {
+        const char *form = wa_get_inflected_form(entry, type_rule->inflection);
+        result.replacement = form ? form : word;
+        result.rule_id = type_rule->id;
+        result.rule_type = type_rule->inflection;
+    } else {
+        result.replacement = word;
+    }
+
+    return result;
 }

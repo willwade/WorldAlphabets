@@ -354,6 +354,9 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     header_lines.append(
         "extern const wa_inflection_table WA_INFLECTION_TABLES[];"
     )
+    header_lines.append(
+        "extern const wa_rules_table WA_RULES_TABLES[];"
+    )
     header_path.write_text("\n".join(header_lines) + "\n", encoding="utf-8")
 
     # Split data across multiple source files to avoid MSVC internal compiler errors
@@ -627,6 +630,138 @@ def write_data_files(cfg: GeneratorConfig) -> None:
                 src6.append("};")
                 src6.append("")
 
+                # Emit rules data
+                rules_path = INFLECTION_DIR / locale / "rules.json"
+                rules_data = (
+                    json.loads(rules_path.read_text(encoding="utf-8"))
+                    if rules_path.exists()
+                    else {}
+                )
+                rules_list = rules_data.get("rules", [])
+
+                for r_idx, rule in enumerate(rules_list):
+                    if not isinstance(rule, dict):
+                        continue
+                    rid = rule.get("id", f"rule_{r_idx}")
+                    rtype = rule.get("type", "")
+                    rinfl = rule.get("inflection", "")
+                    lookback = rule.get("lookback", [])
+                    overrides = rule.get("overrides", {})
+
+                    # Emit lookback checks
+                    lb_checks = []
+                    for lb in lookback:
+                        if not isinstance(lb, dict):
+                            continue
+                        lb_words = lb.get("words", [])
+                        lb_type = lb.get("type", "")
+                        lb_optional = 1 if lb.get("optional") else 0
+                        lb_condense = 1 if lb.get("condense") else 0
+                        lb_words_name = (
+                            f"INFL_{loc_idx}_R{r_idx}_LB{len(lb_checks)}_W"
+                        )
+                        if lb_words:
+                            src6.append(
+                                format_string_array(
+                                    lb_words_name, lb_words, exported=False
+                                )
+                            )
+                            src6.append("")
+                        lb_checks.append(
+                            {
+                                "words_name": (
+                                    lb_words_name if lb_words else "NULL"
+                                ),
+                                "words_count": len(lb_words),
+                                "type": lb_type,
+                                "optional": lb_optional,
+                                "condense": lb_condense,
+                            }
+                        )
+
+                    if not lb_checks:
+                        lb_checks.append(
+                            {
+                                "words_name": "NULL",
+                                "words_count": 0,
+                                "type": "",
+                                "optional": 0,
+                                "condense": 0,
+                            }
+                        )
+
+                    lb_array_name = f"INFL_{loc_idx}_R{r_idx}_LB"
+                    src6.append(
+                        f"const wa_lookback_check {lb_array_name}[] = {{"
+                    )
+                    for lbc in lb_checks:
+                        type_str = (
+                            f'"{escape(lbc["type"])}"' if lbc["type"] else "NULL"
+                        )
+                        src6.append(
+                            f"  {{ {lbc['words_name']}, {lbc['words_count']}u,"
+                            f" {type_str}, {lbc['optional']}, {lbc['condense']} }},"
+                        )
+                    src6.append("};")
+                    src6.append("")
+
+                    # Emit overrides
+                    ovr_items = []
+                    if isinstance(overrides, dict):
+                        ovr_items = [
+                            (k, v) for k, v in overrides.items() if v
+                        ]
+                    if ovr_items:
+                        ovr_name = f"INFL_{loc_idx}_R{r_idx}_OV"
+                        src6.append(
+                            f"const wa_rule_override {ovr_name}[] = {{"
+                        )
+                        for ok, ov in ovr_items:
+                            src6.append(
+                                f'  {{ "{escape(ok)}", "{escape(ov)}" }},'
+                            )
+                        src6.append("};")
+                        src6.append("")
+
+                    # Emit rule struct
+                    rule_name = f"INFL_{loc_idx}_R{r_idx}"
+                    infl_str = (
+                        f'"{escape(rinfl)}"' if rinfl else "NULL"
+                    )
+                    ovr_ref = (
+                        f"INFL_{loc_idx}_R{r_idx}_OV"
+                        if ovr_items
+                        else "NULL"
+                    )
+                    ovr_count = len(ovr_items)
+                    src6.append(
+                        f"const wa_inflection_rule {rule_name} = {{"
+                    )
+                    src6.append(f'  "{escape(rid)}",')
+                    src6.append(f'  "{escape(rtype)}",')
+                    src6.append(f"  {infl_str},")
+                    src6.append(
+                        f"  {lb_array_name}, {len(lb_checks)}u,"
+                    )
+                    src6.append(f"  {ovr_ref}, {ovr_count}u,")
+                    src6.append("};")
+                    src6.append("")
+
+                rules_array_name = f"INFL_{loc_idx}_RULES"
+                if rules_list:
+                    src6.append(
+                        f"const wa_inflection_rule *{rules_array_name}[] = {{"
+                    )
+                    for r_idx in range(len(rules_list)):
+                        src6.append(f"  &INFL_{loc_idx}_R{r_idx},")
+                    src6.append("};")
+                    src6.append("")
+                else:
+                    src6.append(
+                        f"const wa_inflection_rule *{rules_array_name}[] = {{}};"
+                    )
+                    src6.append("")
+
             chunk_num = chunk_idx // INFLECTION_CHUNK_SIZE
             (OUT_DIR / f"wa_data_inflections_{chunk_num}.c").write_text(
                 "\n".join(src6) + "\n", encoding="utf-8"
@@ -645,6 +780,9 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             )
             src6_table.append(
                 f"extern const wa_inflection_entry *INFL_{loc_idx}_ENTRIES[];"
+            )
+            src6_table.append(
+                f"extern const wa_inflection_rule *INFL_{loc_idx}_RULES[];"
             )
 
         src6_table.append("")
@@ -675,6 +813,21 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             src6_table.append("  },")
         src6_table.append("};")
         src6_table.append("")
+        src6_table.append("const wa_rules_table WA_RULES_TABLES[] = {")
+        for loc_idx, locale in enumerate(inflection_locale_list):
+            rules_path = INFLECTION_DIR / locale / "rules.json"
+            if not rules_path.exists():
+                continue
+            rules_data = json.loads(rules_path.read_text(encoding="utf-8"))
+            rules_list = rules_data.get("rules", [])
+            src6_table.append("  {")
+            src6_table.append(f'    "{escape(locale)}",')
+            src6_table.append(
+                f"    INFL_{loc_idx}_RULES, {len(rules_list)}u,"
+            )
+            src6_table.append("  },")
+        src6_table.append("};")
+        src6_table.append("")
         (OUT_DIR / "wa_data_inflections_table.c").write_text(
             "\n".join(src6_table) + "\n", encoding="utf-8"
         )
@@ -689,6 +842,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             "",
             "const char *WA_INFLECTION_LOCALE_CODES[] = {};",
             "const wa_inflection_table WA_INFLECTION_TABLES[] = {};",
+            "const wa_rules_table WA_RULES_TABLES[] = {};",
             "",
         ]
         (OUT_DIR / "wa_data_inflections_stub.c").write_text(
