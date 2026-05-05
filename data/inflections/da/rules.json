@@ -541,22 +541,6 @@
     ],
     [
       "men",
-      "og",
-      "men eller",
-      {
-        "rule_id": "da_conjunction_og_men"
-      }
-    ],
-    [
-      "og",
-      "og",
-      "og eller",
-      {
-        "rule_id": "da_conjunction_og_men"
-      }
-    ],
-    [
-      "men",
       "men",
       "men eller",
       {
@@ -572,19 +556,19 @@
       }
     ],
     [
-      "du",
-      "jeg",
-      "du vi",
+      "men",
+      "og",
+      "men eller",
       {
-        "rule_id": "da_pronoun_jeg_du"
+        "rule_id": "da_conjunction_og_men"
       }
     ],
     [
-      "jeg",
-      "jeg",
-      "jeg vi",
+      "og",
+      "og",
+      "og eller",
       {
-        "rule_id": "da_pronoun_jeg_du"
+        "rule_id": "da_conjunction_og_men"
       }
     ],
     [
@@ -599,6 +583,22 @@
       "jeg",
       "du",
       "jeg I",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "du",
+      "jeg",
+      "du vi",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "jeg",
+      "jeg",
+      "jeg vi",
       {
         "rule_id": "da_pronoun_jeg_du"
       }

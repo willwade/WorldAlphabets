@@ -333,120 +333,24 @@
   "tests": [
     [
       "jamais",
-      "suis",
-      "jamais suis",
+      "a",
+      "jamais a",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "ne",
-      "suis",
-      "ne suis",
+      "a",
+      "ne a",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "pas",
-      "suis",
-      "pas suis",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "jamais",
-      "es",
-      "jamais es",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "ne",
-      "es",
-      "ne es",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "pas",
-      "es",
-      "pas es",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "jamais",
-      "est",
-      "jamais est",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "ne",
-      "est",
-      "ne est",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "pas",
-      "est",
-      "pas est",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "jamais",
-      "sommes",
-      "jamais sommes",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "ne",
-      "sommes",
-      "ne sommes",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "pas",
-      "sommes",
-      "pas sommes",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "jamais",
-      "sont",
-      "jamais sont",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "ne",
-      "sont",
-      "ne sont",
-      {
-        "rule_id": "fr_CA_verb_negation_present"
-      }
-    ],
-    [
-      "pas",
-      "sont",
-      "pas sont",
+      "a",
+      "pas a",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
@@ -501,24 +405,24 @@
     ],
     [
       "jamais",
-      "a",
-      "jamais a",
+      "avez",
+      "jamais avez",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "ne",
-      "a",
-      "ne a",
+      "avez",
+      "ne avez",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "pas",
-      "a",
-      "pas a",
+      "avez",
+      "pas avez",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
@@ -549,24 +453,48 @@
     ],
     [
       "jamais",
-      "avez",
-      "jamais avez",
+      "es",
+      "jamais es",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "ne",
-      "avez",
-      "ne avez",
+      "es",
+      "ne es",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
     ],
     [
       "pas",
-      "avez",
-      "pas avez",
+      "es",
+      "pas es",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "est",
+      "jamais est",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "est",
+      "ne est",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "est",
+      "pas est",
       {
         "rule_id": "fr_CA_verb_negation_present"
       }
@@ -596,6 +524,86 @@
       }
     ],
     [
+      "jamais",
+      "sommes",
+      "jamais sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "sommes",
+      "ne sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "sommes",
+      "pas sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "sont",
+      "jamais sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "sont",
+      "ne sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "sont",
+      "pas sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "suis",
+      "jamais suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "suis",
+      "ne suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "suis",
+      "pas suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "n'",
+      "a",
+      "n' a",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
       "n'",
       "ai",
       "n' ai",
@@ -613,8 +621,8 @@
     ],
     [
       "n'",
-      "a",
-      "n' a",
+      "avez",
+      "n' avez",
       {
         "rule_id": "fr_CA_verb_negation_passe_compose"
       }
@@ -629,18 +637,34 @@
     ],
     [
       "n'",
-      "avez",
-      "n' avez",
+      "ont",
+      "n' ont",
       {
         "rule_id": "fr_CA_verb_negation_passe_compose"
       }
     ],
     [
-      "n'",
-      "ont",
-      "n' ont",
+      "l'",
+      "a",
+      "l' l'a",
       {
-        "rule_id": "fr_CA_verb_negation_passe_compose"
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "a",
+      "la l'a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "a",
+      "le l'a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
       }
     ],
     [
@@ -693,24 +717,24 @@
     ],
     [
       "l'",
-      "a",
-      "l' l'a",
+      "avez",
+      "l' l'avez",
       {
         "rule_id": "fr_CA_pronoun_direct_object_3sg"
       }
     ],
     [
       "la",
-      "a",
-      "la l'a",
+      "avez",
+      "la l'avez",
       {
         "rule_id": "fr_CA_pronoun_direct_object_3sg"
       }
     ],
     [
       "le",
-      "a",
-      "le l'a",
+      "avez",
+      "le l'avez",
       {
         "rule_id": "fr_CA_pronoun_direct_object_3sg"
       }
@@ -741,30 +765,6 @@
     ],
     [
       "l'",
-      "avez",
-      "l' l'avez",
-      {
-        "rule_id": "fr_CA_pronoun_direct_object_3sg"
-      }
-    ],
-    [
-      "la",
-      "avez",
-      "la l'avez",
-      {
-        "rule_id": "fr_CA_pronoun_direct_object_3sg"
-      }
-    ],
-    [
-      "le",
-      "avez",
-      "le l'avez",
-      {
-        "rule_id": "fr_CA_pronoun_direct_object_3sg"
-      }
-    ],
-    [
-      "l'",
       "ont",
       "l' l'ont",
       {
@@ -789,6 +789,14 @@
     ],
     [
       "les",
+      "a",
+      "les les a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
       "ai",
       "les les ai",
       {
@@ -805,8 +813,8 @@
     ],
     [
       "les",
-      "a",
-      "les les a",
+      "avez",
+      "les les avez",
       {
         "rule_id": "fr_CA_pronoun_direct_object_3pl"
       }
@@ -821,18 +829,18 @@
     ],
     [
       "les",
-      "avez",
-      "les les avez",
+      "ont",
+      "les les ont",
       {
         "rule_id": "fr_CA_pronoun_direct_object_3pl"
       }
     ],
     [
-      "les",
-      "ont",
-      "les les ont",
+      "lui",
+      "a",
+      "lui lui a",
       {
-        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
       }
     ],
     [
@@ -853,8 +861,8 @@
     ],
     [
       "lui",
-      "a",
-      "lui lui a",
+      "avez",
+      "lui lui avez",
       {
         "rule_id": "fr_CA_pronoun_indirect_object_3sg"
       }
@@ -869,18 +877,18 @@
     ],
     [
       "lui",
-      "avez",
-      "lui lui avez",
+      "ont",
+      "lui lui ont",
       {
         "rule_id": "fr_CA_pronoun_indirect_object_3sg"
       }
     ],
     [
-      "lui",
-      "ont",
-      "lui lui ont",
+      "leur",
+      "a",
+      "leur leur a",
       {
-        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
       }
     ],
     [
@@ -901,8 +909,8 @@
     ],
     [
       "leur",
-      "a",
-      "leur leur a",
+      "avez",
+      "leur leur avez",
       {
         "rule_id": "fr_CA_pronoun_indirect_object_3pl"
       }
@@ -911,14 +919,6 @@
       "leur",
       "avons",
       "leur leur avons",
-      {
-        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
-      }
-    ],
-    [
-      "leur",
-      "avez",
-      "leur leur avez",
       {
         "rule_id": "fr_CA_pronoun_indirect_object_3pl"
       }

@@ -1,9 +1,450 @@
 {
-  "_type": "rules",
   "_locale": "la",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "noun_acc_pl_to_abl_pl",
+      "inflection": "n_abl_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ad",
+            "circā",
+            "in",
+            "per"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_gen_sg_to_dat_sg",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "causā",
+            "grātiā"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_abl_sg_to_acc_sg",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ante",
+            "apud",
+            "contrā",
+            "inter",
+            "post",
+            "propter",
+            "super"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_acc_neut_sg_to_nom_neut_sg",
+      "inflection": "adj_nom_neut_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "erat",
+            "est",
+            "fuit"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_abl_masc_sg_to_dat_sg",
+      "inflection": "adj_dat_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dissimilis",
+            "par",
+            "similis"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ad",
+      "discipula",
+      "ad discipulīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "circā",
+      "discipula",
+      "circā discipulīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "ad",
+      "foemina",
+      "ad foeminīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "circā",
+      "foemina",
+      "circā foeminīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "ad",
+      "potentia",
+      "ad potentiīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "circā",
+      "potentia",
+      "circā potentiīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "ad",
+      "saccus",
+      "ad saccīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "circā",
+      "saccus",
+      "circā saccīs",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "ad",
+      "soror",
+      "ad sorōribus",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "circā",
+      "soror",
+      "circā sorōribus",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "noun_acc_pl_to_abl_pl"
+      }
+    ],
+    [
+      "causā",
+      "discipula",
+      "causā discipulae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "grātiā",
+      "discipula",
+      "grātiā discipulae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "causā",
+      "foemina",
+      "causā foeminae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "grātiā",
+      "foemina",
+      "grātiā foeminae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "causā",
+      "potentia",
+      "causā potentiae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "grātiā",
+      "potentia",
+      "grātiā potentiae",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "causā",
+      "saccus",
+      "causā saccō",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "grātiā",
+      "saccus",
+      "grātiā saccō",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "causā",
+      "soror",
+      "causā sorōrī",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "grātiā",
+      "soror",
+      "grātiā sorōrī",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_gen_sg_to_dat_sg"
+      }
+    ],
+    [
+      "ante",
+      "discipula",
+      "ante discipulam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "discipula",
+      "apud discipulam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "foemina",
+      "ante foeminam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "foemina",
+      "apud foeminam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "homō",
+      "ante hominem",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "homō",
+      "apud hominem",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "pellicula",
+      "ante pelliculam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "pellicula",
+      "apud pelliculam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "potentia",
+      "ante potentiam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "potentia",
+      "apud potentiam",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "saccus",
+      "ante saccum",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "saccus",
+      "apud saccum",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "ante",
+      "soror",
+      "ante sorōrem",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "apud",
+      "soror",
+      "apud sorōrem",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_abl_sg_to_acc_sg"
+      }
+    ],
+    [
+      "erat",
+      "fortis",
+      "erat forte",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_acc_neut_sg_to_nom_neut_sg"
+      }
+    ],
+    [
+      "est",
+      "fortis",
+      "est forte",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_acc_neut_sg_to_nom_neut_sg"
+      }
+    ],
+    [
+      "erat",
+      "plēnus",
+      "erat plēnum",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_acc_neut_sg_to_nom_neut_sg"
+      }
+    ],
+    [
+      "est",
+      "plēnus",
+      "est plēnum",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_acc_neut_sg_to_nom_neut_sg"
+      }
+    ],
+    [
+      "dissimilis",
+      "plēnus",
+      "dissimilis plēnō",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_abl_masc_sg_to_dat_sg"
+      }
+    ],
+    [
+      "par",
+      "plēnus",
+      "par plēnō",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_abl_masc_sg_to_dat_sg"
+      }
+    ]
+  ]
 }

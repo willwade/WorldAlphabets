@@ -1,9 +1,639 @@
 {
-  "_type": "rules",
   "_locale": "tg",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "noun_sg_indefinite_to_definite",
+      "inflection": "n_sg_ndef",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "аз",
+            "ба",
+            "бо",
+            "дар",
+            "ин",
+            "ки",
+            "он"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_plural_from_singular",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "баъзе",
+            "кариб",
+            "чандон",
+            "ҳама"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_sg_from_plural_context",
+      "inflection": "n_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ваҳидан"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_animate_plural",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "бародар",
+            "кишвар",
+            "мардум",
+            "модар",
+            "тоҷик"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_possessive_to_singular",
+      "inflection": "n_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ам",
+            "амон",
+            "ат",
+            "атон",
+            "аш",
+            "ашон"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_proper_to_common",
+      "inflection": "n_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "забон",
+            "рус"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "аз",
+      "дар",
+      "аз дар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "дар",
+      "ба дар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "дин",
+      "аз дин",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "дин",
+      "ба дин",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "май",
+      "аз май",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "май",
+      "ба май",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "март",
+      "аз март",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "март",
+      "ба март",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "модар",
+      "аз модар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "модар",
+      "ба модар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "ном",
+      "аз ном",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "ном",
+      "ба ном",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "пул",
+      "аз пул",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "пул",
+      "ба пул",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "рус",
+      "аз рус",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "рус",
+      "ба рус",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "сол",
+      "аз сол",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "сол",
+      "ба сол",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "аз",
+      "хар",
+      "аз хар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "ба",
+      "хар",
+      "ба хар",
+      {
+        "inflection": "n_sg_ndef",
+        "rule_id": "noun_sg_indefinite_to_definite"
+      }
+    ],
+    [
+      "баъзе",
+      "тоҷик",
+      "баъзе тоҷикон",
+      {
+        "inflection": "n_pl",
+        "rule_id": "noun_plural_from_singular"
+      }
+    ],
+    [
+      "кариб",
+      "тоҷик",
+      "кариб тоҷикон",
+      {
+        "inflection": "n_pl",
+        "rule_id": "noun_plural_from_singular"
+      }
+    ],
+    [
+      "ваҳидан",
+      "бародар",
+      "ваҳидан бародар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "ватан",
+      "ваҳидан وطن",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "забон",
+      "ваҳидан забон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "кишвар",
+      "ваҳидан кишвар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "мардум",
+      "ваҳидан мардум",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "тоҷик",
+      "ваҳидан тоҷик",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "ваҳидан",
+      "ҷавон",
+      "ваҳидан ҷавон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_sg_from_plural_context"
+      }
+    ],
+    [
+      "бародар",
+      "тоҷик",
+      "бародар тоҷикон",
+      {
+        "inflection": "n_pl",
+        "rule_id": "noun_animate_plural"
+      }
+    ],
+    [
+      "кишвар",
+      "тоҷик",
+      "кишвар тоҷикон",
+      {
+        "inflection": "n_pl",
+        "rule_id": "noun_animate_plural"
+      }
+    ],
+    [
+      "ам",
+      "бародар",
+      "ам бародар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "бародар",
+      "амон бародар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "ватан",
+      "ам وطن",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "ватан",
+      "амон وطن",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "забон",
+      "ам забон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "забон",
+      "амон забон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "кишвар",
+      "ам кишвар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "кишвар",
+      "амон кишвар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "мардум",
+      "ам мардум",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "мардум",
+      "амон мардум",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "тоҷик",
+      "ам тоҷик",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "тоҷик",
+      "амон тоҷик",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "ам",
+      "ҷавон",
+      "ам ҷавон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "амон",
+      "ҷавон",
+      "амон ҷавон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_possessive_to_singular"
+      }
+    ],
+    [
+      "забон",
+      "бародар",
+      "забон бародар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "бародар",
+      "рус бародар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "ватан",
+      "забон وطن",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "ватан",
+      "рус وطن",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "забон",
+      "забон забон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "забон",
+      "рус забон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "кишвар",
+      "забон кишвар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "кишвар",
+      "рус кишвар",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "мардум",
+      "забон мардум",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "мардум",
+      "рус мардум",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "тоҷик",
+      "забон тоҷик",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "тоҷик",
+      "рус тоҷик",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "забон",
+      "ҷавон",
+      "забон ҷавон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ],
+    [
+      "рус",
+      "ҷавон",
+      "рус ҷавон",
+      {
+        "inflection": "n_sg",
+        "rule_id": "noun_proper_to_common"
+      }
+    ]
+  ]
 }

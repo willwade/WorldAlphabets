@@ -1,9 +1,141 @@
 {
-  "_type": "rules",
   "_locale": "fa",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "fa_verb_imperative_2pl_colloquial",
+      "inflection": "v_2_pl_imp_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "بفرمایید"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fa_verb_sbjv_2pl_colloquial",
+      "inflection": "v_2_pl_sbjv_prs_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "تا"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fa_verb_3rd_sg_subjunctive_colloquial",
+      "inflection": "v_3_sg_sbjv_prs_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "اگر",
+            "مبادا"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "بفرمایید",
+      "زدن",
+      "بفرمایید بزنین",
+      {
+        "inflection": "v_2_pl_imp_col",
+        "rule_id": "fa_verb_imperative_2pl_colloquial"
+      }
+    ],
+    [
+      "بفرمایید",
+      "صبر کردن",
+      "بفرمایید بین",
+      {
+        "inflection": "v_2_pl_imp_col",
+        "rule_id": "fa_verb_imperative_2pl_colloquial"
+      }
+    ],
+    [
+      "تا",
+      "زدن",
+      "تا بزنین",
+      {
+        "inflection": "v_2_pl_sbjv_prs_col",
+        "rule_id": "fa_verb_sbjv_2pl_colloquial"
+      }
+    ],
+    [
+      "تا",
+      "صبر کردن",
+      "تا بین",
+      {
+        "inflection": "v_2_pl_sbjv_prs_col",
+        "rule_id": "fa_verb_sbjv_2pl_colloquial"
+      }
+    ],
+    [
+      "اگر",
+      "زدن",
+      "اگر بزنه",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ],
+    [
+      "مبادا",
+      "زدن",
+      "مبادا بزنه",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ],
+    [
+      "اگر",
+      "صبر کردن",
+      "اگر به",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ],
+    [
+      "مبادا",
+      "صبر کردن",
+      "مبادا به",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ],
+    [
+      "اگر",
+      "کشیدن",
+      "اگر بکشه",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ],
+    [
+      "مبادا",
+      "کشیدن",
+      "مبادا بکشه",
+      {
+        "inflection": "v_3_sg_sbjv_prs_col",
+        "rule_id": "fa_verb_3rd_sg_subjunctive_colloquial"
+      }
+    ]
+  ]
 }

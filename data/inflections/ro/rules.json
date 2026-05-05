@@ -27,11 +27,7 @@
       "lookback": [
         {
           "words": [
-            "mai"
-          ]
-        },
-        {
-          "words": [
+            "mai",
             "multe"
           ]
         }
@@ -43,11 +39,6 @@
       "inflection": "n_nom_acc_pl_def",
       "location": "n",
       "lookback": [
-        {
-          "words": [
-            "mai"
-          ]
-        },
         {
           "words": [
             "mulți"
@@ -406,90 +397,378 @@
       }
     ],
     [
-      "mai multe",
+      "mai",
       "ac",
-      "mai multe acele",
+      "mai acele",
       {
         "inflection": "n_nom_acc_pl_def",
         "rule_id": "ro_noun_pl_def_in_mai_multe"
       }
     ],
     [
-      "mai multe",
-      "acord",
-      "mai multe acordul",
-      {
-        "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_multe"
-      }
-    ],
-    [
-      "mai multe",
-      "adevăr",
-      "mai multe adevărul",
-      {
-        "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_multe"
-      }
-    ],
-    [
-      "mai multe",
-      "aer",
-      "mai multe aerul",
-      {
-        "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_multe"
-      }
-    ],
-    [
-      "mai multe",
-      "agent",
-      "mai multe agentul",
-      {
-        "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_multe"
-      }
-    ],
-    [
-      "mai mulți",
+      "multe",
       "ac",
-      "mai mulți acele",
+      "multe acele",
       {
         "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
       }
     ],
     [
-      "mai mulți",
+      "mai",
       "acord",
-      "mai mulți acordul",
+      "mai acordul",
       {
         "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
       }
     ],
     [
-      "mai mulți",
+      "multe",
+      "acord",
+      "multe acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
       "adevăr",
-      "mai mulți adevărul",
+      "mai adevărul",
       {
         "inflection": "n_nom_acc_pl_def",
-        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
       }
     ],
     [
-      "mai mulți",
+      "multe",
+      "adevăr",
+      "multe adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
       "aer",
-      "mai mulți aerul",
+      "mai aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "aer",
+      "multe aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "agent",
+      "mai agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "agent",
+      "multe agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "an",
+      "mai anul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "an",
+      "multe anul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "apă",
+      "mai apa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "apă",
+      "multe apa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "armă",
+      "mai arma",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "armă",
+      "multe arma",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "ban",
+      "mai banii",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "ban",
+      "multe banii",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "băiat",
+      "mai băiatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "băiat",
+      "multe băiatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "bărbat",
+      "mai bărbatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "bărbat",
+      "multe bărbatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "cafea",
+      "mai cafeaua",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "cafea",
+      "multe cafeaua",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "casă",
+      "mai casa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "casă",
+      "multe casa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai",
+      "cat",
+      "mai catul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "multe",
+      "cat",
+      "multe catul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mulți",
+      "ac",
+      "mulți acele",
       {
         "inflection": "n_nom_acc_pl_def",
         "rule_id": "ro_noun_pl_def_in_mai_mulți"
       }
     ],
     [
-      "mai mulți",
+      "mulți",
+      "acord",
+      "mulți acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "adevăr",
+      "mulți adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "aer",
+      "mulți aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
       "agent",
-      "mai mulți agentul",
+      "mulți agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "an",
+      "mulți anul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "apă",
+      "mulți apa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "armă",
+      "mulți arma",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "ban",
+      "mulți banii",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "băiat",
+      "mulți băiatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "bărbat",
+      "mulți bărbatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "cafea",
+      "mulți cafeaua",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "casă",
+      "mulți casa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mulți",
+      "cat",
+      "mulți catul",
       {
         "inflection": "n_nom_acc_pl_def",
         "rule_id": "ro_noun_pl_def_in_mai_mulți"

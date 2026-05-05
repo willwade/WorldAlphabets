@@ -31,7 +31,31 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "y_contrasts",
+      "lookback": [
+        {
+          "words": [
+            "pero"
+          ]
+        }
+      ],
+      "overrides": {
+        "y": "e"
+      },
+      "type": "override"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "pero",
+      "y",
+      "pero e",
+      {
+        "rule_id": "y_contrasts"
+      }
+    ]
+  ]
 }

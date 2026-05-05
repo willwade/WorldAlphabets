@@ -31,7 +31,131 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "de_het_rule",
+      "lookback": [
+        {
+          "words": [
+            "de"
+          ]
+        }
+      ],
+      "overrides": {
+        "het": "de"
+      },
+      "type": "override"
+    },
+    {
+      "id": "een_het_rule",
+      "lookback": [
+        {
+          "words": [
+            "een"
+          ]
+        }
+      ],
+      "overrides": {
+        "het": "een"
+      },
+      "type": "override"
+    },
+    {
+      "id": "ik_verb_rule",
+      "inflection": "first_person",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ik"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "je_verb_rule",
+      "inflection": "second_person_informal",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "u_verb_rule",
+      "inflection": "second_person_formal",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "u"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "preposition_om_rule",
+      "inflection": "contraction_om_te",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "om"
+          ]
+        }
+      ],
+      "type": "preposition"
+    },
+    {
+      "id": "adverb_niet_rule",
+      "inflection": "negation_position",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "niet"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "conjunction_en_rule",
+      "inflection": "coordinating",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "type": "conjunction"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "de",
+      "het",
+      "de de",
+      {
+        "rule_id": "de_het_rule"
+      }
+    ],
+    [
+      "een",
+      "het",
+      "een een",
+      {
+        "rule_id": "een_het_rule"
+      }
+    ]
+  ]
 }

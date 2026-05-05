@@ -147,6 +147,7 @@ def fix_override_types(rules: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Fix rules that have overrides dict but non-override type.
 
     Also lowercase all trigger words since the engine lowercases lookup.
+    Remove empty/whitespace-only trigger words.
     """
     fixed = []
     for r in rules:
@@ -157,8 +158,11 @@ def fix_override_types(rules: list[dict[str, Any]]) -> list[dict[str, Any]]:
         for lb in r.get("lookback", []):
             if isinstance(lb, dict) and "words" in lb:
                 lb = dict(lb)
-                lb["words"] = sorted(set(w.lower() for w in lb["words"]))
-                new_lookback.append(lb)
+                lb["words"] = sorted(
+                    set(w.lower() for w in lb["words"] if w.strip())
+                )
+                if lb["words"]:
+                    new_lookback.append(lb)
             else:
                 new_lookback.append(lb)
         r["lookback"] = new_lookback

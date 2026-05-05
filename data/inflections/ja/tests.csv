@@ -1,0 +1,12 @@
+rule_id,inflection,pre_words,test_word,updated_words
+v_imp_oblig_col_to_する,v_imp_col,会う,ある,会う あって
+v_imp_oblig_col_to_する,v_imp_col,使う,ある,使う あって
+v_imp_oblig_col_to_する,v_imp_col,会う,する,会う して
+v_imp_oblig_col_to_する,v_imp_col,使う,する,使う して
+v_imp_oblig_col_to_する,v_imp_col,会う,来る,会う 来て
+v_imp_oblig_col_to_する,v_imp_col,使う,来る,使う 来て
+v_form_elev_prs_ipfv_to_おります,v_form_humb_prs_ipfv_perm,ある,ある,ある せていただく
+v_form_elev_prs_ipfv_to_おります,v_form_humb_prs_ipfv_perm,ある,来る,ある 来させていただく
+v_imp_col_to_なさい,v_imp_col,する,ある,する あって
+v_imp_col_to_なさい,v_imp_col,する,する,する して
+v_imp_col_to_なさい,v_imp_col,する,来る,する 来て

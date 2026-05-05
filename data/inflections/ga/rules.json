@@ -1,9 +1,354 @@
 {
-  "_type": "rules",
   "_locale": "ga",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "noun_dative_plural_article",
+      "inflection": "n_dat_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ar",
+            "do",
+            "faoi",
+            "go",
+            "i",
+            "le",
+            "na",
+            "ó"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_genitive_plural_strong",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "gan",
+            "idir",
+            "thar",
+            "trí"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_dative_singular_article",
+      "inflection": "n_dat_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "an",
+            "dó",
+            "gur",
+            "leis",
+            "ón"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_msdr_past",
+      "inflection": "v_v_msdr",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ar",
+            "go",
+            "ní"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adjective_comparative",
+      "inflection": "adj_cmpr",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "níos"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ar",
+      "béarla",
+      "ar leis na béarlaí",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "do",
+      "béarla",
+      "do leis na béarlaí",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "ar",
+      "cruinniú",
+      "ar leis na cruinnithe",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "do",
+      "cruinniú",
+      "do leis na cruinnithe",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "ar",
+      "inscne",
+      "ar leis na hinscní",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "do",
+      "inscne",
+      "do leis na hinscní",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "ar",
+      "rud",
+      "ar leis na rudaí",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "do",
+      "rud",
+      "do leis na rudaí",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "noun_dative_plural_article"
+      }
+    ],
+    [
+      "de",
+      "béarla",
+      "de béarlaí",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "gan",
+      "béarla",
+      "gan béarlaí",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "de",
+      "cruinniú",
+      "de cruinnithe",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "gan",
+      "cruinniú",
+      "gan cruinnithe",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "de",
+      "inscne",
+      "de inscní",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "gan",
+      "inscne",
+      "gan inscní",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "de",
+      "rud",
+      "de rudaí",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "gan",
+      "rud",
+      "gan rudaí",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "de",
+      "uair",
+      "de uaireanta",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "gan",
+      "uair",
+      "gan uaireanta",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_genitive_plural_strong"
+      }
+    ],
+    [
+      "an",
+      "béarla",
+      "an leis an mbéarla",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "dó",
+      "béarla",
+      "dó leis an mbéarla",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "an",
+      "cruinniú",
+      "an leis an gcruinniú",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "dó",
+      "cruinniú",
+      "dó leis an gcruinniú",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "an",
+      "inscne",
+      "an leis an inscne",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "dó",
+      "inscne",
+      "dó leis an inscne",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "an",
+      "rud",
+      "an leis an rud",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "dó",
+      "rud",
+      "dó leis an rud",
+      {
+        "inflection": "n_dat_sg_def",
+        "rule_id": "noun_dative_singular_article"
+      }
+    ],
+    [
+      "ar",
+      "cruinnigh",
+      "ar cruinniú",
+      {
+        "inflection": "v_v_msdr",
+        "rule_id": "verb_msdr_past"
+      }
+    ],
+    [
+      "go",
+      "cruinnigh",
+      "go cruinniú",
+      {
+        "inflection": "v_v_msdr",
+        "rule_id": "verb_msdr_past"
+      }
+    ],
+    [
+      "níos",
+      "álainn",
+      "níos níos áille",
+      {
+        "inflection": "adj_cmpr",
+        "rule_id": "adjective_comparative"
+      }
+    ]
+  ]
 }

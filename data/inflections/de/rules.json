@@ -372,6 +372,30 @@
   "tests": [
     [
       "der",
+      "das",
+      "der der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "dieser",
+      "das",
+      "dieser der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "einer",
+      "das",
+      "einer der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "der",
       "der",
       "der der",
       {
@@ -419,27 +443,19 @@
       }
     ],
     [
-      "der",
+      "des",
       "das",
-      "der der",
+      "des des",
       {
-        "rule_id": "der_art_nom_masc_sg"
+        "rule_id": "das_art_gen_neut_sg"
       }
     ],
     [
-      "dieser",
+      "eines",
       "das",
-      "dieser der",
+      "eines des",
       {
-        "rule_id": "der_art_nom_masc_sg"
-      }
-    ],
-    [
-      "einer",
-      "das",
-      "einer der",
-      {
-        "rule_id": "der_art_nom_masc_sg"
+        "rule_id": "das_art_gen_neut_sg"
       }
     ],
     [
@@ -475,19 +491,19 @@
       }
     ],
     [
-      "des",
+      "dem",
       "das",
-      "des des",
+      "dem dem",
       {
-        "rule_id": "das_art_gen_neut_sg"
+        "rule_id": "das_art_dat_neut_sg"
       }
     ],
     [
-      "eines",
+      "einem",
       "das",
-      "eines des",
+      "einem dem",
       {
-        "rule_id": "das_art_gen_neut_sg"
+        "rule_id": "das_art_dat_neut_sg"
       }
     ],
     [
@@ -523,19 +539,19 @@
       }
     ],
     [
-      "dem",
+      "den",
       "das",
-      "dem dem",
+      "den den",
       {
-        "rule_id": "das_art_dat_neut_sg"
+        "rule_id": "der_art_acc_masc_sg"
       }
     ],
     [
-      "einem",
+      "einen",
       "das",
-      "einem dem",
+      "einen den",
       {
-        "rule_id": "das_art_dat_neut_sg"
+        "rule_id": "der_art_acc_masc_sg"
       }
     ],
     [
@@ -571,19 +587,19 @@
       }
     ],
     [
-      "den",
+      "die",
       "das",
-      "den den",
+      "die die",
       {
-        "rule_id": "der_art_acc_masc_sg"
+        "rule_id": "die_art_acc_fem_sg"
       }
     ],
     [
-      "einen",
+      "diese",
       "das",
-      "einen den",
+      "diese die",
       {
-        "rule_id": "der_art_acc_masc_sg"
+        "rule_id": "die_art_acc_fem_sg"
       }
     ],
     [
@@ -619,19 +635,19 @@
       }
     ],
     [
-      "die",
       "das",
-      "die die",
+      "das",
+      "das das",
       {
-        "rule_id": "die_art_acc_fem_sg"
+        "rule_id": "das_art_acc_neut_sg"
       }
     ],
     [
-      "diese",
+      "dieses",
       "das",
-      "diese die",
+      "dieses das",
       {
-        "rule_id": "die_art_acc_fem_sg"
+        "rule_id": "das_art_acc_neut_sg"
       }
     ],
     [
@@ -661,22 +677,6 @@
     [
       "dieses",
       "die",
-      "dieses das",
-      {
-        "rule_id": "das_art_acc_neut_sg"
-      }
-    ],
-    [
-      "das",
-      "das",
-      "das das",
-      {
-        "rule_id": "das_art_acc_neut_sg"
-      }
-    ],
-    [
-      "dieses",
-      "das",
       "dieses das",
       {
         "rule_id": "das_art_acc_neut_sg"

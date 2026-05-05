@@ -595,11 +595,6 @@
           "words": [
             "to"
           ]
-        },
-        {
-          "words": [
-            "be"
-          ]
         }
       ],
       "type": "verb"
@@ -1096,19 +1091,6 @@
         }
       ],
       "type": "pronoun"
-    },
-    {
-      "id": "to_look",
-      "inflection": "present",
-      "location": "c",
-      "lookback": [
-        {
-          "words": [
-            "to"
-          ]
-        }
-      ],
-      "type": "verb"
     }
   ],
   "substitutions": {

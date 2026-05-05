@@ -1,9 +1,175 @@
 {
-  "_type": "rules",
   "_locale": "tk",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "tk_n_gen_sg_consonant",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aý",
+            "göz",
+            "gün",
+            "kitap"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "tk_n_dat_sg_consonant",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ýyl"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "aý",
+      "aý",
+      "aý aýyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "göz",
+      "aý",
+      "göz aýyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "aý",
+      "göz",
+      "aý gözüň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "göz",
+      "göz",
+      "göz gözüň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "aý",
+      "gün",
+      "aý günüň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "göz",
+      "gün",
+      "göz günüň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "aý",
+      "kitap",
+      "aý kitabyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "göz",
+      "kitap",
+      "göz kitabyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "aý",
+      "ýyl",
+      "aý ýylyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "göz",
+      "ýyl",
+      "göz ýylyň",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "tk_n_gen_sg_consonant"
+      }
+    ],
+    [
+      "ýyl",
+      "aý",
+      "ýyl aýa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "tk_n_dat_sg_consonant"
+      }
+    ],
+    [
+      "ýyl",
+      "göz",
+      "ýyl göze",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "tk_n_dat_sg_consonant"
+      }
+    ],
+    [
+      "ýyl",
+      "gün",
+      "ýyl güne",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "tk_n_dat_sg_consonant"
+      }
+    ],
+    [
+      "ýyl",
+      "kitap",
+      "ýyl kitaba",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "tk_n_dat_sg_consonant"
+      }
+    ],
+    [
+      "ýyl",
+      "ýyl",
+      "ýyl ýyla",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "tk_n_dat_sg_consonant"
+      }
+    ]
+  ]
 }

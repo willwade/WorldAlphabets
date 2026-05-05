@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -42,6 +43,16 @@ def generate_tests_from_rules(locale: str) -> List[List[Any]]:
         if w.startswith("_") or not isinstance(entry, dict):
             continue
         word_entries[w] = entry
+
+    override_words_by_trigger: Dict[str, set] = defaultdict(set)
+    for r in rule_list:
+        if not isinstance(r, dict):
+            continue
+        if isinstance(r.get("overrides"), dict):
+            for lb in r.get("lookback", []):
+                if isinstance(lb, dict) and "words" in lb:
+                    for tw in lb["words"]:
+                        override_words_by_trigger[tw].update(r["overrides"].keys())
 
     for rule in rule_list:
         if not isinstance(rule, dict):
@@ -89,9 +100,15 @@ def generate_tests_from_rules(locale: str) -> List[List[Any]]:
 
         elif inflection:
             rule_type = rule.get("type", "")
+            trigger_words_list = mandatory_steps[0]["words"] if single_step else []
+            override_words = set()
+            for tw in trigger_words_list:
+                override_words.update(override_words_by_trigger.get(tw, set()))
             if single_step:
-                trigger_words = mandatory_steps[0]["words"]
+                trigger_words = trigger_words_list
                 for word, entry in list(word_entries.items())[:30]:
+                    if word in override_words:
+                        continue
                     word_types = entry.get("types", [])
                     if rule_type and isinstance(word_types, list):
                         if not word_types or word_types[0] != rule_type:
@@ -114,6 +131,8 @@ def generate_tests_from_rules(locale: str) -> List[List[Any]]:
                 combos = build_multi_step_combos(mandatory_steps)
                 for pre_text in combos[:3]:
                     for word, entry in list(word_entries.items())[:10]:
+                        if word in override_words:
+                            continue
                         word_types = entry.get("types", [])
                         if rule_type and isinstance(word_types, list):
                             if not word_types or word_types[0] != rule_type:

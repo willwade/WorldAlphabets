@@ -1,9 +1,271 @@
 {
-  "_type": "rules",
   "_locale": "it",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "riflessivi_mi",
+      "inflection": "v_pos_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "riflessivi_ti",
+      "inflection": "v_pos_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ti"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "mi",
+      "acquare",
+      "mi acqua",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "aiutare",
+      "mi aiuta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "ancorare",
+      "mi ancora",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "andare",
+      "mi va",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "arrivare",
+      "mi arriva",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "aspettare",
+      "mi aspetta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "bastare",
+      "mi basta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "bere",
+      "mi bevi",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "bravare",
+      "mi brava",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "cambiare",
+      "mi cambia",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "camerare",
+      "mi camera",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "causare",
+      "mi causa",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "mi",
+      "cenare",
+      "mi cena",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_mi"
+      }
+    ],
+    [
+      "ti",
+      "acquare",
+      "ti acqua",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "aiutare",
+      "ti aiuta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "ancorare",
+      "ti ancora",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "andare",
+      "ti va",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "arrivare",
+      "ti arriva",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "aspettare",
+      "ti aspetta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "bastare",
+      "ti basta",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "bere",
+      "ti bevi",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "bravare",
+      "ti brava",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "cambiare",
+      "ti cambia",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "camerare",
+      "ti camera",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "causare",
+      "ti causa",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ],
+    [
+      "ti",
+      "cenare",
+      "ti cena",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "riflessivi_ti"
+      }
+    ]
+  ]
 }

@@ -1,17 +1,17 @@
 rule_id,inflection,pre_words,test_word,updated_words
-particle_bai_da_ez_override,,bai,bai,bai 
-particle_bai_da_ez_override,,da,bai,da 
-particle_bai_da_ez_override,,ez,bai,ez 
-particle_bai_da_ez_override,,bai,da,bai 
-particle_bai_da_ez_override,,da,da,da 
-particle_bai_da_ez_override,,ez,da,ez 
-particle_bai_da_ez_override,,bai,ez,bai 
-particle_bai_da_ez_override,,da,ez,da 
-particle_bai_da_ez_override,,ez,ez,ez 
-article_bat_override,,bat,bat,bat 
-pronoun_dut_duzu_override,,dut,dut,dut 
-pronoun_dut_duzu_override,,duzu,dut,duzu 
-pronoun_dut_duzu_override,,dut,duzu,dut 
-pronoun_dut_duzu_override,,duzu,duzu,duzu 
-conjunction_eta_override,,eta,eta,eta 
-adverb_ondo_override,,ondo,ondo,ondo 
+ez_negation_particle,,da,ez,da ezin
+ez_negation_particle,,du,ez,du ezin
+ez_negation_particle,,dut,ez,dut ezin
+da_dative_particle,,bai,bai,bai bait
+da_dative_particle,,bai,da,bai dat
+erabil_present_tense,v_argabs1_argabspl_argerg2_argergpl_pres_ind,erabili,eduki,erabili gauzkazue
+erabil_present_tense,v_argabs1_argabspl_argerg2_argergpl_pres_ind,erabili,ekarri,erabili gakartzazue
+erabil_present_tense,v_argabs1_argabspl_argerg2_argergpl_pres_ind,erabili,erabili,erabili garabiltzazue
+erabil_present_tense,v_argabs1_argabspl_argerg2_argergpl_pres_ind,erabili,eraman,erabili garamatzazue
+izan_future_tense,v_argabs1_argabspl_argio2_argiopl_hyp_pot,izan,egon,izan gengozkizueke
+izan_future_tense,v_argabs1_argabspl_argio2_argiopl_hyp_pot,izan,etorri,izan gentozkizueke
+ukan_past_tense,v_argabs1_argabssg_argerg3_argergsg_past_ind,ukan,eduki,ukan nindukan
+ukan_past_tense,v_argabs1_argabssg_argerg3_argergsg_past_ind,ukan,edun,ukan ninduen
+ukan_past_tense,v_argabs1_argabssg_argerg3_argergsg_past_ind,ukan,ekarri,ukan nindekarren
+ukan_past_tense,v_argabs1_argabssg_argerg3_argergsg_past_ind,ukan,erabili,ukan ninderabilen
+ukan_past_tense,v_argabs1_argabssg_argerg3_argergsg_past_ind,ukan,eraman,ukan ninderaman

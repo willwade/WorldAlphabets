@@ -1,18 +1,18 @@
 rule_id,inflection,pre_words,test_word,updated_words
-es_verb_ind_prs_1_sg_override_ser,,yo,son,yo soy
 es_verb_ind_prs_1_sg_override_ser,,yo,era,yo soy
-es_verb_ind_prs_3_sg_override_ser,,ella,son,ella es
-es_verb_ind_prs_3_sg_override_ser,,usted,son,usted es
-es_verb_ind_prs_3_sg_override_ser,,él,son,él es
+es_verb_ind_prs_1_sg_override_ser,,yo,son,yo soy
 es_verb_ind_prs_3_sg_override_ser,,ella,era,ella es
 es_verb_ind_prs_3_sg_override_ser,,usted,era,usted es
 es_verb_ind_prs_3_sg_override_ser,,él,era,él es
-es_verb_ind_prs_1_pl_override_ser,,nosotras,son,nosotras somos
-es_verb_ind_prs_1_pl_override_ser,,nosotros,son,nosotros somos
+es_verb_ind_prs_3_sg_override_ser,,ella,son,ella es
+es_verb_ind_prs_3_sg_override_ser,,usted,son,usted es
+es_verb_ind_prs_3_sg_override_ser,,él,son,él es
 es_verb_ind_prs_1_pl_override_ser,,nosotras,era,nosotras somos
 es_verb_ind_prs_1_pl_override_ser,,nosotros,era,nosotros somos
-es_verb_ind_prs_2_sg_form_override_ser,,tú,son,tú eres
+es_verb_ind_prs_1_pl_override_ser,,nosotras,son,nosotras somos
+es_verb_ind_prs_1_pl_override_ser,,nosotros,son,nosotros somos
 es_verb_ind_prs_2_sg_form_override_ser,,tú,era,tú eres
+es_verb_ind_prs_2_sg_form_override_ser,,tú,son,tú eres
 es_override_bueno_buenos,,los,bueno,los buenos
 es_override_bueno_buenas,,las,bueno,las buenas
 es_noun_n_masc_pl_regular,n_masc_pl,aquellos,abogado,aquellos abogados

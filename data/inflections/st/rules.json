@@ -1,9 +1,984 @@
 {
-  "_type": "rules",
   "_locale": "st",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "st_verb_negation",
+      "inflection": "v_nfin",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ha"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_pl1_prs",
+      "inflection": "v_pl_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "re"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_pl2_prs",
+      "inflection": "v_pl_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "le"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_pl3_prs",
+      "inflection": "v_pl_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ba"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_sg1_prs",
+      "inflection": "v_sg_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ke"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_sg2_prs",
+      "inflection": "v_sg_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "o"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "st_verb_sg3_prs",
+      "inflection": "v_sg_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ha",
+      "bala",
+      "ha balaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "bula",
+      "ha bulaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "e",
+      "ha eea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "ebe",
+      "ha ebeea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "ema",
+      "ha emaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "etsa",
+      "ha etsaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "fofa",
+      "ha fofaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "haufi",
+      "ha haufiea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "ja",
+      "ha jaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "ngola",
+      "ha ngolaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "qala",
+      "ha qalaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "reka",
+      "ha rekaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "thusa",
+      "ha thusaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "ha",
+      "ya",
+      "ha yaea",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "st_verb_negation"
+      }
+    ],
+    [
+      "re",
+      "bala",
+      "re uyabala",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "bula",
+      "re uyabula",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "e",
+      "re uyae",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "ebe",
+      "re uyaebe",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "ema",
+      "re uyaema",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "etsa",
+      "re uyaetsa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "fofa",
+      "re uyafofa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "haufi",
+      "re uyahaufi",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "ja",
+      "re uyaja",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "ngola",
+      "re uyangola",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "qala",
+      "re uyaqala",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "reka",
+      "re uyareka",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "thusa",
+      "re uyathusa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "re",
+      "ya",
+      "re uyaya",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "st_verb_pl1_prs"
+      }
+    ],
+    [
+      "le",
+      "bala",
+      "le siyabala",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "bula",
+      "le siyabula",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "e",
+      "le siyae",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "ebe",
+      "le siyaebe",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "ema",
+      "le siyaema",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "etsa",
+      "le siyaetsa",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "fofa",
+      "le siyafofa",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "haufi",
+      "le siyahaufi",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "ja",
+      "le siyaja",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "ngola",
+      "le siyangola",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "qala",
+      "le siyaqala",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "reka",
+      "le siyareka",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "thusa",
+      "le siyathusa",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "le",
+      "ya",
+      "le siyaya",
+      {
+        "inflection": "v_pl_2_prs",
+        "rule_id": "st_verb_pl2_prs"
+      }
+    ],
+    [
+      "ba",
+      "bala",
+      "ba niyabala",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "bula",
+      "ba niyabula",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "e",
+      "ba niyae",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ebe",
+      "ba niyaebe",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ema",
+      "ba niyaema",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "etsa",
+      "ba niyaetsa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "fofa",
+      "ba niyafofa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "haufi",
+      "ba niyahaufi",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ja",
+      "ba niyaja",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ngola",
+      "ba niyangola",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "qala",
+      "ba niyaqala",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "reka",
+      "ba niyareka",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "thusa",
+      "ba niyathusa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ya",
+      "ba niyaya",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "st_verb_pl3_prs"
+      }
+    ],
+    [
+      "ke",
+      "bala",
+      "ke ngiyabala",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "bula",
+      "ke ngiyabula",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "e",
+      "ke ngiyae",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "ebe",
+      "ke ngiyaebe",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "ema",
+      "ke ngiyaema",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "etsa",
+      "ke ngiyaetsa",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "fofa",
+      "ke ngiyafofa",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "haufi",
+      "ke ngiyahaufi",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "ja",
+      "ke ngiyaja",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "ngola",
+      "ke ngiyangola",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "qala",
+      "ke ngiyaqala",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "reka",
+      "ke ngiyareka",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "thusa",
+      "ke ngiyathusa",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "ke",
+      "ya",
+      "ke ngiyaya",
+      {
+        "inflection": "v_sg_1_prs",
+        "rule_id": "st_verb_sg1_prs"
+      }
+    ],
+    [
+      "o",
+      "bala",
+      "o uyabala",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "bula",
+      "o uyabula",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "e",
+      "o uyae",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "ebe",
+      "o uyaebe",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "ema",
+      "o uyaema",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "etsa",
+      "o uyaetsa",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "fofa",
+      "o uyafofa",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "haufi",
+      "o uyahaufi",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "ja",
+      "o uyaja",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "ngola",
+      "o uyangola",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "qala",
+      "o uyaqala",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "reka",
+      "o uyareka",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "thusa",
+      "o uyathusa",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "o",
+      "ya",
+      "o uyaya",
+      {
+        "inflection": "v_sg_2_prs",
+        "rule_id": "st_verb_sg2_prs"
+      }
+    ],
+    [
+      "a",
+      "bala",
+      "a uyabala",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "bula",
+      "a uyabula",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "e",
+      "a uyae",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "ebe",
+      "a uyaebe",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "ema",
+      "a uyaema",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "etsa",
+      "a uyaetsa",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "fofa",
+      "a uyafofa",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "haufi",
+      "a uyahaufi",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "ja",
+      "a uyaja",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "ngola",
+      "a uyangola",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "qala",
+      "a uyaqala",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "reka",
+      "a uyareka",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "thusa",
+      "a uyathusa",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ],
+    [
+      "a",
+      "ya",
+      "a uyaya",
+      {
+        "inflection": "v_sg_3_prs",
+        "rule_id": "st_verb_sg3_prs"
+      }
+    ]
+  ]
 }

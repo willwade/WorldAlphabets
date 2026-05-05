@@ -1,9 +1,594 @@
 {
-  "_type": "rules",
   "_locale": "nn",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "noun_def_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "dei",
+            "den",
+            "det"
+          ]
+        }
+      ],
+      "overrides": {
+        "by": "byen",
+        "god": "gode",
+        "kamera": "kameraet",
+        "land": "landet",
+        "piano": "pianoet",
+        "ting": "tingen",
+        "tom": "tome"
+      },
+      "type": "override"
+    },
+    {
+      "id": "god_tom_comparative",
+      "inflection": "adj_cmpr",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "meir"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "definite_singular_god",
+      "inflection": "adj_def_sprl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dei",
+            "den",
+            "det"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "verb_prs_gjera",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "du",
+            "eg",
+            "han",
+            "ho",
+            "vi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_plural_ending",
+      "inflection": "n_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "fleire",
+            "mange",
+            "some"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "dei",
+      "by",
+      "dei byen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "by",
+      "den byen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "by",
+      "det byen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "god",
+      "dei gode",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "god",
+      "den gode",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "god",
+      "det gode",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "kamera",
+      "dei kameraet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "kamera",
+      "den kameraet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "kamera",
+      "det kameraet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "land",
+      "dei landet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "land",
+      "den landet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "land",
+      "det landet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "piano",
+      "dei pianoet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "piano",
+      "den pianoet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "piano",
+      "det pianoet",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "ting",
+      "dei tingen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "ting",
+      "den tingen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "ting",
+      "det tingen",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "dei",
+      "tom",
+      "dei tome",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "den",
+      "tom",
+      "den tome",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "det",
+      "tom",
+      "det tome",
+      {
+        "rule_id": "noun_def_sg_override"
+      }
+    ],
+    [
+      "meir",
+      "gjer",
+      "meir gjerare",
+      {
+        "inflection": "adj_cmpr",
+        "rule_id": "god_tom_comparative"
+      }
+    ],
+    [
+      "meir",
+      "god",
+      "meir betre",
+      {
+        "inflection": "adj_cmpr",
+        "rule_id": "god_tom_comparative"
+      }
+    ],
+    [
+      "meir",
+      "tom",
+      "meir tommare",
+      {
+        "inflection": "adj_cmpr",
+        "rule_id": "god_tom_comparative"
+      }
+    ],
+    [
+      "dei",
+      "gjer",
+      "dei gjeraste",
+      {
+        "inflection": "adj_def_sprl",
+        "rule_id": "definite_singular_god"
+      }
+    ],
+    [
+      "den",
+      "gjer",
+      "den gjeraste",
+      {
+        "inflection": "adj_def_sprl",
+        "rule_id": "definite_singular_god"
+      }
+    ],
+    [
+      "du",
+      "gjera",
+      "du gjer",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "gjera",
+      "eg gjer",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "gjere",
+      "du gjer",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "gjere",
+      "eg gjer",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "ha",
+      "du har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "ha",
+      "eg har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "hava",
+      "du har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "hava",
+      "eg har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "have",
+      "du har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "have",
+      "eg har",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "måtte",
+      "du må",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "måtte",
+      "eg må",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "vera",
+      "du er",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "vera",
+      "eg er",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "vere",
+      "du er",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "vere",
+      "eg er",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "veta",
+      "du veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "veta",
+      "eg veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "vete",
+      "du veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "vete",
+      "eg veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "du",
+      "vite",
+      "du veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "eg",
+      "vite",
+      "eg veit",
+      {
+        "inflection": "v_prs",
+        "rule_id": "verb_prs_gjera"
+      }
+    ],
+    [
+      "fleire",
+      "helg",
+      "fleire helgane",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "mange",
+      "helg",
+      "mange helgane",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "fleire",
+      "kamera",
+      "fleire kameraa",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "mange",
+      "kamera",
+      "mange kameraa",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "fleire",
+      "piano",
+      "fleire pianoa",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "mange",
+      "piano",
+      "mange pianoa",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "fleire",
+      "ting",
+      "fleire tinga",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "mange",
+      "ting",
+      "mange tinga",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "fleire",
+      "å",
+      "fleire åene",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ],
+    [
+      "mange",
+      "å",
+      "mange åene",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "noun_plural_ending"
+      }
+    ]
+  ]
 }

@@ -82,7 +82,131 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "i_am_au",
+      "lookback": [
+        {
+          "words": [
+            "i"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "am"
+      },
+      "type": "override"
+    },
+    {
+      "id": "no_yes_replacement_au",
+      "lookback": [
+        {
+          "words": [
+            "?"
+          ]
+        }
+      ],
+      "overrides": {
+        "no": "yes"
+      },
+      "type": "override"
+    },
+    {
+      "id": "with_pronoun_au",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "at",
+            "for",
+            "with"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "these_those_plural_au",
+      "inflection": "plural",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "many",
+            "some",
+            "these",
+            "those"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "has_have_past_participle_au",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "had",
+            "has",
+            "have",
+            "he",
+            "it",
+            "she",
+            "they"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "contraction_verb_au",
+      "inflection": "contracted",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "i",
+            "we",
+            "you"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "article_an_au",
+      "inflection": "before_vowel",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "article"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "i",
+      "are",
+      "i am",
+      {
+        "rule_id": "i_am_au"
+      }
+    ],
+    [
+      "?",
+      "no",
+      "? yes",
+      {
+        "rule_id": "no_yes_replacement_au"
+      }
+    ]
+  ]
 }

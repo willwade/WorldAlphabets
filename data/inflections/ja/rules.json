@@ -1,9 +1,159 @@
 {
-  "_type": "rules",
   "_locale": "ja",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "v_imp_oblig_col_to_する",
+      "inflection": "v_imp_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "会う",
+            "使う",
+            "入る",
+            "着く",
+            "知る",
+            "立つ",
+            "聞く",
+            "行く",
+            "言う",
+            "話す",
+            "開く"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_form_elev_prs_ipfv_to_おります",
+      "inflection": "v_form_humb_prs_ipfv_perm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ある"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_imp_col_to_なさい",
+      "inflection": "v_imp_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "する"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "会う",
+      "ある",
+      "会う あって",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "使う",
+      "ある",
+      "使う あって",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "会う",
+      "する",
+      "会う して",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "使う",
+      "する",
+      "使う して",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "会う",
+      "来る",
+      "会う 来て",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "使う",
+      "来る",
+      "使う 来て",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_oblig_col_to_する"
+      }
+    ],
+    [
+      "ある",
+      "ある",
+      "ある せていただく",
+      {
+        "inflection": "v_form_humb_prs_ipfv_perm",
+        "rule_id": "v_form_elev_prs_ipfv_to_おります"
+      }
+    ],
+    [
+      "ある",
+      "来る",
+      "ある 来させていただく",
+      {
+        "inflection": "v_form_humb_prs_ipfv_perm",
+        "rule_id": "v_form_elev_prs_ipfv_to_おります"
+      }
+    ],
+    [
+      "する",
+      "ある",
+      "する あって",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_col_to_なさい"
+      }
+    ],
+    [
+      "する",
+      "する",
+      "する して",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_col_to_なさい"
+      }
+    ],
+    [
+      "する",
+      "来る",
+      "する 来て",
+      {
+        "inflection": "v_imp_col",
+        "rule_id": "v_imp_col_to_なさい"
+      }
+    ]
+  ]
 }

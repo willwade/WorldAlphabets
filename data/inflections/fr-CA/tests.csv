@@ -1,78 +1,78 @@
 rule_id,inflection,pre_words,test_word,updated_words
-fr_CA_verb_negation_present,,jamais,suis,jamais suis
-fr_CA_verb_negation_present,,ne,suis,ne suis
-fr_CA_verb_negation_present,,pas,suis,pas suis
-fr_CA_verb_negation_present,,jamais,es,jamais es
-fr_CA_verb_negation_present,,ne,es,ne es
-fr_CA_verb_negation_present,,pas,es,pas es
-fr_CA_verb_negation_present,,jamais,est,jamais est
-fr_CA_verb_negation_present,,ne,est,ne est
-fr_CA_verb_negation_present,,pas,est,pas est
-fr_CA_verb_negation_present,,jamais,sommes,jamais sommes
-fr_CA_verb_negation_present,,ne,sommes,ne sommes
-fr_CA_verb_negation_present,,pas,sommes,pas sommes
-fr_CA_verb_negation_present,,jamais,sont,jamais sont
-fr_CA_verb_negation_present,,ne,sont,ne sont
-fr_CA_verb_negation_present,,pas,sont,pas sont
+fr_CA_verb_negation_present,,jamais,a,jamais a
+fr_CA_verb_negation_present,,ne,a,ne a
+fr_CA_verb_negation_present,,pas,a,pas a
 fr_CA_verb_negation_present,,jamais,ai,jamais ai
 fr_CA_verb_negation_present,,ne,ai,ne ai
 fr_CA_verb_negation_present,,pas,ai,pas ai
 fr_CA_verb_negation_present,,jamais,as,jamais as
 fr_CA_verb_negation_present,,ne,as,ne as
 fr_CA_verb_negation_present,,pas,as,pas as
-fr_CA_verb_negation_present,,jamais,a,jamais a
-fr_CA_verb_negation_present,,ne,a,ne a
-fr_CA_verb_negation_present,,pas,a,pas a
-fr_CA_verb_negation_present,,jamais,avons,jamais avons
-fr_CA_verb_negation_present,,ne,avons,ne avons
-fr_CA_verb_negation_present,,pas,avons,pas avons
 fr_CA_verb_negation_present,,jamais,avez,jamais avez
 fr_CA_verb_negation_present,,ne,avez,ne avez
 fr_CA_verb_negation_present,,pas,avez,pas avez
+fr_CA_verb_negation_present,,jamais,avons,jamais avons
+fr_CA_verb_negation_present,,ne,avons,ne avons
+fr_CA_verb_negation_present,,pas,avons,pas avons
+fr_CA_verb_negation_present,,jamais,es,jamais es
+fr_CA_verb_negation_present,,ne,es,ne es
+fr_CA_verb_negation_present,,pas,es,pas es
+fr_CA_verb_negation_present,,jamais,est,jamais est
+fr_CA_verb_negation_present,,ne,est,ne est
+fr_CA_verb_negation_present,,pas,est,pas est
 fr_CA_verb_negation_present,,jamais,ont,jamais ont
 fr_CA_verb_negation_present,,ne,ont,ne ont
 fr_CA_verb_negation_present,,pas,ont,pas ont
+fr_CA_verb_negation_present,,jamais,sommes,jamais sommes
+fr_CA_verb_negation_present,,ne,sommes,ne sommes
+fr_CA_verb_negation_present,,pas,sommes,pas sommes
+fr_CA_verb_negation_present,,jamais,sont,jamais sont
+fr_CA_verb_negation_present,,ne,sont,ne sont
+fr_CA_verb_negation_present,,pas,sont,pas sont
+fr_CA_verb_negation_present,,jamais,suis,jamais suis
+fr_CA_verb_negation_present,,ne,suis,ne suis
+fr_CA_verb_negation_present,,pas,suis,pas suis
+fr_CA_verb_negation_passe_compose,,n',a,n' a
 fr_CA_verb_negation_passe_compose,,n',ai,n' ai
 fr_CA_verb_negation_passe_compose,,n',as,n' as
-fr_CA_verb_negation_passe_compose,,n',a,n' a
-fr_CA_verb_negation_passe_compose,,n',avons,n' avons
 fr_CA_verb_negation_passe_compose,,n',avez,n' avez
+fr_CA_verb_negation_passe_compose,,n',avons,n' avons
 fr_CA_verb_negation_passe_compose,,n',ont,n' ont
+fr_CA_pronoun_direct_object_3sg,,l',a,l' l'a
+fr_CA_pronoun_direct_object_3sg,,la,a,la l'a
+fr_CA_pronoun_direct_object_3sg,,le,a,le l'a
 fr_CA_pronoun_direct_object_3sg,,l',ai,l' l'ai
 fr_CA_pronoun_direct_object_3sg,,la,ai,la l'ai
 fr_CA_pronoun_direct_object_3sg,,le,ai,le l'ai
 fr_CA_pronoun_direct_object_3sg,,l',as,l' l'as
 fr_CA_pronoun_direct_object_3sg,,la,as,la l'as
 fr_CA_pronoun_direct_object_3sg,,le,as,le l'as
-fr_CA_pronoun_direct_object_3sg,,l',a,l' l'a
-fr_CA_pronoun_direct_object_3sg,,la,a,la l'a
-fr_CA_pronoun_direct_object_3sg,,le,a,le l'a
-fr_CA_pronoun_direct_object_3sg,,l',avons,l' l'avons
-fr_CA_pronoun_direct_object_3sg,,la,avons,la l'avons
-fr_CA_pronoun_direct_object_3sg,,le,avons,le l'avons
 fr_CA_pronoun_direct_object_3sg,,l',avez,l' l'avez
 fr_CA_pronoun_direct_object_3sg,,la,avez,la l'avez
 fr_CA_pronoun_direct_object_3sg,,le,avez,le l'avez
+fr_CA_pronoun_direct_object_3sg,,l',avons,l' l'avons
+fr_CA_pronoun_direct_object_3sg,,la,avons,la l'avons
+fr_CA_pronoun_direct_object_3sg,,le,avons,le l'avons
 fr_CA_pronoun_direct_object_3sg,,l',ont,l' l'ont
 fr_CA_pronoun_direct_object_3sg,,la,ont,la l'ont
 fr_CA_pronoun_direct_object_3sg,,le,ont,le l'ont
+fr_CA_pronoun_direct_object_3pl,,les,a,les les a
 fr_CA_pronoun_direct_object_3pl,,les,ai,les les ai
 fr_CA_pronoun_direct_object_3pl,,les,as,les les as
-fr_CA_pronoun_direct_object_3pl,,les,a,les les a
-fr_CA_pronoun_direct_object_3pl,,les,avons,les les avons
 fr_CA_pronoun_direct_object_3pl,,les,avez,les les avez
+fr_CA_pronoun_direct_object_3pl,,les,avons,les les avons
 fr_CA_pronoun_direct_object_3pl,,les,ont,les les ont
+fr_CA_pronoun_indirect_object_3sg,,lui,a,lui lui a
 fr_CA_pronoun_indirect_object_3sg,,lui,ai,lui lui ai
 fr_CA_pronoun_indirect_object_3sg,,lui,as,lui lui as
-fr_CA_pronoun_indirect_object_3sg,,lui,a,lui lui a
-fr_CA_pronoun_indirect_object_3sg,,lui,avons,lui lui avons
 fr_CA_pronoun_indirect_object_3sg,,lui,avez,lui lui avez
+fr_CA_pronoun_indirect_object_3sg,,lui,avons,lui lui avons
 fr_CA_pronoun_indirect_object_3sg,,lui,ont,lui lui ont
+fr_CA_pronoun_indirect_object_3pl,,leur,a,leur leur a
 fr_CA_pronoun_indirect_object_3pl,,leur,ai,leur leur ai
 fr_CA_pronoun_indirect_object_3pl,,leur,as,leur leur as
-fr_CA_pronoun_indirect_object_3pl,,leur,a,leur leur a
-fr_CA_pronoun_indirect_object_3pl,,leur,avons,leur leur avons
 fr_CA_pronoun_indirect_object_3pl,,leur,avez,leur leur avez
+fr_CA_pronoun_indirect_object_3pl,,leur,avons,leur leur avons
 fr_CA_pronoun_indirect_object_3pl,,leur,ont,leur leur ont
 fr_CA_verb_avoir_present_1sg,v_ind_prs_1_sg,j',acheter,j' achète
 fr_CA_verb_avoir_present_1sg,v_ind_prs_1_sg,je,acheter,je achète

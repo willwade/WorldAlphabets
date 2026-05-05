@@ -1,9 +1,899 @@
 {
-  "_type": "rules",
   "_locale": "kk",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "ablative_sg_nouns_after_prepositions",
+      "inflection": "n_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "анық",
+            "біз",
+            "бірнеше",
+            "кейбір",
+            "мен",
+            "ол",
+            "олар",
+            "осы",
+            "сен",
+            "сендер"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "ablative_pl_nouns_after_postpositions",
+      "inflection": "n_abl_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "арқылы",
+            "бастамасымен",
+            "дейін",
+            "кезінде",
+            "соңымен",
+            "сыртқы"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "accusative_sg_nouns_after_verbs",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "же",
+            "жеп",
+            "жеу",
+            "қабылда",
+            "қабылдады",
+            "қосу",
+            "қосуды",
+            "қосқан"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "dative_pl_nouns_after_verbs_of_giving",
+      "inflection": "n_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "бер",
+            "берген",
+            "берді",
+            "беру",
+            "тапсыр",
+            "тапсырды"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "genitive_sg_nouns_after_adjectives",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ескі",
+            "жаман",
+            "жақсы",
+            "жаңа",
+            "кіші",
+            "үлкен"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "locative_sg_nouns_after_verbs_of_motion",
+      "inflection": "n_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "бар",
+            "бас",
+            "жат",
+            "жүр",
+            "кел",
+            "кет"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "instrumental_pl_nouns_after_verbs_of_creation",
+      "inflection": "n_inst_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "жаса",
+            "жасады",
+            "жасау",
+            "жасаған",
+            "құрастыр",
+            "құрастырды"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "анық",
+      "автобус",
+      "анық автобустан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "автобус",
+      "біз автобустан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "анық",
+      "адам",
+      "анық адамнан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "адам",
+      "біз адамнан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "анық",
+      "бала",
+      "анық баладан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "бала",
+      "біз баладан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "анық",
+      "сағат",
+      "анық сағаттан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "сағат",
+      "біз сағаттан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "анық",
+      "ұшақ",
+      "анық ұшақтан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "ұшақ",
+      "біз ұшақтан",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "анық",
+      "өлім",
+      "анық өлімнен",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "біз",
+      "өлім",
+      "біз өлімнен",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "ablative_sg_nouns_after_prepositions"
+      }
+    ],
+    [
+      "арқылы",
+      "автобус",
+      "арқылы автобустардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "автобус",
+      "бастамасымен автобустардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "арқылы",
+      "адам",
+      "арқылы адамдардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "адам",
+      "бастамасымен адамдардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "арқылы",
+      "бала",
+      "арқылы балалардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "бала",
+      "бастамасымен балалардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "арқылы",
+      "сағат",
+      "арқылы сағаттардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "сағат",
+      "бастамасымен сағаттардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "арқылы",
+      "ұшақ",
+      "арқылы ұшақтардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "ұшақ",
+      "бастамасымен ұшақтардан",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "арқылы",
+      "өлім",
+      "арқылы өлімдерден",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "бастамасымен",
+      "өлім",
+      "бастамасымен өлімдерден",
+      {
+        "inflection": "n_abl_pl",
+        "rule_id": "ablative_pl_nouns_after_postpositions"
+      }
+    ],
+    [
+      "же",
+      "автобус",
+      "же автобусты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "автобус",
+      "жеп автобусты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "же",
+      "адам",
+      "же адамды",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "адам",
+      "жеп адамды",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "же",
+      "бала",
+      "же балада",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "бала",
+      "жеп балада",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "же",
+      "сағат",
+      "же сағатты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "сағат",
+      "жеп сағатты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "же",
+      "ұшақ",
+      "же ұшақты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "ұшақ",
+      "жеп ұшақты",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "же",
+      "өлім",
+      "же өлімді",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "жеп",
+      "өлім",
+      "жеп өлімді",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "accusative_sg_nouns_after_verbs"
+      }
+    ],
+    [
+      "бер",
+      "автобус",
+      "бер автобустарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "автобус",
+      "берген автобустарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "бер",
+      "адам",
+      "бер адамдарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "адам",
+      "берген адамдарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "бер",
+      "бала",
+      "бер балаларға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "бала",
+      "берген балаларға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "бер",
+      "сағат",
+      "бер сағаттарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "сағат",
+      "берген сағаттарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "бер",
+      "ұшақ",
+      "бер ұшақтарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "ұшақ",
+      "берген ұшақтарға",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "бер",
+      "өлім",
+      "бер өлімдерге",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "берген",
+      "өлім",
+      "берген өлімдерге",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "dative_pl_nouns_after_verbs_of_giving"
+      }
+    ],
+    [
+      "ескі",
+      "автобус",
+      "ескі автобустың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "автобус",
+      "жаман автобустың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "ескі",
+      "адам",
+      "ескі адамның",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "адам",
+      "жаман адамның",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "ескі",
+      "бала",
+      "ескі баланың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "бала",
+      "жаман баланың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "ескі",
+      "сағат",
+      "ескі сағаттың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "сағат",
+      "жаман сағаттың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "ескі",
+      "ұшақ",
+      "ескі ұшақтың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "ұшақ",
+      "жаман ұшақтың",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "ескі",
+      "өлім",
+      "ескі өлімнің",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "жаман",
+      "өлім",
+      "жаман өлімнің",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "genitive_sg_nouns_after_adjectives"
+      }
+    ],
+    [
+      "бар",
+      "автобус",
+      "бар автобуста",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "автобус",
+      "бас автобуста",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бар",
+      "адам",
+      "бар адамда",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "адам",
+      "бас адамда",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бар",
+      "бала",
+      "бар баланы",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "бала",
+      "бас баланы",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бар",
+      "сағат",
+      "бар сағатта",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "сағат",
+      "бас сағатта",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бар",
+      "ұшақ",
+      "бар ұшақта",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "ұшақ",
+      "бас ұшақта",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бар",
+      "өлім",
+      "бар өлімде",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "бас",
+      "өлім",
+      "бас өлімде",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_nouns_after_verbs_of_motion"
+      }
+    ],
+    [
+      "жаса",
+      "автобус",
+      "жаса автобустармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "автобус",
+      "жасады автобустармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жаса",
+      "адам",
+      "жаса адамдармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "адам",
+      "жасады адамдармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жаса",
+      "бала",
+      "жаса балалармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "бала",
+      "жасады балалармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жаса",
+      "сағат",
+      "жаса сағаттармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "сағат",
+      "жасады сағаттармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жаса",
+      "ұшақ",
+      "жаса ұшақтармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "ұшақ",
+      "жасады ұшақтармен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жаса",
+      "өлім",
+      "жаса өлімдермен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ],
+    [
+      "жасады",
+      "өлім",
+      "жасады өлімдермен",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "instrumental_pl_nouns_after_verbs_of_creation"
+      }
+    ]
+  ]
 }

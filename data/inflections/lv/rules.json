@@ -322,16 +322,16 @@
     ],
     [
       "ne",
-      "iet",
-      "ne neiet",
+      "darīt",
+      "ne nedarīt",
       {
         "rule_id": "lv_verb_nfin_neg_override"
       }
     ],
     [
       "ne",
-      "darīt",
-      "ne nedarīt",
+      "iet",
+      "ne neiet",
       {
         "rule_id": "lv_verb_nfin_neg_override"
       }
@@ -342,30 +342,6 @@
       "var varams",
       {
         "rule_id": "lv_verb_v_ptcp_prs_lgspec6_override"
-      }
-    ],
-    [
-      "arī",
-      "galds",
-      "arī galdā",
-      {
-        "rule_id": "lv_noun_loc_sg_override"
-      }
-    ],
-    [
-      "pie",
-      "galds",
-      "pie galdā",
-      {
-        "rule_id": "lv_noun_loc_sg_override"
-      }
-    ],
-    [
-      "uz",
-      "galds",
-      "uz galdā",
-      {
-        "rule_id": "lv_noun_loc_sg_override"
       }
     ],
     [
@@ -393,19 +369,27 @@
       }
     ],
     [
-      "ar",
+      "arī",
       "galds",
-      "ar galdam",
+      "arī galdā",
       {
-        "rule_id": "lv_noun_inst_sg_override"
+        "rule_id": "lv_noun_loc_sg_override"
       }
     ],
     [
-      "bez",
+      "pie",
       "galds",
-      "bez galdam",
+      "pie galdā",
       {
-        "rule_id": "lv_noun_inst_sg_override"
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "uz",
+      "galds",
+      "uz galdā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
       }
     ],
     [
@@ -420,6 +404,22 @@
       "bez",
       "cilvēks",
       "bez cilvēkam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "ar",
+      "galds",
+      "ar galdam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "bez",
+      "galds",
+      "bez galdam",
       {
         "rule_id": "lv_noun_inst_sg_override"
       }

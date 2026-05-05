@@ -1,9 +1,1118 @@
 {
-  "_type": "rules",
   "_locale": "bn",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "bn_verb_v_v_ptcp_hab_suffix",
+      "inflection": "v_v_ptcp_hab",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "যারা",
+            "যিনি",
+            "যে"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bn_verb_v_3_prs_pol_suffix",
+      "inflection": "v_3_prs_pol",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "তাঁরা",
+            "তাহারা",
+            "তিনি",
+            "সে"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bn_noun_n_nom_pl_def_suffix",
+      "inflection": "n_nom_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "এই",
+            "ওই",
+            "কতগুলো",
+            "কিছু",
+            "সব"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bn_verb_v_1_prs_suffix",
+      "inflection": "v_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "আমি"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bn_verb_v_2_prs_pol_suffix",
+      "inflection": "v_2_prs_pol",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "তুই",
+            "তুমি"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bn_noun_n_gen_pl_def_suffix",
+      "inflection": "n_gen_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "এদের",
+            "ওদের",
+            "তাদের"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "যারা",
+      "আসা",
+      "যারা এসে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "আসা",
+      "যিনি এসে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "ওঠা",
+      "যারা উঠে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "ওঠা",
+      "যিনি উঠে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "করা",
+      "যারা করে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "করা",
+      "যিনি করে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "কাটা",
+      "যারা কেটে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "কাটা",
+      "যিনি কেটে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "খোঁজা",
+      "যারা খুঁজে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "খোঁজা",
+      "যিনি খুঁজে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "খোলা",
+      "যারা খুলে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "খোলা",
+      "যিনি খুলে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "জানা",
+      "যারা জেনে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "জানা",
+      "যিনি জেনে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "দেওয়া",
+      "যারা দিয়ে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "দেওয়া",
+      "যিনি দিয়ে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "দেখা",
+      "যারা দেখে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "দেখা",
+      "যিনি দেখে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "ধরা",
+      "যারা ধরে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "ধরা",
+      "যিনি ধরে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "নেওয়া",
+      "যারা নিয়ে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "নেওয়া",
+      "যিনি নিয়ে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যারা",
+      "পরা",
+      "যারা পরে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "যিনি",
+      "পরা",
+      "যিনি পরে",
+      {
+        "inflection": "v_v_ptcp_hab",
+        "rule_id": "bn_verb_v_v_ptcp_hab_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "আসা",
+      "তাঁরা আসেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "আসা",
+      "তাহারা আসেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "করা",
+      "তাঁরা করেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "করা",
+      "তাহারা করেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "খাওয়া",
+      "তাঁরা খান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "খাওয়া",
+      "তাহারা খান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "গাওয়া",
+      "তাঁরা গান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "গাওয়া",
+      "তাহারা গান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "চাওয়া",
+      "তাঁরা চান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "চাওয়া",
+      "তাহারা চান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "জানা",
+      "তাঁরা জানেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "জানা",
+      "তাহারা জানেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "দেওয়া",
+      "তাঁরা দেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "দেওয়া",
+      "তাহারা দেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "দেখা",
+      "তাঁরা দেখেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "দেখা",
+      "তাহারা দেখেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "ধরা",
+      "তাঁরা ধরেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "ধরা",
+      "তাহারা ধরেন",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাঁরা",
+      "পাওয়া",
+      "তাঁরা পান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "তাহারা",
+      "পাওয়া",
+      "তাহারা পান",
+      {
+        "inflection": "v_3_prs_pol",
+        "rule_id": "bn_verb_v_3_prs_pol_suffix"
+      }
+    ],
+    [
+      "এই",
+      "অভিযোগ",
+      "এই অভিযোগগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "অভিযোগ",
+      "ওই অভিযোগগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "উপজেলা",
+      "এই উপজেলাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "উপজেলা",
+      "ওই উপজেলাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "এলাকা",
+      "এই এলাকাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "এলাকা",
+      "ওই এলাকাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "কারণ",
+      "এই কারণগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "কারণ",
+      "ওই কারণগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "ঘটনা",
+      "এই ঘটনাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "ঘটনা",
+      "ওই ঘটনাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "চোখ",
+      "এই চোখগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "চোখ",
+      "ওই চোখগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "ছাত্র",
+      "এই ছাত্ররা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "ছাত্র",
+      "ওই ছাত্ররা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "ছেলে",
+      "এই ছেলেরা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "ছেলে",
+      "ওই ছেলেরা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "জন্ম",
+      "এই জন্মগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "জন্ম",
+      "ওই জন্মগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "জেলা",
+      "এই জেলাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "জেলা",
+      "ওই জেলাগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "দেশ",
+      "এই দেশগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "দেশ",
+      "ওই দেশগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "এই",
+      "নাম",
+      "এই নামগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "ওই",
+      "নাম",
+      "ওই নামগুলা",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "bn_noun_n_nom_pl_def_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "আসা",
+      "আমি আসি",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "করা",
+      "আমি করি",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "চাওয়া",
+      "আমি চাই",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "জানা",
+      "আমি জানি",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "দেখা",
+      "আমি দেখি",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "ধরা",
+      "আমি ধরি",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "আমি",
+      "নেওয়া",
+      "আমি নেই",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "bn_verb_v_1_prs_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "আসা",
+      "তুই আসে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "আসা",
+      "তুমি আসে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "করা",
+      "তুই করে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "করা",
+      "তুমি করে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "গেলা",
+      "তুই গেলে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "গেলা",
+      "তুমি গেলে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "জানা",
+      "তুই জানে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "জানা",
+      "তুমি জানে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "দেখা",
+      "তুই দেখে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "দেখা",
+      "তুমি দেখে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "ধরা",
+      "তুই ধরে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "ধরা",
+      "তুমি ধরে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুই",
+      "পরা",
+      "তুই পরে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "তুমি",
+      "পরা",
+      "তুমি পরে",
+      {
+        "inflection": "v_2_prs_pol",
+        "rule_id": "bn_verb_v_2_prs_pol_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "অভিযোগ",
+      "এদের অভিযোগগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "অভিযোগ",
+      "ওদের অভিযোগগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "উপজেলা",
+      "এদের উপজেলাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "উপজেলা",
+      "ওদের উপজেলাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "এলাকা",
+      "এদের এলাকাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "এলাকা",
+      "ওদের এলাকাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "কারণ",
+      "এদের কারণগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "কারণ",
+      "ওদের কারণগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "ঘটনা",
+      "এদের ঘটনাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "ঘটনা",
+      "ওদের ঘটনাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "চোখ",
+      "এদের চোখগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "চোখ",
+      "ওদের চোখগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "ছাত্র",
+      "এদের ছাত্রদের",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "ছাত্র",
+      "ওদের ছাত্রদের",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "ছেলে",
+      "এদের ছেলেদের",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "ছেলে",
+      "ওদের ছেলেদের",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "জন্ম",
+      "এদের জন্মগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "জন্ম",
+      "ওদের জন্মগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "জেলা",
+      "এদের জেলাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "জেলা",
+      "ওদের জেলাগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "দেশ",
+      "এদের দেশগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "দেশ",
+      "ওদের দেশগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "এদের",
+      "নাম",
+      "এদের নামগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ],
+    [
+      "ওদের",
+      "নাম",
+      "ওদের নামগুলার",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "bn_noun_n_gen_pl_def_suffix"
+      }
+    ]
+  ]
 }

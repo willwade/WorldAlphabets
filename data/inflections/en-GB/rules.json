@@ -75,6 +75,20 @@
       "type": "override"
     },
     {
+      "id": "we_are",
+      "lookback": [
+        {
+          "words": [
+            "we"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "’re"
+      },
+      "type": "override"
+    },
+    {
       "id": "he_she_it_is",
       "lookback": [
         {
@@ -87,20 +101,6 @@
       ],
       "overrides": {
         "are": "is"
-      },
-      "type": "override"
-    },
-    {
-      "id": "we_are",
-      "lookback": [
-        {
-          "words": [
-            "we"
-          ]
-        }
-      ],
-      "overrides": {
-        "are": "’re"
       },
       "type": "override"
     },
@@ -521,6 +521,14 @@
       }
     ],
     [
+      "we",
+      "are",
+      "we ’re",
+      {
+        "rule_id": "we_are"
+      }
+    ],
+    [
       "he",
       "are",
       "he is",
@@ -542,14 +550,6 @@
       "she is",
       {
         "rule_id": "he_she_it_is"
-      }
-    ],
-    [
-      "we",
-      "are",
-      "we ’re",
-      {
-        "rule_id": "we_are"
       }
     ],
     [

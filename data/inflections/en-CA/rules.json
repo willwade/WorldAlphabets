@@ -82,7 +82,174 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "can_you",
+      "lookback": [
+        {
+          "words": [
+            "can",
+            "you"
+          ]
+        }
+      ],
+      "overrides": {
+        "come": "come",
+        "look": "look"
+      },
+      "type": "override"
+    },
+    {
+      "id": "dont_know",
+      "lookback": [
+        {
+          "words": [
+            "do",
+            "don",
+            "not"
+          ]
+        }
+      ],
+      "overrides": {
+        "know": "know"
+      },
+      "type": "override"
+    },
+    {
+      "id": "with_pronouns",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "at",
+            "for",
+            "from",
+            "to",
+            "with"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "these_nouns",
+      "inflection": "plural",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "few",
+            "many",
+            "some",
+            "these",
+            "those"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "be_verb",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "can",
+            "could",
+            "may",
+            "might",
+            "must",
+            "shall",
+            "should",
+            "will",
+            "would"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "have_gone",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "had",
+            "has",
+            "have",
+            "he",
+            "i",
+            "it",
+            "she",
+            "they",
+            "we",
+            "you"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "can",
+      "come",
+      "can come",
+      {
+        "rule_id": "can_you"
+      }
+    ],
+    [
+      "you",
+      "come",
+      "you come",
+      {
+        "rule_id": "can_you"
+      }
+    ],
+    [
+      "can",
+      "look",
+      "can look",
+      {
+        "rule_id": "can_you"
+      }
+    ],
+    [
+      "you",
+      "look",
+      "you look",
+      {
+        "rule_id": "can_you"
+      }
+    ],
+    [
+      "do",
+      "know",
+      "do know",
+      {
+        "rule_id": "dont_know"
+      }
+    ],
+    [
+      "don",
+      "know",
+      "don know",
+      {
+        "rule_id": "dont_know"
+      }
+    ],
+    [
+      "not",
+      "know",
+      "not know",
+      {
+        "rule_id": "dont_know"
+      }
+    ]
+  ]
 }

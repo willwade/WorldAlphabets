@@ -628,7 +628,7 @@
     ],
     [
       "baik",
-      "baik",
+      "bagus",
       "baik baik",
       {
         "rule_id": "baik_adj_override"
@@ -636,7 +636,7 @@
     ],
     [
       "baik",
-      "bagus",
+      "baik",
       "baik baik",
       {
         "rule_id": "baik_adj_override"
@@ -748,7 +748,7 @@
     ],
     [
       "kasih",
-      "kasih",
+      "cinta",
       "kasih kasih",
       {
         "rule_id": "kasih_verb_override"
@@ -756,7 +756,7 @@
     ],
     [
       "kasih",
-      "cinta",
+      "kasih",
       "kasih kasih",
       {
         "rule_id": "kasih_verb_override"
@@ -780,6 +780,14 @@
     ],
     [
       "kembali",
+      "balik",
+      "kembali kembali",
+      {
+        "rule_id": "kembali_verb_override"
+      }
+    ],
+    [
+      "kembali",
       "kembali",
       "kembali kembali",
       {
@@ -795,16 +803,8 @@
       }
     ],
     [
-      "kembali",
-      "balik",
-      "kembali kembali",
-      {
-        "rule_id": "kembali_verb_override"
-      }
-    ],
-    [
       "lain",
-      "lain",
+      "asing",
       "lain lain",
       {
         "rule_id": "lain_adj_override"
@@ -812,7 +812,7 @@
     ],
     [
       "lain",
-      "asing",
+      "lain",
       "lain lain",
       {
         "rule_id": "lain_adj_override"
@@ -900,7 +900,7 @@
     ],
     [
       "waktu",
-      "waktu",
+      "masa",
       "waktu waktu",
       {
         "rule_id": "waktu_noun_override"
@@ -908,7 +908,7 @@
     ],
     [
       "waktu",
-      "masa",
+      "waktu",
       "waktu waktu",
       {
         "rule_id": "waktu_noun_override"

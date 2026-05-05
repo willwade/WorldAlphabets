@@ -215,11 +215,6 @@
       "lookback": [
         {
           "words": [
-            "har"
-          ]
-        },
-        {
-          "words": [
             "blitt"
           ]
         }
@@ -449,6 +444,14 @@
     ],
     [
       "et",
+      "folk",
+      "et folket",
+      {
+        "rule_id": "n_neut_sg_override"
+      }
+    ],
+    [
+      "et",
       "for",
       "et foret",
       {
@@ -464,17 +467,17 @@
       }
     ],
     [
-      "et",
-      "folk",
-      "et folket",
+      "flere",
+      "barn",
+      "flere barna",
       {
-        "rule_id": "n_neut_sg_override"
+        "rule_id": "n_neut_pl_override"
       }
     ],
     [
       "flere",
-      "barn",
-      "flere barna",
+      "folk",
+      "flere folkene",
       {
         "rule_id": "n_neut_pl_override"
       }
@@ -493,30 +496,6 @@
       "flere livene",
       {
         "rule_id": "n_neut_pl_override"
-      }
-    ],
-    [
-      "flere",
-      "folk",
-      "flere folkene",
-      {
-        "rule_id": "n_neut_pl_override"
-      }
-    ],
-    [
-      "den",
-      "skal",
-      "den skallet",
-      {
-        "rule_id": "n_fem_masc_sg_override"
-      }
-    ],
-    [
-      "denne",
-      "skal",
-      "denne skallet",
-      {
-        "rule_id": "n_fem_masc_sg_override"
       }
     ],
     [
@@ -552,11 +531,19 @@
       }
     ],
     [
-      "disse",
+      "den",
       "skal",
-      "disse skallene",
+      "den skallet",
       {
-        "rule_id": "n_fem_masc_pl_override"
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "denne",
+      "skal",
+      "denne skallet",
+      {
+        "rule_id": "n_fem_masc_sg_override"
       }
     ],
     [
@@ -571,6 +558,14 @@
       "disse",
       "hele",
       "disse helene",
+      {
+        "rule_id": "n_fem_masc_pl_override"
+      }
+    ],
+    [
+      "disse",
+      "skal",
+      "disse skallene",
       {
         "rule_id": "n_fem_masc_pl_override"
       }
@@ -695,6 +690,24 @@
       {
         "inflection": "v_ptcp_pst",
         "rule_id": "v_ptcp_pst_hele"
+      }
+    ],
+    [
+      "blitt",
+      "bade",
+      "blitt badet",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele_har_blitt"
+      }
+    ],
+    [
+      "blitt",
+      "bedre",
+      "blitt bedra",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele_har_blitt"
       }
     ],
     [

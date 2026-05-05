@@ -46,7 +46,120 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "za_article_a_an",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "an"
+      },
+      "type": "override"
+    },
+    {
+      "id": "za_verb_contraction_are_we",
+      "lookback": [
+        {
+          "words": [
+            "we"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "'re"
+      },
+      "type": "override"
+    },
+    {
+      "id": "za_pronoun_you_objective",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "for",
+            "to",
+            "with"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "za_verb_are_we",
+      "inflection": "present",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "we"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "za_verb_is_it",
+      "inflection": "present",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "it"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "za_pronoun_him_objective",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "at"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "za_verb_going_to",
+      "inflection": "present_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "going"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "a",
+      "a",
+      "a an",
+      {
+        "rule_id": "za_article_a_an"
+      }
+    ],
+    [
+      "we",
+      "are",
+      "we 're",
+      {
+        "rule_id": "za_verb_contraction_are_we"
+      }
+    ]
+  ]
 }

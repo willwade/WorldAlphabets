@@ -1,9 +1,296 @@
 {
-  "_type": "rules",
   "_locale": "nds",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "nds_imp_sg_to_pl",
+      "lookback": [
+        {
+          "words": [
+            "du"
+          ]
+        }
+      ],
+      "overrides": {
+        "sehn": "seht",
+        "wassen": "wast",
+        "wüllen": "wüllt"
+      },
+      "type": "override"
+    },
+    {
+      "id": "nds_imp_pl_weak",
+      "lookback": [
+        {
+          "words": [
+            "mal",
+            "wi"
+          ]
+        }
+      ],
+      "overrides": {
+        "sehn": "sehn",
+        "warrn": "warrn",
+        "wassen": "wassen"
+      },
+      "type": "override"
+    },
+    {
+      "id": "nds_ind_sg_1_hebben",
+      "lookback": [
+        {
+          "words": [
+            "ik"
+          ]
+        }
+      ],
+      "overrides": {
+        "hebben": "heb"
+      },
+      "type": "override"
+    },
+    {
+      "id": "nds_definite_article",
+      "lookback": [
+        {
+          "words": [
+            "de"
+          ]
+        }
+      ],
+      "overrides": {
+        "dumm": "dumme"
+      },
+      "type": "override"
+    },
+    {
+      "id": "nds_ind_sg_2_to_pl",
+      "inflection": "v_ind_pl_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "du"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "nds_ind_pl_weak_1",
+      "inflection": "v_ind_pl_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "wi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "nds_past_participle_weak",
+      "inflection": "v_ptcp_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hebben",
+            "wesen"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "nds_comparative_adj",
+      "inflection": "adj_acc_cmpr_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "besser",
+            "mear",
+            "minner"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "du",
+      "sehn",
+      "du seht",
+      {
+        "rule_id": "nds_imp_sg_to_pl"
+      }
+    ],
+    [
+      "du",
+      "wassen",
+      "du wast",
+      {
+        "rule_id": "nds_imp_sg_to_pl"
+      }
+    ],
+    [
+      "du",
+      "wüllen",
+      "du wüllt",
+      {
+        "rule_id": "nds_imp_sg_to_pl"
+      }
+    ],
+    [
+      "mal",
+      "sehn",
+      "mal sehn",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "wi",
+      "sehn",
+      "wi sehn",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "mal",
+      "warrn",
+      "mal warrn",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "wi",
+      "warrn",
+      "wi warrn",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "mal",
+      "wassen",
+      "mal wassen",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "wi",
+      "wassen",
+      "wi wassen",
+      {
+        "rule_id": "nds_imp_pl_weak"
+      }
+    ],
+    [
+      "ik",
+      "hebben",
+      "ik heb",
+      {
+        "rule_id": "nds_ind_sg_1_hebben"
+      }
+    ],
+    [
+      "de",
+      "dumm",
+      "de dumme",
+      {
+        "rule_id": "nds_definite_article"
+      }
+    ],
+    [
+      "du",
+      "warrn",
+      "du warrt",
+      {
+        "inflection": "v_ind_pl_prs",
+        "rule_id": "nds_ind_sg_2_to_pl"
+      }
+    ],
+    [
+      "du",
+      "wesen",
+      "du sin",
+      {
+        "inflection": "v_ind_pl_prs",
+        "rule_id": "nds_ind_sg_2_to_pl"
+      }
+    ],
+    [
+      "wi",
+      "wesen",
+      "wi sin",
+      {
+        "inflection": "v_ind_pl_prs",
+        "rule_id": "nds_ind_pl_weak_1"
+      }
+    ],
+    [
+      "hebben",
+      "sehn",
+      "hebben esehen",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "nds_past_participle_weak"
+      }
+    ],
+    [
+      "wesen",
+      "sehn",
+      "wesen esehen",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "nds_past_participle_weak"
+      }
+    ],
+    [
+      "hebben",
+      "wassen",
+      "hebben ewussen",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "nds_past_participle_weak"
+      }
+    ],
+    [
+      "wesen",
+      "wassen",
+      "wesen ewussen",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "nds_past_participle_weak"
+      }
+    ],
+    [
+      "besser",
+      "dumm",
+      "besser dümmern",
+      {
+        "inflection": "adj_acc_cmpr_masc_sg",
+        "rule_id": "nds_comparative_adj"
+      }
+    ],
+    [
+      "mear",
+      "dumm",
+      "mear dümmern",
+      {
+        "inflection": "adj_acc_cmpr_masc_sg",
+        "rule_id": "nds_comparative_adj"
+      }
+    ]
+  ]
 }

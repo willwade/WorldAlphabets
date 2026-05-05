@@ -1,0 +1,30 @@
+rule_id,inflection,pre_words,test_word,updated_words
+noun_dative_plural_article,n_dat_pl_def,ar,béarla,ar leis na béarlaí
+noun_dative_plural_article,n_dat_pl_def,do,béarla,do leis na béarlaí
+noun_dative_plural_article,n_dat_pl_def,ar,cruinniú,ar leis na cruinnithe
+noun_dative_plural_article,n_dat_pl_def,do,cruinniú,do leis na cruinnithe
+noun_dative_plural_article,n_dat_pl_def,ar,inscne,ar leis na hinscní
+noun_dative_plural_article,n_dat_pl_def,do,inscne,do leis na hinscní
+noun_dative_plural_article,n_dat_pl_def,ar,rud,ar leis na rudaí
+noun_dative_plural_article,n_dat_pl_def,do,rud,do leis na rudaí
+noun_genitive_plural_strong,n_gen_pl,de,béarla,de béarlaí
+noun_genitive_plural_strong,n_gen_pl,gan,béarla,gan béarlaí
+noun_genitive_plural_strong,n_gen_pl,de,cruinniú,de cruinnithe
+noun_genitive_plural_strong,n_gen_pl,gan,cruinniú,gan cruinnithe
+noun_genitive_plural_strong,n_gen_pl,de,inscne,de inscní
+noun_genitive_plural_strong,n_gen_pl,gan,inscne,gan inscní
+noun_genitive_plural_strong,n_gen_pl,de,rud,de rudaí
+noun_genitive_plural_strong,n_gen_pl,gan,rud,gan rudaí
+noun_genitive_plural_strong,n_gen_pl,de,uair,de uaireanta
+noun_genitive_plural_strong,n_gen_pl,gan,uair,gan uaireanta
+noun_dative_singular_article,n_dat_sg_def,an,béarla,an leis an mbéarla
+noun_dative_singular_article,n_dat_sg_def,dó,béarla,dó leis an mbéarla
+noun_dative_singular_article,n_dat_sg_def,an,cruinniú,an leis an gcruinniú
+noun_dative_singular_article,n_dat_sg_def,dó,cruinniú,dó leis an gcruinniú
+noun_dative_singular_article,n_dat_sg_def,an,inscne,an leis an inscne
+noun_dative_singular_article,n_dat_sg_def,dó,inscne,dó leis an inscne
+noun_dative_singular_article,n_dat_sg_def,an,rud,an leis an rud
+noun_dative_singular_article,n_dat_sg_def,dó,rud,dó leis an rud
+verb_msdr_past,v_v_msdr,ar,cruinnigh,ar cruinniú
+verb_msdr_past,v_v_msdr,go,cruinnigh,go cruinniú
+adjective_comparative,adj_cmpr,níos,álainn,níos níos áille
