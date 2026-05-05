@@ -94,6 +94,25 @@ const totalCount = computed(() => {
   ).length;
 });
 
+const localeCoverage = computed(() => {
+  if (!wordsData.value) return { withForms: 0, total: 0, pct: 0 };
+  const metadataKeys = ['_type', '_locale', '_version'];
+  let withForms = 0;
+  let total = 0;
+  Object.entries(wordsData.value).forEach(([k, entry]) => {
+    if (metadataKeys.includes(k)) return;
+    total++;
+    const infl = entry.inflections;
+    if (infl) {
+      const formKeys = Object.keys(infl).filter(
+        (ik) => ik !== 'regulars' && typeof infl[ik] === 'string'
+      );
+      if (formKeys.length > 0) withForms++;
+    }
+  });
+  return { withForms, total, pct: total > 0 ? Math.round((withForms / total) * 100) : 0 };
+});
+
 const inflectionKeys = computed(() => {
   if (!wordsData.value) return [];
   const keys = new Set();
@@ -357,6 +376,15 @@ onMounted(loadData);
               <span class="summary-badge">
                 {{ availablePosTypes.length }} POS types
               </span>
+              <span
+                class="summary-badge"
+                :class="{ 'low-coverage': localeCoverage.pct < 50 }"
+                v-if="localeCoverage.total > 0"
+              >
+                {{ localeCoverage.pct }}% coverage
+                ({{ localeCoverage.withForms }}/{{ localeCoverage.total }}
+                words with forms)
+              </span>
             </div>
             <div
               class="pos-types"
@@ -425,12 +453,18 @@ onMounted(loadData);
                 class="word-row"
                 :class="{
                   expanded:
-                    expandedWord === entry.word
+                    expandedWord === entry.word,
+                  'no-forms':
+                    getInflectionEntries(entry.inflections).length === 0
                 }"
               >
                 <div
                   class="word-row-header"
-                  @click="toggleWord(entry.word)"
+                  @click="
+                    getInflectionEntries(entry.inflections).length > 0
+                      ? toggleWord(entry.word)
+                      : null
+                  "
                 >
                   <span class="word-text">
                     {{ entry.word }}
@@ -454,6 +488,10 @@ onMounted(loadData);
                       ).length
                     }}
                     <span
+                      v-if="
+                        getInflectionEntries(entry.inflections)
+                          .length > 0
+                      "
                       class="expand-icon"
                     >
                       {{
@@ -468,7 +506,20 @@ onMounted(loadData);
                   v-if="expandedWord === entry.word"
                   class="word-detail"
                 >
-                  <div class="inflection-grid">
+                  <div
+                    v-if="
+                      getInflectionEntries(entry.inflections)
+                        .length === 0
+                    "
+                    class="no-forms-message"
+                  >
+                    No inflected forms available
+                    for this word
+                  </div>
+                  <div
+                    v-else
+                    class="inflection-grid"
+                  >
                     <div
                       v-for="[
                         key,
@@ -963,6 +1014,28 @@ onMounted(loadData);
   display: flex;
   align-items: center;
   gap: 0.4rem;
+}
+
+.no-forms .word-forms-count {
+  color: #adb5bd;
+}
+
+.no-forms .word-row-header {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.low-coverage {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.no-forms-message {
+  padding: 0.75rem;
+  text-align: center;
+  color: #adb5bd;
+  font-style: italic;
+  font-size: 0.85rem;
 }
 
 .expand-icon {
