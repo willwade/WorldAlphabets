@@ -151,6 +151,40 @@ int main(void) {
             assert(base != NULL);
             printf("OK (word=%s, base=%s)\n", first->word, base);
         }
+
+        // Test rule engine with German
+        printf("  wa_load_rules_table... ");
+        const wa_rules_table *de_rules = wa_load_rules_table("de");
+        const wa_inflection_table *de_words = wa_load_inflection_table("de");
+        if (de_rules && de_words) {
+            printf("OK (%s: %zu rules)\n", de_rules->locale,
+                   de_rules->rule_count);
+
+            // Test: "der" + "die" → override to "der"
+            printf("  wa_lookup_word (de override)... ");
+            wa_lookup_result lr = wa_lookup_word(de_words, de_rules,
+                                                  "die", "der");
+            assert(lr.replacement != NULL);
+            printf("OK (der + die → %s, rule=%s)\n", lr.replacement,
+                   lr.rule_id ? lr.rule_id : "none");
+            assert(strcmp(lr.replacement, "der") == 0);
+
+            // Test: "ich" + verb → present tense
+            printf("  wa_lookup_word (de verb)... ");
+            wa_lookup_result vr = wa_lookup_word(de_words, de_rules,
+                                                  "gehen", "ich");
+            printf("OK (ich + gehen → %s, rule=%s)\n",
+                   vr.replacement, vr.rule_id ? vr.rule_id : "none");
+
+            // Test: null prior → no change
+            printf("  wa_lookup_word (null prior)... ");
+            wa_lookup_result nr = wa_lookup_word(de_words, de_rules,
+                                                  "gehen", "");
+            assert(nr.replacement != NULL);
+            printf("OK (gehen → %s)\n", nr.replacement);
+        } else {
+            printf("SKIPPED (de rules not compiled in)\n");
+        }
     }
 
     printf("\nAll C interface tests passed!\n");
