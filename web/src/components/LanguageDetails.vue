@@ -2,6 +2,7 @@
 import { ref, watch, computed, nextTick } from 'vue';
 import AlphabetView from './AlphabetView.vue';
 import KeyboardView from './KeyboardView.vue';
+import SentenceBufferDemo from './SentenceBufferDemo.vue';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-python';
 import 'prismjs/components/prism-javascript';
@@ -37,6 +38,9 @@ const wordFrequency = ref([]);
 const wordFrequencyMode = ref('word');
 const wordFrequencyError = ref(null);
 const wordFrequencyLoading = ref(false);
+const supportsInflection = ref(false);
+const inflectionWords = ref(null);
+const inflectionRules = ref(null);
 const scriptNames = {
   Latn: 'Latin',
   Deva: 'Devanagari'
@@ -89,6 +93,9 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
   wordFrequencyMode.value = 'word';
   wordFrequencyError.value = null;
   wordFrequencyLoading.value = false;
+  supportsInflection.value = false;
+  inflectionWords.value = null;
+  inflectionRules.value = null;
 
   try {
     // Fetch indexes in parallel
@@ -124,6 +131,21 @@ watch(() => props.selectedLangCode, async (newLangCode) => {
 
       if (supportsWordFrequency.value) {
         await loadWordFrequency(newLangCode);
+      }
+
+      // Check for inflection data
+      try {
+        const inflRes = await fetch(`${baseUrl}data/inflections/${newLangCode}/words.json`);
+        if (inflRes.ok) {
+          inflectionWords.value = await inflRes.json();
+          const rulesRes = await fetch(`${baseUrl}data/inflections/${newLangCode}/rules.json`);
+          if (rulesRes.ok) {
+            inflectionRules.value = await rulesRes.json();
+            supportsInflection.value = true;
+          }
+        }
+      } catch {
+        // no inflection data for this locale
       }
     } else {
       await loadAlphabet(newLangCode, null);
@@ -392,6 +414,11 @@ watch(showCodeExamples, (newValue) => {
           :class="{ active: activeTab === 'wordFrequency' }"
           @click="activeTab = 'wordFrequency'"
         >Word Frequency</button>
+        <button
+          v-if="supportsInflection"
+          :class="{ active: activeTab === 'inflection' }"
+          @click="activeTab = 'inflection'"
+        >Inflection</button>
       </div>
 
       <div v-if="activeTab === 'alphabet'" class="tab-content">
@@ -470,6 +497,17 @@ watch(showCodeExamples, (newValue) => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div v-else-if="activeTab === 'inflection'" class="tab-content">
+        <div class="feature-section">
+          <h3>Inflection Builder</h3>
+          <SentenceBufferDemo
+            :locale="selectedLangCode"
+            :words-data="inflectionWords"
+            :rules-data="inflectionRules"
+          />
         </div>
       </div>
 

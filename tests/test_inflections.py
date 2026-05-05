@@ -8,7 +8,12 @@ from worldalphabets import (
     apply_rules,
     clear_inflection_cache,
 )
-from worldalphabets.inflect import join_words
+from worldalphabets.inflect import (
+    join_words,
+    get_features,
+    load_tag_map,
+    create_buffer,
+)
 
 
 def test_inflection_locale_index_loads() -> None:
@@ -126,3 +131,252 @@ def test_apply_rules_with_join_english() -> None:
     clear_inflection_cache()
     result = apply_rules("en", "a apple")
     assert "an apple" in result
+
+
+def test_get_features_german_verb() -> None:
+    features = get_features("v_ind_pl_1_prs")
+    assert features is not None
+    assert features["pos"] == "verb"
+    assert features["mood"] == "indicative"
+    assert features["number"] == "plural"
+    assert features["person"] == "1"
+    assert features["tense"] == "present"
+
+
+def test_get_features_english_plural() -> None:
+    features = get_features("plural")
+    assert features is not None
+    assert features["number"] == "plural"
+
+
+def test_get_features_english_past_participle() -> None:
+    features = get_features("past_participle")
+    assert features is not None
+    assert features["verbform"] == "participle"
+    assert features["tense"] == "past"
+
+
+def test_get_features_arabic_dual() -> None:
+    features = get_features("adj_du_fem_def_acc")
+    assert features is not None
+    assert features["pos"] == "adjective"
+    assert features["number"] == "dual"
+    assert features["gender"] == "feminine"
+    assert features["definiteness"] == "definite"
+    assert features["case"] == "accusative"
+
+
+def test_get_features_unknown_tag() -> None:
+    features = get_features("xyz_unknown_123")
+    assert features is None
+
+
+def test_load_tag_map() -> None:
+    tag_map = load_tag_map()
+    assert isinstance(tag_map, dict)
+    assert len(tag_map) > 7000
+    assert "v_ind_pl_1_prs" in tag_map
+    assert "features" in tag_map["v_ind_pl_1_prs"]
+
+
+def test_get_features_basque_args() -> None:
+    features = get_features(
+        "v_argabs1_argabspl_argerg2_argergpl_hyp_ind"
+    )
+    assert features is not None
+    assert features["pos"] == "verb"
+    assert "arg_abs" in features
+    assert "arg_erg" in features
+    assert features["mood"] == "indicative"
+
+
+def test_get_features_japanese_formality() -> None:
+    features = get_features("v_form_elev_imp_col")
+    assert features is not None
+    assert features["pos"] == "verb"
+    assert features["formality"] == "colloquial"
+    assert features["mood"] == "imperative"
+
+
+def test_get_features_variant() -> None:
+    features = get_features("adj_acc_fem_sg_2")
+    assert features is not None
+    assert features["pos"] == "adjective"
+    assert features["variant"] == "2"
+
+
+class TestSentenceBuffer:
+    def test_create_buffer(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        assert len(buf) == 0
+        assert buf.tokens == []
+
+    def test_push_and_render(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        snap = buf.push("she")
+        assert len(buf) == 1
+        assert snap.text == "she"
+        assert len(snap.tokens) == 1
+        assert snap.tokens[0].base == "she"
+        assert snap.tokens[0].surface == "she"
+
+    def test_push_applies_rules(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("de")
+        buf.push("ich")
+        snap = buf.push("haben")
+        assert snap.tokens[-1].base == "haben"
+        assert snap.tokens[-1].surface == "habe"
+        assert snap.tokens[-1].rule_id is not None
+
+    def test_update_reacts(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("de")
+        buf.push("ich")
+        buf.push("haben")
+        assert buf.render_tokens()[-1].surface == "habe"
+        snap = buf.update(0, "er")
+        assert snap.tokens[-1].surface == "hat"
+
+    def test_remove(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("I")
+        buf.push("run")
+        snap = buf.remove(0)
+        assert len(buf) == 1
+        assert snap.text == "run"
+
+    def test_insert(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        buf.push("run")
+        snap = buf.insert(1, "not")
+        assert len(snap.tokens) == 3
+
+    def test_clear(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        buf.push("run")
+        buf.clear()
+        assert len(buf) == 0
+        assert buf.render() == ""
+
+    def test_token_at(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        buf.push("run")
+        assert buf.token_at(0) == "she"
+        assert buf.token_at(1) == "run"
+
+    def test_token_at_out_of_range(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        try:
+            buf.token_at(5)
+        except IndexError:
+            pass
+        else:
+            raise AssertionError("expected IndexError")
+
+    def test_render_snapshot_diffs_add(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        snap = buf.push("she")
+        assert len(snap.diffs) == 1
+        assert snap.diffs[0].kind == "add"
+        assert snap.diffs[0].new_surface == "she"
+
+    def test_render_snapshot_diffs_change(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("de")
+        buf.push("ich")
+        buf.push("haben")
+        snap = buf.update(0, "er")
+        change_diffs = [d for d in snap.diffs if d.kind == "change"]
+        assert len(change_diffs) > 0
+
+    def test_render_snapshot_diffs_remove(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        buf.push("run")
+        snap = buf.remove(1)
+        remove_diffs = [d for d in snap.diffs if d.kind == "remove"]
+        assert len(remove_diffs) > 0
+
+    def test_join_applied_french(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("fr")
+        buf.push("le")
+        snap = buf.push("ami")
+        assert "l'ami" in snap.text
+        join_tokens = [t for t in snap.tokens if t.join_applied]
+        assert len(join_tokens) == 1
+
+    def test_german_sentence(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("de")
+        buf.push("ich")
+        snap = buf.push("haben")
+        assert snap.text == "ich habe"
+
+    def test_unknown_word_passes_through(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        snap = buf.push("xyz123")
+        assert snap.text == "xyz123"
+        assert snap.tokens[0].surface == "xyz123"
+
+    def test_render_tokens_method(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("de")
+        buf.push("ich")
+        buf.push("haben")
+        tokens = buf.render_tokens()
+        assert len(tokens) == 2
+        assert tokens[0].surface == "ich"
+        assert tokens[1].surface == "habe"
+
+    def test_multiple_pushes_accumulate(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        buf.push("run")
+        snap = buf.push("fast")
+        assert len(snap.tokens) == 3
+
+    def test_spanish_no_inflection_still_works(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("es")
+        buf.push("yo")
+        snap = buf.push("hablar")
+        assert snap.text == "yo hablar"
+
+    def test_update_out_of_range(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        try:
+            buf.update(5, "I")
+        except IndexError:
+            pass
+        else:
+            raise AssertionError("expected IndexError")
+
+    def test_remove_out_of_range(self) -> None:
+        clear_inflection_cache()
+        buf = create_buffer("en")
+        buf.push("she")
+        try:
+            buf.remove(5)
+        except IndexError:
+            pass
+        else:
+            raise AssertionError("expected IndexError")

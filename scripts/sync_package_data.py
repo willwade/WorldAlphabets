@@ -103,6 +103,8 @@ def sync_other_data_files(source_dir: Path, target_dir: Path) -> int:
     additional_files = [
         "stats.json",
         "tts_index.json",
+        "tag_map.json",
+        "feature_schema.json",
     ]
 
     for filename in additional_files:

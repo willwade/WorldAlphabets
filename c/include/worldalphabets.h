@@ -136,7 +136,20 @@ typedef struct {
     const char *locale;
     const wa_inflection_rule **rules;
     size_t rule_count;
+    const struct wa_join_rule *joins;
+    size_t join_count;
 } wa_rules_table;
+
+typedef struct wa_join_rule {
+    const char *id;
+    const char **prev;
+    size_t prev_count;
+    const char **next;
+    size_t next_count;
+    const char *next_match;
+    const char *result_template;
+    const char *reason;
+} wa_join_rule;
 
 typedef struct {
     const char *replacement;
@@ -200,9 +213,55 @@ const char *wa_get_inflected_form(const wa_inflection_entry *entry,
 // Inflection rules + lookup
 const wa_rules_table *wa_load_rules_table(const char *locale);
 wa_lookup_result wa_lookup_word(const wa_inflection_table *words,
-                                 const wa_rules_table *rules,
-                                 const char *word,
-                                 const char *prior_words);
+                                  const wa_rules_table *rules,
+                                  const char *word,
+                                  const char *prior_words);
+
+// Join/euphony
+typedef struct {
+    const char *result;
+    const char *rule_id;
+    const char *reason;
+    int replaces_pair;
+} wa_join_result;
+
+wa_join_result wa_join_words(const wa_rules_table *rules,
+                              const char *prev,
+                              const char *next);
+
+// Tag features
+typedef struct {
+    const char *tag;
+    const char *feature_key;
+    const char *feature_value;
+} wa_feature_entry;
+
+typedef struct {
+    const wa_feature_entry *features;
+    size_t feature_count;
+} wa_feature_array;
+
+wa_feature_array wa_get_features(const char *tag);
+void wa_free_features(wa_feature_array *fa);
+
+// Apply rules to a sentence (walks tokens left-to-right)
+typedef struct {
+    const char *surface;
+    const char *rule_id;
+    const char *rule_type;
+    const char *join_rule_id;
+    const char *join_reason;
+} wa_applied_token;
+
+typedef struct {
+    wa_applied_token *tokens;
+    size_t token_count;
+} wa_applied_sentence;
+
+wa_applied_sentence wa_apply_rules(const wa_inflection_table *words,
+                                    const wa_rules_table *rules,
+                                    const char *sentence);
+void wa_free_applied_sentence(wa_applied_sentence *sent);
 
 #ifdef __cplusplus
 }

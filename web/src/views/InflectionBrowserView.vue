@@ -11,11 +11,21 @@ const error = ref(null);
 const localeIndex = ref(null);
 const selectedLocale = ref(null);
 const wordsData = ref(null);
+const rulesData = ref(null);
+const tagMap = ref(null);
 const searchQuery = ref('');
 const expandedWord = ref(null);
 const posFilter = ref('');
 const sortBy = ref('word');
 const sortDir = ref('asc');
+const activeTab = ref('words');
+
+const joinInput = ref('le ami');
+const joinLocale = ref('fr');
+
+const tagLookupQuery = ref('');
+
+const DEMO_LOCALES = ['de', 'en', 'fr', 'es', 'ar', 'ja', 'tr', 'qu'];
 
 const localeList = computed(() => {
   if (!localeIndex.value) return [];
@@ -126,6 +136,72 @@ const inflectionKeys = computed(() => {
   return [...keys].sort();
 });
 
+const joinRulesForLocale = computed(() => {
+  if (!rulesData.value) return [];
+  return rulesData.value.join || [];
+});
+
+const tagLookupResult = computed(() => {
+  if (!tagMap.value || !tagLookupQuery.value) return null;
+  const q = tagLookupQuery.value.trim();
+  if (!q) return null;
+  const entry = tagMap.value[q];
+  if (!entry) return null;
+  return { tag: q, features: entry.features, locales: entry.locales };
+});
+
+function formatFeatures(features) {
+  if (!features) return '';
+  const labels = {
+    pos: { verb: 'Verb', noun: 'Noun', adjective: 'Adj', adverb: 'Adv', pronoun: 'Pron', determiner: 'Det', preposition: 'Prep', conjunction: 'Conj', numeral: 'Num', particle: 'Part', interjection: 'Intj', adposition: 'Adp' },
+    tense: { present: 'Present', past: 'Past', future: 'Future', aorist: 'Aorist', nonpast: 'Nonpast', preterite: 'Preterite' },
+    mood: { indicative: 'Indicative', subjunctive: 'Subjunctive', imperative: 'Imperative', conditional: 'Conditional', potential: 'Potential', optative: 'Optative', hypothetical: 'Hypothetical', admirative: 'Admirative' },
+    aspect: { imperfective: 'Impfv', perfective: 'Perfv', progressive: 'Prog', habitual: 'Hab', perfect: 'Perf', prospective: 'Prosp', iterative: 'Iter', frequentive: 'Freq', durative: 'Dur' },
+    voice: { active: 'Active', passive: 'Passive', middle: 'Middle' },
+    person: { '1': '1st', '2': '2nd', '3': '3rd', '4': '4th', '0': '0th' },
+    number: { singular: 'Sg', plural: 'Pl', dual: 'Du' },
+    gender: { masculine: 'Masc', feminine: 'Fem', neuter: 'Neut' },
+    case: { nominative: 'Nom', accusative: 'Acc', dative: 'Dat', genitive: 'Gen', ablative: 'Abl', locative: 'Loc', instrumental: 'Ins', vocative: 'Voc', essive: 'Ess', allative: 'All', comitative: 'Com', translative: 'Trans', benefactive: 'Ben', perlative: 'Perl', ergative: 'Erg', absolutive: 'Abs', prepositional: 'Prep' },
+    definiteness: { definite: 'Def', indefinite: 'Indef' },
+    degree: { positive: 'Pos', comparative: 'Comp', superlative: 'Sup' },
+    polarity: { positive: 'Pos', negative: 'Neg' },
+    verbform: { participle: 'Ptcp', converb: 'Cvb', gerund: 'Ger', infinitive: 'Inf', supine: 'Sup', masdar: 'Msd' },
+    finiteness: { finite: 'Fin', nonfinite: 'Nfin' },
+    formality: { formal: 'Form', polite: 'Pol', elevated: 'Elev', humble: 'Humb', colloquial: 'Col', plain: 'Plain' },
+    evidentiality: { declarative: 'Decl', inferential: 'Infr', nonfirsthand: 'NFH', quotative: 'Quot' },
+  };
+  const parts = [];
+  for (const [dim, val] of Object.entries(features)) {
+    if (dim === 'variant') {
+      parts.push(`alt-${val}`);
+      continue;
+    }
+    if (dim === 'extra') continue;
+    const dimLabels = labels[dim];
+    if (dimLabels && dimLabels[val]) {
+      parts.push(dimLabels[val]);
+    } else if (dim === 'arg_abs' || dim === 'arg_erg' || dim === 'arg_dat') {
+      parts.push(`${dim.replace('arg_', '').toUpperCase()}=${val}`);
+    } else if (dim === 'noun_class') {
+      parts.push(`Cl.${val}`);
+    } else if (dim === 'lgspec') {
+      parts.push(`spec${val}`);
+    } else if (dim === 'derivational') {
+      parts.push(val.substring(0, 4));
+    } else {
+      parts.push(val);
+    }
+  }
+  return parts.join(' ');
+}
+
+function getFeaturesForTag(tag) {
+  if (!tagMap.value) return null;
+  const entry = tagMap.value[tag];
+  if (!entry) return null;
+  return entry.features;
+}
+
 function toggleSort(field) {
   if (sortBy.value === field) {
     sortDir.value = sortDir.value === 'asc' ? 'desc' : 'asc';
@@ -163,16 +239,27 @@ async function loadData() {
     const idx = await alphabetDataService.loadInflectionIndex();
     localeIndex.value = idx;
 
+    if (!tagMap.value) {
+      try {
+        tagMap.value = await alphabetDataService.loadTagMap();
+      } catch {
+        tagMap.value = null;
+      }
+    }
+
     const locale = route.params.locale || null;
     if (locale && idx.locales[locale]) {
       selectedLocale.value = locale;
-      const words = await alphabetDataService.loadInflectionWords(
-        locale
-      );
+      const [words, rules] = await Promise.all([
+        alphabetDataService.loadInflectionWords(locale),
+        alphabetDataService.loadInflectionRules(locale)
+      ]);
       wordsData.value = words;
+      rulesData.value = rules;
     } else {
       selectedLocale.value = null;
       wordsData.value = null;
+      rulesData.value = null;
     }
   } catch (e) {
     error.value = e.message;
@@ -312,9 +399,62 @@ onMounted(loadData);
         <div v-else-if="!selectedLocale" class="welcome-state">
           <h2>Inflection Browser</h2>
           <p>
-            Select a locale from the sidebar to browse its
-            inflection data.
+            Select a locale to browse inflection data, explore
+            structured features, and try the join/euphony engine.
           </p>
+          <div class="demo-locale-grid">
+            <button
+              v-for="loc in DEMO_LOCALES"
+              :key="loc"
+              class="demo-locale-btn"
+              @click="selectLocale(loc)"
+            >
+              {{ loc }}
+            </button>
+          </div>
+
+          <div class="tag-lookup-section" v-if="tagMap">
+            <h3>Tag Feature Lookup</h3>
+            <p class="section-desc">
+              Look up any inflection tag to see its structured
+              features. Try: <code>v_ind_pl_1_prs</code>,
+              <code>plural</code>,
+              <code>adj_du_fem_def_acc</code>
+            </p>
+            <input
+              v-model="tagLookupQuery"
+              type="text"
+              placeholder="Enter an inflection tag..."
+              class="tag-lookup-input"
+            />
+            <div v-if="tagLookupResult" class="tag-lookup-result">
+              <div class="tlr-tag">{{ tagLookupResult.tag }}</div>
+              <div class="tlr-features">
+                <span
+                  v-for="(val, dim) in tagLookupResult.features"
+                  :key="dim"
+                  class="feature-chip"
+                >
+                  <span class="feature-dim">{{ dim }}</span>
+                  <span class="feature-val">{{ val }}</span>
+                </span>
+              </div>
+              <div
+                class="tlr-readable"
+                v-if="formatFeatures(tagLookupResult.features)"
+              >
+                {{ formatFeatures(tagLookupResult.features) }}
+              </div>
+            </div>
+            <div
+              v-else-if="tagLookupQuery.trim()"
+              class="tag-lookup-empty"
+            >
+              No mapping found for
+              "<strong>{{ tagLookupQuery }}</strong>"
+            </div>
+          </div>
+
           <div class="stats-grid" v-if="localeList.length">
             <div class="stat-card">
               <div class="stat-number">
@@ -345,13 +485,9 @@ onMounted(loadData);
             </div>
             <div class="stat-card">
               <div class="stat-number">
-                {{
-                  localeList.filter(
-                    (l) => l.testCount > 0
-                  ).length
-                }}
+                {{ Object.keys(tagMap || {}).length }}
               </div>
-              <div class="stat-label">With Tests</div>
+              <div class="stat-label">Mapped Tags</div>
             </div>
           </div>
         </div>
@@ -385,11 +521,43 @@ onMounted(loadData);
                 ({{ localeCoverage.withForms }}/{{ localeCoverage.total }}
                 words with forms)
               </span>
+              <span
+                class="summary-badge join-badge"
+                v-if="joinRulesForLocale.length > 0"
+              >
+                {{ joinRulesForLocale.length }} join rules
+              </span>
             </div>
-            <div
-              class="pos-types"
-              v-if="availablePosTypes.length"
-            >
+            <div class="tab-bar">
+              <button
+                class="tab-btn"
+                :class="{ active: activeTab === 'words' }"
+                @click="activeTab = 'words'"
+              >
+                Words
+              </button>
+              <button
+                class="tab-btn"
+                :class="{ active: activeTab === 'features' }"
+                @click="activeTab = 'features'"
+                v-if="tagMap"
+              >
+                Feature Map
+              </button>
+              <button
+                class="tab-btn"
+                :class="{ active: activeTab === 'join' }"
+                @click="activeTab = 'join'"
+                v-if="joinRulesForLocale.length > 0"
+              >
+                Join Engine
+              </button>
+            </div>
+          </div>
+
+          <!-- Words Tab -->
+          <div v-if="activeTab === 'words'" class="tab-content">
+            <div class="pos-types" v-if="availablePosTypes.length">
               <button
                 class="pos-chip"
                 :class="{ active: posFilter === '' }"
@@ -407,156 +575,251 @@ onMounted(loadData);
                 {{ pos }}
               </button>
             </div>
-          </div>
 
-          <div class="results-info">
-            Showing {{ filteredCount }} of {{ totalCount }}
-            words
-            <span v-if="posFilter">
-              (filtered by: {{ posFilter }})
-            </span>
-          </div>
-
-          <div class="words-table">
-            <div class="table-header">
-              <button
-                class="th-cell sortable"
-                @click="toggleSort('word')"
-              >
-                Word
-                <span
-                  v-if="sortBy === 'word'"
-                  class="sort-arrow"
-                >
-                  {{ sortDir === 'asc' ? '&#9650;' : '&#9660;' }}
-                </span>
-              </button>
-              <button
-                class="th-cell sortable"
-                @click="toggleSort('types')"
-              >
-                POS
-                <span
-                  v-if="sortBy === 'types'"
-                  class="sort-arrow"
-                >
-                  {{ sortDir === 'asc' ? '&#9650;' : '&#9660;' }}
-                </span>
-              </button>
-              <span class="th-cell">Base</span>
-              <span class="th-cell">Forms</span>
+            <div class="results-info">
+              Showing {{ filteredCount }} of {{ totalCount }}
+              words
+              <span v-if="posFilter">
+                (filtered by: {{ posFilter }})
+              </span>
             </div>
-            <div class="table-body">
-              <div
-                v-for="entry in wordEntries"
-                :key="entry.word"
-                class="word-row"
-                :class="{
-                  expanded:
-                    expandedWord === entry.word,
-                  'no-forms':
-                    getInflectionEntries(entry.inflections).length === 0
-                }"
-              >
-                <div
-                  class="word-row-header"
-                  @click="
-                    getInflectionEntries(entry.inflections).length > 0
-                      ? toggleWord(entry.word)
-                      : null
-                  "
+
+            <div class="words-table">
+              <div class="table-header">
+                <button
+                  class="th-cell sortable"
+                  @click="toggleSort('word')"
                 >
-                  <span class="word-text">
-                    {{ entry.word }}
+                  Word
+                  <span
+                    v-if="sortBy === 'word'"
+                    class="sort-arrow"
+                  >
+                    {{ sortDir === 'asc' ? '&#9650;' : '&#9660;' }}
                   </span>
-                  <span class="word-types">
-                    <span
-                      v-for="t in entry.types"
-                      :key="t"
-                      class="type-badge"
-                    >
-                      {{ t }}
-                    </span>
+                </button>
+                <button
+                  class="th-cell sortable"
+                  @click="toggleSort('types')"
+                >
+                  POS
+                  <span
+                    v-if="sortBy === 'types'"
+                    class="sort-arrow"
+                  >
+                    {{ sortDir === 'asc' ? '&#9650;' : '&#9660;' }}
                   </span>
-                  <span class="word-base">
-                    {{ entry.base || entry.word }}
-                  </span>
-                  <span class="word-forms-count">
-                    {{
-                      getInflectionEntries(
-                        entry.inflections
-                      ).length
-                    }}
-                    <span
-                      v-if="
-                        getInflectionEntries(entry.inflections)
-                          .length > 0
-                      "
-                      class="expand-icon"
-                    >
-                      {{
-                        expandedWord === entry.word
-                          ? '&#9660;'
-                          : '&#9654;'
-                      }}
-                    </span>
-                  </span>
-                </div>
+                </button>
+                <span class="th-cell">Base</span>
+                <span class="th-cell">Forms</span>
+              </div>
+              <div class="table-body">
                 <div
-                  v-if="expandedWord === entry.word"
-                  class="word-detail"
+                  v-for="entry in wordEntries"
+                  :key="entry.word"
+                  class="word-row"
+                  :class="{
+                    expanded:
+                      expandedWord === entry.word,
+                    'no-forms':
+                      getInflectionEntries(entry.inflections).length === 0
+                  }"
                 >
                   <div
-                    v-if="
-                      getInflectionEntries(entry.inflections)
-                        .length === 0
+                    class="word-row-header"
+                    @click="
+                      getInflectionEntries(entry.inflections).length > 0
+                        ? toggleWord(entry.word)
+                        : null
                     "
-                    class="no-forms-message"
                   >
-                    No inflected forms available
-                    for this word
+                    <span class="word-text">
+                      {{ entry.word }}
+                    </span>
+                    <span class="word-types">
+                      <span
+                        v-for="t in entry.types"
+                        :key="t"
+                        class="type-badge"
+                      >
+                        {{ t }}
+                      </span>
+                    </span>
+                    <span class="word-base">
+                      {{ entry.base || entry.word }}
+                    </span>
+                    <span class="word-forms-count">
+                      {{
+                        getInflectionEntries(
+                          entry.inflections
+                        ).length
+                      }}
+                      <span
+                        v-if="
+                          getInflectionEntries(entry.inflections)
+                            .length > 0
+                        "
+                        class="expand-icon"
+                      >
+                        {{
+                          expandedWord === entry.word
+                            ? '&#9660;'
+                            : '&#9654;'
+                        }}
+                      </span>
+                    </span>
                   </div>
                   <div
-                    v-else
-                    class="inflection-grid"
+                    v-if="expandedWord === entry.word"
+                    class="word-detail"
                   >
                     <div
-                      v-for="[
-                        key,
-                        val
-                      ] in getInflectionEntries(
-                        entry.inflections
-                      )"
-                      :key="key"
-                      class="inflection-item"
+                      v-if="
+                        getInflectionEntries(entry.inflections)
+                          .length === 0
+                      "
+                      class="no-forms-message"
                     >
-                      <span class="inflection-key">
-                        {{ key }}
-                      </span>
-                      <span class="inflection-val">
-                        {{ formatInflectionValue(val) }}
-                      </span>
+                      No inflected forms available
+                      for this word
+                    </div>
+                    <div
+                      v-else
+                      class="inflection-grid"
+                    >
+                      <div
+                        v-for="[
+                          key,
+                          val
+                        ] in getInflectionEntries(
+                          entry.inflections
+                        )"
+                        :key="key"
+                        class="inflection-item"
+                      >
+                        <span class="inflection-key">
+                          {{ key }}
+                        </span>
+                        <span
+                          class="inflection-features"
+                          v-if="getFeaturesForTag(key)"
+                        >
+                          {{ formatFeatures(getFeaturesForTag(key)) }}
+                        </span>
+                        <span class="inflection-val">
+                          {{ formatInflectionValue(val) }}
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      v-if="entry._sources"
+                      class="word-sources"
+                    >
+                      Sources:
+                      {{ entry._sources.join(', ') }}
                     </div>
                   </div>
-                  <div
-                    v-if="entry._sources"
-                    class="word-sources"
-                  >
-                    Sources:
-                    {{ entry._sources.join(', ') }}
-                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              v-if="wordEntries.length === 0 && !loading"
+              class="empty-state"
+            >
+              <p>
+                No words found matching your filters.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Map Tab -->
+          <div
+            v-if="activeTab === 'features' && tagMap"
+            class="tab-content"
+          >
+            <div class="feature-map-intro">
+              <p>
+                All {{ inflectionKeys.length }} inflection tags
+                for <strong>{{ selectedLocale }}</strong>,
+                mapped to structured morphological features.
+              </p>
+            </div>
+            <div class="feature-table">
+              <div class="feature-table-header">
+                <span class="ft-col-tag">Tag</span>
+                <span class="ft-col-features">Structured Features</span>
+                <span class="ft-col-readable">Readable</span>
+              </div>
+              <div class="feature-table-body">
+                <div
+                  v-for="tag in inflectionKeys"
+                  :key="tag"
+                  class="feature-table-row"
+                >
+                  <span class="ft-col-tag">
+                    <code>{{ tag }}</code>
+                  </span>
+                  <span class="ft-col-features">
+                    <span
+                      v-for="(val, dim) in getFeaturesForTag(tag) || {}"
+                      :key="dim"
+                      class="feature-chip"
+                    >
+                      <span class="feature-dim">{{ dim }}</span>
+                      <span class="feature-val">{{ val }}</span>
+                    </span>
+                    <span
+                      v-if="!getFeaturesForTag(tag)"
+                      class="no-map"
+                    >
+                      unmapped
+                    </span>
+                  </span>
+                  <span class="ft-col-readable">
+                    {{
+                      formatFeatures(getFeaturesForTag(tag))
+                      || '-'
+                    }}
+                  </span>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- Join Engine Tab -->
           <div
-            v-if="wordEntries.length === 0 && !loading"
-            class="empty-state"
+            v-if="activeTab === 'join' && joinRulesForLocale.length > 0"
+            class="tab-content"
           >
-            <p>
-              No words found matching your filters.
-            </p>
+            <div class="join-intro">
+              <p>
+                Euphonic join rules for
+                <strong>{{ selectedLocale }}</strong>.
+                These transform adjacent tokens at word boundaries.
+              </p>
+            </div>
+
+            <div class="join-rules-section">
+              <h4>Rules ({{ joinRulesForLocale.length }})</h4>
+              <div class="join-rules-list">
+                <div
+                  v-for="(rule, i) in joinRulesForLocale"
+                  :key="i"
+                  class="join-rule-card"
+                >
+                  <div class="jr-header">
+                    <span class="jr-id">{{ rule.id || `rule-${i}` }}</span>
+                    <span class="jr-reason">{{ rule.reason }}</span>
+                  </div>
+                  <div class="jr-detail">
+                    <code>{{ JSON.stringify(rule.prev || rule.prev_pattern) }}</code>
+                    <span class="jr-arrow">&rarr;</span>
+                    <code>{{ rule.result }}</code>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -822,6 +1085,129 @@ onMounted(loadData);
   margin-bottom: 0.5rem;
 }
 
+.demo-locale-grid {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.demo-locale-btn {
+  background: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.15s;
+}
+
+.demo-locale-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.tag-lookup-section {
+  max-width: 600px;
+  width: 100%;
+  margin: 1.5rem auto;
+  text-align: left;
+}
+
+.tag-lookup-section h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.section-desc {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.tag-lookup-section code {
+  background: #e9ecef;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+}
+
+.tag-lookup-input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 2px solid #dee2e6;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: monospace;
+}
+
+.tag-lookup-input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+.tag-lookup-result {
+  margin-top: 0.75rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.tlr-tag {
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #495057;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.tlr-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.feature-chip {
+  display: inline-flex;
+  flex-direction: column;
+  background: #e3f2fd;
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.feature-dim {
+  color: #6c757d;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.feature-val {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.tlr-readable {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.tag-lookup-empty {
+  margin-top: 0.5rem;
+  color: #adb5bd;
+  font-size: 0.85rem;
+}
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -879,10 +1265,54 @@ onMounted(loadData);
   font-weight: 500;
 }
 
+.join-badge {
+  background: #d4edda;
+  color: #155724;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.tab-btn {
+  background: none;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6c757d;
+  transition: all 0.15s;
+}
+
+.tab-btn:hover {
+  color: #007bff;
+  background: #f8f9fa;
+}
+
+.tab-btn.active {
+  background: white;
+  color: #007bff;
+  border-color: #dee2e6;
+  font-weight: 600;
+}
+
+.tab-content {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 0 8px 8px 8px;
+  padding: 1rem;
+}
+
 .pos-types {
   display: flex;
   gap: 0.4rem;
   flex-wrap: wrap;
+  margin-bottom: 0.75rem;
 }
 
 .pos-chip {
@@ -916,7 +1346,6 @@ onMounted(loadData);
 .words-table {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
@@ -957,7 +1386,7 @@ onMounted(loadData);
 }
 
 .table-body {
-  max-height: calc(100vh - 280px);
+  max-height: calc(100vh - 340px);
   overflow-y: auto;
 }
 
@@ -1064,7 +1493,7 @@ onMounted(loadData);
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
-    minmax(220px, 1fr)
+    minmax(250px, 1fr)
   );
   gap: 0.5rem;
 }
@@ -1081,8 +1510,14 @@ onMounted(loadData);
 .inflection-key {
   font-size: 0.7rem;
   color: #6c757d;
-  text-transform: uppercase;
+  font-family: monospace;
   letter-spacing: 0.03em;
+}
+
+.inflection-features {
+  font-size: 0.7rem;
+  color: #007bff;
+  font-weight: 500;
 }
 
 .inflection-val {
@@ -1099,6 +1534,136 @@ onMounted(loadData);
 
 .empty-state {
   padding: 2rem;
+}
+
+.feature-map-intro {
+  margin-bottom: 0.75rem;
+}
+
+.feature-map-intro p,
+.join-intro p {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.feature-table {
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.feature-table-header {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  background: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6c757d;
+  text-transform: uppercase;
+}
+
+.feature-table-body {
+  max-height: calc(100vh - 380px);
+  overflow-y: auto;
+}
+
+.feature-table-row {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  padding: 0.4rem 0.75rem;
+  border-bottom: 1px solid #f1f3f5;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.feature-table-row:hover {
+  background: #f8f9fa;
+}
+
+.ft-col-tag code {
+  font-size: 0.75rem;
+  color: #495057;
+  background: #e9ecef;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+}
+
+.ft-col-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.ft-col-readable {
+  font-size: 0.75rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.no-map {
+  color: #adb5bd;
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
+.join-rules-section h4 {
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+  color: #333;
+}
+
+.join-rules-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.join-rule-card {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #e9ecef;
+}
+
+.jr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.jr-id {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.jr-reason {
+  font-size: 0.7rem;
+  color: #007bff;
+  background: #e3f2fd;
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+}
+
+.jr-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.jr-detail code {
+  background: white;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  border: 1px solid #dee2e6;
+}
+
+.jr-arrow {
+  color: #adb5bd;
 }
 
 @media (max-width: 768px) {
@@ -1131,6 +1696,15 @@ onMounted(loadData);
 
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .feature-table-header,
+  .feature-table-row {
+    grid-template-columns: 120px 1fr 120px;
+  }
+
+  .ft-col-tag code {
+    font-size: 0.65rem;
   }
 }
 

@@ -4,6 +4,7 @@ const path = require('path');
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
 const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
 const INFLECTION_DIR = path.join(__dirname, 'data', 'inflections');
+const TAG_MAP_PATH = path.join(__dirname, 'data', 'tag_map.json');
 
 /**
  * Loads the alphabet data for a given language code and script.
@@ -133,6 +134,27 @@ const inflectionCache = new Map();
 
 function clearInflectionCache() {
   inflectionCache.clear();
+}
+
+async function loadTagMap() {
+  if (inflectionCache.has('__tag_map__')) {
+    return inflectionCache.get('__tag_map__');
+  }
+  try {
+    const content = await fs.readFile(TAG_MAP_PATH, 'utf8');
+    const data = JSON.parse(content);
+    inflectionCache.set('__tag_map__', data);
+    return data;
+  } catch {
+    return {};
+  }
+}
+
+async function getFeatures(tag) {
+  const tagMap = await loadTagMap();
+  const entry = tagMap[tag];
+  if (!entry || typeof entry !== 'object') return null;
+  return entry.features || null;
 }
 
 async function loadInflectionIndex() {
@@ -851,6 +873,268 @@ function detectLanguages(text, candidateLangs, priors = {}, topk = 3) {
   return results.slice(0, topk);
 }
 
+class SentenceBuffer {
+  constructor(locale, wordsData, rulesData) {
+    this.locale = locale;
+    this._wordsData = wordsData;
+    this._rulesData = rulesData;
+    this._wordsList = buildWordList(wordsData);
+    this._tokens = [];
+    this._lastSurfaces = [];
+  }
+
+  push(word) {
+    this._tokens.push(word);
+    return this.renderSnapshot();
+  }
+
+  insert(index, word) {
+    const clamped = Math.max(0, Math.min(index, this._tokens.length));
+    this._tokens.splice(clamped, 0, word);
+    return this.renderSnapshot();
+  }
+
+  update(index, word) {
+    if (index < 0 || index >= this._tokens.length) {
+      throw new Error(`index ${index} out of range`);
+    }
+    this._tokens[index] = word;
+    return this.renderSnapshot();
+  }
+
+  remove(index) {
+    if (index < 0 || index >= this._tokens.length) {
+      throw new Error(`index ${index} out of range`);
+    }
+    this._tokens.splice(index, 1);
+    return this.renderSnapshot();
+  }
+
+  clear() {
+    this._tokens = [];
+    this._lastSurfaces = [];
+  }
+
+  render() {
+    return this.renderSnapshot().text;
+  }
+
+  renderTokens() {
+    return this.renderSnapshot().tokens;
+  }
+
+  renderSnapshot() {
+    const rendered = this._renderAll();
+    const diffs = SentenceBuffer._computeDiffs(this._lastSurfaces, rendered);
+    this._lastSurfaces = rendered.map(t => t.surface);
+    const text = this._lastSurfaces.join(' ');
+    return { text, tokens: rendered, diffs };
+  }
+
+  get length() {
+    return this._tokens.length;
+  }
+
+  tokenAt(index) {
+    if (index < 0 || index >= this._tokens.length) {
+      throw new Error(`index ${index} out of range`);
+    }
+    return this._tokens[index];
+  }
+
+  get tokens() {
+    return [...this._tokens];
+  }
+
+  _renderAll() {
+    if (this._tokens.length === 0) return [];
+
+    const rules = Array.isArray(this._rulesData.rules) ? this._rulesData.rules : [];
+    const joinRules = Array.isArray(this._rulesData.join) ? this._rulesData.join : [];
+    const raw = [];
+
+    for (let i = 0; i < this._tokens.length; i++) {
+      const token = this._tokens[i];
+      const priorButtons = this._buildPriorButtons(i);
+
+      const found = this._wordsList.filter(w => w.word === token);
+      if (found.length === 0) {
+        raw.push({ index: i, base: token, surface: token });
+        continue;
+      }
+
+      const { replacement, rule_id, rule_type, inflection } =
+        this._applyRulesForToken(token, found, priorButtons, rules);
+
+      raw.push({
+        index: i,
+        base: token,
+        surface: replacement || token,
+        rule_id: rule_id || null,
+        rule_type: rule_type || null,
+        inflection: inflection || null,
+      });
+    }
+
+    if (joinRules.length === 0) return raw;
+    return this._applyJoins(raw, joinRules);
+  }
+
+  _buildPriorButtons(upToIndex) {
+    const buttons = [];
+    for (let i = 0; i < upToIndex; i++) {
+      const part = this._tokens[i];
+      const found = this._wordsList.find(w => w.word === part);
+      buttons.push(found || { word: part });
+    }
+    return buttons;
+  }
+
+  _applyRulesForToken(token, foundWords, priorButtons, rules) {
+    const foundTypes = {};
+    const matchingRules = [];
+    for (const rule of rules) {
+      if (!rule || typeof rule !== 'object') continue;
+      const ruleType = rule.type;
+      if (typeof ruleType !== 'string') continue;
+      if (foundTypes[ruleType] && ruleType !== 'override') continue;
+      const matches = matchesRule(rule, priorButtons);
+      if (matches) {
+        const matched = { ...rule };
+        if (typeof matches === 'object' && matches.condense_items) {
+          matched.condense_items = matches.condense_items;
+        }
+        matchingRules.push(matched);
+        foundTypes[ruleType] = true;
+      }
+    }
+
+    const first = { ...foundWords[0] };
+    const infl = {};
+    for (const rule of matchingRules) {
+      if (rule.type === 'override' && rule.overrides && typeof rule.overrides === 'object') {
+        for (const [key, value] of Object.entries(rule.overrides)) {
+          if (!infl[key]) {
+            infl[key] = { type: 'override', word: value, id: rule.id, condense_items: rule.condense_items };
+          }
+        }
+      } else {
+        const rt = rule.type;
+        if (typeof rt === 'string') infl[rt] = rule;
+      }
+    }
+
+    let replacement = null;
+    let ruleId = null;
+    let ruleType = null;
+    let inflection = null;
+
+    const wordValue = first.word;
+    const direct = typeof wordValue === 'string' ? infl[wordValue] : null;
+    if (direct && typeof direct === 'object' && direct.word) {
+      replacement = direct.word;
+      ruleId = direct.id || null;
+    } else {
+      let replacementRule = null;
+      const types = Array.isArray(first.types) ? first.types : [];
+      for (const part of types) {
+        if (infl[part] && !replacementRule) replacementRule = infl[part];
+      }
+      if (replacementRule && typeof replacementRule === 'object') {
+        const forms = first.inflections || {};
+        const inflKey = replacementRule.inflection;
+        if (forms && typeof forms === 'object' && typeof inflKey === 'string') {
+          replacement = forms[inflKey] || first.word;
+          inflection = inflKey;
+        } else {
+          replacement = first.word;
+        }
+        ruleId = replacementRule.id || null;
+        ruleType = inflKey || null;
+      }
+    }
+
+    return { replacement, rule_id: ruleId, rule_type: ruleType, inflection };
+  }
+
+  _applyJoins(tokens, joinRules) {
+    const result = [];
+    let i = 0;
+    while (i < tokens.length) {
+      if (result.length > 0) {
+        const prevSurface = result[result.length - 1].surface;
+        const jr = joinWordsFromRules(joinRules, prevSurface, tokens[i].surface);
+        if (jr && jr.replaces_pair) {
+          result[result.length - 1] = {
+            index: result[result.length - 1].index,
+            base: result[result.length - 1].base,
+            surface: jr.result,
+            join_applied: jr.rule_id,
+          };
+          i++;
+          continue;
+        }
+      }
+      result.push(tokens[i]);
+      i++;
+    }
+    return result;
+  }
+
+  static _computeDiffs(old, newTokens) {
+    const diffs = [];
+    const newSurfaces = newTokens.map(t => t.surface);
+    const maxLen = Math.max(old.length, newSurfaces.length);
+    for (let i = 0; i < maxLen; i++) {
+      const oldS = i < old.length ? old[i] : null;
+      const newS = i < newSurfaces.length ? newSurfaces[i] : null;
+      if (oldS === null && newS !== null) {
+        diffs.push({ index: i, old_surface: null, new_surface: newS, kind: 'add' });
+      } else if (oldS !== null && newS === null) {
+        diffs.push({ index: i, old_surface: oldS, new_surface: '', kind: 'remove' });
+      } else if (oldS !== newS) {
+        diffs.push({ index: i, old_surface: oldS, new_surface: newS || '', kind: 'change' });
+      }
+    }
+    return diffs;
+  }
+}
+
+function joinWordsFromRules(joinRules, prev, nextWord) {
+  const prevLower = prev.toLowerCase();
+  const nextLower = nextWord.toLowerCase();
+  for (const rule of joinRules) {
+    if (!rule || typeof rule !== 'object') continue;
+    let prevList = rule.prev;
+    if (typeof prevList === 'string') prevList = [prevList];
+    if (!Array.isArray(prevList)) continue;
+    if (!prevList.some(p => p.toLowerCase() === prevLower)) continue;
+
+    let matched = false;
+    if (Array.isArray(rule.next)) {
+      matched = rule.next.some(n => (typeof n === 'string' ? n.toLowerCase() : '') === nextLower);
+    } else if (typeof rule.next === 'string') {
+      matched = rule.next.toLowerCase() === nextLower;
+    }
+    if (!matched && typeof rule.next_match === 'string') {
+      try { matched = new RegExp(rule.next_match).test(nextLower); } catch { continue; }
+    }
+    if (!matched) continue;
+
+    const template = rule.result || '{prev} {next}';
+    const result = template.replace(/\{prev\}/g, prev).replace(/\{next\}/g, nextWord);
+    const replaces_pair = template !== '{prev} {next}';
+    return { result, rule_id: rule.id || null, reason: rule.reason || null, replaces_pair };
+  }
+  return null;
+}
+
+async function createBuffer(locale, wordsData, rulesData) {
+  if (!wordsData) wordsData = await loadInflectionWords(locale);
+  if (!rulesData) rulesData = await loadInflectionRules(locale);
+  return new SentenceBuffer(locale, wordsData, rulesData);
+}
+
 const keyboards = require('./keyboards');
 
 module.exports = {
@@ -880,6 +1164,10 @@ module.exports = {
   },
   applyRules,
   clearInflectionCache,
+  loadTagMap,
+  getFeatures,
+  SentenceBuffer,
+  createBuffer,
   // Diacritics
   stripDiacritics,
   hasDiacritics,

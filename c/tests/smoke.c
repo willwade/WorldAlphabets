@@ -179,12 +179,126 @@ int main(void) {
             // Test: null prior → no change
             printf("  wa_lookup_word (null prior)... ");
             wa_lookup_result nr = wa_lookup_word(de_words, de_rules,
-                                                  "gehen", "");
+                                                   "gehen", "");
             assert(nr.replacement != NULL);
             printf("OK (gehen → %s)\n", nr.replacement);
         } else {
             printf("SKIPPED (de rules not compiled in)\n");
         }
+
+        // ========== wa_join_words (French) ==========
+        printf("\n--- Join/Euphony ---\n");
+        const wa_rules_table *fr_rules = wa_load_rules_table("fr");
+        if (fr_rules && fr_rules->join_count > 0) {
+            printf("  wa_join_words (fr)... ");
+            printf("OK (%zu join rules)\n", fr_rules->join_count);
+
+            // Test: le + homme → le homme (h aspiré, no elision)
+            printf("  wa_join_words (fr h_aspire)... ");
+            wa_join_result jr1 = wa_join_words(fr_rules, "le", "homme");
+            assert(jr1.result != NULL);
+            assert(strcmp(jr1.result, "le homme") == 0);
+            printf("OK (le + homme → %s)\n", jr1.result);
+
+            // Test: le + arbre → l'arbre (elision)
+            printf("  wa_join_words (fr elision)... ");
+            wa_join_result jr2 = wa_join_words(fr_rules, "le", "arbre");
+            assert(jr2.result != NULL);
+            assert(strcmp(jr2.result, "l'arbre") == 0);
+            assert(jr2.replaces_pair == 1);
+            printf("OK (le + arbre → %s)\n", jr2.result);
+
+            // Test: je + ai → j'ai
+            printf("  wa_join_words (fr je elision)... ");
+            wa_join_result jr3 = wa_join_words(fr_rules, "je", "ai");
+            assert(jr3.result != NULL);
+            assert(strcmp(jr3.result, "j'ai") == 0);
+            printf("OK (je + ai → %s)\n", jr3.result);
+        } else {
+            printf("  SKIPPED (fr join rules not compiled in)\n");
+        }
+
+        // ========== wa_join_words (English) ==========
+        const wa_rules_table *en_rules_t = wa_load_rules_table("en");
+        if (en_rules_t && en_rules_t->join_count > 0) {
+            printf("  wa_join_words (en a→an)... ");
+            wa_join_result jr4 = wa_join_words(en_rules_t, "a", "apple");
+            assert(jr4.result != NULL);
+            assert(strcmp(jr4.result, "an apple") == 0);
+            printf("OK (a + apple → %s)\n", jr4.result);
+
+            // Test: a + university → a university (consonant sound exception)
+            printf("  wa_join_words (en consonant)... ");
+            wa_join_result jr5 = wa_join_words(en_rules_t, "a", "university");
+            assert(jr5.result != NULL);
+            assert(strcmp(jr5.result, "a university") == 0);
+            printf("OK (a + university → %s)\n", jr5.result);
+        }
+
+        // ========== wa_get_features ==========
+        printf("\n--- Tag Features ---\n");
+        printf("  wa_get_features (adj_abl_fem_sg)... ");
+        wa_feature_array fa = wa_get_features("adj_abl_fem_sg");
+        assert(fa.feature_count == 4);
+        // Verify features
+        int found_pos = 0, found_case = 0, found_gender = 0, found_num = 0;
+        for (size_t fi = 0; fi < fa.feature_count; fi++) {
+            if (strcmp(fa.features[fi].feature_key, "pos") == 0 &&
+                strcmp(fa.features[fi].feature_value, "adjective") == 0)
+                found_pos = 1;
+            if (strcmp(fa.features[fi].feature_key, "case") == 0 &&
+                strcmp(fa.features[fi].feature_value, "ablative") == 0)
+                found_case = 1;
+            if (strcmp(fa.features[fi].feature_key, "gender") == 0 &&
+                strcmp(fa.features[fi].feature_value, "feminine") == 0)
+                found_gender = 1;
+            if (strcmp(fa.features[fi].feature_key, "number") == 0 &&
+                strcmp(fa.features[fi].feature_value, "singular") == 0)
+                found_num = 1;
+        }
+        assert(found_pos && found_case && found_gender && found_num);
+        printf("OK (%zu features)\n", fa.feature_count);
+        wa_free_features(&fa);
+
+        // Test non-existent tag
+        printf("  wa_get_features (unknown)... ");
+        wa_feature_array fa2 = wa_get_features("nonexistent_tag_xyz");
+        assert(fa2.feature_count == 0);
+        printf("OK (0 features)\n");
+
+        // ========== wa_apply_rules ==========
+        printf("\n--- Apply Rules ---\n");
+        if (de_words && de_rules) {
+            printf("  wa_apply_rules (de)... ");
+            wa_applied_sentence sent = wa_apply_rules(
+                de_words, de_rules, "der die");
+            assert(sent.token_count == 2);
+            assert(sent.tokens[0].surface != NULL);
+            assert(sent.tokens[1].surface != NULL);
+            // "der" + "die" → "der" overrides "die" to "der"
+            printf("OK (%zu tokens: '%s' '%s')\n",
+                   sent.token_count,
+                   sent.tokens[0].surface,
+                   sent.tokens[1].surface);
+            wa_free_applied_sentence(&sent);
+        }
+
+        // Test French apply_rules with join
+        const wa_inflection_table *fr_words = wa_load_inflection_table("fr");
+        if (fr_words && fr_rules) {
+            printf("  wa_apply_rules (fr with join)... ");
+            wa_applied_sentence sent2 = wa_apply_rules(
+                fr_words, fr_rules, "le arbre");
+            assert(sent2.token_count == 2);
+            printf("OK (%zu tokens: '%s' '%s')\n",
+                   sent2.token_count,
+                   sent2.tokens[0].surface,
+                   sent2.tokens[1].surface);
+            wa_free_applied_sentence(&sent2);
+        }
+
+    } else {
+        printf("  SKIPPED (no inflection locales compiled in)\n");
     }
 
     printf("\nAll C interface tests passed!\n");

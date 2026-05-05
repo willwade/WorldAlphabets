@@ -17,3 +17,5 @@ extern const char *WA_LAYOUT_IDS[];
 extern const char *WA_INFLECTION_LOCALE_CODES[];
 extern const wa_inflection_table WA_INFLECTION_TABLES[];
 extern const wa_rules_table WA_RULES_TABLES[];
+#define WA_TAG_MAP_ENTRIES_COUNT 41099u
+extern const wa_feature_entry WA_TAG_MAP_ENTRIES[];

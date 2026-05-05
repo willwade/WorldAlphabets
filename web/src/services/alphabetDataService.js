@@ -12,7 +12,8 @@ class AlphabetDataService {
       enrichedData: null,
       inflectionIndex: null,
       inflectionWords: {},
-      inflectionRules: {}
+      inflectionRules: {},
+      tagMap: null
     };
   }
 
@@ -196,6 +197,26 @@ class AlphabetDataService {
         `Error loading inflection rules for ${locale}:`,
         error
       );
+      throw error;
+    }
+  }
+
+  async loadTagMap() {
+    if (this.cache.tagMap) {
+      return this.cache.tagMap;
+    }
+
+    try {
+      const response = await fetch(
+        `${this.baseUrl}data/tag_map.json`
+      );
+      if (!response.ok) {
+        throw new Error('Failed to load tag map');
+      }
+      this.cache.tagMap = await response.json();
+      return this.cache.tagMap;
+    } catch (error) {
+      console.error('Error loading tag map:', error);
       throw error;
     }
   }

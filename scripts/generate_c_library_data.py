@@ -357,6 +357,23 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     header_lines.append(
         "extern const wa_rules_table WA_RULES_TABLES[];"
     )
+
+    # Tag map (if data file exists)
+    tag_map_path = DATA_DIR / "tag_map.json"
+    if tag_map_path.exists():
+        tag_map_data = json.loads(tag_map_path.read_text(encoding="utf-8"))
+        feature_entries = []
+        for tag, info in sorted(tag_map_data.items()):
+            features = info.get("features", {})
+            for fk, fv in features.items():
+                feature_entries.append((tag, fk, fv))
+        header_lines.append(
+            f"#define WA_TAG_MAP_ENTRIES_COUNT {len(feature_entries)}u"
+        )
+        header_lines.append(
+            "extern const wa_feature_entry WA_TAG_MAP_ENTRIES[];"
+        )
+
     header_path.write_text("\n".join(header_lines) + "\n", encoding="utf-8")
 
     # Split data across multiple source files to avoid MSVC internal compiler errors
@@ -762,6 +779,65 @@ def write_data_files(cfg: GeneratorConfig) -> None:
                     )
                     src6.append("")
 
+                # Emit join rules
+                join_list = rules_data.get("join", [])
+                for j_idx, join_rule in enumerate(join_list):
+                    if not isinstance(join_rule, dict):
+                        continue
+                    j_id = join_rule.get("id", f"join_{j_idx}")
+                    j_prev = join_rule.get("prev", [])
+                    if isinstance(j_prev, str):
+                        j_prev = [j_prev]
+                    j_next = join_rule.get("next", [])
+                    if isinstance(j_next, str):
+                        j_next = [j_next]
+                    j_next_match = join_rule.get("next_match", "")
+                    j_result = join_rule.get("result", "{prev} {next}")
+                    j_reason = join_rule.get("reason", "")
+
+                    prev_name = f"INFL_{loc_idx}_J{j_idx}_PREV"
+                    if j_prev:
+                        src6.append(
+                            format_string_array(
+                                prev_name, j_prev, exported=False
+                            )
+                        )
+                        src6.append("")
+                    next_name = f"INFL_{loc_idx}_J{j_idx}_NEXT"
+                    if j_next:
+                        src6.append(
+                            format_string_array(
+                                next_name, j_next, exported=False
+                            )
+                        )
+                        src6.append("")
+
+                    join_name = f"INFL_{loc_idx}_J{j_idx}"
+                    src6.append(
+                        f"const wa_join_rule {join_name} = {{"
+                    )
+                    src6.append(f'  "{escape(j_id)}",')
+                    prev_ref = prev_name if j_prev else "NULL"
+                    src6.append(f"  {prev_ref}, {len(j_prev)}u,")
+                    next_ref = next_name if j_next else "NULL"
+                    src6.append(f"  {next_ref}, {len(j_next)}u,")
+                    nm_str = f'"{escape(j_next_match)}"' if j_next_match else "NULL"
+                    src6.append(f"  {nm_str},")
+                    src6.append(f'  "{escape(j_result)}",')
+                    src6.append(f'  "{escape(j_reason)}",')
+                    src6.append("};")
+                    src6.append("")
+
+                if join_list:
+                    joins_array_name = f"INFL_{loc_idx}_JOINS"
+                    src6.append(
+                        f"const wa_join_rule {joins_array_name}[] = {{"
+                    )
+                    for j_idx in range(len(join_list)):
+                        src6.append(f"  INFL_{loc_idx}_J{j_idx},")
+                    src6.append("};")
+                    src6.append("")
+
             chunk_num = chunk_idx // INFLECTION_CHUNK_SIZE
             (OUT_DIR / f"wa_data_inflections_{chunk_num}.c").write_text(
                 "\n".join(src6) + "\n", encoding="utf-8"
@@ -772,18 +848,21 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             words_path = INFLECTION_DIR / locale / "words.json"
             if not words_path.exists():
                 continue
-            words_data = json.loads(words_path.read_text(encoding="utf-8"))
-            entry_count = sum(
-                1
-                for k, v in words_data.items()
-                if not k.startswith("_") and isinstance(v, dict)
-            )
             src6_table.append(
                 f"extern const wa_inflection_entry *INFL_{loc_idx}_ENTRIES[];"
             )
             src6_table.append(
                 f"extern const wa_inflection_rule *INFL_{loc_idx}_RULES[];"
             )
+            rules_path = INFLECTION_DIR / locale / "rules.json"
+            if rules_path.exists():
+                rules_data = json.loads(
+                    rules_path.read_text(encoding="utf-8"))
+                join_list = rules_data.get("join", [])
+                if join_list:
+                    src6_table.append(
+                        f"extern const wa_join_rule INFL_{loc_idx}_JOINS[];"
+                    )
 
         src6_table.append("")
         locale_codes = [
@@ -820,11 +899,18 @@ def write_data_files(cfg: GeneratorConfig) -> None:
                 continue
             rules_data = json.loads(rules_path.read_text(encoding="utf-8"))
             rules_list = rules_data.get("rules", [])
+            join_list = rules_data.get("join", [])
             src6_table.append("  {")
             src6_table.append(f'    "{escape(locale)}",')
             src6_table.append(
                 f"    INFL_{loc_idx}_RULES, {len(rules_list)}u,"
             )
+            if join_list:
+                src6_table.append(
+                    f"    INFL_{loc_idx}_JOINS, {len(join_list)}u,"
+                )
+            else:
+                src6_table.append("    NULL, 0u,")
             src6_table.append("  },")
         src6_table.append("};")
         src6_table.append("")
@@ -848,6 +934,28 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         (OUT_DIR / "wa_data_inflections_stub.c").write_text(
             "\n".join(stub_lines) + "\n", encoding="utf-8"
         )
+
+    # File 7: Tag map (if data file exists)
+    tag_map_path = DATA_DIR / "tag_map.json"
+    if tag_map_path.exists():
+        tag_map_data = json.loads(tag_map_path.read_text(encoding="utf-8"))
+        src7: List[str] = ['#include "worldalphabets_data.h"', ""]
+        feature_entries: List[Tuple[str, str, str]] = []
+        for tag, info in sorted(tag_map_data.items()):
+            features = info.get("features", {})
+            for fk, fv in features.items():
+                feature_entries.append((tag, fk, fv))
+        src7.append(f"const wa_feature_entry WA_TAG_MAP_ENTRIES[] = {{")
+        for tag, fk, fv in feature_entries:
+            src7.append(
+                f'  {{ "{escape(tag)}", "{escape(fk)}", "{escape(fv)}" }},'
+            )
+        src7.append("};")
+        src7.append("")
+        (OUT_DIR / "wa_data_tag_map.c").write_text(
+            "\n".join(src7) + "\n", encoding="utf-8"
+        )
+        print(f"  Tag map entries: {len(feature_entries)}")
 
     # Count generated files
     alpha_file_count = len(alphabets)  # Each alphabet in its own file

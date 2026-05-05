@@ -2,6 +2,7 @@
 
 #include <ctype.h>
 #include <math.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -846,4 +847,234 @@ wa_lookup_result wa_lookup_word(const wa_inflection_table *words_table,
     }
 
     return result;
+}
+
+wa_join_result wa_join_words(const wa_rules_table *rules,
+                              const char *prev,
+                              const char *next) {
+    wa_join_result result = {NULL, NULL, NULL, 0};
+    if (rules == NULL || rules->join_count == 0 || prev == NULL || next == NULL)
+        return result;
+
+    size_t prev_len = strlen(prev);
+    size_t next_len = strlen(next);
+
+    char *prev_lower = (char *)malloc(prev_len + 1);
+    char *next_lower = (char *)malloc(next_len + 1);
+    if (!prev_lower || !next_lower) {
+        free(prev_lower);
+        free(next_lower);
+        return result;
+    }
+    for (size_t i = 0; i <= prev_len; i++)
+        prev_lower[i] = (char)tolower((unsigned char)prev[i]);
+    for (size_t i = 0; i <= next_len; i++)
+        next_lower[i] = (char)tolower((unsigned char)next[i]);
+
+    for (size_t ji = 0; ji < rules->join_count; ji++) {
+        const wa_join_rule *jr = &rules->joins[ji];
+
+        int prev_match = 0;
+        if (jr->prev != NULL && jr->prev_count > 0) {
+            for (size_t pi = 0; pi < jr->prev_count; pi++) {
+                if (jr->prev[pi] && wa_streq(prev_lower, jr->prev[pi])) {
+                    prev_match = 1;
+                    break;
+                }
+            }
+        }
+        if (!prev_match) continue;
+
+        int next_ok = 0;
+        if (jr->next != NULL && jr->next_count > 0) {
+            for (size_t ni = 0; ni < jr->next_count; ni++) {
+                if (jr->next[ni] && wa_streq(next_lower, jr->next[ni])) {
+                    next_ok = 1;
+                    break;
+                }
+            }
+        }
+        if (!next_ok && jr->next_match != NULL) {
+            const char *pat = jr->next_match;
+            if (pat[0] == '^') {
+                pat++;
+                if (pat[0] == '[') {
+                    pat++;
+                    const char *close = strchr(pat, ']');
+                    if (close) {
+                        char nc = next_lower[0];
+                        for (const char *p = pat; p < close; p++) {
+                            if (*p == nc) {
+                                next_ok = 1;
+                                break;
+                            }
+                        }
+                    }
+                } else if (pat[0] && wa_streq(pat, next_lower)) {
+                    next_ok = 1;
+                }
+            }
+        }
+        if (!next_ok) continue;
+
+        const char *tmpl = jr->result_template;
+        if (tmpl == NULL) tmpl = "{prev} {next}";
+
+        size_t buf_size = strlen(tmpl) + prev_len + next_len + 1;
+        char *buf = (char *)malloc(buf_size);
+        if (!buf) break;
+        buf[0] = '\0';
+
+        const char *p = tmpl;
+        char *out = buf;
+        while (*p) {
+            if (strncmp(p, "{prev}", 6) == 0) {
+                size_t n = prev_len;
+                memcpy(out, prev, n);
+                out += n;
+                p += 6;
+            } else if (strncmp(p, "{next}", 6) == 0) {
+                size_t n = next_len;
+                memcpy(out, next, n);
+                out += n;
+                p += 6;
+            } else {
+                *out++ = *p++;
+            }
+        }
+        *out = '\0';
+
+        result.replaces_pair = 1;
+        {
+            char identity[1024];
+            snprintf(identity, sizeof(identity), "{prev} {next}");
+            if (strcmp(tmpl, identity) == 0) result.replaces_pair = 0;
+        }
+
+        result.result = buf;
+        result.rule_id = jr->id;
+        result.reason = jr->reason;
+        break;
+    }
+
+    free(prev_lower);
+    free(next_lower);
+    return result;
+}
+
+wa_feature_array wa_get_features(const char *tag) {
+    wa_feature_array result = {NULL, 0};
+    if (tag == NULL) return result;
+
+    #ifndef WA_TAG_MAP_ENTRIES_COUNT
+    return result;
+    #else
+    size_t count = 0;
+    for (size_t i = 0; i < WA_TAG_MAP_ENTRIES_COUNT; i++) {
+        if (wa_streq(WA_TAG_MAP_ENTRIES[i].tag, tag)) count++;
+    }
+    if (count == 0) return result;
+
+    wa_feature_entry *entries = (wa_feature_entry *)malloc(
+        sizeof(wa_feature_entry) * count);
+    if (!entries) return result;
+
+    size_t idx = 0;
+    for (size_t i = 0; i < WA_TAG_MAP_ENTRIES_COUNT && idx < count; i++) {
+        if (wa_streq(WA_TAG_MAP_ENTRIES[i].tag, tag)) {
+            entries[idx++] = WA_TAG_MAP_ENTRIES[i];
+        }
+    }
+    result.features = entries;
+    result.feature_count = count;
+    return result;
+    #endif
+}
+
+void wa_free_features(wa_feature_array *fa) {
+    if (fa && fa->features) {
+        free((void *)fa->features);
+        fa->features = NULL;
+        fa->feature_count = 0;
+    }
+}
+
+wa_applied_sentence wa_apply_rules(const wa_inflection_table *words,
+                                    const wa_rules_table *rules,
+                                    const char *sentence) {
+    wa_applied_sentence result = {NULL, 0};
+    if (sentence == NULL || words == NULL) return result;
+
+    wa_string_array tokens;
+    tokenize_words(sentence, &tokens);
+    if (tokens.len == 0) return result;
+
+    wa_applied_token *out = (wa_applied_token *)malloc(
+        sizeof(wa_applied_token) * tokens.len);
+    if (!out) {
+        free_tokens(&tokens);
+        return result;
+    }
+
+    #define WA_AP_MAX_PRIOR 64
+    const char *history[WA_AP_MAX_PRIOR];
+    size_t history_len = 0;
+
+    for (size_t ti = 0; ti < tokens.len; ti++) {
+        const char *word = tokens.items[ti];
+
+        char prior_buf[4096] = "";
+        for (size_t hi = 0; hi < history_len; hi++) {
+            if (hi > 0) strcat(prior_buf, " ");
+            strncat(prior_buf, history[hi],
+                    sizeof(prior_buf) - strlen(prior_buf) - 1);
+        }
+
+        wa_lookup_result lr = wa_lookup_word(words, rules, word, prior_buf);
+
+        out[ti].surface = lr.replacement ? strdup(lr.replacement) : strdup(word);
+        out[ti].rule_id = lr.rule_id ? strdup(lr.rule_id) : NULL;
+        out[ti].rule_type = lr.rule_type ? strdup(lr.rule_type) : NULL;
+        out[ti].join_rule_id = NULL;
+        out[ti].join_reason = NULL;
+
+        if (rules && rules->join_count > 0 && ti > 0) {
+            const char *prev_surface = out[ti - 1].surface;
+            wa_join_result jr = wa_join_words(rules, prev_surface,
+                                               lr.replacement ? lr.replacement : word);
+            if (jr.result) {
+                free((void *)out[ti].surface);
+                out[ti].surface = jr.result;
+                out[ti].join_rule_id = jr.rule_id ? strdup(jr.rule_id) : NULL;
+                out[ti].join_reason = jr.reason ? strdup(jr.reason) : NULL;
+                if (jr.replaces_pair) {
+                    free((void *)out[ti - 1].surface);
+                    out[ti - 1].surface = strdup("");
+                }
+            }
+        }
+
+        if (history_len < WA_AP_MAX_PRIOR) {
+            history[history_len++] = word;
+        }
+    }
+
+    result.tokens = out;
+    result.token_count = tokens.len;
+    free_tokens(&tokens);
+    return result;
+}
+
+void wa_free_applied_sentence(wa_applied_sentence *sent) {
+    if (sent == NULL || sent->tokens == NULL) return;
+    for (size_t i = 0; i < sent->token_count; i++) {
+        free((void *)sent->tokens[i].surface);
+        free((void *)sent->tokens[i].rule_id);
+        free((void *)sent->tokens[i].rule_type);
+        free((void *)sent->tokens[i].join_rule_id);
+        free((void *)sent->tokens[i].join_reason);
+    }
+    free(sent->tokens);
+    sent->tokens = NULL;
+    sent->token_count = 0;
 }

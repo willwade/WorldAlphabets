@@ -1,0 +1,266 @@
+{
+  "dimensions": {
+    "pos": {
+      "description": "Part of speech",
+      "values": [
+        "verb",
+        "noun",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "determiner",
+        "preposition",
+        "conjunction",
+        "numeral",
+        "particle",
+        "interjection",
+        "adposition"
+      ]
+    },
+    "tense": {
+      "description": "Grammatical tense",
+      "values": [
+        "present",
+        "past",
+        "future",
+        "aorist",
+        "nonpast",
+        "preterite"
+      ]
+    },
+    "mood": {
+      "description": "Grammatical mood",
+      "values": [
+        "indicative",
+        "subjunctive",
+        "imperative",
+        "conditional",
+        "potential",
+        "optative",
+        "hypothetical",
+        "admirative"
+      ]
+    },
+    "aspect": {
+      "description": "Grammatical aspect",
+      "values": [
+        "imperfective",
+        "perfective",
+        "progressive",
+        "habitual",
+        "perfect",
+        "prospective",
+        "iterative",
+        "frequentive",
+        "durative"
+      ]
+    },
+    "voice": {
+      "description": "Grammatical voice",
+      "values": ["active", "passive", "middle"]
+    },
+    "person": {
+      "description": "Grammatical person",
+      "values": ["1", "2", "3", "4", "0"]
+    },
+    "number": {
+      "description": "Grammatical number",
+      "values": ["singular", "plural", "dual"]
+    },
+    "gender": {
+      "description": "Grammatical gender",
+      "values": ["masculine", "feminine", "neuter"]
+    },
+    "case": {
+      "description": "Grammatical case",
+      "values": [
+        "nominative",
+        "accusative",
+        "dative",
+        "genitive",
+        "ablative",
+        "locative",
+        "instrumental",
+        "vocative",
+        "essive",
+        "allative",
+        "comitative",
+        "translative",
+        "benefactive",
+        "perlative",
+        "ergative",
+        "absolutive",
+        "prepositional",
+        "terminative",
+        "formal",
+        "sociative",
+        "comitative",
+        "comparative_case",
+        "agentive",
+        "inessive",
+        "elative",
+        "adessive",
+        "abessive",
+        "partitive",
+        "proximal",
+        "remotive",
+        "imitative",
+        "lative"
+      ]
+    },
+    "definiteness": {
+      "description": "Definiteness",
+      "values": ["definite", "indefinite"]
+    },
+    "degree": {
+      "description": "Degree of comparison",
+      "values": ["positive", "comparative", "superlative"]
+    },
+    "polarity": {
+      "description": "Affirmative or negative",
+      "values": ["positive", "negative"]
+    },
+    "verbform": {
+      "description": "Verb form type",
+      "values": [
+        "participle",
+        "converb",
+        "gerund",
+        "infinitive",
+        "supine",
+        "masdar"
+      ]
+    },
+    "finiteness": {
+      "description": "Finite or non-finite",
+      "values": ["finite", "nonfinite"]
+    },
+    "formality": {
+      "description": "Politeness/formality level",
+      "values": [
+        "formal",
+        "polite",
+        "elevated",
+        "humble",
+        "colloquial",
+        "plain"
+      ]
+    },
+    "evidentiality": {
+      "description": "Source of information",
+      "values": ["declarative", "inferential", "nonfirsthand", "quotative"]
+    },
+    "arg_abs": {
+      "description": "Basque absolutive argument (person/number)",
+      "values": ["1", "2", "3", "sg", "pl", "indef"]
+    },
+    "arg_erg": {
+      "description": "Basque ergative argument (person/number)",
+      "values": ["1", "2", "3", "sg", "pl", "indef", "masc", "fem"]
+    },
+    "arg_dat": {
+      "description": "Basque dative argument (person/number)",
+      "values": ["1", "2", "3", "sg", "pl", "indef", "masc", "fem"]
+    },
+    "arg_other": {
+      "description": "Other argument markers",
+      "values": ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"]
+    },
+    "noun_class": {
+      "description": "Bantu noun class",
+      "values": [
+        "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+        "11", "14", "15", "17"
+      ]
+    },
+    "possessor_person": {
+      "description": "Possessor person",
+      "values": ["1", "2", "3"]
+    },
+    "possessor_number": {
+      "description": "Possessor number",
+      "values": ["sg", "pl", "pe", "pi"]
+    },
+    "possessor_gender": {
+      "description": "Possessor gender",
+      "values": ["m", "f"]
+    },
+    "derivational": {
+      "description": "Derivational morphology",
+      "values": [
+        "causative",
+        "competitive",
+        "excessive",
+        "be_adjective",
+        "ge_adjective",
+        "privative",
+        "proprietive",
+        "equative",
+        "versive",
+        "distributive",
+        "translocative",
+        "immediate",
+        "applicative",
+        "intensive",
+        "intentional",
+        "permissive",
+        "reciprocal",
+        "reflexive",
+        "desiderative",
+        "factitive",
+        "frequentive",
+        "iterative"
+      ]
+    },
+    "lgspec": {
+      "description": "Language-specific category (opaque)",
+      "values": [
+        "1", "2", "3", "4", "5", "6", "7", "8", "9",
+        "01", "02", "03", "04", "05", "06", "07", "08", "09"
+      ]
+    },
+    "animacy": {
+      "description": "Animacy",
+      "values": ["animate", "inanimate"]
+    },
+    "clusivity": {
+      "description": "Inclusive/exclusive distinction in pronouns",
+      "values": ["inclusive", "exclusive"]
+    },
+    "action_class": {
+      "description": "Verb action class (e.g. Quechua/Turkish)",
+      "values": ["1", "2", "3"]
+    },
+    "variant": {
+      "description": "Variant index for alternative forms",
+      "values": ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    },
+    "focus": {
+      "description": "Information structure focus",
+      "values": ["yes"]
+    },
+    "clitic_type": {
+      "description": "Clitic pronoun type",
+      "values": ["transitive", "reflexive"]
+    },
+    "comparison_form": {
+      "description": "Comparison form",
+      "values": ["cf"]
+    },
+    "obligation": {
+      "description": "Obligative modality",
+      "values": ["obligative"]
+    },
+    "spatial": {
+      "description": "Spatial/directional features",
+      "values": [
+        "north", "south", "east", "west",
+        "northeast", "northwest", "southeast", "southwest"
+      ]
+    },
+    "extra": {
+      "description": "Unstructured extra information",
+      "values": []
+    }
+  }
+}

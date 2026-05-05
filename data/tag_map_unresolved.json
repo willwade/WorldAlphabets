@@ -1,0 +1,243 @@
+{
+  "v_cf_prs_pst_immed_1_incl_ac3": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "case": "inclusive",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_prs_pst_immed_1_sg_ac2": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac2"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_prs_pst_immed_1_sg_ac3": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_prs_pst_immed_1_sg_ac3_form2": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac3",
+      "formality": "formal"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_prs_pst_immed_3_sg_ac1_incl": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "3",
+      "number": "singular",
+      "extra": "ac1",
+      "case": "inclusive"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_pst_1_incl_ac3": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "person": "1",
+      "case": "inclusive",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_cf_pst_3_sg_ac1_incl": {
+    "features": {
+      "pos": "verb",
+      "comparison_form": "cf",
+      "tense": "past",
+      "person": "3",
+      "number": "singular",
+      "extra": "ac1",
+      "case": "inclusive"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_fut_1_incl_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "future",
+      "person": "1",
+      "case": "inclusive",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_fut_3_sg_ac1_incl": {
+    "features": {
+      "pos": "verb",
+      "tense": "future",
+      "person": "3",
+      "number": "singular",
+      "extra": "ac1",
+      "case": "inclusive"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_prs_pst_immed_1_incl_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "case": "inclusive",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_prs_pst_immed_1_sg_ac2": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac2"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_prs_pst_immed_1_sg_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_prs_pst_immed_3_sg_ac1_incl": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "derivational": "immediate",
+      "variant": "3",
+      "number": "singular",
+      "extra": "ac1",
+      "case": "inclusive"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_pst_rct_1_sg_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "case": "remotive",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_pst_rmt_1_incl_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "case": "inclusive",
+      "variant": "1",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_pst_rmt_1_sg_ac2": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "case": "remotive",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac2"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_pst_rmt_1_sg_ac3": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "case": "remotive",
+      "variant": "1",
+      "number": "singular",
+      "extra": "ac3"
+    },
+    "locales": [
+      "ay"
+    ]
+  },
+  "v_pst_rmt_3_sg_ac1_incl": {
+    "features": {
+      "pos": "verb",
+      "tense": "past",
+      "case": "inclusive",
+      "variant": "3",
+      "number": "singular",
+      "extra": "ac1"
+    },
+    "locales": [
+      "ay"
+    ]
+  }
+}
