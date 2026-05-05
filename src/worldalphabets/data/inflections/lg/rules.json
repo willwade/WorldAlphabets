@@ -1,9 +1,1197 @@
 {
-  "_type": "rules",
   "_locale": "lg",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "lg_ba_v_1_prs",
+      "inflection": "v_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "m",
+            "nze"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_ba_v_2_prs",
+      "inflection": "v_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "gwe",
+            "o"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_ba_v_3_prs",
+      "inflection": "v_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "a",
+            "yeye"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_ba_v_pl_1_prs",
+      "inflection": "v_pl_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ffe",
+            "tusi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_ba_v_pl_3_prs",
+      "inflection": "v_pl_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ba",
+            "batu",
+            "bo"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_ba_ne_v_2_prs_ba_ne",
+      "inflection": "v_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ne"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lg_jja_v_pl_3_pst_rct",
+      "inflection": "v_pl_3_pst_rct",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jja"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "m",
+      "ba",
+      "m ndi",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "ba",
+      "nze ndi",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "beera",
+      "m mbeera",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "beera",
+      "nze mbeera",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "funa",
+      "m nfuna",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "funa",
+      "nze nfuna",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "gwa",
+      "m ngwa",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "gwa",
+      "nze ngwa",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "kola",
+      "m nkola",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "kola",
+      "nze nkola",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "laba",
+      "m ndaba",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "laba",
+      "nze ndaba",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "lowooza",
+      "m ndowooza",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "lowooza",
+      "nze ndowooza",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "lya",
+      "m ndya",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "lya",
+      "nze ndya",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "wa",
+      "m mpa",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "wa",
+      "nze mpa",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "m",
+      "yaagala",
+      "m njagala",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "nze",
+      "yaagala",
+      "nze njagala",
+      {
+        "inflection": "v_1_prs",
+        "rule_id": "lg_ba_v_1_prs"
+      }
+    ],
+    [
+      "gwe",
+      "ba",
+      "gwe oli",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "ba",
+      "o oli",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "ba ne",
+      "gwe olina",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "ba ne",
+      "o olina",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "gwa",
+      "gwe ogwa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "gwa",
+      "o ogwa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "jja",
+      "gwe ojja",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "jja",
+      "o ojja",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "lya",
+      "gwe olya",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "lya",
+      "o olya",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "sobola",
+      "gwe osobola",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "sobola",
+      "o osobola",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "gwe",
+      "wa",
+      "gwe owa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "o",
+      "wa",
+      "o owa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_v_2_prs"
+      }
+    ],
+    [
+      "a",
+      "ba",
+      "a ali",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "ba",
+      "yeye ali",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "ba ne",
+      "a alina",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "ba ne",
+      "yeye alina",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "beera",
+      "a abeera",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "beera",
+      "yeye abeera",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "gamba",
+      "a agamba",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "gamba",
+      "yeye agamba",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "genda",
+      "a agenda",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "genda",
+      "yeye agenda",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "gwa",
+      "a agwa",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "gwa",
+      "yeye agwa",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "jja",
+      "a ajja",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "jja",
+      "yeye ajja",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "kola",
+      "a akola",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "kola",
+      "yeye akola",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "lya",
+      "a alya",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "lya",
+      "yeye alya",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "manya",
+      "a amanyi",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "manya",
+      "yeye amanyi",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "sobola",
+      "a asobola",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "sobola",
+      "yeye asobola",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "wa",
+      "a awa",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "wa",
+      "yeye awa",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "a",
+      "yaagala",
+      "a ayagala",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "yeye",
+      "yaagala",
+      "yeye ayagala",
+      {
+        "inflection": "v_3_prs",
+        "rule_id": "lg_ba_v_3_prs"
+      }
+    ],
+    [
+      "ffe",
+      "ba",
+      "ffe tuli",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "ba",
+      "tusi tuli",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ffe",
+      "ba ne",
+      "ffe tulina",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "ba ne",
+      "tusi tulina",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ffe",
+      "genda",
+      "ffe tugenda",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "genda",
+      "tusi tugenda",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ffe",
+      "gwa",
+      "ffe tugwa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "gwa",
+      "tusi tugwa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ffe",
+      "lya",
+      "ffe tulya",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "lya",
+      "tusi tulya",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ffe",
+      "wa",
+      "ffe tuwa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "tusi",
+      "wa",
+      "tusi tuwa",
+      {
+        "inflection": "v_pl_1_prs",
+        "rule_id": "lg_ba_v_pl_1_prs"
+      }
+    ],
+    [
+      "ba",
+      "ba",
+      "ba bali",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "ba",
+      "batu bali",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "ba ne",
+      "ba balina",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "ba ne",
+      "batu balina",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "beera",
+      "ba babeera",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "beera",
+      "batu babeera",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "funa",
+      "ba bafuna",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "funa",
+      "batu bafuna",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "gamba",
+      "ba bagamba",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "gamba",
+      "batu bagamba",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "genda",
+      "ba bagenda",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "genda",
+      "batu bagenda",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "gwa",
+      "ba bagwa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "gwa",
+      "batu bagwa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "jja",
+      "ba bajja",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "jja",
+      "batu bajja",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "kola",
+      "ba bakola",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "kola",
+      "batu bakola",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "kozesa",
+      "ba bakozesa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "kozesa",
+      "batu bakozesa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "lowooza",
+      "ba balowooza",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "lowooza",
+      "batu balowooza",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "lya",
+      "ba balya",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "lya",
+      "batu balya",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "manya",
+      "ba bamanyi",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "manya",
+      "batu bamanyi",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "sobola",
+      "ba basobola",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "sobola",
+      "batu basobola",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "tandika",
+      "ba batandika",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "tandika",
+      "batu batandika",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "wa",
+      "ba bawa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "wa",
+      "batu bawa",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ba",
+      "yita",
+      "ba bayita",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "batu",
+      "yita",
+      "batu bayita",
+      {
+        "inflection": "v_pl_3_prs",
+        "rule_id": "lg_ba_v_pl_3_prs"
+      }
+    ],
+    [
+      "ne",
+      "ba",
+      "ne oli",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "ba ne",
+      "ne olina",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "gwa",
+      "ne ogwa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "jja",
+      "ne ojja",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "lya",
+      "ne olya",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "sobola",
+      "ne osobola",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "ne",
+      "wa",
+      "ne owa",
+      {
+        "inflection": "v_2_prs",
+        "rule_id": "lg_ba_ne_v_2_prs_ba_ne"
+      }
+    ],
+    [
+      "jja",
+      "ba",
+      "jja babadde",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "beera",
+      "jja babadde",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "gwa",
+      "jja bagudde",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "jja",
+      "jja bazze",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "lya",
+      "jja balidde",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "mala",
+      "jja bamaze",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "tandika",
+      "jja batandise",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ],
+    [
+      "jja",
+      "wa",
+      "jja bawadde",
+      {
+        "inflection": "v_pl_3_pst_rct",
+        "rule_id": "lg_jja_v_pl_3_pst_rct"
+      }
+    ]
+  ]
 }

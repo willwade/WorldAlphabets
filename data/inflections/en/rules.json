@@ -1996,5 +1996,57 @@
         "rule_id": "these_dogs"
       }
     ]
+  ],
+  "join": [
+    {
+      "id": "en_a_vowel_sound",
+      "prev": [
+        "a",
+        "A"
+      ],
+      "next": [
+        "hour",
+        "honest",
+        "honor",
+        "honour",
+        "heir",
+        "herb"
+      ],
+      "result": "an {next}",
+      "reason": "article_vowel_sound"
+    },
+    {
+      "id": "en_a_consonant_sound",
+      "prev": [
+        "a",
+        "A"
+      ],
+      "next": [
+        "university",
+        "european",
+        "useful",
+        "unique",
+        "unit",
+        "uniform",
+        "union",
+        "united",
+        "usual",
+        "user",
+        "one",
+        "once"
+      ],
+      "result": "a {next}",
+      "reason": "article_consonant_sound"
+    },
+    {
+      "id": "en_a_to_an",
+      "prev": [
+        "a",
+        "A"
+      ],
+      "next_match": "^[aeiou]",
+      "result": "an {next}",
+      "reason": "article"
+    }
   ]
 }

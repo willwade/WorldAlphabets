@@ -1,9 +1,436 @@
 {
-  "_type": "rules",
   "_locale": "lv",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "lv_verb_nfin_neg_override",
+      "lookback": [
+        {
+          "words": [
+            "ne"
+          ]
+        }
+      ],
+      "overrides": {
+        "būt": "nebūt",
+        "darīt": "nedarīt",
+        "iet": "neiet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lv_verb_v_ptcp_prs_lgspec6_override",
+      "lookback": [
+        {
+          "words": [
+            "var"
+          ]
+        }
+      ],
+      "overrides": {
+        "varēt": "varams"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lv_noun_loc_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "arī",
+            "pie",
+            "uz"
+          ]
+        }
+      ],
+      "overrides": {
+        "cilvēks": "cilvēkā",
+        "galds": "galdā"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lv_noun_inst_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "ar",
+            "bez"
+          ]
+        }
+      ],
+      "overrides": {
+        "cilvēks": "cilvēkam",
+        "galds": "galdam"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lv_noun_nom_pl_override",
+      "lookback": [
+        {
+          "words": [
+            "šie"
+          ]
+        }
+      ],
+      "overrides": {
+        "grāmata": "grāmatas"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lv_adjective_acc_sg_masc_override",
+      "inflection": "adj_acc_sg_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "redzēt",
+            "saskatīt"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_inst_sg_fem_override",
+      "inflection": "adj_inst_sg_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ar"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_nom_pl_fem_override",
+      "inflection": "adj_nom_pl_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tās",
+            "šīs"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_dat_pl_fem_override",
+      "inflection": "adj_dat_pl_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "palīdzēt"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_gen_pl_fem_override",
+      "inflection": "adj_gen_pl_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "daudz"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_nom_pl_masc_override",
+      "inflection": "adj_nom_pl_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tie",
+            "šie"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_adjective_gen_sg_fem_override",
+      "inflection": "adj_gen_sg_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kāda"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_1_pl_prs_ind",
+      "inflection": "v_1_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mēs"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_1_sg_prs_ind",
+      "inflection": "v_1_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "es"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_2_pl_prs_ind",
+      "inflection": "v_2_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jūs"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_2_sg_prs_ind",
+      "inflection": "v_2_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tu"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_3_pl_prs_ind",
+      "inflection": "v_3_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "viņas",
+            "viņi"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_verb_v_3_sg_prs_ind",
+      "inflection": "v_3_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "viņa",
+            "viņš"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_noun_n_loc_sg",
+      "inflection": "n_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dzelzceļa",
+            "pie",
+            "uz"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_noun_n_inst_sg",
+      "inflection": "n_inst_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bez"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_noun_n_voc_pl",
+      "inflection": "n_voc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lūdzu"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "lv_noun_n_dat_pl",
+      "inflection": "n_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pateikties"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ne",
+      "būt",
+      "ne nebūt",
+      {
+        "rule_id": "lv_verb_nfin_neg_override"
+      }
+    ],
+    [
+      "ne",
+      "darīt",
+      "ne nedarīt",
+      {
+        "rule_id": "lv_verb_nfin_neg_override"
+      }
+    ],
+    [
+      "ne",
+      "iet",
+      "ne neiet",
+      {
+        "rule_id": "lv_verb_nfin_neg_override"
+      }
+    ],
+    [
+      "var",
+      "varēt",
+      "var varams",
+      {
+        "rule_id": "lv_verb_v_ptcp_prs_lgspec6_override"
+      }
+    ],
+    [
+      "arī",
+      "cilvēks",
+      "arī cilvēkā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "pie",
+      "cilvēks",
+      "pie cilvēkā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "uz",
+      "cilvēks",
+      "uz cilvēkā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "arī",
+      "galds",
+      "arī galdā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "pie",
+      "galds",
+      "pie galdā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "uz",
+      "galds",
+      "uz galdā",
+      {
+        "rule_id": "lv_noun_loc_sg_override"
+      }
+    ],
+    [
+      "ar",
+      "cilvēks",
+      "ar cilvēkam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "bez",
+      "cilvēks",
+      "bez cilvēkam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "ar",
+      "galds",
+      "ar galdam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "bez",
+      "galds",
+      "bez galdam",
+      {
+        "rule_id": "lv_noun_inst_sg_override"
+      }
+    ],
+    [
+      "šie",
+      "grāmata",
+      "šie grāmatas",
+      {
+        "rule_id": "lv_noun_nom_pl_override"
+      }
+    ]
+  ]
 }

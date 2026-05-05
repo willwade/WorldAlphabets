@@ -1,9 +1,614 @@
 {
-  "_type": "rules",
   "_locale": "ln",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "ln_verb_fut_pst_override",
+      "lookback": [
+        {
+          "words": [
+            "a",
+            "e"
+          ]
+        }
+      ],
+      "overrides": {
+        "kom": "zal",
+        "lob": "zal",
+        "pes": "zal"
+      },
+      "type": "override"
+    },
+    {
+      "id": "ln_verb_prs_ending_n",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "na"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ln_verb_fut_prefix",
+      "inflection": "v_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "za"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ln_verb_nfin_prefix",
+      "inflection": "v_nfin",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ko"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ln_verb_pst_prefix",
+      "inflection": "v_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "e"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "a",
+      "kom",
+      "a zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "e",
+      "kom",
+      "e zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "a",
+      "lob",
+      "a zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "e",
+      "lob",
+      "e zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "a",
+      "pes",
+      "a zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "e",
+      "pes",
+      "e zal",
+      {
+        "rule_id": "ln_verb_fut_pst_override"
+      }
+    ],
+    [
+      "na",
+      "kat",
+      "na kati",
+      {
+        "inflection": "v_prs",
+        "rule_id": "ln_verb_prs_ending_n"
+      }
+    ],
+    [
+      "na",
+      "zal",
+      "na zali",
+      {
+        "inflection": "v_prs",
+        "rule_id": "ln_verb_prs_ending_n"
+      }
+    ],
+    [
+      "za",
+      "band",
+      "za kobanda",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "bebis",
+      "za kobebisa",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "beng",
+      "za kobenga",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "bom",
+      "za koboma",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "bongis",
+      "za kobongisa",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "fand",
+      "za kofanda",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "kang",
+      "za kokanga",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "kom",
+      "za kokoma",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "li",
+      "za kolia",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "ling",
+      "za kolinga",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "lob",
+      "za koloba",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "luk",
+      "za koluka",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "pes",
+      "za kopesa",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "salis",
+      "za kosalisa",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "somb",
+      "za kosomba",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "tal",
+      "za kotala",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "tang",
+      "za kotanga",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "tik",
+      "za kotika",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "tong",
+      "za kotonga",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "vand",
+      "za kovanda",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "yamb",
+      "za koyamba",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "yeb",
+      "za koyeba",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "yebis",
+      "za koyebisa",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "yekol",
+      "za koyekola",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "yok",
+      "za koyoka",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "za",
+      "zal",
+      "za kozala",
+      {
+        "inflection": "v_fut",
+        "rule_id": "ln_verb_fut_prefix"
+      }
+    ],
+    [
+      "ko",
+      "band",
+      "ko kobanda",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "bebis",
+      "ko kobebisa",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "beng",
+      "ko kobenga",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "bom",
+      "ko koboma",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "bongis",
+      "ko kobongisa",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "fand",
+      "ko kofanda",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "kom",
+      "ko kokoma",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "li",
+      "ko kolia",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "ling",
+      "ko kolinga",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "lob",
+      "ko koloba",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "luk",
+      "ko koluka",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "pes",
+      "ko kopesa",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "salis",
+      "ko kosalisa",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "somb",
+      "ko kosomba",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "tal",
+      "ko kotala",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "tang",
+      "ko kotanga",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "tik",
+      "ko kotika",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "tong",
+      "ko kotonga",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "vand",
+      "ko kovanda",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "yamb",
+      "ko koyamba",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "yeb",
+      "ko koyeba",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "yebis",
+      "ko koyebisa",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "yekol",
+      "ko koyekola",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "yok",
+      "ko koyoka",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "ko",
+      "zal",
+      "ko kozala",
+      {
+        "inflection": "v_nfin",
+        "rule_id": "ln_verb_nfin_prefix"
+      }
+    ],
+    [
+      "e",
+      "kuf",
+      "e kufaki",
+      {
+        "inflection": "v_pst",
+        "rule_id": "ln_verb_pst_prefix"
+      }
+    ]
+  ]
 }

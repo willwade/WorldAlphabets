@@ -1,9 +1,2399 @@
 {
-  "_type": "rules",
   "_locale": "is",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "is_far_acc_sg_def",
+      "lookback": [
+        {
+          "words": [
+            "að"
+          ]
+        }
+      ],
+      "overrides": {
+        "far": "fara"
+      },
+      "type": "override"
+    },
+    {
+      "id": "is_haf_dat_sg",
+      "lookback": [
+        {
+          "words": [
+            "í"
+          ]
+        }
+      ],
+      "overrides": {
+        "haf": "höfum"
+      },
+      "type": "override"
+    },
+    {
+      "id": "is_hani_acc_sg",
+      "lookback": [
+        {
+          "words": [
+            "ég"
+          ]
+        }
+      ],
+      "overrides": {
+        "hani": "hana"
+      },
+      "type": "override"
+    },
+    {
+      "id": "is_hefja_prs_1_sg",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ég"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "is_hefja_imp_2_sg",
+      "inflection": "v_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ðu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "is_hefja_prs_3_sg",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hann",
+            "hún",
+            "það"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "is_húnn_acc_sg",
+      "inflection": "n_indf_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "við",
+            "ég",
+            "þau",
+            "þeir",
+            "þær"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_lag_gen_sg",
+      "inflection": "n_indf_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "til"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_laga_prs_3_sg",
+      "inflection": "v_sbjv_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "að"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "is_viður_acc_sg",
+      "inflection": "n_indf_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gefið"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_enn_def_nom_sg",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "sá"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_enn_def_acc_pl",
+      "inflection": "n_def_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "þessir"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_hald_dat_pl",
+      "inflection": "n_indf_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "á"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_heimur_acc_sg",
+      "inflection": "n_indf_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "sjá"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_heimur_dat_sg",
+      "inflection": "n_indf_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "í"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_herri_gen_sg",
+      "inflection": "n_indf_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "af"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_lík_gen_pl",
+      "inflection": "n_indf_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dauðra"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_mamma_def_nom_sg",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "móðir"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_pabbi_def_nom_sg",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "faðir"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_engi_def_acc_pl",
+      "inflection": "n_def_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "þessa"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_frú_def_nom_sg",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "sú"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_gaman_def_acc_sg",
+      "inflection": "n_def_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "þetta"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_kvöld_def_nom_pl",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "þessi"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "is_gegna_prs_1_pl",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "við"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "að",
+      "far",
+      "að fara",
+      {
+        "rule_id": "is_far_acc_sg_def"
+      }
+    ],
+    [
+      "í",
+      "haf",
+      "í höfum",
+      {
+        "rule_id": "is_haf_dat_sg"
+      }
+    ],
+    [
+      "ég",
+      "hani",
+      "ég hana",
+      {
+        "rule_id": "is_hani_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "betra",
+      "ég betra",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "is_hefja_prs_1_sg"
+      }
+    ],
+    [
+      "ég",
+      "drepa",
+      "ég drep",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "is_hefja_prs_1_sg"
+      }
+    ],
+    [
+      "ég",
+      "enda",
+      "ég enda",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "is_hefja_prs_1_sg"
+      }
+    ],
+    [
+      "ég",
+      "finnast",
+      "ég finnst",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "is_hefja_prs_1_sg"
+      }
+    ],
+    [
+      "ég",
+      "færa",
+      "ég færi",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "is_hefja_prs_1_sg"
+      }
+    ],
+    [
+      "ðu",
+      "betra",
+      "ðu betra",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "is_hefja_imp_2_sg"
+      }
+    ],
+    [
+      "ðu",
+      "drepa",
+      "ðu drep",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "is_hefja_imp_2_sg"
+      }
+    ],
+    [
+      "ðu",
+      "enda",
+      "ðu enda",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "is_hefja_imp_2_sg"
+      }
+    ],
+    [
+      "ðu",
+      "finnast",
+      "ðu finnst",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "is_hefja_imp_2_sg"
+      }
+    ],
+    [
+      "ðu",
+      "færa",
+      "ðu fær",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "is_hefja_imp_2_sg"
+      }
+    ],
+    [
+      "hann",
+      "betra",
+      "hann betrar",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "is_hefja_prs_3_sg"
+      }
+    ],
+    [
+      "hún",
+      "betra",
+      "hún betrar",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "is_hefja_prs_3_sg"
+      }
+    ],
+    [
+      "hann",
+      "drepa",
+      "hann drepur",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "is_hefja_prs_3_sg"
+      }
+    ],
+    [
+      "hún",
+      "drepa",
+      "hún drepur",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "is_hefja_prs_3_sg"
+      }
+    ],
+    [
+      "við",
+      "aftann",
+      "við aftan",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "aftann",
+      "ég aftan",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "augnablik",
+      "við augnablik",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "augnablik",
+      "ég augnablik",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "bak",
+      "við bak",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "bak",
+      "ég bak",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "bíll",
+      "við bíl",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "bíll",
+      "ég bíl",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "dagur",
+      "við dag",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "dagur",
+      "ég dag",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "drengur",
+      "við dreng",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "drengur",
+      "ég dreng",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "efni",
+      "við efni",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "efni",
+      "ég efni",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "enn",
+      "við enn",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "enn",
+      "ég enn",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "fangelsi",
+      "við fangelsi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "fangelsi",
+      "ég fangelsi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "fjölskylda",
+      "við fjölskyldu",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "fjölskylda",
+      "ég fjölskyldu",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "frændi",
+      "við frænda",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "frændi",
+      "ég frænda",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "frú",
+      "við frú",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "frú",
+      "ég frú",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "við",
+      "færi",
+      "við færi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "ég",
+      "færi",
+      "ég færi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_húnn_acc_sg"
+      }
+    ],
+    [
+      "til",
+      "afsökun",
+      "til afsökunar",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "augnablik",
+      "til augnabliks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "bak",
+      "til baks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "dagur",
+      "til dags",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "drengur",
+      "til drengs",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "efni",
+      "til efnis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "enn",
+      "til enns",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "fangelsi",
+      "til fangelsis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "fjölskylda",
+      "til fjölskyldu",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "frændi",
+      "til frænda",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "frú",
+      "til frúar",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "til",
+      "færi",
+      "til færis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_lag_gen_sg"
+      }
+    ],
+    [
+      "að",
+      "betra",
+      "að betri",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "is_laga_prs_3_sg"
+      }
+    ],
+    [
+      "að",
+      "drepa",
+      "að drepi",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "is_laga_prs_3_sg"
+      }
+    ],
+    [
+      "að",
+      "enda",
+      "að endi",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "is_laga_prs_3_sg"
+      }
+    ],
+    [
+      "að",
+      "færa",
+      "að færi",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "is_laga_prs_3_sg"
+      }
+    ],
+    [
+      "gefið",
+      "aftann",
+      "gefið aftan",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "augnablik",
+      "gefið augnablik",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "bak",
+      "gefið bak",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "bíll",
+      "gefið bíl",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "dagur",
+      "gefið dag",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "drengur",
+      "gefið dreng",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "efni",
+      "gefið efni",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "enn",
+      "gefið enn",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "fangelsi",
+      "gefið fangelsi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "fjölskylda",
+      "gefið fjölskyldu",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "frændi",
+      "gefið frænda",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "frú",
+      "gefið frú",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "gefið",
+      "færi",
+      "gefið færi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_viður_acc_sg"
+      }
+    ],
+    [
+      "sá",
+      "augnablik",
+      "sá augnablikið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "bak",
+      "sá bakið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "dagur",
+      "sá dagurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "drengur",
+      "sá drengurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "efni",
+      "sá efnið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "enn",
+      "sá ennið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "fangelsi",
+      "sá fangelsið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "far",
+      "sá farið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "frændi",
+      "sá frændinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "frú",
+      "sá frúin",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "sá",
+      "færi",
+      "sá færið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_enn_def_nom_sg"
+      }
+    ],
+    [
+      "þessir",
+      "auga",
+      "þessir augun",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "augnablik",
+      "þessir augnablikin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "bak",
+      "þessir bökin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "dagur",
+      "þessir dagana",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "drengur",
+      "þessir drengina",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "efni",
+      "þessir efnin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "engi",
+      "þessir engin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "enn",
+      "þessir ennin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "fangelsi",
+      "þessir fangelsin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "frændi",
+      "þessir frændurna",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "frú",
+      "þessir frúrnar",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "þessir",
+      "færi",
+      "þessir færin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_enn_def_acc_pl"
+      }
+    ],
+    [
+      "á",
+      "augnablik",
+      "á augnablikum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "bak",
+      "á bökum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "dagur",
+      "á dögum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "drengur",
+      "á drengjum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "efni",
+      "á efnum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "enn",
+      "á ennum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "fangelsi",
+      "á fangelsum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "far",
+      "á förum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "frændi",
+      "á frændum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "frú",
+      "á frúm",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "á",
+      "færi",
+      "á færum",
+      {
+        "inflection": "n_indf_dat_pl",
+        "rule_id": "is_hald_dat_pl"
+      }
+    ],
+    [
+      "sjá",
+      "aftann",
+      "sjá aftan",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "augnablik",
+      "sjá augnablik",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "bak",
+      "sjá bak",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "bíll",
+      "sjá bíl",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "dagur",
+      "sjá dag",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "drengur",
+      "sjá dreng",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "efni",
+      "sjá efni",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "enn",
+      "sjá enn",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "fangelsi",
+      "sjá fangelsi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "fjölskylda",
+      "sjá fjölskyldu",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "frændi",
+      "sjá frænda",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "frú",
+      "sjá frú",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "sjá",
+      "færi",
+      "sjá færi",
+      {
+        "inflection": "n_indf_acc_sg",
+        "rule_id": "is_heimur_acc_sg"
+      }
+    ],
+    [
+      "í",
+      "augnablik",
+      "í augnabliki",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "bak",
+      "í baki",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "bíll",
+      "í bíl",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "dagur",
+      "í degi",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "drengur",
+      "í dreng",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "efni",
+      "í efni",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "enn",
+      "í enni",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "fangelsi",
+      "í fangelsi",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "far",
+      "í fari",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "fjölskylda",
+      "í fjölskyldu",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "frændi",
+      "í frænda",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "frú",
+      "í frú",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "í",
+      "færi",
+      "í færi",
+      {
+        "inflection": "n_indf_dat_sg",
+        "rule_id": "is_heimur_dat_sg"
+      }
+    ],
+    [
+      "af",
+      "afsökun",
+      "af afsökunar",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "augnablik",
+      "af augnabliks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "bak",
+      "af baks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "dagur",
+      "af dags",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "drengur",
+      "af drengs",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "efni",
+      "af efnis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "enn",
+      "af enns",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "fangelsi",
+      "af fangelsis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "fjölskylda",
+      "af fjölskyldu",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "frændi",
+      "af frænda",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "frú",
+      "af frúar",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "af",
+      "færi",
+      "af færis",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "is_herri_gen_sg"
+      }
+    ],
+    [
+      "dauðra",
+      "augnablik",
+      "dauðra augnablika",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "bak",
+      "dauðra baka",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "björg",
+      "dauðra bjarga",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "dagur",
+      "dauðra daga",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "dans",
+      "dauðra dansa",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "drengur",
+      "dauðra drengja",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "efni",
+      "dauðra efna",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "endir",
+      "dauðra enda",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "enn",
+      "dauðra enna",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "eð",
+      "dauðra eða",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "fangelsi",
+      "dauðra fangelsa",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "far",
+      "dauðra fara",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "frændi",
+      "dauðra frænda",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "frú",
+      "dauðra frúa",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "dauðra",
+      "færi",
+      "dauðra færa",
+      {
+        "inflection": "n_indf_gen_pl",
+        "rule_id": "is_lík_gen_pl"
+      }
+    ],
+    [
+      "móðir",
+      "augnablik",
+      "móðir augnablikið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "bak",
+      "móðir bakið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "dagur",
+      "móðir dagurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "drengur",
+      "móðir drengurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "efni",
+      "móðir efnið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "enn",
+      "móðir ennið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "fangelsi",
+      "móðir fangelsið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "far",
+      "móðir farið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "frændi",
+      "móðir frændinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "frú",
+      "móðir frúin",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "móðir",
+      "færi",
+      "móðir færið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_mamma_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "augnablik",
+      "faðir augnablikið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "bak",
+      "faðir bakið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "dagur",
+      "faðir dagurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "drengur",
+      "faðir drengurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "efni",
+      "faðir efnið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "enn",
+      "faðir ennið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "fangelsi",
+      "faðir fangelsið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "far",
+      "faðir farið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "frændi",
+      "faðir frændinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "frú",
+      "faðir frúin",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "faðir",
+      "færi",
+      "faðir færið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_pabbi_def_nom_sg"
+      }
+    ],
+    [
+      "þessa",
+      "auga",
+      "þessa augun",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "augnablik",
+      "þessa augnablikin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "bak",
+      "þessa bökin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "dagur",
+      "þessa dagana",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "drengur",
+      "þessa drengina",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "efni",
+      "þessa efnin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "engi",
+      "þessa engin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "enn",
+      "þessa ennin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "fangelsi",
+      "þessa fangelsin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "frændi",
+      "þessa frændurna",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "frú",
+      "þessa frúrnar",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "þessa",
+      "færi",
+      "þessa færin",
+      {
+        "inflection": "n_def_acc_pl",
+        "rule_id": "is_engi_def_acc_pl"
+      }
+    ],
+    [
+      "sú",
+      "augnablik",
+      "sú augnablikið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "bak",
+      "sú bakið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "dagur",
+      "sú dagurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "drengur",
+      "sú drengurinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "efni",
+      "sú efnið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "enn",
+      "sú ennið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "fangelsi",
+      "sú fangelsið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "far",
+      "sú farið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "frændi",
+      "sú frændinn",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "frú",
+      "sú frúin",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "sú",
+      "færi",
+      "sú færið",
+      {
+        "inflection": "n_def_nom_sg",
+        "rule_id": "is_frú_def_nom_sg"
+      }
+    ],
+    [
+      "þetta",
+      "augnablik",
+      "þetta augnablikið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "bak",
+      "þetta bakið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "bíll",
+      "þetta bílinn",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "dagur",
+      "þetta daginn",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "drengur",
+      "þetta drenginn",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "efni",
+      "þetta efnið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "enn",
+      "þetta ennið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "fangelsi",
+      "þetta fangelsið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "far",
+      "þetta farið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "frændi",
+      "þetta frændann",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "frú",
+      "þetta frúna",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þetta",
+      "færi",
+      "þetta færið",
+      {
+        "inflection": "n_def_acc_sg",
+        "rule_id": "is_gaman_def_acc_sg"
+      }
+    ],
+    [
+      "þessi",
+      "augnablik",
+      "þessi augnablikin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "bak",
+      "þessi bökin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "dagur",
+      "þessi dagarnir",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "drengur",
+      "þessi drengirnir",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "efni",
+      "þessi efnin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "engi",
+      "þessi engin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "enn",
+      "þessi ennin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "fangelsi",
+      "þessi fangelsin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "frændi",
+      "þessi frændurnir",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "frú",
+      "þessi frúrnar",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "þessi",
+      "færi",
+      "þessi færin",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "is_kvöld_def_nom_pl"
+      }
+    ],
+    [
+      "við",
+      "betra",
+      "við betruðum",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "is_gegna_prs_1_pl"
+      }
+    ],
+    [
+      "við",
+      "drepa",
+      "við drápum",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "is_gegna_prs_1_pl"
+      }
+    ],
+    [
+      "við",
+      "enda",
+      "við enduðum",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "is_gegna_prs_1_pl"
+      }
+    ]
+  ]
 }

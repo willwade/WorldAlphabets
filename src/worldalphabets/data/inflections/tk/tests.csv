@@ -1,0 +1,16 @@
+rule_id,inflection,pre_words,test_word,updated_words
+tk_n_gen_sg_consonant,n_gen_sg,aý,aý,aý aýyň
+tk_n_gen_sg_consonant,n_gen_sg,göz,aý,göz aýyň
+tk_n_gen_sg_consonant,n_gen_sg,aý,göz,aý gözüň
+tk_n_gen_sg_consonant,n_gen_sg,göz,göz,göz gözüň
+tk_n_gen_sg_consonant,n_gen_sg,aý,gün,aý günüň
+tk_n_gen_sg_consonant,n_gen_sg,göz,gün,göz günüň
+tk_n_gen_sg_consonant,n_gen_sg,aý,kitap,aý kitabyň
+tk_n_gen_sg_consonant,n_gen_sg,göz,kitap,göz kitabyň
+tk_n_gen_sg_consonant,n_gen_sg,aý,ýyl,aý ýylyň
+tk_n_gen_sg_consonant,n_gen_sg,göz,ýyl,göz ýylyň
+tk_n_dat_sg_consonant,n_dat_sg,ýyl,aý,ýyl aýa
+tk_n_dat_sg_consonant,n_dat_sg,ýyl,göz,ýyl göze
+tk_n_dat_sg_consonant,n_dat_sg,ýyl,gün,ýyl güne
+tk_n_dat_sg_consonant,n_dat_sg,ýyl,kitap,ýyl kitaba
+tk_n_dat_sg_consonant,n_dat_sg,ýyl,ýyl,ýyl ýyla

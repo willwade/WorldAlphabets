@@ -1,9 +1,466 @@
 {
-  "_type": "rules",
   "_locale": "vec",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "èser_imp_2_pl",
+      "inflection": "v_2_pl_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mo",
+            "ve"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "star_sbjv_2_sg",
+      "inflection": "v_2_sg_sbjv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "che",
+            "se"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dir_ind_prs_3_sg",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ela",
+            "lui"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "védar_fut_1_sg",
+      "inflection": "v_1_sg_ind_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ci",
+            "mi",
+            "ti"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "vardar_cond_1_pl",
+      "inflection": "v_1_pl_cond",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sarè",
+            "sarìa"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "aver_lgspec1_3_sg",
+      "inflection": "v_ind_prs_3_sg_lgspec1",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "canbiar_ptcp_pst",
+      "inflection": "v_ptcp_pst",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "el",
+            "i",
+            "la",
+            "le"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "justar_imp_3_pl",
+      "inflection": "v_3_pl_imp_lgspec1",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "lori"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "mo",
+      "vardar",
+      "mo vardé",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "ve",
+      "vardar",
+      "ve vardé",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "mo",
+      "védar",
+      "mo védì",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "ve",
+      "védar",
+      "ve védì",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "mo",
+      "èser",
+      "mo sì",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "ve",
+      "èser",
+      "ve sì",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "èser_imp_2_pl"
+      }
+    ],
+    [
+      "che",
+      "star",
+      "che sti",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "se",
+      "star",
+      "se sti",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "che",
+      "vardar",
+      "che vardi",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "se",
+      "vardar",
+      "se vardi",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "che",
+      "védar",
+      "che vidi",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "se",
+      "védar",
+      "se vidi",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "che",
+      "èser",
+      "che sì",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "se",
+      "èser",
+      "se sì",
+      {
+        "inflection": "v_2_sg_sbjv_prs",
+        "rule_id": "star_sbjv_2_sg"
+      }
+    ],
+    [
+      "ela",
+      "dir",
+      "ela de",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "lui",
+      "dir",
+      "lui de",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "ela",
+      "justar",
+      "ela justa",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "lui",
+      "justar",
+      "lui justa",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "ela",
+      "star",
+      "ela sta",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "lui",
+      "star",
+      "lui sta",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "ela",
+      "vardar",
+      "ela varda",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "lui",
+      "vardar",
+      "lui varda",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "ela",
+      "védar",
+      "ela véde",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "lui",
+      "védar",
+      "lui véde",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "dir_ind_prs_3_sg"
+      }
+    ],
+    [
+      "ci",
+      "vardar",
+      "ci vardarò",
+      {
+        "inflection": "v_1_sg_ind_fut",
+        "rule_id": "védar_fut_1_sg"
+      }
+    ],
+    [
+      "mi",
+      "vardar",
+      "mi vardarò",
+      {
+        "inflection": "v_1_sg_ind_fut",
+        "rule_id": "védar_fut_1_sg"
+      }
+    ],
+    [
+      "ci",
+      "védar",
+      "ci védarò",
+      {
+        "inflection": "v_1_sg_ind_fut",
+        "rule_id": "védar_fut_1_sg"
+      }
+    ],
+    [
+      "mi",
+      "védar",
+      "mi védarò",
+      {
+        "inflection": "v_1_sg_ind_fut",
+        "rule_id": "védar_fut_1_sg"
+      }
+    ],
+    [
+      "sarè",
+      "vardar",
+      "sarè vardarìsimo",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "vardar_cond_1_pl"
+      }
+    ],
+    [
+      "sarìa",
+      "vardar",
+      "sarìa vardarìsimo",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "vardar_cond_1_pl"
+      }
+    ],
+    [
+      "sarè",
+      "védar",
+      "sarè védarìsimo",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "vardar_cond_1_pl"
+      }
+    ],
+    [
+      "sarìa",
+      "védar",
+      "sarìa védarìsimo",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "vardar_cond_1_pl"
+      }
+    ],
+    [
+      "a",
+      "aver",
+      "a ga",
+      {
+        "inflection": "v_ind_prs_3_sg_lgspec1",
+        "rule_id": "aver_lgspec1_3_sg"
+      }
+    ],
+    [
+      "el",
+      "canbiar",
+      "el canbià",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "canbiar_ptcp_pst"
+      }
+    ],
+    [
+      "i",
+      "canbiar",
+      "i canbià",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "canbiar_ptcp_pst"
+      }
+    ],
+    [
+      "lori",
+      "justar",
+      "lori justa",
+      {
+        "inflection": "v_3_pl_imp_lgspec1",
+        "rule_id": "justar_imp_3_pl"
+      }
+    ],
+    [
+      "lori",
+      "star",
+      "lori sta",
+      {
+        "inflection": "v_3_pl_imp_lgspec1",
+        "rule_id": "justar_imp_3_pl"
+      }
+    ],
+    [
+      "lori",
+      "vardar",
+      "lori varda",
+      {
+        "inflection": "v_3_pl_imp_lgspec1",
+        "rule_id": "justar_imp_3_pl"
+      }
+    ]
+  ]
 }

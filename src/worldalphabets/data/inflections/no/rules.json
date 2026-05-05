@@ -3,7 +3,721 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "n_masc_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "overrides": {
+        "alt": "altet",
+        "dag": "dagen",
+        "far": "faren",
+        "gang": "gangen"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_masc_pl_override",
+      "lookback": [
+        {
+          "words": [
+            "alle",
+            "mange",
+            "noen"
+          ]
+        }
+      ],
+      "overrides": {
+        "alt": "altene",
+        "dag": "dagene",
+        "far": "farene",
+        "gang": "gangene"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_neut_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "et"
+          ]
+        }
+      ],
+      "overrides": {
+        "barn": "barnet",
+        "folk": "folket",
+        "for": "foret",
+        "liv": "livet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_neut_pl_override",
+      "lookback": [
+        {
+          "words": [
+            "flere"
+          ]
+        }
+      ],
+      "overrides": {
+        "barn": "barna",
+        "folk": "folkene",
+        "for": "forene",
+        "liv": "livene"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_fem_masc_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "denne"
+          ]
+        }
+      ],
+      "overrides": {
+        "godt": "godtet",
+        "hele": "helen",
+        "skal": "skallet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_fem_masc_pl_override",
+      "lookback": [
+        {
+          "words": [
+            "disse"
+          ]
+        }
+      ],
+      "overrides": {
+        "godt": "godtene",
+        "hele": "helene",
+        "skal": "skallene"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_neut_def_sg_override_kan",
+      "lookback": [
+        {
+          "words": [
+            "det"
+          ]
+        }
+      ],
+      "overrides": {
+        "kan": "kanet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_masc_sg_override_liv",
+      "lookback": [
+        {
+          "words": [
+            "livet"
+          ]
+        }
+      ],
+      "overrides": {
+        "liv": "livet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_masc_sg_override_hun",
+      "lookback": [
+        {
+          "words": [
+            "hun"
+          ]
+        }
+      ],
+      "overrides": {
+        "hun": "hunen"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_masc_def_sg_override_mot",
+      "lookback": [
+        {
+          "words": [
+            "motet"
+          ]
+        }
+      ],
+      "overrides": {
+        "mot": "motet"
+      },
+      "type": "override"
+    },
+    {
+      "id": "v_ind_prs_hele",
+      "inflection": "v_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "det",
+            "han",
+            "hun",
+            "jeg",
+            "vi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_prs_være",
+      "inflection": "v_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "du"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ptcp_pst_hele",
+      "inflection": "v_ptcp_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "har"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ptcp_pst_hele_har_blitt",
+      "inflection": "v_ptcp_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "blitt"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_def_sg_pl_hel",
+      "inflection": "adj_def_sg_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "alle",
+            "de",
+            "noen"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_neut_sg_hel",
+      "inflection": "adj_neut_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "et"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "pronoun_objective_han",
+      "inflection": "n_masc_def_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "for",
+            "med",
+            "mot"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "adj_cmpr_sg_hel",
+      "inflection": "adj_cmpr_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "den"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_sprl_def_sg_hel",
+      "inflection": "adj_sprl_def_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "det"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_sprl_indf_sg_hel",
+      "inflection": "adj_sprl_indf_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "en",
+      "alt",
+      "en altet",
+      {
+        "rule_id": "n_masc_sg_override"
+      }
+    ],
+    [
+      "en",
+      "dag",
+      "en dagen",
+      {
+        "rule_id": "n_masc_sg_override"
+      }
+    ],
+    [
+      "en",
+      "far",
+      "en faren",
+      {
+        "rule_id": "n_masc_sg_override"
+      }
+    ],
+    [
+      "en",
+      "gang",
+      "en gangen",
+      {
+        "rule_id": "n_masc_sg_override"
+      }
+    ],
+    [
+      "alle",
+      "alt",
+      "alle altene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "mange",
+      "alt",
+      "mange altene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "noen",
+      "alt",
+      "noen altene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "alle",
+      "dag",
+      "alle dagene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "mange",
+      "dag",
+      "mange dagene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "noen",
+      "dag",
+      "noen dagene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "alle",
+      "far",
+      "alle farene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "mange",
+      "far",
+      "mange farene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "noen",
+      "far",
+      "noen farene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "alle",
+      "gang",
+      "alle gangene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "mange",
+      "gang",
+      "mange gangene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "noen",
+      "gang",
+      "noen gangene",
+      {
+        "rule_id": "n_masc_pl_override"
+      }
+    ],
+    [
+      "et",
+      "barn",
+      "et barnet",
+      {
+        "rule_id": "n_neut_sg_override"
+      }
+    ],
+    [
+      "et",
+      "folk",
+      "et folket",
+      {
+        "rule_id": "n_neut_sg_override"
+      }
+    ],
+    [
+      "et",
+      "for",
+      "et foret",
+      {
+        "rule_id": "n_neut_sg_override"
+      }
+    ],
+    [
+      "et",
+      "liv",
+      "et livet",
+      {
+        "rule_id": "n_neut_sg_override"
+      }
+    ],
+    [
+      "flere",
+      "barn",
+      "flere barna",
+      {
+        "rule_id": "n_neut_pl_override"
+      }
+    ],
+    [
+      "flere",
+      "folk",
+      "flere folkene",
+      {
+        "rule_id": "n_neut_pl_override"
+      }
+    ],
+    [
+      "flere",
+      "for",
+      "flere forene",
+      {
+        "rule_id": "n_neut_pl_override"
+      }
+    ],
+    [
+      "flere",
+      "liv",
+      "flere livene",
+      {
+        "rule_id": "n_neut_pl_override"
+      }
+    ],
+    [
+      "den",
+      "godt",
+      "den godtet",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "denne",
+      "godt",
+      "denne godtet",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "den",
+      "hele",
+      "den helen",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "denne",
+      "hele",
+      "denne helen",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "den",
+      "skal",
+      "den skallet",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "denne",
+      "skal",
+      "denne skallet",
+      {
+        "rule_id": "n_fem_masc_sg_override"
+      }
+    ],
+    [
+      "disse",
+      "godt",
+      "disse godtene",
+      {
+        "rule_id": "n_fem_masc_pl_override"
+      }
+    ],
+    [
+      "disse",
+      "hele",
+      "disse helene",
+      {
+        "rule_id": "n_fem_masc_pl_override"
+      }
+    ],
+    [
+      "disse",
+      "skal",
+      "disse skallene",
+      {
+        "rule_id": "n_fem_masc_pl_override"
+      }
+    ],
+    [
+      "det",
+      "kan",
+      "det kanet",
+      {
+        "rule_id": "n_neut_def_sg_override_kan"
+      }
+    ],
+    [
+      "livet",
+      "liv",
+      "livet livet",
+      {
+        "rule_id": "n_masc_sg_override_liv"
+      }
+    ],
+    [
+      "hun",
+      "hun",
+      "hun hunen",
+      {
+        "rule_id": "n_masc_sg_override_hun"
+      }
+    ],
+    [
+      "motet",
+      "mot",
+      "motet motet",
+      {
+        "rule_id": "n_masc_def_sg_override_mot"
+      }
+    ],
+    [
+      "den",
+      "angre",
+      "den angrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_hele"
+      }
+    ],
+    [
+      "det",
+      "angre",
+      "det angrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_hele"
+      }
+    ],
+    [
+      "den",
+      "bedre",
+      "den bedrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_hele"
+      }
+    ],
+    [
+      "det",
+      "bedre",
+      "det bedrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_hele"
+      }
+    ],
+    [
+      "de",
+      "angre",
+      "de angrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_være"
+      }
+    ],
+    [
+      "du",
+      "angre",
+      "du angrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_være"
+      }
+    ],
+    [
+      "de",
+      "bedre",
+      "de bedrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_være"
+      }
+    ],
+    [
+      "du",
+      "bedre",
+      "du bedrer",
+      {
+        "inflection": "v_ind_prs",
+        "rule_id": "v_ind_prs_være"
+      }
+    ],
+    [
+      "har",
+      "bade",
+      "har badet",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele"
+      }
+    ],
+    [
+      "har",
+      "bedre",
+      "har bedra",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele"
+      }
+    ],
+    [
+      "blitt",
+      "bade",
+      "blitt badet",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele_har_blitt"
+      }
+    ],
+    [
+      "blitt",
+      "bedre",
+      "blitt bedra",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "v_ptcp_pst_hele_har_blitt"
+      }
+    ],
+    [
+      "et",
+      "annen",
+      "et annet",
+      {
+        "inflection": "adj_neut_sg",
+        "rule_id": "adj_neut_sg_hel"
+      }
+    ]
+  ]
 }

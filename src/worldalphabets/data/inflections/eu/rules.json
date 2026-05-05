@@ -3,7 +3,248 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "ez_negation_particle",
+      "lookback": [
+        {
+          "words": [
+            "da",
+            "du",
+            "dut",
+            "duzu",
+            "izan",
+            "ukan"
+          ]
+        }
+      ],
+      "overrides": {
+        "ez": "ezin"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_dative_particle",
+      "lookback": [
+        {
+          "words": [
+            "bai"
+          ]
+        }
+      ],
+      "overrides": {
+        "bai": "bait",
+        "da": "dat"
+      },
+      "type": "override"
+    },
+    {
+      "id": "erabil_present_tense",
+      "inflection": "v_argabs1_argabspl_argerg2_argergpl_pres_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "erabili"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "izan_future_tense",
+      "inflection": "v_argabs1_argabspl_argio2_argiopl_hyp_pot",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "izan"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ukan_past_tense",
+      "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ukan"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "article_noun_agreement",
+      "inflection": "v_argabs3_argabspl_argerg1_argergpl_pres_ind",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bat"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pronoun_objective_case",
+      "inflection": "v_argabs2_argabssg_argerg1_argergsg_pres_ind",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dut",
+            "duzu"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "da",
+      "ez",
+      "da ezin",
+      {
+        "rule_id": "ez_negation_particle"
+      }
+    ],
+    [
+      "du",
+      "ez",
+      "du ezin",
+      {
+        "rule_id": "ez_negation_particle"
+      }
+    ],
+    [
+      "dut",
+      "ez",
+      "dut ezin",
+      {
+        "rule_id": "ez_negation_particle"
+      }
+    ],
+    [
+      "bai",
+      "bai",
+      "bai bait",
+      {
+        "rule_id": "da_dative_particle"
+      }
+    ],
+    [
+      "bai",
+      "da",
+      "bai dat",
+      {
+        "rule_id": "da_dative_particle"
+      }
+    ],
+    [
+      "erabili",
+      "eduki",
+      "erabili gauzkazue",
+      {
+        "inflection": "v_argabs1_argabspl_argerg2_argergpl_pres_ind",
+        "rule_id": "erabil_present_tense"
+      }
+    ],
+    [
+      "erabili",
+      "ekarri",
+      "erabili gakartzazue",
+      {
+        "inflection": "v_argabs1_argabspl_argerg2_argergpl_pres_ind",
+        "rule_id": "erabil_present_tense"
+      }
+    ],
+    [
+      "erabili",
+      "erabili",
+      "erabili garabiltzazue",
+      {
+        "inflection": "v_argabs1_argabspl_argerg2_argergpl_pres_ind",
+        "rule_id": "erabil_present_tense"
+      }
+    ],
+    [
+      "erabili",
+      "eraman",
+      "erabili garamatzazue",
+      {
+        "inflection": "v_argabs1_argabspl_argerg2_argergpl_pres_ind",
+        "rule_id": "erabil_present_tense"
+      }
+    ],
+    [
+      "izan",
+      "egon",
+      "izan gengozkizueke",
+      {
+        "inflection": "v_argabs1_argabspl_argio2_argiopl_hyp_pot",
+        "rule_id": "izan_future_tense"
+      }
+    ],
+    [
+      "izan",
+      "etorri",
+      "izan gentozkizueke",
+      {
+        "inflection": "v_argabs1_argabspl_argio2_argiopl_hyp_pot",
+        "rule_id": "izan_future_tense"
+      }
+    ],
+    [
+      "ukan",
+      "eduki",
+      "ukan nindukan",
+      {
+        "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+        "rule_id": "ukan_past_tense"
+      }
+    ],
+    [
+      "ukan",
+      "edun",
+      "ukan ninduen",
+      {
+        "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+        "rule_id": "ukan_past_tense"
+      }
+    ],
+    [
+      "ukan",
+      "ekarri",
+      "ukan nindekarren",
+      {
+        "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+        "rule_id": "ukan_past_tense"
+      }
+    ],
+    [
+      "ukan",
+      "erabili",
+      "ukan ninderabilen",
+      {
+        "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+        "rule_id": "ukan_past_tense"
+      }
+    ],
+    [
+      "ukan",
+      "eraman",
+      "ukan ninderaman",
+      {
+        "inflection": "v_argabs1_argabssg_argerg3_argergsg_past_ind",
+        "rule_id": "ukan_past_tense"
+      }
+    ]
+  ]
 }

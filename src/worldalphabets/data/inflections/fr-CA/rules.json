@@ -66,119 +66,263 @@
   "inflection_locations": {},
   "rules": [
     {
-      "id": "rule_1",
+      "id": "fr_CA_verb_negation_present",
+      "lookback": [
+        {
+          "words": [
+            "jamais",
+            "ne",
+            "pas",
+            "personne",
+            "plus",
+            "rien"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "a",
+        "ai": "ai",
+        "as": "as",
+        "avez": "avez",
+        "avons": "avons",
+        "es": "es",
+        "est": "est",
+        "ont": "ont",
+        "sommes": "sommes",
+        "sont": "sont",
+        "suis": "suis"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_verb_negation_passe_compose",
+      "lookback": [
+        {
+          "words": [
+            "n'"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "a",
+        "ai": "ai",
+        "as": "as",
+        "avez": "avez",
+        "avons": "avons",
+        "ont": "ont"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_pronoun_direct_object_3sg",
+      "lookback": [
+        {
+          "words": [
+            "l'",
+            "la",
+            "le"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "l'a",
+        "ai": "l'ai",
+        "as": "l'as",
+        "avez": "l'avez",
+        "avons": "l'avons",
+        "ont": "l'ont"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_pronoun_direct_object_3pl",
+      "lookback": [
+        {
+          "words": [
+            "les"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "les a",
+        "ai": "les ai",
+        "as": "les as",
+        "avez": "les avez",
+        "avons": "les avons",
+        "ont": "les ont"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_pronoun_indirect_object_3sg",
+      "lookback": [
+        {
+          "words": [
+            "lui"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "lui a",
+        "ai": "lui ai",
+        "as": "lui as",
+        "avez": "lui avez",
+        "avons": "lui avons",
+        "ont": "lui ont"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_pronoun_indirect_object_3pl",
+      "lookback": [
+        {
+          "words": [
+            "leur"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "leur a",
+        "ai": "leur ai",
+        "as": "leur as",
+        "avez": "leur avez",
+        "avons": "leur avons",
+        "ont": "leur ont"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_CA_verb_avoir_present_1sg",
       "inflection": "v_ind_prs_1_sg",
-      "location": "e",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "a",
-            "ai",
-            "as",
-            "avez"
+            "j'",
+            "je"
           ]
         }
       ],
       "type": "verb"
     },
     {
-      "id": "rule_2",
-      "inflection": "v_ind_fut_3_sg",
-      "location": "e",
+      "id": "fr_CA_verb_avoir_present_2sg",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "aler",
-            "commer"
+            "tu"
           ]
         }
       ],
       "type": "verb"
     },
     {
-      "id": "rule_3",
-      "inflection": "v_cond_3_sg",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "aveir",
-            "avoyr"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "rule_4",
+      "id": "fr_CA_verb_avoir_present_3sg",
       "inflection": "v_ind_prs_3_sg",
-      "location": "e",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "juste",
-            "juster"
+            "elle",
+            "il",
+            "on",
+            "ça"
           ]
         }
       ],
       "type": "verb"
     },
     {
-      "id": "rule_5",
+      "id": "fr_CA_verb_avoir_present_1pl",
       "inflection": "v_ind_prs_1_pl",
-      "location": "e",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "estre"
+            "nous"
           ]
         }
       ],
       "type": "verb"
     },
     {
-      "id": "rule_6",
-      "inflection": "v_ind_fut_2_sg",
-      "location": "e",
+      "id": "fr_CA_verb_avoir_present_2pl",
+      "inflection": "v_ind_prs_2_pl",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "dire"
+            "vous"
           ]
         }
       ],
       "type": "verb"
     },
     {
-      "id": "rule_7",
+      "id": "fr_CA_verb_avoir_present_3pl",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "elles",
+            "ils"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_CA_verb_avoir_imperative_2sg",
+      "inflection": "v_pos_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "!"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_CA_verb_subjunctive_present_3sg",
+      "inflection": "v_sbjv_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "qu'",
+            "que"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_CA_verb_participle_present",
+      "inflection": "v_ptcp_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_CA_verb_participle_past",
       "inflection": "v_ptcp_pst",
-      "location": "e",
+      "location": "sw",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "luire"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "rule_8",
-      "inflection": "v_sbjv_prs_1_sg",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "lesser",
-            "lessier"
+            ".",
+            "?"
           ]
         }
       ],
@@ -186,5 +330,741 @@
     }
   ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "jamais",
+      "a",
+      "jamais a",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "a",
+      "ne a",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "a",
+      "pas a",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "ai",
+      "jamais ai",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "ai",
+      "ne ai",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "ai",
+      "pas ai",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "as",
+      "jamais as",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "as",
+      "ne as",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "as",
+      "pas as",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "avez",
+      "jamais avez",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "avez",
+      "ne avez",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "avez",
+      "pas avez",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "avons",
+      "jamais avons",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "avons",
+      "ne avons",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "avons",
+      "pas avons",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "es",
+      "jamais es",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "es",
+      "ne es",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "es",
+      "pas es",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "est",
+      "jamais est",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "est",
+      "ne est",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "est",
+      "pas est",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "ont",
+      "jamais ont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "ont",
+      "ne ont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "ont",
+      "pas ont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "sommes",
+      "jamais sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "sommes",
+      "ne sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "sommes",
+      "pas sommes",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "sont",
+      "jamais sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "sont",
+      "ne sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "sont",
+      "pas sont",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "jamais",
+      "suis",
+      "jamais suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "ne",
+      "suis",
+      "ne suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "pas",
+      "suis",
+      "pas suis",
+      {
+        "rule_id": "fr_CA_verb_negation_present"
+      }
+    ],
+    [
+      "n'",
+      "a",
+      "n' a",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "n'",
+      "ai",
+      "n' ai",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "n'",
+      "as",
+      "n' as",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "n'",
+      "avez",
+      "n' avez",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "n'",
+      "avons",
+      "n' avons",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "n'",
+      "ont",
+      "n' ont",
+      {
+        "rule_id": "fr_CA_verb_negation_passe_compose"
+      }
+    ],
+    [
+      "l'",
+      "a",
+      "l' l'a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "a",
+      "la l'a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "a",
+      "le l'a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "l'",
+      "ai",
+      "l' l'ai",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "ai",
+      "la l'ai",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "ai",
+      "le l'ai",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "l'",
+      "as",
+      "l' l'as",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "as",
+      "la l'as",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "as",
+      "le l'as",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "l'",
+      "avez",
+      "l' l'avez",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "avez",
+      "la l'avez",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "avez",
+      "le l'avez",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "l'",
+      "avons",
+      "l' l'avons",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "avons",
+      "la l'avons",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "avons",
+      "le l'avons",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "l'",
+      "ont",
+      "l' l'ont",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "la",
+      "ont",
+      "la l'ont",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "le",
+      "ont",
+      "le l'ont",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3sg"
+      }
+    ],
+    [
+      "les",
+      "a",
+      "les les a",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
+      "ai",
+      "les les ai",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
+      "as",
+      "les les as",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
+      "avez",
+      "les les avez",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
+      "avons",
+      "les les avons",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "les",
+      "ont",
+      "les les ont",
+      {
+        "rule_id": "fr_CA_pronoun_direct_object_3pl"
+      }
+    ],
+    [
+      "lui",
+      "a",
+      "lui lui a",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "lui",
+      "ai",
+      "lui lui ai",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "lui",
+      "as",
+      "lui lui as",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "lui",
+      "avez",
+      "lui lui avez",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "lui",
+      "avons",
+      "lui lui avons",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "lui",
+      "ont",
+      "lui lui ont",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3sg"
+      }
+    ],
+    [
+      "leur",
+      "a",
+      "leur leur a",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "leur",
+      "ai",
+      "leur leur ai",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "leur",
+      "as",
+      "leur leur as",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "leur",
+      "avez",
+      "leur leur avez",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "leur",
+      "avons",
+      "leur leur avons",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "leur",
+      "ont",
+      "leur leur ont",
+      {
+        "rule_id": "fr_CA_pronoun_indirect_object_3pl"
+      }
+    ],
+    [
+      "j'",
+      "acheter",
+      "j' achète",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_CA_verb_avoir_present_1sg"
+      }
+    ],
+    [
+      "je",
+      "acheter",
+      "je achète",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_CA_verb_avoir_present_1sg"
+      }
+    ],
+    [
+      "tu",
+      "acheter",
+      "tu achètes",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_CA_verb_avoir_present_2sg"
+      }
+    ],
+    [
+      "elle",
+      "acheter",
+      "elle achète",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_CA_verb_avoir_present_3sg"
+      }
+    ],
+    [
+      "il",
+      "acheter",
+      "il achète",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_CA_verb_avoir_present_3sg"
+      }
+    ],
+    [
+      "nous",
+      "acheter",
+      "nous achetons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_CA_verb_avoir_present_1pl"
+      }
+    ],
+    [
+      "vous",
+      "acheter",
+      "vous achetez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_CA_verb_avoir_present_2pl"
+      }
+    ],
+    [
+      "elles",
+      "acheter",
+      "elles achètent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_CA_verb_avoir_present_3pl"
+      }
+    ],
+    [
+      "ils",
+      "acheter",
+      "ils achètent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_CA_verb_avoir_present_3pl"
+      }
+    ],
+    [
+      "!",
+      "acheter",
+      "! achète",
+      {
+        "inflection": "v_pos_imp_2_sg",
+        "rule_id": "fr_CA_verb_avoir_imperative_2sg"
+      }
+    ],
+    [
+      "qu'",
+      "acheter",
+      "qu' achète",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_CA_verb_subjunctive_present_3sg"
+      }
+    ],
+    [
+      "que",
+      "acheter",
+      "que achète",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_CA_verb_subjunctive_present_3sg"
+      }
+    ],
+    [
+      "en",
+      "acheter",
+      "en achetant",
+      {
+        "inflection": "v_ptcp_prs",
+        "rule_id": "fr_CA_verb_participle_present"
+      }
+    ],
+    [
+      ".",
+      "acheter",
+      ". acheté",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "fr_CA_verb_participle_past"
+      }
+    ],
+    [
+      "?",
+      "acheter",
+      "? acheté",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "fr_CA_verb_participle_past"
+      }
+    ]
+  ]
 }

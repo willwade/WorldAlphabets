@@ -52,7 +52,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "achar"
           ]
@@ -66,21 +65,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
-          "words": [
-            "dizer"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "dizer_v_2_sg_imp_pos",
-      "inflection": "v_2_sg_imp_pos",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
           "words": [
             "dizer"
           ]
@@ -94,7 +78,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "coisar"
           ]
@@ -104,5 +87,33 @@
     }
   ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "achar",
+      "abrir",
+      "achar abro",
+      {
+        "inflection": "v_1_sg_ind_prs",
+        "rule_id": "achar_v_1_sg_ind_prs"
+      }
+    ],
+    [
+      "dizer",
+      "abrir",
+      "dizer abriríamos",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "dizer_v_1_pl_cond"
+      }
+    ],
+    [
+      "coisar",
+      "abrir",
+      "coisar abre",
+      {
+        "inflection": "v_2_sg_imp_pos",
+        "rule_id": "coisar_v_2_sg_imp_pos"
+      }
+    ]
+  ]
 }

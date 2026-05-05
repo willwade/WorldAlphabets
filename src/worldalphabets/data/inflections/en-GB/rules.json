@@ -3,7 +3,570 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "a_to_an",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "an"
+      },
+      "type": "override"
+    },
+    {
+      "id": "an_to_a",
+      "lookback": [
+        {
+          "words": [
+            "an"
+          ]
+        }
+      ],
+      "overrides": {
+        "an": "a"
+      },
+      "type": "override"
+    },
+    {
+      "id": "i_am",
+      "lookback": [
+        {
+          "words": [
+            "i"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "am"
+      },
+      "type": "override"
+    },
+    {
+      "id": "you_are",
+      "lookback": [
+        {
+          "words": [
+            "you"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "’re"
+      },
+      "type": "override"
+    },
+    {
+      "id": "they_are",
+      "lookback": [
+        {
+          "words": [
+            "they"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "’re"
+      },
+      "type": "override"
+    },
+    {
+      "id": "we_are",
+      "lookback": [
+        {
+          "words": [
+            "we"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "’re"
+      },
+      "type": "override"
+    },
+    {
+      "id": "he_she_it_is",
+      "lookback": [
+        {
+          "words": [
+            "he",
+            "it",
+            "she"
+          ]
+        }
+      ],
+      "overrides": {
+        "are": "is"
+      },
+      "type": "override"
+    },
+    {
+      "id": "not_at_all",
+      "lookback": [
+        {
+          "words": [
+            "not"
+          ]
+        }
+      ],
+      "overrides": {
+        "at": "at all"
+      },
+      "type": "override"
+    },
+    {
+      "id": "how_about",
+      "lookback": [
+        {
+          "words": [
+            "how"
+          ]
+        }
+      ],
+      "overrides": {
+        "about": "about"
+      },
+      "type": "override"
+    },
+    {
+      "id": "with_her",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "at",
+            "for",
+            "with"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "these_dogs",
+      "inflection": "plural",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "many",
+            "some",
+            "these",
+            "those"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "has_she_looked",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "had",
+            "has",
+            "have",
+            "he",
+            "i",
+            "it",
+            "she",
+            "they",
+            "you"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "have_we_seen",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "we"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "do_you_know",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "did",
+            "do",
+            "does"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "will_you_see",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "'ll",
+            "will"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "won't_he_come",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "won",
+            "won't"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "can_you_go",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "can",
+            "could",
+            "may",
+            "might"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "must_we_do",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "must"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "should_he_think",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "should"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "be_you_good",
+      "inflection": "base_form",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "be"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "being_she_happy",
+      "inflection": "present_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "being"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "been_it_done",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "been"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "up_to",
+      "inflection": "up_to",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "up"
+          ]
+        }
+      ],
+      "type": "preposition"
+    },
+    {
+      "id": "one_of_them",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "one"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "well_done",
+      "inflection": "positive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "well"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "oh_dear",
+      "inflection": "emphatic",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "oh"
+          ]
+        }
+      ],
+      "type": "interjection"
+    },
+    {
+      "id": "yeah_right",
+      "inflection": "emphatic",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "yeah"
+          ]
+        }
+      ],
+      "type": "interjection"
+    },
+    {
+      "id": "to_be_or_not_to_be",
+      "inflection": "infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "to"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "has_got",
+      "inflection": "present_perfect",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "got"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "don't_know",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "don't"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "doesn't_want",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "doesn't"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "didn't_come",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "didn't"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "can't_see",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "can't"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mustn't_do",
+      "inflection": "bare_infinitive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mustn't"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "a",
+      "a",
+      "a an",
+      {
+        "rule_id": "a_to_an"
+      }
+    ],
+    [
+      "an",
+      "an",
+      "an a",
+      {
+        "rule_id": "an_to_a"
+      }
+    ],
+    [
+      "i",
+      "are",
+      "i am",
+      {
+        "rule_id": "i_am"
+      }
+    ],
+    [
+      "you",
+      "are",
+      "you ’re",
+      {
+        "rule_id": "you_are"
+      }
+    ],
+    [
+      "they",
+      "are",
+      "they ’re",
+      {
+        "rule_id": "they_are"
+      }
+    ],
+    [
+      "we",
+      "are",
+      "we ’re",
+      {
+        "rule_id": "we_are"
+      }
+    ],
+    [
+      "he",
+      "are",
+      "he is",
+      {
+        "rule_id": "he_she_it_is"
+      }
+    ],
+    [
+      "it",
+      "are",
+      "it is",
+      {
+        "rule_id": "he_she_it_is"
+      }
+    ],
+    [
+      "she",
+      "are",
+      "she is",
+      {
+        "rule_id": "he_she_it_is"
+      }
+    ],
+    [
+      "not",
+      "at",
+      "not at all",
+      {
+        "rule_id": "not_at_all"
+      }
+    ],
+    [
+      "how",
+      "about",
+      "how about",
+      {
+        "rule_id": "how_about"
+      }
+    ]
+  ]
 }

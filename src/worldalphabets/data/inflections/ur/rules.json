@@ -1,9 +1,350 @@
 {
-  "_type": "rules",
   "_locale": "ur",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "masc_sg_ipfv_participle",
+      "inflection": "v_v_ptcp_masc_sg_ipfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "رہا",
+            "رہی",
+            "رہے"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fem_sg_pfv_participle",
+      "inflection": "v_v_ptcp_fem_sg_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "گئی",
+            "گئے"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "imp_sg_infinitive",
+      "inflection": "v_2_sg_imp_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "نا",
+            "نے"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "habitual_pl_masc",
+      "inflection": "v_1_pl_hab_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "تے"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "habitual_pl_masc_تے_ہیں",
+      "inflection": "v_1_pl_hab_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ہیں"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "رہا",
+      "دیکھنا",
+      "رہا دیکھتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہی",
+      "دیکھنا",
+      "رہی دیکھتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہا",
+      "سوچنا",
+      "رہا سوچتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہی",
+      "سوچنا",
+      "رہی سوچتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہا",
+      "سکنا",
+      "رہا سکتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہی",
+      "سکنا",
+      "رہی سکتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہا",
+      "لگنا",
+      "رہا لگتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "رہی",
+      "لگنا",
+      "رہی لگتا",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "masc_sg_ipfv_participle"
+      }
+    ],
+    [
+      "گئی",
+      "دیکھنا",
+      "گئی دیکھی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "گئے",
+      "دیکھنا",
+      "گئے دیکھی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "گئی",
+      "لگنا",
+      "گئی لگی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "گئے",
+      "لگنا",
+      "گئے لگی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "گئی",
+      "مٹنا",
+      "گئی مٹی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "گئے",
+      "مٹنا",
+      "گئے مٹی",
+      {
+        "inflection": "v_v_ptcp_fem_sg_pfv",
+        "rule_id": "fem_sg_pfv_participle"
+      }
+    ],
+    [
+      "نا",
+      "اٹھانا",
+      "نا اٹھا",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "اٹھانا",
+      "نے اٹھا",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "بولنا",
+      "نا بول",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "بولنا",
+      "نے بول",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "دیکھنا",
+      "نا دیکھ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "دیکھنا",
+      "نے دیکھ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "سمجھنا",
+      "نا سمجھ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "سمجھنا",
+      "نے سمجھ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "سوچنا",
+      "نا سوچ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "سوچنا",
+      "نے سوچ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "لگنا",
+      "نا لگ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "لگنا",
+      "نے لگ",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نا",
+      "ملانا",
+      "نا ملا",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "نے",
+      "ملانا",
+      "نے ملا",
+      {
+        "inflection": "v_2_sg_imp_infm",
+        "rule_id": "imp_sg_infinitive"
+      }
+    ],
+    [
+      "تے",
+      "دیکھنا",
+      "تے دیکھتے ہیں",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "habitual_pl_masc"
+      }
+    ],
+    [
+      "ہیں",
+      "دیکھنا",
+      "ہیں دیکھتے ہیں",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "habitual_pl_masc_تے_ہیں"
+      }
+    ]
+  ]
 }

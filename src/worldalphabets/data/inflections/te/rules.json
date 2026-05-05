@@ -1,9 +1,501 @@
 {
-  "_type": "rules",
   "_locale": "te",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "noun_sg_voc_pl_voc",
+      "inflection": "n_pl_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "అశోకుడు",
+            "ఆర్యుడు",
+            "ఇంద్రుడు",
+            "కేశవుడు",
+            "గంధర్వుడు",
+            "వరుణుడు",
+            "శిష్యుడు"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_sg_voc_pl_voc_2",
+      "inflection": "n_pl_voc_2",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "కుమారుడు"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_past_plural_common",
+      "inflection": "v_3_fem_pl_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ఉండు",
+            "చెప్పు",
+            "చేయు",
+            "వచ్చు"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_past_feminine_singular",
+      "inflection": "v_3_fem_sg_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "గజరుగు",
+            "పెరుగు",
+            "సాధించు"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_past_second_person_plural",
+      "inflection": "v_2_pl_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ప్రారంభించు"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "అశోకుడు",
+      "అశోకుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "అశోకుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "ఆర్యుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "ఆర్యుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "ఇంద్రుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "ఇంద్రుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "కుమారుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "కుమారుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "కేశవుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "కేశవుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "గంధర్వుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "గంధర్వుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "వరుణుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "వరుణుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "అశోకుడు",
+      "శిష్యుడు",
+      "అశోకుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "ఆర్యుడు",
+      "శిష్యుడు",
+      "ఆర్యుడు ఓ",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "noun_sg_voc_pl_voc"
+      }
+    ],
+    [
+      "కుమారుడు",
+      "కుమారుడు",
+      "కుమారుడు కుమారులారా",
+      {
+        "inflection": "n_pl_voc_2",
+        "rule_id": "noun_sg_voc_pl_voc_2"
+      }
+    ],
+    [
+      "ఉండు",
+      "ఉండు",
+      "ఉండు ఉన్నారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "చెప్పు",
+      "ఉండు",
+      "చెప్పు ఉన్నారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "ఉండు",
+      "చెప్పు",
+      "ఉండు చెప్పారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "చెప్పు",
+      "చెప్పు",
+      "చెప్పు చెప్పారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "ఉండు",
+      "చేయు",
+      "ఉండు చేశారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "చెప్పు",
+      "చేయు",
+      "చెప్పు చేశారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "ఉండు",
+      "ప్రారంభించు",
+      "ఉండు ప్రారంభించారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "చెప్పు",
+      "ప్రారంభించు",
+      "చెప్పు ప్రారంభించారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "ఉండు",
+      "వచ్చు",
+      "ఉండు వచ్చారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "చెప్పు",
+      "వచ్చు",
+      "చెప్పు వచ్చారు",
+      {
+        "inflection": "v_3_fem_pl_pst",
+        "rule_id": "verb_past_plural_common"
+      }
+    ],
+    [
+      "గజరుగు",
+      "ఉండు",
+      "గజరుగు ఉన్నది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "ఉండు",
+      "పెరుగు ఉన్నది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "చెప్పు",
+      "గజరుగు చెప్పింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "చెప్పు",
+      "పెరుగు చెప్పింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "చేయు",
+      "గజరుగు చేసింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "చేయు",
+      "పెరుగు చేసింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "జరుగు",
+      "గజరుగు జరిగింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "జరుగు",
+      "పెరుగు జరిగింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "పెరుగు",
+      "గజరుగు పెరిగింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "పెరుగు",
+      "పెరుగు పెరిగింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "వచ్చు",
+      "గజరుగు వచ్చింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "వచ్చు",
+      "పెరుగు వచ్చింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "గజరుగు",
+      "సాధించు",
+      "గజరుగు సాధించింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "పెరుగు",
+      "సాధించు",
+      "పెరుగు సాధించింది",
+      {
+        "inflection": "v_3_fem_sg_pst",
+        "rule_id": "verb_past_feminine_singular"
+      }
+    ],
+    [
+      "ప్రారంభించు",
+      "ఉండు",
+      "ప్రారంభించు ఉన్నారు",
+      {
+        "inflection": "v_2_pl_pst",
+        "rule_id": "verb_past_second_person_plural"
+      }
+    ],
+    [
+      "ప్రారంభించు",
+      "చెప్పు",
+      "ప్రారంభించు చెప్పారు",
+      {
+        "inflection": "v_2_pl_pst",
+        "rule_id": "verb_past_second_person_plural"
+      }
+    ],
+    [
+      "ప్రారంభించు",
+      "చేయు",
+      "ప్రారంభించు చేశారు",
+      {
+        "inflection": "v_2_pl_pst",
+        "rule_id": "verb_past_second_person_plural"
+      }
+    ],
+    [
+      "ప్రారంభించు",
+      "ప్రారంభించు",
+      "ప్రారంభించు ప్రారంభించారు",
+      {
+        "inflection": "v_2_pl_pst",
+        "rule_id": "verb_past_second_person_plural"
+      }
+    ],
+    [
+      "ప్రారంభించు",
+      "వచ్చు",
+      "ప్రారంభించు వచ్చారు",
+      {
+        "inflection": "v_2_pl_pst",
+        "rule_id": "verb_past_second_person_plural"
+      }
+    ]
+  ]
 }

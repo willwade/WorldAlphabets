@@ -1,9 +1,1449 @@
 {
-  "_type": "rules",
   "_locale": "id",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "me_aku_override",
+      "lookback": [
+        {
+          "words": [
+            "aku"
+          ]
+        }
+      ],
+      "overrides": {
+        "aku": "aku"
+      },
+      "type": "override"
+    },
+    {
+      "id": "saya_aku_override",
+      "lookback": [
+        {
+          "words": [
+            "saya"
+          ]
+        }
+      ],
+      "overrides": {
+        "aku": "saya"
+      },
+      "type": "override"
+    },
+    {
+      "id": "kau_override",
+      "lookback": [
+        {
+          "words": [
+            "kau"
+          ]
+        }
+      ],
+      "overrides": {
+        "awak": "kau"
+      },
+      "type": "override"
+    },
+    {
+      "id": "kamu_kau_override",
+      "lookback": [
+        {
+          "words": [
+            "kamu"
+          ]
+        }
+      ],
+      "overrides": {
+        "awak": "kamu"
+      },
+      "type": "override"
+    },
+    {
+      "id": "ada_verb_adj_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "ada"
+          ]
+        }
+      ],
+      "overrides": {
+        "ada": "ada"
+      },
+      "type": "override"
+    },
+    {
+      "id": "bagus_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "bagus"
+          ]
+        }
+      ],
+      "overrides": {
+        "bagus": "bagus",
+        "baik": "bagus"
+      },
+      "type": "override"
+    },
+    {
+      "id": "baik_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "baik"
+          ]
+        }
+      ],
+      "overrides": {
+        "bagus": "baik",
+        "baik": "baik",
+        "manis": "baik"
+      },
+      "type": "override"
+    },
+    {
+      "id": "banyak_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "banyak"
+          ]
+        }
+      ],
+      "overrides": {
+        "banyak": "banyak"
+      },
+      "type": "override"
+    },
+    {
+      "id": "benar_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "benar"
+          ]
+        }
+      ],
+      "overrides": {
+        "benar": "benar"
+      },
+      "type": "override"
+    },
+    {
+      "id": "besar_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "besar"
+          ]
+        }
+      ],
+      "overrides": {
+        "besar": "besar",
+        "tinggi": "besar"
+      },
+      "type": "override"
+    },
+    {
+      "id": "dekat_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "dekat"
+          ]
+        }
+      ],
+      "overrides": {
+        "dekat": "dekat"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hal_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "hal"
+          ]
+        }
+      ],
+      "overrides": {
+        "hal": "hal"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hari_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "hari"
+          ]
+        }
+      ],
+      "overrides": {
+        "hari": "hari",
+        "waktu": "hari"
+      },
+      "type": "override"
+    },
+    {
+      "id": "harus_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "harus"
+          ]
+        }
+      ],
+      "overrides": {
+        "harus": "harus",
+        "perlu": "harus"
+      },
+      "type": "override"
+    },
+    {
+      "id": "ingin_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "ingin"
+          ]
+        }
+      ],
+      "overrides": {
+        "ingin": "ingin"
+      },
+      "type": "override"
+    },
+    {
+      "id": "jadi_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "jadi"
+          ]
+        }
+      ],
+      "overrides": {
+        "jadi": "jadi"
+      },
+      "type": "override"
+    },
+    {
+      "id": "kasih_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "kasih"
+          ]
+        }
+      ],
+      "overrides": {
+        "cinta": "kasih",
+        "kasih": "kasih",
+        "sayang": "kasih"
+      },
+      "type": "override"
+    },
+    {
+      "id": "keluar_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "keluar"
+          ]
+        }
+      ],
+      "overrides": {
+        "keluar": "keluar"
+      },
+      "type": "override"
+    },
+    {
+      "id": "kembali_verb_override",
+      "lookback": [
+        {
+          "words": [
+            "kembali"
+          ]
+        }
+      ],
+      "overrides": {
+        "balik": "kembali",
+        "kembali": "kembali",
+        "pulang": "kembali"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lain_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "lain"
+          ]
+        }
+      ],
+      "overrides": {
+        "asing": "lain",
+        "lain": "lain"
+      },
+      "type": "override"
+    },
+    {
+      "id": "lebih_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "lebih"
+          ]
+        }
+      ],
+      "overrides": {
+        "lebih": "lebih"
+      },
+      "type": "override"
+    },
+    {
+      "id": "malam_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "malam"
+          ]
+        }
+      ],
+      "overrides": {
+        "malam": "malam"
+      },
+      "type": "override"
+    },
+    {
+      "id": "mana_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "mana"
+          ]
+        }
+      ],
+      "overrides": {
+        "mana": "mana",
+        "tempat": "mana"
+      },
+      "type": "override"
+    },
+    {
+      "id": "orang_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "orang"
+          ]
+        }
+      ],
+      "overrides": {
+        "orang": "orang"
+      },
+      "type": "override"
+    },
+    {
+      "id": "tempat_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "tempat"
+          ]
+        }
+      ],
+      "overrides": {
+        "tempat": "tempat"
+      },
+      "type": "override"
+    },
+    {
+      "id": "anak_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "anak"
+          ]
+        }
+      ],
+      "overrides": {
+        "anak": "anak",
+        "bayi": "anak"
+      },
+      "type": "override"
+    },
+    {
+      "id": "atas_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "atas"
+          ]
+        }
+      ],
+      "overrides": {
+        "atas": "atas"
+      },
+      "type": "override"
+    },
+    {
+      "id": "dalam_adj_override",
+      "lookback": [
+        {
+          "words": [
+            "dalam"
+          ]
+        }
+      ],
+      "overrides": {
+        "dalam": "dalam"
+      },
+      "type": "override"
+    },
+    {
+      "id": "waktu_noun_override",
+      "lookback": [
+        {
+          "words": [
+            "waktu"
+          ]
+        }
+      ],
+      "overrides": {
+        "masa": "waktu",
+        "waktu": "waktu"
+      },
+      "type": "override"
+    },
+    {
+      "id": "laku_verb_override",
+      "inflection": "v_act_tr",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "laku"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lalu_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "lalu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lihat_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "lihat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "pergi_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "pergi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "punya_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "punya"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sudah_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sudah"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "tahu_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tahu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "terjadi_verb_override",
+      "inflection": "v_pass_def",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "terjadi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "datang_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "datang"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bilang_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "bilang"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bisa_verb_override",
+      "inflection": "v_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "bisa"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "aku",
+      "aku",
+      "aku aku",
+      {
+        "rule_id": "me_aku_override"
+      }
+    ],
+    [
+      "saya",
+      "aku",
+      "saya saya",
+      {
+        "rule_id": "saya_aku_override"
+      }
+    ],
+    [
+      "kau",
+      "awak",
+      "kau kau",
+      {
+        "rule_id": "kau_override"
+      }
+    ],
+    [
+      "kamu",
+      "awak",
+      "kamu kamu",
+      {
+        "rule_id": "kamu_kau_override"
+      }
+    ],
+    [
+      "ada",
+      "ada",
+      "ada ada",
+      {
+        "rule_id": "ada_verb_adj_noun_override"
+      }
+    ],
+    [
+      "bagus",
+      "bagus",
+      "bagus bagus",
+      {
+        "rule_id": "bagus_adj_override"
+      }
+    ],
+    [
+      "bagus",
+      "baik",
+      "bagus bagus",
+      {
+        "rule_id": "bagus_adj_override"
+      }
+    ],
+    [
+      "baik",
+      "bagus",
+      "baik baik",
+      {
+        "rule_id": "baik_adj_override"
+      }
+    ],
+    [
+      "baik",
+      "baik",
+      "baik baik",
+      {
+        "rule_id": "baik_adj_override"
+      }
+    ],
+    [
+      "baik",
+      "manis",
+      "baik baik",
+      {
+        "rule_id": "baik_adj_override"
+      }
+    ],
+    [
+      "banyak",
+      "banyak",
+      "banyak banyak",
+      {
+        "rule_id": "banyak_adj_override"
+      }
+    ],
+    [
+      "benar",
+      "benar",
+      "benar benar",
+      {
+        "rule_id": "benar_adj_override"
+      }
+    ],
+    [
+      "besar",
+      "besar",
+      "besar besar",
+      {
+        "rule_id": "besar_adj_override"
+      }
+    ],
+    [
+      "besar",
+      "tinggi",
+      "besar besar",
+      {
+        "rule_id": "besar_adj_override"
+      }
+    ],
+    [
+      "dekat",
+      "dekat",
+      "dekat dekat",
+      {
+        "rule_id": "dekat_adj_override"
+      }
+    ],
+    [
+      "hal",
+      "hal",
+      "hal hal",
+      {
+        "rule_id": "hal_noun_override"
+      }
+    ],
+    [
+      "hari",
+      "hari",
+      "hari hari",
+      {
+        "rule_id": "hari_noun_override"
+      }
+    ],
+    [
+      "hari",
+      "waktu",
+      "hari hari",
+      {
+        "rule_id": "hari_noun_override"
+      }
+    ],
+    [
+      "harus",
+      "harus",
+      "harus harus",
+      {
+        "rule_id": "harus_verb_override"
+      }
+    ],
+    [
+      "harus",
+      "perlu",
+      "harus harus",
+      {
+        "rule_id": "harus_verb_override"
+      }
+    ],
+    [
+      "ingin",
+      "ingin",
+      "ingin ingin",
+      {
+        "rule_id": "ingin_verb_override"
+      }
+    ],
+    [
+      "jadi",
+      "jadi",
+      "jadi jadi",
+      {
+        "rule_id": "jadi_verb_override"
+      }
+    ],
+    [
+      "kasih",
+      "cinta",
+      "kasih kasih",
+      {
+        "rule_id": "kasih_verb_override"
+      }
+    ],
+    [
+      "kasih",
+      "kasih",
+      "kasih kasih",
+      {
+        "rule_id": "kasih_verb_override"
+      }
+    ],
+    [
+      "kasih",
+      "sayang",
+      "kasih kasih",
+      {
+        "rule_id": "kasih_verb_override"
+      }
+    ],
+    [
+      "keluar",
+      "keluar",
+      "keluar keluar",
+      {
+        "rule_id": "keluar_verb_override"
+      }
+    ],
+    [
+      "kembali",
+      "balik",
+      "kembali kembali",
+      {
+        "rule_id": "kembali_verb_override"
+      }
+    ],
+    [
+      "kembali",
+      "kembali",
+      "kembali kembali",
+      {
+        "rule_id": "kembali_verb_override"
+      }
+    ],
+    [
+      "kembali",
+      "pulang",
+      "kembali kembali",
+      {
+        "rule_id": "kembali_verb_override"
+      }
+    ],
+    [
+      "lain",
+      "asing",
+      "lain lain",
+      {
+        "rule_id": "lain_adj_override"
+      }
+    ],
+    [
+      "lain",
+      "lain",
+      "lain lain",
+      {
+        "rule_id": "lain_adj_override"
+      }
+    ],
+    [
+      "lebih",
+      "lebih",
+      "lebih lebih",
+      {
+        "rule_id": "lebih_adj_override"
+      }
+    ],
+    [
+      "malam",
+      "malam",
+      "malam malam",
+      {
+        "rule_id": "malam_noun_override"
+      }
+    ],
+    [
+      "mana",
+      "mana",
+      "mana mana",
+      {
+        "rule_id": "mana_adj_override"
+      }
+    ],
+    [
+      "mana",
+      "tempat",
+      "mana mana",
+      {
+        "rule_id": "mana_adj_override"
+      }
+    ],
+    [
+      "orang",
+      "orang",
+      "orang orang",
+      {
+        "rule_id": "orang_noun_override"
+      }
+    ],
+    [
+      "tempat",
+      "tempat",
+      "tempat tempat",
+      {
+        "rule_id": "tempat_noun_override"
+      }
+    ],
+    [
+      "anak",
+      "anak",
+      "anak anak",
+      {
+        "rule_id": "anak_noun_override"
+      }
+    ],
+    [
+      "anak",
+      "bayi",
+      "anak anak",
+      {
+        "rule_id": "anak_noun_override"
+      }
+    ],
+    [
+      "atas",
+      "atas",
+      "atas atas",
+      {
+        "rule_id": "atas_adj_override"
+      }
+    ],
+    [
+      "dalam",
+      "dalam",
+      "dalam dalam",
+      {
+        "rule_id": "dalam_adj_override"
+      }
+    ],
+    [
+      "waktu",
+      "masa",
+      "waktu waktu",
+      {
+        "rule_id": "waktu_noun_override"
+      }
+    ],
+    [
+      "waktu",
+      "waktu",
+      "waktu waktu",
+      {
+        "rule_id": "waktu_noun_override"
+      }
+    ],
+    [
+      "laku",
+      "ada",
+      "laku adakan",
+      {
+        "inflection": "v_act_tr",
+        "rule_id": "laku_verb_override"
+      }
+    ],
+    [
+      "laku",
+      "aman",
+      "laku amankan",
+      {
+        "inflection": "v_act_tr",
+        "rule_id": "laku_verb_override"
+      }
+    ],
+    [
+      "laku",
+      "asing",
+      "laku asingkan",
+      {
+        "inflection": "v_act_tr",
+        "rule_id": "laku_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "ada",
+      "lalu berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "alami",
+      "lalu mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "aman",
+      "lalu berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "asal",
+      "lalu berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "asing",
+      "lalu berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lalu",
+      "baca",
+      "lalu membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "lalu_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "ada",
+      "lihat berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "alami",
+      "lihat mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "aman",
+      "lihat berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "asal",
+      "lihat berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "asing",
+      "lihat berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "lihat",
+      "baca",
+      "lihat membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "lihat_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "ada",
+      "pergi berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "alami",
+      "pergi mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "aman",
+      "pergi berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "asal",
+      "pergi berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "asing",
+      "pergi berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "pergi",
+      "baca",
+      "pergi membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "pergi_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "ada",
+      "punya berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "alami",
+      "punya mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "aman",
+      "punya berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "asal",
+      "punya berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "asing",
+      "punya berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "punya",
+      "baca",
+      "punya membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "punya_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "ada",
+      "sudah berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "alami",
+      "sudah mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "aman",
+      "sudah berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "asal",
+      "sudah berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "asing",
+      "sudah berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "sudah",
+      "baca",
+      "sudah membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "sudah_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "ada",
+      "tahu berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "alami",
+      "tahu mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "aman",
+      "tahu berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "asal",
+      "tahu berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "asing",
+      "tahu berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "tahu",
+      "baca",
+      "tahu membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "tahu_verb_override"
+      }
+    ],
+    [
+      "terjadi",
+      "ada",
+      "terjadi diadakannya",
+      {
+        "inflection": "v_pass_def",
+        "rule_id": "terjadi_verb_override"
+      }
+    ],
+    [
+      "terjadi",
+      "asing",
+      "terjadi diasingkannya",
+      {
+        "inflection": "v_pass_def",
+        "rule_id": "terjadi_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "ada",
+      "datang berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "alami",
+      "datang mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "aman",
+      "datang berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "asal",
+      "datang berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "asing",
+      "datang berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "datang",
+      "baca",
+      "datang membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "datang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "ada",
+      "bilang berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "alami",
+      "bilang mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "aman",
+      "bilang berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "asal",
+      "bilang berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "asing",
+      "bilang berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bilang",
+      "baca",
+      "bilang membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "bilang_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "ada",
+      "bisa berada",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "alami",
+      "bisa mengalami",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "aman",
+      "bisa berkeamanan",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "asal",
+      "bisa berasal",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "asing",
+      "bisa berasingan",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ],
+    [
+      "bisa",
+      "baca",
+      "bisa membaca",
+      {
+        "inflection": "v_act",
+        "rule_id": "bisa_verb_override"
+      }
+    ]
+  ]
 }

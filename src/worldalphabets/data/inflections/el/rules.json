@@ -1,9 +1,3916 @@
 {
-  "_type": "rules",
   "_locale": "el",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "el_verb_3sg_ipfv_prs",
+      "inflection": "v_3_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "αυτή",
+            "αυτό",
+            "αυτός"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2sg_ipfv_prs",
+      "inflection": "v_2_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "εσύ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1sg_ipfv_prs",
+      "inflection": "v_1_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "εγώ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1pl_ipfv_prs",
+      "inflection": "v_1_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "εμείς"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2pl_ipfv_prs",
+      "inflection": "v_2_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "εσείς"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_3pl_ipfv_prs",
+      "inflection": "v_3_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "αυτά",
+            "αυτές",
+            "αυτοί"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1sg_ipfv_fut",
+      "inflection": "v_1_sg_ipfv_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "θα"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1sg_ipfv_pst",
+      "inflection": "v_1_sg_ipfv_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ήμουν"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1pl_ipfv_pst",
+      "inflection": "v_1_pl_ipfv_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ήμασταν"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2sg_ipfv_pst",
+      "inflection": "v_2_sg_ipfv_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ήσουν"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2pl_ipfv_pst",
+      "inflection": "v_2_pl_ipfv_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ήσασταν",
+            "ήσαστε"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_3sg_ipfv_pst",
+      "inflection": "v_3_sg_ipfv_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ήταν",
+            "ήτανε"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_noun_acc_pl_masc",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "αυτές",
+            "αυτοί",
+            "οι"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "el_noun_voc_pl_masc",
+      "inflection": "n_voc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ω",
+            "ωστε"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "el_noun_gen_pl_masc",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "των"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "el_adj_acc_pl_masc",
+      "inflection": "adj_acc_pl_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "αυτοί",
+            "οι"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "el_adj_voc_pl_masc",
+      "inflection": "adj_voc_pl_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ωστε"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "el_verb_1sg_ipfv_sbjv",
+      "inflection": "v_1_sg_ipfv_sbjv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "να"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1sg_ipfv_prf_prs",
+      "inflection": "v_1_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχω"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_1pl_ipfv_prf_prs",
+      "inflection": "v_1_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχουμε"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2sg_ipfv_prf_prs",
+      "inflection": "v_2_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχεις"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_2pl_ipfv_prf_prs",
+      "inflection": "v_2_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχετε"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_3sg_ipfv_prf_prs",
+      "inflection": "v_3_sg_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχει"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "el_verb_3pl_ipfv_prf_prs",
+      "inflection": "v_3_pl_ipfv_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "έχουν",
+            "έχουνε"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "αυτή",
+      "έρχομαι",
+      "αυτή έρχεται",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έρχομαι",
+      "αυτό έρχεται",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχε",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχε",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχει",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχει",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχεις",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχεις",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχετε",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχετε",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχοντας",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχοντας",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχουμε",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχουμε",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχουν",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχουν",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχουνε",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχουνε",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "έχω",
+      "αυτή έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "έχω",
+      "αυτό έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήμασταν",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήμασταν",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήμαστε",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήμαστε",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήμουν",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήμουν",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήμουνα",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήμουνα",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήσασταν",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήσασταν",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήσαστε",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήσαστε",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήσουν",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήσουν",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήσουνα",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήσουνα",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήταν",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήταν",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτή",
+      "ήτανε",
+      "αυτή είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "αυτό",
+      "ήτανε",
+      "αυτό είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έρχομαι",
+      "εσύ έρχεσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχε",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχει",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχεις",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχετε",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχοντας",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχουμε",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχουν",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχουνε",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "έχω",
+      "εσύ έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήμασταν",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήμαστε",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήμουν",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήμουνα",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήσασταν",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήσαστε",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήσουν",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήσουνα",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήταν",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εσύ",
+      "ήτανε",
+      "εσύ είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έρχομαι",
+      "εγώ έρχομαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχε",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχει",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχεις",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχετε",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχοντας",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχουμε",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχουν",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχουνε",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "έχω",
+      "εγώ έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήμασταν",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήμαστε",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήμουν",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήμουνα",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήσασταν",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήσαστε",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήσουν",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήσουνα",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήταν",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εγώ",
+      "ήτανε",
+      "εγώ είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έρχομαι",
+      "εμείς ερχόμαστε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχει",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχεις",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχετε",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχουμε",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχουν",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "έχω",
+      "εμείς έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "ήμασταν",
+      "εμείς είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "ήμουν",
+      "εμείς είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "ήσουν",
+      "εμείς είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εμείς",
+      "ήταν",
+      "εμείς είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έρχομαι",
+      "εσείς έρχεστε, ερχόσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχε",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχει",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχεις",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχετε",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχοντας",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχουμε",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχουν",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχουνε",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "έχω",
+      "εσείς έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "ήμασταν",
+      "εσείς είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "ήμουν",
+      "εσείς είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "ήσουν",
+      "εσείς είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "εσείς",
+      "ήταν",
+      "εσείς είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έρχομαι",
+      "αυτά έρχονται",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έρχομαι",
+      "αυτές έρχονται",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχει",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχει",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχεις",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχεις",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχετε",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχετε",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχουμε",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχουμε",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχουν",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχουν",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "έχω",
+      "αυτά έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "έχω",
+      "αυτές έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήμασταν",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήμασταν",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήμαστε",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήμαστε",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήμουν",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήμουν",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήμουνα",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήμουνα",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήσασταν",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήσασταν",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήσαστε",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήσαστε",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήσουν",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήσουν",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήσουνα",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήσουνα",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήταν",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήταν",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτά",
+      "ήτανε",
+      "αυτά είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "αυτές",
+      "ήτανε",
+      "αυτές είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prs"
+      }
+    ],
+    [
+      "θα",
+      "έρχομαι",
+      "θα θα έρχομαι",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχει",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχεις",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχετε",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχουμε",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχουν",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "έχω",
+      "θα θα έχω",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "ήμασταν",
+      "θα θα είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "ήμουν",
+      "θα θα είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "ήσουν",
+      "θα θα είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "θα",
+      "ήταν",
+      "θα θα είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_fut",
+        "rule_id": "el_verb_1sg_ipfv_fut"
+      }
+    ],
+    [
+      "ήμουν",
+      "έρχομαι",
+      "ήμουν ερχόμουν, ερχόμουνα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχε",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχει",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχεις",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχετε",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχοντας",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχουμε",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχουν",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχουνε",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "έχω",
+      "ήμουν είχα",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "ήμασταν",
+      "ήμουν ήμουν / ήμουνα2",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "ήμουν",
+      "ήμουν ήμουν / ήμουνα2",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "ήσουν",
+      "ήμουν ήμουν / ήμουνα2",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμουν",
+      "ήταν",
+      "ήμουν ήμουν / ήμουνα2",
+      {
+        "inflection": "v_1_sg_ipfv_pst",
+        "rule_id": "el_verb_1sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έρχομαι",
+      "ήμασταν ερχόμαστε1, ερχόμασταν",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχε",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχει",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχεις",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχετε",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχοντας",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχουμε",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχουν",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχουνε",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "έχω",
+      "ήμασταν είχαμε",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "ήμασταν",
+      "ήμασταν ήμαστε / ήμασταν3",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "ήμουν",
+      "ήμασταν ήμαστε / ήμασταν3",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "ήσουν",
+      "ήμασταν ήμαστε / ήμασταν3",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήμασταν",
+      "ήταν",
+      "ήμασταν ήμαστε / ήμασταν3",
+      {
+        "inflection": "v_1_pl_ipfv_pst",
+        "rule_id": "el_verb_1pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έρχομαι",
+      "ήσουν ερχόσουν, ερχόσουνα",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχε",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχει",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχεις",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχετε",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχοντας",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχουμε",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχουν",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχουνε",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "έχω",
+      "ήσουν είχες",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "ήμασταν",
+      "ήσουν ήσουν / ήσουνα2",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "ήμουν",
+      "ήσουν ήσουν / ήσουνα2",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "ήσουν",
+      "ήσουν ήσουν / ήσουνα2",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσουν",
+      "ήταν",
+      "ήσουν ήσουν / ήσουνα2",
+      {
+        "inflection": "v_2_sg_ipfv_pst",
+        "rule_id": "el_verb_2sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έρχομαι",
+      "ήσασταν ερχόσαστε1, ερχόσασταν",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έρχομαι",
+      "ήσαστε ερχόσαστε1, ερχόσασταν",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχει",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχει",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχεις",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχεις",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχετε",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχετε",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχουμε",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχουμε",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχουν",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχουν",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "έχω",
+      "ήσασταν είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "έχω",
+      "ήσαστε είχατε",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "ήμασταν",
+      "ήσασταν ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "ήμασταν",
+      "ήσαστε ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "ήμουν",
+      "ήσασταν ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "ήμουν",
+      "ήσαστε ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "ήσουν",
+      "ήσασταν ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "ήσουν",
+      "ήσαστε ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσασταν",
+      "ήταν",
+      "ήσασταν ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήσαστε",
+      "ήταν",
+      "ήσαστε ήσαστε / ήσασταν3",
+      {
+        "inflection": "v_2_pl_ipfv_pst",
+        "rule_id": "el_verb_2pl_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έρχομαι",
+      "ήταν ερχόταν, ερχότανε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έρχομαι",
+      "ήτανε ερχόταν, ερχότανε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχε",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχε",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχει",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχει",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχεις",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχεις",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχετε",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχετε",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχοντας",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχοντας",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχουμε",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχουμε",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχουν",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχουν",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχουνε",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχουνε",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "έχω",
+      "ήταν είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "έχω",
+      "ήτανε είχε",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "ήμασταν",
+      "ήταν ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "ήμασταν",
+      "ήτανε ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "ήμουν",
+      "ήταν ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "ήμουν",
+      "ήτανε ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "ήσουν",
+      "ήταν ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "ήσουν",
+      "ήτανε ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήταν",
+      "ήταν",
+      "ήταν ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "ήτανε",
+      "ήταν",
+      "ήτανε ήταν / ήτανε2",
+      {
+        "inflection": "v_3_sg_ipfv_pst",
+        "rule_id": "el_verb_3sg_ipfv_pst"
+      }
+    ],
+    [
+      "αυτές",
+      "άκρη",
+      "αυτές άκρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "άκρη",
+      "αυτοί άκρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτές",
+      "άνδρας",
+      "αυτές άνδρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "άνδρας",
+      "αυτοί άνδρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτές",
+      "άντρας",
+      "αυτές άντρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "άντρας",
+      "αυτοί άντρες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτές",
+      "άτομο",
+      "αυτές άτομα",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "άτομο",
+      "αυτοί άτομα",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτές",
+      "έρευνα",
+      "αυτές έρευνες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "έρευνα",
+      "αυτοί έρευνες",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "el_noun_acc_pl_masc"
+      }
+    ],
+    [
+      "ω",
+      "άκρη",
+      "ω άκρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "άκρη",
+      "ωστε άκρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ω",
+      "άνδρας",
+      "ω άνδρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "άνδρας",
+      "ωστε άνδρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ω",
+      "άντρας",
+      "ω άντρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "άντρας",
+      "ωστε άντρες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ω",
+      "άτομο",
+      "ω άτομα",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "άτομο",
+      "ωστε άτομα",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ω",
+      "έρευνα",
+      "ω έρευνες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "έρευνα",
+      "ωστε έρευνες",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "el_noun_voc_pl_masc"
+      }
+    ],
+    [
+      "των",
+      "άκρη",
+      "των ακρών",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "el_noun_gen_pl_masc"
+      }
+    ],
+    [
+      "των",
+      "άντρας",
+      "των αντρών",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "el_noun_gen_pl_masc"
+      }
+    ],
+    [
+      "των",
+      "άτομο",
+      "των ατόμων",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "el_noun_gen_pl_masc"
+      }
+    ],
+    [
+      "των",
+      "έρευνα",
+      "των ερευνών",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "el_noun_gen_pl_masc"
+      }
+    ],
+    [
+      "αυτοί",
+      "έτοιμος",
+      "αυτοί έτοιμους",
+      {
+        "inflection": "adj_acc_pl_masc",
+        "rule_id": "el_adj_acc_pl_masc"
+      }
+    ],
+    [
+      "οι",
+      "έτοιμος",
+      "οι έτοιμους",
+      {
+        "inflection": "adj_acc_pl_masc",
+        "rule_id": "el_adj_acc_pl_masc"
+      }
+    ],
+    [
+      "ωστε",
+      "έτοιμος",
+      "ωστε έτοιμοι",
+      {
+        "inflection": "adj_voc_pl_masc",
+        "rule_id": "el_adj_voc_pl_masc"
+      }
+    ],
+    [
+      "να",
+      "έχει",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "έχεις",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "έχετε",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "έχουμε",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "έχουν",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "έχω",
+      "να να έχω",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "ήμασταν",
+      "να να είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "ήμουν",
+      "να να είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "ήσουν",
+      "να να είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "να",
+      "ήταν",
+      "να να είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_sbjv",
+        "rule_id": "el_verb_1sg_ipfv_sbjv"
+      }
+    ],
+    [
+      "έχω",
+      "έρχομαι",
+      "έχω έρχομαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχε",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχει",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχεις",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχετε",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχοντας",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχουμε",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχουν",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχουνε",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "έχω",
+      "έχω έχω",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήμασταν",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήμαστε",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήμουν",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήμουνα",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήσασταν",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήσαστε",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήσουν",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήσουνα",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήταν",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχω",
+      "ήτανε",
+      "έχω είμαι",
+      {
+        "inflection": "v_1_sg_ipfv_prs",
+        "rule_id": "el_verb_1sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έρχομαι",
+      "έχουμε ερχόμαστε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχει",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχεις",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχετε",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχουμε",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχουν",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "έχω",
+      "έχουμε έχουμε, έχομε",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "ήμασταν",
+      "έχουμε είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "ήμουν",
+      "έχουμε είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "ήσουν",
+      "έχουμε είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουμε",
+      "ήταν",
+      "έχουμε είμαστε1",
+      {
+        "inflection": "v_1_pl_ipfv_prs",
+        "rule_id": "el_verb_1pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έρχομαι",
+      "έχεις έρχεσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχε",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχει",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχεις",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχετε",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχοντας",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχουμε",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχουν",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχουνε",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "έχω",
+      "έχεις έχεις",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήμασταν",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήμαστε",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήμουν",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήμουνα",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήσασταν",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήσαστε",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήσουν",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήσουνα",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήταν",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχεις",
+      "ήτανε",
+      "έχεις είσαι",
+      {
+        "inflection": "v_2_sg_ipfv_prs",
+        "rule_id": "el_verb_2sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έρχομαι",
+      "έχετε έρχεστε, ερχόσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχε",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχει",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχεις",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχετε",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχοντας",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχουμε",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχουν",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχουνε",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "έχω",
+      "έχετε έχετε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "ήμασταν",
+      "έχετε είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "ήμουν",
+      "έχετε είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "ήσουν",
+      "έχετε είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχετε",
+      "ήταν",
+      "έχετε είστε / είσαστε",
+      {
+        "inflection": "v_2_pl_ipfv_prs",
+        "rule_id": "el_verb_2pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έρχομαι",
+      "έχει έρχεται",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχε",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχει",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχεις",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχετε",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχοντας",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχουμε",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχουν",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχουνε",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "έχω",
+      "έχει έχει",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήμασταν",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήμαστε",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήμουν",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήμουνα",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήσασταν",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήσαστε",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήσουν",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήσουνα",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήταν",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχει",
+      "ήτανε",
+      "έχει είναι",
+      {
+        "inflection": "v_3_sg_ipfv_prs",
+        "rule_id": "el_verb_3sg_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έρχομαι",
+      "έχουν έρχονται",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έρχομαι",
+      "έχουνε έρχονται",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχει",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχει",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχεις",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχεις",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχετε",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχετε",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχουμε",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχουμε",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχουν",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχουν",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "έχω",
+      "έχουν έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "έχω",
+      "έχουνε έχουν, έχουνε",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήμασταν",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήμασταν",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήμαστε",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήμαστε",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήμουν",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήμουν",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήμουνα",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήμουνα",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήσασταν",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήσασταν",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήσαστε",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήσαστε",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήσουν",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήσουν",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήσουνα",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήσουνα",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήταν",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήταν",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουν",
+      "ήτανε",
+      "έχουν είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ],
+    [
+      "έχουνε",
+      "ήτανε",
+      "έχουνε είναι",
+      {
+        "inflection": "v_3_pl_ipfv_prs",
+        "rule_id": "el_verb_3pl_ipfv_prf_prs"
+      }
+    ]
+  ]
 }

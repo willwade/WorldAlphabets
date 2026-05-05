@@ -216,6 +216,79 @@ def _matches_rule(
 
 
 @dataclass
+class JoinResult:
+    result: str
+    rule_id: Optional[str] = None
+    reason: Optional[str] = None
+    replaces_pair: bool = False
+
+
+def join_words(
+    locale_or_rules: str | Dict[str, Any],
+    prev: str,
+    next_word: str,
+) -> Optional[JoinResult]:
+    if isinstance(locale_or_rules, str):
+        rules_data = load_rules(locale_or_rules)
+    else:
+        rules_data = locale_or_rules
+
+    join_rules = rules_data.get("join", [])
+    if not isinstance(join_rules, list):
+        return None
+
+    prev_lower = prev.lower()
+    next_lower = next_word.lower()
+
+    for rule in join_rules:
+        if not isinstance(rule, dict):
+            continue
+
+        prev_list = rule.get("prev", [])
+        if isinstance(prev_list, str):
+            prev_list = [prev_list]
+        if not isinstance(prev_list, list) or prev_lower not in [
+            p.lower() if isinstance(p, str) else "" for p in prev_list
+        ]:
+            continue
+
+        next_exact = rule.get("next")
+        next_match = rule.get("next_match")
+
+        matched = False
+        if isinstance(next_exact, list):
+            matched = next_lower in [
+                n.lower() if isinstance(n, str) else "" for n in next_exact
+            ]
+        elif isinstance(next_exact, str):
+            matched = next_lower == next_exact.lower()
+
+        if not matched and isinstance(next_match, str):
+            try:
+                matched = bool(re.search(next_match, next_lower))
+            except re.error:
+                continue
+
+        if not matched:
+            continue
+
+        result_template = rule.get("result", "{prev} {next}")
+        result_str = (
+            result_template.replace("{prev}", prev)
+            .replace("{next}", next_word)
+        )
+
+        return JoinResult(
+            result=result_str,
+            rule_id=rule.get("id"),
+            reason=rule.get("reason"),
+            replaces_pair=result_template != "{prev} {next}",
+        )
+
+    return None
+
+
+@dataclass
 class LookupResult:
     word: str
     replacement: Optional[str] = None
@@ -366,7 +439,19 @@ def apply_rules(
         rules_data = load_rules(locale)
 
     results: List[str] = []
-    for i, token in enumerate(tokens):
+    i = 0
+    while i < len(tokens):
+        token = tokens[i]
+
+        if results:
+            prev_token = tokens[i - 1] if i > 0 else ""
+            jr = join_words(rules_data, prev_token, token)
+            if jr and jr.replaces_pair:
+                results.pop()
+                results.append(jr.result)
+                i += 1
+                continue
+
         prior = " ".join(tokens[:i])
         result = lookup_word(words_data, token, prior, rules_data)
         if result.replacement:
@@ -384,5 +469,6 @@ def apply_rules(
                 results.append(result.replacement)
         else:
             results.append(token)
+        i += 1
 
     return " ".join(results)

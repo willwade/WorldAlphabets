@@ -1,0 +1,12 @@
+rule_id,inflection,pre_words,test_word,updated_words
+a_to_an,,a,a,a an
+an_to_a,,an,an,an a
+i_am,,i,are,i am
+you_are,,you,are,you ’re
+they_are,,they,are,they ’re
+we_are,,we,are,we ’re
+he_she_it_is,,he,are,he is
+he_she_it_is,,it,are,it is
+he_she_it_is,,she,are,she is
+not_at_all,,not,at,not at all
+how_about,,how,about,how about

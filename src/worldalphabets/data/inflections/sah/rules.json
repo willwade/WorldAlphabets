@@ -1,9 +1,398 @@
 {
-  "_type": "rules",
   "_locale": "sah",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "n_nom_sg_pss3s_override",
+      "lookback": [
+        {
+          "words": [
+            "эр",
+            "үүнээйи"
+          ]
+        }
+      ],
+      "overrides": {
+        "эр": "ити",
+        "үүнээйи": "үүнээйи"
+      },
+      "type": "override"
+    },
+    {
+      "id": "n_acc_sg_pss2s_override",
+      "lookback": [
+        {
+          "words": [
+            "били"
+          ]
+        }
+      ],
+      "overrides": {
+        "били": "билии"
+      },
+      "type": "override"
+    },
+    {
+      "id": "abl_pl_pss1s_to_abl_sg_pss1s",
+      "inflection": "n_abl_pl_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "аан",
+            "атыыр",
+            "баран",
+            "биэ",
+            "күргэ",
+            "мин",
+            "сүөһү",
+            "үрдүк"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_pst_lgspec1_3_pl_to_v_pst_lgspec1_3_sg",
+      "inflection": "v_pst_lgspec1_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ааҕылын",
+            "көһүй"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_dat_sg_override",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "дойду"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "эр",
+      "эр",
+      "эр ити",
+      {
+        "rule_id": "n_nom_sg_pss3s_override"
+      }
+    ],
+    [
+      "үүнээйи",
+      "эр",
+      "үүнээйи ити",
+      {
+        "rule_id": "n_nom_sg_pss3s_override"
+      }
+    ],
+    [
+      "эр",
+      "үүнээйи",
+      "эр үүнээйи",
+      {
+        "rule_id": "n_nom_sg_pss3s_override"
+      }
+    ],
+    [
+      "үүнээйи",
+      "үүнээйи",
+      "үүнээйи үүнээйи",
+      {
+        "rule_id": "n_nom_sg_pss3s_override"
+      }
+    ],
+    [
+      "били",
+      "били",
+      "били билии",
+      {
+        "rule_id": "n_acc_sg_pss2s_override"
+      }
+    ],
+    [
+      "аан",
+      "аан",
+      "аан ааннарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "аан",
+      "атыыр ааннарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "атыыр",
+      "аан атыырдарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "атыыр",
+      "атыыр атыырдарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "баран",
+      "аан бараннарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "баран",
+      "атыыр бараннарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "барыта",
+      "аан барыталарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "барыта",
+      "атыыр барыталарбыттан",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "биэ",
+      "аан биэлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "биэ",
+      "атыыр биэлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "күргэ",
+      "аан күргэлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "күргэ",
+      "атыыр күргэлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "мин",
+      "аан миннэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "мин",
+      "атыыр миннэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "сүөһү",
+      "аан сүөһүлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "сүөһү",
+      "атыыр сүөһүлэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "аан",
+      "үрдүк",
+      "аан үрдүктэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "атыыр",
+      "үрдүк",
+      "атыыр үрдүктэрбиттэн",
+      {
+        "inflection": "n_abl_pl_pss1s",
+        "rule_id": "abl_pl_pss1s_to_abl_sg_pss1s"
+      }
+    ],
+    [
+      "ааҕылын",
+      "ааҕылын",
+      "ааҕылын ааҕылынна",
+      {
+        "inflection": "v_pst_lgspec1_3_sg",
+        "rule_id": "v_pst_lgspec1_3_pl_to_v_pst_lgspec1_3_sg"
+      }
+    ],
+    [
+      "көһүй",
+      "ааҕылын",
+      "көһүй ааҕылынна",
+      {
+        "inflection": "v_pst_lgspec1_3_sg",
+        "rule_id": "v_pst_lgspec1_3_pl_to_v_pst_lgspec1_3_sg"
+      }
+    ],
+    [
+      "дойду",
+      "аан",
+      "дойду ааҥҥа",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "атыыр",
+      "дойду атыырга",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "баран",
+      "дойду бараҥҥа",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "барыта",
+      "дойду барытаҕа",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "биэ",
+      "дойду биэҕэ",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "дойду",
+      "дойду дойдуга",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "күргэ",
+      "дойду күргэҕэ",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "мин",
+      "дойду миҥҥэ",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "сүөһү",
+      "дойду сүөһүгэ",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ],
+    [
+      "дойду",
+      "үрдүк",
+      "дойду үрдүккэ",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_override"
+      }
+    ]
+  ]
 }

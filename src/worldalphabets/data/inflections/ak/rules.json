@@ -1,9 +1,788 @@
 {
-  "_type": "rules",
   "_locale": "ak",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "ak_verb_hab_fut_suffix",
+      "inflection": "v_hab_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "bɛ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ak_verb_neg_prs_suffix",
+      "inflection": "v_neg_prs_lgspec1",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "n"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ak_verb_neg_pst_suffix",
+      "inflection": "v_neg_pst_lgspec1",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nyɛ"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "bɛ",
+      "ba",
+      "bɛ bɛba",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "boa",
+      "bɛ bɛboa",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "boro",
+      "bɛ bɛboro",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "bɔ",
+      "bɛ bɛbɔ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "da",
+      "bɛ bɛda",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "di",
+      "bɛ bɛdi",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "dua",
+      "bɛ bɛdua",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "fa",
+      "bɛ bɛfa",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "frɛ",
+      "bɛ bɛfrɛ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "gye",
+      "bɛ bɛgye",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "hia",
+      "bɛ bɛhia",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "hu",
+      "bɛ bɛhu",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "ka",
+      "bɛ bɛka",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "kae",
+      "bɛ bɛkae",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "kasa",
+      "bɛ bɛkasa",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "kyerɛ",
+      "bɛ bɛkyerɛ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "kɔ",
+      "bɛ bɛkɔ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "ma",
+      "bɛ bɛma",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "pɛ",
+      "bɛ bɛpɛ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "san",
+      "bɛ bɛsan",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "siw",
+      "bɛ bɛsiw",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "su",
+      "bɛ bɛsu",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "tena",
+      "bɛ bɛtena",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "tew",
+      "bɛ bɛtew",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "tow",
+      "bɛ bɛtow",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "wo",
+      "bɛ bɛwo",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "yi",
+      "bɛ bɛyi",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "bɛ",
+      "yɛ",
+      "bɛ bɛyɛ",
+      {
+        "inflection": "v_hab_fut",
+        "rule_id": "ak_verb_hab_fut_suffix"
+      }
+    ],
+    [
+      "n",
+      "ba",
+      "n nnkɔba",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "boa",
+      "n nnkɔboa",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "bɔ",
+      "n nnkɔbɔ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "da",
+      "n nnkɔda",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "di",
+      "n nnkɔdi",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "dua",
+      "n nnkɔdua",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "fa",
+      "n nnkɔfa",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "frɛ",
+      "n nnkɔfrɛ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "gye",
+      "n nnkɔgye",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "hia",
+      "n nnkɔhia",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "hu",
+      "n nnkɔhu",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "ka",
+      "n nnkɔka",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "kae",
+      "n nnkɔkae",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "kasa",
+      "n nnkɔkasa",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "kyerɛ",
+      "n nnkɔkyerɛ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "kɔ",
+      "n nnkɔkɔ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "ma",
+      "n nnkɔma",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "pɛ",
+      "n nnkɔpɛ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "san",
+      "n nnkɔsan",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "siw",
+      "n nnkɔsiw",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "su",
+      "n nnkɔsu",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "tena",
+      "n nnkɔtena",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "tew",
+      "n nnkɔtew",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "tow",
+      "n nnkɔtow",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "wo",
+      "n nnkɔwo",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "yi",
+      "n nnkɔyi",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "n",
+      "yɛ",
+      "n nnkɔyɛ",
+      {
+        "inflection": "v_neg_prs_lgspec1",
+        "rule_id": "ak_verb_neg_prs_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "ba",
+      "nyɛ ammkɔba",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "boa",
+      "nyɛ ammkɔboa",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "bɔ",
+      "nyɛ ammkɔbɔ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "da",
+      "nyɛ ammkɔda",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "di",
+      "nyɛ ammkɔdi",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "dua",
+      "nyɛ ammkɔdua",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "fa",
+      "nyɛ ammkɔfa",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "frɛ",
+      "nyɛ ammkɔfrɛ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "gye",
+      "nyɛ ammkɔgye",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "hia",
+      "nyɛ ammkɔhia",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "hu",
+      "nyɛ ammkɔhu",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "ka",
+      "nyɛ ammkɔka",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "kae",
+      "nyɛ ammkɔkae",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "kasa",
+      "nyɛ ammkɔkasa",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "kyerɛ",
+      "nyɛ ammkɔkyerɛ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "kɔ",
+      "nyɛ ammkɔkɔ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "ma",
+      "nyɛ ammkɔma",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "pɛ",
+      "nyɛ ammkɔpɛ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "san",
+      "nyɛ ammkɔsan",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "siw",
+      "nyɛ ammkɔsiw",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "su",
+      "nyɛ ammkɔsu",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "tena",
+      "nyɛ ammkɔtena",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "tew",
+      "nyɛ ammkɔtew",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "tow",
+      "nyɛ ammkɔtow",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "wo",
+      "nyɛ ammkɔwo",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "yi",
+      "nyɛ ammkɔyi",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ],
+    [
+      "nyɛ",
+      "yɛ",
+      "nyɛ ammkɔyɛ",
+      {
+        "inflection": "v_neg_pst_lgspec1",
+        "rule_id": "ak_verb_neg_pst_suffix"
+      }
+    ]
+  ]
 }

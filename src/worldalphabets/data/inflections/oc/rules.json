@@ -1,9 +1,1029 @@
 {
-  "_type": "rules",
   "_locale": "oc",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "oc_v_ind_prs_3_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "ell",
+            "ella",
+            "elles",
+            "ells",
+            "jo",
+            "nosaltres",
+            "tu",
+            "vosaltres"
+          ]
+        }
+      ],
+      "overrides": {
+        "amassar": "amassa",
+        "caler": "cal",
+        "deure": "deu",
+        "dever": "deu",
+        "menar": "mena",
+        "salar": "sala",
+        "voler": "vol"
+      },
+      "type": "override"
+    },
+    {
+      "id": "oc_v_ind_pst_3_sg_pfv_override",
+      "lookback": [
+        {
+          "words": [
+            "ço"
+          ]
+        }
+      ],
+      "overrides": {
+        "decidir": "decidiguèt",
+        "demorar": "demorètz"
+      },
+      "type": "override"
+    },
+    {
+      "id": "oc_v_ptcp_pst_regular",
+      "inflection": "v_ptcp_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "aver",
+            "èsser"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "oc_v_1_pl_cond_irregular",
+      "inflection": "v_1_pl_cond",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nosaltres"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "oc_v_2_pl_imp_irregular",
+      "inflection": "v_2_pl_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "vosaltres"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "oc_adverb_optional_lookback",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "elles",
+            "ells"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ell",
+      "amassar",
+      "ell amassa",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "amassar",
+      "ella amassa",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "amassar",
+      "elles amassa",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "caler",
+      "ell cal",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "caler",
+      "ella cal",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "caler",
+      "elles cal",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "deure",
+      "ell deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "deure",
+      "ella deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "deure",
+      "elles deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "dever",
+      "ell deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "dever",
+      "ella deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "dever",
+      "elles deu",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "menar",
+      "ell mena",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "menar",
+      "ella mena",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "menar",
+      "elles mena",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "salar",
+      "ell sala",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "salar",
+      "ella sala",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "salar",
+      "elles sala",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ell",
+      "voler",
+      "ell vol",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ella",
+      "voler",
+      "ella vol",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "elles",
+      "voler",
+      "elles vol",
+      {
+        "rule_id": "oc_v_ind_prs_3_sg_override"
+      }
+    ],
+    [
+      "ço",
+      "decidir",
+      "ço decidiguèt",
+      {
+        "rule_id": "oc_v_ind_pst_3_sg_pfv_override"
+      }
+    ],
+    [
+      "ço",
+      "demorar",
+      "ço demorètz",
+      {
+        "rule_id": "oc_v_ind_pst_3_sg_pfv_override"
+      }
+    ],
+    [
+      "aver",
+      "anar",
+      "aver anat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "anar",
+      "èsser anat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "aver",
+      "aver agut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "aver",
+      "èsser agut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "crear",
+      "aver creat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "crear",
+      "èsser creat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "dire",
+      "aver dich",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "dire",
+      "èsser dich",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "faire",
+      "aver fach",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "faire",
+      "èsser fach",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "fer",
+      "aver fach",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "fer",
+      "èsser fach",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "parlar",
+      "aver parlat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "parlar",
+      "èsser parlat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "passar",
+      "aver passat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "passar",
+      "èsser passat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "poder",
+      "aver pogut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "poder",
+      "èsser pogut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "saber",
+      "aver sauput",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "saber",
+      "èsser sauput",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "veire",
+      "aver vist",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "veire",
+      "èsser vist",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "venir",
+      "aver vengut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "venir",
+      "èsser vengut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "viure",
+      "aver viscut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "viure",
+      "èsser viscut",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "aver",
+      "èsser",
+      "aver estat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "èsser",
+      "èsser",
+      "èsser estat",
+      {
+        "inflection": "v_ptcp_pst",
+        "rule_id": "oc_v_ptcp_pst_regular"
+      }
+    ],
+    [
+      "nosaltres",
+      "anar",
+      "nosaltres anariam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "aver",
+      "nosaltres auriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "crear",
+      "nosaltres creariam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "dire",
+      "nosaltres diriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "faire",
+      "nosaltres fariam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "parlar",
+      "nosaltres parlariam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "passar",
+      "nosaltres passariam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "poder",
+      "nosaltres poiriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "saber",
+      "nosaltres saupriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "veire",
+      "nosaltres veiriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "venir",
+      "nosaltres vendriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "viure",
+      "nosaltres viuriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "nosaltres",
+      "èsser",
+      "nosaltres seriam",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "oc_v_1_pl_cond_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "anar",
+      "vosaltres anatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "aver",
+      "vosaltres ajatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "crear",
+      "vosaltres creatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "dire",
+      "vosaltres digatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "faire",
+      "vosaltres fasètz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "parlar",
+      "vosaltres parlatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "passar",
+      "vosaltres passatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "poder",
+      "vosaltres poscatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "saber",
+      "vosaltres sabètz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "veire",
+      "vosaltres vejatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "venir",
+      "vosaltres venètz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "viure",
+      "vosaltres vivètz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "vosaltres",
+      "èsser",
+      "vosaltres siatz",
+      {
+        "inflection": "v_2_pl_imp",
+        "rule_id": "oc_v_2_pl_imp_irregular"
+      }
+    ],
+    [
+      "elles",
+      "anar",
+      "elles van",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "anar",
+      "ells van",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "aver",
+      "elles an",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "aver",
+      "ells an",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "crear",
+      "elles crean",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "crear",
+      "ells crean",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "dire",
+      "elles dison",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "dire",
+      "ells dison",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "faire",
+      "elles fan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "faire",
+      "ells fan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "fer",
+      "elles fan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "fer",
+      "ells fan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "parlar",
+      "elles parlan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "parlar",
+      "ells parlan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "passar",
+      "elles passan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "passar",
+      "ells passan",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "poder",
+      "elles pòdon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "poder",
+      "ells pòdon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "saber",
+      "elles sabon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "saber",
+      "ells sabon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "veire",
+      "elles veson",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "veire",
+      "ells veson",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "venir",
+      "elles venon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "venir",
+      "ells venon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "viure",
+      "elles vivon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "viure",
+      "ells vivon",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "elles",
+      "èsser",
+      "elles son",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ],
+    [
+      "ells",
+      "èsser",
+      "ells son",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "oc_adverb_optional_lookback"
+      }
+    ]
+  ]
 }

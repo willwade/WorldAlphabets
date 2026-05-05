@@ -1,9 +1,5170 @@
 {
-  "_type": "rules",
   "_locale": "am",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "am_adj_def_masc_to_fem",
+      "inflection": "adj_def_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ሁሉ",
+            "ብቻ",
+            "ታወቀ",
+            "ታወቀው",
+            "እርስዎ",
+            "እርስዎን",
+            "ውሱን"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_adj_def_pl_to_sg",
+      "inflection": "adj",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ይሁን",
+            "ይሁንን"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_adj_def_fem_pl_to_sg",
+      "inflection": "adj",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ታወቀች"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_noun_def_masc_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "በጥቂቱ",
+            "በጥቂት",
+            "እነ",
+            "እነዚህ",
+            "እነዚህን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_def_pl_to_sg",
+      "inflection": "n",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ሁሉን",
+            "እንደ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss3sf_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እሷ",
+            "እሷን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss3sm_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እሱ",
+            "እሱን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss2sf_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እሽ",
+            "እሽን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss2sm_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እህ",
+            "እህን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss1s_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እኔ",
+            "እኔን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss1p_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እኛ",
+            "እኛን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_noun_pss2p_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እናንተ",
+            "እናንተን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_verb_past_to_present",
+      "inflection": "v_ipfv_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ነበረ",
+            "ነበሩ",
+            "ነበራ",
+            "ነበር"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_imperative_sg_to_pl",
+      "inflection": "v_imp_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "በስራ",
+            "በስራችን",
+            "በስራን"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_cvb_to_impfv",
+      "inflection": "v_ipfv_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "በ",
+            "ከ",
+            "ወደ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_adj_abs_to_def",
+      "inflection": "adj_def_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ነበር",
+            "ነው"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_adj_pl_to_sg_def",
+      "inflection": "adj_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "በጥቂት",
+            "እነዚህ",
+            "እነዚህን"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_noun_abs_to_def_masc",
+      "inflection": "n_def_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ነበር",
+            "ነው",
+            "ይሁን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_verb_imperative_fem_to_sg",
+      "inflection": "v_imp_2_sg_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "በስራች"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_adj_lgspec1_def_to_pl",
+      "inflection": "adj_pl_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ትምህርት",
+            "አዲስ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_noun_lgspec1_def_to_pl",
+      "inflection": "n_pl_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ተማሪ",
+            "አንድ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_verb_cvb_1pl_to_3pl",
+      "inflection": "v_cvb_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "እኛ",
+            "እኛን"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_cvb_2sg_to_3sg",
+      "inflection": "v_cvb_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "አንተ",
+            "አንተን"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_cvb_3sg_to_1pl",
+      "inflection": "v_cvb_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "እሱ",
+            "እሷ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_ipfv_1sg_to_3sg",
+      "inflection": "v_ipfv_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "እኔ",
+            "እኔን"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_verb_pfv_3sg_to_pl",
+      "inflection": "v_pfv_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "እንደ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_noun_pss3p_to_pl",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "እነሱ",
+            "እነሱን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_adj_abs_to_def_fem",
+      "inflection": "adj_def_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ሁኔታ",
+            "ተራ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_adj_pl_to_def_pl",
+      "inflection": "adj_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ብዙ",
+            "ተማሪዎች"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_noun_abs_to_def_pl_form",
+      "inflection": "n_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ተማሪዎች",
+            "ተማሪዎችን"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "am_adj_def_fem_to_pl",
+      "inflection": "adj_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ጥቂት"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "am_verb_msdr_to_ipfv",
+      "inflection": "v_ipfv_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ነገደ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "am_adj_def_pl_lgspec1_to_pl",
+      "inflection": "adj_pl_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ተማሪ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ሁሉ",
+      "ሁለተኛ",
+      "ሁሉ ሁለተኛዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ሁለተኛ",
+      "ብቻ ሁለተኛዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ሁሉ",
+      "ሁሉ ሁሉዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ሁሉ",
+      "ብቻ ሁሉዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ህዝባዊ",
+      "ሁሉ ህዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ህዝባዊ",
+      "ብቻ ህዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ሌላ",
+      "ሁሉ ሌላዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ሌላ",
+      "ብቻ ሌላዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ልክ",
+      "ሁሉ ልኳ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ልክ",
+      "ብቻ ልኳ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ልዩ",
+      "ሁሉ ልዩዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ልዩ",
+      "ብቻ ልዩዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "ሕዝባዊ",
+      "ሁሉ ሕዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "ሕዝባዊ",
+      "ብቻ ሕዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ሁሉ",
+      "መልካም",
+      "ሁሉ መልካሚቱ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ብቻ",
+      "መልካም",
+      "ብቻ መልካሚቱ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_def_masc_to_fem"
+      }
+    ],
+    [
+      "ይሁን",
+      "ሁለተኛ",
+      "ይሁን ሁለተኛ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ሁለተኛ",
+      "ይሁንን ሁለተኛ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ሁሉ",
+      "ይሁን ሁሉ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ሁሉ",
+      "ይሁንን ሁሉ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ህዝባዊ",
+      "ይሁን ህዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ህዝባዊ",
+      "ይሁንን ህዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ሌላ",
+      "ይሁን ሌላ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ሌላ",
+      "ይሁንን ሌላ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ልክ",
+      "ይሁን ልክ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ልክ",
+      "ይሁንን ልክ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ልዩ",
+      "ይሁን ልዩ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ልዩ",
+      "ይሁንን ልዩ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "ሕዝባዊ",
+      "ይሁን ሕዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "ሕዝባዊ",
+      "ይሁንን ሕዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁን",
+      "መልካም",
+      "ይሁን መልካም",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ይሁንን",
+      "መልካም",
+      "ይሁንን መልካም",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ሁለተኛ",
+      "ታወቀች ሁለተኛ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ሁሉ",
+      "ታወቀች ሁሉ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ህዝባዊ",
+      "ታወቀች ህዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ሌላ",
+      "ታወቀች ሌላ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ልክ",
+      "ታወቀች ልክ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ልዩ",
+      "ታወቀች ልዩ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "ሕዝባዊ",
+      "ታወቀች ሕዝባዊ",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "ታወቀች",
+      "መልካም",
+      "ታወቀች መልካም",
+      {
+        "inflection": "adj",
+        "rule_id": "am_adj_def_fem_pl_to_sg"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ሀገር",
+      "በጥቂቱ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሀገር",
+      "በጥቂት ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ሁኔታ",
+      "በጥቂቱ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሁኔታ",
+      "በጥቂት ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ህዝብ",
+      "በጥቂቱ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ህዝብ",
+      "በጥቂት ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ህይወት",
+      "በጥቂቱ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ህይወት",
+      "በጥቂት ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ህግ",
+      "በጥቂቱ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ህግ",
+      "በጥቂት ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ለውጥ",
+      "በጥቂቱ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ለውጥ",
+      "በጥቂት ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ልማት",
+      "በጥቂቱ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ልማት",
+      "በጥቂት ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ልማድ",
+      "በጥቂቱ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ልማድ",
+      "በጥቂት ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ልዩነት",
+      "በጥቂቱ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ልዩነት",
+      "በጥቂት ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ልደት",
+      "በጥቂቱ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ልደት",
+      "በጥቂት ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ልጅ",
+      "በጥቂቱ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ልጅ",
+      "በጥቂት ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ሕዝብ",
+      "በጥቂቱ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሕዝብ",
+      "በጥቂት ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ሕይወት",
+      "በጥቂቱ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሕይወት",
+      "በጥቂት ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "ሕግ",
+      "በጥቂቱ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሕግ",
+      "በጥቂት ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "መልስ",
+      "በጥቂቱ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "መልስ",
+      "በጥቂት መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "መልክ",
+      "በጥቂቱ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "መልክ",
+      "በጥቂት መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂቱ",
+      "መሠረት",
+      "በጥቂቱ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "በጥቂት",
+      "መሠረት",
+      "በጥቂት መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_def_masc_to_pl"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ሀገር",
+      "ሁሉን ሀገር",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሀገር",
+      "እንደ ሀገር",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ሁኔታ",
+      "ሁሉን ሁኔታ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሁኔታ",
+      "እንደ ሁኔታ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ህዝብ",
+      "ሁሉን ህዝብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ህዝብ",
+      "እንደ ህዝብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ህይወት",
+      "ሁሉን ህይወት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ህይወት",
+      "እንደ ህይወት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ህግ",
+      "ሁሉን ህግ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ህግ",
+      "እንደ ህግ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ለውጥ",
+      "ሁሉን ለውጥ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ለውጥ",
+      "እንደ ለውጥ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልማት",
+      "ሁሉን ልማት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልማት",
+      "እንደ ልማት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልማድ",
+      "ሁሉን ልማድ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልማድ",
+      "እንደ ልማድ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልብ",
+      "ሁሉን ልብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልብ",
+      "እንደ ልብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልዩነት",
+      "ሁሉን ልዩነት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልዩነት",
+      "እንደ ልዩነት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልደት",
+      "ሁሉን ልደት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልደት",
+      "እንደ ልደት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ልጅ",
+      "ሁሉን ልጅ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ልጅ",
+      "እንደ ልጅ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ሕዝብ",
+      "ሁሉን ሕዝብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሕዝብ",
+      "እንደ ሕዝብ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ሕይወት",
+      "ሁሉን ሕይወት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሕይወት",
+      "እንደ ሕይወት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "ሕግ",
+      "ሁሉን ሕግ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሕግ",
+      "እንደ ሕግ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "መልስ",
+      "ሁሉን መልስ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "መልስ",
+      "እንደ መልስ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "መልክ",
+      "ሁሉን መልክ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "መልክ",
+      "እንደ መልክ",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "ሁሉን",
+      "መሠረት",
+      "ሁሉን መሠረት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እንደ",
+      "መሠረት",
+      "እንደ መሠረት",
+      {
+        "inflection": "n",
+        "rule_id": "am_noun_def_pl_to_sg"
+      }
+    ],
+    [
+      "እሷ",
+      "ሀገር",
+      "እሷ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ሀገር",
+      "እሷን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ሁኔታ",
+      "እሷ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ሁኔታ",
+      "እሷን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ህዝብ",
+      "እሷ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ህዝብ",
+      "እሷን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ህይወት",
+      "እሷ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ህይወት",
+      "እሷን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ህግ",
+      "እሷ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ህግ",
+      "እሷን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ለውጥ",
+      "እሷ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ለውጥ",
+      "እሷን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ልማት",
+      "እሷ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ልማት",
+      "እሷን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ልማድ",
+      "እሷ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ልማድ",
+      "እሷን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ልዩነት",
+      "እሷ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ልዩነት",
+      "እሷን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ልደት",
+      "እሷ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ልደት",
+      "እሷን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ልጅ",
+      "እሷ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ልጅ",
+      "እሷን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ሕዝብ",
+      "እሷ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ሕዝብ",
+      "እሷን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ሕይወት",
+      "እሷ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ሕይወት",
+      "እሷን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ሕግ",
+      "እሷ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "ሕግ",
+      "እሷን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "መልስ",
+      "እሷ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "መልስ",
+      "እሷን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "መልክ",
+      "እሷ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "መልክ",
+      "እሷን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷ",
+      "መሠረት",
+      "እሷ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሷን",
+      "መሠረት",
+      "እሷን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sf_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ሀገር",
+      "እሱ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ሀገር",
+      "እሱን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ሁኔታ",
+      "እሱ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ሁኔታ",
+      "እሱን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ህዝብ",
+      "እሱ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ህዝብ",
+      "እሱን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ህይወት",
+      "እሱ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ህይወት",
+      "እሱን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ህግ",
+      "እሱ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ህግ",
+      "እሱን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ለውጥ",
+      "እሱ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ለውጥ",
+      "እሱን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ልማት",
+      "እሱ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ልማት",
+      "እሱን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ልማድ",
+      "እሱ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ልማድ",
+      "እሱን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ልዩነት",
+      "እሱ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ልዩነት",
+      "እሱን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ልደት",
+      "እሱ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ልደት",
+      "እሱን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ልጅ",
+      "እሱ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ልጅ",
+      "እሱን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ሕዝብ",
+      "እሱ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ሕዝብ",
+      "እሱን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ሕይወት",
+      "እሱ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ሕይወት",
+      "እሱን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "ሕግ",
+      "እሱ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "ሕግ",
+      "እሱን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "መልስ",
+      "እሱ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "መልስ",
+      "እሱን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "መልክ",
+      "እሱ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "መልክ",
+      "እሱን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱ",
+      "መሠረት",
+      "እሱ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሱን",
+      "መሠረት",
+      "እሱን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3sm_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ሀገር",
+      "እሽ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ሀገር",
+      "እሽን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ሁኔታ",
+      "እሽ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ሁኔታ",
+      "እሽን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ህዝብ",
+      "እሽ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ህዝብ",
+      "እሽን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ህይወት",
+      "እሽ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ህይወት",
+      "እሽን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ህግ",
+      "እሽ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ህግ",
+      "እሽን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ለውጥ",
+      "እሽ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ለውጥ",
+      "እሽን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ልማት",
+      "እሽ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ልማት",
+      "እሽን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ልማድ",
+      "እሽ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ልማድ",
+      "እሽን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ልዩነት",
+      "እሽ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ልዩነት",
+      "እሽን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ልደት",
+      "እሽ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ልደት",
+      "እሽን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ልጅ",
+      "እሽ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ልጅ",
+      "እሽን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ሕዝብ",
+      "እሽ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ሕዝብ",
+      "እሽን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ሕይወት",
+      "እሽ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ሕይወት",
+      "እሽን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "ሕግ",
+      "እሽ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "ሕግ",
+      "እሽን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "መልስ",
+      "እሽ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "መልስ",
+      "እሽን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "መልክ",
+      "እሽ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "መልክ",
+      "እሽን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽ",
+      "መሠረት",
+      "እሽ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እሽን",
+      "መሠረት",
+      "እሽን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sf_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ሀገር",
+      "እህ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ሀገር",
+      "እህን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ሁኔታ",
+      "እህ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ሁኔታ",
+      "እህን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ህዝብ",
+      "እህ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ህዝብ",
+      "እህን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ህይወት",
+      "እህ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ህይወት",
+      "እህን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ህግ",
+      "እህ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ህግ",
+      "እህን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ለውጥ",
+      "እህ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ለውጥ",
+      "እህን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ልማት",
+      "እህ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ልማት",
+      "እህን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ልማድ",
+      "እህ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ልማድ",
+      "እህን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ልዩነት",
+      "እህ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ልዩነት",
+      "እህን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ልደት",
+      "እህ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ልደት",
+      "እህን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ልጅ",
+      "እህ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ልጅ",
+      "እህን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ሕዝብ",
+      "እህ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ሕዝብ",
+      "እህን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ሕይወት",
+      "እህ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ሕይወት",
+      "እህን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "ሕግ",
+      "እህ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "ሕግ",
+      "እህን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "መልስ",
+      "እህ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "መልስ",
+      "እህን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "መልክ",
+      "እህ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "መልክ",
+      "እህን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህ",
+      "መሠረት",
+      "እህ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እህን",
+      "መሠረት",
+      "እህን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2sm_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሀገር",
+      "እኔ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ሀገር",
+      "እኔን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሁኔታ",
+      "እኔ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ሁኔታ",
+      "እኔን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ህዝብ",
+      "እኔ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ህዝብ",
+      "እኔን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ህይወት",
+      "እኔ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ህይወት",
+      "እኔን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ህግ",
+      "እኔ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ህግ",
+      "እኔን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ለውጥ",
+      "እኔ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ለውጥ",
+      "እኔን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ልማት",
+      "እኔ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ልማት",
+      "እኔን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ልማድ",
+      "እኔ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ልማድ",
+      "እኔን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ልዩነት",
+      "እኔ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ልዩነት",
+      "እኔን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ልደት",
+      "እኔ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ልደት",
+      "እኔን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ልጅ",
+      "እኔ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ልጅ",
+      "እኔን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሕዝብ",
+      "እኔ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ሕዝብ",
+      "እኔን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሕይወት",
+      "እኔ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ሕይወት",
+      "እኔን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሕግ",
+      "እኔ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "ሕግ",
+      "እኔን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "መልስ",
+      "እኔ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "መልስ",
+      "እኔን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "መልክ",
+      "እኔ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "መልክ",
+      "እኔን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔ",
+      "መሠረት",
+      "እኔ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኔን",
+      "መሠረት",
+      "እኔን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1s_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሀገር",
+      "እኛ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሀገር",
+      "እኛን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሁኔታ",
+      "እኛ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሁኔታ",
+      "እኛን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ህዝብ",
+      "እኛ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ህዝብ",
+      "እኛን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ህይወት",
+      "እኛ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ህይወት",
+      "እኛን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ህግ",
+      "እኛ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ህግ",
+      "እኛን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ለውጥ",
+      "እኛ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ለውጥ",
+      "እኛን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ልማት",
+      "እኛ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ልማት",
+      "እኛን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ልማድ",
+      "እኛ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ልማድ",
+      "እኛን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ልዩነት",
+      "እኛ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ልዩነት",
+      "እኛን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ልደት",
+      "እኛ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ልደት",
+      "እኛን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ልጅ",
+      "እኛ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ልጅ",
+      "እኛን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሕዝብ",
+      "እኛ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሕዝብ",
+      "እኛን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሕይወት",
+      "እኛ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሕይወት",
+      "እኛን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሕግ",
+      "እኛ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሕግ",
+      "እኛን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "መልስ",
+      "እኛ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "መልስ",
+      "እኛን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "መልክ",
+      "እኛ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "መልክ",
+      "እኛን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "መሠረት",
+      "እኛ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እኛን",
+      "መሠረት",
+      "እኛን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss1p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ሀገር",
+      "እናንተ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ሀገር",
+      "እናንተን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ሁኔታ",
+      "እናንተ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ሁኔታ",
+      "እናንተን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ህዝብ",
+      "እናንተ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ህዝብ",
+      "እናንተን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ህይወት",
+      "እናንተ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ህይወት",
+      "እናንተን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ህግ",
+      "እናንተ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ህግ",
+      "እናንተን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ለውጥ",
+      "እናንተ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ለውጥ",
+      "እናንተን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ልማት",
+      "እናንተ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ልማት",
+      "እናንተን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ልማድ",
+      "እናንተ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ልማድ",
+      "እናንተን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ልዩነት",
+      "እናንተ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ልዩነት",
+      "እናንተን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ልደት",
+      "እናንተ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ልደት",
+      "እናንተን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ልጅ",
+      "እናንተ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ልጅ",
+      "እናንተን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ሕዝብ",
+      "እናንተ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ሕዝብ",
+      "እናንተን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ሕይወት",
+      "እናንተ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ሕይወት",
+      "እናንተን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "ሕግ",
+      "እናንተ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "ሕግ",
+      "እናንተን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "መልስ",
+      "እናንተ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "መልስ",
+      "እናንተን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "መልክ",
+      "እናንተ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "መልክ",
+      "እናንተን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተ",
+      "መሠረት",
+      "እናንተ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "እናንተን",
+      "መሠረት",
+      "እናንተን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss2p_to_pl"
+      }
+    ],
+    [
+      "ነበረ",
+      "ሆነ",
+      "ነበረ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_past_to_present"
+      }
+    ],
+    [
+      "ነበሩ",
+      "ሆነ",
+      "ነበሩ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_past_to_present"
+      }
+    ],
+    [
+      "በስራ",
+      "ሆነ",
+      "በስራ ሁኑ",
+      {
+        "inflection": "v_imp_2_pl",
+        "rule_id": "am_verb_imperative_sg_to_pl"
+      }
+    ],
+    [
+      "በስራችን",
+      "ሆነ",
+      "በስራችን ሁኑ",
+      {
+        "inflection": "v_imp_2_pl",
+        "rule_id": "am_verb_imperative_sg_to_pl"
+      }
+    ],
+    [
+      "በ",
+      "ሆነ",
+      "በ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_cvb_to_impfv"
+      }
+    ],
+    [
+      "ከ",
+      "ሆነ",
+      "ከ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_cvb_to_impfv"
+      }
+    ],
+    [
+      "ነበር",
+      "ሁለተኛ",
+      "ነበር ሁለተኛው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ሁለተኛ",
+      "ነው ሁለተኛው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ሁሉ",
+      "ነበር ሁሉዉ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ሁሉ",
+      "ነው ሁሉዉ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ህዝባዊ",
+      "ነበር ህዝባዊው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ህዝባዊ",
+      "ነው ህዝባዊው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ሌላ",
+      "ነበር ሌላው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ሌላ",
+      "ነው ሌላው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ልክ",
+      "ነበር ልኩ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ልክ",
+      "ነው ልኩ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ልዩ",
+      "ነበር ልዩዉ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ልዩ",
+      "ነው ልዩዉ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ሕዝባዊ",
+      "ነበር ሕዝባዊው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "ሕዝባዊ",
+      "ነው ሕዝባዊው",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነበር",
+      "መልካም",
+      "ነበር መልካሙ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "ነው",
+      "መልካም",
+      "ነው መልካሙ",
+      {
+        "inflection": "adj_def_masc",
+        "rule_id": "am_adj_abs_to_def"
+      }
+    ],
+    [
+      "በጥቂት",
+      "ሌላ",
+      "በጥቂት ሌሎቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_sg_def"
+      }
+    ],
+    [
+      "እነዚህ",
+      "ሌላ",
+      "እነዚህ ሌሎቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_sg_def"
+      }
+    ],
+    [
+      "በጥቂት",
+      "መልካም",
+      "በጥቂት መልካሞቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_sg_def"
+      }
+    ],
+    [
+      "እነዚህ",
+      "መልካም",
+      "እነዚህ መልካሞቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_sg_def"
+      }
+    ],
+    [
+      "ነበር",
+      "ሀገር",
+      "ነበር ሀገሩ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ሀገር",
+      "ነው ሀገሩ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ሁኔታ",
+      "ነበር ሁኔታው",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ሁኔታ",
+      "ነው ሁኔታው",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ህዝብ",
+      "ነበር ህዝቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ህዝብ",
+      "ነው ህዝቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ህይወት",
+      "ነበር ህይወቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ህይወት",
+      "ነው ህይወቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ህግ",
+      "ነበር ህጉ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ህግ",
+      "ነው ህጉ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ለውጥ",
+      "ነበር ለውጡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ለውጥ",
+      "ነው ለውጡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልማት",
+      "ነበር ልማቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልማት",
+      "ነው ልማቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልማድ",
+      "ነበር ልማዱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልማድ",
+      "ነው ልማዱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልብ",
+      "ነበር ልቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልብ",
+      "ነው ልቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልዩነት",
+      "ነበር ልዩነቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልዩነት",
+      "ነው ልዩነቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልደት",
+      "ነበር ልደቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልደት",
+      "ነው ልደቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ልጅ",
+      "ነበር ልጁ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ልጅ",
+      "ነው ልጁ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ሕዝብ",
+      "ነበር ሕዝቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ሕዝብ",
+      "ነው ሕዝቡ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ሕይወት",
+      "ነበር ሕይወቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ሕይወት",
+      "ነው ሕይወቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "ሕግ",
+      "ነበር ሕጉ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "ሕግ",
+      "ነው ሕጉ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "መልስ",
+      "ነበር መልሱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "መልስ",
+      "ነው መልሱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "መልክ",
+      "ነበር መልኩ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "መልክ",
+      "ነው መልኩ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነበር",
+      "መሠረት",
+      "ነበር መሠረቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "ነው",
+      "መሠረት",
+      "ነው መሠረቱ",
+      {
+        "inflection": "n_def_masc",
+        "rule_id": "am_noun_abs_to_def_masc"
+      }
+    ],
+    [
+      "በስራች",
+      "ሆነ",
+      "በስራች ሁኚ",
+      {
+        "inflection": "v_imp_2_sg_fem",
+        "rule_id": "am_verb_imperative_fem_to_sg"
+      }
+    ],
+    [
+      "ተማሪ",
+      "ሀገር",
+      "ተማሪ ሀገሮች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "አንድ",
+      "ሀገር",
+      "አንድ ሀገሮች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "ተማሪ",
+      "ህዝብ",
+      "ተማሪ አህዛብ",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "አንድ",
+      "ህዝብ",
+      "አንድ አህዛብ",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "ተማሪ",
+      "ህግ",
+      "ተማሪ ህጎች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "አንድ",
+      "ህግ",
+      "አንድ ህጎች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "ተማሪ",
+      "ሕዝብ",
+      "ተማሪ አሕዛብ",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "አንድ",
+      "ሕዝብ",
+      "አንድ አሕዛብ",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "ተማሪ",
+      "ሕግ",
+      "ተማሪ ሕጎች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "አንድ",
+      "ሕግ",
+      "አንድ ሕጎች",
+      {
+        "inflection": "n_pl_lgspec1",
+        "rule_id": "am_noun_lgspec1_def_to_pl"
+      }
+    ],
+    [
+      "እኛ",
+      "ሆነ",
+      "እኛ ሆነው",
+      {
+        "inflection": "v_cvb_3_pl",
+        "rule_id": "am_verb_cvb_1pl_to_3pl"
+      }
+    ],
+    [
+      "እኛን",
+      "ሆነ",
+      "እኛን ሆነው",
+      {
+        "inflection": "v_cvb_3_pl",
+        "rule_id": "am_verb_cvb_1pl_to_3pl"
+      }
+    ],
+    [
+      "አንተ",
+      "ሆነ",
+      "አንተ ሆኖ",
+      {
+        "inflection": "v_cvb_3_sg_masc",
+        "rule_id": "am_verb_cvb_2sg_to_3sg"
+      }
+    ],
+    [
+      "አንተን",
+      "ሆነ",
+      "አንተን ሆኖ",
+      {
+        "inflection": "v_cvb_3_sg_masc",
+        "rule_id": "am_verb_cvb_2sg_to_3sg"
+      }
+    ],
+    [
+      "እሱ",
+      "ሆነ",
+      "እሱ ሆነን",
+      {
+        "inflection": "v_cvb_1_pl",
+        "rule_id": "am_verb_cvb_3sg_to_1pl"
+      }
+    ],
+    [
+      "እሷ",
+      "ሆነ",
+      "እሷ ሆነን",
+      {
+        "inflection": "v_cvb_1_pl",
+        "rule_id": "am_verb_cvb_3sg_to_1pl"
+      }
+    ],
+    [
+      "እኔ",
+      "ሆነ",
+      "እኔ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_ipfv_1sg_to_3sg"
+      }
+    ],
+    [
+      "እኔን",
+      "ሆነ",
+      "እኔን ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_ipfv_1sg_to_3sg"
+      }
+    ],
+    [
+      "እንደ",
+      "ሆነ",
+      "እንደ ሆኑ",
+      {
+        "inflection": "v_pfv_3_pl",
+        "rule_id": "am_verb_pfv_3sg_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ሀገር",
+      "እነሱ ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ሀገር",
+      "እነሱን ሀገራት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ሁኔታ",
+      "እነሱ ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ሁኔታ",
+      "እነሱን ሁኔታዎች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ህዝብ",
+      "እነሱ ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ህዝብ",
+      "እነሱን ህዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ህይወት",
+      "እነሱ ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ህይወት",
+      "እነሱን ህይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ህግ",
+      "እነሱ ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ህግ",
+      "እነሱን ህግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ለውጥ",
+      "እነሱ ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ለውጥ",
+      "እነሱን ለውጦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ልማት",
+      "እነሱ ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ልማት",
+      "እነሱን ልማቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ልማድ",
+      "እነሱ ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ልማድ",
+      "እነሱን ልማዶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ልዩነት",
+      "እነሱ ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ልዩነት",
+      "እነሱን ልዩነቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ልደት",
+      "እነሱ ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ልደት",
+      "እነሱን ልደቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ልጅ",
+      "እነሱ ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ልጅ",
+      "እነሱን ልጆች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ሕዝብ",
+      "እነሱ ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ሕዝብ",
+      "እነሱን ሕዝቦች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ሕይወት",
+      "እነሱ ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ሕይወት",
+      "እነሱን ሕይወቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "ሕግ",
+      "እነሱ ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "ሕግ",
+      "እነሱን ሕግጋት",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "መልስ",
+      "እነሱ መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "መልስ",
+      "እነሱን መልሶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "መልክ",
+      "እነሱ መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "መልክ",
+      "እነሱን መልኮች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱ",
+      "መሠረት",
+      "እነሱ መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "እነሱን",
+      "መሠረት",
+      "እነሱን መሠረቶች",
+      {
+        "inflection": "n_pl",
+        "rule_id": "am_noun_pss3p_to_pl"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ሁለተኛ",
+      "ሁኔታ ሁለተኛዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ሁለተኛ",
+      "ተራ ሁለተኛዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ሁሉ",
+      "ሁኔታ ሁሉዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ሁሉ",
+      "ተራ ሁሉዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ህዝባዊ",
+      "ሁኔታ ህዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ህዝባዊ",
+      "ተራ ህዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ሌላ",
+      "ሁኔታ ሌላዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ሌላ",
+      "ተራ ሌላዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ልክ",
+      "ሁኔታ ልኳ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ልክ",
+      "ተራ ልኳ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ልዩ",
+      "ሁኔታ ልዩዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ልዩ",
+      "ተራ ልዩዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "ሕዝባዊ",
+      "ሁኔታ ሕዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "ሕዝባዊ",
+      "ተራ ሕዝባዊዋ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ሁኔታ",
+      "መልካም",
+      "ሁኔታ መልካሚቱ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ተራ",
+      "መልካም",
+      "ተራ መልካሚቱ",
+      {
+        "inflection": "adj_def_fem",
+        "rule_id": "am_adj_abs_to_def_fem"
+      }
+    ],
+    [
+      "ብዙ",
+      "ሌላ",
+      "ብዙ ሌሎቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_def_pl"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሌላ",
+      "ተማሪዎች ሌሎቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_def_pl"
+      }
+    ],
+    [
+      "ብዙ",
+      "መልካም",
+      "ብዙ መልካሞቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_def_pl"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "መልካም",
+      "ተማሪዎች መልካሞቹ",
+      {
+        "inflection": "adj_def_pl",
+        "rule_id": "am_adj_pl_to_def_pl"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሀገር",
+      "ተማሪዎች ሀገራቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ሀገር",
+      "ተማሪዎችን ሀገራቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሁኔታ",
+      "ተማሪዎች ሁኔታዎቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ሁኔታ",
+      "ተማሪዎችን ሁኔታዎቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ህዝብ",
+      "ተማሪዎች ህዝቦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ህዝብ",
+      "ተማሪዎችን ህዝቦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ህይወት",
+      "ተማሪዎች ህይወቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ህይወት",
+      "ተማሪዎችን ህይወቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ህግ",
+      "ተማሪዎች ህግጋቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ህግ",
+      "ተማሪዎችን ህግጋቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ለውጥ",
+      "ተማሪዎች ለውጦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ለውጥ",
+      "ተማሪዎችን ለውጦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ልማት",
+      "ተማሪዎች ልማቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ልማት",
+      "ተማሪዎችን ልማቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ልማድ",
+      "ተማሪዎች ልማዶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ልማድ",
+      "ተማሪዎችን ልማዶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ልዩነት",
+      "ተማሪዎች ልዩነቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ልዩነት",
+      "ተማሪዎችን ልዩነቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ልደት",
+      "ተማሪዎች ልደቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ልደት",
+      "ተማሪዎችን ልደቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ልጅ",
+      "ተማሪዎች ልጆቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ልጅ",
+      "ተማሪዎችን ልጆቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሕዝብ",
+      "ተማሪዎች ሕዝቦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ሕዝብ",
+      "ተማሪዎችን ሕዝቦቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሕይወት",
+      "ተማሪዎች ሕይወቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ሕይወት",
+      "ተማሪዎችን ሕይወቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "ሕግ",
+      "ተማሪዎች ሕግጋቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "ሕግ",
+      "ተማሪዎችን ሕግጋቱ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "መልስ",
+      "ተማሪዎች መልሶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "መልስ",
+      "ተማሪዎችን መልሶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "መልክ",
+      "ተማሪዎች መልኮቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "መልክ",
+      "ተማሪዎችን መልኮቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎች",
+      "መሠረት",
+      "ተማሪዎች መሠረቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ተማሪዎችን",
+      "መሠረት",
+      "ተማሪዎችን መሠረቶቹ",
+      {
+        "inflection": "n_def_pl",
+        "rule_id": "am_noun_abs_to_def_pl_form"
+      }
+    ],
+    [
+      "ጥቂት",
+      "ሌላ",
+      "ጥቂት ሌሎች",
+      {
+        "inflection": "adj_pl",
+        "rule_id": "am_adj_def_fem_to_pl"
+      }
+    ],
+    [
+      "ጥቂት",
+      "መልካም",
+      "ጥቂት መልካሞች",
+      {
+        "inflection": "adj_pl",
+        "rule_id": "am_adj_def_fem_to_pl"
+      }
+    ],
+    [
+      "ነገደ",
+      "ሆነ",
+      "ነገደ ይሆናል",
+      {
+        "inflection": "v_ipfv_3_sg_masc",
+        "rule_id": "am_verb_msdr_to_ipfv"
+      }
+    ]
+  ]
 }

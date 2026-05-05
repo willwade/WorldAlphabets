@@ -106,6 +106,20 @@ def lint_rule(
     return errors, True
 
 
+def lint_join_rule(rule: Any, idx: int) -> List[str]:
+    errors: List[str] = []
+    rid = rule.get("id", f"join[{idx}]") if isinstance(rule, dict) else f"join[{idx}]"
+    if not isinstance(rule, dict):
+        return [f"{rid}: not a dict, got {type(rule).__name__}"]
+    if not isinstance(rule.get("prev"), (list, str)):
+        errors.append(f"{rid}: prev must be string or array")
+    if "next" not in rule and "next_match" not in rule:
+        errors.append(f"{rid}: must have 'next' or 'next_match'")
+    if not isinstance(rule.get("result", ""), str):
+        errors.append(f"{rid}: result must be string")
+    return errors
+
+
 def lint_locale(locale: str, fix: bool = False) -> Dict[str, Any]:
     rules_path = INFLECTION_DIR / locale / "rules.json"
     if not rules_path.exists():
@@ -132,6 +146,13 @@ def lint_locale(locale: str, fix: bool = False) -> Dict[str, Any]:
             valid_rules.append(rule)
 
     removed = total - len(valid_rules)
+
+    join_rules = data.get("join", [])
+    join_errors: List[str] = []
+    if isinstance(join_rules, list):
+        for i, jr in enumerate(join_rules):
+            join_errors.extend(lint_join_rule(jr, i))
+    all_errors.extend(join_errors)
 
     if fix and removed > 0:
         data["rules"] = valid_rules

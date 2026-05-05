@@ -1,9 +1,3732 @@
 {
-  "_type": "rules",
   "_locale": "lt",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "lt_verb_1_sg_prs_ind",
+      "inflection": "v_1_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "aš"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_verb_2_sg_prs_ind",
+      "inflection": "v_2_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_verb_3_sg_prs_ind",
+      "inflection": "v_3_sg_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ji",
+            "jis",
+            "tai"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_verb_1_pl_prs_ind",
+      "inflection": "v_1_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mes"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_verb_2_pl_prs_ind",
+      "inflection": "v_2_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jūs"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_verb_3_pl_prs_ind",
+      "inflection": "v_3_pl_prs_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jie",
+            "jos"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lt_noun_nom_sg",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "koks",
+            "tas",
+            "vienas",
+            "šis"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_acc_sg",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ką",
+            "tą",
+            "šį"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_gen_sg",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "jo",
+            "kurio",
+            "to"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_dat_sg",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kam",
+            "tam",
+            "šiam"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_inst_sg",
+      "inflection": "n_inst_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kuo",
+            "tuo",
+            "šiuo"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_loc_sg",
+      "inflection": "n_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kur",
+            "toje",
+            "šioje"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_nom_pl",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kokie",
+            "tie",
+            "šie"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_acc_pl",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ius",
+            "kad",
+            "tuos"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_gen_pl",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "jų",
+            "kokių"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_dat_pl",
+      "inflection": "n_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kokiems",
+            "tiems"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_inst_pl",
+      "inflection": "n_inst_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kokiais",
+            "tais"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_noun_loc_pl",
+      "inflection": "n_loc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kokiuose",
+            "tuose"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "lt_adj_nom_sg_masc_pos",
+      "inflection": "adj_nom_sg_masc_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geras",
+            "tas",
+            "šis"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_acc_sg_masc_pos",
+      "inflection": "adj_acc_sg_masc_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gerą",
+            "tą",
+            "šį"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_gen_sg_masc_pos",
+      "inflection": "adj_gen_sg_masc_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gero",
+            "to",
+            "šio"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_dat_sg_masc_pos",
+      "inflection": "adj_dat_sg_masc_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geram",
+            "tame",
+            "šiame"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_inst_sg_masc_pos",
+      "inflection": "adj_inst_sg_masc_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geru",
+            "tuo",
+            "šiuo"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_nom_sg_fem_pos",
+      "inflection": "adj_nom_sg_fem_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gera",
+            "ta",
+            "šia"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_acc_sg_fem_pos",
+      "inflection": "adj_acc_sg_fem_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "šią"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_gen_sg_fem_pos",
+      "inflection": "adj_gen_sg_fem_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geros",
+            "tos",
+            "šios"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "lt_adj_dat_sg_fem_pos",
+      "inflection": "adj_dat_sg_fem_pos",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gerai",
+            "tai",
+            "šiai"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "aš",
+      "bijoti",
+      "aš bijau",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "būti",
+      "aš esu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "daryti",
+      "aš darau",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "dirbti",
+      "aš dirbu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "duoti",
+      "aš duodu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "dėkoti",
+      "aš dėkoju",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "eiti",
+      "aš einu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "galėti",
+      "aš galiu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "gauti",
+      "aš gaunu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "aš",
+      "kalbėti",
+      "aš kalbu",
+      {
+        "inflection": "v_1_sg_prs_ind",
+        "rule_id": "lt_verb_1_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "būti",
+      "tu esi",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "daryti",
+      "tu darai",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "dirbti",
+      "tu dirbi",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "duoti",
+      "tu duodi",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "eiti",
+      "tu eini",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "galėti",
+      "tu gali",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "gauti",
+      "tu gauni",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "girdėti",
+      "tu girdi",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "tu",
+      "kalbėti",
+      "tu kalbi",
+      {
+        "inflection": "v_2_sg_prs_ind",
+        "rule_id": "lt_verb_2_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "ateiti",
+      "ji ateina",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "ateiti",
+      "jis ateina",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "būti",
+      "ji yra",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "būti",
+      "jis yra",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "daryti",
+      "ji daro",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "daryti",
+      "jis daro",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "dirbti",
+      "ji dirba",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "dirbti",
+      "jis dirba",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "duoti",
+      "ji duoda",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "duoti",
+      "jis duoda",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "eiti",
+      "ji eina",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "eiti",
+      "jis eina",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "galėti",
+      "ji gali",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "galėti",
+      "jis gali",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "gauti",
+      "ji gauna",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "gauti",
+      "jis gauna",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "girdėti",
+      "ji girdi",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "girdėti",
+      "jis girdi",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "ji",
+      "kalbėti",
+      "ji kalba",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "jis",
+      "kalbėti",
+      "jis kalba",
+      {
+        "inflection": "v_3_sg_prs_ind",
+        "rule_id": "lt_verb_3_sg_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "būti",
+      "mes esame",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "daryti",
+      "mes darome",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "dirbti",
+      "mes dirbame",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "duoti",
+      "mes duodame",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "eiti",
+      "mes einame",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "galėti",
+      "mes galime",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "gauti",
+      "mes gauname",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "mes",
+      "kalbėti",
+      "mes kalbame",
+      {
+        "inflection": "v_1_pl_prs_ind",
+        "rule_id": "lt_verb_1_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "būti",
+      "jūs esate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "daryti",
+      "jūs darote",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "dirbti",
+      "jūs dirbate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "duoti",
+      "jūs duodate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "eiti",
+      "jūs einate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "galėti",
+      "jūs galite",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "gauti",
+      "jūs gaunate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jūs",
+      "kalbėti",
+      "jūs kalbate",
+      {
+        "inflection": "v_2_pl_prs_ind",
+        "rule_id": "lt_verb_2_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "ateiti",
+      "jie ateina",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "ateiti",
+      "jos ateina",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "būti",
+      "jie yra",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "būti",
+      "jos yra",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "daryti",
+      "jie daro",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "daryti",
+      "jos daro",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "dirbti",
+      "jie dirba",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "dirbti",
+      "jos dirba",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "duoti",
+      "jie duoda",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "duoti",
+      "jos duoda",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "eiti",
+      "jie eina",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "eiti",
+      "jos eina",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "galėti",
+      "jie gali",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "galėti",
+      "jos gali",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "gauti",
+      "jie gauna",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "gauti",
+      "jos gauna",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "girdėti",
+      "jie girdi",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "girdėti",
+      "jos girdi",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jie",
+      "kalbėti",
+      "jie kalba",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "jos",
+      "kalbėti",
+      "jos kalba",
+      {
+        "inflection": "v_3_pl_prs_ind",
+        "rule_id": "lt_verb_3_pl_prs_ind"
+      }
+    ],
+    [
+      "koks",
+      "brolis",
+      "koks brólis",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "brolis",
+      "tas brólis",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "būdas",
+      "koks bū̃das",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "būdas",
+      "tas bū̃das",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "daktaras",
+      "koks daktaras",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "daktaras",
+      "tas daktaras",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "dalykas",
+      "koks dalỹkas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "dalykas",
+      "tas dalỹkas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "darbas",
+      "koks dárbas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "darbas",
+      "tas dárbas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "dievas",
+      "koks diẽvas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "dievas",
+      "tas diẽvas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "draugas",
+      "koks draũgas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "draugas",
+      "tas draũgas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "galva",
+      "koks galvà",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "galva",
+      "tas galvà",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "istorija",
+      "koks istòrija",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "istorija",
+      "tas istòrija",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "koks",
+      "karas",
+      "koks karas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "tas",
+      "karas",
+      "tas karas",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "lt_noun_nom_sg"
+      }
+    ],
+    [
+      "ką",
+      "brolis",
+      "ką brólį",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "brolis",
+      "tą brólį",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "būdas",
+      "ką bū̃dą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "būdas",
+      "tą bū̃dą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "daktaras",
+      "ką daktarą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "daktaras",
+      "tą daktarą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "dalykas",
+      "ką dalỹką",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "dalykas",
+      "tą dalỹką",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "darbas",
+      "ką dárbą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "darbas",
+      "tą dárbą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "dievas",
+      "ką diẽvą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "dievas",
+      "tą diẽvą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "draugas",
+      "ką draũgą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "draugas",
+      "tą draũgą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "galva",
+      "ką gálvą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "galva",
+      "tą gálvą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "istorija",
+      "ką istòriją",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "istorija",
+      "tą istòriją",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "ką",
+      "karas",
+      "ką karą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "tą",
+      "karas",
+      "tą karą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "lt_noun_acc_sg"
+      }
+    ],
+    [
+      "jo",
+      "brolis",
+      "jo brólio",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "brolis",
+      "kurio brólio",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "būdas",
+      "jo bū̃do",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "būdas",
+      "kurio bū̃do",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "daktaras",
+      "jo daktaro",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "daktaras",
+      "kurio daktaro",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "dalykas",
+      "jo dalỹko",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "dalykas",
+      "kurio dalỹko",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "darbas",
+      "jo dárbo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "darbas",
+      "kurio dárbo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "dievas",
+      "jo diẽvo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "dievas",
+      "kurio diẽvo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "draugas",
+      "jo draũgo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "draugas",
+      "kurio draũgo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "galva",
+      "jo galvõs",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "galva",
+      "kurio galvõs",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "istorija",
+      "jo istòrijos",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "istorija",
+      "kurio istòrijos",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "jo",
+      "karas",
+      "jo karo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kurio",
+      "karas",
+      "kurio karo",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "lt_noun_gen_sg"
+      }
+    ],
+    [
+      "kam",
+      "brolis",
+      "kam bróliui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "brolis",
+      "tam bróliui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "būdas",
+      "kam bū̃dui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "būdas",
+      "tam bū̃dui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "daktaras",
+      "kam daktarui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "daktaras",
+      "tam daktarui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "dalykas",
+      "kam dalỹkui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "dalykas",
+      "tam dalỹkui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "darbas",
+      "kam dárbui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "darbas",
+      "tam dárbui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "dievas",
+      "kam diẽvui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "dievas",
+      "tam diẽvui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "draugas",
+      "kam draũgui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "draugas",
+      "tam draũgui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "galva",
+      "kam gálvai",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "galva",
+      "tam gálvai",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "istorija",
+      "kam istòrijai",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "istorija",
+      "tam istòrijai",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kam",
+      "karas",
+      "kam karui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "tam",
+      "karas",
+      "tam karui",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "lt_noun_dat_sg"
+      }
+    ],
+    [
+      "kuo",
+      "brolis",
+      "kuo bróliu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "brolis",
+      "tuo bróliu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "būdas",
+      "kuo būdù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "būdas",
+      "tuo būdù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "daktaras",
+      "kuo daktaru",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "daktaras",
+      "tuo daktaru",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "dalykas",
+      "kuo dalykù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "dalykas",
+      "tuo dalykù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "darbas",
+      "kuo dárbu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "darbas",
+      "tuo dárbu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "dievas",
+      "kuo dievù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "dievas",
+      "tuo dievù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "draugas",
+      "kuo draugù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "draugas",
+      "tuo draugù",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "galva",
+      "kuo gálva",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "galva",
+      "tuo gálva",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "istorija",
+      "kuo istòrija",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "istorija",
+      "tuo istòrija",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kuo",
+      "karas",
+      "kuo karu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "tuo",
+      "karas",
+      "tuo karu",
+      {
+        "inflection": "n_inst_sg",
+        "rule_id": "lt_noun_inst_sg"
+      }
+    ],
+    [
+      "kur",
+      "brolis",
+      "kur brólyje",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "brolis",
+      "toje brólyje",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "būdas",
+      "kur būdè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "būdas",
+      "toje būdè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "daktaras",
+      "kur daktare",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "daktaras",
+      "toje daktare",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "dalykas",
+      "kur dalykè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "dalykas",
+      "toje dalykè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "darbas",
+      "kur darbè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "darbas",
+      "toje darbè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "dievas",
+      "kur dievè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "dievas",
+      "toje dievè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "draugas",
+      "kur draugè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "draugas",
+      "toje draugè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "galva",
+      "kur galvojè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "galva",
+      "toje galvojè",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "istorija",
+      "kur istòrijoje",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "istorija",
+      "toje istòrijoje",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kur",
+      "karas",
+      "kur kare",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "toje",
+      "karas",
+      "toje kare",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "lt_noun_loc_sg"
+      }
+    ],
+    [
+      "kokie",
+      "brolis",
+      "kokie bróliai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "brolis",
+      "tie bróliai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "būdas",
+      "kokie bū̃dai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "būdas",
+      "tie bū̃dai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "daktaras",
+      "kokie daktarai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "daktaras",
+      "tie daktarai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "dalykas",
+      "kokie dalỹkai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "dalykas",
+      "tie dalỹkai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "darbas",
+      "kokie darbaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "darbas",
+      "tie darbaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "dievas",
+      "kokie dievaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "dievas",
+      "tie dievaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "draugas",
+      "kokie draugaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "draugas",
+      "tie draugaĩ",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "galva",
+      "kokie gálvos",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "galva",
+      "tie gálvos",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "istorija",
+      "kokie istòrijos",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "istorija",
+      "tie istòrijos",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "kokie",
+      "karas",
+      "kokie karai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "tie",
+      "karas",
+      "tie karai",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "lt_noun_nom_pl"
+      }
+    ],
+    [
+      "ius",
+      "brolis",
+      "ius brólius",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "brolis",
+      "kad brólius",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "būdas",
+      "ius būdùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "būdas",
+      "kad būdùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "daktaras",
+      "ius daktarus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "daktaras",
+      "kad daktarus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "dalykas",
+      "ius dalykùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "dalykas",
+      "kad dalykùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "darbas",
+      "ius dárbus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "darbas",
+      "kad dárbus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "dievas",
+      "ius dievùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "dievas",
+      "kad dievùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "draugas",
+      "ius draugùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "draugas",
+      "kad draugùs",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "galva",
+      "ius gálvas",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "galva",
+      "kad gálvas",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "istorija",
+      "ius istòrijas",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "istorija",
+      "kad istòrijas",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "ius",
+      "karas",
+      "ius karus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "kad",
+      "karas",
+      "kad karus",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "lt_noun_acc_pl"
+      }
+    ],
+    [
+      "jų",
+      "brolis",
+      "jų brólių",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "brolis",
+      "kokių brólių",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "būdas",
+      "jų bū̃dų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "būdas",
+      "kokių bū̃dų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "daktaras",
+      "jų daktarų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "daktaras",
+      "kokių daktarų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "dalykas",
+      "jų dalỹkų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "dalykas",
+      "kokių dalỹkų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "darbas",
+      "jų darbų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "darbas",
+      "kokių darbų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "dievas",
+      "jų dievų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "dievas",
+      "kokių dievų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "draugas",
+      "jų draugų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "draugas",
+      "kokių draugų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "galva",
+      "jų galvų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "galva",
+      "kokių galvų̃",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "istorija",
+      "jų istòrijų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "istorija",
+      "kokių istòrijų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "jų",
+      "karas",
+      "jų karų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokių",
+      "karas",
+      "kokių karų",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "lt_noun_gen_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "brolis",
+      "kokiems bróliams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "brolis",
+      "tiems bróliams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "būdas",
+      "kokiems bū̃dams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "būdas",
+      "tiems bū̃dams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "daktaras",
+      "kokiems daktarams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "daktaras",
+      "tiems daktarams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "dalykas",
+      "kokiems dalỹkams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "dalykas",
+      "tiems dalỹkams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "darbas",
+      "kokiems darbáms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "darbas",
+      "tiems darbáms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "dievas",
+      "kokiems dieváms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "dievas",
+      "tiems dieváms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "draugas",
+      "kokiems draugáms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "draugas",
+      "tiems draugáms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "galva",
+      "kokiems galvóms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "galva",
+      "tiems galvóms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "istorija",
+      "kokiems istòrijoms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "istorija",
+      "tiems istòrijoms",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiems",
+      "karas",
+      "kokiems karams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "tiems",
+      "karas",
+      "tiems karams",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "lt_noun_dat_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "brolis",
+      "kokiais bróliais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "brolis",
+      "tais bróliais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "būdas",
+      "kokiais bū̃dais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "būdas",
+      "tais bū̃dais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "daktaras",
+      "kokiais daktarais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "daktaras",
+      "tais daktarais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "dalykas",
+      "kokiais dalỹkais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "dalykas",
+      "tais dalỹkais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "darbas",
+      "kokiais darbaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "darbas",
+      "tais darbaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "dievas",
+      "kokiais dievaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "dievas",
+      "tais dievaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "draugas",
+      "kokiais draugaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "draugas",
+      "tais draugaĩs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "galva",
+      "kokiais galvomìs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "galva",
+      "tais galvomìs",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "istorija",
+      "kokiais istòrijomis",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "istorija",
+      "tais istòrijomis",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiais",
+      "karas",
+      "kokiais karais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "tais",
+      "karas",
+      "tais karais",
+      {
+        "inflection": "n_inst_pl",
+        "rule_id": "lt_noun_inst_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "brolis",
+      "kokiuose bróliuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "brolis",
+      "tuose bróliuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "būdas",
+      "kokiuose bū̃duose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "būdas",
+      "tuose bū̃duose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "daktaras",
+      "kokiuose daktaruose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "daktaras",
+      "tuose daktaruose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "dalykas",
+      "kokiuose dalỹkuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "dalykas",
+      "tuose dalỹkuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "darbas",
+      "kokiuose darbuosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "darbas",
+      "tuose darbuosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "dievas",
+      "kokiuose dievuosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "dievas",
+      "tuose dievuosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "draugas",
+      "kokiuose drauguosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "draugas",
+      "tuose drauguosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "galva",
+      "kokiuose galvosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "galva",
+      "tuose galvosè",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "istorija",
+      "kokiuose istòrijose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "istorija",
+      "tuose istòrijose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "kokiuose",
+      "karas",
+      "kokiuose karuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "tuose",
+      "karas",
+      "tuose karuose",
+      {
+        "inflection": "n_loc_pl",
+        "rule_id": "lt_noun_loc_pl"
+      }
+    ],
+    [
+      "geras",
+      "didelis",
+      "geras didelis",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "tas",
+      "didelis",
+      "tas didelis",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "geras",
+      "geras",
+      "geras geras",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "tas",
+      "geras",
+      "tas geras",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "geras",
+      "gražus",
+      "geras gražus",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "tas",
+      "gražus",
+      "tas gražus",
+      {
+        "inflection": "adj_nom_sg_masc_pos",
+        "rule_id": "lt_adj_nom_sg_masc_pos"
+      }
+    ],
+    [
+      "gerą",
+      "didelis",
+      "gerą didelį",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "tą",
+      "didelis",
+      "tą didelį",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "gerą",
+      "geras",
+      "gerą gerą",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "tą",
+      "geras",
+      "tą gerą",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "gerą",
+      "gražus",
+      "gerą gražų",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "tą",
+      "gražus",
+      "tą gražų",
+      {
+        "inflection": "adj_acc_sg_masc_pos",
+        "rule_id": "lt_adj_acc_sg_masc_pos"
+      }
+    ],
+    [
+      "gero",
+      "didelis",
+      "gero didelio",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "to",
+      "didelis",
+      "to didelio",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "gero",
+      "geras",
+      "gero gero",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "to",
+      "geras",
+      "to gero",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "gero",
+      "gražus",
+      "gero gražaus",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "to",
+      "gražus",
+      "to gražaus",
+      {
+        "inflection": "adj_gen_sg_masc_pos",
+        "rule_id": "lt_adj_gen_sg_masc_pos"
+      }
+    ],
+    [
+      "geram",
+      "didelis",
+      "geram dideliam",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "tame",
+      "didelis",
+      "tame dideliam",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "geram",
+      "geras",
+      "geram geram",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "tame",
+      "geras",
+      "tame geram",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "geram",
+      "gražus",
+      "geram gražiam",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "tame",
+      "gražus",
+      "tame gražiam",
+      {
+        "inflection": "adj_dat_sg_masc_pos",
+        "rule_id": "lt_adj_dat_sg_masc_pos"
+      }
+    ],
+    [
+      "geru",
+      "didelis",
+      "geru dideliu",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "tuo",
+      "didelis",
+      "tuo dideliu",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "geru",
+      "geras",
+      "geru geru",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "tuo",
+      "geras",
+      "tuo geru",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "geru",
+      "gražus",
+      "geru gražiu",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "tuo",
+      "gražus",
+      "tuo gražiu",
+      {
+        "inflection": "adj_inst_sg_masc_pos",
+        "rule_id": "lt_adj_inst_sg_masc_pos"
+      }
+    ],
+    [
+      "gera",
+      "didelis",
+      "gera didelė",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "ta",
+      "didelis",
+      "ta didelė",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "gera",
+      "geras",
+      "gera gera",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "ta",
+      "geras",
+      "ta gera",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "gera",
+      "gražus",
+      "gera graži",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "ta",
+      "gražus",
+      "ta graži",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "gera",
+      "kalbus",
+      "gera kalbi",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "ta",
+      "kalbus",
+      "ta kalbi",
+      {
+        "inflection": "adj_nom_sg_fem_pos",
+        "rule_id": "lt_adj_nom_sg_fem_pos"
+      }
+    ],
+    [
+      "šią",
+      "didelis",
+      "šią didelę",
+      {
+        "inflection": "adj_acc_sg_fem_pos",
+        "rule_id": "lt_adj_acc_sg_fem_pos"
+      }
+    ],
+    [
+      "šią",
+      "geras",
+      "šią gerą",
+      {
+        "inflection": "adj_acc_sg_fem_pos",
+        "rule_id": "lt_adj_acc_sg_fem_pos"
+      }
+    ],
+    [
+      "šią",
+      "gražus",
+      "šią gražią",
+      {
+        "inflection": "adj_acc_sg_fem_pos",
+        "rule_id": "lt_adj_acc_sg_fem_pos"
+      }
+    ],
+    [
+      "geros",
+      "didelis",
+      "geros didelės",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "tos",
+      "didelis",
+      "tos didelės",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "geros",
+      "geras",
+      "geros geros",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "tos",
+      "geras",
+      "tos geros",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "geros",
+      "gražus",
+      "geros gražios",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "tos",
+      "gražus",
+      "tos gražios",
+      {
+        "inflection": "adj_gen_sg_fem_pos",
+        "rule_id": "lt_adj_gen_sg_fem_pos"
+      }
+    ],
+    [
+      "gerai",
+      "didelis",
+      "gerai didelei",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "tai",
+      "didelis",
+      "tai didelei",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "gerai",
+      "geras",
+      "gerai gerai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "tai",
+      "geras",
+      "tai gerai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "gerai",
+      "gražus",
+      "gerai gražiai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "tai",
+      "gražus",
+      "tai gražiai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "gerai",
+      "greitas",
+      "gerai greitai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ],
+    [
+      "tai",
+      "greitas",
+      "tai greitai",
+      {
+        "inflection": "adj_dat_sg_fem_pos",
+        "rule_id": "lt_adj_dat_sg_fem_pos"
+      }
+    ]
+  ]
 }

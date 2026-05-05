@@ -57,21 +57,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
-          "words": [
-            "achar"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "achar_v_2_sg_imp_pos",
-      "inflection": "v_2_sg_imp_pos",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
           "words": [
             "achar"
           ]
@@ -85,7 +70,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "coisar"
           ]
@@ -99,35 +83,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
-          "words": [
-            "dizer"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "dizer_v_1_pl_ind_prs",
-      "inflection": "v_1_pl_ind_prs",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "dizer"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "dizer_v_1_sg_cond",
-      "inflection": "v_1_sg_cond",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
           "words": [
             "dizer"
           ]
@@ -137,5 +92,33 @@
     }
   ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "achar",
+      "abrir",
+      "achar abro",
+      {
+        "inflection": "v_1_sg_ind_prs",
+        "rule_id": "achar_v_1_sg_ind_prs"
+      }
+    ],
+    [
+      "coisar",
+      "abrir",
+      "coisar abre",
+      {
+        "inflection": "v_2_sg_imp_pos",
+        "rule_id": "coisar_v_2_sg_imp_pos"
+      }
+    ],
+    [
+      "dizer",
+      "abrir",
+      "dizer abriríamos",
+      {
+        "inflection": "v_1_pl_cond",
+        "rule_id": "dizer_v_1_pl_cond"
+      }
+    ]
+  ]
 }

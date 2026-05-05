@@ -1,9 +1,232 @@
 {
-  "_type": "rules",
   "_locale": "hsb",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "genitive_plural_swójba",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "do",
+            "wot",
+            "z"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "locative_sg_kraj",
+      "inflection": "n_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "na",
+            "při",
+            "w"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "genitive_feminine_sg_wón",
+      "inflection": "adj_gen_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mojej",
+            "njej",
+            "tej"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "nominative_feminine_sg_wulki",
+      "inflection": "adj_nom_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "moja",
+            "nje",
+            "ta"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "dative_plural_wažny",
+      "inflection": "adj_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "k",
+            "ke",
+            "w"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "imperative_2_sg_hić",
+      "inflection": "v_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ty"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "present_3_sg_spać",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "oni",
+            "wona",
+            "wono",
+            "wón"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "do",
+      "swójba",
+      "do swójbow",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "genitive_plural_swójba"
+      }
+    ],
+    [
+      "wot",
+      "swójba",
+      "wot swójbow",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "genitive_plural_swójba"
+      }
+    ],
+    [
+      "na",
+      "kraj",
+      "na kraju",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_kraj"
+      }
+    ],
+    [
+      "při",
+      "kraj",
+      "při kraju",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "locative_sg_kraj"
+      }
+    ],
+    [
+      "mojej",
+      "wón",
+      "mojej jeje",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "genitive_feminine_sg_wón"
+      }
+    ],
+    [
+      "njej",
+      "wón",
+      "njej jeje",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "genitive_feminine_sg_wón"
+      }
+    ],
+    [
+      "moja",
+      "wulki",
+      "moja wulka",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "nominative_feminine_sg_wulki"
+      }
+    ],
+    [
+      "nje",
+      "wulki",
+      "nje wulka",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "nominative_feminine_sg_wulki"
+      }
+    ],
+    [
+      "k",
+      "wažny",
+      "k wažnym",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "dative_plural_wažny"
+      }
+    ],
+    [
+      "ke",
+      "wažny",
+      "ke wažnym",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "dative_plural_wažny"
+      }
+    ],
+    [
+      "ty",
+      "hić",
+      "ty dźi",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "imperative_2_sg_hić"
+      }
+    ],
+    [
+      "oni",
+      "spać",
+      "oni spi",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "present_3_sg_spać"
+      }
+    ],
+    [
+      "wona",
+      "spać",
+      "wona spi",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "present_3_sg_spać"
+      }
+    ]
+  ]
 }

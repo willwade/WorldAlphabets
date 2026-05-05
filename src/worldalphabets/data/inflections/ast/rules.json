@@ -1,9 +1,186 @@
 {
-  "_type": "rules",
   "_locale": "ast",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "verb_3_pl_sbjv_prs_lgspec1",
+      "inflection": "v_3_pl_sbjv_prs_lgspec1",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "que",
+            "si"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_ind_pst_2_sg_pfv_lgspec3",
+      "inflection": "v_ind_pst_2_sg_pfv_lgspec3",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tú"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_ind_prs_1_sg",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "yo"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_pl_fem_masc",
+      "inflection": "adj_pl_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "unes",
+            "unos"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_sg_neut",
+      "inflection": "adj_sg_neut",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lo"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "que",
+      "amasuñar",
+      "que en",
+      {
+        "inflection": "v_3_pl_sbjv_prs_lgspec1",
+        "rule_id": "verb_3_pl_sbjv_prs_lgspec1"
+      }
+    ],
+    [
+      "si",
+      "amasuñar",
+      "si en",
+      {
+        "inflection": "v_3_pl_sbjv_prs_lgspec1",
+        "rule_id": "verb_3_pl_sbjv_prs_lgspec1"
+      }
+    ],
+    [
+      "que",
+      "esgatuñar",
+      "que en",
+      {
+        "inflection": "v_3_pl_sbjv_prs_lgspec1",
+        "rule_id": "verb_3_pl_sbjv_prs_lgspec1"
+      }
+    ],
+    [
+      "si",
+      "esgatuñar",
+      "si en",
+      {
+        "inflection": "v_3_pl_sbjv_prs_lgspec1",
+        "rule_id": "verb_3_pl_sbjv_prs_lgspec1"
+      }
+    ],
+    [
+      "tú",
+      "escoyer",
+      "tú esti",
+      {
+        "inflection": "v_ind_pst_2_sg_pfv_lgspec3",
+        "rule_id": "verb_ind_pst_2_sg_pfv_lgspec3"
+      }
+    ],
+    [
+      "yo",
+      "comer",
+      "yo como",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_ind_prs_1_sg"
+      }
+    ],
+    [
+      "unes",
+      "otru",
+      "unes otres",
+      {
+        "inflection": "adj_pl_fem",
+        "rule_id": "adj_pl_fem_masc"
+      }
+    ],
+    [
+      "unos",
+      "otru",
+      "unos otres",
+      {
+        "inflection": "adj_pl_fem",
+        "rule_id": "adj_pl_fem_masc"
+      }
+    ],
+    [
+      "unes",
+      "xeitu",
+      "unes xeites",
+      {
+        "inflection": "adj_pl_fem",
+        "rule_id": "adj_pl_fem_masc"
+      }
+    ],
+    [
+      "unos",
+      "xeitu",
+      "unos xeites",
+      {
+        "inflection": "adj_pl_fem",
+        "rule_id": "adj_pl_fem_masc"
+      }
+    ],
+    [
+      "lo",
+      "otru",
+      "lo otro",
+      {
+        "inflection": "adj_sg_neut",
+        "rule_id": "adj_sg_neut"
+      }
+    ],
+    [
+      "lo",
+      "xeitu",
+      "lo xeito",
+      {
+        "inflection": "adj_sg_neut",
+        "rule_id": "adj_sg_neut"
+      }
+    ]
+  ]
 }

@@ -31,7 +31,1676 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "en_definite_noun_sg",
+      "inflection": "n_nom_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en",
+            "ett"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "plural_noun_definite",
+      "inflection": "n_nom_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "alla",
+            "de",
+            "dem",
+            "flesta"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "plural_noun_indefinite",
+      "inflection": "n_nom_pl_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "flera",
+            "många",
+            "några"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "genitive_sg_definite",
+      "inflection": "n_gen_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "denna",
+            "det",
+            "detta"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "genitive_pl_definite",
+      "inflection": "n_gen_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dessa"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "definite_adj_pos",
+      "inflection": "adj_pos_masc_sg_def",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "en",
+            "ett"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "plural_adj_pos_def",
+      "inflection": "adj_pos_pl_def",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "dessa"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "plural_adj_pos_indef",
+      "inflection": "adj_pos_pl_indf",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "flera",
+            "många",
+            "några"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "verb_imp_act_gå",
+      "inflection": "v_imp_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "att"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_ind_sg_act_prs_gå",
+      "inflection": "v_ind_sg_act_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "det",
+            "du",
+            "han",
+            "hon",
+            "jag"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_ind_pl_act_prs_gå",
+      "inflection": "v_ind_pl_act_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "ni",
+            "vi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_v_cvb_act_ta",
+      "inflection": "v_v_cvb_act",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hade",
+            "har"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_v_ptcp_prs_ge",
+      "inflection": "v_v_ptcp_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "var",
+            "är"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "en",
+      "advokat",
+      "en advokaten",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "advokat",
+      "ett advokaten",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "agent",
+      "en agenten",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "agent",
+      "ett agenten",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "allting",
+      "en alltinget",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "allting",
+      "ett alltinget",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "aning",
+      "en aningen",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "aning",
+      "ett aningen",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "anledning",
+      "en anledningen",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "anledning",
+      "ett anledningen",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "ansikte",
+      "en ansiktet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "ansikte",
+      "ett ansiktet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "arbete",
+      "en arbetet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "arbete",
+      "ett arbetet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "bad",
+      "en badet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "bad",
+      "ett badet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "barn",
+      "en barnet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "barn",
+      "ett barnet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "en",
+      "beslut",
+      "en beslutet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "ett",
+      "beslut",
+      "ett beslutet",
+      {
+        "inflection": "n_nom_sg_def",
+        "rule_id": "en_definite_noun_sg"
+      }
+    ],
+    [
+      "alla",
+      "advokat",
+      "alla advokaterna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "advokat",
+      "de advokaterna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "agent",
+      "alla agenterna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "agent",
+      "de agenterna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "allting",
+      "alla alltingen",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "allting",
+      "de alltingen",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "aning",
+      "alla aningarna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "aning",
+      "de aningarna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "anledning",
+      "alla anledningarna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "anledning",
+      "de anledningarna",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "ansikte",
+      "alla ansiktena",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "ansikte",
+      "de ansiktena",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "arbete",
+      "alla arbetena",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "arbete",
+      "de arbetena",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "bad",
+      "alla baden",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "bad",
+      "de baden",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "barn",
+      "alla barnen",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "barn",
+      "de barnen",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "alla",
+      "beslut",
+      "alla besluten",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "de",
+      "beslut",
+      "de besluten",
+      {
+        "inflection": "n_nom_pl_def",
+        "rule_id": "plural_noun_definite"
+      }
+    ],
+    [
+      "flera",
+      "advokat",
+      "flera advokater",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "advokat",
+      "många advokater",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "affär",
+      "flera affärer",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "affär",
+      "många affärer",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "agent",
+      "flera agenter",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "agent",
+      "många agenter",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "allting",
+      "flera allting",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "allting",
+      "många allting",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "aning",
+      "flera aningar",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "aning",
+      "många aningar",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "anledning",
+      "flera anledningar",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "anledning",
+      "många anledningar",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "ansikte",
+      "flera ansikten",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "ansikte",
+      "många ansikten",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "arbete",
+      "flera arbeten",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "arbete",
+      "många arbeten",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "bad",
+      "flera bad",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "bad",
+      "många bad",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "barn",
+      "flera barn",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "barn",
+      "många barn",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "flera",
+      "beslut",
+      "flera beslut",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "många",
+      "beslut",
+      "många beslut",
+      {
+        "inflection": "n_nom_pl_indf",
+        "rule_id": "plural_noun_indefinite"
+      }
+    ],
+    [
+      "den",
+      "advokat",
+      "den advokatens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "advokat",
+      "denna advokatens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "agent",
+      "den agentens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "agent",
+      "denna agentens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "allting",
+      "den alltingets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "allting",
+      "denna alltingets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "aning",
+      "den aningens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "aning",
+      "denna aningens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "anledning",
+      "den anledningens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "anledning",
+      "denna anledningens",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "ansikte",
+      "den ansiktets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "ansikte",
+      "denna ansiktets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "arbete",
+      "den arbetets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "arbete",
+      "denna arbetets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "bad",
+      "den badets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "bad",
+      "denna badets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "barn",
+      "den barnets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "barn",
+      "denna barnets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "den",
+      "beslut",
+      "den beslutets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "denna",
+      "beslut",
+      "denna beslutets",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "genitive_sg_definite"
+      }
+    ],
+    [
+      "dessa",
+      "advokat",
+      "dessa advokaternas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "agent",
+      "dessa agenternas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "allting",
+      "dessa alltingens",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "aning",
+      "dessa aningarnas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "anledning",
+      "dessa anledningarnas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "ansikte",
+      "dessa ansiktenas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "arbete",
+      "dessa arbetenas",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "bad",
+      "dessa badens",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "barn",
+      "dessa barnens",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "dessa",
+      "beslut",
+      "dessa beslutens",
+      {
+        "inflection": "n_gen_pl_def",
+        "rule_id": "genitive_pl_definite"
+      }
+    ],
+    [
+      "en",
+      "absolut",
+      "en absolute",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "ett",
+      "absolut",
+      "ett absolute",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "en",
+      "arg",
+      "en arge",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "ett",
+      "arg",
+      "ett arge",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "en",
+      "behövd",
+      "en behövde",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "ett",
+      "behövd",
+      "ett behövde",
+      {
+        "inflection": "adj_pos_masc_sg_def",
+        "rule_id": "definite_adj_pos"
+      }
+    ],
+    [
+      "de",
+      "absolut",
+      "de absoluta",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "dessa",
+      "absolut",
+      "dessa absoluta",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "de",
+      "använd",
+      "de använda",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "dessa",
+      "använd",
+      "dessa använda",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "de",
+      "arg",
+      "de arga",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "dessa",
+      "arg",
+      "dessa arga",
+      {
+        "inflection": "adj_pos_pl_def",
+        "rule_id": "plural_adj_pos_def"
+      }
+    ],
+    [
+      "flera",
+      "absolut",
+      "flera absoluta",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "många",
+      "absolut",
+      "många absoluta",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "flera",
+      "använd",
+      "flera använda",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "många",
+      "använd",
+      "många använda",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "flera",
+      "arg",
+      "flera arga",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "många",
+      "arg",
+      "många arga",
+      {
+        "inflection": "adj_pos_pl_indf",
+        "rule_id": "plural_adj_pos_indef"
+      }
+    ],
+    [
+      "att",
+      "använda",
+      "att använd",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "att",
+      "be",
+      "att be",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "att",
+      "behöva",
+      "att behöv",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "att",
+      "berätta",
+      "att berätta",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "att",
+      "besluta",
+      "att beslut",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "att",
+      "betala",
+      "att betala",
+      {
+        "inflection": "v_imp_act",
+        "rule_id": "verb_imp_act_gå"
+      }
+    ],
+    [
+      "den",
+      "anta",
+      "den antar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "anta",
+      "det antar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "använda",
+      "den använder",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "använda",
+      "det använder",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "arbeta",
+      "den arbetar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "arbeta",
+      "det arbetar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "be",
+      "den ber",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "be",
+      "det ber",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "behöva",
+      "den behöver",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "behöva",
+      "det behöver",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "beklaga",
+      "den beklagar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "beklaga",
+      "det beklagar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "berätta",
+      "den berättar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "berätta",
+      "det berättar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "betala",
+      "den betalar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "betala",
+      "det betalar",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "den",
+      "betyda",
+      "den betyder",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "det",
+      "betyda",
+      "det betyder",
+      {
+        "inflection": "v_ind_sg_act_prs",
+        "rule_id": "verb_ind_sg_act_prs_gå"
+      }
+    ],
+    [
+      "de",
+      "använda",
+      "de använda",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "ni",
+      "använda",
+      "ni använda",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "de",
+      "be",
+      "de be",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "ni",
+      "be",
+      "ni be",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "de",
+      "behöva",
+      "de behöva",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "ni",
+      "behöva",
+      "ni behöva",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "de",
+      "berätta",
+      "de berätta",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "ni",
+      "berätta",
+      "ni berätta",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "de",
+      "betala",
+      "de betala",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "ni",
+      "betala",
+      "ni betala",
+      {
+        "inflection": "v_ind_pl_act_prs",
+        "rule_id": "verb_ind_pl_act_prs_gå"
+      }
+    ],
+    [
+      "hade",
+      "använda",
+      "hade använt",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "har",
+      "använda",
+      "har använt",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "hade",
+      "be",
+      "hade bett",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "har",
+      "be",
+      "har bett",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "hade",
+      "behöva",
+      "hade behövt",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "har",
+      "behöva",
+      "har behövt",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "hade",
+      "berätta",
+      "hade berättat",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "har",
+      "berätta",
+      "har berättat",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "hade",
+      "betala",
+      "hade betalat",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "har",
+      "betala",
+      "har betalat",
+      {
+        "inflection": "v_v_cvb_act",
+        "rule_id": "verb_v_cvb_act_ta"
+      }
+    ],
+    [
+      "var",
+      "använda",
+      "var användande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "är",
+      "använda",
+      "är användande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "var",
+      "be",
+      "var beende",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "är",
+      "be",
+      "är beende",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "var",
+      "behöva",
+      "var behövande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "är",
+      "behöva",
+      "är behövande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "var",
+      "berätta",
+      "var berättande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "är",
+      "berätta",
+      "är berättande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "var",
+      "betala",
+      "var betalande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ],
+    [
+      "är",
+      "betala",
+      "är betalande",
+      {
+        "inflection": "v_v_ptcp_prs",
+        "rule_id": "verb_v_ptcp_prs_ge"
+      }
+    ]
+  ]
 }

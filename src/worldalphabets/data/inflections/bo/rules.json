@@ -1,9 +1,723 @@
 {
-  "_type": "rules",
   "_locale": "bo",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "v_pst_ཟེར།",
+      "inflection": "v_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ང"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_fut_རེད།",
+      "inflection": "v_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ཁྱེད་རང་"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_imp_བྱ།",
+      "inflection": "v_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "གང་རུང་"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_pst_བསྒྲུང་།",
+      "inflection": "v_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ཁོ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_prs_ལུས།",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ངའི་ཚོ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_fut_ཡོད།",
+      "inflection": "v_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ཁྱེད་རང་གི་ཚོ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_imp_བརྟན།",
+      "inflection": "v_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ངས"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ང",
+      "གཟུགས།",
+      "ང འཛུགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "བཞུགས།",
+      "ང བཞུགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "བརྟེན།",
+      "ང རྟེན།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "བསྒྲུང་།",
+      "ང སྒྲུང་།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "བྱ།",
+      "ང བྱེད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "ཟེར།",
+      "ང ཟེར།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "ཡིན།",
+      "ང ཡིན།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "ཡོད།",
+      "ང ཡོད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "རིགས།",
+      "ང རིགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "རེད།",
+      "ང རེད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "རྒྱུ།",
+      "ང རྒྱུ།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "ལས།",
+      "ང ལས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ང",
+      "ལུས།",
+      "ང ལུས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_ཟེར།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "གཟུགས།",
+      "ཁྱེད་རང་ གཟུགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "བཞུགས།",
+      "ཁྱེད་རང་ བཞུགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "བྱ།",
+      "ཁྱེད་རང་ བྱ།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "ཟེར།",
+      "ཁྱེད་རང་ ཟེར།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "ཡིན།",
+      "ཁྱེད་རང་ ཡིན།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "ཡོད།",
+      "ཁྱེད་རང་ ཡོད།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "རིགས།",
+      "ཁྱེད་རང་ རིགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "རེད།",
+      "ཁྱེད་རང་ རེད།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "རྒྱུ།",
+      "ཁྱེད་རང་ རྒྱུ།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "ལས།",
+      "ཁྱེད་རང་ ལས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་",
+      "ལུས།",
+      "ཁྱེད་རང་ ལུས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_རེད།"
+      }
+    ],
+    [
+      "གང་རུང་",
+      "གཟུགས།",
+      "གང་རུང་ ཚུགས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བྱ།"
+      }
+    ],
+    [
+      "གང་རུང་",
+      "བཞུགས།",
+      "གང་རུང་ བཞུགས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བྱ།"
+      }
+    ],
+    [
+      "གང་རུང་",
+      "བརྟེན།",
+      "གང་རུང་ རྟེན།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བྱ།"
+      }
+    ],
+    [
+      "གང་རུང་",
+      "བྱ།",
+      "གང་རུང་ བྱོས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བྱ།"
+      }
+    ],
+    [
+      "གང་རུང་",
+      "ལས།",
+      "གང་རུང་ ལོས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བྱ།"
+      }
+    ],
+    [
+      "ཁོ",
+      "གཟུགས།",
+      "ཁོ འཛུགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "བཞུགས།",
+      "ཁོ བཞུགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "བརྟེན།",
+      "ཁོ རྟེན།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "བསྒྲུང་།",
+      "ཁོ སྒྲུང་།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "བྱ།",
+      "ཁོ བྱེད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "ཟེར།",
+      "ཁོ ཟེར།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "ཡིན།",
+      "ཁོ ཡིན།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "ཡོད།",
+      "ཁོ ཡོད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "རིགས།",
+      "ཁོ རིགས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "རེད།",
+      "ཁོ རེད།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "རྒྱུ།",
+      "ཁོ རྒྱུ།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "ལས།",
+      "ཁོ ལས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ཁོ",
+      "ལུས།",
+      "ཁོ ལུས།",
+      {
+        "inflection": "v_pst",
+        "rule_id": "v_pst_བསྒྲུང་།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "གཟུགས།",
+      "ངའི་ཚོ བཙུགས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "བཞུགས།",
+      "ངའི་ཚོ བཞུགས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "བྱ།",
+      "ངའི་ཚོ བྱས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "ཟེར།",
+      "ངའི་ཚོ ཟེར།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "ཡིན།",
+      "ངའི་ཚོ ཡིན།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "ཡོད།",
+      "ངའི་ཚོ ཡོད།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "རིགས།",
+      "ངའི་ཚོ རིགས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "རེད།",
+      "ངའི་ཚོ རེད།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "རྒྱུ།",
+      "ངའི་ཚོ རྒྱུ།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "ལས།",
+      "ངའི་ཚོ ལས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ངའི་ཚོ",
+      "ལུས།",
+      "ངའི་ཚོ ལུས།",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_ལུས།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "གཟུགས།",
+      "ཁྱེད་རང་གི་ཚོ གཟུགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "བཞུགས།",
+      "ཁྱེད་རང་གི་ཚོ བཞུགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "བྱ།",
+      "ཁྱེད་རང་གི་ཚོ བྱ།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "ཟེར།",
+      "ཁྱེད་རང་གི་ཚོ ཟེར།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "ཡིན།",
+      "ཁྱེད་རང་གི་ཚོ ཡིན།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "ཡོད།",
+      "ཁྱེད་རང་གི་ཚོ ཡོད།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "རིགས།",
+      "ཁྱེད་རང་གི་ཚོ རིགས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "རེད།",
+      "ཁྱེད་རང་གི་ཚོ རེད།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "རྒྱུ།",
+      "ཁྱེད་རང་གི་ཚོ རྒྱུ།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "ལས།",
+      "ཁྱེད་རང་གི་ཚོ ལས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ཁྱེད་རང་གི་ཚོ",
+      "ལུས།",
+      "ཁྱེད་རང་གི་ཚོ ལུས།",
+      {
+        "inflection": "v_fut",
+        "rule_id": "v_fut_ཡོད།"
+      }
+    ],
+    [
+      "ངས",
+      "གཟུགས།",
+      "ངས ཚུགས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བརྟན།"
+      }
+    ],
+    [
+      "ངས",
+      "བཞུགས།",
+      "ངས བཞུགས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བརྟན།"
+      }
+    ],
+    [
+      "ངས",
+      "བརྟེན།",
+      "ངས རྟེན།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བརྟན།"
+      }
+    ],
+    [
+      "ངས",
+      "བྱ།",
+      "ངས བྱོས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བརྟན།"
+      }
+    ],
+    [
+      "ངས",
+      "ལས།",
+      "ངས ལོས།",
+      {
+        "inflection": "v_imp",
+        "rule_id": "v_imp_བརྟན།"
+      }
+    ]
+  ]
 }

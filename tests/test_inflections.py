@@ -8,6 +8,7 @@ from worldalphabets import (
     apply_rules,
     clear_inflection_cache,
 )
+from worldalphabets.inflect import join_words
 
 
 def test_inflection_locale_index_loads() -> None:
@@ -61,3 +62,67 @@ def test_apply_rules_transforms_text() -> None:
     result = apply_rules("en", "she run")
     assert isinstance(result, str)
     assert len(result) > 0
+
+
+def test_join_words_french_elision() -> None:
+    clear_inflection_cache()
+    jr = join_words("fr", "le", "ami")
+    assert jr is not None
+    assert jr.result == "l'ami"
+    assert jr.replaces_pair is True
+
+    jr2 = join_words("fr", "je", "aime")
+    assert jr2 is not None
+    assert jr2.result == "j'aime"
+
+
+def test_join_words_french_h_aspire() -> None:
+    clear_inflection_cache()
+    jr = join_words("fr", "le", "hibou")
+    assert jr is not None
+    assert jr.result == "le hibou"
+    assert jr.replaces_pair is False
+
+
+def test_join_words_english_a_an() -> None:
+    clear_inflection_cache()
+    jr = join_words("en", "a", "apple")
+    assert jr is not None
+    assert jr.result == "an apple"
+
+    jr2 = join_words("en", "a", "university")
+    assert jr2 is not None
+    assert jr2.result == "a university"
+
+    jr3 = join_words("en", "a", "hour")
+    assert jr3 is not None
+    assert jr3.result == "an hour"
+
+
+def test_join_words_spanish_contraction() -> None:
+    clear_inflection_cache()
+    jr = join_words("es", "a", "el")
+    assert jr is not None
+    assert jr.result == "al"
+
+    jr2 = join_words("es", "de", "el")
+    assert jr2 is not None
+    assert jr2.result == "del"
+
+
+def test_join_words_no_match() -> None:
+    clear_inflection_cache()
+    jr = join_words("en", "the", "dog")
+    assert jr is None
+
+
+def test_apply_rules_with_join_french() -> None:
+    clear_inflection_cache()
+    result = apply_rules("fr", "le ami")
+    assert "l'ami" in result
+
+
+def test_apply_rules_with_join_english() -> None:
+    clear_inflection_cache()
+    result = apply_rules("en", "a apple")
+    assert "an apple" in result

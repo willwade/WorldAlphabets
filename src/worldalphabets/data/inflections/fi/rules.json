@@ -3,7 +3,132 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "conjunction_että_usage",
+      "lookback": [
+        {
+          "words": [
+            "että"
+          ]
+        }
+      ],
+      "overrides": {
+        "että": "että"
+      },
+      "type": "override"
+    },
+    {
+      "id": "negation_verb_present",
+      "inflection": "negative",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ei"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "negation_verb_past",
+      "inflection": "negative_past",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "third_person_pronoun_objective",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "häneen",
+            "hänelle",
+            "häneltä",
+            "hänen",
+            "hänestä",
+            "häntä"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "plural_pronoun",
+      "inflection": "plural",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "he",
+            "kaikki",
+            "ne"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "possessive_pronoun_genitive",
+      "inflection": "genitive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "meidän",
+            "minun"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "past_participle_verb",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "olla"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "third_person_verb_present",
+      "inflection": "third_person",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hän",
+            "on",
+            "se"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "että",
+      "että",
+      "että että",
+      {
+        "rule_id": "conjunction_että_usage"
+      }
+    ]
+  ]
 }

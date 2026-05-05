@@ -3,7 +3,40 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "prep_с_to_со_after_pronoun_i",
+      "lookback": [
+        {
+          "words": [
+            "с",
+            "я"
+          ]
+        }
+      ],
+      "overrides": {
+        "с": "со"
+      },
+      "type": "override"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "с",
+      "с",
+      "с со",
+      {
+        "rule_id": "prep_с_to_со_after_pronoun_i"
+      }
+    ],
+    [
+      "я",
+      "с",
+      "я со",
+      {
+        "rule_id": "prep_с_to_со_after_pronoun_i"
+      }
+    ]
+  ]
 }

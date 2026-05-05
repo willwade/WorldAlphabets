@@ -3,7 +3,3013 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "conj_a",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "overrides": {
+        "a": "a"
+      },
+      "type": "override"
+    },
+    {
+      "id": "conj_ze",
+      "lookback": [
+        {
+          "words": [
+            "že"
+          ]
+        }
+      ],
+      "overrides": {
+        "že": "že"
+      },
+      "type": "override"
+    },
+    {
+      "id": "conj_kdyz",
+      "lookback": [
+        {
+          "words": [
+            "když"
+          ]
+        }
+      ],
+      "overrides": {
+        "když": "když"
+      },
+      "type": "override"
+    },
+    {
+      "id": "prep_na",
+      "lookback": [
+        {
+          "words": [
+            "na"
+          ]
+        }
+      ],
+      "overrides": {
+        "na": "na"
+      },
+      "type": "override"
+    },
+    {
+      "id": "prep_v",
+      "lookback": [
+        {
+          "words": [
+            "v"
+          ]
+        }
+      ],
+      "overrides": {
+        "v": "ve"
+      },
+      "type": "override"
+    },
+    {
+      "id": "prep_jako",
+      "lookback": [
+        {
+          "words": [
+            "jako"
+          ]
+        }
+      ],
+      "overrides": {
+        "jako": "jako"
+      },
+      "type": "override"
+    },
+    {
+      "id": "pron_se",
+      "lookback": [
+        {
+          "words": [
+            "se"
+          ]
+        }
+      ],
+      "overrides": {
+        "se": "se"
+      },
+      "type": "override"
+    },
+    {
+      "id": "pron_si",
+      "lookback": [
+        {
+          "words": [
+            "si"
+          ]
+        }
+      ],
+      "overrides": {
+        "si": "si"
+      },
+      "type": "override"
+    },
+    {
+      "id": "pron_co",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "co"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_být_jsem",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jsem"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_být_je",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_být_jsme",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jsme"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_já_inflect",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "já"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_minout_inflect",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "minout"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_moc_inflect",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "moc"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_mysl_inflect",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mysl"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_myslit_inflect",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "myslit"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_prosit_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "prosit"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_pán_inflect",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pán"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_přechytračit_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "přechytračit"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_sníst_inflect",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sníst"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_umřít_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "umřít"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_dno_inflect",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dno"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_dobrý_inflect",
+      "inflection": "adj_nom_masc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobří"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "verb_děkovat_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "děkovat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_dělat_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dělat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_jíst_inflect",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jíst"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_jít_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jít"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_musit_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "musit"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_mít_inflect",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mít"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_pořádek_inflect",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pořádek"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_pár_inflect",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pár"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_udělat_inflect",
+      "inflection": "v_ind_fut_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "udělat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_život_inflect",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "život"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_dostat_inflect",
+      "inflection": "v_ind_fut_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dostat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_dítě_inflect",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dítě"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_děj_inflect",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "děj"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "verb_mít_měli",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mám",
+            "máte",
+            "máš"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_pán_voc_pl",
+      "inflection": "n_voc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "páni"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_dítě_gen_sg",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dítěte"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "prep_v_acc",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "v"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_dobrý_inan",
+      "inflection": "adj_acc_inan_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobrý"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "verb_být_conditional",
+      "inflection": "v_cond_prs_1_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "být"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_mysl_ins_pl",
+      "inflection": "n_ins_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "myšlenkami"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "a",
+      "a",
+      "a a",
+      {
+        "rule_id": "conj_a"
+      }
+    ],
+    [
+      "že",
+      "že",
+      "že že",
+      {
+        "rule_id": "conj_ze"
+      }
+    ],
+    [
+      "když",
+      "když",
+      "když když",
+      {
+        "rule_id": "conj_kdyz"
+      }
+    ],
+    [
+      "na",
+      "na",
+      "na na",
+      {
+        "rule_id": "prep_na"
+      }
+    ],
+    [
+      "v",
+      "v",
+      "v ve",
+      {
+        "rule_id": "prep_v"
+      }
+    ],
+    [
+      "jako",
+      "jako",
+      "jako jako",
+      {
+        "rule_id": "prep_jako"
+      }
+    ],
+    [
+      "se",
+      "se",
+      "se se",
+      {
+        "rule_id": "pron_se"
+      }
+    ],
+    [
+      "si",
+      "si",
+      "si si",
+      {
+        "rule_id": "pron_si"
+      }
+    ],
+    [
+      "co",
+      "auto",
+      "co auto",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "bezpečí",
+      "co bezpečí",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "bratr",
+      "co bratra",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "bůh",
+      "co boha",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "cena",
+      "co cenu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "cesta",
+      "co cestu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "chlap",
+      "co chlapa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "chvíle",
+      "co chvíli",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "chyba",
+      "co chybu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "dcera",
+      "co dceru",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "doba",
+      "co dobu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "co",
+      "doktor",
+      "co doktora",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "pron_co"
+      }
+    ],
+    [
+      "jsem",
+      "bojovat",
+      "jsem bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "jsem",
+      "být",
+      "jsem jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "jsem",
+      "chodit",
+      "jsem chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "jsem",
+      "chtít",
+      "jsem chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "jsem",
+      "cítit",
+      "jsem cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "jsem",
+      "doufat",
+      "jsem doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_být_jsem"
+      }
+    ],
+    [
+      "je",
+      "bojovat",
+      "je bojuje",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_být_je"
+      }
+    ],
+    [
+      "je",
+      "být",
+      "je je",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_být_je"
+      }
+    ],
+    [
+      "je",
+      "chodit",
+      "je chodí",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_být_je"
+      }
+    ],
+    [
+      "je",
+      "chtít",
+      "je chce",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_být_je"
+      }
+    ],
+    [
+      "jsme",
+      "bojovat",
+      "jsme bojujeme",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "verb_být_jsme"
+      }
+    ],
+    [
+      "jsme",
+      "být",
+      "jsme jsme",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "verb_být_jsme"
+      }
+    ],
+    [
+      "jsme",
+      "chodit",
+      "jsme chodíme",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "verb_být_jsme"
+      }
+    ],
+    [
+      "jsme",
+      "chtít",
+      "jsme chceme",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "verb_být_jsme"
+      }
+    ],
+    [
+      "já",
+      "auto",
+      "já auto",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "bezpečí",
+      "já bezpečí",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "bratr",
+      "já bratra",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "bůh",
+      "já boha",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "cena",
+      "já cenu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "cesta",
+      "já cestu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "chlap",
+      "já chlapa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "chvíle",
+      "já chvíli",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "chyba",
+      "já chybu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "dcera",
+      "já dceru",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "doba",
+      "já dobu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "já",
+      "doktor",
+      "já doktora",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_já_inflect"
+      }
+    ],
+    [
+      "minout",
+      "bojovat",
+      "minout bojuješ",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_minout_inflect"
+      }
+    ],
+    [
+      "minout",
+      "být",
+      "minout jsi",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_minout_inflect"
+      }
+    ],
+    [
+      "minout",
+      "chodit",
+      "minout chodíš",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_minout_inflect"
+      }
+    ],
+    [
+      "minout",
+      "chtít",
+      "minout chceš",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_minout_inflect"
+      }
+    ],
+    [
+      "moc",
+      "auto",
+      "moc auto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "bezpečí",
+      "moc bezpečí",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "bratr",
+      "moc bratr",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "bůh",
+      "moc bůh",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "cesta",
+      "moc cesta",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "chlap",
+      "moc chlap",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "chyba",
+      "moc chyba",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "dcera",
+      "moc dcera",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "moc",
+      "doktor",
+      "moc doktor",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_moc_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "auto",
+      "mysl auto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "bezpečí",
+      "mysl bezpečí",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "bratr",
+      "mysl bratr",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "bůh",
+      "mysl bůh",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "cesta",
+      "mysl cesta",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "chlap",
+      "mysl chlap",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "chyba",
+      "mysl chyba",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "dcera",
+      "mysl dcera",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "mysl",
+      "doktor",
+      "mysl doktor",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_mysl_inflect"
+      }
+    ],
+    [
+      "myslit",
+      "bojovat",
+      "myslit bojuje",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_myslit_inflect"
+      }
+    ],
+    [
+      "myslit",
+      "být",
+      "myslit je",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_myslit_inflect"
+      }
+    ],
+    [
+      "myslit",
+      "chodit",
+      "myslit chodí",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_myslit_inflect"
+      }
+    ],
+    [
+      "myslit",
+      "chtít",
+      "myslit chce",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_myslit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "bojovat",
+      "prosit bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "být",
+      "prosit jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "chodit",
+      "prosit chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "chtít",
+      "prosit chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "cítit",
+      "prosit cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "prosit",
+      "doufat",
+      "prosit doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_prosit_inflect"
+      }
+    ],
+    [
+      "pán",
+      "auto",
+      "pán auta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "bezpečí",
+      "pán bezpečí",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "bratr",
+      "pán bratři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "bůh",
+      "pán bozi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "cesta",
+      "pán cesty",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "chlap",
+      "pán chlapi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "chyba",
+      "pán chyby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "dcera",
+      "pán dcery",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "doba",
+      "pán doby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "doktor",
+      "pán doktoři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "pán",
+      "dáma",
+      "pán dámy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pán_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "bojovat",
+      "přechytračit bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "být",
+      "přechytračit jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "chodit",
+      "přechytračit chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "chtít",
+      "přechytračit chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "cítit",
+      "přechytračit cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "přechytračit",
+      "doufat",
+      "přechytračit doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_přechytračit_inflect"
+      }
+    ],
+    [
+      "sníst",
+      "bojovat",
+      "sníst bojuješ",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_sníst_inflect"
+      }
+    ],
+    [
+      "sníst",
+      "být",
+      "sníst jsi",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_sníst_inflect"
+      }
+    ],
+    [
+      "sníst",
+      "chodit",
+      "sníst chodíš",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_sníst_inflect"
+      }
+    ],
+    [
+      "sníst",
+      "chtít",
+      "sníst chceš",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "verb_sníst_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "bojovat",
+      "umřít bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "být",
+      "umřít jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "chodit",
+      "umřít chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "chtít",
+      "umřít chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "cítit",
+      "umřít cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "umřít",
+      "doufat",
+      "umřít doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_umřít_inflect"
+      }
+    ],
+    [
+      "dno",
+      "auto",
+      "dno auta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "bezpečí",
+      "dno bezpečí",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "bratr",
+      "dno bratra",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "bůh",
+      "dno boha",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "cesta",
+      "dno cesty",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "chlap",
+      "dno chlapa",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "chyba",
+      "dno chyby",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "dcera",
+      "dno dcery",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "doba",
+      "dno doby",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "doktor",
+      "dno doktora",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dno",
+      "dáma",
+      "dno dámy",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dno_inflect"
+      }
+    ],
+    [
+      "dobří",
+      "dobrý",
+      "dobří dobré",
+      {
+        "inflection": "adj_nom_masc_pl",
+        "rule_id": "adj_dobrý_inflect"
+      }
+    ],
+    [
+      "dobří",
+      "druhý",
+      "dobří druhé",
+      {
+        "inflection": "adj_nom_masc_pl",
+        "rule_id": "adj_dobrý_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "bojovat",
+      "děkovat bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "být",
+      "děkovat jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "chodit",
+      "děkovat chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "chtít",
+      "děkovat chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "cítit",
+      "děkovat cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "děkovat",
+      "doufat",
+      "děkovat doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_děkovat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "bojovat",
+      "dělat bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "být",
+      "dělat jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "chodit",
+      "dělat chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "chtít",
+      "dělat chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "cítit",
+      "dělat cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "dělat",
+      "doufat",
+      "dělat doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_dělat_inflect"
+      }
+    ],
+    [
+      "jíst",
+      "bojovat",
+      "jíst bojuje",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_jíst_inflect"
+      }
+    ],
+    [
+      "jíst",
+      "být",
+      "jíst je",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_jíst_inflect"
+      }
+    ],
+    [
+      "jíst",
+      "chodit",
+      "jíst chodí",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_jíst_inflect"
+      }
+    ],
+    [
+      "jíst",
+      "chtít",
+      "jíst chce",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "verb_jíst_inflect"
+      }
+    ],
+    [
+      "jít",
+      "bojovat",
+      "jít bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "jít",
+      "být",
+      "jít jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "jít",
+      "chodit",
+      "jít chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "jít",
+      "chtít",
+      "jít chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "jít",
+      "cítit",
+      "jít cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "jít",
+      "doufat",
+      "jít doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_jít_inflect"
+      }
+    ],
+    [
+      "musit",
+      "bojovat",
+      "musit bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "musit",
+      "být",
+      "musit jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "musit",
+      "chodit",
+      "musit chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "musit",
+      "chtít",
+      "musit chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "musit",
+      "cítit",
+      "musit cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "musit",
+      "doufat",
+      "musit doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_musit_inflect"
+      }
+    ],
+    [
+      "mít",
+      "bojovat",
+      "mít bojuji",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "mít",
+      "být",
+      "mít jsem",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "mít",
+      "chodit",
+      "mít chodím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "mít",
+      "chtít",
+      "mít chci",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "mít",
+      "cítit",
+      "mít cítím",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "mít",
+      "doufat",
+      "mít doufám",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "verb_mít_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "auto",
+      "pořádek auto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "bezpečí",
+      "pořádek bezpečí",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "bratr",
+      "pořádek bratr",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "bůh",
+      "pořádek bůh",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "cesta",
+      "pořádek cesta",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "chlap",
+      "pořádek chlap",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "chyba",
+      "pořádek chyba",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "dcera",
+      "pořádek dcera",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pořádek",
+      "doktor",
+      "pořádek doktor",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_pořádek_inflect"
+      }
+    ],
+    [
+      "pár",
+      "auto",
+      "pár auta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "bezpečí",
+      "pár bezpečí",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "bratr",
+      "pár bratři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "bůh",
+      "pár bozi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "cesta",
+      "pár cesty",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "chlap",
+      "pár chlapi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "chyba",
+      "pár chyby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "dcera",
+      "pár dcery",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "doba",
+      "pár doby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "doktor",
+      "pár doktoři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "pár",
+      "dáma",
+      "pár dámy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_pár_inflect"
+      }
+    ],
+    [
+      "udělat",
+      "bojovat",
+      "udělat budu bojovat",
+      {
+        "inflection": "v_ind_fut_1_sg",
+        "rule_id": "verb_udělat_inflect"
+      }
+    ],
+    [
+      "udělat",
+      "být",
+      "udělat budu",
+      {
+        "inflection": "v_ind_fut_1_sg",
+        "rule_id": "verb_udělat_inflect"
+      }
+    ],
+    [
+      "udělat",
+      "chtít",
+      "udělat budu chtít",
+      {
+        "inflection": "v_ind_fut_1_sg",
+        "rule_id": "verb_udělat_inflect"
+      }
+    ],
+    [
+      "udělat",
+      "dát",
+      "udělat dám",
+      {
+        "inflection": "v_ind_fut_1_sg",
+        "rule_id": "verb_udělat_inflect"
+      }
+    ],
+    [
+      "život",
+      "auto",
+      "život auto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "bezpečí",
+      "život bezpečí",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "bratr",
+      "život bratr",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "bůh",
+      "život bůh",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "cesta",
+      "život cesta",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "chlap",
+      "život chlap",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "chyba",
+      "život chyba",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "dcera",
+      "život dcera",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "život",
+      "doktor",
+      "život doktor",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "noun_život_inflect"
+      }
+    ],
+    [
+      "dostat",
+      "bojovat",
+      "dostat budeš bojovat",
+      {
+        "inflection": "v_ind_fut_2_sg",
+        "rule_id": "verb_dostat_inflect"
+      }
+    ],
+    [
+      "dostat",
+      "být",
+      "dostat budeš",
+      {
+        "inflection": "v_ind_fut_2_sg",
+        "rule_id": "verb_dostat_inflect"
+      }
+    ],
+    [
+      "dostat",
+      "chtít",
+      "dostat budeš chtít",
+      {
+        "inflection": "v_ind_fut_2_sg",
+        "rule_id": "verb_dostat_inflect"
+      }
+    ],
+    [
+      "dostat",
+      "dostat",
+      "dostat dostanu",
+      {
+        "inflection": "v_ind_fut_2_sg",
+        "rule_id": "verb_dostat_inflect"
+      }
+    ],
+    [
+      "dostat",
+      "dát",
+      "dostat dáš",
+      {
+        "inflection": "v_ind_fut_2_sg",
+        "rule_id": "verb_dostat_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "auto",
+      "dítě auta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "bezpečí",
+      "dítě bezpečí",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "bratr",
+      "dítě bratři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "bůh",
+      "dítě bozi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "cesta",
+      "dítě cesty",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "chlap",
+      "dítě chlapi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "chyba",
+      "dítě chyby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "dcera",
+      "dítě dcery",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "doba",
+      "dítě doby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "doktor",
+      "dítě doktoři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "dítě",
+      "dáma",
+      "dítě dámy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_dítě_inflect"
+      }
+    ],
+    [
+      "děj",
+      "auto",
+      "děj auta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "bezpečí",
+      "děj bezpečí",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "bratr",
+      "děj bratři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "bůh",
+      "děj bozi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "cesta",
+      "děj cesty",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "chlap",
+      "děj chlapi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "chyba",
+      "děj chyby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "dcera",
+      "děj dcery",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "doba",
+      "děj doby",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "doktor",
+      "děj doktoři",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "děj",
+      "dáma",
+      "děj dámy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "noun_děj_inflect"
+      }
+    ],
+    [
+      "mám",
+      "bojovat",
+      "mám bojují",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "máte",
+      "bojovat",
+      "máte bojují",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "mám",
+      "být",
+      "mám jsou",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "máte",
+      "být",
+      "máte jsou",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "mám",
+      "chodit",
+      "mám chodí",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "máte",
+      "chodit",
+      "máte chodí",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "mám",
+      "chtít",
+      "mám chtějí",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "máte",
+      "chtít",
+      "máte chtějí",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "verb_mít_měli"
+      }
+    ],
+    [
+      "páni",
+      "auto",
+      "páni auta",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "bezpečí",
+      "páni bezpečí",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "bratr",
+      "páni bratři",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "bůh",
+      "páni bozi",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "cesta",
+      "páni cesty",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "chlap",
+      "páni chlapi",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "chyba",
+      "páni chyby",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "dcera",
+      "páni dcery",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "doba",
+      "páni doby",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "doktor",
+      "páni doktoři",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "páni",
+      "dáma",
+      "páni dámy",
+      {
+        "inflection": "n_voc_pl",
+        "rule_id": "noun_pán_voc_pl"
+      }
+    ],
+    [
+      "dítěte",
+      "auto",
+      "dítěte auta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "bezpečí",
+      "dítěte bezpečí",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "bratr",
+      "dítěte bratra",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "bůh",
+      "dítěte boha",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "cesta",
+      "dítěte cesty",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "chlap",
+      "dítěte chlapa",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "chyba",
+      "dítěte chyby",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "dcera",
+      "dítěte dcery",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "doba",
+      "dítěte doby",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "doktor",
+      "dítěte doktora",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "dítěte",
+      "dáma",
+      "dítěte dámy",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_dítě_gen_sg"
+      }
+    ],
+    [
+      "v",
+      "auto",
+      "v auto",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "bezpečí",
+      "v bezpečí",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "bratr",
+      "v bratra",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "bůh",
+      "v boha",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "cena",
+      "v cenu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "cesta",
+      "v cestu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "chlap",
+      "v chlapa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "chvíle",
+      "v chvíli",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "chyba",
+      "v chybu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "dcera",
+      "v dceru",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "doba",
+      "v dobu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "v",
+      "doktor",
+      "v doktora",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "prep_v_acc"
+      }
+    ],
+    [
+      "dobrý",
+      "dobrý",
+      "dobrý dobrý",
+      {
+        "inflection": "adj_acc_inan_masc_sg",
+        "rule_id": "adj_dobrý_inan"
+      }
+    ],
+    [
+      "dobrý",
+      "druhý",
+      "dobrý druhý",
+      {
+        "inflection": "adj_acc_inan_masc_sg",
+        "rule_id": "adj_dobrý_inan"
+      }
+    ],
+    [
+      "být",
+      "bojovat",
+      "být bojoval bych",
+      {
+        "inflection": "v_cond_prs_1_sg_masc",
+        "rule_id": "verb_být_conditional"
+      }
+    ],
+    [
+      "být",
+      "být",
+      "být byl bych",
+      {
+        "inflection": "v_cond_prs_1_sg_masc",
+        "rule_id": "verb_být_conditional"
+      }
+    ],
+    [
+      "být",
+      "chtít",
+      "být chtěl bych",
+      {
+        "inflection": "v_cond_prs_1_sg_masc",
+        "rule_id": "verb_být_conditional"
+      }
+    ],
+    [
+      "být",
+      "dát",
+      "být dal bych",
+      {
+        "inflection": "v_cond_prs_1_sg_masc",
+        "rule_id": "verb_být_conditional"
+      }
+    ],
+    [
+      "myšlenkami",
+      "auto",
+      "myšlenkami auty",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "bezpečí",
+      "myšlenkami bezpečím",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "bratr",
+      "myšlenkami bratry",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "bůh",
+      "myšlenkami bohy",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "cesta",
+      "myšlenkami cestami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "chlap",
+      "myšlenkami chlapy",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "chyba",
+      "myšlenkami chybami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "dcera",
+      "myšlenkami dcerami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "dno",
+      "myšlenkami dny",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ],
+    [
+      "myšlenkami",
+      "doktor",
+      "myšlenkami doktory",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "noun_mysl_ins_pl"
+      }
+    ]
+  ]
 }

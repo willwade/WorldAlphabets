@@ -1005,5 +1005,29 @@
         "rule_id": "es_adj_adj_fem_sg_regular"
       }
     ]
+  ],
+  "join": [
+    {
+      "id": "es_contraction_a_el",
+      "prev": [
+        "a"
+      ],
+      "next": [
+        "el"
+      ],
+      "result": "al",
+      "reason": "contraction"
+    },
+    {
+      "id": "es_contraction_de_el",
+      "prev": [
+        "de"
+      ],
+      "next": [
+        "el"
+      ],
+      "result": "del",
+      "reason": "contraction"
+    }
   ]
 }

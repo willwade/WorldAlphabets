@@ -58,62 +58,51 @@
   "inflection_locations": {},
   "rules": [
     {
-      "id": "adj_du_fem_def_nom_rule",
-      "inflection": "adj_du_fem_def_nom",
-      "location": "e",
+      "id": "adj_du_fem_def_acc",
+      "inflection": "adj_du_fem_def_acc",
+      "location": "n",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "أجل"
+            "ال"
           ]
         }
       ],
       "type": "adjective"
     },
     {
-      "id": "adj_du_masc_def_nom_rule",
-      "inflection": "adj_du_masc_def_nom",
-      "location": "e",
+      "id": "n_sg_def_acc",
+      "inflection": "n_sg_def_acc",
+      "location": "n",
       "lookback": [
         {
-          "optional": false,
           "words": [
-            "أجل"
-          ]
-        }
-      ],
-      "type": "adjective"
-    },
-    {
-      "id": "n_sg_def_nom_rule",
-      "inflection": "n_sg_def_nom",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "بعض"
+            "ال"
           ]
         }
       ],
       "type": "noun"
-    },
-    {
-      "id": "v_1_sg_ipfv_ind_act_rule",
-      "inflection": "v_1_sg_ipfv_ind_act",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "أُسَوِّفُ"
-          ]
-        }
-      ],
-      "type": "verb"
     }
   ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "ال",
+      "أجل",
+      "ال الْجُلَّيَيْنِ",
+      {
+        "inflection": "adj_du_fem_def_acc",
+        "rule_id": "adj_du_fem_def_acc"
+      }
+    ],
+    [
+      "ال",
+      "آنسة",
+      "ال الْآنِسَةَ",
+      {
+        "inflection": "n_sg_def_acc",
+        "rule_id": "n_sg_def_acc"
+      }
+    ]
+  ]
 }

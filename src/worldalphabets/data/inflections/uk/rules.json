@@ -3,7 +3,1911 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "uk_override_не_є",
+      "lookback": [
+        {
+          "words": [
+            "не"
+          ]
+        }
+      ],
+      "overrides": {
+        "буде": "буде",
+        "бути": "бути"
+      },
+      "type": "override"
+    },
+    {
+      "id": "uk_override_діти_дитина",
+      "lookback": [
+        {
+          "words": [
+            "діти"
+          ]
+        }
+      ],
+      "overrides": {
+        "дитина": "дитина"
+      },
+      "type": "override"
+    },
+    {
+      "id": "uk_inflection_verb_prs_1_sg_мати",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "мати"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "uk_inflection_noun_gen_sg_день",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "день"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_gen_pl_день",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "дням",
+            "дні"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_ins_pl_день",
+      "inflection": "n_ins_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "днями"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_gen_sg_життя",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "життя"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_dat_sg_життя",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "життю"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_ins_sg_життя",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "життям"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_gen_pl_життя",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "життів"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_ins_pl_життя",
+      "inflection": "n_ins_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "життєвими"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_gen_sg_правда",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правда"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_acc_sg_правда",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правду"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_dat_sg_правда",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правді"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_ins_sg_правда",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правдою"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_gen_pl_правда",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правд"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_nom_pl_правда",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правди"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_noun_ins_pl_правда",
+      "inflection": "n_ins_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "правдами"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "uk_inflection_verb_prs_1_sg_хотіти",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "хотіти"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "uk_inflection_verb_prs_1_sg_мочь",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "могти",
+            "мочь"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "uk_inflection_pronoun_acc_sg_я",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "мене"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "uk_inflection_pronoun_dat_sg_я",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "мені"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "uk_inflection_pronoun_gen_sg_він",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "нього"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "uk_inflection_pronoun_dat_sg_він",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "йому"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "uk_inflection_pronoun_ins_sg_він",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ним"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "не",
+      "буде",
+      "не буде",
+      {
+        "rule_id": "uk_override_не_є"
+      }
+    ],
+    [
+      "не",
+      "бути",
+      "не бути",
+      {
+        "rule_id": "uk_override_не_є"
+      }
+    ],
+    [
+      "діти",
+      "дитина",
+      "діти дитина",
+      {
+        "rule_id": "uk_override_діти_дитина"
+      }
+    ],
+    [
+      "мати",
+      "бачити",
+      "мати бачу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мати"
+      }
+    ],
+    [
+      "мати",
+      "бути",
+      "мати єсьми",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мати"
+      }
+    ],
+    [
+      "мати",
+      "говорити",
+      "мати говорю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мати"
+      }
+    ],
+    [
+      "мати",
+      "думати",
+      "мати думаю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мати"
+      }
+    ],
+    [
+      "мати",
+      "жити",
+      "мати живу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мати"
+      }
+    ],
+    [
+      "день",
+      "батько",
+      "день батька",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "бог",
+      "день бога",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "брат",
+      "день брата",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "будинок",
+      "день будинку",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "вино",
+      "день вина",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "дата",
+      "день дати",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "день",
+      "день дня",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "дитина",
+      "день дитини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "друг",
+      "день друга",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "дружина",
+      "день дружини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "день",
+      "жаль",
+      "день жалю",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_день"
+      }
+    ],
+    [
+      "дням",
+      "батько",
+      "дням батьків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "батько",
+      "дні батьків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "бог",
+      "дням богів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "бог",
+      "дні богів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "брат",
+      "дням братів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "брат",
+      "дні братів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "будинок",
+      "дням будинків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "будинок",
+      "дні будинків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "день",
+      "дням днів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "день",
+      "дні днів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "дитина",
+      "дням дітей",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "дитина",
+      "дні дітей",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "друг",
+      "дням друзів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "друг",
+      "дні друзів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "дружина",
+      "дням дружин",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "дружина",
+      "дні дружин",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дням",
+      "жаль",
+      "дням жалів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "дні",
+      "жаль",
+      "дні жалів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "батько",
+      "днями батьками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "бог",
+      "днями богами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "брат",
+      "днями братами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "будинок",
+      "днями будинками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "день",
+      "днями днями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "дитина",
+      "днями дітьми",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "друг",
+      "днями друзями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "дружина",
+      "днями дружинами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "днями",
+      "жаль",
+      "днями жалями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_день"
+      }
+    ],
+    [
+      "життя",
+      "батько",
+      "життя батька",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "бог",
+      "життя бога",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "брат",
+      "життя брата",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "будинок",
+      "життя будинку",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "вино",
+      "життя вина",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "дата",
+      "життя дати",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "день",
+      "життя дня",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "дитина",
+      "життя дитини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "друг",
+      "життя друга",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "дружина",
+      "життя дружини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життя",
+      "жаль",
+      "життя жалю",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "батько",
+      "життю батькові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "бог",
+      "життю богові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "брат",
+      "життю братові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "будинок",
+      "життю будинку",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "день",
+      "життю дню",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "дитина",
+      "життю дитині",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "друг",
+      "життю другові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "дружина",
+      "життю дружині",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життю",
+      "жаль",
+      "життю жалю",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "батько",
+      "життям батьком",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "бог",
+      "життям богом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "брат",
+      "життям братом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "будинок",
+      "життям будинком",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "день",
+      "життям днем",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "дитина",
+      "життям дитиною",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "друг",
+      "життям другом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "дружина",
+      "життям дружиною",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життям",
+      "жаль",
+      "життям жалем",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_життя"
+      }
+    ],
+    [
+      "життів",
+      "батько",
+      "життів батьків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "бог",
+      "життів богів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "брат",
+      "життів братів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "будинок",
+      "життів будинків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "день",
+      "життів днів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "дитина",
+      "життів дітей",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "друг",
+      "життів друзів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "дружина",
+      "життів дружин",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життів",
+      "жаль",
+      "життів жалів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "батько",
+      "життєвими батьками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "бог",
+      "життєвими богами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "брат",
+      "життєвими братами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "будинок",
+      "життєвими будинками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "день",
+      "життєвими днями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "дитина",
+      "життєвими дітьми",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "друг",
+      "життєвими друзями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "дружина",
+      "життєвими дружинами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "життєвими",
+      "жаль",
+      "життєвими жалями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_життя"
+      }
+    ],
+    [
+      "правда",
+      "батько",
+      "правда батька",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "бог",
+      "правда бога",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "брат",
+      "правда брата",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "будинок",
+      "правда будинку",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "вино",
+      "правда вина",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "дата",
+      "правда дати",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "день",
+      "правда дня",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "дитина",
+      "правда дитини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "друг",
+      "правда друга",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "дружина",
+      "правда дружини",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правда",
+      "жаль",
+      "правда жалю",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "uk_inflection_noun_gen_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "батько",
+      "правду батька",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "бог",
+      "правду бога",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "брат",
+      "правду брата",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "будинок",
+      "правду будинок",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "день",
+      "правду день",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "дитина",
+      "правду дитину",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "друг",
+      "правду друга",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "дружина",
+      "правду дружину",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правду",
+      "жаль",
+      "правду жаль",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "uk_inflection_noun_acc_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "батько",
+      "правді батькові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "бог",
+      "правді богові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "брат",
+      "правді братові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "будинок",
+      "правді будинку",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "день",
+      "правді дню",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "дитина",
+      "правді дитині",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "друг",
+      "правді другові",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "дружина",
+      "правді дружині",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правді",
+      "жаль",
+      "правді жалю",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "uk_inflection_noun_dat_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "батько",
+      "правдою батьком",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "бог",
+      "правдою богом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "брат",
+      "правдою братом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "будинок",
+      "правдою будинком",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "день",
+      "правдою днем",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "дитина",
+      "правдою дитиною",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "друг",
+      "правдою другом",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "дружина",
+      "правдою дружиною",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правдою",
+      "жаль",
+      "правдою жалем",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "uk_inflection_noun_ins_sg_правда"
+      }
+    ],
+    [
+      "правд",
+      "батько",
+      "правд батьків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "бог",
+      "правд богів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "брат",
+      "правд братів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "будинок",
+      "правд будинків",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "день",
+      "правд днів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "дитина",
+      "правд дітей",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "друг",
+      "правд друзів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "дружина",
+      "правд дружин",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правд",
+      "жаль",
+      "правд жалів",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "uk_inflection_noun_gen_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "батько",
+      "правди батьки",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "бог",
+      "правди боги",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "брат",
+      "правди брати",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "будинок",
+      "правди будинки",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "вино",
+      "правди вина",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "дата",
+      "правди дати",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "день",
+      "правди дні",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "дитина",
+      "правди діти",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "друг",
+      "правди друзі",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "дружина",
+      "правди дружини",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правди",
+      "жаль",
+      "правди жалі",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "uk_inflection_noun_nom_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "батько",
+      "правдами батьками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "бог",
+      "правдами богами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "брат",
+      "правдами братами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "будинок",
+      "правдами будинками",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "день",
+      "правдами днями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "дитина",
+      "правдами дітьми",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "друг",
+      "правдами друзями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "дружина",
+      "правдами дружинами",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "правдами",
+      "жаль",
+      "правдами жалями",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "uk_inflection_noun_ins_pl_правда"
+      }
+    ],
+    [
+      "хотіти",
+      "бачити",
+      "хотіти бачу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_хотіти"
+      }
+    ],
+    [
+      "хотіти",
+      "бути",
+      "хотіти єсьми",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_хотіти"
+      }
+    ],
+    [
+      "хотіти",
+      "говорити",
+      "хотіти говорю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_хотіти"
+      }
+    ],
+    [
+      "хотіти",
+      "думати",
+      "хотіти думаю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_хотіти"
+      }
+    ],
+    [
+      "хотіти",
+      "жити",
+      "хотіти живу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_хотіти"
+      }
+    ],
+    [
+      "могти",
+      "бачити",
+      "могти бачу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "мочь",
+      "бачити",
+      "мочь бачу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "могти",
+      "бути",
+      "могти єсьми",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "мочь",
+      "бути",
+      "мочь єсьми",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "могти",
+      "говорити",
+      "могти говорю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "мочь",
+      "говорити",
+      "мочь говорю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "могти",
+      "думати",
+      "могти думаю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "мочь",
+      "думати",
+      "мочь думаю",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "могти",
+      "жити",
+      "могти живу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ],
+    [
+      "мочь",
+      "жити",
+      "мочь живу",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "uk_inflection_verb_prs_1_sg_мочь"
+      }
+    ]
+  ]
 }

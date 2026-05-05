@@ -1,9 +1,589 @@
 {
-  "_type": "rules",
   "_locale": "dsb",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "dsb_nom_pl_fem_adj",
+      "inflection": "adj_nom_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lěpš",
+            "ta",
+            "tutej",
+            "wšedna"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "dsb_nom_pl_masc_noun",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kóńc",
+            "wóśi",
+            "wšyk",
+            "wšykni"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "dsb_gen_sg_fem_noun",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "běz",
+            "do",
+            "od",
+            "wót",
+            "z"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "dsb_acc_pl_anim_dual",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "widiś",
+            "wobglědaś",
+            "wobkupaś",
+            "wuznaś"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "dsb_dat_pl_masc_adj",
+      "inflection": "adj_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "k",
+            "ke",
+            "pód",
+            "wó",
+            "za"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "dsb_imp_2_pl_verb",
+      "inflection": "v_imp_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dźěłaś",
+            "pisaś",
+            "witaś"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "dsb_nom_du_masc_noun",
+      "inflection": "n_nom_du",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dwoj",
+            "dźa",
+            "trój",
+            "wó"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "dsb_ess_sg_fem_noun",
+      "inflection": "n_ess_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "na",
+            "w",
+            "wo"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "lěpš",
+      "carny",
+      "lěpš carna",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "ta",
+      "carny",
+      "ta carna",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "lěpš",
+      "dobry",
+      "lěpš dobra",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "ta",
+      "dobry",
+      "ta dobra",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "lěpš",
+      "nimski",
+      "lěpš nimska",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "ta",
+      "nimski",
+      "ta nimska",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "dsb_nom_pl_fem_adj"
+      }
+    ],
+    [
+      "kóńc",
+      "cerkwja",
+      "kóńc cerkwje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "wóśi",
+      "cerkwja",
+      "wóśi cerkwje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "kóńc",
+      "kócka",
+      "kóńc kócki",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "wóśi",
+      "kócka",
+      "wóśi kócki",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "kóńc",
+      "kóń",
+      "kóńc kónje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "wóśi",
+      "kóń",
+      "wóśi kónje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "kóńc",
+      "mama",
+      "kóńc mamy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "wóśi",
+      "mama",
+      "wóśi mamy",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "kóńc",
+      "šula",
+      "kóńc šule",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "wóśi",
+      "šula",
+      "wóśi šule",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "dsb_nom_pl_masc_noun"
+      }
+    ],
+    [
+      "běz",
+      "bratš",
+      "běz bratša",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "do",
+      "bratš",
+      "do bratša",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "běz",
+      "cerkwja",
+      "běz cerkwje",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "do",
+      "cerkwja",
+      "do cerkwje",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "běz",
+      "kócka",
+      "běz kócki",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "do",
+      "kócka",
+      "do kócki",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "běz",
+      "mama",
+      "běz mamy",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "do",
+      "mama",
+      "do mamy",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "běz",
+      "šula",
+      "běz šule",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "do",
+      "šula",
+      "do šule",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "dsb_gen_sg_fem_noun"
+      }
+    ],
+    [
+      "widiś",
+      "cerkwja",
+      "widiś cerkwje",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "wobglědaś",
+      "cerkwja",
+      "wobglědaś cerkwje",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "widiś",
+      "kócka",
+      "widiś kócki",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "wobglědaś",
+      "kócka",
+      "wobglědaś kócki",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "widiś",
+      "kóń",
+      "widiś kónje",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "wobglědaś",
+      "kóń",
+      "wobglědaś kónje",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "widiś",
+      "mama",
+      "widiś mamy",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "wobglědaś",
+      "mama",
+      "wobglědaś mamy",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "widiś",
+      "šula",
+      "widiś šule",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "wobglědaś",
+      "šula",
+      "wobglědaś šule",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "dsb_acc_pl_anim_dual"
+      }
+    ],
+    [
+      "k",
+      "dobry",
+      "k dobrym",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "dsb_dat_pl_masc_adj"
+      }
+    ],
+    [
+      "ke",
+      "dobry",
+      "ke dobrym",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "dsb_dat_pl_masc_adj"
+      }
+    ],
+    [
+      "dźěłaś",
+      "witaś",
+      "dźěłaś witajśo",
+      {
+        "inflection": "v_imp_2_pl",
+        "rule_id": "dsb_imp_2_pl_verb"
+      }
+    ],
+    [
+      "pisaś",
+      "witaś",
+      "pisaś witajśo",
+      {
+        "inflection": "v_imp_2_pl",
+        "rule_id": "dsb_imp_2_pl_verb"
+      }
+    ],
+    [
+      "dwoj",
+      "bratš",
+      "dwoj bratša",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "dźa",
+      "bratš",
+      "dźa bratša",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "dwoj",
+      "cerkwja",
+      "dwoj cerkwi",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "dźa",
+      "cerkwja",
+      "dźa cerkwi",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "dwoj",
+      "kócka",
+      "dwoj kócce",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "dźa",
+      "kócka",
+      "dźa kócce",
+      {
+        "inflection": "n_nom_du",
+        "rule_id": "dsb_nom_du_masc_noun"
+      }
+    ],
+    [
+      "na",
+      "cerkwja",
+      "na cerkwi",
+      {
+        "inflection": "n_ess_sg",
+        "rule_id": "dsb_ess_sg_fem_noun"
+      }
+    ],
+    [
+      "w",
+      "cerkwja",
+      "w cerkwi",
+      {
+        "inflection": "n_ess_sg",
+        "rule_id": "dsb_ess_sg_fem_noun"
+      }
+    ],
+    [
+      "na",
+      "kócka",
+      "na kócce",
+      {
+        "inflection": "n_ess_sg",
+        "rule_id": "dsb_ess_sg_fem_noun"
+      }
+    ],
+    [
+      "w",
+      "kócka",
+      "w kócce",
+      {
+        "inflection": "n_ess_sg",
+        "rule_id": "dsb_ess_sg_fem_noun"
+      }
+    ]
+  ]
 }

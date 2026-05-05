@@ -1897,5 +1897,128 @@
         "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
       }
     ]
+  ],
+  "join": [
+    {
+      "id": "fr_h_aspire",
+      "prev": [
+        "le",
+        "la"
+      ],
+      "next": [
+        "homme",
+        "heros",
+        "haricot",
+        "hibou",
+        "honte",
+        "hérisson",
+        "hache",
+        "hasard",
+        "haine",
+        "hurler"
+      ],
+      "result": "{prev} {next}",
+      "reason": "h_aspire"
+    },
+    {
+      "id": "fr_elision_le_la",
+      "prev": [
+        "le",
+        "la"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœh]",
+      "result": "l'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_je",
+      "prev": [
+        "je"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "j'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_me",
+      "prev": [
+        "me"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "m'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_te",
+      "prev": [
+        "te"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "t'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_se",
+      "prev": [
+        "se"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "s'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_ne",
+      "prev": [
+        "ne"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "n'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_que",
+      "prev": [
+        "que"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "qu'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_lorsque",
+      "prev": [
+        "lorsque"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "lorsqu'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_quelque",
+      "prev": [
+        "quelque"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "quelqu'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_presque",
+      "prev": [
+        "presque"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "presqu'{next}",
+      "reason": "elision"
+    },
+    {
+      "id": "fr_elision_jusque",
+      "prev": [
+        "jusque"
+      ],
+      "next_match": "^[aeiouyàâéèêëïîôùûüæœ]",
+      "result": "jusqu'{next}",
+      "reason": "elision"
+    }
   ]
 }

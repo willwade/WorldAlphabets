@@ -1,9 +1,1245 @@
 {
-  "_type": "rules",
   "_locale": "ko",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "v_decl_prs_infm_폴라이트",
+      "inflection": "v_decl_fin_prs_infm_pol",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "요"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_decl_prs_infm_폴라이트",
+      "inflection": "adj_decl_fin_prs_infm_pol",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "요"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_decl_pst_infm_과거",
+      "inflection": "v_decl_fin_pst_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "았",
+            "었",
+            "였"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ptcp_fut_미래",
+      "inflection": "v_ptcp_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㄹ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_cvb_cond_조건",
+      "inflection": "v_cvb_nfin_cond",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "면",
+            "으면"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_cvb_cond_조건",
+      "inflection": "adj_cvb_nfin_cond",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "면",
+            "으면"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_cvb_conj_연결",
+      "inflection": "v_cvb_nfin_conj",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "고",
+            "며",
+            "서"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_msdr_prs_존댓말",
+      "inflection": "v_msdr_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "습니다"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_imp_1_pl_infm_청유",
+      "inflection": "v_imp_fin_1_pl_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㄹ까요",
+            "자"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_int_fin_prs_infm_의문",
+      "inflection": "v_int_fin_prs_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅜ",
+            "ㅡ",
+            "ㅣ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_int_fin_prs_infm_형용사의문",
+      "inflection": "adj_int_fin_prs_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㅏ",
+            "ㅓ",
+            "ㅗ",
+            "ㅜ",
+            "ㅡ",
+            "ㅣ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_imp_2_infm_명령",
+      "inflection": "v_imp_fin_2_infm",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "라",
+            "어라"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ptcp_prs_현재참여",
+      "inflection": "v_ptcp_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "는"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_ptcp_nfin_prs_elev",
+      "inflection": "adj_ptcp_nfin_prs_elev",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "시"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_ptcp_fut_elev_높임",
+      "inflection": "v_ptcp_fut_elev",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "시"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_voc_호격",
+      "inflection": "n_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "아",
+            "야"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_gen_소유격",
+      "inflection": "pro_gen",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "의"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "v_imp_1_pl_form_동사청유",
+      "inflection": "v_imp_fin_1_pl_form",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㅂ시다"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_decl_fin_fut_form_미래형용사",
+      "inflection": "adj_decl_fin_fut_form",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ㄹ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_imp_2_infm_명령존댓말",
+      "inflection": "v_imp_fin_2_infm_pol",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "세요",
+            "십시오"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "요",
+      "가다",
+      "요 가요",
+      {
+        "inflection": "v_decl_fin_prs_infm_pol",
+        "rule_id": "v_decl_prs_infm_폴라이트"
+      }
+    ],
+    [
+      "요",
+      "기다",
+      "요 겨요",
+      {
+        "inflection": "v_decl_fin_prs_infm_pol",
+        "rule_id": "v_decl_prs_infm_폴라이트"
+      }
+    ],
+    [
+      "요",
+      "까다",
+      "요 까요",
+      {
+        "inflection": "v_decl_fin_prs_infm_pol",
+        "rule_id": "v_decl_prs_infm_폴라이트"
+      }
+    ],
+    [
+      "요",
+      "나다",
+      "요 나요",
+      {
+        "inflection": "v_decl_fin_prs_infm_pol",
+        "rule_id": "v_decl_prs_infm_폴라이트"
+      }
+    ],
+    [
+      "았",
+      "가다",
+      "았 갔어",
+      {
+        "inflection": "v_decl_fin_pst_infm",
+        "rule_id": "v_decl_pst_infm_과거"
+      }
+    ],
+    [
+      "었",
+      "가다",
+      "었 갔어",
+      {
+        "inflection": "v_decl_fin_pst_infm",
+        "rule_id": "v_decl_pst_infm_과거"
+      }
+    ],
+    [
+      "았",
+      "기다",
+      "았 겼어",
+      {
+        "inflection": "v_decl_fin_pst_infm",
+        "rule_id": "v_decl_pst_infm_과거"
+      }
+    ],
+    [
+      "었",
+      "기다",
+      "었 겼어",
+      {
+        "inflection": "v_decl_fin_pst_infm",
+        "rule_id": "v_decl_pst_infm_과거"
+      }
+    ],
+    [
+      "ㄹ",
+      "가지다",
+      "ㄹ 가질",
+      {
+        "inflection": "v_ptcp_fut",
+        "rule_id": "v_ptcp_fut_미래"
+      }
+    ],
+    [
+      "ㄹ",
+      "그러다",
+      "ㄹ 그럴",
+      {
+        "inflection": "v_ptcp_fut",
+        "rule_id": "v_ptcp_fut_미래"
+      }
+    ],
+    [
+      "ㄹ",
+      "기다",
+      "ㄹ 길",
+      {
+        "inflection": "v_ptcp_fut",
+        "rule_id": "v_ptcp_fut_미래"
+      }
+    ],
+    [
+      "ㄹ",
+      "듣다",
+      "ㄹ 들을",
+      {
+        "inflection": "v_ptcp_fut",
+        "rule_id": "v_ptcp_fut_미래"
+      }
+    ],
+    [
+      "면",
+      "기다",
+      "면 기면",
+      {
+        "inflection": "v_cvb_nfin_cond",
+        "rule_id": "v_cvb_cond_조건"
+      }
+    ],
+    [
+      "으면",
+      "기다",
+      "으면 기면",
+      {
+        "inflection": "v_cvb_nfin_cond",
+        "rule_id": "v_cvb_cond_조건"
+      }
+    ],
+    [
+      "면",
+      "나다",
+      "면 나면",
+      {
+        "inflection": "v_cvb_nfin_cond",
+        "rule_id": "v_cvb_cond_조건"
+      }
+    ],
+    [
+      "으면",
+      "나다",
+      "으면 나면",
+      {
+        "inflection": "v_cvb_nfin_cond",
+        "rule_id": "v_cvb_cond_조건"
+      }
+    ],
+    [
+      "고",
+      "가다",
+      "고 가고",
+      {
+        "inflection": "v_cvb_nfin_conj",
+        "rule_id": "v_cvb_conj_연결"
+      }
+    ],
+    [
+      "며",
+      "가다",
+      "며 가고",
+      {
+        "inflection": "v_cvb_nfin_conj",
+        "rule_id": "v_cvb_conj_연결"
+      }
+    ],
+    [
+      "고",
+      "기다",
+      "고 기고",
+      {
+        "inflection": "v_cvb_nfin_conj",
+        "rule_id": "v_cvb_conj_연결"
+      }
+    ],
+    [
+      "며",
+      "기다",
+      "며 기고",
+      {
+        "inflection": "v_cvb_nfin_conj",
+        "rule_id": "v_cvb_conj_연결"
+      }
+    ],
+    [
+      "습니다",
+      "그러다",
+      "습니다 그럼",
+      {
+        "inflection": "v_msdr_prs",
+        "rule_id": "v_msdr_prs_존댓말"
+      }
+    ],
+    [
+      "습니다",
+      "기다",
+      "습니다 김",
+      {
+        "inflection": "v_msdr_prs",
+        "rule_id": "v_msdr_prs_존댓말"
+      }
+    ],
+    [
+      "습니다",
+      "돕다",
+      "습니다 도움",
+      {
+        "inflection": "v_msdr_prs",
+        "rule_id": "v_msdr_prs_존댓말"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "가지다",
+      "ㄹ까요 가져",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "가지다",
+      "자 가져",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "그러다",
+      "ㄹ까요 그래",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "그러다",
+      "자 그래",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "기다",
+      "ㄹ까요 겨",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "기다",
+      "자 겨",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "나가다",
+      "ㄹ까요 나가",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "나가다",
+      "자 나가",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "대하다",
+      "ㄹ까요 대해",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "대하다",
+      "자 대해",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "돌다",
+      "ㄹ까요 돌아",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "돌다",
+      "자 돌아",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "돕다",
+      "ㄹ까요 도와",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "돕다",
+      "자 도와",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "듣다",
+      "ㄹ까요 들어",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "듣다",
+      "자 들어",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "떨다",
+      "ㄹ까요 떨어",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "떨다",
+      "자 떨어",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㄹ까요",
+      "만나다",
+      "ㄹ까요 만나",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "자",
+      "만나다",
+      "자 만나",
+      {
+        "inflection": "v_imp_fin_1_pl_infm",
+        "rule_id": "v_imp_1_pl_infm_청유"
+      }
+    ],
+    [
+      "ㅏ",
+      "가지다",
+      "ㅏ 가져",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "가지다",
+      "ㅓ 가져",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "그러다",
+      "ㅏ 그래",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "그러다",
+      "ㅓ 그래",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "기다",
+      "ㅏ 겨",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "기다",
+      "ㅓ 겨",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "나가다",
+      "ㅏ 나가",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "나가다",
+      "ㅓ 나가",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "대하다",
+      "ㅏ 대해",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "대하다",
+      "ㅓ 대해",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "돌다",
+      "ㅏ 돌아",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "돌다",
+      "ㅓ 돌아",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "돕다",
+      "ㅏ 도와",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "돕다",
+      "ㅓ 도와",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "듣다",
+      "ㅏ 들어",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "듣다",
+      "ㅓ 들어",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "떨다",
+      "ㅏ 떨어",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "떨다",
+      "ㅓ 떨어",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "만나다",
+      "ㅏ 만나",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "만나다",
+      "ㅓ 만나",
+      {
+        "inflection": "v_int_fin_prs_infm",
+        "rule_id": "v_int_fin_prs_infm_의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "같다",
+      "ㅏ 같아",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "같다",
+      "ㅓ 같아",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "곱다",
+      "ㅏ 고와",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "곱다",
+      "ㅓ 고와",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "노랗다",
+      "ㅏ 노래",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "노랗다",
+      "ㅓ 노래",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅏ",
+      "다르다",
+      "ㅏ 달라",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "ㅓ",
+      "다르다",
+      "ㅓ 달라",
+      {
+        "inflection": "adj_int_fin_prs_infm",
+        "rule_id": "adj_int_fin_prs_infm_형용사의문"
+      }
+    ],
+    [
+      "라",
+      "가지다",
+      "라 가져",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "가지다",
+      "어라 가져",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "그러다",
+      "라 그래",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "그러다",
+      "어라 그래",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "기다",
+      "라 겨",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "기다",
+      "어라 겨",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "나가다",
+      "라 나가",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "나가다",
+      "어라 나가",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "대하다",
+      "라 대해",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "대하다",
+      "어라 대해",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "돌다",
+      "라 돌아",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "돌다",
+      "어라 돌아",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "돕다",
+      "라 도와",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "돕다",
+      "어라 도와",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "듣다",
+      "라 들어",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "듣다",
+      "어라 들어",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "떨다",
+      "라 떨어",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "떨다",
+      "어라 떨어",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "라",
+      "만나다",
+      "라 만나",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "어라",
+      "만나다",
+      "어라 만나",
+      {
+        "inflection": "v_imp_fin_2_infm",
+        "rule_id": "v_imp_2_infm_명령"
+      }
+    ],
+    [
+      "는",
+      "기다",
+      "는 기는",
+      {
+        "inflection": "v_ptcp_prs",
+        "rule_id": "v_ptcp_prs_현재참여"
+      }
+    ],
+    [
+      "는",
+      "나다",
+      "는 나는",
+      {
+        "inflection": "v_ptcp_prs",
+        "rule_id": "v_ptcp_prs_현재참여"
+      }
+    ],
+    [
+      "시",
+      "기다",
+      "시 기실",
+      {
+        "inflection": "v_ptcp_fut_elev",
+        "rule_id": "v_ptcp_fut_elev_높임"
+      }
+    ],
+    [
+      "의",
+      "나",
+      "의 나의",
+      {
+        "inflection": "pro_gen",
+        "rule_id": "pro_gen_소유격"
+      }
+    ],
+    [
+      "ㅂ시다",
+      "가다",
+      "ㅂ시다 가자",
+      {
+        "inflection": "v_imp_fin_1_pl_form",
+        "rule_id": "v_imp_1_pl_form_동사청유"
+      }
+    ],
+    [
+      "ㅂ시다",
+      "기다",
+      "ㅂ시다 기자",
+      {
+        "inflection": "v_imp_fin_1_pl_form",
+        "rule_id": "v_imp_1_pl_form_동사청유"
+      }
+    ],
+    [
+      "ㅂ시다",
+      "남다",
+      "ㅂ시다 남자",
+      {
+        "inflection": "v_imp_fin_1_pl_form",
+        "rule_id": "v_imp_1_pl_form_동사청유"
+      }
+    ],
+    [
+      "세요",
+      "가다",
+      "세요 가요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "십시오",
+      "가다",
+      "십시오 가요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "세요",
+      "기다",
+      "세요 겨요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "십시오",
+      "기다",
+      "십시오 겨요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "세요",
+      "까다",
+      "세요 까요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "십시오",
+      "까다",
+      "십시오 까요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "세요",
+      "나다",
+      "세요 나요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ],
+    [
+      "십시오",
+      "나다",
+      "십시오 나요",
+      {
+        "inflection": "v_imp_fin_2_infm_pol",
+        "rule_id": "v_imp_2_infm_명령존댓말"
+      }
+    ]
+  ]
 }

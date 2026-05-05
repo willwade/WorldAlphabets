@@ -5,22 +5,22 @@
     "ady": {
       "words": "ady/words.json",
       "rules": "ady/rules.json",
-      "tests": null,
+      "tests": "ady/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 109,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 51,
+      "test_count": 228
     },
     "af": {
       "words": "af/words.json",
       "rules": "af/rules.json",
-      "tests": null,
+      "tests": "af/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 855,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 57,
+      "test_count": 257
     },
     "ak": {
       "words": "ak/words.json",
@@ -35,22 +35,22 @@
     "am": {
       "words": "am/words.json",
       "rules": "am/rules.json",
-      "tests": null,
+      "tests": "am/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 349,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 46,
+      "test_count": 862
     },
     "ar": {
       "words": "ar/words.json",
       "rules": "ar/rules.json",
-      "tests": null,
+      "tests": "ar/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 2581,
-      "rule_count": 4,
-      "test_count": 0
+      "rule_count": 28,
+      "test_count": 160
     },
     "arn": {
       "words": "arn/words.json",
@@ -65,12 +65,12 @@
     "as": {
       "words": "as/words.json",
       "rules": "as/rules.json",
-      "tests": null,
+      "tests": "as/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 124,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 45,
+      "test_count": 261
     },
     "ast": {
       "words": "ast/words.json",
@@ -85,32 +85,32 @@
     "ay": {
       "words": "ay/words.json",
       "rules": "ay/rules.json",
-      "tests": null,
+      "tests": "ay/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 99,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 51,
+      "test_count": 268
     },
     "ba": {
       "words": "ba/words.json",
       "rules": "ba/rules.json",
-      "tests": null,
+      "tests": "ba/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 79,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 51,
+      "test_count": 393
     },
     "bg": {
       "words": "bg/words.json",
       "rules": "bg/rules.json",
-      "tests": null,
+      "tests": "bg/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 167,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 55,
+      "test_count": 654
     },
     "bn": {
       "words": "bn/words.json",
@@ -145,12 +145,12 @@
     "ca": {
       "words": "ca/words.json",
       "rules": "ca/rules.json",
-      "tests": null,
+      "tests": "ca/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 3521,
       "rule_count": 8,
-      "test_count": 0
+      "test_count": 149
     },
     "ceb": {
       "words": "ceb/words.json",
@@ -165,42 +165,42 @@
     "cs": {
       "words": "cs/words.json",
       "rules": "cs/rules.json",
-      "tests": null,
+      "tests": "cs/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 216,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 53,
+      "test_count": 196
     },
     "cy": {
       "words": "cy/words.json",
       "rules": "cy/rules.json",
-      "tests": null,
+      "tests": "cy/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 52,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 36,
+      "test_count": 143
     },
     "da": {
       "words": "da/words.json",
       "rules": "da/rules.json",
-      "tests": null,
+      "tests": "da/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 213,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 49,
+      "test_count": 187
     },
     "de": {
       "words": "de/words.json",
       "rules": "de/rules.json",
-      "tests": null,
+      "tests": "de/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 326,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 64,
+      "test_count": 388
     },
     "dsb": {
       "words": "dsb/words.json",
@@ -215,12 +215,12 @@
     "el": {
       "words": "el/words.json",
       "rules": "el/rules.json",
-      "tests": null,
+      "tests": "el/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 301,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 52,
+      "test_count": 341
     },
     "en": {
       "words": "en/words.json",
@@ -255,22 +255,22 @@
     "en-GB": {
       "words": "en-GB/words.json",
       "rules": "en-GB/rules.json",
-      "tests": null,
+      "tests": "en-GB/tests.csv",
       "base_locale": "en",
       "priority_batch": null,
       "word_count": 55,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 49,
+      "test_count": 120
     },
     "en-NZ": {
       "words": "en-NZ/words.json",
       "rules": "en-NZ/rules.json",
-      "tests": null,
+      "tests": "en-NZ/tests.csv",
       "base_locale": "en",
       "priority_batch": null,
       "word_count": 55,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 2,
+      "test_count": 366
     },
     "en-ZA": {
       "words": "en-ZA/words.json",
@@ -289,7 +289,7 @@
       "base_locale": null,
       "priority_batch": null,
       "word_count": 747,
-      "rule_count": 1,
+      "rule_count": 55,
       "test_count": 0
     },
     "es-419": {
@@ -305,22 +305,22 @@
     "et": {
       "words": "et/words.json",
       "rules": "et/rules.json",
-      "tests": null,
+      "tests": "et/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 107,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 55,
+      "test_count": 272
     },
     "eu": {
       "words": "eu/words.json",
       "rules": "eu/rules.json",
-      "tests": null,
+      "tests": "eu/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 59,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 5,
+      "test_count": 158
     },
     "fa": {
       "words": "fa/words.json",
@@ -345,32 +345,32 @@
     "fo": {
       "words": "fo/words.json",
       "rules": "fo/rules.json",
-      "tests": null,
+      "tests": "fo/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 64,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 52,
+      "test_count": 293
     },
     "fr": {
       "words": "fr/words.json",
       "rules": "fr/rules.json",
-      "tests": null,
+      "tests": "fr/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 279,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 58,
+      "test_count": 388
     },
     "fr-CA": {
       "words": "fr-CA/words.json",
       "rules": "fr-CA/rules.json",
-      "tests": null,
+      "tests": "fr-CA/tests.csv",
       "base_locale": "fr",
       "priority_batch": null,
       "word_count": 2849,
-      "rule_count": 8,
-      "test_count": 0
+      "rule_count": 55,
+      "test_count": 352
     },
     "frr": {
       "words": "frr/words.json",
@@ -445,32 +445,32 @@
     "he": {
       "words": "he/words.json",
       "rules": "he/rules.json",
-      "tests": null,
+      "tests": "he/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 263,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 54,
+      "test_count": 510
     },
     "hi": {
       "words": "hi/words.json",
       "rules": "hi/rules.json",
-      "tests": null,
+      "tests": "hi/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 52,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 45,
+      "test_count": 251
     },
     "hr": {
       "words": "hr/words.json",
       "rules": "hr/rules.json",
-      "tests": null,
+      "tests": "hr/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 55,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 32,
+      "test_count": 174
     },
     "hsb": {
       "words": "hsb/words.json",
@@ -485,52 +485,52 @@
     "hu": {
       "words": "hu/words.json",
       "rules": "hu/rules.json",
-      "tests": null,
+      "tests": "hu/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 375,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 31,
+      "test_count": 218
     },
     "hy": {
       "words": "hy/words.json",
       "rules": "hy/rules.json",
-      "tests": null,
+      "tests": "hy/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 197,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 52,
+      "test_count": 615
     },
     "id": {
       "words": "id/words.json",
       "rules": "id/rules.json",
-      "tests": null,
+      "tests": "id/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 484,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 47,
+      "test_count": 529
     },
     "is": {
       "words": "is/words.json",
       "rules": "is/rules.json",
-      "tests": null,
+      "tests": "is/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 147,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 69,
+      "test_count": 429
     },
     "it": {
       "words": "it/words.json",
       "rules": "it/rules.json",
-      "tests": null,
+      "tests": "it/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 217,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 15,
+      "test_count": 221
     },
     "ja": {
       "words": "ja/words.json",
@@ -565,22 +565,22 @@
     "kn": {
       "words": "kn/words.json",
       "rules": "kn/rules.json",
-      "tests": null,
+      "tests": "kn/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 58,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 29,
+      "test_count": 225
     },
     "ko": {
       "words": "ko/words.json",
       "rules": "ko/rules.json",
-      "tests": null,
+      "tests": "ko/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 78,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 49,
+      "test_count": 678
     },
     "ky": {
       "words": "ky/words.json",
@@ -635,22 +635,22 @@
     "lt": {
       "words": "lt/words.json",
       "rules": "lt/rules.json",
-      "tests": null,
+      "tests": "lt/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 89,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 53,
+      "test_count": 364
     },
     "lv": {
       "words": "lv/words.json",
       "rules": "lv/rules.json",
-      "tests": null,
+      "tests": "lv/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 267,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 86,
+      "test_count": 558
     },
     "mg": {
       "words": "mg/words.json",
@@ -665,12 +665,12 @@
     "mk": {
       "words": "mk/words.json",
       "rules": "mk/rules.json",
-      "tests": null,
+      "tests": "mk/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 280,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 48,
+      "test_count": 476
     },
     "mt": {
       "words": "mt/words.json",
@@ -695,12 +695,12 @@
     "nl": {
       "words": "nl/words.json",
       "rules": "nl/rules.json",
-      "tests": null,
+      "tests": "nl/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 266,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 2,
+      "test_count": 191
     },
     "nl-BE": {
       "words": "nl-BE/words.json",
@@ -725,12 +725,12 @@
     "no": {
       "words": "no/words.json",
       "rules": "no/rules.json",
-      "tests": null,
+      "tests": "no/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 540,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 45,
+      "test_count": 116
     },
     "oc": {
       "words": "oc/words.json",
@@ -755,12 +755,12 @@
     "pl": {
       "words": "pl/words.json",
       "rules": "pl/rules.json",
-      "tests": null,
+      "tests": "pl/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 283,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 53,
+      "test_count": 106
     },
     "ps": {
       "words": "ps/words.json",
@@ -775,52 +775,52 @@
     "pt": {
       "words": "pt/words.json",
       "rules": "pt/rules.json",
-      "tests": null,
+      "tests": "pt/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 4993,
       "rule_count": 4,
-      "test_count": 0
+      "test_count": 126
     },
     "pt-BR": {
       "words": "pt-BR/words.json",
       "rules": "pt-BR/rules.json",
-      "tests": null,
+      "tests": "pt-BR/tests.csv",
       "base_locale": "pt",
       "priority_batch": null,
       "word_count": 4993,
       "rule_count": 6,
-      "test_count": 0
+      "test_count": 214
     },
     "qu": {
       "words": "qu/words.json",
       "rules": "qu/rules.json",
-      "tests": null,
+      "tests": "qu/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 100,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 4,
+      "test_count": 438
     },
     "ro": {
       "words": "ro/words.json",
       "rules": "ro/rules.json",
-      "tests": null,
+      "tests": "ro/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 221,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 71,
+      "test_count": 502
     },
     "ru": {
       "words": "ru/words.json",
       "rules": "ru/rules.json",
-      "tests": null,
+      "tests": "ru/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 262,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 37,
+      "test_count": 224
     },
     "sah": {
       "words": "sah/words.json",
@@ -855,12 +855,12 @@
     "sl": {
       "words": "sl/words.json",
       "rules": "sl/rules.json",
-      "tests": null,
+      "tests": "sl/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 142,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 49,
+      "test_count": 588
     },
     "sn": {
       "words": "sn/words.json",
@@ -875,12 +875,12 @@
     "sq": {
       "words": "sq/words.json",
       "rules": "sq/rules.json",
-      "tests": null,
+      "tests": "sq/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 75,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 31,
+      "test_count": 608
     },
     "st": {
       "words": "st/words.json",
@@ -895,12 +895,12 @@
     "sv": {
       "words": "sv/words.json",
       "rules": "sv/rules.json",
-      "tests": null,
+      "tests": "sv/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 452,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 44,
+      "test_count": 303
     },
     "te": {
       "words": "te/words.json",
@@ -935,12 +935,12 @@
     "tr": {
       "words": "tr/words.json",
       "rules": "tr/rules.json",
-      "tests": null,
+      "tests": "tr/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 200,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 26,
+      "test_count": 454
     },
     "tt": {
       "words": "tt/words.json",
@@ -975,12 +975,12 @@
     "uk": {
       "words": "uk/words.json",
       "rules": "uk/rules.json",
-      "tests": null,
+      "tests": "uk/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 122,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 63,
+      "test_count": 227
     },
     "ur": {
       "words": "ur/words.json",
@@ -1015,12 +1015,12 @@
     "zu": {
       "words": "zu/words.json",
       "rules": "zu/rules.json",
-      "tests": null,
+      "tests": "zu/tests.csv",
       "base_locale": null,
       "priority_batch": null,
       "word_count": 97,
-      "rule_count": 0,
-      "test_count": 0
+      "rule_count": 17,
+      "test_count": 104
     }
   }
 }

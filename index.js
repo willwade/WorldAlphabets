@@ -314,6 +314,41 @@ function buildWordList(wordsData) {
   return words;
 }
 
+function joinWords(rulesData, prev, nextWord) {
+  const joinRules = Array.isArray(rulesData.join) ? rulesData.join : [];
+  const prevLower = prev.toLowerCase();
+  const nextLower = nextWord.toLowerCase();
+
+  for (const rule of joinRules) {
+    let prevList = rule.prev;
+    if (typeof prevList === 'string') prevList = [prevList];
+    if (!Array.isArray(prevList)) continue;
+    if (!prevList.some(p => p.toLowerCase() === prevLower)) continue;
+
+    let matched = false;
+    if (Array.isArray(rule.next)) {
+      matched = rule.next.some(n => (typeof n === 'string' ? n.toLowerCase() : '') === nextLower);
+    } else if (typeof rule.next === 'string') {
+      matched = rule.next.toLowerCase() === nextLower;
+    }
+
+    if (!matched && typeof rule.next_match === 'string') {
+      try {
+        matched = new RegExp(rule.next_match).test(nextLower);
+      } catch { continue; }
+    }
+
+    if (!matched) continue;
+
+    const template = rule.result || '{prev} {next}';
+    const result = template.replace(/\{prev\}/g, prev).replace(/\{next\}/g, nextWord);
+    const replacesPair = template !== '{prev} {next}';
+
+    return { result, rule_id: rule.id || null, reason: rule.reason || null, replaces_pair: replacesPair };
+  }
+  return null;
+}
+
 function lookupWordSync(wordsData, rulesData, word, priorWords = '') {
   const words = buildWordList(wordsData);
   const rules = Array.isArray(rulesData.rules) ? rulesData.rules : [];
@@ -410,7 +445,19 @@ async function applyRules(locale, text) {
   const wordsData = await loadInflectionWords(locale);
   const rulesData = await loadInflectionRules(locale);
   const results = [];
-  for (let i = 0; i < tokens.length; i++) {
+  let i = 0;
+  while (i < tokens.length) {
+    if (results.length > 0) {
+      const prevToken = tokens[i - 1];
+      const jr = joinWords(rulesData, prevToken, tokens[i]);
+      if (jr && jr.replaces_pair) {
+        results.pop();
+        results.push(jr.result);
+        i++;
+        continue;
+      }
+    }
+
     const prior = tokens.slice(0, i).join(' ');
     const result = lookupWordSync(wordsData, rulesData, tokens[i], prior);
     if (result.replacement) {
@@ -425,6 +472,7 @@ async function applyRules(locale, text) {
     } else {
       results.push(tokens[i]);
     }
+    i++;
   }
   return results.join(' ');
 }
@@ -826,6 +874,10 @@ module.exports = {
   inflectWord,
   getInflectionSummary,
   lookupWord,
+  joinWords: async function(locale, prev, nextWord) {
+    const rulesData = await loadInflectionRules(locale);
+    return joinWords(rulesData, prev, nextWord);
+  },
   applyRules,
   clearInflectionCache,
   // Diacritics

@@ -1,9 +1,2939 @@
 {
-  "_type": "rules",
   "_locale": "bg",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "bg_impersonal_adjectives_neut_sg",
+      "inflection": "adj_neut_sg_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "е",
+            "изгледа",
+            "изглежда",
+            "става"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_noun_pl_def_ending_ya",
+      "inflection": "n_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онези",
+            "тези",
+            "тия"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_pl_def_ending_i",
+      "inflection": "n_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "чийто"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_pl_indf_ending_e",
+      "inflection": "n_pl_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "колкото",
+            "много",
+            "някои"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_sg_voc_masc_ending_u",
+      "inflection": "n_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "драги",
+            "уважаеми"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_verb_past_participle_masc_sg",
+      "inflection": "v_ptcp_act_pst_masc_sg_indf",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "имам",
+            "нямам"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_past_participle_pl",
+      "inflection": "v_ptcp_act_pst_pl_indf",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "имаме",
+            "нямаме"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_present_3sg_ending_ya",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "което",
+            "който",
+            "която"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_present_3pl_ending_at",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "които"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_past_1sg_ending_h",
+      "inflection": "v_ind_pst_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "аз"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_past_2sg_ending_e",
+      "inflection": "v_ind_pst_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ти"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_past_3sg_ending",
+      "inflection": "v_ind_pst_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "то",
+            "той",
+            "тя"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_imperative_2sg_ending_i",
+      "inflection": "v_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "да"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_progressive_present_1pl",
+      "inflection": "v_ind_prog_pst_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ние"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_progressive_present_2pl",
+      "inflection": "v_ind_prog_pst_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "вие"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_verb_progressive_present_3pl",
+      "inflection": "v_ind_prog_pst_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "те"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_adj_comparative_fem_sg_def",
+      "inflection": "adj_cmpr_fem_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "най"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_comparative_masc_ending_i",
+      "inflection": "adj_cmpr_masc_sg_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "по"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_comparative_neut_sg_def",
+      "inflection": "adj_cmpr_neut_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "много"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_noun_sg_def_fem_ending_ta",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онази",
+            "тази"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_sg_def_masc_ending_t",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онзи",
+            "този"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_sg_voc_fem_ending_o",
+      "inflection": "n_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "госпожо"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_pl_indf_masc_ending_i",
+      "inflection": "n_pl_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "няколко"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_verb_cvb_ending_l",
+      "inflection": "v_cvb",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "като",
+            "след"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bg_adj_fem_sg_def_ending_ta",
+      "inflection": "adj_fem_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онази",
+            "тази"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_masc_sg_acc_def_ending_t",
+      "inflection": "adj_masc_sg_acc_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онзи",
+            "този"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_neut_sg_def_ending_to",
+      "inflection": "adj_neut_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онова",
+            "това"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_pl_def_ending_te",
+      "inflection": "adj_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онези",
+            "тези"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_adj_pl_indf_ending_i",
+      "inflection": "adj_pl_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "няколко"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_noun_sg_def_ending_to",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онова",
+            "това"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_pl_voc_ending_e",
+      "inflection": "n_pl_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "колеги"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_sg_voc_ending_e",
+      "inflection": "n_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "мамо",
+            "тата"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_noun_acc_def_masc_ending_a",
+      "inflection": "n_sg_acc_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "виждам",
+            "знам"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "bg_adj_cmpr_masc_voc_ending_i",
+      "inflection": "adj_cmpr_masc_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "драги",
+            "уважаеми"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "bg_noun_pl_def_ending_e",
+      "inflection": "n_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "всички"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "е",
+      "абсолютен",
+      "е абсолютно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "абсолютен",
+      "изгледа абсолютно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "бърз",
+      "е бързо",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "бърз",
+      "изгледа бързо",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "важен",
+      "е важно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "важен",
+      "изгледа важно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "верен",
+      "е вярно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "верен",
+      "изгледа вярно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "вероятен",
+      "е вероятно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "вероятен",
+      "изгледа вероятно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "внимателен",
+      "е внимателно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "внимателен",
+      "изгледа внимателно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "е",
+      "възможен",
+      "е възможно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "изгледа",
+      "възможен",
+      "изгледа възможно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "bg_impersonal_adjectives_neut_sg"
+      }
+    ],
+    [
+      "онези",
+      "агент",
+      "онези агентите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "агент",
+      "тези агентите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "адвокат",
+      "онези адвокатите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "адвокат",
+      "тези адвокатите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "баба",
+      "онези бабите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "баба",
+      "тези бабите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "баща",
+      "онези бащите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "баща",
+      "тези бащите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "бебе",
+      "онези бебетата",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "бебе",
+      "тези бебетата",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "бог",
+      "онези боговете",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "бог",
+      "тези боговете",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "вечер",
+      "онези вечерите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "вечер",
+      "тези вечерите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "вино",
+      "онези вината",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "вино",
+      "тези вината",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "вода",
+      "онези водите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "вода",
+      "тези водите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "врата",
+      "онези вратите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "врата",
+      "тези вратите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "време",
+      "онези времената",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "време",
+      "тези времената",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "възможност",
+      "онези възможностите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "възможност",
+      "тези възможностите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "онези",
+      "въпрос",
+      "онези въпросите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "тези",
+      "въпрос",
+      "тези въпросите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_ya"
+      }
+    ],
+    [
+      "чийто",
+      "агент",
+      "чийто агентите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "адвокат",
+      "чийто адвокатите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "баба",
+      "чийто бабите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "баща",
+      "чийто бащите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "бебе",
+      "чийто бебетата",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "бог",
+      "чийто боговете",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "вечер",
+      "чийто вечерите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "вино",
+      "чийто вината",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "вода",
+      "чийто водите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "врата",
+      "чийто вратите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "време",
+      "чийто времената",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "възможност",
+      "чийто възможностите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "чийто",
+      "въпрос",
+      "чийто въпросите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_i"
+      }
+    ],
+    [
+      "колкото",
+      "агент",
+      "колкото агенти",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "агент",
+      "много агенти",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "адвокат",
+      "колкото адвокати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "адвокат",
+      "много адвокати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "баба",
+      "колкото баби",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "баба",
+      "много баби",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "баща",
+      "колкото бащи",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "баща",
+      "много бащи",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "бебе",
+      "колкото бебета",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "бебе",
+      "много бебета",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "бог",
+      "колкото богове",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "бог",
+      "много богове",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "вечер",
+      "колкото вечери",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "вечер",
+      "много вечери",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "вода",
+      "колкото води",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "вода",
+      "много води",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "врата",
+      "колкото врати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "врата",
+      "много врати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "време",
+      "колкото времена",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "време",
+      "много времена",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "връв",
+      "колкото върви",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "връв",
+      "много върви",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "възможност",
+      "колкото възможности",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "възможност",
+      "много възможности",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "колкото",
+      "въпрос",
+      "колкото въпроси",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "много",
+      "въпрос",
+      "много въпроси",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_ending_e"
+      }
+    ],
+    [
+      "драги",
+      "агент",
+      "драги агенте",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "агент",
+      "уважаеми агенте",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "адвокат",
+      "драги адвокате",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "адвокат",
+      "уважаеми адвокате",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "баба",
+      "драги бабо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "баба",
+      "уважаеми бабо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "бог",
+      "драги боже",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "бог",
+      "уважаеми боже",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "брава",
+      "драги браво",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "брава",
+      "уважаеми браво",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "вода",
+      "драги водо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "вода",
+      "уважаеми водо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "врата",
+      "драги врато",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "врата",
+      "уважаеми врато",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "драги",
+      "въпрос",
+      "драги въпросе",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "уважаеми",
+      "въпрос",
+      "уважаеми въпросе",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_masc_ending_u"
+      }
+    ],
+    [
+      "имам",
+      "бия",
+      "имам бил",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "нямам",
+      "бия",
+      "нямам бил",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "имам",
+      "виждам",
+      "имам виждал",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "нямам",
+      "виждам",
+      "нямам виждал",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "имам",
+      "вярвам",
+      "имам вярвал",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "нямам",
+      "вярвам",
+      "нямам вярвал",
+      {
+        "inflection": "v_ptcp_act_pst_masc_sg_indf",
+        "rule_id": "bg_verb_past_participle_masc_sg"
+      }
+    ],
+    [
+      "имаме",
+      "бия",
+      "имаме били",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "нямаме",
+      "бия",
+      "нямаме били",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "имаме",
+      "виждам",
+      "имаме виждали",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "нямаме",
+      "виждам",
+      "нямаме виждали",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "имаме",
+      "вярвам",
+      "имаме вярвали",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "нямаме",
+      "вярвам",
+      "нямаме вярвали",
+      {
+        "inflection": "v_ptcp_act_pst_pl_indf",
+        "rule_id": "bg_verb_past_participle_pl"
+      }
+    ],
+    [
+      "което",
+      "вечерям",
+      "което вечеря",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "който",
+      "вечерям",
+      "който вечеря",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "което",
+      "вземам",
+      "което взема",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "който",
+      "вземам",
+      "който взема",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "което",
+      "виждам",
+      "което вижда",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "който",
+      "виждам",
+      "който вижда",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "което",
+      "вярвам",
+      "което вярва",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "който",
+      "вярвам",
+      "който вярва",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "bg_verb_present_3sg_ending_ya"
+      }
+    ],
+    [
+      "които",
+      "виждам",
+      "които виждат",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "bg_verb_present_3pl_ending_at"
+      }
+    ],
+    [
+      "които",
+      "вярвам",
+      "които вярват",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "bg_verb_present_3pl_ending_at"
+      }
+    ],
+    [
+      "аз",
+      "бия",
+      "аз бих",
+      {
+        "inflection": "v_ind_pst_1_sg",
+        "rule_id": "bg_verb_past_1sg_ending_h"
+      }
+    ],
+    [
+      "аз",
+      "виждам",
+      "аз виждах",
+      {
+        "inflection": "v_ind_pst_1_sg",
+        "rule_id": "bg_verb_past_1sg_ending_h"
+      }
+    ],
+    [
+      "аз",
+      "вярвам",
+      "аз вярвах",
+      {
+        "inflection": "v_ind_pst_1_sg",
+        "rule_id": "bg_verb_past_1sg_ending_h"
+      }
+    ],
+    [
+      "ти",
+      "бия",
+      "ти би",
+      {
+        "inflection": "v_ind_pst_2_sg",
+        "rule_id": "bg_verb_past_2sg_ending_e"
+      }
+    ],
+    [
+      "ти",
+      "вечерям",
+      "ти вечеря",
+      {
+        "inflection": "v_ind_pst_2_sg",
+        "rule_id": "bg_verb_past_2sg_ending_e"
+      }
+    ],
+    [
+      "ти",
+      "вземам",
+      "ти взема",
+      {
+        "inflection": "v_ind_pst_2_sg",
+        "rule_id": "bg_verb_past_2sg_ending_e"
+      }
+    ],
+    [
+      "ти",
+      "виждам",
+      "ти вижда",
+      {
+        "inflection": "v_ind_pst_2_sg",
+        "rule_id": "bg_verb_past_2sg_ending_e"
+      }
+    ],
+    [
+      "ти",
+      "вярвам",
+      "ти вярва",
+      {
+        "inflection": "v_ind_pst_2_sg",
+        "rule_id": "bg_verb_past_2sg_ending_e"
+      }
+    ],
+    [
+      "то",
+      "бия",
+      "то би",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "той",
+      "бия",
+      "той би",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "то",
+      "вечерям",
+      "то вечеря",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "той",
+      "вечерям",
+      "той вечеря",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "то",
+      "вземам",
+      "то взема",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "той",
+      "вземам",
+      "той взема",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "то",
+      "виждам",
+      "то вижда",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "той",
+      "виждам",
+      "той вижда",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "то",
+      "вярвам",
+      "то вярва",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "той",
+      "вярвам",
+      "той вярва",
+      {
+        "inflection": "v_ind_pst_3_sg",
+        "rule_id": "bg_verb_past_3sg_ending"
+      }
+    ],
+    [
+      "да",
+      "виждам",
+      "да виждай",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "bg_verb_imperative_2sg_ending_i"
+      }
+    ],
+    [
+      "да",
+      "вярвам",
+      "да вярвай",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "bg_verb_imperative_2sg_ending_i"
+      }
+    ],
+    [
+      "ние",
+      "виждам",
+      "ние виждахме",
+      {
+        "inflection": "v_ind_prog_pst_1_pl",
+        "rule_id": "bg_verb_progressive_present_1pl"
+      }
+    ],
+    [
+      "ние",
+      "вярвам",
+      "ние вярвахме",
+      {
+        "inflection": "v_ind_prog_pst_1_pl",
+        "rule_id": "bg_verb_progressive_present_1pl"
+      }
+    ],
+    [
+      "вие",
+      "виждам",
+      "вие виждахте",
+      {
+        "inflection": "v_ind_prog_pst_2_pl",
+        "rule_id": "bg_verb_progressive_present_2pl"
+      }
+    ],
+    [
+      "вие",
+      "вярвам",
+      "вие вярвахте",
+      {
+        "inflection": "v_ind_prog_pst_2_pl",
+        "rule_id": "bg_verb_progressive_present_2pl"
+      }
+    ],
+    [
+      "те",
+      "виждам",
+      "те виждаха",
+      {
+        "inflection": "v_ind_prog_pst_3_pl",
+        "rule_id": "bg_verb_progressive_present_3pl"
+      }
+    ],
+    [
+      "те",
+      "вярвам",
+      "те вярваха",
+      {
+        "inflection": "v_ind_prog_pst_3_pl",
+        "rule_id": "bg_verb_progressive_present_3pl"
+      }
+    ],
+    [
+      "онази",
+      "баба",
+      "онази бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "баба",
+      "тази бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "баща",
+      "онази бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "баща",
+      "тази бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "бебе",
+      "онази бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "бебе",
+      "тази бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "болница",
+      "онази болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "болница",
+      "тази болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "вечер",
+      "онази вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "вечер",
+      "тази вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "вода",
+      "онази водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "вода",
+      "тази водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "врата",
+      "онази вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "врата",
+      "тази вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "време",
+      "онази времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "време",
+      "тази времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "възможност",
+      "онази възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "възможност",
+      "тази възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онази",
+      "глава",
+      "онази главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "тази",
+      "глава",
+      "тази главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_fem_ending_ta"
+      }
+    ],
+    [
+      "онзи",
+      "баба",
+      "онзи бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "баба",
+      "този бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "баща",
+      "онзи бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "баща",
+      "този бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "бебе",
+      "онзи бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "бебе",
+      "този бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "болница",
+      "онзи болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "болница",
+      "този болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "вечер",
+      "онзи вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "вечер",
+      "този вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "вода",
+      "онзи водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "вода",
+      "този водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "врата",
+      "онзи вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "врата",
+      "този вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "време",
+      "онзи времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "време",
+      "този времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "възможност",
+      "онзи възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "възможност",
+      "този възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "онзи",
+      "глава",
+      "онзи главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "този",
+      "глава",
+      "този главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_masc_ending_t"
+      }
+    ],
+    [
+      "госпожо",
+      "агент",
+      "госпожо агенте",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "адвокат",
+      "госпожо адвокате",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "баба",
+      "госпожо бабо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "бог",
+      "госпожо боже",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "брава",
+      "госпожо браво",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "вода",
+      "госпожо водо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "врата",
+      "госпожо врато",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "госпожо",
+      "въпрос",
+      "госпожо въпросе",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_fem_ending_o"
+      }
+    ],
+    [
+      "няколко",
+      "агент",
+      "няколко агенти",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "адвокат",
+      "няколко адвокати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "баба",
+      "няколко баби",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "баща",
+      "няколко бащи",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "бебе",
+      "няколко бебета",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "бог",
+      "няколко богове",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "вечер",
+      "няколко вечери",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "вода",
+      "няколко води",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "врата",
+      "няколко врати",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "време",
+      "няколко времена",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "връв",
+      "няколко върви",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "възможност",
+      "няколко възможности",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "няколко",
+      "въпрос",
+      "няколко въпроси",
+      {
+        "inflection": "n_pl_indf",
+        "rule_id": "bg_noun_pl_indf_masc_ending_i"
+      }
+    ],
+    [
+      "като",
+      "виждам",
+      "като виждайки",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "bg_verb_cvb_ending_l"
+      }
+    ],
+    [
+      "след",
+      "виждам",
+      "след виждайки",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "bg_verb_cvb_ending_l"
+      }
+    ],
+    [
+      "като",
+      "вярвам",
+      "като вярвайки",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "bg_verb_cvb_ending_l"
+      }
+    ],
+    [
+      "след",
+      "вярвам",
+      "след вярвайки",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "bg_verb_cvb_ending_l"
+      }
+    ],
+    [
+      "онова",
+      "баба",
+      "онова бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "баба",
+      "това бабата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "баща",
+      "онова бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "баща",
+      "това бащата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "бебе",
+      "онова бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "бебе",
+      "това бебето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "болница",
+      "онова болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "болница",
+      "това болницата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "вечер",
+      "онова вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "вечер",
+      "това вечерта",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "вода",
+      "онова водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "вода",
+      "това водата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "врата",
+      "онова вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "врата",
+      "това вратата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "време",
+      "онова времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "време",
+      "това времето",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "възможност",
+      "онова възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "възможност",
+      "това възможността",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "онова",
+      "глава",
+      "онова главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "това",
+      "глава",
+      "това главата",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "bg_noun_sg_def_ending_to"
+      }
+    ],
+    [
+      "колеги",
+      "агент",
+      "колеги агенти",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "адвокат",
+      "колеги адвокати",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "баба",
+      "колеги баби",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "бог",
+      "колеги богове",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "вода",
+      "колеги води",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "врата",
+      "колеги врати",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "колеги",
+      "въпрос",
+      "колеги въпроси",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "bg_noun_pl_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "агент",
+      "мамо агенте",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "агент",
+      "тата агенте",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "адвокат",
+      "мамо адвокате",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "адвокат",
+      "тата адвокате",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "баба",
+      "мамо бабо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "баба",
+      "тата бабо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "бог",
+      "мамо боже",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "бог",
+      "тата боже",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "брава",
+      "мамо браво",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "брава",
+      "тата браво",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "вода",
+      "мамо водо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "вода",
+      "тата водо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "врата",
+      "мамо врато",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "врата",
+      "тата врато",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "мамо",
+      "въпрос",
+      "мамо въпросе",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "тата",
+      "въпрос",
+      "тата въпросе",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "bg_noun_sg_voc_ending_e"
+      }
+    ],
+    [
+      "виждам",
+      "агент",
+      "виждам агента",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "знам",
+      "агент",
+      "знам агента",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "виждам",
+      "адвокат",
+      "виждам адвоката",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "знам",
+      "адвокат",
+      "знам адвоката",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "виждам",
+      "бог",
+      "виждам бога",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "знам",
+      "бог",
+      "знам бога",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "виждам",
+      "въпрос",
+      "виждам въпроса",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "знам",
+      "въпрос",
+      "знам въпроса",
+      {
+        "inflection": "n_sg_acc_def",
+        "rule_id": "bg_noun_acc_def_masc_ending_a"
+      }
+    ],
+    [
+      "всички",
+      "агент",
+      "всички агентите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "адвокат",
+      "всички адвокатите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "баба",
+      "всички бабите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "баща",
+      "всички бащите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "бебе",
+      "всички бебетата",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "бог",
+      "всички боговете",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "вечер",
+      "всички вечерите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "вино",
+      "всички вината",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "вода",
+      "всички водите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "врата",
+      "всички вратите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "време",
+      "всички времената",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "възможност",
+      "всички възможностите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ],
+    [
+      "всички",
+      "въпрос",
+      "всички въпросите",
+      {
+        "inflection": "n_pl_def",
+        "rule_id": "bg_noun_pl_def_ending_e"
+      }
+    ]
+  ]
 }

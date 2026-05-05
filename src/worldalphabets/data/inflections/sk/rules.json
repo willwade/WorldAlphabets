@@ -3,7 +3,127 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "conj_a_že",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "overrides": {
+        "že": "a"
+      },
+      "type": "override"
+    },
+    {
+      "id": "verb_je_som",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "overrides": {
+        "som": "je"
+      },
+      "type": "override"
+    },
+    {
+      "id": "pronoun_sa_mňa",
+      "lookback": [
+        {
+          "words": [
+            "sa"
+          ]
+        }
+      ],
+      "overrides": {
+        "mňa": "sa"
+      },
+      "type": "override"
+    },
+    {
+      "id": "verb_bude_ma",
+      "lookback": [
+        {
+          "words": [
+            "bude"
+          ]
+        }
+      ],
+      "overrides": {
+        "ma": "má"
+      },
+      "type": "override"
+    },
+    {
+      "id": "pronoun_vás_you",
+      "inflection": "objective",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "k",
+            "pre",
+            "s",
+            "u"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "adverb_už_again",
+      "inflection": "repetitive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "opäť",
+            "znova"
+          ]
+        }
+      ],
+      "type": "adverb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "a",
+      "že",
+      "a a",
+      {
+        "rule_id": "conj_a_že"
+      }
+    ],
+    [
+      "je",
+      "som",
+      "je je",
+      {
+        "rule_id": "verb_je_som"
+      }
+    ],
+    [
+      "sa",
+      "mňa",
+      "sa sa",
+      {
+        "rule_id": "pronoun_sa_mňa"
+      }
+    ],
+    [
+      "bude",
+      "ma",
+      "bude má",
+      {
+        "rule_id": "verb_bude_ma"
+      }
+    ]
+  ]
 }

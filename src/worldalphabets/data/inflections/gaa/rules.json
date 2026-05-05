@@ -1,9 +1,207 @@
 {
-  "_type": "rules",
   "_locale": "gaa",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "hab_prs_tsi",
+      "inflection": "v_hab_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tsi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hab_prs_wo",
+      "inflection": "v_hab_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "wo"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hab_prs_mi",
+      "inflection": "v_hab_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hab_prs_ye",
+      "inflection": "v_hab_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ye"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "tsi",
+      "mi",
+      "tsi mi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_tsi"
+      }
+    ],
+    [
+      "tsi",
+      "tsi",
+      "tsi tsi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_tsi"
+      }
+    ],
+    [
+      "tsi",
+      "wo",
+      "tsi wo",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_tsi"
+      }
+    ],
+    [
+      "tsi",
+      "ye",
+      "tsi ye",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_tsi"
+      }
+    ],
+    [
+      "wo",
+      "mi",
+      "wo mi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_wo"
+      }
+    ],
+    [
+      "wo",
+      "tsi",
+      "wo tsi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_wo"
+      }
+    ],
+    [
+      "wo",
+      "wo",
+      "wo wo",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_wo"
+      }
+    ],
+    [
+      "wo",
+      "ye",
+      "wo ye",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_wo"
+      }
+    ],
+    [
+      "mi",
+      "mi",
+      "mi mi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_mi"
+      }
+    ],
+    [
+      "mi",
+      "tsi",
+      "mi tsi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_mi"
+      }
+    ],
+    [
+      "mi",
+      "wo",
+      "mi wo",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_mi"
+      }
+    ],
+    [
+      "mi",
+      "ye",
+      "mi ye",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_mi"
+      }
+    ],
+    [
+      "ye",
+      "mi",
+      "ye mi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_ye"
+      }
+    ],
+    [
+      "ye",
+      "tsi",
+      "ye tsi",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_ye"
+      }
+    ],
+    [
+      "ye",
+      "wo",
+      "ye wo",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_ye"
+      }
+    ],
+    [
+      "ye",
+      "ye",
+      "ye ye",
+      {
+        "inflection": "v_hab_prs",
+        "rule_id": "hab_prs_ye"
+      }
+    ]
+  ]
 }

@@ -1,9 +1,251 @@
 {
-  "_type": "rules",
   "_locale": "lld",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "lld_1sg_prs",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "io"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lld_3sg_prs",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "el",
+            "ella",
+            "o"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lld_3pl_prs",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ei",
+            "is",
+            "os"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lld_1pl_prs",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nus"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lld_2sg_prs",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "te"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "io",
+      "avei",
+      "io é",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "lld_1sg_prs"
+      }
+    ],
+    [
+      "io",
+      "ester",
+      "io son",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "lld_1sg_prs"
+      }
+    ],
+    [
+      "io",
+      "scriver",
+      "io scrive",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "lld_1sg_prs"
+      }
+    ],
+    [
+      "el",
+      "ester",
+      "el é",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "ella",
+      "ester",
+      "ella é",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "el",
+      "fé",
+      "el fej",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "ella",
+      "fé",
+      "ella fej",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "el",
+      "savei",
+      "el sà",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "ella",
+      "savei",
+      "ella sà",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "el",
+      "volei",
+      "el vuel",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "ella",
+      "volei",
+      "ella vuel",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "lld_3sg_prs"
+      }
+    ],
+    [
+      "ei",
+      "ester",
+      "ei é",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "is",
+      "ester",
+      "is é",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "ei",
+      "fé",
+      "ei fej",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "is",
+      "fé",
+      "is fej",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "ei",
+      "savei",
+      "ei sà",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "is",
+      "savei",
+      "is sà",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "lld_3pl_prs"
+      }
+    ],
+    [
+      "nus",
+      "ester",
+      "nus son",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "lld_1pl_prs"
+      }
+    ],
+    [
+      "te",
+      "morir",
+      "te mueres",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "lld_2sg_prs"
+      }
+    ]
+  ]
 }
