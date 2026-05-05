@@ -105,7 +105,7 @@ typedef struct {
 
 typedef struct {
     const char *locale;
-    const wa_inflection_entry *entries;
+    const wa_inflection_entry **entries;
     size_t entry_count;
 } wa_inflection_table;
 
@@ -134,7 +134,7 @@ typedef struct {
 
 typedef struct {
     const char *locale;
-    const wa_inflection_rule *rules;
+    const wa_inflection_rule **rules;
     size_t rule_count;
 } wa_rules_table;
 

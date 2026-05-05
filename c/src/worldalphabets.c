@@ -643,8 +643,8 @@ const wa_inflection_entry *wa_find_inflection_entry(
     const wa_inflection_table *table, const char *word) {
     if (table == NULL || word == NULL) return NULL;
     for (size_t i = 0; i < table->entry_count; i++) {
-        if (wa_streq(table->entries[i].word, word)) {
-            return &table->entries[i];
+        if (wa_streq(table->entries[i]->word, word)) {
+            return table->entries[i];
         }
     }
     return NULL;
@@ -786,7 +786,7 @@ wa_lookup_result wa_lookup_word(const wa_inflection_table *words_table,
     size_t found_type_count = 0;
 
     for (size_t ri = 0; ri < rules_table->rule_count; ri++) {
-        const wa_inflection_rule *rule = &rules_table->rules[ri];
+        const wa_inflection_rule *rule = rules_table->rules[ri];
         if (rule->type == NULL) continue;
 
         int is_override = wa_streq(rule->type, "override");
