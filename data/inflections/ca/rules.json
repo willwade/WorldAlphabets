@@ -63,21 +63,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
-          "words": [
-            "cabre"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "cabre_imperative_2sg",
-      "inflection": "v_pos_imp_2_sg",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
           "words": [
             "cabre"
           ]
@@ -91,35 +76,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
-          "words": [
-            "dir"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "dir_conditional_2sg",
-      "inflection": "v_cond_2_sg",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
-          "words": [
-            "dir"
-          ]
-        }
-      ],
-      "type": "verb"
-    },
-    {
-      "id": "dir_ind_future_3sg",
-      "inflection": "v_ind_fut_3_sg",
-      "location": "e",
-      "lookback": [
-        {
-          "optional": false,
           "words": [
             "dir"
           ]
@@ -133,7 +89,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "estic"
           ]
@@ -147,7 +102,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "estàs"
           ]
@@ -161,7 +115,6 @@
       "location": "e",
       "lookback": [
         {
-          "optional": false,
           "words": [
             "ser"
           ]

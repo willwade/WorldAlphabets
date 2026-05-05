@@ -42,6 +42,24 @@ export interface InflectionData {
   rules: InflectionRules;
 }
 
+export interface LocaleSummary {
+  locale: string;
+  wordCount: number;
+  ruleCount: number;
+  testCount: number;
+  posTypes: string[];
+  inflectionKeys: string[];
+}
+
+export interface LookupResult {
+  word: string;
+  replacement: string | null;
+  rule_id: string | null;
+  rule_type: string | null;
+  inflection: string | null;
+  condense_items: number[] | null;
+}
+
 export function loadAlphabet(code: string, script?: string): Promise<Alphabet>;
 export function getUppercase(code: string, script?: string): Promise<string[]>;
 export function getLowercase(code: string, script?: string): Promise<string[]>;
@@ -62,6 +80,14 @@ export function inflectWord(
   word: string,
   inflection: string
 ): Promise<string | null>;
+export function getInflectionSummary(locale: string): Promise<LocaleSummary>;
+export function lookupWord(
+  locale: string,
+  word: string,
+  priorWords?: string
+): Promise<LookupResult>;
+export function applyRules(locale: string, text: string): Promise<string>;
+export function clearInflectionCache(): void;
 export interface IndexEntry {
   language: string;
   'language-name': string;

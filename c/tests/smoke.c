@@ -129,6 +129,30 @@ int main(void) {
     }
     printf("OK (%zu matches)\n", static_count);
 
+    // ========== Inflections ==========
+    printf("\n--- Inflections ---\n");
+
+    printf("  wa_get_available_inflection_locales... ");
+    wa_string_array infl_locales = wa_get_available_inflection_locales();
+    printf("OK (%zu locales)\n", infl_locales.len);
+
+    if (infl_locales.len > 0) {
+        printf("  wa_load_inflection_table... ");
+        const wa_inflection_table *table = wa_load_inflection_table(
+            infl_locales.items[0]);
+        assert(table != NULL);
+        assert(table->entry_count > 0);
+        printf("OK (%s: %zu entries)\n", table->locale, table->entry_count);
+
+        if (table->entry_count > 0) {
+            const wa_inflection_entry *first = &table->entries[0];
+            printf("  wa_get_inflected_form... ");
+            const char *base = wa_get_inflected_form(first, "base");
+            assert(base != NULL);
+            printf("OK (word=%s, base=%s)\n", first->word, base);
+        }
+    }
+
     printf("\nAll C interface tests passed!\n");
     return 0;
 }

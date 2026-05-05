@@ -3,7 +3,90 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "nz_possessive_apostrophe",
+      "lookback": [
+        {
+          "words": [
+            "a",
+            "any",
+            "some",
+            "the"
+          ]
+        }
+      ],
+      "overrides": {
+        "'s": "'s"
+      },
+      "type": "override"
+    },
+    {
+      "id": "nz_pronoun_you",
+      "lookback": [
+        {
+          "words": [
+            "for",
+            "to",
+            "with"
+          ]
+        }
+      ],
+      "overrides": {
+        "you": "ye"
+      },
+      "type": "override"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "a",
+      "'s",
+      "a 's",
+      {
+        "rule_id": "nz_possessive_apostrophe"
+      }
+    ],
+    [
+      "any",
+      "'s",
+      "any 's",
+      {
+        "rule_id": "nz_possessive_apostrophe"
+      }
+    ],
+    [
+      "some",
+      "'s",
+      "some 's",
+      {
+        "rule_id": "nz_possessive_apostrophe"
+      }
+    ],
+    [
+      "for",
+      "you",
+      "for ye",
+      {
+        "rule_id": "nz_pronoun_you"
+      }
+    ],
+    [
+      "to",
+      "you",
+      "to ye",
+      {
+        "rule_id": "nz_pronoun_you"
+      }
+    ],
+    [
+      "with",
+      "you",
+      "with ye",
+      {
+        "rule_id": "nz_pronoun_you"
+      }
+    ]
+  ]
 }

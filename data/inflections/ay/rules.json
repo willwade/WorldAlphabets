@@ -1,9 +1,571 @@
 {
-  "_type": "rules",
   "_locale": "ay",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "ay_noun_acc",
+      "inflection": "n_acc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "ay_verb_prs_pst_immed_3_sg_ac3",
+      "inflection": "v_prs_pst_immed_3_sg_ac3",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ay_verb_msdr",
+      "inflection": "v_msdr",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "ay_verb_cf_prs_pst_immed_1_sg_ac3_neg",
+      "inflection": "v_cf_prs_pst_immed_1_sg_ac3",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "manam"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ay_noun_abl_pss3s_neg",
+      "inflection": "n_abl_pss3s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "manam"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "-",
+      "achu",
+      "- ach",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "ali",
+      "- al",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "anata",
+      "- anat",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "ari",
+      "- ar",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "aru",
+      "- ar",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "asu",
+      "- as",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "aycha",
+      "- aych",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "ch'uñu",
+      "- ch'uñ",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "chacha",
+      "- chach",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "chakitilla",
+      "- chakitill",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "chhijchhi",
+      "- chhijchh",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "chinu",
+      "- chin",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "chiqa",
+      "- chiq",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "isi",
+      "- is",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "iwija",
+      "- iwij",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jacha",
+      "- jach",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jachiri",
+      "- jachir",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jakiri",
+      "- jakir",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jallu",
+      "- jall",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "janchi",
+      "- janch",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jaqi",
+      "- jaq",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jawira",
+      "- jawir",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jaya",
+      "- jay",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "jichhu",
+      "- jichh",
+      {
+        "inflection": "n_acc",
+        "rule_id": "ay_noun_acc"
+      }
+    ],
+    [
+      "-",
+      "ala",
+      "- ali",
+      {
+        "inflection": "v_prs_pst_immed_3_sg_ac3",
+        "rule_id": "ay_verb_prs_pst_immed_3_sg_ac3"
+      }
+    ],
+    [
+      "-",
+      "apthapi",
+      "- apthapi",
+      {
+        "inflection": "v_prs_pst_immed_3_sg_ac3",
+        "rule_id": "ay_verb_prs_pst_immed_3_sg_ac3"
+      }
+    ],
+    [
+      "-",
+      "arma",
+      "- armi",
+      {
+        "inflection": "v_prs_pst_immed_3_sg_ac3",
+        "rule_id": "ay_verb_prs_pst_immed_3_sg_ac3"
+      }
+    ],
+    [
+      "-",
+      "chika",
+      "- chiki",
+      {
+        "inflection": "v_prs_pst_immed_3_sg_ac3",
+        "rule_id": "ay_verb_prs_pst_immed_3_sg_ac3"
+      }
+    ],
+    [
+      "-",
+      "jila",
+      "- jili",
+      {
+        "inflection": "v_prs_pst_immed_3_sg_ac3",
+        "rule_id": "ay_verb_prs_pst_immed_3_sg_ac3"
+      }
+    ],
+    [
+      "-",
+      "ima",
+      "- imaña",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "ay_verb_msdr"
+      }
+    ],
+    [
+      "manam",
+      "apthapi",
+      "manam apthapirikta",
+      {
+        "inflection": "v_cf_prs_pst_immed_1_sg_ac3",
+        "rule_id": "ay_verb_cf_prs_pst_immed_1_sg_ac3_neg"
+      }
+    ],
+    [
+      "manam",
+      "arma",
+      "manam armirikta",
+      {
+        "inflection": "v_cf_prs_pst_immed_1_sg_ac3",
+        "rule_id": "ay_verb_cf_prs_pst_immed_1_sg_ac3_neg"
+      }
+    ],
+    [
+      "manam",
+      "chika",
+      "manam chikirikta",
+      {
+        "inflection": "v_cf_prs_pst_immed_1_sg_ac3",
+        "rule_id": "ay_verb_cf_prs_pst_immed_1_sg_ac3_neg"
+      }
+    ],
+    [
+      "manam",
+      "jila",
+      "manam jilirikta",
+      {
+        "inflection": "v_cf_prs_pst_immed_1_sg_ac3",
+        "rule_id": "ay_verb_cf_prs_pst_immed_1_sg_ac3_neg"
+      }
+    ],
+    [
+      "manam",
+      "achu",
+      "manam achupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "ali",
+      "manam alipata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "aru",
+      "manam arupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "asu",
+      "manam asupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "aycha",
+      "manam aychapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "ch'uñu",
+      "manam ch'uñupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "chacha",
+      "manam chachapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "chakitilla",
+      "manam chakitillapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "chhijchhi",
+      "manam chhijchhipata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "chinu",
+      "manam chinupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "chiqa",
+      "manam chiqapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "isi",
+      "manam isipata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jacha",
+      "manam jachapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jachiri",
+      "manam jachiripata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jakiri",
+      "manam jakiripata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jallu",
+      "manam jallupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "janchi",
+      "manam janchipata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jaqi",
+      "manam jaqipata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jawira",
+      "manam jawirapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jaya",
+      "manam jayapata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ],
+    [
+      "manam",
+      "jichhu",
+      "manam jichhupata",
+      {
+        "inflection": "n_abl_pss3s",
+        "rule_id": "ay_noun_abl_pss3s_neg"
+      }
+    ]
+  ]
 }

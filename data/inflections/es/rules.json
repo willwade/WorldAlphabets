@@ -1,31 +1,1008 @@
 {
-  "_locale": "es",
-  "_version": "0.1",
   "_license": "CC By, OpenAAC",
+  "_locale": "es",
   "_type": "rules",
+  "_version": "0.1",
+  "inflection_locations": {},
   "rules": [
     {
-      "id": "yo_estoy",
-      "type": "verb",
+      "id": "es_verb_ind_prs_1_sg_override_ser",
       "lookback": [
         {
           "words": [
             "yo"
-          ],
-          "condense": true
+          ]
         }
       ],
-      "inflection": "present_1s"
+      "overrides": {
+        "era": "soy",
+        "son": "soy"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_verb_ind_prs_3_sg_override_ser",
+      "lookback": [
+        {
+          "words": [
+            "ella",
+            "usted",
+            "él"
+          ]
+        }
+      ],
+      "overrides": {
+        "era": "es",
+        "son": "es"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_verb_ind_prs_1_pl_override_ser",
+      "lookback": [
+        {
+          "words": [
+            "nosotras",
+            "nosotros"
+          ]
+        }
+      ],
+      "overrides": {
+        "era": "somos",
+        "son": "somos"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_verb_ind_prs_2_sg_form_override_ser",
+      "lookback": [
+        {
+          "words": [
+            "tú"
+          ]
+        }
+      ],
+      "overrides": {
+        "era": "eres",
+        "son": "eres"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_override_bueno_buenos",
+      "lookback": [
+        {
+          "words": [
+            "los"
+          ]
+        }
+      ],
+      "overrides": {
+        "bueno": "buenos"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_override_bueno_buenas",
+      "lookback": [
+        {
+          "words": [
+            "las"
+          ]
+        }
+      ],
+      "overrides": {
+        "bueno": "buenas"
+      },
+      "type": "override"
+    },
+    {
+      "id": "es_noun_n_masc_pl_regular",
+      "inflection": "n_masc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquellos",
+            "esos",
+            "estos",
+            "los",
+            "unos"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "es_noun_n_fem_pl_regular",
+      "inflection": "n_fem_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquellas",
+            "esas",
+            "estas",
+            "las",
+            "unas"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "es_noun_n_masc_sg_regular",
+      "inflection": "n_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquel",
+            "el",
+            "ese",
+            "este",
+            "un"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "es_noun_n_fem_sg_regular",
+      "inflection": "n_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquella",
+            "esa",
+            "esta",
+            "la",
+            "una"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "es_adj_adj_masc_pl_regular",
+      "inflection": "adj_masc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquellos",
+            "esos",
+            "estos",
+            "los",
+            "unos"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "es_adj_adj_fem_pl_regular",
+      "inflection": "adj_fem_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquellas",
+            "esas",
+            "estas",
+            "las",
+            "unas"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "es_adj_adj_masc_sg_regular",
+      "inflection": "adj_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquel",
+            "el",
+            "ese",
+            "este",
+            "un"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "es_adj_adj_fem_sg_regular",
+      "inflection": "adj_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquella",
+            "esa",
+            "esta",
+            "la",
+            "una"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "es_pronoun_accusative_regular",
+      "inflection": "accusative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "es_pronoun_dative_regular",
+      "inflection": "dative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "con",
+            "para",
+            "por"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "es_pronoun_prepositional_regular",
+      "inflection": "prepositional",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "en"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "es_pronoun_masculine_singular_regular",
+      "inflection": "masculine_singular",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "él"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "es_determiner_feminine_plural_regular",
+      "inflection": "feminine_plural",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquellas",
+            "esas",
+            "las"
+          ]
+        }
+      ],
+      "type": "determiner"
+    },
+    {
+      "id": "es_determiner_feminine_singular_regular",
+      "inflection": "feminine_singular",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aquella",
+            "esa",
+            "la"
+          ]
+        }
+      ],
+      "type": "determiner"
     }
   ],
-  "inflection_locations": {},
   "tests": [
     [
       "yo",
-      "estar",
-      "estoy",
+      "son",
+      "yo soy",
       {
-        "rule_id": "yo_estoy"
+        "rule_id": "es_verb_ind_prs_1_sg_override_ser"
+      }
+    ],
+    [
+      "yo",
+      "era",
+      "yo soy",
+      {
+        "rule_id": "es_verb_ind_prs_1_sg_override_ser"
+      }
+    ],
+    [
+      "ella",
+      "son",
+      "ella es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "usted",
+      "son",
+      "usted es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "él",
+      "son",
+      "él es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "ella",
+      "era",
+      "ella es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "usted",
+      "era",
+      "usted es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "él",
+      "era",
+      "él es",
+      {
+        "rule_id": "es_verb_ind_prs_3_sg_override_ser"
+      }
+    ],
+    [
+      "nosotras",
+      "son",
+      "nosotras somos",
+      {
+        "rule_id": "es_verb_ind_prs_1_pl_override_ser"
+      }
+    ],
+    [
+      "nosotros",
+      "son",
+      "nosotros somos",
+      {
+        "rule_id": "es_verb_ind_prs_1_pl_override_ser"
+      }
+    ],
+    [
+      "nosotras",
+      "era",
+      "nosotras somos",
+      {
+        "rule_id": "es_verb_ind_prs_1_pl_override_ser"
+      }
+    ],
+    [
+      "nosotros",
+      "era",
+      "nosotros somos",
+      {
+        "rule_id": "es_verb_ind_prs_1_pl_override_ser"
+      }
+    ],
+    [
+      "tú",
+      "son",
+      "tú eres",
+      {
+        "rule_id": "es_verb_ind_prs_2_sg_form_override_ser"
+      }
+    ],
+    [
+      "tú",
+      "era",
+      "tú eres",
+      {
+        "rule_id": "es_verb_ind_prs_2_sg_form_override_ser"
+      }
+    ],
+    [
+      "los",
+      "bueno",
+      "los buenos",
+      {
+        "rule_id": "es_override_bueno_buenos"
+      }
+    ],
+    [
+      "las",
+      "bueno",
+      "las buenas",
+      {
+        "rule_id": "es_override_bueno_buenas"
+      }
+    ],
+    [
+      "aquellos",
+      "abogado",
+      "aquellos abogados",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "abogado",
+      "esos abogados",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "abuela",
+      "aquellos abuelos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "abuela",
+      "esos abuelos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "abuelo",
+      "aquellos abuelos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "abuelo",
+      "esos abuelos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "accidente",
+      "aquellos accidentes",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "accidente",
+      "esos accidentes",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "acuerdo",
+      "aquellos acuerdos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "acuerdo",
+      "esos acuerdos",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "adiós",
+      "aquellos adioses",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "adiós",
+      "esos adioses",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "aire",
+      "aquellos aires",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "aire",
+      "esos aires",
+      {
+        "inflection": "n_masc_pl",
+        "rule_id": "es_noun_n_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "abogado",
+      "aquellas abogadas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "abogado",
+      "esas abogadas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "abuela",
+      "aquellas abuelas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "abuela",
+      "esas abuelas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "abuelo",
+      "aquellas abuelas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "abuelo",
+      "esas abuelas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "agua",
+      "aquellas aguas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "agua",
+      "esas aguas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "alma",
+      "aquellas almas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "alma",
+      "esas almas",
+      {
+        "inflection": "n_fem_pl",
+        "rule_id": "es_noun_n_fem_pl_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abogada",
+      "aquel abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abogada",
+      "el abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abogade",
+      "aquel abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abogade",
+      "el abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abogado",
+      "aquel abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abogado",
+      "el abogado",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abuela",
+      "aquel abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abuela",
+      "el abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abuele",
+      "aquel abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abuele",
+      "el abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "abuelo",
+      "aquel abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "abuelo",
+      "el abuelo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "accidente",
+      "aquel accidente",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "accidente",
+      "el accidente",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "acuerdo",
+      "aquel acuerdo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "acuerdo",
+      "el acuerdo",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "adiós",
+      "aquel adiós",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "adiós",
+      "el adiós",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquel",
+      "aire",
+      "aquel aire",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "el",
+      "aire",
+      "el aire",
+      {
+        "inflection": "n_masc_sg",
+        "rule_id": "es_noun_n_masc_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "abogado",
+      "aquella abogada",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "abogado",
+      "esa abogada",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "abuela",
+      "aquella abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "abuela",
+      "esa abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "abuele",
+      "aquella abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "abuele",
+      "esa abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "abuelo",
+      "aquella abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "abuelo",
+      "esa abuela",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "agua",
+      "aquella agua",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "agua",
+      "esa agua",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquella",
+      "alma",
+      "aquella alma",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "alma",
+      "esa alma",
+      {
+        "inflection": "n_fem_sg",
+        "rule_id": "es_noun_n_fem_sg_regular"
+      }
+    ],
+    [
+      "aquellos",
+      "alguno",
+      "aquellos algunos",
+      {
+        "inflection": "adj_masc_pl",
+        "rule_id": "es_adj_adj_masc_pl_regular"
+      }
+    ],
+    [
+      "esos",
+      "alguno",
+      "esos algunos",
+      {
+        "inflection": "adj_masc_pl",
+        "rule_id": "es_adj_adj_masc_pl_regular"
+      }
+    ],
+    [
+      "aquellas",
+      "alguno",
+      "aquellas algunas",
+      {
+        "inflection": "adj_fem_pl",
+        "rule_id": "es_adj_adj_fem_pl_regular"
+      }
+    ],
+    [
+      "esas",
+      "alguno",
+      "esas algunas",
+      {
+        "inflection": "adj_fem_pl",
+        "rule_id": "es_adj_adj_fem_pl_regular"
+      }
+    ],
+    [
+      "aquella",
+      "alguno",
+      "aquella alguna",
+      {
+        "inflection": "adj_fem_sg",
+        "rule_id": "es_adj_adj_fem_sg_regular"
+      }
+    ],
+    [
+      "esa",
+      "alguno",
+      "esa alguna",
+      {
+        "inflection": "adj_fem_sg",
+        "rule_id": "es_adj_adj_fem_sg_regular"
       }
     ]
   ]

@@ -1,9 +1,902 @@
 {
-  "_type": "rules",
   "_locale": "hu",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "hu_adj_acc_sg_definite",
+      "inflection": "adj_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "hu_adj_acc_pl_definite",
+      "inflection": "adj_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "az"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "hu_noun_acc_sg_article",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "a"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "hu_noun_acc_pl_article",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "az"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "hu_noun_dat_sg_verb_need",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kell"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "hu_adj_acc_sg_negative",
+      "inflection": "adj_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nem"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "hu_noun_acc_sg_negative",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nem"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "hu_adj_acc_sg_definite_pronoun",
+      "inflection": "adj_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "őt"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "hu_noun_acc_sg_definite_pronoun",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "őt"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "a",
+      "adott",
+      "a adottat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "amerikai",
+      "a amerikait",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "beteg",
+      "a beteget",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "bizonyos",
+      "a bizonyosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "biztonsági",
+      "a biztonságit",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "biztos",
+      "a biztosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "a",
+      "boldog",
+      "a boldogat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite"
+      }
+    ],
+    [
+      "az",
+      "adott",
+      "az adottakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "amerikai",
+      "az amerikaiakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "beteg",
+      "az betegeket",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "bizonyos",
+      "az bizonyosakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "biztonsági",
+      "az biztonságiakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "biztos",
+      "az biztosakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "az",
+      "boldog",
+      "az boldogakat",
+      {
+        "inflection": "adj_acc_pl",
+        "rule_id": "hu_adj_acc_pl_definite"
+      }
+    ],
+    [
+      "a",
+      "ajtó",
+      "a ajtót",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "alá",
+      "a alát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "amin",
+      "a amint",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "anyja",
+      "a anyját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "anyu",
+      "a anyut",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "apa",
+      "a apát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "apu",
+      "a aput",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "baj",
+      "a bajt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "baja",
+      "a baját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "bele",
+      "a belét",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "bocs",
+      "a bocsot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "bocsánat",
+      "a bocsánatot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "a",
+      "bár",
+      "a bárt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_article"
+      }
+    ],
+    [
+      "az",
+      "alá",
+      "az alákat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "anyu",
+      "az anyukat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "apa",
+      "az apákat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "apu",
+      "az apukat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "baj",
+      "az bajokat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "bocs",
+      "az bocsokat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "bocsánat",
+      "az bocsánatokat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "az",
+      "bár",
+      "az bárokat",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "hu_noun_acc_pl_article"
+      }
+    ],
+    [
+      "kell",
+      "alá",
+      "kell alának",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "anyja",
+      "kell anyjának",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "anyu",
+      "kell anyunak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "apa",
+      "kell apának",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "apu",
+      "kell apunak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "baj",
+      "kell bajnak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "baja",
+      "kell bajának",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "bele",
+      "kell belének",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "bocs",
+      "kell bocsnak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "bocsánat",
+      "kell bocsánatnak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "kell",
+      "bár",
+      "kell bárnak",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "hu_noun_dat_sg_verb_need"
+      }
+    ],
+    [
+      "nem",
+      "adott",
+      "nem adottat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "amerikai",
+      "nem amerikait",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "beteg",
+      "nem beteget",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "bizonyos",
+      "nem bizonyosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "biztonsági",
+      "nem biztonságit",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "biztos",
+      "nem biztosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "boldog",
+      "nem boldogat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "ajtó",
+      "nem ajtót",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "alá",
+      "nem alát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "amin",
+      "nem amint",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "anyja",
+      "nem anyját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "anyu",
+      "nem anyut",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "apa",
+      "nem apát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "apu",
+      "nem aput",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "baj",
+      "nem bajt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "baja",
+      "nem baját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "bele",
+      "nem belét",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "bocs",
+      "nem bocsot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "bocsánat",
+      "nem bocsánatot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "nem",
+      "bár",
+      "nem bárt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_negative"
+      }
+    ],
+    [
+      "őt",
+      "adott",
+      "őt adottat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "amerikai",
+      "őt amerikait",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "beteg",
+      "őt beteget",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "bizonyos",
+      "őt bizonyosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "biztonsági",
+      "őt biztonságit",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "biztos",
+      "őt biztosat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "boldog",
+      "őt boldogat",
+      {
+        "inflection": "adj_acc_sg",
+        "rule_id": "hu_adj_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "ajtó",
+      "őt ajtót",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "alá",
+      "őt alát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "amin",
+      "őt amint",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "anyja",
+      "őt anyját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "anyu",
+      "őt anyut",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "apa",
+      "őt apát",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "apu",
+      "őt aput",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "baj",
+      "őt bajt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "baja",
+      "őt baját",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "bele",
+      "őt belét",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "bocs",
+      "őt bocsot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "bocsánat",
+      "őt bocsánatot",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ],
+    [
+      "őt",
+      "bár",
+      "őt bárt",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "hu_noun_acc_sg_definite_pronoun"
+      }
+    ]
+  ]
 }

@@ -3,7 +3,1688 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "pronominal_acc_sg_masc",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "go"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_acc_sg_fem",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ją"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_acc_sg_neut",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_dat_sg_masc",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mu"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_dat_sg_fem",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "jej"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_dat_pl_masc_hum",
+      "inflection": "v_prs_3_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "im"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_gen_sg_masc",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "jego"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_ins_sg_masc",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nim"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_ins_sg_fem",
+      "inflection": "v_prs_3_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nią"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pronominal_ins_pl_masc_hum",
+      "inflection": "v_prs_3_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nimi"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "verb_be_prs_1_sg",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jestem"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_be_prs_2_sg",
+      "inflection": "v_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jesteś"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_be_prs_3_sg_fem",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "jest"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_have_prs_1_sg",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mam"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_have_prs_2_sg",
+      "inflection": "v_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "masz"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_have_prs_3_sg",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ma"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_animate_acc_pl",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tych"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_inanimate_acc_pl",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "te"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_gen_sg_masc",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-a"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_gen_sg_fem",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-i"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_dat_sg_masc",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-owi"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "noun_dat_sg_fem",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-y"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adjective_masc_acc_sg_anim",
+      "inflection": "adj_masc_anim_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobry"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adjective_masc_gen_sg",
+      "inflection": "adj_masc_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobrego"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adjective_fem_acc_sg",
+      "inflection": "adj_fem_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobrą"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adjective_neut_acc_sg",
+      "inflection": "adj_neut_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobre"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "verb_past_masc_sg",
+      "inflection": "v_pst_1_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-łem"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_past_fem_sg",
+      "inflection": "v_pst_1_sg_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-łam"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_future_1_sg",
+      "inflection": "v_fut_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "będę"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_future_2_sg",
+      "inflection": "v_fut_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "będziesz"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_future_3_sg",
+      "inflection": "v_fut_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "będzie"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_conditional_1_sg",
+      "inflection": "v_cond_1_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "bym"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_conditional_2_sg",
+      "inflection": "v_cond_2_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "byś"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_conditional_3_sg",
+      "inflection": "v_cond_3_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "by"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_imperative_2_sg",
+      "inflection": "v_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-j"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "verb_imperative_2_pl",
+      "inflection": "v_imp_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-jcie"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_plural_gen",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ów"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adjective_plural_nom",
+      "inflection": "adj_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-e"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "preposition_with_dat",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "z"
+          ]
+        }
+      ],
+      "type": "preposition"
+    },
+    {
+      "id": "preposition_with_acc",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "na",
+            "o",
+            "po",
+            "przez",
+            "w"
+          ]
+        }
+      ],
+      "type": "preposition"
+    },
+    {
+      "id": "conjunction_negation_trigger",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nie"
+          ]
+        }
+      ],
+      "type": "conjunction"
+    },
+    {
+      "id": "verb_perfective_past",
+      "inflection": "v_pst_1_sg_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ł"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "noun_reflexive_acc",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "się"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "jestem",
+      "chcieć",
+      "jestem chcę",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_be_prs_1_sg"
+      }
+    ],
+    [
+      "jestem",
+      "czekać",
+      "jestem czekam",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_be_prs_1_sg"
+      }
+    ],
+    [
+      "jestem",
+      "czuć",
+      "jestem czuję",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_be_prs_1_sg"
+      }
+    ],
+    [
+      "jesteś",
+      "chcieć",
+      "jesteś chcesz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_be_prs_2_sg"
+      }
+    ],
+    [
+      "jesteś",
+      "czekać",
+      "jesteś czekasz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_be_prs_2_sg"
+      }
+    ],
+    [
+      "jesteś",
+      "czuć",
+      "jesteś czujesz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_be_prs_2_sg"
+      }
+    ],
+    [
+      "jest",
+      "bronić",
+      "jest broni",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_be_prs_3_sg_fem"
+      }
+    ],
+    [
+      "jest",
+      "chcieć",
+      "jest chce",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_be_prs_3_sg_fem"
+      }
+    ],
+    [
+      "jest",
+      "czekać",
+      "jest czeka",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_be_prs_3_sg_fem"
+      }
+    ],
+    [
+      "jest",
+      "czuć",
+      "jest czuje",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_be_prs_3_sg_fem"
+      }
+    ],
+    [
+      "mam",
+      "chcieć",
+      "mam chcę",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_have_prs_1_sg"
+      }
+    ],
+    [
+      "mam",
+      "czekać",
+      "mam czekam",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_have_prs_1_sg"
+      }
+    ],
+    [
+      "mam",
+      "czuć",
+      "mam czuję",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "verb_have_prs_1_sg"
+      }
+    ],
+    [
+      "masz",
+      "chcieć",
+      "masz chcesz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_have_prs_2_sg"
+      }
+    ],
+    [
+      "masz",
+      "czekać",
+      "masz czekasz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_have_prs_2_sg"
+      }
+    ],
+    [
+      "masz",
+      "czuć",
+      "masz czujesz",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "verb_have_prs_2_sg"
+      }
+    ],
+    [
+      "ma",
+      "bronić",
+      "ma broni",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_have_prs_3_sg"
+      }
+    ],
+    [
+      "ma",
+      "chcieć",
+      "ma chce",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_have_prs_3_sg"
+      }
+    ],
+    [
+      "ma",
+      "czekać",
+      "ma czeka",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_have_prs_3_sg"
+      }
+    ],
+    [
+      "ma",
+      "czuć",
+      "ma czuje",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "verb_have_prs_3_sg"
+      }
+    ],
+    [
+      "tych",
+      "brat",
+      "tych braci",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "broń",
+      "tych bronie",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "była",
+      "tych byłe",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "błąd",
+      "tych błędy",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "chwila",
+      "tych chwile",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "chłopak",
+      "tych chłopaków",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "ciało",
+      "tych ciała",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "część",
+      "tych części",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "człowiek",
+      "tych ludzi",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "tych",
+      "córka",
+      "tych córki",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_animate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "brat",
+      "te braci",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "broń",
+      "te bronie",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "była",
+      "te byłe",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "błąd",
+      "te błędy",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "chwila",
+      "te chwile",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "chłopak",
+      "te chłopaków",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "ciało",
+      "te ciała",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "część",
+      "te części",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "człowiek",
+      "te ludzi",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "te",
+      "córka",
+      "te córki",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "noun_inanimate_acc_pl"
+      }
+    ],
+    [
+      "-a",
+      "brat",
+      "-a brata",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "broń",
+      "-a broni",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "była",
+      "-a byłej",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "błąd",
+      "-a błędu",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "chwila",
+      "-a chwili",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "chłopak",
+      "-a chłopaka",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "ciało",
+      "-a ciała",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "ciąg",
+      "-a ciągu",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "część",
+      "-a części",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "człowiek",
+      "-a człowieka",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-a",
+      "córka",
+      "-a córki",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_masc"
+      }
+    ],
+    [
+      "-i",
+      "brat",
+      "-i brata",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "broń",
+      "-i broni",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "była",
+      "-i byłej",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "błąd",
+      "-i błędu",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "chwila",
+      "-i chwili",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "chłopak",
+      "-i chłopaka",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "ciało",
+      "-i ciała",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "ciąg",
+      "-i ciągu",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "część",
+      "-i części",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "człowiek",
+      "-i człowieka",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-i",
+      "córka",
+      "-i córki",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "noun_gen_sg_fem"
+      }
+    ],
+    [
+      "-owi",
+      "brat",
+      "-owi bratu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "broń",
+      "-owi broni",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "była",
+      "-owi byłej",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "błąd",
+      "-owi błędowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "chwila",
+      "-owi chwili",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "chłopak",
+      "-owi chłopakowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "ciało",
+      "-owi ciału",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "część",
+      "-owi części",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "człowiek",
+      "-owi człowiekowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-owi",
+      "córka",
+      "-owi córce",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_masc"
+      }
+    ],
+    [
+      "-y",
+      "brat",
+      "-y bratu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "broń",
+      "-y broni",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "była",
+      "-y byłej",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "błąd",
+      "-y błędowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "chwila",
+      "-y chwili",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "chłopak",
+      "-y chłopakowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "ciało",
+      "-y ciału",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "część",
+      "-y części",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "człowiek",
+      "-y człowiekowi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "-y",
+      "córka",
+      "-y córce",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "noun_dat_sg_fem"
+      }
+    ],
+    [
+      "dobry",
+      "cały",
+      "dobry całego",
+      {
+        "inflection": "adj_masc_anim_acc_sg",
+        "rule_id": "adjective_masc_acc_sg_anim"
+      }
+    ],
+    [
+      "dobrego",
+      "cały",
+      "dobrego całego",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "adjective_masc_gen_sg"
+      }
+    ],
+    [
+      "dobrą",
+      "cały",
+      "dobrą całą",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "adjective_fem_acc_sg"
+      }
+    ],
+    [
+      "dobre",
+      "boży",
+      "dobre boże",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "adjective_neut_acc_sg"
+      }
+    ],
+    [
+      "dobre",
+      "cały",
+      "dobre całe",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "adjective_neut_acc_sg"
+      }
+    ],
+    [
+      "-łem",
+      "chcieć",
+      "-łem chciałem",
+      {
+        "inflection": "v_pst_1_sg_masc",
+        "rule_id": "verb_past_masc_sg"
+      }
+    ],
+    [
+      "-łem",
+      "czekać",
+      "-łem czekałem",
+      {
+        "inflection": "v_pst_1_sg_masc",
+        "rule_id": "verb_past_masc_sg"
+      }
+    ],
+    [
+      "-łam",
+      "chcieć",
+      "-łam chciałam",
+      {
+        "inflection": "v_pst_1_sg_fem",
+        "rule_id": "verb_past_fem_sg"
+      }
+    ],
+    [
+      "-łam",
+      "czekać",
+      "-łam czekałam",
+      {
+        "inflection": "v_pst_1_sg_fem",
+        "rule_id": "verb_past_fem_sg"
+      }
+    ],
+    [
+      "bym",
+      "chcieć",
+      "bym chciałbym",
+      {
+        "inflection": "v_cond_1_sg_masc",
+        "rule_id": "verb_conditional_1_sg"
+      }
+    ],
+    [
+      "bym",
+      "czekać",
+      "bym czekałbym",
+      {
+        "inflection": "v_cond_1_sg_masc",
+        "rule_id": "verb_conditional_1_sg"
+      }
+    ],
+    [
+      "byś",
+      "czekać",
+      "byś czekałbyś",
+      {
+        "inflection": "v_cond_2_sg_masc",
+        "rule_id": "verb_conditional_2_sg"
+      }
+    ],
+    [
+      "by",
+      "czekać",
+      "by czekałby",
+      {
+        "inflection": "v_cond_3_sg_masc",
+        "rule_id": "verb_conditional_3_sg"
+      }
+    ],
+    [
+      "-j",
+      "bronić",
+      "-j broń",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "verb_imperative_2_sg"
+      }
+    ],
+    [
+      "-j",
+      "czekać",
+      "-j czekaj",
+      {
+        "inflection": "v_imp_2_sg",
+        "rule_id": "verb_imperative_2_sg"
+      }
+    ],
+    [
+      "-jcie",
+      "czekać",
+      "-jcie czekajcie",
+      {
+        "inflection": "v_imp_2_pl",
+        "rule_id": "verb_imperative_2_pl"
+      }
+    ],
+    [
+      "-ów",
+      "beza",
+      "-ów bez",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "brat",
+      "-ów braci",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "broń",
+      "-ów broni",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "była",
+      "-ów byłych",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "błąd",
+      "-ów błędów",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "chwila",
+      "-ów chwil",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "chłopak",
+      "-ów chłopaków",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "ciało",
+      "-ów ciał",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "część",
+      "-ów części",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "człowiek",
+      "-ów ludzi",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-ów",
+      "córka",
+      "-ów córek",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "noun_plural_gen"
+      }
+    ],
+    [
+      "-e",
+      "boży",
+      "-e boże",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adjective_plural_nom"
+      }
+    ],
+    [
+      "-e",
+      "cały",
+      "-e całe",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adjective_plural_nom"
+      }
+    ],
+    [
+      "-ł",
+      "chcieć",
+      "-ł chciałem",
+      {
+        "inflection": "v_pst_1_sg_masc",
+        "rule_id": "verb_perfective_past"
+      }
+    ],
+    [
+      "-ł",
+      "czekać",
+      "-ł czekałem",
+      {
+        "inflection": "v_pst_1_sg_masc",
+        "rule_id": "verb_perfective_past"
+      }
+    ],
+    [
+      "się",
+      "boja",
+      "się boję",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "brat",
+      "się brata",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "broń",
+      "się broń",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "była",
+      "się byłą",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "błąd",
+      "się błąd",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "chwila",
+      "się chwilę",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "chłopak",
+      "się chłopaka",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "ciało",
+      "się ciało",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "część",
+      "się część",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "człowiek",
+      "się człowieka",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ],
+    [
+      "się",
+      "córka",
+      "się córkę",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "noun_reflexive_acc"
+      }
+    ]
+  ]
 }

@@ -64,6 +64,7 @@ DATA_DIR = ROOT / "data"
 ALPHABET_DIR = DATA_DIR / "alphabets"
 FREQ_DIR = DATA_DIR / "freq" / "top1000"
 LAYOUT_DIR = DATA_DIR / "layouts"
+INFLECTION_DIR = DATA_DIR / "inflections"
 OUT_DIR = ROOT / "c" / "generated"
 
 # Import keyboard mappings from the runtime to avoid duplication.
@@ -78,11 +79,10 @@ from worldalphabets.keyboards.loader import (  # noqa: E402
 
 @dataclass
 class GeneratorConfig:
-    """Configuration for C data generation."""
-
-    max_tokens: Optional[int] = None  # None = unlimited
-    include_langs: Optional[Set[str]] = None  # None = all languages
+    max_tokens: Optional[int] = None
+    include_langs: Optional[Set[str]] = None
     packed_strings: bool = False
+    include_inflection_locales: Optional[Set[str]] = None
 
 
 def escape(value: str | None) -> str:
@@ -313,6 +313,8 @@ def build_keyboard_layouts(cfg: GeneratorConfig) -> List[dict]:
 def write_data_files(cfg: GeneratorConfig) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     header_path = OUT_DIR / "worldalphabets_data.h"
+    for old in OUT_DIR.glob("wa_data_inflections_*.c"):
+        old.unlink()
 
     index_data = load_json_list(DATA_DIR / "index.json")
     scripts_by_lang = build_scripts(index_data, cfg)
@@ -339,6 +341,19 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         "extern const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[];",
         "extern const char *WA_LAYOUT_IDS[];",
     ]
+
+    inflection_locale_list = sorted(cfg.include_inflection_locales or set())
+    inflection_count = len([
+        loc for loc in inflection_locale_list
+        if (INFLECTION_DIR / loc / "words.json").exists()
+    ])
+    header_lines.append(
+        f"#define WA_INFLECTION_TABLES_COUNT {inflection_count}u"
+    )
+    header_lines.append("extern const char *WA_INFLECTION_LOCALE_CODES[];")
+    header_lines.append(
+        "extern const wa_inflection_table WA_INFLECTION_TABLES[];"
+    )
     header_path.write_text("\n".join(header_lines) + "\n", encoding="utf-8")
 
     # Split data across multiple source files to avoid MSVC internal compiler errors
@@ -545,6 +560,141 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         "\n".join(src5_table) + "\n", encoding="utf-8"
     )
 
+    # File 6: Inflection tables (only if locales specified)
+    inflection_locale_list = sorted(cfg.include_inflection_locales or set())
+    if inflection_locale_list:
+        INFLECTION_CHUNK_SIZE = 5
+        for chunk_idx in range(0, len(inflection_locale_list), INFLECTION_CHUNK_SIZE):
+            chunk_end = min(
+                chunk_idx + INFLECTION_CHUNK_SIZE, len(inflection_locale_list)
+            )
+            src6: List[str] = ['#include "worldalphabets_data.h"', ""]
+            for loc_idx in range(chunk_idx, chunk_end):
+                locale = inflection_locale_list[loc_idx]
+                words_path = INFLECTION_DIR / locale / "words.json"
+                if not words_path.exists():
+                    continue
+                words_data = json.loads(words_path.read_text(encoding="utf-8"))
+                entries: List[Tuple[str, dict]] = []
+                for word, entry in words_data.items():
+                    if word.startswith("_") or not isinstance(entry, dict):
+                        continue
+                    entries.append((word, entry))
+
+                for e_idx, (word, entry) in enumerate(entries):
+                    forms = entry.get("inflections", {})
+                    if not isinstance(forms, dict):
+                        continue
+                    form_items = [
+                        (k, v)
+                        for k, v in forms.items()
+                        if k != "regulars" and isinstance(v, str)
+                    ]
+                    types = entry.get("types", [])
+                    if not isinstance(types, list):
+                        types = []
+
+                    type_name = f"INFL_{loc_idx}_T_{e_idx}"
+                    form_name = f"INFL_{loc_idx}_F_{e_idx}"
+                    entry_name = f"INFL_{loc_idx}_E_{e_idx}"
+
+                    src6.append(format_string_array(type_name, types, exported=False))
+                    src6.append("")
+
+                    src6.append(
+                        f"const wa_inflection_form {form_name}[] = {{"
+                    )
+                    for fk, fv in form_items:
+                        src6.append(f'  {{ "{escape(fk)}", "{escape(fv)}" }},')
+                    src6.append("};")
+                    src6.append("")
+
+                    base_val = entry.get("base", word) or word
+                    src6.append(
+                        f"const wa_inflection_entry {entry_name} = {{"
+                    )
+                    src6.append(f'  "{escape(word)}",')
+                    src6.append(f'  "{escape(base_val)}",')
+                    src6.append(f"  {type_name}, {len(types)}u,")
+                    src6.append(f"  {form_name}, {len(form_items)}u,")
+                    src6.append("};")
+                    src6.append("")
+
+                entries_name = f"INFL_{loc_idx}_ENTRIES"
+                src6.append(f"const wa_inflection_entry *{entries_name}[] = {{")
+                for e_idx, (word, entry) in enumerate(entries):
+                    src6.append(f"  &INFL_{loc_idx}_E_{e_idx},")
+                src6.append("};")
+                src6.append("")
+
+            chunk_num = chunk_idx // INFLECTION_CHUNK_SIZE
+            (OUT_DIR / f"wa_data_inflections_{chunk_num}.c").write_text(
+                "\n".join(src6) + "\n", encoding="utf-8"
+            )
+
+        src6_table: List[str] = ['#include "worldalphabets_data.h"', ""]
+        for loc_idx, locale in enumerate(inflection_locale_list):
+            words_path = INFLECTION_DIR / locale / "words.json"
+            if not words_path.exists():
+                continue
+            words_data = json.loads(words_path.read_text(encoding="utf-8"))
+            entry_count = sum(
+                1
+                for k, v in words_data.items()
+                if not k.startswith("_") and isinstance(v, dict)
+            )
+            src6_table.append(
+                f"extern const wa_inflection_entry *INFL_{loc_idx}_ENTRIES[];"
+            )
+
+        src6_table.append("")
+        locale_codes = [
+            loc for loc in inflection_locale_list
+            if (INFLECTION_DIR / loc / "words.json").exists()
+        ]
+        src6_table.append(
+            format_string_array(
+                "WA_INFLECTION_LOCALE_CODES", locale_codes, exported=True
+            )
+        )
+        src6_table.append("")
+        src6_table.append("const wa_inflection_table WA_INFLECTION_TABLES[] = {")
+        for loc_idx, locale in enumerate(inflection_locale_list):
+            words_path = INFLECTION_DIR / locale / "words.json"
+            if not words_path.exists():
+                continue
+            words_data = json.loads(words_path.read_text(encoding="utf-8"))
+            entry_count = sum(
+                1
+                for k, v in words_data.items()
+                if not k.startswith("_") and isinstance(v, dict)
+            )
+            src6_table.append("  {")
+            src6_table.append(f'    "{escape(locale)}",')
+            src6_table.append(f"    INFL_{loc_idx}_ENTRIES, {entry_count}u,")
+            src6_table.append("  },")
+        src6_table.append("};")
+        src6_table.append("")
+        (OUT_DIR / "wa_data_inflections_table.c").write_text(
+            "\n".join(src6_table) + "\n", encoding="utf-8"
+        )
+
+        inflection_count = len(locale_codes)
+    else:
+        inflection_count = 0
+
+    if not inflection_locale_list:
+        stub_lines = [
+            '#include "worldalphabets_data.h"',
+            "",
+            "const char *WA_INFLECTION_LOCALE_CODES[] = {};",
+            "const wa_inflection_table WA_INFLECTION_TABLES[] = {};",
+            "",
+        ]
+        (OUT_DIR / "wa_data_inflections_stub.c").write_text(
+            "\n".join(stub_lines) + "\n", encoding="utf-8"
+        )
+
     # Count generated files
     alpha_file_count = len(alphabets)  # Each alphabet in its own file
     kbd_file_count = (len(layouts) + KEYBOARD_CHUNK_SIZE - 1) // KEYBOARD_CHUNK_SIZE
@@ -573,6 +723,8 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         print(f"  Max tokens per language: {cfg.max_tokens}")
     if cfg.include_langs:
         print(f"  Filtered to languages: {', '.join(sorted(cfg.include_langs))}")
+    if inflection_count > 0:
+        print(f"  Inflection tables: {inflection_count}")
     if cfg.packed_strings:
         print("  Using packed string storage")
 
@@ -602,6 +754,13 @@ def parse_args() -> GeneratorConfig:
         action="store_true",
         help="Use packed string storage for smaller binaries",
     )
+    parser.add_argument(
+        "--include-inflection-locales",
+        type=str,
+        default=None,
+        metavar="LOCALES",
+        help="Comma-separated inflection locales to include (default: none)",
+    )
     args = parser.parse_args()
 
     include_langs: Optional[Set[str]] = None
@@ -612,6 +771,11 @@ def parse_args() -> GeneratorConfig:
         max_tokens=args.max_tokens,
         include_langs=include_langs,
         packed_strings=args.packed_strings,
+        include_inflection_locales=(
+            set(loc.strip() for loc in args.include_inflection_locales.split(","))
+            if args.include_inflection_locales
+            else None
+        ),
     )
 
 

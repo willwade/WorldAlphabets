@@ -220,27 +220,99 @@ with diacritic marks from a list.
 
 ### Inflection Data
 
-WorldAlphabets includes infrastructure for neutral word-form and inflection-rule
-datasets. Generated data is published under `data/inflections/` and can be
-loaded from Python and Node.js once locale packs are available.
+WorldAlphabets includes word-form and inflection-rule datasets for 100+ locales.
+Data covers verb conjugations, noun plurals, adjective agreements, and more.
+Inflection data is loaded on demand and cached automatically.
 
-Python:
+#### Python
 
 ```python
-from worldalphabets import get_available_inflection_locales
+from worldalphabets import (
+    get_available_inflection_locales,
+    load_inflection_words,
+    load_inflection_rules,
+    get_word_forms,
+    inflect_word,
+    get_inflection_summary,
+    lookup_word,
+    apply_rules,
+)
 
 locales = get_available_inflection_locales()
+print(f"{len(locales)} inflection locales available")
+
+summary = get_inflection_summary("en")
+print(f"English: {summary.word_count} words, {summary.rule_count} rules")
+print(f"POS types: {summary.pos_types}")
+print(f"Inflection keys: {summary.inflection_keys[:5]}...")
+
+entry = get_word_forms("en", "run")
+if entry:
+    print(f"run -> past: {entry['inflections'].get('past')}")
+
+past = inflect_word("en", "run", "past")
+print(f"inflect_word(en, run, past) = {past}")
+
+result = lookup_word("en", "run", "she")
+print(f"lookup_word(en, run, she) = {result.replacement}")
+
+text = apply_rules("en", "she run")
+print(f"apply_rules: {text}")
 ```
 
-Node.js:
+#### Node.js
 
 ```javascript
-const { getAvailableInflectionLocales } = require('worldalphabets');
+const {
+  getAvailableInflectionLocales,
+  getInflectionSummary,
+  getWordForms,
+  inflectWord,
+  lookupWord,
+  applyRules,
+  clearInflectionCache,
+} = require('worldalphabets');
 
-const locales = await getAvailableInflectionLocales();
+async function demo() {
+  const locales = await getAvailableInflectionLocales();
+  console.log(`${locales.length} locales`);
+
+  const summary = await getInflectionSummary('en');
+  console.log(`English: ${summary.wordCount} words, ${summary.ruleCount} rules`);
+
+  const forms = await getWordForms('en', 'run');
+  console.log('run past:', forms?.inflections?.past);
+
+  const past = await inflectWord('en', 'run', 'past');
+  console.log('inflectWord result:', past);
+
+  const result = await lookupWord('en', 'run', 'she');
+  console.log('lookup result:', result.replacement);
+
+  const text = await applyRules('en', 'she run');
+  console.log('applyRules:', text);
+}
 ```
 
-Generation infrastructure is documented in `docs/INFLECTIONS_PLAN.md`.
+#### C
+
+Inflection data is opt-in for the C library to control binary size. Use
+`--include-inflection-locales` when generating:
+
+```bash
+python scripts/generate_c_library_data.py --include-inflection-locales en,es
+```
+
+```c
+#include "worldalphabets.h"
+
+wa_string_array locales = wa_get_available_inflection_locales();
+const wa_inflection_table *table = wa_load_inflection_table("en");
+const wa_inflection_entry *entry = wa_find_inflection_entry(table, "run");
+const char *past = wa_get_inflected_form(entry, "past");
+```
+
+Generation pipeline details: `docs/INFLECTIONS_PLAN.md` and `docs/INFLECTION_PIPELINE.md`.
 
 Use `get_diacritic_variants`/`getDiacriticVariants` to list base letters and
 their diacritic forms for a given language.

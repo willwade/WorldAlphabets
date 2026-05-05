@@ -75,7 +75,1664 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "he_verb_v_nfin_override",
+      "lookback": [
+        {
+          "words": [
+            "אם",
+            "בה",
+            "לו",
+            "שים"
+          ]
+        }
+      ],
+      "overrides": {
+        "הוא": "לשים",
+        "הם": "לשים"
+      },
+      "type": "override"
+    },
+    {
+      "id": "he_adverb_negation_override",
+      "lookback": [
+        {
+          "words": [
+            "לא"
+          ]
+        }
+      ],
+      "overrides": {
+        "הוא": "אינו",
+        "הם": "אינם"
+      },
+      "type": "override"
+    },
+    {
+      "id": "he_preposition_with_objective",
+      "lookback": [
+        {
+          "words": [
+            "עם"
+          ]
+        }
+      ],
+      "overrides": {
+        "אני": "איתי",
+        "אתה": "איתך",
+        "הוא": "איתו",
+        "הם": "איתם"
+      },
+      "type": "override"
+    },
+    {
+      "id": "he_verb_conjunction_override",
+      "lookback": [
+        {
+          "words": [
+            "ו"
+          ]
+        }
+      ],
+      "overrides": {
+        "אמר": "ויאמר",
+        "דיבר": "ודיבר",
+        "עשה": "ועשה"
+      },
+      "type": "override"
+    },
+    {
+      "id": "he_verb_v_sg_prs_masc",
+      "inflection": "v_sg_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "הוא"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_sg_prs_fem",
+      "inflection": "v_sg_prs_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "היא"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_1_sg_pst",
+      "inflection": "v_1_sg_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אני"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_2_sg_imp_masc",
+      "inflection": "v_2_sg_imp_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אתה"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_2_sg_imp_fem",
+      "inflection": "v_2_sg_imp_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "את"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_1_pl_fut",
+      "inflection": "v_1_pl_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אנחנו"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_3_sg_fut_masc",
+      "inflection": "v_3_sg_fut_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "זה"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_3_sg_fut_fem",
+      "inflection": "v_3_sg_fut_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "זאת"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_2_pl_fut_masc",
+      "inflection": "v_2_pl_fut_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אתם"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_2_pl_fut_fem",
+      "inflection": "v_2_pl_fut_fem",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אתן"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_verb_v_pl_prs_masc",
+      "inflection": "v_pl_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "אלה",
+            "הם",
+            "הן"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_noun_n_sg_def_fem",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ה"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_sg_def_masc",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ש"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_sg_pssd_pss1s",
+      "inflection": "n_sg_pssd_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלי"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_sg_pssd_pss2s_masc",
+      "inflection": "n_sg_pssd_pss2s_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלך"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_sg_pssd_pss3s_masc",
+      "inflection": "n_sg_pssd_pss3s_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלו"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_sg_pssd_pss3s_fem",
+      "inflection": "n_sg_pssd_pss3s_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלה"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_pronoun_possessive_masc",
+      "inflection": "n_sg_pssd_pss3s_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלו"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_pronoun_possessive_fem",
+      "inflection": "n_sg_pssd_pss3s_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלה"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_noun_n_pl_pssd_pss1p",
+      "inflection": "n_pl_pssd_pss1p",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלנו"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_pl_pssd_pss2p_masc",
+      "inflection": "n_pl_pssd_pss2p_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלכם"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_pl_pssd_pss2p_fem",
+      "inflection": "n_pl_pssd_pss2p_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלכן"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_pronoun_objective_masc",
+      "inflection": "n_sg_pssd_pss3s_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "לו"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_pronoun_objective_fem",
+      "inflection": "n_sg_pssd_pss3s_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "לה"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_verb_v_msdr",
+      "inflection": "v_msdr",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "בשביל",
+            "כדי",
+            "לא"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "he_pronoun_subject_neutral",
+      "inflection": "n_pl_ndef",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "מה"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_noun_n_pl_pssd_pss3p_masc",
+      "inflection": "n_pl_pssd_pss3p_masc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלהם"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_noun_n_pl_pssd_pss3p_fem",
+      "inflection": "n_pl_pssd_pss3p_fem",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "שלהן"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "he_adjective_indefinite_fem",
+      "inflection": "n_sg_ndef",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "אחת"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "he_pronoun_demonstrative_masc",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "זה"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "he_pronoun_demonstrative_fem",
+      "inflection": "n_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "זאת"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "אם",
+      "הוא",
+      "אם לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "בה",
+      "הוא",
+      "בה לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "לו",
+      "הוא",
+      "לו לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "אם",
+      "הם",
+      "אם לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "בה",
+      "הם",
+      "בה לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "לו",
+      "הם",
+      "לו לשים",
+      {
+        "rule_id": "he_verb_v_nfin_override"
+      }
+    ],
+    [
+      "לא",
+      "הוא",
+      "לא אינו",
+      {
+        "rule_id": "he_adverb_negation_override"
+      }
+    ],
+    [
+      "לא",
+      "הם",
+      "לא אינם",
+      {
+        "rule_id": "he_adverb_negation_override"
+      }
+    ],
+    [
+      "עם",
+      "אני",
+      "עם איתי",
+      {
+        "rule_id": "he_preposition_with_objective"
+      }
+    ],
+    [
+      "עם",
+      "אתה",
+      "עם איתך",
+      {
+        "rule_id": "he_preposition_with_objective"
+      }
+    ],
+    [
+      "עם",
+      "הוא",
+      "עם איתו",
+      {
+        "rule_id": "he_preposition_with_objective"
+      }
+    ],
+    [
+      "עם",
+      "הם",
+      "עם איתם",
+      {
+        "rule_id": "he_preposition_with_objective"
+      }
+    ],
+    [
+      "ו",
+      "אמר",
+      "ו ויאמר",
+      {
+        "rule_id": "he_verb_conjunction_override"
+      }
+    ],
+    [
+      "ו",
+      "דיבר",
+      "ו ודיבר",
+      {
+        "rule_id": "he_verb_conjunction_override"
+      }
+    ],
+    [
+      "ו",
+      "עשה",
+      "ו ועשה",
+      {
+        "rule_id": "he_verb_conjunction_override"
+      }
+    ],
+    [
+      "הוא",
+      "אבל",
+      "הוא אבל",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "אהב",
+      "הוא אוהב",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "אוכל",
+      "הוא מאוכל",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "אישר",
+      "הוא מאשר",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "אכל",
+      "הוא אוכל",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "אמר",
+      "הוא אומר",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "בא",
+      "הוא בא",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "בוקר",
+      "הוא מבוקר",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "בטח",
+      "הוא בוטח",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "הוא",
+      "בן",
+      "הוא בן",
+      {
+        "inflection": "v_sg_prs_masc",
+        "rule_id": "he_verb_v_sg_prs_masc"
+      }
+    ],
+    [
+      "היא",
+      "אבל",
+      "היא אבלה",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "אהב",
+      "היא אוהבת",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "אוכל",
+      "היא מאוכלת",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "אמר",
+      "היא אומרת",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "בא",
+      "היא באה",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "בוקר",
+      "היא מבוקרת",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "בז",
+      "היא בזה",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "בטח",
+      "היא בוטחת",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "היא",
+      "בן",
+      "היא בנה",
+      {
+        "inflection": "v_sg_prs_fem",
+        "rule_id": "he_verb_v_sg_prs_fem"
+      }
+    ],
+    [
+      "אני",
+      "אבל",
+      "אני אבלתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "אהב",
+      "אני אהבתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "אוכל",
+      "אני אוכלתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "אמר",
+      "אני אמרתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "בא",
+      "אני באתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "בוקר",
+      "אני בוקרתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "בטח",
+      "אני בטחתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אני",
+      "בן",
+      "אני בנתי",
+      {
+        "inflection": "v_1_sg_pst",
+        "rule_id": "he_verb_v_1_sg_pst"
+      }
+    ],
+    [
+      "אתה",
+      "אבל",
+      "אתה אבל",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "איחד",
+      "אתה אחד",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "איחר",
+      "אתה אחר",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "אילף",
+      "אתה אלף",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "אישר",
+      "אתה אשר",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "אמר",
+      "אתה אמור",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "אסר",
+      "אתה אסור",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "בא",
+      "אתה בוא",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "בטח",
+      "אתה בטח",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "אתה",
+      "בן",
+      "אתה בין",
+      {
+        "inflection": "v_2_sg_imp_masc",
+        "rule_id": "he_verb_v_2_sg_imp_masc"
+      }
+    ],
+    [
+      "את",
+      "אבה",
+      "את אבי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "אבל",
+      "את אבלי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "איחר",
+      "את אחרי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "אמר",
+      "את אמרי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "בא",
+      "את בואי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "בטח",
+      "את בטחי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "בילה",
+      "את בלי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "בלה",
+      "את בלי",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "את",
+      "בן",
+      "את ביני",
+      {
+        "inflection": "v_2_sg_imp_fem",
+        "rule_id": "he_verb_v_2_sg_imp_fem"
+      }
+    ],
+    [
+      "אנחנו",
+      "אבל",
+      "אנחנו נאבל",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "אוכל",
+      "אנחנו נאוכל",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "אמר",
+      "אנחנו נאמר",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "בא",
+      "אנחנו נבוא",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "בוקר",
+      "אנחנו נבוקר",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "בטח",
+      "אנחנו נבטח",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "אנחנו",
+      "בן",
+      "אנחנו נבין",
+      {
+        "inflection": "v_1_pl_fut",
+        "rule_id": "he_verb_v_1_pl_fut"
+      }
+    ],
+    [
+      "זה",
+      "אבל",
+      "זה יאבל",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "אוכל",
+      "זה יאוכל",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "אמר",
+      "זה יאמר",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "בא",
+      "זה יבוא",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "בוקר",
+      "זה יבוקר",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "בטח",
+      "זה יבטח",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זה",
+      "בן",
+      "זה יבין",
+      {
+        "inflection": "v_3_sg_fut_masc",
+        "rule_id": "he_verb_v_3_sg_fut_masc"
+      }
+    ],
+    [
+      "זאת",
+      "אבל",
+      "זאת תאבל",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "אוכל",
+      "זאת תאוכל",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "אמר",
+      "זאת תאמר",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "בא",
+      "זאת תבוא",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "בוקר",
+      "זאת תבוקר",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "בטח",
+      "זאת תבטח",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "זאת",
+      "בן",
+      "זאת תבין",
+      {
+        "inflection": "v_3_sg_fut_fem",
+        "rule_id": "he_verb_v_3_sg_fut_fem"
+      }
+    ],
+    [
+      "אתם",
+      "אבל",
+      "אתם תאבלו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "אוכל",
+      "אתם תאוכלו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "אמר",
+      "אתם תאמרו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "בא",
+      "אתם תבואו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "בוקר",
+      "אתם תבוקרו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "בטח",
+      "אתם תבטחו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתם",
+      "בן",
+      "אתם תבינו",
+      {
+        "inflection": "v_2_pl_fut_masc",
+        "rule_id": "he_verb_v_2_pl_fut_masc"
+      }
+    ],
+    [
+      "אתן",
+      "אבל",
+      "אתן תאבלנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "אוכל",
+      "אתן תאוכלנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "אמר",
+      "אתן תאמרנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "בא",
+      "אתן תבואנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "בוקר",
+      "אתן תבוקרנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "בטח",
+      "אתן תבטחנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אתן",
+      "בן",
+      "אתן תבנה",
+      {
+        "inflection": "v_2_pl_fut_fem",
+        "rule_id": "he_verb_v_2_pl_fut_fem"
+      }
+    ],
+    [
+      "אלה",
+      "אבל",
+      "אלה אבלים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "אבל",
+      "הם אבלים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "אהב",
+      "אלה אוהבים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "אהב",
+      "הם אוהבים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "אוכל",
+      "אלה מאוכלים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "אוכל",
+      "הם מאוכלים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "אמר",
+      "אלה אומרים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "אמר",
+      "הם אומרים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "בא",
+      "אלה באים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "בא",
+      "הם באים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "בוקר",
+      "אלה מבוקרים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "בוקר",
+      "הם מבוקרים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "בטח",
+      "אלה בוטחים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "בטח",
+      "הם בוטחים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "אלה",
+      "בן",
+      "אלה בנים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "הם",
+      "בן",
+      "הם בנים",
+      {
+        "inflection": "v_pl_prs_masc",
+        "rule_id": "he_verb_v_pl_prs_masc"
+      }
+    ],
+    [
+      "ה",
+      "איש",
+      "ה האיש",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "he_noun_n_sg_def_fem"
+      }
+    ],
+    [
+      "ה",
+      "ארץ",
+      "ה הארץ",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "he_noun_n_sg_def_fem"
+      }
+    ],
+    [
+      "ש",
+      "איש",
+      "ש האיש",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "he_noun_n_sg_def_masc"
+      }
+    ],
+    [
+      "ש",
+      "ארץ",
+      "ש הארץ",
+      {
+        "inflection": "n_sg_def",
+        "rule_id": "he_noun_n_sg_def_masc"
+      }
+    ],
+    [
+      "שלי",
+      "איש",
+      "שלי אישי",
+      {
+        "inflection": "n_sg_pssd_pss1s",
+        "rule_id": "he_noun_n_sg_pssd_pss1s"
+      }
+    ],
+    [
+      "שלך",
+      "איש",
+      "שלך אישך",
+      {
+        "inflection": "n_sg_pssd_pss2s_masc",
+        "rule_id": "he_noun_n_sg_pssd_pss2s_masc"
+      }
+    ],
+    [
+      "שלו",
+      "איש",
+      "שלו אישו",
+      {
+        "inflection": "n_sg_pssd_pss3s_masc",
+        "rule_id": "he_noun_n_sg_pssd_pss3s_masc"
+      }
+    ],
+    [
+      "שלה",
+      "איש",
+      "שלה אישה",
+      {
+        "inflection": "n_sg_pssd_pss3s_fem",
+        "rule_id": "he_noun_n_sg_pssd_pss3s_fem"
+      }
+    ],
+    [
+      "שלנו",
+      "איש",
+      "שלנו אנשינו",
+      {
+        "inflection": "n_pl_pssd_pss1p",
+        "rule_id": "he_noun_n_pl_pssd_pss1p"
+      }
+    ],
+    [
+      "שלכם",
+      "איש",
+      "שלכם אנשיכם",
+      {
+        "inflection": "n_pl_pssd_pss2p_masc",
+        "rule_id": "he_noun_n_pl_pssd_pss2p_masc"
+      }
+    ],
+    [
+      "שלכן",
+      "איש",
+      "שלכן אנשיכן",
+      {
+        "inflection": "n_pl_pssd_pss2p_fem",
+        "rule_id": "he_noun_n_pl_pssd_pss2p_fem"
+      }
+    ],
+    [
+      "בשביל",
+      "אהב",
+      "בשביל אהבה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "כדי",
+      "אהב",
+      "כדי אהבה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "בשביל",
+      "אמר",
+      "בשביל אמירה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "כדי",
+      "אמר",
+      "כדי אמירה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "בשביל",
+      "בא",
+      "בשביל ביאה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "כדי",
+      "בא",
+      "כדי ביאה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "בשביל",
+      "בן",
+      "בשביל בינה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "כדי",
+      "בן",
+      "כדי בינה",
+      {
+        "inflection": "v_msdr",
+        "rule_id": "he_verb_v_msdr"
+      }
+    ],
+    [
+      "שלהם",
+      "איש",
+      "שלהם אנשיהם",
+      {
+        "inflection": "n_pl_pssd_pss3p_masc",
+        "rule_id": "he_noun_n_pl_pssd_pss3p_masc"
+      }
+    ],
+    [
+      "שלהן",
+      "איש",
+      "שלהן אנשיהן",
+      {
+        "inflection": "n_pl_pssd_pss3p_fem",
+        "rule_id": "he_noun_n_pl_pssd_pss3p_fem"
+      }
+    ]
+  ]
 }

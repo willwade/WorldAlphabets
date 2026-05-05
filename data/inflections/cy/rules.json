@@ -3,7 +3,375 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "col_2_pl_ind_prs_gweld",
+      "inflection": "v_col_2_pl_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "chi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "lit_2_pl_imp_gweld",
+      "inflection": "v_lit_2_pl_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "let"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "col_1_pl_ind_prs_gallu",
+      "inflection": "v_col_1_pl_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ni"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "col_1_sg_ind_prs_gallu",
+      "inflection": "v_col_1_sg_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "col_2_sg_ind_prs_bwyta",
+      "inflection": "v_col_2_sg_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ti"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "col_3_pl_ind_prs_bwyta",
+      "inflection": "v_col_3_pl_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nhw"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "bod_verb",
+      "inflection": "v_col_1_sg_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dw"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mae_verb",
+      "inflection": "v_col_3_sg_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ef",
+            "hi"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "chi",
+      "bwyta",
+      "chi bwytwch chi",
+      {
+        "inflection": "v_col_2_pl_ind_prs",
+        "rule_id": "col_2_pl_ind_prs_gweld"
+      }
+    ],
+    [
+      "chi",
+      "dysgu",
+      "chi dysgwch chi",
+      {
+        "inflection": "v_col_2_pl_ind_prs",
+        "rule_id": "col_2_pl_ind_prs_gweld"
+      }
+    ],
+    [
+      "chi",
+      "gallu",
+      "chi gallwch chi",
+      {
+        "inflection": "v_col_2_pl_ind_prs",
+        "rule_id": "col_2_pl_ind_prs_gweld"
+      }
+    ],
+    [
+      "let",
+      "bwyta",
+      "let bwytewch",
+      {
+        "inflection": "v_lit_2_pl_imp",
+        "rule_id": "lit_2_pl_imp_gweld"
+      }
+    ],
+    [
+      "let",
+      "cymryd",
+      "let cymerwch",
+      {
+        "inflection": "v_lit_2_pl_imp",
+        "rule_id": "lit_2_pl_imp_gweld"
+      }
+    ],
+    [
+      "let",
+      "dysgu",
+      "let dysgwch",
+      {
+        "inflection": "v_lit_2_pl_imp",
+        "rule_id": "lit_2_pl_imp_gweld"
+      }
+    ],
+    [
+      "let",
+      "gallu",
+      "let gellwch",
+      {
+        "inflection": "v_lit_2_pl_imp",
+        "rule_id": "lit_2_pl_imp_gweld"
+      }
+    ],
+    [
+      "let",
+      "gweld",
+      "let gwelwch",
+      {
+        "inflection": "v_lit_2_pl_imp",
+        "rule_id": "lit_2_pl_imp_gweld"
+      }
+    ],
+    [
+      "ni",
+      "bwyta",
+      "ni bwytwn ni",
+      {
+        "inflection": "v_col_1_pl_ind_prs",
+        "rule_id": "col_1_pl_ind_prs_gallu"
+      }
+    ],
+    [
+      "ni",
+      "dysgu",
+      "ni dysgwn ni",
+      {
+        "inflection": "v_col_1_pl_ind_prs",
+        "rule_id": "col_1_pl_ind_prs_gallu"
+      }
+    ],
+    [
+      "ni",
+      "gallu",
+      "ni gallwn ni",
+      {
+        "inflection": "v_col_1_pl_ind_prs",
+        "rule_id": "col_1_pl_ind_prs_gallu"
+      }
+    ],
+    [
+      "mi",
+      "bwyta",
+      "mi bwyta i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "col_1_sg_ind_prs_gallu"
+      }
+    ],
+    [
+      "mi",
+      "dysgu",
+      "mi dysga i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "col_1_sg_ind_prs_gallu"
+      }
+    ],
+    [
+      "mi",
+      "gallu",
+      "mi galla i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "col_1_sg_ind_prs_gallu"
+      }
+    ],
+    [
+      "ti",
+      "bwyta",
+      "ti bwyti di",
+      {
+        "inflection": "v_col_2_sg_ind_prs",
+        "rule_id": "col_2_sg_ind_prs_bwyta"
+      }
+    ],
+    [
+      "ti",
+      "dysgu",
+      "ti dysgi di",
+      {
+        "inflection": "v_col_2_sg_ind_prs",
+        "rule_id": "col_2_sg_ind_prs_bwyta"
+      }
+    ],
+    [
+      "ti",
+      "gallu",
+      "ti galli di",
+      {
+        "inflection": "v_col_2_sg_ind_prs",
+        "rule_id": "col_2_sg_ind_prs_bwyta"
+      }
+    ],
+    [
+      "nhw",
+      "bwyta",
+      "nhw bwytan nhw",
+      {
+        "inflection": "v_col_3_pl_ind_prs",
+        "rule_id": "col_3_pl_ind_prs_bwyta"
+      }
+    ],
+    [
+      "nhw",
+      "dysgu",
+      "nhw dysgan nhw",
+      {
+        "inflection": "v_col_3_pl_ind_prs",
+        "rule_id": "col_3_pl_ind_prs_bwyta"
+      }
+    ],
+    [
+      "nhw",
+      "gallu",
+      "nhw gallan nhw",
+      {
+        "inflection": "v_col_3_pl_ind_prs",
+        "rule_id": "col_3_pl_ind_prs_bwyta"
+      }
+    ],
+    [
+      "dw",
+      "bwyta",
+      "dw bwyta i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "bod_verb"
+      }
+    ],
+    [
+      "dw",
+      "dysgu",
+      "dw dysga i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "bod_verb"
+      }
+    ],
+    [
+      "dw",
+      "gallu",
+      "dw galla i",
+      {
+        "inflection": "v_col_1_sg_ind_prs",
+        "rule_id": "bod_verb"
+      }
+    ],
+    [
+      "ef",
+      "bwyta",
+      "ef bwytith o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ],
+    [
+      "hi",
+      "bwyta",
+      "hi bwytith o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ],
+    [
+      "ef",
+      "dysgu",
+      "ef dysgith o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ],
+    [
+      "hi",
+      "dysgu",
+      "hi dysgith o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ],
+    [
+      "ef",
+      "gallu",
+      "ef gall o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ],
+    [
+      "hi",
+      "gallu",
+      "hi gall o",
+      {
+        "inflection": "v_col_3_sg_ind_prs",
+        "rule_id": "mae_verb"
+      }
+    ]
+  ]
 }

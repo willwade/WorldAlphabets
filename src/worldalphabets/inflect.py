@@ -1,0 +1,388 @@
+"""Inflection rule engine and data-loading helpers."""
+
+from __future__ import annotations
+
+import json
+import re
+from dataclasses import dataclass, field
+from importlib.resources import files
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+_INFLECTION_DIR = files("worldalphabets") / "data" / "inflections"
+
+_cache: Dict[str, Any] = {}
+
+
+def _inflection_dir() -> Path:
+    return Path(str(_INFLECTION_DIR))
+
+
+def clear_cache() -> None:
+    _cache.clear()
+
+
+def _load_json(path: Path) -> Dict[str, Any]:
+    raw = path.read_text(encoding="utf-8")
+    data = json.loads(raw)
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a JSON object")
+    return data
+
+
+def _resolve_locale(locale: str, filename: str) -> Path:
+    path = _inflection_dir() / locale / filename
+    if path.is_file():
+        return path
+    if "-" in locale:
+        base = locale.split("-", 1)[0]
+        base_path = _inflection_dir() / base / filename
+        if base_path.is_file():
+            return base_path
+    raise FileNotFoundError(
+        f"Inflection data for locale '{locale}' not found"
+    )
+
+
+def load_index() -> Dict[str, Any]:
+    key = "__inflection_index__"
+    if key not in _cache:
+        path = _inflection_dir() / "index.json"
+        if path.is_file():
+            _cache[key] = _load_json(path)
+        else:
+            _cache[key] = {
+                "_type": "inflection_index",
+                "_version": "0.1",
+                "locales": {},
+            }
+    return _cache[key]
+
+
+def get_available_locales() -> List[str]:
+    index = load_index()
+    locales = index.get("locales", {})
+    if not isinstance(locales, dict):
+        return []
+    return sorted(str(loc) for loc in locales)
+
+
+def load_words(locale: str) -> Dict[str, Any]:
+    cache_key = f"words:{locale}"
+    if cache_key not in _cache:
+        path = _resolve_locale(locale, "words.json")
+        _cache[cache_key] = _load_json(path)
+    return _cache[cache_key]
+
+
+def load_rules(locale: str) -> Dict[str, Any]:
+    cache_key = f"rules:{locale}"
+    if cache_key not in _cache:
+        path = _resolve_locale(locale, "rules.json")
+        _cache[cache_key] = _load_json(path)
+    return _cache[cache_key]
+
+
+def load_data(locale: str) -> Dict[str, Dict[str, Any]]:
+    return {"words": load_words(locale), "rules": load_rules(locale)}
+
+
+@dataclass
+class LocaleSummary:
+    locale: str
+    word_count: int
+    rule_count: int
+    test_count: int
+    pos_types: List[str] = field(default_factory=list)
+    inflection_keys: List[str] = field(default_factory=list)
+
+
+def get_summary(locale: str) -> LocaleSummary:
+    words_data = load_words(locale)
+    rules_data = load_rules(locale)
+
+    pos_types: set[str] = set()
+    inflection_keys: set[str] = set()
+    word_count = 0
+    for key, entry in words_data.items():
+        if key.startswith("_") or not isinstance(entry, dict):
+            continue
+        word_count += 1
+        types = entry.get("types", [])
+        if isinstance(types, list):
+            pos_types.update(types)
+        forms = entry.get("inflections", {})
+        if isinstance(forms, dict):
+            inflection_keys.update(k for k in forms if k != "regulars")
+
+    rules = rules_data.get("rules", [])
+    tests = rules_data.get("tests", [])
+
+    return LocaleSummary(
+        locale=locale,
+        word_count=word_count,
+        rule_count=len(rules) if isinstance(rules, list) else 0,
+        test_count=len(tests) if isinstance(tests, list) else 0,
+        pos_types=sorted(pos_types),
+        inflection_keys=sorted(inflection_keys),
+    )
+
+
+def get_word_forms(locale: str, word: str) -> Optional[Dict[str, Any]]:
+    words = load_words(locale)
+    entry = words.get(word)
+    return entry if isinstance(entry, dict) else None
+
+
+def inflect_word(
+    locale: str, word: str, inflection: str
+) -> Optional[str]:
+    entry = get_word_forms(locale, word)
+    if entry is None:
+        return None
+    if inflection == "base":
+        base = entry.get("base")
+        return base if isinstance(base, str) else word
+    forms = entry.get("inflections")
+    if not isinstance(forms, dict):
+        return None
+    value = forms.get(inflection)
+    return value if isinstance(value, str) else None
+
+
+def _item_matches(check: Dict[str, Any], item: Dict[str, Any]) -> bool:
+    label = str(item.get("word", "")).lower()
+    if isinstance(check.get("words"), list):
+        matching = label in check["words"]
+    elif isinstance(check.get("type"), str):
+        types = item.get("types", [])
+        matching = isinstance(types, list) and check["type"] in types
+    else:
+        matching = True
+    if matching and isinstance(check.get("match"), str):
+        matching = re.search(check["match"], label) is not None
+    if matching and isinstance(check.get("non_match"), str):
+        matching = re.search(check["non_match"], label) is None
+    return matching
+
+
+def _matches_rule(
+    rule: Dict[str, Any], buttons: List[Dict[str, Any]]
+) -> bool | Dict[str, Any]:
+    lookback = rule.get("lookback", [])
+    if not isinstance(lookback, list):
+        return False
+    history_idx = len(buttons) - 1
+    valid = True
+    condenses: List[int] = []
+    for idx in range(len(lookback) - 1, -1, -1):
+        check = lookback[idx]
+        pre_check = lookback[idx - 1] if idx > 0 else None
+        if not isinstance(check, dict):
+            return False
+        item = buttons[history_idx] if history_idx >= 0 else None
+        if item is None:
+            if not check.get("optional"):
+                valid = False
+        else:
+            matching = _item_matches(check, item)
+            pre_matching = (
+                isinstance(pre_check, dict)
+                and _item_matches(pre_check, item)
+            )
+            pre_optional = (
+                pre_check.get("optional")
+                if isinstance(pre_check, dict)
+                else None
+            )
+            if (
+                matching
+                and check.get("optional")
+                and pre_matching
+                and not pre_optional
+            ):
+                matching = False
+            if matching:
+                if check.get("condense"):
+                    condenses.append(history_idx)
+                history_idx -= 1
+            elif not check.get("optional"):
+                valid = False
+        if not valid:
+            break
+    if valid and condenses:
+        return {"condense_items": condenses}
+    return bool(valid)
+
+
+@dataclass
+class LookupResult:
+    word: str
+    replacement: Optional[str] = None
+    rule_id: Optional[str] = None
+    rule_type: Optional[str] = None
+    inflection: Optional[str] = None
+    condense_items: Optional[List[int]] = None
+
+
+def _build_word_list(
+    words_data: Dict[str, Any],
+) -> List[Dict[str, Any]]:
+    words: List[Dict[str, Any]] = []
+    for word, entry in words_data.items():
+        if word.startswith("_") or not isinstance(entry, dict):
+            continue
+        item = dict(entry)
+        item["word"] = word
+        words.append(item)
+    return words
+
+
+def lookup_word(
+    locale_or_words: str | Dict[str, Any],
+    word: str,
+    prior_words: str = "",
+    rules_data: Optional[Dict[str, Any]] = None,
+) -> LookupResult:
+    if isinstance(locale_or_words, str):
+        words_data = load_words(locale_or_words)
+        if rules_data is None:
+            rules_data = load_rules(locale_or_words)
+    else:
+        words_data = locale_or_words
+        if rules_data is None:
+            rules_data = {"rules": [], "tests": []}
+
+    words = _build_word_list(words_data)
+    rules = rules_data.get("rules", [])
+    if not isinstance(rules, list):
+        rules = []
+
+    prior_buttons: List[Dict[str, Any]] = []
+    for part in prior_words.split():
+        found = next(
+            (w for w in words if w.get("word") == part), None
+        )
+        prior_buttons.append(found or {"word": part})
+
+    found_words = [w for w in words if w.get("word") == word]
+    if not found_words:
+        return LookupResult(word=word)
+
+    found_types: Dict[str, bool] = {}
+    matching_rules: List[Dict[str, Any]] = []
+    for rule in rules:
+        if not isinstance(rule, dict):
+            continue
+        rule_type = rule.get("type")
+        if not isinstance(rule_type, str):
+            continue
+        if found_types.get(rule_type) and rule_type != "override":
+            continue
+        matches = _matches_rule(rule, prior_buttons)
+        if matches:
+            matched_rule = dict(rule)
+            if isinstance(matches, dict):
+                matched_rule.update(matches)
+            matching_rules.append(matched_rule)
+            found_types[rule_type] = True
+
+    first = dict(found_words[0])
+    inflections: Dict[str, Any] = {}
+    for rule in matching_rules:
+        if (
+            rule.get("type") == "override"
+            and isinstance(rule.get("overrides"), dict)
+        ):
+            for key, value in rule["overrides"].items():
+                inflections.setdefault(
+                    key,
+                    {
+                        "type": "override",
+                        "word": value,
+                        "id": rule.get("id"),
+                        "condense_items": rule.get("condense_items"),
+                    },
+                )
+        else:
+            rule_type = rule.get("type")
+            if isinstance(rule_type, str):
+                inflections[rule_type] = rule
+
+    replacement = None
+    rule_id = None
+    rule_type_out = None
+    inflection_out = None
+    condense_items = None
+
+    found_word_value = first.get("word")
+    direct = (
+        inflections.get(found_word_value)
+        if isinstance(found_word_value, str)
+        else None
+    )
+    if isinstance(direct, dict) and direct.get("word"):
+        replacement = direct["word"]
+        rule_id = direct.get("id")
+        condense_items = direct.get("condense_items")
+    else:
+        replacement_rule = None
+        types = first.get("types", [])
+        if isinstance(types, list):
+            for part in types:
+                if part in inflections:
+                    replacement_rule = replacement_rule or inflections[part]
+        if isinstance(replacement_rule, dict):
+            forms = first.get("inflections", {})
+            inflection = replacement_rule.get("inflection")
+            if isinstance(forms, dict) and isinstance(inflection, str):
+                replacement = forms.get(inflection) or first.get("word")
+                inflection_out = inflection
+            else:
+                replacement = first.get("word")
+            rule_id = replacement_rule.get("id")
+            rule_type_out = inflection
+            condense_items = replacement_rule.get("condense_items")
+
+    return LookupResult(
+        word=word,
+        replacement=replacement,
+        rule_id=rule_id,
+        rule_type=rule_type_out,
+        inflection=inflection_out,
+        condense_items=condense_items,
+    )
+
+
+def apply_rules(
+    locale: str, text: str, rules_data: Optional[Dict[str, Any]] = None
+) -> str:
+    tokens = text.split()
+    if not tokens:
+        return text
+
+    words_data = load_words(locale)
+    if rules_data is None:
+        rules_data = load_rules(locale)
+
+    results: List[str] = []
+    for i, token in enumerate(tokens):
+        prior = " ".join(tokens[:i])
+        result = lookup_word(words_data, token, prior, rules_data)
+        if result.replacement:
+            if result.condense_items is not None:
+                prior_tokens = results[:]
+                kept = [
+                    w
+                    for idx, w in enumerate(prior_tokens)
+                    if idx not in result.condense_items
+                ]
+                results.clear()
+                results.extend(kept)
+                results.append(result.replacement)
+            else:
+                results.append(result.replacement)
+        else:
+            results.append(token)
+
+    return " ".join(results)

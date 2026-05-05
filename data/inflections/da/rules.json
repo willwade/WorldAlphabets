@@ -40,7 +40,1993 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "da_article_en",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "overrides": {
+        "en": "et"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_article_et",
+      "lookback": [
+        {
+          "words": [
+            "et"
+          ]
+        }
+      ],
+      "overrides": {
+        "et": "en"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_conjunction_og_men",
+      "lookback": [
+        {
+          "words": [
+            "men",
+            "og"
+          ]
+        }
+      ],
+      "overrides": {
+        "men": "eller",
+        "og": "eller"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_pronoun_jeg_du",
+      "lookback": [
+        {
+          "words": [
+            "du",
+            "jeg"
+          ]
+        }
+      ],
+      "overrides": {
+        "du": "I",
+        "jeg": "vi"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_preposition_i_på",
+      "lookback": [
+        {
+          "words": [
+            "i",
+            "på"
+          ]
+        }
+      ],
+      "overrides": {
+        "i": "til"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_verb_er_har",
+      "lookback": [
+        {
+          "words": [
+            "er",
+            "har"
+          ]
+        }
+      ],
+      "overrides": {
+        "er": "var",
+        "har": "havde"
+      },
+      "type": "override"
+    },
+    {
+      "id": "da_definite_pl_noun",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "alle",
+            "flere",
+            "mange",
+            "nogle"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_indefinite_sg_noun",
+      "inflection": "n_indf_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en",
+            "et"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_genitive_sg_noun",
+      "inflection": "n_indf_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "'s"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_definite_adj",
+      "inflection": "adj_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "den",
+            "det"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_indefinite_adj_masc_fem_sg",
+      "inflection": "adj_indf_masc_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_indefinite_adj_neut_sg",
+      "inflection": "adj_indf_neut_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "et"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_indefinite_adj_pl",
+      "inflection": "adj_indf_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nogle"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_comparative_adj",
+      "inflection": "adj_def_cmpr",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mere"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_superlative_adj",
+      "inflection": "adj_def_sprl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mest"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_pronoun_he_she_it",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "det",
+            "han",
+            "hun"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "da_pronoun_we",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "vi"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "da_pronoun_you_pl",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "i"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "da_verb_s_passive",
+      "inflection": "v_pass_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "blive"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_verb_s_passive_past",
+      "inflection": "v_pass_ind_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "blev"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_adverb_position",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lidt",
+            "meget"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "da_adjective_same_as_noun",
+      "inflection": "adj_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "samme",
+            "sidste"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_noun_plural_common",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "to",
+            "tre"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_verb_aux_har",
+      "inflection": "v_act_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "har"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_verb_aux_havde",
+      "inflection": "v_act_ind_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "havde"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_verb_aux_være",
+      "inflection": "v_act_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "er"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_verb_aux_være_past",
+      "inflection": "v_act_ind_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "var"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_noun_family",
+      "inflection": "n_indf_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "familie"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_adverb_her",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "her"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "da_adverb_ikke_negation",
+      "inflection": "n_def_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ikke"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "da_adjective_sikker",
+      "inflection": "adj_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "meget"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "da_noun_time",
+      "inflection": "n_indf_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tid"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "da_verb_imperative_2sg",
+      "inflection": "v_act_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "du"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_verb_imperative_2pl",
+      "inflection": "v_act_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "i"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "da_noun_year",
+      "inflection": "n_def_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "år"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "en",
+      "en",
+      "en et",
+      {
+        "rule_id": "da_article_en"
+      }
+    ],
+    [
+      "et",
+      "et",
+      "et en",
+      {
+        "rule_id": "da_article_et"
+      }
+    ],
+    [
+      "men",
+      "og",
+      "men eller",
+      {
+        "rule_id": "da_conjunction_og_men"
+      }
+    ],
+    [
+      "og",
+      "og",
+      "og eller",
+      {
+        "rule_id": "da_conjunction_og_men"
+      }
+    ],
+    [
+      "men",
+      "men",
+      "men eller",
+      {
+        "rule_id": "da_conjunction_og_men"
+      }
+    ],
+    [
+      "og",
+      "men",
+      "og eller",
+      {
+        "rule_id": "da_conjunction_og_men"
+      }
+    ],
+    [
+      "du",
+      "jeg",
+      "du vi",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "jeg",
+      "jeg",
+      "jeg vi",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "du",
+      "du",
+      "du I",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "jeg",
+      "du",
+      "jeg I",
+      {
+        "rule_id": "da_pronoun_jeg_du"
+      }
+    ],
+    [
+      "i",
+      "i",
+      "i til",
+      {
+        "rule_id": "da_preposition_i_på"
+      }
+    ],
+    [
+      "på",
+      "i",
+      "på til",
+      {
+        "rule_id": "da_preposition_i_på"
+      }
+    ],
+    [
+      "er",
+      "er",
+      "er var",
+      {
+        "rule_id": "da_verb_er_har"
+      }
+    ],
+    [
+      "har",
+      "er",
+      "har var",
+      {
+        "rule_id": "da_verb_er_har"
+      }
+    ],
+    [
+      "er",
+      "har",
+      "er havde",
+      {
+        "rule_id": "da_verb_er_har"
+      }
+    ],
+    [
+      "har",
+      "har",
+      "har havde",
+      {
+        "rule_id": "da_verb_er_har"
+      }
+    ],
+    [
+      "alle",
+      "aftale",
+      "alle aftalerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "aftale",
+      "flere aftalerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "aften",
+      "alle aftenerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "aften",
+      "flere aftenerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "alting",
+      "alle altingene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "alting",
+      "flere altingene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "angreb",
+      "alle angrebene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "angreb",
+      "flere angrebene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "ben",
+      "alle benene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "ben",
+      "flere benene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "besked",
+      "alle beskederne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "besked",
+      "flere beskederne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "bil",
+      "alle bilerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "bil",
+      "flere bilerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "bror",
+      "alle brødrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "bror",
+      "flere brødrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "dag",
+      "alle dagene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "dag",
+      "flere dagene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "datter",
+      "alle døtrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "datter",
+      "flere døtrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "alle",
+      "drink",
+      "alle drinksene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "flere",
+      "drink",
+      "flere drinksene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_definite_pl_noun"
+      }
+    ],
+    [
+      "en",
+      "aftale",
+      "en aftale",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "aftale",
+      "et aftale",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "aften",
+      "en aften",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "aften",
+      "et aften",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "alting",
+      "en alting",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "alting",
+      "et alting",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "angreb",
+      "en angreb",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "angreb",
+      "et angreb",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "ben",
+      "en ben",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "ben",
+      "et ben",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "besked",
+      "en besked",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "besked",
+      "et besked",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "bil",
+      "en bil",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "bil",
+      "et bil",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "bror",
+      "en bror",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "bror",
+      "et bror",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "dag",
+      "en dag",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "dag",
+      "et dag",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "datter",
+      "en datter",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "datter",
+      "et datter",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "en",
+      "drink",
+      "en drink",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "et",
+      "drink",
+      "et drink",
+      {
+        "inflection": "n_indf_nom_sg",
+        "rule_id": "da_indefinite_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "aftale",
+      "'s aftales",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "aften",
+      "'s aftens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "alting",
+      "'s altings",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "angreb",
+      "'s angrebs",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "ben",
+      "'s bens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "besked",
+      "'s beskeds",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "bil",
+      "'s bils",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "bror",
+      "'s brors",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "dag",
+      "'s dags",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "datter",
+      "'s datters",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "'s",
+      "drink",
+      "'s drinks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_genitive_sg_noun"
+      }
+    ],
+    [
+      "de",
+      "direkte",
+      "de direkte",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "den",
+      "direkte",
+      "den direkte",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "de",
+      "dum",
+      "de dumme",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "den",
+      "dum",
+      "den dumme",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "de",
+      "dyr",
+      "de dyre",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "den",
+      "dyr",
+      "den dyre",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "de",
+      "død",
+      "de døde",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "den",
+      "død",
+      "den døde",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "de",
+      "egentlig",
+      "de egentlige",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "den",
+      "egentlig",
+      "den egentlige",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_definite_adj"
+      }
+    ],
+    [
+      "en",
+      "direkte",
+      "en direkte",
+      {
+        "inflection": "adj_indf_masc_fem_sg",
+        "rule_id": "da_indefinite_adj_masc_fem_sg"
+      }
+    ],
+    [
+      "en",
+      "dum",
+      "en dum",
+      {
+        "inflection": "adj_indf_masc_fem_sg",
+        "rule_id": "da_indefinite_adj_masc_fem_sg"
+      }
+    ],
+    [
+      "en",
+      "dyr",
+      "en dyr",
+      {
+        "inflection": "adj_indf_masc_fem_sg",
+        "rule_id": "da_indefinite_adj_masc_fem_sg"
+      }
+    ],
+    [
+      "en",
+      "død",
+      "en død",
+      {
+        "inflection": "adj_indf_masc_fem_sg",
+        "rule_id": "da_indefinite_adj_masc_fem_sg"
+      }
+    ],
+    [
+      "en",
+      "egentlig",
+      "en egentlig",
+      {
+        "inflection": "adj_indf_masc_fem_sg",
+        "rule_id": "da_indefinite_adj_masc_fem_sg"
+      }
+    ],
+    [
+      "et",
+      "dejlig",
+      "et dejligt",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "et",
+      "direkte",
+      "et direkte",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "et",
+      "dum",
+      "et dumt",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "et",
+      "dyr",
+      "et dyrt",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "et",
+      "død",
+      "et dødt",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "et",
+      "egentlig",
+      "et egentligt",
+      {
+        "inflection": "adj_indf_neut_sg",
+        "rule_id": "da_indefinite_adj_neut_sg"
+      }
+    ],
+    [
+      "nogle",
+      "direkte",
+      "nogle direkte",
+      {
+        "inflection": "adj_indf_pl",
+        "rule_id": "da_indefinite_adj_pl"
+      }
+    ],
+    [
+      "nogle",
+      "dum",
+      "nogle dumme",
+      {
+        "inflection": "adj_indf_pl",
+        "rule_id": "da_indefinite_adj_pl"
+      }
+    ],
+    [
+      "nogle",
+      "dyr",
+      "nogle dyre",
+      {
+        "inflection": "adj_indf_pl",
+        "rule_id": "da_indefinite_adj_pl"
+      }
+    ],
+    [
+      "nogle",
+      "død",
+      "nogle døde",
+      {
+        "inflection": "adj_indf_pl",
+        "rule_id": "da_indefinite_adj_pl"
+      }
+    ],
+    [
+      "nogle",
+      "egentlig",
+      "nogle egentlige",
+      {
+        "inflection": "adj_indf_pl",
+        "rule_id": "da_indefinite_adj_pl"
+      }
+    ],
+    [
+      "mere",
+      "dum",
+      "mere dummere",
+      {
+        "inflection": "adj_def_cmpr",
+        "rule_id": "da_comparative_adj"
+      }
+    ],
+    [
+      "mere",
+      "dyr",
+      "mere dyrere",
+      {
+        "inflection": "adj_def_cmpr",
+        "rule_id": "da_comparative_adj"
+      }
+    ],
+    [
+      "mest",
+      "dum",
+      "mest dummeste",
+      {
+        "inflection": "adj_def_sprl",
+        "rule_id": "da_superlative_adj"
+      }
+    ],
+    [
+      "mest",
+      "dyr",
+      "mest dyreste",
+      {
+        "inflection": "adj_def_sprl",
+        "rule_id": "da_superlative_adj"
+      }
+    ],
+    [
+      "blive",
+      "elske",
+      "blive elskes",
+      {
+        "inflection": "v_pass_ind_prs",
+        "rule_id": "da_verb_s_passive"
+      }
+    ],
+    [
+      "blev",
+      "elske",
+      "blev elskedes",
+      {
+        "inflection": "v_pass_ind_pst",
+        "rule_id": "da_verb_s_passive_past"
+      }
+    ],
+    [
+      "to",
+      "aftale",
+      "to aftalerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "aftale",
+      "tre aftalerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "aften",
+      "to aftenerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "aften",
+      "tre aftenerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "alting",
+      "to altingene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "alting",
+      "tre altingene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "angreb",
+      "to angrebene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "angreb",
+      "tre angrebene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "ben",
+      "to benene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "ben",
+      "tre benene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "besked",
+      "to beskederne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "besked",
+      "tre beskederne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "bil",
+      "to bilerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "bil",
+      "tre bilerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "bror",
+      "to brødrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "bror",
+      "tre brødrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "dag",
+      "to dagene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "dag",
+      "tre dagene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "datter",
+      "to døtrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "datter",
+      "tre døtrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "to",
+      "drink",
+      "to drinksene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "tre",
+      "drink",
+      "tre drinksene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_plural_common"
+      }
+    ],
+    [
+      "har",
+      "elske",
+      "har elsker",
+      {
+        "inflection": "v_act_ind_prs",
+        "rule_id": "da_verb_aux_har"
+      }
+    ],
+    [
+      "havde",
+      "elske",
+      "havde elskede",
+      {
+        "inflection": "v_act_ind_pst",
+        "rule_id": "da_verb_aux_havde"
+      }
+    ],
+    [
+      "er",
+      "elske",
+      "er elsker",
+      {
+        "inflection": "v_act_ind_prs",
+        "rule_id": "da_verb_aux_være"
+      }
+    ],
+    [
+      "var",
+      "elske",
+      "var elskede",
+      {
+        "inflection": "v_act_ind_pst",
+        "rule_id": "da_verb_aux_være_past"
+      }
+    ],
+    [
+      "familie",
+      "aftale",
+      "familie aftales",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "aften",
+      "familie aftens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "alting",
+      "familie altings",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "angreb",
+      "familie angrebs",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "ben",
+      "familie bens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "besked",
+      "familie beskeds",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "bil",
+      "familie bils",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "bror",
+      "familie brors",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "dag",
+      "familie dags",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "datter",
+      "familie datters",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "familie",
+      "drink",
+      "familie drinks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_family"
+      }
+    ],
+    [
+      "meget",
+      "direkte",
+      "meget direkte",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_adjective_sikker"
+      }
+    ],
+    [
+      "meget",
+      "dum",
+      "meget dumme",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_adjective_sikker"
+      }
+    ],
+    [
+      "meget",
+      "dyr",
+      "meget dyre",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_adjective_sikker"
+      }
+    ],
+    [
+      "meget",
+      "død",
+      "meget døde",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_adjective_sikker"
+      }
+    ],
+    [
+      "meget",
+      "egentlig",
+      "meget egentlige",
+      {
+        "inflection": "adj_def",
+        "rule_id": "da_adjective_sikker"
+      }
+    ],
+    [
+      "tid",
+      "aftale",
+      "tid aftales",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "aften",
+      "tid aftens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "alting",
+      "tid altings",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "angreb",
+      "tid angrebs",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "ben",
+      "tid bens",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "besked",
+      "tid beskeds",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "bil",
+      "tid bils",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "bror",
+      "tid brors",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "dag",
+      "tid dags",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "datter",
+      "tid datters",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "tid",
+      "drink",
+      "tid drinks",
+      {
+        "inflection": "n_indf_gen_sg",
+        "rule_id": "da_noun_time"
+      }
+    ],
+    [
+      "du",
+      "elske",
+      "du elsk",
+      {
+        "inflection": "v_act_imp",
+        "rule_id": "da_verb_imperative_2sg"
+      }
+    ],
+    [
+      "i",
+      "elske",
+      "i elsk",
+      {
+        "inflection": "v_act_imp",
+        "rule_id": "da_verb_imperative_2pl"
+      }
+    ],
+    [
+      "år",
+      "aftale",
+      "år aftalerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "aften",
+      "år aftenerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "alting",
+      "år altingene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "angreb",
+      "år angrebene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "ben",
+      "år benene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "besked",
+      "år beskederne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "bil",
+      "år bilerne",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "bror",
+      "år brødrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "dag",
+      "år dagene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "datter",
+      "år døtrene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ],
+    [
+      "år",
+      "drink",
+      "år drinksene",
+      {
+        "inflection": "n_def_nom_pl",
+        "rule_id": "da_noun_year"
+      }
+    ]
+  ]
 }

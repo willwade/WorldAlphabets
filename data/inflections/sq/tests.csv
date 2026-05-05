@@ -1,0 +1,137 @@
+rule_id,inflection,pre_words,test_word,updated_words
+sq_override_1,,unë,jam,unë jam
+sq_override_2,,ti,jam,ti je
+sq_override_3,,ai,jam,ai është
+sq_override_3,,ajo,jam,ajo është
+sq_override_3,,kjo,jam,kjo është
+sq_override_4,,ne,jam,ne jemi
+sq_override_5,,ju,jam,ju jeni
+sq_override_6,,ata,jam,ata janë
+sq_override_6,,ato,jam,ato janë
+sq_override_6,,këta,jam,këta janë
+sq_noun_acc_sg_def,n_acc_sg_def,e,bashkëpunim,e bashkëpunimin
+sq_noun_acc_sg_def,n_acc_sg_def,të,bashkëpunim,të bashkëpunimin
+sq_noun_acc_sg_def,n_acc_sg_def,e,botë,e botën
+sq_noun_acc_sg_def,n_acc_sg_def,të,botë,të botën
+sq_noun_acc_sg_def,n_acc_sg_def,e,dorë,e dorën
+sq_noun_acc_sg_def,n_acc_sg_def,të,dorë,të dorën
+sq_noun_acc_sg_def,n_acc_sg_def,e,drejtim,e drejtimin
+sq_noun_acc_sg_def,n_acc_sg_def,të,drejtim,të drejtimin
+sq_noun_acc_sg_def,n_acc_sg_def,e,emër,e emrin
+sq_noun_acc_sg_def,n_acc_sg_def,të,emër,të emrin
+sq_noun_acc_sg_def,n_acc_sg_def,e,fillim,e fillimin
+sq_noun_acc_sg_def,n_acc_sg_def,të,fillim,të fillimin
+sq_noun_acc_sg_def,n_acc_sg_def,e,fitore,e fitoren
+sq_noun_acc_sg_def,n_acc_sg_def,të,fitore,të fitoren
+sq_noun_acc_sg_def,n_acc_sg_def,e,fjalë,e fjalën
+sq_noun_acc_sg_def,n_acc_sg_def,të,fjalë,të fjalën
+sq_noun_acc_sg_def,n_acc_sg_def,e,gjuhë,e gjuhën
+sq_noun_acc_sg_def,n_acc_sg_def,të,gjuhë,të gjuhën
+sq_noun_acc_sg_def,n_acc_sg_def,e,histori,e historinë
+sq_noun_acc_sg_def,n_acc_sg_def,të,histori,të historinë
+sq_noun_acc_sg_def,n_acc_sg_def,e,ligj,e ligjin
+sq_noun_acc_sg_def,n_acc_sg_def,të,ligj,të ligjin
+sq_noun_acc_sg_def,n_acc_sg_def,e,luftë,e luftën
+sq_noun_acc_sg_def,n_acc_sg_def,të,luftë,të luftën
+sq_noun_abl_sg_def,n_abl_sg_def,nga,bashkëpunim,nga bashkëpunimit
+sq_noun_abl_sg_def,n_abl_sg_def,nga,botë,nga botës
+sq_noun_abl_sg_def,n_abl_sg_def,nga,dorë,nga dorës
+sq_noun_abl_sg_def,n_abl_sg_def,nga,drejtim,nga drejtimit
+sq_noun_abl_sg_def,n_abl_sg_def,nga,emër,nga emrit
+sq_noun_abl_sg_def,n_abl_sg_def,nga,fillim,nga fillimit
+sq_noun_abl_sg_def,n_abl_sg_def,nga,fitore,nga fitores
+sq_noun_abl_sg_def,n_abl_sg_def,nga,fjalë,nga fjalës
+sq_noun_abl_sg_def,n_abl_sg_def,nga,histori,nga historisë
+sq_noun_abl_sg_def,n_abl_sg_def,nga,ligj,nga ligjit
+sq_noun_abl_sg_def,n_abl_sg_def,nga,luftë,nga luftës
+sq_noun_gen_sg_def,n_gen_sg_def,i,bashkëpunim,i bashkëpunimit
+sq_noun_gen_sg_def,n_gen_sg_def,i,botë,i botës
+sq_noun_gen_sg_def,n_gen_sg_def,i,dorë,i dorës
+sq_noun_gen_sg_def,n_gen_sg_def,i,drejtim,i drejtimit
+sq_noun_gen_sg_def,n_gen_sg_def,i,emër,i emrit
+sq_noun_gen_sg_def,n_gen_sg_def,i,fillim,i fillimit
+sq_noun_gen_sg_def,n_gen_sg_def,i,fitore,i fitores
+sq_noun_gen_sg_def,n_gen_sg_def,i,fjalë,i fjalës
+sq_noun_gen_sg_def,n_gen_sg_def,i,histori,i historisë
+sq_noun_gen_sg_def,n_gen_sg_def,i,ligj,i ligjit
+sq_noun_gen_sg_def,n_gen_sg_def,i,luftë,i luftës
+sq_noun_dat_pl_def,n_dat_pl_def,te,bashkëpunim,te bashkëpunimeve
+sq_noun_dat_pl_def,n_dat_pl_def,te,botë,te botëve
+sq_noun_dat_pl_def,n_dat_pl_def,te,dorë,te duarve
+sq_noun_dat_pl_def,n_dat_pl_def,te,drejtim,te drejtimeve
+sq_noun_dat_pl_def,n_dat_pl_def,te,emër,te emrave
+sq_noun_dat_pl_def,n_dat_pl_def,te,fillim,te fillimeve
+sq_noun_dat_pl_def,n_dat_pl_def,te,fitore,te fitoreve
+sq_noun_dat_pl_def,n_dat_pl_def,te,fjalë,te fjalave
+sq_noun_dat_pl_def,n_dat_pl_def,te,forcë,te forcave
+sq_noun_dat_pl_def,n_dat_pl_def,te,histori,te historive
+sq_noun_dat_pl_def,n_dat_pl_def,te,institucion,te institucioneve
+sq_noun_dat_pl_def,n_dat_pl_def,te,ligj,te ligjeve
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,besoj,ata besojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,besoj,ato besojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,bëhem,ata bëhen
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,bëhem,ato bëhen
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,bëj,ata bëjnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,bëj,ato bëjnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,hap,ata hapin
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,hap,ato hapin
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,jam,ata janë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,jam,ato janë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,jap,ata japin
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,jap,ato japin
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,jetoj,ata jetojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,jetoj,ato jetojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,kam,ata kanë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,kam,ato kanë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,kërkoj,ata kërkojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,kërkoj,ato kërkojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,lë,ata lënë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,lë,ato lënë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ata,mendoj,ata mendojnë
+sq_verb_3_pl_ind_prs,v_3_pl_ind_prs,ato,mendoj,ato mendojnë
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,besoj,ti beson
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,bëj,ti bën
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,filloj,ti fillon
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,hap,ti hap
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,jam,ti je
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,jap,ti jep
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,kam,ti ke
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,kërkoj,ti kërkon
+sq_verb_2_sg_ind_prs,v_2_sg_ind_prs,ti,mendoj,ti mendon
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,besoj,ne besojmë
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,bëj,ne bëjmë
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,hap,ne hapim
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,jam,ne jemi
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,kam,ne kemi
+sq_verb_1_pl_ind_prs,v_1_pl_ind_prs,ne,mendoj,ne mendojmë
+sq_verb_2_sg_imp,v_2_sg_imp,ju,besoj,ju beso
+sq_verb_2_sg_imp,v_2_sg_imp,ju,hap,ju hap
+sq_verb_2_sg_imp,v_2_sg_imp,ju,jam,ju ji
+sq_verb_2_sg_imp,v_2_sg_imp,ju,jap,ju jep
+sq_verb_2_sg_imp,v_2_sg_imp,ju,kam,ju ki
+sq_verb_2_sg_imp,v_2_sg_imp,ju,mendoj,ju mendo
+sq_verb_1_pl_adm_prs,v_1_pl_adm_prs,na,besoj,na besuakemi
+sq_verb_1_pl_adm_prs,v_1_pl_adm_prs,na,hap,na hapkemi
+sq_verb_1_pl_adm_prs,v_1_pl_adm_prs,na,jam,na qenkemi
+sq_verb_1_pl_adm_prs,v_1_pl_adm_prs,na,kam,na paskemi
+sq_verb_1_pl_adm_prs,v_1_pl_adm_prs,na,mendoj,na menduakemi
+sq_verb_1_pl_cond_prs,v_1_pl_cond_prs,po,besoj,po do të besonim
+sq_verb_1_pl_cond_prs,v_1_pl_cond_prs,po,hap,po do të hapnim
+sq_verb_1_pl_cond_prs,v_1_pl_cond_prs,po,jam,po do të ishim
+sq_verb_1_pl_cond_prs,v_1_pl_cond_prs,po,kam,po do të kishim
+sq_verb_1_pl_cond_prs,v_1_pl_cond_prs,po,mendoj,po do të mendonim
+sq_verb_1_pl_ind_fut,v_1_pl_ind_fut,do,besoj,do do të besojmë
+sq_verb_1_pl_ind_fut,v_1_pl_ind_fut,do,hap,do do të hapim
+sq_verb_1_pl_ind_fut,v_1_pl_ind_fut,do,jam,do do të jemi
+sq_verb_1_pl_ind_fut,v_1_pl_ind_fut,do,kam,do do të kemi
+sq_verb_1_pl_ind_fut,v_1_pl_ind_fut,do,mendoj,do do të mendojmë
+sq_verb_1_pl_ind_prf,v_1_pl_ind_prf,kemi,besoj,kemi kemi besuar
+sq_verb_1_pl_ind_prf,v_1_pl_ind_prf,kemi,hap,kemi kemi hapur
+sq_verb_1_pl_ind_prf,v_1_pl_ind_prf,kemi,jam,kemi kemi qenë
+sq_verb_1_pl_ind_prf,v_1_pl_ind_prf,kemi,kam,kemi kemi pasur
+sq_verb_1_pl_ind_prf,v_1_pl_ind_prf,kemi,mendoj,kemi kemi menduar
+sq_verb_1_pl_adm_prf_pst,v_1_pl_adm_prf_pst,keni,besoj,keni paskëshim besuar
+sq_verb_1_pl_adm_prf_pst,v_1_pl_adm_prf_pst,keni,hap,keni paskëshim hapur
+sq_verb_1_pl_adm_prf_pst,v_1_pl_adm_prf_pst,keni,jam,keni paskëshim qenë
+sq_verb_1_pl_adm_prf_pst,v_1_pl_adm_prf_pst,keni,kam,keni paskëshim pasur
+sq_verb_1_pl_adm_prf_pst,v_1_pl_adm_prf_pst,keni,mendoj,keni paskëshim menduar

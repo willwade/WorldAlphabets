@@ -1,9 +1,3262 @@
 {
-  "_type": "rules",
   "_locale": "hy",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "n_dat_sg_definite_post_article",
+      "inflection": "n_dat_def_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ը"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_dat_sg_possessive_first_singular",
+      "inflection": "n_dat_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "իմ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_dat_sg_possessive_second_singular",
+      "inflection": "n_dat_sg_pss2s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "դու",
+            "քո"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_ins_sg_definite_post_article",
+      "inflection": "n_ins_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ով"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_abl_sg_definite_post_article",
+      "inflection": "n_abl_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մի"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_loc_sg_definite_post_article",
+      "inflection": "n_loc_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ում"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_dat_sg_definite_post_article",
+      "inflection": "adj_dat_def_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ը"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_sg_possessive_first_singular",
+      "inflection": "adj_dat_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "իմ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_sg_possessive_second_singular",
+      "inflection": "adj_dat_sg_pss2s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "դու",
+            "քո"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_ins_sg_definite_post_article",
+      "inflection": "adj_ins_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ով"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_abl_sg_definite_post_article",
+      "inflection": "adj_abl_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մի"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_loc_sg_definite_post_article",
+      "inflection": "adj_loc_sg_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ում"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_dat_pl_definite_post_article",
+      "inflection": "n_dat_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ն"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_dat_pl_possessive_first_plural",
+      "inflection": "n_dat_pl_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մեր"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_dat_pl_possessive_second_plural",
+      "inflection": "n_dat_pl_pss2s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "թաք",
+            "ձեր"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_dat_pl_definite_post_article",
+      "inflection": "adj_dat_def_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ն"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_pl_possessive_first_plural",
+      "inflection": "adj_dat_pl_pss1s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մեր"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_pl_possessive_second_plural",
+      "inflection": "adj_dat_pl_pss2s",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "թաք",
+            "ձեր"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_cvb_ipfv_after_aux_have",
+      "inflection": "v_cvb_ipfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ունեն"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cvb_ipfv_after_aux_be",
+      "inflection": "v_cvb_ipfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "եմ",
+            "են",
+            "ենք",
+            "ես",
+            "եք",
+            "է"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cond_sg_2_fut_after_pronoun_you",
+      "inflection": "v_cond_sg_2_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "դու"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cond_sg_3_fut_after_pronoun_he_she_it",
+      "inflection": "v_cond_sg_3_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "դա",
+            "նա"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cond_pl_1_fut_after_pronoun_we",
+      "inflection": "v_cond_pl_1_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "մենք"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cond_pl_2_fut_after_pronoun_you_plural",
+      "inflection": "v_cond_pl_2_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "դուք"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "v_cond_pl_3_fut_after_pronoun_they",
+      "inflection": "v_cond_pl_3_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "նրանք"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "adj_dat_sg_after_preposition_to",
+      "inflection": "adj_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "դեպի"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_abl_sg_after_preposition_from",
+      "inflection": "adj_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "կան",
+            "հեռու"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_ins_sg_after_preposition_with",
+      "inflection": "adj_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "կն",
+            "հետ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_loc_sg_after_preposition_in",
+      "inflection": "adj_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մեջ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_dat_sg_after_preposition_to",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "դեպի"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_abl_sg_after_preposition_from",
+      "inflection": "n_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "կան",
+            "հեռու"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_ins_sg_after_preposition_with",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "կն",
+            "հետ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_loc_sg_after_preposition_in",
+      "inflection": "n_loc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "մեջ"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ը",
+      "ամբողջ",
+      "ը ամբողջին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "ամիս",
+      "ը ամսվան",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "այսօր",
+      "ը այսօրվան",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "անգամ",
+      "ը անգամին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "անդամ",
+      "ը անդամին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "անց",
+      "ը անցին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "առավել",
+      "ը առավելին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "ավել",
+      "ը ավելին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "գլխավոր",
+      "ը գլխավորին",
+      {
+        "inflection": "n_dat_def_sg",
+        "rule_id": "n_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "իմ",
+      "ամ",
+      "իմ ամիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "ամբողջ",
+      "իմ ամբողջիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "ամիս",
+      "իմ ամսվաս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "այսօր",
+      "իմ այսօրվաս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "անգամ",
+      "իմ անգամիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "անդամ",
+      "իմ անդամիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "անց",
+      "իմ անցիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "առավել",
+      "իմ առավելիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "գլխավոր",
+      "իմ գլխավորիս",
+      {
+        "inflection": "n_dat_sg_pss1s",
+        "rule_id": "n_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "դու",
+      "ամբողջ",
+      "դու ամբողջիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "ամբողջ",
+      "քո ամբողջիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "ամիս",
+      "դու ամսվադ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "ամիս",
+      "քո ամսվադ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "այսօր",
+      "դու այսօրվադ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "այսօր",
+      "քո այսօրվադ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "անգամ",
+      "դու անգամիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "անգամ",
+      "քո անգամիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "անդամ",
+      "դու անդամիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "անդամ",
+      "քո անդամիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "անց",
+      "դու անցիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "անց",
+      "քո անցիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "առավել",
+      "դու առավելիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "առավել",
+      "քո առավելիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "գլխավոր",
+      "դու գլխավորիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "գլխավոր",
+      "քո գլխավորիդ",
+      {
+        "inflection": "n_dat_sg_pss2s",
+        "rule_id": "n_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "ով",
+      "ամբողջ",
+      "ով ամբողջովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "ամիս",
+      "ով ամսովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "այսօր",
+      "ով այսօրովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "անգամ",
+      "ով անգամովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "անդամ",
+      "ով անդամովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "անց",
+      "ով անցովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "առավել",
+      "ով առավելովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "գլխավոր",
+      "ով գլխավորովս",
+      {
+        "inflection": "n_ins_sg_pss1s",
+        "rule_id": "n_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "ամբողջ",
+      "մի ամբողջիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "ամիս",
+      "մի ամսվանիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "այսօր",
+      "մի այսօրվանիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "անգամ",
+      "մի անգամիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "անդամ",
+      "մի անդամիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "անց",
+      "մի անցիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "առավել",
+      "մի առավելիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "գլխավոր",
+      "մի գլխավորիցս",
+      {
+        "inflection": "n_abl_sg_pss1s",
+        "rule_id": "n_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "ամբողջ",
+      "ում ամբողջումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "ամիս",
+      "ում ամսումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "այսօր",
+      "ում այսօրումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "անգամ",
+      "ում անգամումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "անդամ",
+      "ում անդամումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "անց",
+      "ում անցումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "առավել",
+      "ում առավելումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "գլխավոր",
+      "ում գլխավորումս",
+      {
+        "inflection": "n_loc_sg_pss1s",
+        "rule_id": "n_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "ամերիկյան",
+      "ը ամերիկյանին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "անկախ",
+      "ը անկախին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "անհրաժեշտ",
+      "ը անհրաժեշտին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "արագ",
+      "ը արագին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "արտաքին",
+      "ը արտաքինին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "բարձր",
+      "ը բարձրին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "բժշկական",
+      "ը բժշկականին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "բնական",
+      "ը բնականին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "բոլոր",
+      "ը բոլորին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "ը",
+      "գեղեցիկ",
+      "ը գեղեցիկին",
+      {
+        "inflection": "adj_dat_def_sg",
+        "rule_id": "adj_dat_sg_definite_post_article"
+      }
+    ],
+    [
+      "իմ",
+      "ամերիկյան",
+      "իմ ամերիկյանիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "անկախ",
+      "իմ անկախիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "անհրաժեշտ",
+      "իմ անհրաժեշտիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "արագ",
+      "իմ արագիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "արտաքին",
+      "իմ արտաքինիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "բարձր",
+      "իմ բարձրիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "բժշկական",
+      "իմ բժշկականիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "բնական",
+      "իմ բնականիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "բոլոր",
+      "իմ բոլորիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "իմ",
+      "գեղեցիկ",
+      "իմ գեղեցիկիս",
+      {
+        "inflection": "adj_dat_sg_pss1s",
+        "rule_id": "adj_dat_sg_possessive_first_singular"
+      }
+    ],
+    [
+      "դու",
+      "ամերիկյան",
+      "դու ամերիկյանիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "ամերիկյան",
+      "քո ամերիկյանիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "անկախ",
+      "դու անկախիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "անկախ",
+      "քո անկախիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "անհրաժեշտ",
+      "դու անհրաժեշտիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "անհրաժեշտ",
+      "քո անհրաժեշտիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "արագ",
+      "դու արագիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "արագ",
+      "քո արագիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "արտաքին",
+      "դու արտաքինիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "արտաքին",
+      "քո արտաքինիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "բարձր",
+      "դու բարձրիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "բարձր",
+      "քո բարձրիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "բժշկական",
+      "դու բժշկականիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "բժշկական",
+      "քո բժշկականիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "բնական",
+      "դու բնականիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "բնական",
+      "քո բնականիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "բոլոր",
+      "դու բոլորիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "բոլոր",
+      "քո բոլորիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "դու",
+      "գեղեցիկ",
+      "դու գեղեցիկիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "քո",
+      "գեղեցիկ",
+      "քո գեղեցիկիդ",
+      {
+        "inflection": "adj_dat_sg_pss2s",
+        "rule_id": "adj_dat_sg_possessive_second_singular"
+      }
+    ],
+    [
+      "ով",
+      "ամերիկյան",
+      "ով ամերիկյանովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "անկախ",
+      "ով անկախովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "անհրաժեշտ",
+      "ով անհրաժեշտովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "արագ",
+      "ով արագովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "արտաքին",
+      "ով արտաքինովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "բարձր",
+      "ով բարձրովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "բժշկական",
+      "ով բժշկականովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "բնական",
+      "ով բնականովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "բոլոր",
+      "ով բոլորովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "ով",
+      "գեղեցիկ",
+      "ով գեղեցիկովս",
+      {
+        "inflection": "adj_ins_sg_pss1s",
+        "rule_id": "adj_ins_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "ամերիկյան",
+      "մի ամերիկյանիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "անկախ",
+      "մի անկախիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "անհրաժեշտ",
+      "մի անհրաժեշտիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "արագ",
+      "մի արագիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "արտաքին",
+      "մի արտաքինիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "բարձր",
+      "մի բարձրիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "բժշկական",
+      "մի բժշկականիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "բնական",
+      "մի բնականիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "բոլոր",
+      "մի բոլորիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "մի",
+      "գեղեցիկ",
+      "մի գեղեցիկիցս",
+      {
+        "inflection": "adj_abl_sg_pss1s",
+        "rule_id": "adj_abl_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "ամերիկյան",
+      "ում ամերիկյանումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "անկախ",
+      "ում անկախումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "անհրաժեշտ",
+      "ում անհրաժեշտումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "արագ",
+      "ում արագումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "արտաքին",
+      "ում արտաքինումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "բարձր",
+      "ում բարձրումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "բժշկական",
+      "ում բժշկականումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "բնական",
+      "ում բնականումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "բոլոր",
+      "ում բոլորումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ում",
+      "գեղեցիկ",
+      "ում գեղեցիկումս",
+      {
+        "inflection": "adj_loc_sg_pss1s",
+        "rule_id": "adj_loc_sg_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "անգամ",
+      "ն անգամներին",
+      {
+        "inflection": "n_dat_def_pl",
+        "rule_id": "n_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "անց",
+      "ն անցերին",
+      {
+        "inflection": "n_dat_def_pl",
+        "rule_id": "n_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "առավել",
+      "ն առավելներին",
+      {
+        "inflection": "n_dat_def_pl",
+        "rule_id": "n_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "գլխավոր",
+      "ն գլխավորներին",
+      {
+        "inflection": "n_dat_def_pl",
+        "rule_id": "n_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "մեր",
+      "անգամ",
+      "մեր անգամներիս",
+      {
+        "inflection": "n_dat_pl_pss1s",
+        "rule_id": "n_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "անց",
+      "մեր անցերիս",
+      {
+        "inflection": "n_dat_pl_pss1s",
+        "rule_id": "n_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "առավել",
+      "մեր առավելներիս",
+      {
+        "inflection": "n_dat_pl_pss1s",
+        "rule_id": "n_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "գլխավոր",
+      "մեր գլխավորներիս",
+      {
+        "inflection": "n_dat_pl_pss1s",
+        "rule_id": "n_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "թաք",
+      "անգամ",
+      "թաք անգամներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "անգամ",
+      "ձեր անգամներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "անց",
+      "թաք անցերիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "անց",
+      "ձեր անցերիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "առավել",
+      "թաք առավելներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "առավել",
+      "ձեր առավելներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "գլխավոր",
+      "թաք գլխավորներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "գլխավոր",
+      "ձեր գլխավորներիդ",
+      {
+        "inflection": "n_dat_pl_pss2s",
+        "rule_id": "n_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ն",
+      "ամերիկյան",
+      "ն ամերիկյաններին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "անկախ",
+      "ն անկախներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "անհրաժեշտ",
+      "ն անհրաժեշտներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "արագ",
+      "ն արագներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "արտաքին",
+      "ն արտաքիններին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "բարձր",
+      "ն բարձրերին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "բժշկական",
+      "ն բժշկականներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "բնական",
+      "ն բնականներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "ն",
+      "գեղեցիկ",
+      "ն գեղեցիկներին",
+      {
+        "inflection": "adj_dat_def_pl",
+        "rule_id": "adj_dat_pl_definite_post_article"
+      }
+    ],
+    [
+      "մեր",
+      "ամերիկյան",
+      "մեր ամերիկյաններիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "անկախ",
+      "մեր անկախներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "անհրաժեշտ",
+      "մեր անհրաժեշտներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "արագ",
+      "մեր արագներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "արտաքին",
+      "մեր արտաքիններիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "բարձր",
+      "մեր բարձրերիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "բժշկական",
+      "մեր բժշկականներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "բնական",
+      "մեր բնականներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "մեր",
+      "գեղեցիկ",
+      "մեր գեղեցիկներիս",
+      {
+        "inflection": "adj_dat_pl_pss1s",
+        "rule_id": "adj_dat_pl_possessive_first_plural"
+      }
+    ],
+    [
+      "թաք",
+      "ամերիկյան",
+      "թաք ամերիկյաններիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "ամերիկյան",
+      "ձեր ամերիկյաններիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "անկախ",
+      "թաք անկախներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "անկախ",
+      "ձեր անկախներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "անհրաժեշտ",
+      "թաք անհրաժեշտներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "անհրաժեշտ",
+      "ձեր անհրաժեշտներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "արագ",
+      "թաք արագներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "արագ",
+      "ձեր արագներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "արտաքին",
+      "թաք արտաքիններիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "արտաքին",
+      "ձեր արտաքիններիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "բարձր",
+      "թաք բարձրերիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "բարձր",
+      "ձեր բարձրերիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "բժշկական",
+      "թաք բժշկականներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "բժշկական",
+      "ձեր բժշկականներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "բնական",
+      "թաք բնականներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "բնական",
+      "ձեր բնականներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "թաք",
+      "գեղեցիկ",
+      "թաք գեղեցիկներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ձեր",
+      "գեղեցիկ",
+      "ձեր գեղեցիկներիդ",
+      {
+        "inflection": "adj_dat_pl_pss2s",
+        "rule_id": "adj_dat_pl_possessive_second_plural"
+      }
+    ],
+    [
+      "ունեն",
+      "աշխատել",
+      "ունեն աշխատում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_have"
+      }
+    ],
+    [
+      "ունեն",
+      "բնակվել",
+      "ունեն բնակվում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_have"
+      }
+    ],
+    [
+      "ունեն",
+      "գնել",
+      "ունեն գնում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_have"
+      }
+    ],
+    [
+      "եմ",
+      "աշխատել",
+      "եմ աշխատում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "են",
+      "աշխատել",
+      "են աշխատում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "եմ",
+      "բնակվել",
+      "եմ բնակվում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "են",
+      "բնակվել",
+      "են բնակվում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "եմ",
+      "գնել",
+      "եմ գնում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "են",
+      "գնել",
+      "են գնում",
+      {
+        "inflection": "v_cvb_ipfv",
+        "rule_id": "v_cvb_ipfv_after_aux_be"
+      }
+    ],
+    [
+      "դու",
+      "աշխատել",
+      "դու կաշխատես",
+      {
+        "inflection": "v_cond_sg_2_fut",
+        "rule_id": "v_cond_sg_2_fut_after_pronoun_you"
+      }
+    ],
+    [
+      "դա",
+      "աշխատել",
+      "դա կաշխատի",
+      {
+        "inflection": "v_cond_sg_3_fut",
+        "rule_id": "v_cond_sg_3_fut_after_pronoun_he_she_it"
+      }
+    ],
+    [
+      "նա",
+      "աշխատել",
+      "նա կաշխատի",
+      {
+        "inflection": "v_cond_sg_3_fut",
+        "rule_id": "v_cond_sg_3_fut_after_pronoun_he_she_it"
+      }
+    ],
+    [
+      "մենք",
+      "աշխատել",
+      "մենք կաշխատենք",
+      {
+        "inflection": "v_cond_pl_1_fut",
+        "rule_id": "v_cond_pl_1_fut_after_pronoun_we"
+      }
+    ],
+    [
+      "դուք",
+      "աշխատել",
+      "դուք կաշխատեք",
+      {
+        "inflection": "v_cond_pl_2_fut",
+        "rule_id": "v_cond_pl_2_fut_after_pronoun_you_plural"
+      }
+    ],
+    [
+      "նրանք",
+      "աշխատել",
+      "նրանք կաշխատեն",
+      {
+        "inflection": "v_cond_pl_3_fut",
+        "rule_id": "v_cond_pl_3_fut_after_pronoun_they"
+      }
+    ],
+    [
+      "դեպի",
+      "ամերիկյան",
+      "դեպի ամերիկյանի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անկախ",
+      "դեպի անկախի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անհրաժեշտ",
+      "դեպի անհրաժեշտի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "արագ",
+      "դեպի արագի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "արտաքին",
+      "դեպի արտաքինի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "բարձր",
+      "դեպի բարձրի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "բժշկական",
+      "դեպի բժշկականի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "բնական",
+      "դեպի բնականի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "բոլոր",
+      "դեպի բոլորի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "գեղեցիկ",
+      "դեպի գեղեցիկի",
+      {
+        "inflection": "adj_dat_sg",
+        "rule_id": "adj_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "կան",
+      "ամերիկյան",
+      "կան ամերիկյանից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "ամերիկյան",
+      "հեռու ամերիկյանից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "անկախ",
+      "կան անկախից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "անկախ",
+      "հեռու անկախից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "անհրաժեշտ",
+      "կան անհրաժեշտից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "անհրաժեշտ",
+      "հեռու անհրաժեշտից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "արագ",
+      "կան արագից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "արագ",
+      "հեռու արագից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "արտաքին",
+      "կան արտաքինից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "արտաքին",
+      "հեռու արտաքինից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "բարձր",
+      "կան բարձրից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "բարձր",
+      "հեռու բարձրից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "բժշկական",
+      "կան բժշկականից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "բժշկական",
+      "հեռու բժշկականից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "բնական",
+      "կան բնականից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "բնական",
+      "հեռու բնականից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "բոլոր",
+      "կան բոլորից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "բոլոր",
+      "հեռու բոլորից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "գեղեցիկ",
+      "կան գեղեցիկից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "գեղեցիկ",
+      "հեռու գեղեցիկից",
+      {
+        "inflection": "adj_abl_sg",
+        "rule_id": "adj_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կն",
+      "ամերիկյան",
+      "կն ամերիկյանով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "ամերիկյան",
+      "հետ ամերիկյանով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "անկախ",
+      "կն անկախով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "անկախ",
+      "հետ անկախով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "անհրաժեշտ",
+      "կն անհրաժեշտով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "անհրաժեշտ",
+      "հետ անհրաժեշտով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "արագ",
+      "կն արագով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "արագ",
+      "հետ արագով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "արտաքին",
+      "կն արտաքինով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "արտաքին",
+      "հետ արտաքինով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "բարձր",
+      "կն բարձրով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "բարձր",
+      "հետ բարձրով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "բժշկական",
+      "կն բժշկականով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "բժշկական",
+      "հետ բժշկականով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "բնական",
+      "կն բնականով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "բնական",
+      "հետ բնականով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "բոլոր",
+      "կն բոլորով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "բոլոր",
+      "հետ բոլորով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "գեղեցիկ",
+      "կն գեղեցիկով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "գեղեցիկ",
+      "հետ գեղեցիկով",
+      {
+        "inflection": "adj_ins_sg",
+        "rule_id": "adj_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "մեջ",
+      "ամերիկյան",
+      "մեջ ամերիկյանում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "անկախ",
+      "մեջ անկախում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "անհրաժեշտ",
+      "մեջ անհրաժեշտում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "արագ",
+      "մեջ արագում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "արտաքին",
+      "մեջ արտաքինում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "բարձր",
+      "մեջ բարձրում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "բժշկական",
+      "մեջ բժշկականում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "բնական",
+      "մեջ բնականում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "բոլոր",
+      "մեջ բոլորում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "գեղեցիկ",
+      "մեջ գեղեցիկում",
+      {
+        "inflection": "adj_loc_sg",
+        "rule_id": "adj_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "դեպի",
+      "ամբողջ",
+      "դեպի ամբողջի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "ամիս",
+      "դեպի ամսվա",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "այսօր",
+      "դեպի այսօրվա",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անգամ",
+      "դեպի անգամի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անդամ",
+      "դեպի անդամի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անձ",
+      "դեպի անձի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անձնանուն",
+      "դեպի անվան",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անվտանգություն",
+      "դեպի անվտանգության",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "անց",
+      "դեպի անցի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "ապրիլ",
+      "դեպի ապրիլի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "առավել",
+      "դեպի առավելի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "ավել",
+      "դեպի ավելի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "բնակչություն",
+      "դեպի բնակչության",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "գլխավոր",
+      "դեպի գլխավորի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "դեպի",
+      "գյուղ",
+      "դեպի գյուղի",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition_to"
+      }
+    ],
+    [
+      "կան",
+      "ամբողջ",
+      "կան ամբողջից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "ամբողջ",
+      "հեռու ամբողջից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "ամիս",
+      "կան ամսվանից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "ամիս",
+      "հեռու ամսվանից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "այսօր",
+      "կան այսօրվանից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "այսօր",
+      "հեռու այսօրվանից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "անգամ",
+      "կան անգամից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "անգամ",
+      "հեռու անգամից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "անդամ",
+      "կան անդամից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "անդամ",
+      "հեռու անդամից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "անց",
+      "կան անցից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "անց",
+      "հեռու անցից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "առավել",
+      "կան առավելից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "առավել",
+      "հեռու առավելից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կան",
+      "գլխավոր",
+      "կան գլխավորից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "հեռու",
+      "գլխավոր",
+      "հեռու գլխավորից",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_preposition_from"
+      }
+    ],
+    [
+      "կն",
+      "ամբողջ",
+      "կն ամբողջով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "ամբողջ",
+      "հետ ամբողջով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "ամիս",
+      "կն ամսով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "ամիս",
+      "հետ ամսով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "այսօր",
+      "կն այսօրով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "այսօր",
+      "հետ այսօրով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "անգամ",
+      "կն անգամով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "անգամ",
+      "հետ անգամով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "անդամ",
+      "կն անդամով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "անդամ",
+      "հետ անդամով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "անց",
+      "կն անցով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "անց",
+      "հետ անցով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "առավել",
+      "կն առավելով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "առավել",
+      "հետ առավելով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "կն",
+      "գլխավոր",
+      "կն գլխավորով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "հետ",
+      "գլխավոր",
+      "հետ գլխավորով",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "n_ins_sg_after_preposition_with"
+      }
+    ],
+    [
+      "մեջ",
+      "ամբողջ",
+      "մեջ ամբողջում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "ամիս",
+      "մեջ ամսում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "այսօր",
+      "մեջ այսօրում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "անգամ",
+      "մեջ անգամում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "անդամ",
+      "մեջ անդամում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "անց",
+      "մեջ անցում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "առավել",
+      "մեջ առավելում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "արդյունք",
+      "մեջ արդյունքում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "գլխավոր",
+      "մեջ գլխավորում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ],
+    [
+      "մեջ",
+      "գյուղ",
+      "մեջ գյուղում",
+      {
+        "inflection": "n_loc_sg",
+        "rule_id": "n_loc_sg_after_preposition_in"
+      }
+    ]
+  ]
 }

@@ -1,0 +1,200 @@
+rule_id,inflection,pre_words,test_word,updated_words
+der_art_nom_masc_sg,,der,der,der der
+der_art_nom_masc_sg,,dieser,der,dieser der
+der_art_nom_masc_sg,,einer,der,einer der
+der_art_nom_masc_sg,,der,die,der der
+der_art_nom_masc_sg,,dieser,die,dieser der
+der_art_nom_masc_sg,,einer,die,einer der
+der_art_nom_masc_sg,,der,das,der der
+der_art_nom_masc_sg,,dieser,das,dieser der
+der_art_nom_masc_sg,,einer,das,einer der
+das_art_gen_neut_sg,,des,der,des des
+das_art_gen_neut_sg,,eines,der,eines des
+das_art_gen_neut_sg,,des,die,des des
+das_art_gen_neut_sg,,eines,die,eines des
+das_art_gen_neut_sg,,des,das,des des
+das_art_gen_neut_sg,,eines,das,eines des
+das_art_dat_neut_sg,,dem,der,dem dem
+das_art_dat_neut_sg,,einem,der,einem dem
+das_art_dat_neut_sg,,dem,die,dem dem
+das_art_dat_neut_sg,,einem,die,einem dem
+das_art_dat_neut_sg,,dem,das,dem dem
+das_art_dat_neut_sg,,einem,das,einem dem
+der_art_acc_masc_sg,,den,der,den den
+der_art_acc_masc_sg,,einen,der,einen den
+der_art_acc_masc_sg,,den,die,den den
+der_art_acc_masc_sg,,einen,die,einen den
+der_art_acc_masc_sg,,den,das,den den
+der_art_acc_masc_sg,,einen,das,einen den
+die_art_acc_fem_sg,,die,der,die die
+die_art_acc_fem_sg,,diese,der,diese die
+die_art_acc_fem_sg,,die,die,die die
+die_art_acc_fem_sg,,diese,die,diese die
+die_art_acc_fem_sg,,die,das,die die
+die_art_acc_fem_sg,,diese,das,diese die
+das_art_acc_neut_sg,,das,der,das das
+das_art_acc_neut_sg,,dieses,der,dieses das
+das_art_acc_neut_sg,,das,die,das das
+das_art_acc_neut_sg,,dieses,die,dieses das
+das_art_acc_neut_sg,,das,das,das das
+das_art_acc_neut_sg,,dieses,das,dieses das
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,Bescheid wissen,wir wissen
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,abkönnen,wir können
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,anessen,wir essen
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,anfangen,wir fangen an
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,ankönnen,wir können
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,anrufen,wir rufen an
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,aufhören,wir hören auf
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,behalten,wir behalten
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,bekommen,wir bekommen
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,bezahlen,wir bezahlen
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,bitten,wir bitten
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,bleiben,wir bleiben
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,brauchen,wir brauchen
+v_ind_pl_1_prs_haben,v_ind_pl_1_prs,wir,bringen,wir bringen
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,Bescheid wissen,ihr wisst
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,abkönnen,ihr könnt
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,anfangen,ihr fangt an
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,ankönnen,ihr könnt
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,anrufen,ihr ruft an
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,aufhören,ihr hört auf
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,behalten,ihr behaltet
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,bekommen,ihr bekommt
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,bezahlen,ihr bezahlt
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,bitten,ihr bittet
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,bleiben,ihr bleibt
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,brauchen,ihr braucht
+v_ind_pl_2_prs_haben,v_ind_pl_2_prs,ihr,bringen,ihr bringt
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,Bescheid wissen,sie wissen
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,abkönnen,sie können
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,anessen,sie essen
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,anfangen,sie fangen an
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,ankönnen,sie können
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,anrufen,sie rufen an
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,aufhören,sie hören auf
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,behalten,sie behalten
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,bekommen,sie bekommen
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,bezahlen,sie bezahlen
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,bitten,sie bitten
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,bleiben,sie bleiben
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,brauchen,sie brauchen
+v_ind_pl_3_prs_haben,v_ind_pl_3_prs,sie,bringen,sie bringen
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,Bescheid wissen,ich weiß
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,abkönnen,ich kann
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,altern,ich alter
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,anfangen,ich fange an
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,ankönnen,ich kann
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,anrufen,ich rufe an
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,aufhören,ich höre auf
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,behalten,ich behalte
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bekommen,ich bekomme
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bessern,ich besser
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bezahlen,ich bezahle
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bitten,ich bitte
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bleiben,ich bleibe
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,brauchen,ich brauche
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,bringen,ich bringe
+v_ind_sg_1_prs_haben,v_ind_sg_1_prs,ich,danken,ich danke
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,Bescheid wissen,du weißt
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,abkönnen,du kannst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,anfangen,du fängst an
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,ankönnen,du kannst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,anrufen,du rufst an
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,aufhören,du hörst auf
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,behalten,du behältst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,bekommen,du bekommst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,bezahlen,du bezahlst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,bitten,du bittest
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,bleiben,du bleibst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,brauchen,du brauchst
+v_ind_sg_2_prs_haben,v_ind_sg_2_prs,du,bringen,du bringst
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,Bescheid wissen,er weiß
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,Bescheid wissen,es weiß
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,abkönnen,er kann
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,abkönnen,es kann
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,anfangen,er fängt an
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,anfangen,es fängt an
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,ankönnen,er kann
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,ankönnen,es kann
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,anrufen,er ruft an
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,anrufen,es ruft an
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,aufhören,er hört auf
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,aufhören,es hört auf
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,behalten,er behält
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,behalten,es behält
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,bekommen,er bekommt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,bekommen,es bekommt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,bezahlen,er bezahlt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,bezahlen,es bezahlt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,bitten,er bittet
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,bitten,es bittet
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,bleiben,er bleibt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,bleiben,es bleibt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,brauchen,er braucht
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,brauchen,es braucht
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,er,bringen,er bringt
+v_ind_sg_3_prs_haben,v_ind_sg_3_prs,es,bringen,es bringt
+adj_nom_masc_sg_weak,adj_nom_masc_sg,aller,alt,aller alter
+adj_nom_masc_sg_weak,adj_nom_masc_sg,der,alt,der alter
+adj_nom_masc_sg_weak,adj_nom_masc_sg,aller,bloß,aller bloßer
+adj_nom_masc_sg_weak,adj_nom_masc_sg,der,bloß,der bloßer
+adj_nom_masc_sg_weak,adj_nom_masc_sg,aller,böse,aller böser
+adj_nom_masc_sg_weak,adj_nom_masc_sg,der,böse,der böser
+adj_nom_masc_sg_weak,adj_nom_masc_sg,aller,cool,aller cooler
+adj_nom_masc_sg_weak,adj_nom_masc_sg,der,cool,der cooler
+adj_gen_masc_sg_weak,adj_gen_masc_sg,des,alt,des alten
+adj_gen_masc_sg_weak,adj_gen_masc_sg,dieses,alt,dieses alten
+adj_gen_masc_sg_weak,adj_gen_masc_sg,des,bloß,des bloßen
+adj_gen_masc_sg_weak,adj_gen_masc_sg,dieses,bloß,dieses bloßen
+adj_gen_masc_sg_weak,adj_gen_masc_sg,des,böse,des bösen
+adj_gen_masc_sg_weak,adj_gen_masc_sg,dieses,böse,dieses bösen
+adj_gen_masc_sg_weak,adj_gen_masc_sg,des,cool,des coolen
+adj_gen_masc_sg_weak,adj_gen_masc_sg,dieses,cool,dieses coolen
+adj_dat_masc_sg_weak,adj_dat_masc_sg,dem,alt,dem altem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,diesem,alt,diesem altem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,dem,bloß,dem bloßem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,diesem,bloß,diesem bloßem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,dem,böse,dem bösem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,diesem,böse,diesem bösem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,dem,cool,dem coolem
+adj_dat_masc_sg_weak,adj_dat_masc_sg,diesem,cool,diesem coolem
+adj_acc_masc_sg_weak,adj_acc_masc_sg,den,alt,den alten
+adj_acc_masc_sg_weak,adj_acc_masc_sg,diesen,alt,diesen alten
+adj_acc_masc_sg_weak,adj_acc_masc_sg,den,bloß,den bloßen
+adj_acc_masc_sg_weak,adj_acc_masc_sg,diesen,bloß,diesen bloßen
+adj_acc_masc_sg_weak,adj_acc_masc_sg,den,böse,den bösen
+adj_acc_masc_sg_weak,adj_acc_masc_sg,diesen,böse,diesen bösen
+adj_acc_masc_sg_weak,adj_acc_masc_sg,den,cool,den coolen
+adj_acc_masc_sg_weak,adj_acc_masc_sg,diesen,cool,diesen coolen
+adj_nom_fem_sg_weak,adj_nom_fem_sg,die,alt,die alte
+adj_nom_fem_sg_weak,adj_nom_fem_sg,diese,alt,diese alte
+adj_nom_fem_sg_weak,adj_nom_fem_sg,die,bloß,die bloße
+adj_nom_fem_sg_weak,adj_nom_fem_sg,diese,bloß,diese bloße
+adj_nom_fem_sg_weak,adj_nom_fem_sg,die,böse,die böse
+adj_nom_fem_sg_weak,adj_nom_fem_sg,diese,böse,diese böse
+adj_nom_fem_sg_weak,adj_nom_fem_sg,die,cool,die coole
+adj_nom_fem_sg_weak,adj_nom_fem_sg,diese,cool,diese coole
+adj_gen_fem_sg_weak,adj_gen_fem_sg,einer,alt,einer alter
+adj_gen_fem_sg_weak,adj_gen_fem_sg,einer,bloß,einer bloßer
+adj_gen_fem_sg_weak,adj_gen_fem_sg,einer,böse,einer böser
+adj_gen_fem_sg_weak,adj_gen_fem_sg,einer,cool,einer cooler
+adj_nom_neut_sg_weak,adj_nom_neut_sg,das,alt,das altes
+adj_nom_neut_sg_weak,adj_nom_neut_sg,jedes,alt,jedes altes
+adj_nom_neut_sg_weak,adj_nom_neut_sg,das,bloß,das bloßes
+adj_nom_neut_sg_weak,adj_nom_neut_sg,jedes,bloß,jedes bloßes
+adj_nom_neut_sg_weak,adj_nom_neut_sg,das,böse,das böses
+adj_nom_neut_sg_weak,adj_nom_neut_sg,jedes,böse,jedes böses
+adj_nom_neut_sg_weak,adj_nom_neut_sg,das,cool,das cooles
+adj_nom_neut_sg_weak,adj_nom_neut_sg,jedes,cool,jedes cooles
+adj_nom_pl_weak,adj_nom_pl,alle,alt,alle alte
+adj_nom_pl_weak,adj_nom_pl,alle,bloß,alle bloße
+adj_nom_pl_weak,adj_nom_pl,alle,böse,alle böse
+adj_nom_pl_weak,adj_nom_pl,alle,cool,alle coole
+adj_dat_pl_weak,adj_dat_pl,allen,alt,allen alten
+adj_dat_pl_weak,adj_dat_pl,manchen,alt,manchen alten
+adj_dat_pl_weak,adj_dat_pl,allen,bloß,allen bloßen
+adj_dat_pl_weak,adj_dat_pl,manchen,bloß,manchen bloßen
+adj_dat_pl_weak,adj_dat_pl,allen,böse,allen bösen
+adj_dat_pl_weak,adj_dat_pl,manchen,böse,manchen bösen
+adj_dat_pl_weak,adj_dat_pl,allen,cool,allen coolen
+adj_dat_pl_weak,adj_dat_pl,manchen,cool,manchen coolen

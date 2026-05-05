@@ -1,9 +1,3295 @@
 {
-  "_type": "rules",
   "_locale": "et",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "et_noun_acc_sg_ending",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "määratud",
+            "see",
+            "too"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_gen_pl_ending",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mitu",
+            "mõned",
+            "palju"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_part_sg_ending",
+      "inflection": "n_prt_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "midagi",
+            "mingi"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_ess_sg_ending",
+      "inflection": "n_at_ess_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hea",
+            "uue",
+            "vana"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_abl_sg_ending",
+      "inflection": "n_in_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kust",
+            "seest",
+            "sest"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_all_sg_ending",
+      "inflection": "n_in_all_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "juurde",
+            "kätte",
+            "sisse"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_1sg",
+      "inflection": "v_act_prs_pos_ind_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ma",
+            "mina"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_2sg",
+      "inflection": "v_act_prs_pos_ind_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sa",
+            "sina"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_3sg",
+      "inflection": "v_act_prs_pos_ind_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ta",
+            "tema"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_1pl",
+      "inflection": "v_act_prs_pos_ind_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "me",
+            "meie"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_2pl",
+      "inflection": "v_act_prs_pos_ind_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "te",
+            "teie"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_act_prs_pos_ind_3pl",
+      "inflection": "v_act_prs_pos_ind_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nad",
+            "nemad"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_verb_ptcp_act_prs",
+      "inflection": "v_ptcp_act_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "olema",
+            "olevat"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_word_act_prs_pos_ind_1sg",
+      "inflection": "v_act_prs_pos_ind_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ma",
+            "mina"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "et_word_act_prs_pos_imp_2sg",
+      "inflection": "v_act_prs_pos_imp_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sa"
+          ]
+        }
+      ],
+      "type": "word"
+    },
+    {
+      "id": "et_verb_act_prs_neg_ind",
+      "inflection": "v_act_prs_neg_ind",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ei"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_noun_com_sg_ending",
+      "inflection": "n_com_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ga"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_verb_act_prs_pos_quot",
+      "inflection": "v_act_prs_pos_quot",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "kui"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "et_noun_frml_sg_ending",
+      "inflection": "n_frml_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ks"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_acc_pl_ending",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "need",
+            "needki"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_abl_sg_ending_2",
+      "inflection": "n_in_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-st"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_all_sg_ending_2",
+      "inflection": "n_in_all_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ni"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_abl_pl_ending_2",
+      "inflection": "n_in_abl_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-lt"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "et_noun_all_pl_ending_2",
+      "inflection": "n_in_all_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-le"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "määratud",
+      "aasta",
+      "määratud aasta",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "aasta",
+      "see aasta",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "abi",
+      "määratud abi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "abi",
+      "see abi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "doktor",
+      "määratud doktori",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "doktor",
+      "see doktori",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "elu",
+      "määratud elu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "elu",
+      "see elu",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "idee",
+      "määratud idee",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "idee",
+      "see idee",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "inimene",
+      "määratud inimese",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "inimene",
+      "see inimese",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "isa",
+      "määratud isa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "isa",
+      "see isa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "jumal",
+      "määratud jumala",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "jumal",
+      "see jumala",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "kaasa",
+      "määratud kaasa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "kaasa",
+      "see kaasa",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "kahju",
+      "määratud kahju",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "kahju",
+      "see kahju",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "kallis",
+      "määratud kalli",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "kallis",
+      "see kalli",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "kapten",
+      "määratud kapteni",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "kapten",
+      "see kapteni",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "keha",
+      "määratud keha",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "keha",
+      "see keha",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "määratud",
+      "kindel",
+      "määratud kindla",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "see",
+      "kindel",
+      "see kindla",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "et_noun_acc_sg_ending"
+      }
+    ],
+    [
+      "mitu",
+      "aasta",
+      "mitu aastate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "aasta",
+      "mõned aastate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "abi",
+      "mitu abide",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "abi",
+      "mõned abide",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "doktor",
+      "mitu doktorite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "doktor",
+      "mõned doktorite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "elu",
+      "mitu elude",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "elu",
+      "mõned elude",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "idee",
+      "mitu ideede",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "idee",
+      "mõned ideede",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "inimene",
+      "mitu inimeste",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "inimene",
+      "mõned inimeste",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "isa",
+      "mitu isade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "isa",
+      "mõned isade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "jumal",
+      "mitu jumalate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "jumal",
+      "mõned jumalate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "kaasa",
+      "mitu kaasade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "kaasa",
+      "mõned kaasade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "kahju",
+      "mitu kahjude",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "kahju",
+      "mõned kahjude",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "kallis",
+      "mitu kallite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "kallis",
+      "mõned kallite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "kapten",
+      "mitu kaptenite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "kapten",
+      "mõned kaptenite",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "keha",
+      "mitu kehade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "keha",
+      "mõned kehade",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mitu",
+      "kindel",
+      "mitu kindlate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "mõned",
+      "kindel",
+      "mõned kindlate",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "et_noun_gen_pl_ending"
+      }
+    ],
+    [
+      "midagi",
+      "aasta",
+      "midagi aastat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "aasta",
+      "mingi aastat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "abi",
+      "midagi abi",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "abi",
+      "mingi abi",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "doktor",
+      "midagi doktorit",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "doktor",
+      "mingi doktorit",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "elu",
+      "midagi elu",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "elu",
+      "mingi elu",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "idee",
+      "midagi ideed",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "idee",
+      "mingi ideed",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "inimene",
+      "midagi inimest",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "inimene",
+      "mingi inimest",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "isa",
+      "midagi isa",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "isa",
+      "mingi isa",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "jumal",
+      "midagi jumalat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "jumal",
+      "mingi jumalat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "kaasa",
+      "midagi kaasat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "kaasa",
+      "mingi kaasat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "kahju",
+      "midagi kahjut",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "kahju",
+      "mingi kahjut",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "kallis",
+      "midagi kallist",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "kallis",
+      "mingi kallist",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "kapten",
+      "midagi kaptenit",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "kapten",
+      "mingi kaptenit",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "keha",
+      "midagi keha",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "keha",
+      "mingi keha",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "midagi",
+      "kindel",
+      "midagi kindlat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "mingi",
+      "kindel",
+      "mingi kindlat",
+      {
+        "inflection": "n_prt_sg",
+        "rule_id": "et_noun_part_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "aasta",
+      "hea aastal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "aasta",
+      "uue aastal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "abi",
+      "hea abil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "abi",
+      "uue abil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "ase",
+      "hea asemel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "ase",
+      "uue asemel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "doktor",
+      "hea doktoril",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "doktor",
+      "uue doktoril",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "elu",
+      "hea elul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "elu",
+      "uue elul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "hommik",
+      "hea hommikul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "hommik",
+      "uue hommikul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "idee",
+      "hea ideel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "idee",
+      "uue ideel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "inimene",
+      "hea inimesel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "inimene",
+      "uue inimesel",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "isa",
+      "hea isal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "isa",
+      "uue isal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "jumal",
+      "hea jumalal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "jumal",
+      "uue jumalal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "kaasa",
+      "hea kaasal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "kaasa",
+      "uue kaasal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "kahju",
+      "hea kahjul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "kahju",
+      "uue kahjul",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "kallis",
+      "hea kallil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "kallis",
+      "uue kallil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "kapten",
+      "hea kaptenil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "kapten",
+      "uue kaptenil",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "keha",
+      "hea kehal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "keha",
+      "uue kehal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "hea",
+      "kindel",
+      "hea kindlal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "uue",
+      "kindel",
+      "uue kindlal",
+      {
+        "inflection": "n_at_ess_sg",
+        "rule_id": "et_noun_ess_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "aasta",
+      "kust aastast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "aasta",
+      "seest aastast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "abi",
+      "kust abist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "abi",
+      "seest abist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "doktor",
+      "kust doktorist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "doktor",
+      "seest doktorist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "elu",
+      "kust elust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "elu",
+      "seest elust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "hommik",
+      "kust hommikust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "hommik",
+      "seest hommikust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "idee",
+      "kust ideest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "idee",
+      "seest ideest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "inimene",
+      "kust inimesest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "inimene",
+      "seest inimesest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "isa",
+      "kust isast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "isa",
+      "seest isast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "jumal",
+      "kust jumalast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "jumal",
+      "seest jumalast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "kaasa",
+      "kust kaasast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "kaasa",
+      "seest kaasast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "kahju",
+      "kust kahjust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "kahju",
+      "seest kahjust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "kallis",
+      "kust kallist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "kallis",
+      "seest kallist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "kapten",
+      "kust kaptenist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "kapten",
+      "seest kaptenist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "keha",
+      "kust kehast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "keha",
+      "seest kehast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "kust",
+      "kindel",
+      "kust kindlast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "seest",
+      "kindel",
+      "seest kindlast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "aasta",
+      "juurde aastasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "aasta",
+      "kätte aastasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "abi",
+      "juurde appiabisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "abi",
+      "kätte appiabisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "doktor",
+      "juurde doktorisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "doktor",
+      "kätte doktorisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "elu",
+      "juurde elluelusse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "elu",
+      "kätte elluelusse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "idee",
+      "juurde ideesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "idee",
+      "kätte ideesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "inimene",
+      "juurde inimesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "inimene",
+      "kätte inimesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "isa",
+      "juurde issaisasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "isa",
+      "kätte issaisasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "jumal",
+      "juurde jumalasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "jumal",
+      "kätte jumalasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "kaasa",
+      "juurde kaasa",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "kaasa",
+      "kätte kaasa",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "kahju",
+      "juurde kahju",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "kahju",
+      "kätte kahju",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "kallis",
+      "juurde kallisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "kallis",
+      "kätte kallisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "kapten",
+      "juurde kaptenisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "kapten",
+      "kätte kaptenisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "keha",
+      "juurde kehha",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "keha",
+      "kätte kehha",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "juurde",
+      "kindel",
+      "juurde kindlasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "kätte",
+      "kindel",
+      "kätte kindlasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending"
+      }
+    ],
+    [
+      "ma",
+      "andma",
+      "ma annan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "andma",
+      "mina annan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "ma",
+      "armastama",
+      "ma armastan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "armastama",
+      "mina armastan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "ma",
+      "arvama",
+      "ma arvan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "arvama",
+      "mina arvan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "ma",
+      "hakkama",
+      "ma hakkan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "hakkama",
+      "mina hakkan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "ma",
+      "helistama",
+      "ma helistan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "helistama",
+      "mina helistan",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "sa",
+      "ajama",
+      "sa ajad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "sina",
+      "ajama",
+      "sina ajad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "sa",
+      "arvama",
+      "sa arvad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "sina",
+      "arvama",
+      "sina arvad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "sa",
+      "hakkama",
+      "sa hakkad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "sina",
+      "hakkama",
+      "sina hakkad",
+      {
+        "inflection": "v_act_prs_pos_ind_2_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_2sg"
+      }
+    ],
+    [
+      "ta",
+      "aitama",
+      "ta aitab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "tema",
+      "aitama",
+      "tema aitab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "ta",
+      "andma",
+      "ta annab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "tema",
+      "andma",
+      "tema annab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "ta",
+      "arvama",
+      "ta arvab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "tema",
+      "arvama",
+      "tema arvab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "ta",
+      "elama",
+      "ta elab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "tema",
+      "elama",
+      "tema elab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "ta",
+      "hakkama",
+      "ta hakkab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "tema",
+      "hakkama",
+      "tema hakkab",
+      {
+        "inflection": "v_act_prs_pos_ind_3_sg",
+        "rule_id": "et_verb_act_prs_pos_ind_3sg"
+      }
+    ],
+    [
+      "me",
+      "hakkama",
+      "me hakkame",
+      {
+        "inflection": "v_act_prs_pos_ind_1_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_1pl"
+      }
+    ],
+    [
+      "meie",
+      "hakkama",
+      "meie hakkame",
+      {
+        "inflection": "v_act_prs_pos_ind_1_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_1pl"
+      }
+    ],
+    [
+      "te",
+      "arvama",
+      "te arvate",
+      {
+        "inflection": "v_act_prs_pos_ind_2_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_2pl"
+      }
+    ],
+    [
+      "teie",
+      "arvama",
+      "teie arvate",
+      {
+        "inflection": "v_act_prs_pos_ind_2_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_2pl"
+      }
+    ],
+    [
+      "te",
+      "hakkama",
+      "te hakkate",
+      {
+        "inflection": "v_act_prs_pos_ind_2_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_2pl"
+      }
+    ],
+    [
+      "teie",
+      "hakkama",
+      "teie hakkate",
+      {
+        "inflection": "v_act_prs_pos_ind_2_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_2pl"
+      }
+    ],
+    [
+      "nad",
+      "hakkama",
+      "nad hakkavad",
+      {
+        "inflection": "v_act_prs_pos_ind_3_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_3pl"
+      }
+    ],
+    [
+      "nemad",
+      "hakkama",
+      "nemad hakkavad",
+      {
+        "inflection": "v_act_prs_pos_ind_3_pl",
+        "rule_id": "et_verb_act_prs_pos_ind_3pl"
+      }
+    ],
+    [
+      "olema",
+      "hakkama",
+      "olema hakkav",
+      {
+        "inflection": "v_ptcp_act_prs",
+        "rule_id": "et_verb_ptcp_act_prs"
+      }
+    ],
+    [
+      "olevat",
+      "hakkama",
+      "olevat hakkav",
+      {
+        "inflection": "v_ptcp_act_prs",
+        "rule_id": "et_verb_ptcp_act_prs"
+      }
+    ],
+    [
+      "ma",
+      "jääma",
+      "ma jään",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_word_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "mina",
+      "jääma",
+      "mina jään",
+      {
+        "inflection": "v_act_prs_pos_ind_1_sg",
+        "rule_id": "et_word_act_prs_pos_ind_1sg"
+      }
+    ],
+    [
+      "sa",
+      "jääma",
+      "sa jää",
+      {
+        "inflection": "v_act_prs_pos_imp_2_sg",
+        "rule_id": "et_word_act_prs_pos_imp_2sg"
+      }
+    ],
+    [
+      "ei",
+      "hakkama",
+      "ei ei hakka",
+      {
+        "inflection": "v_act_prs_neg_ind",
+        "rule_id": "et_verb_act_prs_neg_ind"
+      }
+    ],
+    [
+      "-ga",
+      "aasta",
+      "-ga aastaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "abi",
+      "-ga abiga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "doktor",
+      "-ga doktoriga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "elu",
+      "-ga eluga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "idee",
+      "-ga ideega",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "inimene",
+      "-ga inimesega",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "isa",
+      "-ga isaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "jumal",
+      "-ga jumalaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "kaasa",
+      "-ga kaasaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "kahju",
+      "-ga kahjuga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "kallis",
+      "-ga kalliga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "kapten",
+      "-ga kapteniga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "keha",
+      "-ga kehaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "-ga",
+      "kindel",
+      "-ga kindlaga",
+      {
+        "inflection": "n_com_sg",
+        "rule_id": "et_noun_com_sg_ending"
+      }
+    ],
+    [
+      "kui",
+      "hakkama",
+      "kui hakkavat",
+      {
+        "inflection": "v_act_prs_pos_quot",
+        "rule_id": "et_verb_act_prs_pos_quot"
+      }
+    ],
+    [
+      "-ks",
+      "aasta",
+      "-ks aastana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "abi",
+      "-ks abina",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "doktor",
+      "-ks doktorina",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "elu",
+      "-ks eluna",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "idee",
+      "-ks ideena",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "inimene",
+      "-ks inimesena",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "isa",
+      "-ks isana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "jumal",
+      "-ks jumalana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "kaasa",
+      "-ks kaasana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "kahju",
+      "-ks kahjuna",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "kallis",
+      "-ks kallina",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "kapten",
+      "-ks kaptenina",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "keha",
+      "-ks kehana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "-ks",
+      "kindel",
+      "-ks kindlana",
+      {
+        "inflection": "n_frml_sg",
+        "rule_id": "et_noun_frml_sg_ending"
+      }
+    ],
+    [
+      "need",
+      "aasta",
+      "need aastad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "aasta",
+      "needki aastad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "abi",
+      "need abid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "abi",
+      "needki abid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "doktor",
+      "need doktorid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "doktor",
+      "needki doktorid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "elu",
+      "need elud",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "elu",
+      "needki elud",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "idee",
+      "need ideed",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "idee",
+      "needki ideed",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "inimene",
+      "need inimesed",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "inimene",
+      "needki inimesed",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "isa",
+      "need isad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "isa",
+      "needki isad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "jumal",
+      "need jumalad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "jumal",
+      "needki jumalad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "kaasa",
+      "need kaasad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "kaasa",
+      "needki kaasad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "kahju",
+      "need kahjud",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "kahju",
+      "needki kahjud",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "kallis",
+      "need kallid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "kallis",
+      "needki kallid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "kapten",
+      "need kaptenid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "kapten",
+      "needki kaptenid",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "keha",
+      "need kehad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "keha",
+      "needki kehad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "need",
+      "kindel",
+      "need kindlad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "needki",
+      "kindel",
+      "needki kindlad",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "et_noun_acc_pl_ending"
+      }
+    ],
+    [
+      "-st",
+      "aasta",
+      "-st aastast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "abi",
+      "-st abist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "doktor",
+      "-st doktorist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "elu",
+      "-st elust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "hommik",
+      "-st hommikust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "idee",
+      "-st ideest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "inimene",
+      "-st inimesest",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "isa",
+      "-st isast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "jumal",
+      "-st jumalast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "kaasa",
+      "-st kaasast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "kahju",
+      "-st kahjust",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "kallis",
+      "-st kallist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "kapten",
+      "-st kaptenist",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "keha",
+      "-st kehast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-st",
+      "kindel",
+      "-st kindlast",
+      {
+        "inflection": "n_in_abl_sg",
+        "rule_id": "et_noun_abl_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "aasta",
+      "-ni aastasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "abi",
+      "-ni appiabisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "doktor",
+      "-ni doktorisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "elu",
+      "-ni elluelusse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "idee",
+      "-ni ideesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "inimene",
+      "-ni inimesse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "isa",
+      "-ni issaisasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "jumal",
+      "-ni jumalasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "kaasa",
+      "-ni kaasa",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "kahju",
+      "-ni kahju",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "kallis",
+      "-ni kallisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "kapten",
+      "-ni kaptenisse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "keha",
+      "-ni kehha",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-ni",
+      "kindel",
+      "-ni kindlasse",
+      {
+        "inflection": "n_in_all_sg",
+        "rule_id": "et_noun_all_sg_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "aasta",
+      "-lt aastatest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "abi",
+      "-lt abidest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "doktor",
+      "-lt doktoritest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "elu",
+      "-lt eludest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "idee",
+      "-lt ideedest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "inimene",
+      "-lt inimestest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "isa",
+      "-lt isadest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "jumal",
+      "-lt jumalatest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "kaasa",
+      "-lt kaasadest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "kahju",
+      "-lt kahjudest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "kallis",
+      "-lt kallitest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "kapten",
+      "-lt kaptenitest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "keha",
+      "-lt kehadest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-lt",
+      "kindel",
+      "-lt kindlatest",
+      {
+        "inflection": "n_in_abl_pl",
+        "rule_id": "et_noun_abl_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "aasta",
+      "-le aastatesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "abi",
+      "-le abidesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "doktor",
+      "-le doktoritesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "elu",
+      "-le eludesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "idee",
+      "-le ideedesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "inimene",
+      "-le inimestesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "isa",
+      "-le isadesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "jumal",
+      "-le jumalatesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "kaasa",
+      "-le kaasadesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "kahju",
+      "-le kahjudesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "kallis",
+      "-le kallitesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "kapten",
+      "-le kaptenitesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "keha",
+      "-le kehadesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ],
+    [
+      "-le",
+      "kindel",
+      "-le kindlatesse",
+      {
+        "inflection": "n_in_all_pl",
+        "rule_id": "et_noun_all_pl_ending_2"
+      }
+    ]
+  ]
 }

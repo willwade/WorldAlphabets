@@ -1,0 +1,39 @@
+rule_id,inflection,pre_words,test_word,updated_words
+it_pronoun_vowel_elision,,e,il,e l'
+it_pronoun_vowel_elision,,o,il,o l'
+it_pronoun_vowel_elision,,e,lo,e l'
+it_pronoun_vowel_elision,,o,lo,o l'
+it_pronoun_vowel_elision,,e,la,e l'
+it_pronoun_vowel_elision,,o,la,o l'
+preceding_article_masculine_singular,,il,buono,il buon
+preceding_article_masculine_singular,,lo,buono,lo buon
+preceding_article_masculine_singular,,un,buono,un buon
+preceding_article_masculine_singular,,il,grande,il grand'
+preceding_article_masculine_singular,,lo,grande,lo grand'
+preceding_article_masculine_singular,,un,grande,un grand'
+preceding_article_masculine_singular,,il,bello,il bel
+preceding_article_masculine_singular,,lo,bello,lo bel
+preceding_article_masculine_singular,,un,bello,un bel
+preceding_article_masculine_singular,,il,bravo,il bravo
+preceding_article_masculine_singular,,lo,bravo,lo bravo
+preceding_article_masculine_singular,,un,bravo,un bravo
+preceding_preposition_a,,a,casa,a a casa
+preceding_preposition_a,,a,scuola,a a scuola
+preceding_preposition_a,,a,teatro,a a teatro
+preceding_preposition_di,,di,amore,di d'amore
+preceding_preposition_di,,di,studio,di di studio
+preceding_preposition_di,,di,lavoro,di di lavoro
+preceding_preposition_in,,in,casa,in in casa
+preceding_preposition_in,,in,ufficio,in in ufficio
+preceding_preposition_in,,in,strada,in in strada
+preceding_preposition_con,,con,io,con con me
+preceding_preposition_con,,con,tu,con con te
+preceding_preposition_con,,con,lui,con con lui
+preceding_preposition_con,,con,lei,con con lei
+preceding_preposition_per,,per,me,per per me
+preceding_preposition_per,,per,te,per per te
+preceding_preposition_per,,per,lui,per per lui
+preceding_preposition_per,,per,lei,per per lei
+v_ind_prs_3_sg_preceding_pronoun,,mi,fa,mi fà
+v_ind_prs_3_sg_preceding_pronoun,,ti,fa,ti fà
+v_ind_prs_3_sg_preceding_pronoun,,si,fa,si fà

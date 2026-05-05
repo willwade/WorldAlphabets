@@ -31,7 +31,1708 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "def_artikel_die",
+      "lookback": [
+        {
+          "words": [
+            "die"
+          ]
+        }
+      ],
+      "overrides": {
+        "n": "die"
+      },
+      "type": "override"
+    },
+    {
+      "id": "adj_lgspec1_after_aan",
+      "inflection": "adj_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aan"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_lgspec2_after_by",
+      "inflection": "adj_lgspec2",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "by"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adv_after_baie",
+      "inflection": "adv",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "baie"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "n_pl_after_baie",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "baie"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_after_baie",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "baie"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "adj_lgspec1_after_bly",
+      "inflection": "adj_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bly"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_inf_after_bly",
+      "inflection": "v_inf",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "bly"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_pl_after_by",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "by"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_lgspec1_after_goed",
+      "inflection": "adj_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "goed"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adv_cmpr_after_goed",
+      "inflection": "adv_cmpr",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "goed"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "n_pl_after_goed",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "goed"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_after_hulle",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hulle"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "pro_after_hy",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hy"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "n_sg_after_hy",
+      "inflection": "n_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hy"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_sg_after_ek",
+      "inflection": "n_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ek"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_after_ek",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ek"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "v_prs_after_gaan",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "gaan"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_prs_after_gee",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "gee"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_pl_after_geen",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geen"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_after_geen",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "geen"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "v_prs_after_hou",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hou"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_pl_after_dink",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dink"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_prs_after_dink",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dink"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_lgspec1_after_hoe",
+      "inflection": "adj_lgspec1",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hoe"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adv_after_hoe",
+      "inflection": "adv",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hoe"
+          ]
+        }
+      ],
+      "type": "adverb"
+    },
+    {
+      "id": "n_pl_after_hoe",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hoe"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "pro_after_hierdie",
+      "inflection": "pro",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "hierdie"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "n_pl_after_dag",
+      "inflection": "n_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dag"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_prs_after_dag",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dag"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_prs_after_hê",
+      "inflection": "v_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hê"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "die",
+      "n",
+      "die die",
+      {
+        "rule_id": "def_artikel_die"
+      }
+    ],
+    [
+      "aan",
+      "aan",
+      "aan aan",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_aan"
+      }
+    ],
+    [
+      "aan",
+      "agter",
+      "aan agter",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_aan"
+      }
+    ],
+    [
+      "aan",
+      "alleen",
+      "aan alleen",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_aan"
+      }
+    ],
+    [
+      "aan",
+      "anders",
+      "aan anders",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_aan"
+      }
+    ],
+    [
+      "aan",
+      "arm",
+      "aan arm",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_aan"
+      }
+    ],
+    [
+      "by",
+      "amper",
+      "by amper",
+      {
+        "inflection": "adj_lgspec2",
+        "rule_id": "adj_lgspec2_after_by"
+      }
+    ],
+    [
+      "by",
+      "arm",
+      "by arm",
+      {
+        "inflection": "adj_lgspec2",
+        "rule_id": "adj_lgspec2_after_by"
+      }
+    ],
+    [
+      "baie",
+      "af",
+      "baie af",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "al",
+      "baie al",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "alles",
+      "baie alles",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "alreeds",
+      "baie alreeds",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "altyd",
+      "baie altyd",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "aand",
+      "baie aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "aarde",
+      "baie aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "admiraal",
+      "baie admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "adres",
+      "baie adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "afspraak",
+      "baie afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "agent",
+      "baie agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "als",
+      "baie alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "anna",
+      "baie annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "antwoord",
+      "baie antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "arme",
+      "baie armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "albei",
+      "baie albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_baie"
+      }
+    ],
+    [
+      "baie",
+      "almal",
+      "baie almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_baie"
+      }
+    ],
+    [
+      "bly",
+      "aan",
+      "bly aan",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_bly"
+      }
+    ],
+    [
+      "bly",
+      "agter",
+      "bly agter",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_bly"
+      }
+    ],
+    [
+      "bly",
+      "alleen",
+      "bly alleen",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_bly"
+      }
+    ],
+    [
+      "bly",
+      "anders",
+      "bly anders",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_bly"
+      }
+    ],
+    [
+      "bly",
+      "arm",
+      "bly arm",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_bly"
+      }
+    ],
+    [
+      "bly",
+      "aangaan",
+      "bly aangaan",
+      {
+        "inflection": "v_inf",
+        "rule_id": "v_inf_after_bly"
+      }
+    ],
+    [
+      "by",
+      "aand",
+      "by aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "aarde",
+      "by aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "admiraal",
+      "by admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "adres",
+      "by adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "afspraak",
+      "by afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "agent",
+      "by agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "als",
+      "by alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "anna",
+      "by annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "antwoord",
+      "by antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "by",
+      "arme",
+      "by armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_by"
+      }
+    ],
+    [
+      "goed",
+      "aan",
+      "goed aan",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "agter",
+      "goed agter",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "alleen",
+      "goed alleen",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "anders",
+      "goed anders",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "arm",
+      "goed arm",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "aand",
+      "goed aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "aarde",
+      "goed aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "admiraal",
+      "goed admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "adres",
+      "goed adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "afspraak",
+      "goed afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "agent",
+      "goed agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "als",
+      "goed alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "anna",
+      "goed annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "antwoord",
+      "goed antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "goed",
+      "arme",
+      "goed armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_goed"
+      }
+    ],
+    [
+      "hulle",
+      "albei",
+      "hulle albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hulle"
+      }
+    ],
+    [
+      "hulle",
+      "almal",
+      "hulle almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hulle"
+      }
+    ],
+    [
+      "hy",
+      "albei",
+      "hy albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "almal",
+      "hy almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "aand",
+      "hy aand",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "aarde",
+      "hy aarde",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "admiraal",
+      "hy admiraal",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "adres",
+      "hy adres",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "afspraak",
+      "hy afspraak",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "agent",
+      "hy agent",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "als",
+      "hy als",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "ander",
+      "hy ander",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "anna",
+      "hy anna",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "antwoord",
+      "hy antwoord",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "hy",
+      "arme",
+      "hy arme",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_hy"
+      }
+    ],
+    [
+      "ek",
+      "aand",
+      "ek aand",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "aarde",
+      "ek aarde",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "admiraal",
+      "ek admiraal",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "adres",
+      "ek adres",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "afspraak",
+      "ek afspraak",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "agent",
+      "ek agent",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "als",
+      "ek als",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "ander",
+      "ek ander",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "anna",
+      "ek anna",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "antwoord",
+      "ek antwoord",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "arme",
+      "ek arme",
+      {
+        "inflection": "n_sg",
+        "rule_id": "n_sg_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "albei",
+      "ek albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_ek"
+      }
+    ],
+    [
+      "ek",
+      "almal",
+      "ek almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_ek"
+      }
+    ],
+    [
+      "gaan",
+      "aangaan",
+      "gaan aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_gaan"
+      }
+    ],
+    [
+      "gee",
+      "aangaan",
+      "gee aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_gee"
+      }
+    ],
+    [
+      "geen",
+      "aand",
+      "geen aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "aarde",
+      "geen aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "admiraal",
+      "geen admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "adres",
+      "geen adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "afspraak",
+      "geen afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "agent",
+      "geen agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "als",
+      "geen alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "anna",
+      "geen annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "antwoord",
+      "geen antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "arme",
+      "geen armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "albei",
+      "geen albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_geen"
+      }
+    ],
+    [
+      "geen",
+      "almal",
+      "geen almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_geen"
+      }
+    ],
+    [
+      "hou",
+      "aangaan",
+      "hou aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_hou"
+      }
+    ],
+    [
+      "dink",
+      "aand",
+      "dink aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "aarde",
+      "dink aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "admiraal",
+      "dink admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "adres",
+      "dink adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "afspraak",
+      "dink afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "agent",
+      "dink agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "als",
+      "dink alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "anna",
+      "dink annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "antwoord",
+      "dink antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "arme",
+      "dink armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dink"
+      }
+    ],
+    [
+      "dink",
+      "aangaan",
+      "dink aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_dink"
+      }
+    ],
+    [
+      "hoe",
+      "aan",
+      "hoe aan",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "agter",
+      "hoe agter",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "alleen",
+      "hoe alleen",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "anders",
+      "hoe anders",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "arm",
+      "hoe arm",
+      {
+        "inflection": "adj_lgspec1",
+        "rule_id": "adj_lgspec1_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "af",
+      "hoe af",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "al",
+      "hoe al",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "alles",
+      "hoe alles",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "alreeds",
+      "hoe alreeds",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "altyd",
+      "hoe altyd",
+      {
+        "inflection": "adv",
+        "rule_id": "adv_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "aand",
+      "hoe aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "aarde",
+      "hoe aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "admiraal",
+      "hoe admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "adres",
+      "hoe adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "afspraak",
+      "hoe afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "agent",
+      "hoe agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "als",
+      "hoe alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "anna",
+      "hoe annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "antwoord",
+      "hoe antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hoe",
+      "arme",
+      "hoe armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_hoe"
+      }
+    ],
+    [
+      "hierdie",
+      "albei",
+      "hierdie albei",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hierdie"
+      }
+    ],
+    [
+      "hierdie",
+      "almal",
+      "hierdie almal",
+      {
+        "inflection": "pro",
+        "rule_id": "pro_after_hierdie"
+      }
+    ],
+    [
+      "dag",
+      "aand",
+      "dag aande",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "aarde",
+      "dag aardes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "admiraal",
+      "dag admiraals",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "adres",
+      "dag adresse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "afspraak",
+      "dag afsprake",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "agent",
+      "dag agente",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "als",
+      "dag alse",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "anna",
+      "dag annas",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "antwoord",
+      "dag antwoorde",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "arme",
+      "dag armes",
+      {
+        "inflection": "n_pl",
+        "rule_id": "n_pl_after_dag"
+      }
+    ],
+    [
+      "dag",
+      "aangaan",
+      "dag aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_dag"
+      }
+    ],
+    [
+      "hê",
+      "aangaan",
+      "hê aangaan",
+      {
+        "inflection": "v_prs",
+        "rule_id": "v_prs_after_hê"
+      }
+    ]
+  ]
 }

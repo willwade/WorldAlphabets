@@ -1,0 +1,7 @@
+rule_id,inflection,pre_words,test_word,updated_words
+nz_possessive_apostrophe,,a,'s,a 's
+nz_possessive_apostrophe,,any,'s,any 's
+nz_possessive_apostrophe,,some,'s,some 's
+nz_pronoun_you,,for,you,for ye
+nz_pronoun_you,,to,you,to ye
+nz_pronoun_you,,with,you,with ye

@@ -35,7 +35,1867 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "fr_override_est",
+      "lookback": [
+        {
+          "words": [
+            "il"
+          ]
+        }
+      ],
+      "overrides": {
+        "est": "es"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_override_je",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "overrides": {
+        "ai": "ai"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_override_tu",
+      "lookback": [
+        {
+          "words": [
+            "tu"
+          ]
+        }
+      ],
+      "overrides": {
+        "as": "as"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_override_vous",
+      "lookback": [
+        {
+          "words": [
+            "vous"
+          ]
+        }
+      ],
+      "overrides": {
+        "avez": "ave"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_override_ils",
+      "lookback": [
+        {
+          "words": [
+            "ils"
+          ]
+        }
+      ],
+      "overrides": {
+        "sont": "son"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_article_le_to_la_soft",
+      "lookback": [
+        {
+          "words": [
+            "de",
+            "à"
+          ]
+        }
+      ],
+      "overrides": {
+        "le": "la"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_pronoun_je_to_j",
+      "lookback": [
+        {
+          "words": [
+            "j'"
+          ]
+        }
+      ],
+      "overrides": {
+        "je": "j'"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_conjunction_que_to_qu",
+      "lookback": [
+        {
+          "words": [
+            "qu'"
+          ]
+        }
+      ],
+      "overrides": {
+        "que": "qu'"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_3_sg_er_ending",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "elle",
+            "il",
+            "on"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_1_sg_er_ending",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "je"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_2_sg_er_ending",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_1_pl_er_ending",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "nous"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_2_pl_er_ending",
+      "inflection": "v_ind_prs_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "vous"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_prs_3_pl_er_ending",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "elles",
+            "ils"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_sbjv_prs_3_sg_er_ending",
+      "inflection": "v_sbjv_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "que"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending",
+      "inflection": "v_ind_pst_1_sg_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "j'"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "il",
+      "est",
+      "il es",
+      {
+        "rule_id": "fr_override_est"
+      }
+    ],
+    [
+      "je",
+      "ai",
+      "je ai",
+      {
+        "rule_id": "fr_override_je"
+      }
+    ],
+    [
+      "tu",
+      "as",
+      "tu as",
+      {
+        "rule_id": "fr_override_tu"
+      }
+    ],
+    [
+      "vous",
+      "avez",
+      "vous ave",
+      {
+        "rule_id": "fr_override_vous"
+      }
+    ],
+    [
+      "ils",
+      "sont",
+      "ils son",
+      {
+        "rule_id": "fr_override_ils"
+      }
+    ],
+    [
+      "de",
+      "le",
+      "de la",
+      {
+        "rule_id": "fr_article_le_to_la_soft"
+      }
+    ],
+    [
+      "à",
+      "le",
+      "à la",
+      {
+        "rule_id": "fr_article_le_to_la_soft"
+      }
+    ],
+    [
+      "j'",
+      "je",
+      "j' j'",
+      {
+        "rule_id": "fr_pronoun_je_to_j"
+      }
+    ],
+    [
+      "qu'",
+      "que",
+      "qu' qu'",
+      {
+        "rule_id": "fr_conjunction_que_to_qu"
+      }
+    ],
+    [
+      "elle",
+      "acheter",
+      "elle achète",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "acheter",
+      "il achète",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "adorer",
+      "elle adore",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "adorer",
+      "il adore",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "affairer",
+      "elle affaire",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "affairer",
+      "il affaire",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "agir",
+      "elle agit",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "agir",
+      "il agit",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "aider",
+      "elle aide",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "aider",
+      "il aide",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "aimer",
+      "elle aime",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "aimer",
+      "il aime",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "aler",
+      "elle va",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "aler",
+      "il va",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "aller",
+      "elle va",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "aller",
+      "il va",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "appeler",
+      "elle appelle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "appeler",
+      "il appelle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "appeller",
+      "elle appelle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "appeller",
+      "il appelle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "apprendre",
+      "elle apprend",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "apprendre",
+      "il apprend",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "armer",
+      "elle arme",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "armer",
+      "il arme",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "arriver",
+      "elle arrive",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "arriver",
+      "il arrive",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "arriérer",
+      "elle arrière",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "arriérer",
+      "il arrière",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "attaquer",
+      "elle attaque",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "attaquer",
+      "il attaque",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "attendre",
+      "elle attend",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "attendre",
+      "il attend",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "avancer",
+      "elle avance",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "avancer",
+      "il avance",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "avancier",
+      "elle avance",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "avancier",
+      "il avance",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "aveir",
+      "elle a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "aveir",
+      "il a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "avoir",
+      "elle a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "avoir",
+      "il a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "avoyr",
+      "elle a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "avoyr",
+      "il a",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "baller",
+      "elle balle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "baller",
+      "il balle",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "battre",
+      "elle bat",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "battre",
+      "il bat",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "boillir",
+      "elle bout",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "boillir",
+      "il bout",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "elle",
+      "boire",
+      "elle boit",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "il",
+      "boire",
+      "il boit",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "fr_verb_v_ind_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "acheter",
+      "je achète",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "adorer",
+      "je adore",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "affairer",
+      "je affaire",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "aider",
+      "je aide",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "aimer",
+      "je aime",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "aller",
+      "je vais",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "appeler",
+      "je appelle",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "appeller",
+      "je appelle",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "apprendre",
+      "je apprends",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "armer",
+      "je arme",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "arriver",
+      "je arrive",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "arriérer",
+      "je arrière",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "attaquer",
+      "je attaque",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "attendre",
+      "je attends",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "avancer",
+      "je avance",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "avanter",
+      "je avant",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "aveir",
+      "je ai",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "avoir",
+      "je ai",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "avoyr",
+      "je ai",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "baller",
+      "je balle",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "battre",
+      "je bats",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "je",
+      "boire",
+      "je bois",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "fr_verb_v_ind_prs_1_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "acheter",
+      "tu achètes",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "affairer",
+      "tu affaires",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "aider",
+      "tu aides",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "aimer",
+      "tu aimes",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "aler",
+      "tu vas",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "aller",
+      "tu vas",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "appeler",
+      "tu appelles",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "apprendre",
+      "tu apprends",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "armer",
+      "tu armes",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "arriver",
+      "tu arrives",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "attendre",
+      "tu attends",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "aveir",
+      "tu as",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "avoir",
+      "tu as",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "avoyr",
+      "tu as",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "battre",
+      "tu bats",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "tu",
+      "boire",
+      "tu bois",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "fr_verb_v_ind_prs_2_sg_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "acheter",
+      "nous achetons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "aider",
+      "nous aidons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "aimer",
+      "nous aimons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "aller",
+      "nous allons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "appeler",
+      "nous appelons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "apprendre",
+      "nous apprenons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "arriver",
+      "nous arrivons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "attendre",
+      "nous attendons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "aveir",
+      "nous avons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "avoir",
+      "nous avons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "avoyr",
+      "nous avons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "battre",
+      "nous battons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "nous",
+      "boire",
+      "nous buvons",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "fr_verb_v_ind_prs_1_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "acheter",
+      "vous achetez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "aider",
+      "vous aidez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "aimer",
+      "vous aimez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "aller",
+      "vous allez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "appeler",
+      "vous appelez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "apprendre",
+      "vous apprenez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "arriver",
+      "vous arrivez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "attendre",
+      "vous attendez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "aveir",
+      "vous avez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "avoir",
+      "vous avez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "avoyr",
+      "vous avez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "battre",
+      "vous battez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "vous",
+      "boire",
+      "vous buvez",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "fr_verb_v_ind_prs_2_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "acheter",
+      "elles achètent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "acheter",
+      "ils achètent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "aider",
+      "elles aident",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "aider",
+      "ils aident",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "aimer",
+      "elles aiment",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "aimer",
+      "ils aiment",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "aler",
+      "elles vont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "aler",
+      "ils vont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "aller",
+      "elles vont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "aller",
+      "ils vont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "appeler",
+      "elles appellent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "appeler",
+      "ils appellent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "apprendre",
+      "elles apprennent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "apprendre",
+      "ils apprennent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "arriver",
+      "elles arrivent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "arriver",
+      "ils arrivent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "attendre",
+      "elles attendent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "attendre",
+      "ils attendent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "aveir",
+      "elles ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "aveir",
+      "ils ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "avoir",
+      "elles ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "avoir",
+      "ils ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "avoyr",
+      "elles ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "avoyr",
+      "ils ont",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "battre",
+      "elles battent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "battre",
+      "ils battent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "elles",
+      "boire",
+      "elles boivent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "ils",
+      "boire",
+      "ils boivent",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "fr_verb_v_ind_prs_3_pl_er_ending"
+      }
+    ],
+    [
+      "que",
+      "acheter",
+      "que achète",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "adorer",
+      "que adore",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "affairer",
+      "que affaire",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "aider",
+      "que aide",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "aimer",
+      "que aime",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "aller",
+      "que aille",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "appeler",
+      "que appelle",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "appeller",
+      "que appelle",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "apprendre",
+      "que apprenne",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "armer",
+      "que arme",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "arriver",
+      "que arrive",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "arriérer",
+      "que arrière",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "attaquer",
+      "que attaque",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "attendre",
+      "que attende",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "avancer",
+      "que avance",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "avanter",
+      "que avant",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "avoir",
+      "que ait",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "avoyr",
+      "que ait",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "baller",
+      "que balle",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "battre",
+      "que batte",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "que",
+      "boire",
+      "que boive",
+      {
+        "inflection": "v_sbjv_prs_3_sg",
+        "rule_id": "fr_verb_v_sbjv_prs_3_sg_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "acheter",
+      "j' achetai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "aider",
+      "j' aidai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "aimer",
+      "j' aimai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "aller",
+      "j' allai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "appeler",
+      "j' appelai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "apprendre",
+      "j' appris",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "arriver",
+      "j' arrivai",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "attendre",
+      "j' attendis",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "avoir",
+      "j' eus",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "battre",
+      "j' battis",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ],
+    [
+      "j'",
+      "boire",
+      "j' bus",
+      {
+        "inflection": "v_ind_pst_1_sg_pfv",
+        "rule_id": "fr_verb_v_ind_pst_1_sg_pfv_er_ending"
+      }
+    ]
+  ]
 }

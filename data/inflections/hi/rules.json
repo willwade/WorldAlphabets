@@ -1,9 +1,1126 @@
 {
-  "_type": "rules",
   "_locale": "hi",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "hindi_chalna_imp_pl",
+      "lookback": [
+        {
+          "words": [
+            "चल"
+          ]
+        }
+      ],
+      "overrides": {
+        "चलना": "चलिये"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_chahna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "चाह"
+          ]
+        }
+      ],
+      "overrides": {
+        "चाहना": "चाहिये"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_chalana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "चला"
+          ]
+        }
+      ],
+      "overrides": {
+        "चलाना": "चलाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_chhodna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "छोड़"
+          ]
+        }
+      ],
+      "overrides": {
+        "छोड़ना": "छोड़ो"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_milana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "मिला"
+          ]
+        }
+      ],
+      "overrides": {
+        "मिलाना": "मिलाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_apnana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "अपना"
+          ]
+        }
+      ],
+      "overrides": {
+        "अपनाना": "अपनाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_borna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "बोल"
+          ]
+        }
+      ],
+      "overrides": {
+        "बोलना": "बोलो"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_pana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "पा"
+          ]
+        }
+      ],
+      "overrides": {
+        "पाना": "पाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_bachana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "बचा"
+          ]
+        }
+      ],
+      "overrides": {
+        "बचाना": "बचाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_bethna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "बैठ"
+          ]
+        }
+      ],
+      "overrides": {
+        "बैठना": "बैठो"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_lana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "ला"
+          ]
+        }
+      ],
+      "overrides": {
+        "लाना": "लाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_jalana_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "जला"
+          ]
+        }
+      ],
+      "overrides": {
+        "जलाना": "जलाओ"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_nikalna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "निकल"
+          ]
+        }
+      ],
+      "overrides": {
+        "निकलना": "निकलो"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_pahuchnna_imp_sg",
+      "lookback": [
+        {
+          "words": [
+            "पहुँच"
+          ]
+        }
+      ],
+      "overrides": {
+        "पहुँचना": "पहुँचो"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hindi_imp_pl_form",
+      "inflection": "v_2_pl_imp_form",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "हो"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_imp_sg_form",
+      "inflection": "v_2_sg_imp_form",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "आप",
+            "तुम",
+            "वह"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_1pl_hab_masc_lgspec3",
+      "inflection": "v_1_pl_hab_lgspec3_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "हम"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_lagna_masc_sg_ipfv",
+      "inflection": "v_v_ptcp_masc_sg_ipfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "लग"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_sakna_masc_pl_pfv",
+      "inflection": "v_v_ptcp_masc_pl_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "सक"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_jana_1pl_hab_masc",
+      "inflection": "v_1_pl_hab_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "जाते"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_kahna_1pl_hab_masc",
+      "inflection": "v_1_pl_hab_prs_masc",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "कहते"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_bachna_masc_sg_pfv",
+      "inflection": "v_v_ptcp_masc_sg_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "बचा"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_bhejna_masc_sg_pfv",
+      "inflection": "v_v_ptcp_masc_sg_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "भेज"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "hindi_padna_masc_sg_pfv",
+      "inflection": "v_v_ptcp_masc_sg_pfv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "पड़ा"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "चल",
+      "चलना",
+      "चल चलिये",
+      {
+        "rule_id": "hindi_chalna_imp_pl"
+      }
+    ],
+    [
+      "चाह",
+      "चाहना",
+      "चाह चाहिये",
+      {
+        "rule_id": "hindi_chahna_imp_sg"
+      }
+    ],
+    [
+      "चला",
+      "चलाना",
+      "चला चलाओ",
+      {
+        "rule_id": "hindi_chalana_imp_sg"
+      }
+    ],
+    [
+      "छोड़",
+      "छोड़ना",
+      "छोड़ छोड़ो",
+      {
+        "rule_id": "hindi_chhodna_imp_sg"
+      }
+    ],
+    [
+      "मिला",
+      "मिलाना",
+      "मिला मिलाओ",
+      {
+        "rule_id": "hindi_milana_imp_sg"
+      }
+    ],
+    [
+      "अपना",
+      "अपनाना",
+      "अपना अपनाओ",
+      {
+        "rule_id": "hindi_apnana_imp_sg"
+      }
+    ],
+    [
+      "बोल",
+      "बोलना",
+      "बोल बोलो",
+      {
+        "rule_id": "hindi_borna_imp_sg"
+      }
+    ],
+    [
+      "पा",
+      "पाना",
+      "पा पाओ",
+      {
+        "rule_id": "hindi_pana_imp_sg"
+      }
+    ],
+    [
+      "बचा",
+      "बचाना",
+      "बचा बचाओ",
+      {
+        "rule_id": "hindi_bachana_imp_sg"
+      }
+    ],
+    [
+      "बैठ",
+      "बैठना",
+      "बैठ बैठो",
+      {
+        "rule_id": "hindi_bethna_imp_sg"
+      }
+    ],
+    [
+      "ला",
+      "लाना",
+      "ला लाओ",
+      {
+        "rule_id": "hindi_lana_imp_sg"
+      }
+    ],
+    [
+      "जला",
+      "जलाना",
+      "जला जलाओ",
+      {
+        "rule_id": "hindi_jalana_imp_sg"
+      }
+    ],
+    [
+      "निकल",
+      "निकलना",
+      "निकल निकलो",
+      {
+        "rule_id": "hindi_nikalna_imp_sg"
+      }
+    ],
+    [
+      "पहुँच",
+      "पहुँचना",
+      "पहुँच पहुँचो",
+      {
+        "rule_id": "hindi_pahuchnna_imp_sg"
+      }
+    ],
+    [
+      "हो",
+      "कहना",
+      "हो कहिए",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "हो",
+      "चलना",
+      "हो चलिए",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "हो",
+      "चाहना",
+      "हो चाहिए",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "हो",
+      "जानना",
+      "हो जानिए",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "हो",
+      "जाना",
+      "हो जाइये",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "हो",
+      "पूछना",
+      "हो पूछिए",
+      {
+        "inflection": "v_2_pl_imp_form",
+        "rule_id": "hindi_imp_pl_form"
+      }
+    ],
+    [
+      "आप",
+      "उठना",
+      "आप उठो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "उठना",
+      "तुम उठो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "आप",
+      "कहना",
+      "आप कहो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "कहना",
+      "तुम कहो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "आप",
+      "चलना",
+      "आप चलो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "चलना",
+      "तुम चलो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "आप",
+      "जानना",
+      "आप जानो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "जानना",
+      "तुम जानो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "आप",
+      "जाना",
+      "आप जाओ",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "जाना",
+      "तुम जाओ",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "आप",
+      "पूछना",
+      "आप पूछो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "तुम",
+      "पूछना",
+      "तुम पूछो",
+      {
+        "inflection": "v_2_sg_imp_form",
+        "rule_id": "hindi_imp_sg_form"
+      }
+    ],
+    [
+      "हम",
+      "कहना",
+      "हम कहते होंगे",
+      {
+        "inflection": "v_1_pl_hab_lgspec3_masc",
+        "rule_id": "hindi_1pl_hab_masc_lgspec3"
+      }
+    ],
+    [
+      "हम",
+      "जानना",
+      "हम जानते होंगे",
+      {
+        "inflection": "v_1_pl_hab_lgspec3_masc",
+        "rule_id": "hindi_1pl_hab_masc_lgspec3"
+      }
+    ],
+    [
+      "हम",
+      "जाना",
+      "हम जाते होंगे",
+      {
+        "inflection": "v_1_pl_hab_lgspec3_masc",
+        "rule_id": "hindi_1pl_hab_masc_lgspec3"
+      }
+    ],
+    [
+      "हम",
+      "पूछना",
+      "हम पूछते होंगे",
+      {
+        "inflection": "v_1_pl_hab_lgspec3_masc",
+        "rule_id": "hindi_1pl_hab_masc_lgspec3"
+      }
+    ],
+    [
+      "लग",
+      "कहना",
+      "लग कहता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "लग",
+      "चाहना",
+      "लग चाहता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "लग",
+      "जानना",
+      "लग जानता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "लग",
+      "जाना",
+      "लग जाता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "लग",
+      "पड़ना",
+      "लग पड़ता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "लग",
+      "पूछना",
+      "लग पूछता",
+      {
+        "inflection": "v_v_ptcp_masc_sg_ipfv",
+        "rule_id": "hindi_lagna_masc_sg_ipfv"
+      }
+    ],
+    [
+      "सक",
+      "कहना",
+      "सक कहे",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "सक",
+      "चलना",
+      "सक चले",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "सक",
+      "चुकना",
+      "सक चुके",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "सक",
+      "जानना",
+      "सक जाने",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "सक",
+      "जाना",
+      "सक गए",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "सक",
+      "पूछना",
+      "सक पूछे",
+      {
+        "inflection": "v_v_ptcp_masc_pl_pfv",
+        "rule_id": "hindi_sakna_masc_pl_pfv"
+      }
+    ],
+    [
+      "जाते",
+      "कहना",
+      "जाते कहते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_jana_1pl_hab_masc"
+      }
+    ],
+    [
+      "जाते",
+      "जानना",
+      "जाते जानते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_jana_1pl_hab_masc"
+      }
+    ],
+    [
+      "जाते",
+      "जाना",
+      "जाते जाते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_jana_1pl_hab_masc"
+      }
+    ],
+    [
+      "जाते",
+      "पूछना",
+      "जाते पूछते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_jana_1pl_hab_masc"
+      }
+    ],
+    [
+      "कहते",
+      "कहना",
+      "कहते कहते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_kahna_1pl_hab_masc"
+      }
+    ],
+    [
+      "कहते",
+      "जानना",
+      "कहते जानते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_kahna_1pl_hab_masc"
+      }
+    ],
+    [
+      "कहते",
+      "जाना",
+      "कहते जाते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_kahna_1pl_hab_masc"
+      }
+    ],
+    [
+      "कहते",
+      "पूछना",
+      "कहते पूछते हैं",
+      {
+        "inflection": "v_1_pl_hab_prs_masc",
+        "rule_id": "hindi_kahna_1pl_hab_masc"
+      }
+    ],
+    [
+      "बचा",
+      "उड़ना",
+      "बचा उड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "कहना",
+      "बचा कहा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "चलना",
+      "बचा चला",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "चुकना",
+      "बचा चुका",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "जानना",
+      "बचा जाना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "जाना",
+      "बचा गया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "पड़ना",
+      "बचा पड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "पाना",
+      "बचा पाया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "पूछना",
+      "बचा पूछा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "बचना",
+      "बचा बचा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "बचा",
+      "बनना",
+      "बचा बना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bachna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "उड़ना",
+      "भेज उड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "कहना",
+      "भेज कहा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "चलना",
+      "भेज चला",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "चुकना",
+      "भेज चुका",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "जानना",
+      "भेज जाना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "जाना",
+      "भेज गया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "पड़ना",
+      "भेज पड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "पाना",
+      "भेज पाया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "पूछना",
+      "भेज पूछा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "बचना",
+      "भेज बचा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "भेज",
+      "बनना",
+      "भेज बना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_bhejna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "उड़ना",
+      "पड़ा उड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "कहना",
+      "पड़ा कहा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "चलना",
+      "पड़ा चला",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "चुकना",
+      "पड़ा चुका",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "जानना",
+      "पड़ा जाना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "जाना",
+      "पड़ा गया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "पड़ना",
+      "पड़ा पड़ा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "पाना",
+      "पड़ा पाया",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "पूछना",
+      "पड़ा पूछा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "बचना",
+      "पड़ा बचा",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ],
+    [
+      "पड़ा",
+      "बनना",
+      "पड़ा बना",
+      {
+        "inflection": "v_v_ptcp_masc_sg_pfv",
+        "rule_id": "hindi_padna_masc_sg_pfv"
+      }
+    ]
+  ]
 }

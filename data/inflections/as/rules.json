@@ -1,9 +1,2260 @@
 {
-  "_type": "rules",
   "_locale": "as",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "as_v_indf_ind_sg_pl_3_pos_prs_inflection",
+      "inflection": "v_indf_ind_sg_pl_3_pos_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "সে"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_nfin_pos_inflection",
+      "inflection": "v_nfin_pos",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "পৰা",
+            "পৰি",
+            "পৰিব"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_pos_lgspec03_inflection",
+      "inflection": "v_pos_lgspec03",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ক",
+            "কিবা",
+            "না"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_pos_lgspec04_inflection",
+      "inflection": "v_pos_lgspec04",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "থকা"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_ptcp_prf_pos_inflection",
+      "inflection": "v_ptcp_prf_pos",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "গৈ",
+            "গৈছে"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_ptcp_pos_pst_inflection",
+      "inflection": "v_ptcp_pos_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "আছিল"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_indf_ind_sg_pl_2_pos_prs_lgspec02_inflection",
+      "inflection": "v_indf_ind_sg_pl_2_pos_prs_lgspec02",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "তুমি"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_n_gen_indf_sg_inflection",
+      "inflection": "n_gen_indf_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ৰ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_loc_indf_sg_inflection",
+      "inflection": "n_loc_indf_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ত",
+            "ভিতৰ",
+            "লৈ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_erg_indf_sg_inflection",
+      "inflection": "n_erg_indf_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "এ",
+            "দি",
+            "দিয়া"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_ins_indf_sg_inflection",
+      "inflection": "n_ins_indf_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "এদিয়া"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_acc_def_pl_lgspec09_inflection",
+      "inflection": "n_acc_def_pl_lgspec09",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "কেইটা"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_abs_def_pl_lgspec09_inflection",
+      "inflection": "n_abs_def_pl_lgspec09",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "কেইডফা"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_v_cond_pos_fut_inflection",
+      "inflection": "v_cond_pos_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "যদি"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_fem_pos_form_lgspec05_inflection",
+      "inflection": "v_fem_pos_form_lgspec05",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "মই"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_imp_sg_pl_2_pos_col_verb_inflection",
+      "inflection": "v_imp_sg_pl_2_pos_col",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "আপোনালৈ"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_n_abs_def_sg_lgspec08_inflection",
+      "inflection": "n_abs_def_sg_lgspec08",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "টাক"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_dat_def_sg_lgspec08_inflection",
+      "inflection": "n_dat_def_sg_lgspec08",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ক"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_v_fem_pos_infm_lgspec05_inflection",
+      "inflection": "v_fem_pos_infm_lgspec05",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "আমি"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_v_pos_lgspec07_inflection",
+      "inflection": "v_pos_lgspec07",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "হ",
+            "হৈছে"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "as_n_erg_def_pl_lgspec09_inflection",
+      "inflection": "n_erg_def_pl_lgspec09",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "এখন"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "as_n_erg_def_sg_lgspec08_inflection",
+      "inflection": "n_erg_def_sg_lgspec08",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "টোক"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "সে",
+      "অনা",
+      "সে অনায়",
+      {
+        "inflection": "v_indf_ind_sg_pl_3_pos_prs",
+        "rule_id": "as_v_indf_ind_sg_pl_3_pos_prs_inflection"
+      }
+    ],
+    [
+      "সে",
+      "অহা",
+      "সে অহায়",
+      {
+        "inflection": "v_indf_ind_sg_pl_3_pos_prs",
+        "rule_id": "as_v_indf_ind_sg_pl_3_pos_prs_inflection"
+      }
+    ],
+    [
+      "সে",
+      "কৰা",
+      "সে কৰায়",
+      {
+        "inflection": "v_indf_ind_sg_pl_3_pos_prs",
+        "rule_id": "as_v_indf_ind_sg_pl_3_pos_prs_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "অনা",
+      "পৰা অনা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "অনা",
+      "পৰি অনা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "অহা",
+      "পৰা অহা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "অহা",
+      "পৰি অহা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "আনা",
+      "পৰা আন",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "আনা",
+      "পৰি আন",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "কমা",
+      "পৰা কম",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "কমা",
+      "পৰি কম",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "কোওৱা",
+      "পৰা কোৱা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "কোওৱা",
+      "পৰি কোৱা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "কৰা",
+      "পৰা কৰা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "কৰা",
+      "পৰি কৰা",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "খেলা",
+      "পৰা খেল",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "খেলা",
+      "পৰি খেল",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰা",
+      "গঢ়া",
+      "পৰা গঢ়",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "পৰি",
+      "গঢ়া",
+      "পৰি গঢ়",
+      {
+        "inflection": "v_nfin_pos",
+        "rule_id": "as_v_nfin_pos_inflection"
+      }
+    ],
+    [
+      "ক",
+      "উঠা",
+      "ক উঠি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "কিবা",
+      "উঠা",
+      "কিবা উঠি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "ক",
+      "উভত",
+      "ক উভতি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "কিবা",
+      "উভত",
+      "কিবা উভতি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "ক",
+      "কৰা",
+      "ক কৰাই, কৰা",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "কিবা",
+      "কৰা",
+      "কিবা কৰাই, কৰা",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "ক",
+      "গঢ়া",
+      "ক গঢ়ি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "কিবা",
+      "গঢ়া",
+      "কিবা গঢ়ি",
+      {
+        "inflection": "v_pos_lgspec03",
+        "rule_id": "as_v_pos_lgspec03_inflection"
+      }
+    ],
+    [
+      "থকা",
+      "অনা",
+      "থকা অনাবলৈ",
+      {
+        "inflection": "v_pos_lgspec04",
+        "rule_id": "as_v_pos_lgspec04_inflection"
+      }
+    ],
+    [
+      "থকা",
+      "অহা",
+      "থকা অহাবলৈ",
+      {
+        "inflection": "v_pos_lgspec04",
+        "rule_id": "as_v_pos_lgspec04_inflection"
+      }
+    ],
+    [
+      "থকা",
+      "কৰা",
+      "থকা কৰাবলৈ",
+      {
+        "inflection": "v_pos_lgspec04",
+        "rule_id": "as_v_pos_lgspec04_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "অনা",
+      "গৈ অনাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "অনা",
+      "গৈছে অনাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "অহা",
+      "গৈ অহাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "অহা",
+      "গৈছে অহাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "আনা",
+      "গৈ আনি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "আনা",
+      "গৈছে আনি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "উঠা",
+      "গৈ উঠি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "উঠা",
+      "গৈছে উঠি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "উভত",
+      "গৈ উভতি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "উভত",
+      "গৈছে উভতি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "কৰা",
+      "গৈ কৰাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "কৰা",
+      "গৈছে কৰাই",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈ",
+      "গঢ়া",
+      "গৈ গঢ়ি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "গৈছে",
+      "গঢ়া",
+      "গৈছে গঢ়ি",
+      {
+        "inflection": "v_ptcp_prf_pos",
+        "rule_id": "as_v_ptcp_prf_pos_inflection"
+      }
+    ],
+    [
+      "আছিল",
+      "অনা",
+      "আছিল অনোৱা",
+      {
+        "inflection": "v_ptcp_pos_pst",
+        "rule_id": "as_v_ptcp_pos_pst_inflection"
+      }
+    ],
+    [
+      "আছিল",
+      "অহা",
+      "আছিল অহোৱা",
+      {
+        "inflection": "v_ptcp_pos_pst",
+        "rule_id": "as_v_ptcp_pos_pst_inflection"
+      }
+    ],
+    [
+      "আছিল",
+      "কৰা",
+      "আছিল কৰোৱা",
+      {
+        "inflection": "v_ptcp_pos_pst",
+        "rule_id": "as_v_ptcp_pos_pst_inflection"
+      }
+    ],
+    [
+      "তুমি",
+      "অনা",
+      "তুমি অনোৱা",
+      {
+        "inflection": "v_indf_ind_sg_pl_2_pos_prs_lgspec02",
+        "rule_id": "as_v_indf_ind_sg_pl_2_pos_prs_lgspec02_inflection"
+      }
+    ],
+    [
+      "তুমি",
+      "অহা",
+      "তুমি অহোৱা",
+      {
+        "inflection": "v_indf_ind_sg_pl_2_pos_prs_lgspec02",
+        "rule_id": "as_v_indf_ind_sg_pl_2_pos_prs_lgspec02_inflection"
+      }
+    ],
+    [
+      "তুমি",
+      "কৰা",
+      "তুমি কৰোৱা",
+      {
+        "inflection": "v_indf_ind_sg_pl_2_pos_prs_lgspec02",
+        "rule_id": "as_v_indf_ind_sg_pl_2_pos_prs_lgspec02_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "অক্টোবৰ",
+      "ৰ অক্টোবৰৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "অনুবাদ",
+      "ৰ অনুবাদৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "আইন",
+      "ৰ আইনৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "আগষ্ট",
+      "ৰ আগষ্টৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "এপ্ৰিল",
+      "ৰ এপ্ৰিলৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "কাৰণ",
+      "ৰ কাৰণৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "কিতাপ",
+      "ৰ কিতাপৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "খেল",
+      "ৰ খেলৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "খেলুৱৈ",
+      "ৰ খেলুৱৈৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "গছ",
+      "ৰ গছৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "গাঁও",
+      "ৰ গাঁৱৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "গ্ৰন্থ",
+      "ৰ গ্ৰন্থৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "ঘৰ",
+      "ৰ ঘৰৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ৰ",
+      "চন",
+      "ৰ চনৰ",
+      {
+        "inflection": "n_gen_indf_sg",
+        "rule_id": "as_n_gen_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "অক্টোবৰ",
+      "ত অক্টোবৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "অক্টোবৰ",
+      "ভিতৰ অক্টোবৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "অনুবাদ",
+      "ত অনুবাদত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "অনুবাদ",
+      "ভিতৰ অনুবাদত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "আইন",
+      "ত আইনত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "আইন",
+      "ভিতৰ আইনত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "আগষ্ট",
+      "ত আগষ্টত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "আগষ্ট",
+      "ভিতৰ আগষ্টত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "এপ্ৰিল",
+      "ত এপ্ৰিলত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "এপ্ৰিল",
+      "ভিতৰ এপ্ৰিলত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "ওপৰ",
+      "ত ওপৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "ওপৰ",
+      "ভিতৰ ওপৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "কাৰণ",
+      "ত কাৰণত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "কাৰণ",
+      "ভিতৰ কাৰণত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "কিতাপ",
+      "ত কিতাপত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "কিতাপ",
+      "ভিতৰ কিতাপত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "খেল",
+      "ত খেলত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "খেল",
+      "ভিতৰ খেলত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "খেলুৱৈ",
+      "ত খেলুৱৈত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "খেলুৱৈ",
+      "ভিতৰ খেলুৱৈত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "গাঁও",
+      "ত গাঁৱত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "গাঁও",
+      "ভিতৰ গাঁৱত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "গ্ৰন্থ",
+      "ত গ্ৰন্থত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "গ্ৰন্থ",
+      "ভিতৰ গ্ৰন্থত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "ঘৰ",
+      "ত ঘৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "ঘৰ",
+      "ভিতৰ ঘৰত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ত",
+      "চন",
+      "ত চনত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "ভিতৰ",
+      "চন",
+      "ভিতৰ চনত",
+      {
+        "inflection": "n_loc_indf_sg",
+        "rule_id": "as_n_loc_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "অক্টোবৰ",
+      "এ অক্টোবৰে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "অক্টোবৰ",
+      "দি অক্টোবৰে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "অনুবাদ",
+      "এ অনুবাদে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "অনুবাদ",
+      "দি অনুবাদে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "আইন",
+      "এ আইনে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "আইন",
+      "দি আইনে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "আগষ্ট",
+      "এ আগষ্টই",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "আগষ্ট",
+      "দি আগষ্টই",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "এপ্ৰিল",
+      "এ এপ্ৰিলে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "এপ্ৰিল",
+      "দি এপ্ৰিলে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "কাৰণ",
+      "এ কাৰণে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "কাৰণ",
+      "দি কাৰণে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "কিতাপ",
+      "এ কিতাপে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "কিতাপ",
+      "দি কিতাপে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "খেল",
+      "এ খেলে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "খেল",
+      "দি খেলে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "খেলুৱৈ",
+      "এ খেলুৱৈয়ে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "খেলুৱৈ",
+      "দি খেলুৱৈয়ে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "গ্ৰন্থ",
+      "এ গ্ৰন্থই",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "গ্ৰন্থ",
+      "দি গ্ৰন্থই",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "ঘৰ",
+      "এ ঘৰে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "ঘৰ",
+      "দি ঘৰে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এ",
+      "চন",
+      "এ চনে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "দি",
+      "চন",
+      "দি চনে",
+      {
+        "inflection": "n_erg_indf_sg",
+        "rule_id": "as_n_erg_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "অক্টোবৰ",
+      "এদিয়া অক্টোবৰেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "অনুবাদ",
+      "এদিয়া অনুবাদেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "আইন",
+      "এদিয়া আইনেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "আগষ্ট",
+      "এদিয়া আগষ্টৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "এপ্ৰিল",
+      "এদিয়া এপ্ৰিলেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "কাৰণ",
+      "এদিয়া কাৰণেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "কিতাপ",
+      "এদিয়া কিতাপেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "খেল",
+      "এদিয়া খেলেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "খেলুৱৈ",
+      "এদিয়া খেলুৱৈৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "গ্ৰন্থ",
+      "এদিয়া গ্ৰন্থৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "ঘৰ",
+      "এদিয়া ঘৰেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "এদিয়া",
+      "চন",
+      "এদিয়া চনেৰে",
+      {
+        "inflection": "n_ins_indf_sg",
+        "rule_id": "as_n_ins_indf_sg_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "অক্টোবৰ",
+      "কেইটা অক্টোবৰবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "অনুবাদ",
+      "কেইটা অনুবাদবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "আইন",
+      "কেইটা আইনবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "আগষ্ট",
+      "কেইটা আগষ্টবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "এপ্ৰিল",
+      "কেইটা এপ্ৰিলবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "কাৰণ",
+      "কেইটা কাৰণবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "কিতাপ",
+      "কেইটা কিতাপবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "খেল",
+      "কেইটা খেলবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "খেলুৱৈ",
+      "কেইটা খেলুৱৈবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "গ্ৰন্থ",
+      "কেইটা গ্ৰন্থবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "ঘৰ",
+      "কেইটা ঘৰবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইটা",
+      "চন",
+      "কেইটা চনবিলাকক",
+      {
+        "inflection": "n_acc_def_pl_lgspec09",
+        "rule_id": "as_n_acc_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "অক্টোবৰ",
+      "কেইডফা অক্টোবৰবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "অনুবাদ",
+      "কেইডফা অনুবাদবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "আইন",
+      "কেইডফা আইনবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "আগষ্ট",
+      "কেইডফা আগষ্টবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "এপ্ৰিল",
+      "কেইডফা এপ্ৰিলবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "কাৰণ",
+      "কেইডফা কাৰণবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "কিতাপ",
+      "কেইডফা কিতাপবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "খেল",
+      "কেইডফা খেলবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "খেলুৱৈ",
+      "কেইডফা খেলুৱৈবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "গ্ৰন্থ",
+      "কেইডফা গ্ৰন্থবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "ঘৰ",
+      "কেইডফা ঘৰবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "কেইডফা",
+      "চন",
+      "কেইডফা চনবিলাক",
+      {
+        "inflection": "n_abs_def_pl_lgspec09",
+        "rule_id": "as_n_abs_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "যদি",
+      "অনা",
+      "যদি অনালে",
+      {
+        "inflection": "v_cond_pos_fut",
+        "rule_id": "as_v_cond_pos_fut_inflection"
+      }
+    ],
+    [
+      "যদি",
+      "অহা",
+      "যদি অহালে",
+      {
+        "inflection": "v_cond_pos_fut",
+        "rule_id": "as_v_cond_pos_fut_inflection"
+      }
+    ],
+    [
+      "যদি",
+      "কৰা",
+      "যদি কৰালে",
+      {
+        "inflection": "v_cond_pos_fut",
+        "rule_id": "as_v_cond_pos_fut_inflection"
+      }
+    ],
+    [
+      "মই",
+      "কৰা",
+      "মই কৰাৱঁতী",
+      {
+        "inflection": "v_fem_pos_form_lgspec05",
+        "rule_id": "as_v_fem_pos_form_lgspec05_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "অনা",
+      "আপোনালৈ অনা",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "অহা",
+      "আপোনালৈ অহা",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "আনা",
+      "আপোনালৈ আন",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "কমা",
+      "আপোনালৈ কম",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "কোওৱা",
+      "আপোনালৈ কোৱা",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "কৰা",
+      "আপোনালৈ কৰা",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "খেলা",
+      "আপোনালৈ খেল",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "আপোনালৈ",
+      "গঢ়া",
+      "আপোনালৈ গঢ়",
+      {
+        "inflection": "v_imp_sg_pl_2_pos_col",
+        "rule_id": "as_v_imp_sg_pl_2_pos_col_verb_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "অক্টোবৰ",
+      "টাক অক্টোবৰটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "অনুবাদ",
+      "টাক অনুবাদটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "আইন",
+      "টাক আইনখন",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "আগষ্ট",
+      "টাক আগষ্টটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "এপ্ৰিল",
+      "টাক এপ্ৰিলটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "কাৰণ",
+      "টাক কাৰণটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "কিতাপ",
+      "টাক কিতাপখন",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "খেল",
+      "টাক খেলখন",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "খেলুৱৈ",
+      "টাক খেলুৱৈগৰাকী",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "গ্ৰন্থ",
+      "টাক গ্ৰন্থখন",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "ঘৰ",
+      "টাক ঘৰখন",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টাক",
+      "চন",
+      "টাক চনটো",
+      {
+        "inflection": "n_abs_def_sg_lgspec08",
+        "rule_id": "as_n_abs_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "অক্টোবৰ",
+      "ক অক্টোবৰটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "অনুবাদ",
+      "ক অনুবাদটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "আইন",
+      "ক আইনখনলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "আগষ্ট",
+      "ক আগষ্টটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "এপ্ৰিল",
+      "ক এপ্ৰিলটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "কাৰণ",
+      "ক কাৰণটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "কিতাপ",
+      "ক কিতাপখনলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "খেল",
+      "ক খেলখনলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "খেলুৱৈ",
+      "ক খেলুৱৈগৰাকীলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "গ্ৰন্থ",
+      "ক গ্ৰন্থখনলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "ঘৰ",
+      "ক ঘৰখনলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "ক",
+      "চন",
+      "ক চনটোলৈ",
+      {
+        "inflection": "n_dat_def_sg_lgspec08",
+        "rule_id": "as_n_dat_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "আমি",
+      "অনা",
+      "আমি অনাওঁৰী",
+      {
+        "inflection": "v_fem_pos_infm_lgspec05",
+        "rule_id": "as_v_fem_pos_infm_lgspec05_inflection"
+      }
+    ],
+    [
+      "আমি",
+      "অহা",
+      "আমি অহাওঁৰী",
+      {
+        "inflection": "v_fem_pos_infm_lgspec05",
+        "rule_id": "as_v_fem_pos_infm_lgspec05_inflection"
+      }
+    ],
+    [
+      "আমি",
+      "কৰা",
+      "আমি কৰাউৰী",
+      {
+        "inflection": "v_fem_pos_infm_lgspec05",
+        "rule_id": "as_v_fem_pos_infm_lgspec05_inflection"
+      }
+    ],
+    [
+      "হ",
+      "কৰা",
+      "হ কৰোৱাত",
+      {
+        "inflection": "v_pos_lgspec07",
+        "rule_id": "as_v_pos_lgspec07_inflection"
+      }
+    ],
+    [
+      "হৈছে",
+      "কৰা",
+      "হৈছে কৰোৱাত",
+      {
+        "inflection": "v_pos_lgspec07",
+        "rule_id": "as_v_pos_lgspec07_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "অক্টোবৰ",
+      "এখন অক্টোবৰবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "অনুবাদ",
+      "এখন অনুবাদবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "আইন",
+      "এখন আইনবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "আগষ্ট",
+      "এখন আগষ্টবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "এপ্ৰিল",
+      "এখন এপ্ৰিলবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "কাৰণ",
+      "এখন কাৰণবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "কিতাপ",
+      "এখন কিতাপবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "খেল",
+      "এখন খেলবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "খেলুৱৈ",
+      "এখন খেলুৱৈবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "গ্ৰন্থ",
+      "এখন গ্ৰন্থবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "ঘৰ",
+      "এখন ঘৰবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "এখন",
+      "চন",
+      "এখন চনবিলাকে",
+      {
+        "inflection": "n_erg_def_pl_lgspec09",
+        "rule_id": "as_n_erg_def_pl_lgspec09_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "অক্টোবৰ",
+      "টোক অক্টোবৰটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "অনুবাদ",
+      "টোক অনুবাদটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "আইন",
+      "টোক আইনখনে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "আগষ্ট",
+      "টোক আগষ্টটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "এপ্ৰিল",
+      "টোক এপ্ৰিলটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "কাৰণ",
+      "টোক কাৰণটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "কিতাপ",
+      "টোক কিতাপখনে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "খেল",
+      "টোক খেলখনে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "খেলুৱৈ",
+      "টোক খেলুৱৈগৰাকীয়ে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "গ্ৰন্থ",
+      "টোক গ্ৰন্থখনে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "ঘৰ",
+      "টোক ঘৰখনে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ],
+    [
+      "টোক",
+      "চন",
+      "টোক চনটোৱে",
+      {
+        "inflection": "n_erg_def_sg_lgspec08",
+        "rule_id": "as_n_erg_def_sg_lgspec08_inflection"
+      }
+    ]
+  ]
 }

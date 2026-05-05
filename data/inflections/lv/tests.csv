@@ -1,0 +1,16 @@
+rule_id,inflection,pre_words,test_word,updated_words
+lv_verb_nfin_neg_override,,ne,būt,ne nebūt
+lv_verb_nfin_neg_override,,ne,iet,ne neiet
+lv_verb_nfin_neg_override,,ne,darīt,ne nedarīt
+lv_verb_v_ptcp_prs_lgspec6_override,,var,varēt,var varams
+lv_noun_loc_sg_override,,arī,galds,arī galdā
+lv_noun_loc_sg_override,,pie,galds,pie galdā
+lv_noun_loc_sg_override,,uz,galds,uz galdā
+lv_noun_loc_sg_override,,arī,cilvēks,arī cilvēkā
+lv_noun_loc_sg_override,,pie,cilvēks,pie cilvēkā
+lv_noun_loc_sg_override,,uz,cilvēks,uz cilvēkā
+lv_noun_inst_sg_override,,ar,galds,ar galdam
+lv_noun_inst_sg_override,,bez,galds,bez galdam
+lv_noun_inst_sg_override,,ar,cilvēks,ar cilvēkam
+lv_noun_inst_sg_override,,bez,cilvēks,bez cilvēkam
+lv_noun_nom_pl_override,,šie,grāmata,šie grāmatas

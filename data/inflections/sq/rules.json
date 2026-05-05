@@ -1,9 +1,1488 @@
 {
-  "_type": "rules",
   "_locale": "sq",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "sq_override_1",
+      "lookback": [
+        {
+          "words": [
+            "unë"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "jam"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_override_2",
+      "lookback": [
+        {
+          "words": [
+            "ti"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "je"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_override_3",
+      "lookback": [
+        {
+          "words": [
+            "ai",
+            "ajo",
+            "kjo",
+            "ky"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "është"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_override_4",
+      "lookback": [
+        {
+          "words": [
+            "ne"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "jemi"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_override_5",
+      "lookback": [
+        {
+          "words": [
+            "ju"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "jeni"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_override_6",
+      "lookback": [
+        {
+          "words": [
+            "ata",
+            "ato",
+            "këta",
+            "këto"
+          ]
+        }
+      ],
+      "overrides": {
+        "jam": "janë"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sq_noun_acc_sg_def",
+      "inflection": "n_acc_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "e",
+            "të"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sq_noun_abl_sg_def",
+      "inflection": "n_abl_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nga"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sq_noun_gen_sg_def",
+      "inflection": "n_gen_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "i"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sq_noun_dat_pl_def",
+      "inflection": "n_dat_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "te"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sq_verb_3_pl_ind_prs",
+      "inflection": "v_3_pl_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ata",
+            "ato",
+            "këta",
+            "këto"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_2_sg_ind_prs",
+      "inflection": "v_2_sg_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ti"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_ind_prs",
+      "inflection": "v_1_pl_ind_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ne"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_2_sg_imp",
+      "inflection": "v_2_sg_imp",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ju"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_adm_prs",
+      "inflection": "v_1_pl_adm_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "na"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_cond_prs",
+      "inflection": "v_1_pl_cond_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "po"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_ind_fut",
+      "inflection": "v_1_pl_ind_fut",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "do"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_ind_prf",
+      "inflection": "v_1_pl_ind_prf",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "kemi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "sq_verb_1_pl_adm_prf_pst",
+      "inflection": "v_1_pl_adm_prf_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "keni"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "unë",
+      "jam",
+      "unë jam",
+      {
+        "rule_id": "sq_override_1"
+      }
+    ],
+    [
+      "ti",
+      "jam",
+      "ti je",
+      {
+        "rule_id": "sq_override_2"
+      }
+    ],
+    [
+      "ai",
+      "jam",
+      "ai është",
+      {
+        "rule_id": "sq_override_3"
+      }
+    ],
+    [
+      "ajo",
+      "jam",
+      "ajo është",
+      {
+        "rule_id": "sq_override_3"
+      }
+    ],
+    [
+      "kjo",
+      "jam",
+      "kjo është",
+      {
+        "rule_id": "sq_override_3"
+      }
+    ],
+    [
+      "ne",
+      "jam",
+      "ne jemi",
+      {
+        "rule_id": "sq_override_4"
+      }
+    ],
+    [
+      "ju",
+      "jam",
+      "ju jeni",
+      {
+        "rule_id": "sq_override_5"
+      }
+    ],
+    [
+      "ata",
+      "jam",
+      "ata janë",
+      {
+        "rule_id": "sq_override_6"
+      }
+    ],
+    [
+      "ato",
+      "jam",
+      "ato janë",
+      {
+        "rule_id": "sq_override_6"
+      }
+    ],
+    [
+      "këta",
+      "jam",
+      "këta janë",
+      {
+        "rule_id": "sq_override_6"
+      }
+    ],
+    [
+      "e",
+      "bashkëpunim",
+      "e bashkëpunimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "bashkëpunim",
+      "të bashkëpunimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "botë",
+      "e botën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "botë",
+      "të botën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "dorë",
+      "e dorën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "dorë",
+      "të dorën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "drejtim",
+      "e drejtimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "drejtim",
+      "të drejtimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "emër",
+      "e emrin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "emër",
+      "të emrin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "fillim",
+      "e fillimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "fillim",
+      "të fillimin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "fitore",
+      "e fitoren",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "fitore",
+      "të fitoren",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "fjalë",
+      "e fjalën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "fjalë",
+      "të fjalën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "gjuhë",
+      "e gjuhën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "gjuhë",
+      "të gjuhën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "histori",
+      "e historinë",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "histori",
+      "të historinë",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "ligj",
+      "e ligjin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "ligj",
+      "të ligjin",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "e",
+      "luftë",
+      "e luftën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "të",
+      "luftë",
+      "të luftën",
+      {
+        "inflection": "n_acc_sg_def",
+        "rule_id": "sq_noun_acc_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "bashkëpunim",
+      "nga bashkëpunimit",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "botë",
+      "nga botës",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "dorë",
+      "nga dorës",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "drejtim",
+      "nga drejtimit",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "emër",
+      "nga emrit",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "fillim",
+      "nga fillimit",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "fitore",
+      "nga fitores",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "fjalë",
+      "nga fjalës",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "histori",
+      "nga historisë",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "ligj",
+      "nga ligjit",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "nga",
+      "luftë",
+      "nga luftës",
+      {
+        "inflection": "n_abl_sg_def",
+        "rule_id": "sq_noun_abl_sg_def"
+      }
+    ],
+    [
+      "i",
+      "bashkëpunim",
+      "i bashkëpunimit",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "botë",
+      "i botës",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "dorë",
+      "i dorës",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "drejtim",
+      "i drejtimit",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "emër",
+      "i emrit",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "fillim",
+      "i fillimit",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "fitore",
+      "i fitores",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "fjalë",
+      "i fjalës",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "histori",
+      "i historisë",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "ligj",
+      "i ligjit",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "i",
+      "luftë",
+      "i luftës",
+      {
+        "inflection": "n_gen_sg_def",
+        "rule_id": "sq_noun_gen_sg_def"
+      }
+    ],
+    [
+      "te",
+      "bashkëpunim",
+      "te bashkëpunimeve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "botë",
+      "te botëve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "dorë",
+      "te duarve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "drejtim",
+      "te drejtimeve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "emër",
+      "te emrave",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "fillim",
+      "te fillimeve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "fitore",
+      "te fitoreve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "fjalë",
+      "te fjalave",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "forcë",
+      "te forcave",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "histori",
+      "te historive",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "institucion",
+      "te institucioneve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "te",
+      "ligj",
+      "te ligjeve",
+      {
+        "inflection": "n_dat_pl_def",
+        "rule_id": "sq_noun_dat_pl_def"
+      }
+    ],
+    [
+      "ata",
+      "besoj",
+      "ata besojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "besoj",
+      "ato besojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "bëhem",
+      "ata bëhen",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "bëhem",
+      "ato bëhen",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "bëj",
+      "ata bëjnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "bëj",
+      "ato bëjnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "hap",
+      "ata hapin",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "hap",
+      "ato hapin",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "jam",
+      "ata janë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "jam",
+      "ato janë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "jap",
+      "ata japin",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "jap",
+      "ato japin",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "jetoj",
+      "ata jetojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "jetoj",
+      "ato jetojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "kam",
+      "ata kanë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "kam",
+      "ato kanë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "kërkoj",
+      "ata kërkojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "kërkoj",
+      "ato kërkojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "lë",
+      "ata lënë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "lë",
+      "ato lënë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ata",
+      "mendoj",
+      "ata mendojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ato",
+      "mendoj",
+      "ato mendojnë",
+      {
+        "inflection": "v_3_pl_ind_prs",
+        "rule_id": "sq_verb_3_pl_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "besoj",
+      "ti beson",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "bëj",
+      "ti bën",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "filloj",
+      "ti fillon",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "hap",
+      "ti hap",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "jam",
+      "ti je",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "jap",
+      "ti jep",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "kam",
+      "ti ke",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "kërkoj",
+      "ti kërkon",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ti",
+      "mendoj",
+      "ti mendon",
+      {
+        "inflection": "v_2_sg_ind_prs",
+        "rule_id": "sq_verb_2_sg_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "besoj",
+      "ne besojmë",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "bëj",
+      "ne bëjmë",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "hap",
+      "ne hapim",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "jam",
+      "ne jemi",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "kam",
+      "ne kemi",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ne",
+      "mendoj",
+      "ne mendojmë",
+      {
+        "inflection": "v_1_pl_ind_prs",
+        "rule_id": "sq_verb_1_pl_ind_prs"
+      }
+    ],
+    [
+      "ju",
+      "besoj",
+      "ju beso",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "ju",
+      "hap",
+      "ju hap",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "ju",
+      "jam",
+      "ju ji",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "ju",
+      "jap",
+      "ju jep",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "ju",
+      "kam",
+      "ju ki",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "ju",
+      "mendoj",
+      "ju mendo",
+      {
+        "inflection": "v_2_sg_imp",
+        "rule_id": "sq_verb_2_sg_imp"
+      }
+    ],
+    [
+      "na",
+      "besoj",
+      "na besuakemi",
+      {
+        "inflection": "v_1_pl_adm_prs",
+        "rule_id": "sq_verb_1_pl_adm_prs"
+      }
+    ],
+    [
+      "na",
+      "hap",
+      "na hapkemi",
+      {
+        "inflection": "v_1_pl_adm_prs",
+        "rule_id": "sq_verb_1_pl_adm_prs"
+      }
+    ],
+    [
+      "na",
+      "jam",
+      "na qenkemi",
+      {
+        "inflection": "v_1_pl_adm_prs",
+        "rule_id": "sq_verb_1_pl_adm_prs"
+      }
+    ],
+    [
+      "na",
+      "kam",
+      "na paskemi",
+      {
+        "inflection": "v_1_pl_adm_prs",
+        "rule_id": "sq_verb_1_pl_adm_prs"
+      }
+    ],
+    [
+      "na",
+      "mendoj",
+      "na menduakemi",
+      {
+        "inflection": "v_1_pl_adm_prs",
+        "rule_id": "sq_verb_1_pl_adm_prs"
+      }
+    ],
+    [
+      "po",
+      "besoj",
+      "po do të besonim",
+      {
+        "inflection": "v_1_pl_cond_prs",
+        "rule_id": "sq_verb_1_pl_cond_prs"
+      }
+    ],
+    [
+      "po",
+      "hap",
+      "po do të hapnim",
+      {
+        "inflection": "v_1_pl_cond_prs",
+        "rule_id": "sq_verb_1_pl_cond_prs"
+      }
+    ],
+    [
+      "po",
+      "jam",
+      "po do të ishim",
+      {
+        "inflection": "v_1_pl_cond_prs",
+        "rule_id": "sq_verb_1_pl_cond_prs"
+      }
+    ],
+    [
+      "po",
+      "kam",
+      "po do të kishim",
+      {
+        "inflection": "v_1_pl_cond_prs",
+        "rule_id": "sq_verb_1_pl_cond_prs"
+      }
+    ],
+    [
+      "po",
+      "mendoj",
+      "po do të mendonim",
+      {
+        "inflection": "v_1_pl_cond_prs",
+        "rule_id": "sq_verb_1_pl_cond_prs"
+      }
+    ],
+    [
+      "do",
+      "besoj",
+      "do do të besojmë",
+      {
+        "inflection": "v_1_pl_ind_fut",
+        "rule_id": "sq_verb_1_pl_ind_fut"
+      }
+    ],
+    [
+      "do",
+      "hap",
+      "do do të hapim",
+      {
+        "inflection": "v_1_pl_ind_fut",
+        "rule_id": "sq_verb_1_pl_ind_fut"
+      }
+    ],
+    [
+      "do",
+      "jam",
+      "do do të jemi",
+      {
+        "inflection": "v_1_pl_ind_fut",
+        "rule_id": "sq_verb_1_pl_ind_fut"
+      }
+    ],
+    [
+      "do",
+      "kam",
+      "do do të kemi",
+      {
+        "inflection": "v_1_pl_ind_fut",
+        "rule_id": "sq_verb_1_pl_ind_fut"
+      }
+    ],
+    [
+      "do",
+      "mendoj",
+      "do do të mendojmë",
+      {
+        "inflection": "v_1_pl_ind_fut",
+        "rule_id": "sq_verb_1_pl_ind_fut"
+      }
+    ],
+    [
+      "kemi",
+      "besoj",
+      "kemi kemi besuar",
+      {
+        "inflection": "v_1_pl_ind_prf",
+        "rule_id": "sq_verb_1_pl_ind_prf"
+      }
+    ],
+    [
+      "kemi",
+      "hap",
+      "kemi kemi hapur",
+      {
+        "inflection": "v_1_pl_ind_prf",
+        "rule_id": "sq_verb_1_pl_ind_prf"
+      }
+    ],
+    [
+      "kemi",
+      "jam",
+      "kemi kemi qenë",
+      {
+        "inflection": "v_1_pl_ind_prf",
+        "rule_id": "sq_verb_1_pl_ind_prf"
+      }
+    ],
+    [
+      "kemi",
+      "kam",
+      "kemi kemi pasur",
+      {
+        "inflection": "v_1_pl_ind_prf",
+        "rule_id": "sq_verb_1_pl_ind_prf"
+      }
+    ],
+    [
+      "kemi",
+      "mendoj",
+      "kemi kemi menduar",
+      {
+        "inflection": "v_1_pl_ind_prf",
+        "rule_id": "sq_verb_1_pl_ind_prf"
+      }
+    ],
+    [
+      "keni",
+      "besoj",
+      "keni paskëshim besuar",
+      {
+        "inflection": "v_1_pl_adm_prf_pst",
+        "rule_id": "sq_verb_1_pl_adm_prf_pst"
+      }
+    ],
+    [
+      "keni",
+      "hap",
+      "keni paskëshim hapur",
+      {
+        "inflection": "v_1_pl_adm_prf_pst",
+        "rule_id": "sq_verb_1_pl_adm_prf_pst"
+      }
+    ],
+    [
+      "keni",
+      "jam",
+      "keni paskëshim qenë",
+      {
+        "inflection": "v_1_pl_adm_prf_pst",
+        "rule_id": "sq_verb_1_pl_adm_prf_pst"
+      }
+    ],
+    [
+      "keni",
+      "kam",
+      "keni paskëshim pasur",
+      {
+        "inflection": "v_1_pl_adm_prf_pst",
+        "rule_id": "sq_verb_1_pl_adm_prf_pst"
+      }
+    ],
+    [
+      "keni",
+      "mendoj",
+      "keni paskëshim menduar",
+      {
+        "inflection": "v_1_pl_adm_prf_pst",
+        "rule_id": "sq_verb_1_pl_adm_prf_pst"
+      }
+    ]
+  ]
 }

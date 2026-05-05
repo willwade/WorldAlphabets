@@ -1,9 +1,2776 @@
 {
-  "_type": "rules",
   "_locale": "mk",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "mk_noun_sg_def_remt_ending_a",
+      "inflection": "n_sg_def_remt",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ова",
+            "таа"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_sg_def_prox_ending_fem",
+      "inflection": "n_sg_def_prox",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "овата"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_sg_def_remt_ending_fem",
+      "inflection": "n_sg_def_remt",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "онаа"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_def_remt_ending_i",
+      "inflection": "n_pl_def_remt",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "тие"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_def_prox_ending_te",
+      "inflection": "n_pl_def_prox",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ове"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_def_remt_ending_te",
+      "inflection": "n_pl_def_remt",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "оне"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_verb_prs_3_sg_ending_a",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-а"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_3_sg_ending_e",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-е"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_3_sg_ending_i",
+      "inflection": "v_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-и"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_3_pl_ending_a",
+      "inflection": "v_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ат"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_3_pl_ending_a_short",
+      "inflection": "v_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ја"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_adj_masc_sg_def_ending_iot",
+      "inflection": "adj_masc_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-иот"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_adj_fem_sg_def_ending_ata",
+      "inflection": "adj_fem_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ата"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_adj_neut_sg_def_ending_eto",
+      "inflection": "adj_neut_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ето"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_adj_pl_def_ending_ite",
+      "inflection": "adj_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ите"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_noun_sg_voc_fem_ending_a",
+      "inflection": "n_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-о"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_sg_voc_masc_ending_e",
+      "inflection": "n_sg_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-е"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_voc_ending_i",
+      "inflection": "n_pl_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-и"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_voc_ending_ja",
+      "inflection": "n_pl_voc",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-ја"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_verb_prs_2_pl_ending_ete",
+      "inflection": "v_prs_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ете"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_2_pl_ending_ete_short",
+      "inflection": "v_prs_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-јте"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_ptcp_pst_pass_ending_n",
+      "inflection": "v_ptcp_pst_pass",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-н"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_ptcp_pst_pass_ending_t",
+      "inflection": "v_ptcp_pst_pass",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-т"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_ptcp_prog_pst_sg_ending_v",
+      "inflection": "v_ptcp_prog_pst_masc_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-в"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_ptcp_prog_pst_sg_ending_l",
+      "inflection": "v_ptcp_prog_pst_masc_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-л"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_1_sg_ending_am",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ам"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_1_sg_ending_em",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ем"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_1_sg_ending_im",
+      "inflection": "v_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-им"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_1_pl_ending_me",
+      "inflection": "v_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ме"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_1_pl_ending_vme",
+      "inflection": "v_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-вме"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_2_sg_ending_sh",
+      "inflection": "v_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-ш"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_verb_prs_2_sg_ending_esh",
+      "inflection": "v_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-еш"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "mk_adj_pl_indf_ending_i",
+      "inflection": "adj_pl_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-и"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_adj_fem_sg_indf_ending_a",
+      "inflection": "adj_fem_sg_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-а"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_adj_neut_sg_indf_ending_o",
+      "inflection": "adj_neut_sg_indf",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-о"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "mk_noun_pl_def_ending_te_prox",
+      "inflection": "n_pl_def_prox",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ов",
+            "овов"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_noun_pl_def_ending_te_remt",
+      "inflection": "n_pl_def_remt",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "он",
+            "онов"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "mk_verb_cvb_ending_je",
+      "inflection": "v_cvb",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "-јќи"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ова",
+      "албум",
+      "ова албумон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "албум",
+      "таа албумон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "банка",
+      "ова банкана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "банка",
+      "таа банкана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "бара",
+      "ова ќе сум барал",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "бара",
+      "таа ќе сум барал",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "барање",
+      "ова барањено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "барање",
+      "таа барањено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "бизнис",
+      "ова бизнисон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "бизнис",
+      "таа бизнисон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "близина",
+      "ова близинана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "близина",
+      "таа близинана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "борба",
+      "ова борбана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "борба",
+      "таа борбана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "број",
+      "ова бројон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "број",
+      "таа бројон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "век",
+      "ова векон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "век",
+      "таа векон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "весник",
+      "ова весникон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "весник",
+      "таа весникон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "вид",
+      "ова видон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "вид",
+      "таа видон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "влада",
+      "ова владана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "влада",
+      "таа владана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "ова",
+      "влијание",
+      "ова влијаниено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "таа",
+      "влијание",
+      "таа влијаниено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_a"
+      }
+    ],
+    [
+      "овата",
+      "албум",
+      "овата албумов",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "банка",
+      "овата банкава",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "бара",
+      "овата ќе барав",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "барање",
+      "овата барањево",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "бизнис",
+      "овата бизнисов",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "близина",
+      "овата близинава",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "борба",
+      "овата борбава",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "број",
+      "овата бројов",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "век",
+      "овата веков",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "весник",
+      "овата весников",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "вид",
+      "овата видов",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "влада",
+      "овата владава",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "овата",
+      "влијание",
+      "овата влијаниево",
+      {
+        "inflection": "n_sg_def_prox",
+        "rule_id": "mk_noun_sg_def_prox_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "албум",
+      "онаа албумон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "банка",
+      "онаа банкана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "бара",
+      "онаа ќе сум барал",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "барање",
+      "онаа барањено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "бизнис",
+      "онаа бизнисон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "близина",
+      "онаа близинана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "борба",
+      "онаа борбана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "број",
+      "онаа бројон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "век",
+      "онаа векон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "весник",
+      "онаа весникон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "вид",
+      "онаа видон",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "влада",
+      "онаа владана",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "онаа",
+      "влијание",
+      "онаа влијаниено",
+      {
+        "inflection": "n_sg_def_remt",
+        "rule_id": "mk_noun_sg_def_remt_ending_fem"
+      }
+    ],
+    [
+      "тие",
+      "албум",
+      "тие албумине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "банка",
+      "тие банкине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "барање",
+      "тие барањана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "бизнис",
+      "тие бизнисине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "близина",
+      "тие близинине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "борба",
+      "тие борбине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "број",
+      "тие броевине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "век",
+      "тие вековине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "весник",
+      "тие весницине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "вид",
+      "тие видовине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "влада",
+      "тие владине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "влијание",
+      "тие влијаниjана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "тие",
+      "возраст",
+      "тие возрастине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_i"
+      }
+    ],
+    [
+      "ове",
+      "албум",
+      "ове албумиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "банка",
+      "ове банкиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "барање",
+      "ове барањава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "бизнис",
+      "ове бизнисиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "близина",
+      "ове близиниве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "борба",
+      "ове борбиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "број",
+      "ове броевиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "век",
+      "ове вековиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "весник",
+      "ове веснициве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "вид",
+      "ове видовиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "влада",
+      "ове владиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "влијание",
+      "ове влијаниjава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "ове",
+      "возраст",
+      "ове возрастиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_prox_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "албум",
+      "оне албумине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "банка",
+      "оне банкине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "барање",
+      "оне барањана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "бизнис",
+      "оне бизнисине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "близина",
+      "оне близинине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "борба",
+      "оне борбине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "број",
+      "оне броевине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "век",
+      "оне вековине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "весник",
+      "оне весницине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "вид",
+      "оне видовине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "влада",
+      "оне владине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "влијание",
+      "оне влијаниjана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "оне",
+      "возраст",
+      "оне возрастине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_remt_ending_te"
+      }
+    ],
+    [
+      "-а",
+      "вели",
+      "-а вели",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_a"
+      }
+    ],
+    [
+      "-а",
+      "води",
+      "-а води",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_a"
+      }
+    ],
+    [
+      "-е",
+      "вели",
+      "-е вели",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "води",
+      "-е води",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_e"
+      }
+    ],
+    [
+      "-и",
+      "вели",
+      "-и вели",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "води",
+      "-и води",
+      {
+        "inflection": "v_prs_3_sg",
+        "rule_id": "mk_verb_prs_3_sg_ending_i"
+      }
+    ],
+    [
+      "-ат",
+      "вели",
+      "-ат велат",
+      {
+        "inflection": "v_prs_3_pl",
+        "rule_id": "mk_verb_prs_3_pl_ending_a"
+      }
+    ],
+    [
+      "-ат",
+      "води",
+      "-ат водат",
+      {
+        "inflection": "v_prs_3_pl",
+        "rule_id": "mk_verb_prs_3_pl_ending_a"
+      }
+    ],
+    [
+      "-ја",
+      "вели",
+      "-ја велат",
+      {
+        "inflection": "v_prs_3_pl",
+        "rule_id": "mk_verb_prs_3_pl_ending_a_short"
+      }
+    ],
+    [
+      "-ја",
+      "води",
+      "-ја водат",
+      {
+        "inflection": "v_prs_3_pl",
+        "rule_id": "mk_verb_prs_3_pl_ending_a_short"
+      }
+    ],
+    [
+      "-иот",
+      "американски",
+      "-иот американскиот",
+      {
+        "inflection": "adj_masc_sg_def",
+        "rule_id": "mk_adj_masc_sg_def_ending_iot"
+      }
+    ],
+    [
+      "-ата",
+      "американски",
+      "-ата американската",
+      {
+        "inflection": "adj_fem_sg_def",
+        "rule_id": "mk_adj_fem_sg_def_ending_ata"
+      }
+    ],
+    [
+      "-ето",
+      "американски",
+      "-ето американското",
+      {
+        "inflection": "adj_neut_sg_def",
+        "rule_id": "mk_adj_neut_sg_def_ending_eto"
+      }
+    ],
+    [
+      "-ите",
+      "американски",
+      "-ите американските",
+      {
+        "inflection": "adj_pl_def",
+        "rule_id": "mk_adj_pl_def_ending_ite"
+      }
+    ],
+    [
+      "-о",
+      "албум",
+      "-о албуму",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "банка",
+      "-о банко",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "бара",
+      "-о би барал",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "барање",
+      "-о барање",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "бизнис",
+      "-о бизнису",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "близина",
+      "-о близино",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "борба",
+      "-о борбо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "број",
+      "-о броју",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "век",
+      "-о веку",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "весник",
+      "-о веснику",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "вид",
+      "-о виду",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "влада",
+      "-о владо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "влијание",
+      "-о влијание",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "возраст",
+      "-о возраст",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_fem_ending_a"
+      }
+    ],
+    [
+      "-е",
+      "албум",
+      "-е албуму",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "банка",
+      "-е банко",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "бара",
+      "-е би барал",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "барање",
+      "-е барање",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "бизнис",
+      "-е бизнису",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "близина",
+      "-е близино",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "борба",
+      "-е борбо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "број",
+      "-е броју",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "век",
+      "-е веку",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "весник",
+      "-е веснику",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "вид",
+      "-е виду",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "влада",
+      "-е владо",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "влијание",
+      "-е влијание",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-е",
+      "возраст",
+      "-е возраст",
+      {
+        "inflection": "n_sg_voc",
+        "rule_id": "mk_noun_sg_voc_masc_ending_e"
+      }
+    ],
+    [
+      "-и",
+      "Македонец",
+      "-и Македонци",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "активност",
+      "-и активности",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "албум",
+      "-и албуми",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "аналогија",
+      "-и и",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "банка",
+      "-и банки",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "барање",
+      "-и барања",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "бизнис",
+      "-и бизниси",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "близина",
+      "-и близини",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "борба",
+      "-и борби",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "број",
+      "-и броеви",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "век",
+      "-и векови",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "весник",
+      "-и весници",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "вид",
+      "-и видови",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "влада",
+      "-и влади",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "влијание",
+      "-и влијаниjа",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "возило",
+      "-и возила",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-и",
+      "возраст",
+      "-и возрасти",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_i"
+      }
+    ],
+    [
+      "-ја",
+      "Македонец",
+      "-ја Македонци",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "активност",
+      "-ја активности",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "албум",
+      "-ја албуми",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "аналогија",
+      "-ја и",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "банка",
+      "-ја банки",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "барање",
+      "-ја барања",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "бизнис",
+      "-ја бизниси",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "близина",
+      "-ја близини",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "борба",
+      "-ја борби",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "број",
+      "-ја броеви",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "век",
+      "-ја векови",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "весник",
+      "-ја весници",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "вид",
+      "-ја видови",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "влада",
+      "-ја влади",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "влијание",
+      "-ја влијаниjа",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "возило",
+      "-ја возила",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ја",
+      "возраст",
+      "-ја возрасти",
+      {
+        "inflection": "n_pl_voc",
+        "rule_id": "mk_noun_pl_voc_ending_ja"
+      }
+    ],
+    [
+      "-ете",
+      "вели",
+      "-ете велите",
+      {
+        "inflection": "v_prs_2_pl",
+        "rule_id": "mk_verb_prs_2_pl_ending_ete"
+      }
+    ],
+    [
+      "-ете",
+      "води",
+      "-ете водите",
+      {
+        "inflection": "v_prs_2_pl",
+        "rule_id": "mk_verb_prs_2_pl_ending_ete"
+      }
+    ],
+    [
+      "-јте",
+      "вели",
+      "-јте велите",
+      {
+        "inflection": "v_prs_2_pl",
+        "rule_id": "mk_verb_prs_2_pl_ending_ete_short"
+      }
+    ],
+    [
+      "-јте",
+      "води",
+      "-јте водите",
+      {
+        "inflection": "v_prs_2_pl",
+        "rule_id": "mk_verb_prs_2_pl_ending_ete_short"
+      }
+    ],
+    [
+      "-н",
+      "вели",
+      "-н велен",
+      {
+        "inflection": "v_ptcp_pst_pass",
+        "rule_id": "mk_verb_ptcp_pst_pass_ending_n"
+      }
+    ],
+    [
+      "-н",
+      "води",
+      "-н воден",
+      {
+        "inflection": "v_ptcp_pst_pass",
+        "rule_id": "mk_verb_ptcp_pst_pass_ending_n"
+      }
+    ],
+    [
+      "-т",
+      "вели",
+      "-т велен",
+      {
+        "inflection": "v_ptcp_pst_pass",
+        "rule_id": "mk_verb_ptcp_pst_pass_ending_t"
+      }
+    ],
+    [
+      "-т",
+      "води",
+      "-т воден",
+      {
+        "inflection": "v_ptcp_pst_pass",
+        "rule_id": "mk_verb_ptcp_pst_pass_ending_t"
+      }
+    ],
+    [
+      "-в",
+      "вели",
+      "-в велел",
+      {
+        "inflection": "v_ptcp_prog_pst_masc_sg",
+        "rule_id": "mk_verb_ptcp_prog_pst_sg_ending_v"
+      }
+    ],
+    [
+      "-в",
+      "води",
+      "-в водел",
+      {
+        "inflection": "v_ptcp_prog_pst_masc_sg",
+        "rule_id": "mk_verb_ptcp_prog_pst_sg_ending_v"
+      }
+    ],
+    [
+      "-л",
+      "вели",
+      "-л велел",
+      {
+        "inflection": "v_ptcp_prog_pst_masc_sg",
+        "rule_id": "mk_verb_ptcp_prog_pst_sg_ending_l"
+      }
+    ],
+    [
+      "-л",
+      "води",
+      "-л водел",
+      {
+        "inflection": "v_ptcp_prog_pst_masc_sg",
+        "rule_id": "mk_verb_ptcp_prog_pst_sg_ending_l"
+      }
+    ],
+    [
+      "-ам",
+      "вели",
+      "-ам велам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_am"
+      }
+    ],
+    [
+      "-ам",
+      "води",
+      "-ам водам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_am"
+      }
+    ],
+    [
+      "-ем",
+      "вели",
+      "-ем велам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_em"
+      }
+    ],
+    [
+      "-ем",
+      "води",
+      "-ем водам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_em"
+      }
+    ],
+    [
+      "-им",
+      "вели",
+      "-им велам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_im"
+      }
+    ],
+    [
+      "-им",
+      "води",
+      "-им водам",
+      {
+        "inflection": "v_prs_1_sg",
+        "rule_id": "mk_verb_prs_1_sg_ending_im"
+      }
+    ],
+    [
+      "-ме",
+      "вели",
+      "-ме велиме",
+      {
+        "inflection": "v_prs_1_pl",
+        "rule_id": "mk_verb_prs_1_pl_ending_me"
+      }
+    ],
+    [
+      "-ме",
+      "води",
+      "-ме водиме",
+      {
+        "inflection": "v_prs_1_pl",
+        "rule_id": "mk_verb_prs_1_pl_ending_me"
+      }
+    ],
+    [
+      "-вме",
+      "вели",
+      "-вме велиме",
+      {
+        "inflection": "v_prs_1_pl",
+        "rule_id": "mk_verb_prs_1_pl_ending_vme"
+      }
+    ],
+    [
+      "-вме",
+      "води",
+      "-вме водиме",
+      {
+        "inflection": "v_prs_1_pl",
+        "rule_id": "mk_verb_prs_1_pl_ending_vme"
+      }
+    ],
+    [
+      "-ш",
+      "вели",
+      "-ш велиш",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "mk_verb_prs_2_sg_ending_sh"
+      }
+    ],
+    [
+      "-ш",
+      "води",
+      "-ш водиш",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "mk_verb_prs_2_sg_ending_sh"
+      }
+    ],
+    [
+      "-еш",
+      "вели",
+      "-еш велиш",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "mk_verb_prs_2_sg_ending_esh"
+      }
+    ],
+    [
+      "-еш",
+      "води",
+      "-еш водиш",
+      {
+        "inflection": "v_prs_2_sg",
+        "rule_id": "mk_verb_prs_2_sg_ending_esh"
+      }
+    ],
+    [
+      "-и",
+      "американски",
+      "-и американски",
+      {
+        "inflection": "adj_pl_indf",
+        "rule_id": "mk_adj_pl_indf_ending_i"
+      }
+    ],
+    [
+      "-а",
+      "американски",
+      "-а американска",
+      {
+        "inflection": "adj_fem_sg_indf",
+        "rule_id": "mk_adj_fem_sg_indf_ending_a"
+      }
+    ],
+    [
+      "-о",
+      "американски",
+      "-о американско",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "mk_adj_neut_sg_indf_ending_o"
+      }
+    ],
+    [
+      "-о",
+      "брз",
+      "-о брзо",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "mk_adj_neut_sg_indf_ending_o"
+      }
+    ],
+    [
+      "-о",
+      "вкупен",
+      "-о вкупно",
+      {
+        "inflection": "adj_neut_sg_indf",
+        "rule_id": "mk_adj_neut_sg_indf_ending_o"
+      }
+    ],
+    [
+      "ов",
+      "албум",
+      "ов албумиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "албум",
+      "овов албумиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "банка",
+      "ов банкиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "банка",
+      "овов банкиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "барање",
+      "ов барањава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "барање",
+      "овов барањава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "бизнис",
+      "ов бизнисиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "бизнис",
+      "овов бизнисиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "близина",
+      "ов близиниве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "близина",
+      "овов близиниве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "борба",
+      "ов борбиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "борба",
+      "овов борбиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "број",
+      "ов броевиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "број",
+      "овов броевиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "век",
+      "ов вековиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "век",
+      "овов вековиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "весник",
+      "ов веснициве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "весник",
+      "овов веснициве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "вид",
+      "ов видовиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "вид",
+      "овов видовиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "влада",
+      "ов владиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "влада",
+      "овов владиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "влијание",
+      "ов влијаниjава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "влијание",
+      "овов влијаниjава",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "ов",
+      "возраст",
+      "ов возрастиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "овов",
+      "возраст",
+      "овов возрастиве",
+      {
+        "inflection": "n_pl_def_prox",
+        "rule_id": "mk_noun_pl_def_ending_te_prox"
+      }
+    ],
+    [
+      "он",
+      "албум",
+      "он албумине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "албум",
+      "онов албумине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "банка",
+      "он банкине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "банка",
+      "онов банкине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "барање",
+      "он барањана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "барање",
+      "онов барањана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "бизнис",
+      "он бизнисине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "бизнис",
+      "онов бизнисине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "близина",
+      "он близинине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "близина",
+      "онов близинине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "борба",
+      "он борбине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "борба",
+      "онов борбине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "број",
+      "он броевине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "број",
+      "онов броевине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "век",
+      "он вековине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "век",
+      "онов вековине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "весник",
+      "он весницине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "весник",
+      "онов весницине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "вид",
+      "он видовине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "вид",
+      "онов видовине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "влада",
+      "он владине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "влада",
+      "онов владине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "влијание",
+      "он влијаниjана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "влијание",
+      "онов влијаниjана",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "он",
+      "возраст",
+      "он возрастине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "онов",
+      "возраст",
+      "онов возрастине",
+      {
+        "inflection": "n_pl_def_remt",
+        "rule_id": "mk_noun_pl_def_ending_te_remt"
+      }
+    ],
+    [
+      "-јќи",
+      "вели",
+      "-јќи велејќи",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "mk_verb_cvb_ending_je"
+      }
+    ],
+    [
+      "-јќи",
+      "води",
+      "-јќи водејќи",
+      {
+        "inflection": "v_cvb",
+        "rule_id": "mk_verb_cvb_ending_je"
+      }
+    ]
+  ]
 }

@@ -1,0 +1,90 @@
+rule_id,inflection,pre_words,test_word,updated_words
+hindi_chalna_imp_pl,,चल,चलना,चल चलिये
+hindi_chahna_imp_sg,,चाह,चाहना,चाह चाहिये
+hindi_chalana_imp_sg,,चला,चलाना,चला चलाओ
+hindi_chhodna_imp_sg,,छोड़,छोड़ना,छोड़ छोड़ो
+hindi_milana_imp_sg,,मिला,मिलाना,मिला मिलाओ
+hindi_apnana_imp_sg,,अपना,अपनाना,अपना अपनाओ
+hindi_borna_imp_sg,,बोल,बोलना,बोल बोलो
+hindi_pana_imp_sg,,पा,पाना,पा पाओ
+hindi_bachana_imp_sg,,बचा,बचाना,बचा बचाओ
+hindi_bethna_imp_sg,,बैठ,बैठना,बैठ बैठो
+hindi_lana_imp_sg,,ला,लाना,ला लाओ
+hindi_jalana_imp_sg,,जला,जलाना,जला जलाओ
+hindi_nikalna_imp_sg,,निकल,निकलना,निकल निकलो
+hindi_pahuchnna_imp_sg,,पहुँच,पहुँचना,पहुँच पहुँचो
+hindi_imp_pl_form,v_2_pl_imp_form,हो,कहना,हो कहिए
+hindi_imp_pl_form,v_2_pl_imp_form,हो,चलना,हो चलिए
+hindi_imp_pl_form,v_2_pl_imp_form,हो,चाहना,हो चाहिए
+hindi_imp_pl_form,v_2_pl_imp_form,हो,जानना,हो जानिए
+hindi_imp_pl_form,v_2_pl_imp_form,हो,जाना,हो जाइये
+hindi_imp_pl_form,v_2_pl_imp_form,हो,पूछना,हो पूछिए
+hindi_imp_sg_form,v_2_sg_imp_form,आप,उठना,आप उठो
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,उठना,तुम उठो
+hindi_imp_sg_form,v_2_sg_imp_form,आप,कहना,आप कहो
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,कहना,तुम कहो
+hindi_imp_sg_form,v_2_sg_imp_form,आप,चलना,आप चलो
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,चलना,तुम चलो
+hindi_imp_sg_form,v_2_sg_imp_form,आप,जानना,आप जानो
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,जानना,तुम जानो
+hindi_imp_sg_form,v_2_sg_imp_form,आप,जाना,आप जाओ
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,जाना,तुम जाओ
+hindi_imp_sg_form,v_2_sg_imp_form,आप,पूछना,आप पूछो
+hindi_imp_sg_form,v_2_sg_imp_form,तुम,पूछना,तुम पूछो
+hindi_1pl_hab_masc_lgspec3,v_1_pl_hab_lgspec3_masc,हम,कहना,हम कहते होंगे
+hindi_1pl_hab_masc_lgspec3,v_1_pl_hab_lgspec3_masc,हम,जानना,हम जानते होंगे
+hindi_1pl_hab_masc_lgspec3,v_1_pl_hab_lgspec3_masc,हम,जाना,हम जाते होंगे
+hindi_1pl_hab_masc_lgspec3,v_1_pl_hab_lgspec3_masc,हम,पूछना,हम पूछते होंगे
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,कहना,लग कहता
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,चाहना,लग चाहता
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,जानना,लग जानता
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,जाना,लग जाता
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,पड़ना,लग पड़ता
+hindi_lagna_masc_sg_ipfv,v_v_ptcp_masc_sg_ipfv,लग,पूछना,लग पूछता
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,कहना,सक कहे
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,चलना,सक चले
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,चुकना,सक चुके
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,जानना,सक जाने
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,जाना,सक गए
+hindi_sakna_masc_pl_pfv,v_v_ptcp_masc_pl_pfv,सक,पूछना,सक पूछे
+hindi_jana_1pl_hab_masc,v_1_pl_hab_prs_masc,जाते,कहना,जाते कहते हैं
+hindi_jana_1pl_hab_masc,v_1_pl_hab_prs_masc,जाते,जानना,जाते जानते हैं
+hindi_jana_1pl_hab_masc,v_1_pl_hab_prs_masc,जाते,जाना,जाते जाते हैं
+hindi_jana_1pl_hab_masc,v_1_pl_hab_prs_masc,जाते,पूछना,जाते पूछते हैं
+hindi_kahna_1pl_hab_masc,v_1_pl_hab_prs_masc,कहते,कहना,कहते कहते हैं
+hindi_kahna_1pl_hab_masc,v_1_pl_hab_prs_masc,कहते,जानना,कहते जानते हैं
+hindi_kahna_1pl_hab_masc,v_1_pl_hab_prs_masc,कहते,जाना,कहते जाते हैं
+hindi_kahna_1pl_hab_masc,v_1_pl_hab_prs_masc,कहते,पूछना,कहते पूछते हैं
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,उड़ना,बचा उड़ा
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,कहना,बचा कहा
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,चलना,बचा चला
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,चुकना,बचा चुका
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,जानना,बचा जाना
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,जाना,बचा गया
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,पड़ना,बचा पड़ा
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,पाना,बचा पाया
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,पूछना,बचा पूछा
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,बचना,बचा बचा
+hindi_bachna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,बचा,बनना,बचा बना
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,उड़ना,भेज उड़ा
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,कहना,भेज कहा
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,चलना,भेज चला
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,चुकना,भेज चुका
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,जानना,भेज जाना
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,जाना,भेज गया
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,पड़ना,भेज पड़ा
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,पाना,भेज पाया
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,पूछना,भेज पूछा
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,बचना,भेज बचा
+hindi_bhejna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,भेज,बनना,भेज बना
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,उड़ना,पड़ा उड़ा
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,कहना,पड़ा कहा
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,चलना,पड़ा चला
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,चुकना,पड़ा चुका
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,जानना,पड़ा जाना
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,जाना,पड़ा गया
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,पड़ना,पड़ा पड़ा
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,पाना,पड़ा पाया
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,पूछना,पड़ा पूछा
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,बचना,पड़ा बचा
+hindi_padna_masc_sg_pfv,v_v_ptcp_masc_sg_pfv,पड़ा,बनना,पड़ा बना

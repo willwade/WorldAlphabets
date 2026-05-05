@@ -16,6 +16,9 @@
           <router-link to="/detect-language" class="nav-link" :class="{ active: $route.name === 'detect-language' }">
             Language Detection
           </router-link>
+          <router-link to="/inflections" class="nav-link" :class="{ active: $route.name === 'inflections' || $route.name === 'inflection-locale' }">
+            Inflections
+          </router-link>
         </div>
       </div>
     </nav>

@@ -1,9 +1,596 @@
 {
-  "_type": "rules",
   "_locale": "qu",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "qu_v_imp_neg_2_pl",
+      "inflection": "v_imp_neg_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ama"
+          ]
+        }
+      ],
+      "rules": {
+        "_locale": "qu",
+        "_type": "rules",
+        "_version": "0.1",
+        "rules": [
+          {
+            "id": "qu_n_abl_pl",
+            "inflection": "n_abl_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "manta",
+                  "paqta",
+                  "rayku"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_abl_sg",
+            "inflection": "n_abl_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "manta",
+                  "paqta",
+                  "rayku"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_acc_pl",
+            "inflection": "n_acc_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "ta",
+                  "kta"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_acc_sg",
+            "inflection": "n_acc_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "ta",
+                  "kta"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_ben_pl",
+            "inflection": "n_ben_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "paq",
+                  "rayku"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_ben_sg",
+            "inflection": "n_ben_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "paq",
+                  "rayku"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_com_pl",
+            "inflection": "n_com_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "wan"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_com_sg",
+            "inflection": "n_com_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "wan"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_adj_pss1s_nom_sg",
+            "inflection": "adj_pss1s_nom_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-y"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_pss3s_nom_sg",
+            "inflection": "adj_pss3s_nom_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-n"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_v_prs_3_sg",
+            "inflection": "v_prs_3_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-n"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_pst_fh_3_sg",
+            "inflection": "v_pst_fh_3_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-rqa"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_ptcp_prs",
+            "inflection": "v_ptcp_prs",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-q"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_ptcp_pst",
+            "inflection": "v_ptcp_pst",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-sqa"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_nfin_agt",
+            "inflection": "v_nfin_agt",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-q"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_prs_1_incl_pl",
+            "inflection": "v_prs_1_incl_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nchik"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_prs_3_pl",
+            "inflection": "v_prs_3_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nku"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_pst_nfh_3_sg",
+            "inflection": "v_pst_nfh_3_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-sqa"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_n_ins_sg",
+            "inflection": "n_ins_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-wan"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_pss1s_nom_sg",
+            "inflection": "n_pss1s_nom_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-y"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_n_pss3s_nom_sg",
+            "inflection": "n_pss3s_nom_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-n"
+                ]
+              }
+            ],
+            "type": "noun"
+          },
+          {
+            "id": "qu_adj_abl_pl",
+            "inflection": "adj_abl_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "manta",
+                  "paqta"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_abl_sg",
+            "inflection": "adj_abl_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "manta",
+                  "paqta"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_acc_pl",
+            "inflection": "adj_acc_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "ta",
+                  "kta"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_acc_sg",
+            "inflection": "adj_acc_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "ta",
+                  "kta"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_beadj_pl",
+            "inflection": "adj_beadj_pl",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-kuna"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_adj_beadj_sg",
+            "inflection": "adj_beadj_sg",
+            "location": "n",
+            "lookback": [
+              {
+                "words": [
+                  "-sapa"
+                ]
+              }
+            ],
+            "type": "adjective"
+          },
+          {
+            "id": "qu_v_fut_1_sg",
+            "inflection": "v_fut_1_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-saq"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_2_sg",
+            "inflection": "v_fut_2_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nki"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_3_sg",
+            "inflection": "v_fut_3_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nqa"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_1_excl_pl",
+            "inflection": "v_fut_1_excl_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-saqku"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_1_incl_pl",
+            "inflection": "v_fut_1_incl_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-sun"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_2_pl",
+            "inflection": "v_fut_2_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nkichik"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_fut_3_pl",
+            "inflection": "v_fut_3_pl",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  "-nqaku"
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "id": "qu_v_imp_neg_2_sg",
+            "inflection": "v_imp_neg_2_sg",
+            "location": "sw",
+            "lookback": [
+              {
+                "words": [
+                  " Ama "
+                ]
+              }
+            ],
+            "type": "verb"
+          },
+          {
+            "optional": true,
+            "type": "adverb"
+          }
+        ]
+      },
+      "type": "verb"
+    },
+    {
+      "id": "qu_n_ben",
+      "inflection": "n_ben_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-paq"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ama",
+      "aymuray",
+      "ama amaaymuraychikchu",
+      {
+        "inflection": "v_imp_neg_2_pl",
+        "rule_id": "qu_v_imp_neg_2_pl"
+      }
+    ],
+    [
+      "ama",
+      "hayt'ay",
+      "ama amahayt'aychikchu",
+      {
+        "inflection": "v_imp_neg_2_pl",
+        "rule_id": "qu_v_imp_neg_2_pl"
+      }
+    ],
+    [
+      "ama",
+      "kawsay",
+      "ama amakawsaychikchu",
+      {
+        "inflection": "v_imp_neg_2_pl",
+        "rule_id": "qu_v_imp_neg_2_pl"
+      }
+    ],
+    [
+      "ama",
+      "kay",
+      "ama amakaychikchu",
+      {
+        "inflection": "v_imp_neg_2_pl",
+        "rule_id": "qu_v_imp_neg_2_pl"
+      }
+    ],
+    [
+      "-paq",
+      "allpa",
+      "-paq allpapaq",
+      {
+        "inflection": "n_ben_sg",
+        "rule_id": "qu_n_ben"
+      }
+    ],
+    [
+      "-paq",
+      "ama",
+      "-paq amapaq",
+      {
+        "inflection": "n_ben_sg",
+        "rule_id": "qu_n_ben"
+      }
+    ],
+    [
+      "-paq",
+      "ayllu",
+      "-paq ayllupaq",
+      {
+        "inflection": "n_ben_sg",
+        "rule_id": "qu_n_ben"
+      }
+    ],
+    [
+      "-paq",
+      "inti",
+      "-paq intipaq",
+      {
+        "inflection": "n_ben_sg",
+        "rule_id": "qu_n_ben"
+      }
+    ],
+    [
+      "-paq",
+      "killa",
+      "-paq killapaq",
+      {
+        "inflection": "n_ben_sg",
+        "rule_id": "qu_n_ben"
+      }
+    ]
+  ]
 }

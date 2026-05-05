@@ -1,9 +1,3126 @@
 {
-  "_type": "rules",
   "_locale": "tr",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "n_acc_sg_after_definite",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bu",
+            "o",
+            "şu"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_gen_sg_after_possessive",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "benim",
+            "bizim",
+            "onların",
+            "onun",
+            "senin",
+            "sizin"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_dat_sg_after_preposition",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "doğru",
+            "göre",
+            "kadar",
+            "karşı"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_abl_sg_after_postposition",
+      "inflection": "n_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "beri",
+            "dolayı",
+            "önce",
+            "ötürü"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_imp_2_pl_pos_after_polite",
+      "inflection": "v_imp_2_pl_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "lütfen"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_prs_prog_3_sg_after_question",
+      "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mi",
+            "mu",
+            "mü",
+            "mı"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_pst_3_sg_after_time_adverb",
+      "inflection": "v_ind_pst_3_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "dün",
+            "geçen",
+            "önce"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_possessive_sg_3p",
+      "inflection": "adj_lgspec1_lgspec2_1_sg_pos_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "onun"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_possessive_pl_1p",
+      "inflection": "adj_lgspec1_lgspec2_1_pl_pos_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bizim"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_nom_sg_after_negative_verb",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "değil"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_lgspec2_1_pl_pos_after_plural_noun",
+      "inflection": "adj_lgspec1_lgspec2_1_pl_pos_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lar",
+            "ler"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_acc_pl_after_cardinal_numbers",
+      "inflection": "n_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "altı",
+            "beş",
+            "dokuz",
+            "dört",
+            "iki",
+            "on",
+            "sekiz",
+            "yedi",
+            "üç"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_ind_prs_hab_3_sg_after_always",
+      "inflection": "v_ind_prs_hab_3_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "daima",
+            "her",
+            "sürekli"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_lgspec1_lgspec2_2_pl_pos_after_quantifier",
+      "inflection": "adj_lgspec1_lgspec2_2_pl_pos_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bazı",
+            "birkaç",
+            "çoğu"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_dat_sg_after_manner_adverb",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "gibi"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_infr_pst_3_sg_after_reported_speech",
+      "inflection": "v_infr_pst_3_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "anlattı",
+            "dedi",
+            "söyledi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_abl_sg_after_origin",
+      "inflection": "n_abl_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "-dan",
+            "-den",
+            "-tan",
+            "-ten"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_lgspec1_lgspec2_1_sg_neg_after_negative",
+      "inflection": "adj_lgspec1_lgspec2_1_sg_neg_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "değil"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "v_imp_2_pl_pos_after_request",
+      "inflection": "v_imp_2_pl_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "istemek",
+            "rica"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "n_acc_sg_after_verb_istemek",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "istemek"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "v_ind_prs_prog_1_sg_after_i",
+      "inflection": "v_ind_prs_prog_1_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ben"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_prs_prog_2_sg_after_you",
+      "inflection": "v_ind_prs_prog_2_sg_pos_decl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sen"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_lgspec1_lgspec2_2_sg_pos_after_specific",
+      "inflection": "adj_lgspec1_lgspec2_2_sg_pos_decl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "bu",
+            "o",
+            "şu"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_dat_pl_after_plural_subject",
+      "inflection": "n_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lar",
+            "ler"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "bu",
+      "acı",
+      "bu acıyı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "acı",
+      "o acıyı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "ad",
+      "bu adı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "ad",
+      "o adı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "adam",
+      "bu adamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "adam",
+      "o adamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "aile",
+      "bu aileyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "aile",
+      "o aileyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "akşam",
+      "bu akşamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "akşam",
+      "o akşamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "alan",
+      "bu alanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "alan",
+      "o alanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "alt",
+      "bu altı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "alt",
+      "o altı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "alın",
+      "bu alnı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "alın",
+      "o alnı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "an",
+      "bu anı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "an",
+      "o anı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "anne",
+      "bu anneyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "anne",
+      "o anneyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "artık",
+      "bu artığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "artık",
+      "o artığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "asıl",
+      "bu aslı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "asıl",
+      "o aslı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "ateş",
+      "bu ateşi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "ateş",
+      "o ateşi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "aşk",
+      "bu aşkı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "aşk",
+      "o aşkı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "aşık",
+      "bu aşığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "aşık",
+      "o aşığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "bakma",
+      "bu bakmayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "bakma",
+      "o bakmayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "bay",
+      "bu bayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "bay",
+      "o bayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "baz",
+      "bu bazı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "baz",
+      "o bazı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "bu",
+      "başkan",
+      "bu başkanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "o",
+      "başkan",
+      "o başkanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_definite"
+      }
+    ],
+    [
+      "benim",
+      "acı",
+      "benim acının",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "acı",
+      "bizim acının",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "adam",
+      "benim adamın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "adam",
+      "bizim adamın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "aile",
+      "benim ailenin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "aile",
+      "bizim ailenin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "akşam",
+      "benim akşamın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "akşam",
+      "bizim akşamın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "alan",
+      "benim alanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "alan",
+      "bizim alanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "alın",
+      "benim alnın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "alın",
+      "bizim alnın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "an",
+      "benim anın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "an",
+      "bizim anın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "anne",
+      "benim annenin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "anne",
+      "bizim annenin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "artık",
+      "benim artığın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "artık",
+      "bizim artığın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "asıl",
+      "benim aslın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "asıl",
+      "bizim aslın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "ateş",
+      "benim ateşin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "ateş",
+      "bizim ateşin",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "aşk",
+      "benim aşkın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "aşk",
+      "bizim aşkın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "aşık",
+      "benim aşığın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "aşık",
+      "bizim aşığın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "bakma",
+      "benim bakmanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "bakma",
+      "bizim bakmanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "bay",
+      "benim bayın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "bay",
+      "bizim bayın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "benim",
+      "başkan",
+      "benim başkanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "bizim",
+      "başkan",
+      "bizim başkanın",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "n_gen_sg_after_possessive"
+      }
+    ],
+    [
+      "doğru",
+      "acı",
+      "doğru acıya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "acı",
+      "göre acıya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "adam",
+      "doğru adama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "adam",
+      "göre adama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "aile",
+      "doğru aileye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "aile",
+      "göre aileye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "akşam",
+      "doğru akşama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "akşam",
+      "göre akşama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "alan",
+      "doğru alana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "alan",
+      "göre alana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "altın",
+      "doğru altına",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "altın",
+      "göre altına",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "alın",
+      "doğru alna",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "alın",
+      "göre alna",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "an",
+      "doğru ana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "an",
+      "göre ana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "anne",
+      "doğru anneye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "anne",
+      "göre anneye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "artık",
+      "doğru artığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "artık",
+      "göre artığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "asıl",
+      "doğru asla",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "asıl",
+      "göre asla",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "ateş",
+      "doğru ateşe",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "ateş",
+      "göre ateşe",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "aşk",
+      "doğru aşka",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "aşk",
+      "göre aşka",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "aşık",
+      "doğru aşığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "aşık",
+      "göre aşığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "bakma",
+      "doğru bakmaya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "bakma",
+      "göre bakmaya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "bay",
+      "doğru baya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "bay",
+      "göre baya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "doğru",
+      "başkan",
+      "doğru başkana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "göre",
+      "başkan",
+      "göre başkana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_preposition"
+      }
+    ],
+    [
+      "beri",
+      "acı",
+      "beri acıdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "acı",
+      "dolayı acıdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "adam",
+      "beri adamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "adam",
+      "dolayı adamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "aile",
+      "beri aileden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "aile",
+      "dolayı aileden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "akşam",
+      "beri akşamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "akşam",
+      "dolayı akşamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "alan",
+      "beri alandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "alan",
+      "dolayı alandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "alın",
+      "beri alından",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "alın",
+      "dolayı alından",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "an",
+      "beri andan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "an",
+      "dolayı andan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "anne",
+      "beri anneden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "anne",
+      "dolayı anneden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "artık",
+      "beri artıktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "artık",
+      "dolayı artıktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "asıl",
+      "beri asıldan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "asıl",
+      "dolayı asıldan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "ateş",
+      "beri ateşten",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "ateş",
+      "dolayı ateşten",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "aşk",
+      "beri aşktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "aşk",
+      "dolayı aşktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "aşık",
+      "beri aşıkdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "aşık",
+      "dolayı aşıkdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "bakma",
+      "beri bakmadan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "bakma",
+      "dolayı bakmadan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "bay",
+      "beri baydan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "bay",
+      "dolayı baydan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "beri",
+      "başkan",
+      "beri başkandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "dolayı",
+      "başkan",
+      "dolayı başkandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_postposition"
+      }
+    ],
+    [
+      "lütfen",
+      "almak",
+      "lütfen alın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_polite"
+      }
+    ],
+    [
+      "lütfen",
+      "bakmak",
+      "lütfen bakın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_polite"
+      }
+    ],
+    [
+      "lütfen",
+      "beklemek",
+      "lütfen bekleyin",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_polite"
+      }
+    ],
+    [
+      "mi",
+      "almak",
+      "mi alıyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "mu",
+      "almak",
+      "mu alıyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "mi",
+      "beklemek",
+      "mi bekliyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "mu",
+      "beklemek",
+      "mu bekliyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "mi",
+      "benzemek",
+      "mi benziyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "mu",
+      "benzemek",
+      "mu benziyor",
+      {
+        "inflection": "v_ind_prs_prog_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_3_sg_after_question"
+      }
+    ],
+    [
+      "dün",
+      "almak",
+      "dün aldı",
+      {
+        "inflection": "v_ind_pst_3_sg_pos_decl",
+        "rule_id": "v_ind_pst_3_sg_after_time_adverb"
+      }
+    ],
+    [
+      "geçen",
+      "almak",
+      "geçen aldı",
+      {
+        "inflection": "v_ind_pst_3_sg_pos_decl",
+        "rule_id": "v_ind_pst_3_sg_after_time_adverb"
+      }
+    ],
+    [
+      "değil",
+      "acı",
+      "değil acı",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "adam",
+      "değil adam",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "aile",
+      "değil aile",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "akşam",
+      "değil akşam",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "alan",
+      "değil alan",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "alın",
+      "değil alın",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "an",
+      "değil an",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "anne",
+      "değil anne",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "artık",
+      "değil artık",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "asıl",
+      "değil asıl",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "ateş",
+      "değil ateş",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "aşk",
+      "değil aşk",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "aşık",
+      "değil aşık",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "bakma",
+      "değil bakma",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "bay",
+      "değil bay",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "değil",
+      "başkan",
+      "değil başkan",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_after_negative_verb"
+      }
+    ],
+    [
+      "altı",
+      "acı",
+      "altı acıları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "acı",
+      "beş acıları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "adam",
+      "altı adamları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "adam",
+      "beş adamları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "aile",
+      "altı aileleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "aile",
+      "beş aileleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "akşam",
+      "altı akşamları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "akşam",
+      "beş akşamları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "alan",
+      "altı alanları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "alan",
+      "beş alanları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "alın",
+      "altı alınları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "alın",
+      "beş alınları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "an",
+      "altı anları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "an",
+      "beş anları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "anne",
+      "altı anneleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "anne",
+      "beş anneleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "artık",
+      "altı artıkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "artık",
+      "beş artıkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "asıl",
+      "altı asılları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "asıl",
+      "beş asılları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "ateş",
+      "altı ateşleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "ateş",
+      "beş ateşleri",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "aşk",
+      "altı aşkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "aşk",
+      "beş aşkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "aşık",
+      "altı aşıkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "aşık",
+      "beş aşıkları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "bakma",
+      "altı bakmaları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "bakma",
+      "beş bakmaları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "bay",
+      "altı bayları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "bay",
+      "beş bayları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "altı",
+      "başkan",
+      "altı başkanları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "beş",
+      "başkan",
+      "beş başkanları",
+      {
+        "inflection": "n_acc_pl",
+        "rule_id": "n_acc_pl_after_cardinal_numbers"
+      }
+    ],
+    [
+      "daima",
+      "almak",
+      "daima alır",
+      {
+        "inflection": "v_ind_prs_hab_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_hab_3_sg_after_always"
+      }
+    ],
+    [
+      "her",
+      "almak",
+      "her alır",
+      {
+        "inflection": "v_ind_prs_hab_3_sg_pos_decl",
+        "rule_id": "v_ind_prs_hab_3_sg_after_always"
+      }
+    ],
+    [
+      "gibi",
+      "acı",
+      "gibi acıya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "adam",
+      "gibi adama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "aile",
+      "gibi aileye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "akşam",
+      "gibi akşama",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "alan",
+      "gibi alana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "altın",
+      "gibi altına",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "alın",
+      "gibi alna",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "an",
+      "gibi ana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "anne",
+      "gibi anneye",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "artık",
+      "gibi artığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "asıl",
+      "gibi asla",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "ateş",
+      "gibi ateşe",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "aşk",
+      "gibi aşka",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "aşık",
+      "gibi aşığa",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "bakma",
+      "gibi bakmaya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "bay",
+      "gibi baya",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "gibi",
+      "başkan",
+      "gibi başkana",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "n_dat_sg_after_manner_adverb"
+      }
+    ],
+    [
+      "anlattı",
+      "almak",
+      "anlattı almış",
+      {
+        "inflection": "v_infr_pst_3_sg_pos_decl",
+        "rule_id": "v_infr_pst_3_sg_after_reported_speech"
+      }
+    ],
+    [
+      "dedi",
+      "almak",
+      "dedi almış",
+      {
+        "inflection": "v_infr_pst_3_sg_pos_decl",
+        "rule_id": "v_infr_pst_3_sg_after_reported_speech"
+      }
+    ],
+    [
+      "-dan",
+      "acı",
+      "-dan acıdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "acı",
+      "-den acıdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "adam",
+      "-dan adamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "adam",
+      "-den adamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "aile",
+      "-dan aileden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "aile",
+      "-den aileden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "akşam",
+      "-dan akşamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "akşam",
+      "-den akşamdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "alan",
+      "-dan alandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "alan",
+      "-den alandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "alın",
+      "-dan alından",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "alın",
+      "-den alından",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "an",
+      "-dan andan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "an",
+      "-den andan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "anne",
+      "-dan anneden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "anne",
+      "-den anneden",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "artık",
+      "-dan artıktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "artık",
+      "-den artıktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "asıl",
+      "-dan asıldan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "asıl",
+      "-den asıldan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "ateş",
+      "-dan ateşten",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "ateş",
+      "-den ateşten",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "aşk",
+      "-dan aşktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "aşk",
+      "-den aşktan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "aşık",
+      "-dan aşıkdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "aşık",
+      "-den aşıkdan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "bakma",
+      "-dan bakmadan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "bakma",
+      "-den bakmadan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "bay",
+      "-dan baydan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "bay",
+      "-den baydan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-dan",
+      "başkan",
+      "-dan başkandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "-den",
+      "başkan",
+      "-den başkandan",
+      {
+        "inflection": "n_abl_sg",
+        "rule_id": "n_abl_sg_after_origin"
+      }
+    ],
+    [
+      "istemek",
+      "almak",
+      "istemek alın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "rica",
+      "almak",
+      "rica alın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "istemek",
+      "bakmak",
+      "istemek bakın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "rica",
+      "bakmak",
+      "rica bakın",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "istemek",
+      "beklemek",
+      "istemek bekleyin",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "rica",
+      "beklemek",
+      "rica bekleyin",
+      {
+        "inflection": "v_imp_2_pl_pos_decl",
+        "rule_id": "v_imp_2_pl_pos_after_request"
+      }
+    ],
+    [
+      "istemek",
+      "acı",
+      "istemek acıyı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "ad",
+      "istemek adı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "adam",
+      "istemek adamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "aile",
+      "istemek aileyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "akşam",
+      "istemek akşamı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "alan",
+      "istemek alanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "alt",
+      "istemek altı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "alın",
+      "istemek alnı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "an",
+      "istemek anı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "anne",
+      "istemek anneyi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "artık",
+      "istemek artığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "asıl",
+      "istemek aslı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "ateş",
+      "istemek ateşi",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "aşk",
+      "istemek aşkı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "aşık",
+      "istemek aşığı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "bakma",
+      "istemek bakmayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "bay",
+      "istemek bayı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "baz",
+      "istemek bazı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "istemek",
+      "başkan",
+      "istemek başkanı",
+      {
+        "inflection": "n_acc_sg",
+        "rule_id": "n_acc_sg_after_verb_istemek"
+      }
+    ],
+    [
+      "ben",
+      "almak",
+      "ben alıyorum",
+      {
+        "inflection": "v_ind_prs_prog_1_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_1_sg_after_i"
+      }
+    ],
+    [
+      "sen",
+      "almak",
+      "sen alıyorsun",
+      {
+        "inflection": "v_ind_prs_prog_2_sg_pos_decl",
+        "rule_id": "v_ind_prs_prog_2_sg_after_you"
+      }
+    ],
+    [
+      "lar",
+      "acı",
+      "lar acılara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "acı",
+      "ler acılara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "adam",
+      "lar adamlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "adam",
+      "ler adamlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "aile",
+      "lar ailelere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "aile",
+      "ler ailelere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "akşam",
+      "lar akşamlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "akşam",
+      "ler akşamlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "alan",
+      "lar alanlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "alan",
+      "ler alanlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "alın",
+      "lar alınlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "alın",
+      "ler alınlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "an",
+      "lar anlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "an",
+      "ler anlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "anne",
+      "lar annelere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "anne",
+      "ler annelere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "artık",
+      "lar artıklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "artık",
+      "ler artıklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "asıl",
+      "lar asıllara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "asıl",
+      "ler asıllara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "ateş",
+      "lar ateşlere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "ateş",
+      "ler ateşlere",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "aşk",
+      "lar aşklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "aşk",
+      "ler aşklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "aşık",
+      "lar aşıklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "aşık",
+      "ler aşıklara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "bakma",
+      "lar bakmalara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "bakma",
+      "ler bakmalara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "bay",
+      "lar baylara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "bay",
+      "ler baylara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "lar",
+      "başkan",
+      "lar başkanlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ],
+    [
+      "ler",
+      "başkan",
+      "ler başkanlara",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "n_dat_pl_after_plural_subject"
+      }
+    ]
+  ]
 }

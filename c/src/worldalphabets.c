@@ -622,3 +622,44 @@ void wa_free_layout_matches(wa_layout_match_array *matches) {
     matches->capacity = 0;
     matches->is_static = 0;
 }
+
+wa_string_array wa_get_available_inflection_locales(void) {
+    wa_string_array arr;
+    arr.items = WA_INFLECTION_LOCALE_CODES;
+    arr.len = WA_INFLECTION_TABLES_COUNT;
+    return arr;
+}
+
+const wa_inflection_table *wa_load_inflection_table(const char *locale) {
+    for (size_t i = 0; i < WA_INFLECTION_TABLES_COUNT; i++) {
+        if (wa_streq(WA_INFLECTION_TABLES[i].locale, locale)) {
+            return &WA_INFLECTION_TABLES[i];
+        }
+    }
+    return NULL;
+}
+
+const wa_inflection_entry *wa_find_inflection_entry(
+    const wa_inflection_table *table, const char *word) {
+    if (table == NULL || word == NULL) return NULL;
+    for (size_t i = 0; i < table->entry_count; i++) {
+        if (wa_streq(table->entries[i].word, word)) {
+            return &table->entries[i];
+        }
+    }
+    return NULL;
+}
+
+const char *wa_get_inflected_form(const wa_inflection_entry *entry,
+                                  const char *inflection_key) {
+    if (entry == NULL || inflection_key == NULL) return NULL;
+    if (wa_streq(inflection_key, "base")) {
+        return entry->base ? entry->base : entry->word;
+    }
+    for (size_t i = 0; i < entry->form_count; i++) {
+        if (wa_streq(entry->forms[i].key, inflection_key)) {
+            return entry->forms[i].value;
+        }
+    }
+    return NULL;
+}

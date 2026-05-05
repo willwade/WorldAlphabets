@@ -40,7 +40,31 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "de_definite_article",
+      "lookback": [
+        {
+          "words": [
+            "."
+          ]
+        }
+      ],
+      "overrides": {
+        "de": "het"
+      },
+      "type": "override"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      ".",
+      "de",
+      ". het",
+      {
+        "rule_id": "de_definite_article"
+      }
+    ]
+  ]
 }

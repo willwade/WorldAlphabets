@@ -1,9 +1,2627 @@
 {
-  "_type": "rules",
   "_locale": "ady",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "n_nom_pl_default",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "закъоу",
+            "мэхъурэ",
+            "пстэури"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_erg_sg_def_default",
+      "inflection": "n_erg_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "а",
+            "ды",
+            "сы",
+            "у",
+            "шъхьа"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_erg_pl_def_default",
+      "inflection": "n_erg_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "дыпшъашъэ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_ndef_sg_default",
+      "inflection": "n_ndef_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "еплъы",
+            "зы",
+            "и"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_ins_sg_def_default",
+      "inflection": "n_ins_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "мэ",
+            "ра"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_ins_sg_ndef_default",
+      "inflection": "n_ins_sg_ndef",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "е"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_nom_sg_def_default",
+      "inflection": "adj_nom_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "и"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_nom_pl_def_default",
+      "inflection": "adj_nom_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "шъхьа"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_erg_sg_def_default",
+      "inflection": "adj_erg_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "а",
+            "ды",
+            "сы",
+            "у"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_erg_pl_def_default",
+      "inflection": "adj_erg_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "дыпшъашъэ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_ndef_sg_default",
+      "inflection": "adj_ndef_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "еплъы",
+            "зы"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_ins_sg_def_default",
+      "inflection": "adj_ins_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "мэ",
+            "ра"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_ins_sg_ndef_default",
+      "inflection": "adj_ins_sg_ndef",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "е"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_nom_sg_ending_ы",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "къ"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "n_erg_sg_def_ending_р",
+      "inflection": "n_erg_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "п"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "adj_nom_sg_def_ending_ы",
+      "inflection": "adj_nom_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "къ"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_erg_sg_def_ending_р",
+      "inflection": "adj_erg_sg_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "п"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "n_nom_sg_ending_э",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "жъ",
+            "шъ"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "закъоу",
+      "адыгэ",
+      "закъоу адыгэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "адыгэ",
+      "мэхъурэ адыгэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "амал",
+      "закъоу амалэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "амал",
+      "мэхъурэ амалэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "аслъан",
+      "закъоу аслъанэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "аслъан",
+      "мэхъурэ аслъанэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "ахъщэ",
+      "закъоу ахъщэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "ахъщэ",
+      "мэхъурэ ахъщэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "бзылъфыгъэ",
+      "закъоу бзылъфыгъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "бзылъфыгъэ",
+      "мэхъурэ бзылъфыгъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "бзыу",
+      "закъоу бзыухэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "бзыу",
+      "мэхъурэ бзыухэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "былым",
+      "закъоу былымхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "былым",
+      "мэхъурэ былымхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "гущыӏэ",
+      "закъоу гущыӏэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "гущыӏэ",
+      "мэхъурэ гущыӏэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "гъогу",
+      "закъоу гъогуэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "гъогу",
+      "мэхъурэ гъогуэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "джанэ",
+      "закъоу джанэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "джанэ",
+      "мэхъурэ джанэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "дышъэ",
+      "закъоу дышъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "дышъэ",
+      "мэхъурэ дышъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "еджакӏо",
+      "закъоу еджакӏохэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "еджакӏо",
+      "мэхъурэ еджакӏохэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "жьыбгъэ",
+      "закъоу жьыбгъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "жьыбгъэ",
+      "мэхъурэ жьыбгъэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "илъэс",
+      "закъоу илъэсэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "илъэс",
+      "мэхъурэ илъэсэхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "закъоу",
+      "ины",
+      "закъоу иныхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "мэхъурэ",
+      "ины",
+      "мэхъурэ иныхэр",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "n_nom_pl_default"
+      }
+    ],
+    [
+      "а",
+      "адыгэ",
+      "а адыгэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "адыгэ",
+      "ды адыгэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "амал",
+      "а амалэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "амал",
+      "ды амалэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "аслъан",
+      "а аслъанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "аслъан",
+      "ды аслъанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "ахъщэ",
+      "а ахъщэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "ахъщэ",
+      "ды ахъщэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "баджэ",
+      "а баджэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "баджэ",
+      "ды баджэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "бжыхьэ",
+      "а бжыхьэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "бжыхьэ",
+      "ды бжыхьэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "бзылъфыгъэ",
+      "а бзылъфыгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "бзылъфыгъэ",
+      "ды бзылъфыгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "бзыу",
+      "а бзыум",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "бзыу",
+      "ды бзыум",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "былым",
+      "а былымм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "былым",
+      "ды былымм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "бэдзэры",
+      "а бэдзэрым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "бэдзэры",
+      "ды бэдзэрым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "губгъо",
+      "а губгъом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "губгъо",
+      "ды губгъом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "гущыӏэ",
+      "а гущыӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "гущыӏэ",
+      "ды гущыӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "гъатхэ",
+      "а гъатхэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "гъатхэ",
+      "ды гъатхэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "гъогу",
+      "а гъогуэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "гъогу",
+      "ды гъогуэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "гъэмафэ",
+      "а гъэмафэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "гъэмафэ",
+      "ды гъэмафэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "джанэ",
+      "а джанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "джанэ",
+      "ды джанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "дышъэ",
+      "а дышъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "дышъэ",
+      "ды дышъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "дэпкъы",
+      "а дэпкъым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "дэпкъы",
+      "ды дэпкъым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "еджапӏэ",
+      "а еджапӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "еджапӏэ",
+      "ды еджапӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "жъоныгъуакӏ",
+      "а жъоныгъуакӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "жъоныгъуакӏ",
+      "ды жъоныгъуакӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "жьыбгъэ",
+      "а жьыбгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "жьыбгъэ",
+      "ды жьыбгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "зао",
+      "а заом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "зао",
+      "ды заом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "илъэс",
+      "а илъэсэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "илъэс",
+      "ды илъэсэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "ины",
+      "а иным",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "ины",
+      "ды иным",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "адыгэ",
+      "дыпшъашъэ адыгэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "амал",
+      "дыпшъашъэ амалэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "аслъан",
+      "дыпшъашъэ аслъанэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "ахъщэ",
+      "дыпшъашъэ ахъщэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "бзылъфыгъэ",
+      "дыпшъашъэ бзылъфыгъэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "бзыу",
+      "дыпшъашъэ бзыухэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "былым",
+      "дыпшъашъэ былымхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "гущыӏэ",
+      "дыпшъашъэ гущыӏэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "гъогу",
+      "дыпшъашъэ гъогуэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "джанэ",
+      "дыпшъашъэ джанэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "дышъэ",
+      "дыпшъашъэ дышъэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "жьыбгъэ",
+      "дыпшъашъэ жьыбгъэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "илъэс",
+      "дыпшъашъэ илъэсэхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "ины",
+      "дыпшъашъэ иныхэмэ",
+      {
+        "inflection": "n_erg_pl_def",
+        "rule_id": "n_erg_pl_def_default"
+      }
+    ],
+    [
+      "еплъы",
+      "адыгэ",
+      "еплъы адыгэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "адыгэ",
+      "зы адыгэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "амал",
+      "еплъы амалэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "амал",
+      "зы амалэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "аслъан",
+      "еплъы аслъанэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "аслъан",
+      "зы аслъанэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "ахъщэ",
+      "еплъы ахъщэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "ахъщэ",
+      "зы ахъщэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "бзылъфыгъэ",
+      "еплъы бзылъфыгъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "бзылъфыгъэ",
+      "зы бзылъфыгъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "бзыу",
+      "еплъы бзыу",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "бзыу",
+      "зы бзыу",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "гущыӏэ",
+      "еплъы гущыӏэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "гущыӏэ",
+      "зы гущыӏэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "гъогу",
+      "еплъы гъогуэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "гъогу",
+      "зы гъогуэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "джанэ",
+      "еплъы джанэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "джанэ",
+      "зы джанэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "дышъэ",
+      "еплъы дышъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "дышъэ",
+      "зы дышъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "жьыбгъэ",
+      "еплъы жьыбгъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "жьыбгъэ",
+      "зы жьыбгъэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "илъэс",
+      "еплъы илъэсэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "илъэс",
+      "зы илъэсэ",
+      {
+        "inflection": "n_ndef_sg",
+        "rule_id": "n_ndef_sg_default"
+      }
+    ],
+    [
+      "мэ",
+      "адыгэ",
+      "мэ адыгэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "адыгэ",
+      "ра адыгэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "амал",
+      "мэ амалэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "амал",
+      "ра амалэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "аслъан",
+      "мэ аслъанэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "аслъан",
+      "ра аслъанэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "ахъщэ",
+      "мэ ахъщэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "ахъщэ",
+      "ра ахъщэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "бзылъфыгъэ",
+      "мэ бзылъфыгъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "бзылъфыгъэ",
+      "ра бзылъфыгъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "бзыу",
+      "мэ бзыумкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "бзыу",
+      "ра бзыумкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "былым",
+      "мэ былыммкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "былым",
+      "ра былыммкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "гущыӏэ",
+      "мэ гущыӏэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "гущыӏэ",
+      "ра гущыӏэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "гъогу",
+      "мэ гъогуэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "гъогу",
+      "ра гъогуэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "джанэ",
+      "мэ джанэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "джанэ",
+      "ра джанэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "дышъэ",
+      "мэ дышъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "дышъэ",
+      "ра дышъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "жьыбгъэ",
+      "мэ жьыбгъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "жьыбгъэ",
+      "ра жьыбгъэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "илъэс",
+      "мэ илъэсэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "илъэс",
+      "ра илъэсэмкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "ины",
+      "мэ инымкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "ины",
+      "ра инымкӏэ",
+      {
+        "inflection": "n_ins_sg_def",
+        "rule_id": "n_ins_sg_def_default"
+      }
+    ],
+    [
+      "е",
+      "адыгэ",
+      "е адыгэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "амал",
+      "е амалэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "аслъан",
+      "е аслъанэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "ахъщэ",
+      "е ахъщэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "бзылъфыгъэ",
+      "е бзылъфыгъэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "бзыу",
+      "е бзыукӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "былым",
+      "е былымкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "гущыӏэ",
+      "е гущыӏэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "гъогу",
+      "е гъогуэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "джанэ",
+      "е джанэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "дышъэ",
+      "е дышъэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "жьыбгъэ",
+      "е жьыбгъэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "илъэс",
+      "е илъэсэкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "ины",
+      "е иныкӏэ",
+      {
+        "inflection": "n_ins_sg_ndef",
+        "rule_id": "n_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "и",
+      "акъыл",
+      "и акъылэр",
+      {
+        "inflection": "adj_nom_sg_def",
+        "rule_id": "adj_nom_sg_def_default"
+      }
+    ],
+    [
+      "и",
+      "дэгъу",
+      "и дэгъур",
+      {
+        "inflection": "adj_nom_sg_def",
+        "rule_id": "adj_nom_sg_def_default"
+      }
+    ],
+    [
+      "шъхьа",
+      "акъыл",
+      "шъхьа акъылэхэр",
+      {
+        "inflection": "adj_nom_pl_def",
+        "rule_id": "adj_nom_pl_def_default"
+      }
+    ],
+    [
+      "шъхьа",
+      "дэгъу",
+      "шъхьа дэгъухэр",
+      {
+        "inflection": "adj_nom_pl_def",
+        "rule_id": "adj_nom_pl_def_default"
+      }
+    ],
+    [
+      "а",
+      "акъыл",
+      "а акъылэм",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "акъыл",
+      "ды акъылэм",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_default"
+      }
+    ],
+    [
+      "а",
+      "дэгъу",
+      "а дэгъум",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_default"
+      }
+    ],
+    [
+      "ды",
+      "дэгъу",
+      "ды дэгъум",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "акъыл",
+      "дыпшъашъэ акъылэхэмэ",
+      {
+        "inflection": "adj_erg_pl_def",
+        "rule_id": "adj_erg_pl_def_default"
+      }
+    ],
+    [
+      "дыпшъашъэ",
+      "дэгъу",
+      "дыпшъашъэ дэгъухэмэ",
+      {
+        "inflection": "adj_erg_pl_def",
+        "rule_id": "adj_erg_pl_def_default"
+      }
+    ],
+    [
+      "еплъы",
+      "акъыл",
+      "еплъы акъылэ",
+      {
+        "inflection": "adj_ndef_sg",
+        "rule_id": "adj_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "акъыл",
+      "зы акъылэ",
+      {
+        "inflection": "adj_ndef_sg",
+        "rule_id": "adj_ndef_sg_default"
+      }
+    ],
+    [
+      "еплъы",
+      "апшъэр",
+      "еплъы апшъэрэ",
+      {
+        "inflection": "adj_ndef_sg",
+        "rule_id": "adj_ndef_sg_default"
+      }
+    ],
+    [
+      "зы",
+      "апшъэр",
+      "зы апшъэрэ",
+      {
+        "inflection": "adj_ndef_sg",
+        "rule_id": "adj_ndef_sg_default"
+      }
+    ],
+    [
+      "мэ",
+      "акъыл",
+      "мэ акъылэмкӏэ",
+      {
+        "inflection": "adj_ins_sg_def",
+        "rule_id": "adj_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "акъыл",
+      "ра акъылэмкӏэ",
+      {
+        "inflection": "adj_ins_sg_def",
+        "rule_id": "adj_ins_sg_def_default"
+      }
+    ],
+    [
+      "мэ",
+      "дэгъу",
+      "мэ дэгъумкӏэ",
+      {
+        "inflection": "adj_ins_sg_def",
+        "rule_id": "adj_ins_sg_def_default"
+      }
+    ],
+    [
+      "ра",
+      "дэгъу",
+      "ра дэгъумкӏэ",
+      {
+        "inflection": "adj_ins_sg_def",
+        "rule_id": "adj_ins_sg_def_default"
+      }
+    ],
+    [
+      "е",
+      "акъыл",
+      "е акъылэкӏэ",
+      {
+        "inflection": "adj_ins_sg_ndef",
+        "rule_id": "adj_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "е",
+      "дэгъу",
+      "е дэгъукӏэ",
+      {
+        "inflection": "adj_ins_sg_ndef",
+        "rule_id": "adj_ins_sg_ndef_default"
+      }
+    ],
+    [
+      "къ",
+      "адыгэ",
+      "къ адыгэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "амал",
+      "къ амалэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "аслъан",
+      "къ аслъанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "ахъщэ",
+      "къ ахъщэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "бжыхьэ",
+      "къ бжыхьэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "бзылъфыгъэ",
+      "къ бзылъфыгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "бзыу",
+      "къ бзыур",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "былым",
+      "къ былымр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "бэлыдж",
+      "къ бэлыджэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "гущыӏэ",
+      "къ гущыӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "гъатхэ",
+      "къ гъатхэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "гъогу",
+      "къ гъогуэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "гъэмафэ",
+      "къ гъэмафэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "джанэ",
+      "къ джанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "дышъэ",
+      "къ дышъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "еджапӏэ",
+      "къ еджапӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "жьыбгъэ",
+      "къ жьыбгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "илъэс",
+      "къ илъэсэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "ины",
+      "къ иныр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_ы"
+      }
+    ],
+    [
+      "п",
+      "адыгэ",
+      "п адыгэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "амал",
+      "п амалэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "аслъан",
+      "п аслъанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "ахъщэ",
+      "п ахъщэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "баджэ",
+      "п баджэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "бжыхьэ",
+      "п бжыхьэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "бзылъфыгъэ",
+      "п бзылъфыгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "бзыу",
+      "п бзыум",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "былым",
+      "п былымм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "бэдзэры",
+      "п бэдзэрым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "губгъо",
+      "п губгъом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "гущыӏэ",
+      "п гущыӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "гъатхэ",
+      "п гъатхэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "гъогу",
+      "п гъогуэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "гъэмафэ",
+      "п гъэмафэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "джанэ",
+      "п джанэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "дышъэ",
+      "п дышъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "дэпкъы",
+      "п дэпкъым",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "еджапӏэ",
+      "п еджапӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "жъоныгъуакӏ",
+      "п жъоныгъуакӏэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "жьыбгъэ",
+      "п жьыбгъэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "зао",
+      "п заом",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "илъэс",
+      "п илъэсэм",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "ины",
+      "п иным",
+      {
+        "inflection": "n_erg_sg_def",
+        "rule_id": "n_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "къ",
+      "акъыл",
+      "къ акъылэр",
+      {
+        "inflection": "adj_nom_sg_def",
+        "rule_id": "adj_nom_sg_def_ending_ы"
+      }
+    ],
+    [
+      "къ",
+      "дэгъу",
+      "къ дэгъур",
+      {
+        "inflection": "adj_nom_sg_def",
+        "rule_id": "adj_nom_sg_def_ending_ы"
+      }
+    ],
+    [
+      "п",
+      "акъыл",
+      "п акъылэм",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "п",
+      "дэгъу",
+      "п дэгъум",
+      {
+        "inflection": "adj_erg_sg_def",
+        "rule_id": "adj_erg_sg_def_ending_р"
+      }
+    ],
+    [
+      "жъ",
+      "адыгэ",
+      "жъ адыгэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "адыгэ",
+      "шъ адыгэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "амал",
+      "жъ амалэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "амал",
+      "шъ амалэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "аслъан",
+      "жъ аслъанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "аслъан",
+      "шъ аслъанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "ахъщэ",
+      "жъ ахъщэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "ахъщэ",
+      "шъ ахъщэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "бжыхьэ",
+      "жъ бжыхьэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "бжыхьэ",
+      "шъ бжыхьэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "бзылъфыгъэ",
+      "жъ бзылъфыгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "бзылъфыгъэ",
+      "шъ бзылъфыгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "бзыу",
+      "жъ бзыур",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "бзыу",
+      "шъ бзыур",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "былым",
+      "жъ былымр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "былым",
+      "шъ былымр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "бэлыдж",
+      "жъ бэлыджэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "бэлыдж",
+      "шъ бэлыджэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "гущыӏэ",
+      "жъ гущыӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "гущыӏэ",
+      "шъ гущыӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "гъатхэ",
+      "жъ гъатхэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "гъатхэ",
+      "шъ гъатхэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "гъогу",
+      "жъ гъогуэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "гъогу",
+      "шъ гъогуэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "гъэмафэ",
+      "жъ гъэмафэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "гъэмафэ",
+      "шъ гъэмафэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "джанэ",
+      "жъ джанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "джанэ",
+      "шъ джанэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "дышъэ",
+      "жъ дышъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "дышъэ",
+      "шъ дышъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "еджапӏэ",
+      "жъ еджапӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "еджапӏэ",
+      "шъ еджапӏэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "жьыбгъэ",
+      "жъ жьыбгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "жьыбгъэ",
+      "шъ жьыбгъэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "илъэс",
+      "жъ илъэсэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "илъэс",
+      "шъ илъэсэр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "жъ",
+      "ины",
+      "жъ иныр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ],
+    [
+      "шъ",
+      "ины",
+      "шъ иныр",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "n_nom_sg_ending_э"
+      }
+    ]
+  ]
 }

@@ -1,9 +1,495 @@
 {
-  "_type": "rules",
   "_locale": "zu",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "zu_verb_prs_2_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "ngi"
+          ]
+        }
+      ],
+      "overrides": {
+        "funa": "funa",
+        "ima": "yima",
+        "ona": "yona"
+      },
+      "rules": {
+        "_locale": "zu",
+        "_type": "rules",
+        "_version": "0.1",
+        "inflection_locations": {},
+        "rules": [
+          {
+            "id": "zu_verb_sbjv_2_sg_override",
+            "lookback": [
+              {
+                "words": [
+                  "ukuthi"
+                ]
+              },
+              {
+                "optional": true,
+                "type": "adverb"
+              }
+            ],
+            "overrides": {
+              "akha": "ukhahle",
+              "iza": "izohlule",
+              "kha": "ukho",
+              "tha": "uthwele"
+            },
+            "type": "verb"
+          }
+        ],
+        "substitutions": {},
+        "tests": []
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_noun_loc_sg_override",
+      "lookback": [
+        {
+          "words": [
+            "e"
+          ]
+        }
+      ],
+      "overrides": {
+        "indaba": "endlebeni",
+        "indlela": "endlini",
+        "isikhundla": "esikhundleni"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_sbjv_bantu15_override",
+      "lookback": [
+        {
+          "words": [
+            "uma"
+          ]
+        }
+      ],
+      "overrides": {
+        "akha": "akhe",
+        "iza": "ize",
+        "wa": "we"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_prs_bantu17_override",
+      "lookback": [
+        {
+          "words": [
+            "lapa"
+          ]
+        }
+      ],
+      "overrides": {
+        "funa": "funa",
+        "ona": "ono"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_ptcp_bantu15_override",
+      "lookback": [
+        {
+          "words": [
+            "kade"
+          ]
+        }
+      ],
+      "overrides": {
+        "akha": "akhe",
+        "ya": "e"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_imp_2_sg_lgspec3_override",
+      "lookback": [
+        {
+          "words": [
+            "hamba"
+          ]
+        }
+      ],
+      "overrides": {
+        "akha": "akha",
+        "iza": "iza"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_noun_pl_lgspec2_override",
+      "lookback": [
+        {
+          "words": [
+            "izin"
+          ]
+        }
+      ],
+      "overrides": {
+        "ihlo": "amehlo",
+        "ingane": "izingane",
+        "iso": "amehlo"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_noun_sg_lgspec1_pssb1_override",
+      "lookback": [
+        {
+          "words": [
+            "um"
+          ]
+        }
+      ],
+      "overrides": {
+        "isandla": "isandla",
+        "isifazane": "isifazane",
+        "umuntu": "umuntu"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_adj_bantu10_override",
+      "lookback": [
+        {
+          "words": [
+            "okw"
+          ]
+        }
+      ],
+      "overrides": {
+        "bili": "bili",
+        "ningi": "ningi",
+        "thathu": "thathu"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_nfin_override",
+      "lookback": [
+        {
+          "words": [
+            "ukuthi"
+          ]
+        }
+      ],
+      "overrides": {
+        "dla": "udla",
+        "sebenza": "sebenzisa"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_noun_pl_pssb6_override",
+      "lookback": [
+        {
+          "words": [
+            "zin"
+          ]
+        }
+      ],
+      "overrides": {
+        "ihlo": "amehlo",
+        "iso": "amehlo"
+      },
+      "type": "override"
+    },
+    {
+      "id": "zu_verb_v_bantu15_sbjv",
+      "inflection": "v_bantu15_sbjv",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "uma"
+          ]
+        }
+      ],
+      "type": "verb"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "ngi",
+      "ima",
+      "ngi yima",
+      {
+        "rule_id": "zu_verb_prs_2_sg_override"
+      }
+    ],
+    [
+      "ngi",
+      "funa",
+      "ngi funa",
+      {
+        "rule_id": "zu_verb_prs_2_sg_override"
+      }
+    ],
+    [
+      "ngi",
+      "ona",
+      "ngi yona",
+      {
+        "rule_id": "zu_verb_prs_2_sg_override"
+      }
+    ],
+    [
+      "e",
+      "indlela",
+      "e endlini",
+      {
+        "rule_id": "zu_noun_loc_sg_override"
+      }
+    ],
+    [
+      "e",
+      "isikhundla",
+      "e esikhundleni",
+      {
+        "rule_id": "zu_noun_loc_sg_override"
+      }
+    ],
+    [
+      "e",
+      "indaba",
+      "e endlebeni",
+      {
+        "rule_id": "zu_noun_loc_sg_override"
+      }
+    ],
+    [
+      "uma",
+      "akha",
+      "uma akhe",
+      {
+        "rule_id": "zu_verb_sbjv_bantu15_override"
+      }
+    ],
+    [
+      "uma",
+      "iza",
+      "uma ize",
+      {
+        "rule_id": "zu_verb_sbjv_bantu15_override"
+      }
+    ],
+    [
+      "uma",
+      "wa",
+      "uma we",
+      {
+        "rule_id": "zu_verb_sbjv_bantu15_override"
+      }
+    ],
+    [
+      "lapa",
+      "ona",
+      "lapa ono",
+      {
+        "rule_id": "zu_verb_prs_bantu17_override"
+      }
+    ],
+    [
+      "lapa",
+      "funa",
+      "lapa funa",
+      {
+        "rule_id": "zu_verb_prs_bantu17_override"
+      }
+    ],
+    [
+      "kade",
+      "akha",
+      "kade akhe",
+      {
+        "rule_id": "zu_verb_ptcp_bantu15_override"
+      }
+    ],
+    [
+      "kade",
+      "ya",
+      "kade e",
+      {
+        "rule_id": "zu_verb_ptcp_bantu15_override"
+      }
+    ],
+    [
+      "hamba",
+      "iza",
+      "hamba iza",
+      {
+        "rule_id": "zu_verb_imp_2_sg_lgspec3_override"
+      }
+    ],
+    [
+      "hamba",
+      "akha",
+      "hamba akha",
+      {
+        "rule_id": "zu_verb_imp_2_sg_lgspec3_override"
+      }
+    ],
+    [
+      "izin",
+      "ingane",
+      "izin izingane",
+      {
+        "rule_id": "zu_noun_pl_lgspec2_override"
+      }
+    ],
+    [
+      "izin",
+      "ihlo",
+      "izin amehlo",
+      {
+        "rule_id": "zu_noun_pl_lgspec2_override"
+      }
+    ],
+    [
+      "izin",
+      "iso",
+      "izin amehlo",
+      {
+        "rule_id": "zu_noun_pl_lgspec2_override"
+      }
+    ],
+    [
+      "um",
+      "umuntu",
+      "um umuntu",
+      {
+        "rule_id": "zu_noun_sg_lgspec1_pssb1_override"
+      }
+    ],
+    [
+      "um",
+      "isandla",
+      "um isandla",
+      {
+        "rule_id": "zu_noun_sg_lgspec1_pssb1_override"
+      }
+    ],
+    [
+      "um",
+      "isifazane",
+      "um isifazane",
+      {
+        "rule_id": "zu_noun_sg_lgspec1_pssb1_override"
+      }
+    ],
+    [
+      "okw",
+      "ningi",
+      "okw ningi",
+      {
+        "rule_id": "zu_adj_bantu10_override"
+      }
+    ],
+    [
+      "okw",
+      "bili",
+      "okw bili",
+      {
+        "rule_id": "zu_adj_bantu10_override"
+      }
+    ],
+    [
+      "okw",
+      "thathu",
+      "okw thathu",
+      {
+        "rule_id": "zu_adj_bantu10_override"
+      }
+    ],
+    [
+      "ukuthi",
+      "dla",
+      "ukuthi udla",
+      {
+        "rule_id": "zu_verb_nfin_override"
+      }
+    ],
+    [
+      "ukuthi",
+      "sebenza",
+      "ukuthi sebenzisa",
+      {
+        "rule_id": "zu_verb_nfin_override"
+      }
+    ],
+    [
+      "zin",
+      "ihlo",
+      "zin amehlo",
+      {
+        "rule_id": "zu_noun_pl_pssb6_override"
+      }
+    ],
+    [
+      "zin",
+      "iso",
+      "zin amehlo",
+      {
+        "rule_id": "zu_noun_pl_pssb6_override"
+      }
+    ],
+    [
+      "uma",
+      "akha",
+      "uma kwakhe",
+      {
+        "inflection": "v_bantu15_sbjv",
+        "rule_id": "zu_verb_v_bantu15_sbjv"
+      }
+    ],
+    [
+      "uma",
+      "bheka",
+      "uma kubheke",
+      {
+        "inflection": "v_bantu15_sbjv",
+        "rule_id": "zu_verb_v_bantu15_sbjv"
+      }
+    ],
+    [
+      "uma",
+      "enza",
+      "uma kwenze",
+      {
+        "inflection": "v_bantu15_sbjv",
+        "rule_id": "zu_verb_v_bantu15_sbjv"
+      }
+    ],
+    [
+      "uma",
+      "fika",
+      "uma kufike",
+      {
+        "inflection": "v_bantu15_sbjv",
+        "rule_id": "zu_verb_v_bantu15_sbjv"
+      }
+    ],
+    [
+      "uma",
+      "imba",
+      "uma kumbe",
+      {
+        "inflection": "v_bantu15_sbjv",
+        "rule_id": "zu_verb_v_bantu15_sbjv"
+      }
+    ]
+  ]
 }

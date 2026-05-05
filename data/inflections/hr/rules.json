@@ -3,7 +3,220 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "se_reflexive_pronoun",
+      "type": "pronoun",
+      "inflection": "reflexive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "se"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "to_demonstrative_pronoun",
+      "type": "pronoun",
+      "inflection": "neuter",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "to"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ovo_demonstrative_pronoun",
+      "type": "pronoun",
+      "inflection": "neuter",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ovo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "što_interrogative_pronoun",
+      "type": "pronoun",
+      "inflection": "genitive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "što"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koji_relative_pronoun",
+      "type": "pronoun",
+      "inflection": "nominative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "koji"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ništa_negative_pronoun",
+      "type": "pronoun",
+      "inflection": "accusative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ništa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mene_pronoun_objective",
+      "type": "pronoun",
+      "inflection": "accusative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mene"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vas_pronoun_objective",
+      "type": "pronoun",
+      "inflection": "accusative",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "vas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "je_verb_present_3sg",
+      "type": "verb",
+      "inflection": "present_3sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "on",
+            "ona",
+            "ono"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smo_verb_present_1pl",
+      "type": "verb",
+      "inflection": "present_1pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "mi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bilo_verb_past_participle",
+      "type": "verb",
+      "inflection": "past_participle",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "je",
+            "sam",
+            "smo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "do_verb_imperative",
+      "type": "verb",
+      "inflection": "imperative",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nešto_indefinite_pronoun",
+      "type": "pronoun",
+      "inflection": "indefinite",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "nešto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sam_pronoun_reflexive",
+      "type": "pronoun",
+      "inflection": "reflexive",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "sam"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ne_preposition_dative",
+      "type": "preposition",
+      "inflection": "dative",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ne"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da_particle_subjunctive",
+      "type": "particle",
+      "inflection": "subjunctive",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "da"
+          ]
+        }
+      ]
+    }
+  ],
   "substitutions": {},
   "tests": []
 }

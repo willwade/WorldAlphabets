@@ -3,7 +3,258 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "er_var_variant",
+      "lookback": [
+        {
+          "words": [
+            "hann",
+            "hon"
+          ]
+        }
+      ],
+      "overrides": {
+        "var": "er"
+      },
+      "type": "override"
+    },
+    {
+      "id": "hevur_hava_variant",
+      "lookback": [
+        {
+          "words": [
+            "eg"
+          ]
+        }
+      ],
+      "overrides": {
+        "hava": "hevur"
+      },
+      "type": "override"
+    },
+    {
+      "id": "fara_fari_variant",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "eg"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "fara_fari_variant_2",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tú"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "fara_fari_variant_3",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "hann",
+            "hon"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "fara_fer_variant",
+      "inflection": "v_ind_prs_3",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tær"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "fara_ferja_variant",
+      "inflection": "v_cvb",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "at"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "elska_elskandi_variant",
+      "inflection": "v_ptcp_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "maður"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "elska_elskt_variant",
+      "inflection": "v_ptcp_pst",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "har"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "systir_systrar_variant",
+      "inflection": "n_def_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tvør"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "systir_systur_variant",
+      "inflection": "n_indf_acc_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "summur"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "systir_systrina_variant",
+      "inflection": "n_def_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "til"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "endi_endar_variant",
+      "inflection": "n_indf_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ein"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "endi_endinum_variant",
+      "inflection": "n_indf_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "í"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "galin_gølin_variant_2",
+      "inflection": "adj_nom_acc_neut_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "eitt"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "galið_gølin_variant",
+      "inflection": "adj_acc_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "tá"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    },
+    {
+      "id": "galið_gølin_variant_3",
+      "inflection": "adj_dat_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "honum"
+          ]
+        }
+      ],
+      "type": "inflection_rule"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "hann",
+      "var",
+      "hann er",
+      {
+        "rule_id": "er_var_variant"
+      }
+    ],
+    [
+      "hon",
+      "var",
+      "hon er",
+      {
+        "rule_id": "er_var_variant"
+      }
+    ],
+    [
+      "eg",
+      "hava",
+      "eg hevur",
+      {
+        "rule_id": "hevur_hava_variant"
+      }
+    ]
+  ]
 }

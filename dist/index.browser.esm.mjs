@@ -274,6 +274,12 @@ export async function getAvailableInflectionLocales() {
   return Object.keys(INFLECTION_INDEX.locales || {}).sort();
 }
 
+const inflectionCache = new Map();
+
+export function clearInflectionCache() {
+  inflectionCache.clear();
+}
+
 function loadInflectionFile(locale, filename) {
   let key = `${locale}/${filename}`;
   let data = INFLECTIONS[key];
@@ -315,6 +321,210 @@ export async function inflectWord(locale, word, inflection) {
   const forms = entry.inflections || {};
   const value = forms[inflection];
   return typeof value === 'string' ? value : null;
+}
+
+export async function getInflectionSummary(locale) {
+  const wordsData = await loadInflectionWords(locale);
+  const rulesData = await loadInflectionRules(locale);
+  const posTypes = new Set();
+  const inflectionKeys = new Set();
+  let wordCount = 0;
+  for (const [key, entry] of Object.entries(wordsData)) {
+    if (key.startsWith('_') || typeof entry !== 'object' || !entry) continue;
+    wordCount++;
+    if (Array.isArray(entry.types)) posTypes.add(...entry.types);
+    if (entry.inflections && typeof entry.inflections === 'object') {
+      for (const k of Object.keys(entry.inflections)) {
+        if (k !== 'regulars') inflectionKeys.add(k);
+      }
+    }
+  }
+  const rules = rulesData.rules || [];
+  const tests = rulesData.tests || [];
+  return {
+    locale,
+    wordCount,
+    ruleCount: Array.isArray(rules) ? rules.length : 0,
+    testCount: Array.isArray(tests) ? tests.length : 0,
+    posTypes: [...posTypes].sort(),
+    inflectionKeys: [...inflectionKeys].sort(),
+  };
+}
+
+function itemMatches(check, item) {
+  let label = String(item.word || '').toLowerCase();
+  let matching = true;
+  if (Array.isArray(check.words)) {
+    matching = check.words.includes(label);
+  } else if (typeof check.type === 'string') {
+    matching = Array.isArray(item.types) && item.types.includes(check.type);
+  }
+  if (matching && typeof check.match === 'string') {
+    matching = new RegExp(check.match).test(label);
+  }
+  if (matching && typeof check.non_match === 'string') {
+    matching = !new RegExp(check.non_match).test(label);
+  }
+  return matching;
+}
+
+function matchesRule(rule, buttons) {
+  const lookback = rule.lookback || [];
+  if (!Array.isArray(lookback)) return false;
+  let historyIdx = buttons.length - 1;
+  let valid = true;
+  const condenses = [];
+  for (let idx = lookback.length - 1; idx >= 0; idx--) {
+    const check = lookback[idx];
+    const preCheck = idx > 0 ? lookback[idx - 1] : null;
+    if (!check || typeof check !== 'object') return false;
+    const item = historyIdx >= 0 ? buttons[historyIdx] : null;
+    if (item === null || item === undefined) {
+      if (!check.optional) valid = false;
+    } else {
+      let matching = itemMatches(check, item);
+      const preMatching = preCheck && typeof preCheck === 'object' && itemMatches(preCheck, item);
+      const preOptional = preCheck && typeof preCheck === 'object' ? preCheck.optional : null;
+      if (matching && check.optional && preMatching && !preOptional) {
+        matching = false;
+      }
+      if (matching) {
+        if (check.condense) condenses.push(historyIdx);
+        historyIdx--;
+      } else if (!check.optional) {
+        valid = false;
+      }
+    }
+    if (!valid) break;
+  }
+  if (valid && condenses.length > 0) {
+    return { condense_items: condenses };
+  }
+  return valid;
+}
+
+function buildWordList(wordsData) {
+  const words = [];
+  for (const [word, entry] of Object.entries(wordsData)) {
+    if (word.startsWith('_') || typeof entry !== 'object' || !entry) continue;
+    words.push({ ...entry, word });
+  }
+  return words;
+}
+
+function lookupWordSync(wordsData, rulesData, word, priorWords = '') {
+  const words = buildWordList(wordsData);
+  const rules = Array.isArray(rulesData.rules) ? rulesData.rules : [];
+
+  const priorButtons = priorWords.split(/\s+/).filter(Boolean).map(part => {
+    return words.find(w => w.word === part) || { word: part };
+  });
+
+  const foundWords = words.filter(w => w.word === word);
+  if (foundWords.length === 0) {
+    return { word, replacement: null, rule_id: null, rule_type: null, inflection: null, condense_items: null };
+  }
+
+  const foundTypes = {};
+  const matchingRules = [];
+  for (const rule of rules) {
+    if (!rule || typeof rule !== 'object') continue;
+    const ruleType = rule.type;
+    if (typeof ruleType !== 'string') continue;
+    if (foundTypes[ruleType] && ruleType !== 'override') continue;
+    const matches = matchesRule(rule, priorButtons);
+    if (matches) {
+      const matched = { ...rule };
+      if (typeof matches === 'object' && matches.condense_items) {
+        matched.condense_items = matches.condense_items;
+      }
+      matchingRules.push(matched);
+      foundTypes[ruleType] = true;
+    }
+  }
+
+  const first = { ...foundWords[0] };
+  const inflections = {};
+  for (const rule of matchingRules) {
+    if (rule.type === 'override' && rule.overrides && typeof rule.overrides === 'object') {
+      for (const [key, value] of Object.entries(rule.overrides)) {
+        if (!inflections[key]) {
+          inflections[key] = { type: 'override', word: value, id: rule.id, condense_items: rule.condense_items };
+        }
+      }
+    } else {
+      const rt = rule.type;
+      if (typeof rt === 'string') inflections[rt] = rule;
+    }
+  }
+
+  let replacement = null;
+  let ruleId = null;
+  let ruleType = null;
+  let inflection = null;
+  let condenseItems = null;
+
+  const wordValue = first.word;
+  const direct = typeof wordValue === 'string' ? inflections[wordValue] : null;
+  if (direct && typeof direct === 'object' && direct.word) {
+    replacement = direct.word;
+    ruleId = direct.id || null;
+    condenseItems = direct.condense_items || null;
+  } else {
+    let replacementRule = null;
+    const types = Array.isArray(first.types) ? first.types : [];
+    for (const part of types) {
+      if (inflections[part] && !replacementRule) {
+        replacementRule = inflections[part];
+      }
+    }
+    if (replacementRule && typeof replacementRule === 'object') {
+      const forms = first.inflections || {};
+      const infl = replacementRule.inflection;
+      if (forms && typeof forms === 'object' && typeof infl === 'string') {
+        replacement = forms[infl] || first.word;
+        inflection = infl;
+      } else {
+        replacement = first.word;
+      }
+      ruleId = replacementRule.id || null;
+      ruleType = infl || null;
+      condenseItems = replacementRule.condense_items || null;
+    }
+  }
+
+  return { word, replacement, rule_id: ruleId, rule_type: ruleType, inflection, condense_items: condenseItems };
+}
+
+export async function lookupWord(locale, word, priorWords = '') {
+  const wordsData = await loadInflectionWords(locale);
+  const rulesData = await loadInflectionRules(locale);
+  return lookupWordSync(wordsData, rulesData, word, priorWords);
+}
+
+export async function applyRules(locale, text) {
+  const tokens = text.split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) return text;
+  const wordsData = await loadInflectionWords(locale);
+  const rulesData = await loadInflectionRules(locale);
+  const results = [];
+  for (let i = 0; i < tokens.length; i++) {
+    const prior = tokens.slice(0, i).join(' ');
+    const result = lookupWordSync(wordsData, rulesData, tokens[i], prior);
+    if (result.replacement) {
+      if (result.condense_items && result.condense_items.length > 0) {
+        const kept = results.filter((_, idx) => !result.condense_items.includes(idx));
+        results.length = 0;
+        results.push(...kept);
+        results.push(result.replacement);
+      } else {
+        results.push(result.replacement);
+      }
+    } else {
+      results.push(tokens[i]);
+    }
+  }
+  return results.join(' ');
 }
 
 /**

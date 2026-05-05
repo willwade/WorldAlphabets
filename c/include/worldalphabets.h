@@ -90,6 +90,26 @@ typedef struct {
 } wa_prior;
 
 typedef struct {
+    const char *key;
+    const char *value;
+} wa_inflection_form;
+
+typedef struct {
+    const char *word;
+    const char *base;
+    const char **types;
+    size_t type_count;
+    const wa_inflection_form *forms;
+    size_t form_count;
+} wa_inflection_entry;
+
+typedef struct {
+    const char *locale;
+    const wa_inflection_entry *entries;
+    size_t entry_count;
+} wa_inflection_table;
+
+typedef struct {
     const wa_keyboard_layout *layout;
     const wa_keyboard_layer *layer;
     const wa_keyboard_mapping *mapping;
@@ -133,6 +153,14 @@ size_t wa_find_layouts_by_hid_static(uint16_t hid_usage,
                                      wa_layout_match *buffer,
                                      size_t buffer_size);
 void wa_free_layout_matches(wa_layout_match_array *matches);
+
+// Inflections
+wa_string_array wa_get_available_inflection_locales(void);
+const wa_inflection_table *wa_load_inflection_table(const char *locale);
+const wa_inflection_entry *wa_find_inflection_entry(
+    const wa_inflection_table *table, const char *word);
+const char *wa_get_inflected_form(const wa_inflection_entry *entry,
+                                  const char *inflection_key);
 
 #ifdef __cplusplus
 }

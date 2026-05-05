@@ -1,9 +1,1156 @@
 {
-  "_type": "rules",
   "_locale": "ro",
+  "_type": "rules",
   "_version": "0.1",
-  "rules": [],
-  "tests": [],
+  "inflection_locations": {},
+  "rules": [
+    {
+      "id": "ro_noun_pl_def_in",
+      "inflection": "n_nom_acc_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "toate",
+            "toți",
+            "unele",
+            "unii"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "ro_noun_pl_def_in_mai_multe",
+      "inflection": "n_nom_acc_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mai"
+          ]
+        },
+        {
+          "words": [
+            "multe"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "ro_noun_pl_def_in_mai_mulți",
+      "inflection": "n_nom_acc_pl_def",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "mai"
+          ]
+        },
+        {
+          "words": [
+            "mulți"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "ro_verb_1_sg_prs_face",
+      "inflection": "v_ind_prs_1_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "eu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_verb_2_sg_prs_face",
+      "inflection": "v_ind_prs_2_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "tu"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_verb_3_sg_prs_face",
+      "inflection": "v_ind_prs_3_sg",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ea",
+            "el"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_verb_1_pl_prs_face",
+      "inflection": "v_ind_prs_1_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "noi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_verb_2_pl_prs_face",
+      "inflection": "v_ind_prs_2_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "voi"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_verb_3_pl_prs_face",
+      "inflection": "v_ind_prs_3_pl",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ei",
+            "ele"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "ro_noun_sg_voc_eră",
+      "inflection": "n_voc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "!",
+            "?"
+          ]
+        }
+      ],
+      "type": "noun"
+    }
+  ],
   "substitutions": {},
-  "inflection_locations": {}
+  "tests": [
+    [
+      "toate",
+      "ac",
+      "toate acele",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "ac",
+      "toți acele",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "acord",
+      "toate acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "acord",
+      "toți acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "adevăr",
+      "toate adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "adevăr",
+      "toți adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "aer",
+      "toate aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "aer",
+      "toți aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "agent",
+      "toate agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "agent",
+      "toți agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "an",
+      "toate anul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "an",
+      "toți anul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "apă",
+      "toate apa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "apă",
+      "toți apa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "armă",
+      "toate arma",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "armă",
+      "toți arma",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "ban",
+      "toate banii",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "ban",
+      "toți banii",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "băiat",
+      "toate băiatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "băiat",
+      "toți băiatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "bărbat",
+      "toate bărbatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "bărbat",
+      "toți bărbatul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "cafea",
+      "toate cafeaua",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "cafea",
+      "toți cafeaua",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "casă",
+      "toate casa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "casă",
+      "toți casa",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toate",
+      "cat",
+      "toate catul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "toți",
+      "cat",
+      "toți catul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in"
+      }
+    ],
+    [
+      "mai multe",
+      "ac",
+      "mai multe acele",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai multe",
+      "acord",
+      "mai multe acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai multe",
+      "adevăr",
+      "mai multe adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai multe",
+      "aer",
+      "mai multe aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai multe",
+      "agent",
+      "mai multe agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_multe"
+      }
+    ],
+    [
+      "mai mulți",
+      "ac",
+      "mai mulți acele",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mai mulți",
+      "acord",
+      "mai mulți acordul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mai mulți",
+      "adevăr",
+      "mai mulți adevărul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mai mulți",
+      "aer",
+      "mai mulți aerul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "mai mulți",
+      "agent",
+      "mai mulți agentul",
+      {
+        "inflection": "n_nom_acc_pl_def",
+        "rule_id": "ro_noun_pl_def_in_mai_mulți"
+      }
+    ],
+    [
+      "eu",
+      "aduce",
+      "eu aduc",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "afla",
+      "eu aflu",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "ajuta",
+      "eu ajut",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "aminti",
+      "eu amintesc",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "ara",
+      "eu ar",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "arăta",
+      "eu arăt",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "auzi",
+      "eu aud",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "bucura",
+      "eu bucur",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "eu",
+      "cere",
+      "eu cer",
+      {
+        "inflection": "v_ind_prs_1_sg",
+        "rule_id": "ro_verb_1_sg_prs_face"
+      }
+    ],
+    [
+      "tu",
+      "aduce",
+      "tu aduci",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "ro_verb_2_sg_prs_face"
+      }
+    ],
+    [
+      "tu",
+      "afla",
+      "tu afli",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "ro_verb_2_sg_prs_face"
+      }
+    ],
+    [
+      "tu",
+      "ajuta",
+      "tu ajuți",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "ro_verb_2_sg_prs_face"
+      }
+    ],
+    [
+      "tu",
+      "auzi",
+      "tu auzi",
+      {
+        "inflection": "v_ind_prs_2_sg",
+        "rule_id": "ro_verb_2_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "aduce",
+      "ea aduce",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "aduce",
+      "el aduce",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "afla",
+      "ea află",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "afla",
+      "el află",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "ajuta",
+      "ea ajută",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "ajuta",
+      "el ajută",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "arăta",
+      "ea arată",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "arăta",
+      "el arată",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "asculta",
+      "ea ascultă",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "asculta",
+      "el ascultă",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "auzi",
+      "ea aude",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "auzi",
+      "el aude",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "ea",
+      "chema",
+      "ea cheamă",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "el",
+      "chema",
+      "el cheamă",
+      {
+        "inflection": "v_ind_prs_3_sg",
+        "rule_id": "ro_verb_3_sg_prs_face"
+      }
+    ],
+    [
+      "noi",
+      "aduce",
+      "noi aducem",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "ro_verb_1_pl_prs_face"
+      }
+    ],
+    [
+      "noi",
+      "afla",
+      "noi aflăm",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "ro_verb_1_pl_prs_face"
+      }
+    ],
+    [
+      "noi",
+      "ajuta",
+      "noi ajutăm",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "ro_verb_1_pl_prs_face"
+      }
+    ],
+    [
+      "noi",
+      "auzi",
+      "noi auzim",
+      {
+        "inflection": "v_ind_prs_1_pl",
+        "rule_id": "ro_verb_1_pl_prs_face"
+      }
+    ],
+    [
+      "voi",
+      "aduce",
+      "voi aduceți",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "ro_verb_2_pl_prs_face"
+      }
+    ],
+    [
+      "voi",
+      "afla",
+      "voi aflați",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "ro_verb_2_pl_prs_face"
+      }
+    ],
+    [
+      "voi",
+      "ajuta",
+      "voi ajutați",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "ro_verb_2_pl_prs_face"
+      }
+    ],
+    [
+      "voi",
+      "auzi",
+      "voi auziți",
+      {
+        "inflection": "v_ind_prs_2_pl",
+        "rule_id": "ro_verb_2_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "aduce",
+      "ei aduc",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "aduce",
+      "ele aduc",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "afla",
+      "ei află",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "afla",
+      "ele află",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "ajuta",
+      "ei ajută",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "ajuta",
+      "ele ajută",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "aminti",
+      "ei amintesc",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "aminti",
+      "ele amintesc",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "arăta",
+      "ei arată",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "arăta",
+      "ele arată",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "asculta",
+      "ei ascultă",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "asculta",
+      "ele ascultă",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "auzi",
+      "ei aud",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "auzi",
+      "ele aud",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "cere",
+      "ei cer",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "cere",
+      "ele cer",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ei",
+      "chema",
+      "ei cheamă",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "ele",
+      "chema",
+      "ele cheamă",
+      {
+        "inflection": "v_ind_prs_3_pl",
+        "rule_id": "ro_verb_3_pl_prs_face"
+      }
+    ],
+    [
+      "!",
+      "acord",
+      "! acordule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "acord",
+      "? acordule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "aer",
+      "! aerule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "aer",
+      "? aerule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "agent",
+      "! agentule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "agent",
+      "? agentule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "an",
+      "! anule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "an",
+      "? anule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "apă",
+      "! apă",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "apă",
+      "? apă",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "băiat",
+      "! băiatule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "băiat",
+      "? băiatule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "bărbat",
+      "! bărbatule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "bărbat",
+      "? bărbatule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "cafea",
+      "! cafea",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "cafea",
+      "? cafea",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "casă",
+      "! casă",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "casă",
+      "? casă",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "!",
+      "cat",
+      "! catule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ],
+    [
+      "?",
+      "cat",
+      "? catule",
+      {
+        "inflection": "n_voc_sg",
+        "rule_id": "ro_noun_sg_voc_eră"
+      }
+    ]
+  ]
 }

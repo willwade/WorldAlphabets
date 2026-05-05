@@ -43,7 +43,2084 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "der_art_nom_masc_sg",
+      "lookback": [
+        {
+          "words": [
+            "der",
+            "dieser",
+            "einer"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "der",
+        "der": "der",
+        "die": "der"
+      },
+      "type": "override"
+    },
+    {
+      "id": "das_art_gen_neut_sg",
+      "lookback": [
+        {
+          "words": [
+            "des",
+            "eines"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "des",
+        "der": "des",
+        "die": "des"
+      },
+      "type": "override"
+    },
+    {
+      "id": "das_art_dat_neut_sg",
+      "lookback": [
+        {
+          "words": [
+            "dem",
+            "einem"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "dem",
+        "der": "dem",
+        "die": "dem"
+      },
+      "type": "override"
+    },
+    {
+      "id": "der_art_acc_masc_sg",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "einen"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "den",
+        "der": "den",
+        "die": "den"
+      },
+      "type": "override"
+    },
+    {
+      "id": "die_art_acc_fem_sg",
+      "lookback": [
+        {
+          "words": [
+            "die",
+            "diese"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "die",
+        "der": "die",
+        "die": "die"
+      },
+      "type": "override"
+    },
+    {
+      "id": "das_art_acc_neut_sg",
+      "lookback": [
+        {
+          "words": [
+            "das",
+            "dieses"
+          ]
+        }
+      ],
+      "overrides": {
+        "das": "das",
+        "der": "das",
+        "die": "das"
+      },
+      "type": "override"
+    },
+    {
+      "id": "v_ind_pl_1_prs_haben",
+      "inflection": "v_ind_pl_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "wir"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_pl_2_prs_haben",
+      "inflection": "v_ind_pl_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ihr"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_pl_3_prs_haben",
+      "inflection": "v_ind_pl_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "sie"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_sg_1_prs_haben",
+      "inflection": "v_ind_sg_1_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "ich"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_sg_2_prs_haben",
+      "inflection": "v_ind_sg_2_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "du"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "v_ind_sg_3_prs_haben",
+      "inflection": "v_ind_sg_3_prs",
+      "location": "sw",
+      "lookback": [
+        {
+          "words": [
+            "er",
+            "es"
+          ]
+        }
+      ],
+      "type": "verb"
+    },
+    {
+      "id": "adj_nom_masc_sg_weak",
+      "inflection": "adj_nom_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "aller",
+            "der",
+            "dieser",
+            "jeder",
+            "mancher",
+            "solcher",
+            "welcher"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_gen_masc_sg_weak",
+      "inflection": "adj_gen_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "des",
+            "dieses",
+            "eines"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_masc_sg_weak",
+      "inflection": "adj_dat_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dem",
+            "diesem",
+            "einem"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_acc_masc_sg_weak",
+      "inflection": "adj_acc_masc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "den",
+            "diesen",
+            "einen"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_nom_fem_sg_weak",
+      "inflection": "adj_nom_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "die",
+            "diese",
+            "jede",
+            "manche",
+            "solche",
+            "welche"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_gen_fem_sg_weak",
+      "inflection": "adj_gen_fem_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "einer"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_nom_neut_sg_weak",
+      "inflection": "adj_nom_neut_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "das",
+            "jedes",
+            "manches",
+            "solches",
+            "welches"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_nom_pl_weak",
+      "inflection": "adj_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "alle"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "adj_dat_pl_weak",
+      "inflection": "adj_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "allen",
+            "manchen",
+            "solchen",
+            "welchen"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "der",
+      "der",
+      "der der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "dieser",
+      "der",
+      "dieser der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "einer",
+      "der",
+      "einer der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "der",
+      "die",
+      "der der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "dieser",
+      "die",
+      "dieser der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "einer",
+      "die",
+      "einer der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "der",
+      "das",
+      "der der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "dieser",
+      "das",
+      "dieser der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "einer",
+      "das",
+      "einer der",
+      {
+        "rule_id": "der_art_nom_masc_sg"
+      }
+    ],
+    [
+      "des",
+      "der",
+      "des des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "eines",
+      "der",
+      "eines des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "des",
+      "die",
+      "des des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "eines",
+      "die",
+      "eines des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "des",
+      "das",
+      "des des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "eines",
+      "das",
+      "eines des",
+      {
+        "rule_id": "das_art_gen_neut_sg"
+      }
+    ],
+    [
+      "dem",
+      "der",
+      "dem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "einem",
+      "der",
+      "einem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "dem",
+      "die",
+      "dem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "einem",
+      "die",
+      "einem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "dem",
+      "das",
+      "dem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "einem",
+      "das",
+      "einem dem",
+      {
+        "rule_id": "das_art_dat_neut_sg"
+      }
+    ],
+    [
+      "den",
+      "der",
+      "den den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "einen",
+      "der",
+      "einen den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "den",
+      "die",
+      "den den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "einen",
+      "die",
+      "einen den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "den",
+      "das",
+      "den den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "einen",
+      "das",
+      "einen den",
+      {
+        "rule_id": "der_art_acc_masc_sg"
+      }
+    ],
+    [
+      "die",
+      "der",
+      "die die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "diese",
+      "der",
+      "diese die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "die",
+      "die",
+      "die die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "diese",
+      "die",
+      "diese die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "die",
+      "das",
+      "die die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "diese",
+      "das",
+      "diese die",
+      {
+        "rule_id": "die_art_acc_fem_sg"
+      }
+    ],
+    [
+      "das",
+      "der",
+      "das das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "dieses",
+      "der",
+      "dieses das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "das",
+      "die",
+      "das das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "dieses",
+      "die",
+      "dieses das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "das",
+      "das",
+      "das das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "dieses",
+      "das",
+      "dieses das",
+      {
+        "rule_id": "das_art_acc_neut_sg"
+      }
+    ],
+    [
+      "wir",
+      "Bescheid wissen",
+      "wir wissen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "abkönnen",
+      "wir können",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "anessen",
+      "wir essen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "anfangen",
+      "wir fangen an",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "ankönnen",
+      "wir können",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "anrufen",
+      "wir rufen an",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "aufhören",
+      "wir hören auf",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "behalten",
+      "wir behalten",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "bekommen",
+      "wir bekommen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "bezahlen",
+      "wir bezahlen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "bitten",
+      "wir bitten",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "bleiben",
+      "wir bleiben",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "brauchen",
+      "wir brauchen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "wir",
+      "bringen",
+      "wir bringen",
+      {
+        "inflection": "v_ind_pl_1_prs",
+        "rule_id": "v_ind_pl_1_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "Bescheid wissen",
+      "ihr wisst",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "abkönnen",
+      "ihr könnt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "anfangen",
+      "ihr fangt an",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "ankönnen",
+      "ihr könnt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "anrufen",
+      "ihr ruft an",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "aufhören",
+      "ihr hört auf",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "behalten",
+      "ihr behaltet",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "bekommen",
+      "ihr bekommt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "bezahlen",
+      "ihr bezahlt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "bitten",
+      "ihr bittet",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "bleiben",
+      "ihr bleibt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "brauchen",
+      "ihr braucht",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "ihr",
+      "bringen",
+      "ihr bringt",
+      {
+        "inflection": "v_ind_pl_2_prs",
+        "rule_id": "v_ind_pl_2_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "Bescheid wissen",
+      "sie wissen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "abkönnen",
+      "sie können",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "anessen",
+      "sie essen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "anfangen",
+      "sie fangen an",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "ankönnen",
+      "sie können",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "anrufen",
+      "sie rufen an",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "aufhören",
+      "sie hören auf",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "behalten",
+      "sie behalten",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "bekommen",
+      "sie bekommen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "bezahlen",
+      "sie bezahlen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "bitten",
+      "sie bitten",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "bleiben",
+      "sie bleiben",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "brauchen",
+      "sie brauchen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "sie",
+      "bringen",
+      "sie bringen",
+      {
+        "inflection": "v_ind_pl_3_prs",
+        "rule_id": "v_ind_pl_3_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "Bescheid wissen",
+      "ich weiß",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "abkönnen",
+      "ich kann",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "altern",
+      "ich alter",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "anfangen",
+      "ich fange an",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "ankönnen",
+      "ich kann",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "anrufen",
+      "ich rufe an",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "aufhören",
+      "ich höre auf",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "behalten",
+      "ich behalte",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bekommen",
+      "ich bekomme",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bessern",
+      "ich besser",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bezahlen",
+      "ich bezahle",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bitten",
+      "ich bitte",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bleiben",
+      "ich bleibe",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "brauchen",
+      "ich brauche",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "bringen",
+      "ich bringe",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "ich",
+      "danken",
+      "ich danke",
+      {
+        "inflection": "v_ind_sg_1_prs",
+        "rule_id": "v_ind_sg_1_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "Bescheid wissen",
+      "du weißt",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "abkönnen",
+      "du kannst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "anfangen",
+      "du fängst an",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "ankönnen",
+      "du kannst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "anrufen",
+      "du rufst an",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "aufhören",
+      "du hörst auf",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "behalten",
+      "du behältst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "bekommen",
+      "du bekommst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "bezahlen",
+      "du bezahlst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "bitten",
+      "du bittest",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "bleiben",
+      "du bleibst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "brauchen",
+      "du brauchst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "du",
+      "bringen",
+      "du bringst",
+      {
+        "inflection": "v_ind_sg_2_prs",
+        "rule_id": "v_ind_sg_2_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "Bescheid wissen",
+      "er weiß",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "Bescheid wissen",
+      "es weiß",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "abkönnen",
+      "er kann",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "abkönnen",
+      "es kann",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "anfangen",
+      "er fängt an",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "anfangen",
+      "es fängt an",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "ankönnen",
+      "er kann",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "ankönnen",
+      "es kann",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "anrufen",
+      "er ruft an",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "anrufen",
+      "es ruft an",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "aufhören",
+      "er hört auf",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "aufhören",
+      "es hört auf",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "behalten",
+      "er behält",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "behalten",
+      "es behält",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "bekommen",
+      "er bekommt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "bekommen",
+      "es bekommt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "bezahlen",
+      "er bezahlt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "bezahlen",
+      "es bezahlt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "bitten",
+      "er bittet",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "bitten",
+      "es bittet",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "bleiben",
+      "er bleibt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "bleiben",
+      "es bleibt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "brauchen",
+      "er braucht",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "brauchen",
+      "es braucht",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "er",
+      "bringen",
+      "er bringt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "es",
+      "bringen",
+      "es bringt",
+      {
+        "inflection": "v_ind_sg_3_prs",
+        "rule_id": "v_ind_sg_3_prs_haben"
+      }
+    ],
+    [
+      "aller",
+      "alt",
+      "aller alter",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "der",
+      "alt",
+      "der alter",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "aller",
+      "bloß",
+      "aller bloßer",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "der",
+      "bloß",
+      "der bloßer",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "aller",
+      "böse",
+      "aller böser",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "der",
+      "böse",
+      "der böser",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "aller",
+      "cool",
+      "aller cooler",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "der",
+      "cool",
+      "der cooler",
+      {
+        "inflection": "adj_nom_masc_sg",
+        "rule_id": "adj_nom_masc_sg_weak"
+      }
+    ],
+    [
+      "des",
+      "alt",
+      "des alten",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "dieses",
+      "alt",
+      "dieses alten",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "des",
+      "bloß",
+      "des bloßen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "dieses",
+      "bloß",
+      "dieses bloßen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "des",
+      "böse",
+      "des bösen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "dieses",
+      "böse",
+      "dieses bösen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "des",
+      "cool",
+      "des coolen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "dieses",
+      "cool",
+      "dieses coolen",
+      {
+        "inflection": "adj_gen_masc_sg",
+        "rule_id": "adj_gen_masc_sg_weak"
+      }
+    ],
+    [
+      "dem",
+      "alt",
+      "dem altem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "diesem",
+      "alt",
+      "diesem altem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "dem",
+      "bloß",
+      "dem bloßem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "diesem",
+      "bloß",
+      "diesem bloßem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "dem",
+      "böse",
+      "dem bösem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "diesem",
+      "böse",
+      "diesem bösem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "dem",
+      "cool",
+      "dem coolem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "diesem",
+      "cool",
+      "diesem coolem",
+      {
+        "inflection": "adj_dat_masc_sg",
+        "rule_id": "adj_dat_masc_sg_weak"
+      }
+    ],
+    [
+      "den",
+      "alt",
+      "den alten",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "diesen",
+      "alt",
+      "diesen alten",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "den",
+      "bloß",
+      "den bloßen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "diesen",
+      "bloß",
+      "diesen bloßen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "den",
+      "böse",
+      "den bösen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "diesen",
+      "böse",
+      "diesen bösen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "den",
+      "cool",
+      "den coolen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "diesen",
+      "cool",
+      "diesen coolen",
+      {
+        "inflection": "adj_acc_masc_sg",
+        "rule_id": "adj_acc_masc_sg_weak"
+      }
+    ],
+    [
+      "die",
+      "alt",
+      "die alte",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "diese",
+      "alt",
+      "diese alte",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "die",
+      "bloß",
+      "die bloße",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "diese",
+      "bloß",
+      "diese bloße",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "die",
+      "böse",
+      "die böse",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "diese",
+      "böse",
+      "diese böse",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "die",
+      "cool",
+      "die coole",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "diese",
+      "cool",
+      "diese coole",
+      {
+        "inflection": "adj_nom_fem_sg",
+        "rule_id": "adj_nom_fem_sg_weak"
+      }
+    ],
+    [
+      "einer",
+      "alt",
+      "einer alter",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "adj_gen_fem_sg_weak"
+      }
+    ],
+    [
+      "einer",
+      "bloß",
+      "einer bloßer",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "adj_gen_fem_sg_weak"
+      }
+    ],
+    [
+      "einer",
+      "böse",
+      "einer böser",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "adj_gen_fem_sg_weak"
+      }
+    ],
+    [
+      "einer",
+      "cool",
+      "einer cooler",
+      {
+        "inflection": "adj_gen_fem_sg",
+        "rule_id": "adj_gen_fem_sg_weak"
+      }
+    ],
+    [
+      "das",
+      "alt",
+      "das altes",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "jedes",
+      "alt",
+      "jedes altes",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "das",
+      "bloß",
+      "das bloßes",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "jedes",
+      "bloß",
+      "jedes bloßes",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "das",
+      "böse",
+      "das böses",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "jedes",
+      "böse",
+      "jedes böses",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "das",
+      "cool",
+      "das cooles",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "jedes",
+      "cool",
+      "jedes cooles",
+      {
+        "inflection": "adj_nom_neut_sg",
+        "rule_id": "adj_nom_neut_sg_weak"
+      }
+    ],
+    [
+      "alle",
+      "alt",
+      "alle alte",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adj_nom_pl_weak"
+      }
+    ],
+    [
+      "alle",
+      "bloß",
+      "alle bloße",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adj_nom_pl_weak"
+      }
+    ],
+    [
+      "alle",
+      "böse",
+      "alle böse",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adj_nom_pl_weak"
+      }
+    ],
+    [
+      "alle",
+      "cool",
+      "alle coole",
+      {
+        "inflection": "adj_nom_pl",
+        "rule_id": "adj_nom_pl_weak"
+      }
+    ],
+    [
+      "allen",
+      "alt",
+      "allen alten",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "manchen",
+      "alt",
+      "manchen alten",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "allen",
+      "bloß",
+      "allen bloßen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "manchen",
+      "bloß",
+      "manchen bloßen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "allen",
+      "böse",
+      "allen bösen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "manchen",
+      "böse",
+      "manchen bösen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "allen",
+      "cool",
+      "allen coolen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ],
+    [
+      "manchen",
+      "cool",
+      "manchen coolen",
+      {
+        "inflection": "adj_dat_pl",
+        "rule_id": "adj_dat_pl_weak"
+      }
+    ]
+  ]
 }

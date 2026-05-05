@@ -1,0 +1,30 @@
+rule_id,inflection,pre_words,test_word,updated_words
+col_2_pl_ind_prs_gweld,v_col_2_pl_ind_prs,chi,bwyta,chi bwytwch chi
+col_2_pl_ind_prs_gweld,v_col_2_pl_ind_prs,chi,dysgu,chi dysgwch chi
+col_2_pl_ind_prs_gweld,v_col_2_pl_ind_prs,chi,gallu,chi gallwch chi
+lit_2_pl_imp_gweld,v_lit_2_pl_imp,let,bwyta,let bwytewch
+lit_2_pl_imp_gweld,v_lit_2_pl_imp,let,cymryd,let cymerwch
+lit_2_pl_imp_gweld,v_lit_2_pl_imp,let,dysgu,let dysgwch
+lit_2_pl_imp_gweld,v_lit_2_pl_imp,let,gallu,let gellwch
+lit_2_pl_imp_gweld,v_lit_2_pl_imp,let,gweld,let gwelwch
+col_1_pl_ind_prs_gallu,v_col_1_pl_ind_prs,ni,bwyta,ni bwytwn ni
+col_1_pl_ind_prs_gallu,v_col_1_pl_ind_prs,ni,dysgu,ni dysgwn ni
+col_1_pl_ind_prs_gallu,v_col_1_pl_ind_prs,ni,gallu,ni gallwn ni
+col_1_sg_ind_prs_gallu,v_col_1_sg_ind_prs,mi,bwyta,mi bwyta i
+col_1_sg_ind_prs_gallu,v_col_1_sg_ind_prs,mi,dysgu,mi dysga i
+col_1_sg_ind_prs_gallu,v_col_1_sg_ind_prs,mi,gallu,mi galla i
+col_2_sg_ind_prs_bwyta,v_col_2_sg_ind_prs,ti,bwyta,ti bwyti di
+col_2_sg_ind_prs_bwyta,v_col_2_sg_ind_prs,ti,dysgu,ti dysgi di
+col_2_sg_ind_prs_bwyta,v_col_2_sg_ind_prs,ti,gallu,ti galli di
+col_3_pl_ind_prs_bwyta,v_col_3_pl_ind_prs,nhw,bwyta,nhw bwytan nhw
+col_3_pl_ind_prs_bwyta,v_col_3_pl_ind_prs,nhw,dysgu,nhw dysgan nhw
+col_3_pl_ind_prs_bwyta,v_col_3_pl_ind_prs,nhw,gallu,nhw gallan nhw
+bod_verb,v_col_1_sg_ind_prs,dw,bwyta,dw bwyta i
+bod_verb,v_col_1_sg_ind_prs,dw,dysgu,dw dysga i
+bod_verb,v_col_1_sg_ind_prs,dw,gallu,dw galla i
+mae_verb,v_col_3_sg_ind_prs,ef,bwyta,ef bwytith o
+mae_verb,v_col_3_sg_ind_prs,hi,bwyta,hi bwytith o
+mae_verb,v_col_3_sg_ind_prs,ef,dysgu,ef dysgith o
+mae_verb,v_col_3_sg_ind_prs,hi,dysgu,hi dysgith o
+mae_verb,v_col_3_sg_ind_prs,ef,gallu,ef gall o
+mae_verb,v_col_3_sg_ind_prs,hi,gallu,hi gall o

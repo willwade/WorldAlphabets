@@ -3,7 +3,4242 @@
   "_type": "rules",
   "_version": "0.1",
   "inflection_locations": {},
-  "rules": [],
+  "rules": [
+    {
+      "id": "sl_override_je_mi",
+      "lookback": [
+        {
+          "words": [
+            "jaz"
+          ]
+        }
+      ],
+      "overrides": {
+        "je": "sem"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sl_override_od_vas",
+      "lookback": [
+        {
+          "words": [
+            "od"
+          ]
+        }
+      ],
+      "overrides": {
+        "vas": "vih"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sl_override_do_vas",
+      "lookback": [
+        {
+          "words": [
+            "do"
+          ]
+        }
+      ],
+      "overrides": {
+        "vas": "vás"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sl_override_po_vas",
+      "lookback": [
+        {
+          "words": [
+            "po"
+          ]
+        }
+      ],
+      "overrides": {
+        "vas": "vas"
+      },
+      "type": "override"
+    },
+    {
+      "id": "sl_adj_fem_nom_sg_most",
+      "inflection": "adj_fem_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ena",
+            "katera",
+            "ta"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_masc_nom_sg_most",
+      "inflection": "adj_masc_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en",
+            "kateri"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_neut_nom_sg_most",
+      "inflection": "adj_neut_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "eno",
+            "katere",
+            "to"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_fem_acc_sg_most",
+      "inflection": "adj_fem_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "katero"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_neut_acc_sg_most",
+      "inflection": "adj_neut_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "katerega"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_fem_gen_sg_most",
+      "inflection": "adj_fem_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "ene",
+            "te"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_masc_gen_sg_most",
+      "inflection": "adj_masc_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "enega",
+            "tega"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_fem_dat_sg_most",
+      "inflection": "adj_fem_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "eni",
+            "tej"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_masc_dat_sg_most",
+      "inflection": "adj_masc_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "enemu",
+            "katermu",
+            "tem"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_masc_ins_sg_most",
+      "inflection": "adj_masc_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "enim",
+            "katerim"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_noun_nom_pl_hvala",
+      "inflection": "n_nom_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lepe",
+            "te",
+            "številne"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_gen_pl_hvala",
+      "inflection": "n_gen_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lepih",
+            "vseh",
+            "številnih"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_dat_pl_hvala",
+      "inflection": "n_dat_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "lepim",
+            "všem",
+            "številnim"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_ins_pl_hvala",
+      "inflection": "n_ins_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pri",
+            "s",
+            "z"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_ess_pl_hvala",
+      "inflection": "n_ess_pl",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kot",
+            "za"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_pron_acc_sg_te",
+      "inflection": "n_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "koga"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "sl_pron_dat_sg_te",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "komu"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "sl_pron_gen_sg_te",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "kom"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "sl_pron_ins_sg_te",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pred",
+            "s",
+            "z"
+          ]
+        }
+      ],
+      "type": "pronoun"
+    },
+    {
+      "id": "sl_noun_nom_sg_avto",
+      "inflection": "n_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "en",
+            "moj",
+            "ta"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_gen_sg_avto",
+      "inflection": "n_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "enega",
+            "mojega",
+            "tega"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_dat_sg_avto",
+      "inflection": "n_dat_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "enemu",
+            "mojemu",
+            "temu"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_noun_ins_sg_avto",
+      "inflection": "n_ins_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "pred"
+          ]
+        }
+      ],
+      "type": "noun"
+    },
+    {
+      "id": "sl_adj_masc_nom_sg_dober",
+      "inflection": "adj_masc_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobr",
+            "velik"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_fem_nom_sg_dober",
+      "inflection": "adj_fem_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobra",
+            "velika"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_neut_nom_sg_dober",
+      "inflection": "adj_neut_nom_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobro",
+            "veliko"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_neut_acc_sg_dober",
+      "inflection": "adj_neut_acc_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dober"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_masc_gen_sg_dober",
+      "inflection": "adj_masc_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobrega",
+            "velikega"
+          ]
+        }
+      ],
+      "type": "adjective"
+    },
+    {
+      "id": "sl_adj_fem_gen_sg_dober",
+      "inflection": "adj_fem_gen_sg",
+      "location": "n",
+      "lookback": [
+        {
+          "words": [
+            "dobre",
+            "velike"
+          ]
+        }
+      ],
+      "type": "adjective"
+    }
+  ],
   "substitutions": {},
-  "tests": []
+  "tests": [
+    [
+      "jaz",
+      "je",
+      "jaz sem",
+      {
+        "rule_id": "sl_override_je_mi"
+      }
+    ],
+    [
+      "od",
+      "vas",
+      "od vih",
+      {
+        "rule_id": "sl_override_od_vas"
+      }
+    ],
+    [
+      "do",
+      "vas",
+      "do vás",
+      {
+        "rule_id": "sl_override_do_vas"
+      }
+    ],
+    [
+      "po",
+      "vas",
+      "po vas",
+      {
+        "rule_id": "sl_override_po_vas"
+      }
+    ],
+    [
+      "ena",
+      "boljši",
+      "ena bóljša",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "katera",
+      "boljši",
+      "katera bóljša",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "ena",
+      "cel",
+      "ena céla",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "katera",
+      "cel",
+      "katera céla",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "ena",
+      "dober",
+      "ena dobra",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "katera",
+      "dober",
+      "katera dobra",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "ena",
+      "drug",
+      "ena drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "katera",
+      "drug",
+      "katera drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "ena",
+      "drugi",
+      "ena drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "katera",
+      "drugi",
+      "katera drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_most"
+      }
+    ],
+    [
+      "en",
+      "boljši",
+      "en bóljši",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_most"
+      }
+    ],
+    [
+      "kateri",
+      "boljši",
+      "kateri bóljši",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_most"
+      }
+    ],
+    [
+      "en",
+      "drugi",
+      "en drúgi",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_most"
+      }
+    ],
+    [
+      "kateri",
+      "drugi",
+      "kateri drúgi",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_most"
+      }
+    ],
+    [
+      "eno",
+      "boljši",
+      "eno bóljše",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katere",
+      "boljši",
+      "katere bóljše",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "eno",
+      "cel",
+      "eno célo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katere",
+      "cel",
+      "katere célo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "eno",
+      "dober",
+      "eno dobro",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katere",
+      "dober",
+      "katere dobro",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "eno",
+      "drug",
+      "eno drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katere",
+      "drug",
+      "katere drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "eno",
+      "drugi",
+      "eno drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katere",
+      "drugi",
+      "katere drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_most"
+      }
+    ],
+    [
+      "katero",
+      "boljši",
+      "katero bóljšo",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "sl_adj_fem_acc_sg_most"
+      }
+    ],
+    [
+      "katero",
+      "cel",
+      "katero célo",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "sl_adj_fem_acc_sg_most"
+      }
+    ],
+    [
+      "katero",
+      "dober",
+      "katero dobro",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "sl_adj_fem_acc_sg_most"
+      }
+    ],
+    [
+      "katero",
+      "drug",
+      "katero drúgo",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "sl_adj_fem_acc_sg_most"
+      }
+    ],
+    [
+      "katero",
+      "drugi",
+      "katero drúgo",
+      {
+        "inflection": "adj_fem_acc_sg",
+        "rule_id": "sl_adj_fem_acc_sg_most"
+      }
+    ],
+    [
+      "katerega",
+      "boljši",
+      "katerega bóljše",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_most"
+      }
+    ],
+    [
+      "katerega",
+      "cel",
+      "katerega célo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_most"
+      }
+    ],
+    [
+      "katerega",
+      "dober",
+      "katerega dobro",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_most"
+      }
+    ],
+    [
+      "katerega",
+      "drug",
+      "katerega drúgo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_most"
+      }
+    ],
+    [
+      "katerega",
+      "drugi",
+      "katerega drúgo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_most"
+      }
+    ],
+    [
+      "ene",
+      "boljši",
+      "ene bóljše",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "te",
+      "boljši",
+      "te bóljše",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "ene",
+      "cel",
+      "ene céle",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "te",
+      "cel",
+      "te céle",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "ene",
+      "dober",
+      "ene dobre",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "te",
+      "dober",
+      "te dobre",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "ene",
+      "drug",
+      "ene drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "te",
+      "drug",
+      "te drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "ene",
+      "drugi",
+      "ene drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "te",
+      "drugi",
+      "te drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_most"
+      }
+    ],
+    [
+      "enega",
+      "boljši",
+      "enega bóljšega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "tega",
+      "boljši",
+      "tega bóljšega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "enega",
+      "cel",
+      "enega célega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "tega",
+      "cel",
+      "tega célega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "enega",
+      "dober",
+      "enega dobrega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "tega",
+      "dober",
+      "tega dobrega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "enega",
+      "drug",
+      "enega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "tega",
+      "drug",
+      "tega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "enega",
+      "drugi",
+      "enega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "tega",
+      "drugi",
+      "tega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_most"
+      }
+    ],
+    [
+      "eni",
+      "boljši",
+      "eni bóljši",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "tej",
+      "boljši",
+      "tej bóljši",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "eni",
+      "cel",
+      "eni céli",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "tej",
+      "cel",
+      "tej céli",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "eni",
+      "dober",
+      "eni dobri",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "tej",
+      "dober",
+      "tej dobri",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "eni",
+      "drug",
+      "eni drúgi",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "tej",
+      "drug",
+      "tej drúgi",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "eni",
+      "drugi",
+      "eni drúgi",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "tej",
+      "drugi",
+      "tej drúgi",
+      {
+        "inflection": "adj_fem_dat_sg",
+        "rule_id": "sl_adj_fem_dat_sg_most"
+      }
+    ],
+    [
+      "enemu",
+      "boljši",
+      "enemu bóljšemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "katermu",
+      "boljši",
+      "katermu bóljšemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "enemu",
+      "cel",
+      "enemu célemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "katermu",
+      "cel",
+      "katermu célemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "enemu",
+      "dober",
+      "enemu dobremu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "katermu",
+      "dober",
+      "katermu dobremu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "enemu",
+      "drug",
+      "enemu drúgemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "katermu",
+      "drug",
+      "katermu drúgemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "enemu",
+      "drugi",
+      "enemu drúgemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "katermu",
+      "drugi",
+      "katermu drúgemu",
+      {
+        "inflection": "adj_masc_dat_sg",
+        "rule_id": "sl_adj_masc_dat_sg_most"
+      }
+    ],
+    [
+      "enim",
+      "boljši",
+      "enim bóljšim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "katerim",
+      "boljši",
+      "katerim bóljšim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "enim",
+      "cel",
+      "enim célim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "katerim",
+      "cel",
+      "katerim célim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "enim",
+      "dober",
+      "enim dobrim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "katerim",
+      "dober",
+      "katerim dobrim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "enim",
+      "drug",
+      "enim drúgim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "katerim",
+      "drug",
+      "katerim drúgim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "enim",
+      "drugi",
+      "enim drúgim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "katerim",
+      "drugi",
+      "katerim drúgim",
+      {
+        "inflection": "adj_masc_ins_sg",
+        "rule_id": "sl_adj_masc_ins_sg_most"
+      }
+    ],
+    [
+      "lepe",
+      "avto",
+      "lepe ávta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "avto",
+      "te ávta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "bog",
+      "lepe bogôvi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "bog",
+      "te bogôvi",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "brat",
+      "lepe brátje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "brat",
+      "te brátje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "briga",
+      "lepe bríge",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "briga",
+      "te bríge",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "darilo",
+      "lepe daríla",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "darilo",
+      "te daríla",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "dekle",
+      "lepe dekleta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "dekle",
+      "te dekleta",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "del",
+      "lepe déli",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "del",
+      "te déli",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "delo",
+      "lepe déla",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "delo",
+      "te déla",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "denar",
+      "lepe denárji",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "denar",
+      "te denárji",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "družina",
+      "lepe družíne",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "družina",
+      "te družíne",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "fant",
+      "lepe fántje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "fant",
+      "te fántje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "gospa",
+      "lepe gospe",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "gospa",
+      "te gospe",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "gospod",
+      "lepe gospódje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "gospod",
+      "te gospódje",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "hiša",
+      "lepe híše",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "hiša",
+      "te híše",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "hvala",
+      "lepe hvála",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "hvala",
+      "te hvála",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "igra",
+      "lepe ígre",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "igra",
+      "te ígre",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepe",
+      "ime",
+      "lepe imena",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "te",
+      "ime",
+      "te imena",
+      {
+        "inflection": "n_nom_pl",
+        "rule_id": "sl_noun_nom_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "avto",
+      "lepih ávt",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "avto",
+      "vseh ávt",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "bog",
+      "lepih bogôv",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "bog",
+      "vseh bogôv",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "brat",
+      "lepih brátov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "brat",
+      "vseh brátov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "briga",
+      "lepih bríg",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "briga",
+      "vseh bríg",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "darilo",
+      "lepih daríl",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "darilo",
+      "vseh daríl",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "dekle",
+      "lepih deklet",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "dekle",
+      "vseh deklet",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "del",
+      "lepih délov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "del",
+      "vseh délov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "delo",
+      "lepih dél",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "delo",
+      "vseh dél",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "denar",
+      "lepih denárjev",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "denar",
+      "vseh denárjev",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "družina",
+      "lepih družín",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "družina",
+      "vseh družín",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "fant",
+      "lepih fántov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "fant",
+      "vseh fántov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "gospa",
+      "lepih gospem",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "gospa",
+      "vseh gospem",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "gospod",
+      "lepih gospódov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "gospod",
+      "vseh gospódov",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "hiša",
+      "lepih híš",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "hiša",
+      "vseh híš",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "hvala",
+      "lepih hvále",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "hvala",
+      "vseh hvále",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "igra",
+      "lepih íger",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "igra",
+      "vseh íger",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepih",
+      "ime",
+      "lepih imen",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "vseh",
+      "ime",
+      "vseh imen",
+      {
+        "inflection": "n_gen_pl",
+        "rule_id": "sl_noun_gen_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "avto",
+      "lepim ávtom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "avto",
+      "všem ávtom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "bog",
+      "lepim bogôvom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "bog",
+      "všem bogôvom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "brat",
+      "lepim brátom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "brat",
+      "všem brátom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "briga",
+      "lepim brígam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "briga",
+      "všem brígam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "darilo",
+      "lepim darílom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "darilo",
+      "všem darílom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "dekle",
+      "lepim dekletom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "dekle",
+      "všem dekletom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "del",
+      "lepim délom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "del",
+      "všem délom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "delo",
+      "lepim délom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "delo",
+      "všem délom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "denar",
+      "lepim denárjem",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "denar",
+      "všem denárjem",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "družina",
+      "lepim družínam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "družina",
+      "všem družínam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "fant",
+      "lepim fántom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "fant",
+      "všem fántom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "gospa",
+      "lepim gospe",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "gospa",
+      "všem gospe",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "gospod",
+      "lepim gospódom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "gospod",
+      "všem gospódom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "hiša",
+      "lepim híšam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "hiša",
+      "všem híšam",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "hvala",
+      "lepim hváli",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "hvala",
+      "všem hváli",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "igra",
+      "lepim ígram",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "igra",
+      "všem ígram",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "lepim",
+      "ime",
+      "lepim imenom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "všem",
+      "ime",
+      "všem imenom",
+      {
+        "inflection": "n_dat_pl",
+        "rule_id": "sl_noun_dat_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "avto",
+      "pri ávti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "avto",
+      "s ávti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "bog",
+      "pri bogôvi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "bog",
+      "s bogôvi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "brat",
+      "pri bráti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "brat",
+      "s bráti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "briga",
+      "pri brígami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "briga",
+      "s brígami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "darilo",
+      "pri daríli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "darilo",
+      "s daríli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "dekle",
+      "pri dekleti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "dekle",
+      "s dekleti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "del",
+      "pri déli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "del",
+      "s déli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "delo",
+      "pri déli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "delo",
+      "s déli",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "denar",
+      "pri denárji",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "denar",
+      "s denárji",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "družina",
+      "pri družínami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "družina",
+      "s družínami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "fant",
+      "pri fánti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "fant",
+      "s fánti",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "gospa",
+      "pri gospemi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "gospa",
+      "s gospemi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "gospod",
+      "pri gospódi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "gospod",
+      "s gospódi",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "hiša",
+      "pri híšami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "hiša",
+      "s híšami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "hvala",
+      "pri hválo",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "hvala",
+      "s hválo",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "igra",
+      "pri ígrami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "igra",
+      "s ígrami",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "pri",
+      "ime",
+      "pri imeni",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "s",
+      "ime",
+      "s imeni",
+      {
+        "inflection": "n_ins_pl",
+        "rule_id": "sl_noun_ins_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "avto",
+      "kot ávtih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "avto",
+      "za ávtih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "bog",
+      "kot bogôvih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "bog",
+      "za bogôvih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "brat",
+      "kot brátih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "brat",
+      "za brátih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "briga",
+      "kot brígah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "briga",
+      "za brígah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "darilo",
+      "kot darílih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "darilo",
+      "za darílih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "dekle",
+      "kot dekletih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "dekle",
+      "za dekletih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "del",
+      "kot délih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "del",
+      "za délih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "delo",
+      "kot délih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "delo",
+      "za délih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "denar",
+      "kot denárjih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "denar",
+      "za denárjih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "družina",
+      "kot družínah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "družina",
+      "za družínah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "fant",
+      "kot fántih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "fant",
+      "za fántih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "gospa",
+      "kot gospeh",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "gospa",
+      "za gospeh",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "gospod",
+      "kot gospódih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "gospod",
+      "za gospódih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "hiša",
+      "kot híšah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "hiša",
+      "za híšah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "hvala",
+      "kot hváli",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "hvala",
+      "za hváli",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "igra",
+      "kot ígrah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "igra",
+      "za ígrah",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "kot",
+      "ime",
+      "kot imenih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "za",
+      "ime",
+      "za imenih",
+      {
+        "inflection": "n_ess_pl",
+        "rule_id": "sl_noun_ess_pl_hvala"
+      }
+    ],
+    [
+      "en",
+      "avto",
+      "en ávto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "avto",
+      "moj ávto",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "bog",
+      "en bóg",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "bog",
+      "moj bóg",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "brat",
+      "en bràt",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "brat",
+      "moj bràt",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "briga",
+      "en bríga",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "briga",
+      "moj bríga",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "darilo",
+      "en darílo",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "darilo",
+      "moj darílo",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "dekle",
+      "en dekle",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "dekle",
+      "moj dekle",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "del",
+      "en dél",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "del",
+      "moj dél",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "delo",
+      "en délo",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "delo",
+      "moj délo",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "denar",
+      "en denár",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "denar",
+      "moj denár",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "družina",
+      "en družína",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "družina",
+      "moj družína",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "fant",
+      "en fànt",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "fant",
+      "moj fànt",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "gospa",
+      "en gospa",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "gospa",
+      "moj gospa",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "gospod",
+      "en gospód",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "gospod",
+      "moj gospód",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "hiša",
+      "en híša",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "hiša",
+      "moj híša",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "igra",
+      "en ígra",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "igra",
+      "moj ígra",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "en",
+      "ime",
+      "en ime",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "moj",
+      "ime",
+      "moj ime",
+      {
+        "inflection": "n_nom_sg",
+        "rule_id": "sl_noun_nom_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "avto",
+      "enega ávta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "avto",
+      "mojega ávta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "bog",
+      "enega bogá",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "bog",
+      "mojega bogá",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "brat",
+      "enega bráta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "brat",
+      "mojega bráta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "briga",
+      "enega bríge",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "briga",
+      "mojega bríge",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "darilo",
+      "enega daríla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "darilo",
+      "mojega daríla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "dekle",
+      "enega dekleta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "dekle",
+      "mojega dekleta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "del",
+      "enega déla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "del",
+      "mojega déla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "delo",
+      "enega déla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "delo",
+      "mojega déla",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "denar",
+      "enega denárja",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "denar",
+      "mojega denárja",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "družina",
+      "enega družíne",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "družina",
+      "mojega družíne",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "fant",
+      "enega fánta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "fant",
+      "mojega fánta",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "gospa",
+      "enega gospe",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "gospa",
+      "mojega gospe",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "gospod",
+      "enega gospóda",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "gospod",
+      "mojega gospóda",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "hiša",
+      "enega híše",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "hiša",
+      "mojega híše",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "igra",
+      "enega ígre",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "igra",
+      "mojega ígre",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enega",
+      "ime",
+      "enega imena",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "mojega",
+      "ime",
+      "mojega imena",
+      {
+        "inflection": "n_gen_sg",
+        "rule_id": "sl_noun_gen_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "avto",
+      "enemu ávtu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "avto",
+      "mojemu ávtu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "bog",
+      "enemu bógu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "bog",
+      "mojemu bógu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "brat",
+      "enemu brátu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "brat",
+      "mojemu brátu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "briga",
+      "enemu brígi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "briga",
+      "mojemu brígi",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "darilo",
+      "enemu darílu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "darilo",
+      "mojemu darílu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "dekle",
+      "enemu dekletu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "dekle",
+      "mojemu dekletu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "del",
+      "enemu délu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "del",
+      "mojemu délu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "delo",
+      "enemu délu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "delo",
+      "mojemu délu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "denar",
+      "enemu denárju",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "denar",
+      "mojemu denárju",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "družina",
+      "enemu družíni",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "družina",
+      "mojemu družíni",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "fant",
+      "enemu fántu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "fant",
+      "mojemu fántu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "gospa",
+      "enemu gospo",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "gospa",
+      "mojemu gospo",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "gospod",
+      "enemu gospódu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "gospod",
+      "mojemu gospódu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "hiša",
+      "enemu híši",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "hiša",
+      "mojemu híši",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "igra",
+      "enemu ígri",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "igra",
+      "mojemu ígri",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "enemu",
+      "ime",
+      "enemu imenu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "mojemu",
+      "ime",
+      "mojemu imenu",
+      {
+        "inflection": "n_dat_sg",
+        "rule_id": "sl_noun_dat_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "avto",
+      "pred ávtom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "bog",
+      "pred bógom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "brat",
+      "pred brátom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "briga",
+      "pred brígo",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "darilo",
+      "pred darílom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "dekle",
+      "pred dekletom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "del",
+      "pred délom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "delo",
+      "pred délom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "denar",
+      "pred denárjem",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "družina",
+      "pred družíno",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "fant",
+      "pred fántom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "gospa",
+      "pred gospo",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "gospod",
+      "pred gospódom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "hiša",
+      "pred híšo",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "igra",
+      "pred ígro",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "pred",
+      "ime",
+      "pred imenom",
+      {
+        "inflection": "n_ins_sg",
+        "rule_id": "sl_noun_ins_sg_avto"
+      }
+    ],
+    [
+      "dobr",
+      "boljši",
+      "dobr bóljši",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_dober"
+      }
+    ],
+    [
+      "velik",
+      "boljši",
+      "velik bóljši",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_dober"
+      }
+    ],
+    [
+      "dobr",
+      "drugi",
+      "dobr drúgi",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_dober"
+      }
+    ],
+    [
+      "velik",
+      "drugi",
+      "velik drúgi",
+      {
+        "inflection": "adj_masc_nom_sg",
+        "rule_id": "sl_adj_masc_nom_sg_dober"
+      }
+    ],
+    [
+      "dobra",
+      "boljši",
+      "dobra bóljša",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "velika",
+      "boljši",
+      "velika bóljša",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "dobra",
+      "cel",
+      "dobra céla",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "velika",
+      "cel",
+      "velika céla",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "dobra",
+      "dober",
+      "dobra dobra",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "velika",
+      "dober",
+      "velika dobra",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "dobra",
+      "drug",
+      "dobra drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "velika",
+      "drug",
+      "velika drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "dobra",
+      "drugi",
+      "dobra drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "velika",
+      "drugi",
+      "velika drúga",
+      {
+        "inflection": "adj_fem_nom_sg",
+        "rule_id": "sl_adj_fem_nom_sg_dober"
+      }
+    ],
+    [
+      "dobro",
+      "boljši",
+      "dobro bóljše",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "veliko",
+      "boljši",
+      "veliko bóljše",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "dobro",
+      "cel",
+      "dobro célo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "veliko",
+      "cel",
+      "veliko célo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "dobro",
+      "dober",
+      "dobro dobro",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "veliko",
+      "dober",
+      "veliko dobro",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "dobro",
+      "drug",
+      "dobro drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "veliko",
+      "drug",
+      "veliko drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "dobro",
+      "drugi",
+      "dobro drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "veliko",
+      "drugi",
+      "veliko drúgo",
+      {
+        "inflection": "adj_neut_nom_sg",
+        "rule_id": "sl_adj_neut_nom_sg_dober"
+      }
+    ],
+    [
+      "dober",
+      "boljši",
+      "dober bóljše",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_dober"
+      }
+    ],
+    [
+      "dober",
+      "cel",
+      "dober célo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_dober"
+      }
+    ],
+    [
+      "dober",
+      "dober",
+      "dober dobro",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_dober"
+      }
+    ],
+    [
+      "dober",
+      "drug",
+      "dober drúgo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_dober"
+      }
+    ],
+    [
+      "dober",
+      "drugi",
+      "dober drúgo",
+      {
+        "inflection": "adj_neut_acc_sg",
+        "rule_id": "sl_adj_neut_acc_sg_dober"
+      }
+    ],
+    [
+      "dobrega",
+      "boljši",
+      "dobrega bóljšega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "velikega",
+      "boljši",
+      "velikega bóljšega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "dobrega",
+      "cel",
+      "dobrega célega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "velikega",
+      "cel",
+      "velikega célega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "dobrega",
+      "dober",
+      "dobrega dobrega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "velikega",
+      "dober",
+      "velikega dobrega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "dobrega",
+      "drug",
+      "dobrega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "velikega",
+      "drug",
+      "velikega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "dobrega",
+      "drugi",
+      "dobrega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "velikega",
+      "drugi",
+      "velikega drúgega",
+      {
+        "inflection": "adj_masc_gen_sg",
+        "rule_id": "sl_adj_masc_gen_sg_dober"
+      }
+    ],
+    [
+      "dobre",
+      "boljši",
+      "dobre bóljše",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "velike",
+      "boljši",
+      "velike bóljše",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "dobre",
+      "cel",
+      "dobre céle",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "velike",
+      "cel",
+      "velike céle",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "dobre",
+      "dober",
+      "dobre dobre",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "velike",
+      "dober",
+      "velike dobre",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "dobre",
+      "drug",
+      "dobre drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "velike",
+      "drug",
+      "velike drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "dobre",
+      "drugi",
+      "dobre drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ],
+    [
+      "velike",
+      "drugi",
+      "velike drúge",
+      {
+        "inflection": "adj_fem_gen_sg",
+        "rule_id": "sl_adj_fem_gen_sg_dober"
+      }
+    ]
+  ]
 }

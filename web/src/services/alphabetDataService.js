@@ -9,7 +9,10 @@ class AlphabetDataService {
       alphabets: null,
       ttsIndex: null,
       keyboardLayouts: null,
-      enrichedData: null
+      enrichedData: null,
+      inflectionIndex: null,
+      inflectionWords: {},
+      inflectionRules: {}
     };
   }
 
@@ -121,6 +124,78 @@ class AlphabetDataService {
       return this.cache.enrichedData;
     } catch (error) {
       console.error('Error enriching alphabet data:', error);
+      throw error;
+    }
+  }
+
+  async loadInflectionIndex() {
+    if (this.cache.inflectionIndex) {
+      return this.cache.inflectionIndex;
+    }
+
+    try {
+      const response = await fetch(
+        `${this.baseUrl}data/inflections/index.json`
+      );
+      if (!response.ok) {
+        throw new Error('Failed to load inflection index');
+      }
+      this.cache.inflectionIndex = await response.json();
+      return this.cache.inflectionIndex;
+    } catch (error) {
+      console.error('Error loading inflection index:', error);
+      throw error;
+    }
+  }
+
+  async loadInflectionWords(locale) {
+    if (this.cache.inflectionWords[locale]) {
+      return this.cache.inflectionWords[locale];
+    }
+
+    try {
+      const response = await fetch(
+        `${this.baseUrl}data/inflections/${locale}/words.json`
+      );
+      if (!response.ok) {
+        throw new Error(
+          `Failed to load inflection words for ${locale}`
+        );
+      }
+      const data = await response.json();
+      this.cache.inflectionWords[locale] = data;
+      return data;
+    } catch (error) {
+      console.error(
+        `Error loading inflection words for ${locale}:`,
+        error
+      );
+      throw error;
+    }
+  }
+
+  async loadInflectionRules(locale) {
+    if (this.cache.inflectionRules[locale]) {
+      return this.cache.inflectionRules[locale];
+    }
+
+    try {
+      const response = await fetch(
+        `${this.baseUrl}data/inflections/${locale}/rules.json`
+      );
+      if (!response.ok) {
+        throw new Error(
+          `Failed to load inflection rules for ${locale}`
+        );
+      }
+      const data = await response.json();
+      this.cache.inflectionRules[locale] = data;
+      return data;
+    } catch (error) {
+      console.error(
+        `Error loading inflection rules for ${locale}:`,
+        error
+      );
       throw error;
     }
   }
