@@ -16,7 +16,7 @@ at build time. No runtime dependency on WorldAlphabets.
 import json
 import os
 import sys
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
 LAYOUTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "layouts")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "RelayKeys", "keymaps")
