@@ -270,15 +270,15 @@ def build_keyboard_layers(layout: dict) -> List[dict]:
             if not legend:
                 continue
             hid_raw = key.get("hid")
+            hid: Optional[int] = None
             if hid_raw:
                 hid = int(hid_raw, 16)
             else:
                 dom_code = resolve_dom_code(key)
-                if dom_code is None:
-                    continue
-                hid = CODE_TO_HID.get(dom_code)
-                if hid is None:
-                    continue
+                if dom_code is not None:
+                    hid = CODE_TO_HID.get(dom_code)
+            if hid is None:
+                continue
             entries.append((hid, legend))
         if entries:
             entries.sort(key=lambda item: item[0])
