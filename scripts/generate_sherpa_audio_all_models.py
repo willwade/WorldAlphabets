@@ -16,21 +16,21 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import requests
-import numpy as np
+import numpy as np  # type: ignore[import]
 
 try:
-    import soundfile as sf
+    import soundfile as sf  # type: ignore[import]
 except ImportError:
     print("Installing soundfile...")
     os.system("pip install soundfile")
-    import soundfile as sf
+    import soundfile as sf  # type: ignore[import]
 
 try:
-    import sherpa_onnx
+    import sherpa_onnx  # type: ignore[import]
 except ImportError:
     print("Installing sherpa-onnx...")
     os.system("pip install sherpa-onnx")
-    import sherpa_onnx
+    import sherpa_onnx  # type: ignore[import]
 
 # Project paths
 ALPHABETS_DIR = Path("data/alphabets")
@@ -380,7 +380,7 @@ def determine_model_type(model_id: str) -> str:
     return "vits"
 
 
-def create_kokoro_config(model_file, tokens_file, voices_bin, espeak_dir):
+def create_kokoro_config(model_file: Path, tokens_file: Path, voices_bin: Optional[Path], espeak_dir: Optional[Path]) -> Any:
     """Create Kokoro model config."""
     kokoro_cfg = sherpa_onnx.OfflineTtsKokoroModelConfig(
         model=str(model_file),
@@ -396,7 +396,7 @@ def create_kokoro_config(model_file, tokens_file, voices_bin, espeak_dir):
     )
 
 
-def create_matcha_config(model_file, tokens_file, espeak_dir):
+def create_matcha_config(model_file: Path, tokens_file: Path, espeak_dir: Optional[Path]) -> Any:
     """Create Matcha model config (requires vocoder)."""
     # Download vocoder if needed
     vocoder_path = MODELS_CACHE_DIR / "vocoder" / "vocos-22khz-univ.onnx"
@@ -424,7 +424,7 @@ def create_matcha_config(model_file, tokens_file, espeak_dir):
     )
 
 
-def create_vits_config(model_file, tokens_file, data_dir, espeak_dir):
+def create_vits_config(model_file: Path, tokens_file: Path, data_dir: Optional[Path], espeak_dir: Optional[Path]) -> Any:
     """Create VITS model config."""
     vits_cfg = sherpa_onnx.OfflineTtsVitsModelConfig(
         model=str(model_file),
@@ -444,7 +444,7 @@ def create_vits_config(model_file, tokens_file, data_dir, espeak_dir):
 def save_audio_file(audio_bytes: bytes, sample_rate: int, output_path: Path) -> bool:
     """Save audio bytes to WAV file."""
     try:
-        import numpy as np
+        import numpy as np  # type: ignore[import-untyped]
         audio_array = np.frombuffer(audio_bytes, dtype=np.int16)
         sf.write(str(output_path), audio_array, sample_rate)
         return True
@@ -453,7 +453,7 @@ def save_audio_file(audio_bytes: bytes, sample_rate: int, output_path: Path) -> 
         return False
 
 
-def cleanup_model(model_dir: Path):
+def cleanup_model(model_dir: Path) -> None:
     """Remove downloaded model files to save disk space."""
     try:
         if model_dir.exists():
@@ -471,7 +471,7 @@ def load_audio_index() -> Dict[str, List[Dict[str, str]]]:
     return {}
 
 
-def save_audio_index(index: Dict[str, List[Dict[str, str]]]):
+def save_audio_index(index: Dict[str, List[Dict[str, str]]]) -> None:
     """Save audio index."""
     AUDIO_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
     with AUDIO_INDEX_PATH.open("w", encoding="utf-8") as f:
@@ -484,7 +484,7 @@ def add_audio_entry(
     engine: str,
     voice_id: str,
     path: Path,
-):
+) -> None:
     """Add entry to audio index."""
     entry = {"engine": engine, "voice_id": voice_id, "path": str(path)}
     items = index.setdefault(lang, [])
@@ -492,7 +492,7 @@ def add_audio_entry(
         items.append(entry)
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate audio using all SherpaOnnx models from merged_models.json"
     )

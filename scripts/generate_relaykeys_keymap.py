@@ -16,6 +16,7 @@ at build time. No runtime dependency on WorldAlphabets.
 import json
 import os
 import sys
+from typing import Any, Dict, List, Optional
 
 LAYOUTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "layouts")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "RelayKeys", "keymaps")
@@ -107,15 +108,15 @@ FRIENDLY_NAMES = {
 }
 
 
-def load_layout(layout_id):
+def load_layout(layout_id: str) -> Dict[str, Any]:
     path = os.path.join(LAYOUTS_DIR, f"{layout_id}.json")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def layout_to_keymap(layout):
-    keymap = {}
-    numpad_keymap = {}
+def layout_to_keymap(layout: Dict[str, Any]) -> Dict[str, Any]:
+    keymap: Dict[str, Any] = {}
+    numpad_keymap: Dict[str, Any] = {}
 
     for key in layout["keys"]:
         vk = key.get("vk", "")
@@ -151,7 +152,7 @@ def layout_to_keymap(layout):
     return {k: v for k, v in keymap.items() if v[0] is not None}
 
 
-def find_layout_file(query):
+def find_layout_file(query: str) -> Optional[str]:
     if os.path.exists(os.path.join(LAYOUTS_DIR, f"{query}.json")):
         return query
 
@@ -173,13 +174,13 @@ def find_layout_file(query):
     return None
 
 
-def get_output_name(layout_id):
+def get_output_name(layout_id: str) -> str:
     if layout_id in FRIENDLY_NAMES:
         return FRIENDLY_NAMES[layout_id]
     return f"{layout_id}_keymap.json"
 
 
-def generate_one(layout_id):
+def generate_one(layout_id: str) -> Optional[str]:
     actual_id = find_layout_file(layout_id)
     if actual_id is None:
         print(f"  SKIP: layout '{layout_id}' not found")
@@ -205,7 +206,7 @@ def generate_one(layout_id):
     return out_path
 
 
-def generate_all():
+def generate_all() -> None:
     print("Generating keymaps from WorldAlphabets layouts...")
     print()
 
@@ -230,7 +231,7 @@ def generate_all():
     print(f"\nGenerated {count} keymap files in {OUTPUT_DIR}/")
 
 
-def list_available():
+def list_available() -> None:
     layouts = sorted(f[:-5] for f in os.listdir(LAYOUTS_DIR) if f.endswith(".json"))
     print(f"Available layouts ({len(layouts)}):")
     for lid in layouts:
