@@ -31,7 +31,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x29"
     },
     {
       "pos": "Digit1",
@@ -55,7 +56,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1E"
     },
     {
       "pos": "Digit2",
@@ -79,7 +81,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1F"
     },
     {
       "pos": "Digit3",
@@ -103,7 +106,8 @@
         "alt": null
       },
       "dead": true,
-      "notes": []
+      "notes": [],
+      "hid": "0x20"
     },
     {
       "pos": "Digit4",
@@ -127,7 +131,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x21"
     },
     {
       "pos": "Digit5",
@@ -151,7 +156,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x22"
     },
     {
       "pos": "Digit6",
@@ -175,7 +181,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x23"
     },
     {
       "pos": "Digit7",
@@ -199,7 +206,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x24"
     },
     {
       "pos": "Digit8",
@@ -223,7 +231,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x25"
     },
     {
       "pos": "Digit9",
@@ -247,7 +256,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x26"
     },
     {
       "pos": "Digit0",
@@ -271,7 +281,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x27"
     },
     {
       "pos": "Minus",
@@ -295,7 +306,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x2D"
     },
     {
       "pos": "Equal",
@@ -319,7 +331,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x2E"
     },
     {
       "pos": "Backspace",
@@ -343,7 +356,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x2A"
     },
     {
       "pos": "Tab",
@@ -367,7 +381,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x2B"
     },
     {
       "pos": "KeyQ",
@@ -391,7 +406,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x14"
     },
     {
       "pos": "KeyW",
@@ -415,7 +431,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1A"
     },
     {
       "pos": "KeyE",
@@ -439,7 +456,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x08"
     },
     {
       "pos": "KeyR",
@@ -463,7 +481,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x15"
     },
     {
       "pos": "KeyT",
@@ -487,7 +506,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x17"
     },
     {
       "pos": "KeyY",
@@ -511,7 +531,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1C"
     },
     {
       "pos": "KeyU",
@@ -535,7 +556,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x18"
     },
     {
       "pos": "KeyI",
@@ -559,7 +581,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0C"
     },
     {
       "pos": "KeyO",
@@ -583,7 +606,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x12"
     },
     {
       "pos": "KeyP",
@@ -607,7 +631,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x13"
     },
     {
       "pos": "BracketLeft",
@@ -631,7 +656,8 @@
         "alt": null
       },
       "dead": true,
-      "notes": []
+      "notes": [],
+      "hid": "0x2F"
     },
     {
       "pos": "BracketRight",
@@ -655,7 +681,8 @@
         "alt": null
       },
       "dead": true,
-      "notes": []
+      "notes": [],
+      "hid": "0x30"
     },
     {
       "pos": "Enter",
@@ -679,7 +706,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x28"
     },
     {
       "pos": "ControlLeft",
@@ -703,7 +731,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE0"
     },
     {
       "pos": "KeyA",
@@ -727,7 +756,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x04"
     },
     {
       "pos": "KeyS",
@@ -751,7 +781,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x16"
     },
     {
       "pos": "KeyD",
@@ -775,7 +806,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x07"
     },
     {
       "pos": "KeyF",
@@ -799,7 +831,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x09"
     },
     {
       "pos": "KeyG",
@@ -823,7 +856,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0A"
     },
     {
       "pos": "KeyH",
@@ -847,7 +881,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0B"
     },
     {
       "pos": "KeyJ",
@@ -871,7 +906,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0D"
     },
     {
       "pos": "KeyK",
@@ -895,7 +931,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0E"
     },
     {
       "pos": "KeyL",
@@ -919,7 +956,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x0F"
     },
     {
       "pos": "Semicolon",
@@ -943,7 +981,8 @@
         "alt": null
       },
       "dead": true,
-      "notes": []
+      "notes": [],
+      "hid": "0x33"
     },
     {
       "pos": "Quote",
@@ -967,7 +1006,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x34"
     },
     {
       "pos": "Backquote",
@@ -991,7 +1031,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x35"
     },
     {
       "pos": "ShiftLeft",
@@ -1015,7 +1056,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE1"
     },
     {
       "pos": "Backslash",
@@ -1039,7 +1081,8 @@
         "alt": null
       },
       "dead": true,
-      "notes": []
+      "notes": [],
+      "hid": "0x31"
     },
     {
       "pos": "KeyZ",
@@ -1063,7 +1106,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1D"
     },
     {
       "pos": "KeyX",
@@ -1087,7 +1131,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x1B"
     },
     {
       "pos": "KeyC",
@@ -1111,7 +1156,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x06"
     },
     {
       "pos": "KeyV",
@@ -1135,7 +1181,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x19"
     },
     {
       "pos": "KeyB",
@@ -1159,7 +1206,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x05"
     },
     {
       "pos": "KeyN",
@@ -1183,7 +1231,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x11"
     },
     {
       "pos": "KeyM",
@@ -1207,7 +1256,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x10"
     },
     {
       "pos": "Comma",
@@ -1231,7 +1281,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x36"
     },
     {
       "pos": "Period",
@@ -1255,7 +1306,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x37"
     },
     {
       "pos": "Slash",
@@ -1279,7 +1331,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x38"
     },
     {
       "pos": "ShiftRight",
@@ -1303,7 +1356,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE5"
     },
     {
       "pos": "NumpadMultiply",
@@ -1327,7 +1381,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x55"
     },
     {
       "pos": "AltLeft",
@@ -1351,7 +1406,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE2"
     },
     {
       "pos": "Space",
@@ -1375,7 +1431,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x2C"
     },
     {
       "pos": "CapsLock",
@@ -1399,7 +1456,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x39"
     },
     {
       "pos": "F1",
@@ -1423,7 +1481,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3A"
     },
     {
       "pos": "F2",
@@ -1447,7 +1506,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3B"
     },
     {
       "pos": "F3",
@@ -1471,7 +1531,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3C"
     },
     {
       "pos": "F4",
@@ -1495,7 +1556,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3D"
     },
     {
       "pos": "F5",
@@ -1519,7 +1581,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3E"
     },
     {
       "pos": "F6",
@@ -1543,7 +1606,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x3F"
     },
     {
       "pos": "F7",
@@ -1567,7 +1631,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x40"
     },
     {
       "pos": "F8",
@@ -1591,7 +1656,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x41"
     },
     {
       "pos": "F9",
@@ -1615,7 +1681,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x42"
     },
     {
       "pos": "F10",
@@ -1639,7 +1706,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x43"
     },
     {
       "pos": "NumLock",
@@ -1663,7 +1731,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x53"
     },
     {
       "pos": "ScrollLock",
@@ -1687,7 +1756,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x47"
     },
     {
       "pos": "Numpad7",
@@ -1711,7 +1781,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5F"
     },
     {
       "pos": "Numpad8",
@@ -1735,7 +1806,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x60"
     },
     {
       "pos": "Numpad9",
@@ -1759,7 +1831,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x61"
     },
     {
       "pos": "NumpadSubtract",
@@ -1783,7 +1856,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x56"
     },
     {
       "pos": "Numpad4",
@@ -1807,7 +1881,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5C"
     },
     {
       "pos": "Numpad5",
@@ -1831,7 +1906,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5D"
     },
     {
       "pos": "Numpad6",
@@ -1855,7 +1931,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5E"
     },
     {
       "pos": "NumpadAdd",
@@ -1879,7 +1956,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x57"
     },
     {
       "pos": "Numpad1",
@@ -1903,7 +1981,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x59"
     },
     {
       "pos": "Numpad2",
@@ -1927,7 +2006,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5A"
     },
     {
       "pos": "Numpad3",
@@ -1951,7 +2031,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x5B"
     },
     {
       "pos": "Numpad0",
@@ -1975,7 +2056,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x62"
     },
     {
       "pos": "NumpadDecimal",
@@ -1999,7 +2081,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x63"
     },
     {
       "pos": "r4c9",
@@ -2047,7 +2130,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x64"
     },
     {
       "pos": "F11",
@@ -2071,7 +2155,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x44"
     },
     {
       "pos": "F12",
@@ -2095,7 +2180,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x45"
     },
     {
       "pos": "r4c16",
@@ -2622,7 +2708,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x64"
     },
     {
       "pos": null,
@@ -2698,7 +2785,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x63"
     },
     {
       "pos": null,
@@ -2755,7 +2843,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x58"
     },
     {
       "pos": null,
@@ -2774,7 +2863,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE4"
     },
     {
       "pos": null,
@@ -2926,7 +3016,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x54"
     },
     {
       "pos": null,
@@ -2945,7 +3036,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x46"
     },
     {
       "pos": null,
@@ -2964,7 +3056,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE6"
     },
     {
       "pos": null,
@@ -2983,7 +3076,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x48"
     },
     {
       "pos": null,
@@ -3002,7 +3096,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4A"
     },
     {
       "pos": null,
@@ -3021,7 +3116,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x52"
     },
     {
       "pos": null,
@@ -3040,7 +3136,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4B"
     },
     {
       "pos": null,
@@ -3059,7 +3156,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x50"
     },
     {
       "pos": null,
@@ -3078,7 +3176,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4F"
     },
     {
       "pos": null,
@@ -3097,7 +3196,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4D"
     },
     {
       "pos": null,
@@ -3116,7 +3216,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x51"
     },
     {
       "pos": null,
@@ -3135,7 +3236,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4E"
     },
     {
       "pos": null,
@@ -3154,7 +3256,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x49"
     },
     {
       "pos": null,
@@ -3173,7 +3276,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x4C"
     },
     {
       "pos": null,
@@ -3192,7 +3296,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE3"
     },
     {
       "pos": null,
@@ -3211,7 +3316,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0xE7"
     },
     {
       "pos": null,
@@ -3439,7 +3545,8 @@
         "alt": null
       },
       "dead": false,
-      "notes": []
+      "notes": [],
+      "hid": "0x48"
     }
   ],
   "dead_keys": [

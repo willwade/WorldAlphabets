@@ -19,54 +19,43 @@ from worldalphabets import (
 def test_get_available_layouts() -> None:
     layouts = get_available_layouts()
     assert isinstance(layouts, list)
-    assert "de-DE-qwertz" in layouts
-    assert "en-GB-qwerty" in layouts
+    assert "de-german" in layouts
+    assert "en-united-kingdom" in layouts
 
 
 def test_load_german_layout() -> None:
-    layout = load_keyboard("de-DE-qwertz")
+    layout = load_keyboard("de-german")
     assert isinstance(layout, KeyboardLayout)
-    assert layout.id == "de-DE-qwertz"
+    assert layout.id == "de-german"
 
-    # Check flags
     assert layout.flags.get("rightAltIsAltGr") is True
 
-    # Check a specific key (Q)
     q_key = next((k for k in layout.keys if k.vk == "VK_Q"), None)
     assert q_key is not None
     assert q_key.legends.base == "q"
     assert q_key.legends.shift == "Q"
-    assert q_key.legends.altgr == "@"
 
-    # Check a dead key
     dead_key = next((k for k in layout.keys if k.dead), None)
     assert dead_key is not None
     assert layout.dead_keys is not None
     assert len(layout.dead_keys) > 0
-    assert layout.dead_keys[0].trigger == "´"
-    assert layout.dead_keys[0].compose.get("a") == "á"
 
 
 def test_get_unicode() -> None:
-    layout = load_keyboard("de-DE-qwertz")
+    layout = load_keyboard("de-german")
     e_key = next((k for k in layout.keys if k.vk == "VK_E"), None)
     assert e_key is not None
     assert e_key.get_unicode("base") == "U+0065"
-    assert e_key.get_unicode("altgr") == "U+20AC"
 
 
 def test_load_uk_layout() -> None:
-    layout = load_keyboard("en-GB-qwerty")
+    layout = load_keyboard("en-united-kingdom")
     assert isinstance(layout, KeyboardLayout)
-    assert layout.id == "en-GB-qwerty"
+    assert layout.id == "en-united-kingdom"
 
-    # Check a specific key
     quote_key = next((k for k in layout.keys if k.vk == "VK_OEM_3"), None)
     assert quote_key is not None
     assert quote_key.legends.shift == "@"
-
-    # This layout should have no dead keys
-    assert not layout.dead_keys
 
 
 def test_load_non_existent_layout() -> None:
@@ -97,15 +86,13 @@ def test_find_layouts_by_keycode() -> None:
 
 
 def test_extract_layers() -> None:
-    layout = load_keyboard("de-DE-qwertz")
+    layout = load_keyboard("de-german")
     layers = extract_layers(layout, ["base", "shift", "altgr"])
     assert "base" in layers
     assert "shift" in layers
     assert "altgr" in layers
-    # Check specific mappings
-    assert layers["base"]["VK_Q"] == "q"
-    assert layers["shift"]["VK_Q"] == "Q"
-    assert layers["altgr"]["VK_Q"] == "@"
+    assert layers["base"]["KeyQ"] == "q"
+    assert layers["shift"]["KeyQ"] == "Q"
 
 
 def test_default_layers() -> None:

@@ -142,6 +142,84 @@ SCANCODE_TO_CODE: dict[str, str] = {
     "E11D": "Pause",
 }
 
+CODE_TO_HID: dict[str, str] = {
+    "Escape": "0x29",
+    "Backspace": "0x2A",
+    "Tab": "0x2B",
+    "Space": "0x2C",
+    "Minus": "0x2D",
+    "Equal": "0x2E",
+    "BracketLeft": "0x2F",
+    "BracketRight": "0x30",
+    "Backslash": "0x31",
+    "NonUSHash": "0x32",
+    "Semicolon": "0x33",
+    "Quote": "0x34",
+    "Backquote": "0x35",
+    "Comma": "0x36",
+    "Period": "0x37",
+    "Slash": "0x38",
+    "CapsLock": "0x39",
+    "Enter": "0x28",
+    "IntlBackslash": "0x64",
+    "NumpadDivide": "0x54",
+    "NumpadMultiply": "0x55",
+    "NumpadSubtract": "0x56",
+    "NumpadAdd": "0x57",
+    "NumpadEnter": "0x58",
+    "Numpad1": "0x59",
+    "Numpad2": "0x5A",
+    "Numpad3": "0x5B",
+    "Numpad4": "0x5C",
+    "Numpad5": "0x5D",
+    "Numpad6": "0x5E",
+    "Numpad7": "0x5F",
+    "Numpad8": "0x60",
+    "Numpad9": "0x61",
+    "Numpad0": "0x62",
+    "NumpadDecimal": "0x63",
+    "F1": "0x3A",
+    "F2": "0x3B",
+    "F3": "0x3C",
+    "F4": "0x3D",
+    "F5": "0x3E",
+    "F6": "0x3F",
+    "F7": "0x40",
+    "F8": "0x41",
+    "F9": "0x42",
+    "F10": "0x43",
+    "F11": "0x44",
+    "F12": "0x45",
+    "PrintScreen": "0x46",
+    "ScrollLock": "0x47",
+    "Pause": "0x48",
+    "Insert": "0x49",
+    "Home": "0x4A",
+    "PageUp": "0x4B",
+    "Delete": "0x4C",
+    "End": "0x4D",
+    "PageDown": "0x4E",
+    "ArrowRight": "0x4F",
+    "ArrowLeft": "0x50",
+    "ArrowDown": "0x51",
+    "ArrowUp": "0x52",
+    "NumLock": "0x53",
+    "ControlLeft": "0xE0",
+    "ShiftLeft": "0xE1",
+    "AltLeft": "0xE2",
+    "MetaLeft": "0xE3",
+    "ControlRight": "0xE4",
+    "ShiftRight": "0xE5",
+    "AltRight": "0xE6",
+    "MetaRight": "0xE7",
+}
+
+for _i in range(26):
+    CODE_TO_HID[f"Key{chr(65 + _i)}"] = f"0x{0x04 + _i:02X}"
+for _i in range(1, 10):
+    CODE_TO_HID[f"Digit{_i}"] = f"0x{0x1D + _i:02X}"
+CODE_TO_HID["Digit0"] = "0x27"
+
 
 def download_layout_sources(layout_id: str, driver_name: str, source_dir: Path) -> bool:
     """
@@ -233,6 +311,8 @@ def build_layout(
                 key.pos = SCANCODE_TO_CODE.get(
                     key.sc or "", f"r{geo['row']}c{geo['col']}"
                 )
+                if key.pos:
+                    key.hid = CODE_TO_HID.get(key.pos)
             geom_len = len(geometries)
             xml_len = len(xml_keys)
             if geom_len < xml_len:

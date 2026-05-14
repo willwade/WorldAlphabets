@@ -16,6 +16,7 @@ export type KeyboardLayout = {
 
 export type KeyEntry = {
   pos?: string;
+  hid?: string;
   row?: number;
   col?: number;
   shape?: { w?: number; h?: number; x?: number; y?: number; w2?: number; h2?: number; x2?: number; y2?: number; };
@@ -76,3 +77,13 @@ export function findLayoutsByKeycode(
   keycode: string | number,
   layer?: LayerName
 ): Promise<KeycodeMatch[]>;
+
+export type CharToHidResult = {
+  hid: string;
+  modifiers: string[];
+};
+
+export function charToHid(
+  char: string,
+  layoutId: string
+): Promise<CharToHidResult[]>;

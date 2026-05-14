@@ -373,7 +373,7 @@ Prefer to work directly with the alphabet JSON instead of the higher-level helpe
 
 ### Keyboard Layouts
 
-Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code) when available) along with `row`, `col`, and size information.
+Key entries expose `pos` (a [`KeyboardEvent.code`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code) when available), `hid` (USB HID keycode as a hex string, e.g. `"0x04"` for KeyA), along with `row`, `col`, and size information.
 
 #### Python
 
@@ -437,6 +437,32 @@ async function main() {
 }
 
 main();
+```
+
+### Character to HID mapping
+
+Use `char_to_hid` / `charToHid` to look up the USB HID keycode and
+modifiers needed to type a character on a given layout:
+
+#### Python
+
+```python
+from worldalphabets import char_to_hid
+
+results = char_to_hid("ü", "de-german")
+# [{'hid': '0x2F', 'modifiers': []}]  — BracketLeft, no modifiers
+
+results = char_to_hid("@", "de-german")
+# [{'hid': '0x2F', 'modifiers': ['AltRight']}]  — BracketLeft + AltGr
+```
+
+#### Node.js
+
+```javascript
+const { charToHid } = require('worldalphabets');
+
+const results = await charToHid('ü', 'de-german');
+// [{ hid: '0x2F', modifiers: [] }]
 ```
 
 ### Export layouts to C headers

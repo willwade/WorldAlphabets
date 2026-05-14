@@ -1,5 +1,6 @@
 from .loader import (
     DEFAULT_LAYERS,
+    char_to_hid,
     extract_layers,
     get_available_layouts,
     find_layouts_by_keycode,
@@ -14,4 +15,5 @@ __all__ = [
     "extract_layers",
     "generate_c_header",
     "find_layouts_by_keycode",
+    "char_to_hid",
 ]

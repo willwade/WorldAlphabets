@@ -335,6 +335,51 @@ def find_layouts_by_keycode(keycode: str | int, layer: str = "base") -> list[dic
     return matches
 
 
+LAYER_MODIFIERS: dict[str, list[str]] = {
+    "base": [],
+    "shift": ["ShiftLeft"],
+    "caps": ["CapsLock"],
+    "altgr": ["AltRight"],
+    "shift_altgr": ["ShiftLeft", "AltRight"],
+}
+
+
+def char_to_hid(
+    char: str, layout_id: str
+) -> list[dict[str, str | list[str]]]:
+    """Return all ``(hid_code, modifiers)`` pairs that produce *char*.
+
+    Each element in the returned list is a dict with keys ``hid`` (the
+    USB HID keycode as a hex string like ``"0x04"``) and ``modifiers``
+    (a list of modifier key names such as ``["ShiftLeft"]``).
+    """
+    kb = load_keyboard(layout_id)
+    results: list[dict[str, str | list[str]]] = []
+
+    for key in kb.keys:
+        if not key.legends:
+            continue
+        for layer, mods in LAYER_MODIFIERS.items():
+            legend = getattr(key.legends, layer, None)
+            if legend != char:
+                continue
+            dom_code = _resolve_dom_code(key)
+            if dom_code is None:
+                continue
+            hid_int = CODE_TO_HID.get(dom_code)
+            if hid_int is None:
+                continue
+            hid_str = f"0x{hid_int:02X}"
+            result: dict[str, str | list[str]] = {
+                "hid": hid_str,
+                "modifiers": list(mods),
+            }
+            if result not in results:
+                results.append(result)
+
+    return results
+
+
 def _resolve_dom_code(key: KeyEntry) -> str | None:
     if key.pos:
         return key.pos

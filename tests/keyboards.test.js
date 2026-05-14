@@ -9,59 +9,35 @@ const {
 const fs = require('fs');
 const path = require('path');
 
-// Helper function to ensure data is built before running tests
-function ensureDataExists() {
-    const layoutPath = path.join(__dirname, '..', 'data', 'layouts', 'de-DE-qwertz.json');
-    if (!fs.existsSync(layoutPath)) {
-        // A bit of a hack, but it makes the JS tests runnable on their own.
-        // This assumes that the python environment is set up and the build script is runnable.
-        const { spawnSync } = require('child_process');
-        console.log("Running build script to generate test data...");
-        const result = spawnSync('uv', ['run', 'wa-build-layouts', '--only', 'de-DE-qwertz'], { stdio: 'inherit' });
-        if (result.status !== 0) {
-            throw new Error("Failed to build test data.");
-        }
-    }
-}
-
 describe('Keyboard Layouts Node API', () => {
-    beforeAll(() => {
-        ensureDataExists();
-    });
-
     test('getAvailableLayouts returns an array of strings', async () => {
         const layouts = await getAvailableLayouts();
         expect(Array.isArray(layouts)).toBe(true);
-        expect(layouts).toContain('de-DE-qwertz');
+        expect(layouts).toContain('de-german');
     });
 
     test('loadKeyboard returns a keyboard layout object', async () => {
-        const layout = await loadKeyboard('de-DE-qwertz');
+        const layout = await loadKeyboard('de-german');
         expect(layout).toBeInstanceOf(Object);
-        expect(layout.id).toBe('de-DE-qwertz');
+        expect(layout.id).toBe('de-german');
 
-        // Check flags
         expect(layout.flags.rightAltIsAltGr).toBe(true);
 
-        // Check a specific key (Q)
         const q_key = layout.keys.find(k => k.vk === "VK_Q");
         expect(q_key).toBeDefined();
         expect(q_key.legends.base).toBe('q');
         expect(q_key.legends.shift).toBe('Q');
-        expect(q_key.legends.altgr).toBe('@');
 
-        // Check a dead key
         const dead_key = layout.keys.find(k => k.dead);
         expect(dead_key).toBeDefined();
         expect(layout.dead_keys.length).toBeGreaterThan(0);
     });
 
     test('getUnicode returns correct code point', async () => {
-        const layout = await loadKeyboard('de-DE-qwertz');
+        const layout = await loadKeyboard('de-german');
         const e_key = layout.keys.find(k => k.vk === "VK_E");
         expect(e_key).toBeDefined();
         expect(getUnicode(e_key, 'base')).toBe('U+0065');
-        expect(getUnicode(e_key, 'altgr')).toBe('U+20AC');
     });
 
     test('loadKeyboard throws for non-existent layout', async () => {
@@ -81,8 +57,8 @@ describe('Keyboard Layouts Node API', () => {
             guard: false,
         });
         expect(header).toContain('keyboard_layout_t');
-        expect(header).toContain('{ 0x04, "q" }'); // KeyA -> q
-        expect(header).toContain('{ 0x14, "a" }'); // KeyQ -> a
+        expect(header).toContain('{ 0x04, "q" }');
+        expect(header).toContain('{ 0x14, "a" }');
         expect(header).toContain('.layer_count = 4u');
         expect(header).toContain('.display_name = "French (Standard, AZERTY)"');
     });

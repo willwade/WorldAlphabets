@@ -12,6 +12,7 @@ class LayerLegends(BaseModel):
 
 class KeyEntry(BaseModel):
     pos: Optional[str] = None
+    hid: Optional[str] = None
     row: Optional[int] = None
     col: Optional[int] = None
     shape: Optional[Dict[str, float]] = None

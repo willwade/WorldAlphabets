@@ -471,6 +471,37 @@ async function generateCHeader(layoutId, options = {}) {
     return lines.join('\n');
 }
 
+const LAYER_MODIFIERS = {
+    base: [],
+    shift: ['ShiftLeft'],
+    caps: ['CapsLock'],
+    altgr: ['AltRight'],
+    shift_altgr: ['ShiftLeft', 'AltRight'],
+};
+
+async function charToHid(char, layoutId) {
+    const kb = await loadKeyboard(layoutId);
+    const results = [];
+
+    for (const key of kb.keys || []) {
+        if (!key || !key.legends) continue;
+        for (const [layer, mods] of Object.entries(LAYER_MODIFIERS)) {
+            const legend = key.legends[layer];
+            if (legend !== char) continue;
+            const domCode = resolveDomCode(key);
+            if (!domCode) continue;
+            const usage = codeToHidUsage(domCode);
+            if (usage === null) continue;
+            const entry = { hid: `0x${usage.toString(16).toUpperCase().padStart(2, '0')}`, modifiers: [...mods] };
+            if (!results.some(r => r.hid === entry.hid && JSON.stringify(r.modifiers) === JSON.stringify(entry.modifiers))) {
+                results.push(entry);
+            }
+        }
+    }
+
+    return results;
+}
+
 module.exports = {
     getAvailableLayouts,
     loadKeyboard,
@@ -478,5 +509,6 @@ module.exports = {
     extractLayers,
     generateCHeader,
     findLayoutsByKeycode,
+    charToHid,
     DEFAULT_LAYERS,
 };

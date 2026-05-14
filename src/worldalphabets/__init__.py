@@ -9,6 +9,7 @@ from typing import Dict, List, Optional, Literal
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import (
     DEFAULT_LAYERS,
+    char_to_hid,
     extract_layers,
     get_available_layouts,
     generate_c_header,
@@ -140,6 +141,7 @@ __all__ = [
     "extract_layers",
     "generate_c_header",
     "find_layouts_by_keycode",
+    "char_to_hid",
     "KeyboardLayout",
     "KeyEntry",
     "LayerLegends",
