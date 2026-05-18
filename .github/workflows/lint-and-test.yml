@@ -38,3 +38,11 @@ jobs:
         run: uv run mypy . --exclude build
       - name: Run pytest
         run: uv run pytest
+
+  test_swift:
+    name: Test Swift
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests
+        run: swift test
