@@ -16,7 +16,7 @@ at build time. No runtime dependency on WorldAlphabets.
 import json
 import os
 import sys
-from typing import Any, Dict, Optional
+from typing import Any
 
 LAYOUTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "layouts")
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "RelayKeys", "keymaps")
@@ -108,15 +108,15 @@ FRIENDLY_NAMES = {
 }
 
 
-def load_layout(layout_id: str) -> Dict[str, Any]:
+def load_layout(layout_id: str) -> dict[str, Any]:
     path = os.path.join(LAYOUTS_DIR, f"{layout_id}.json")
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
-def layout_to_keymap(layout: Dict[str, Any]) -> Dict[str, Any]:
-    keymap: Dict[str, Any] = {}
-    numpad_keymap: Dict[str, Any] = {}
+def layout_to_keymap(layout: dict[str, Any]) -> dict[str, Any]:
+    keymap: dict[str, Any] = {}
+    numpad_keymap: dict[str, Any] = {}
 
     for key in layout["keys"]:
         vk = key.get("vk", "")
@@ -152,7 +152,7 @@ def layout_to_keymap(layout: Dict[str, Any]) -> Dict[str, Any]:
     return {k: v for k, v in keymap.items() if v[0] is not None}
 
 
-def find_layout_file(query: str) -> Optional[str]:
+def find_layout_file(query: str) -> str | None:
     if os.path.exists(os.path.join(LAYOUTS_DIR, f"{query}.json")):
         return query
 
@@ -180,7 +180,7 @@ def get_output_name(layout_id: str) -> str:
     return f"{layout_id}_keymap.json"
 
 
-def generate_one(layout_id: str) -> Optional[str]:
+def generate_one(layout_id: str) -> str | None:
     actual_id = find_layout_file(layout_id)
     if actual_id is None:
         print(f"  SKIP: layout '{layout_id}' not found")

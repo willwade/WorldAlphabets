@@ -13,19 +13,19 @@ import argparse
 import json
 import logging
 import sys
-from pathlib import Path
-from typing import Dict, Optional, Any
 import time
+from pathlib import Path
+from typing import Any
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 from worldalphabets.data_sources import (
     CLDRCollector,
+    FallbackDataCollector,
+    FrequencyCollector,
     ISO639Collector,
     WikidataCollector,
-    FrequencyCollector,
-    FallbackDataCollector,
 )
 
 # Configure logging
@@ -53,7 +53,7 @@ class DataPipeline:
             logging.getLogger().setLevel(logging.DEBUG)
 
         # Pipeline statistics
-        self.stats: Dict[str, Any] = {
+        self.stats: dict[str, Any] = {
             "start_time": time.time(),
             "stages_completed": 0,
             "total_stages": 10,
@@ -508,7 +508,7 @@ class DataPipeline:
             return False
 
     def build_single_language(
-        self, language: str, script: Optional[str] = None
+        self, language: str, script: str | None = None
     ) -> bool:
         """Build alphabet data for a single language."""
         logger.info(

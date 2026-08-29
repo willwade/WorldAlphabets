@@ -1,8 +1,9 @@
 import json
 import re
-from typing import List, Dict, Any
+from typing import Any
 
-def parse_kle_json(json_content: str) -> List[Dict[str, Any]]:
+
+def parse_kle_json(json_content: str) -> list[dict[str, Any]]:
     """
     Parses a Keyboard Layout Editor (KLE) JSON file and returns a list of key geometries.
     This is a simplified parser that focuses on extracting the position and size of each key.
@@ -13,7 +14,7 @@ def parse_kle_json(json_content: str) -> List[Dict[str, Any]]:
     # dependency.
     normalized = re.sub(r"([,{]\s*)([a-zA-Z0-9_]+)(?=\s*:)", r'\1"\2"', json_content)
     data = json.loads(normalized)
-    keys: List[Dict[str, Any]] = []
+    keys: list[dict[str, Any]] = []
 
     # These track the current position for key rendering
     cursor_x = 0.0

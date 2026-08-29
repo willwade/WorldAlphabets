@@ -1,9 +1,10 @@
 import pytest
+
 from worldalphabets import (
-    strip_diacritics,
-    has_diacritics,
     characters_with_diacritics,
     get_diacritic_variants,
+    has_diacritics,
+    strip_diacritics,
 )
 
 

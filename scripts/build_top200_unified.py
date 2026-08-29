@@ -28,9 +28,8 @@ import json
 import tarfile
 import urllib.request
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
 from urllib.error import HTTPError
 
 import requests
@@ -38,25 +37,25 @@ from bs4 import BeautifulSoup
 
 # Import existing modular components where possible
 try:
-    from scripts.build_top200.tokenize import char_bigrams, word_tokens
     from scripts.build_top200.normalize import normalize_token
     from scripts.build_top200.sources import load_hermitdave
+    from scripts.build_top200.tokenize import char_bigrams, word_tokens
 except ImportError:
     # Fallback implementations if modular system not available
-    def char_bigrams(text: str) -> List[str]:
+    def char_bigrams(text: str) -> list[str]:
         return [text[i : i + 2] for i in range(len(text) - 1)]
 
-    def word_tokens(text: str) -> List[str]:
+    def word_tokens(text: str) -> list[str]:
         import re
 
         return re.findall(r"\b\w+\b", text.lower())
 
     def normalize_token(
-        token: str, lang: str, allowlists: Dict[str, Set[str]]
-    ) -> Optional[str]:
+        token: str, lang: str, allowlists: dict[str, set[str]]
+    ) -> str | None:
         return token.strip() if token.strip() else None
 
-    def load_hermitdave(path: str | Path) -> List[str]:
+    def load_hermitdave(path: str | Path) -> list[str]:
         tokens = []
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
@@ -75,12 +74,12 @@ def is_cjk_language(lang_code: str) -> bool:
     return lang_code in cjk_languages or lang_code.startswith("zh-")
 
 
-def tokenize_bigrams(text: str) -> List[str]:
+def tokenize_bigrams(text: str) -> list[str]:
     """Generate character bigrams from text."""
     return char_bigrams(text)
 
 
-def tokenize_words(text: str) -> List[str]:
+def tokenize_words(text: str) -> list[str]:
     """Tokenize text into words."""
     return word_tokens(text)
 
@@ -104,9 +103,9 @@ class LeipzigClient:
     def __init__(self, cache_dir: Path):
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-        self._catalogue_cache: Optional[Dict] = None
+        self._catalogue_cache: dict | None = None
 
-    def get_catalogue(self) -> Dict:
+    def get_catalogue(self) -> dict:
         """Fetch and parse the Leipzig corpus catalogue."""
         if self._catalogue_cache is not None:
             return self._catalogue_cache
@@ -127,10 +126,10 @@ class LeipzigClient:
             return {}
 
     @staticmethod
-    def _parse_catalogue(html: str) -> Dict:
+    def _parse_catalogue(html: str) -> dict:
         """Parse catalogue HTML to extract available corpora by ISO 639-3 code."""
         soup = BeautifulSoup(html, "html.parser")
-        result: Dict[str, List[str]] = {}
+        result: dict[str, list[str]] = {}
 
         for anchor in soup.select("a[data-lang-id]"):
             lang_id_attr = anchor.get("data-lang-id")
@@ -138,7 +137,7 @@ class LeipzigClient:
             if not lang_id:
                 continue
 
-            corpora: List[str] = []
+            corpora: list[str] = []
 
             # Get corpus ID from the anchor itself
             corpus_id_attr = anchor.get("data-corpus-id")
@@ -161,7 +160,7 @@ class LeipzigClient:
         return result
 
     @staticmethod
-    def choose_corpus(corpora: List[str]) -> Optional[str]:
+    def choose_corpus(corpora: list[str]) -> str | None:
         """Choose the best corpus from available options based on priority."""
         if not corpora:
             return None
@@ -173,7 +172,7 @@ class LeipzigClient:
                     return corpus_id
         return corpora[0]
 
-    def download_corpus(self, corpus_id: str) -> Optional[Path]:
+    def download_corpus(self, corpus_id: str) -> Path | None:
         """Download a corpus archive if not already cached."""
         archive_path = self.cache_dir / f"{corpus_id}.tar.gz"
         if archive_path.exists():
@@ -194,7 +193,7 @@ class LeipzigClient:
             raise
 
     @staticmethod
-    def extract_words(archive_path: Path, limit: int) -> Optional[List[str]]:
+    def extract_words(archive_path: Path, limit: int) -> list[str] | None:
         """Extract word list from Leipzig corpus archive."""
         try:
             with tarfile.open(archive_path, "r:gz") as tar:
@@ -209,7 +208,7 @@ class LeipzigClient:
                 if not handle:
                     return None
 
-                words: List[str] = []
+                words: list[str] = []
                 for raw_line in handle:
                     line = raw_line.decode("utf-8", errors="ignore").strip()
                     if not line or line.startswith("#"):
@@ -228,9 +227,9 @@ class LeipzigClient:
             return None
 
     @staticmethod
-    def generate_fallback_corpus_ids(iso3: str, primary_corpus_id: str) -> List[str]:
+    def generate_fallback_corpus_ids(iso3: str, primary_corpus_id: str) -> list[str]:
         """Generate fallback corpus IDs when primary corpus is unavailable."""
-        fallbacks: List[str] = []
+        fallbacks: list[str] = []
         corpus_types = ["community", "news", "mixed", "web", "newscrawl", "wikipedia"]
         years = ["2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015"]
 
@@ -253,7 +252,7 @@ class LeipzigClient:
         return fallbacks
 
 
-def get_iso639_3_code(lang_code: str) -> Optional[str]:
+def get_iso639_3_code(lang_code: str) -> str | None:
     """Map language code to ISO 639-3 using the index."""
     try:
         index_path = Path("data/index.json")
@@ -272,7 +271,7 @@ def get_iso639_3_code(lang_code: str) -> Optional[str]:
         return None
 
 
-def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> list[str] | None:
     """Fetch high-quality frequency data from Leipzig Corpora Collection using dynamic catalogue."""
     # Get ISO 639-3 code for Leipzig lookup
     iso3 = get_iso639_3_code(lang_code)
@@ -317,7 +316,7 @@ def fetch_leipzig_words(lang_code: str, limit: int = 1000) -> Optional[List[str]
 
 
 # Priority 2: HermitDave FrequencyWords
-def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> list[str] | None:
     """Fetch from HermitDave FrequencyWords repository.
 
     Tries multiple file patterns in order of preference:
@@ -364,7 +363,7 @@ def fetch_hermitdave_words(lang_code: str, limit: int = 1000) -> Optional[List[s
 
 
 # Priority 3: Tatoeba sentences
-def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> list[str] | None:
     """Fetch from Tatoeba sentences and extract top words."""
     # Tatoeba language code mappings (ISO 639-3)
     tatoeba_mappings = {
@@ -450,9 +449,8 @@ def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[
         sentences = []
         if "results" in data:
             for result in data["results"]:
-                if "text" in result and "lang" in result:
-                    # Only include sentences in the target language
-                    if result["lang"] == tatoeba_code:
+                # Only include sentences in the target language
+                if "text" in result and result.get("lang") == tatoeba_code:
                         sentence = result["text"].strip()
                         if sentence and len(sentence) > 5:  # Skip very short sentences
                             sentences.append(sentence)
@@ -488,7 +486,7 @@ def fetch_tatoeba_sentences(lang_code: str, limit: int = 1000) -> Optional[List[
 
 
 # Priority 3: CommonVoice speech transcriptions
-def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> list[str] | None:
     """
     Fetch word frequencies from CommonVoice transcriptions.
 
@@ -554,7 +552,7 @@ def fetch_commonvoice_words(lang_code: str, limit: int = 1000) -> Optional[List[
 
 
 # Priority 5: Existing alphabet frequency data
-def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> list[str] | None:
     """Load character frequencies from existing alphabet data."""
     try:
         # Try to load from existing alphabet JSON files
@@ -596,7 +594,7 @@ def load_alphabet_frequencies(lang_code: str, limit: int = 1000) -> Optional[Lis
 
 
 # Priority 5: Simia unigrams (CJK fallback)
-def load_simia_unigrams(lang_code: str, limit: int = 1000) -> Optional[List[str]]:
+def load_simia_unigrams(lang_code: str, limit: int = 1000) -> list[str] | None:
     """Load character data from Simia unigrams for CJK languages."""
     if not is_cjk_language(lang_code):
         return None
@@ -635,7 +633,7 @@ def load_simia_unigrams(lang_code: str, limit: int = 1000) -> Optional[List[str]
     return None
 
 
-def generate_bigrams(text: str, limit: int = 1000) -> List[str]:
+def generate_bigrams(text: str, limit: int = 1000) -> list[str]:
     """Generate bigrams from text with frequency counting."""
     bigram_counts = Counter(tokenize_bigrams(text))
     return [bigram for bigram, _ in bigram_counts.most_common(limit)]
@@ -643,7 +641,7 @@ def generate_bigrams(text: str, limit: int = 1000) -> List[str]:
 
 def build_top1000_unified(
     lang_code: str, output_dir: Path, force: bool = False
-) -> Tuple[bool, str]:
+) -> tuple[bool, str]:
     """Build Top-1000 list using unified 6-priority approach."""
     print(f"Building Top-1000 for {lang_code} (unified approach)...")
 
@@ -816,7 +814,7 @@ def main() -> None:
 
     # Write build report
     report = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "source": "Unified 6-Priority Pipeline (Leipzig + HermitDave + CommonVoice + Tatoeba + Alphabet + Simia)",
         "successful": successful,
         "failed": failed,

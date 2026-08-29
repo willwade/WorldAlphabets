@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-import os
-import json
-import time
-import html
 import argparse
-from typing import Dict, Any, Iterable, List, Optional, Set
-import requests
+import html
+import json
+import os
+import time
+from collections.abc import Iterable
 from pathlib import Path
+from typing import Any
+
+import requests
 
 TRANSLATE_URL = "https://translation.googleapis.com/language/translate/v2"
 REQUEST_TIMEOUT = 15
@@ -18,7 +20,7 @@ FIELD_NAME = "hello_how_are_you"
 SOURCE_TEXT = "Hello how are you?"
 
 # Known alias/canonicalization candidates -> try in order
-ALIASES: Dict[str, List[str]] = {
+ALIASES: dict[str, list[str]] = {
     # Chinese family & legacy quirks
     "zh": ["zh-CN"],
     "zh-hans": ["zh-CN"],
@@ -42,11 +44,10 @@ ALIASES: Dict[str, List[str]] = {
 
 def backoff_delays() -> Iterable[int]:
     yield 0
-    for d in RETRY_BACKOFFS:
-        yield d
+    yield from RETRY_BACKOFFS
 
 
-def http_get(url: str, *, params: Dict[str, Any]) -> requests.Response:
+def http_get(url: str, *, params: dict[str, Any]) -> requests.Response:
     for delay in backoff_delays():
         if delay:
             time.sleep(delay)
@@ -65,7 +66,7 @@ def http_get(url: str, *, params: Dict[str, Any]) -> requests.Response:
     return r
 
 
-def get_supported_languages(api_key: str) -> Set[str]:
+def get_supported_languages(api_key: str) -> set[str]:
     """
     Fetch the set of supported target language codes from Google.
     Returns codes like 'en', 'fr', 'zh-CN', 'yue', etc.
@@ -77,7 +78,7 @@ def get_supported_languages(api_key: str) -> Set[str]:
     return langs
 
 
-def candidate_codes(code: str) -> List[str]:
+def candidate_codes(code: str) -> list[str]:
     """
     Generate a list of candidate codes to try for a given dataset code.
     """
@@ -86,7 +87,7 @@ def candidate_codes(code: str) -> List[str]:
 
     # Preserve original casing variant for things like 'zh-CN'
     # Try exact first, then alias list (which may include canonical casing)
-    tried: List[str] = [c]
+    tried: list[str] = [c]
 
     # Normalized alias list
     if lower in ALIASES:
@@ -101,7 +102,7 @@ def candidate_codes(code: str) -> List[str]:
     return tried
 
 
-def find_supported_code(raw_code: str, supported: Set[str]) -> Optional[str]:
+def find_supported_code(raw_code: str, supported: set[str]) -> str | None:
     for cand in candidate_codes(raw_code):
         if cand in supported:
             return cand
@@ -111,7 +112,7 @@ def find_supported_code(raw_code: str, supported: Set[str]) -> Optional[str]:
 def translate_once(api_key: str, text: str, target: str) -> str:
     params = {"q": text, "target": target, "key": api_key, "format": "text"}
     resp = http_get(TRANSLATE_URL, params=params)
-    data: Dict[str, Any] = resp.json()
+    data: dict[str, Any] = resp.json()
     return html.unescape(data["data"]["translations"][0]["translatedText"])
 
 
@@ -145,7 +146,7 @@ def generate_translations(skip_existing: bool = False) -> None:
     # Ensure output directory
     ALPHABETS_DIR.mkdir(parents=True, exist_ok=True)
 
-    unsupported: List[Dict[str, str]] = []
+    unsupported: list[dict[str, str]] = []
 
     for item in languages:
         try:
@@ -184,7 +185,7 @@ def generate_translations(skip_existing: bool = False) -> None:
                     with file_path.open("r", encoding="utf-8") as f:
                         base_obj = json.load(f)
                     if not isinstance(base_obj, dict):
-                        raise ValueError("Top-level JSON must be an object")
+                        raise TypeError("Top-level JSON must be an object")
 
                     # Skip if translation already exists and skip_existing is True
                     if skip_existing and FIELD_NAME in base_obj:

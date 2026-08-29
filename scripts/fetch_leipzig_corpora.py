@@ -7,9 +7,10 @@ import argparse
 import json
 import tarfile
 from collections import Counter
+from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Sequence, Any
+from typing import Any
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -44,7 +45,7 @@ class CorpusListing:
     """Available corpora for a Leipzig language."""
 
     language_name: str
-    corpora: List[str]
+    corpora: list[str]
 
 
 @dataclass(slots=True)
@@ -52,9 +53,9 @@ class CorpusResult:
     """Parsed word and character frequency data for a corpus."""
 
     corpus_id: str
-    words: List[str]
-    word_counts: List[tuple[str, int]]
-    char_counts: List[tuple[str, int]]
+    words: list[str]
+    word_counts: list[tuple[str, int]]
+    char_counts: list[tuple[str, int]]
 
 
 def count_word_frequency_tokens(code: str) -> int | None:
@@ -91,9 +92,9 @@ class LeipzigClient:
     download_base = "https://downloads.wortschatz-leipzig.de/corpora"
 
     def __init__(self) -> None:
-        self._catalogue: Dict[str, CorpusListing] | None = None
+        self._catalogue: dict[str, CorpusListing] | None = None
 
-    def catalogue(self) -> Dict[str, CorpusListing]:
+    def catalogue(self) -> dict[str, CorpusListing]:
         if self._catalogue is None:
             params = {"corpusId": DEFAULT_CORPUS_ID, "word": ""}
             resp = requests.get(
@@ -107,15 +108,15 @@ class LeipzigClient:
         return self._catalogue
 
     @staticmethod
-    def _parse_catalogue(html: str) -> Dict[str, CorpusListing]:
+    def _parse_catalogue(html: str) -> dict[str, CorpusListing]:
         soup = BeautifulSoup(html, "html.parser")
-        result: Dict[str, CorpusListing] = {}
+        result: dict[str, CorpusListing] = {}
         for anchor in soup.select("a[data-lang-id]"):
             lang_id = _string_attr(anchor, "data-lang-id")
             if not lang_id:
                 continue
             parent_li = anchor.find_parent("li")
-            corpora: List[str] = []
+            corpora: list[str] = []
             if parent_li is not None:
                 for link in parent_li.select("a[data-corpus-id]"):
                     corpus_id = _string_attr(link, "data-corpus-id")
@@ -182,8 +183,8 @@ class LeipzigClient:
                 raise RuntimeError(
                     f"Failed to extract word list from {archive_path.name}"
                 )
-            words: List[str] = []
-            word_counts: List[tuple[str, int]] = []
+            words: list[str] = []
+            word_counts: list[tuple[str, int]] = []
             char_counter: Counter[str] = Counter()
             for raw_line in handle:
                 line = raw_line.decode("utf-8", errors="ignore").strip()
@@ -212,9 +213,9 @@ class LeipzigClient:
             )
 
 
-def load_language_entries(index_path: Path) -> List[LanguageEntry]:
+def load_language_entries(index_path: Path) -> list[LanguageEntry]:
     data = json.loads(index_path.read_text(encoding="utf-8"))
-    entries: List[LanguageEntry] = []
+    entries: list[LanguageEntry] = []
     for item in data:
         tokens = count_word_frequency_tokens(item.get("language", ""))
         entries.append(
@@ -233,8 +234,8 @@ def load_language_entries(index_path: Path) -> List[LanguageEntry]:
 
 def missing_word_languages(
     entries: Iterable[LanguageEntry], min_words: int
-) -> List[LanguageEntry]:
-    missing: Dict[str, LanguageEntry] = {}
+) -> list[LanguageEntry]:
+    missing: dict[str, LanguageEntry] = {}
     for entry in entries:
         tokens = entry.word_frequency_tokens
         has_full_coverage = tokens is not None and tokens >= min_words
@@ -248,7 +249,7 @@ def missing_word_languages(
 
 def print_report(
     entries: Sequence[LanguageEntry],
-    catalogue: Dict[str, CorpusListing],
+    catalogue: dict[str, CorpusListing],
     min_words: int,
 ) -> None:
     print(
@@ -312,15 +313,15 @@ def resolve_targets(
     codes: Sequence[str] | None,
     include_missing: bool,
     min_words: int,
-) -> List[LanguageEntry]:
-    entries_by_code: Dict[str, LanguageEntry] = {}
-    entries_by_iso3: Dict[str, LanguageEntry] = {}
+) -> list[LanguageEntry]:
+    entries_by_code: dict[str, LanguageEntry] = {}
+    entries_by_iso3: dict[str, LanguageEntry] = {}
     for entry in all_entries:
         if entry.code:
             entries_by_code[entry.code] = entry
         if entry.iso639_3:
             entries_by_iso3[entry.iso639_3] = entry
-    targets: Dict[str, LanguageEntry] = {}
+    targets: dict[str, LanguageEntry] = {}
     if include_missing:
         for entry in missing_word_languages(all_entries, min_words):
             key = entry.iso639_3 or entry.code

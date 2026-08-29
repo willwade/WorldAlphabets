@@ -4,27 +4,27 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from importlib.resources import files
-from typing import Dict, List, Optional, Literal
+from typing import Literal
 
+from .detect import detect_languages
+from .detect.optimized import detect_languages_with_progress, optimized_detect_languages
+from .diacritics import (
+    characters_with_diacritics,
+    diacritic_variants,
+    has_diacritics,
+    strip_diacritics,
+)
 from .helpers import get_index_data, get_language, get_scripts
 from .keyboards import (
     DEFAULT_LAYERS,
     char_to_hid,
     extract_layers,
-    get_available_layouts,
-    generate_c_header,
     find_layouts_by_keycode,
+    generate_c_header,
+    get_available_layouts,
     load_keyboard,
 )
-from .models.keyboard import KeyboardLayout, KeyEntry, LayerLegends, DeadKey, Ligature
-from .diacritics import (
-    strip_diacritics,
-    has_diacritics,
-    characters_with_diacritics,
-    diacritic_variants,
-)
-from .detect import detect_languages
-from .detect.optimized import optimized_detect_languages, detect_languages_with_progress
+from .models.keyboard import DeadKey, KeyboardLayout, KeyEntry, LayerLegends, Ligature
 
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
@@ -33,11 +33,11 @@ ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 class Alphabet:
     """Alphabet data for a language."""
 
-    alphabetical: List[str]
-    uppercase: List[str]
-    lowercase: List[str]
-    frequency: Dict[str, float]
-    digits: Optional[List[str]] = None
+    alphabetical: list[str]
+    uppercase: list[str]
+    lowercase: list[str]
+    frequency: dict[str, float]
+    digits: list[str] | None = None
 
 
 @dataclass
@@ -45,7 +45,7 @@ class FrequencyList:
     """Top-1000 token list for language detection."""
 
     language: str
-    tokens: List[str]
+    tokens: list[str]
     mode: Literal["word", "bigram"] = "word"
 
 
@@ -64,7 +64,7 @@ def load_alphabet(code: str, script: str | None = None) -> Alphabet:
     )
 
 
-def get_available_codes() -> List[str]:
+def get_available_codes() -> list[str]:
     """Return sorted language codes with available alphabets."""
     return sorted(item["language"] for item in get_index_data())
 
@@ -78,7 +78,7 @@ def load_frequency_list(code: str) -> FrequencyList:
         raise FileNotFoundError(f"Frequency list for code '{code}' not found")
 
     mode: Literal["word", "bigram"] = "word"
-    tokens: List[str] = []
+    tokens: list[str] = []
     for line in path.read_text(encoding="utf-8").splitlines():
         stripped = line.strip()
         if not stripped:
@@ -94,7 +94,7 @@ def load_frequency_list(code: str) -> FrequencyList:
 
 def get_diacritic_variants(
     code: str, script: str | None = None
-) -> Dict[str, List[str]]:
+) -> dict[str, list[str]]:
     """Return mapping of base letters to diacritic variants for ``code``."""
 
     data = get_language(code, script=script)
@@ -114,37 +114,37 @@ def get_diacritic_variants(
 
 
 __all__ = [
-    # Alphabets
-    "load_alphabet",
+    "DEFAULT_LAYERS",
+    "FREQ_WEIGHT",
+    "PRIOR_WEIGHT",
     "Alphabet",
-    "get_available_codes",
-    "load_frequency_list",
+    "DeadKey",
     "FrequencyList",
+    "KeyEntry",
+    "KeyboardLayout",
+    "LayerLegends",
+    "Ligature",
+    "char_to_hid",
+    "characters_with_diacritics",
+    # Language detection
+    "detect_languages",
+    "detect_languages_with_progress",
+    "extract_layers",
+    "find_layouts_by_keycode",
+    "generate_c_header",
+    "get_available_codes",
+    "get_available_layouts",
+    "get_diacritic_variants",
     "get_index_data",
     "get_language",
     "get_scripts",
-    # Diacritics
-    "strip_diacritics",
     "has_diacritics",
-    "characters_with_diacritics",
-    "get_diacritic_variants",
-    # Language detection
-    "detect_languages",
-    "optimized_detect_languages",
-    "detect_languages_with_progress",
-    "PRIOR_WEIGHT",
-    "FREQ_WEIGHT",
+    # Alphabets
+    "load_alphabet",
+    "load_frequency_list",
     # Keyboards
     "load_keyboard",
-    "get_available_layouts",
-    "DEFAULT_LAYERS",
-    "extract_layers",
-    "generate_c_header",
-    "find_layouts_by_keycode",
-    "char_to_hid",
-    "KeyboardLayout",
-    "KeyEntry",
-    "LayerLegends",
-    "DeadKey",
-    "Ligature",
+    "optimized_detect_languages",
+    # Diacritics
+    "strip_diacritics",
 ]
