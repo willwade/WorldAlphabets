@@ -3,1160 +3,1004 @@
 export const CORPORA_MANIFEST = [
  {
   "lang": "ady",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400107
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1148
  },
  {
   "lang": "af",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400002
- },
- {
-  "lang": "ak",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400003
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 152898
  },
  {
   "lang": "am",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400064
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 11543
  },
  {
   "lang": "ar",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400021
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400071
  },
  {
   "lang": "arn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400026
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 14787
  },
  {
   "lang": "as",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400077
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400043
  },
  {
   "lang": "ast",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400015
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 27832
  },
  {
   "lang": "ay",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400037
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 217
  },
  {
   "lang": "ba",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400114
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 26652
  },
  {
   "lang": "bal",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 7484
  },
  {
   "lang": "ban",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400000
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 153
  },
  {
   "lang": "bg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400052
- },
- {
-  "lang": "bho",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400013
- },
- {
-  "lang": "bm",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
- },
- {
-  "lang": "bn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400021
- },
- {
-  "lang": "bo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
- },
- {
-  "lang": "br",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400005
- },
- {
-  "lang": "brx",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400019
- },
- {
-  "lang": "bs",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400037
- },
- {
-  "lang": "bug",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400081
- },
- {
-  "lang": "ca",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400030
- },
- {
-  "lang": "ce",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400080
- },
- {
-  "lang": "ceb",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400047
- },
- {
-  "lang": "cho",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
- },
- {
-  "lang": "chr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
- },
- {
-  "lang": "ckb",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400009
- },
- {
-  "lang": "co",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400007
- },
- {
-  "lang": "cs",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400025
- },
- {
-  "lang": "cv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400100
- },
- {
-  "lang": "cy",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400013
- },
- {
-  "lang": "da",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
- },
- {
-  "lang": "de",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400010
- },
- {
-  "lang": "dsb",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400029
- },
- {
-  "lang": "ee",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400001
- },
- {
-  "lang": "el",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400070
- },
- {
-  "lang": "en",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400000
- },
- {
-  "lang": "eo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400016
- },
- {
-  "lang": "es",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400012
- },
- {
-  "lang": "et",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400016
- },
- {
-  "lang": "eu",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400012
- },
- {
-  "lang": "fa",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400055
- },
- {
-  "lang": "ff",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400042
- },
- {
-  "lang": "fi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400000
- },
- {
-  "lang": "fo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400056
- },
- {
-  "lang": "fr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400032
- },
- {
-  "lang": "frr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400001
- },
- {
-  "lang": "fur",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400026
  },
  {
-  "lang": "ga",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
+  "lang": "bho",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3920
  },
  {
-  "lang": "gaa",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
+  "lang": "bm",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1850
  },
  {
-  "lang": "gd",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400054
+  "lang": "bn",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 400170
  },
  {
-  "lang": "gl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400046
+  "lang": "bo",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 5819
  },
  {
-  "lang": "gn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400002
+  "lang": "br",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 232170
  },
  {
-  "lang": "gsw",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
+  "lang": "brx",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 391
  },
  {
-  "lang": "gu",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400027
+  "lang": "bs",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 49108
  },
  {
-  "lang": "ha",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400011
+  "lang": "ca",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400043
  },
  {
-  "lang": "haw",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
+  "lang": "ce",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 2247
  },
  {
-  "lang": "he",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400033
+  "lang": "ceb",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 62466
  },
  {
-  "lang": "hi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400100
+  "lang": "cho",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3054
  },
  {
-  "lang": "hr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400037
+  "lang": "chr",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 907
  },
  {
-  "lang": "hsb",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
+  "lang": "ckb",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400017
  },
  {
-  "lang": "ht",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400010
+  "lang": "co",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1245
  },
  {
-  "lang": "hu",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400030
+  "lang": "cs",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400047
  },
  {
-  "lang": "hy",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400056
+  "lang": "cv",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 83193
  },
  {
-  "lang": "ia",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
+  "lang": "cy",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 55296
  },
  {
-  "lang": "id",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "lang": "da",
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400003
  },
  {
-  "lang": "ie",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400008
+  "lang": "de",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400017
  },
  {
-  "lang": "ig",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "lang": "dsb",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 44286
+ },
+ {
+  "lang": "ee",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 843
+ },
+ {
+  "lang": "el",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400053
+ },
+ {
+  "lang": "en",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 400041
+ },
+ {
+  "lang": "eo",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400009
+ },
+ {
+  "lang": "es",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400016
+ },
+ {
+  "lang": "et",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 183104
+ },
+ {
+  "lang": "eu",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 216987
+ },
+ {
+  "lang": "fi",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 122268
+ },
+ {
+  "lang": "fo",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 13472
+ },
+ {
+  "lang": "fr",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 400072
+ },
+ {
+  "lang": "frr",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 93781
+ },
+ {
+  "lang": "fur",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 865
+ },
+ {
+  "lang": "ga",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 95537
+ },
+ {
+  "lang": "gaa",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1095
+ },
+ {
+  "lang": "gd",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 37712
+ },
+ {
+  "lang": "gl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 379224
+ },
+ {
+  "lang": "gn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 107347
+ },
+ {
+  "lang": "gsw",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 14850
+ },
+ {
+  "lang": "gu",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 10809
+ },
+ {
+  "lang": "ha",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400016
+ },
+ {
+  "lang": "haw",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 4500
+ },
+ {
+  "lang": "he",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400048
+ },
+ {
+  "lang": "hi",
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400021
  },
  {
+  "lang": "hr",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 205147
+ },
+ {
+  "lang": "hsb",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 41624
+ },
+ {
+  "lang": "ht",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3791
+ },
+ {
+  "lang": "hu",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400020
+ },
+ {
+  "lang": "hy",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400035
+ },
+ {
+  "lang": "ia",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400000
+ },
+ {
+  "lang": "id",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400023
+ },
+ {
+  "lang": "ie",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 360211
+ },
+ {
+  "lang": "ig",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1282
+ },
+ {
   "lang": "is",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400019
  },
  {
   "lang": "it",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400002
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400038
  },
  {
   "lang": "ja",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400017
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400041
  },
  {
   "lang": "jbo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400012
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400007
  },
  {
   "lang": "jv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400052
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 75599
  },
  {
   "lang": "ka",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400018
  },
  {
   "lang": "kaa",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400080
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1870
  },
  {
   "lang": "kab",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 400000
  },
  {
   "lang": "kam",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400039
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 248
  },
  {
   "lang": "kk",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400001
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 386164
  },
  {
   "lang": "km",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400100
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 159816
  },
  {
   "lang": "kn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400108
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 24261
  },
  {
   "lang": "ko",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400051
  },
  {
   "lang": "ks",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400052
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 6686
  },
  {
   "lang": "ksh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400015
- },
- {
-  "lang": "ku",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400011
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 4776
  },
  {
   "lang": "ky",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 40931
  },
  {
   "lang": "la",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400057
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400005
  },
  {
   "lang": "lg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400030
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 9860
  },
  {
   "lang": "lij",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400022
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 56115
  },
  {
   "lang": "lld",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3498
  },
  {
   "lang": "lmo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 672
  },
  {
   "lang": "ln",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400016
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 357749
  },
  {
   "lang": "lo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400044
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 22258
  },
  {
   "lang": "lt",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400008
- },
- {
-  "lang": "ltg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400046
- },
- {
-  "lang": "lv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400011
- },
- {
-  "lang": "lzh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400026
- },
- {
-  "lang": "mai",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400010
- },
- {
-  "lang": "mdf",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
- },
- {
-  "lang": "meh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
- },
- {
-  "lang": "mel",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400003
- },
- {
-  "lang": "mg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400035
- },
- {
-  "lang": "mic",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
- },
- {
-  "lang": "mk",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400059
- },
- {
-  "lang": "ml",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400072
- },
- {
-  "lang": "mmc",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
- },
- {
-  "lang": "mn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400035
- },
- {
-  "lang": "mni",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400031
- },
- {
-  "lang": "moh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400057
- },
- {
-  "lang": "ms",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400035
- },
- {
-  "lang": "msi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400022
- },
- {
-  "lang": "mt",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400051
- },
- {
-  "lang": "mus",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400003
- },
- {
-  "lang": "my",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400037
- },
- {
-  "lang": "myv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400019
- },
- {
-  "lang": "mzn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
- },
- {
-  "lang": "nds",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400049
- },
- {
-  "lang": "ne",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400051
- },
- {
-  "lang": "nl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
- },
- {
-  "lang": "nn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400000
- },
- {
-  "lang": "no",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
- },
- {
-  "lang": "nso",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400010
- },
- {
-  "lang": "nus",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400017
- },
- {
-  "lang": "oc",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400019
- },
- {
-  "lang": "om",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400022
- },
- {
-  "lang": "or",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400043
- },
- {
-  "lang": "pa",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400043
- },
- {
-  "lang": "pap",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400030
- },
- {
-  "lang": "pl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400001
- },
- {
-  "lang": "prg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400021
- },
- {
-  "lang": "ps",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400009
- },
- {
-  "lang": "pt",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400013
- },
- {
-  "lang": "qu",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400026
- },
- {
-  "lang": "quc",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400025
- },
- {
-  "lang": "rhg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400002
- },
- {
-  "lang": "rn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400057
- },
- {
-  "lang": "ro",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400007
- },
- {
-  "lang": "ru",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400037
- },
- {
-  "lang": "ruc",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400015
- },
- {
-  "lang": "rw",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400022
- },
- {
-  "lang": "sah",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400189
- },
- {
-  "lang": "sat",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400012
- },
- {
-  "lang": "scn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400025
- },
- {
-  "lang": "sd",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400038
- },
- {
-  "lang": "sdh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400067
- },
- {
-  "lang": "shi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400022
- },
- {
-  "lang": "si",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400059
- },
- {
-  "lang": "sk",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400023
- },
- {
-  "lang": "sl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
- },
- {
-  "lang": "sma",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400054
- },
- {
-  "lang": "sn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400007
- },
- {
-  "lang": "so",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
- },
- {
-  "lang": "sq",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400016
  },
  {
-  "lang": "sr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400033
+  "lang": "ltg",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 16103
  },
  {
-  "lang": "ss",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400041
+  "lang": "lzh",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 98404
  },
  {
-  "lang": "st",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
+  "lang": "mai",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 220
  },
  {
-  "lang": "su",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400038
+  "lang": "mdf",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 474
  },
  {
-  "lang": "sv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400025
+  "lang": "mg",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1822
  },
  {
-  "lang": "sw",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400027
+  "lang": "mic",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 260
  },
  {
-  "lang": "szl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400043
+  "lang": "mk",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400048
  },
  {
-  "lang": "ta",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400034
+  "lang": "ml",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 90646
  },
  {
-  "lang": "te",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400056
+  "lang": "mn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 160566
  },
  {
-  "lang": "tg",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400051
+  "lang": "mni",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 852
  },
  {
-  "lang": "th",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400082
+  "lang": "moh",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 2605
  },
  {
-  "lang": "ti",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400056
+  "lang": "mt",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 18526
  },
  {
-  "lang": "tig",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400043
+  "lang": "mus",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 17918
  },
  {
-  "lang": "tk",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "lang": "my",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 55412
+ },
+ {
+  "lang": "myv",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 14266
+ },
+ {
+  "lang": "nds",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400024
+ },
+ {
+  "lang": "nl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400001
+ },
+ {
+  "lang": "nn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 332023
+ },
+ {
+  "lang": "nus",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 90475
+ },
+ {
+  "lang": "oc",
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400064
  },
  {
-  "lang": "tl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400028
+  "lang": "or",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 15531
  },
  {
-  "lang": "tn",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400035
+  "lang": "pa",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 18868
  },
  {
-  "lang": "tob",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400044
+  "lang": "pap",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1723
  },
  {
-  "lang": "tok",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400000
+  "lang": "pl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400019
  },
  {
-  "lang": "top",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400006
+  "lang": "prg",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 219547
  },
  {
-  "lang": "tpi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "lang": "ps",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3658
+ },
+ {
+  "lang": "pt",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400002
+ },
+ {
+  "lang": "qu",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 18057
+ },
+ {
+  "lang": "quc",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 120
+ },
+ {
+  "lang": "rhg",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 233098
+ },
+ {
+  "lang": "rn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 127751
+ },
+ {
+  "lang": "ro",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400036
+ },
+ {
+  "lang": "ru",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 400051
+ },
+ {
+  "lang": "rw",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 729
+ },
+ {
+  "lang": "sah",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 53664
+ },
+ {
+  "lang": "sat",
+  "mode": "tatoeba-sentences-cc0",
+  "verify": false,
+  "bytes": 49243
+ },
+ {
+  "lang": "scn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1285
+ },
+ {
+  "lang": "sd",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 307
+ },
+ {
+  "lang": "sdh",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 42542
+ },
+ {
+  "lang": "shi",
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400004
  },
  {
-  "lang": "tr",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400018
+  "lang": "si",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3613
  },
  {
-  "lang": "ts",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "lang": "sk",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400000
+ },
+ {
+  "lang": "sl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 108565
+ },
+ {
+  "lang": "sma",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1271
+ },
+ {
+  "lang": "sn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1038
+ },
+ {
+  "lang": "so",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 4341
+ },
+ {
+  "lang": "sq",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 94046
+ },
+ {
+  "lang": "sr",
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400015
  },
  {
-  "lang": "tt",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400010
+  "lang": "ss",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 220
  },
  {
-  "lang": "ttj",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400011
+  "lang": "st",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 316
+ },
+ {
+  "lang": "su",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 29745
+ },
+ {
+  "lang": "sv",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400003
+ },
+ {
+  "lang": "szl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 23730
+ },
+ {
+  "lang": "ta",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 51176
+ },
+ {
+  "lang": "te",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 25393
+ },
+ {
+  "lang": "tg",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 4720
+ },
+ {
+  "lang": "th",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400060
+ },
+ {
+  "lang": "ti",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 385968
+ },
+ {
+  "lang": "tig",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400017
+ },
+ {
+  "lang": "tk",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 275974
+ },
+ {
+  "lang": "tl",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400032
+ },
+ {
+  "lang": "tn",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 1523
+ },
+ {
+  "lang": "tok",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400025
+ },
+ {
+  "lang": "tpi",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3445
+ },
+ {
+  "lang": "tr",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400080
+ },
+ {
+  "lang": "ts",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 290
+ },
+ {
+  "lang": "tt",
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400005
  },
  {
   "lang": "tyv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400031
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 3592
  },
  {
   "lang": "ug",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400077
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400023
  },
  {
   "lang": "uk",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400027
- },
- {
-  "lang": "ukv",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
+  "mode": "tatoeba-sentences",
+  "verify": false,
   "bytes": 400035
  },
  {
   "lang": "ur",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400032
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 167283
  },
  {
   "lang": "uz",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400065
- },
- {
-  "lang": "ve",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400014
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 37788
  },
  {
   "lang": "vec",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400017
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 10115
  },
  {
   "lang": "vi",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400009
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 400038
  },
  {
   "lang": "vo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400026
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 165867
  },
  {
   "lang": "wo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400011
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 2454
  },
  {
   "lang": "xh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400051
- },
- {
-  "lang": "xkl",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400043
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 7662
  },
  {
   "lang": "yo",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400027
- },
- {
-  "lang": "za",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400035
- },
- {
-  "lang": "zh",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400007
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 2944
  },
  {
   "lang": "zu",
-  "mode": "synthetic-from-freq-top1000",
-  "verify": true,
-  "bytes": 400002
+  "mode": "tatoeba-sentences",
+  "verify": false,
+  "bytes": 2818
  }
 ];
