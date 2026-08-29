@@ -1,7 +1,8 @@
-import os
 import json
+import os
 import platform
-from typing import Any, Dict, List
+from typing import Any
+
 from tts_wrapper import (
     ElevenLabsClient,
     GoogleClient,
@@ -19,7 +20,7 @@ from tts_wrapper import (
 if platform.system() == "Darwin":  # macOS
     from tts_wrapper import AVSynthClient
 
-def load_existing_index(path: str = "data/tts_index.json") -> Dict[str, List[Dict[str, Any]]]:
+def load_existing_index(path: str = "data/tts_index.json") -> dict[str, list[dict[str, Any]]]:
     """Loads an existing TTS index file if it exists."""
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -30,24 +31,24 @@ def load_existing_index(path: str = "data/tts_index.json") -> Dict[str, List[Dic
                 return {}
     return {}
 
-def save_index(data: Dict[str, List[Dict[str, Any]]], path: str = "data/tts_index.json") -> None:
+def save_index(data: dict[str, list[dict[str, Any]]], path: str = "data/tts_index.json") -> None:
     """Saves the TTS index to a file."""
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"\nTTS voice index saved to {path}")
 
-def clear_voices_for_providers(index: Dict[str, List[Dict[str, Any]]], providers_to_clear: List[str]) -> Dict[str, List[Dict[str, Any]]]:
+def clear_voices_for_providers(index: dict[str, list[dict[str, Any]]], providers_to_clear: list[str]) -> dict[str, list[dict[str, Any]]]:
     """Removes all voices from the index for the given list of providers."""
     if not providers_to_clear:
         return index
     print(f"Clearing old voices for providers: {providers_to_clear}")
-    for lang_code in index:
+    for lang_code, voices in index.items():
         index[lang_code] = [
-            voice for voice in index[lang_code] if voice.get('engine') not in providers_to_clear
+            voice for voice in voices if voice.get('engine') not in providers_to_clear
         ]
     return index
 
-def add_voice_to_index(all_voices: Dict[str, List[Dict[str, Any]]], engine_name: str, voice_obj: Any) -> None:
+def add_voice_to_index(all_voices: dict[str, list[dict[str, Any]]], engine_name: str, voice_obj: Any) -> None:
     """Adds a single voice to the index, handling different voice object structures."""
     try:
         voice_id = voice_obj.get('id') if isinstance(voice_obj, dict) else voice_obj.name
@@ -89,7 +90,7 @@ def main() -> None:
     """
     all_voices = load_existing_index()
 
-    configured_clients: List[tuple[str, Any]] = []
+    configured_clients: list[tuple[str, Any]] = []
 
     # --- Detect configured clients ---
     if os.getenv("POLLY_AWS_KEY_ID"):

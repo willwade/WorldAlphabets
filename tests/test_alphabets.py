@@ -14,9 +14,9 @@ def test_load_alphabet_with_script() -> None:
 
 
 def test_case_alignment() -> None:
-    from pathlib import Path
     import json
     import unicodedata
+    from pathlib import Path
 
     for path in Path("data/alphabets").glob("*.json"):
         data = json.loads(path.read_text(encoding="utf-8"))

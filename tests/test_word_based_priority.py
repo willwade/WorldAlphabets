@@ -1,9 +1,11 @@
 """Test that word-based detection is prioritized over character-based fallback."""
 
 import os
-import pytest
+from collections.abc import Generator
 from pathlib import Path
-from typing import Generator
+
+import pytest
+
 from worldalphabets.detect.optimized import optimized_detect_languages
 from worldalphabets.helpers import get_index_data
 
@@ -35,7 +37,7 @@ def test_shona_word_detection_priority() -> None:
     
     # Get uniform priors for fair comparison
     index = get_index_data()
-    all_langs = list(set(item["language"] for item in index))
+    all_langs = list({item["language"] for item in index})
     uniform_priors = {lang: 1.0 / len(all_langs) for lang in all_langs}
     
     # Detect with uniform priors
@@ -62,7 +64,7 @@ def test_spanish_word_detection_priority() -> None:
     
     # Get uniform priors
     index = get_index_data()
-    all_langs = list(set(item["language"] for item in index))
+    all_langs = list({item["language"] for item in index})
     uniform_priors = {lang: 1.0 / len(all_langs) for lang in all_langs}
     
     # Detect with uniform priors
@@ -87,7 +89,7 @@ def test_french_word_detection_priority() -> None:
     
     # Get uniform priors
     index = get_index_data()
-    all_langs = list(set(item["language"] for item in index))
+    all_langs = list({item["language"] for item in index})
     uniform_priors = {lang: 1.0 / len(all_langs) for lang in all_langs}
     
     # Detect with uniform priors
@@ -114,7 +116,7 @@ def test_word_based_beats_character_based() -> None:
     
     # Get uniform priors
     index = get_index_data()
-    all_langs = list(set(item["language"] for item in index))
+    all_langs = list({item["language"] for item in index})
     uniform_priors = {lang: 1.0 / len(all_langs) for lang in all_langs}
     
     # Detect with uniform priors

@@ -55,9 +55,9 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
@@ -68,7 +68,7 @@ OUT_DIR = ROOT / "c" / "generated"
 
 # Import keyboard mappings from the runtime to avoid duplication.
 sys.path.insert(0, str(ROOT / "src"))
-from worldalphabets.keyboards.loader import (  # noqa: E402
+from worldalphabets.keyboards.loader import (
     CODE_TO_HID,
     DEFAULT_LAYERS,
     SCANCODE_TO_CODE,
@@ -80,8 +80,8 @@ from worldalphabets.keyboards.loader import (  # noqa: E402
 class GeneratorConfig:
     """Configuration for C data generation."""
 
-    max_tokens: Optional[int] = None  # None = unlimited
-    include_langs: Optional[Set[str]] = None  # None = all languages
+    max_tokens: int | None = None  # None = unlimited
+    include_langs: set[str] | None = None  # None = all languages
     packed_strings: bool = False
 
 
@@ -109,8 +109,8 @@ def format_string_array(
 
 
 def format_packed_strings(
-    name: str, values: List[str], exported: bool = False
-) -> List[str]:
+    name: str, values: list[str], exported: bool = False
+) -> list[str]:
     """Format as packed string blob with offset table.
 
     Instead of:
@@ -126,11 +126,11 @@ def format_packed_strings(
     slightly more complex access.
     """
     prefix = "const" if exported else "static const"
-    lines: List[str] = []
+    lines: list[str] = []
 
     # Build packed data blob
-    blob_parts: List[str] = []
-    offsets: List[int] = []
+    blob_parts: list[str] = []
+    offsets: list[int] = []
     current_offset = 0
     for val in values:
         offsets.append(current_offset)
@@ -155,7 +155,7 @@ def format_packed_strings(
     return lines
 
 
-def lang_matches_filter(lang: str, include_langs: Optional[Set[str]]) -> bool:
+def lang_matches_filter(lang: str, include_langs: set[str] | None) -> bool:
     """Check if language code matches the filter set."""
     if include_langs is None:
         return True
@@ -163,27 +163,25 @@ def lang_matches_filter(lang: str, include_langs: Optional[Set[str]]) -> bool:
     if lang in include_langs:
         return True
     # Match base language (e.g., "en-US" matches "en")
-    if "-" in lang and lang.split("-")[0] in include_langs:
-        return True
-    return False
+    return bool("-" in lang and lang.split("-")[0] in include_langs)
 
 
-def load_json_dict(path: Path) -> Dict:
+def load_json_dict(path: Path) -> dict:
     """Load JSON file that must contain a dict/object."""
     data = json.loads(path.read_text(encoding="utf-8"))
     assert isinstance(data, dict), f"{path} should contain a JSON object"
     return data
 
 
-def load_json_list(path: Path) -> List[Dict]:
+def load_json_list(path: Path) -> list[dict]:
     """Load JSON file that must contain a list of objects."""
     data = json.loads(path.read_text(encoding="utf-8"))
     assert isinstance(data, list), f"{path} should contain a JSON array"
     return data
 
 
-def build_scripts(index_data: List[dict], cfg: GeneratorConfig) -> Dict[str, List[str]]:
-    scripts: Dict[str, List[str]] = {}
+def build_scripts(index_data: list[dict], cfg: GeneratorConfig) -> dict[str, list[str]]:
+    scripts: dict[str, list[str]] = {}
     for entry in index_data:
         lang = entry["language"]
         if not lang_matches_filter(lang, cfg.include_langs):
@@ -197,13 +195,13 @@ def build_scripts(index_data: List[dict], cfg: GeneratorConfig) -> Dict[str, Lis
         for s in candidates:
             if s not in scripts[lang]:
                 scripts[lang].append(s)
-    for lang in scripts:
-        scripts[lang].sort()
+    for lang_scripts in scripts.values():
+        lang_scripts.sort()
     return scripts
 
 
-def build_alphabets(cfg: GeneratorConfig) -> List[dict]:
-    entries: List[dict] = []
+def build_alphabets(cfg: GeneratorConfig) -> list[dict]:
+    entries: list[dict] = []
     for file in sorted(ALPHABET_DIR.glob("*.json")):
         data = load_json_dict(file)
         parts = file.stem.split("-", 1)
@@ -224,14 +222,14 @@ def build_alphabets(cfg: GeneratorConfig) -> List[dict]:
     return entries
 
 
-def build_frequency_lists(cfg: GeneratorConfig) -> List[dict]:
-    lists: List[dict] = []
+def build_frequency_lists(cfg: GeneratorConfig) -> list[dict]:
+    lists: list[dict] = []
     for file in sorted(FREQ_DIR.glob("*.txt")):
         code = file.stem
         if not lang_matches_filter(code, cfg.include_langs):
             continue
         mode = "word"
-        tokens: List[str] = []
+        tokens: list[str] = []
         for line in file.read_text(encoding="utf-8").splitlines():
             stripped = line.strip()
             if not stripped:
@@ -260,17 +258,17 @@ def resolve_dom_code(key: dict) -> str | None:
     return None
 
 
-def build_keyboard_layers(layout: dict) -> List[dict]:
-    layers: List[dict] = []
+def build_keyboard_layers(layout: dict) -> list[dict]:
+    layers: list[dict] = []
     for layer in DEFAULT_LAYERS:
-        entries: List[Tuple[int, str]] = []
+        entries: list[tuple[int, str]] = []
         for key in layout.get("keys", []):
             legends = key.get("legends") or {}
             legend = legends.get(layer)
             if not legend:
                 continue
             hid_raw = key.get("hid")
-            hid: Optional[int] = None
+            hid: int | None = None
             if hid_raw:
                 hid = int(hid_raw, 16)
             else:
@@ -293,8 +291,8 @@ def build_keyboard_layers(layout: dict) -> List[dict]:
     return layers
 
 
-def build_keyboard_layouts(cfg: GeneratorConfig) -> List[dict]:
-    layouts: List[dict] = []
+def build_keyboard_layouts(cfg: GeneratorConfig) -> list[dict]:
+    layouts: list[dict] = []
     for file in sorted(LAYOUT_DIR.glob("*.json")):
         data = load_json_dict(file)
         if "id" not in data or "keys" not in data:
@@ -349,10 +347,10 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     # with very large translation units
 
     # File 1: Languages and scripts (small)
-    src1: List[str] = ['#include "worldalphabets_data.h"', ""]
+    src1: list[str] = ['#include "worldalphabets_data.h"', ""]
     src1.append(format_string_array("WA_LANGUAGE_CODES", language_codes, exported=True))
     src1.append("")
-    script_entries: List[dict] = []
+    script_entries: list[dict] = []
     for lang in language_codes:
         scripts = scripts_by_lang[lang]
         arr_name = f"WA_SCRIPTS_{lang.replace('-', '_')}"
@@ -371,7 +369,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     # File 2: Alphabets (each alphabet in its own file to avoid MSVC ICE)
     # Some alphabets (Korean, Japanese, Chinese) have >10K characters each
     for idx, alpha in enumerate(alphabets):
-        src2: List[str] = ['#include "worldalphabets_data.h"', ""]
+        src2: list[str] = ['#include "worldalphabets_data.h"', ""]
         base = f"ALPHA_{idx}"
         upper = f"{base}_UPPER"
         lower = f"{base}_LOWER"
@@ -390,7 +388,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         )
 
     # Alphabet table file (references the data from chunk files)
-    src2_table: List[str] = ['#include "worldalphabets_data.h"', ""]
+    src2_table: list[str] = ['#include "worldalphabets_data.h"', ""]
     for idx, alpha in enumerate(alphabets):
         base = f"ALPHA_{idx}"
         src2_table.append(f"extern const char *{base}_UPPER[];")
@@ -421,7 +419,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     if cfg.packed_strings:
         # Packed strings mode: store data in blob + generate pointer array
         # This maintains API compatibility while reducing relocations
-        src3: List[str] = [
+        src3: list[str] = [
             '#include "worldalphabets_data.h"',
             "#include <stdint.h>",
             "",
@@ -431,8 +429,8 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             name = f"WA_FREQ_{idx}_TOKENS"
 
             # Build packed data blob
-            blob_parts: List[str] = []
-            offsets: List[int] = []
+            blob_parts: list[str] = []
+            offsets: list[int] = []
             current_offset = 0
             for val in tokens:
                 offsets.append(current_offset)
@@ -472,7 +470,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
             )
 
     # File 4: Frequency list table (references the tokens from the chunk files)
-    src4: List[str] = ['#include "worldalphabets_data.h"', ""]
+    src4: list[str] = ['#include "worldalphabets_data.h"', ""]
     for idx, freq_entry in enumerate(freq_lists):
         src4.append(f"extern const char *WA_FREQ_{idx}_TOKENS[];")
     src4.append("")
@@ -493,11 +491,11 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     KEYBOARD_CHUNK_SIZE = 40  # ~40 layouts per file
     for chunk_idx in range(0, len(layouts), KEYBOARD_CHUNK_SIZE):
         chunk_end = min(chunk_idx + KEYBOARD_CHUNK_SIZE, len(layouts))
-        src5: List[str] = ['#include "worldalphabets_data.h"', ""]
+        src5: list[str] = ['#include "worldalphabets_data.h"', ""]
 
         for idx in range(chunk_idx, chunk_end):
             layout = layouts[idx]
-            layer_entries: List[dict] = []
+            layer_entries: list[dict] = []
             for layer_idx, layer in enumerate(layout["layers"]):
                 entry_name = f"LAYOUT_{idx}_LAYER_{layer_idx}_ENTRIES"
                 src5.append(f"const wa_keyboard_mapping {entry_name}[] = {{")
@@ -529,7 +527,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         )
 
     # Keyboard table file
-    src5_table: List[str] = ['#include "worldalphabets_data.h"', ""]
+    src5_table: list[str] = ['#include "worldalphabets_data.h"', ""]
     layout_ids = [layout["id"] for layout in layouts]
     src5_table.append(format_string_array("WA_LAYOUT_IDS", layout_ids, exported=True))
     src5_table.append("")
@@ -608,9 +606,9 @@ def parse_args() -> GeneratorConfig:
     )
     args = parser.parse_args()
 
-    include_langs: Optional[Set[str]] = None
+    include_langs: set[str] | None = None
     if args.include_langs:
-        include_langs = set(code.strip() for code in args.include_langs.split(","))
+        include_langs = {code.strip() for code in args.include_langs.split(",")}
 
     return GeneratorConfig(
         max_tokens=args.max_tokens,

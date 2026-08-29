@@ -1,15 +1,15 @@
 from .keyboard import (
+    DeadKey,
     KeyboardLayout,
     KeyEntry,
     LayerLegends,
-    DeadKey,
     Ligature,
 )
 
 __all__ = [
-    "KeyboardLayout",
-    "KeyEntry",
-    "LayerLegends",
     "DeadKey",
+    "KeyEntry",
+    "KeyboardLayout",
+    "LayerLegends",
     "Ligature",
 ]

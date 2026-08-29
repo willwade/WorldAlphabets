@@ -16,7 +16,6 @@ import json
 import unicodedata
 from collections import Counter
 from pathlib import Path
-from typing import Dict, List, Optional, Set
 
 
 def get_script_name(lang_code: str) -> str:
@@ -46,7 +45,7 @@ def is_latin(char: str) -> bool:
         return False
 
 
-def extract_characters(words: List[str], script: Optional[str] = None) -> Set[str]:
+def extract_characters(words: list[str], script: str | None = None) -> set[str]:
     """Extract unique characters from word list, filtered by script."""
     chars = set()
     for word in words:
@@ -55,16 +54,14 @@ def extract_characters(words: List[str], script: Optional[str] = None) -> Set[st
                 continue
 
             # Filter by script if specified
-            if script == "Cyrl" and not is_cyrillic(char):
-                continue
-            elif script == "Latn" and not is_latin(char):
+            if script == "Cyrl" and not is_cyrillic(char) or script == "Latn" and not is_latin(char):
                 continue
 
             chars.add(char)
     return chars
 
 
-def calculate_char_frequencies(words: List[str], script: Optional[str] = None) -> Dict[str, float]:
+def calculate_char_frequencies(words: list[str], script: str | None = None) -> dict[str, float]:
     """Calculate character frequencies from word list, filtered by script."""
     char_counts: Counter[str] = Counter()
     total_chars = 0
@@ -75,9 +72,7 @@ def calculate_char_frequencies(words: List[str], script: Optional[str] = None) -
                 continue
 
             # Filter by script if specified
-            if script == "Cyrl" and not is_cyrillic(char):
-                continue
-            elif script == "Latn" and not is_latin(char):
+            if script == "Cyrl" and not is_cyrillic(char) or script == "Latn" and not is_latin(char):
                 continue
 
             char_counts[char] += 1
@@ -94,14 +89,14 @@ def calculate_char_frequencies(words: List[str], script: Optional[str] = None) -
     return frequencies
 
 
-def sort_alphabetically(chars: List[str], script: str) -> List[str]:
+def sort_alphabetically(chars: list[str], script: str) -> list[str]:
     """Sort characters alphabetically based on script."""
     # For Cyrillic, use Unicode order (which is correct for Cyrillic)
     # For Latin, use standard alphabetical order
     return sorted(chars)
 
 
-def separate_case(chars: Set[str]) -> tuple[List[str], List[str]]:
+def separate_case(chars: set[str]) -> tuple[list[str], list[str]]:
     """Separate uppercase and lowercase characters, generating missing cases."""
     uppercase = []
     lowercase = []
@@ -145,7 +140,7 @@ def get_language_name(lang_code: str) -> str:
         return names.get(lang_code, lang_code.upper())
 
 
-def generate_alphabet_file(lang_code: str, script: Optional[str] = None) -> bool:
+def generate_alphabet_file(lang_code: str, script: str | None = None) -> bool:
     """Generate alphabet JSON file from word frequency data."""
     
     # Paths

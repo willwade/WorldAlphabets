@@ -16,7 +16,7 @@ import unicodedata
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
 from urllib.error import HTTPError
 
 import langcodes
@@ -69,7 +69,7 @@ class AlphabetBuilder:
     def __init__(self) -> None:
         self.unigrams_dir = Path("external/unigrams")
         self.unigrams_zip = self.unigrams_dir / "unigrams.zip"
-        self.stats: Dict[str, Any] = {
+        self.stats: dict[str, Any] = {
             "total_processed": 0,
             "successful": 0,
             "cldr_missing": 0,
@@ -96,13 +96,13 @@ class AlphabetBuilder:
         except Exception as e:
             logger.error(f"Failed to download unigrams: {e}")
 
-    def load_frequency_data(self, code: str) -> Dict[str, int]:
+    def load_frequency_data(self, code: str) -> dict[str, int]:
         """Load character frequency data from unigrams file."""
         path = self.unigrams_dir / f"unigrams-{code}.txt"
         if not path.exists():
             return {}
         
-        counts: Dict[str, int] = {}
+        counts: dict[str, int] = {}
         try:
             for line in path.read_text(encoding="utf-8", errors="ignore").splitlines():
                 if not line.strip():
@@ -117,7 +117,7 @@ class AlphabetBuilder:
         
         return counts
 
-    def get_opensubtitles_frequency(self, code: str, letters: List[str]) -> Optional[Dict[str, float]]:
+    def get_opensubtitles_frequency(self, code: str, letters: list[str]) -> dict[str, float] | None:
         """Get frequency data from OpenSubtitles dataset."""
         try:
             lang = langcodes.Language.get(code)
@@ -173,9 +173,9 @@ class AlphabetBuilder:
         
         return {ch: round(counts[norm_map[ch]] / total, 4) for ch in letters}
 
-    def parse_exemplars(self, text: str) -> List[str]:
+    def parse_exemplars(self, text: str) -> list[str]:
         """Extract single-letter tokens from CLDR exemplar string."""
-        letters: List[str] = []
+        letters: list[str] = []
         for token in text.strip("[]").split():
             if token.startswith("{") and token.endswith("}"):
                 token = token[1:-1]
@@ -185,7 +185,7 @@ class AlphabetBuilder:
                     letters.append(ch)
         return letters
 
-    def parse_numbers(self, text: str) -> List[str]:
+    def parse_numbers(self, text: str) -> list[str]:
         """Extract digit tokens from CLDR numbers string."""
         digits = []
         digit_map = {}  # Map ASCII digit to local digit
@@ -236,7 +236,7 @@ class AlphabetBuilder:
 
         return digits
 
-    def sort_letters(self, letters: List[str], locale: str) -> List[str]:
+    def sort_letters(self, letters: list[str], locale: str) -> list[str]:
         """Sort letters with locale-aware rules if available."""
         if Collator and locale:
             try:
@@ -246,14 +246,14 @@ class AlphabetBuilder:
                 pass
         return sorted(letters)
 
-    def get_fallback_alphabet(self, language: str, script: str) -> Optional[List[str]]:
+    def get_fallback_alphabet(self, language: str, script: str) -> list[str] | None:
         """Get fallback alphabet data for languages missing from CLDR."""
         if language in FALLBACK_ALPHABETS and script in FALLBACK_ALPHABETS[language]:
             alphabet_str = FALLBACK_ALPHABETS[language][script]
             return list(alphabet_str)
         return None
 
-    def build_alphabet(self, language: str, script: str) -> Optional[Dict]:
+    def build_alphabet(self, language: str, script: str) -> dict | None:
         """Build alphabet data for a language-script combination."""
         self.stats["total_processed"] += 1
         locale = f"{language}-{script}"
@@ -314,7 +314,7 @@ class AlphabetBuilder:
             self.stats["errors"].append(f"{locale}: {e}")
             return None
 
-    def _build_from_letters(self, language: str, script: str, letters: List[str], cldr_data: Optional[Dict] = None, digits: Optional[List[str]] = None) -> Dict:
+    def _build_from_letters(self, language: str, script: str, letters: list[str], cldr_data: dict | None = None, digits: list[str] | None = None) -> dict:
         """Build alphabet data from a list of letters."""
         locale = f"{language}-{script}"
 
@@ -330,7 +330,7 @@ class AlphabetBuilder:
             lower = {unicodedata.normalize("NFC", ch) for ch in letters}
             upper_map = {ch: ch for ch in lower}
 
-        lower_ordered: List[str] = []
+        lower_ordered: list[str] = []
         if cldr_data and cldr_data.get("exemplarCharacters"):
             exemplar = self.parse_exemplars(cldr_data["exemplarCharacters"])
             if language in TONE_MARK_LANGS:
@@ -432,7 +432,7 @@ class AlphabetBuilder:
         self.stats["successful"] += 1
         return result
 
-    def save_alphabet(self, language: str, script: str, data: Dict) -> None:
+    def save_alphabet(self, language: str, script: str, data: dict) -> None:
         """Save alphabet data to JSON file."""
         out_path = Path("data/alphabets") / f"{language}-{script}.json"
         

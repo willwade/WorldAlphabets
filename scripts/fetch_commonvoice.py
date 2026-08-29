@@ -23,7 +23,6 @@ import re
 import tarfile
 from collections import Counter
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
 
 try:
     import requests
@@ -71,7 +70,7 @@ KNOWN_DATASET_IDS = {
 }
 
 
-def get_dataset_info(dataset_id: str) -> Optional[Dict]:
+def get_dataset_info(dataset_id: str) -> dict | None:
     """
     Get dataset information from Mozilla Data Collective API.
 
@@ -101,12 +100,12 @@ def get_dataset_info(dataset_id: str) -> Optional[Dict]:
         return None
 
 
-def list_commonvoice_languages() -> List[str]:
+def list_commonvoice_languages() -> list[str]:
     """List all known CommonVoice languages with dataset IDs."""
-    return sorted(list(KNOWN_DATASET_IDS.keys()))
+    return sorted(KNOWN_DATASET_IDS.keys())
 
 
-def download_dataset(lang_code: str) -> Optional[Path]:
+def download_dataset(lang_code: str) -> Path | None:
     """
     Download CommonVoice dataset for a language using Mozilla Data Collective API.
 
@@ -201,8 +200,8 @@ def download_dataset(lang_code: str) -> Optional[Path]:
 def fetch_commonvoice_transcriptions(
     lang_code: str,
     split: str = "validated",
-    max_samples: Optional[int] = None
-) -> List[str]:
+    max_samples: int | None = None
+) -> list[str]:
     """
     Fetch transcriptions from CommonVoice dataset for a language.
 
@@ -229,7 +228,7 @@ def fetch_commonvoice_transcriptions(
         else:
             tsv_files = [f"{split}.tsv"]
 
-        transcriptions: List[str] = []
+        transcriptions: list[str] = []
 
         for tsv_file in tsv_files:
             tsv_path = dataset_dir / tsv_file
@@ -278,7 +277,7 @@ def fetch_commonvoice_transcriptions(
         return []
 
 
-def calculate_word_frequencies(transcriptions: List[str]) -> Counter:
+def calculate_word_frequencies(transcriptions: list[str]) -> Counter:
     """Calculate word frequencies from transcriptions."""
     word_counts: Counter[str] = Counter()
     
@@ -290,7 +289,7 @@ def calculate_word_frequencies(transcriptions: List[str]) -> Counter:
     return word_counts
 
 
-def calculate_char_frequencies(transcriptions: List[str]) -> Counter:
+def calculate_char_frequencies(transcriptions: list[str]) -> Counter:
     """Calculate character frequencies from transcriptions."""
     char_counts: Counter[str] = Counter()
     
@@ -306,9 +305,9 @@ def generate_frequency_list(
     lang_code: str,
     limit: int = 1000,
     split: str = "all",
-    max_samples: Optional[int] = None,
+    max_samples: int | None = None,
     use_bigrams: bool = False
-) -> Tuple[List[str], str]:
+) -> tuple[list[str], str]:
     """
     Generate frequency list from CommonVoice data.
     
@@ -345,7 +344,7 @@ def generate_frequency_list(
 
 
 def save_frequency_list(
-    tokens: List[str],
+    tokens: list[str],
     output_path: Path,
     mode: str = "word"
 ) -> None:

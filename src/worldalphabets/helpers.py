@@ -1,11 +1,10 @@
 import json
 from importlib.resources import files
-from typing import List, Optional
 
 INDEX_FILE = files("worldalphabets") / "data" / "index.json"
 ALPHABET_DIR = files("worldalphabets") / "data" / "alphabets"
 
-_index_data: Optional[list[dict]] = None
+_index_data: list[dict] | None = None
 
 
 def get_index_data() -> list[dict]:
@@ -17,7 +16,7 @@ def get_index_data() -> list[dict]:
     return _index_data
 
 
-def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
+def get_language(lang_code: str, script: str | None = None) -> dict | None:
     """Return alphabet data for ``lang_code`` in ``script``.
 
     If ``script`` is not provided, the script from the index entry is used.
@@ -38,7 +37,7 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
         if "script" in entry:
             script = entry["script"]
         # Fall back to old format (scripts array)
-        elif "scripts" in entry and entry["scripts"]:
+        elif entry.get("scripts"):
             script = entry["scripts"][0]
 
     path = None
@@ -58,7 +57,7 @@ def get_language(lang_code: str, script: Optional[str] = None) -> dict | None:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def get_scripts(lang_code: str) -> List[str]:
+def get_scripts(lang_code: str) -> list[str]:
     """Return available script codes for ``lang_code``."""
     # Collect all unique scripts for this language across all entries
     scripts: set[str] = set()

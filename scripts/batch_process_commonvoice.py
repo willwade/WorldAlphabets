@@ -20,8 +20,6 @@ import argparse
 import subprocess
 import sys
 from pathlib import Path
-from typing import List
-
 
 # Languages configured in fetch_commonvoice.py
 AVAILABLE_LANGUAGES = {
@@ -40,7 +38,7 @@ AVAILABLE_LANGUAGES = {
 }
 
 
-def run_command(cmd: List[str], description: str) -> bool:
+def run_command(cmd: list[str], description: str) -> bool:
     """Run a command and return success status."""
     print(f"\n{'='*60}")
     print(f"🔧 {description}")

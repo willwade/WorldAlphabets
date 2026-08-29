@@ -5,16 +5,16 @@ from __future__ import annotations
 import math
 import os
 import unicodedata
+from collections.abc import Iterable
 from dataclasses import dataclass
 from importlib.resources import files
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple
 
-__all__ = ["detect_languages", "PRIOR_WEIGHT", "FREQ_WEIGHT"]
+__all__ = ["FREQ_WEIGHT", "PRIOR_WEIGHT", "detect_languages"]
 
 DEFAULT_FREQ_DIR = files("worldalphabets") / "data" / "freq" / "top1000"
-PRIOR_WEIGHT = float(os.environ.get("WA_FREQ_PRIOR_WEIGHT", 0.65))
-FREQ_WEIGHT = float(os.environ.get("WA_FREQ_OVERLAP_WEIGHT", 0.35))
+PRIOR_WEIGHT = float(os.environ.get("WA_FREQ_PRIOR_WEIGHT", "0.65"))
+FREQ_WEIGHT = float(os.environ.get("WA_FREQ_OVERLAP_WEIGHT", "0.35"))
 CHAR_WEIGHT = 0.2  # Weight for character-based detection fallback
 
 
@@ -36,7 +36,7 @@ def _tokenize_bigrams(text: str) -> set[str]:
 def _tokenize_characters(text: str) -> set[str]:
     """Extract unique characters from text, normalized and lowercased."""
     normalized = unicodedata.normalize("NFKC", text).lower()
-    return set(ch for ch in normalized if ch.isalpha())
+    return {ch for ch in normalized if ch.isalpha()}
 
 
 def _character_overlap(text_chars: set[str], alphabet_chars: set[str]) -> float:
@@ -70,7 +70,7 @@ def _character_overlap(text_chars: set[str], alphabet_chars: set[str]) -> float:
 
 
 def _frequency_overlap(
-    text_chars: set[str], char_frequencies: Dict[str, float]
+    text_chars: set[str], char_frequencies: dict[str, float]
 ) -> float:
     """Calculate weighted overlap using character frequencies."""
     if not text_chars or not char_frequencies:
@@ -93,7 +93,7 @@ def _frequency_overlap(
 @dataclass
 class RankData:
     mode: str
-    ranks: Dict[str, int]
+    ranks: dict[str, int]
 
 
 def _load_rank_data(lang: str, freq_dir: Path) -> RankData:
@@ -107,14 +107,14 @@ def _load_rank_data(lang: str, freq_dir: Path) -> RankData:
         header = lines.pop(0)
         if "bigram" in header:
             mode = "bigram"
-    ranks: Dict[str, int] = {}
+    ranks: dict[str, int] = {}
     for idx, token in enumerate(lines, start=1):
         if token and token not in ranks:
             ranks[token] = idx
     return RankData(mode, ranks)
 
 
-def _overlap(tokens: Iterable[str], ranks: Dict[str, int]) -> float:
+def _overlap(tokens: Iterable[str], ranks: dict[str, int]) -> float:
     score = 0.0
     for token in tokens:
         rank = ranks.get(token)
@@ -128,10 +128,10 @@ def _overlap(tokens: Iterable[str], ranks: Dict[str, int]) -> float:
 def detect_languages(
     text: str,
     *,
-    candidate_langs: List[str],
-    priors: Dict[str, float] | None = None,
+    candidate_langs: list[str],
+    priors: dict[str, float] | None = None,
     topk: int = 3,
-) -> List[Tuple[str, float]]:
+) -> list[tuple[str, float]]:
     """Return top language guesses for ``text``.
 
     Combines provided ``priors`` with token overlap from Top-200 lists.
@@ -146,7 +146,7 @@ def detect_languages(
     bigram_tokens = _tokenize_bigrams(text)
     text_chars = _tokenize_characters(text)
 
-    results: List[Tuple[str, float]] = []
+    results: list[tuple[str, float]] = []
     word_based_langs = set()  # Track which languages used word-based detection
 
     for lang in candidate_langs:
@@ -203,7 +203,7 @@ def detect_languages(
                 continue
 
     # Sort results, but prioritize word-based detections over character-based ones
-    def sort_key(item: Tuple[str, float]) -> float:
+    def sort_key(item: tuple[str, float]) -> float:
         lang, score = item
         if lang in word_based_langs:
             return score + 0.15  # Larger boost for word-based detection

@@ -7,6 +7,7 @@ This fixes corrupted audio index files.
 import json
 from pathlib import Path
 
+
 def parse_audio_filename(filename: str) -> dict:
     """
     Parse audio filename to extract metadata.
@@ -73,10 +74,10 @@ def main():
         print(f"Added: {base_lang} - {metadata['engine']} - {metadata['voice_id']}")
     
     # Remove duplicates within each language
-    for lang_code in new_index:
+    for lang_code, files in new_index.items():
         seen_paths = set()
         unique_files = []
-        for audio_file in new_index[lang_code]:
+        for audio_file in files:
             path = audio_file.get('path', '')
             if path not in seen_paths:
                 seen_paths.add(path)
