@@ -52,6 +52,8 @@
     "keyboards.d.ts",
     "data/",
     "!data/audio/",
+    "!data/corpora/*.txt",
+    "data/corpora/SOURCES.json",
     "dist/"
   ],
   "devDependencies": {

@@ -9,6 +9,7 @@ import charIndexJson from './data/char_index.json';
 import { ALPHABETS } from './dist/browser-alphabets.mjs';
 import { LAYOUTS, AVAILABLE_LAYOUTS } from './dist/browser-layouts.mjs';
 import { FREQ_RANKS } from './dist/browser-freq.mjs';
+import { CORPORA_MANIFEST } from './dist/browser-corpora.mjs';
 
 
 // Detection algorithm constants (same as Node.js version)
@@ -252,6 +253,49 @@ export async function getAvailableCodes() {
   const data = await getIndexData();
   const codes = data.map(item => item.language);
   return Array.from(new Set(codes)).sort();
+}
+
+/**
+ * List available text corpora (manifest only — the 74MB of text is not
+ * embedded in this build; see data/corpora/ in the repository).
+ */
+export async function listCorpora() {
+  return CORPORA_MANIFEST.map(entry => ({
+    lang: entry.lang,
+    mode: entry.mode,
+    verify: Boolean(entry.verify),
+  }));
+}
+
+/**
+ * Load a text corpus. In Node (ESM), reads data/corpora/<code>.txt from
+ * the package/repo; in the browser the text is deliberately not bundled,
+ * so this throws with guidance instead of shipping 74MB.
+ */
+export async function loadCorpus(code) {
+  let fs;
+  try {
+    fs = await import('node:fs/promises');
+  } catch (_) {
+    fs = null;
+  }
+  if (fs) {
+    const path = await import('node:path');
+    const { fileURLToPath } = await import('node:url');
+    const here = path.dirname(fileURLToPath(import.meta.url));
+    const filePath = path.join(here, 'data', 'corpora', `${code}.txt`);
+    try {
+      return { language: code, text: await fs.readFile(filePath, 'utf8') };
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
+  }
+  throw new Error(
+    `Corpus for code "${code}" is not available in this build. ` +
+      'Corpus text ships in the WorldAlphabets repository (data/corpora/) ' +
+      'but is excluded from bundles for size — use a repo checkout in Node, ' +
+      'or fetch the file yourself. Available languages: see listCorpora().'
+  );
 }
 
 /**

@@ -6,6 +6,8 @@ const {
   getAvailableCodes,
   loadAlphabet,
   loadFrequencyList,
+  listCorpora,
+  loadCorpus,
   getIndexData,
   getLanguage,
   getScripts,
@@ -96,6 +98,30 @@ describe('worldalphabets', () => {
 
   it('should throw for invalid frequency list', async () => {
     await expect(loadFrequencyList('invalid-code')).rejects.toThrow();
+  });
+
+  describe('text corpora', () => {
+    it('should list corpora with licensing metadata', async () => {
+      const corpora = await listCorpora();
+      expect(Array.isArray(corpora)).toBe(true);
+      expect(corpora.length).toBeGreaterThan(100);
+      const hu = corpora.find((c) => c.lang === 'hu');
+      expect(hu).toBeDefined();
+      expect(typeof hu.verify).toBe('boolean');
+      expect(typeof hu.mode).toBe('string');
+    });
+
+    it('should load a corpus from the repository checkout', async () => {
+      const corpus = await loadCorpus('hu');
+      expect(corpus.language).toBe('hu');
+      expect(corpus.text.length).toBeGreaterThan(100000);
+      // One sentence per line, many lines
+      expect(corpus.text.split('\n').length).toBeGreaterThan(1000);
+    });
+
+    it('should throw a descriptive error for a missing corpus', async () => {
+      await expect(loadCorpus('invalid-code')).rejects.toThrow(/not found|not available/i);
+    });
   });
 
   it('should get scripts for a language', async () => {
