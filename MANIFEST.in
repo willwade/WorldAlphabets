@@ -1,3 +1,4 @@
 include src/worldalphabets/py.typed
 recursive-include src/worldalphabets/data *
 recursive-exclude src/worldalphabets/data/audio *
+recursive-exclude src/worldalphabets/data/corpora *.txt

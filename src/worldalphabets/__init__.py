@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from importlib.resources import files
 from typing import Literal
 
+from .corpora import get_corpus, list_corpora
 from .detect import detect_languages
 from .detect.optimized import detect_languages_with_progress, optimized_detect_languages
 from .diacritics import (
@@ -134,11 +135,14 @@ __all__ = [
     "generate_c_header",
     "get_available_codes",
     "get_available_layouts",
+    # Text corpora (manifest always shipped; text optional — see worldalphabets.corpora)
+    "get_corpus",
     "get_diacritic_variants",
     "get_index_data",
     "get_language",
     "get_scripts",
     "has_diacritics",
+    "list_corpora",
     # Alphabets
     "load_alphabet",
     "load_frequency_list",

@@ -323,6 +323,18 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     layouts = build_keyboard_layouts(cfg)
     language_codes = sorted(scripts_by_lang.keys())
 
+    # Text corpora: manifest only (lang, mode, verify) — the corpus text is
+    # deliberately not embedded (27MB); see wa_corpus_info in the header.
+    corpora: list[dict] = []
+    sources_path = DATA_DIR / "corpora" / "SOURCES.json"
+    if sources_path.exists():
+        corpora_meta = json.loads(sources_path.read_text(encoding="utf-8"))
+        corpora = [
+            {"lang": m["lang"], "mode": m["mode"], "verify": 1 if m.get("verify") else 0}
+            for m in corpora_meta.values()
+        ]
+        corpora.sort(key=lambda c: c["lang"])
+
     # Use #define for counts to ensure compile-time constants (required for MSVC)
     header_lines = [
         "#pragma once",
@@ -333,6 +345,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         f"#define WA_ALPHABETS_COUNT {len(alphabets)}u",
         f"#define WA_FREQUENCY_LISTS_COUNT {len(freq_lists)}u",
         f"#define WA_KEYBOARD_LAYOUTS_COUNT {len(layouts)}u",
+        f"#define WA_CORPORA_COUNT {len(corpora)}u",
         "",
         "extern const char *WA_LANGUAGE_CODES[];",
         "extern const wa_script_entry WA_SCRIPT_ENTRIES[];",
@@ -340,6 +353,7 @@ def write_data_files(cfg: GeneratorConfig) -> None:
         "extern const wa_frequency_list WA_FREQUENCY_LISTS[];",
         "extern const wa_keyboard_layout WA_KEYBOARD_LAYOUTS[];",
         "extern const char *WA_LAYOUT_IDS[];",
+        "extern const wa_corpus_info WA_CORPORA[];",
     ]
     header_path.write_text("\n".join(header_lines) + "\n", encoding="utf-8")
 
@@ -485,6 +499,23 @@ def write_data_files(cfg: GeneratorConfig) -> None:
     src4.append("")
     (OUT_DIR / "wa_data_freq_table.c").write_text(
         "\n".join(src4) + "\n", encoding="utf-8"
+    )
+
+    # File 4b: Text corpora manifest (never the text itself — see header)
+    src4b: list[str] = ['#include "worldalphabets_data.h"', ""]
+    src4b.append("// GENERATED — manifest only; the corpus text is not embedded.")
+    src4b.append("// Load data/corpora/<lang>.txt from a WorldAlphabets checkout.")
+    src4b.append("const wa_corpus_info WA_CORPORA[] = {")
+    for entry in corpora:
+        src4b.append("  {")
+        src4b.append(f'    "{escape(entry["lang"])}",')
+        src4b.append(f'    "{escape(entry["mode"])}",')
+        src4b.append(f'    {entry["verify"]},')
+        src4b.append("  },")
+    src4b.append("};")
+    src4b.append("")
+    (OUT_DIR / "wa_data_corpora.c").write_text(
+        "\n".join(src4b) + "\n", encoding="utf-8"
     )
 
     # File 5: Keyboard layouts (split into chunks)

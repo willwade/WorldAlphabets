@@ -135,6 +135,29 @@ def update_manifest(root_dir: Path) -> None:
         print("MANIFEST.in is already up to date")
 
 
+def sync_corpora_manifest(source_dir: Path, target_dir: Path) -> bool:
+    """Sync ONLY the corpora manifest (SOURCES.json).
+
+    The corpus text (27MB of real Tatoeba sentences) is deliberately excluded
+    from every package — Python wheel/sdist, npm tarball, C library — so
+    consumers can discover what exists via the manifest; the text is fetched
+    from a repo checkout or vendored (see worldalphabets.corpora.get_corpus).
+    """
+    source_manifest = source_dir / "corpora" / "SOURCES.json"
+    if not source_manifest.exists():
+        print(f"Warning: {source_manifest} does not exist (run build_text_corpora.py first)")
+        return False
+
+    target_corpora = target_dir / "corpora"
+    target_corpora.mkdir(parents=True, exist_ok=True)
+    # Drop any previously synced corpus text so it can never leak into a wheel.
+    for stale in target_corpora.glob("*.txt"):
+        stale.unlink()
+    shutil.copy2(source_manifest, target_corpora / "SOURCES.json")
+    print("Copied corpora manifest (SOURCES.json only — text excluded by design)")
+    return True
+
+
 def main() -> None:
     """Main sync function."""
     root_dir = Path(__file__).parent.parent
@@ -165,6 +188,10 @@ def main() -> None:
 
     # Sync frequency data
     total_files += sync_frequency_data(source_dir, target_dir)
+
+    # Sync corpora manifest (text deliberately excluded)
+    if sync_corpora_manifest(source_dir, target_dir):
+        total_files += 1
 
     # Sync index file
     if sync_index_file(source_dir, target_dir):
