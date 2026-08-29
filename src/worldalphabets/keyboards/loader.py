@@ -1,6 +1,6 @@
 import json
-from importlib.resources import files, as_file
-from typing import Dict, Iterable, List
+from collections.abc import Iterable
+from importlib.resources import as_file, files
 from pathlib import Path
 
 from ..models.keyboard import KeyboardLayout, KeyEntry
@@ -10,7 +10,7 @@ with as_file(files("worldalphabets")) as p:
 DATA_DIR = _PACKAGE_PATH.parent.parent / "data"
 LAYOUTS_DIR = DATA_DIR / "layouts"
 
-def get_available_layouts() -> List[str]:
+def get_available_layouts() -> list[str]:
     """
     Returns a list of available keyboard layout IDs.
     """
@@ -44,14 +44,14 @@ DEFAULT_LAYERS: tuple[str, ...] = (
 
 def extract_layers(
     layout: KeyboardLayout, layers: Iterable[str] | None = None
-) -> Dict[str, Dict[str, str]]:
+) -> dict[str, dict[str, str]]:
     """Return a mapping of layer name to key legends for the given layout."""
 
-    result: Dict[str, Dict[str, str]] = {}
+    result: dict[str, dict[str, str]] = {}
     target_layers = list(layers) if layers is not None else list(DEFAULT_LAYERS)
 
     for layer in target_layers:
-        layer_values: Dict[str, str] = {}
+        layer_values: dict[str, str] = {}
         for key in layout.keys:
             if key.legends is None:
                 continue
@@ -84,7 +84,7 @@ def _escape_c_string(value: str) -> str:
     return escaped
 
 
-SCANCODE_TO_CODE: Dict[str, str] = {
+SCANCODE_TO_CODE: dict[str, str] = {
     "01": "Escape",
     "02": "Digit1",
     "03": "Digit2",
@@ -212,7 +212,7 @@ SCANCODE_TO_CODE: Dict[str, str] = {
     "E11D": "Pause",
 }
 
-VK_TO_CODE: Dict[str, str] = {
+VK_TO_CODE: dict[str, str] = {
     "VK_SPACE": "Space",
     "VK_ADD": "NumpadAdd",
     "VK_SUBTRACT": "NumpadSubtract",
@@ -235,7 +235,7 @@ VK_TO_CODE: Dict[str, str] = {
     "VK_OEM_102": "IntlBackslash",
 }
 
-CODE_TO_HID: Dict[str, int] = {
+CODE_TO_HID: dict[str, int] = {
     "Escape": 0x29,
     "Backspace": 0x2A,
     "Tab": 0x2B,
@@ -286,7 +286,7 @@ def _normalize_keycode(keycode: str | int | None) -> int | None:
     if isinstance(keycode, int):
         return keycode
     raw = keycode.strip()
-    if raw.startswith("0x") or raw.startswith("0X"):
+    if raw.startswith(("0x", "0X")):
         try:
             return int(raw, 16)
         except ValueError:
@@ -402,7 +402,7 @@ def _build_layer_entries(
 ) -> list[tuple[str, list[tuple[int, str]]]]:
     built: list[tuple[str, list[tuple[int, str]]]] = []
     for layer in layers:
-        entries: Dict[int, str] = {}
+        entries: dict[int, str] = {}
         for key in layout.keys:
             if key.legends is None:
                 continue
@@ -443,7 +443,7 @@ def generate_c_header(
     symbol_base = _sanitize_identifier(symbol_name or f"layout_{layout.id}")
     guard_name = f"{symbol_base.upper()}_H"
 
-    lines: List[str] = []
+    lines: list[str] = []
     if guard:
         lines.extend([f"#ifndef {guard_name}", f"#define {guard_name}", ""])
 

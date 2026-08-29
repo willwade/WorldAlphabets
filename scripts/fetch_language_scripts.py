@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
-from typing import Dict, Set
 
 import requests
 
@@ -24,7 +23,7 @@ LIMIT 10000
 """
 
 
-def fetch_mappings() -> Dict[str, Set[str]]:
+def fetch_mappings() -> dict[str, set[str]]:
     """Return mapping of language codes to sets of script codes."""
     resp = requests.get(
         SPARQL_URL,
@@ -38,7 +37,7 @@ def fetch_mappings() -> Dict[str, Set[str]]:
     except json.JSONDecodeError as exc:  # pragma: no cover - network failure
         msg = "Wikidata returned invalid JSON. Try rerunning the query later."
         raise RuntimeError(msg) from exc
-    mapping: Dict[str, Set[str]] = {}
+    mapping: dict[str, set[str]] = {}
     for row in data["results"]["bindings"]:
         code = row.get("iso1", {}).get("value") or row.get("iso3", {}).get("value")
         script = row.get("scriptCode", {}).get("value")

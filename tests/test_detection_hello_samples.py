@@ -1,12 +1,12 @@
 import os
-from typing import Any, Dict, List, Tuple, Optional
+from typing import Any
 
 import pytest
 
 from worldalphabets import (
-    optimized_detect_languages,
     get_index_data,
     get_language,
+    optimized_detect_languages,
 )
 
 
@@ -15,7 +15,7 @@ from worldalphabets import (
     get_index_data(),
     ids=lambda e: f"{e.get('language')}[{e.get('script')}]",
 )
-def test_detect_from_hello_sample(entry: Dict[str, Any]) -> None:
+def test_detect_from_hello_sample(entry: dict[str, Any]) -> None:
     """
     For each language that has a hello_how_are_you sample in its alphabet data,
     run optimized detection on the sample and record whether the correct
@@ -23,17 +23,17 @@ def test_detect_from_hello_sample(entry: Dict[str, Any]) -> None:
     should not be overly strict to avoid flakiness across data updates.
     """
     lang_code: str = entry["language"]
-    script: Optional[str] = entry.get("script")
+    script: str | None = entry.get("script")
 
     # Load alphabet JSON to retrieve the hello string
     data = get_language(lang_code, script=script)
-    hello: Optional[str] = data.get("hello_how_are_you") if data else None
+    hello: str | None = data.get("hello_how_are_you") if data else None
 
     if not hello or not isinstance(hello, str) or len(hello.strip()) < 4:
         pytest.skip("No usable hello_how_are_you sample for this language")
 
     # Run detection with automatic candidate selection
-    results: List[Tuple[str, float]] = optimized_detect_languages(
+    results: list[tuple[str, float]] = optimized_detect_languages(
         hello, candidate_langs=None, topk=5
     )
 

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import argparse
-import os
 import json
+import os
 import platform
 import re
 from pathlib import Path
-from typing import Any, Optional, Dict, List
+from typing import Any
 
 from tts_wrapper import (
     ElevenLabsClient,
@@ -39,7 +39,7 @@ def sanitize_voice_id(voice_id: str, max_len: int = 20) -> str:
 
 
 def add_index_entry(
-    audio_index: Dict[str, List[Dict[str, str]]],
+    audio_index: dict[str, list[dict[str, str]]],
     *,
     lang: str,
     engine: str,
@@ -53,7 +53,7 @@ def add_index_entry(
         items.append(entry)
 
 
-def get_tts_client(engine_name: str) -> Optional[Any]:
+def get_tts_client(engine_name: str) -> Any | None:
     """Initializes and returns a TTS client based on the engine name."""
     client = None
     try:
@@ -117,7 +117,7 @@ def get_tts_client(engine_name: str) -> Optional[Any]:
     return client
 
 
-def read_sample_phrase(lang_code: str) -> Optional[str]:
+def read_sample_phrase(lang_code: str) -> str | None:
     """Returns TEXT_FIELD from data/alphabets/{lang_code}.json if present."""
     path = ALPHABETS_DIR / f"{lang_code}.json"
     if not path.exists():
@@ -147,7 +147,7 @@ def generate_audio_files(skip_existing: bool = True) -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # Load existing audio index if present
-    audio_index: Dict[str, List[Dict[str, str]]] = {}
+    audio_index: dict[str, list[dict[str, str]]] = {}
     if AUDIO_INDEX_PATH.exists():
         try:
             with AUDIO_INDEX_PATH.open("r", encoding="utf-8") as f:
@@ -160,7 +160,7 @@ def generate_audio_files(skip_existing: bool = True) -> None:
     # Load TTS index (maps lang_code -> list[ {engine, voice_id, ...}, ... ])
     try:
         with TTS_INDEX_PATH.open("r", encoding="utf-8") as f:
-            tts_index: Dict[str, List[Dict[str, Any]]] = json.load(f)
+            tts_index: dict[str, list[dict[str, Any]]] = json.load(f)
     except FileNotFoundError as e:
         print(f"Error: {e}. Make sure you have run the TTS indexing first.")
         return

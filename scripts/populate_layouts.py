@@ -1,8 +1,9 @@
 import json
 import re
 import unicodedata
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Any, Dict, List, Sequence
+from typing import Any
 
 import langcodes
 import requests
@@ -49,18 +50,15 @@ STOPWORDS: set[str] = {
     "alternate",
     "alt",
     "pc",
-    "enhanced",
     "romanized",
     "romanised",
     "compact",
     "unicode",
     "script",
-    "legacy",
     "with",
     "and",
     "the",
     "regional",
-    "extended",
     "symbol",
     "symbols",
     "101",
@@ -92,9 +90,9 @@ def normalize_language_name(value: str) -> str:
     return " ".join(tokens)
 
 
-def dedupe_entries(entries: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
+def dedupe_entries(entries: Sequence[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[tuple[Any, ...]] = set()
-    result: List[Dict[str, Any]] = []
+    result: list[dict[str, Any]] = []
     for entry in entries:
         key = (
             entry.get("language"),
@@ -110,9 +108,9 @@ def dedupe_entries(entries: Sequence[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 def resolve_candidates(
     lang_name: str,
-    norm_lookup: Dict[str, List[Dict[str, Any]]],
-    iso_lookup: Dict[str, List[Dict[str, Any]]],
-) -> List[Dict[str, Any]]:
+    norm_lookup: dict[str, list[dict[str, Any]]],
+    iso_lookup: dict[str, list[dict[str, Any]]],
+) -> list[dict[str, Any]]:
     normalized = normalize_language_name(lang_name)
     if normalized:
         direct_matches = norm_lookup.get(normalized)
@@ -149,7 +147,7 @@ def resolve_candidates(
     except LookupError:
         pass
 
-    matched_entries: List[Dict[str, Any]] = []
+    matched_entries: list[dict[str, Any]] = []
     for code in codes:
         matches = iso_lookup.get(code)
         if matches:
@@ -201,10 +199,10 @@ def main() -> None:
     driver_mapping_path = data_root / "mappings" / "layout_to_driver.json"
 
     with open(index_path, "r", encoding="utf-8") as f:
-        index_data: List[Dict[str, Any]] = json.load(f)
+        index_data: list[dict[str, Any]] = json.load(f)
 
     with open(kbdlayouts_path, "r", encoding="utf-8") as f:
-        kbdlayouts_data: Dict[str, Any] = json.load(f)
+        kbdlayouts_data: dict[str, Any] = json.load(f)
 
     # Clear existing keyboard lists (unless skipping existing)
     if not args.skip_existing:
@@ -217,8 +215,8 @@ def main() -> None:
             if "keyboards" not in entry:
                 entry["keyboards"] = []
 
-    norm_name_to_entries: Dict[str, List[Dict[str, Any]]] = {}
-    iso_to_entries: Dict[str, List[Dict[str, Any]]] = {}
+    norm_name_to_entries: dict[str, list[dict[str, Any]]] = {}
+    iso_to_entries: dict[str, list[dict[str, Any]]] = {}
     for entry in index_data:
         norm_name = normalize_language_name(entry["name"])
         if norm_name:
@@ -232,7 +230,7 @@ def main() -> None:
             if code:
                 iso_to_entries.setdefault(code.lower(), []).append(entry)
 
-    layout_to_driver: Dict[str, str] = {}
+    layout_to_driver: dict[str, str] = {}
 
     session = requests.Session()
 

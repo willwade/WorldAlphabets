@@ -1,5 +1,5 @@
 import unicodedata
-from typing import Dict, Iterable, List, Set
+from collections.abc import Iterable
 
 # Special characters that don't decompose properly with NFD
 # These need explicit mapping to their base forms
@@ -29,7 +29,7 @@ def strip_diacritics(text: str) -> str:
     if not text:
         return text
 
-    result: List[str] = []
+    result: list[str] = []
     for ch in text:
         # First check if it's a special character that needs explicit mapping
         if ch in SPECIAL_BASE_MAPPING:
@@ -56,7 +56,7 @@ def has_diacritics(char: str) -> bool:
     return char != strip_diacritics(char)
 
 
-def characters_with_diacritics(chars: Iterable[str]) -> List[str]:
+def characters_with_diacritics(chars: Iterable[str]) -> list[str]:
     """Return characters from ``chars`` that contain diacritic marks.
 
     Args:
@@ -68,20 +68,20 @@ def characters_with_diacritics(chars: Iterable[str]) -> List[str]:
     return [c for c in chars if c and has_diacritics(c)]
 
 
-def diacritic_variants(chars: Iterable[str]) -> Dict[str, List[str]]:
+def diacritic_variants(chars: Iterable[str]) -> dict[str, list[str]]:
     """Group ``chars`` by base form and return those with variants.
 
     The result maps a base character to a sorted list of characters in ``chars``
     that share that base and include at least one diacritic form.
     """
 
-    groups: Dict[str, Set[str]] = {}
+    groups: dict[str, set[str]] = {}
     for ch in chars:
         base = strip_diacritics(ch)
         groups.setdefault(base, set()).add(ch)
 
     return {
-        base: sorted(list(variants))
+        base: sorted(variants)
         for base, variants in groups.items()
         if len(variants) > 1
     }

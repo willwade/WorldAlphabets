@@ -5,12 +5,11 @@ Creates a consolidated index of character frequencies across all languages.
 """
 
 import json
-from pathlib import Path
 from collections import defaultdict
-from typing import Dict
+from pathlib import Path
 
 
-def load_alphabet_data(alphabets_dir: Path) -> Dict[str, Dict]:
+def load_alphabet_data(alphabets_dir: Path) -> dict[str, dict]:
     """Load all alphabet data files."""
     alphabet_data = {}
 
@@ -35,7 +34,7 @@ def load_alphabet_data(alphabets_dir: Path) -> Dict[str, Dict]:
     return alphabet_data
 
 
-def generate_character_index(alphabet_data: Dict[str, Dict]) -> Dict:
+def generate_character_index(alphabet_data: dict[str, dict]) -> dict:
     """Generate character frequency index for fast lookups."""
 
     # Character to languages mapping
@@ -60,7 +59,7 @@ def generate_character_index(alphabet_data: Dict[str, Dict]) -> Dict:
         lang_to_chars[lang_code] = list(chars)
 
         # Get character frequencies
-        if "frequency" in data and data["frequency"]:
+        if data.get("frequency"):
             lang_to_freq[lang_code] = data["frequency"]
 
         # Build reverse index
@@ -84,7 +83,7 @@ def generate_character_index(alphabet_data: Dict[str, Dict]) -> Dict:
     }
 
 
-def generate_script_index(alphabet_data: Dict[str, Dict]) -> Dict:
+def generate_script_index(alphabet_data: dict[str, dict]) -> dict:
     """Generate script-based index for faster filtering."""
 
     script_to_languages = defaultdict(set)

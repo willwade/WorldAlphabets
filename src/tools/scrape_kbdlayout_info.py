@@ -1,8 +1,10 @@
+import json
+import re
+from pathlib import Path
+
 import requests
 from bs4 import BeautifulSoup
-import json
-from pathlib import Path
-import re
+
 
 def main() -> None:
     """

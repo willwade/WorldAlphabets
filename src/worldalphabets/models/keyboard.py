@@ -1,49 +1,51 @@
+from typing import Any
+
 from pydantic import BaseModel
-from typing import Optional, Dict, List, Any
+
 
 class LayerLegends(BaseModel):
-    base: Optional[str] = None
-    shift: Optional[str] = None
-    caps: Optional[str] = None
-    altgr: Optional[str] = None
-    shift_altgr: Optional[str] = None
-    ctrl: Optional[str] = None
-    alt: Optional[str] = None
+    base: str | None = None
+    shift: str | None = None
+    caps: str | None = None
+    altgr: str | None = None
+    shift_altgr: str | None = None
+    ctrl: str | None = None
+    alt: str | None = None
 
 class KeyEntry(BaseModel):
-    pos: Optional[str] = None
-    hid: Optional[str] = None
-    row: Optional[int] = None
-    col: Optional[int] = None
-    shape: Optional[Dict[str, float]] = None
-    vk: Optional[str] = None
-    sc: Optional[str] = None
+    pos: str | None = None
+    hid: str | None = None
+    row: int | None = None
+    col: int | None = None
+    shape: dict[str, float] | None = None
+    vk: str | None = None
+    sc: str | None = None
     legends: LayerLegends
     dead: bool = False
-    notes: List[str] = []
+    notes: list[str] = []
 
-    def get_unicode(self, layer: str) -> Optional[str]:
+    def get_unicode(self, layer: str) -> str | None:
         char = getattr(self.legends, layer, None)
         if char:
             return f"U+{ord(char):04X}"
         return None
 
 class DeadKey(BaseModel):
-    name: Optional[str] = None
+    name: str | None = None
     trigger: str
-    compose: Dict[str, str]
+    compose: dict[str, str]
 
 class Ligature(BaseModel):
-    keys: List[str]
+    keys: list[str]
     output: str
 
 class KeyboardLayout(BaseModel):
     id: str
     name: str
     source: str
-    iso_variant: Optional[str] = None
-    flags: Dict[str, bool] = {}
-    keys: List[KeyEntry] = []
-    dead_keys: Optional[List[DeadKey]] = None
-    ligatures: Optional[List[Ligature]] = None
-    meta: Dict[str, Any] = {}
+    iso_variant: str | None = None
+    flags: dict[str, bool] = {}
+    keys: list[KeyEntry] = []
+    dead_keys: list[DeadKey] | None = None
+    ligatures: list[Ligature] | None = None
+    meta: dict[str, Any] = {}

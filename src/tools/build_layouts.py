@@ -1,13 +1,14 @@
-import json
-from pathlib import Path
 import argparse
-
+import json
 import re
-from worldalphabets.models.keyboard import KeyboardLayout
-from .parsers.kbdlayout_xml import parse_xml
-from .parsers.kle_json import parse_kle_json
+from pathlib import Path
 
 import requests
+
+from worldalphabets.models.keyboard import KeyboardLayout
+
+from .parsers.kbdlayout_xml import parse_xml
+from .parsers.kle_json import parse_kle_json
 
 # Mapping of keyboard scan codes (from the XML) to physical key identifiers
 # expressed as DOM ``KeyboardEvent.code`` values.  This is not exhaustive but
@@ -289,9 +290,8 @@ def build_layout(
     xml_file_name = f"{driver_name.lower()}.xml"
     xml_path = source_dir / layout_id / xml_file_name
 
-    if not xml_path.exists():
-        if not download_layout_sources(layout_id, driver_name, source_dir):
-            return
+    if not xml_path.exists() and not download_layout_sources(layout_id, driver_name, source_dir):
+        return
 
     # Read source files
     xml_content = xml_path.read_text(encoding="utf-8")
@@ -379,7 +379,7 @@ def main() -> None:
     index_path = Path("data/index.json")
 
     if not all(
-        [p.exists() for p in [driver_mapping_path, kbdlayouts_path, index_path]]
+        p.exists() for p in [driver_mapping_path, kbdlayouts_path, index_path]
     ):
         print("Error: Required data files not found.")
         print("Please run `wa-populate-layouts` first.")

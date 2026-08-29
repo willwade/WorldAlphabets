@@ -13,10 +13,10 @@ import re
 import shutil
 import tarfile
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any
 
-import requests
 import numpy as np  # type: ignore[import]
+import requests
 
 try:
     import soundfile as sf  # type: ignore[import]
@@ -49,7 +49,7 @@ def sanitize_model_id(model_id: str, max_len: int = 30) -> str:
     return safe[:max_len].strip("_")
 
 
-def fetch_models_json() -> Dict[str, Any]:
+def fetch_models_json() -> dict[str, Any]:
     """Fetch or load the merged_models.json file."""
     if MODELS_JSON_PATH.exists():
         print(f"Loading models from {MODELS_JSON_PATH}")
@@ -70,7 +70,7 @@ def fetch_models_json() -> Dict[str, Any]:
     return models
 
 
-def get_sample_phrase(lang_code: str) -> Optional[str]:
+def get_sample_phrase(lang_code: str) -> str | None:
     """Returns TEXT_FIELD from data/alphabets/{lang_code}.json if present."""
     path = ALPHABETS_DIR / f"{lang_code}.json"
     if not path.exists():
@@ -87,7 +87,7 @@ def get_sample_phrase(lang_code: str) -> Optional[str]:
     return None
 
 
-def get_project_languages() -> Dict[str, str]:
+def get_project_languages() -> dict[str, str]:
     """
     Get all language codes from the project index.
     Returns dict mapping language code -> file name
@@ -111,7 +111,7 @@ def get_project_languages() -> Dict[str, str]:
     return lang_map
 
 
-def extract_model_id_lang(model_id: str) -> Optional[str]:
+def extract_model_id_lang(model_id: str) -> str | None:
     """
     Extract language code from SherpaOnnx model ID.
     Examples:
@@ -183,7 +183,7 @@ def extract_model_id_lang(model_id: str) -> Optional[str]:
     return None
 
 
-def find_model_for_language(lang_code: str, all_models: Dict[str, Any]) -> List[str]:
+def find_model_for_language(lang_code: str, all_models: dict[str, Any]) -> list[str]:
     """
     Find all SherpaOnnx model IDs that match a given language code.
     Returns list of model IDs.
@@ -227,14 +227,13 @@ def download_model(model_id: str, model_url: str, dest_dir: Path) -> bool:
 
             temp_archive = dest_dir / "temp_archive"
             with open(temp_archive, "wb") as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    f.write(chunk)
+                f.writelines(response.iter_content(chunk_size=8192))
 
             # Extract
             if model_url.endswith('.tar.bz2'):
                 with tarfile.open(temp_archive, "r:bz2") as tar:
                     tar.extractall(dest_dir, filter="data")
-            elif model_url.endswith('.tar.gz') or model_url.endswith('.tgz'):
+            elif model_url.endswith(('.tar.gz', '.tgz')):
                 with tarfile.open(temp_archive, "r:gz") as tar:
                     tar.extractall(dest_dir, filter="data")
 
@@ -306,7 +305,7 @@ def find_model_files(model_dir: Path) -> tuple:
     return model_file, tokens_file, data_dir, voices_bin, espeak_dir
 
 
-def synthesize_with_model(model_dir: Path, text: str, model_id: str) -> Optional[tuple]:
+def synthesize_with_model(model_dir: Path, text: str, model_id: str) -> tuple | None:
     """Synthesize audio using a downloaded model."""
     model_file, tokens_file, data_dir, voices_bin, espeak_dir = find_model_files(model_dir)
 
@@ -380,7 +379,7 @@ def determine_model_type(model_id: str) -> str:
     return "vits"
 
 
-def create_kokoro_config(model_file: Path, tokens_file: Path, voices_bin: Optional[Path], espeak_dir: Optional[Path]) -> Any:
+def create_kokoro_config(model_file: Path, tokens_file: Path, voices_bin: Path | None, espeak_dir: Path | None) -> Any:
     """Create Kokoro model config."""
     kokoro_cfg = sherpa_onnx.OfflineTtsKokoroModelConfig(
         model=str(model_file),
@@ -396,7 +395,7 @@ def create_kokoro_config(model_file: Path, tokens_file: Path, voices_bin: Option
     )
 
 
-def create_matcha_config(model_file: Path, tokens_file: Path, espeak_dir: Optional[Path]) -> Any:
+def create_matcha_config(model_file: Path, tokens_file: Path, espeak_dir: Path | None) -> Any:
     """Create Matcha model config (requires vocoder)."""
     # Download vocoder if needed
     vocoder_path = MODELS_CACHE_DIR / "vocoder" / "vocos-22khz-univ.onnx"
@@ -424,7 +423,7 @@ def create_matcha_config(model_file: Path, tokens_file: Path, espeak_dir: Option
     )
 
 
-def create_vits_config(model_file: Path, tokens_file: Path, data_dir: Optional[Path], espeak_dir: Optional[Path]) -> Any:
+def create_vits_config(model_file: Path, tokens_file: Path, data_dir: Path | None, espeak_dir: Path | None) -> Any:
     """Create VITS model config."""
     vits_cfg = sherpa_onnx.OfflineTtsVitsModelConfig(
         model=str(model_file),
@@ -463,7 +462,7 @@ def cleanup_model(model_dir: Path) -> None:
         print(f"  Warning: could not clean up {model_dir}: {e}")
 
 
-def load_audio_index() -> Dict[str, List[Dict[str, str]]]:
+def load_audio_index() -> dict[str, list[dict[str, str]]]:
     """Load existing audio index."""
     if AUDIO_INDEX_PATH.exists():
         with AUDIO_INDEX_PATH.open("r", encoding="utf-8") as f:
@@ -471,7 +470,7 @@ def load_audio_index() -> Dict[str, List[Dict[str, str]]]:
     return {}
 
 
-def save_audio_index(index: Dict[str, List[Dict[str, str]]]) -> None:
+def save_audio_index(index: dict[str, list[dict[str, str]]]) -> None:
     """Save audio index."""
     AUDIO_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
     with AUDIO_INDEX_PATH.open("w", encoding="utf-8") as f:
@@ -479,7 +478,7 @@ def save_audio_index(index: Dict[str, List[Dict[str, str]]]) -> None:
 
 
 def add_audio_entry(
-    index: Dict[str, List[Dict[str, str]]],
+    index: dict[str, list[dict[str, str]]],
     lang: str,
     engine: str,
     voice_id: str,

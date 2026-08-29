@@ -10,7 +10,6 @@ import logging
 import urllib.request
 import zipfile
 from pathlib import Path
-from typing import Dict, List, Optional, Set
 
 import requests
 
@@ -20,7 +19,6 @@ logger = logging.getLogger(__name__)
 class DataSourceError(Exception):
     """Base exception for data source errors."""
 
-    pass
 
 
 class CLDRCollector:
@@ -32,7 +30,7 @@ class CLDRCollector:
         self.cache_dir = cache_dir / "cldr"
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def get_available_locales(self) -> Set[str]:
+    def get_available_locales(self) -> set[str]:
         """Get list of available CLDR locales."""
         url = f"{self.BASE_URL}/cldr-core/availableLocales.json"
         cache_file = self.cache_dir / "availableLocales.json"
@@ -44,7 +42,7 @@ class CLDRCollector:
             logger.error(f"Failed to fetch CLDR available locales: {e}")
             return set()
 
-    def get_exemplar_characters(self, locale: str) -> Optional[Dict]:
+    def get_exemplar_characters(self, locale: str) -> dict | None:
         """Get exemplar characters for a locale."""
         url = f"{self.BASE_URL}/cldr-misc-full/main/{locale}/characters.json"
         cache_file = self.cache_dir / f"{locale}_characters.json"
@@ -56,7 +54,7 @@ class CLDRCollector:
             logger.debug(f"No CLDR exemplar data for {locale}: {e}")
             return None
 
-    def _fetch_cached_json(self, url: str, cache_file: Path) -> Dict:
+    def _fetch_cached_json(self, url: str, cache_file: Path) -> dict:
         """Fetch JSON data with caching."""
         if cache_file.exists():
             try:
@@ -86,7 +84,7 @@ class ISO639Collector:
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def get_language_registry(self) -> List[Dict]:
+    def get_language_registry(self) -> list[dict]:
         """Get complete ISO 639-3 language registry."""
         cache_file = self.cache_dir / "iso-639-3.tab"
 
@@ -131,7 +129,7 @@ class WikidataCollector:
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def get_language_script_mappings(self) -> Dict[str, Set[str]]:
+    def get_language_script_mappings(self) -> dict[str, set[str]]:
         """Get language to script mappings from Wikidata."""
         cache_file = self.cache_dir / "wikidata_language_scripts.json"
 
@@ -160,7 +158,7 @@ class WikidataCollector:
             raise DataSourceError(f"Failed to fetch Wikidata mappings: {e}")
 
         # Process results
-        mappings: Dict[str, Set[str]] = {}
+        mappings: dict[str, set[str]] = {}
         for row in data["results"]["bindings"]:
             code = row.get("iso1", {}).get("value") or row.get("iso3", {}).get("value")
             script = row.get("scriptCode", {}).get("value")
@@ -210,7 +208,7 @@ class FrequencyCollector:
             logger.error(f"Failed to download Simia unigrams: {e}")
             return False
 
-    def get_frequency_data(self, language_code: str) -> Optional[Dict[str, float]]:
+    def get_frequency_data(self, language_code: str) -> dict[str, float] | None:
         """Get letter frequency data for a language."""
         # Try Simia unigrams first
         unigrams_file = self.unigrams_dir / f"unigrams-{language_code}.txt"
@@ -221,7 +219,7 @@ class FrequencyCollector:
         logger.debug(f"No frequency data available for {language_code}")
         return None
 
-    def _parse_simia_frequencies(self, file_path: Path) -> Dict[str, float]:
+    def _parse_simia_frequencies(self, file_path: Path) -> dict[str, float]:
         """Parse Simia unigrams frequency file."""
         frequencies = {}
         total_count = 0
@@ -254,7 +252,7 @@ class FallbackDataCollector:
     def __init__(self, fallback_file: Path):
         self.fallback_file = fallback_file
 
-    def get_fallback_alphabets(self) -> Dict[str, Dict[str, str]]:
+    def get_fallback_alphabets(self) -> dict[str, dict[str, str]]:
         """Get manual fallback alphabet definitions."""
         if not self.fallback_file.exists():
             return {}
@@ -265,7 +263,7 @@ class FallbackDataCollector:
             logger.error(f"Error loading fallback data: {e}")
             return {}
 
-    def get_manual_language_additions(self) -> List[Dict]:
+    def get_manual_language_additions(self) -> list[dict]:
         """Get manually added languages from fallbacks.json."""
         if not self.fallback_file.exists():
             return []

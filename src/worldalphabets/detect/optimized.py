@@ -6,25 +6,26 @@ Incorporates all optimizations from the webUI and Node.js implementations.
 import json
 import math
 import os
-from pathlib import Path
-from typing import Dict, List, Tuple, Optional, Callable, Any
-from functools import lru_cache
 import time
+from collections.abc import Callable
+from functools import lru_cache
+from pathlib import Path
+from typing import Any
 
+from ..helpers import get_language
 from . import (
-    PRIOR_WEIGHT,
-    FREQ_WEIGHT,
     CHAR_WEIGHT,
     DEFAULT_FREQ_DIR,
-    _tokenize_words,
-    _tokenize_bigrams,
-    _tokenize_characters,
-    _load_rank_data,
-    _overlap,
+    FREQ_WEIGHT,
+    PRIOR_WEIGHT,
     _character_overlap,
     _frequency_overlap,
+    _load_rank_data,
+    _overlap,
+    _tokenize_bigrams,
+    _tokenize_characters,
+    _tokenize_words,
 )
-from ..helpers import get_language
 
 # Performance constants
 HIGH_CONFIDENCE_THRESHOLD = 0.8
@@ -44,15 +45,15 @@ COMMON_LANGUAGES = [
 ]
 
 # Global caches
-_alphabet_cache: Dict[str, Optional[Dict]] = {}
-_char_index: Optional[Dict] = None
-_script_index: Optional[Dict] = None
+_alphabet_cache: dict[str, dict | None] = {}
+_char_index: dict | None = None
+_script_index: dict | None = None
 
 
 class ProgressCallback:
     """Progress callback interface for detection progress."""
 
-    def __init__(self, callback: Optional[Callable[[Dict[str, Any]], None]] = None):
+    def __init__(self, callback: Callable[[dict[str, Any]], None] | None = None):
         self.callback = callback
         self.start_time = time.time()
 
@@ -74,7 +75,7 @@ class ProgressCallback:
 
 
 @lru_cache(maxsize=1)
-def _load_char_index() -> Optional[Dict]:
+def _load_char_index() -> dict | None:
     """Load character index for candidate filtering."""
     global _char_index
     if _char_index is not None:
@@ -96,7 +97,7 @@ def _load_char_index() -> Optional[Dict]:
 
 
 @lru_cache(maxsize=1)
-def _load_script_index() -> Optional[Dict]:
+def _load_script_index() -> dict | None:
     """Load script index for filtering."""
     global _script_index
     if _script_index is not None:
@@ -117,7 +118,7 @@ def _load_script_index() -> Optional[Dict]:
     return None
 
 
-def _get_cached_alphabet_data(lang_code: str) -> Optional[Dict]:
+def _get_cached_alphabet_data(lang_code: str) -> dict | None:
     """Get alphabet data with caching."""
     if lang_code in _alphabet_cache:
         return _alphabet_cache[lang_code]
@@ -131,7 +132,7 @@ def _get_cached_alphabet_data(lang_code: str) -> Optional[Dict]:
         return None
 
 
-def get_candidate_languages_from_text(text: str, all_languages: List[str]) -> List[str]:
+def get_candidate_languages_from_text(text: str, all_languages: list[str]) -> list[str]:
     """Get candidate languages based on character analysis."""
     char_index = _load_char_index()
     if not char_index:
@@ -160,13 +161,13 @@ def get_candidate_languages_from_text(text: str, all_languages: List[str]) -> Li
 
 def optimized_detect_languages(
     text: str,
-    candidate_langs: Optional[List[str]] = None,
-    priors: Optional[Dict[str, float]] = None,
+    candidate_langs: list[str] | None = None,
+    priors: dict[str, float] | None = None,
     topk: int = 3,
     use_character_fallback: bool = True,
     enable_early_termination: bool = True,
-    progress_callback: Optional[Callable[[Dict[str, Any]], None]] = None,
-) -> List[Tuple[str, float]]:
+    progress_callback: Callable[[dict[str, Any]], None] | None = None,
+) -> list[tuple[str, float]]:
     """
     Optimized language detection with all performance enhancements.
 
@@ -196,7 +197,7 @@ def optimized_detect_languages(
             from ..helpers import get_index_data
 
             index_data = get_index_data()
-            all_languages = list(set(item["language"] for item in index_data))
+            all_languages = list({item["language"] for item in index_data})
             candidate_langs = get_candidate_languages_from_text(text, all_languages)
             progress.update(
                 "Filtered candidates using character analysis", 0, len(candidate_langs)
@@ -216,7 +217,7 @@ def optimized_detect_languages(
     bigram_tokens = _tokenize_bigrams(text)
     text_chars = _tokenize_characters(text)
 
-    results: List[Tuple[str, float]] = []
+    results: list[tuple[str, float]] = []
     word_based_langs = set()
     found_high_confidence = False
 
@@ -298,7 +299,7 @@ def optimized_detect_languages(
     )
 
     # Sort results, prioritizing word-based detections
-    def sort_key(item: Tuple[str, float]) -> float:
+    def sort_key(item: tuple[str, float]) -> float:
         lang, score = item
         if lang in word_based_langs:
             return score + 0.15  # Larger boost for word-based detection
@@ -310,11 +311,11 @@ def optimized_detect_languages(
 
 def detect_languages_with_progress(
     text: str,
-    candidate_langs: Optional[List[str]] = None,
-    priors: Optional[Dict[str, float]] = None,
+    candidate_langs: list[str] | None = None,
+    priors: dict[str, float] | None = None,
     topk: int = 3,
-    progress_callback: Optional[Callable[[Dict[str, Any]], None]] = None,
-) -> List[Tuple[str, float]]:
+    progress_callback: Callable[[dict[str, Any]], None] | None = None,
+) -> list[tuple[str, float]]:
     """
     Convenience function for detection with progress callback.
     Uses all optimizations by default.
