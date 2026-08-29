@@ -12,6 +12,21 @@ export interface FrequencyList {
   mode: 'word' | 'bigram';
 }
 
+export interface CorpusInfo {
+  lang: string;
+  mode: string;
+  verify: boolean;
+  license_note?: string;
+}
+
+export interface Corpus {
+  language: string;
+  text: string;
+}
+
+export function listCorpora(): Promise<CorpusInfo[]>;
+export function loadCorpus(code: string): Promise<Corpus>;
+
 export function loadAlphabet(code: string, script?: string): Promise<Alphabet>;
 export function getUppercase(code: string, script?: string): Promise<string[]>;
 export function getLowercase(code: string, script?: string): Promise<string[]>;

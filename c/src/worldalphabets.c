@@ -85,6 +85,26 @@ const wa_frequency_list *wa_load_frequency_list(const char *code) {
     return find_freq_list(code);
 }
 
+// --- text corpora (manifest only; text is not embedded) ---
+
+size_t wa_corpus_count(void) {
+    return (size_t)WA_CORPORA_COUNT;
+}
+
+const wa_corpus_info *wa_list_corpora(void) {
+    return WA_CORPORA;
+}
+
+const wa_corpus_info *wa_get_corpus_info(const char *code) {
+    if (code == NULL) return NULL;
+    for (size_t i = 0; i < WA_CORPORA_COUNT; i++) {
+        if (strcmp(WA_CORPORA[i].language, code) == 0) {
+            return &WA_CORPORA[i];
+        }
+    }
+    return NULL;
+}
+
 // --- detection ---
 
 typedef struct {

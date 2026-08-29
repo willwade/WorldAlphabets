@@ -52,6 +52,12 @@ typedef struct {
 
 typedef struct {
     const char *language;
+    const char *mode;  // "tatoeba-sentences" or "tatoeba-sentences-cc0"
+    int verify;        // 1 until the per-language source chain is confirmed clean
+} wa_corpus_info;
+
+typedef struct {
+    const char *language;
     const char **scripts;
     size_t script_count;
 } wa_script_entry;
@@ -109,6 +115,15 @@ wa_string_array wa_get_scripts(const char *code);
 
 // Frequency lists
 const wa_frequency_list *wa_load_frequency_list(const char *code);
+
+// Text corpora — MANIFEST ONLY. The corpus text (real Tatoeba sentences,
+// CC-BY 2.0 FR, attribution https://tatoeba.org) is deliberately not
+// embedded: 27MB would dwarf the library. Use the manifest to discover
+// availability, then load data/corpora/<lang>.txt from a WorldAlphabets
+// checkout or vendored copy. Retain the attribution when redistributing.
+size_t wa_corpus_count(void);
+const wa_corpus_info *wa_list_corpora(void);
+const wa_corpus_info *wa_get_corpus_info(const char *code);
 
 // Language detection
 wa_detect_result_array wa_detect_languages(const char *text,

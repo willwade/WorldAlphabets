@@ -3,6 +3,7 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, 'data', 'alphabets');
 const FREQ_DIR = path.join(__dirname, 'data', 'freq', 'top1000');
+const CORPORA_DIR = path.join(__dirname, 'data', 'corpora');
 
 /**
  * Loads the alphabet data for a given language code and script.
@@ -126,6 +127,58 @@ async function loadFrequencyList(code) {
   }
 
   return { language: code, tokens, mode };
+}
+
+/**
+ * Lists the available text corpora and their licensing status.
+ * The corpus text is excluded from the npm tarball (74MB); this manifest
+ * (from data/corpora/SOURCES.json) always ships.
+ * @returns {Promise<Array<{lang: string, mode: string, verify: boolean, license_note?: string}>>}
+ */
+async function listCorpora() {
+  let sources;
+  try {
+    sources = JSON.parse(await fs.readFile(path.join(CORPORA_DIR, 'SOURCES.json'), 'utf8'));
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+  return Object.entries(sources).map(([file, meta]) => ({
+    lang: meta.lang ?? file.replace(/\.txt$/, ''),
+    mode: meta.mode,
+    verify: Boolean(meta.verify),
+    license_note: meta.license_note,
+  }));
+}
+
+/**
+ * Loads the natural-text corpus for a language (one sentence per line).
+ * The .txt files ship in the repository (data/corpora/) but are excluded
+ * from the npm package for size — from npm, use a repo checkout or
+ * vendor the files, then point this package's data at them, or fetch
+ * them yourself. Throws a descriptive error when the file is absent.
+ * @param {string} code - The ISO language code.
+ * @returns {Promise<{language: string, text: string}>}
+ */
+async function loadCorpus(code) {
+  const filePath = path.join(CORPORA_DIR, `${code}.txt`);
+  let content;
+  try {
+    content = await fs.readFile(filePath, 'utf8');
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      throw new Error(
+        `Corpus for code "${code}" not found at ${filePath}. ` +
+          'Corpus text ships in the WorldAlphabets repository (data/corpora/) ' +
+          'but is excluded from the npm package for size — use a repo checkout ' +
+          'or vendor the file. Available languages: see listCorpora().'
+      );
+    }
+    throw error;
+  }
+  return { language: code, text: content };
 }
 
 const INDEX_FILE = path.join(__dirname, 'data', 'index.json');
@@ -513,6 +566,8 @@ module.exports = {
   getDigits,
   getAvailableCodes,
   loadFrequencyList,
+  listCorpora,
+  loadCorpus,
   getIndexData,
   getLanguage,
   getScripts,
